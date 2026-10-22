@@ -1502,7 +1502,7 @@
             <property role="3TUv4t" value="true" />
             <property role="TrG5h" value="model" />
             <node concept="3uibUv" id="5w9TncfBmMi" role="1tU5fm">
-              <ref role="3uigEE" to="mhbf:~SModel" resolve="org.jetbrains.mps.openapi.model.SModel" />
+              <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
             </node>
             <node concept="2OqwBi" id="5w9TncfBmUB" role="33vP2m">
               <node concept="37vLTw" id="5w9TncfBmNP" role="2Oq$k0">
@@ -1539,7 +1539,7 @@
             <property role="3TUv4t" value="true" />
             <property role="TrG5h" value="repository" />
             <node concept="3uibUv" id="5w9TncfBmMv" role="1tU5fm">
-              <ref role="3uigEE" to="lui2:~SRepository" resolve="org.jetbrains.mps.openapi.module.SRepository" />
+              <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
             </node>
             <node concept="2OqwBi" id="5w9TncfBmUN" role="33vP2m">
               <node concept="37vLTw" id="5w9TncfBmTZ" role="2Oq$k0">

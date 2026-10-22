@@ -26956,7 +26956,7 @@
         <ref role="L2wRA" node="3sHcYAWpgHi" resolve="test.nl.f1re.mps.aliascustomization" />
       </node>
       <node concept="L2wRC" id="5w9TncdMAU2" role="39821P">
-        <ref role="L2wRA" node="5w9TncdMAR_" resolve="com.dslfoundry.plaintextgen.tests" />
+        <ref role="L2wRA" node="5w9TncdMAR_" resolve="com.jetbrains.mpsext.plaintextgen.tests" />
       </node>
     </node>
     <node concept="2igEWh" id="H43MYuxQDj" role="1hWBAP">
@@ -27061,7 +27061,7 @@
         <ref role="22LTRN" node="3sHcYAWpgHi" resolve="test.nl.f1re.mps.aliascustomization" />
       </node>
       <node concept="22LTRM" id="5w9TncdMARU" role="22LTRK">
-        <ref role="22LTRN" node="5w9TncdMAR_" resolve="com.dslfoundry.plaintextgen.tests" />
+        <ref role="22LTRN" node="5w9TncdMAR_" resolve="com.jetbrains.mpsext.plaintextgen.tests" />
       </node>
     </node>
     <node concept="2igEWh" id="1OMGwhrtizD" role="1hWBAP">

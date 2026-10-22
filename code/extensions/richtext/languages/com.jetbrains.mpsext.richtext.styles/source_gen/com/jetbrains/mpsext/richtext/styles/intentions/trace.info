@@ -112,8 +112,8 @@
       <node id="4630602346744019394" at="232,48,233,48" concept="7" />
       <node id="4630602346744019394" at="236,34,237,25" concept="7" />
       <node id="6447423759320546963" at="240,52,241,40" concept="7" />
-      <node id="4630602346747054364" at="243,59,244,45" concept="7" />
-      <node id="4630602346747082375" at="246,59,247,45" concept="7" />
+      <node id="3343933976332169004" at="243,59,244,45" concept="7" />
+      <node id="3343933976332169013" at="246,59,247,45" concept="7" />
       <node id="4630602346744019394" at="251,0,252,0" concept="10" trace="Text$bD" />
       <node id="4630602346744019394" at="252,0,253,0" concept="10" trace="Style$qj" />
       <node id="4630602346744019394" at="253,0,254,0" concept="10" trace="Word$5r" />
@@ -142,8 +142,8 @@
       <node id="4630602346746889181" at="201,75,204,7" concept="4" />
       <node id="4630602346744019394" at="236,0,239,0" concept="5" trace="getParameter#()Ljava/lang/Object;" />
       <node id="6447423759320546963" at="240,0,243,0" concept="11" trace="isEmptyString#(Ljava/lang/String;)Z" />
-      <node id="4630602346747054364" at="243,0,246,0" concept="11" trace="trim_rnm84b_a1a0b0e0m9#(Ljava/lang/String;)Ljava/lang/String;" />
-      <node id="4630602346747082375" at="246,0,249,0" concept="11" trace="trim_rnm84b_a1a0b0g0m9#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="3343933976332169004" at="243,0,246,0" concept="11" trace="trim_rnm84b_a1a0b0e0m9#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="3343933976332169013" at="246,0,249,0" concept="11" trace="trim_rnm84b_a1a0b0g0m9#(Ljava/lang/String;)Ljava/lang/String;" />
       <node id="4630602346744019394" at="42,0,46,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
       <node id="4630602346744019394" at="47,0,51,0" concept="5" trace="isSurroundWith#()Z" />
       <node id="4630602346744019394" at="84,0,88,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
@@ -189,8 +189,8 @@
       <scope id="4630602346744019394" at="232,48,233,48" />
       <scope id="4630602346744019394" at="236,34,237,25" />
       <scope id="6447423759320546963" at="240,52,241,40" />
-      <scope id="4630602346747054364" at="243,59,244,45" />
-      <scope id="4630602346747082375" at="246,59,247,45" />
+      <scope id="3343933976332169004" at="243,59,244,45" />
+      <scope id="3343933976332169013" at="246,59,247,45" />
       <scope id="4630602346747000428" at="208,70,210,152">
         <var name="word" id="4630602346747002932" />
       </scope>
@@ -224,11 +224,11 @@
       <scope id="6447423759320546963" at="240,0,243,0">
         <var name="str" id="6447423759320546963" />
       </scope>
-      <scope id="4630602346747054364" at="243,0,246,0">
-        <var name="str" id="4630602346747054364" />
+      <scope id="3343933976332169004" at="243,0,246,0">
+        <var name="str" id="3343933976332169004" />
       </scope>
-      <scope id="4630602346747082375" at="246,0,249,0">
-        <var name="str" id="4630602346747082375" />
+      <scope id="3343933976332169013" at="246,0,249,0">
+        <var name="str" id="3343933976332169013" />
       </scope>
       <scope id="4630602346744019394" at="42,0,46,0" />
       <scope id="4630602346744019394" at="47,0,51,0" />

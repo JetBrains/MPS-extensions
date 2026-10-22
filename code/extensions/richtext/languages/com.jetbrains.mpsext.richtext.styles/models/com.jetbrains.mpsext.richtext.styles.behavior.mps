@@ -4,7 +4,7 @@
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -29,6 +29,7 @@
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
       </concept>
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
@@ -154,22 +155,17 @@
         <property id="5858074156537516431" name="text" index="x79VB" />
       </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -214,6 +210,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -269,20 +273,73 @@
                 <ref role="3Tt5mk" to="9q1q:3$0mRpwEEQF" resolve="foreground" />
               </node>
             </node>
-            <node concept="2qgKlT" id="3$0mRpwISb8" role="2OqNvi">
+            <node concept="3zqWPK" id="2TC2zKbCQX2" role="2OqNvi">
               <ref role="37wK5l" node="3$0mRpwGbwn" resolve="getColor" />
             </node>
           </node>
         </node>
       </node>
       <node concept="P$JXv" id="2FW1ko3g9X2" role="lGtFl">
-        <node concept="TZ5HA" id="2FW1ko3g9X3" role="TZ5H$">
-          <node concept="1dT_AC" id="2FW1ko3g9X4" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the foreground color configured by this style." />
+        <node concept="x79VA" id="2FW1ko3g9X8" role="3nqlJM">
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="Jbx8Swfcuq" role="1Vez_I">
+            <node concept="3oM_SD" id="Jbx8Swfcur" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcus" role="1PaTwD">
+              <property role="3oM_SC" value="theme-aware" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcut" role="1PaTwD">
+              <property role="3oM_SC" value="foreground" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcuu" role="1PaTwD">
+              <property role="3oM_SC" value="color," />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcuv" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcuw" role="1PaTwD">
+              <property role="3oM_SC" value="null" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcux" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcuy" role="1PaTwD">
+              <property role="3oM_SC" value="none" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcuz" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcu$" role="1PaTwD">
+              <property role="3oM_SC" value="configured" />
+            </node>
           </node>
         </node>
-        <node concept="x79VA" id="2FW1ko3g9X8" role="3nqlJM">
-          <property role="x79VB" value="the theme-aware foreground color, or null if none is configured" />
+        <node concept="1PaTwC" id="Jbx8Swfcuh" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8Swfcui" role="1PaTwD">
+            <property role="3oM_SC" value="Returns" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcuj" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcuk" role="1PaTwD">
+            <property role="3oM_SC" value="foreground" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcul" role="1PaTwD">
+            <property role="3oM_SC" value="color" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcum" role="1PaTwD">
+            <property role="3oM_SC" value="configured" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcun" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcuo" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcup" role="1PaTwD">
+            <property role="3oM_SC" value="style." />
+          </node>
         </node>
       </node>
       <node concept="2AHcQZ" id="3$0mRpwIOt$" role="2AJF6D">
@@ -320,20 +377,73 @@
                 <ref role="3Tt5mk" to="9q1q:3$0mRpwEEQJ" resolve="background" />
               </node>
             </node>
-            <node concept="2qgKlT" id="3$0mRpwIVSF" role="2OqNvi">
+            <node concept="3zqWPK" id="2TC2zKbCQX4" role="2OqNvi">
               <ref role="37wK5l" node="3$0mRpwGbwn" resolve="getColor" />
             </node>
           </node>
         </node>
       </node>
       <node concept="P$JXv" id="2FW1ko3kRU9" role="lGtFl">
-        <node concept="TZ5HA" id="2FW1ko3kRUa" role="TZ5H$">
-          <node concept="1dT_AC" id="2FW1ko3kRUb" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the background color configured by this style." />
+        <node concept="x79VA" id="2FW1ko3kRUm" role="3nqlJM">
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="Jbx8SwfcuI" role="1Vez_I">
+            <node concept="3oM_SD" id="Jbx8SwfcuJ" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcuK" role="1PaTwD">
+              <property role="3oM_SC" value="theme-aware" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcuL" role="1PaTwD">
+              <property role="3oM_SC" value="background" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcuM" role="1PaTwD">
+              <property role="3oM_SC" value="color," />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcuN" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcuO" role="1PaTwD">
+              <property role="3oM_SC" value="null" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcuP" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcuQ" role="1PaTwD">
+              <property role="3oM_SC" value="none" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcuR" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcuS" role="1PaTwD">
+              <property role="3oM_SC" value="configured" />
+            </node>
           </node>
         </node>
-        <node concept="x79VA" id="2FW1ko3kRUm" role="3nqlJM">
-          <property role="x79VB" value="the theme-aware background color, or null if none is configured" />
+        <node concept="1PaTwC" id="Jbx8Swfcu_" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8SwfcuA" role="1PaTwD">
+            <property role="3oM_SC" value="Returns" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcuB" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcuC" role="1PaTwD">
+            <property role="3oM_SC" value="background" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcuD" role="1PaTwD">
+            <property role="3oM_SC" value="color" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcuE" role="1PaTwD">
+            <property role="3oM_SC" value="configured" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcuF" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcuG" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcuH" role="1PaTwD">
+            <property role="3oM_SC" value="style." />
+          </node>
         </node>
       </node>
       <node concept="2AHcQZ" id="3$0mRpwIU4b" role="2AJF6D">
@@ -415,13 +525,60 @@
         </node>
       </node>
       <node concept="P$JXv" id="2FW1ko3gS7Q" role="lGtFl">
-        <node concept="TZ5HA" id="2FW1ko3gS7R" role="TZ5H$">
-          <node concept="1dT_AC" id="2FW1ko3gS7S" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the AWT font style represented by this style." />
+        <node concept="x79VA" id="2FW1ko3gS7T" role="3nqlJM">
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="Jbx8Swfcv3" role="1Vez_I">
+            <node concept="3oM_SD" id="Jbx8Swfcv4" role="1PaTwD">
+              <property role="3oM_SC" value="Font.PLAIN," />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcv5" role="1PaTwD">
+              <property role="3oM_SC" value="Font.BOLD," />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcv6" role="1PaTwD">
+              <property role="3oM_SC" value="Font.ITALIC" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcv7" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcv8" role="1PaTwD">
+              <property role="3oM_SC" value="Font.BOLD" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcv9" role="1PaTwD">
+              <property role="3oM_SC" value="|" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcva" role="1PaTwD">
+              <property role="3oM_SC" value="Font.ITALIC" />
+            </node>
           </node>
         </node>
-        <node concept="x79VA" id="2FW1ko3gS7T" role="3nqlJM">
-          <property role="x79VB" value="Font.PLAIN, Font.BOLD, Font.ITALIC or Font.BOLD | Font.ITALIC" />
+        <node concept="1PaTwC" id="Jbx8SwfcuT" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8SwfcuU" role="1PaTwD">
+            <property role="3oM_SC" value="Returns" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcuV" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcuW" role="1PaTwD">
+            <property role="3oM_SC" value="AWT" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcuX" role="1PaTwD">
+            <property role="3oM_SC" value="font" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcuY" role="1PaTwD">
+            <property role="3oM_SC" value="style" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcuZ" role="1PaTwD">
+            <property role="3oM_SC" value="represented" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcv0" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcv1" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcv2" role="1PaTwD">
+            <property role="3oM_SC" value="style." />
+          </node>
         </node>
       </node>
     </node>
@@ -528,7 +685,7 @@
                     <node concept="2GrUjf" id="2FW1ko3cfu1" role="2Oq$k0">
                       <ref role="2Gs0qQ" node="2FW1ko3cb7L" resolve="word" />
                     </node>
-                    <node concept="2qgKlT" id="2FW1ko3cgcL" role="2OqNvi">
+                    <node concept="3zqWPK" id="2TC2zKbCQX6" role="2OqNvi">
                       <ref role="37wK5l" to="tbr6:3Q5enzfMT4t" resolve="toTextString" />
                     </node>
                   </node>
@@ -551,23 +708,151 @@
       <node concept="17QB3L" id="2FW1ko3c9BA" role="3clF45" />
       <node concept="3Tm1VV" id="2FW1ko3c9BB" role="1B3o_S" />
       <node concept="P$JXv" id="2FW1ko3civ7" role="lGtFl">
-        <node concept="TZ5HA" id="2FW1ko3civ8" role="TZ5H$">
-          <node concept="1dT_AC" id="2FW1ko3civ9" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the textual content represented by this span." />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="2FW1ko3ciZh" role="TZ5H$">
-          <node concept="1dT_AC" id="2FW1ko3ciZi" role="1dT_Ay">
-            <property role="1dT_AB" value="A Span is an IWord from the perspective of its parent Text, therefore its textual representation is the" />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="2FW1ko3cjub" role="TZ5H$">
-          <node concept="1dT_AC" id="2FW1ko3cjuc" role="1dT_Ay">
-            <property role="1dT_AB" value="concatenation of the textual representation of all contained IWord elements." />
-          </node>
-        </node>
         <node concept="x79VA" id="2FW1ko3civa" role="3nqlJM">
-          <property role="x79VB" value="the concatenated textual content of all contained IWord elements" />
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="Jbx8SwfcvM" role="1Vez_I">
+            <node concept="3oM_SD" id="Jbx8SwfcvN" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcvO" role="1PaTwD">
+              <property role="3oM_SC" value="concatenated" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcvP" role="1PaTwD">
+              <property role="3oM_SC" value="textual" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcvQ" role="1PaTwD">
+              <property role="3oM_SC" value="content" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcvR" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcvS" role="1PaTwD">
+              <property role="3oM_SC" value="all" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcvT" role="1PaTwD">
+              <property role="3oM_SC" value="contained" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcvU" role="1PaTwD">
+              <property role="3oM_SC" value="IWord" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcvV" role="1PaTwD">
+              <property role="3oM_SC" value="elements" />
+            </node>
+          </node>
+        </node>
+        <node concept="1PaTwC" id="Jbx8Swfcvb" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8Swfcvc" role="1PaTwD">
+            <property role="3oM_SC" value="Returns" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvd" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcve" role="1PaTwD">
+            <property role="3oM_SC" value="textual" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvf" role="1PaTwD">
+            <property role="3oM_SC" value="content" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvg" role="1PaTwD">
+            <property role="3oM_SC" value="represented" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvh" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvi" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvj" role="1PaTwD">
+            <property role="3oM_SC" value="span." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="Jbx8Swfcvk" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8Swfcvl" role="1PaTwD">
+            <property role="3oM_SC" value="A" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvm" role="1PaTwD">
+            <property role="3oM_SC" value="Span" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvn" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvo" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvp" role="1PaTwD">
+            <property role="3oM_SC" value="IWord" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvq" role="1PaTwD">
+            <property role="3oM_SC" value="from" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvr" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvs" role="1PaTwD">
+            <property role="3oM_SC" value="perspective" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvt" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvu" role="1PaTwD">
+            <property role="3oM_SC" value="its" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvv" role="1PaTwD">
+            <property role="3oM_SC" value="parent" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvw" role="1PaTwD">
+            <property role="3oM_SC" value="Text," />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvx" role="1PaTwD">
+            <property role="3oM_SC" value="therefore" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvy" role="1PaTwD">
+            <property role="3oM_SC" value="its" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcvz" role="1PaTwD">
+            <property role="3oM_SC" value="textual" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcv$" role="1PaTwD">
+            <property role="3oM_SC" value="representation" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcv_" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcvA" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="Jbx8SwfcvB" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8SwfcvC" role="1PaTwD">
+            <property role="3oM_SC" value="concatenation" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcvD" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcvE" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcvF" role="1PaTwD">
+            <property role="3oM_SC" value="textual" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcvG" role="1PaTwD">
+            <property role="3oM_SC" value="representation" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcvH" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcvI" role="1PaTwD">
+            <property role="3oM_SC" value="all" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcvJ" role="1PaTwD">
+            <property role="3oM_SC" value="contained" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcvK" role="1PaTwD">
+            <property role="3oM_SC" value="IWord" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcvL" role="1PaTwD">
+            <property role="3oM_SC" value="elements." />
+          </node>
         </node>
       </node>
     </node>
@@ -602,7 +887,7 @@
                 <ref role="3Tt5mk" to="9q1q:5whuU8T1b7d" resolve="style" />
               </node>
             </node>
-            <node concept="2qgKlT" id="6NYYseXJwJh" role="2OqNvi">
+            <node concept="3zqWPK" id="2TC2zKbCQX8" role="2OqNvi">
               <ref role="37wK5l" node="2FW1ko3g92M" resolve="getForegroundColor" />
             </node>
           </node>
@@ -612,13 +897,72 @@
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
       <node concept="P$JXv" id="6NYYseXJr4$" role="lGtFl">
-        <node concept="TZ5HA" id="6NYYseXJr4_" role="TZ5H$">
-          <node concept="1dT_AC" id="6NYYseXJr4A" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the foreground color defined by this span's style." />
+        <node concept="x79VA" id="6NYYseXJr4B" role="3nqlJM">
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="Jbx8Swfcw6" role="1Vez_I">
+            <node concept="3oM_SD" id="Jbx8Swfcw7" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcw8" role="1PaTwD">
+              <property role="3oM_SC" value="configured" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcw9" role="1PaTwD">
+              <property role="3oM_SC" value="foreground" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcwa" role="1PaTwD">
+              <property role="3oM_SC" value="color" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcwb" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcwc" role="1PaTwD">
+              <property role="3oM_SC" value="null" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcwd" role="1PaTwD">
+              <property role="3oM_SC" value="when" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcwe" role="1PaTwD">
+              <property role="3oM_SC" value="no" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcwf" role="1PaTwD">
+              <property role="3oM_SC" value="style" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcwg" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcwh" role="1PaTwD">
+              <property role="3oM_SC" value="assigned" />
+            </node>
           </node>
         </node>
-        <node concept="x79VA" id="6NYYseXJr4B" role="3nqlJM">
-          <property role="x79VB" value="the configured foreground color or null when no style is assigned" />
+        <node concept="1PaTwC" id="Jbx8SwfcvW" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8SwfcvX" role="1PaTwD">
+            <property role="3oM_SC" value="Returns" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcvY" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcvZ" role="1PaTwD">
+            <property role="3oM_SC" value="foreground" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcw0" role="1PaTwD">
+            <property role="3oM_SC" value="color" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcw1" role="1PaTwD">
+            <property role="3oM_SC" value="defined" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcw2" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcw3" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcw4" role="1PaTwD">
+            <property role="3oM_SC" value="span's" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcw5" role="1PaTwD">
+            <property role="3oM_SC" value="style." />
+          </node>
         </node>
       </node>
     </node>
@@ -653,7 +997,7 @@
                 <ref role="3Tt5mk" to="9q1q:5whuU8T1b7d" resolve="style" />
               </node>
             </node>
-            <node concept="2qgKlT" id="6NYYseXJyU$" role="2OqNvi">
+            <node concept="3zqWPK" id="2TC2zKbCQXa" role="2OqNvi">
               <ref role="37wK5l" node="2FW1ko3kRTX" resolve="getBackgroundColor" />
             </node>
           </node>
@@ -663,13 +1007,72 @@
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
       <node concept="P$JXv" id="6NYYseXJyUA" role="lGtFl">
-        <node concept="TZ5HA" id="6NYYseXJyUB" role="TZ5H$">
-          <node concept="1dT_AC" id="6NYYseXJyUC" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the background color defined by this span's style." />
+        <node concept="x79VA" id="6NYYseXJyUD" role="3nqlJM">
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="Jbx8Swfcws" role="1Vez_I">
+            <node concept="3oM_SD" id="Jbx8Swfcwt" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcwu" role="1PaTwD">
+              <property role="3oM_SC" value="configured" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcwv" role="1PaTwD">
+              <property role="3oM_SC" value="background" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcww" role="1PaTwD">
+              <property role="3oM_SC" value="color" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcwx" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcwy" role="1PaTwD">
+              <property role="3oM_SC" value="null" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcwz" role="1PaTwD">
+              <property role="3oM_SC" value="when" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcw$" role="1PaTwD">
+              <property role="3oM_SC" value="no" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcw_" role="1PaTwD">
+              <property role="3oM_SC" value="style" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcwA" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcwB" role="1PaTwD">
+              <property role="3oM_SC" value="assigned" />
+            </node>
           </node>
         </node>
-        <node concept="x79VA" id="6NYYseXJyUD" role="3nqlJM">
-          <property role="x79VB" value="the configured background color or null when no style is assigned" />
+        <node concept="1PaTwC" id="Jbx8Swfcwi" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8Swfcwj" role="1PaTwD">
+            <property role="3oM_SC" value="Returns" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcwk" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcwl" role="1PaTwD">
+            <property role="3oM_SC" value="background" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcwm" role="1PaTwD">
+            <property role="3oM_SC" value="color" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcwn" role="1PaTwD">
+            <property role="3oM_SC" value="defined" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcwo" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcwp" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcwq" role="1PaTwD">
+            <property role="3oM_SC" value="span's" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcwr" role="1PaTwD">
+            <property role="3oM_SC" value="style." />
+          </node>
         </node>
       </node>
     </node>
@@ -705,20 +1108,79 @@
                 <ref role="3Tt5mk" to="9q1q:5whuU8T1b7d" resolve="style" />
               </node>
             </node>
-            <node concept="2qgKlT" id="6NYYseXJFKy" role="2OqNvi">
+            <node concept="3zqWPK" id="2TC2zKbCQXc" role="2OqNvi">
               <ref role="37wK5l" node="2FW1ko3gawB" resolve="getFontStyle" />
             </node>
           </node>
         </node>
       </node>
       <node concept="P$JXv" id="6NYYseXJGNh" role="lGtFl">
-        <node concept="TZ5HA" id="6NYYseXJGNi" role="TZ5H$">
-          <node concept="1dT_AC" id="6NYYseXJGNj" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the font style defined by this span's style." />
+        <node concept="x79VA" id="6NYYseXJGNk" role="3nqlJM">
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="Jbx8SwfcwM" role="1Vez_I">
+            <node concept="3oM_SD" id="Jbx8SwfcwN" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcwO" role="1PaTwD">
+              <property role="3oM_SC" value="configured" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcwP" role="1PaTwD">
+              <property role="3oM_SC" value="font" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcwQ" role="1PaTwD">
+              <property role="3oM_SC" value="style" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcwR" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcwS" role="1PaTwD">
+              <property role="3oM_SC" value="Font.PLAIN" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcwT" role="1PaTwD">
+              <property role="3oM_SC" value="when" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcwU" role="1PaTwD">
+              <property role="3oM_SC" value="no" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcwV" role="1PaTwD">
+              <property role="3oM_SC" value="style" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcwW" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcwX" role="1PaTwD">
+              <property role="3oM_SC" value="assigned." />
+            </node>
           </node>
         </node>
-        <node concept="x79VA" id="6NYYseXJGNk" role="3nqlJM">
-          <property role="x79VB" value="the configured font style or Font.PLAIN when no style is assigned." />
+        <node concept="1PaTwC" id="Jbx8SwfcwC" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8SwfcwD" role="1PaTwD">
+            <property role="3oM_SC" value="Returns" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcwE" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcwF" role="1PaTwD">
+            <property role="3oM_SC" value="font" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcwG" role="1PaTwD">
+            <property role="3oM_SC" value="style" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcwH" role="1PaTwD">
+            <property role="3oM_SC" value="defined" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcwI" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcwJ" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcwK" role="1PaTwD">
+            <property role="3oM_SC" value="span's" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcwL" role="1PaTwD">
+            <property role="3oM_SC" value="style." />
+          </node>
         </node>
       </node>
     </node>
@@ -885,9 +1347,9 @@
                 <node concept="37vLTw" id="413d4N_QMsW" role="2Oq$k0">
                   <ref role="3cqZAo" node="6NYYseXUnYU" resolve="text" />
                 </node>
-                <node concept="2qgKlT" id="413d4N_QN2x" role="2OqNvi">
+                <node concept="3zqWPK" id="2TC2zKbCQXe" role="2OqNvi">
                   <ref role="37wK5l" to="tbr6:1xf6IA5Se_N" resolve="ensureNormalized" />
-                  <node concept="10Nm6u" id="413d4N_QOas" role="37wK5m" />
+                  <node concept="10Nm6u" id="2TC2zKbCQXg" role="37wK5m" />
                 </node>
               </node>
             </node>
@@ -900,28 +1362,141 @@
         </node>
       </node>
       <node concept="P$JXv" id="6NYYseXULGo" role="lGtFl">
-        <node concept="TZ5HA" id="6NYYseXULGp" role="TZ5H$">
-          <node concept="1dT_AC" id="6NYYseXULGq" role="1dT_Ay">
-            <property role="1dT_AB" value="Removes this span while preserving all contained rich-text content." />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="6NYYseXULN1" role="TZ5H$">
-          <node concept="1dT_AC" id="6NYYseXULN2" role="1dT_Ay">
-            <property role="1dT_AB" value="" />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="6NYYseXUM12" role="TZ5H$">
-          <node concept="1dT_AC" id="6NYYseXUM13" role="1dT_Ay">
-            <property role="1dT_AB" value="The contained IWords are moved to the Span's position in the parent Text or parent Span after which the" />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="6NYYseXUM7_" role="TZ5H$">
-          <node concept="1dT_AC" id="6NYYseXUM7A" role="1dT_Ay">
-            <property role="1dT_AB" value="empty Span is removed." />
-          </node>
-        </node>
         <node concept="x79VA" id="6NYYseXULGr" role="3nqlJM">
-          <property role="x79VB" value="true if Span is successfully removed, false otherwise" />
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="Jbx8Swfcxz" role="1Vez_I">
+            <node concept="3oM_SD" id="Jbx8Swfcx$" role="1PaTwD">
+              <property role="3oM_SC" value="true" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcx_" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcxA" role="1PaTwD">
+              <property role="3oM_SC" value="Span" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcxB" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcxC" role="1PaTwD">
+              <property role="3oM_SC" value="successfully" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcxD" role="1PaTwD">
+              <property role="3oM_SC" value="removed," />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcxE" role="1PaTwD">
+              <property role="3oM_SC" value="false" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcxF" role="1PaTwD">
+              <property role="3oM_SC" value="otherwise" />
+            </node>
+          </node>
+        </node>
+        <node concept="1PaTwC" id="Jbx8SwfcwY" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8SwfcwZ" role="1PaTwD">
+            <property role="3oM_SC" value="Removes" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcx0" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcx1" role="1PaTwD">
+            <property role="3oM_SC" value="span" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcx2" role="1PaTwD">
+            <property role="3oM_SC" value="while" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcx3" role="1PaTwD">
+            <property role="3oM_SC" value="preserving" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcx4" role="1PaTwD">
+            <property role="3oM_SC" value="all" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcx5" role="1PaTwD">
+            <property role="3oM_SC" value="contained" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcx6" role="1PaTwD">
+            <property role="3oM_SC" value="rich-text" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcx7" role="1PaTwD">
+            <property role="3oM_SC" value="content." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="Jbx8Swfcx8" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8Swfcx9" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="Jbx8Swfcxa" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8Swfcxb" role="1PaTwD">
+            <property role="3oM_SC" value="The" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxc" role="1PaTwD">
+            <property role="3oM_SC" value="contained" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxd" role="1PaTwD">
+            <property role="3oM_SC" value="IWords" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxe" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxf" role="1PaTwD">
+            <property role="3oM_SC" value="moved" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxg" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxh" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxi" role="1PaTwD">
+            <property role="3oM_SC" value="Span's" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxj" role="1PaTwD">
+            <property role="3oM_SC" value="position" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxk" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxl" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxm" role="1PaTwD">
+            <property role="3oM_SC" value="parent" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxn" role="1PaTwD">
+            <property role="3oM_SC" value="Text" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxo" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxp" role="1PaTwD">
+            <property role="3oM_SC" value="parent" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxq" role="1PaTwD">
+            <property role="3oM_SC" value="Span" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxr" role="1PaTwD">
+            <property role="3oM_SC" value="after" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxs" role="1PaTwD">
+            <property role="3oM_SC" value="which" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxt" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="Jbx8Swfcxu" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8Swfcxv" role="1PaTwD">
+            <property role="3oM_SC" value="empty" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxw" role="1PaTwD">
+            <property role="3oM_SC" value="Span" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxx" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcxy" role="1PaTwD">
+            <property role="3oM_SC" value="removed." />
+          </node>
         </node>
       </node>
     </node>
@@ -947,9 +1522,9 @@
             <node concept="37vLTw" id="6NYYseXPOUx" role="2Oq$k0">
               <ref role="3cqZAo" node="6NYYseXPthF" resolve="word" />
             </node>
-            <node concept="2qgKlT" id="6NYYseXPPN7" role="2OqNvi">
+            <node concept="3zqWPK" id="2TC2zKbCQXh" role="2OqNvi">
               <ref role="37wK5l" to="tbr6:1JwC6U7zkKz" resolve="setText" />
-              <node concept="Xl_RD" id="6NYYseXPPS$" role="37wK5m">
+              <node concept="Xl_RD" id="2TC2zKbCQXj" role="37wK5m">
                 <property role="Xl_RC" value="" />
               </node>
             </node>
@@ -1088,23 +1663,187 @@
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
       <node concept="P$JXv" id="3$0mRpwGfi5" role="lGtFl">
-        <node concept="TZ5HA" id="3$0mRpwGfi6" role="TZ5H$">
-          <node concept="1dT_AC" id="3$0mRpwGfi7" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the theme-aware color represented by this ThemeColor. If neither value is configured, no color is applied. " />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="3$0mRpwGfiq" role="TZ5H$">
-          <node concept="1dT_AC" id="3$0mRpwGfir" role="1dT_Ay">
-            <property role="1dT_AB" value="If only one value is configured then that value is used for both themes. If both values are configured the " />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="3$0mRpwGflH" role="TZ5H$">
-          <node concept="1dT_AC" id="3$0mRpwGflI" role="1dT_Ay">
-            <property role="1dT_AB" value="returned JBColor selects the value matching the current IDE theme." />
-          </node>
-        </node>
         <node concept="x79VA" id="3$0mRpwGfi8" role="3nqlJM">
-          <property role="x79VB" value="a theme-aware color or null if neither value is configured" />
+          <property role="x79VB" value="" />
+          <node concept="1PaTwC" id="Jbx8Swfcyu" role="1Vez_I">
+            <node concept="3oM_SD" id="Jbx8Swfcyv" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcyw" role="1PaTwD">
+              <property role="3oM_SC" value="theme-aware" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcyx" role="1PaTwD">
+              <property role="3oM_SC" value="color" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcyy" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcyz" role="1PaTwD">
+              <property role="3oM_SC" value="null" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcy$" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8Swfcy_" role="1PaTwD">
+              <property role="3oM_SC" value="neither" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcyA" role="1PaTwD">
+              <property role="3oM_SC" value="value" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcyB" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="Jbx8SwfcyC" role="1PaTwD">
+              <property role="3oM_SC" value="configured" />
+            </node>
+          </node>
+        </node>
+        <node concept="1PaTwC" id="Jbx8SwfcxG" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8SwfcxH" role="1PaTwD">
+            <property role="3oM_SC" value="Returns" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxI" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxJ" role="1PaTwD">
+            <property role="3oM_SC" value="theme-aware" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxK" role="1PaTwD">
+            <property role="3oM_SC" value="color" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxL" role="1PaTwD">
+            <property role="3oM_SC" value="represented" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxM" role="1PaTwD">
+            <property role="3oM_SC" value="by" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxN" role="1PaTwD">
+            <property role="3oM_SC" value="this" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxO" role="1PaTwD">
+            <property role="3oM_SC" value="ThemeColor." />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxP" role="1PaTwD">
+            <property role="3oM_SC" value="If" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxQ" role="1PaTwD">
+            <property role="3oM_SC" value="neither" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxR" role="1PaTwD">
+            <property role="3oM_SC" value="value" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxS" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxT" role="1PaTwD">
+            <property role="3oM_SC" value="configured," />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxU" role="1PaTwD">
+            <property role="3oM_SC" value="no" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxV" role="1PaTwD">
+            <property role="3oM_SC" value="color" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxW" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8SwfcxX" role="1PaTwD">
+            <property role="3oM_SC" value="applied." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="Jbx8SwfcxY" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8SwfcxZ" role="1PaTwD">
+            <property role="3oM_SC" value="If" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcy0" role="1PaTwD">
+            <property role="3oM_SC" value="only" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcy1" role="1PaTwD">
+            <property role="3oM_SC" value="one" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcy2" role="1PaTwD">
+            <property role="3oM_SC" value="value" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcy3" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcy4" role="1PaTwD">
+            <property role="3oM_SC" value="configured" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcy5" role="1PaTwD">
+            <property role="3oM_SC" value="then" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcy6" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcy7" role="1PaTwD">
+            <property role="3oM_SC" value="value" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcy8" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcy9" role="1PaTwD">
+            <property role="3oM_SC" value="used" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcya" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyb" role="1PaTwD">
+            <property role="3oM_SC" value="both" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyc" role="1PaTwD">
+            <property role="3oM_SC" value="themes." />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyd" role="1PaTwD">
+            <property role="3oM_SC" value="If" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcye" role="1PaTwD">
+            <property role="3oM_SC" value="both" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyf" role="1PaTwD">
+            <property role="3oM_SC" value="values" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyg" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyh" role="1PaTwD">
+            <property role="3oM_SC" value="configured" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyi" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="Jbx8Swfcyj" role="1Vez_I">
+          <node concept="3oM_SD" id="Jbx8Swfcyk" role="1PaTwD">
+            <property role="3oM_SC" value="returned" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyl" role="1PaTwD">
+            <property role="3oM_SC" value="JBColor" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcym" role="1PaTwD">
+            <property role="3oM_SC" value="selects" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyn" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyo" role="1PaTwD">
+            <property role="3oM_SC" value="value" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyp" role="1PaTwD">
+            <property role="3oM_SC" value="matching" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyq" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyr" role="1PaTwD">
+            <property role="3oM_SC" value="current" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcys" role="1PaTwD">
+            <property role="3oM_SC" value="IDE" />
+          </node>
+          <node concept="3oM_SD" id="Jbx8Swfcyt" role="1PaTwD">
+            <property role="3oM_SC" value="theme." />
+          </node>
         </node>
       </node>
     </node>

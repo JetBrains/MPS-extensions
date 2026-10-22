@@ -193,7 +193,7 @@ public final class ApplyStyleIntention_Intention extends AbstractIntentionDescri
 
 
     /**
-     * Trims the text of the first and last selected Word in place so that a Span does not highlight surrounding whitespace. 
+     * Trims the text of the first and last selected Word in place so that a Span does not highlight surrounding whitespace.
      * The words are the copies returned by getSelectedWords() so the model is not modified.
      * 
      * @param selectedWords the copied selected words; the first and last Word are modified
@@ -217,7 +217,7 @@ public final class ApplyStyleIntention_Intention extends AbstractIntentionDescri
 
     }
     /**
-     * Tells whether the selection consists only of complete Spans so that applying a Style means re-styling those Spans. 
+     * Tells whether the selection consists only of complete Spans so that applying a Style means re-styling those Spans.
      * A selection that also contains plain words does not qualify.
      * 
      * @param richtextSelection the current richtext selection

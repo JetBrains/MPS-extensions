@@ -1,4 +1,3 @@
-import jetbrains.buildServer.configs.kotlin.BuildStep
 import jetbrains.buildServer.configs.kotlin.BuildType
 import jetbrains.buildServer.configs.kotlin.buildFeatures.PullRequests
 import jetbrains.buildServer.configs.kotlin.buildFeatures.pullRequests
@@ -191,6 +190,8 @@ object PullRequestsBuild : BuildType({
     name = "Pull Requests"
     description = "Check GitHub pull requests before merging"
 
+    artifactRules = "dirty-files/** => dirty-files"
+
     maxRunningBuildsPerBranch = "*:1"
 
     params {
@@ -228,11 +229,10 @@ object PullRequestsBuild : BuildType({
             tasks = "build publish migrate remigrate"
             jdkHome = "%env.JDK_17_0_x64%"
         }
-        step {
+        script {
+            name = "Check for dirty files"
             id = "CheckForDirtyFiles"
-            type = "CheckForDirtyFiles"
-            executionMode = BuildStep.ExecutionMode.DEFAULT
-            param("teamcity.step.phase", "")
+            scriptContent = "bash .teamcity/check-dirty-files.sh"
         }
     }
 

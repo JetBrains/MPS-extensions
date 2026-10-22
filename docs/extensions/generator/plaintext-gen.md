@@ -73,64 +73,6 @@ generated files use LF. Setting the settings override to `CRLF` switches output
 to CRLF. A model/query override of `LF` takes priority over that settings value.
 Set the model/query override back to `Inherit` to use the settings value again.
 
-## Regression tests
-
-Open the `com.dslfoundry.plaintextgen.tests` solution in the extensions project.
-Its test models separate four concerns:
-
-| Test model suffix | Test case | Coverage |
-| --- | --- | --- |
-| `lineEndings@tests` | `LineEndings` | Exact-byte fallback and override precedence |
-| `layouts@tests` | `Layouts` | Left/center/right alignment, odd-width centering, nested indentation, horizontal/vertical composition, tabs, blank lines, explicit spaces, empty templates, filenames, and UTF-8/ISO-8859-1/UTF-16LE encoding |
-| `generation@tests` | `Generator`, `GeneratedText` | An independent model snapshot for the complex layout template; exact text for nested and empty property/loop macros, tabbed/mixed templates, and PlainTextFlow word/soft-wrap/hard-wrap/nested-flow reductions |
-| `pasting@tests` | `Pasting` | Structural indentation detection, dedents, blank lines, CRLF, tab expansion/preservation, and empty/null input |
-
-Make the solution, then run these test cases as MPS tests (individually or in a
-combined configuration). The solution is included in the repository's existing
-test build; new test models do not need separate build-script registration.
-
-For a layout/textgen regression, add a template to the `layouts` fixture model and
-a test using `PlainTextGenAssertions.assertText(project, template, fileName,
-encoding, expectedText)`. This small **test-only** helper copies the template into
-a temporary model, uses the existing comparator's textgen breakdown, checks the
-generated state, filename and charset, and compares the exact bytes. It does not
-normalize whitespace or line endings. Always specify the template's line ending
-when the expected string must be independent of the host platform.
-
-For model-to-model generator regressions, use `de.itemis.mps.compare` and the
-existing `assert generated model ... equals ...` assertion, as demonstrated by
-`Generator`. The expected layout is a checked-in snapshot, not copied from the
-generator during the test. Its output filter selects `map_TestConcept` because
-the example language also has three independent macro templates.
-`GeneratedText` exercises those templates through the same comparator's
-`GeneratorFacade` and `TextComparison` APIs, comparing their final text with
-literal expectations. CRLF is normalized to LF only in these generator text
-expectations; the separate byte-level tests intentionally do not normalize it.
-
-The paste tests use the two-argument `PlaintextPaster` overloads, which take the
-text explicitly. The existing one-argument clipboard entry points delegate to
-these overloads without changing parsing behavior. This keeps automated tests
-independent of the user's clipboard. Tests check both structural indent groups
-and generated output, including an intermediate dedent that is not an existing
-indentation level.
-
-The general generator-testing facility delivered by
-[#1339](https://github.com/JetBrains/MPS-extensions/issues/1339) already supplies
-model comparison, generated-text and folder comparison, generation plans and
-interactive diffs. PlainTextGen does not need another testing language or runner.
-The byte/charset helper supplements that facility for the encoding and exact
-newline concerns in [#490](https://github.com/JetBrains/MPS-extensions/issues/490);
-decoded text equality alone cannot establish either.
-
-This covers the alignment/indent-detection cases in
-[#182](https://github.com/JetBrains/MPS-extensions/issues/182) and adds executable
-generator tests for [#188](https://github.com/JetBrains/MPS-extensions/issues/188).
-It is not an exhaustive test of every editor action, clipboard integration, or
-possible language composition. The right-aligned indentation case
-explicitly preserves the existing extra padding: the group's width includes its
-indentation before alignment adds that indentation again. Changing that behavior
-is outside these regression tests.
-
 ## Advantages of this plugin over the default textgen
 In short, this plugin brings MPS -> plaintext connectivity in a pretty usable way to MPS.
 

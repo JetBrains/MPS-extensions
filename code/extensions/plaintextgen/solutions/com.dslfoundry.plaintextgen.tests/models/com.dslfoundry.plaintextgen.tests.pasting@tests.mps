@@ -891,7 +891,7 @@
             <node concept="3clFbF" id="5w9TncdPvom" role="3cqZAp">
               <node concept="2YIFZM" id="5w9TncdQ3rY" role="3clFbG">
                 <ref role="1Pybhc" to="x7r4:5w9TncdMAV7" resolve="PlainTextGenAssertions" />
-                <ref role="37wK5l" to="x7r4:5w9TncdMNBp" resolve="assertText" />
+                <ref role="37wK5l" to="x7r4:5w9TncedQHa" resolve="assertText" />
                 <node concept="37vLTw" id="5w9TncdQ3rZ" role="37wK5m">
                   <ref role="3cqZAo" node="5w9TncdPvne" resolve="project" />
                 </node>

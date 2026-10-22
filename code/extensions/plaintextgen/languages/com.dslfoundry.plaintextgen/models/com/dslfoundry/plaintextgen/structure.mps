@@ -282,7 +282,7 @@
   <node concept="25R3W" id="5w9TncdJz3t">
     <property role="3F6X1D" value="6343853832442622173" />
     <property role="TrG5h" value="LineEndingOverride" />
-    <ref role="1H5jkz" node="5w9TncdJz3v" />
+    <ref role="1H5jkz" node="5w9TncdJz3v" resolve="Inherit" />
     <node concept="25R33" id="5w9TncdJz3v" role="25R1y">
       <property role="3tVfz5" value="1254225136848015468" />
       <property role="TrG5h" value="Inherit" />

@@ -1199,7 +1199,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="5w9TncdQcFj" role="2OqNvi">
-                    <ref role="37wK5l" to="mqum:2_w5$M94NDP" />
+                    <ref role="37wK5l" to="mqum:2_w5$M94NDP" resolve="runGenerator" />
                     <node concept="2OqwBi" id="5w9TncdQeqU" role="37wK5m">
                       <node concept="37vLTw" id="5w9TncdQcFl" role="2Oq$k0">
                         <ref role="3cqZAo" node="5w9TncdQcsj" resolve="project" />

@@ -8129,6 +8129,9 @@
       <node concept="3uibUv" id="2pj7ynqyr0t" role="3clF45">
         <ref role="3uigEE" to="rtot:ZjQ6tpoDFn" resolve="Size" />
       </node>
+      <node concept="2AHcQZ" id="2sm$egCbIyD" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
     </node>
     <node concept="3clFb_" id="2pj7ynqyr0u" role="jymVt">
       <property role="TrG5h" value="getMinSize" />
@@ -8157,6 +8160,9 @@
       <node concept="3Tm1VV" id="2pj7ynqyr0A" role="1B3o_S" />
       <node concept="3uibUv" id="2pj7ynqyr0B" role="3clF45">
         <ref role="3uigEE" to="rtot:ZjQ6tpoDFn" resolve="Size" />
+      </node>
+      <node concept="2AHcQZ" id="2sm$egCbIyE" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
     <node concept="3clFb_" id="2pj7ynqyr0C" role="jymVt">

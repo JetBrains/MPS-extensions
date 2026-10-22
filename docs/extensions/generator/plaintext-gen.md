@@ -398,6 +398,52 @@ put an IF on the wrap; for repetition, include the appropriate wrap inside
 the repeated unit. Existing ordinary Words/NewlineMarkers are not automatically
 converted to their flow counterparts: recreate that portion using flow elements.
 
+### Put punctuation after a nested multiline value
+
+Use Flow when a separator must follow the **end** of a nested value, as in
+[#190](https://github.com/JetBrains/MPS-extensions/issues/190). Ordinary
+PlainTextGen layout treats a multiline collection as a rectangular block:
+a following Word is placed beside its first row, not immediately after its
+last character. That layout is useful for side-by-side columns, but is not
+the desired composition for a comma after a nested JSON array.
+
+For example, Flow can produce:
+
+```json
+[
+  null,
+  22,
+  [
+    "INNER",
+    "inner_2"
+  ],
+  [
+    33
+  ]
+]
+```
+
+Build the array in an empty-prefix Flow inside an ordinary, unindented Line.
+Emit `[` as a FlowWord, then a SoftWrap. Put the items in a nested Flow with
+a two-space prefix. Within that items flow, emit each value, a comma when
+another item follows, and a SoftWrap between items. After leaving the items
+flow, insert a SoftWrap in the array's flow, then emit `]`.
+
+Use the same construction recursively for an array-valued item. Its closing
+`]` must be the final FlowWord of that nested array, with **no trailing wrap**.
+Add the comma as the next FlowWord in the containing items flow: it will
+appear immediately after `]` on the same line, regardless of the nested
+array's height or the width of its contents. For an empty array, emit `[]`
+without the items flow or its surrounding wraps.
+
+In a generator template, a LOOP can repeat the item unit and an IF can
+suppress its comma for the last item. Use COPY_SRC to generate nested values
+as flow elements too; the relevant value reductions must produce compatible
+Flow/FlowWord elements rather than ordinary Lines or vertical collections.
+Wrapping an existing multiline PlainTextGen collection in a Flow does not
+convert it or change its layout. Convert the affected template fragment
+consistently, and keep the ordinary enclosing Line outside that fragment.
+
 ### Embedded indentation-sensitive text
 
 [#307](https://github.com/JetBrains/MPS-extensions/issues/307) illustrates Python

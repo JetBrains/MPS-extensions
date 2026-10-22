@@ -7,21 +7,24 @@ import java.nio.file.Paths;
 import com.intellij.openapi.application.PathManager;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.project.Project;
-import com.intellij.openapi.ui.Messages;
-import jetbrains.mps.ide.project.ProjectHelper;
-import java.util.List;
-import com.intellij.diff.comparison.DiffTooBigException;
-import java.io.IOException;
+import org.jetbrains.mps.openapi.model.SNodeReference;
+import com.intellij.openapi.application.ApplicationManager;
+import com.intellij.openapi.application.ModalityState;
 import com.intellij.openapi.Disposable;
 import com.intellij.openapi.util.Disposer;
 import com.intellij.diff.DiffRequestPanel;
 import com.intellij.diff.DiffManager;
+import jetbrains.mps.ide.project.ProjectHelper;
 import com.intellij.diff.requests.SimpleDiffRequest;
 import com.intellij.diff.DiffContentFactory;
 import com.intellij.openapi.ui.DialogBuilder;
 import com.intellij.openapi.ui.DialogWrapper;
-import org.jetbrains.mps.openapi.model.SModel;
 import java.nio.file.Files;
+import com.intellij.diff.comparison.DiffTooBigException;
+import com.intellij.openapi.ui.Messages;
+import java.util.List;
+import java.io.IOException;
+import org.jetbrains.mps.openapi.model.SModel;
 import java.nio.charset.StandardCharsets;
 import jetbrains.mps.smodel.tempmodel.TemporaryModels;
 import jetbrains.mps.smodel.tempmodel.TempModuleOptions;
@@ -35,53 +38,10 @@ public class DiffPasteUI {
   private static Path recoveryBase() {
     return Paths.get(PathManager.getConfigPath(), "plaintextgen-paste-recovery");
   }
-  public static void paste(SNode template, Project project) {
-    try {
-      DiffPaste.Plan plan = DiffPaste.prepare(template, PlaintextPaster.getStringFromClipboard());
-      if (!(plan.isChanged())) {
-        Messages.showInfoMessage(ProjectHelper.toIdeaProject(project), "The pasted text does not change this template.", "Diffing Paste");
-        return;
-      }
-      if (!(preview(plan, project))) {
-        return;
-      }
-      List<String> conflicts = plan.getConflicts();
-      if (!(conflicts.isEmpty()) || !(plan.isLayoutSupported())) {
-        StringBuilder warning = new StringBuilder();
-        if (!(plan.isLayoutSupported())) {
-          warning.append("This layout cannot be mapped safely to individual text lines.\nThe entire content layout will be replaced; no existing content nodes will be reused.\n\n");
-        }
-        warning.append("Generator annotations being replaced:\n\n");
-        int count = 0;
-        for (String conflict : conflicts) {
-          if (count++ < 12) {
-            warning.append(conflict).append('\n');
-          }
-        }
-        if (conflicts.size() > 12) {
-          warning.append("... ").append(conflicts.size() - 12).append(" more; see the saved report.\n");
-        }
-        if (conflicts.isEmpty()) {
-          warning.append("(none)\n");
-        }
-        warning.append("\nAn original model snapshot and full report will be saved locally, outside the project.\nUse 'Review latest diffing-paste recovery' to copy original macros from the projectional diff.\nApply this replacement?");
-        if (Messages.showYesNoDialog(ProjectHelper.toIdeaProject(project), warning.toString(), "Confirm Content Replacement", "Apply replacement", "Cancel", Messages.getWarningIcon()) != Messages.YES) {
-          return;
-        }
-      }
-      Path saved = plan.apply(!(conflicts.isEmpty()), recoveryBase());
-      if (saved != null && !(conflicts.isEmpty())) {
-        Messages.showInfoMessage(ProjectHelper.toIdeaProject(project), "Original model saved to:\n" + saved + "\n\nThe adjacent .txt file lists replaced annotations.\nUse 'Review latest diffing-paste recovery' on this template to inspect and copy the originals.", "Diffing Paste Recovery");
-      }
-    } catch (DiffTooBigException exception) {
-      Messages.showErrorDialog(ProjectHelper.toIdeaProject(project), "The standard IntelliJ differ cannot compare this much text. Nothing was pasted.", "Diffing Paste");
-    } catch (IOException exception) {
-      Messages.showErrorDialog(ProjectHelper.toIdeaProject(project), "Could not save the recovery snapshot. Nothing was pasted.\n" + exception.getMessage(), "Diffing Paste");
-    } catch (IllegalArgumentException exception) {
-      Messages.showErrorDialog(ProjectHelper.toIdeaProject(project), exception.getMessage(), "Diffing Paste");
-    } catch (IllegalStateException exception) {
-      Messages.showErrorDialog(ProjectHelper.toIdeaProject(project), exception.getMessage(), "Diffing Paste");
-    }
+  public static void paste(SNode template, final Project project) {
+    final SNodeReference reference = template.getReference();
+    final String clipboard = PlaintextPaster.getStringFromClipboard();
+    ApplicationManager.getApplication().invokeLater(() -> pasteLater(reference, project, clipboard), ModalityState.nonModal());
   }
   private static boolean preview(DiffPaste.Plan plan, Project project) {
     Disposable disposable = Disposer.newDisposable();
@@ -98,44 +58,154 @@ public class DiffPasteUI {
       Disposer.dispose(disposable);
     }
   }
-  public static void recover(SNode template, Project project) {
-    SModel recovery = null;
-    SModel current = null;
-    try {
-      Path directory = DiffPaste.recoveryDirectory(recoveryBase(), template);
-      Path index = directory.resolve("latest");
-      if (!(Files.isRegularFile(index))) {
-        Messages.showInfoMessage(ProjectHelper.toIdeaProject(project), "No diffing-paste recovery snapshot exists for this template.", "Diffing Paste Recovery");
+  public static void recover(SNode template, final Project project) {
+    final SNodeReference reference = template.getReference();
+    ApplicationManager.getApplication().invokeLater(() -> recoverLater(reference, project), ModalityState.nonModal());
+  }
+  public static void requireUnlockedDialogs(Project project) {
+    if (project.getRepository().getModelAccess().canRead() || project.getRepository().getModelAccess().canWrite()) {
+      throw new IllegalStateException("Diffing-paste dialogs must open outside model read/write access.");
+    }
+  }
+  public static boolean hasRecovery(SNode template) {
+    return Files.isRegularFile(DiffPaste.recoveryDirectory(recoveryBase(), template).resolve("latest"));
+  }
+  private static void pasteLater(final SNodeReference reference, final Project project, final String clipboard) {
+    if (ProjectHelper.toIdeaProject(project).isDisposed()) {
+      return;
+    }
+    requireUnlockedDialogs(project);
+    final DiffPaste.Plan[] pending = new DiffPaste.Plan[1];
+    final boolean[] supported = new boolean[1];
+    final String[] failure = new String[1];
+    project.getRepository().getModelAccess().executeCommand(() -> {
+      try {
+        SNode template = reference.resolve(project.getRepository());
+        if (template == null) {
+          throw new IllegalStateException("The template is no longer available. Nothing was pasted.");
+        }
+        pending[0] = DiffPaste.prepare(template, clipboard);
+        supported[0] = pending[0].isLayoutSupported();
+      } catch (DiffTooBigException exception) {
+        failure[0] = "The standard IntelliJ differ cannot compare this much text. Nothing was pasted.";
+      } catch (IllegalArgumentException exception) {
+        failure[0] = exception.getMessage();
+      } catch (IllegalStateException exception) {
+        failure[0] = exception.getMessage();
+      }
+    });
+    if (failure[0] != null) {
+      Messages.showErrorDialog(ProjectHelper.toIdeaProject(project), failure[0], "Diffing Paste");
+      return;
+    }
+    final DiffPaste.Plan plan = pending[0];
+    if (!(plan.isChanged())) {
+      Messages.showInfoMessage(ProjectHelper.toIdeaProject(project), "The pasted text does not change this template.", "Diffing Paste");
+      return;
+    }
+    if (!(preview(plan, project))) {
+      return;
+    }
+    final List<String> conflicts = plan.getConflicts();
+    if (!(conflicts.isEmpty()) || !(supported[0])) {
+      StringBuilder warning = new StringBuilder();
+      if (!(supported[0])) {
+        warning.append("This layout cannot be mapped safely to individual text lines.\nThe entire content layout will be replaced; no existing content nodes will be reused.\n\n");
+      }
+      warning.append("Annotations being replaced (including generator macros and comments):\n\n");
+      int count = 0;
+      for (String conflict : conflicts) {
+        if (count++ < 12) {
+          warning.append(conflict).append('\n');
+        }
+      }
+      if (conflicts.size() > 12) {
+        warning.append("... ").append(conflicts.size() - 12).append(" more; see the saved report.\n");
+      }
+      if (conflicts.isEmpty()) {
+        warning.append("(none)\n");
+      }
+      warning.append("\nAn original model snapshot and full report will be saved locally, outside the project.\nUse 'Review latest diffing-paste recovery' to copy original annotations from the projectional diff.\nApply this replacement?");
+      if (Messages.showYesNoDialog(ProjectHelper.toIdeaProject(project), warning.toString(), "Confirm Content Replacement", "Apply replacement", "Cancel", Messages.getWarningIcon()) != Messages.YES) {
         return;
       }
-      String name = new String(Files.readAllBytes(index), StandardCharsets.UTF_8);
-      Path file = directory.resolve(name).normalize();
-      if (!(file.getParent().equals(directory)) || !(name.endsWith(".mps"))) {
-        throw new IOException("Invalid recovery snapshot index.");
+    }
+    final Path[] saved = new Path[1];
+    project.getRepository().getModelAccess().executeCommand(() -> {
+      try {
+        saved[0] = plan.apply(!(conflicts.isEmpty()), recoveryBase());
+      } catch (IOException exception) {
+        failure[0] = "Could not save the recovery snapshot. Nothing was pasted.\n" + exception.getMessage();
+      } catch (IllegalStateException exception) {
+        failure[0] = exception.getMessage();
       }
-      recovery = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(template.getModel().getModule()));
-      SNode original = DiffPaste.copyRecovery(file, recovery, template.getNodeId());
-      current = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(template.getModel().getModule()));
-      Map<SNode, SNode> copies = new HashMap<SNode, SNode>();
-      for (SNode root : CopyUtil.copy(Collections.singletonList(template.getContainingRoot()), copies)) {
-        current.addRootNode(root);
+    });
+    if (failure[0] != null) {
+      Messages.showErrorDialog(ProjectHelper.toIdeaProject(project), failure[0], "Diffing Paste");
+      return;
+    }
+    if (saved[0] != null && !(conflicts.isEmpty())) {
+      Messages.showInfoMessage(ProjectHelper.toIdeaProject(project), "Original model saved to:\n" + saved[0] + "\n\nThe adjacent .txt file lists replaced annotations.\nUse 'Review latest diffing-paste recovery' on this template to inspect and copy the originals.", "Diffing Paste Recovery");
+    }
+  }
+  private static void recoverLater(final SNodeReference reference, final Project project) {
+    if (ProjectHelper.toIdeaProject(project).isDisposed()) {
+      return;
+    }
+    requireUnlockedDialogs(project);
+    final SModel[] temporary = new SModel[2];
+    final SNode[] nodes = new SNode[2];
+    final String[] report = new String[1];
+    final String[] failure = new String[1];
+    try {
+      project.getRepository().getModelAccess().executeCommand(() -> {
+        try {
+          SNode template = reference.resolve(project.getRepository());
+          if (template == null) {
+            throw new IOException("The template is no longer available.");
+          }
+          Path directory = DiffPaste.recoveryDirectory(recoveryBase(), template);
+          Path index = directory.resolve("latest");
+          if (!(Files.isRegularFile(index))) {
+            throw new IOException("No diffing-paste recovery snapshot exists for this template.");
+          }
+          String name = new String(Files.readAllBytes(index), StandardCharsets.UTF_8);
+          Path file = directory.resolve(name).normalize();
+          if (!(file.getParent().equals(directory)) || !(name.endsWith(".mps"))) {
+            throw new IOException("Invalid recovery snapshot index.");
+          }
+          temporary[0] = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(template.getModel().getModule()));
+          nodes[0] = DiffPaste.copyRecovery(file, temporary[0], template.getNodeId());
+          temporary[1] = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(template.getModel().getModule()));
+          Map<SNode, SNode> copies = new HashMap<SNode, SNode>();
+          for (SNode root : CopyUtil.copy(Collections.singletonList(template.getContainingRoot()), copies)) {
+            temporary[1].addRootNode(root);
+          }
+          nodes[1] = copies.get(template);
+          TemporaryModels.getInstance().addMissingImports(temporary[1]);
+          Path text = directory.resolve(name.substring(0, name.length() - 4) + ".txt");
+          report[0] = new String(Files.readAllBytes(text), StandardCharsets.UTF_8) + "\n\nSnapshot: " + file + "\nThe next dialog shows the original projectional content on the left. Copy any needed annotations before closing it.";
+        } catch (IOException exception) {
+          failure[0] = "Could not open the recovery snapshot.\n" + exception.getMessage();
+        }
+      });
+      if (failure[0] != null) {
+        Messages.showErrorDialog(ProjectHelper.toIdeaProject(project), failure[0], "Diffing Paste Recovery");
+        return;
       }
-      SNode actual = copies.get(template);
-      TemporaryModels.getInstance().addMissingImports(current);
-      Path report = directory.resolve(name.substring(0, name.length() - 4) + ".txt");
-      Messages.showInfoMessage(ProjectHelper.toIdeaProject(project), new String(Files.readAllBytes(report), StandardCharsets.UTF_8) + "\n\nSnapshot: " + file + "\nThe next dialog shows the original projectional content on the left. Copy any needed macros before closing it.", "Replaced Generator Annotations");
-      StructDifferenceDialog dialog = new StructDifferenceDialog(ProjectHelper.toIdeaProject(project), original, actual, "Original snapshot (copy macros from here)", "Current template (read-only copy)");
-      dialog.setModal(true);
-      dialog.show();
-    } catch (IOException exception) {
-      Messages.showErrorDialog(ProjectHelper.toIdeaProject(project), "Could not open the recovery snapshot.\n" + exception.getMessage(), "Diffing Paste Recovery");
+      Messages.showInfoMessage(ProjectHelper.toIdeaProject(project), report[0], "Replaced Annotations");
+      final StructDifferenceDialog[] dialog = new StructDifferenceDialog[1];
+      project.getRepository().getModelAccess().runReadAction(() -> dialog[0] = new StructDifferenceDialog(ProjectHelper.toIdeaProject(project), nodes[0], nodes[1], "Original snapshot (copy annotations from here)", "Current template (read-only copy)"));
+      dialog[0].setModal(true);
+      dialog[0].show();
     } finally {
-      if (current != null) {
-        TemporaryModels.getInstance().dispose(current);
-      }
-      if (recovery != null) {
-        TemporaryModels.getInstance().dispose(recovery);
-      }
+      project.getRepository().getModelAccess().executeCommand(() -> {
+        for (SModel model : temporary) {
+          if (model != null) {
+            TemporaryModels.getInstance().dispose(model);
+          }
+        }
+      });
     }
   }
 }

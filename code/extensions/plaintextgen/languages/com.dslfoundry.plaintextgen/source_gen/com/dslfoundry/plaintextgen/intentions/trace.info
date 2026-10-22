@@ -592,18 +592,22 @@
       <node id="6343853832445394543" at="38,5,39,30" concept="7" />
       <node id="6343853832445394546" at="46,87,47,52" concept="7" />
       <node id="6343853832445395711" at="51,78,52,82" concept="2" />
-      <node id="6343853832445394543" at="56,86,57,18" concept="7" />
-      <node id="6343853832445394543" at="63,48,64,55" concept="7" />
+      <node id="6343853832445394543" at="57,55,58,21" concept="7" />
+      <node id="6343853832445394543" at="59,7,60,18" concept="7" />
+      <node id="6343853832471540659" at="63,93,64,43" concept="7" />
+      <node id="6343853832445394543" at="69,48,70,55" concept="7" />
       <node id="6343853832445394543" at="42,0,44,0" concept="1" trace="IntentionImplementation#()V" />
       <node id="6343853832445394543" at="21,0,24,0" concept="1" trace="ReviewDiffingPasteRecovery_Intention#()V" />
       <node id="6343853832445394543" at="35,99,38,5" concept="4" />
+      <node id="6343853832445394543" at="56,86,59,7" concept="4" />
+      <node id="6343853832445394543" at="63,0,66,0" concept="5" trace="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
       <node id="6343853832445394543" at="25,0,29,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
       <node id="6343853832445394543" at="30,0,34,0" concept="5" trace="isSurroundWith#()Z" />
       <node id="6343853832445394543" at="45,0,49,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
       <node id="6343853832445394543" at="50,0,54,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-      <node id="6343853832445394543" at="55,0,59,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-      <node id="6343853832445394543" at="62,0,66,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="6343853832445394543" at="68,0,72,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
       <node id="6343853832445394543" at="35,0,41,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="6343853832445394543" at="55,0,62,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
       <scope id="6343853832445394543" at="42,38,42,38" />
       <scope id="6343853832445394543" at="21,49,22,152" />
       <scope id="6343853832445394543" at="26,35,27,40" />
@@ -611,10 +615,15 @@
       <scope id="6343853832445394543" at="36,37,37,105" />
       <scope id="6343853832445394545" at="46,87,47,52" />
       <scope id="6343853832445395716" at="51,78,52,82" />
-      <scope id="6343853832445394543" at="56,86,57,18" />
-      <scope id="6343853832445394543" at="63,48,64,55" />
+      <scope id="6343853832445394543" at="57,55,58,21" />
+      <scope id="6343853832471540662" at="63,93,64,43" />
+      <scope id="6343853832445394543" at="69,48,70,55" />
       <scope id="6343853832445394543" at="42,0,44,0" />
       <scope id="6343853832445394543" at="21,0,24,0" />
+      <scope id="6343853832445394543" at="63,0,66,0">
+        <var name="editorContext" id="6343853832445394543" />
+        <var name="node" id="6343853832445394543" />
+      </scope>
       <scope id="6343853832445394543" at="25,0,29,0" />
       <scope id="6343853832445394543" at="30,0,34,0" />
       <scope id="6343853832445394543" at="35,99,39,30" />
@@ -626,17 +635,18 @@
         <var name="editorContext" id="6343853832445394543" />
         <var name="node" id="6343853832445394543" />
       </scope>
-      <scope id="6343853832445394543" at="55,0,59,0">
-        <var name="editorContext" id="6343853832445394543" />
-        <var name="node" id="6343853832445394543" />
-      </scope>
-      <scope id="6343853832445394543" at="62,0,66,0" />
+      <scope id="6343853832445394543" at="56,86,60,18" />
+      <scope id="6343853832445394543" at="68,0,72,0" />
       <scope id="6343853832445394543" at="35,0,41,0">
         <var name="context" id="6343853832445394543" />
         <var name="node" id="6343853832445394543" />
       </scope>
-      <unit id="6343853832445394543" at="41,0,68,0" name="com.dslfoundry.plaintextgen.intentions.ReviewDiffingPasteRecovery_Intention$IntentionImplementation" />
-      <unit id="6343853832445394543" at="18,0,69,0" name="com.dslfoundry.plaintextgen.intentions.ReviewDiffingPasteRecovery_Intention" />
+      <scope id="6343853832445394543" at="55,0,62,0">
+        <var name="editorContext" id="6343853832445394543" />
+        <var name="node" id="6343853832445394543" />
+      </scope>
+      <unit id="6343853832445394543" at="41,0,74,0" name="com.dslfoundry.plaintextgen.intentions.ReviewDiffingPasteRecovery_Intention$IntentionImplementation" />
+      <unit id="6343853832445394543" at="18,0,75,0" name="com.dslfoundry.plaintextgen.intentions.ReviewDiffingPasteRecovery_Intention" />
     </file>
   </root>
   <root nodeRef="r:c8d72bdc-3031-4f87-98fe-0ea2dad34376(com.dslfoundry.plaintextgen.intentions)/8491303681848831168">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-euqm10qxcdcj3cccykjp0lwxuk9t83f">
-  <files names="DiffPasteAssertions.java:DiffingPasteHistory_Test.java:DiffingPasteLayouts_Test.java:DiffingPasteWords_Test.java:DiffingPaste_Test.java:PasteAssertions.java:Pasting_Test.java" />
+<product version="3" modelHash="-b4b6hw0hqpmdav2yvxvqpgwkh5z06qp">
+  <files names="DiffPasteAssertions.java:DiffingPasteHistory_Test.java:DiffingPasteLayouts_Test.java:DiffingPasteReview_Test.java:DiffingPasteThreading_Test.java:DiffingPasteWords_Test.java:DiffingPaste_Test.java:PasteAssertions.java:Pasting_Test.java" />
 </product>
 

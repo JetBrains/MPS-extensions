@@ -12,7 +12,7 @@ import java.util.Arrays;
 public class TextOutputAssertions {
   public static void assertSingleOutput(Project project, SModel model, String fileName, Charset encoding, byte[] expected) {
     if (project == null || model == null || fileName == null || encoding == null || expected == null) {
-      throw new IllegalArgumentException("jetbrains.mps.project.Project, model, filename, encoding and expected bytes are required.");
+      throw new IllegalArgumentException("Project, model, filename, encoding and expected bytes are required.");
     }
     List<TextUnit> units = new OutputBreakdown().units(project, model);
     if (units.size() != 1) {

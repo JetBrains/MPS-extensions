@@ -16,5 +16,6 @@ public class PasterGroup_ActionGroup extends GeneratedActionGroup {
     updateInBackground(true);
     PasterGroup_ActionGroup.this.addAction("com.dslfoundry.plaintextgen.plugin.PasteUnstructuredText_Action");
     PasterGroup_ActionGroup.this.addAction("com.dslfoundry.plaintextgen.plugin.PasteUnstructuredTextWithTabs_Action");
+    PasterGroup_ActionGroup.this.addAction("com.dslfoundry.plaintextgen.plugin.PasteTextWithDiffPreview_Action");
   }
 }

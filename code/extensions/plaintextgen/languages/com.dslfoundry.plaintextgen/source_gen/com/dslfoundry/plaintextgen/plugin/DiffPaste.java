@@ -34,6 +34,7 @@ import org.jetbrains.mps.openapi.model.SNodeId;
 import java.util.Map;
 import java.util.HashMap;
 import com.intellij.diff.fragments.DiffFragment;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SConcept;
 
 public class DiffPaste {
@@ -41,7 +42,7 @@ public class DiffPaste {
     if (clipboard == null) {
       throw new IllegalArgumentException("The clipboard does not contain text.");
     }
-    SNode oldContent = child(template, "content");
+    SNode oldContent = child(template, LINKS.content$rMPF);
     SModel source = template.getModel();
     if (source == null || source.getModule() == null) {
       throw new IllegalArgumentException("The template must belong to an editable model.");
@@ -53,16 +54,16 @@ public class DiffPaste {
     try {
       SNode copy = CopyUtil.copy(template);
       temporary.addRootNode(copy);
-      SNode content = child(copy, "content");
+      SNode content = child(copy, LINKS.content$rMPF);
       if (clipboard.length() == 0) {
         copy.removeChild(content);
-        copy.addChild(link(copy, "content"), new jetbrains.mps.smodel.SNode(content.getConcept()));
+        copy.addChild(LINKS.content$rMPF, new jetbrains.mps.smodel.SNode(content.getConcept()));
       } else {
         PlaintextPaster.pastePlainTextWithTabs((SNode) content, clipboard.replace("\r\n", "\n").replace('\r', '\n'));
       }
       TemporaryModels.getInstance().addMissingImports(temporary);
       after = render(copy);
-      proposed = CopyUtil.copy(child(copy, "content"));
+      proposed = CopyUtil.copy(child(copy, LINKS.content$rMPF));
     } finally {
       TemporaryModels.getInstance().dispose(temporary);
     }
@@ -92,7 +93,7 @@ public class DiffPaste {
     }
     Set<SNode> preserved = Collections.newSetFromMap(new IdentityHashMap<SNode, Boolean>());
     int row = 0;
-    int totalRows = children(proposed, "lines").size();
+    int totalRows = children(proposed, LINKS.lines$u7C).size();
     while (row < totalRows) {
       Block best = null;
       for (Block candidate : candidates) {
@@ -130,15 +131,13 @@ public class DiffPaste {
     return text.replace("\r\n", "\n").replace('\r', '\n');
   }
   private static boolean safeLayout(SNode node) {
-    String concept = node.getConcept().getName();
-    if ("Line".equals(concept)) {
-      for (SNode word : children(node, "words")) {
-        String name = word.getConcept().getName();
-        if (!("Word".equals(name)) && !("Tab".equals(name))) {
+    if (node.isInstanceOfConcept(CONCEPTS.Line$5o)) {
+      for (SNode word : children(node, LINKS.words$teE6)) {
+        if (!(word.isInstanceOfConcept(CONCEPTS.Word$dj)) && !(word.isInstanceOfConcept(CONCEPTS.Tab$tC))) {
           return false;
         }
-        if ("Word".equals(name)) {
-          String text = property(word, "name");
+        if (word.isInstanceOfConcept(CONCEPTS.Word$dj)) {
+          String text = property(word, PROPS.name$MnvL);
           if (text != null && (text.contains("\r") || text.contains("\n"))) {
             return false;
           }
@@ -146,14 +145,14 @@ public class DiffPaste {
       }
       return true;
     }
-    if (!("VerticalLines".equals(concept)) && !("SpaceIndentedText".equals(concept))) {
+    if (!(node.isInstanceOfConcept(CONCEPTS.VerticalLines$qc)) && !(node.isInstanceOfConcept(CONCEPTS.SpaceIndentedText$2u))) {
       return false;
     }
-    String alignment = property(node, "align");
+    String alignment = property(node, PROPS.align$grMv);
     if (alignment != null && alignment.length() > 0 && !("left".equals(alignment))) {
       return false;
     }
-    for (SNode line : children(node, "lines")) {
+    for (SNode line : children(node, LINKS.lines$u7C)) {
       if (!(safeLayout(line))) {
         return false;
       }
@@ -161,19 +160,19 @@ public class DiffPaste {
     return true;
   }
   private static int collect(SNode node, int start, String prefix, SNode indentSource, List<Block> result) {
-    if ("Line".equals(node.getConcept().getName())) {
+    if (node.isInstanceOfConcept(CONCEPTS.Line$5o)) {
       result.add(new Block(node, start, start + 1, prefix, indentSource));
       return start + 1;
     }
     String nextPrefix = prefix;
     SNode nextSource = indentSource;
-    if ("SpaceIndentedText".equals(node.getConcept().getName())) {
-      String indent = property(node, "indent");
+    if (node.isInstanceOfConcept(CONCEPTS.SpaceIndentedText$2u)) {
+      String indent = property(node, PROPS.indent$WJd);
       nextPrefix += (indent == null ? "" : indent);
       nextSource = node;
     }
     int end = start;
-    for (SNode line : children(node, "lines")) {
+    for (SNode line : children(node, LINKS.lines$u7C)) {
       end = collect(line, end, nextPrefix, nextSource, result);
     }
     result.add(new Block(node, start, end, prefix, indentSource));
@@ -183,7 +182,7 @@ public class DiffPaste {
     if (preserved.contains(node)) {
       return;
     }
-    if (isGeneratorAnnotation(node)) {
+    if (isAnnotation(node)) {
       result.add(node.getConcept().getName() + " at original node " + node.getNodeId());
       return;
     }
@@ -217,44 +216,25 @@ public class DiffPaste {
       value.append('}');
     }
   }
-  private static SContainmentLink link(SNode node, String role) {
-    for (SContainmentLink link : node.getConcept().getContainmentLinks()) {
-      if (role.equals(link.getName())) {
-        return link;
-      }
-    }
-    throw new IllegalArgumentException("Missing child role " + role);
-  }
-  private static List<SNode> children(SNode node, String role) {
+  private static List<SNode> children(SNode node, SContainmentLink role) {
     List<SNode> result = new ArrayList<SNode>();
-    for (SNode child : node.getChildren(link(node, role))) {
+    for (SNode child : node.getChildren(role)) {
       result.add(child);
     }
     return result;
   }
-  private static SNode child(SNode node, String role) {
+  private static SNode child(SNode node, SContainmentLink role) {
     List<SNode> values = children(node, role);
     if (values.size() != 1) {
       throw new IllegalStateException("Expected exactly one " + role);
     }
     return values.get(0);
   }
-  private static String property(SNode node, String name) {
-    for (SProperty property : node.getConcept().getProperties()) {
-      if (name.equals(property.getName())) {
-        return node.getProperty(property);
-      }
-    }
-    throw new IllegalArgumentException("Missing property " + name);
+  private static String property(SNode node, SProperty name) {
+    return node.getProperty(name);
   }
-  private static void setProperty(SNode node, String name, String value) {
-    for (SProperty property : node.getConcept().getProperties()) {
-      if (name.equals(property.getName())) {
-        node.setProperty(property, value);
-        return;
-      }
-    }
-    throw new IllegalArgumentException("Missing property " + name);
+  private static void setProperty(SNode node, SProperty name, String value) {
+    node.setProperty(name, value);
   }
   public static Path recoveryDirectory(Path base, SNode template) {
     return base.resolve(UUID.nameUUIDFromBytes(template.getReference().toString().getBytes(StandardCharsets.UTF_8)).toString());
@@ -305,7 +285,7 @@ public class DiffPaste {
     public List<String> getConflicts() {
       return Collections.unmodifiableList(conflicts);
     }
-    public Path apply(boolean confirmedMacroRemoval, Path recoveryBase) throws IOException {
+    public Path apply(boolean confirmedAnnotationRemoval, Path recoveryBase) throws IOException {
       if (applied) {
         throw new IllegalStateException("This paste plan has already been applied.");
       }
@@ -315,8 +295,8 @@ public class DiffPaste {
       if (!(isChanged())) {
         return null;
       }
-      if (!(conflicts.isEmpty()) && !(confirmedMacroRemoval)) {
-        throw new IllegalStateException("Replacing generator macros requires explicit confirmation.");
+      if (!(conflicts.isEmpty()) && !(confirmedAnnotationRemoval)) {
+        throw new IllegalStateException("Replacing annotations requires explicit confirmation.");
       }
       Path directory = recoveryDirectory(recoveryBase, template);
       Files.createDirectories(directory);
@@ -324,12 +304,12 @@ public class DiffPaste {
       Path snapshot = directory.resolve(name + ".mps");
       byte[] bytes = PersistenceUtil.modelAsBytes(template.getModel(), PersistenceFacade.getInstance().getModelFactory("mps"));
       Files.write(snapshot, bytes);
-      String report = "Original template: " + template.getReference() + "\nOriginal model: " + template.getModel().getReference() + "\nReplaced generator annotations:\n" + String.join("\n", conflicts);
+      String report = "Original template: " + template.getReference() + "\nOriginal model: " + template.getModel().getReference() + "\nReplaced annotations:\n" + String.join("\n", conflicts);
       Files.write(directory.resolve(name + ".txt"), report.getBytes(StandardCharsets.UTF_8));
       Path index = directory.resolve(name + ".latest");
       Files.write(index, snapshot.getFileName().toString().getBytes(StandardCharsets.UTF_8));
       Files.move(index, directory.resolve("latest"), StandardCopyOption.ATOMIC_MOVE, StandardCopyOption.REPLACE_EXISTING);
-      List<SNode> fresh = children(proposed, "lines");
+      List<SNode> fresh = children(proposed, LINKS.lines$u7C);
       List<SNode> merged = new ArrayList<SNode>();
       int row = 0;
       while (row < fresh.size()) {
@@ -343,7 +323,7 @@ public class DiffPaste {
         if (block == null) {
           SNode source = fresh.get(row);
           SNode line = CopyUtil.copy(source);
-          for (SNode word : children(line, "words")) {
+          for (SNode word : children(line, LINKS.words$teE6)) {
             line.removeChild(word);
           }
           int column = 0;
@@ -356,7 +336,7 @@ public class DiffPaste {
             if (parent != null) {
               parent.removeChild(piece.node);
             }
-            line.addChild(link(line, "words"), piece.node);
+            line.addChild(LINKS.words$teE6, piece.node);
             column = piece.end;
           }
           appendRange(line, source, column, Integer.MAX_VALUE);
@@ -370,8 +350,8 @@ public class DiffPaste {
           }
           if (block.prefix.length() > 0) {
             SNode wrapper = new jetbrains.mps.smodel.SNode(block.indentSource.getConcept());
-            setProperty(wrapper, "indent", block.prefix);
-            wrapper.addChild(link(wrapper, "lines"), retained);
+            setProperty(wrapper, PROPS.indent$WJd, block.prefix);
+            wrapper.addChild(LINKS.lines$u7C, retained);
             retained = wrapper;
           }
           merged.add(retained);
@@ -380,10 +360,10 @@ public class DiffPaste {
       }
       SNode replacement = new jetbrains.mps.smodel.SNode(original.getConcept());
       for (SNode node : merged) {
-        replacement.addChild(link(replacement, "lines"), node);
+        replacement.addChild(LINKS.lines$u7C, node);
       }
       template.removeChild(original);
-      template.addChild(link(template, "content"), replacement);
+      template.addChild(LINKS.content$rMPF, replacement);
       applied = true;
       return snapshot;
     }
@@ -429,12 +409,12 @@ public class DiffPaste {
       starts[i] = starts[i - 1] + oldLines[i - 1].length() + 1;
     }
     for (Block block : candidates) {
-      if (!("Line".equals(block.node.getConcept().getName())) || preserved.contains(block.node) || block.start >= starts.length) {
+      if (!(block.node.isInstanceOfConcept(CONCEPTS.Line$5o)) || preserved.contains(block.node) || block.start >= starts.length) {
         continue;
       }
       int column = block.prefix.length();
-      for (SNode word : children(block.node, "words")) {
-        String text = ("Tab".equals(word.getConcept().getName()) ? "\t" : property(word, "name"));
+      for (SNode word : children(block.node, LINKS.words$teE6)) {
+        String text = (word.isInstanceOfConcept(CONCEPTS.Tab$tC) ? "\t" : property(word, PROPS.name$MnvL));
         text = (text == null ? "" : text);
         int start = starts[block.start] + column;
         int end = start + text.length();
@@ -482,30 +462,44 @@ public class DiffPaste {
   }
   private static void appendRange(SNode target, SNode source, int start, int end) {
     int column = 0;
-    for (SNode word : children(source, "words")) {
-      boolean tab = "Tab".equals(word.getConcept().getName());
-      String text = (tab ? "\t" : property(word, "name"));
+    for (SNode word : children(source, LINKS.words$teE6)) {
+      boolean tab = word.isInstanceOfConcept(CONCEPTS.Tab$tC);
+      String text = (tab ? "\t" : property(word, PROPS.name$MnvL));
       text = (text == null ? "" : text);
       int from = Math.max(0, start - column);
       int to = Math.min(text.length(), end - column);
       if (from < to) {
         SNode copy = CopyUtil.copy(word);
         if (!(tab)) {
-          setProperty(copy, "name", text.substring(from, to));
+          setProperty(copy, PROPS.name$MnvL, text.substring(from, to));
         }
-        target.addChild(link(target, "words"), copy);
+        target.addChild(LINKS.words$teE6, copy);
       }
       column += text.length();
     }
   }
-  private static boolean isGeneratorAnnotation(SNode node) {
-    SConcept concept = node.getConcept();
-    while (concept != null) {
-      if ("jetbrains.mps.lang.generator".equals(concept.getLanguage().getQualifiedName())) {
-        return true;
-      }
-      concept = concept.getSuperConcept();
-    }
-    return false;
+  private static boolean isAnnotation(SNode node) {
+    return node.isInstanceOfConcept(CONCEPTS.Attribute$g1);
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink content$rMPF = MetaAdapterFactory.getContainmentLink(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0xfe48d5fcaff82faL, "content");
+    /*package*/ static final SContainmentLink lines$u7C = MetaAdapterFactory.getContainmentLink(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L, 0x64208511ac2f6798L, "lines");
+    /*package*/ static final SContainmentLink words$teE6 = MetaAdapterFactory.getContainmentLink(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL, 0xfe48d5fcafd47f2L, "words");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept Line$5o = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL, "com.dslfoundry.plaintextgen.structure.Line");
+    /*package*/ static final SConcept Word$dj = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L, "com.dslfoundry.plaintextgen.structure.Word");
+    /*package*/ static final SConcept Tab$tC = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x2785a009e0883ec8L, "com.dslfoundry.plaintextgen.structure.Tab");
+    /*package*/ static final SConcept VerticalLines$qc = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L, "com.dslfoundry.plaintextgen.structure.VerticalLines");
+    /*package*/ static final SConcept SpaceIndentedText$2u = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e9L, "com.dslfoundry.plaintextgen.structure.SpaceIndentedText");
+    /*package*/ static final SConcept Attribute$g1 = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x47bf8397520e5939L, "jetbrains.mps.lang.core.structure.Attribute");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+    /*package*/ static final SProperty align$grMv = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L, 0x64208511ac31899bL, "align");
+    /*package*/ static final SProperty indent$WJd = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e9L, 0x48241aad8b2b218cL, "indent");
   }
 }

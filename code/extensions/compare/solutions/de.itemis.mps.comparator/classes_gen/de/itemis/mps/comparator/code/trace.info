@@ -1986,7 +1986,7 @@
   </root>
   <root nodeRef="r:ec874b45-e888-42e6-995a-a298cefdff55(de.itemis.mps.comparator.code)/6343853832450532980">
     <file name="TextOutputAssertions.java">
-      <node id="6343853832459119541" at="14,103,15,134" concept="19" />
+      <node id="6343853832459119541" at="14,103,15,112" concept="19" />
       <node id="6343853832459119543" at="16,5,17,71" concept="10" />
       <node id="6343853832459119564" at="18,28,19,101" concept="19" />
       <node id="6343853832459119565" at="20,5,21,61" concept="4" />
@@ -2012,7 +2012,7 @@
       <node id="6343853832450533147" at="37,36,46,5" concept="8" />
       <node id="6343853832459119504" at="13,0,23,0" concept="15" trace="assertSingleOutput#(Ljetbrains/mps/project/Project;Lorg/jetbrains/mps/openapi/model/SModel;Ljava/lang/String;Ljava/nio/charset/Charset;[B)V" />
       <node id="6343853832450533055" at="23,0,48,0" concept="15" trace="assertOutput#(Ljetbrains/mps/text/TextUnit;Ljava/lang/String;Ljava/nio/charset/Charset;[B)V" />
-      <scope id="6343853832459119538" at="14,103,15,134" />
+      <scope id="6343853832459119538" at="14,103,15,112" />
       <scope id="6343853832459119555" at="18,28,19,101" />
       <scope id="6343853832450533083" at="24,83,25,107" />
       <scope id="6343853832450533094" at="28,55,29,98" />

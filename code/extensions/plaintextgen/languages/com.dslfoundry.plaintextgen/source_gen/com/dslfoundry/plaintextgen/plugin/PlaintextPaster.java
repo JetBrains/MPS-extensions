@@ -130,14 +130,9 @@ public class PlaintextPaster {
       SNodeOperations.replaceWithAnother(node, verticalLinesFromText(text));
     }
   }
-  /**
-   * Preserve tabs
-   */
   public static SNode verticalLinesFromText(String inputText) {
-    Stack<Integer> levels = new Stack();
     Stack<SNode> containers = new Stack<SNode>();
     containers.add(SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L, "com.dslfoundry.plaintextgen.structure.VerticalLines")));
-    levels.add(0);
 
     String text = inputText;
     if ((text != null && text.length() > 0)) {
@@ -147,7 +142,6 @@ public class PlaintextPaster {
         if (isEmptyString(line.trim()) && !(line.contains("\t"))) {
           ListSequence.fromList(SLinkOperations.getChildren(lineNode, LINKS.words$teE6)).removeElementAt(0);
         } else {
-          // MPS text fields strip away the tabs, so we replace them by spaces.
           ListSequence.fromList(SLinkOperations.getChildren(lineNode, LINKS.words$teE6)).clear();
           String[] parts = line.split("\t", -1);
           for (String x : parts) {
@@ -156,9 +150,7 @@ public class PlaintextPaster {
             }
             SLinkOperations.addNewChild(lineNode, LINKS.words$teE6, CONCEPTS.Tab$tC);
           }
-          if ((line != null && line.length() > 0)) {
-            ListSequence.fromList(SLinkOperations.getChildren(lineNode, LINKS.words$teE6)).removeLastElement();
-          }
+          ListSequence.fromList(SLinkOperations.getChildren(lineNode, LINKS.words$teE6)).removeLastElement();
         }
         ListSequence.fromList(SLinkOperations.getChildren(containers.peek(), LINKS.lines$u7C)).addElement(lineNode);
       }

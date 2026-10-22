@@ -1509,22 +1509,6 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="1vA0kATHUPF" role="3clF47">
-        <node concept="3cpWs8" id="1vA0kATHUPG" role="3cqZAp">
-          <node concept="3cpWsn" id="1vA0kATHUPH" role="3cpWs9">
-            <property role="TrG5h" value="levels" />
-            <node concept="3uibUv" id="1vA0kATHUPI" role="1tU5fm">
-              <ref role="3uigEE" to="33ny:~Stack" resolve="Stack" />
-              <node concept="3uibUv" id="1vA0kATHUPJ" role="11_B2D">
-                <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-              </node>
-            </node>
-            <node concept="2ShNRf" id="1vA0kATHUPK" role="33vP2m">
-              <node concept="1pGfFk" id="1vA0kATHUPL" role="2ShVmc">
-                <ref role="37wK5l" to="33ny:~Stack.&lt;init&gt;()" resolve="Stack" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="1vA0kATHUPM" role="3cqZAp">
           <node concept="3cpWsn" id="1vA0kATHUPN" role="3cpWs9">
             <property role="TrG5h" value="containers" />
@@ -1557,19 +1541,6 @@
                     <ref role="ehGHo" to="myiq:Z$zlZaZO7_" resolve="VerticalLines" />
                   </node>
                 </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1vA0kATHUQ0" role="3cqZAp">
-          <node concept="2OqwBi" id="1vA0kATHUQ1" role="3clFbG">
-            <node concept="37vLTw" id="1vA0kATHUQ2" role="2Oq$k0">
-              <ref role="3cqZAo" node="1vA0kATHUPH" resolve="levels" />
-            </node>
-            <node concept="liA8E" id="1vA0kATHUQ3" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Vector.add(java.lang.Object)" resolve="add" />
-              <node concept="3cmrfG" id="1vA0kATHUQ4" role="37wK5m">
-                <property role="3cmrfH" value="0" />
               </node>
             </node>
           </node>
@@ -1674,49 +1645,6 @@
                   </node>
                   <node concept="9aQIb" id="1vA0kATHUQM" role="9aQIa">
                     <node concept="3clFbS" id="1vA0kATHUQN" role="9aQI4">
-                      <node concept="3SKdUt" id="1vA0kATHUQO" role="3cqZAp">
-                        <node concept="1PaTwC" id="1vA0kATHUQP" role="1aUNEU">
-                          <node concept="3oM_SD" id="1vA0kATHUQQ" role="1PaTwD">
-                            <property role="3oM_SC" value="MPS" />
-                          </node>
-                          <node concept="3oM_SD" id="1vA0kATHUQR" role="1PaTwD">
-                            <property role="3oM_SC" value="text" />
-                          </node>
-                          <node concept="3oM_SD" id="1vA0kATHUQS" role="1PaTwD">
-                            <property role="3oM_SC" value="fields" />
-                          </node>
-                          <node concept="3oM_SD" id="1vA0kATHUQT" role="1PaTwD">
-                            <property role="3oM_SC" value="strip" />
-                          </node>
-                          <node concept="3oM_SD" id="1vA0kATHUQU" role="1PaTwD">
-                            <property role="3oM_SC" value="away" />
-                          </node>
-                          <node concept="3oM_SD" id="1vA0kATHUQV" role="1PaTwD">
-                            <property role="3oM_SC" value="the" />
-                          </node>
-                          <node concept="3oM_SD" id="1vA0kATHUQW" role="1PaTwD">
-                            <property role="3oM_SC" value="tabs," />
-                          </node>
-                          <node concept="3oM_SD" id="1vA0kATHUQX" role="1PaTwD">
-                            <property role="3oM_SC" value="so" />
-                          </node>
-                          <node concept="3oM_SD" id="1vA0kATHUQY" role="1PaTwD">
-                            <property role="3oM_SC" value="we" />
-                          </node>
-                          <node concept="3oM_SD" id="1vA0kATHUQZ" role="1PaTwD">
-                            <property role="3oM_SC" value="replace" />
-                          </node>
-                          <node concept="3oM_SD" id="1vA0kATHUR0" role="1PaTwD">
-                            <property role="3oM_SC" value="them" />
-                          </node>
-                          <node concept="3oM_SD" id="1vA0kATHUR1" role="1PaTwD">
-                            <property role="3oM_SC" value="by" />
-                          </node>
-                          <node concept="3oM_SD" id="1vA0kATHUR2" role="1PaTwD">
-                            <property role="3oM_SC" value="spaces." />
-                          </node>
-                        </node>
-                      </node>
                       <node concept="3clFbF" id="1vA0kATHUR3" role="3cqZAp">
                         <node concept="2OqwBi" id="1vA0kATHUR4" role="3clFbG">
                           <node concept="2OqwBi" id="1vA0kATHUR5" role="2Oq$k0">
@@ -1813,27 +1741,17 @@
                           <ref role="3cqZAo" node="1vA0kATHURa" resolve="parts" />
                         </node>
                       </node>
-                      <node concept="3clFbJ" id="1vA0kATHURF" role="3cqZAp">
-                        <node concept="3clFbS" id="1vA0kATHURG" role="3clFbx">
-                          <node concept="3clFbF" id="1vA0kATHURH" role="3cqZAp">
-                            <node concept="2OqwBi" id="1vA0kATHURI" role="3clFbG">
-                              <node concept="2OqwBi" id="1vA0kATHURJ" role="2Oq$k0">
-                                <node concept="37vLTw" id="1vA0kATHURK" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="1vA0kATHUQk" resolve="lineNode" />
-                                </node>
-                                <node concept="3Tsc0h" id="1vA0kATHURL" role="2OqNvi">
-                                  <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" resolve="words" />
-                                </node>
-                              </node>
-                              <node concept="2Kt5_m" id="1vA0kATHURM" role="2OqNvi" />
+                      <node concept="3clFbF" id="1vA0kATHURH" role="3cqZAp">
+                        <node concept="2OqwBi" id="1vA0kATHURI" role="3clFbG">
+                          <node concept="2OqwBi" id="1vA0kATHURJ" role="2Oq$k0">
+                            <node concept="37vLTw" id="1vA0kATHURK" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1vA0kATHUQk" resolve="lineNode" />
+                            </node>
+                            <node concept="3Tsc0h" id="1vA0kATHURL" role="2OqNvi">
+                              <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" resolve="words" />
                             </node>
                           </node>
-                        </node>
-                        <node concept="2OqwBi" id="1vA0kATHURN" role="3clFbw">
-                          <node concept="2GrUjf" id="1vA0kATHURO" role="2Oq$k0">
-                            <ref role="2Gs0qQ" node="1vA0kATHUQd" resolve="line" />
-                          </node>
-                          <node concept="17RvpY" id="1vA0kATHURP" role="2OqNvi" />
+                          <node concept="2Kt5_m" id="1vA0kATHURM" role="2OqNvi" />
                         </node>
                       </node>
                     </node>
@@ -1887,16 +1805,6 @@
         <node concept="17QB3L" id="1vA0kATHUSi" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="1vA0kATHUSc" role="1B3o_S" />
-      <node concept="P$JXv" id="1vA0kATHUSd" role="lGtFl">
-        <node concept="1PaTwC" id="1vA0kATHUSe" role="1Vez_I">
-          <node concept="3oM_SD" id="1vA0kATHUSf" role="1PaTwD">
-            <property role="3oM_SC" value="Preserve" />
-          </node>
-          <node concept="3oM_SD" id="1vA0kATHUSg" role="1PaTwD">
-            <property role="3oM_SC" value="tabs" />
-          </node>
-        </node>
-      </node>
       <node concept="3Tqbb2" id="1vA0kATHUSj" role="3clF45">
         <ref role="ehGHo" to="myiq:Z$zlZaZO7_" resolve="VerticalLines" />
       </node>

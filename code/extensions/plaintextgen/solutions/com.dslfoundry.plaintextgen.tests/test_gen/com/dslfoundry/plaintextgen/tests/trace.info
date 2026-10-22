@@ -1,193 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
   <root nodeRef="r:b6692149-2550-4b5f-bdc1-76c30c697450(com.dslfoundry.plaintextgen.tests@tests)/1722065323676150649">
     <file name="PlaintextPasterTests_Test.java">
-      <node id="1722065323676464877" at="13,87,14,66" concept="4" />
-      <node id="1722065323676464882" at="14,66,15,38" concept="4" />
-      <node id="1722065323676464894" at="17,43,18,25" concept="0" />
-      <node id="1722065323676464910" at="21,28,22,33" concept="5" />
-      <node id="1722065323676464912" at="23,5,24,29" concept="4" />
-      <node id="1722065323676464916" at="24,29,25,29" concept="4" />
-      <node id="1722065323676464922" at="26,55,27,25" concept="0" />
-      <node id="1722065323676464925" at="27,25,28,25" concept="0" />
-      <node id="1722065323676464941" at="30,32,31,33" concept="5" />
-      <node id="1722065323676464943" at="32,5,33,38" concept="4" />
-      <node id="1722065323676464955" at="35,43,36,25" concept="0" />
-      <node id="1722065323676464971" at="39,28,40,33" concept="5" />
-      <node id="1722065323676464973" at="41,5,42,29" concept="4" />
-      <node id="1722065323676464992" at="44,81,45,35" concept="5" />
-      <node id="1722065323676464993" at="46,7,47,25" concept="0" />
-      <node id="1722065323676465008" at="49,32,50,33" concept="5" />
-      <node id="1722065323676465010" at="51,5,52,73" concept="4" />
-      <node id="1722065323676465015" at="52,73,53,34" concept="4" />
-      <node id="1722065323676465019" at="53,34,54,34" concept="4" />
-      <node id="1722065323676465025" at="55,60,56,30" concept="0" />
-      <node id="1722065323676465028" at="56,30,57,30" concept="0" />
-      <node id="1722065323676465044" at="59,37,60,33" concept="5" />
-      <node id="1722065323676465046" at="61,5,62,34" concept="4" />
-      <node id="1722065323676465050" at="62,34,63,34" concept="4" />
-      <node id="1722065323676465063" at="65,38,66,35" concept="5" />
-      <node id="1722065323676465082" at="68,119,69,35" concept="5" />
-      <node id="1722065323676465101" at="71,120,72,35" concept="5" />
-      <node id="1722065323676465117" at="76,50,77,36" concept="0" />
-      <node id="1722065323676465139" at="80,84,81,37" concept="5" />
-      <node id="1722065323676465153" at="84,88,85,35" concept="5" />
-      <node id="1722065323676465154" at="86,7,87,30" concept="0" />
-      <node id="1722065323676465169" at="89,37,90,33" concept="5" />
-      <node id="1722065323676465171" at="91,5,92,72" concept="4" />
-      <node id="1722065323676465176" at="92,72,93,30" concept="4" />
-      <node id="1722065323676465180" at="93,30,94,30" concept="4" />
-      <node id="1722065323676465186" at="95,56,96,26" concept="0" />
-      <node id="1722065323676465189" at="96,26,97,26" concept="0" />
-      <node id="1722065323676465205" at="99,33,100,33" concept="5" />
-      <node id="1722065323676465207" at="101,5,102,30" concept="4" />
-      <node id="1722065323676465220" at="104,34,105,35" concept="5" />
-      <node id="1722065323676465242" at="108,113,109,37" concept="5" />
-      <node id="1722065323676465252" at="112,57,113,35" concept="5" />
-      <node id="1722065323676465253" at="114,7,115,26" concept="0" />
-      <node id="1722065323676465268" at="117,33,118,33" concept="5" />
-      <node id="1722065323676465270" at="119,5,120,68" concept="4" />
-      <node id="1722065323676465275" at="120,68,121,32" concept="4" />
-      <node id="1722065323676465279" at="121,32,122,32" concept="4" />
-      <node id="1722065323676465285" at="123,58,124,28" concept="0" />
-      <node id="1722065323676465288" at="124,28,125,28" concept="0" />
-      <node id="1722065323676465304" at="127,35,128,33" concept="5" />
-      <node id="1722065323676465306" at="129,5,130,32" concept="4" />
-      <node id="1722065323676465312" at="131,62,132,28" concept="0" />
-      <node id="1722065323676465327" at="134,35,135,33" concept="5" />
-      <node id="1722065323676464888" at="16,78,19,7" concept="2" />
-      <node id="1722065323676464903" at="20,5,23,5" concept="2" />
-      <node id="1722065323676464934" at="29,5,32,5" concept="2" />
-      <node id="1722065323676464949" at="34,82,37,7" concept="2" />
-      <node id="1722065323676464964" at="38,5,41,5" concept="2" />
-      <node id="1722065323676464979" at="43,59,46,7" concept="2" />
-      <node id="1722065323676465001" at="48,5,51,5" concept="2" />
-      <node id="1722065323676465037" at="58,5,61,5" concept="2" />
-      <node id="1722065323676465056" at="64,64,67,7" concept="2" />
-      <node id="1722065323676465064" at="67,7,70,7" concept="2" />
-      <node id="1722065323676465083" at="70,7,73,7" concept="2" />
-      <node id="1722065323676465111" at="75,70,78,11" concept="2" />
-      <node id="1722065323676465126" at="79,9,82,9" concept="2" />
-      <node id="1722065323676465140" at="83,7,86,7" concept="2" />
-      <node id="1722065323676465162" at="88,5,91,5" concept="2" />
-      <node id="1722065323676465198" at="98,5,101,5" concept="2" />
-      <node id="1722065323676465213" at="103,60,106,7" concept="2" />
-      <node id="1722065323676465227" at="107,35,110,9" concept="2" />
-      <node id="1722065323676465243" at="111,12,114,7" concept="2" />
-      <node id="1722065323676465261" at="116,5,119,5" concept="2" />
-      <node id="1722065323676465297" at="126,5,129,5" concept="2" />
-      <node id="1722065323676465309" at="130,32,133,5" concept="1" />
-      <node id="1722065323676465320" at="133,5,136,5" concept="2" />
-      <node id="1722065323676464919" at="25,29,29,5" concept="1" />
-      <node id="1722065323676465022" at="54,34,58,5" concept="1" />
-      <node id="1722065323676465183" at="94,30,98,5" concept="1" />
-      <node id="1722065323676465282" at="122,32,126,5" concept="1" />
-      <node id="1722065323676464885" at="15,38,20,5" concept="1" />
-      <node id="1722065323676464946" at="33,38,38,5" concept="1" />
-      <node id="1722065323676465108" at="74,39,79,9" concept="1" />
-      <node id="1722065323676464976" at="42,29,48,5" concept="1" />
-      <node id="1722065323676465221" at="106,7,114,7" concept="2" />
-      <node id="1722065323676465102" at="73,7,83,7" concept="2" />
-      <node id="1722065323676465210" at="102,30,116,5" concept="1" />
-      <node id="1722065323676465053" at="63,34,88,5" concept="1" />
-      <node id="1722065323676150651" at="12,0,138,0" concept="3" trace="test_pastePreservesExactTabNodeTreeAndSpacesOnlyLine#()V" />
-      <scope id="1722065323676464893" at="17,43,18,25" />
-      <scope id="1722065323676464908" at="21,28,22,33" />
-      <scope id="1722065323676464939" at="30,32,31,33" />
-      <scope id="1722065323676464954" at="35,43,36,25" />
-      <scope id="1722065323676464969" at="39,28,40,33" />
-      <scope id="1722065323676464990" at="44,81,45,35" />
-      <scope id="1722065323676465006" at="49,32,50,33" />
-      <scope id="1722065323676465042" at="59,37,60,33" />
-      <scope id="1722065323676465061" at="65,38,66,35" />
-      <scope id="1722065323676465080" at="68,119,69,35" />
-      <scope id="1722065323676465099" at="71,120,72,35" />
-      <scope id="1722065323676465116" at="76,50,77,36" />
-      <scope id="1722065323676465137" at="80,84,81,37" />
-      <scope id="1722065323676465151" at="84,88,85,35" />
-      <scope id="1722065323676465167" at="89,37,90,33" />
-      <scope id="1722065323676465203" at="99,33,100,33" />
-      <scope id="1722065323676465218" at="104,34,105,35" />
-      <scope id="1722065323676465240" at="108,113,109,37" />
-      <scope id="1722065323676465250" at="112,57,113,35" />
-      <scope id="1722065323676465266" at="117,33,118,33" />
-      <scope id="1722065323676465302" at="127,35,128,33" />
-      <scope id="1722065323676465311" at="131,62,132,28" />
-      <scope id="1722065323676465325" at="134,35,135,33" />
-      <scope id="1722065323676464921" at="26,55,28,25" />
-      <scope id="1722065323676465024" at="55,60,57,30" />
-      <scope id="1722065323676465185" at="95,56,97,26" />
-      <scope id="1722065323676465284" at="123,58,125,28" />
-      <scope id="1722065323676464887" at="16,78,19,7" />
-      <scope id="1722065323676464948" at="34,82,37,7" />
-      <scope id="1722065323676465110" at="75,70,78,11" />
-      <scope id="1722065323676465226" at="107,35,110,9" />
-      <scope id="1722065323676465309" at="130,32,133,5">
-        <var name="word" id="1722065323676465315" />
+      <node id="6343853832475623174" at="17,87,18,73" concept="5" />
+      <node id="6343853832475623185" at="18,73,19,155" concept="5" />
+      <node id="6343853832475623215" at="19,155,20,49" concept="5" />
+      <node id="6343853832475623219" at="20,49,21,50" concept="5" />
+      <node id="6343853832475623223" at="21,50,22,45" concept="5" />
+      <node id="6343853832475623227" at="22,45,23,44" concept="5" />
+      <node id="6343853832475623231" at="23,44,24,44" concept="5" />
+      <node id="6343853832475623235" at="24,44,25,42" concept="5" />
+      <node id="6343853832475623252" at="26,57,27,90" concept="5" />
+      <node id="6343853832475623269" at="27,90,28,74" concept="5" />
+      <node id="6343853832475623276" at="28,74,29,49" concept="5" />
+      <node id="6343853832475623284" at="30,56,31,24" concept="0" />
+      <node id="6343853832475623312" at="33,82,34,109" concept="7" />
+      <node id="6343853832475623314" at="35,7,36,49" concept="5" />
+      <node id="6343853832475623322" at="37,62,38,24" concept="0" />
+      <node id="6343853832475623356" at="40,52,41,121" concept="7" />
+      <node id="6343853832475623371" at="43,67,44,41" concept="5" />
+      <node id="6343853832475623376" at="44,41,45,57" concept="5" />
+      <node id="6343853832475623384" at="45,57,46,85" concept="5" />
+      <node id="6343853832475623413" at="47,59,48,158" concept="7" />
+      <node id="6343853832475623442" at="50,93,51,163" concept="7" />
+      <node id="1722065323676150649" at="58,0,59,0" concept="6" trace="lines$u7C" />
+      <node id="1722065323676150649" at="59,0,60,0" concept="6" trace="words$teE6" />
+      <node id="1722065323676150649" at="63,0,64,0" concept="6" trace="name$MnvL" />
+      <node id="1722065323676150649" at="67,0,68,0" concept="6" trace="Line$5o" />
+      <node id="1722065323676150649" at="68,0,69,0" concept="6" trace="Word$dj" />
+      <node id="1722065323676150649" at="69,0,70,0" concept="6" trace="Tab$tC" />
+      <node id="6343853832475623281" at="29,49,32,7" concept="2" />
+      <node id="6343853832475623292" at="32,7,35,7" concept="3" />
+      <node id="6343853832475623319" at="36,49,39,7" concept="2" />
+      <node id="6343853832475623332" at="39,7,42,7" concept="3" />
+      <node id="6343853832475623392" at="46,85,49,9" concept="3" />
+      <node id="6343853832475623414" at="49,9,52,9" concept="3" />
+      <node id="6343853832475623357" at="42,7,53,7" concept="1" />
+      <node id="6343853832475623238" at="25,42,54,5" concept="1" />
+      <node id="1722065323676150651" at="16,0,56,0" concept="4" trace="test_pastePreservesExactTabNodeTreeAndSpacesOnlyLine#()V" />
+      <scope id="6343853832475623283" at="30,56,31,24" />
+      <scope id="6343853832475623303" at="33,82,34,109" />
+      <scope id="6343853832475623321" at="37,62,38,24" />
+      <scope id="6343853832475623341" at="40,52,41,121" />
+      <scope id="6343853832475623397" at="47,59,48,158" />
+      <scope id="6343853832475623424" at="50,93,51,163" />
+      <scope id="6343853832475623281" at="29,49,32,7">
+        <var name="line" id="6343853832475623287" />
       </scope>
-      <scope id="1722065323676464919" at="25,29,29,5">
-        <var name="line" id="1722065323676464929" />
+      <scope id="6343853832475623319" at="36,49,39,7">
+        <var name="word" id="6343853832475623325" />
       </scope>
-      <scope id="1722065323676464978" at="43,59,47,25" />
-      <scope id="1722065323676465022" at="54,34,58,5">
-        <var name="line" id="1722065323676465032" />
+      <scope id="6343853832475623369" at="43,67,52,9">
+        <var name="expectedConcept" id="6343853832475623383" />
+        <var name="expectedName" id="6343853832475623375" />
+        <var name="word" id="6343853832475623370" />
       </scope>
-      <scope id="1722065323676465183" at="94,30,98,5">
-        <var name="line" id="1722065323676465193" />
+      <scope id="6343853832475623357" at="42,7,53,7">
+        <var name="position" id="6343853832475623358" />
       </scope>
-      <scope id="1722065323676465282" at="122,32,126,5">
-        <var name="line" id="1722065323676465292" />
+      <scope id="6343853832475623250" at="26,57,53,7">
+        <var name="context" id="6343853832475623251" />
+        <var name="lines" id="6343853832475623275" />
+        <var name="parsed" id="6343853832475623268" />
+        <var name="words" id="6343853832475623313" />
       </scope>
-      <scope id="1722065323676464885" at="15,38,20,5">
-        <var name="link" id="1722065323676464898" />
+      <scope id="6343853832475623238" at="25,42,54,5">
+        <var name="index" id="6343853832475623239" />
       </scope>
-      <scope id="1722065323676464946" at="33,38,38,5">
-        <var name="link" id="1722065323676464959" />
+      <scope id="6343853832475623443" at="17,87,54,5">
+        <var name="inputs" id="6343853832475623173" />
+        <var name="lineConcept" id="6343853832475623226" />
+        <var name="linesRole" id="6343853832475623214" />
+        <var name="nameProperty" id="6343853832475623222" />
+        <var name="tabConcept" id="6343853832475623234" />
+        <var name="wordConcept" id="6343853832475623230" />
+        <var name="wordNames" id="6343853832475623184" />
+        <var name="wordsRole" id="6343853832475623218" />
       </scope>
-      <scope id="1722065323676465108" at="74,39,79,9">
-        <var name="property" id="1722065323676465121" />
-      </scope>
-      <scope id="1722065323676464976" at="42,29,48,5">
-        <var name="word" id="1722065323676464996" />
-      </scope>
-      <scope id="1722065323676465107" at="74,39,82,9" />
-      <scope id="1722065323676465212" at="103,60,115,26" />
-      <scope id="1722065323676465210" at="102,30,116,5">
-        <var name="word" id="1722065323676465256" />
-      </scope>
-      <scope id="1722065323676465055" at="64,64,87,30" />
-      <scope id="1722065323676465053" at="63,34,88,5">
-        <var name="word" id="1722065323676465157" />
-      </scope>
-      <scope id="6861286109001301805" at="13,87,136,5">
-        <var name="edgeTabs" id="1722065323676465170" />
-        <var name="edgeTabsLine" id="1722065323676465175" />
-        <var name="edgeTabsLineCount" id="1722065323676465179" />
-        <var name="edgeTabsWordCount" id="1722065323676465206" />
-        <var name="linesRole" id="1722065323676464881" />
-        <var name="nameProperty" id="1722065323676465049" />
-        <var name="repeatedTabs" id="1722065323676465009" />
-        <var name="repeatedTabsLine" id="1722065323676465014" />
-        <var name="repeatedTabsLineCount" id="1722065323676465018" />
-        <var name="repeatedTabsWordCount" id="1722065323676465045" />
-        <var name="spacesOnly" id="1722065323676465269" />
-        <var name="spacesOnlyLine" id="1722065323676465274" />
-        <var name="spacesOnlyLineCount" id="1722065323676465278" />
-        <var name="spacesOnlyWordCount" id="1722065323676465305" />
-        <var name="tabOnly" id="1722065323676464876" />
-        <var name="tabOnlyLine" id="1722065323676464915" />
-        <var name="tabOnlyLineCount" id="1722065323676464911" />
-        <var name="tabOnlyWordCount" id="1722065323676464972" />
-        <var name="wordsRole" id="1722065323676464942" />
-      </scope>
-      <scope id="1722065323676150651" at="12,0,138,0" />
-      <unit id="1722065323676150649" at="11,0,139,0" name="com.dslfoundry.plaintextgen.tests.PlaintextPasterTests_Test" />
+      <scope id="1722065323676150651" at="16,0,56,0" />
+      <unit id="1722065323676150649" at="62,0,65,0" name="com.dslfoundry.plaintextgen.tests.PlaintextPasterTests_Test$PROPS" />
+      <unit id="1722065323676150649" at="57,0,61,0" name="com.dslfoundry.plaintextgen.tests.PlaintextPasterTests_Test$LINKS" />
+      <unit id="1722065323676150649" at="66,0,71,0" name="com.dslfoundry.plaintextgen.tests.PlaintextPasterTests_Test$CONCEPTS" />
+      <unit id="1722065323676150649" at="15,0,72,0" name="com.dslfoundry.plaintextgen.tests.PlaintextPasterTests_Test" />
     </file>
   </root>
 </debug-info>

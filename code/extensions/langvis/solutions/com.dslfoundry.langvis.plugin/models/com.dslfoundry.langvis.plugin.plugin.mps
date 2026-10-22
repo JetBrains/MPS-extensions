@@ -36,10 +36,12 @@
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
     <import index="ixe9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.concurrency(MPS.IDEA/)" />
     <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
-    <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="5zyv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent(JDK/)" implicit="true" />
+    <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="5zyv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent(JDK/)" />
+    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -68,6 +70,7 @@
         <property id="1215865999894" name="mnemonic" index="ngHcd" />
         <property id="1205250923097" name="caption" index="2uzpH1" />
         <property id="4692598989365753297" name="updateInBackground" index="1rBW0U" />
+        <child id="1203083196627" name="updateBlock" index="tmbBb" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
         <child id="8976425910813834639" name="icon" index="3Uehp1" />
@@ -75,6 +78,8 @@
       <concept id="1203071677434" name="jetbrains.mps.lang.plugin.structure.ToolDeclaration" flags="ng" index="sEfby">
         <child id="1214307129846" name="getComponentBlock" index="2Um5zG" />
       </concept>
+      <concept id="1203082695294" name="jetbrains.mps.lang.plugin.structure.DoUpdateBlock" flags="in" index="tkhdA" />
+      <concept id="1203082903663" name="jetbrains.mps.lang.plugin.structure.ConceptFunctionParameter_AnActionEvent" flags="nn" index="tl45R" />
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
       <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
         <property id="6461604478897396236" name="updateInBackground" index="22ra45" />
@@ -170,6 +175,10 @@
       </concept>
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
+      </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
       </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
@@ -3346,6 +3355,38 @@
             </node>
             <node concept="liA8E" id="4LYtwgfD4q" role="2OqNvi">
               <ref role="37wK5l" node="7vlBvUdzL5D" resolve="rebuild" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="tkhdA" id="75V$0rwkjK3" role="tmbBb">
+      <node concept="3clFbS" id="75V$0rwi_J7" role="2VODD2">
+        <node concept="3clFbF" id="75V$0rwi_J8" role="3cqZAp">
+          <node concept="2OqwBi" id="75V$0rwj2Pd" role="3clFbG">
+            <node concept="2OqwBi" id="75V$0rwj2OF" role="2Oq$k0">
+              <node concept="tl45R" id="75V$0rwj2Pj" role="2Oq$k0" />
+              <node concept="liA8E" id="75V$0rwj2OG" role="2OqNvi">
+                <ref role="37wK5l" to="qkt:~AnActionEvent.getPresentation()" resolve="getPresentation" />
+              </node>
+            </node>
+            <node concept="liA8E" id="75V$0rwj2Pe" role="2OqNvi">
+              <ref role="37wK5l" to="qkt:~Presentation.setEnabledAndVisible(boolean)" resolve="setEnabledAndVisible" />
+              <node concept="2OqwBi" id="75V$0rwj2Pf" role="37wK5m">
+                <node concept="Rm8GO" id="75V$0rwj2Pg" role="2Oq$k0">
+                  <ref role="1Px2BO" to="w1kc:~LanguageAspect" resolve="LanguageAspect" />
+                  <ref role="Rm8GQ" to="w1kc:~LanguageAspect.STRUCTURE" resolve="STRUCTURE" />
+                </node>
+                <node concept="liA8E" id="75V$0rwj2Ph" role="2OqNvi">
+                  <ref role="37wK5l" to="w1kc:~LanguageAspect.is(org.jetbrains.mps.openapi.model.SModel)" resolve="is" />
+                  <node concept="2OqwBi" id="75V$0rwj2Pk" role="37wK5m">
+                    <node concept="2WthIp" id="75V$0rwj2Pl" role="2Oq$k0" />
+                    <node concept="3gHZIF" id="75V$0rwj2Pm" role="2OqNvi">
+                      <ref role="2WH_rO" node="5BfOSIzemZ2" resolve="structure" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>

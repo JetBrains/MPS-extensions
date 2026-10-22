@@ -16478,6 +16478,7 @@
   </node>
   <node concept="312cEu" id="5w9TnceluuP">
     <property role="TrG5h" value="SharedOutputAssertionTests" />
+    <property role="3GE5qa" value="textGeneration" />
     <node concept="3Tm1VV" id="5w9TnceluuQ" role="1B3o_S" />
     <node concept="2YIFZL" id="5w9TnceluuR" role="jymVt">
       <property role="TrG5h" value="fixture" />
@@ -17440,6 +17441,7 @@
   <node concept="1lH9Xt" id="5w9TncelwFc">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="TextOutputAssertions" />
+    <property role="3GE5qa" value="textGeneration" />
     <node concept="1LZb2c" id="5w9TncelwFd" role="1SL9yI">
       <property role="TrG5h" value="rejectsMultipleOutputs" />
       <node concept="3cqZAl" id="5w9TncelwFf" role="3clF45" />
@@ -17509,6 +17511,7 @@
   <node concept="1lH9Xt" id="5w9TnceIES8">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="TextOutputSuccess" />
+    <property role="3GE5qa" value="textGeneration" />
     <node concept="1LZb2c" id="5w9TnceIES9" role="1SL9yI">
       <property role="TrG5h" value="acceptsMatchingOutput" />
       <node concept="3cqZAl" id="5w9TnceIESb" role="3clF45" />

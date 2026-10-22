@@ -2679,7 +2679,7 @@
               <node concept="3cpWsn" id="5w9TncecRrc" role="3cpWs9">
                 <property role="TrG5h" value="plan" />
                 <node concept="3uibUv" id="5w9TncecRre" role="1tU5fm">
-                  <ref role="3uigEE" to="k44w:5w9TncdRAjw" resolve="Plan" />
+                  <ref role="3uigEE" to="k44w:5w9TncdRAjw" resolve="DiffPaste.Plan" />
                 </node>
                 <node concept="2YIFZM" id="5w9TncecRUP" role="33vP2m">
                   <ref role="1Pybhc" to="k44w:5w9TncdRAiv" resolve="DiffPaste" />
@@ -4055,7 +4055,7 @@
                   <node concept="3cpWsn" id="5w9TncecRyl" role="3cpWs9">
                     <property role="TrG5h" value="second" />
                     <node concept="3uibUv" id="5w9TncecRyn" role="1tU5fm">
-                      <ref role="3uigEE" to="k44w:5w9TncdRAjw" resolve="Plan" />
+                      <ref role="3uigEE" to="k44w:5w9TncdRAjw" resolve="DiffPaste.Plan" />
                     </node>
                     <node concept="2YIFZM" id="5w9TncecS0$" role="33vP2m">
                       <ref role="1Pybhc" to="k44w:5w9TncdRAiv" resolve="DiffPaste" />

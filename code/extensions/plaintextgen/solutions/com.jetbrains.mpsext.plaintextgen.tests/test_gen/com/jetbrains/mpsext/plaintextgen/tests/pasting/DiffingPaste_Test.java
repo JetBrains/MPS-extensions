@@ -57,8 +57,8 @@ public class DiffingPaste_Test extends BaseTransformationTest {
     new TestBody(this).test_repeatedLinesHaveDeterministicMapping();
   }
   @Test
-  public void test_cancelledPreviewDoesNotMutate() throws Throwable {
-    new TestBody(this).test_cancelledPreviewDoesNotMutate();
+  public void test_preparingPreviewDoesNotMutate() throws Throwable {
+    new TestBody(this).test_preparingPreviewDoesNotMutate();
   }
   @Test
   public void test_stalePreviewDoesNotMutate() throws Throwable {
@@ -128,9 +128,9 @@ public class DiffingPaste_Test extends BaseTransformationTest {
       initTestNodes();
       runWithinCommand(() -> DiffPasteAssertions.repeatedLinesHaveDeterministicMapping(myProject));
     }
-    public void test_cancelledPreviewDoesNotMutate() throws Exception {
+    public void test_preparingPreviewDoesNotMutate() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> DiffPasteAssertions.cancelledPreviewDoesNotMutate(myProject));
+      runWithinCommand(() -> DiffPasteAssertions.preparingPreviewDoesNotMutate(myProject));
     }
     public void test_stalePreviewDoesNotMutate() throws Exception {
       initTestNodes();

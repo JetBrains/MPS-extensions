@@ -252,7 +252,9 @@ boundaries. Preview generated text to check the actual result.
 Use **Paste text with diff preview** from the intentions menu on a `TextgenText`
 template or a cell inside it. It compares the current literal template text
 with the clipboard text before applying changes. Unlike replacing the entire
-content, it can preserve unchanged words and their generator macros.
+content, it can preserve unchanged words and their generator macros and other
+annotations. With the template itself selected, the same command is also
+available beside the existing paste commands in the editor context menu.
 
 For example, with a property macro on `Example`:
 
@@ -266,13 +268,21 @@ enabled = false
 3. Review the change and choose **Apply paste**. The unchanged `Example` word
    keeps its property macro. Cancel leaves the template untouched.
 
-Replacing annotated text requires separate confirmation. Some layouts require
+Replacing annotated text, including comments, requires separate confirmation.
+Some layouts require
 whole-content replacement; the preview warns you before doing so. Filename,
 encoding, and line-ending settings are kept.
 
 Use Undo to revert a paste. To inspect the original model and macros later,
 invoke **Review latest diffing-paste recovery** on the same template. Recovery
 snapshots survive restarts but are local to your IDE, not shared through Git.
+Every applied change saves the original complete model and an annotation report,
+even when no macro is removed. The files are under
+`<IDE configuration directory>/plaintextgen-paste-recovery/`, grouped by template.
+They remain until you remove them manually; there is no automatic history limit.
+Snapshots can include other templates in the same model. The recovery intention
+is available only after a snapshot has been saved for the selected template.
+
 Developer details are [alongside the implementation](../../../code/extensions/plaintextgen/design.md#diffing-paste).
 
 ## Configure output files

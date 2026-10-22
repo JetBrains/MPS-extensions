@@ -54,9 +54,15 @@ public final class ReviewDiffingPasteRecovery_Intention extends AbstractIntentio
 
     @Override
     public boolean isApplicable(final SNode node, final EditorContext editorContext) {
+      if (!(isApplicableToNode(node, editorContext))) {
+        return false;
+      }
       return true;
     }
 
+    private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
+      return DiffPasteUI.hasRecovery(node);
+    }
 
 
     @Override

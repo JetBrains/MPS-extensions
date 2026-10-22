@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="dhgx5vw8x73bxsrfiq0wlermr4zqinx">
-  <files names="CharacterMatrix.java:DiffPaste.java:DiffPasteUI.java:PasteUnstructuredTextWithTabs_Action.java:PasteUnstructuredText_Action.java:PasterGroup_ActionGroup.java:PlaintextPaster.java:Plaintextgen_ApplicationPlugin.java:startup.properties" />
+<product version="3" modelHash="-1y4eajit45ncovbtodf8em6tbbpkx8a">
+  <files names="CharacterMatrix.java:DiffPaste.java:DiffPasteUI.java:PasteTextWithDiffPreview_Action.java:PasteUnstructuredTextWithTabs_Action.java:PasteUnstructuredText_Action.java:PasterGroup_ActionGroup.java:PlaintextPaster.java:Plaintextgen_ApplicationPlugin.java:startup.properties" />
 </product>
 

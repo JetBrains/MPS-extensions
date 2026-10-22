@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:fcebe162-2c2b-4bf9-a7ed-520878186413(com.dslfoundry.plaintextgen.tests.layouts@tests)">
+<model ref="r:fcebe162-2c2b-4bf9-a7ed-520878186413(com.jetbrains.mpsext.plaintextgen.tests.layouts@tests)">
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
@@ -329,7 +329,7 @@
             <node concept="3clFbF" id="5w9TncedQHP" role="3cqZAp">
               <node concept="2YIFZM" id="5w9TncedQLV" role="3clFbG">
                 <ref role="1Pybhc" to="mqum:5w9TncedIpO" resolve="TextOutputAssertions" />
-                <ref role="37wK5l" to="mqum:5w9TncedIpR" resolve="assertSingleOutput" />
+                <ref role="37wK5l" to="mqum:5w9TnceIuIg" resolve="assertSingleOutput" />
                 <node concept="37vLTw" id="5w9TncedQLW" role="37wK5m">
                   <ref role="3cqZAo" node="5w9TncedQHb" resolve="project" />
                 </node>
@@ -923,7 +923,7 @@
                 <node concept="liA8E" id="5w9TncdMGdV" role="2OqNvi">
                   <ref role="37wK5l" to="dush:~PersistenceFacade.createModelReference(java.lang.String)" resolve="createModelReference" />
                   <node concept="Xl_RD" id="5w9TncdMGdW" role="37wK5m">
-                    <property role="Xl_RC" value="r:2f17ab6e-1fbc-460b-969f-c9fd8950e44d(com.dslfoundry.plaintextgen.tests.layouts)" />
+                    <property role="Xl_RC" value="r:2f17ab6e-1fbc-460b-969f-c9fd8950e44d(com.jetbrains.mpsext.plaintextgen.tests.layouts)" />
                   </node>
                 </node>
               </node>
@@ -1012,7 +1012,7 @@
           </node>
         </node>
       </node>
-      <node concept="3Tm6S6" id="5w9TncdMFZF" role="1B3o_S" />
+      <node concept="3Tm1VV" id="5w9TnceIjj$" role="1B3o_S" />
       <node concept="3uibUv" id="5w9TncdMFZG" role="3clF45">
         <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
       </node>
@@ -1402,7 +1402,7 @@
                 <node concept="liA8E" id="5w9Tncee_ic" role="2OqNvi">
                   <ref role="37wK5l" to="dush:~PersistenceFacade.createModelReference(java.lang.String)" resolve="createModelReference" />
                   <node concept="Xl_RD" id="5w9Tncee_id" role="37wK5m">
-                    <property role="Xl_RC" value="r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.dslfoundry.plaintextgen.tests.fixtures)" />
+                    <property role="Xl_RC" value="r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)" />
                   </node>
                 </node>
               </node>
@@ -1745,7 +1745,7 @@
                 <node concept="3clFbF" id="5w9Tncee_dQ" role="3cqZAp">
                   <node concept="2YIFZM" id="5w9Tncee_hE" role="3clFbG">
                     <ref role="1Pybhc" to="mqum:5w9TncedIpO" resolve="TextOutputAssertions" />
-                    <ref role="37wK5l" to="mqum:5w9TncedIpR" resolve="assertSingleOutput" />
+                    <ref role="37wK5l" to="mqum:5w9TnceIuIg" resolve="assertSingleOutput" />
                     <node concept="37vLTw" id="5w9Tncee_hF" role="37wK5m">
                       <ref role="3cqZAo" node="5w9Tncee_c_" resolve="project" />
                     </node>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:8d412d4f-78ec-4f3f-a898-e7d3e9778326(com.dslfoundry.plaintextgen.tests.lineEndings@tests)">
+<model ref="r:8d412d4f-78ec-4f3f-a898-e7d3e9778326(com.jetbrains.mpsext.plaintextgen.tests.lineEndings@tests)">
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
@@ -660,7 +660,7 @@
                 <node concept="liA8E" id="5w9TncedRGr" role="2OqNvi">
                   <ref role="37wK5l" to="dush:~PersistenceFacade.createModelReference(java.lang.String)" resolve="createModelReference" />
                   <node concept="Xl_RD" id="5w9TncedRGs" role="37wK5m">
-                    <property role="Xl_RC" value="r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.dslfoundry.plaintextgen.tests.fixtures)" />
+                    <property role="Xl_RC" value="r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)" />
                   </node>
                 </node>
               </node>
@@ -934,7 +934,7 @@
                 <node concept="3clFbF" id="5w9TncedRdG" role="3cqZAp">
                   <node concept="2YIFZM" id="5w9TncedRFR" role="3clFbG">
                     <ref role="1Pybhc" to="mqum:5w9TncedIpO" resolve="TextOutputAssertions" />
-                    <ref role="37wK5l" to="mqum:5w9TncedIpR" resolve="assertSingleOutput" />
+                    <ref role="37wK5l" to="mqum:5w9TnceIuIg" resolve="assertSingleOutput" />
                     <node concept="37vLTw" id="5w9TncedRFS" role="37wK5m">
                       <ref role="3cqZAo" node="5w9TncedRcp" resolve="project" />
                     </node>

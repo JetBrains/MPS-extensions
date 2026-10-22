@@ -13,6 +13,34 @@ Start with ordinary PlainTextGen for line-oriented output. Add PlainTextFlow
 when you need explicit control over every line break and indentation prefix,
 for example for multiline strings or indentation-sensitive embedded code.
 
+## Why use PlainTextGen?
+
+### Advantages of this plugin over the default textgen
+
+In short, this plugin brings MPS -> plaintext connectivity in a pretty usable way to MPS.
+
+* Text generation can be part of your normal generator chain and can thus have a place in the generator priorities
+* The language looks similar to the MPS editor language, which helps you to structure/layout your text, including indentation
+* Different use cases are accommodated:
+    * Pasting in larger amounts of text from the clipboard and parametrizing some of it
+    * Making text from scratch and parameterizing some of it
+
+### Differences to standard textgen mechanism
+
+The standard textgen approach assumes that you model your target language (e.g. XML, or C in mbeddr) as an MPS language with all its concepts. Concept textgens provide a simple translation from concept to text. This approach is great for language extensibility, but requires that you model concepts of your target language, which sometimes is too large an investment.
+
+This plugin allows you to write a text template and fill in the gaps using standard macros.
+For example: You generate from your DSL directly to VHDL, but VHDL has not yet been modeled in MPS.
+
+Additionally, because text is now also an MPS model, all standard generator mechanisms (including reductions and generator priorities) apply. This is not the case for the default textgens, which are only triggered after all model to model transformations are complete.
+Also, this approach enables you to implement the textgen as a language extension (and therefore define multiple textgens for the same concept).
+
+You can also target multiple text formats in the same generator run.
+
+PlainTextFlow extends PlainTextGen as a separate, optional language. Importing
+it adds finer whitespace and indentation control without changing existing
+ordinary PlainTextGen templates.
+
 ## Your first generated file
 
 You need an MPS language with a root concept and a solution containing an
@@ -23,8 +51,10 @@ substitute a root concept from your own language.
 ### Install and enable the language
 
 1. Install the PlainTextGen plugin compatible with your MPS version from
-   **Settings > Plugins > Marketplace**, then restart if requested. If you
-   install MPS Extensions another way, make its languages available to the project.
+   **File > Settings > Plugins > Marketplace**: search for `plaintextgen` and
+   choose **Install**, then restart if requested. Older MPS versions call this
+   plugin browser **Browse repositories...**. If you install MPS Extensions
+   another way, make its languages available to the project.
 2. In your language module, create a generator if it does not already have one.
    Open its template model, usually `main@generator`.
 3. Add `com.dslfoundry.plaintextgen` to that model's **Used Languages**
@@ -271,13 +301,13 @@ Two optional overrides let a language supply configuration:
 | Priority | Inspector field | Purpose |
 | --- | --- | --- |
 | Highest | Model/query override (`modelLineEnding`) | A value from the input model/root or another queried source |
-| Next | Settings override (`settingsLineEnding`) | A preference supplied by your language |
+| Next | Settings override (`settingsLineEnding`) | A language's application/project preference |
 | Fallback | LineEnding (`lineEnding`) | The template's own setting |
 
 Overrides accept `Inherit`, `Native`, `CRLF`, `CR`, or `LF`. Both default to
 `Inherit`, which delegates to the next priority. `Native` is an explicit choice,
-not another spelling of `Inherit`. Existing templates retain their output when
-you leave the overrides at `Inherit`.
+not another spelling of `Inherit`. Existing templates need no migration and
+retain their output when you leave the overrides at `Inherit`.
 
 For example, a fallback of `LF` with a settings override of `CRLF` produces
 CRLF. Setting the model/query override to `LF` wins over that settings value.
@@ -287,8 +317,11 @@ For query-fed values, put a standard property macro on either override cell.
 Return an `enummember<LineEndingOverride>`, such as
 `enum/LineEndingOverride/.LF`, or `enum/LineEndingOverride/.Inherit` when the
 source has no configured value. Your language chooses where to read the
-configuration; PlainTextGen does not install a global IDE preference.
-Supply the same configuration during interactive and headless generation.
+configuration; PlainTextGen does not install a global IDE preference or query
+the IDE project during text generation. Keep `lineEnding` as the language
+developer's fallback. Supply the same configuration during interactive and
+headless model-to-model generation; the resulting `TextgenText` carries those
+query results through subsequent generation steps.
 
 ## PlainTextFlow: explicit line breaks and indentation
 
@@ -436,9 +469,12 @@ mapping in the generator, make it, and regenerate the input model.
 
 ## Further examples and tutorials
 
-The [PlainTextGen tutorial](https://dslfoundry.com/plaintextgen-tutorial/) walks
+The [PlainTextGen tutorial](https://dslfoundry.com/plaintextgen-tutorial/) on the
+[DSLFoundry blog](https://dslfoundry.com/) walks
 through importing a source file, parameterizing its filename and words, and
 looping over single- and multiline sections. The
-[MPS Power Users Group presentation](https://github.com/DSLFoundry/mps-teaching/blob/master/Plaintextgen.pdf)
-provides another introduction. These supplement the guide; you do not need to
+[MPS Power Users Group presentation](https://github.com/DSLFoundry/mps-teaching/blob/master/Plaintextgen.pdf),
+given at the [27 February 2019 group meeting](https://mps-community.nl/power-users-group/)
+and hosted in the DSLFoundry MPS teaching repository, provides another
+introduction. These supplement the guide; you do not need to
 follow the external tutorial to generate your first file.

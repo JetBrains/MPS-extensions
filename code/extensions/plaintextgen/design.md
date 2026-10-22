@@ -2,7 +2,7 @@
 
 ## Diffing paste
 
-User instructions are in the [PlainTextGen guide](../../../docs/extensions/generator/plaintext-gen.md#diffing-paste).
+User instructions are in the [PlainTextGen guide](../../../docs/extensions/generator/plaintext-gen.md#update-an-existing-template-with-diffing-paste).
 This document describes preservation boundaries, recovery, and developer checks.
 
 ### Diff and preservation
@@ -16,7 +16,7 @@ not silently attached to different text. Repeated text follows the standard
 differ's deterministic alignment rather than guessing which occurrence a macro
 was meant to annotate.
 
-Before replacing generator annotations, a separate warning lists the affected
+Before replacing annotations from any language, a separate warning lists the affected
 annotation types and original node IDs and requires confirmation. Layouts that
 cannot be mapped safely, such as centered/right-aligned collections or nested
 horizontal compositions, require an explicit whole-content replacement
@@ -24,12 +24,31 @@ confirmation. No content-node preservation is claimed for that fallback.
 Filename, encoding, and line-ending properties on `TextgenText` are retained
 in either case.
 
+Concept checks and containment/property access use native structure literals,
+so extending concepts participate in preservation and refactorings see the
+references. Annotation conflicts include all descendants of the core `Attribute`
+concept, not only generator macros.
+
 Clipboard parsing reuses the existing tab-preserving paste parser. The preview
 shows its actual result, including its treatment of trailing empty lines; this
 is not a byte-for-byte file importer. CRLF and CR are normalized for comparison,
 and template line-ending settings still control generated files. An empty string
 clears content through the new intention. Existing paste actions retain their
 previous empty/null-input behavior.
+
+### Dialogs and model access
+
+Both the intention and the paste-group action defer their UI work until the
+initiating editor command has returned. Preview preparation uses a short model
+command, dialogs run without model read/write access, and only the confirmed
+application enters a separate command. The fingerprint check rejects changes
+made while the preview was open. Recovery similarly copies models in a bounded
+command and opens the projectional diff after releasing model access.
+
+The UI entry points check that no model access is held before opening dialogs.
+Native regressions cover the lock guard and a deferred EDT callback that allows
+a concurrent background model reader to complete. Actual preview and warning
+cancellation remain manual UI checks, not claims made by the plan-preparation test.
 
 ### Recovery
 
@@ -47,7 +66,8 @@ projectional model diff. The left side contains the original model, including
 macro ASTs, for copying and reconstruction. Both sides are temporary copies;
 reviewing recovery cannot edit the current template. The report identifies the
 snapshot location. Older snapshots and adjacent `.txt` reports remain in the
-same directory; the intention selects the latest snapshot for that template.
+same directory; the intention selects the latest snapshot for that template
+and is hidden when its `latest` index does not exist.
 
 ### Manual validation
 
@@ -65,6 +85,11 @@ same directory; the intention selects the latest snapshot for that template.
    pre-paste template. Recovery files intentionally remain on disk.
 7. Try centered/right-aligned or horizontally composed content. Verify the
    whole-content warning and that cancelling preserves layout and macros.
+8. Attach a non-generator annotation to content being replaced. Verify that
+   the confirmation and report include it, and that recovery retains its AST.
+9. With IDE internal mode/assertions enabled, keep a preview or recovery dialog
+   open while a background model reader runs. Model read access must remain
+   available; confirming the paste must still produce one undoable content edit.
 
 ### Automated regression coverage
 
@@ -78,7 +103,8 @@ separate build-script registration.
 | `layouts@tests` | `Layouts` | Alignment, indentation, composition, tabs, whitespace, filenames, and charsets |
 | `generation@tests` | `Generator`, `GeneratedText` | Independent model snapshot; nested/empty property and loop macros; PlainTextFlow reductions |
 | `pasting@tests` | `Pasting` | Indent detection, dedents, blank lines, line endings, tabs, and empty/null input |
-| `pasting@tests` | `DiffingPaste`, `DiffingPasteWords`, `DiffingPasteLayouts`, `DiffingPasteHistory` | Node/macro identity, edits, repeated text, layout fallback, confirmations, stale previews, persistence failure, and recovery history |
+| `pasting@tests` | `DiffingPaste`, `DiffingPasteWords`, `DiffingPasteLayouts`, `DiffingPasteHistory`, `DiffingPasteReview` | Node/annotation identity, edits, repeated text, layout fallback, confirmations, stale previews, persistence failure, recovery history, non-generator attributes, and the dialog lock guard |
+| `pasting@tests` | `DiffingPasteThreading` | Deferred UI work releases model access and permits a concurrent background reader |
 
 For layout regressions, add a template to `layouts` and use
 `PlainTextGenAssertions.assertText(project, template, fileName, encoding,
@@ -99,6 +125,8 @@ the clipboard. Diffing-paste tests use `DiffPaste.prepare` and its explicit appl
 step with an isolated recovery directory. They check normalized clipboard output,
 node identities, file properties, reloading saved models, and successive history.
 They never access the user's clipboard or real recovery directory.
+Each named test contains its own setup and assertions; a shared fixture handles
+temporary models, normalized previews, persistence checks, and cleanup.
 
 The comparison framework from [#1339](https://github.com/JetBrains/MPS-extensions/issues/1339)
 supplies model/text/folder comparisons, generation plans, and interactive diffs;

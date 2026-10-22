@@ -25,6 +25,7 @@
     <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
     <dependency reexport="false">cf681fc9-c798-4f89-af38-ba3c0ac342d9(com.dslfoundry.plaintextflow)</dependency>
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
+    <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:cf681fc9-c798-4f89-af38-ba3c0ac342d9:com.dslfoundry.plaintextflow" version="0" />

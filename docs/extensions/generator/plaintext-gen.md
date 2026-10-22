@@ -36,6 +36,43 @@ A presentation that was held at the 27 February 2019 meeting of [MPS Power Users
 * Split plain text into various cells to apply MPS generator macros to them
 * Paste unstructured text from a buffer to MPS. The structure of this text (indentations, new lines, tabs) will be automatically analyzed and converted into a `TextgenText` structure which you can then parameterize at your convenience.
 
+## Line endings
+
+Select a `TextgenText` root and open its Inspector to configure line endings.
+`LineEnding` is the template's fallback: `CR`, `LF`, `CRLF`, or `Native`
+(the MPS text generation buffer's newline). Its existing default is `CRLF`.
+
+Two optional overrides have a fixed priority:
+
+| Priority | Inspector field | Property | Purpose |
+| --- | --- | --- | --- |
+| Highest | Model/query override | `modelLineEnding` | A model/root-specific value or a query of the input model or another configuration source |
+| Next | Settings override | `settingsLineEnding` | A language's application/project preference |
+| Fallback | LineEnding | `lineEnding` | The existing hard-coded template setting |
+
+Both override properties use `LineEndingOverride`: `Inherit`, `Native`, `CRLF`,
+`CR`, or `LF`. They default to `Inherit`, which delegates to the next priority.
+`Native` is an explicit override, not another spelling of `Inherit`.
+Existing templates need no migration: without overrides their output is unchanged.
+
+In a generator template, attach a standard MPS property macro to either override
+cell. Its query returns an `enummember<LineEndingOverride>`. For example, the
+`modelLineEnding` query can read an input root's configuration, while the
+`settingsLineEnding` query reads the language's own project preferences. Return
+`enum/LineEndingOverride/.Inherit` when that source has no configured value.
+Keep `lineEnding` set to the language developer's fallback.
+
+PlainTextGen deliberately does not introduce a global IDE preference or query the
+IDE project during text generation. Each language opts in by supplying values
+during model-to-model generation, using the same configuration sources in
+interactive and headless builds. The resulting `TextgenText` carries the resolved
+query results through subsequent generation steps.
+
+For example, with `LineEnding` set to `LF` and both overrides set to `Inherit`,
+generated files use LF. Setting the settings override to `CRLF` switches output
+to CRLF. A model/query override of `LF` takes priority over that settings value.
+Set the model/query override back to `Inherit` to use the settings value again.
+
 ## Advantages of this plugin over the default textgen
 In short, this plugin brings MPS -> plaintext connectivity in a pretty usable way to MPS.
 

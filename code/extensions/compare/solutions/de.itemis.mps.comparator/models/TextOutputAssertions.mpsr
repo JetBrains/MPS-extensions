@@ -224,7 +224,7 @@
                 <node concept="1pGfFk" id="5w9TnceIuQe" role="2ShVmc">
                   <ref role="37wK5l" to="wyt6:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
                   <node concept="Xl_RD" id="5w9TnceIuQf" role="37wK5m">
-                    <property role="Xl_RC" value="jetbrains.mps.project.Project, model, filename, encoding and expected bytes are required." />
+                    <property role="Xl_RC" value="Project, model, filename, encoding and expected bytes are required." />
                   </node>
                 </node>
               </node>

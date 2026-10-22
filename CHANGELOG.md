@@ -4,6 +4,13 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## October 2026
+
+### Added
+
+- *com.dslfoundry.plaintextgen* TextgenText has two optional line ending overrides, modelLineEnding and settingsLineEnding, that a generator can fill with property macros. The model/query override wins over the settings override, which wins over the existing lineEnding setting. Both default to Inherit, so existing templates generate the same output as before.
+- *de.itemis.mps.comparator* The new class TextOutputAssertions checks the filename, charset and exact bytes of text generation output, without normalizing line endings.
+
 ## September 2026
 
 ### Fixed

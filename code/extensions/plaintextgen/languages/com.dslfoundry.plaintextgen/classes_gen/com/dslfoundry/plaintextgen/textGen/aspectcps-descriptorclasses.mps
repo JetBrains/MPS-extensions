@@ -560,9 +560,9 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="1u" role="2OqNvi">
-                    <ref role="3TsBF5" to="myiq:7WTFIQIcYwp" resolve="lineEnding" />
-                    <uo k="s:originTrace" v="n:5343426723084238576" />
+                  <node concept="3zqWPK" id="1u" role="2OqNvi">
+                    <ref role="37wK5l" to="3rmn:5w9TncdLpKi" resolve="getEffectiveLineEnding" />
+                    <uo k="s:originTrace" v="n:6343853832443108835" />
                   </node>
                 </node>
                 <node concept="3X5Udd" id="1p" role="3X5gkp">
@@ -914,9 +914,9 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="33" role="2OqNvi">
-                    <ref role="3TsBF5" to="myiq:7WTFIQIcYwp" resolve="lineEnding" />
-                    <uo k="s:originTrace" v="n:5343426723084239372" />
+                  <node concept="3zqWPK" id="33" role="2OqNvi">
+                    <ref role="37wK5l" to="3rmn:5w9TncdLpKi" resolve="getEffectiveLineEnding" />
+                    <uo k="s:originTrace" v="n:6343853832443108807" />
                   </node>
                 </node>
                 <node concept="3X5Udd" id="2Y" role="3X5gkp">
@@ -1774,9 +1774,9 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="7w" role="2OqNvi">
-                    <ref role="3TsBF5" to="myiq:7WTFIQIcYwp" resolve="lineEnding" />
-                    <uo k="s:originTrace" v="n:5343426723084242671" />
+                  <node concept="3zqWPK" id="7w" role="2OqNvi">
+                    <ref role="37wK5l" to="3rmn:5w9TncdLpKi" resolve="getEffectiveLineEnding" />
+                    <uo k="s:originTrace" v="n:6343853832443108629" />
                   </node>
                 </node>
                 <node concept="3X5Udd" id="7r" role="3X5gkp">
@@ -2128,9 +2128,9 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="95" role="2OqNvi">
-                    <ref role="3TsBF5" to="myiq:7WTFIQIcYwp" resolve="lineEnding" />
-                    <uo k="s:originTrace" v="n:5343426723084243891" />
+                  <node concept="3zqWPK" id="95" role="2OqNvi">
+                    <ref role="37wK5l" to="3rmn:5w9TncdLpKi" resolve="getEffectiveLineEnding" />
+                    <uo k="s:originTrace" v="n:6343853832443108718" />
                   </node>
                 </node>
                 <node concept="3X5Udd" id="90" role="3X5gkp">
@@ -2482,9 +2482,9 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="aE" role="2OqNvi">
-                    <ref role="3TsBF5" to="myiq:7WTFIQIcYwp" resolve="lineEnding" />
-                    <uo k="s:originTrace" v="n:5343426723084234570" />
+                  <node concept="3zqWPK" id="aE" role="2OqNvi">
+                    <ref role="37wK5l" to="3rmn:5w9TncdLpKi" resolve="getEffectiveLineEnding" />
+                    <uo k="s:originTrace" v="n:6343853832443108821" />
                   </node>
                 </node>
                 <node concept="3X5Udd" id="a_" role="3X5gkp">

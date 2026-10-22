@@ -1984,6 +1984,73 @@
       <unit id="5915735921188775088" at="30,0,103,0" name="de.itemis.mps.comparator.code.GeneratorFacade" />
     </file>
   </root>
+  <root nodeRef="r:ec874b45-e888-42e6-995a-a298cefdff55(de.itemis.mps.comparator.code)/6343853832450532980">
+    <file name="TextOutputAssertions.java">
+      <node id="6343853832459119541" at="14,103,15,134" concept="19" />
+      <node id="6343853832459119543" at="16,5,17,71" concept="10" />
+      <node id="6343853832459119564" at="18,28,19,101" concept="19" />
+      <node id="6343853832459119565" at="20,5,21,61" concept="4" />
+      <node id="6343853832450533086" at="24,83,25,107" concept="19" />
+      <node id="6343853832450533087" at="26,5,27,20" concept="4" />
+      <node id="6343853832450533103" at="28,55,29,98" concept="19" />
+      <node id="6343853832450533120" at="31,49,32,108" concept="19" />
+      <node id="6343853832450533141" at="34,49,35,129" concept="19" />
+      <node id="6343853832450533143" at="36,5,37,36" concept="10" />
+      <node id="6343853832450533155" at="38,45,39,21" concept="10" />
+      <node id="6343853832450533179" at="41,105,42,19" concept="4" />
+      <node id="6343853832450533206" at="44,7,45,204" concept="19" />
+      <node id="6343853832459102204" at="49,65,50,58" concept="11" />
+      <node id="6343853832459119517" at="13,124,16,5" concept="8" />
+      <node id="6343853832459119550" at="17,71,20,5" concept="8" />
+      <node id="6343853832450533066" at="23,102,26,5" concept="8" />
+      <node id="6343853832450533089" at="27,20,30,5" concept="8" />
+      <node id="6343853832450533104" at="30,5,33,5" concept="8" />
+      <node id="6343853832450533121" at="33,5,36,5" concept="8" />
+      <node id="6343853832450533182" at="40,27,43,9" concept="21" />
+      <node id="6343853832459102198" at="49,0,52,0" concept="9" trace="units#(Ljetbrains/mps/project/Project;Lorg/jetbrains/mps/openapi/model/SModel;)Ljava/util/List;" />
+      <node id="6343853832450533158" at="39,21,44,7" concept="8" />
+      <node id="6343853832450533147" at="37,36,46,5" concept="8" />
+      <node id="6343853832459119504" at="13,0,23,0" concept="15" trace="assertSingleOutput#(Ljetbrains/mps/project/Project;Lorg/jetbrains/mps/openapi/model/SModel;Ljava/lang/String;Ljava/nio/charset/Charset;[B)V" />
+      <node id="6343853832450533055" at="23,0,48,0" concept="15" trace="assertOutput#(Ljetbrains/mps/text/TextUnit;Ljava/lang/String;Ljava/nio/charset/Charset;[B)V" />
+      <scope id="6343853832459119538" at="14,103,15,134" />
+      <scope id="6343853832459119555" at="18,28,19,101" />
+      <scope id="6343853832450533083" at="24,83,25,107" />
+      <scope id="6343853832450533094" at="28,55,29,98" />
+      <scope id="6343853832450533109" at="31,49,32,108" />
+      <scope id="6343853832450533126" at="34,49,35,129" />
+      <scope id="6343853832450533178" at="41,105,42,19" />
+      <scope id="6343853832459102203" at="49,65,50,58" />
+      <scope id="6343853832450533163" at="40,27,43,9" />
+      <scope id="6343853832459102198" at="49,0,52,0">
+        <var name="model" id="6343853832459102201" />
+        <var name="project" id="6343853832459102199" />
+      </scope>
+      <scope id="6343853832450533153" at="38,45,45,204">
+        <var name="offset" id="6343853832450533154" />
+      </scope>
+      <scope id="6343853832459119516" at="13,124,21,61">
+        <var name="units" id="6343853832459119542" />
+      </scope>
+      <scope id="6343853832459119504" at="13,0,23,0">
+        <var name="encoding" id="6343853832459119511" />
+        <var name="expected" id="6343853832459119513" />
+        <var name="fileName" id="6343853832459119509" />
+        <var name="model" id="6343853832459119507" />
+        <var name="project" id="6343853832459119505" />
+      </scope>
+      <scope id="6343853832450533065" at="23,102,46,5">
+        <var name="actual" id="6343853832450533142" />
+      </scope>
+      <scope id="6343853832450533055" at="23,0,48,0">
+        <var name="encoding" id="6343853832450533060" />
+        <var name="expected" id="6343853832450533062" />
+        <var name="fileName" id="6343853832450533058" />
+        <var name="unit" id="6343853832450533056" />
+      </scope>
+      <unit id="6343853832459102195" at="48,0,53,0" name="de.itemis.mps.comparator.code.TextOutputAssertions$OutputBreakdown" />
+      <unit id="6343853832450532980" at="12,0,54,0" name="de.itemis.mps.comparator.code.TextOutputAssertions" />
+    </file>
+  </root>
   <root nodeRef="r:ec874b45-e888-42e6-995a-a298cefdff55(de.itemis.mps.comparator.code)/7265000479148002048">
     <file name="DiffHelper.java">
       <node id="2529503557095424762" at="17,99,18,75" concept="10" />

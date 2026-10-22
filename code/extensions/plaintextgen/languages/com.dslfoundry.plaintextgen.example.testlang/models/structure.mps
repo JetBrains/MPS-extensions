@@ -3,9 +3,11 @@
   <persistence version="9" />
   <languages>
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="4" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
+    <import index="myiq" ref="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -53,6 +55,16 @@
       <property role="TrG5h" value="testProperty" />
       <property role="IQ2nx" value="3661149507326584337" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5w9TnceIOMf" role="1TKVEl">
+      <property role="IQ2nx" value="6343853832459209871" />
+      <property role="TrG5h" value="modelLineEnding" />
+      <ref role="AX2Wp" to="myiq:5w9TncdJz3t" resolve="LineEndingOverride" />
+    </node>
+    <node concept="1TJgyi" id="5w9TnceIOMz" role="1TKVEl">
+      <property role="IQ2nx" value="6343853832459209891" />
+      <property role="TrG5h" value="settingsLineEnding" />
+      <ref role="AX2Wp" to="myiq:5w9TncdJz3t" resolve="LineEndingOverride" />
     </node>
   </node>
   <node concept="1TIwiD" id="4B6IYqj2Am6">

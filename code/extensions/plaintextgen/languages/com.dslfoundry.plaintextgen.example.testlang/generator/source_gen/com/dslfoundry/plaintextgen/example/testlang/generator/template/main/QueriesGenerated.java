@@ -28,6 +28,12 @@ public class QueriesGenerated extends QueryProviderBase {
   public QueriesGenerated() {
     super(1);
   }
+  public static Object propertyMacro_GetValue_1_0(final PropertyMacroContext _context) {
+    return SPropertyOperations.getEnum(_context.getNode(), PROPS.modelLineEnding$ot1g);
+  }
+  public static Object propertyMacro_GetValue_1_1(final PropertyMacroContext _context) {
+    return SPropertyOperations.getEnum(_context.getNode(), PROPS.settingsLineEnding$oF$e);
+  }
   public static Object propertyMacro_GetValue_2_0(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), PROPS.testProperty$pQKR);
   }
@@ -117,6 +123,8 @@ public class QueriesGenerated extends QueryProviderBase {
   private final Map<String, PropertyValueQuery> pvqMethods = new HashMap<String, PropertyValueQuery>();
   {
     int i = 0;
+    pvqMethods.put("6343853832459209876", new PVQ(i++, MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0x5809e5730dbe30e6L, "modelLineEnding"), null));
+    pvqMethods.put("6343853832459209894", new PVQ(i++, MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0x5809e5730dbe30e9L, "settingsLineEnding"), null));
     pvqMethods.put("5316143009141259177", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "TestConcept"));
     pvqMethods.put("5316143009141256459", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "TestSubConcept"));
     pvqMethods.put("5316143009141257945", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "TestSubSubConcept"));
@@ -143,22 +151,26 @@ public class QueriesGenerated extends QueryProviderBase {
     public Object evaluate(@NotNull PropertyMacroContext ctx) throws GenerationFailureException {
       switch (methodKey) {
         case 0:
-          return QueriesGenerated.propertyMacro_GetValue_2_0(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_0(ctx);
         case 1:
-          return QueriesGenerated.propertyMacro_GetValue_2_1(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_1(ctx);
         case 2:
-          return QueriesGenerated.propertyMacro_GetValue_2_2(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_0(ctx);
         case 3:
-          return QueriesGenerated.propertyMacro_GetValue_3_0(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_1(ctx);
         case 4:
-          return QueriesGenerated.propertyMacro_GetValue_3_1(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_2(ctx);
         case 5:
-          return QueriesGenerated.propertyMacro_GetValue_3_2(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_0(ctx);
         case 6:
-          return QueriesGenerated.propertyMacro_GetValue_4_0(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_1(ctx);
         case 7:
-          return QueriesGenerated.propertyMacro_GetValue_4_1(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_3_2(ctx);
         case 8:
+          return QueriesGenerated.propertyMacro_GetValue_4_0(ctx);
+        case 9:
+          return QueriesGenerated.propertyMacro_GetValue_4_1(ctx);
+        case 10:
           return QueriesGenerated.propertyMacro_GetValue_4_2(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
@@ -167,6 +179,8 @@ public class QueriesGenerated extends QueryProviderBase {
   }
 
   private static final class PROPS {
+    /*package*/ static final SProperty modelLineEnding$ot1g = MetaAdapterFactory.getProperty(0x90aa1f1bf65c4e9aL, 0x99b44030e09d0bb2L, 0x32cf04144dcc2610L, 0x5809e5730ebb4c8fL, "modelLineEnding");
+    /*package*/ static final SProperty settingsLineEnding$oF$e = MetaAdapterFactory.getProperty(0x90aa1f1bf65c4e9aL, 0x99b44030e09d0bb2L, 0x32cf04144dcc2610L, 0x5809e5730ebb4ca3L, "settingsLineEnding");
     /*package*/ static final SProperty testProperty$pQKR = MetaAdapterFactory.getProperty(0x90aa1f1bf65c4e9aL, 0x99b44030e09d0bb2L, 0x32cf04144dcc2610L, 0x32cf04144dcc2611L, "testProperty");
     /*package*/ static final SProperty testProperty$74DR = MetaAdapterFactory.getProperty(0x90aa1f1bf65c4e9aL, 0x99b44030e09d0bb2L, 0x49c6bbe6930a6586L, 0x49c6bbe6930a6587L, "testProperty");
     /*package*/ static final SProperty testProperty$75on = MetaAdapterFactory.getProperty(0x90aa1f1bf65c4e9aL, 0x99b44030e09d0bb2L, 0x49c6bbe6930a6589L, 0x49c6bbe6930a658aL, "testProperty");

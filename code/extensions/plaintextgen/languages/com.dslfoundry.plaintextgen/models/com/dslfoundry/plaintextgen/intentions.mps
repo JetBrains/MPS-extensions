@@ -6,17 +6,20 @@
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
     <use id="05f762a9-99f5-4971-a9ed-5a6481dc2be4" name="de.itemis.mps.selection.intentions" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
     <import index="myiq" ref="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)" />
     <import index="b8lf" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.selection(MPS.Editor/)" />
-    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="3rmn" ref="r:b897be85-c7f0-4f6e-a384-6097798b14e3(com.dslfoundry.plaintextgen.behavior)" implicit="true" />
-    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
+    <import index="3rmn" ref="r:b897be85-c7f0-4f6e-a384-6097798b14e3(com.dslfoundry.plaintextgen.behavior)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="k44w" ref="r:359669ec-8146-4c97-9e8a-7f7baa158ff0(com.dslfoundry.plaintextgen.plugin)" />
+    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -50,6 +53,9 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -1852,6 +1858,78 @@
                 <node concept="chp4Y" id="9C_B26HHmK" role="cj9EA">
                   <ref role="cht4Q" to="myiq:Z$zlZaZkv$" resolve="TextgenText" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="5w9TncdU7TA">
+    <property role="TrG5h" value="DiffingPaste" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="myiq:Z$zlZaZkv$" resolve="TextgenText" />
+    <node concept="2S6ZIM" id="5w9TncdU7TB" role="2ZfVej">
+      <node concept="3clFbS" id="5w9TncdU7TC" role="2VODD2">
+        <node concept="3cpWs6" id="5w9TncdU7TD" role="3cqZAp">
+          <node concept="Xl_RD" id="5w9TncdU7TE" role="3cqZAk">
+            <property role="Xl_RC" value="Paste text with diff preview" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="5w9TncdU7TF" role="2ZfgGD">
+      <node concept="3clFbS" id="5w9TncdU7TY" role="2VODD2">
+        <node concept="3clFbF" id="5w9TncdU7TT" role="3cqZAp">
+          <node concept="2YIFZM" id="5w9TncdU7Ui" role="3clFbG">
+            <ref role="1Pybhc" to="k44w:5w9TncdSlDd" resolve="DiffPasteUI" />
+            <ref role="37wK5l" to="k44w:5w9Tnce9$ab" resolve="paste" />
+            <node concept="2Sf5sV" id="5w9TncdU7Uj" role="37wK5m" />
+            <node concept="2OqwBi" id="5w9TncdU7UV" role="37wK5m">
+              <node concept="2OqwBi" id="5w9TncdU7UC" role="2Oq$k0">
+                <node concept="1XNTG" id="5w9TncdU7Um" role="2Oq$k0" />
+                <node concept="liA8E" id="5w9TncdU7UD" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext()" resolve="getOperationContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="5w9TncdU7UW" role="2OqNvi">
+                <ref role="37wK5l" to="w1kc:~IOperationContext.getProject()" resolve="getProject" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="5w9TncdU7TJ">
+    <property role="TrG5h" value="ReviewDiffingPasteRecovery" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="myiq:Z$zlZaZkv$" resolve="TextgenText" />
+    <node concept="2S6ZIM" id="5w9TncdU7TK" role="2ZfVej">
+      <node concept="3clFbS" id="5w9TncdU7TL" role="2VODD2">
+        <node concept="3cpWs6" id="5w9TncdU7TM" role="3cqZAp">
+          <node concept="Xl_RD" id="5w9TncdU7TN" role="3cqZAk">
+            <property role="Xl_RC" value="Review latest diffing-paste recovery" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="5w9TncdU7TO" role="2ZfgGD">
+      <node concept="3clFbS" id="5w9TncdU8c4" role="2VODD2">
+        <node concept="3clFbF" id="5w9TncdU8bZ" role="3cqZAp">
+          <node concept="2YIFZM" id="5w9TncdU8co" role="3clFbG">
+            <ref role="1Pybhc" to="k44w:5w9TncdSlDd" resolve="DiffPasteUI" />
+            <ref role="37wK5l" to="k44w:5w9TncdWhKp" resolve="recover" />
+            <node concept="2Sf5sV" id="5w9TncdU8cp" role="37wK5m" />
+            <node concept="2OqwBi" id="5w9TncdU8d1" role="37wK5m">
+              <node concept="2OqwBi" id="5w9TncdU8cI" role="2Oq$k0">
+                <node concept="1XNTG" id="5w9TncdU8cs" role="2Oq$k0" />
+                <node concept="liA8E" id="5w9TncdU8cJ" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext()" resolve="getOperationContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="5w9TncdU8d2" role="2OqNvi">
+                <ref role="37wK5l" to="w1kc:~IOperationContext.getProject()" resolve="getProject" />
               </node>
             </node>
           </node>

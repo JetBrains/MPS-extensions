@@ -1488,9 +1488,6 @@
     <ref role="1XX52x" to="myiq:2u5C0Bwy3V8" resolve="Tab" />
     <node concept="3F0ifn" id="2u5C0Bwz6Jr" role="2wV5jI">
       <property role="3F0ifm" value="→" />
-      <node concept="15ARfc" id="5WSbPOdh_2p" role="3F10Kt">
-        <property role="3$6WeP" value="3" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="1rAvrZzziLI">
@@ -1498,9 +1495,6 @@
     <ref role="1XX52x" to="myiq:2u5C0Bwy3V8" resolve="Tab" />
     <node concept="3F0ifn" id="1rAvrZzziLJ" role="2wV5jI">
       <property role="3F0ifm" value="→" />
-      <node concept="15ARfc" id="5WSbPOdj1FL" role="3F10Kt">
-        <property role="3$6WeP" value="3" />
-      </node>
     </node>
     <node concept="2aJ2om" id="1rAvrZzzphd" role="CpUAK">
       <ref role="2$4xQ3" node="2jBmyzyH$LX" resolve="Structural" />

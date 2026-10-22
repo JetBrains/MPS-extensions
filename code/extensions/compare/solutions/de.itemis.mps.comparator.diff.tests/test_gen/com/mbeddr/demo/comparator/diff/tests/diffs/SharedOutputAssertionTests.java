@@ -9,6 +9,7 @@ import jetbrains.mps.text.TextUnit;
 import java.util.List;
 import de.itemis.mps.comparator.code.TextOutputAssertions;
 import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 
 public class SharedOutputAssertionTests {
   private static SModel fixture(Project project) {
@@ -75,5 +76,32 @@ public class SharedOutputAssertionTests {
       return;
     }
     throw new AssertionError("A null output unit must be rejected.");
+  }
+  public static void acceptsMatchingOutput(Project project) {
+    TextUnit sample = unit(project);
+    sample.generate();
+    byte[] bytes = sample.getBytes();
+    byte[] expected = Arrays.copyOf(bytes, bytes.length);
+    TextOutputAssertions.assertOutput(unit(project), sample.getFileName(), sample.getEncoding(), expected);
+  }
+  public static void reportsSameLengthMismatchOffset(Project project) {
+    TextUnit sample = unit(project);
+    sample.generate();
+    byte[] bytes = sample.getBytes();
+    byte[] expected = Arrays.copyOf(bytes, bytes.length);
+    if (expected.length < 2) {
+      throw new AssertionError("The Java fixture must contain at least two bytes.");
+    }
+    expected[1] = (byte) (expected[1] ^ 1);
+    try {
+      TextOutputAssertions.assertOutput(unit(project), sample.getFileName(), sample.getEncoding(), expected);
+    } catch (AssertionError failure) {
+      String diagnostic = "at offset 1: expected " + expected.length + " bytes, got " + expected.length;
+      if (failure.getMessage().contains(diagnostic)) {
+        return;
+      }
+      throw failure;
+    }
+    throw new AssertionError("A same-length byte mismatch must be rejected.");
   }
 }

@@ -21312,6 +21312,11 @@
               </node>
             </node>
           </node>
+          <node concept="1SiIV0" id="5w9TnceVTky" role="3bR37C">
+            <node concept="3bR9La" id="5w9TnceVTkz" role="1SiIV1">
+              <ref role="3bR37D" node="T8sXq9o593" resolve="com.dslfoundry.plaintextgen.example.testlang" />
+            </node>
+          </node>
         </node>
         <node concept="3rtmxn" id="5py4VqXmLOg" role="3bR31x">
           <node concept="3LXTmp" id="5py4VqXmLOh" role="3rtmxm">
@@ -21355,6 +21360,11 @@
             <node concept="3qWCbU" id="7q24334ZKEK" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5w9TnceVTkw" role="3bR37C">
+          <node concept="3bR9La" id="5w9TnceVTkx" role="1SiIV1">
+            <ref role="3bR37D" node="2NTGYE$JTGY" resolve="com.dslfoundry.plaintextgen" />
           </node>
         </node>
       </node>
@@ -21552,7 +21562,7 @@
       </node>
       <node concept="1E1JtA" id="5w9TncdMAR_" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="com.dslfoundry.plaintextgen.tests" />
+        <property role="TrG5h" value="com.jetbrains.mpsext.plaintextgen.tests" />
         <property role="3LESm3" value="cbe231e9-6c54-40b7-ae76-17e8e1a0df9d" />
         <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="5w9TncdMARA" role="3LF7KH">
@@ -21562,9 +21572,9 @@
             <node concept="2Ry0Ak" id="5w9TncdMARC" role="2Ry0An">
               <property role="2Ry0Am" value="solutions" />
               <node concept="2Ry0Ak" id="5w9TncdMARD" role="2Ry0An">
-                <property role="2Ry0Am" value="com.dslfoundry.plaintextgen.tests" />
+                <property role="2Ry0Am" value="com.jetbrains.mpsext.plaintextgen.tests" />
                 <node concept="2Ry0Ak" id="5w9TncdMARE" role="2Ry0An">
-                  <property role="2Ry0Am" value="com.dslfoundry.plaintextgen.tests.msd" />
+                  <property role="2Ry0Am" value="com.jetbrains.mpsext.plaintextgen.tests.msd" />
                 </node>
               </node>
             </node>
@@ -21582,7 +21592,7 @@
                 <node concept="2Ry0Ak" id="5w9TncdMARK" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="5w9TncdMARL" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.dslfoundry.plaintextgen.tests" />
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.plaintextgen.tests" />
                   </node>
                 </node>
               </node>
@@ -21601,7 +21611,7 @@
                 <node concept="2Ry0Ak" id="5w9TncdMARQ" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="5w9TncdMARR" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.dslfoundry.plaintextgen.tests" />
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.plaintextgen.tests" />
                     <node concept="2Ry0Ak" id="5w9TncdMARS" role="2Ry0An">
                       <property role="2Ry0Am" value="models" />
                     </node>
@@ -26956,7 +26966,7 @@
         <ref role="L2wRA" node="3sHcYAWpgHi" resolve="test.nl.f1re.mps.aliascustomization" />
       </node>
       <node concept="L2wRC" id="5w9TncdMAU2" role="39821P">
-        <ref role="L2wRA" node="5w9TncdMAR_" resolve="com.dslfoundry.plaintextgen.tests" />
+        <ref role="L2wRA" node="5w9TncdMAR_" resolve="com.jetbrains.mpsext.plaintextgen.tests" />
       </node>
     </node>
     <node concept="2igEWh" id="H43MYuxQDj" role="1hWBAP">
@@ -27061,7 +27071,7 @@
         <ref role="22LTRN" node="3sHcYAWpgHi" resolve="test.nl.f1re.mps.aliascustomization" />
       </node>
       <node concept="22LTRM" id="5w9TncdMARU" role="22LTRK">
-        <ref role="22LTRN" node="5w9TncdMAR_" resolve="com.dslfoundry.plaintextgen.tests" />
+        <ref role="22LTRN" node="5w9TncdMAR_" resolve="com.jetbrains.mpsext.plaintextgen.tests" />
       </node>
     </node>
     <node concept="2igEWh" id="1OMGwhrtizD" role="1hWBAP">

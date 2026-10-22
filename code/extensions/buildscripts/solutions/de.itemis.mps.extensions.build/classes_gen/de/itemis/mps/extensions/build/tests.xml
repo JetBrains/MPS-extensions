@@ -2788,6 +2788,7 @@
           <module ref="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" kind="rt" />
           <module ref="31f56055-9d30-42b3-a2b1-fb3f554d7075(jetbrains.mps.lang.smodel.query.runtime)" kind="rt" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
+          <module ref="990507d3-3527-4c54-bfe9-0ca3c9c6247a(com.dslfoundry.plaintextgen)" kind="cl" />
           <module ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" kind="cl" />
         </dependencies>
         <uses>
@@ -5627,10 +5628,10 @@
       <zipfileset file="${extensions.code}/alias-customization/solutions/test.nl.f1re.mps.aliascustomization/test.nl.f1re.mps.aliascustomization.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/alias-customization-solutions-test.nl.f1re.mps.aliascustomization-models" prefix="module/models" />
     </jar>
-    <mkdir dir="${build.tmp}/default/com.dslfoundry.plaintextgen.tests.jar" />
-    <mkdir dir="${build.tmp}/default/com.dslfoundry.plaintextgen.tests.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/com.dslfoundry.plaintextgen.tests.jar/META-INF/module.xml">
-      <module namespace="com.dslfoundry.plaintextgen.tests" type="solution" uuid="cbe231e9-6c54-40b7-ae76-17e8e1a0df9d">
+    <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.plaintextgen.tests.jar" />
+    <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.plaintextgen.tests.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/com.jetbrains.mpsext.plaintextgen.tests.jar/META-INF/module.xml">
+      <module namespace="com.jetbrains.mpsext.plaintextgen.tests" type="solution" uuid="cbe231e9-6c54-40b7-ae76-17e8e1a0df9d">
         <dependencies>
           <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="rt" />
           <module ref="49808fad-9d41-4b96-83fa-9231640f6b2b(JUnit)" kind="rt" />
@@ -5676,27 +5677,27 @@
         <classpath>
           <entry path="." />
         </classpath>
-        <sources jar="com.dslfoundry.plaintextgen.tests-src.jar" descriptor="com.dslfoundry.plaintextgen.tests.msd" />
+        <sources jar="com.jetbrains.mpsext.plaintextgen.tests-src.jar" descriptor="com.jetbrains.mpsext.plaintextgen.tests.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/com.dslfoundry.plaintextgen.tests.jar" duplicate="preserve">
-      <fileset dir="${build.tmp}/java/out/com.dslfoundry.plaintextgen.tests" />
-      <fileset dir="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.tests" includes="icons/**, resources/**" />
-      <fileset dir="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.tests/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
-      <fileset dir="${build.tmp}/default/com.dslfoundry.plaintextgen.tests.jar" />
+    <jar destfile="${build.layout}/com.jetbrains.mpsext.plaintextgen.tests.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/com.jetbrains.mpsext.plaintextgen.tests" />
+      <fileset dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.tests" includes="icons/**, resources/**" />
+      <fileset dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.tests/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/com.jetbrains.mpsext.plaintextgen.tests.jar" />
     </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/plaintextgen-solutions-com.dslfoundry.plaintextgen.tests-models">
-      <fileset dir="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.tests/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/plaintextgen-solutions-com.jetbrains.mpsext.plaintextgen.tests-models">
+      <fileset dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.tests/models" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/com.dslfoundry.plaintextgen.tests-src.jar" duplicate="preserve">
-      <fileset dir="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.tests/source_gen">
+    <jar destfile="${build.layout}/com.jetbrains.mpsext.plaintextgen.tests-src.jar" duplicate="preserve">
+      <fileset dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.tests/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
         <exclude name="**/checkpoints" />
         <exclude name="**/*.mps" />
       </fileset>
-      <zipfileset file="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.tests/com.dslfoundry.plaintextgen.tests.msd" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/plaintextgen-solutions-com.dslfoundry.plaintextgen.tests-models" prefix="module/models" />
+      <zipfileset file="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.tests/com.jetbrains.mpsext.plaintextgen.tests.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/plaintextgen-solutions-com.jetbrains.mpsext.plaintextgen.tests-models" prefix="module/models" />
     </jar>
     <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mps.runtimeBuild=${mps.runtimeBuild}${line.separator}mpsBootstrapCore.version.major=${mpsBootstrapCore.version.major}${line.separator}mpsBootstrapCore.version.minor=${mpsBootstrapCore.version.minor}${line.separator}mpsBootstrapCore.version.bugfixNr=${mpsBootstrapCore.version.bugfixNr}${line.separator}mpsBootstrapCore.version.eap=${mpsBootstrapCore.version.eap}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}de.itemis.mps.extensions.version=${de.itemis.mps.extensions.version}</echo>
   </target>
@@ -5714,7 +5715,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.kotlin.usage.test, java.compile.com.mbeddr.mpsutil.grammarcells.sandboxlang, java.compile.com.mbeddr.mpsutil.grammarcells.tests, java.compile.de.itemis.mps.structurecheck.runtime, java.compile.de.itemis.mps.structurecheck, java.compile.de.itemis.mps.structurecheck#380240910834170735, java.compile.test.de.slisson.mps.tables, java.compile.test.de.slisson.mps.tables.runtime, java.compile.de.slisson.mps.tables.demolang, java.compile.test.de.slisson.mps.tables.lang, java.compile.test.de.slisson.mps.tables.lang.generator, java.compile.test.com.mbeddr.mpsutil.blutil.genutil.lang, java.compile.test.com.mbeddr.mpsutil.blutil.genutil.lang#4213334375079416143, java.compile.test.com.mbeddr.mpsutil.blutil.genutil, java.compile.test.com.mbeddr.mpsutil.blutil.doc, java.compile.test.ts.conceptswitch, java.compile.test.ex.match, java.compile.de.itemis.mps.blutil.sandbox, java.compile.de.itemis.mps.nodeversioning.test, java.compile.de.itemis.model.merge.diamond, java.compile.de.itemis.model.merge.simple.demo.annotated, java.compile.de.itemis.model.simple.demo.children, java.compile.de.itemis.model.simple.demo.collection, java.compile.de.itemis.model.simple.demo.collection.keeper, java.compile.de.itemis.model.simple.demo.collection.ref, java.compile.de.itemis.model.simple.demo.collection.ref.generator, java.compile.de.itemis.model.simple.demo.enums, java.compile.de.itemis.model.simple.demo.enums.generator, java.compile.de.itemis.model.simple.demo.property, java.compile.de.itemis.model.simple.demo.reference, java.compile.test.de.itemis.mps.modelmerger.testlanguage, java.compile.de.itemis.model.merge.baselang.sandbox, java.compile.de.itemis.model.merge.simple.demo, java.compile.de.itemis.model.merge.test, java.compile.de.itemis.mps.modelmerger.testhelper, java.compile.tests.de.itemis.mps.modelmerger, java.compile.de.itemis.model.merge.test.integration, java.compile.test.de.itemis.model.merge, java.compile.com.dslfoundry.plaintextgen.example.nestedlist, java.compile.com.dslfoundry.plaintextgen.example.nestedlist#7022720084780710580, java.compile.com.dslfoundry.plaintextgen.example.testlang, java.compile.com.dslfoundry.plaintextgen.example.testlang#3661149507326583883, java.compile.com.dslfoundry.plaintextgen.example.nestedlist.sandbox, java.compile.com.dslfoundry.plaintextgen.example.plaintextflow, java.compile.com.dslfoundry.plaintextgen.example.testlang.sandbox, java.compile.com.dslfoundry.plaintextgen.tests, java.compile.test.org.modelix.model.mpsadapters, java.compile.de.itemis.mps.editor.pagination.test, java.compile.test.de.q60.mps.shadowmodels.examples, java.compile.test.de.q60.mps.shadowmodels.runtime, java.compile.test.de.q60.mps.incremental.runtime, java.compile.de.itemis.mps.editor.collapsible.testlang, java.compile.de.itemis.mps.editor.enumeration.demolang, java.compile.de.itemis.mps.editor.dropdown.demolang, java.compile.de.itemis.mps.editor.bool.demolang, java.compile.nl.f1re.mps.editor.swing.demolang, java.compile.de.itemis.mps.editor.enumeration.sandbox, java.compile.de.itemis.mps.editor.dropdown.sandbox, java.compile.de.itemis.mps.editor.bool.sandbox, java.compile.de.itemis.mps.editor.collapsible.sandbox, java.compile.test.de.itemis.mps.editor.bool.runtime, java.compile.nl.f1re.mps.editor.swing.sandbox, java.compile.de.slisson.mps.javadoc, java.compile.de.slisson.mps.richtext.sandbox, java.compile.test.de.slisson.mps.richtext, java.compile.de.slisson.mps.editor.multiline.demolang, java.compile.de.slisson.mps.editor.multiline.sandbox, java.compile.test.de.slisson.mps.editor.multiline, java.compile.de.slisson.mps.conditionalEditor.demolang, java.compile.de.slisson.mps.conditionalEditor.sandbox, java.compile.de.itemis.mps.editor.math.demolang, java.compile.de.itemis.mps.editor.math.java, java.compile.de.itemis.mps.editor.math.java#9023431908320258336, java.compile.de.itemis.mps.editor.math.sandbox, java.compile.de.itemis.mps.editor.math.tests, java.compile.test.de.itemis.mps.editor.celllayout, java.compile.test.de.itemis.mps.editor.celllayout.lang, java.compile.de.itemis.mps.editor.celllayout.sandboxlang, java.compile.de.itemis.mps.editor.celllayout.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.activity, java.compile.test.de.itemis.mps.editor.diagram.lang, java.compile.test.de.itemis.mps.editor.diagram.solution, java.compile.de.itemis.mps.editor.diagram.demolang, java.compile.de.itemis.mps.editor.diagram.demolang#5806942359871451541, java.compile.de.itemis.mps.editor.diagram.demoentities, java.compile.de.itemis.mps.editor.diagram.demo.callgraph, java.compile.de.itemis.mps.editor.diagram.demo.elk, java.compile.de.itemis.mps.editor.diagram.demo.elk.generator, java.compile.de.itemis.mps.editor.diagram.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.ports, java.compile.de.itemis.mps.editor.diagram.demo.ports.generator, java.compile.de.itemis.mps.editor.diagram.demo.ports.sandbox, java.compile.de.itemis.mps.editor.diagram.demoentities.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.activity.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.elk.sandbox, java.compile.com.mbeddr.mpsutil.intentions.tests, java.compile.de.itemis.mps.comparator.diff.tests, java.compile.test.de.itemis.mps.compare, java.compile.de.itemis.mps.compare.pattern.test, java.compile.test.de.itemis.mps.compare.testlang, java.compile.nl.f1re.mpsutil.hasher.tests, java.compile.nl.f1re.testing.examples.lang, java.compile.nl.f1re.testing.examples.lang.generator, java.compile.nl.f1re.testing.examples, java.compile.test.com.mbeddr.mpsutil.modellisteners, java.compile.test.nl.f1re.mps.aliascustomization.demolang, java.compile.test.nl.f1re.mps.aliascustomization, java.compile.de.itemis.mps.editor.htmlcell.demolang, java.compile.com.mbeddr.mpsutil.modellisteners.sandboxlang, java.compile.com.mbeddr.mpsutil.editor.querylist.demolang, java.compile.de.itemis.mps.editor.pagination.demolang, java.compile.com.mbeddr.mpsutil.intentions.sandboxlang, java.compile.com.mbeddr.mpsutil.intentions.sandboxlang.generator, java.compile.com.mbeddr.mpsutil.treenotation.sandboxlang" />
+  <target name="compileJava" depends="java.compile.kotlin.usage.test, java.compile.com.mbeddr.mpsutil.grammarcells.sandboxlang, java.compile.com.mbeddr.mpsutil.grammarcells.tests, java.compile.de.itemis.mps.structurecheck.runtime, java.compile.de.itemis.mps.structurecheck, java.compile.de.itemis.mps.structurecheck#380240910834170735, java.compile.test.de.slisson.mps.tables, java.compile.test.de.slisson.mps.tables.runtime, java.compile.de.slisson.mps.tables.demolang, java.compile.test.de.slisson.mps.tables.lang, java.compile.test.de.slisson.mps.tables.lang.generator, java.compile.test.com.mbeddr.mpsutil.blutil.genutil.lang, java.compile.test.com.mbeddr.mpsutil.blutil.genutil.lang#4213334375079416143, java.compile.test.com.mbeddr.mpsutil.blutil.genutil, java.compile.test.com.mbeddr.mpsutil.blutil.doc, java.compile.test.ts.conceptswitch, java.compile.test.ex.match, java.compile.de.itemis.mps.blutil.sandbox, java.compile.de.itemis.mps.nodeversioning.test, java.compile.de.itemis.model.merge.diamond, java.compile.de.itemis.model.merge.simple.demo.annotated, java.compile.de.itemis.model.simple.demo.children, java.compile.de.itemis.model.simple.demo.collection, java.compile.de.itemis.model.simple.demo.collection.keeper, java.compile.de.itemis.model.simple.demo.collection.ref, java.compile.de.itemis.model.simple.demo.collection.ref.generator, java.compile.de.itemis.model.simple.demo.enums, java.compile.de.itemis.model.simple.demo.enums.generator, java.compile.de.itemis.model.simple.demo.property, java.compile.de.itemis.model.simple.demo.reference, java.compile.test.de.itemis.mps.modelmerger.testlanguage, java.compile.de.itemis.model.merge.baselang.sandbox, java.compile.de.itemis.model.merge.simple.demo, java.compile.de.itemis.model.merge.test, java.compile.de.itemis.mps.modelmerger.testhelper, java.compile.tests.de.itemis.mps.modelmerger, java.compile.de.itemis.model.merge.test.integration, java.compile.test.de.itemis.model.merge, java.compile.com.dslfoundry.plaintextgen.example.nestedlist, java.compile.com.dslfoundry.plaintextgen.example.nestedlist#7022720084780710580, java.compile.com.dslfoundry.plaintextgen.example.testlang, java.compile.com.dslfoundry.plaintextgen.example.testlang#3661149507326583883, java.compile.com.dslfoundry.plaintextgen.example.nestedlist.sandbox, java.compile.com.dslfoundry.plaintextgen.example.plaintextflow, java.compile.com.dslfoundry.plaintextgen.example.testlang.sandbox, java.compile.com.jetbrains.mpsext.plaintextgen.tests, java.compile.test.org.modelix.model.mpsadapters, java.compile.de.itemis.mps.editor.pagination.test, java.compile.test.de.q60.mps.shadowmodels.examples, java.compile.test.de.q60.mps.shadowmodels.runtime, java.compile.test.de.q60.mps.incremental.runtime, java.compile.de.itemis.mps.editor.collapsible.testlang, java.compile.de.itemis.mps.editor.enumeration.demolang, java.compile.de.itemis.mps.editor.dropdown.demolang, java.compile.de.itemis.mps.editor.bool.demolang, java.compile.nl.f1re.mps.editor.swing.demolang, java.compile.de.itemis.mps.editor.enumeration.sandbox, java.compile.de.itemis.mps.editor.dropdown.sandbox, java.compile.de.itemis.mps.editor.bool.sandbox, java.compile.de.itemis.mps.editor.collapsible.sandbox, java.compile.test.de.itemis.mps.editor.bool.runtime, java.compile.nl.f1re.mps.editor.swing.sandbox, java.compile.de.slisson.mps.javadoc, java.compile.de.slisson.mps.richtext.sandbox, java.compile.test.de.slisson.mps.richtext, java.compile.de.slisson.mps.editor.multiline.demolang, java.compile.de.slisson.mps.editor.multiline.sandbox, java.compile.test.de.slisson.mps.editor.multiline, java.compile.de.slisson.mps.conditionalEditor.demolang, java.compile.de.slisson.mps.conditionalEditor.sandbox, java.compile.de.itemis.mps.editor.math.demolang, java.compile.de.itemis.mps.editor.math.java, java.compile.de.itemis.mps.editor.math.java#9023431908320258336, java.compile.de.itemis.mps.editor.math.sandbox, java.compile.de.itemis.mps.editor.math.tests, java.compile.test.de.itemis.mps.editor.celllayout, java.compile.test.de.itemis.mps.editor.celllayout.lang, java.compile.de.itemis.mps.editor.celllayout.sandboxlang, java.compile.de.itemis.mps.editor.celllayout.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.activity, java.compile.test.de.itemis.mps.editor.diagram.lang, java.compile.test.de.itemis.mps.editor.diagram.solution, java.compile.de.itemis.mps.editor.diagram.demolang, java.compile.de.itemis.mps.editor.diagram.demolang#5806942359871451541, java.compile.de.itemis.mps.editor.diagram.demoentities, java.compile.de.itemis.mps.editor.diagram.demo.callgraph, java.compile.de.itemis.mps.editor.diagram.demo.elk, java.compile.de.itemis.mps.editor.diagram.demo.elk.generator, java.compile.de.itemis.mps.editor.diagram.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.ports, java.compile.de.itemis.mps.editor.diagram.demo.ports.generator, java.compile.de.itemis.mps.editor.diagram.demo.ports.sandbox, java.compile.de.itemis.mps.editor.diagram.demoentities.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.activity.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.elk.sandbox, java.compile.com.mbeddr.mpsutil.intentions.tests, java.compile.de.itemis.mps.comparator.diff.tests, java.compile.test.de.itemis.mps.compare, java.compile.de.itemis.mps.compare.pattern.test, java.compile.test.de.itemis.mps.compare.testlang, java.compile.nl.f1re.mpsutil.hasher.tests, java.compile.nl.f1re.testing.examples.lang, java.compile.nl.f1re.testing.examples.lang.generator, java.compile.nl.f1re.testing.examples, java.compile.test.com.mbeddr.mpsutil.modellisteners, java.compile.test.nl.f1re.mps.aliascustomization.demolang, java.compile.test.nl.f1re.mps.aliascustomization, java.compile.de.itemis.mps.editor.htmlcell.demolang, java.compile.com.mbeddr.mpsutil.modellisteners.sandboxlang, java.compile.com.mbeddr.mpsutil.editor.querylist.demolang, java.compile.de.itemis.mps.editor.pagination.demolang, java.compile.com.mbeddr.mpsutil.intentions.sandboxlang, java.compile.com.mbeddr.mpsutil.intentions.sandboxlang.generator, java.compile.com.mbeddr.mpsutil.treenotation.sandboxlang" />
   
   <target name="processResources" />
   
@@ -5856,7 +5857,7 @@
       <chunk>
         <module file="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.nestedlist.sandbox/com.dslfoundry.plaintextgen.example.nestedlist.sandbox.msd" />
         <module file="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.testlang.sandbox/com.dslfoundry.plaintextgen.example.testlang.sandbox.msd" />
-        <module file="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.tests/com.dslfoundry.plaintextgen.tests.msd" />
+        <module file="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.tests/com.jetbrains.mpsext.plaintextgen.tests.msd" />
         <module file="${grammarcells.home}/solutions/com.mbeddr.mpsutil.grammarcells.tests/com.mbeddr.mpsutil.grammarcells.tests.msd" />
         <module file="${extensions.code}/solutions/com.mbeddr.mpsutil.intentions.tests/com.mbeddr.mpsutil.intentions.tests.msd" />
         <module file="${extensions.code}/languages/de.itemis.model.merge.baselang/sandbox/de.itemis.model.merge.baselang.sandbox.msd" />
@@ -17158,6 +17159,7 @@
         <fileset file="${artifacts.IDEA}/lib/intellij.platform.whatsNew.jar" />
         <fileset file="${artifacts.IDEA}/lib/intellij.xml.parser.jar" />
         <fileset file="${artifacts.IDEA}/lib/swingx.jar" />
+        <fileset file="${artifacts.de.itemis.mps.extensions}/com.dslfoundry.plaintextgen/languages/com.dslfoundry.plaintextgen/com.dslfoundry.plaintextgen.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.dataFlow.runtime.jar" />
@@ -17529,14 +17531,14 @@
     </javac2>
   </target>
   
-  <target name="java.compile.com.dslfoundry.plaintextgen.tests" depends="java.compile.com.dslfoundry.plaintextgen.example.testlang, fetchDependencies">
-    <mkdir dir="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.tests/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/com.dslfoundry.plaintextgen.tests" />
-    <javac2 destdir="${build.tmp}/java/out/com.dslfoundry.plaintextgen.tests" fork="false" encoding="utf8" includeantruntime="false" debug="true" source="11" target="11">
+  <target name="java.compile.com.jetbrains.mpsext.plaintextgen.tests" depends="java.compile.com.dslfoundry.plaintextgen.example.testlang, fetchDependencies">
+    <mkdir dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.tests/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/com.jetbrains.mpsext.plaintextgen.tests" />
+    <javac2 destdir="${build.tmp}/java/out/com.jetbrains.mpsext.plaintextgen.tests" fork="false" encoding="utf8" includeantruntime="false" debug="true" source="11" target="11">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.tests/source_gen" />
-        <pathelement path="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.tests/test_gen/" />
+        <path location="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.tests/source_gen" />
+        <pathelement path="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.tests/test_gen/" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
@@ -36729,7 +36731,7 @@
       <pathelement location="${build.layout}/test.de.itemis.mps.editor.bool.runtime.jar" />
       <pathelement location="${build.layout}/nl.f1re.mpsutil.hasher.tests.jar" />
       <pathelement location="${build.layout}/test.nl.f1re.mps.aliascustomization.jar" />
-      <pathelement location="${build.layout}/com.dslfoundry.plaintextgen.tests.jar" />
+      <pathelement location="${build.layout}/com.jetbrains.mpsext.plaintextgen.tests.jar" />
     </path>
     <pathconvert property="mps.tests.path.string" refid="mps.tests.path" />
     <property name="build.jna.library.path" location="${artifacts.mps}/lib/jna" />
@@ -36913,7 +36915,7 @@
     <delete dir="${extensions.code}/blutil/tests/test.ts.conceptswitch/source_gen" />
     <delete dir="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.nestedlist.sandbox/source_gen" />
     <delete dir="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.testlang.sandbox/source_gen" />
-    <delete dir="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.tests/source_gen" />
+    <delete dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.tests/source_gen" />
     <delete dir="${grammarcells.home}/solutions/com.mbeddr.mpsutil.grammarcells.tests/source_gen" />
     <delete dir="${extensions.code}/solutions/com.mbeddr.mpsutil.intentions.tests/source_gen" />
     <delete dir="${extensions.code}/languages/de.itemis.model.merge.baselang/sandbox/source_gen" />
@@ -36960,7 +36962,7 @@
     <delete dir="${extensions.code}/blutil/tests/test.ts.match/test_gen" />
     <delete dir="${extensions.code}/model-api/test.org.modelix.model.mpsadapters/test_gen" />
     <delete dir="${extensions.code}/blutil/tests/test.ts.conceptswitch/test_gen" />
-    <delete dir="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.tests/test_gen" />
+    <delete dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.tests/test_gen" />
     <delete dir="${grammarcells.home}/solutions/com.mbeddr.mpsutil.grammarcells.tests/test_gen" />
     <delete dir="${extensions.code}/solutions/com.mbeddr.mpsutil.intentions.tests/test_gen" />
     <delete dir="${extensions.code}/solutions/de.itemis.model.merge.simple.demo/test_gen" />

@@ -9,12 +9,12 @@ import java.util.List;
 import jetbrains.mps.text.TextUnit;
 import java.util.Arrays;
 
-public class TextOutputAssertions extends TextComparison {
+public class TextOutputAssertions {
   public static void assertSingleOutput(Project project, SModel model, String fileName, Charset encoding, byte[] expected) {
     if (project == null || model == null || fileName == null || encoding == null || expected == null) {
-      throw new IllegalArgumentException("Project, model, filename, encoding and expected bytes are required.");
+      throw new IllegalArgumentException("jetbrains.mps.project.Project, model, filename, encoding and expected bytes are required.");
     }
-    List<TextUnit> units = new TextOutputAssertions().breakdownToUnits(model, project, null, null);
+    List<TextUnit> units = new OutputBreakdown().units(project, model);
     if (units.size() != 1) {
       throw new AssertionError("Expected one output file for " + fileName + ", got " + units.size());
     }
@@ -43,6 +43,11 @@ public class TextOutputAssertions extends TextComparison {
         }
       }
       throw new AssertionError("Byte mismatch for " + fileName + " at offset " + offset + ": expected " + expected.length + " bytes, got " + ((actual == null ? "null" : Integer.toString(actual.length))));
+    }
+  }
+  private static class OutputBreakdown extends TextComparison {
+    private List<TextUnit> units(Project project, SModel model) {
+      return breakdownToUnits(model, project, null, null);
     }
   }
 }

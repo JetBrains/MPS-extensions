@@ -9,6 +9,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Added
 
 - *com.dslfoundry.plaintextgen* TextgenText has two optional line ending overrides, modelLineEnding and settingsLineEnding, that a generator can fill with property macros. The model/query override wins over the settings override, which wins over the existing lineEnding setting. Both default to Inherit, so existing templates generate the same output as before.
+- *com.dslfoundry.plaintextgen* The new intention Paste text with diff preview updates a TextgenText from text in the clipboard. It shows the change in a diff first and keeps unchanged lines and words together with their generator macros. Before each change it saves the original model locally, outside the project, and the intention Review latest diffing-paste recovery compares that copy with the current template.
 - *de.itemis.mps.comparator* The new class TextOutputAssertions checks the filename, charset and exact bytes of text generation output, without normalizing line endings.
 
 ## September 2026

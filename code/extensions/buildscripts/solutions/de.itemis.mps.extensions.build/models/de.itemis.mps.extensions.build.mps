@@ -21649,6 +21649,16 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
+        <node concept="1SiIV0" id="5w9TncdMZwg" role="3bR37C">
+          <node concept="3bR9La" id="5w9TncdMZwh" role="1SiIV1">
+            <ref role="3bR37D" node="T8sXq9o593" resolve="com.dslfoundry.plaintextgen.example.testlang" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5w9TncdP5Hw" role="3bR37C">
+          <node concept="3bR9La" id="5w9TncdP5Hx" role="1SiIV1">
+            <ref role="3bR37D" node="77YfcvOKCUm" resolve="de.itemis.mps.compare" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="7g5FWGK0Kfe" role="3989C9">

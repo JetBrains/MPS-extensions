@@ -91,6 +91,52 @@ For a manual check, make the `lineEndings` template in
 5. Check `Native` as an explicit override; it uses the MPS buffer's platform
    newline. Restore the fixture's original settings after experimenting.
 
+## Regression tests
+
+Open the `com.dslfoundry.plaintextgen.tests` solution in the extensions project.
+Its test models separate three concerns:
+
+| Test model suffix | Test case | Coverage |
+| --- | --- | --- |
+| `lineEndings@tests` | `LineEndings` | Exact-byte fallback and override precedence |
+| `layouts@tests` | `Layouts` | Left/center/right alignment, odd-width centering, nested indentation, horizontal/vertical composition, tabs, blank lines, explicit spaces, empty templates, filenames, and UTF-8/ISO-8859-1/UTF-16LE encoding |
+| `generation@tests` | `Generator` | The example language's complex layout template, compared against an independent expected model |
+
+Make the solution, then run these test cases as MPS tests (individually or in a
+combined configuration). The solution is included in the repository's existing
+test build; new test models do not need separate build-script registration.
+
+For a layout/textgen regression, add a template to the `layouts` fixture model and
+a test using `PlainTextGenAssertions.assertText(project, template, fileName,
+encoding, expectedText)`. This small **test-only** helper copies the template into
+a temporary model, uses the existing comparator's textgen breakdown, checks the
+generated state, filename and charset, and compares the exact bytes. It does not
+normalize whitespace or line endings. Always specify the template's line ending
+when the expected string must be independent of the host platform.
+
+For model-to-model generator regressions, use `de.itemis.mps.compare` and the
+existing `assert generated model ... equals ...` assertion, as demonstrated by
+`Generator`. The expected layout is a checked-in snapshot, not copied from the
+generator during the test. Its output filter selects `map_TestConcept` because
+the example language also has three independent macro templates; this case does
+not claim to cover those templates.
+
+The general generator-testing facility delivered by
+[#1339](https://github.com/JetBrains/MPS-extensions/issues/1339) already supplies
+model comparison, generated-text and folder comparison, generation plans and
+interactive diffs. PlainTextGen does not need another testing language or runner.
+The byte/charset helper supplements that facility for the encoding and exact
+newline concerns in [#490](https://github.com/JetBrains/MPS-extensions/issues/490);
+decoded text equality alone cannot establish either.
+
+This is initial coverage for [#182](https://github.com/JetBrains/MPS-extensions/issues/182)
+and [#188](https://github.com/JetBrains/MPS-extensions/issues/188), not a claim of
+complete coverage: clipboard indentation detection, the other macro templates
+and PlainTextFlow still need dedicated cases. The right-aligned indentation case
+explicitly preserves the existing extra padding: the group's width includes its
+indentation before alignment adds that indentation again. Changing that behavior
+is outside these regression tests.
+
 ## Advantages of this plugin over the default textgen
 In short, this plugin brings MPS -> plaintext connectivity in a pretty usable way to MPS.
 

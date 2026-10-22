@@ -1493,39 +1493,35 @@
       <unit id="1650144576587770990" at="13,0,24,0" name="com.dslfoundry.plaintextgen.editor.Tab_Structural_Editor" />
     </file>
     <file name="Tab_Structural_EditorBuilder_a.java">
-      <node id="1650144576587770990" at="21,94,22,19" concept="12" />
-      <node id="1650144576587770990" at="22,19,23,18" concept="2" />
-      <node id="1650144576587770990" at="28,26,29,18" concept="8" />
-      <node id="1650144576587770990" at="32,39,33,30" concept="8" />
-      <node id="1650144576587770991" at="36,41,37,94" concept="7" />
-      <node id="1650144576587770991" at="37,94,38,46" concept="2" />
-      <node id="1650144576587770991" at="38,46,39,28" concept="2" />
-      <node id="1650144576587770991" at="39,28,40,31" concept="2" />
-      <node id="1650144576587770991" at="40,31,41,34" concept="7" />
-      <node id="6861286109000506097" at="41,34,42,78" concept="2" />
-      <node id="1650144576587770991" at="42,78,43,40" concept="2" />
-      <node id="1650144576587770991" at="43,40,44,34" concept="2" />
-      <node id="1650144576587770991" at="44,34,45,22" concept="8" />
-      <node id="1650144576587770990" at="18,0,20,0" concept="3" trace="myNode" />
-      <node id="1650144576587770990" at="32,0,35,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1650144576587770990" at="21,0,25,0" concept="1" trace="Tab_Structural_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1650144576587770990" at="26,0,31,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="1650144576587770991" at="36,0,47,0" concept="6" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1650144576587770990" at="28,26,29,18" />
-      <scope id="1650144576587770990" at="32,39,33,30" />
-      <scope id="1650144576587770990" at="21,94,23,18" />
-      <scope id="1650144576587770990" at="32,0,35,0" />
-      <scope id="1650144576587770990" at="21,0,25,0">
+      <node id="1650144576587770990" at="16,94,17,19" concept="12" />
+      <node id="1650144576587770990" at="17,19,18,18" concept="2" />
+      <node id="1650144576587770990" at="23,26,24,18" concept="8" />
+      <node id="1650144576587770990" at="27,39,28,30" concept="8" />
+      <node id="1650144576587770991" at="31,41,32,94" concept="7" />
+      <node id="1650144576587770991" at="32,94,33,46" concept="2" />
+      <node id="1650144576587770991" at="33,46,34,28" concept="2" />
+      <node id="1650144576587770991" at="34,28,35,31" concept="2" />
+      <node id="1650144576587770991" at="35,31,36,34" concept="2" />
+      <node id="1650144576587770991" at="36,34,37,22" concept="8" />
+      <node id="1650144576587770990" at="13,0,15,0" concept="3" trace="myNode" />
+      <node id="1650144576587770990" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="1650144576587770990" at="16,0,20,0" concept="1" trace="Tab_Structural_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1650144576587770990" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1650144576587770991" at="31,0,39,0" concept="6" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="1650144576587770990" at="23,26,24,18" />
+      <scope id="1650144576587770990" at="27,39,28,30" />
+      <scope id="1650144576587770990" at="16,94,18,18" />
+      <scope id="1650144576587770990" at="27,0,30,0" />
+      <scope id="1650144576587770990" at="16,0,20,0">
         <var name="context" id="1650144576587770990" />
         <var name="node" id="1650144576587770990" />
       </scope>
-      <scope id="1650144576587770990" at="26,0,31,0" />
-      <scope id="1650144576587770991" at="36,41,45,22">
+      <scope id="1650144576587770990" at="21,0,26,0" />
+      <scope id="1650144576587770991" at="31,41,37,22">
         <var name="editorCell" id="1650144576587770991" />
-        <var name="style" id="1650144576587770991" />
       </scope>
-      <scope id="1650144576587770991" at="36,0,47,0" />
-      <unit id="1650144576587770990" at="17,0,48,0" name="com.dslfoundry.plaintextgen.editor.Tab_Structural_EditorBuilder_a" />
+      <scope id="1650144576587770991" at="31,0,39,0" />
+      <unit id="1650144576587770990" at="12,0,40,0" name="com.dslfoundry.plaintextgen.editor.Tab_Structural_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:24b3048c-1397-4aa3-93e4-09ca4438cddf(com.dslfoundry.plaintextgen.editor)/2659193236632662922">
@@ -2782,39 +2778,35 @@
       <unit id="2847858303663881937" at="10,0,15,0" name="com.dslfoundry.plaintextgen.editor.Tab_Editor" />
     </file>
     <file name="Tab_EditorBuilder_a.java">
-      <node id="2847858303663881937" at="21,83,22,19" concept="12" />
-      <node id="2847858303663881937" at="22,19,23,18" concept="2" />
-      <node id="2847858303663881937" at="28,26,29,18" concept="8" />
-      <node id="2847858303663881937" at="32,39,33,30" concept="8" />
-      <node id="2847858303664155611" at="36,41,37,94" concept="7" />
-      <node id="2847858303664155611" at="37,94,38,46" concept="2" />
-      <node id="2847858303664155611" at="38,46,39,28" concept="2" />
-      <node id="2847858303664155611" at="39,28,40,31" concept="2" />
-      <node id="2847858303664155611" at="40,31,41,34" concept="7" />
-      <node id="6861286109000126617" at="41,34,42,78" concept="2" />
-      <node id="2847858303664155611" at="42,78,43,40" concept="2" />
-      <node id="2847858303664155611" at="43,40,44,34" concept="2" />
-      <node id="2847858303664155611" at="44,34,45,22" concept="8" />
-      <node id="2847858303663881937" at="18,0,20,0" concept="3" trace="myNode" />
-      <node id="2847858303663881937" at="32,0,35,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2847858303663881937" at="21,0,25,0" concept="1" trace="Tab_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="2847858303663881937" at="26,0,31,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="2847858303664155611" at="36,0,47,0" concept="6" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2847858303663881937" at="28,26,29,18" />
-      <scope id="2847858303663881937" at="32,39,33,30" />
-      <scope id="2847858303663881937" at="21,83,23,18" />
-      <scope id="2847858303663881937" at="32,0,35,0" />
-      <scope id="2847858303663881937" at="21,0,25,0">
+      <node id="2847858303663881937" at="16,83,17,19" concept="12" />
+      <node id="2847858303663881937" at="17,19,18,18" concept="2" />
+      <node id="2847858303663881937" at="23,26,24,18" concept="8" />
+      <node id="2847858303663881937" at="27,39,28,30" concept="8" />
+      <node id="2847858303664155611" at="31,41,32,94" concept="7" />
+      <node id="2847858303664155611" at="32,94,33,46" concept="2" />
+      <node id="2847858303664155611" at="33,46,34,28" concept="2" />
+      <node id="2847858303664155611" at="34,28,35,31" concept="2" />
+      <node id="2847858303664155611" at="35,31,36,34" concept="2" />
+      <node id="2847858303664155611" at="36,34,37,22" concept="8" />
+      <node id="2847858303663881937" at="13,0,15,0" concept="3" trace="myNode" />
+      <node id="2847858303663881937" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="2847858303663881937" at="16,0,20,0" concept="1" trace="Tab_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2847858303663881937" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="2847858303664155611" at="31,0,39,0" concept="6" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="2847858303663881937" at="23,26,24,18" />
+      <scope id="2847858303663881937" at="27,39,28,30" />
+      <scope id="2847858303663881937" at="16,83,18,18" />
+      <scope id="2847858303663881937" at="27,0,30,0" />
+      <scope id="2847858303663881937" at="16,0,20,0">
         <var name="context" id="2847858303663881937" />
         <var name="node" id="2847858303663881937" />
       </scope>
-      <scope id="2847858303663881937" at="26,0,31,0" />
-      <scope id="2847858303664155611" at="36,41,45,22">
+      <scope id="2847858303663881937" at="21,0,26,0" />
+      <scope id="2847858303664155611" at="31,41,37,22">
         <var name="editorCell" id="2847858303664155611" />
-        <var name="style" id="2847858303664155611" />
       </scope>
-      <scope id="2847858303664155611" at="36,0,47,0" />
-      <unit id="2847858303663881937" at="17,0,48,0" name="com.dslfoundry.plaintextgen.editor.Tab_EditorBuilder_a" />
+      <scope id="2847858303664155611" at="31,0,39,0" />
+      <unit id="2847858303663881937" at="12,0,40,0" name="com.dslfoundry.plaintextgen.editor.Tab_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:24b3048c-1397-4aa3-93e4-09ca4438cddf(com.dslfoundry.plaintextgen.editor)/4059077796232568186">

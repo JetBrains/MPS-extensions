@@ -125,12 +125,21 @@ public class PlaintextPaster {
    * Preserve tabs
    */
   public static void pastePlainTextWithTabs(SNode node) {
+    String text = getStringFromClipboard();
+    if ((text != null && text.length() > 0)) {
+      SNodeOperations.replaceWithAnother(node, verticalLinesFromText(text));
+    }
+  }
+  /**
+   * Preserve tabs
+   */
+  public static SNode verticalLinesFromText(String inputText) {
     Stack<Integer> levels = new Stack();
     Stack<SNode> containers = new Stack<SNode>();
     containers.add(SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L, "com.dslfoundry.plaintextgen.structure.VerticalLines")));
     levels.add(0);
 
-    String text = getStringFromClipboard();
+    String text = inputText;
     if ((text != null && text.length() > 0)) {
       for (String line : text.split("\\r?\\n")) {
         SNode lineNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL, "com.dslfoundry.plaintextgen.structure.Line"));
@@ -142,7 +151,7 @@ public class PlaintextPaster {
           ListSequence.fromList(SLinkOperations.getChildren(lineNode, LINKS.words$teE6)).clear();
           String[] parts = line.split("\t", -1);
           for (String x : parts) {
-            if (shouldCreateWord(x)) {
+            if ((x != null && x.length() > 0)) {
               SPropertyOperations.assign(SLinkOperations.addNewChild(lineNode, LINKS.words$teE6, CONCEPTS.Word$dj), PROPS.name$MnvL, x);
             }
             SLinkOperations.addNewChild(lineNode, LINKS.words$teE6, CONCEPTS.Tab$tC);
@@ -153,11 +162,8 @@ public class PlaintextPaster {
         }
         ListSequence.fromList(SLinkOperations.getChildren(containers.peek(), LINKS.lines$u7C)).addElement(lineNode);
       }
-      SNodeOperations.replaceWithAnother(node, containers.firstElement());
     }
-  }
-  public static boolean shouldCreateWord(String part) {
-    return part != null && !(part.isEmpty());
+    return containers.firstElement();
   }
   private static boolean isEmptyString(String str) {
     return str == null || str.isEmpty();

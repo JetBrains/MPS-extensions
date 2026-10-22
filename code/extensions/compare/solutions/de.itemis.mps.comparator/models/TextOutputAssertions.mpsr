@@ -243,7 +243,7 @@
             <node concept="2OqwBi" id="5w9TnceIuZT" role="33vP2m">
               <node concept="2ShNRf" id="5w9TnceIuQo" role="2Oq$k0">
                 <node concept="HV5vD" id="5w9TnceIuQq" role="2ShVmc">
-                  <ref role="HV5vE" node="5w9TnceIqvN" resolve="OutputBreakdown" />
+                  <ref role="HV5vE" node="5w9TnceIqvN" resolve="TextOutputAssertions.OutputBreakdown" />
                 </node>
               </node>
               <node concept="liA8E" id="5w9TnceIuZU" role="2OqNvi">
@@ -426,7 +426,7 @@
               </node>
             </node>
             <node concept="Rm8GO" id="5w9TncedJiL" role="3uHU7w">
-              <ref role="1Px2BO" to="ao3:~TextUnit$Status" resolve="Status" />
+              <ref role="1Px2BO" to="ao3:~TextUnit$Status" resolve="TextUnit.Status" />
               <ref role="Rm8GQ" to="ao3:~TextUnit$Status.Generated" resolve="Generated" />
             </node>
           </node>

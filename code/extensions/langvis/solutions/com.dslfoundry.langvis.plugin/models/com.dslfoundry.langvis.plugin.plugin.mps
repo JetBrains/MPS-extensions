@@ -3487,17 +3487,28 @@
             </node>
             <node concept="liA8E" id="75V$0rwj2Pe" role="2OqNvi">
               <ref role="37wK5l" to="qkt:~Presentation.setEnabledAndVisible(boolean)" resolve="setEnabledAndVisible" />
-              <node concept="2OqwBi" id="75V$0rwj2Pf" role="37wK5m">
-                <node concept="Rm8GO" id="75V$0rwj2Pg" role="2Oq$k0">
-                  <ref role="1Px2BO" to="w1kc:~LanguageAspect" resolve="LanguageAspect" />
-                  <ref role="Rm8GQ" to="w1kc:~LanguageAspect.STRUCTURE" resolve="STRUCTURE" />
-                </node>
-                <node concept="liA8E" id="75V$0rwj2Ph" role="2OqNvi">
-                  <ref role="37wK5l" to="w1kc:~LanguageAspect.is(org.jetbrains.mps.openapi.model.SModel)" resolve="is" />
-                  <node concept="2OqwBi" id="75V$0rwj2Pk" role="37wK5m">
-                    <node concept="2WthIp" id="75V$0rwj2Pl" role="2Oq$k0" />
-                    <node concept="3gHZIF" id="75V$0rwj2Pm" role="2OqNvi">
+              <node concept="1Wc70l" id="75V$0rwnOSt" role="37wK5m">
+                <node concept="3y3z36" id="75V$0rwnOSu" role="3uHU7B">
+                  <node concept="2OqwBi" id="75V$0rwnOSz" role="3uHU7B">
+                    <node concept="2WthIp" id="75V$0rwnOS$" role="2Oq$k0" />
+                    <node concept="3gHZIF" id="75V$0rwnOS_" role="2OqNvi">
                       <ref role="2WH_rO" node="5BfOSIzemZ2" resolve="structure" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="75V$0rwnOSw" role="3uHU7w" />
+                </node>
+                <node concept="2OqwBi" id="75V$0rwj2Pf" role="3uHU7w">
+                  <node concept="Rm8GO" id="75V$0rwj2Pg" role="2Oq$k0">
+                    <ref role="1Px2BO" to="w1kc:~LanguageAspect" resolve="LanguageAspect" />
+                    <ref role="Rm8GQ" to="w1kc:~LanguageAspect.STRUCTURE" resolve="STRUCTURE" />
+                  </node>
+                  <node concept="liA8E" id="75V$0rwj2Ph" role="2OqNvi">
+                    <ref role="37wK5l" to="w1kc:~LanguageAspect.is(org.jetbrains.mps.openapi.model.SModel)" resolve="is" />
+                    <node concept="2OqwBi" id="75V$0rwj2Pk" role="37wK5m">
+                      <node concept="2WthIp" id="75V$0rwj2Pl" role="2Oq$k0" />
+                      <node concept="3gHZIF" id="75V$0rwj2Pm" role="2OqNvi">
+                        <ref role="2WH_rO" node="5BfOSIzemZ2" resolve="structure" />
+                      </node>
                     </node>
                   </node>
                 </node>

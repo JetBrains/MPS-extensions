@@ -5,7 +5,7 @@
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -16,6 +16,9 @@
     <import index="znq1" ref="r:98a2eebd-7770-4676-8724-b8b325151ba1(com.jetbrains.mpsext.richtext.styles.behavior)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="5991739802479784073" name="jetbrains.mps.lang.editor.structure.MenuTypeDefault" flags="ng" index="22hDWj" />
       <concept id="2000375450116423800" name="jetbrains.mps.lang.editor.structure.SubstituteMenu" flags="ng" index="22mcaB" />
@@ -119,7 +122,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2644386474302386080" name="jetbrains.mps.lang.smodel.structure.PropertyIdRefExpression" flags="nn" index="355D3s">
         <reference id="2644386474302386081" name="conceptDeclaration" index="355D3t" />
         <reference id="2644386474302386082" name="propertyDeclaration" index="355D3u" />
@@ -216,7 +218,7 @@
               <node concept="3cpWs6" id="413d4NAeHa3" role="3cqZAp">
                 <node concept="2OqwBi" id="413d4NAeHpZ" role="3cqZAk">
                   <node concept="pncrf" id="413d4NAeHbe" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="413d4NAeHC3" role="2OqNvi">
+                  <node concept="3zqWPK" id="2TC2zKbCQXA" role="2OqNvi">
                     <ref role="37wK5l" to="znq1:6NYYseXJd_E" resolve="getForegroundColor" />
                   </node>
                 </node>
@@ -230,7 +232,7 @@
               <node concept="3cpWs6" id="413d4NAeHO1" role="3cqZAp">
                 <node concept="2OqwBi" id="413d4NAeI7w" role="3cqZAk">
                   <node concept="pncrf" id="413d4NAeHSJ" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="413d4NAeIl$" role="2OqNvi">
+                  <node concept="3zqWPK" id="2TC2zKbCQXC" role="2OqNvi">
                     <ref role="37wK5l" to="znq1:6NYYseXJyUi" resolve="getBackgroundColor" />
                   </node>
                 </node>
@@ -245,7 +247,7 @@
               <node concept="3cpWs6" id="413d4NAeIE6" role="3cqZAp">
                 <node concept="2OqwBi" id="413d4NAeISc" role="3cqZAk">
                   <node concept="pncrf" id="413d4NAeIFc" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="413d4NAeJ9J" role="2OqNvi">
+                  <node concept="3zqWPK" id="2TC2zKbCQXE" role="2OqNvi">
                     <ref role="37wK5l" to="znq1:6NYYseXJ_1P" resolve="getFontStyle" />
                   </node>
                 </node>

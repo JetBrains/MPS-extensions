@@ -81,9 +81,13 @@ the current literal template text and the proposed clipboard text. Cancel leaves
 the model untouched. **Apply paste** reuses unchanged content instead of
 rebuilding the complete template.
 
+With the template itself selected, the same command is also available beside
+the existing paste commands in the editor context menu.
+
 This is useful when updating a template from a newer version of an example file:
-unchanged text can keep its generator macros. If a change would remove macros,
-you must confirm it separately. Some layouts require replacing all content; the
+unchanged text can keep its generator macros and other annotations. If a change
+would remove annotations, including comments, you must confirm it separately.
+Some layouts require replacing all content; the
 preview warns you before doing so. Filename, encoding, and line-ending settings
 are kept.
 
@@ -105,6 +109,12 @@ enabled = false
 Use Undo to revert a paste. To inspect the original model and macros later,
 invoke **Review latest diffing-paste recovery** on the same template. Recovery
 snapshots survive MPS restarts but are local to your IDE, not shared through Git.
+Every applied change saves the original complete model and an annotation report,
+even when no macro is removed. The files are under
+`<IDE configuration directory>/plaintextgen-paste-recovery/`, grouped by template.
+They remain until you remove them manually; there is no automatic history limit.
+Snapshots can include other templates in the same model. The recovery intention
+is available only after a snapshot has been saved for the selected template.
 
 Developer design notes and validation guidance are kept
 [alongside the implementation](../../../code/extensions/plaintextgen/design.md#diffing-paste).

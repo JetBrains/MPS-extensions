@@ -1883,7 +1883,7 @@
         <node concept="3clFbF" id="5w9TncdU7TT" role="3cqZAp">
           <node concept="2YIFZM" id="5w9TncdU7Ui" role="3clFbG">
             <ref role="1Pybhc" to="k44w:5w9TncdSlDd" resolve="DiffPasteUI" />
-            <ref role="37wK5l" to="k44w:5w9Tnce9$ab" resolve="paste" />
+            <ref role="37wK5l" to="k44w:5w9TncfjMy$" resolve="paste" />
             <node concept="2Sf5sV" id="5w9TncdU7Uj" role="37wK5m" />
             <node concept="2OqwBi" id="5w9TncdU7UV" role="37wK5m">
               <node concept="2OqwBi" id="5w9TncdU7UC" role="2Oq$k0">
@@ -1919,7 +1919,7 @@
         <node concept="3clFbF" id="5w9TncdU8bZ" role="3cqZAp">
           <node concept="2YIFZM" id="5w9TncdU8co" role="3clFbG">
             <ref role="1Pybhc" to="k44w:5w9TncdSlDd" resolve="DiffPasteUI" />
-            <ref role="37wK5l" to="k44w:5w9TncdWhKp" resolve="recover" />
+            <ref role="37wK5l" to="k44w:5w9Tncfk2il" resolve="recover" />
             <node concept="2Sf5sV" id="5w9TncdU8cp" role="37wK5m" />
             <node concept="2OqwBi" id="5w9TncdU8d1" role="37wK5m">
               <node concept="2OqwBi" id="5w9TncdU8cI" role="2Oq$k0">
@@ -1932,6 +1932,17 @@
                 <ref role="37wK5l" to="w1kc:~IOperationContext.getProject()" resolve="getProject" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="5w9TncftReI" role="2ZfVeh">
+      <node concept="3clFbS" id="5w9TncftReQ" role="2VODD2">
+        <node concept="3cpWs6" id="5w9TncftReN" role="3cqZAp">
+          <node concept="2YIFZM" id="5w9TncftReS" role="3cqZAk">
+            <ref role="1Pybhc" to="k44w:5w9TncdSlDd" resolve="DiffPasteUI" />
+            <ref role="37wK5l" to="k44w:5w9TncfiWCu" resolve="hasRecovery" />
+            <node concept="2Sf5sV" id="5w9TncftReT" role="37wK5m" />
           </node>
         </node>
       </node>

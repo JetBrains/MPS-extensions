@@ -68,29 +68,6 @@ during model-to-model generation, using the same configuration sources in
 interactive and headless builds. The resulting `TextgenText` carries the resolved
 query results through subsequent generation steps.
 
-### Checking line endings
-
-The `com.dslfoundry.plaintextgen.tests` solution contains the `LineEndings`
-test case in `com.dslfoundry.plaintextgen.tests.lineEndings@tests`.
-Run it as an MPS test. It checks exact output bytes, without newline
-normalization, for absent overrides, explicit `Inherit`, all four line-ending
-styles, precedence, and isolation between templates. The solution is also
-registered in the `tests` build script.
-
-For a manual check, make the `lineEndings` template in
-`com.dslfoundry.plaintextgen.tests.fixtures`. Inspect the generated
-`lineEndings.txt` with a hex viewer rather than an editor that normalizes newlines:
-
-1. Leave both overrides at `Inherit`. Changing `LineEnding` must still select
-   `0D` (CR), `0A` (LF), or `0D 0A` (CRLF) after both lines.
-2. Set `LineEnding` to `LF` and the settings override to `CR`. Both lines must end
-   in `0D`.
-3. Set the model/query override to `CRLF`. It must win over both other settings.
-4. Set the model/query override to `Inherit` again. The settings override must
-   take effect. Set both overrides to `Inherit` to restore the template fallback.
-5. Check `Native` as an explicit override; it uses the MPS buffer's platform
-   newline. Restore the fixture's original settings after experimenting.
-
 ## Diffing paste
 
 Select a `TextgenText` template (or a cell inside it) and invoke **Paste text with
@@ -99,133 +76,33 @@ the current literal template text and the proposed clipboard text. Cancel leaves
 the model untouched. **Apply paste** reuses unchanged content instead of
 rebuilding the complete template.
 
-The implementation uses IntelliJ's standard line and character comparison APIs.
-For left-aligned vertical/space-indented layouts with `Word` and `Tab` leaves, it
-retains the original unchanged groups, lines, and whole words, including their
-generator annotations and node identities. An unchanged annotated word can
-therefore survive an edit elsewhere on the same line. A partially changed word
-is replaced; its property macro is not silently attached to different text.
-Repeated text follows the standard differ's deterministic alignment, rather than
-guessing which occurrence a macro was meant to annotate.
+This is useful when updating a template from a newer version of an example file:
+unchanged text can keep its generator macros. If a change would remove macros,
+you must confirm it separately. Some layouts require replacing all content; the
+preview warns you before doing so. Filename, encoding, and line-ending settings
+are kept.
 
-Before replacing any generator annotations, a separate warning lists the
-affected annotation types and original node IDs and requires confirmation.
-Layouts that cannot be mapped safely, such as centered/right-aligned collections
-or nested horizontal compositions, require an explicit **whole-content
-replacement** confirmation instead. No content-node preservation is claimed for
-that fallback. The original filename, encoding, and line-ending properties on
-`TextgenText` are retained in either case.
+### Example: update a template without recreating its macros
 
-Clipboard parsing reuses the existing tab-preserving paste parser. The preview
-shows its actual result, including its existing treatment of trailing empty
-lines; it is not a byte-for-byte file importer. CRLF and CR are normalized for
-comparison, and the template's line-ending settings still control generated
-files. An empty string clears the content through this new intention. The
-existing paste actions keep their previous empty/null-input behavior.
+Suppose your template contains the following text, with a property macro on
+`Example`:
 
-### Local recovery
+```text
+name = Example
+enabled = false
+```
 
-Every applied change first saves the original **complete model**, using standard
-MPS persistence, and a report of replaced annotations. If saving fails, the paste
-does not modify the template. Snapshots are stored under
-`plaintextgen-paste-recovery` in the IDE configuration directory, outside the
-project and Git. They survive MPS restarts and cache invalidation; they are local
-to that IDE configuration, not shared with colleagues or committed with source.
-Snapshots are retained until manually removed and may include other roots from
-the original model.
+1. In a text editor, change `false` to `true` and copy both lines.
+2. In MPS, select the template and invoke **Paste text with diff preview**.
+3. Review the change, then choose **Apply paste**. The unchanged `Example`
+   word keeps its property macro. Choose Cancel instead to leave everything as is.
 
-Invoke **Review latest diffing-paste recovery** on the same template to read the
-report and open the standard MPS projectional model diff. Its left side contains
-the original model content, including macro ASTs, for copying and reconstruction.
-Both sides are temporary copies, so reviewing recovery cannot edit the current
-template. The dialog/report identifies the snapshot's filesystem location.
-Older snapshots and their adjacent `.txt` reports remain in the same directory;
-the intention opens the most recent snapshot for that template.
+Use Undo to revert a paste. To inspect the original model and macros later,
+invoke **Review latest diffing-paste recovery** on the same template. Recovery
+snapshots survive MPS restarts but are local to your IDE, not shared through Git.
 
-### Manual check
-
-1. Use a disposable template with a property macro on a word and, preferably,
-   a loop macro on an indented group. Put matching literal template text in a
-   text editor and change or insert a different line.
-2. Copy that text, invoke **Paste text with diff preview**, and cancel. Check
-   that neither content nor macros changed. Repeat and apply; unchanged
-   annotated content must retain its macros.
-3. Change only an unannotated word on the same line as the annotated word.
-   Apply the paste and verify that the unchanged word's property macro survives.
-4. Replace the annotated word with different text. Verify the extra warning;
-   cancel it first, then repeat and confirm. Read the saved annotation report.
-5. Invoke **Review latest diffing-paste recovery**, inspect/copy the original
-   macros from the left side, close the dialog, restart MPS, and review again.
-6. Check indentation, tabs and internal blank lines, and verify that Undo
-   restores the pre-paste template. Recovery files intentionally remain on disk.
-7. Try a centered/right-aligned or horizontally composed template. Confirm that
-   the whole-layout warning is explicit, and that cancelling it preserves the
-   original layout and macros.
-
-## Regression tests
-
-Open the `com.dslfoundry.plaintextgen.tests` solution in the extensions project.
-Its test models separate four concerns:
-
-| Test model suffix | Test case | Coverage |
-| --- | --- | --- |
-| `lineEndings@tests` | `LineEndings` | Exact-byte fallback and override precedence |
-| `layouts@tests` | `Layouts` | Left/center/right alignment, odd-width centering, nested indentation, horizontal/vertical composition, tabs, blank lines, explicit spaces, empty templates, filenames, and UTF-8/ISO-8859-1/UTF-16LE encoding |
-| `generation@tests` | `Generator`, `GeneratedText` | An independent model snapshot for the complex layout template; exact text for nested and empty property/loop macros, tabbed/mixed templates, and PlainTextFlow word/soft-wrap/hard-wrap/nested-flow reductions |
-| `pasting@tests` | `Pasting` | Structural indentation detection, dedents, blank lines, CRLF, tab expansion/preservation, and empty/null input |
-| `pasting@tests` | `DiffingPaste`, `DiffingPasteWords`, `DiffingPasteLayouts`, `DiffingPasteHistory` | Unchanged node/macro identity; insert/change/delete; word-level preservation on changed lines; repeated text; tabs/blank lines; confirmation/cancellation; stale previews; persistence failure; reloadable original-model recovery and successive-paste history; unsupported-layout reporting |
-
-Make the solution, then run these test cases as MPS tests (individually or in a
-combined configuration). The solution is included in the repository's existing
-test build; new test models do not need separate build-script registration.
-
-For a layout/textgen regression, add a template to the `layouts` fixture model and
-a test using `PlainTextGenAssertions.assertText(project, template, fileName,
-encoding, expectedText)`. This small **test-only** helper copies the template into
-a temporary model, uses the existing comparator's textgen breakdown, checks the
-generated state, filename and charset, and compares the exact bytes. It does not
-normalize whitespace or line endings. Always specify the template's line ending
-when the expected string must be independent of the host platform.
-
-For model-to-model generator regressions, use `de.itemis.mps.compare` and the
-existing `assert generated model ... equals ...` assertion, as demonstrated by
-`Generator`. The expected layout is a checked-in snapshot, not copied from the
-generator during the test. Its output filter selects `map_TestConcept` because
-the example language also has three independent macro templates.
-`GeneratedText` exercises those templates through the same comparator's
-`GeneratorFacade` and `TextComparison` APIs, comparing their final text with
-literal expectations. CRLF is normalized to LF only in these generator text
-expectations; the separate byte-level tests intentionally do not normalize it.
-
-The paste tests use the two-argument `PlaintextPaster` overloads, which take the
-text explicitly. The existing one-argument clipboard entry points delegate to
-these overloads without changing parsing behavior. This keeps automated tests
-independent of the user's clipboard. Tests check both structural indent groups
-and generated output, including an intermediate dedent that is not an existing
-indentation level.
-
-The diffing-paste tests use `DiffPaste.prepare` and its explicit apply step with
-an isolated temporary recovery directory. They check the exact normalized
-clipboard output, original node identities, unchanged file properties, and
-reloading/copying the saved model into a fresh temporary model. No test reads or
-replaces the user's clipboard or writes to the real recovery directory.
-
-The general generator-testing facility delivered by
-[#1339](https://github.com/JetBrains/MPS-extensions/issues/1339) already supplies
-model comparison, generated-text and folder comparison, generation plans and
-interactive diffs. PlainTextGen does not need another testing language or runner.
-The byte/charset helper supplements that facility for the encoding and exact
-newline concerns in [#490](https://github.com/JetBrains/MPS-extensions/issues/490);
-decoded text equality alone cannot establish either.
-
-This covers the alignment/indent-detection cases in
-[#182](https://github.com/JetBrains/MPS-extensions/issues/182) and adds executable
-generator tests for [#188](https://github.com/JetBrains/MPS-extensions/issues/188).
-It is not an exhaustive test of every editor action, clipboard integration, or
-possible language composition. The right-aligned indentation case
-explicitly preserves the existing extra padding: the group's width includes its
-indentation before alignment adds that indentation again. Changing that behavior
-is outside these regression tests.
+Developer design notes and validation guidance are kept
+[alongside the implementation](../../../code/extensions/plaintextgen/design.md#diffing-paste).
 
 ## Advantages of this plugin over the default textgen
 In short, this plugin brings MPS -> plaintext connectivity in a pretty usable way to MPS.

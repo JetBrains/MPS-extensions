@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## October 2026
+
+### Added
+
+- *com.dslfoundry.plaintextgen* New intention "Split Vertical Layout after Line" moves the lines that follow the selected line of a vertical layout into a new vertical layout placed right after it.
+
 ## September 2026
 
 ### Fixed

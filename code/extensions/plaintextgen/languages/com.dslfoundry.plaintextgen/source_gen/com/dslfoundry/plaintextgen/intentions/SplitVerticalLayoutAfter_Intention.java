@@ -12,18 +12,22 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import java.util.Collections;
 import jetbrains.mps.intentions.AbstractIntentionExecutable;
-import org.jetbrains.mps.openapi.model.SModel;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
-import org.jetbrains.mps.openapi.language.SProperty;
-import java.util.List;
-import java.util.ArrayList;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
+import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SProperty;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public final class SplitVerticalLayoutAfter_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
 
   public SplitVerticalLayoutAfter_Intention() {
-    super(Kind.NORMAL, false, new SNodePointer("r:c8d72bdc-3031-4f87-98fe-0ea2dad34376(com.dslfoundry.plaintextgen.intentions)", "6861286109001694511"));
+    super(Kind.NORMAL, true, new SNodePointer("r:c8d72bdc-3031-4f87-98fe-0ea2dad34376(com.dslfoundry.plaintextgen.intentions)", "6861286109001694511"));
   }
 
   @Override
@@ -53,76 +57,15 @@ public final class SplitVerticalLayoutAfter_Intention extends AbstractIntentionD
 
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode source = node.getParent();
-      if (source == null) {
-        return;
-      }
-      SModel model = source.getModel();
-      if (model == null) {
-        return;
-      }
-      SContainmentLink linesLink = null;
-      for (SContainmentLink link : source.getConcept().getContainmentLinks()) {
-        if ("lines".equals(link.getName())) {
-          linesLink = link;
-        }
-      }
-      SProperty alignProperty = null;
-      for (SProperty property : source.getConcept().getProperties()) {
-        if ("align".equals(property.getName())) {
-          alignProperty = property;
-        }
-      }
-      if (linesLink == null || alignProperty == null) {
-        return;
-      }
-      SNode suffix = model.createNode(source.getConcept());
-      suffix.setProperty(alignProperty, source.getProperty(alignProperty));
-      List<SNode> sourceLines = new ArrayList<SNode>();
-      for (SNode child : source.getChildren(linesLink)) {
-        sourceLines.add(child);
-      }
-      int splitIndex = -1;
-      for (int i = 0; i < sourceLines.size(); i++) {
-        if (sourceLines.get(i) == node) {
-          splitIndex = i;
-        }
-      }
-      if (splitIndex < 0 || splitIndex >= sourceLines.size() - 1) {
-        return;
-      }
-      for (int i = splitIndex + 1; i < sourceLines.size(); i++) {
-        source.removeChild(sourceLines.get(i));
-        suffix.addChild(linesLink, sourceLines.get(i));
-      }
-      SNode outer = source.getParent();
-      if (outer == null) {
-        source.addChild(linesLink, suffix);
-        return;
-      }
-      if ("TextgenText".equals(outer.getConcept().getName())) {
-        SNode wrapper = model.createNode(source.getConcept());
-        wrapper.setProperty(alignProperty, source.getProperty(alignProperty));
-        SContainmentLink contentLink = null;
-        for (SContainmentLink link : outer.getConcept().getContainmentLinks()) {
-          if ("content".equals(link.getName())) {
-            contentLink = link;
-          }
-        }
-        if (contentLink == null) {
-          return;
-        }
-        outer.removeChild(source);
-        wrapper.addChild(linesLink, source);
-        wrapper.addChild(linesLink, suffix);
-        outer.addChild(contentLink, wrapper);
-      } else {
-        SContainmentLink outerLink = source.getContainmentLink();
-        if (outerLink == null) {
-          return;
-        }
-        outer.insertChildAfter(outerLink, suffix, source);
-      }
+      SNode source = SNodeOperations.cast(SNodeOperations.getParent(node), CONCEPTS.VerticalLines$qc);
+      SNode suffix = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L, "com.dslfoundry.plaintextgen.structure.VerticalLines"));
+      SPropertyOperations.assignEnum(suffix, PROPS.align$grMv, SPropertyOperations.getEnum(source, PROPS.align$grMv));
+      ListSequence.fromList(SLinkOperations.getChildren(suffix, LINKS.lines$u7C)).addSequence(ListSequence.fromList(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.lines$u7C)).skip(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.lines$u7C)).indexOf(node) + 1).toList()));
+      SNode wrapper = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L, "com.dslfoundry.plaintextgen.structure.VerticalLines"));
+      SPropertyOperations.assignEnum(wrapper, PROPS.align$grMv, SPropertyOperations.getEnum(source, PROPS.align$grMv));
+      SNodeOperations.replaceWithAnother(source, wrapper);
+      ListSequence.fromList(SLinkOperations.getChildren(wrapper, LINKS.lines$u7C)).addElement(source);
+      ListSequence.fromList(SLinkOperations.getChildren(wrapper, LINKS.lines$u7C)).addElement(suffix);
     }
 
     @Override
@@ -134,26 +77,7 @@ public final class SplitVerticalLayoutAfter_Intention extends AbstractIntentionD
     }
 
     private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-      SNode source = node.getParent();
-      if (source == null) {
-        return false;
-      }
-      if (!("VerticalLines".equals(source.getConcept().getName()))) {
-        return false;
-      }
-      int count = 0;
-      int index = -1;
-      for (SContainmentLink linesLink : source.getConcept().getContainmentLinks()) {
-        if ("lines".equals(linesLink.getName())) {
-          for (SNode child : source.getChildren(linesLink)) {
-            if (child == node) {
-              index = count;
-            }
-            count++;
-          }
-        }
-      }
-      return index >= 0 && index < count - 1;
+      return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), CONCEPTS.VerticalLines$qc) && ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.cast(SNodeOperations.getParent(node), CONCEPTS.VerticalLines$qc), LINKS.lines$u7C)).last() != node;
     }
 
 
@@ -162,5 +86,17 @@ public final class SplitVerticalLayoutAfter_Intention extends AbstractIntentionD
       return SplitVerticalLayoutAfter_Intention.this;
     }
 
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept VerticalLines$qc = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L, "com.dslfoundry.plaintextgen.structure.VerticalLines");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty align$grMv = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L, 0x64208511ac31899bL, "align");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink lines$u7C = MetaAdapterFactory.getContainmentLink(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L, 0x64208511ac2f6798L, "lines");
   }
 }

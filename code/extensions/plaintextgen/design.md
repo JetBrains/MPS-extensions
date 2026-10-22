@@ -68,7 +68,7 @@ same directory; the intention selects the latest snapshot for that template.
 
 ### Automated regression coverage
 
-Make `com.dslfoundry.plaintextgen.tests` and run its test cases as MPS tests.
+Make `com.jetbrains.mpsext.plaintextgen.tests` and run its test cases as MPS tests.
 The solution is included in the native test build; new test models need no
 separate build-script registration.
 

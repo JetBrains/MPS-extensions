@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="com.dslfoundry.plaintextgen.tests" uuid="cbe231e9-6c54-40b7-ae76-17e8e1a0df9d" moduleVersion="0">
+<solution name="com.jetbrains.mpsext.plaintextgen.tests" uuid="cbe231e9-6c54-40b7-ae76-17e8e1a0df9d" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot path="${module}/models" />
@@ -58,7 +58,7 @@
     <module reference="cf681fc9-c798-4f89-af38-ba3c0ac342d9(com.dslfoundry.plaintextflow)" version="0" />
     <module reference="990507d3-3527-4c54-bfe9-0ca3c9c6247a(com.dslfoundry.plaintextgen)" version="0" />
     <module reference="90aa1f1b-f65c-4e9a-99b4-4030e09d0bb2(com.dslfoundry.plaintextgen.example.testlang)" version="0" />
-    <module reference="cbe231e9-6c54-40b7-ae76-17e8e1a0df9d(com.dslfoundry.plaintextgen.tests)" version="0" />
+    <module reference="cbe231e9-6c54-40b7-ae76-17e8e1a0df9d(com.jetbrains.mpsext.plaintextgen.tests)" version="0" />
     <module reference="c6420b75-4569-420d-aaf7-9bc590ad7b2a(de.itemis.mps.comparator)" version="0" />
     <module reference="f47b95d4-5e73-4c04-9204-18076950153b(de.itemis.mps.compare)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />

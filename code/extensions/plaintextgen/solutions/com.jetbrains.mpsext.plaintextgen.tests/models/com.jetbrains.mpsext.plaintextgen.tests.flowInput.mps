@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:d0c1dee2-d5d8-4122-bfaf-02a312e3aaaf(com.dslfoundry.plaintextgen.tests.flowInput)">
+<model ref="r:d0c1dee2-d5d8-4122-bfaf-02a312e3aaaf(com.jetbrains.mpsext.plaintextgen.tests.flowInput)">
   <persistence version="9" />
   <languages>
     <use id="990507d3-3527-4c54-bfe9-0ca3c9c6247a" name="com.dslfoundry.plaintextgen" version="0" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.dslfoundry.plaintextgen.tests.fixtures)">
+<model ref="r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)">
   <persistence version="9" />
   <languages>
     <use id="990507d3-3527-4c54-bfe9-0ca3c9c6247a" name="com.dslfoundry.plaintextgen" version="0" />

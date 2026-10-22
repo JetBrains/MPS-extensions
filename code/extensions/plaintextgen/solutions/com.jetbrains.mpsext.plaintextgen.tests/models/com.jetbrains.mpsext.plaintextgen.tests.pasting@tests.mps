@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:90afb548-282f-4414-9a8d-106626c9b208(com.dslfoundry.plaintextgen.tests.pasting@tests)">
+<model ref="r:90afb548-282f-4414-9a8d-106626c9b208(com.jetbrains.mpsext.plaintextgen.tests.pasting@tests)">
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
@@ -18,11 +18,11 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="myiq" ref="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)" />
-    <import index="x7r4" ref="r:fcebe162-2c2b-4bf9-a7ed-520878186413(com.dslfoundry.plaintextgen.tests.layouts@tests)" />
-    <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
+    <import index="x7r4" ref="r:fcebe162-2c2b-4bf9-a7ed-520878186413(com.jetbrains.mpsext.plaintextgen.tests.layouts@tests)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="5hew" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.diff.comparison(MPS.IDEA/)" />
+    <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
+    <import index="5hew" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.diff.comparison(MPS.IDEA/)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -550,25 +550,17 @@
                 <node concept="3uibUv" id="5w9TncdPvmx" role="1tU5fm">
                   <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
                 </node>
-                <node concept="2YIFZM" id="5w9TncdPvqO" role="33vP2m">
+                <node concept="2YIFZM" id="5w9TncePz6S" role="33vP2m">
                   <ref role="1Pybhc" to="w1kc:~CopyUtil" resolve="CopyUtil" />
                   <ref role="37wK5l" to="w1kc:~CopyUtil.copy(org.jetbrains.mps.openapi.model.SNode)" resolve="copy" />
-                  <node concept="2OqwBi" id="5w9TncdPvHi" role="37wK5m">
-                    <node concept="2OqwBi" id="5w9TncdPvAW" role="2Oq$k0">
-                      <node concept="2OqwBi" id="5w9TncdPvy2" role="2Oq$k0">
-                        <node concept="37vLTw" id="5w9TncdPvuk" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5w9TncdPvmg" resolve="source" />
-                        </node>
-                        <node concept="liA8E" id="5w9TncdPvy3" role="2OqNvi">
-                          <ref role="37wK5l" to="mhbf:~SModel.getRootNodes()" resolve="getRootNodes" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="5w9TncdPvAX" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~Iterable.iterator()" resolve="iterator" />
-                      </node>
+                  <node concept="2YIFZM" id="5w9TncePz6T" role="37wK5m">
+                    <ref role="1Pybhc" to="x7r4:5w9TncdMFVN" resolve="LayoutAssertions" />
+                    <ref role="37wK5l" to="x7r4:5w9TncdMFZ6" resolve="fixture" />
+                    <node concept="37vLTw" id="5w9TncePz6U" role="37wK5m">
+                      <ref role="3cqZAo" node="5w9TncdPvmb" resolve="project" />
                     </node>
-                    <node concept="liA8E" id="5w9TncdPvHj" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
+                    <node concept="Xl_RD" id="5w9TncePz6V" role="37wK5m">
+                      <property role="Xl_RC" value="left" />
                     </node>
                   </node>
                 </node>
@@ -779,25 +771,17 @@
                 <node concept="3uibUv" id="5w9TncdPvnE" role="1tU5fm">
                   <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
                 </node>
-                <node concept="2YIFZM" id="5w9TncdPvrH" role="33vP2m">
+                <node concept="2YIFZM" id="5w9TncePz6l" role="33vP2m">
                   <ref role="1Pybhc" to="w1kc:~CopyUtil" resolve="CopyUtil" />
                   <ref role="37wK5l" to="w1kc:~CopyUtil.copy(org.jetbrains.mps.openapi.model.SNode)" resolve="copy" />
-                  <node concept="2OqwBi" id="5w9TncdPvIY" role="37wK5m">
-                    <node concept="2OqwBi" id="5w9TncdPvCs" role="2Oq$k0">
-                      <node concept="2OqwBi" id="5w9TncdPvyy" role="2Oq$k0">
-                        <node concept="37vLTw" id="5w9TncdPvvm" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5w9TncdPvnp" resolve="source" />
-                        </node>
-                        <node concept="liA8E" id="5w9TncdPvyz" role="2OqNvi">
-                          <ref role="37wK5l" to="mhbf:~SModel.getRootNodes()" resolve="getRootNodes" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="5w9TncdPvCt" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~Iterable.iterator()" resolve="iterator" />
-                      </node>
+                  <node concept="2YIFZM" id="5w9TncePz6m" role="37wK5m">
+                    <ref role="1Pybhc" to="x7r4:5w9TncdMFVN" resolve="LayoutAssertions" />
+                    <ref role="37wK5l" to="x7r4:5w9TncdMFZ6" resolve="fixture" />
+                    <node concept="37vLTw" id="5w9TncePz6n" role="37wK5m">
+                      <ref role="3cqZAo" node="5w9TncdPvne" resolve="project" />
                     </node>
-                    <node concept="liA8E" id="5w9TncdPvIZ" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
+                    <node concept="Xl_RD" id="5w9TncePz6o" role="37wK5m">
+                      <property role="Xl_RC" value="left" />
                     </node>
                   </node>
                 </node>
@@ -929,7 +913,7 @@
             <node concept="3clFbF" id="5w9TncdPvom" role="3cqZAp">
               <node concept="2YIFZM" id="5w9TncdQ3rY" role="3clFbG">
                 <ref role="1Pybhc" to="x7r4:5w9TncdMAV7" resolve="PlainTextGenAssertions" />
-                <ref role="37wK5l" to="x7r4:5w9TncdMNBp" resolve="assertText" />
+                <ref role="37wK5l" to="x7r4:5w9TncedQHa" resolve="assertText" />
                 <node concept="37vLTw" id="5w9TncdQ3rZ" role="37wK5m">
                   <ref role="3cqZAo" node="5w9TncdPvne" resolve="project" />
                 </node>
@@ -1172,7 +1156,7 @@
                 <node concept="liA8E" id="5w9TncdPvxn" role="2OqNvi">
                   <ref role="37wK5l" to="dush:~PersistenceFacade.createModelReference(java.lang.String)" resolve="createModelReference" />
                   <node concept="Xl_RD" id="5w9TncdPvxo" role="37wK5m">
-                    <property role="Xl_RC" value="r:2f17ab6e-1fbc-460b-969f-c9fd8950e44d(com.dslfoundry.plaintextgen.tests.layouts)" />
+                    <property role="Xl_RC" value="r:2f17ab6e-1fbc-460b-969f-c9fd8950e44d(com.jetbrains.mpsext.plaintextgen.tests.layouts)" />
                   </node>
                 </node>
               </node>
@@ -1723,7 +1707,7 @@
                 <node concept="liA8E" id="5w9TncecS2l" role="2OqNvi">
                   <ref role="37wK5l" to="dush:~PersistenceFacade.createModelReference(java.lang.String)" resolve="createModelReference" />
                   <node concept="Xl_RD" id="5w9TncecS2m" role="37wK5m">
-                    <property role="Xl_RC" value="r:2f17ab6e-1fbc-460b-969f-c9fd8950e44d(com.dslfoundry.plaintextgen.tests.layouts)" />
+                    <property role="Xl_RC" value="r:2f17ab6e-1fbc-460b-969f-c9fd8950e44d(com.jetbrains.mpsext.plaintextgen.tests.layouts)" />
                   </node>
                 </node>
               </node>

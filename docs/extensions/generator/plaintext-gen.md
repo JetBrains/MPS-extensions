@@ -68,6 +68,11 @@ during model-to-model generation, using the same configuration sources in
 interactive and headless builds. The resulting `TextgenText` carries the resolved
 query results through subsequent generation steps.
 
+For example, with `LineEnding` set to `LF` and both overrides set to `Inherit`,
+generated files use LF. Setting the settings override to `CRLF` switches output
+to CRLF. A model/query override of `LF` takes priority over that settings value.
+Set the model/query override back to `Inherit` to use the settings value again.
+
 ## Diffing paste
 
 Select a `TextgenText` template (or a cell inside it) and invoke **Paste text with

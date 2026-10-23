@@ -6,7 +6,7 @@ repos:
   # MPS project-structure checks. See https://github.com/specificlanguages/mps-pre-commit-hooks for what each one
   # catches.
   - repo: "https://github.com/specificlanguages/mps-pre-commit-hooks"
-    rev: v0.6.0
+    rev: v0.6.1
     hooks:
       - id: mps-fix-path-variables
       - id: mps-fix-missing-modules

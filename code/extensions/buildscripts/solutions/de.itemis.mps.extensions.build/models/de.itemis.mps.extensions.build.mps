@@ -10273,6 +10273,9 @@
           <property role="3MwjfP" value="Alternative text generator for MPS, using the standard model to model generation mechanisms (node macros, loop macros, property macros, etc.) to generate plain text, as opposed to MPS's programmatical textgen aspect." />
         </node>
       </node>
+      <node concept="m$_yC" id="5w9TncfSU31" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:RJsmGEieyQ" resolve="jetbrains.mps.vcs" />
+      </node>
     </node>
     <node concept="2G$12M" id="2NTGYE$JTH5" role="3989C9">
       <property role="TrG5h" value="com.dslfoundry.plaintextgen" />
@@ -10356,6 +10359,31 @@
             <node concept="3qWCbU" id="2eucapX082U" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5w9TncfSU32" role="3bR37C">
+          <node concept="3bR9La" id="5w9TncfSU33" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5w9TncfSU34" role="3bR37C">
+          <node concept="3bR9La" id="5w9TncfSU35" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5w9TncfSU36" role="3bR37C">
+          <node concept="3bR9La" id="5w9TncfSU37" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:rD7wKO5Iy" resolve="MPS.TextGen" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5w9TncfSU38" role="3bR37C">
+          <node concept="3bR9La" id="5w9TncfSU39" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5w9TncfSU3a" role="3bR37C">
+          <node concept="3bR9La" id="5w9TncfSU3b" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:39HJr_hyEzS" resolve="jetbrains.mps.ide.vcs.platform" />
           </node>
         </node>
       </node>
@@ -22113,8 +22141,8 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="5w9TncgskZA" role="3bR37C">
-          <node concept="3bR9La" id="5w9TncgskZB" role="1SiIV1">
+        <node concept="1SiIV0" id="5w9TncfSU3c" role="3bR37C">
+          <node concept="3bR9La" id="5w9TncfSU3d" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>

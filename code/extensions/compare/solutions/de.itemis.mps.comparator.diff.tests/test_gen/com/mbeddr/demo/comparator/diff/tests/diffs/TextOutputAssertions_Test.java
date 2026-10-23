@@ -10,6 +10,10 @@ import jetbrains.mps.lang.test.runtime.TestParametersCacheBuilder;
 import org.junit.jupiter.api.Test;
 import jetbrains.mps.lang.test.runtime.BaseTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
+import de.itemis.mps.comparator.code.TextOutputAssertions;
+import java.nio.charset.StandardCharsets;
+import org.junit.Assert;
+import jetbrains.mps.text.TextUnit;
 
 @MPSLaunch
 public class TextOutputAssertions_Test extends BaseTransformationTest {
@@ -54,23 +58,70 @@ public class TextOutputAssertions_Test extends BaseTransformationTest {
 
     public void test_rejectsMultipleOutputs() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> SharedOutputAssertionTests.rejectsMultipleOutputs(myProject));
+      runWithinCommand(() -> {
+        boolean rejected = false;
+        try {
+          TextOutputAssertions.assertSingleOutput(myProject, SharedOutputAssertionTests.fixture(myProject), "AB.java", StandardCharsets.UTF_8, new byte[0]);
+        } catch (AssertionError failure) {
+          Assert.assertTrue("rejectsMultipleOutputs: expected got 3 diagnostic for AB.java, got " + failure.getMessage(), failure.getMessage().contains("got 3"));
+          rejected = true;
+        }
+        Assert.assertTrue("rejectsMultipleOutputs: invalid AB.java output must be rejected", rejected);
+      });
     }
     public void test_rejectsWrongFilename() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> SharedOutputAssertionTests.rejectsWrongFilename(myProject));
+      runWithinCommand(() -> {
+        boolean rejected = false;
+        try {
+          TextOutputAssertions.assertOutput(SharedOutputAssertionTests.unit(myProject), "incorrect.java", StandardCharsets.UTF_8, new byte[0]);
+        } catch (AssertionError failure) {
+          Assert.assertTrue("rejectsWrongFilename: expected Expected filename diagnostic for AB.java, got " + failure.getMessage(), failure.getMessage().contains("Expected filename"));
+          rejected = true;
+        }
+        Assert.assertTrue("rejectsWrongFilename: invalid AB.java output must be rejected", rejected);
+      });
     }
     public void test_rejectsWrongCharset() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> SharedOutputAssertionTests.rejectsWrongCharset(myProject));
+      runWithinCommand(() -> {
+        TextUnit output = SharedOutputAssertionTests.unit(myProject);
+        boolean rejected = false;
+        try {
+          TextOutputAssertions.assertOutput(output, "AB.java", StandardCharsets.UTF_16LE, new byte[0]);
+        } catch (AssertionError failure) {
+          Assert.assertTrue("rejectsWrongCharset: expected Expected encoding diagnostic for AB.java, got " + failure.getMessage(), failure.getMessage().contains("Expected encoding"));
+          rejected = true;
+        }
+        Assert.assertTrue("rejectsWrongCharset: invalid AB.java output must be rejected", rejected);
+      });
     }
     public void test_rejectsDifferentLengths() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> SharedOutputAssertionTests.rejectsDifferentLengths(myProject));
+      runWithinCommand(() -> {
+        TextUnit output = SharedOutputAssertionTests.unit(myProject);
+        boolean rejected = false;
+        try {
+          TextOutputAssertions.assertOutput(output, "AB.java", StandardCharsets.UTF_8, new byte[0]);
+        } catch (AssertionError failure) {
+          Assert.assertTrue("rejectsDifferentLengths: expected at offset 0: expected 0 bytes, got  diagnostic for AB.java, got " + failure.getMessage(), failure.getMessage().contains("at offset 0: expected 0 bytes, got "));
+          rejected = true;
+        }
+        Assert.assertTrue("rejectsDifferentLengths: invalid AB.java output must be rejected", rejected);
+      });
     }
     public void test_rejectsNullUnit() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> SharedOutputAssertionTests.rejectsNullUnit(myProject));
+      runWithinCommand(() -> {
+        boolean rejected = false;
+        try {
+          TextOutputAssertions.assertOutput(null, "AB.java", StandardCharsets.UTF_8, new byte[0]);
+        } catch (IllegalArgumentException failure) {
+          Assert.assertTrue("rejectsNullUnit: expected required diagnostic for AB.java, got " + failure.getMessage(), failure.getMessage().contains("required"));
+          rejected = true;
+        }
+        Assert.assertTrue("rejectsNullUnit: invalid AB.java output must be rejected", rejected);
+      });
     }
 
   }

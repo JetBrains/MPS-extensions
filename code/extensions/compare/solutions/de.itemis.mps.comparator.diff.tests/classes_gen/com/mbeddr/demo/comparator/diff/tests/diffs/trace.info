@@ -6626,267 +6626,254 @@
   </root>
   <root nodeRef="r:7e1cdbc4-24e4-458b-b337-9e688e689139(com.mbeddr.demo.comparator.diff.tests.diffs@tests)/6343853832452564917">
     <file name="SharedOutputAssertionTests.java">
-      <node id="6343853832452564924" at="15,50,16,191" concept="7" />
-      <node id="6343853832452564939" at="17,24,18,79" concept="14" />
-      <node id="6343853832452564940" at="19,5,20,17" concept="8" />
-      <node id="6343853832454008263" at="22,49,23,110" concept="7" />
-      <node id="6343853832454008273" at="23,110,24,26" concept="8" />
-      <node id="6343853832452564966" at="27,9,28,121" concept="2" />
-      <node id="6343853832452564989" at="30,52,31,15" concept="8" />
-      <node id="6343853832452564991" at="32,7,33,21" concept="14" />
-      <node id="6343853832452564996" at="34,5,35,79" concept="14" />
-      <node id="6343853832452565005" at="38,9,39,110" concept="2" />
-      <node id="6343853832452565027" at="41,66,42,15" concept="8" />
-      <node id="6343853832452565029" at="43,7,44,21" concept="14" />
-      <node id="6343853832452565034" at="45,5,46,79" concept="14" />
-      <node id="6343853832452565042" at="48,59,49,36" concept="7" />
-      <node id="6343853832452565048" at="50,9,51,110" concept="2" />
-      <node id="6343853832452565069" at="53,66,54,15" concept="8" />
-      <node id="6343853832452565071" at="55,7,56,21" concept="14" />
-      <node id="6343853832452565076" at="57,5,58,78" concept="14" />
-      <node id="6343853832452565084" at="60,63,61,36" concept="7" />
-      <node id="6343853832452565090" at="62,9,63,107" concept="2" />
-      <node id="6343853832452565111" at="65,82,66,15" concept="8" />
-      <node id="6343853832452565113" at="67,7,68,21" concept="14" />
-      <node id="6343853832452565118" at="69,5,70,76" concept="14" />
-      <node id="6343853832452565127" at="73,9,74,94" concept="2" />
-      <node id="6343853832452565142" at="75,49,76,13" concept="8" />
-      <node id="6343853832452565147" at="77,5,78,69" concept="14" />
-      <node id="6343853832459171917" at="80,61,81,36" concept="7" />
-      <node id="6343853832459171921" at="81,36,82,22" concept="2" />
-      <node id="6343853832459171924" at="82,22,83,37" concept="7" />
-      <node id="6343853832459171929" at="83,37,84,57" concept="7" />
-      <node id="6343853832459171935" at="84,57,85,107" concept="2" />
-      <node id="6343853832459191118" at="87,71,88,36" concept="7" />
-      <node id="6343853832459191122" at="88,36,89,22" concept="2" />
-      <node id="6343853832459191125" at="89,22,90,37" concept="7" />
-      <node id="6343853832459191130" at="90,37,91,57" concept="7" />
-      <node id="6343853832459191144" at="92,30,93,84" concept="14" />
-      <node id="6343853832459191145" at="94,5,95,43" concept="2" />
-      <node id="6343853832459191160" at="96,9,97,109" concept="2" />
-      <node id="6343853832459191173" at="98,38,99,104" concept="7" />
-      <node id="6343853832459191188" at="100,54,101,15" concept="8" />
-      <node id="6343853832459191190" at="102,7,103,20" concept="14" />
-      <node id="6343853832459191195" at="104,5,105,78" concept="14" />
-      <node id="6343853832452564931" at="16,191,19,5" concept="5" />
-      <node id="6343853832452564983" at="29,39,32,7" concept="5" />
-      <node id="6343853832452565021" at="40,39,43,7" concept="5" />
-      <node id="6343853832452565063" at="52,39,55,7" concept="5" />
-      <node id="6343853832452565105" at="64,39,67,7" concept="5" />
-      <node id="6343853832459191136" at="91,57,94,5" concept="5" />
-      <node id="6343853832459191182" at="99,104,102,7" concept="5" />
-      <node id="6343853832454008258" at="22,0,26,0" concept="12" trace="unit#(Ljetbrains/mps/project/Project;)Ljetbrains/mps/text/TextUnit;" />
-      <node id="6343853832452565143" at="72,55,77,5" concept="15" />
-      <node id="6343853832452564919" at="15,0,22,0" concept="12" trace="fixture#(Ljetbrains/mps/project/Project;)Lorg/jetbrains/mps/openapi/model/SModel;" />
-      <node id="6343853832459171912" at="80,0,87,0" concept="12" trace="acceptsMatchingOutput#(Ljetbrains/mps/project/Project;)V" />
-      <node id="6343853832452564992" at="26,62,34,5" concept="15" />
-      <node id="6343853832452565030" at="37,60,45,5" concept="15" />
-      <node id="6343853832452565072" at="49,36,57,5" concept="15" />
-      <node id="6343853832452565114" at="61,36,69,5" concept="15" />
-      <node id="6343853832452565121" at="72,0,80,0" concept="12" trace="rejectsNullUnit#(Ljetbrains/mps/project/Project;)V" />
-      <node id="6343853832459191191" at="95,43,104,5" concept="15" />
-      <node id="6343853832452564960" at="26,0,37,0" concept="12" trace="rejectsMultipleOutputs#(Ljetbrains/mps/project/Project;)V" />
-      <node id="6343853832452564999" at="37,0,48,0" concept="12" trace="rejectsWrongFilename#(Ljetbrains/mps/project/Project;)V" />
-      <node id="6343853832452565037" at="48,0,60,0" concept="12" trace="rejectsWrongCharset#(Ljetbrains/mps/project/Project;)V" />
-      <node id="6343853832452565079" at="60,0,72,0" concept="12" trace="rejectsDifferentLengths#(Ljetbrains/mps/project/Project;)V" />
-      <node id="6343853832459191113" at="87,0,107,0" concept="12" trace="reportsSameLengthMismatchOffset#(Ljetbrains/mps/project/Project;)V" />
-      <scope id="6343853832452564936" at="17,24,18,79" />
-      <scope id="6343853832452564965" at="27,9,28,121" />
-      <scope id="6343853832452564988" at="30,52,31,15" />
-      <scope id="6343853832452565004" at="38,9,39,110" />
-      <scope id="6343853832452565026" at="41,66,42,15" />
-      <scope id="6343853832452565047" at="50,9,51,110" />
-      <scope id="6343853832452565068" at="53,66,54,15" />
-      <scope id="6343853832452565089" at="62,9,63,107" />
-      <scope id="6343853832452565110" at="65,82,66,15" />
-      <scope id="6343853832452565126" at="73,9,74,94" />
-      <scope id="6343853832452565141" at="75,49,76,13" />
-      <scope id="6343853832459191141" at="92,30,93,84" />
-      <scope id="6343853832459191159" at="96,9,97,109" />
-      <scope id="6343853832459191187" at="100,54,101,15" />
-      <scope id="6343853832454008261" at="22,49,24,26">
-        <var name="outputs" id="6343853832454008262" />
+      <node id="6343853832484329517" at="14,49,15,216" concept="7" />
+      <node id="6343853832484599674" at="15,216,16,77" concept="2" />
+      <node id="6343853832484329528" at="16,77,17,17" concept="8" />
+      <node id="6343853832484346898" at="19,48,20,110" concept="7" />
+      <node id="6343853832484346909" at="20,110,21,29" concept="7" />
+      <node id="6343853832484599678" at="23,51,24,80" concept="2" />
+      <node id="6343853832484346925" at="24,80,25,26" concept="2" />
+      <node id="6343853832484599682" at="27,5,28,78" concept="2" />
+      <node id="6343853832484346937" at="28,78,29,20" concept="8" />
+      <node id="6343853832484346915" at="22,37,26,7" concept="5" />
+      <node id="6343853832452564919" at="14,0,19,0" concept="12" trace="fixture#(Ljetbrains/mps/project/Project;)Lorg/jetbrains/mps/openapi/model/SModel;" />
+      <node id="6343853832484346912" at="21,29,27,5" concept="4" />
+      <node id="6343853832454008258" at="19,0,31,0" concept="12" trace="unit#(Ljetbrains/mps/project/Project;)Ljetbrains/mps/text/TextUnit;" />
+      <scope id="6343853832484346920" at="23,51,25,26" />
+      <scope id="6343853832484329530" at="14,49,17,17">
+        <var name="model" id="6343853832484329516" />
       </scope>
-      <scope id="6343853832452565144" at="75,5,77,5">
-        <var name="expected" id="6343853832452565137" />
-      </scope>
-      <scope id="6343853832454008258" at="22,0,26,0">
-        <var name="project" id="6343853832454008259" />
-      </scope>
-      <scope id="6343853832452564982" at="29,39,33,21" />
-      <scope id="6343853832452565020" at="40,39,44,21" />
-      <scope id="6343853832452565062" at="52,39,56,21" />
-      <scope id="6343853832452565104" at="64,39,68,21" />
-      <scope id="6343853832452564922" at="15,50,20,17">
-        <var name="model" id="6343853832452564923" />
-      </scope>
-      <scope id="6343853832452564993" at="29,5,34,5">
-        <var name="expected" id="6343853832452564978" />
-      </scope>
-      <scope id="6343853832452565031" at="40,5,45,5">
-        <var name="expected" id="6343853832452565016" />
-      </scope>
-      <scope id="6343853832452565073" at="52,5,57,5">
-        <var name="expected" id="6343853832452565058" />
-      </scope>
-      <scope id="6343853832452565115" at="64,5,69,5">
-        <var name="expected" id="6343853832452565100" />
-      </scope>
-      <scope id="6343853832459171915" at="80,61,85,107">
-        <var name="bytes" id="6343853832459171923" />
-        <var name="expected" id="6343853832459171928" />
-        <var name="sample" id="6343853832459171916" />
-      </scope>
-      <scope id="6343853832459191171" at="98,38,103,20">
-        <var name="diagnostic" id="6343853832459191172" />
-      </scope>
-      <scope id="6343853832452565124" at="72,55,78,69" />
-      <scope id="6343853832459191192" at="98,5,104,5">
-        <var name="failure" id="6343853832459191167" />
-      </scope>
-      <scope id="6343853832452564919" at="15,0,22,0">
+      <scope id="6343853832484346914" at="22,37,26,7" />
+      <scope id="6343853832452564919" at="14,0,19,0">
         <var name="project" id="6343853832452564920" />
       </scope>
-      <scope id="6343853832459171912" at="80,0,87,0">
-        <var name="project" id="6343853832459171913" />
+      <scope id="6343853832484346912" at="21,29,27,5">
+        <var name="output" id="6343853832484346929" />
       </scope>
-      <scope id="6343853832452565121" at="72,0,80,0">
-        <var name="project" id="6343853832452565122" />
+      <scope id="6343853832484346939" at="19,48,29,20">
+        <var name="outputs" id="6343853832484346897" />
+        <var name="selected" id="6343853832484346908" />
       </scope>
-      <scope id="6343853832452564963" at="26,62,35,79" />
-      <scope id="6343853832452565002" at="37,60,46,79" />
-      <scope id="6343853832452565040" at="48,59,58,78">
-        <var name="output" id="6343853832452565041" />
+      <scope id="6343853832454008258" at="19,0,31,0">
+        <var name="project" id="6343853832454008259" />
       </scope>
-      <scope id="6343853832452565082" at="60,63,70,76">
-        <var name="output" id="6343853832452565083" />
-      </scope>
-      <scope id="6343853832452564960" at="26,0,37,0">
-        <var name="project" id="6343853832452564961" />
-      </scope>
-      <scope id="6343853832452564999" at="37,0,48,0">
-        <var name="project" id="6343853832452565000" />
-      </scope>
-      <scope id="6343853832452565037" at="48,0,60,0">
-        <var name="project" id="6343853832452565038" />
-      </scope>
-      <scope id="6343853832452565079" at="60,0,72,0">
-        <var name="project" id="6343853832452565080" />
-      </scope>
-      <scope id="6343853832459191116" at="87,71,105,78">
-        <var name="bytes" id="6343853832459191124" />
-        <var name="expected" id="6343853832459191129" />
-        <var name="sample" id="6343853832459191117" />
-      </scope>
-      <scope id="6343853832459191113" at="87,0,107,0">
-        <var name="project" id="6343853832459191114" />
-      </scope>
-      <unit id="6343853832452564917" at="14,0,108,0" name="com.mbeddr.demo.comparator.diff.tests.diffs.SharedOutputAssertionTests" />
+      <unit id="6343853832452564917" at="13,0,32,0" name="com.mbeddr.demo.comparator.diff.tests.diffs.SharedOutputAssertionTests" />
     </file>
   </root>
   <root nodeRef="r:7e1cdbc4-24e4-458b-b337-9e688e689139(com.mbeddr.demo.comparator.diff.tests.diffs@tests)/6343853832452573900">
     <file name="TextOutputAssertions_Test.java">
-      <node id="6343853832452573900" at="19,38,20,60" concept="13" />
-      <node id="6343853832452573901" at="24,62,25,53" concept="2" />
-      <node id="6343853832452573908" at="28,60,29,51" concept="2" />
-      <node id="6343853832452573915" at="32,59,33,50" concept="2" />
-      <node id="6343853832452573922" at="36,63,37,54" concept="2" />
-      <node id="6343853832452573929" at="40,55,41,46" concept="2" />
-      <node id="6343853832452573900" at="46,52,47,19" concept="13" />
-      <node id="6343853832452573900" at="51,36,52,25" concept="2" />
-      <node id="6343853832452573901" at="55,64,56,22" concept="2" />
-      <node id="6343853832452573901" at="56,22,57,91" concept="2" />
-      <node id="6343853832452573908" at="59,62,60,22" concept="2" />
-      <node id="6343853832452573908" at="60,22,61,89" concept="2" />
-      <node id="6343853832452573915" at="63,61,64,22" concept="2" />
-      <node id="6343853832452573915" at="64,22,65,88" concept="2" />
-      <node id="6343853832452573922" at="67,65,68,22" concept="2" />
-      <node id="6343853832452573922" at="68,22,69,92" concept="2" />
-      <node id="6343853832452573929" at="71,57,72,22" concept="2" />
-      <node id="6343853832452573929" at="72,22,73,84" concept="2" />
-      <node id="6343853832452573900" at="16,0,18,0" concept="11" trace="ourParametersCacheExtension" />
-      <node id="6343853832452573900" at="19,0,22,0" concept="1" trace="TextOutputAssertions_Test#()V" />
-      <node id="6343853832452573900" at="46,0,49,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="6343853832452573901" at="23,0,27,0" concept="6" trace="test_rejectsMultipleOutputs#()V" />
-      <node id="6343853832452573908" at="27,0,31,0" concept="6" trace="test_rejectsWrongFilename#()V" />
-      <node id="6343853832452573915" at="31,0,35,0" concept="6" trace="test_rejectsWrongCharset#()V" />
-      <node id="6343853832452573922" at="35,0,39,0" concept="6" trace="test_rejectsDifferentLengths#()V" />
-      <node id="6343853832452573929" at="39,0,43,0" concept="6" trace="test_rejectsNullUnit#()V" />
-      <node id="6343853832452573900" at="50,0,54,0" concept="6" trace="initTestNodes#()V" />
-      <node id="6343853832452573901" at="55,0,59,0" concept="6" trace="test_rejectsMultipleOutputs#()V" />
-      <node id="6343853832452573908" at="59,0,63,0" concept="6" trace="test_rejectsWrongFilename#()V" />
-      <node id="6343853832452573915" at="63,0,67,0" concept="6" trace="test_rejectsWrongCharset#()V" />
-      <node id="6343853832452573922" at="67,0,71,0" concept="6" trace="test_rejectsDifferentLengths#()V" />
-      <node id="6343853832452573929" at="71,0,75,0" concept="6" trace="test_rejectsNullUnit#()V" />
-      <scope id="6343853832452573900" at="19,38,20,60" />
-      <scope id="6343853832452573901" at="24,62,25,53" />
-      <scope id="6343853832452573908" at="28,60,29,51" />
-      <scope id="6343853832452573915" at="32,59,33,50" />
-      <scope id="6343853832452573922" at="36,63,37,54" />
-      <scope id="6343853832452573929" at="40,55,41,46" />
-      <scope id="6343853832452573900" at="46,52,47,19" />
-      <scope id="6343853832452573900" at="51,36,52,25" />
-      <scope id="6343853832452573901" at="55,64,57,91" />
-      <scope id="6343853832452573908" at="59,62,61,89" />
-      <scope id="6343853832452573915" at="63,61,65,88" />
-      <scope id="6343853832452573922" at="67,65,69,92" />
-      <scope id="6343853832452573929" at="71,57,73,84" />
-      <scope id="6343853832452573900" at="19,0,22,0" />
-      <scope id="6343853832452573900" at="46,0,49,0">
+      <node id="6343853832452573900" at="23,38,24,60" concept="13" />
+      <node id="6343853832452573901" at="28,62,29,53" concept="2" />
+      <node id="6343853832452573908" at="32,60,33,51" concept="2" />
+      <node id="6343853832452573915" at="36,59,37,50" concept="2" />
+      <node id="6343853832452573922" at="40,63,41,54" concept="2" />
+      <node id="6343853832452573929" at="44,55,45,46" concept="2" />
+      <node id="6343853832452573900" at="50,52,51,19" concept="13" />
+      <node id="6343853832452573900" at="55,36,56,25" concept="2" />
+      <node id="6343853832452573901" at="59,64,60,22" concept="2" />
+      <node id="6343853832484367354" at="61,30,62,33" concept="7" />
+      <node id="6343853832484367359" at="63,13,64,156" concept="2" />
+      <node id="6343853832484601259" at="65,42,66,162" concept="2" />
+      <node id="6343853832484367384" at="66,162,67,26" concept="2" />
+      <node id="6343853832484601335" at="68,9,69,103" concept="2" />
+      <node id="6343853832452573908" at="72,62,73,22" concept="2" />
+      <node id="6343853832484387855" at="74,30,75,33" concept="7" />
+      <node id="6343853832484387860" at="76,13,77,143" concept="2" />
+      <node id="6343853832484601339" at="78,42,79,184" concept="2" />
+      <node id="6343853832484387884" at="79,184,80,26" concept="2" />
+      <node id="6343853832484601415" at="81,9,82,101" concept="2" />
+      <node id="6343853832452573915" at="85,61,86,22" concept="2" />
+      <node id="6343853832484408428" at="87,30,88,69" concept="7" />
+      <node id="6343853832484408433" at="88,69,89,33" concept="7" />
+      <node id="6343853832484408438" at="90,13,91,103" concept="2" />
+      <node id="6343853832484601419" at="92,42,93,183" concept="2" />
+      <node id="6343853832484408461" at="93,183,94,26" concept="2" />
+      <node id="6343853832484601495" at="95,9,96,100" concept="2" />
+      <node id="6343853832452573922" at="99,65,100,22" concept="2" />
+      <node id="6343853832484429034" at="101,30,102,69" concept="7" />
+      <node id="6343853832484429039" at="102,69,103,33" concept="7" />
+      <node id="6343853832484429044" at="104,13,105,100" concept="2" />
+      <node id="6343853832484601499" at="106,42,107,223" concept="2" />
+      <node id="6343853832484429067" at="107,223,108,26" concept="2" />
+      <node id="6343853832484601575" at="109,9,110,104" concept="2" />
+      <node id="6343853832452573929" at="113,57,114,22" concept="2" />
+      <node id="6343853832484449670" at="115,30,116,33" concept="7" />
+      <node id="6343853832484449675" at="117,13,118,98" concept="2" />
+      <node id="6343853832484601579" at="119,52,120,161" concept="2" />
+      <node id="6343853832484449698" at="120,161,121,26" concept="2" />
+      <node id="6343853832484601655" at="122,9,123,96" concept="2" />
+      <node id="6343853832452573900" at="20,0,22,0" concept="11" trace="ourParametersCacheExtension" />
+      <node id="6343853832452573900" at="23,0,26,0" concept="1" trace="TextOutputAssertions_Test#()V" />
+      <node id="6343853832452573900" at="50,0,53,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6343853832452573901" at="27,0,31,0" concept="6" trace="test_rejectsMultipleOutputs#()V" />
+      <node id="6343853832452573908" at="31,0,35,0" concept="6" trace="test_rejectsWrongFilename#()V" />
+      <node id="6343853832452573915" at="35,0,39,0" concept="6" trace="test_rejectsWrongCharset#()V" />
+      <node id="6343853832452573922" at="39,0,43,0" concept="6" trace="test_rejectsDifferentLengths#()V" />
+      <node id="6343853832452573929" at="43,0,47,0" concept="6" trace="test_rejectsNullUnit#()V" />
+      <node id="6343853832452573900" at="54,0,58,0" concept="6" trace="initTestNodes#()V" />
+      <node id="6343853832484367388" at="62,33,68,9" concept="15" />
+      <node id="6343853832484387888" at="75,33,81,9" concept="15" />
+      <node id="6343853832484408465" at="89,33,95,9" concept="15" />
+      <node id="6343853832484429071" at="103,33,109,9" concept="15" />
+      <node id="6343853832484449702" at="116,33,122,9" concept="15" />
+      <node id="6343853832452573901" at="60,22,70,9" concept="2" />
+      <node id="6343853832452573908" at="73,22,83,9" concept="2" />
+      <node id="6343853832452573929" at="114,22,124,9" concept="2" />
+      <node id="6343853832452573915" at="86,22,97,9" concept="2" />
+      <node id="6343853832452573922" at="100,22,111,9" concept="2" />
+      <node id="6343853832452573901" at="59,0,72,0" concept="6" trace="test_rejectsMultipleOutputs#()V" />
+      <node id="6343853832452573908" at="72,0,85,0" concept="6" trace="test_rejectsWrongFilename#()V" />
+      <node id="6343853832452573929" at="113,0,126,0" concept="6" trace="test_rejectsNullUnit#()V" />
+      <node id="6343853832452573915" at="85,0,99,0" concept="6" trace="test_rejectsWrongCharset#()V" />
+      <node id="6343853832452573922" at="99,0,113,0" concept="6" trace="test_rejectsDifferentLengths#()V" />
+      <scope id="6343853832452573900" at="23,38,24,60" />
+      <scope id="6343853832452573901" at="28,62,29,53" />
+      <scope id="6343853832452573908" at="32,60,33,51" />
+      <scope id="6343853832452573915" at="36,59,37,50" />
+      <scope id="6343853832452573922" at="40,63,41,54" />
+      <scope id="6343853832452573929" at="44,55,45,46" />
+      <scope id="6343853832452573900" at="50,52,51,19" />
+      <scope id="6343853832452573900" at="55,36,56,25" />
+      <scope id="6343853832484367358" at="63,13,64,156" />
+      <scope id="6343853832484387859" at="76,13,77,143" />
+      <scope id="6343853832484408437" at="90,13,91,103" />
+      <scope id="6343853832484429043" at="104,13,105,100" />
+      <scope id="6343853832484449674" at="117,13,118,98" />
+      <scope id="6343853832484367375" at="65,42,67,26" />
+      <scope id="6343853832484387875" at="78,42,80,26" />
+      <scope id="6343853832484408452" at="92,42,94,26" />
+      <scope id="6343853832484429058" at="106,42,108,26" />
+      <scope id="6343853832484449689" at="119,52,121,26" />
+      <scope id="6343853832452573900" at="23,0,26,0" />
+      <scope id="6343853832452573900" at="50,0,53,0">
         <var name="owner" id="6343853832452573900" />
       </scope>
-      <scope id="6343853832452573901" at="23,0,27,0" />
-      <scope id="6343853832452573908" at="27,0,31,0" />
-      <scope id="6343853832452573915" at="31,0,35,0" />
-      <scope id="6343853832452573922" at="35,0,39,0" />
-      <scope id="6343853832452573929" at="39,0,43,0" />
-      <scope id="6343853832452573900" at="50,0,54,0" />
-      <scope id="6343853832452573901" at="55,0,59,0" />
-      <scope id="6343853832452573908" at="59,0,63,0" />
-      <scope id="6343853832452573915" at="63,0,67,0" />
-      <scope id="6343853832452573922" at="67,0,71,0" />
-      <scope id="6343853832452573929" at="71,0,75,0" />
-      <unit id="6343853832452573900" at="44,0,77,0" name="com.mbeddr.demo.comparator.diff.tests.diffs.TextOutputAssertions_Test$TestBody" />
-      <unit id="6343853832452573900" at="14,0,78,0" name="com.mbeddr.demo.comparator.diff.tests.diffs.TextOutputAssertions_Test" />
+      <scope id="6343853832484367389" at="65,9,68,9">
+        <var name="failure" id="6343853832484367371" />
+      </scope>
+      <scope id="6343853832484387889" at="78,9,81,9">
+        <var name="failure" id="6343853832484387871" />
+      </scope>
+      <scope id="6343853832484408466" at="92,9,95,9">
+        <var name="failure" id="6343853832484408448" />
+      </scope>
+      <scope id="6343853832484429072" at="106,9,109,9">
+        <var name="failure" id="6343853832484429054" />
+      </scope>
+      <scope id="6343853832484449703" at="119,9,122,9">
+        <var name="failure" id="6343853832484449685" />
+      </scope>
+      <scope id="6343853832452573901" at="27,0,31,0" />
+      <scope id="6343853832452573908" at="31,0,35,0" />
+      <scope id="6343853832452573915" at="35,0,39,0" />
+      <scope id="6343853832452573922" at="39,0,43,0" />
+      <scope id="6343853832452573929" at="43,0,47,0" />
+      <scope id="6343853832452573900" at="54,0,58,0" />
+      <scope id="6343853832452573901" at="61,30,69,103">
+        <var name="rejected" id="6343853832484367353" />
+      </scope>
+      <scope id="6343853832452573908" at="74,30,82,101">
+        <var name="rejected" id="6343853832484387854" />
+      </scope>
+      <scope id="6343853832452573929" at="115,30,123,96">
+        <var name="rejected" id="6343853832484449669" />
+      </scope>
+      <scope id="6343853832452573915" at="87,30,96,100">
+        <var name="output" id="6343853832484408427" />
+        <var name="rejected" id="6343853832484408432" />
+      </scope>
+      <scope id="6343853832452573922" at="101,30,110,104">
+        <var name="output" id="6343853832484429033" />
+        <var name="rejected" id="6343853832484429038" />
+      </scope>
+      <scope id="6343853832452573901" at="59,64,70,9" />
+      <scope id="6343853832452573908" at="72,62,83,9" />
+      <scope id="6343853832452573929" at="113,57,124,9" />
+      <scope id="6343853832452573915" at="85,61,97,9" />
+      <scope id="6343853832452573922" at="99,65,111,9" />
+      <scope id="6343853832452573901" at="59,0,72,0" />
+      <scope id="6343853832452573908" at="72,0,85,0" />
+      <scope id="6343853832452573929" at="113,0,126,0" />
+      <scope id="6343853832452573915" at="85,0,99,0" />
+      <scope id="6343853832452573922" at="99,0,113,0" />
+      <unit id="6343853832452573900" at="48,0,128,0" name="com.mbeddr.demo.comparator.diff.tests.diffs.TextOutputAssertions_Test$TestBody" />
+      <unit id="6343853832452573900" at="18,0,129,0" name="com.mbeddr.demo.comparator.diff.tests.diffs.TextOutputAssertions_Test" />
     </file>
   </root>
   <root nodeRef="r:7e1cdbc4-24e4-458b-b337-9e688e689139(com.mbeddr.demo.comparator.diff.tests.diffs@tests)/6343853832459169288">
     <file name="TextOutputSuccess_Test.java">
-      <node id="6343853832459169288" at="19,35,20,60" concept="13" />
-      <node id="6343853832459169289" at="24,61,25,52" concept="2" />
-      <node id="6343853832459169296" at="28,71,29,62" concept="2" />
-      <node id="6343853832459169288" at="34,52,35,19" concept="13" />
-      <node id="6343853832459169288" at="39,36,40,25" concept="2" />
-      <node id="6343853832459169289" at="43,63,44,22" concept="2" />
-      <node id="6343853832459169289" at="44,22,45,90" concept="2" />
-      <node id="6343853832459169296" at="47,73,48,22" concept="2" />
-      <node id="6343853832459169296" at="48,22,49,100" concept="2" />
-      <node id="6343853832459169288" at="16,0,18,0" concept="11" trace="ourParametersCacheExtension" />
-      <node id="6343853832459169288" at="19,0,22,0" concept="1" trace="TextOutputSuccess_Test#()V" />
-      <node id="6343853832459169288" at="34,0,37,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="6343853832459169289" at="23,0,27,0" concept="6" trace="test_acceptsMatchingOutput#()V" />
-      <node id="6343853832459169296" at="27,0,31,0" concept="6" trace="test_reportsSameLengthMismatchOffset#()V" />
-      <node id="6343853832459169288" at="38,0,42,0" concept="6" trace="initTestNodes#()V" />
-      <node id="6343853832459169289" at="43,0,47,0" concept="6" trace="test_acceptsMatchingOutput#()V" />
-      <node id="6343853832459169296" at="47,0,51,0" concept="6" trace="test_reportsSameLengthMismatchOffset#()V" />
-      <scope id="6343853832459169288" at="19,35,20,60" />
-      <scope id="6343853832459169289" at="24,61,25,52" />
-      <scope id="6343853832459169296" at="28,71,29,62" />
-      <scope id="6343853832459169288" at="34,52,35,19" />
-      <scope id="6343853832459169288" at="39,36,40,25" />
-      <scope id="6343853832459169289" at="43,63,45,90" />
-      <scope id="6343853832459169296" at="47,73,49,100" />
-      <scope id="6343853832459169288" at="19,0,22,0" />
-      <scope id="6343853832459169288" at="34,0,37,0">
+      <node id="6343853832459169288" at="23,35,24,60" concept="13" />
+      <node id="6343853832459169289" at="28,61,29,52" concept="2" />
+      <node id="6343853832459169296" at="32,71,33,62" concept="2" />
+      <node id="6343853832459169288" at="38,52,39,19" concept="13" />
+      <node id="6343853832459169288" at="43,36,44,25" concept="2" />
+      <node id="6343853832459169289" at="47,63,48,22" concept="2" />
+      <node id="6343853832459171917" at="49,30,50,69" concept="7" />
+      <node id="6343853832459171921" at="50,69,51,26" concept="2" />
+      <node id="6343853832459171924" at="51,26,52,41" concept="7" />
+      <node id="6343853832459171929" at="52,41,53,61" concept="7" />
+      <node id="6343853832459171935" at="53,61,54,140" concept="2" />
+      <node id="6343853832459169296" at="57,73,58,22" concept="2" />
+      <node id="6343853832484470534" at="59,30,60,69" concept="7" />
+      <node id="6343853832484470538" at="60,69,61,26" concept="2" />
+      <node id="6343853832484470541" at="61,26,62,41" concept="7" />
+      <node id="6343853832484601659" at="62,41,63,76" concept="2" />
+      <node id="6343853832484601663" at="63,76,64,85" concept="2" />
+      <node id="6343853832484470556" at="64,85,65,61" concept="7" />
+      <node id="6343853832484470562" at="65,61,66,47" concept="2" />
+      <node id="6343853832484470576" at="66,47,67,33" concept="7" />
+      <node id="6343853832484470581" at="68,13,69,131" concept="2" />
+      <node id="6343853832484470594" at="70,42,71,108" concept="7" />
+      <node id="6343853832484601671" at="71,108,72,140" concept="2" />
+      <node id="6343853832484470611" at="72,140,73,26" concept="2" />
+      <node id="6343853832484601747" at="74,9,75,104" concept="2" />
+      <node id="6343853832459169288" at="20,0,22,0" concept="11" trace="ourParametersCacheExtension" />
+      <node id="6343853832459169288" at="23,0,26,0" concept="1" trace="TextOutputSuccess_Test#()V" />
+      <node id="6343853832459169288" at="38,0,41,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6343853832459169289" at="27,0,31,0" concept="6" trace="test_acceptsMatchingOutput#()V" />
+      <node id="6343853832459169296" at="31,0,35,0" concept="6" trace="test_reportsSameLengthMismatchOffset#()V" />
+      <node id="6343853832459169288" at="42,0,46,0" concept="6" trace="initTestNodes#()V" />
+      <node id="6343853832459169289" at="48,22,55,9" concept="2" />
+      <node id="6343853832484470615" at="67,33,74,9" concept="15" />
+      <node id="6343853832459169289" at="47,0,57,0" concept="6" trace="test_acceptsMatchingOutput#()V" />
+      <node id="6343853832459169296" at="58,22,76,9" concept="2" />
+      <node id="6343853832459169296" at="57,0,78,0" concept="6" trace="test_reportsSameLengthMismatchOffset#()V" />
+      <scope id="6343853832459169288" at="23,35,24,60" />
+      <scope id="6343853832459169289" at="28,61,29,52" />
+      <scope id="6343853832459169296" at="32,71,33,62" />
+      <scope id="6343853832459169288" at="38,52,39,19" />
+      <scope id="6343853832459169288" at="43,36,44,25" />
+      <scope id="6343853832484470580" at="68,13,69,131" />
+      <scope id="6343853832459169288" at="23,0,26,0" />
+      <scope id="6343853832459169288" at="38,0,41,0">
         <var name="owner" id="6343853832459169288" />
       </scope>
-      <scope id="6343853832459169289" at="23,0,27,0" />
-      <scope id="6343853832459169296" at="27,0,31,0" />
-      <scope id="6343853832459169288" at="38,0,42,0" />
-      <scope id="6343853832459169289" at="43,0,47,0" />
-      <scope id="6343853832459169296" at="47,0,51,0" />
-      <unit id="6343853832459169288" at="32,0,53,0" name="com.mbeddr.demo.comparator.diff.tests.diffs.TextOutputSuccess_Test$TestBody" />
-      <unit id="6343853832459169288" at="14,0,54,0" name="com.mbeddr.demo.comparator.diff.tests.diffs.TextOutputSuccess_Test" />
+      <scope id="6343853832484470592" at="70,42,73,26">
+        <var name="diagnostic" id="6343853832484470593" />
+      </scope>
+      <scope id="6343853832459169289" at="27,0,31,0" />
+      <scope id="6343853832459169296" at="31,0,35,0" />
+      <scope id="6343853832459169288" at="42,0,46,0" />
+      <scope id="6343853832484470616" at="70,9,74,9">
+        <var name="failure" id="6343853832484470588" />
+      </scope>
+      <scope id="6343853832459169289" at="49,30,54,140">
+        <var name="bytes" id="6343853832459171923" />
+        <var name="expected" id="6343853832459171928" />
+        <var name="sample" id="6343853832459171916" />
+      </scope>
+      <scope id="6343853832459169289" at="47,63,55,9" />
+      <scope id="6343853832459169289" at="47,0,57,0" />
+      <scope id="6343853832459169296" at="59,30,75,104">
+        <var name="bytes" id="6343853832484470540" />
+        <var name="expected" id="6343853832484470555" />
+        <var name="rejected" id="6343853832484470575" />
+        <var name="sample" id="6343853832484470533" />
+      </scope>
+      <scope id="6343853832459169296" at="57,73,76,9" />
+      <scope id="6343853832459169296" at="57,0,78,0" />
+      <unit id="6343853832459169288" at="36,0,80,0" name="com.mbeddr.demo.comparator.diff.tests.diffs.TextOutputSuccess_Test$TestBody" />
+      <unit id="6343853832459169288" at="18,0,81,0" name="com.mbeddr.demo.comparator.diff.tests.diffs.TextOutputSuccess_Test" />
     </file>
   </root>
   <root nodeRef="r:7e1cdbc4-24e4-458b-b337-9e688e689139(com.mbeddr.demo.comparator.diff.tests.diffs@tests)/7898849890643170509">

@@ -4,104 +4,28 @@ package com.mbeddr.demo.comparator.diff.tests.diffs;
 
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.project.Project;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
+import org.junit.Assert;
 import jetbrains.mps.text.TextUnit;
 import java.util.List;
-import de.itemis.mps.comparator.code.TextOutputAssertions;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
 
 public class SharedOutputAssertionTests {
-  private static SModel fixture(Project project) {
-    SModel model = PersistenceFacade.getInstance().createModelReference("r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e(de.itemis.mps.comparator.diff.tests.input2)").resolve(project.getRepository());
-    if (model == null) {
-      throw new IllegalStateException("Comparator input2 fixture is missing.");
-    }
+  public static SModel fixture(Project project) {
+    SModel model = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:a7d76bb4-80cc-41cc-bdeb-d4060fa9746e(de.itemis.mps.comparator.diff.tests.input2)"), project.getRepository());
+    Assert.assertNotNull("Comparator input2 fixture must be present", model);
     return model;
   }
-  private static TextUnit unit(Project project) {
+  public static TextUnit unit(Project project) {
     List<TextUnit> outputs = new TestTextComparison().breakdownToUnits(fixture(project), project, null, null);
-    return outputs.get(0);
-  }
-  public static void rejectsMultipleOutputs(Project project) {
-    try {
-      TextOutputAssertions.assertSingleOutput(project, fixture(project), "AB.java", StandardCharsets.UTF_8, new byte[0]);
-    } catch (AssertionError expected) {
-      if (expected.getMessage().contains("got 3")) {
-        return;
+    TextUnit selected = null;
+    for (TextUnit output : outputs) {
+      if ("AB.java".equals(output.getFileName())) {
+        Assert.assertNull("AB.java must identify exactly one output", selected);
+        selected = output;
       }
-      throw expected;
     }
-    throw new AssertionError("Multiple outputs must not be silently ignored.");
-  }
-  public static void rejectsWrongFilename(Project project) {
-    try {
-      TextOutputAssertions.assertOutput(unit(project), "incorrect.java", StandardCharsets.UTF_8, new byte[0]);
-    } catch (AssertionError expected) {
-      if (expected.getMessage().startsWith("Expected filename")) {
-        return;
-      }
-      throw expected;
-    }
-    throw new AssertionError("An incorrect output filename must be rejected.");
-  }
-  public static void rejectsWrongCharset(Project project) {
-    TextUnit output = unit(project);
-    try {
-      TextOutputAssertions.assertOutput(output, output.getFileName(), StandardCharsets.UTF_16LE, new byte[0]);
-    } catch (AssertionError expected) {
-      if (expected.getMessage().startsWith("Expected encoding")) {
-        return;
-      }
-      throw expected;
-    }
-    throw new AssertionError("An incorrect output charset must be rejected.");
-  }
-  public static void rejectsDifferentLengths(Project project) {
-    TextUnit output = unit(project);
-    try {
-      TextOutputAssertions.assertOutput(output, output.getFileName(), StandardCharsets.UTF_8, new byte[0]);
-    } catch (AssertionError expected) {
-      if (expected.getMessage().contains("at offset 0: expected 0 bytes, got ")) {
-        return;
-      }
-      throw expected;
-    }
-    throw new AssertionError("A different output length must be rejected.");
-  }
-  public static void rejectsNullUnit(Project project) {
-    try {
-      TextOutputAssertions.assertOutput(null, "AB.java", StandardCharsets.UTF_8, new byte[0]);
-    } catch (IllegalArgumentException expected) {
-      return;
-    }
-    throw new AssertionError("A null output unit must be rejected.");
-  }
-  public static void acceptsMatchingOutput(Project project) {
-    TextUnit sample = unit(project);
-    sample.generate();
-    byte[] bytes = sample.getBytes();
-    byte[] expected = Arrays.copyOf(bytes, bytes.length);
-    TextOutputAssertions.assertOutput(unit(project), sample.getFileName(), sample.getEncoding(), expected);
-  }
-  public static void reportsSameLengthMismatchOffset(Project project) {
-    TextUnit sample = unit(project);
-    sample.generate();
-    byte[] bytes = sample.getBytes();
-    byte[] expected = Arrays.copyOf(bytes, bytes.length);
-    if (expected.length < 2) {
-      throw new AssertionError("The Java fixture must contain at least two bytes.");
-    }
-    expected[1] = (byte) (expected[1] ^ 1);
-    try {
-      TextOutputAssertions.assertOutput(unit(project), sample.getFileName(), sample.getEncoding(), expected);
-    } catch (AssertionError failure) {
-      String diagnostic = "at offset 1: expected " + expected.length + " bytes, got " + expected.length;
-      if (failure.getMessage().contains(diagnostic)) {
-        return;
-      }
-      throw failure;
-    }
-    throw new AssertionError("A same-length byte mismatch must be rejected.");
+    Assert.assertNotNull("Comparator input2 must generate AB.java", selected);
+    return selected;
   }
 }

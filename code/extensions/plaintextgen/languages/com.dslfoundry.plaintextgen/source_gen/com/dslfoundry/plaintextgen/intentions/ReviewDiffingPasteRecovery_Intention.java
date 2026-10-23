@@ -44,7 +44,7 @@ public final class ReviewDiffingPasteRecovery_Intention extends AbstractIntentio
 
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Review latest diffing-paste recovery";
+      return "Review Latest Diffing-Paste Recovery";
     }
 
     @Override

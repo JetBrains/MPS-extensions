@@ -5,20 +5,22 @@ package com.jetbrains.mpsext.plaintextgen.tests.layouts;
 import jetbrains.mps.project.Project;
 import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.model.SModel;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.junit.Assert;
 import jetbrains.mps.smodel.tempmodel.TemporaryModels;
 import jetbrains.mps.smodel.tempmodel.TempModuleOptions;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.smodel.CopyUtil;
 import java.nio.charset.Charset;
 import de.itemis.mps.comparator.code.TextOutputAssertions;
 
 public class PlainTextGenAssertions {
   public static void assertText(Project project, SNode template, String fileName, String encoding, String expected) {
-    SModel source = template.getModel();
+    SModel source = SNodeOperations.getModel(template);
     Assert.assertNotNull("The template must belong to a model", source);
-    SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(source.getModule()));
+    SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
     try {
-      model.addRootNode(CopyUtil.copy(template));
+      SModelOperations.addRootNode(model, CopyUtil.copy(template));
       TemporaryModels.getInstance().addMissingImports(model);
       Charset charset = Charset.forName(encoding);
       TextOutputAssertions.assertSingleOutput(project, model, fileName, charset, expected.getBytes(charset));

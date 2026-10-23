@@ -10,6 +10,10 @@ import jetbrains.mps.lang.test.runtime.TestParametersCacheBuilder;
 import org.junit.jupiter.api.Test;
 import jetbrains.mps.lang.test.runtime.BaseTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
+import com.dslfoundry.plaintextgen.plugin.DiffPaste;
+import org.junit.Assert;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import com.dslfoundry.plaintextgen.plugin.DiffPasteUI;
 
 @MPSLaunch
 public class DiffingPasteReview_Test extends BaseTransformationTest {
@@ -46,15 +50,35 @@ public class DiffingPasteReview_Test extends BaseTransformationTest {
 
     public void test_nonGeneratorAnnotationRemovalRequiresConfirmation() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> DiffPasteAssertions.nonGeneratorAnnotationRemovalRequiresConfirmation(myProject));
+      runWithinCommand(() -> DiffPasteAssertions.withFixture(myProject, "alpha\nbeta\nomega", false, (f) -> {
+        {
+          f.annotateNonGenerator(f.word(0));
+          DiffPaste.Plan plan = f.prepare("changed\nbeta\nomega");
+          Assert.assertFalse("Non-generator attributes must appear in the warning", ListSequence.fromList(plan.getConflicts()).isEmpty());
+          f.assertRejected(plan, false);
+          f.assertUnchanged();
+          f.assertRecovery(f.apply(plan, true));
+        }
+      }));
     }
     public void test_unchangedNonGeneratorAnnotationKeepsIdentity() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> DiffPasteAssertions.unchangedNonGeneratorAnnotationKeepsIdentity(myProject));
+      runWithinCommand(() -> DiffPasteAssertions.withFixture(myProject, "alpha\nbeta\nomega", false, (f) -> {
+        f.annotateNonGenerator(f.word(0));
+        f.applyPreserving("alpha\nchanged\nomega");
+      }));
     }
     public void test_dialogGuardRejectsModelAccess() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> DiffPasteAssertions.dialogGuardRejectsModelAccess(myProject));
+      runWithinCommand(() -> {
+        Assert.assertTrue("This native test must hold model access", myProject.getRepository().getModelAccess().canRead());
+        try {
+          DiffPasteUI.requireUnlockedDialogs(myProject);
+          Assert.fail("Modal dialogs must not open inside an editor command");
+        } catch (IllegalStateException expected) {
+          Assert.assertTrue("The dialog guard must explain that modal UI requires released model access", expected.getMessage().contains("outside model read/write access"));
+        }
+      });
     }
 
   }

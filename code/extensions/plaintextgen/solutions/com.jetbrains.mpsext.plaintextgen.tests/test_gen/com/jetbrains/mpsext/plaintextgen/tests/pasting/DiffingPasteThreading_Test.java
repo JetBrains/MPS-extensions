@@ -10,6 +10,13 @@ import jetbrains.mps.lang.test.runtime.TestParametersCacheBuilder;
 import org.junit.jupiter.api.Test;
 import jetbrains.mps.lang.test.runtime.BaseTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
+import org.junit.Assert;
+import java.util.concurrent.atomic.AtomicReference;
+import com.intellij.openapi.application.Application;
+import com.intellij.openapi.application.ApplicationManager;
+import com.dslfoundry.plaintextgen.plugin.DiffPasteUI;
+import java.util.concurrent.TimeUnit;
+import com.dslfoundry.plaintextgen.plugin.DiffPaste;
 
 @MPSLaunch
 public class DiffingPasteThreading_Test extends BaseTransformationTest {
@@ -38,7 +45,48 @@ public class DiffingPasteThreading_Test extends BaseTransformationTest {
 
     public void test_deferredUiWorkReleasesModelAccess() throws Exception {
       initTestNodes();
-      DiffPasteAssertions.deferredUiWorkReleasesModelAccess(myProject);
+      Assert.assertFalse("This integration regression must start outside model access", myProject.getRepository().getModelAccess().canRead());
+      final AtomicReference<DiffPasteAssertions.RecordingDialogs> result = new AtomicReference<DiffPasteAssertions.RecordingDialogs>();
+      Application application = ApplicationManager.getApplication();
+      application.invokeAndWait(() -> myProject.getRepository().getModelAccess().executeCommand(() -> {
+        {
+          DiffPasteAssertions.Fixture fixture = new DiffPasteAssertions.Fixture(myProject, "alpha\nbeta\nomega", false);
+          fixture.annotate(fixture.word(0));
+          fixture.apply(fixture.prepare("alpha\nchanged\nomega"), false);
+          DiffPasteAssertions.RecordingDialogs dialogs = new DiffPasteAssertions.RecordingDialogs(fixture);
+          result.set(dialogs);
+          DiffPasteUI.paste(fixture.template, myProject, "alpha\nsecond\nomega", dialogs, fixture.recovery);
+          DiffPasteUI.recover(fixture.template, myProject, dialogs, fixture.recovery);
+        }
+      }));
+      final DiffPasteAssertions.RecordingDialogs dialogs = result.get();
+      Assert.assertNotNull("EDT setup must publish its recording dialogs", dialogs);
+      try {
+        Assert.assertTrue("Real paste and recovery callbacks must finish", dialogs.completed.await(20, TimeUnit.SECONDS));
+        Assert.assertNull("Production dialogs must release model access: " + dialogs.failure.get(), dialogs.failure.get());
+        Assert.assertEquals("The real paste entry point must open a preview", Integer.valueOf(1), Integer.valueOf(dialogs.previews));
+        Assert.assertEquals("The real recovery entry point must show its report", Integer.valueOf(1), Integer.valueOf(dialogs.reports));
+        Assert.assertEquals("The real recovery entry point must open the model diff", Integer.valueOf(1), Integer.valueOf(dialogs.recoveries));
+        Assert.assertEquals("Cancelling the preview must skip replacement confirmation", Integer.valueOf(0), Integer.valueOf(dialogs.confirmations));
+        myProject.getRepository().getModelAccess().runReadAction(() -> {
+          Assert.assertEquals("Cancelling the real preview must not apply its plan", "alpha\nchanged\nomega\n", DiffPaste.render(dialogs.fixture.template, myProject));
+          dialogs.fixture.assertAnnotationPreserved();
+        });
+      } catch (InterruptedException exception) {
+        Thread.currentThread().interrupt();
+        Assert.fail("Interrupted while waiting for the production dialog callbacks: " + exception);
+      } finally {
+        for (Thread worker : dialogs.workers) {
+          try {
+            worker.join(5000);
+            Assert.assertFalse("Every dialog model reader must have been joined", worker.isAlive());
+          } catch (InterruptedException exception) {
+            Thread.currentThread().interrupt();
+            Assert.fail("Interrupted during dialog reader cleanup: " + exception);
+          }
+        }
+        application.invokeAndWait(() -> myProject.getRepository().getModelAccess().executeCommand(() -> dialogs.fixture.close()));
+      }
     }
 
   }

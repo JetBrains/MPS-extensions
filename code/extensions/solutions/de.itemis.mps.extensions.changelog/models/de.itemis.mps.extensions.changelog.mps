@@ -1191,10 +1191,10 @@
             <property role="3oM_SC" value="the" />
           </node>
           <node concept="3oM_SD" id="5kBF9y1gad$" role="1PaTwD">
-            <property role="3oM_SC" value="Markdown" />
+            <property role="3oM_SC" value="bundled" />
           </node>
           <node concept="3oM_SD" id="5kBF9y1gad_" role="1PaTwD">
-            <property role="3oM_SC" value="plugin-managed" />
+            <property role="3oM_SC" value="MIT-licensed" />
           </node>
           <node concept="3oM_SD" id="5kBF9y1gadA" role="1PaTwD">
             <property role="3oM_SC" value="PlantUML" />

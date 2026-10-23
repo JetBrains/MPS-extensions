@@ -20,7 +20,7 @@ The following installation instructions assume an `apt-get` package manager on L
 
 Runtime prerequisites:
 
-1. Install MPS with the Markdown plugin and its PlantUML support enabled. Langvis uses the PlantUML installation managed by that plugin and downloads it automatically when first needed.
+1. Install MPS and Langvis. Langvis bundles the MIT-licensed PlantUML library; the Markdown plugin and runtime downloads are not required.
 2. A separate Oracle JDK, PlantUML jar in your home directory, and `JAVA_HOME` configuration are not required. MPS's bundled runtime is used.
 3. GraphViz may be needed by PlantUML for layouts that use it.
 
@@ -57,7 +57,10 @@ After adjusting the options, you need to press the `refresh icon` to apply the c
 Zoom re-renders the retained SVG at the selected scale rather than magnifying a
 bitmap. It does not rerun PlantUML. Refresh regenerates the diagram from the
 current model and options, then renders the new SVG at the current zoom. The
-preview preserves the diagram's aspect ratio and limits its rendered dimensions.
+preview preserves the diagram's aspect ratio and limits the raster to 16 million
+device pixels and 10,000 device pixels per side, including on HiDPI displays.
+Large diagrams are reduced to fit these limits. Rendering failures are reported
+in the MPS Messages tool window; the previous preview remains available.
 
 If the provided tool panel isn't to your liking, you can view the visualization in an image viewer instead.
 

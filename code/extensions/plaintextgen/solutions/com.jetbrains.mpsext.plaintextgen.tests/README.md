@@ -37,6 +37,12 @@ Paste tests call the explicit-text `PlaintextPaster` overloads rather than the
 clipboard. They cover indentation detection, intermediate dedents, blank lines,
 CRLF, tab expansion/preservation, and empty/null input.
 
+`LineEndingAssertions.withFixture`, `MacroOverrideAssertions.withFixture`, and
+`PasteAssertions.withFixture` share fixture copying, configuration, and disposal.
+Their callbacks keep each scenario's actions, expected values, and assertions in
+the named test method. Temporary models use independent non-reloadable modules
+so adding fixture imports cannot change the source module's dependencies.
+
 `rightAlignedIndentationKeepsHistoricalPadding` intentionally records historical
 extra padding, tracked in [#1941](https://github.com/JetBrains/MPS-extensions/issues/1941).
 Update its expectation together with a fix for that issue; this compatibility

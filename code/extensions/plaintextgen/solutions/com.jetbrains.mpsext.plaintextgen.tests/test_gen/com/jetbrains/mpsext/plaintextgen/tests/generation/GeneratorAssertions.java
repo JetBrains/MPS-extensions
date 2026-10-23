@@ -30,7 +30,7 @@ public class GeneratorAssertions {
   public static Map<File, String> generate(Project project, SModelReference reference, boolean emptyLoops) {
     SModel source = SPointerOperations.resolveModel(reference, project.getRepository());
     Assert.assertNotNull("Missing generator input", source);
-    SModel input = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+    SModel input = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.nonReloadableModule(project.getRepository()));
     try {
       for (SNode root : SModelOperations.roots(source, null)) {
         SNode copy = CopyUtil.copy(root);
@@ -45,12 +45,11 @@ public class GeneratorAssertions {
       Assert.assertNotNull("No generation status", status);
       Assert.assertFalse("Generation failed: " + messages, status.isError());
       SModel output = status.getOutputModel();
-      Assert.assertNotNull("No output model", output);
       TextComparison comparison = new TextComparison();
       if (output != null) {
         comparison.doTextGen(output, project, null, null);
       } else
-      Assert.assertNotNull("Generator input must produce an output model before text generation", output);
+      Assert.fail("Generator input must produce an output model before text generation");
       return comparison.getMapping();
     } finally {
       TemporaryModels.getInstance().dispose(input);

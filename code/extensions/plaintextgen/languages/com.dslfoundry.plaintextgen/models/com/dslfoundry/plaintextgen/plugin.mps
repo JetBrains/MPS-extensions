@@ -1640,21 +1640,21 @@
               <node concept="2OqwBi" id="4VwmtNVZf1Y" role="3clFbG">
                 <node concept="1P9Npp" id="4VwmtNVZf1Z" role="2OqNvi">
                   <node concept="1rXfSq" id="4VwmtNVZf20" role="1P9ThW">
-                    <ref role="37wK5l" node="1vA0kATHUPE" />
+                    <ref role="37wK5l" node="1vA0kATHUPE" resolve="verticalLinesFromText" />
                     <node concept="37vLTw" id="4VwmtNVZf21" role="37wK5m">
-                      <ref role="3cqZAo" node="5w9TncdPnFj" />
+                      <ref role="3cqZAo" node="5w9TncdPnFj" resolve="text" />
                     </node>
                   </node>
                 </node>
                 <node concept="37vLTw" id="4VwmtNVZf22" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5w9TncdPnF9" />
+                  <ref role="3cqZAo" node="5w9TncdPnF9" resolve="node" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="2OqwBi" id="4VwmtNVZf23" role="3clFbw">
             <node concept="37vLTw" id="4VwmtNVZf24" role="2Oq$k0">
-              <ref role="3cqZAo" node="5w9TncdPnFj" />
+              <ref role="3cqZAo" node="5w9TncdPnFj" resolve="text" />
             </node>
             <node concept="17RvpY" id="4VwmtNVZf25" role="2OqNvi" />
           </node>

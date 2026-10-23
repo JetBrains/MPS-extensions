@@ -25,8 +25,10 @@ public class LayoutWatchdog {
   }
 
   public static void enterIfRequired(int timeoutValue, Runnable runnable) {
-    if (myLayoutingCountdown <= 0) {
+    if (myLayoutingCountdown < 0) {
       enter(timeoutValue, runnable);
+    } else {
+      runnable.run();
     }
 
   }

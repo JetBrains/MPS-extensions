@@ -1,5 +1,6 @@
 import jetbrains.buildServer.configs.kotlin.BuildStep
 import jetbrains.buildServer.configs.kotlin.BuildType
+import jetbrains.buildServer.configs.kotlin.DslContext
 import jetbrains.buildServer.configs.kotlin.buildFeatures.PullRequests
 import jetbrains.buildServer.configs.kotlin.buildFeatures.pullRequests
 import jetbrains.buildServer.configs.kotlin.buildFeatures.sshAgent
@@ -222,6 +223,11 @@ object PullRequestsBuild : BuildType({
         preliminaryMerge {
             id = "premergeRunner"
             targetBranchName = "%teamcity.pullRequest.target.branch%"
+        }
+        script {
+            id = "PrekChecks"
+            name = "Pre-commit checks"
+            scriptContent = DslContext.baseDir.resolve("prek-checks.sh").readText()
         }
         gradle {
             id = "gradle_runner"

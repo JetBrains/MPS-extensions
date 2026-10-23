@@ -94,10 +94,6 @@ Tests use the MPS test languages: `jetbrains.mps.lang.test` for anything with no
 7. SHOULD: changed code uses no deprecated API or concept when the deprecation names a replacement.
 8. SHOULD: code that runs in a command or write action (an intention's `execute`, an action that changes the model)
    opens no modal dialog. Ask the user first, then change the model in a command.
-9. MUST: code that needs a certain thread, such as the EDT, does not switch to it by itself (no `invokeAndWait` hidden
-   inside a method or an expression). Its documentation names the thread, and the caller moves to that thread. A
-   hidden thread switch surprises the caller and can deadlock when the caller holds a lock that the other thread waits
-   for.
 
 ## 4. Changelog and documentation
 
@@ -138,6 +134,33 @@ Tests use the MPS test languages: `jetbrains.mps.lang.test` for anything with no
 2. SHOULD: when a change rewrites a large part of a method or class, it also brings the rest of it in line with
    section 1. A large cleanup goes into its own commit or PR, apart from changes in behaviour.
 3. A reviewer does not ask for cleanup of code the change does not touch, but may note it as a follow-up.
+
+## 8. Threads
+
+The caller chooses the thread and takes the locks; the callee states what it needs.
+
+In this section:
+
+- A **thread switch** runs work on another thread: `invokeLater`, `invokeAndWait`, `runWriteInEDT`, `runInEDT`,
+  `ApplicationManager.executeOnPooledThread`, `new Thread`, `ExecutorService.submit`.
+- A **wait** blocks the current thread until another thread is done: `invokeAndWait`, `Future.get()`,
+  `CompletableFuture.join()`, `CountDownLatch.await()`, `Object.wait()`, `Thread.sleep`.
+- A **lock** is also a wait, because it blocks until other threads let go of it: `read action`, `command`,
+  `ModelAccess.runReadAction`, `synchronized`, `Lock.lock()`. Two threads that wait for each other deadlock. For
+  example, the EDT holds the write lock and waits for a pooled thread, while that thread waits for a read lock.
+
+1. SHOULD: callee. An expression, a getter, a concept function (`property getter`, `can be child`, a scope) or a
+   behaviour method without parameters is quick and has no thread switch, wait or lock. When it needs a certain thread
+   or lock, it asserts it (`checkReadAccess()`, `assertIsDispatchThread()`) or says so in its doc comment ("Use only on
+   the EDT, in a read action."), and leaves the switch and the lock to the caller. A reader expects a simple call to be
+   fast. When it waits, the code does not work as expected, and finding out why costs time, effort and tokens.
+2. MUST: caller. Each thread switch and each wait other than a lock has a comment on the line before it that says why
+   this thread and why it waits (or why it does not wait). The caller also chooses how much work each lock covers: one
+   lock where the work needs a consistent model, or several shorter locks so that other threads can run in between.
+   When work is split over several locks, a comment says what may change between them.
+3. MUST: a test is a caller like any other. It moves to the thread and takes the lock that the code needs, for example
+   with `invokeAndWait` in the test method. Production code does not get a thread switch, wait or lock only to make a
+   test pass; such a change works in the test and fails later, in the IDE or under load.
 
 [guide]: https://www.jetbrains.com/help/mps/mps-user-s-guide.html
 [guide-smodel]: https://www.jetbrains.com/help/mps/smodel-language.html

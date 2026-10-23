@@ -20,17 +20,14 @@ The following installation instructions assume an `apt-get` package manager on L
 
 Runtime prerequisites:
 
-1. Install the latest [Oracle JDK](<https://www.oracle.com/technetwork/java/javase>).
-2. Download PlantUML jar file from the [plantuml website](http://plantuml.sourceforge.net/download.html) and store it into your home directory (`%HOME%` on Windows or `$HOME` on linux), for instance `/Users/mpsuser`.
-3. Install [GraphViz](http://www.graphviz.org/) to satisfy the PlantUML dependency (e.g. ```sudo apt-get install graphviz``` or ```choco install graphviz```)
-4. For Windows: make sure your ```JAVA_HOME``` environment variable points to your JDK (e.g. ```set JAVA_HOME="c:\Program Files\Java\jdk-11.0.5"```)
-5. (Optional) If you prefer an alternative to the integrated panel or the PlantUML viewer, install the auto-refreshing image viewer of your choice (e.g. ```sudo apt-get install eog``` or ```choco install irfanview```)
+1. Install MPS with the Markdown plugin and its PlantUML support enabled. Langvis uses the PlantUML installation managed by that plugin and downloads it automatically when first needed.
+2. A separate Oracle JDK, PlantUML jar in your home directory, and `JAVA_HOME` configuration are not required. MPS's bundled runtime is used.
+3. GraphViz may be needed by PlantUML for layouts that use it.
 
 Build prerequisites:
 
-1. Install above Runtime prerequisites
-2. Download and install ant (e.g. using ```sudo apt-get install ant``` or ```choco install apache.ant```)
-3. Clone this git repository
+1. Install MPS and Ant (e.g. using ```sudo apt-get install ant``` or ```choco install apache.ant```).
+2. Clone this git repository.
 
 ### Install plugin
 
@@ -59,12 +56,6 @@ After adjusting the options, you need to press the `refresh icon` to apply the c
 
 If the provided tool panel isn't to your liking, two alternative methods of viewing the visualizations exist.
 
-### (Optional) Viewing the visualization with PlantUML's auto-refreshing viewer
-
-1. From your home directory start `java -jar ~/plantuml.jar`. This will monitor the home directory for plantuml files and generate png files.
-2. Double-click on the `mps-metamodel.txt` file, and you will have a picture that autorefreshes every time you call the visualizer in MPS.
-
 ### (Optional) Viewing the visualization with your favorite image viewer
 
-1. Start your image viewer (e.g. `eog ~/mps-metamodel.png`)
-2. If your viewer automatically refreshes, you can leave it open and keep on creating visualizations.
+Langvis writes `mps-metamodel.puml` and `mps-metamodel.svg` in your home directory. The integrated tool window displays the generated SVG; you can also open the SVG in an image viewer of your choice.

@@ -4,11 +4,15 @@ package com.dslfoundry.langvis.plugin.plugin;
 
 import javax.swing.JLabel;
 import java.awt.Image;
-import java.io.FileInputStream;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import com.intellij.util.SVGLoader;
+import java.io.ByteArrayInputStream;
+import javax.swing.SwingUtilities;
 import java.io.IOException;
-import com.intellij.openapi.application.ApplicationManager;
-import javax.swing.ImageIcon;
+import java.io.UncheckedIOException;
+import com.intellij.ui.scale.ScaleContext;
+import com.intellij.util.ui.JBImageIcon;
 
 public class ImageViewer extends JLabel {
   private Image unscaledImage;
@@ -29,12 +33,17 @@ public class ImageViewer extends JLabel {
   }
 
   public void reloadImage(String path) {
-    try (FileInputStream input = new FileInputStream(path)) {
-      this.unscaledImage = SVGLoader.load(input, 1.0f);
-    } catch (IOException ex) {
-      throw new RuntimeException(ex);
+    try {
+      final byte[] data = Files.readAllBytes(Paths.get(path));
+      final Image original = SVGLoader.load(new ByteArrayInputStream(data), 1.0f);
+      SwingUtilities.invokeLater(() -> {
+        ImageViewer.this.svgData = data;
+        ImageViewer.this.unscaledImage = original;
+        refreshView();
+      });
+    } catch (IOException exception) {
+      throw new UncheckedIOException("Could not load the Langvis SVG: " + path, exception);
     }
-    ApplicationManager.getApplication().invokeLater(() -> refreshView());
   }
 
   public void refreshView() {
@@ -42,31 +51,41 @@ public class ImageViewer extends JLabel {
   }
 
   public void refreshView(double desiredZoom) {
+    if (svgData == null) {
+      return;
+    }
+    if (!(Double.isFinite(desiredZoom)) || desiredZoom <= 0) {
+      throw new IllegalArgumentException("Langvis zoom must be finite and positive.");
+    }
     int width = unscaledImage.getWidth(null);
     int height = unscaledImage.getHeight(null);
-    currentZoom = getZoom(width, height, maxSize, maxSize, desiredZoom);
-    int newwidth = (int) (width * desiredZoom);
-    int newheight = (int) (height * desiredZoom);
-    if (newwidth < minSize) {
-      newwidth = minSize;
+    double minimumZoom = Math.min((double) minSize / width, (double) minSize / height);
+    double zoom = getZoom(width, height, maxSize, maxSize, Math.max(minimumZoom, desiredZoom));
+    int newWidth = Math.max(1, (int) Math.round(width * zoom));
+    int newHeight = Math.max(1, (int) Math.round(height * zoom));
+    try {
+      Image image = SVGLoader.load(null, new ByteArrayInputStream(svgData), ScaleContext.create(this), newWidth, newHeight);
+      setIcon(new JBImageIcon(image));
+      currentZoom = zoom;
+      revalidate();
+      repaint();
+    } catch (IOException exception) {
+      throw new UncheckedIOException("Could not render the Langvis SVG at zoom " + zoom, exception);
     }
-    if (newheight < minSize) {
-      newheight = minSize;
-    }
-
-    Image scaledImage;
-    scaledImage = unscaledImage.getScaledInstance(newwidth, newheight, Image.SCALE_SMOOTH);
-
-    setIcon(new ImageIcon(scaledImage));
-    revalidate();
-    repaint();
   }
 
   public double zoomMax(int clientWidth, int clientHeight) {
+    if (unscaledImage == null || clientWidth <= 0 || clientHeight <= 0) {
+      return currentZoom;
+    }
     int width = unscaledImage.getWidth(null);
     int height = unscaledImage.getHeight(null);
-    double maxZoom = getZoom(width, height, clientWidth, clientHeight, this.highZoom);
+    double maxZoom = getZoom(width, height, clientWidth, clientHeight, highZoom);
     refreshView(maxZoom);
-    return maxZoom;
+    return currentZoom;
+  }
+  private byte[] svgData;
+  public double getCurrentZoom() {
+    return currentZoom;
   }
 }

@@ -27,7 +27,6 @@ public class LanguageVisualisation_Tool extends GeneratedTool {
   private ImageViewer imageViewer;
   private String pumlFilePath = System.getProperty("user.home") + "/mps-metamodel.puml";
   private String svgImagePath = System.getProperty("user.home") + "/mps-metamodel.svg";
-  private double zoomFactor = 1;
   private Set<SNode> contextElements = SetSequence.fromSet(new HashSet<SNode>());
   private JCheckBox collectStructureDown = new JCheckBox("Structure", true);
   private JCheckBox collectHierarchyUp = new JCheckBox("Hierarchy", true);
@@ -77,19 +76,16 @@ public class LanguageVisualisation_Tool extends GeneratedTool {
   public void zoomMax() {
     int clientWidth = Math.max(LanguageVisualisation_Tool.this.mainPanel.getWidth(), 100);
     int clientHeight = Math.max(LanguageVisualisation_Tool.this.mainPanel.getHeight(), 100);
-    LanguageVisualisation_Tool.this.zoomFactor = LanguageVisualisation_Tool.this.imageViewer.zoomMax(clientWidth, clientHeight);
+    LanguageVisualisation_Tool.this.imageViewer.zoomMax(clientWidth, clientHeight);
   }
   public void zoomOneToOne() {
-    LanguageVisualisation_Tool.this.zoomFactor = 1;
-    LanguageVisualisation_Tool.this.imageViewer.refreshView(LanguageVisualisation_Tool.this.zoomFactor);
+    LanguageVisualisation_Tool.this.imageViewer.refreshView(1);
   }
   public void zoomIn() {
-    LanguageVisualisation_Tool.this.zoomFactor = LanguageVisualisation_Tool.this.zoomFactor * 2;
-    LanguageVisualisation_Tool.this.imageViewer.refreshView(LanguageVisualisation_Tool.this.zoomFactor);
+    LanguageVisualisation_Tool.this.imageViewer.refreshView(LanguageVisualisation_Tool.this.imageViewer.getCurrentZoom() * 2);
   }
   public void zoomOut() {
-    LanguageVisualisation_Tool.this.zoomFactor = LanguageVisualisation_Tool.this.zoomFactor * 0.5;
-    LanguageVisualisation_Tool.this.imageViewer.refreshView(LanguageVisualisation_Tool.this.zoomFactor);
+    LanguageVisualisation_Tool.this.imageViewer.refreshView(LanguageVisualisation_Tool.this.imageViewer.getCurrentZoom() * 0.5);
   }
   public void setContextElements(Set<SNode> elements) {
     LanguageVisualisation_Tool.this.contextElements = elements;

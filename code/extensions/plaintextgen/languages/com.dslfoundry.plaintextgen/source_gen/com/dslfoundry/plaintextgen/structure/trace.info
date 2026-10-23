@@ -19,7 +19,7 @@
       <unit at="12,0,56,0" name="com.dslfoundry.plaintextgen.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="20,0,196,0" name="com.dslfoundry.plaintextgen.structure.StructureAspectDescriptor" />
+      <unit at="20,0,199,0" name="com.dslfoundry.plaintextgen.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/1145195647825954788">
@@ -41,23 +41,25 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1145195647825954788" at="29,0,30,0" concept="2" trace="myConceptTextgenText" />
-      <node id="1145195647825954788" at="72,45,73,36" concept="6" />
-      <node id="1145195647825954788" at="164,69,165,172" concept="5" />
-      <node id="1145195647825954788" at="165,172,166,33" concept="1" />
-      <node id="1145195647825954788" at="166,33,167,71" concept="1" />
-      <node id="1145195647825954788" at="167,71,168,114" concept="1" />
-      <node id="1145195647825954788" at="168,114,169,17" concept="1" />
-      <node id="5407518469085446424" at="169,17,170,109" concept="1" />
-      <node id="7864085742459314155" at="170,109,171,114" concept="1" />
-      <node id="9167550852342474777" at="171,114,172,181" concept="1" />
-      <node id="1145195647826100986" at="172,181,173,199" concept="1" />
-      <node id="1145195647825954788" at="173,199,174,22" concept="6" />
-      <node id="1145195647825954788" at="164,0,176,0" concept="8" trace="createDescriptorForTextgenText#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="1145195647825954788" at="72,45,73,36" />
-      <scope id="1145195647825954788" at="164,69,174,22">
+      <node id="1145195647825954788" at="73,45,74,36" concept="6" />
+      <node id="1145195647825954788" at="165,69,166,172" concept="5" />
+      <node id="1145195647825954788" at="166,172,167,33" concept="1" />
+      <node id="1145195647825954788" at="167,33,168,71" concept="1" />
+      <node id="1145195647825954788" at="168,71,169,114" concept="1" />
+      <node id="1145195647825954788" at="169,114,170,17" concept="1" />
+      <node id="5407518469085446424" at="170,17,171,109" concept="1" />
+      <node id="7864085742459314155" at="171,109,172,114" concept="1" />
+      <node id="9167550852342474777" at="172,114,173,181" concept="1" />
+      <node id="6343853832442622182" at="173,181,174,186" concept="1" />
+      <node id="6343853832442622185" at="174,186,175,189" concept="1" />
+      <node id="1145195647826100986" at="175,189,176,199" concept="1" />
+      <node id="1145195647825954788" at="176,199,177,22" concept="6" />
+      <node id="1145195647825954788" at="165,0,179,0" concept="8" trace="createDescriptorForTextgenText#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1145195647825954788" at="73,45,74,36" />
+      <scope id="1145195647825954788" at="165,69,177,22">
         <var name="b" id="1145195647825954788" />
       </scope>
-      <scope id="1145195647825954788" at="164,0,176,0" />
+      <scope id="1145195647825954788" at="165,0,179,0" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/1145195647825954793">
@@ -80,20 +82,20 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1145195647825954793" at="27,0,28,0" concept="2" trace="myConceptSpaceIndentedText" />
-      <node id="1145195647825954793" at="68,51,69,42" concept="6" />
-      <node id="1145195647825954793" at="145,75,146,178" concept="5" />
-      <node id="1145195647825954793" at="146,178,147,34" concept="1" />
-      <node id="1145195647825954793" at="148,76,149,114" concept="1" />
-      <node id="1145195647825954793" at="149,114,150,17" concept="1" />
-      <node id="5198309202558919052" at="150,17,151,177" concept="1" />
-      <node id="1145195647825954793" at="151,177,152,17" concept="1" />
-      <node id="1145195647825954793" at="152,17,153,22" concept="6" />
-      <node id="1145195647825954793" at="145,0,155,0" concept="8" trace="createDescriptorForSpaceIndentedText#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="1145195647825954793" at="68,51,69,42" />
-      <scope id="1145195647825954793" at="145,75,153,22">
+      <node id="1145195647825954793" at="69,51,70,42" concept="6" />
+      <node id="1145195647825954793" at="146,75,147,178" concept="5" />
+      <node id="1145195647825954793" at="147,178,148,34" concept="1" />
+      <node id="1145195647825954793" at="149,76,150,114" concept="1" />
+      <node id="1145195647825954793" at="150,114,151,17" concept="1" />
+      <node id="5198309202558919052" at="151,17,152,177" concept="1" />
+      <node id="1145195647825954793" at="152,177,153,17" concept="1" />
+      <node id="1145195647825954793" at="153,17,154,22" concept="6" />
+      <node id="1145195647825954793" at="146,0,156,0" concept="8" trace="createDescriptorForSpaceIndentedText#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1145195647825954793" at="69,51,70,42" />
+      <scope id="1145195647825954793" at="146,75,154,22">
         <var name="b" id="1145195647825954793" />
       </scope>
-      <scope id="1145195647825954793" at="145,0,155,0" />
+      <scope id="1145195647825954793" at="146,0,156,0" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/1145195647825954794">
@@ -114,20 +116,20 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1145195647825954794" at="22,0,23,0" concept="2" trace="myConceptIText" />
-      <node id="1145195647825954794" at="58,39,59,30" concept="6" />
-      <node id="1145195647825954794" at="100,63,101,166" concept="5" />
-      <node id="1145195647825954794" at="101,166,102,19" concept="1" />
-      <node id="1145195647825954794" at="104,76,105,114" concept="1" />
-      <node id="1145195647825954794" at="105,114,106,17" concept="1" />
-      <node id="1145195647825954794" at="106,17,107,22" concept="6" />
-      <node id="1145195647825954794" at="118,19,119,75" concept="1" />
-      <node id="1145195647825954794" at="128,34,129,75" concept="1" />
-      <node id="1145195647825954794" at="100,0,109,0" concept="8" trace="createDescriptorForIText#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="1145195647825954794" at="58,39,59,30" />
-      <scope id="1145195647825954794" at="100,63,107,22">
+      <node id="1145195647825954794" at="59,39,60,30" concept="6" />
+      <node id="1145195647825954794" at="101,63,102,166" concept="5" />
+      <node id="1145195647825954794" at="102,166,103,19" concept="1" />
+      <node id="1145195647825954794" at="105,76,106,114" concept="1" />
+      <node id="1145195647825954794" at="106,114,107,17" concept="1" />
+      <node id="1145195647825954794" at="107,17,108,22" concept="6" />
+      <node id="1145195647825954794" at="119,19,120,75" concept="1" />
+      <node id="1145195647825954794" at="129,34,130,75" concept="1" />
+      <node id="1145195647825954794" at="101,0,110,0" concept="8" trace="createDescriptorForIText#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1145195647825954794" at="59,39,60,30" />
+      <scope id="1145195647825954794" at="101,63,108,22">
         <var name="b" id="1145195647825954794" />
       </scope>
-      <scope id="1145195647825954794" at="100,0,109,0" />
+      <scope id="1145195647825954794" at="101,0,110,0" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/1145195647825954799">
@@ -150,21 +152,21 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1145195647825954799" at="25,0,26,0" concept="2" trace="myConceptLine" />
-      <node id="1145195647825954799" at="64,38,65,29" concept="6" />
-      <node id="1145195647825954799" at="126,62,127,165" concept="5" />
-      <node id="1145195647825954799" at="127,165,128,34" concept="1" />
-      <node id="1145195647825954799" at="129,75,130,114" concept="1" />
-      <node id="1145195647825954799" at="130,114,131,17" concept="1" />
-      <node id="1145195647825954802" at="131,17,132,196" concept="1" />
-      <node id="5082088080656976323" at="132,196,133,207" concept="1" />
-      <node id="1145195647825954799" at="133,207,134,17" concept="1" />
-      <node id="1145195647825954799" at="134,17,135,22" concept="6" />
-      <node id="1145195647825954799" at="126,0,137,0" concept="8" trace="createDescriptorForLine#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="1145195647825954799" at="64,38,65,29" />
-      <scope id="1145195647825954799" at="126,62,135,22">
+      <node id="1145195647825954799" at="65,38,66,29" concept="6" />
+      <node id="1145195647825954799" at="127,62,128,165" concept="5" />
+      <node id="1145195647825954799" at="128,165,129,34" concept="1" />
+      <node id="1145195647825954799" at="130,75,131,114" concept="1" />
+      <node id="1145195647825954799" at="131,114,132,17" concept="1" />
+      <node id="1145195647825954802" at="132,17,133,196" concept="1" />
+      <node id="5082088080656976323" at="133,196,134,207" concept="1" />
+      <node id="1145195647825954799" at="134,207,135,17" concept="1" />
+      <node id="1145195647825954799" at="135,17,136,22" concept="6" />
+      <node id="1145195647825954799" at="127,0,138,0" concept="8" trace="createDescriptorForLine#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1145195647825954799" at="65,38,66,29" />
+      <scope id="1145195647825954799" at="127,62,136,22">
         <var name="b" id="1145195647825954799" />
       </scope>
-      <scope id="1145195647825954799" at="126,0,137,0" />
+      <scope id="1145195647825954799" at="127,0,138,0" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/1145195647825954804">
@@ -187,20 +189,20 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1145195647825954804" at="31,0,32,0" concept="2" trace="myConceptWord" />
-      <node id="1145195647825954804" at="76,38,77,29" concept="6" />
-      <node id="1145195647825954804" at="185,62,186,165" concept="5" />
-      <node id="1145195647825954804" at="186,165,187,34" concept="1" />
-      <node id="1145195647825954804" at="187,34,188,71" concept="1" />
-      <node id="1145195647825954804" at="189,76,190,114" concept="1" />
-      <node id="1145195647825954804" at="190,114,191,17" concept="1" />
-      <node id="1145195647825954804" at="191,17,192,18" concept="1" />
-      <node id="1145195647825954804" at="192,18,193,22" concept="6" />
-      <node id="1145195647825954804" at="185,0,195,0" concept="8" trace="createDescriptorForWord#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="1145195647825954804" at="76,38,77,29" />
-      <scope id="1145195647825954804" at="185,62,193,22">
+      <node id="1145195647825954804" at="77,38,78,29" concept="6" />
+      <node id="1145195647825954804" at="188,62,189,165" concept="5" />
+      <node id="1145195647825954804" at="189,165,190,34" concept="1" />
+      <node id="1145195647825954804" at="190,34,191,71" concept="1" />
+      <node id="1145195647825954804" at="192,76,193,114" concept="1" />
+      <node id="1145195647825954804" at="193,114,194,17" concept="1" />
+      <node id="1145195647825954804" at="194,17,195,18" concept="1" />
+      <node id="1145195647825954804" at="195,18,196,22" concept="6" />
+      <node id="1145195647825954804" at="188,0,198,0" concept="8" trace="createDescriptorForWord#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1145195647825954804" at="77,38,78,29" />
+      <scope id="1145195647825954804" at="188,62,196,22">
         <var name="b" id="1145195647825954804" />
       </scope>
-      <scope id="1145195647825954804" at="185,0,195,0" />
+      <scope id="1145195647825954804" at="188,0,198,0" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/1145195647826084325">
@@ -223,19 +225,19 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1145195647826084325" at="30,0,31,0" concept="2" trace="myConceptVerticalLines" />
-      <node id="1145195647826084325" at="74,47,75,38" concept="6" />
-      <node id="1145195647826084325" at="176,71,177,174" concept="5" />
-      <node id="1145195647826084325" at="177,174,178,34" concept="1" />
-      <node id="1145195647826084325" at="179,76,180,114" concept="1" />
-      <node id="1145195647826084325" at="180,114,181,17" concept="1" />
-      <node id="1145195647826084325" at="181,17,182,17" concept="1" />
-      <node id="1145195647826084325" at="182,17,183,22" concept="6" />
-      <node id="1145195647826084325" at="176,0,185,0" concept="8" trace="createDescriptorForVerticalLines#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="1145195647826084325" at="74,47,75,38" />
-      <scope id="1145195647826084325" at="176,71,183,22">
+      <node id="1145195647826084325" at="75,47,76,38" concept="6" />
+      <node id="1145195647826084325" at="179,71,180,174" concept="5" />
+      <node id="1145195647826084325" at="180,174,181,34" concept="1" />
+      <node id="1145195647826084325" at="182,76,183,114" concept="1" />
+      <node id="1145195647826084325" at="183,114,184,17" concept="1" />
+      <node id="1145195647826084325" at="184,17,185,17" concept="1" />
+      <node id="1145195647826084325" at="185,17,186,22" concept="6" />
+      <node id="1145195647826084325" at="179,0,188,0" concept="8" trace="createDescriptorForVerticalLines#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1145195647826084325" at="75,47,76,38" />
+      <scope id="1145195647826084325" at="179,71,186,22">
         <var name="b" id="1145195647826084325" />
       </scope>
-      <scope id="1145195647826084325" at="176,0,185,0" />
+      <scope id="1145195647826084325" at="179,0,188,0" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/2847858303663881928">
@@ -258,19 +260,19 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2847858303663881928" at="28,0,29,0" concept="2" trace="myConceptTab" />
-      <node id="2847858303663881928" at="70,37,71,28" concept="6" />
-      <node id="2847858303663881928" at="155,61,156,165" concept="5" />
-      <node id="2847858303663881928" at="156,165,157,34" concept="1" />
-      <node id="2847858303663881928" at="158,76,159,114" concept="1" />
-      <node id="2847858303663881928" at="159,114,160,17" concept="1" />
-      <node id="2847858303663881928" at="160,17,161,20" concept="1" />
-      <node id="2847858303663881928" at="161,20,162,22" concept="6" />
-      <node id="2847858303663881928" at="155,0,164,0" concept="8" trace="createDescriptorForTab#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="2847858303663881928" at="70,37,71,28" />
-      <scope id="2847858303663881928" at="155,61,162,22">
+      <node id="2847858303663881928" at="71,37,72,28" concept="6" />
+      <node id="2847858303663881928" at="156,61,157,165" concept="5" />
+      <node id="2847858303663881928" at="157,165,158,34" concept="1" />
+      <node id="2847858303663881928" at="159,76,160,114" concept="1" />
+      <node id="2847858303663881928" at="160,114,161,17" concept="1" />
+      <node id="2847858303663881928" at="161,17,162,20" concept="1" />
+      <node id="2847858303663881928" at="162,20,163,22" concept="6" />
+      <node id="2847858303663881928" at="156,0,165,0" concept="8" trace="createDescriptorForTab#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="2847858303663881928" at="71,37,72,28" />
+      <scope id="2847858303663881928" at="156,61,163,22">
         <var name="b" id="2847858303663881928" />
       </scope>
-      <scope id="2847858303663881928" at="155,0,164,0" />
+      <scope id="2847858303663881928" at="156,0,165,0" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/5082088080656902716">
@@ -292,24 +294,24 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5082088080656902716" at="26,0,27,0" concept="2" trace="myConceptNewlineMarker" />
-      <node id="5082088080656902716" at="66,47,67,38" concept="6" />
-      <node id="5082088080656902716" at="137,71,138,175" concept="5" />
-      <node id="5082088080656902716" at="138,175,139,34" concept="1" />
-      <node id="5082088080656902716" at="139,34,140,114" concept="1" />
-      <node id="5082088080656902716" at="140,114,141,17" concept="1" />
-      <node id="5082088080656902716" at="141,17,142,33" concept="1" />
-      <node id="5082088080656902716" at="142,33,143,22" concept="6" />
-      <node id="5082088080656902716" at="137,0,145,0" concept="8" trace="createDescriptorForNewlineMarker#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5082088080656902716" at="66,47,67,38" />
-      <scope id="5082088080656902716" at="137,71,143,22">
+      <node id="5082088080656902716" at="67,47,68,38" concept="6" />
+      <node id="5082088080656902716" at="138,71,139,175" concept="5" />
+      <node id="5082088080656902716" at="139,175,140,34" concept="1" />
+      <node id="5082088080656902716" at="140,34,141,114" concept="1" />
+      <node id="5082088080656902716" at="141,114,142,17" concept="1" />
+      <node id="5082088080656902716" at="142,17,143,33" concept="1" />
+      <node id="5082088080656902716" at="143,33,144,22" concept="6" />
+      <node id="5082088080656902716" at="138,0,146,0" concept="8" trace="createDescriptorForNewlineMarker#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5082088080656902716" at="67,47,68,38" />
+      <scope id="5082088080656902716" at="138,71,144,22">
         <var name="b" id="5082088080656902716" />
       </scope>
-      <scope id="5082088080656902716" at="137,0,145,0" />
+      <scope id="5082088080656902716" at="138,0,146,0" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/5198309202559269007">
     <file name="StructureAspectDescriptor.java">
-      <node id="5198309202559269007" at="34,0,35,0" concept="2" trace="myCSDatatypeSpaceIndentation" />
+      <node id="5198309202559269007" at="35,0,36,0" concept="2" trace="myCSDatatypeSpaceIndentation" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/5407518469085096338">
@@ -330,20 +332,79 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5407518469085096338" at="23,0,24,0" concept="2" trace="myConceptITextGenElement" />
-      <node id="5407518469085096338" at="60,49,61,40" concept="6" />
-      <node id="5407518469085096338" at="94,19,95,76" concept="1" />
-      <node id="5407518469085096338" at="103,76,104,76" concept="1" />
-      <node id="5407518469085096338" at="109,73,110,177" concept="5" />
-      <node id="5407518469085096338" at="110,177,111,19" concept="1" />
-      <node id="5407518469085096338" at="111,19,112,114" concept="1" />
-      <node id="5407518469085096338" at="112,114,113,17" concept="1" />
-      <node id="5407518469085096338" at="113,17,114,22" concept="6" />
-      <node id="5407518469085096338" at="109,0,116,0" concept="8" trace="createDescriptorForITextGenElement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5407518469085096338" at="60,49,61,40" />
-      <scope id="5407518469085096338" at="109,73,114,22">
+      <node id="5407518469085096338" at="61,49,62,40" concept="6" />
+      <node id="5407518469085096338" at="95,19,96,76" concept="1" />
+      <node id="5407518469085096338" at="104,76,105,76" concept="1" />
+      <node id="5407518469085096338" at="110,73,111,177" concept="5" />
+      <node id="5407518469085096338" at="111,177,112,19" concept="1" />
+      <node id="5407518469085096338" at="112,19,113,114" concept="1" />
+      <node id="5407518469085096338" at="113,114,114,17" concept="1" />
+      <node id="5407518469085096338" at="114,17,115,22" concept="6" />
+      <node id="5407518469085096338" at="110,0,117,0" concept="8" trace="createDescriptorForITextGenElement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5407518469085096338" at="61,49,62,40" />
+      <scope id="5407518469085096338" at="110,73,115,22">
         <var name="b" id="5407518469085096338" />
       </scope>
-      <scope id="5407518469085096338" at="109,0,116,0" />
+      <scope id="5407518469085096338" at="110,0,117,0" />
+    </file>
+  </root>
+  <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/6343853832442622173">
+    <file name="EnumerationDescriptor_LineEndingOverride.java">
+      <node id="6343853832442622173" at="14,53,15,196" concept="9" />
+      <node id="6343853832442622175" at="18,0,19,0" concept="2" trace="myMember_Inherit_0" />
+      <node id="6343853832442622176" at="19,0,20,0" concept="2" trace="myMember_Native_0" />
+      <node id="6343853832442622177" at="20,0,21,0" concept="2" trace="myMember_CRLF_0" />
+      <node id="6343853832442622178" at="21,0,22,0" concept="2" trace="myMember_CR_0" />
+      <node id="6343853832442622179" at="22,0,23,0" concept="2" trace="myMember_LF_0" />
+      <node id="6343853832442622173" at="24,0,25,0" concept="2" trace="myIndex" />
+      <node id="6343853832442622173" at="25,0,26,0" concept="2" trace="myMembers" />
+      <node id="6343853832442622173" at="29,62,30,30" concept="6" />
+      <node id="6343853832442622173" at="35,68,36,21" concept="6" />
+      <node id="6343853832442622173" at="42,29,43,18" concept="6" />
+      <node id="6343853832442622175" at="46,21,47,34" concept="6" />
+      <node id="6343853832442622176" at="48,20,49,33" concept="6" />
+      <node id="6343853832442622177" at="50,18,51,31" concept="6" />
+      <node id="6343853832442622178" at="52,16,53,29" concept="6" />
+      <node id="6343853832442622179" at="54,16,55,29" concept="6" />
+      <node id="6343853832442622173" at="56,5,57,16" concept="6" />
+      <node id="6343853832442622173" at="62,73,63,39" concept="5" />
+      <node id="6343853832442622173" at="64,22,65,18" concept="6" />
+      <node id="6343853832442622173" at="66,5,67,32" concept="6" />
+      <node id="6343853832442622173" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_LineEndingOverride#()V" />
+      <node id="6343853832442622173" at="41,88,44,5" concept="3" />
+      <node id="6343853832442622173" at="63,39,66,5" concept="3" />
+      <node id="6343853832442622173" at="27,0,32,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="6343853832442622173" at="33,0,38,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="6343853832442622173" at="60,0,69,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="6343853832442622173" at="44,5,56,5" concept="10" />
+      <node id="6343853832442622173" at="39,0,59,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="6343853832442622173" at="14,53,15,196" />
+      <scope id="6343853832442622173" at="29,62,30,30" />
+      <scope id="6343853832442622173" at="35,68,36,21" />
+      <scope id="6343853832442622173" at="42,29,43,18" />
+      <scope id="6343853832442622175" at="46,21,47,34" />
+      <scope id="6343853832442622176" at="48,20,49,33" />
+      <scope id="6343853832442622177" at="50,18,51,31" />
+      <scope id="6343853832442622178" at="52,16,53,29" />
+      <scope id="6343853832442622179" at="54,16,55,29" />
+      <scope id="6343853832442622173" at="64,22,65,18" />
+      <scope id="6343853832442622173" at="14,0,17,0" />
+      <scope id="6343853832442622173" at="27,0,32,0" />
+      <scope id="6343853832442622173" at="33,0,38,0" />
+      <scope id="6343853832442622173" at="62,73,67,32">
+        <var name="index" id="6343853832442622173" />
+      </scope>
+      <scope id="6343853832442622173" at="60,0,69,0">
+        <var name="idValue" id="6343853832442622173" />
+      </scope>
+      <scope id="6343853832442622173" at="41,88,57,16" />
+      <scope id="6343853832442622173" at="39,0,59,0">
+        <var name="memberName" id="6343853832442622173" />
+      </scope>
+      <unit id="6343853832442622173" at="12,0,70,0" name="com.dslfoundry.plaintextgen.structure.EnumerationDescriptor_LineEndingOverride" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6343853832442622173" at="33,0,34,0" concept="2" trace="myEnumerationLineEndingOverride" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/7214912913997260680">
@@ -364,22 +425,22 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7214912913997260680" at="24,0,25,0" concept="2" trace="myConceptIVerticalGroup" />
-      <node id="7214912913997260680" at="62,48,63,39" concept="6" />
-      <node id="7214912913997260680" at="116,72,117,176" concept="5" />
-      <node id="7214912913997260680" at="117,176,118,19" concept="1" />
-      <node id="7214912913997260680" at="119,75,120,114" concept="1" />
-      <node id="7214912913997260680" at="120,114,121,17" concept="1" />
-      <node id="9167550852342474779" at="121,17,122,176" concept="1" />
-      <node id="7214912913997260696" at="122,176,123,196" concept="1" />
-      <node id="7214912913997260680" at="123,196,124,22" concept="6" />
-      <node id="7214912913997260680" at="147,34,148,76" concept="1" />
-      <node id="7214912913997260680" at="178,34,179,76" concept="1" />
-      <node id="7214912913997260680" at="116,0,126,0" concept="8" trace="createDescriptorForIVerticalGroup#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="7214912913997260680" at="62,48,63,39" />
-      <scope id="7214912913997260680" at="116,72,124,22">
+      <node id="7214912913997260680" at="63,48,64,39" concept="6" />
+      <node id="7214912913997260680" at="117,72,118,176" concept="5" />
+      <node id="7214912913997260680" at="118,176,119,19" concept="1" />
+      <node id="7214912913997260680" at="120,75,121,114" concept="1" />
+      <node id="7214912913997260680" at="121,114,122,17" concept="1" />
+      <node id="9167550852342474779" at="122,17,123,176" concept="1" />
+      <node id="7214912913997260696" at="123,176,124,196" concept="1" />
+      <node id="7214912913997260680" at="124,196,125,22" concept="6" />
+      <node id="7214912913997260680" at="148,34,149,76" concept="1" />
+      <node id="7214912913997260680" at="181,34,182,76" concept="1" />
+      <node id="7214912913997260680" at="117,0,127,0" concept="8" trace="createDescriptorForIVerticalGroup#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7214912913997260680" at="63,48,64,39" />
+      <scope id="7214912913997260680" at="117,72,125,22">
         <var name="b" id="7214912913997260680" />
       </scope>
-      <scope id="7214912913997260680" at="116,0,126,0" />
+      <scope id="7214912913997260680" at="117,0,127,0" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/8369204730311971930">
@@ -400,21 +461,21 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="8369204730311971930" at="21,0,22,0" concept="2" trace="myConceptILineElement" />
-      <node id="8369204730311971930" at="56,46,57,37" concept="6" />
-      <node id="8369204730311971930" at="92,70,93,174" concept="5" />
-      <node id="8369204730311971930" at="93,174,94,19" concept="1" />
-      <node id="8369204730311971930" at="95,76,96,114" concept="1" />
-      <node id="8369204730311971930" at="96,114,97,17" concept="1" />
-      <node id="8369204730311971930" at="97,17,98,22" concept="6" />
-      <node id="8369204730311971930" at="102,19,103,76" concept="1" />
-      <node id="8369204730311971930" at="157,34,158,76" concept="1" />
-      <node id="8369204730311971930" at="188,71,189,76" concept="1" />
-      <node id="8369204730311971930" at="92,0,100,0" concept="8" trace="createDescriptorForILineElement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="8369204730311971930" at="56,46,57,37" />
-      <scope id="8369204730311971930" at="92,70,98,22">
+      <node id="8369204730311971930" at="57,46,58,37" concept="6" />
+      <node id="8369204730311971930" at="93,70,94,174" concept="5" />
+      <node id="8369204730311971930" at="94,174,95,19" concept="1" />
+      <node id="8369204730311971930" at="96,76,97,114" concept="1" />
+      <node id="8369204730311971930" at="97,114,98,17" concept="1" />
+      <node id="8369204730311971930" at="98,17,99,22" concept="6" />
+      <node id="8369204730311971930" at="103,19,104,76" concept="1" />
+      <node id="8369204730311971930" at="158,34,159,76" concept="1" />
+      <node id="8369204730311971930" at="191,71,192,76" concept="1" />
+      <node id="8369204730311971930" at="93,0,101,0" concept="8" trace="createDescriptorForILineElement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="8369204730311971930" at="57,46,58,37" />
+      <scope id="8369204730311971930" at="93,70,99,22">
         <var name="b" id="8369204730311971930" />
       </scope>
-      <scope id="8369204730311971930" at="92,0,100,0" />
+      <scope id="8369204730311971930" at="93,0,101,0" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/9167550852342474559">
@@ -467,7 +528,7 @@
       <unit id="9167550852342474559" at="12,0,64,0" name="com.dslfoundry.plaintextgen.structure.EnumerationDescriptor_TextAlignment" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="9167550852342474559" at="33,0,34,0" concept="2" trace="myEnumerationTextAlignment" />
+      <node id="9167550852342474559" at="34,0,35,0" concept="2" trace="myEnumerationTextAlignment" />
     </file>
   </root>
   <root nodeRef="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/9167550852342474564">

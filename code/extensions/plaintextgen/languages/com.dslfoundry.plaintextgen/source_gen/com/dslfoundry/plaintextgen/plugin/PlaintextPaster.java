@@ -79,12 +79,14 @@ public class PlaintextPaster {
   }
 
   public static void pastePlainText(SNode node) {
+    pastePlainText(node, getStringFromClipboard());
+  }
+  public static void pastePlainText(SNode node, String text) {
     Stack<Integer> levels = new Stack();
     Stack<SNode> containers = new Stack<SNode>();
     containers.add(SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L, "com.dslfoundry.plaintextgen.structure.VerticalLines")));
     levels.add(0);
 
-    String text = getStringFromClipboard();
     if ((text != null && text.length() > 0)) {
       for (String line : text.split("\\r?\\n")) {
         SNode lineNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL, "com.dslfoundry.plaintextgen.structure.Line"));
@@ -125,7 +127,12 @@ public class PlaintextPaster {
    * Preserve tabs
    */
   public static void pastePlainTextWithTabs(SNode node) {
-    String text = getStringFromClipboard();
+    pastePlainTextWithTabs(node, getStringFromClipboard());
+  }
+  /**
+   * Preserve tabs
+   */
+  public static void pastePlainTextWithTabs(SNode node, String text) {
     if ((text != null && text.length() > 0)) {
       SNodeOperations.replaceWithAnother(node, verticalLinesFromText(text));
     }

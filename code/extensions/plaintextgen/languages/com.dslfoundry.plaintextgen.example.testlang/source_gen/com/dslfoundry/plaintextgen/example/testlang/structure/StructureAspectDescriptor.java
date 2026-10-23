@@ -11,6 +11,7 @@ import jetbrains.mps.smodel.adapter.ids.SConceptId;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
 import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
+import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptTestConcept = createDescriptorForTestConcept();
@@ -59,6 +60,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:e4a8ca6a-7b45-453e-94e2-7138dbc8da65(com.dslfoundry.plaintextgen.example.testlang.structure)/3661149507326584336");
     b.version(3);
     b.property("testProperty", 0x32cf04144dcc2611L).type(PrimitiveTypeId.STRING).origin("3661149507326584337").done();
+    b.property("modelLineEnding", 0x5809e5730ebb4c8fL).type(MetaIdFactory.dataTypeId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL)).origin("6343853832459209871").done();
+    b.property("settingsLineEnding", 0x5809e5730ebb4ca3L).type(MetaIdFactory.dataTypeId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL)).origin("6343853832459209891").done();
     b.aggregate("testSubConcepts", 0x49c6bbe6930a658eL).target(0x90aa1f1bf65c4e9aL, 0x99b44030e09d0bb2L, 0x49c6bbe6930a6586L).optional(false).ordered(true).multiple(true).origin("5316143009141253518").done();
     return b.create();
   }

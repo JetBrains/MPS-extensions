@@ -7,12 +7,11 @@ import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
 import com.dslfoundry.plaintextgen.plugin.CharacterMatrix;
 import com.dslfoundry.plaintextgen.behavior.ITextGenElement__BehaviorDescriptor;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import com.dslfoundry.plaintextgen.behavior.TextgenText__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.EnumerationLiteralsIndex;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import org.jetbrains.mps.openapi.language.SProperty;
 
 public class SpaceIndentedText_TextGen extends TextGenDescriptorBase {
   @Override
@@ -23,7 +22,7 @@ public class SpaceIndentedText_TextGen extends TextGenDescriptorBase {
     for (int i = 0; i < matrix.getLineCount(); ++i) {
       tgs.indent();
       tgs.append(matrix.rowToString(i));
-      switch (enumSwitchIndex.indexNullable(SPropertyOperations.getEnum(SNodeOperations.getNodeAncestor(ctx.getPrimaryInput(), CONCEPTS.TextgenText$PS, true, false), PROPS.lineEnding$vhkT))) {
+      switch (enumSwitchIndex.indexNullable(TextgenText__BehaviorDescriptor.getEffectiveLineEnding_id5w9TncdLpKi.invoke(SNodeOperations.getNodeAncestor(ctx.getPrimaryInput(), CONCEPTS.TextgenText$PS, true, false)))) {
         case 0:
           tgs.append("\r");
           break;
@@ -43,9 +42,5 @@ public class SpaceIndentedText_TextGen extends TextGenDescriptorBase {
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept TextgenText$PS = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, "com.dslfoundry.plaintextgen.structure.TextgenText");
-  }
-
-  private static final class PROPS {
-    /*package*/ static final SProperty lineEnding$vhkT = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0x705a2e3e0ba1ef4cL, "lineEnding");
   }
 }

@@ -14,6 +14,7 @@
   <uses language="l:446c26eb-2b7b-4bf0-9b35-f83fa582753e:jetbrains.mps.lang.modelapi" />
   <uses language="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
   <uses language="l:8585453e-6bfb-4d80-98de-b16074f1d86c:jetbrains.mps.lang.test" />
+  <uses language="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" />
   <uses module="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" kind="dp" />
   <uses module="847a3235-09f9-403c-b6a9-1c294a212e92(Ant)" kind="dp" />
   <uses module="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="rt+dp" />
@@ -29,6 +30,7 @@
   <uses module="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" kind="rt+dp" />
   <uses module="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" kind="rt+dp" />
   <uses module="990507d3-3527-4c54-bfe9-0ca3c9c6247a(com.dslfoundry.plaintextgen)" kind="dp" />
+  <uses module="90aa1f1b-f65c-4e9a-99b4-4030e09d0bb2(com.dslfoundry.plaintextgen.example.testlang)" kind="dp" />
   <uses module="cbe231e9-6c54-40b7-ae76-17e8e1a0df9d(com.jetbrains.mpsext.plaintextgen.tests)" kind="dp" />
   <uses module="c6420b75-4569-420d-aaf7-9bc590ad7b2a(de.itemis.mps.comparator)" kind="rt+dp" />
   <uses module="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" kind="dp" />

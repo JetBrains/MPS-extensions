@@ -10,6 +10,25 @@ import jetbrains.mps.lang.test.runtime.TestParametersCacheBuilder;
 import org.junit.jupiter.api.Test;
 import jetbrains.mps.lang.test.runtime.BaseTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
+import org.jetbrains.mps.openapi.language.SEnumerationLiteral;
+import org.jetbrains.mps.openapi.model.SModel;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
+import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
+import org.junit.Assert;
+import jetbrains.mps.smodel.tempmodel.TemporaryModels;
+import jetbrains.mps.smodel.tempmodel.TempModuleOptions;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.CopyUtil;
+import jetbrains.mps.smodel.SNodePointer;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
+import de.itemis.mps.comparator.code.TextOutputAssertions;
+import java.nio.charset.StandardCharsets;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SProperty;
 
 @MPSLaunch
 public class LineEndings_Test extends BaseTransformationTest {
@@ -58,28 +77,344 @@ public class LineEndings_Test extends BaseTransformationTest {
 
     public void test_absentOverridesPreserveTemplates() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LineEndingAssertions.absentOverridesPreserveTemplates(myProject));
+      runWithinCommand(() -> {
+        for (SEnumerationLiteral ending : LineEndingAssertions.ENDINGS) {
+          {
+            SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)"), myProject.getRepository());
+            Assert.assertNotNull("Missing PlainTextGen test fixture", source);
+            SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+            try {
+              SNode text = SNodeOperations.cast(CopyUtil.copy(SPointerOperations.resolveNode(new SNodePointer("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)", "6343853832443338663"), myProject.getRepository())), CONCEPTS.TextgenText$PS);
+              SModelOperations.addRootNode(model, text);
+              SPropertyOperations.assignEnum(text, PROPS.lineEnding$vhkT, ending);
+              SPropertyOperations.assignEnum(text, PROPS.modelLineEnding$396w, null);
+              SPropertyOperations.assignEnum(text, PROPS.settingsLineEnding$39Nz, null);
+              TemporaryModels.getInstance().addMissingImports(model);
+              String separator = LineEndingAssertions.separator(SEnumOperations.getMemberName0(ending));
+              String message = "template=" + ending + ", model=" + null + ", settings=" + null;
+              try {
+                TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, ("alpha" + separator + "beta" + separator).getBytes(StandardCharsets.UTF_8));
+              } catch (AssertionError error) {
+                Assert.assertTrue(message + ": " + error.getMessage(), false);
+              }
+            } finally {
+              TemporaryModels.getInstance().dispose(model);
+            }
+          }
+        }
+      });
     }
     public void test_absentTemplatePreservesCRLFDefault() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LineEndingAssertions.absentTemplatePreservesCRLFDefault(myProject));
+      runWithinCommand(() -> {
+        {
+          SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)"), myProject.getRepository());
+          Assert.assertNotNull("Missing PlainTextGen test fixture", source);
+          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+          try {
+            SNode text = SNodeOperations.cast(CopyUtil.copy(SPointerOperations.resolveNode(new SNodePointer("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)", "6343853832443338663"), myProject.getRepository())), CONCEPTS.TextgenText$PS);
+            SModelOperations.addRootNode(model, text);
+            SPropertyOperations.assignEnum(text, PROPS.lineEnding$vhkT, null);
+            SPropertyOperations.assignEnum(text, PROPS.modelLineEnding$396w, null);
+            SPropertyOperations.assignEnum(text, PROPS.settingsLineEnding$39Nz, null);
+            TemporaryModels.getInstance().addMissingImports(model);
+            String separator = LineEndingAssertions.separator("CRLF");
+            String message = "template=" + null + ", model=" + null + ", settings=" + null;
+            try {
+              TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, ("alpha" + separator + "beta" + separator).getBytes(StandardCharsets.UTF_8));
+            } catch (AssertionError error) {
+              Assert.assertTrue(message + ": " + error.getMessage(), false);
+            }
+          } finally {
+            TemporaryModels.getInstance().dispose(model);
+          }
+        }
+        {
+          SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)"), myProject.getRepository());
+          Assert.assertNotNull("Missing PlainTextGen test fixture", source);
+          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+          try {
+            SNode text = SNodeOperations.cast(CopyUtil.copy(SPointerOperations.resolveNode(new SNodePointer("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)", "6343853832443338663"), myProject.getRepository())), CONCEPTS.TextgenText$PS);
+            SModelOperations.addRootNode(model, text);
+            SPropertyOperations.assignEnum(text, PROPS.lineEnding$vhkT, null);
+            SPropertyOperations.assignEnum(text, PROPS.modelLineEnding$396w, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit"));
+            SPropertyOperations.assignEnum(text, PROPS.settingsLineEnding$39Nz, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit"));
+            TemporaryModels.getInstance().addMissingImports(model);
+            String separator = LineEndingAssertions.separator("CRLF");
+            String message = "template=" + null + ", model=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit") + ", settings=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit");
+            try {
+              TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, ("alpha" + separator + "beta" + separator).getBytes(StandardCharsets.UTF_8));
+            } catch (AssertionError error) {
+              Assert.assertTrue(message + ": " + error.getMessage(), false);
+            }
+          } finally {
+            TemporaryModels.getInstance().dispose(model);
+          }
+        }
+      });
     }
     public void test_explicitInheritPreservesTemplates() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LineEndingAssertions.explicitInheritPreservesTemplates(myProject));
+      runWithinCommand(() -> {
+        for (SEnumerationLiteral ending : LineEndingAssertions.ENDINGS) {
+          {
+            SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)"), myProject.getRepository());
+            Assert.assertNotNull("Missing PlainTextGen test fixture", source);
+            SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+            try {
+              SNode text = SNodeOperations.cast(CopyUtil.copy(SPointerOperations.resolveNode(new SNodePointer("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)", "6343853832443338663"), myProject.getRepository())), CONCEPTS.TextgenText$PS);
+              SModelOperations.addRootNode(model, text);
+              SPropertyOperations.assignEnum(text, PROPS.lineEnding$vhkT, ending);
+              SPropertyOperations.assignEnum(text, PROPS.modelLineEnding$396w, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit"));
+              SPropertyOperations.assignEnum(text, PROPS.settingsLineEnding$39Nz, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit"));
+              TemporaryModels.getInstance().addMissingImports(model);
+              String separator = LineEndingAssertions.separator(SEnumOperations.getMemberName0(ending));
+              String message = "template=" + ending + ", model=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit") + ", settings=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit");
+              try {
+                TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, ("alpha" + separator + "beta" + separator).getBytes(StandardCharsets.UTF_8));
+              } catch (AssertionError error) {
+                Assert.assertTrue(message + ": " + error.getMessage(), false);
+              }
+            } finally {
+              TemporaryModels.getInstance().dispose(model);
+            }
+          }
+          {
+            SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)"), myProject.getRepository());
+            Assert.assertNotNull("Missing PlainTextGen test fixture", source);
+            SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+            try {
+              SNode text = SNodeOperations.cast(CopyUtil.copy(SPointerOperations.resolveNode(new SNodePointer("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)", "6343853832443338663"), myProject.getRepository())), CONCEPTS.TextgenText$PS);
+              SModelOperations.addRootNode(model, text);
+              SPropertyOperations.assignEnum(text, PROPS.lineEnding$vhkT, ending);
+              SPropertyOperations.assignEnum(text, PROPS.modelLineEnding$396w, null);
+              SPropertyOperations.assignEnum(text, PROPS.settingsLineEnding$39Nz, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit"));
+              TemporaryModels.getInstance().addMissingImports(model);
+              String separator = LineEndingAssertions.separator(SEnumOperations.getMemberName0(ending));
+              String message = "template=" + ending + ", model=" + null + ", settings=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit");
+              try {
+                TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, ("alpha" + separator + "beta" + separator).getBytes(StandardCharsets.UTF_8));
+              } catch (AssertionError error) {
+                Assert.assertTrue(message + ": " + error.getMessage(), false);
+              }
+            } finally {
+              TemporaryModels.getInstance().dispose(model);
+            }
+          }
+          {
+            SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)"), myProject.getRepository());
+            Assert.assertNotNull("Missing PlainTextGen test fixture", source);
+            SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+            try {
+              SNode text = SNodeOperations.cast(CopyUtil.copy(SPointerOperations.resolveNode(new SNodePointer("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)", "6343853832443338663"), myProject.getRepository())), CONCEPTS.TextgenText$PS);
+              SModelOperations.addRootNode(model, text);
+              SPropertyOperations.assignEnum(text, PROPS.lineEnding$vhkT, ending);
+              SPropertyOperations.assignEnum(text, PROPS.modelLineEnding$396w, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit"));
+              SPropertyOperations.assignEnum(text, PROPS.settingsLineEnding$39Nz, null);
+              TemporaryModels.getInstance().addMissingImports(model);
+              String separator = LineEndingAssertions.separator(SEnumOperations.getMemberName0(ending));
+              String message = "template=" + ending + ", model=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit") + ", settings=" + null;
+              try {
+                TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, ("alpha" + separator + "beta" + separator).getBytes(StandardCharsets.UTF_8));
+              } catch (AssertionError error) {
+                Assert.assertTrue(message + ": " + error.getMessage(), false);
+              }
+            } finally {
+              TemporaryModels.getInstance().dispose(model);
+            }
+          }
+        }
+      });
     }
     public void test_settingsOverrideTemplates() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LineEndingAssertions.settingsOverrideTemplates(myProject));
+      runWithinCommand(() -> {
+        for (SEnumerationLiteral fallback : LineEndingAssertions.ENDINGS) {
+          for (SEnumerationLiteral setting : LineEndingAssertions.VALUES) {
+            {
+              SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)"), myProject.getRepository());
+              Assert.assertNotNull("Missing PlainTextGen test fixture", source);
+              SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+              try {
+                SNode text = SNodeOperations.cast(CopyUtil.copy(SPointerOperations.resolveNode(new SNodePointer("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)", "6343853832443338663"), myProject.getRepository())), CONCEPTS.TextgenText$PS);
+                SModelOperations.addRootNode(model, text);
+                SPropertyOperations.assignEnum(text, PROPS.lineEnding$vhkT, fallback);
+                SPropertyOperations.assignEnum(text, PROPS.modelLineEnding$396w, null);
+                SPropertyOperations.assignEnum(text, PROPS.settingsLineEnding$39Nz, setting);
+                TemporaryModels.getInstance().addMissingImports(model);
+                String separator = LineEndingAssertions.separator(SEnumOperations.getMemberName0(setting));
+                String message = "template=" + fallback + ", model=" + null + ", settings=" + setting;
+                try {
+                  TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, ("alpha" + separator + "beta" + separator).getBytes(StandardCharsets.UTF_8));
+                } catch (AssertionError error) {
+                  Assert.assertTrue(message + ": " + error.getMessage(), false);
+                }
+              } finally {
+                TemporaryModels.getInstance().dispose(model);
+              }
+            }
+            {
+              SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)"), myProject.getRepository());
+              Assert.assertNotNull("Missing PlainTextGen test fixture", source);
+              SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+              try {
+                SNode text = SNodeOperations.cast(CopyUtil.copy(SPointerOperations.resolveNode(new SNodePointer("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)", "6343853832443338663"), myProject.getRepository())), CONCEPTS.TextgenText$PS);
+                SModelOperations.addRootNode(model, text);
+                SPropertyOperations.assignEnum(text, PROPS.lineEnding$vhkT, fallback);
+                SPropertyOperations.assignEnum(text, PROPS.modelLineEnding$396w, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit"));
+                SPropertyOperations.assignEnum(text, PROPS.settingsLineEnding$39Nz, setting);
+                TemporaryModels.getInstance().addMissingImports(model);
+                String separator = LineEndingAssertions.separator(SEnumOperations.getMemberName0(setting));
+                String message = "template=" + fallback + ", model=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit") + ", settings=" + setting;
+                try {
+                  TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, ("alpha" + separator + "beta" + separator).getBytes(StandardCharsets.UTF_8));
+                } catch (AssertionError error) {
+                  Assert.assertTrue(message + ": " + error.getMessage(), false);
+                }
+              } finally {
+                TemporaryModels.getInstance().dispose(model);
+              }
+            }
+          }
+        }
+      });
     }
     public void test_modelOverridesSettingsAndTemplates() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LineEndingAssertions.modelOverridesSettingsAndTemplates(myProject));
+      runWithinCommand(() -> {
+        for (SEnumerationLiteral fallback : LineEndingAssertions.ENDINGS) {
+          for (SEnumerationLiteral modelOverride : LineEndingAssertions.VALUES) {
+            for (SEnumerationLiteral setting : LineEndingAssertions.OVERRIDES) {
+              {
+                SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)"), myProject.getRepository());
+                Assert.assertNotNull("Missing PlainTextGen test fixture", source);
+                SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+                try {
+                  SNode text = SNodeOperations.cast(CopyUtil.copy(SPointerOperations.resolveNode(new SNodePointer("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)", "6343853832443338663"), myProject.getRepository())), CONCEPTS.TextgenText$PS);
+                  SModelOperations.addRootNode(model, text);
+                  SPropertyOperations.assignEnum(text, PROPS.lineEnding$vhkT, fallback);
+                  SPropertyOperations.assignEnum(text, PROPS.modelLineEnding$396w, modelOverride);
+                  SPropertyOperations.assignEnum(text, PROPS.settingsLineEnding$39Nz, setting);
+                  TemporaryModels.getInstance().addMissingImports(model);
+                  String separator = LineEndingAssertions.separator(SEnumOperations.getMemberName0(modelOverride));
+                  String message = "template=" + fallback + ", model=" + model + ", settings=" + setting;
+                  try {
+                    TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, ("alpha" + separator + "beta" + separator).getBytes(StandardCharsets.UTF_8));
+                  } catch (AssertionError error) {
+                    Assert.assertTrue(message + ": " + error.getMessage(), false);
+                  }
+                } finally {
+                  TemporaryModels.getInstance().dispose(model);
+                }
+              }
+            }
+          }
+        }
+      });
     }
     public void test_independentFilesDoNotLeakOverrides() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LineEndingAssertions.independentFilesDoNotLeakOverrides(myProject));
+      runWithinCommand(() -> {
+        {
+          SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)"), myProject.getRepository());
+          Assert.assertNotNull("Missing PlainTextGen test fixture", source);
+          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+          try {
+            SNode text = SNodeOperations.cast(CopyUtil.copy(SPointerOperations.resolveNode(new SNodePointer("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)", "6343853832443338663"), myProject.getRepository())), CONCEPTS.TextgenText$PS);
+            SModelOperations.addRootNode(model, text);
+            SPropertyOperations.assignEnum(text, PROPS.lineEnding$vhkT, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L, "com.dslfoundry.plaintextgen.structure.LineEnding"), 0x705a2e3e0ba1ef48L, "CRLF"));
+            SPropertyOperations.assignEnum(text, PROPS.modelLineEnding$396w, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x15f6d205db77e458L, "LF"));
+            SPropertyOperations.assignEnum(text, PROPS.settingsLineEnding$39Nz, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x10d4a1dc07c7673cL, "CR"));
+            TemporaryModels.getInstance().addMissingImports(model);
+            String separator = LineEndingAssertions.separator("LF");
+            String message = "template=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L, "com.dslfoundry.plaintextgen.structure.LineEnding"), 0x705a2e3e0ba1ef48L, "CRLF") + ", model=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x15f6d205db77e458L, "LF") + ", settings=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x10d4a1dc07c7673cL, "CR");
+            try {
+              TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, ("alpha" + separator + "beta" + separator).getBytes(StandardCharsets.UTF_8));
+            } catch (AssertionError error) {
+              Assert.assertTrue(message + ": " + error.getMessage(), false);
+            }
+          } finally {
+            TemporaryModels.getInstance().dispose(model);
+          }
+        }
+        {
+          SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)"), myProject.getRepository());
+          Assert.assertNotNull("Missing PlainTextGen test fixture", source);
+          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+          try {
+            SNode text = SNodeOperations.cast(CopyUtil.copy(SPointerOperations.resolveNode(new SNodePointer("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)", "6343853832443338663"), myProject.getRepository())), CONCEPTS.TextgenText$PS);
+            SModelOperations.addRootNode(model, text);
+            SPropertyOperations.assignEnum(text, PROPS.lineEnding$vhkT, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L, "com.dslfoundry.plaintextgen.structure.LineEnding"), 0x705a2e3e0ba1ef48L, "CRLF"));
+            SPropertyOperations.assignEnum(text, PROPS.modelLineEnding$396w, null);
+            SPropertyOperations.assignEnum(text, PROPS.settingsLineEnding$39Nz, null);
+            TemporaryModels.getInstance().addMissingImports(model);
+            String separator = LineEndingAssertions.separator("CRLF");
+            String message = "template=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L, "com.dslfoundry.plaintextgen.structure.LineEnding"), 0x705a2e3e0ba1ef48L, "CRLF") + ", model=" + null + ", settings=" + null;
+            try {
+              TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, ("alpha" + separator + "beta" + separator).getBytes(StandardCharsets.UTF_8));
+            } catch (AssertionError error) {
+              Assert.assertTrue(message + ": " + error.getMessage(), false);
+            }
+          } finally {
+            TemporaryModels.getInstance().dispose(model);
+          }
+        }
+        {
+          SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)"), myProject.getRepository());
+          Assert.assertNotNull("Missing PlainTextGen test fixture", source);
+          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+          try {
+            SNode text = SNodeOperations.cast(CopyUtil.copy(SPointerOperations.resolveNode(new SNodePointer("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)", "6343853832443338663"), myProject.getRepository())), CONCEPTS.TextgenText$PS);
+            SModelOperations.addRootNode(model, text);
+            SPropertyOperations.assignEnum(text, PROPS.lineEnding$vhkT, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L, "com.dslfoundry.plaintextgen.structure.LineEnding"), 0x705a2e3e0ba1ef44L, "CR"));
+            SPropertyOperations.assignEnum(text, PROPS.modelLineEnding$396w, null);
+            SPropertyOperations.assignEnum(text, PROPS.settingsLineEnding$39Nz, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x3e6319798c8f5401L, "Native"));
+            TemporaryModels.getInstance().addMissingImports(model);
+            String separator = LineEndingAssertions.separator("Native");
+            String message = "template=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L, "com.dslfoundry.plaintextgen.structure.LineEnding"), 0x705a2e3e0ba1ef44L, "CR") + ", model=" + null + ", settings=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x3e6319798c8f5401L, "Native");
+            try {
+              TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, ("alpha" + separator + "beta" + separator).getBytes(StandardCharsets.UTF_8));
+            } catch (AssertionError error) {
+              Assert.assertTrue(message + ": " + error.getMessage(), false);
+            }
+          } finally {
+            TemporaryModels.getInstance().dispose(model);
+          }
+        }
+        {
+          SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)"), myProject.getRepository());
+          Assert.assertNotNull("Missing PlainTextGen test fixture", source);
+          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
+          try {
+            SNode text = SNodeOperations.cast(CopyUtil.copy(SPointerOperations.resolveNode(new SNodePointer("r:c8c2f97c-abe2-45ba-bf47-780c2953f546(com.jetbrains.mpsext.plaintextgen.tests.fixtures)", "6343853832443338663"), myProject.getRepository())), CONCEPTS.TextgenText$PS);
+            SModelOperations.addRootNode(model, text);
+            SPropertyOperations.assignEnum(text, PROPS.lineEnding$vhkT, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L, "com.dslfoundry.plaintextgen.structure.LineEnding"), 0x705a2e3e0ba1ef45L, "LF"));
+            SPropertyOperations.assignEnum(text, PROPS.modelLineEnding$396w, null);
+            SPropertyOperations.assignEnum(text, PROPS.settingsLineEnding$39Nz, null);
+            TemporaryModels.getInstance().addMissingImports(model);
+            String separator = LineEndingAssertions.separator("LF");
+            String message = "template=" + SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L, "com.dslfoundry.plaintextgen.structure.LineEnding"), 0x705a2e3e0ba1ef45L, "LF") + ", model=" + null + ", settings=" + null;
+            try {
+              TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, ("alpha" + separator + "beta" + separator).getBytes(StandardCharsets.UTF_8));
+            } catch (AssertionError error) {
+              Assert.assertTrue(message + ": " + error.getMessage(), false);
+            }
+          } finally {
+            TemporaryModels.getInstance().dispose(model);
+          }
+        }
+      });
     }
 
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept TextgenText$PS = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, "com.dslfoundry.plaintextgen.structure.TextgenText");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty lineEnding$vhkT = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0x705a2e3e0ba1ef4cL, "lineEnding");
+    /*package*/ static final SProperty modelLineEnding$396w = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0x5809e5730dbe30e6L, "modelLineEnding");
+    /*package*/ static final SProperty settingsLineEnding$39Nz = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0x5809e5730dbe30e9L, "settingsLineEnding");
   }
 }

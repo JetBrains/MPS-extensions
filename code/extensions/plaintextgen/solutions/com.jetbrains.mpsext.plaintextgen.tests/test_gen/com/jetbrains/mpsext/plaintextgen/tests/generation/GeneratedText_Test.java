@@ -10,6 +10,10 @@ import jetbrains.mps.lang.test.runtime.TestParametersCacheBuilder;
 import org.junit.jupiter.api.Test;
 import jetbrains.mps.lang.test.runtime.BaseTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
+import java.util.Map;
+import java.io.File;
+import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
+import org.junit.Assert;
 
 @MPSLaunch
 public class GeneratedText_Test extends BaseTransformationTest {
@@ -58,27 +62,103 @@ public class GeneratedText_Test extends BaseTransformationTest {
 
     public void test_nestedPropertyAndLoopMacros() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> GeneratorAssertions.nestedPropertyAndLoopMacros(myProject));
+      runWithinCommand(() -> {
+        Map<File, String> files = GeneratorAssertions.generate(myProject, PersistenceFacade.getInstance().createModelReference("r:04bd15c4-5fd7-4d8c-85b9-5a0d55939647(com.jetbrains.mpsext.plaintextgen.tests.generatorInput)"), false);
+        Assert.assertEquals("nestedPropertyAndLoopMacros: All four root mapping rules must produce text", Integer.valueOf(4), Integer.valueOf(files.size()));
+        {
+          String actual = files.get(new File("map_MacroTest.txt"));
+          Assert.assertNotNull("Missing output " + "map_MacroTest.txt" + " in " + files.keySet(), actual);
+          Assert.assertEquals("nestedPropertyAndLoopMacros: map_MacroTest.txt", "root\n  first\n    one\n    two\n  second\n    three\n", actual.replace("\r\n", "\n"));
+        }
+        {
+          String actual = files.get(new File("map_tabbedMacroTest.txt"));
+          Assert.assertNotNull("Missing output " + "map_tabbedMacroTest.txt" + " in " + files.keySet(), actual);
+          Assert.assertEquals("nestedPropertyAndLoopMacros: map_tabbedMacroTest.txt", "root\n\tfirst\n\t\tone\n\t\ttwo\n\tsecond\n\t\tthree\n", actual.replace("\r\n", "\n"));
+        }
+        {
+          String actual = files.get(new File("map_mixedMacroTestConcept"));
+          Assert.assertNotNull("Missing output " + "map_mixedMacroTestConcept" + " in " + files.keySet(), actual);
+          Assert.assertEquals("nestedPropertyAndLoopMacros: map_mixedMacroTestConcept", "root\n  first\n  \tone\n  \ttwo\n  second\n  \tthree\n", actual.replace("\r\n", "\n"));
+        }
+      });
     }
     public void test_emptyLoopMacros() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> GeneratorAssertions.emptyLoopMacros(myProject));
+      runWithinCommand(() -> {
+        Map<File, String> files = GeneratorAssertions.generate(myProject, PersistenceFacade.getInstance().createModelReference("r:04bd15c4-5fd7-4d8c-85b9-5a0d55939647(com.jetbrains.mpsext.plaintextgen.tests.generatorInput)"), true);
+        Assert.assertEquals("emptyLoopMacros: All four root mappings must generate files even with empty child loops", Integer.valueOf(4), Integer.valueOf(files.size()));
+        {
+          String actual = files.get(new File("map_MacroTest.txt"));
+          Assert.assertNotNull("Missing output " + "map_MacroTest.txt" + " in " + files.keySet(), actual);
+          Assert.assertEquals("emptyLoopMacros: map_MacroTest.txt", "root\n", actual.replace("\r\n", "\n"));
+        }
+        {
+          String actual = files.get(new File("map_tabbedMacroTest.txt"));
+          Assert.assertNotNull("Missing output " + "map_tabbedMacroTest.txt" + " in " + files.keySet(), actual);
+          Assert.assertEquals("emptyLoopMacros: map_tabbedMacroTest.txt", "root\n", actual.replace("\r\n", "\n"));
+        }
+        {
+          String actual = files.get(new File("map_mixedMacroTestConcept"));
+          Assert.assertNotNull("Missing output " + "map_mixedMacroTestConcept" + " in " + files.keySet(), actual);
+          Assert.assertEquals("emptyLoopMacros: map_mixedMacroTestConcept", "root\n", actual.replace("\r\n", "\n"));
+        }
+      });
     }
     public void test_flowWordsConcatenate() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> GeneratorAssertions.flowWordsConcatenate(myProject));
+      runWithinCommand(() -> {
+        {
+          Map<File, String> files = GeneratorAssertions.generate(myProject, PersistenceFacade.getInstance().createModelReference("r:d0c1dee2-d5d8-4122-bfaf-02a312e3aaaf(com.jetbrains.mpsext.plaintextgen.tests.flowInput)"), false);
+          Assert.assertEquals("flowWordsConcatenate: Each flow fixture must generate a file", Integer.valueOf(4), Integer.valueOf(files.size()));
+          {
+            String actual = files.get(new File("flowWords.txt"));
+            Assert.assertNotNull("Missing output " + "flowWords.txt" + " in " + files.keySet(), actual);
+            Assert.assertEquals("flowWordsConcatenate: flowWords.txt", "alpha beta\n", actual.replace("\r\n", "\n"));
+          }
+        }
+      });
     }
     public void test_flowSoftWrapRepeatsIndent() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> GeneratorAssertions.flowSoftWrapRepeatsIndent(myProject));
+      runWithinCommand(() -> {
+        {
+          Map<File, String> files = GeneratorAssertions.generate(myProject, PersistenceFacade.getInstance().createModelReference("r:d0c1dee2-d5d8-4122-bfaf-02a312e3aaaf(com.jetbrains.mpsext.plaintextgen.tests.flowInput)"), false);
+          Assert.assertEquals("flowSoftWrapRepeatsIndent: Each flow fixture must generate a file", Integer.valueOf(4), Integer.valueOf(files.size()));
+          {
+            String actual = files.get(new File("flowSoft.txt"));
+            Assert.assertNotNull("Missing output " + "flowSoft.txt" + " in " + files.keySet(), actual);
+            Assert.assertEquals("flowSoftWrapRepeatsIndent: flowSoft.txt", "> alpha\n> beta\n", actual.replace("\r\n", "\n"));
+          }
+        }
+      });
     }
     public void test_flowHardWrapSuppressesIndent() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> GeneratorAssertions.flowHardWrapSuppressesIndent(myProject));
+      runWithinCommand(() -> {
+        {
+          Map<File, String> files = GeneratorAssertions.generate(myProject, PersistenceFacade.getInstance().createModelReference("r:d0c1dee2-d5d8-4122-bfaf-02a312e3aaaf(com.jetbrains.mpsext.plaintextgen.tests.flowInput)"), false);
+          Assert.assertEquals("flowHardWrapSuppressesIndent: Each flow fixture must generate a file", Integer.valueOf(4), Integer.valueOf(files.size()));
+          {
+            String actual = files.get(new File("flowHard.txt"));
+            Assert.assertNotNull("Missing output " + "flowHard.txt" + " in " + files.keySet(), actual);
+            Assert.assertEquals("flowHardWrapSuppressesIndent: flowHard.txt", "> alpha\nbeta\n", actual.replace("\r\n", "\n"));
+          }
+        }
+      });
     }
     public void test_nestedFlowsComposeIndent() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> GeneratorAssertions.nestedFlowsComposeIndent(myProject));
+      runWithinCommand(() -> {
+        {
+          Map<File, String> files = GeneratorAssertions.generate(myProject, PersistenceFacade.getInstance().createModelReference("r:d0c1dee2-d5d8-4122-bfaf-02a312e3aaaf(com.jetbrains.mpsext.plaintextgen.tests.flowInput)"), false);
+          Assert.assertEquals("nestedFlowsComposeIndent: Each flow fixture must generate a file", Integer.valueOf(4), Integer.valueOf(files.size()));
+          {
+            String actual = files.get(new File("flowNested.txt"));
+            Assert.assertNotNull("Missing output " + "flowNested.txt" + " in " + files.keySet(), actual);
+            Assert.assertEquals("nestedFlowsComposeIndent: flowNested.txt", "> alpha\n> + beta\n> + gamma\n> delta\n", actual.replace("\r\n", "\n"));
+          }
+        }
+      });
     }
 
   }

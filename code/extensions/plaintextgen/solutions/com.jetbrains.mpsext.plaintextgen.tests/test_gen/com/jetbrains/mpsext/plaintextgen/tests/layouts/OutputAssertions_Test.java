@@ -10,6 +10,11 @@ import jetbrains.mps.lang.test.runtime.TestParametersCacheBuilder;
 import org.junit.jupiter.api.Test;
 import jetbrains.mps.lang.test.runtime.BaseTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
+import org.jetbrains.mps.openapi.model.SModel;
+import de.itemis.mps.comparator.code.TextOutputAssertions;
+import java.nio.charset.StandardCharsets;
+import org.junit.Assert;
+import jetbrains.mps.smodel.tempmodel.TemporaryModels;
 
 @MPSLaunch
 public class OutputAssertions_Test extends BaseTransformationTest {
@@ -54,23 +59,93 @@ public class OutputAssertions_Test extends BaseTransformationTest {
 
     public void test_rejectsWrongFileName() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> OutputAssertionTests.rejectsWrongFileName(myProject));
+      runWithinCommand(() -> {
+        SModel model = OutputAssertionTests.fixture(myProject, true);
+        try {
+          boolean rejected = false;
+          try {
+            TextOutputAssertions.assertSingleOutput(myProject, model, "wrong.txt", StandardCharsets.UTF_8, new byte[]{0});
+          } catch (AssertionError error) {
+            Assert.assertTrue("rejectsWrongFileName: expected Expected filename diagnostic, got " + error.getMessage(), error.getMessage().contains("Expected filename"));
+            rejected = true;
+          }
+          Assert.assertTrue("rejectsWrongFileName: shared assertion must reject the invalid output", rejected);
+        } finally {
+          TemporaryModels.getInstance().dispose(model);
+        }
+      });
     }
     public void test_rejectsWrongCharset() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> OutputAssertionTests.rejectsWrongCharset(myProject));
+      runWithinCommand(() -> {
+        SModel model = OutputAssertionTests.fixture(myProject, true);
+        try {
+          boolean rejected = false;
+          try {
+            TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_16LE, new byte[]{0});
+          } catch (AssertionError error) {
+            Assert.assertTrue("rejectsWrongCharset: expected Expected encoding diagnostic, got " + error.getMessage(), error.getMessage().contains("Expected encoding"));
+            rejected = true;
+          }
+          Assert.assertTrue("rejectsWrongCharset: shared assertion must reject the invalid output", rejected);
+        } finally {
+          TemporaryModels.getInstance().dispose(model);
+        }
+      });
     }
     public void test_rejectsDifferentBytes() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> OutputAssertionTests.rejectsDifferentBytes(myProject));
+      runWithinCommand(() -> {
+        SModel model = OutputAssertionTests.fixture(myProject, true);
+        try {
+          boolean rejected = false;
+          try {
+            TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, new byte[]{0});
+          } catch (AssertionError error) {
+            Assert.assertTrue("rejectsDifferentBytes: expected Byte mismatch diagnostic, got " + error.getMessage(), error.getMessage().contains("Byte mismatch"));
+            rejected = true;
+          }
+          Assert.assertTrue("rejectsDifferentBytes: shared assertion must reject the invalid output", rejected);
+        } finally {
+          TemporaryModels.getInstance().dispose(model);
+        }
+      });
     }
     public void test_rejectsMissingOutput() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> OutputAssertionTests.rejectsMissingOutput(myProject));
+      runWithinCommand(() -> {
+        SModel model = OutputAssertionTests.fixture(myProject, false);
+        try {
+          boolean rejected = false;
+          try {
+            TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, new byte[]{0});
+          } catch (AssertionError error) {
+            Assert.assertTrue("rejectsMissingOutput: expected Expected one output file diagnostic, got " + error.getMessage(), error.getMessage().contains("Expected one output file"));
+            rejected = true;
+          }
+          Assert.assertTrue("rejectsMissingOutput: shared assertion must reject the invalid output", rejected);
+        } finally {
+          TemporaryModels.getInstance().dispose(model);
+        }
+      });
     }
     public void test_rejectsNullExpectedBytes() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> OutputAssertionTests.rejectsNullExpectedBytes(myProject));
+      runWithinCommand(() -> {
+        SModel model = OutputAssertionTests.fixture(myProject, true);
+        try {
+          boolean rejected = false;
+          try {
+            TextOutputAssertions.assertSingleOutput(myProject, model, "lineEndings.txt", StandardCharsets.UTF_8, null);
+          } catch (IllegalArgumentException error) {
+            Assert.assertTrue("rejectsNullExpectedBytes: expected required diagnostic, got " + error.getMessage(), error.getMessage().contains("required"));
+            rejected = true;
+          }
+          Assert.assertTrue("rejectsNullExpectedBytes: shared assertion must reject the invalid output", rejected);
+        } finally {
+          TemporaryModels.getInstance().dispose(model);
+        }
+      });
     }
 
   }

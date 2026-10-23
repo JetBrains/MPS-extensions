@@ -1762,11 +1762,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="3LS_1nWW590" role="3bR37C">
-          <node concept="3bR9La" id="3LS_1nWW591" role="1SiIV1">
-            <ref role="3bR37D" node="64TsoMQT2qP" resolve="de.slisson.mps.hacks.editor" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="3LS_1nWW592" role="3bR37C">
           <node concept="3bR9La" id="3LS_1nWW593" role="1SiIV1">
             <ref role="3bR37D" node="1sO539bGQvB" resolve="de.slisson.mps.richtext" />
@@ -9648,6 +9643,78 @@
             </node>
             <node concept="3qWCbU" id="28JShQGqshr" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5kBF9y1ClhD" role="3bR37C">
+          <node concept="3bR9La" id="5kBF9y1ClhE" role="1SiIV1">
+            <ref role="3bR37D" node="5kBF9y1Ckf7" resolve="com.jetbrains.mpsext.langvis.plantuml" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="5kBF9y1Ckf7" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.jetbrains.mpsext.langvis.plantuml" />
+        <property role="3LESm3" value="ee11ce13-a8f3-4625-a8c2-60f10176ad99" />
+        <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
+        <node concept="398BVA" id="5kBF9y1Ckf9" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="5kBF9y1Ckfa" role="iGT6I">
+            <property role="2Ry0Am" value="langvis" />
+            <node concept="2Ry0Ak" id="5kBF9y1Ckfb" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="5kBF9y1Ckfc" role="2Ry0An">
+                <property role="2Ry0Am" value="com.jetbrains.mpsext.langvis.plantuml" />
+                <node concept="2Ry0Ak" id="5kBF9y1Ckfd" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.jetbrains.mpsext.langvis.plantuml.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5kBF9y1ClhR" role="3bR37C">
+          <node concept="3bR9La" id="5kBF9y1ClhS" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5kBF9y1Cli7" role="3bR37C">
+          <node concept="1BurEX" id="5kBF9y1Cli8" role="1SiIV1">
+            <node concept="398BVA" id="5kBF9y1ClhT" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5kBF9y1ClhU" role="iGT6I">
+                <property role="2Ry0Am" value="langvis" />
+                <node concept="2Ry0Ak" id="5kBF9y1ClhV" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="5kBF9y1ClhW" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.langvis.plantuml" />
+                    <node concept="2Ry0Ak" id="5kBF9y1ClhX" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="5kBF9y1ClhY" role="2Ry0An">
+                        <property role="2Ry0Am" value="plantuml-mit.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="30u5PALtaJw" role="3bR31x">
+          <node concept="3LXTmp" id="30u5PALtaJx" role="3rtmxm">
+            <node concept="3qWCbU" id="30u5PALtaJy" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="30u5PALtaJz" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="30u5PALtaJ$" role="iGT6I">
+                <property role="2Ry0Am" value="langvis" />
+                <node concept="2Ry0Ak" id="30u5PALtaJ_" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="30u5PALtaJA" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.langvis.plantuml" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -18695,6 +18762,32 @@
       <node concept="m$_wl" id="28JShQGqsKN" role="39821P">
         <ref role="m_rDy" node="28JShQGqogt" resolve="com.dslfoundry.langvis" />
         <node concept="pUk6x" id="28JShQGqsWx" role="pUk7w" />
+        <node concept="398223" id="5kBF9y1HQcZ" role="39821P">
+          <property role="TrG5h" value="lib" />
+          <node concept="3_J27D" id="5kBF9y1HQd0" role="Nbhlr">
+            <node concept="3Mxwew" id="5kBF9y1HQd1" role="3MwsjC">
+              <property role="3MwjfP" value="lib" />
+              <property role="TrG5h" value="lib" />
+            </node>
+          </node>
+          <node concept="2HvfSZ" id="5kBF9y1HQd2" role="39821P">
+            <node concept="398BVA" id="5kBF9y1HQd3" role="2HvfZ0">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5kBF9y1HQd4" role="iGT6I">
+                <property role="2Ry0Am" value="langvis" />
+                <node concept="2Ry0Ak" id="5kBF9y1HQd5" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="5kBF9y1HQd6" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.langvis.plantuml" />
+                    <node concept="2Ry0Ak" id="5kBF9y1HQd7" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="m$_wl" id="2NTGYE$JTHj" role="39821P">
         <ref role="m_rDy" node="2NTGYE$JTH6" resolve="com.dslfoundry.plaintextgen" />

@@ -18,7 +18,7 @@ import com.intellij.util.concurrency.AppExecutorUtil;
 import jetbrains.mps.project.MPSProject;
 import jetbrains.mps.ide.project.ProjectHelper;
 import java.io.IOException;
-import jetbrains.mps.baseLanguage.logging.rt.LogContext;
+import java.io.UncheckedIOException;
 import javax.swing.JComponent;
 
 public class LanguageVisualisation_Tool extends GeneratedTool {
@@ -68,6 +68,7 @@ public class LanguageVisualisation_Tool extends GeneratedTool {
     DragScrollListener sl = new DragScrollListener(LanguageVisualisation_Tool.this.imageViewer);
 
     SysUtils.installToolbar(LanguageVisualisation_Tool.this.ideaProject, LanguageVisualisation_Tool.this.mainPanel);
+    LanguageVisualisation_Tool.this.imageViewer.setErrorHandler((message) -> SysUtils.reportError(LanguageVisualisation_Tool.this.ideaProject, message));
   }
   @Override
   protected boolean isInitiallyAvailable() {
@@ -92,23 +93,23 @@ public class LanguageVisualisation_Tool extends GeneratedTool {
   }
   public void redrawBasedOnCurrentContextAndSettings() {
     AppExecutorUtil.getAppExecutorService().execute(() -> {
-
-      // Make plantuml file based on current elements
-      final PlantUMLRenderer r = new PlantUMLRenderer(false, true);
-      MPSProject mpsProject = ProjectHelper.fromIdeaProject(LanguageVisualisation_Tool.this.ideaProject);
-      mpsProject.getRepository().getModelAccess().runReadAction(() -> {
-        try {
-          r.renderPlantUMLSource(LanguageVisualisation_Tool.this.contextElements, LanguageVisualisation_Tool.this.collectStructureDown.isSelected(), LanguageVisualisation_Tool.this.collectHierarchyUp.isSelected(), LanguageVisualisation_Tool.this.renderCardinalities.isSelected(), LanguageVisualisation_Tool.this.renderRoleNames.isSelected(), LanguageVisualisation_Tool.this.flattenNamespaces.isSelected(), LanguageVisualisation_Tool.this.pumlFilePath);
-        } catch (IOException e) {
-          e.printStackTrace();
-          LogContext.with(LanguageVisualisation_Tool.class, e, null, null).error("Visualizing language elements failed (rendering to PlantUML)");
-        }
-      });
-
-      String[] commandarray = {LanguageVisualisation_Tool.this.pumlFilePath, LanguageVisualisation_Tool.this.svgImagePath};
-      String result = SysUtils.renderPlantUMLToSvg(commandarray);
-      LogContext.with(LanguageVisualisation_Tool.class, null, null, null).info("Command executed with result " + result);
-      LanguageVisualisation_Tool.this.reloadImage();
+      try {
+        final PlantUMLRenderer r = new PlantUMLRenderer(false, true);
+        MPSProject mpsProject = ProjectHelper.fromIdeaProject(LanguageVisualisation_Tool.this.ideaProject);
+        mpsProject.getRepository().getModelAccess().runReadAction(() -> {
+          try {
+            r.renderPlantUMLSource(LanguageVisualisation_Tool.this.contextElements, LanguageVisualisation_Tool.this.collectStructureDown.isSelected(), LanguageVisualisation_Tool.this.collectHierarchyUp.isSelected(), LanguageVisualisation_Tool.this.renderCardinalities.isSelected(), LanguageVisualisation_Tool.this.renderRoleNames.isSelected(), LanguageVisualisation_Tool.this.flattenNamespaces.isSelected(), LanguageVisualisation_Tool.this.pumlFilePath);
+          } catch (IOException e) {
+            throw new UncheckedIOException(e);
+          }
+        });
+        SysUtils.renderPlantUMLToSvg(LanguageVisualisation_Tool.this.pumlFilePath, LanguageVisualisation_Tool.this.svgImagePath);
+        LanguageVisualisation_Tool.this.reloadImage();
+      } catch (IOException exception) {
+        SysUtils.reportError(LanguageVisualisation_Tool.this.ideaProject, "Could not render the language diagram: " + exception.getMessage());
+      } catch (UncheckedIOException exception) {
+        SysUtils.reportError(LanguageVisualisation_Tool.this.ideaProject, "Could not write the language diagram: " + exception.getMessage());
+      }
     });
   }
   private void reloadImage() {

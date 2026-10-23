@@ -3163,7 +3163,6 @@
           <module ref="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" kind="rt" />
           <module ref="31f56055-9d30-42b3-a2b1-fb3f554d7075(jetbrains.mps.lang.smodel.query.runtime)" kind="rt" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
-          <module ref="f0fff802-6d26-4d2e-b89d-391357265626(de.slisson.mps.hacks.editor)" kind="cl" />
           <module ref="92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)" kind="cl" />
           <module ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" kind="cl" />
         </dependencies>
@@ -7654,6 +7653,7 @@
           <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="cl" />
           <module ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" kind="cl" />
           <module ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" kind="cl" />
+          <module ref="ee11ce13-a8f3-4625-a8c2-60f10176ad99(com.jetbrains.mpsext.langvis.plantuml)" kind="cl" />
           <module ref="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" kind="cl" />
         </dependencies>
         <uses>
@@ -7715,6 +7715,27 @@
       <zipfileset file="${extensions.code}/langvis/solutions/com.dslfoundry.langvis.plugin/com.dslfoundry.langvis.plugin.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/langvis-solutions-com.dslfoundry.langvis.plugin-models" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.langvis.plantuml.jar" />
+    <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.langvis.plantuml.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/com.jetbrains.mpsext.langvis.plantuml.jar/META-INF/module.xml">
+      <module namespace="com.jetbrains.mpsext.langvis.plantuml" type="solution" uuid="ee11ce13-a8f3-4625-a8c2-60f10176ad99">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="cl" />
+        </dependencies>
+        <uses />
+        <library jar="../../lib/plantuml-mit.jar" />
+        <sources jar="." descriptor="com.jetbrains.mpsext.langvis.plantuml.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/com.dslfoundry.langvis/languages/com.dslfoundry.langvis/com.jetbrains.mpsext.langvis.plantuml.jar" duplicate="preserve">
+      <fileset dir="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.plantuml" includes="icons/**, resources/**" />
+      <zipfileset file="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.plantuml/com.jetbrains.mpsext.langvis.plantuml.msd" prefix="module" />
+      <fileset dir="${build.tmp}/default/com.jetbrains.mpsext.langvis.plantuml.jar" />
+    </jar>
+    <mkdir dir="${build.layout}/com.dslfoundry.langvis/lib" />
+    <copy todir="${build.layout}/com.dslfoundry.langvis/lib">
+      <fileset dir="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.plantuml/lib" />
+    </copy>
     <mkdir dir="${build.layout}/com.dslfoundry.plaintextgen" />
     <mkdir dir="${build.layout}/com.dslfoundry.plaintextgen/lib" />
     <mkdir dir="${build.tmp}/default/com.dslfoundry.plaintextgen.jar" />
@@ -15348,6 +15369,7 @@
       <chunk>
         <module file="${extensions.code}/kotlin/solutions/MPS.Kotlin/MPS.Kotlin.msd" />
         <module file="${extensions.code}/langvis/solutions/com.dslfoundry.langvis.plugin/com.dslfoundry.langvis.plugin.msd" />
+        <module file="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.plantuml/com.jetbrains.mpsext.langvis.plantuml.msd" />
         <module file="${extensions.code}/viewmodel/languages/com.jetbrains.mpsext.viewmodel.storage/com.jetbrains.mpsext.viewmodel.storage.mpl" />
         <module file="${extensions.code}/blutil/languages/com.mbeddr.mpsutil.blutil/solutions/com.mbeddr.mpsutil.blutil.rt.msd" />
         <module file="${extensions.code}/modellisteners/com.mbeddr.mpsutil.modellisteners/com.mbeddr.mpsutil.modellisteners.mpl" />
@@ -18734,7 +18756,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.com.jetbrains.mpsext.richtext.styles" depends="java.compile.de.itemis.mps.editor.celllayout.runtime, java.compile.de.itemis.mps.editor.celllayout.styles, java.compile.de.itemis.mps.selection.runtime, java.compile.de.slisson.mps.editor.multiline.runtime, java.compile.de.slisson.mps.hacks.editor, java.compile.de.slisson.mps.richtext, fetchDependencies">
+  <target name="java.compile.com.jetbrains.mpsext.richtext.styles" depends="java.compile.de.itemis.mps.editor.celllayout.runtime, java.compile.de.itemis.mps.editor.celllayout.styles, java.compile.de.itemis.mps.selection.runtime, java.compile.de.slisson.mps.editor.multiline.runtime, java.compile.de.slisson.mps.richtext, fetchDependencies">
     <mkdir dir="${extensions.code}/richtext/languages/com.jetbrains.mpsext.richtext.styles/source_gen" />
     <mkdir dir="${build.tmp}/java/out/com.jetbrains.mpsext.richtext.styles" />
     <javac2 destdir="${build.tmp}/java/out/com.jetbrains.mpsext.richtext.styles" fork="false" encoding="utf8" includeantruntime="false" debug="true" source="11" target="11">
@@ -18774,7 +18796,6 @@
         <fileset file="${artifacts.mps}/plugins/mps-vcs/lib/vcs-core.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-vcs/lib/vcs-platform.jar" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.editor.multiline.runtime" />
-        <pathelement path="${build.tmp}/java/out/de.slisson.mps.hacks.editor" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.richtext" />
         <fileset file="${extensions.code}/multiline/solutions/de.slisson.mps.editor.multiline.runtime/lib/diff_match_patch.jar" />
@@ -44097,6 +44118,7 @@
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <fileset file="${artifacts.mps}/lib/mps-scripts-rt.jar" />
+        <fileset file="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.plantuml/lib/plantuml-mit.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/app.jar" />
         <fileset file="${artifacts.IDEA}/lib/app-client.jar" />

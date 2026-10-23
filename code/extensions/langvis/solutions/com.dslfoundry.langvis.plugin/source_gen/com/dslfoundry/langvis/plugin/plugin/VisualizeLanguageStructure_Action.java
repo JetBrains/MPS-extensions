@@ -9,7 +9,6 @@ import org.jetbrains.annotations.NotNull;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import java.util.Map;
 import jetbrains.mps.ide.actions.MPSCommonDataKeys;
-import jetbrains.mps.smodel.LanguageAspect;
 import org.jetbrains.mps.openapi.model.SModel;
 import java.util.Set;
 import org.jetbrains.mps.openapi.model.SNode;
@@ -36,7 +35,7 @@ public class VisualizeLanguageStructure_Action extends BaseAction {
   }
   @Override
   public void doUpdate(@NotNull AnActionEvent event, final Map<String, Object> _params) {
-    event.getPresentation().setEnabledAndVisible(event.getData(MPSCommonDataKeys.CONTEXT_MODEL) != null && LanguageAspect.STRUCTURE.is(event.getData(MPSCommonDataKeys.CONTEXT_MODEL)));
+    event.getPresentation().setEnabledAndVisible(SysUtils.isStructureModel(event.getData(MPSCommonDataKeys.CONTEXT_MODEL)));
   }
   @Override
   protected boolean collectActionData(AnActionEvent event, final Map<String, Object> _params) {

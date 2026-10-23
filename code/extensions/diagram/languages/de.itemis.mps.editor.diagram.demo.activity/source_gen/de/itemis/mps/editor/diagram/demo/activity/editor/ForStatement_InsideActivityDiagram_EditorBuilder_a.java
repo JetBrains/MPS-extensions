@@ -110,7 +110,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
               public void run() {
                 final ContextVariables _variablesContext = ContextVariables.getCurrent();
                 final EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-                editorCell.setCellId("transformedGraphElement_d0_0" + "." + EndpointUtil.createIdForSNode(((Tuples._2<SNode, SNode>) _variablesContext.getValue("parameterObject"))._0()) + " -> " + EndpointUtil.createIdForSNode(((Tuples._2<SNode, SNode>) _variablesContext.getValue("parameterObject"))._1()));
+                editorCell.setCellId("transformedGraphElement_d0" + "." + EndpointUtil.createIdForSNode(((Tuples._2<SNode, SNode>) _variablesContext.getValue("parameterObject"))._0()) + " -> " + EndpointUtil.createIdForSNode(((Tuples._2<SNode, SNode>) _variablesContext.getValue("parameterObject"))._1()));
 
                 final EditorCell labelCell = DiagramUtil.getCellIfNotEmpty(new Inline_Builder_lx58se_a3a(editorContext, node).createCell());
                 if (labelCell != null) {
@@ -182,7 +182,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
               public void run() {
                 final ContextVariables _variablesContext = ContextVariables.getCurrent();
                 final EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, parameterObject);
-                editorCell.setCellId("transformedGraphElement_e0_0" + "." + ((SNode) _variablesContext.getValue("thisNode")));
+                editorCell.setCellId("transformedGraphElement_e0" + "." + ((SNode) _variablesContext.getValue("thisNode")));
 
                 final EditorCell labelCell = DiagramUtil.getCellIfNotEmpty(new Inline_Builder_lx58se_a4a(editorContext, parameterObject).createCell());
                 if (labelCell != null) {

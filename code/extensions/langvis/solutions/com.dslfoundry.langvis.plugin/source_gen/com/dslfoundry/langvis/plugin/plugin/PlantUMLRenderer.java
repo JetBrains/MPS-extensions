@@ -159,45 +159,12 @@ public class PlantUMLRenderer {
     }
   }
 
-  public void collectDown(SNode node, Set<SNode> collectedNodes) {
-    // Collect children and references
-    if (SetSequence.fromSet(collectedNodes).contains(node)) {
-      return;
-    }
-    SetSequence.fromSet(collectedNodes).addElement(node);
-    for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.linkDeclaration$YU1f))) {
-      collectDown(SLinkOperations.getTarget(child, LINKS.target$m40F), collectedNodes);
-    }
-  }
 
-  public void collectUp(SNode node, Set<SNode> collectedNodes) {
-    // collect implemented interfaces and extended concepts
-    if (SetSequence.fromSet(collectedNodes).contains(node)) {
-      return;
-    }
-    SetSequence.fromSet(collectedNodes).addElement(node);
-    {
-      final SNode cdecl = node;
-      if (SNodeOperations.isInstanceOf(cdecl, CONCEPTS.ConceptDeclaration$gH)) {
-        if ((SLinkOperations.getTarget(cdecl, LINKS.extends$_Isg) != null)) {
-          collectUp(SLinkOperations.getTarget(cdecl, LINKS.extends$_Isg), collectedNodes);
-        }
-        for (SNode intf : ListSequence.fromList(SLinkOperations.getChildren(cdecl, LINKS.implements$u_P2))) {
-          collectUp(SLinkOperations.getTarget(intf, LINKS.intfc$zM4e), collectedNodes);
-        }
-      }
-    }
-    {
-      final SNode intfc = node;
-      if (SNodeOperations.isInstanceOf(intfc, CONCEPTS.InterfaceConceptDeclaration$CG)) {
-        for (SNode intf : ListSequence.fromList(SLinkOperations.getChildren(intfc, LINKS.extends$nawU))) {
-          collectUp(SLinkOperations.getTarget(intf, LINKS.intfc$zM4e), collectedNodes);
-        }
-      }
-    }
-  }
 
   private void collectStructure(SNode node, Set<SNode> collectedNodes) {
+    if (SetSequence.fromSet(neverABox).contains(getName(node))) {
+      return;
+    }
     if (SetSequence.fromSet(collectedNodes).contains(node)) {
       return;
     }

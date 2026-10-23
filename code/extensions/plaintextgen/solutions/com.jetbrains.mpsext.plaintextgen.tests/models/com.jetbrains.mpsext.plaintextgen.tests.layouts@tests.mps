@@ -555,13 +555,8 @@
                 <property role="Xl_RC" value="left" />
               </node>
             </node>
-            <node concept="3cpWs3" id="5w9TncgcaGo" role="37wK5m">
-              <node concept="Xl_RD" id="5w9TncgcaGp" role="3uHU7B">
-                <property role="Xl_RC" value="left" />
-              </node>
-              <node concept="Xl_RD" id="5w9TncgcaGq" role="3uHU7w">
-                <property role="Xl_RC" value=".txt" />
-              </node>
+            <node concept="Xl_RD" id="5w9TncgQwU3" role="37wK5m">
+              <property role="Xl_RC" value="left.txt" />
             </node>
             <node concept="Xl_RD" id="5w9TncgcaGr" role="37wK5m">
               <property role="Xl_RC" value="UTF-8" />
@@ -590,13 +585,8 @@
                 <property role="Xl_RC" value="center" />
               </node>
             </node>
-            <node concept="3cpWs3" id="5w9TncgcaGD" role="37wK5m">
-              <node concept="Xl_RD" id="5w9TncgcaGE" role="3uHU7B">
-                <property role="Xl_RC" value="center" />
-              </node>
-              <node concept="Xl_RD" id="5w9TncgcaGF" role="3uHU7w">
-                <property role="Xl_RC" value=".txt" />
-              </node>
+            <node concept="Xl_RD" id="5w9TncgQwU4" role="37wK5m">
+              <property role="Xl_RC" value="center.txt" />
             </node>
             <node concept="Xl_RD" id="5w9TncgcaGG" role="37wK5m">
               <property role="Xl_RC" value="UTF-8" />
@@ -625,13 +615,8 @@
                 <property role="Xl_RC" value="right" />
               </node>
             </node>
-            <node concept="3cpWs3" id="5w9TncgcaGU" role="37wK5m">
-              <node concept="Xl_RD" id="5w9TncgcaGV" role="3uHU7B">
-                <property role="Xl_RC" value="right" />
-              </node>
-              <node concept="Xl_RD" id="5w9TncgcaGW" role="3uHU7w">
-                <property role="Xl_RC" value=".txt" />
-              </node>
+            <node concept="Xl_RD" id="5w9TncgQwU5" role="37wK5m">
+              <property role="Xl_RC" value="right.txt" />
             </node>
             <node concept="Xl_RD" id="5w9TncgcaGX" role="37wK5m">
               <property role="Xl_RC" value="UTF-8" />
@@ -660,13 +645,8 @@
                 <property role="Xl_RC" value="centerOdd" />
               </node>
             </node>
-            <node concept="3cpWs3" id="5w9TncgcaHb" role="37wK5m">
-              <node concept="Xl_RD" id="5w9TncgcaHc" role="3uHU7B">
-                <property role="Xl_RC" value="centerOdd" />
-              </node>
-              <node concept="Xl_RD" id="5w9TncgcaHd" role="3uHU7w">
-                <property role="Xl_RC" value=".txt" />
-              </node>
+            <node concept="Xl_RD" id="5w9TncgQwU6" role="37wK5m">
+              <property role="Xl_RC" value="centerOdd.txt" />
             </node>
             <node concept="Xl_RD" id="5w9TncgcaHe" role="37wK5m">
               <property role="Xl_RC" value="UTF-8" />
@@ -695,13 +675,8 @@
                 <property role="Xl_RC" value="spaceIndent" />
               </node>
             </node>
-            <node concept="3cpWs3" id="5w9Tncgcb61" role="37wK5m">
-              <node concept="Xl_RD" id="5w9Tncgcb62" role="3uHU7B">
-                <property role="Xl_RC" value="spaceIndent" />
-              </node>
-              <node concept="Xl_RD" id="5w9Tncgcb63" role="3uHU7w">
-                <property role="Xl_RC" value=".txt" />
-              </node>
+            <node concept="Xl_RD" id="5w9TncgQxhs" role="37wK5m">
+              <property role="Xl_RC" value="spaceIndent.txt" />
             </node>
             <node concept="Xl_RD" id="5w9Tncgcb64" role="37wK5m">
               <property role="Xl_RC" value="UTF-8" />
@@ -730,13 +705,8 @@
                 <property role="Xl_RC" value="nestedIndent" />
               </node>
             </node>
-            <node concept="3cpWs3" id="5w9Tncgcb6i" role="37wK5m">
-              <node concept="Xl_RD" id="5w9Tncgcb6j" role="3uHU7B">
-                <property role="Xl_RC" value="nestedIndent" />
-              </node>
-              <node concept="Xl_RD" id="5w9Tncgcb6k" role="3uHU7w">
-                <property role="Xl_RC" value=".txt" />
-              </node>
+            <node concept="Xl_RD" id="5w9TncgQxht" role="37wK5m">
+              <property role="Xl_RC" value="nestedIndent.txt" />
             </node>
             <node concept="Xl_RD" id="5w9Tncgcb6l" role="37wK5m">
               <property role="Xl_RC" value="UTF-8" />
@@ -803,36 +773,27 @@
         </node>
         <node concept="9aQIb" id="5w9TncggBTD" role="3cqZAp">
           <node concept="3clFbS" id="5w9TncggBTE" role="9aQI4">
-            <node concept="9aQIb" id="5w9TncggBTO" role="3cqZAp">
-              <node concept="3clFbS" id="5w9TncggBTP" role="9aQI4">
-                <node concept="3clFbF" id="5w9TncggBTQ" role="3cqZAp">
-                  <node concept="2YIFZM" id="5w9TncggBTR" role="3clFbG">
-                    <ref role="1Pybhc" node="5w9TncdMAV7" resolve="PlainTextGenAssertions" />
-                    <ref role="37wK5l" node="5w9TncedQHa" resolve="assertText" />
-                    <node concept="1jxXqW" id="5w9TncggBTS" role="37wK5m" />
-                    <node concept="2YIFZM" id="5w9TncggBTT" role="37wK5m">
-                      <ref role="37wK5l" node="5w9TncdMFZ6" resolve="fixture" />
-                      <ref role="1Pybhc" node="5w9TncdMFVN" resolve="LayoutAssertions" />
-                      <node concept="1jxXqW" id="5w9TncggBTU" role="37wK5m" />
-                      <node concept="Xl_RD" id="5w9TncggBTV" role="37wK5m">
-                        <property role="Xl_RC" value="alignedIndent" />
-                      </node>
-                    </node>
-                    <node concept="3cpWs3" id="5w9TncggBTW" role="37wK5m">
-                      <node concept="Xl_RD" id="5w9TncggBTX" role="3uHU7B">
-                        <property role="Xl_RC" value="alignedIndent" />
-                      </node>
-                      <node concept="Xl_RD" id="5w9TncggBTY" role="3uHU7w">
-                        <property role="Xl_RC" value=".txt" />
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="5w9TncggBTZ" role="37wK5m">
-                      <property role="Xl_RC" value="UTF-8" />
-                    </node>
-                    <node concept="Xl_RD" id="5w9TncggBU0" role="37wK5m">
-                      <property role="Xl_RC" value="      a\n    bbb\n" />
-                    </node>
+            <node concept="3clFbF" id="5w9TncggBTQ" role="3cqZAp">
+              <node concept="2YIFZM" id="5w9TncggBTR" role="3clFbG">
+                <ref role="1Pybhc" node="5w9TncdMAV7" resolve="PlainTextGenAssertions" />
+                <ref role="37wK5l" node="5w9TncedQHa" resolve="assertText" />
+                <node concept="1jxXqW" id="5w9TncggBTS" role="37wK5m" />
+                <node concept="2YIFZM" id="5w9TncggBTT" role="37wK5m">
+                  <ref role="37wK5l" node="5w9TncdMFZ6" resolve="fixture" />
+                  <ref role="1Pybhc" node="5w9TncdMFVN" resolve="LayoutAssertions" />
+                  <node concept="1jxXqW" id="5w9TncggBTU" role="37wK5m" />
+                  <node concept="Xl_RD" id="5w9TncggBTV" role="37wK5m">
+                    <property role="Xl_RC" value="alignedIndent" />
                   </node>
+                </node>
+                <node concept="Xl_RD" id="5w9TncgQxhu" role="37wK5m">
+                  <property role="Xl_RC" value="alignedIndent.txt" />
+                </node>
+                <node concept="Xl_RD" id="5w9TncggBTZ" role="37wK5m">
+                  <property role="Xl_RC" value="UTF-8" />
+                </node>
+                <node concept="Xl_RD" id="5w9TncggBU0" role="37wK5m">
+                  <property role="Xl_RC" value="      a\n    bbb\n" />
                 </node>
               </node>
             </node>
@@ -857,13 +818,8 @@
                 <property role="Xl_RC" value="horizontalGroup" />
               </node>
             </node>
-            <node concept="3cpWs3" id="5w9Tncgcb6z" role="37wK5m">
-              <node concept="Xl_RD" id="5w9Tncgcb6$" role="3uHU7B">
-                <property role="Xl_RC" value="horizontalGroup" />
-              </node>
-              <node concept="Xl_RD" id="5w9Tncgcb6_" role="3uHU7w">
-                <property role="Xl_RC" value=".txt" />
-              </node>
+            <node concept="Xl_RD" id="5w9TncgQxhv" role="37wK5m">
+              <property role="Xl_RC" value="horizontalGroup.txt" />
             </node>
             <node concept="Xl_RD" id="5w9Tncgcb6A" role="37wK5m">
               <property role="Xl_RC" value="UTF-8" />
@@ -892,13 +848,8 @@
                 <property role="Xl_RC" value="tabs" />
               </node>
             </node>
-            <node concept="3cpWs3" id="5w9Tncgcb6O" role="37wK5m">
-              <node concept="Xl_RD" id="5w9Tncgcb6P" role="3uHU7B">
-                <property role="Xl_RC" value="tabs" />
-              </node>
-              <node concept="Xl_RD" id="5w9Tncgcb6Q" role="3uHU7w">
-                <property role="Xl_RC" value=".txt" />
-              </node>
+            <node concept="Xl_RD" id="5w9TncgQxhw" role="37wK5m">
+              <property role="Xl_RC" value="tabs.txt" />
             </node>
             <node concept="Xl_RD" id="5w9Tncgcb6R" role="37wK5m">
               <property role="Xl_RC" value="UTF-8" />
@@ -927,13 +878,8 @@
                 <property role="Xl_RC" value="blankLines" />
               </node>
             </node>
-            <node concept="3cpWs3" id="5w9Tncgcb75" role="37wK5m">
-              <node concept="Xl_RD" id="5w9Tncgcb76" role="3uHU7B">
-                <property role="Xl_RC" value="blankLines" />
-              </node>
-              <node concept="Xl_RD" id="5w9Tncgcb77" role="3uHU7w">
-                <property role="Xl_RC" value=".txt" />
-              </node>
+            <node concept="Xl_RD" id="5w9TncgQxhx" role="37wK5m">
+              <property role="Xl_RC" value="blankLines.txt" />
             </node>
             <node concept="Xl_RD" id="5w9Tncgcb78" role="37wK5m">
               <property role="Xl_RC" value="UTF-8" />
@@ -962,13 +908,8 @@
                 <property role="Xl_RC" value="explicitSpaces" />
               </node>
             </node>
-            <node concept="3cpWs3" id="5w9Tncgcb7m" role="37wK5m">
-              <node concept="Xl_RD" id="5w9Tncgcb7n" role="3uHU7B">
-                <property role="Xl_RC" value="explicitSpaces" />
-              </node>
-              <node concept="Xl_RD" id="5w9Tncgcb7o" role="3uHU7w">
-                <property role="Xl_RC" value=".txt" />
-              </node>
+            <node concept="Xl_RD" id="5w9TncgQxhy" role="37wK5m">
+              <property role="Xl_RC" value="explicitSpaces.txt" />
             </node>
             <node concept="Xl_RD" id="5w9Tncgcb7p" role="37wK5m">
               <property role="Xl_RC" value="UTF-8" />
@@ -997,13 +938,8 @@
                 <property role="Xl_RC" value="empty" />
               </node>
             </node>
-            <node concept="3cpWs3" id="5w9Tncgcb7B" role="37wK5m">
-              <node concept="Xl_RD" id="5w9Tncgcb7C" role="3uHU7B">
-                <property role="Xl_RC" value="empty" />
-              </node>
-              <node concept="Xl_RD" id="5w9Tncgcb7D" role="3uHU7w">
-                <property role="Xl_RC" value=".txt" />
-              </node>
+            <node concept="Xl_RD" id="5w9TncgQxhz" role="37wK5m">
+              <property role="Xl_RC" value="empty.txt" />
             </node>
             <node concept="Xl_RD" id="5w9Tncgcb7E" role="37wK5m">
               <property role="Xl_RC" value="UTF-8" />
@@ -1030,13 +966,8 @@
                 <property role="Xl_RC" value="unicodeUTF8" />
               </node>
             </node>
-            <node concept="3cpWs3" id="5w9Tncgcb7S" role="37wK5m">
-              <node concept="Xl_RD" id="5w9Tncgcb7T" role="3uHU7B">
-                <property role="Xl_RC" value="unicodeUTF8" />
-              </node>
-              <node concept="Xl_RD" id="5w9Tncgcb7U" role="3uHU7w">
-                <property role="Xl_RC" value=".txt" />
-              </node>
+            <node concept="Xl_RD" id="5w9TncgQxh$" role="37wK5m">
+              <property role="Xl_RC" value="unicodeUTF8.txt" />
             </node>
             <node concept="Xl_RD" id="5w9Tncgcb7V" role="37wK5m">
               <property role="Xl_RC" value="UTF-8" />

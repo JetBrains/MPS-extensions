@@ -7,6 +7,21 @@ import jetbrains.mps.text.TextUnit;
 import jetbrains.mps.project.Project;
 import org.jetbrains.mps.openapi.model.SModel;
 import org.junit.Assert;
+import org.jetbrains.mps.openapi.language.SEnumerationLiteral;
+import java.util.function.BiConsumer;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
+import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.smodel.SNodePointer;
+import jetbrains.mps.smodel.tempmodel.TemporaryModels;
+import jetbrains.mps.smodel.tempmodel.TempModuleOptions;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.smodel.CopyUtil;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SProperty;
 
 public class MacroOverrideAssertions extends TextComparison {
   public TextUnit output(Project project, SModel model) {
@@ -19,5 +34,46 @@ public class MacroOverrideAssertions extends TextComparison {
     }
     Assert.assertNotNull("Generator fixture must produce map_TestConcept.txt", selected);
     return selected;
+  }
+  public static void withFixture(Project project, SEnumerationLiteral modelOverride, SEnumerationLiteral setting, BiConsumer<SModel, SModel> body) {
+    SModel source = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:04bd15c4-5fd7-4d8c-85b9-5a0d55939647(com.jetbrains.mpsext.plaintextgen.tests.generatorInput)"), project.getRepository());
+    SNode snapshot = SPointerOperations.resolveNode(new SNodePointer("r:1c8a8e18-cf48-4654-9722-778fd1d42c23(com.jetbrains.mpsext.plaintextgen.tests.generation@tests)", "6343853832444031687"), project.getRepository());
+    Assert.assertNotNull("The generator-input fixture model must resolve before copying", source);
+    Assert.assertNotNull("The mapped-output snapshot must resolve before copying", snapshot);
+    SModel input = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.nonReloadableModule(project.getRepository()));
+    try {
+      SModel expectedModel = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.nonReloadableModule(project.getRepository()));
+      try {
+        for (SNode root : SModelOperations.roots(source, null)) {
+          SNode copy = CopyUtil.copy(root);
+          SModelOperations.addRootNode(input, copy);
+          SPropertyOperations.assignEnum(SNodeOperations.cast(copy, CONCEPTS.TestConcept$d0), PROPS.modelLineEnding$ot1g, modelOverride);
+          SPropertyOperations.assignEnum(SNodeOperations.cast(copy, CONCEPTS.TestConcept$d0), PROPS.settingsLineEnding$oF$e, setting);
+        }
+        SNode expectedRoot = CopyUtil.copy(snapshot);
+        SModelOperations.addRootNode(expectedModel, expectedRoot);
+        SPropertyOperations.assignEnum(SNodeOperations.cast(expectedRoot, CONCEPTS.TextgenText$PS), PROPS.modelLineEnding$396w, modelOverride);
+        SPropertyOperations.assignEnum(SNodeOperations.cast(expectedRoot, CONCEPTS.TextgenText$PS), PROPS.settingsLineEnding$39Nz, setting);
+        TemporaryModels.getInstance().addMissingImports(input);
+        TemporaryModels.getInstance().addMissingImports(expectedModel);
+        body.accept(input, expectedModel);
+      } finally {
+        TemporaryModels.getInstance().dispose(expectedModel);
+      }
+    } finally {
+      TemporaryModels.getInstance().dispose(input);
+    }
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept TestConcept$d0 = MetaAdapterFactory.getConcept(0x90aa1f1bf65c4e9aL, 0x99b44030e09d0bb2L, 0x32cf04144dcc2610L, "com.dslfoundry.plaintextgen.example.testlang.structure.TestConcept");
+    /*package*/ static final SConcept TextgenText$PS = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, "com.dslfoundry.plaintextgen.structure.TextgenText");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty modelLineEnding$ot1g = MetaAdapterFactory.getProperty(0x90aa1f1bf65c4e9aL, 0x99b44030e09d0bb2L, 0x32cf04144dcc2610L, 0x5809e5730ebb4c8fL, "modelLineEnding");
+    /*package*/ static final SProperty settingsLineEnding$oF$e = MetaAdapterFactory.getProperty(0x90aa1f1bf65c4e9aL, 0x99b44030e09d0bb2L, 0x32cf04144dcc2610L, 0x5809e5730ebb4ca3L, "settingsLineEnding");
+    /*package*/ static final SProperty modelLineEnding$396w = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0x5809e5730dbe30e6L, "modelLineEnding");
+    /*package*/ static final SProperty settingsLineEnding$39Nz = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0x5809e5730dbe30e9L, "settingsLineEnding");
   }
 }

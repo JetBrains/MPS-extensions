@@ -10,21 +10,15 @@ import jetbrains.mps.lang.test.runtime.TestParametersCacheBuilder;
 import org.junit.jupiter.api.Test;
 import jetbrains.mps.lang.test.runtime.BaseTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
-import org.jetbrains.mps.openapi.model.SModel;
-import jetbrains.mps.smodel.tempmodel.TemporaryModels;
-import jetbrains.mps.smodel.tempmodel.TempModuleOptions;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.smodel.CopyUtil;
-import com.jetbrains.mpsext.plaintextgen.tests.layouts.LayoutAssertions;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import com.dslfoundry.plaintextgen.plugin.PlaintextPaster;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.junit.Assert;
 import com.jetbrains.mpsext.plaintextgen.tests.layouts.PlainTextGenAssertions;
-import org.jetbrains.mps.openapi.language.SConcept;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 
 @MPSLaunch
 public class Pasting_Test extends BaseTransformationTest {
@@ -85,192 +79,102 @@ public class Pasting_Test extends BaseTransformationTest {
 
     public void test_nestedIndentation() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> {
-        {
-          SModel source = PasteAssertions.fixtureModel(myProject);
-          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
-          try {
-            SNode root = CopyUtil.copy(LayoutAssertions.fixture(myProject, "left"));
-            SModelOperations.addRootNode(model, root);
-            SNode content = SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF);
-            PlaintextPaster.pastePlainText((SNode) content, "alpha\n  beta\n    gamma\n  delta\nomega");
-            Assert.assertFalse("nestedIndentation: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF));
-            Assert.assertEquals("nestedIndentation: Indentation must be represented structurally", Integer.valueOf(2), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF))));
-            PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "alpha\n  beta\n    gamma\n  delta\nomega\n");
-          } finally {
-            TemporaryModels.getInstance().dispose(model);
-          }
-        }
-      });
+      runWithinCommand(() -> PasteAssertions.withFixture(myProject, (root) -> {
+        SNode content = SLinkOperations.getTarget(root, LINKS.content$rMPF);
+        PlaintextPaster.pastePlainText(SNodeOperations.cast(content, CONCEPTS.IText$2X), "alpha\n  beta\n    gamma\n  delta\nomega");
+        Assert.assertFalse("nestedIndentation: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(root, LINKS.content$rMPF));
+        Assert.assertEquals("nestedIndentation: Indentation must be represented structurally", Integer.valueOf(2), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(root, LINKS.content$rMPF))));
+        PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "alpha\n  beta\n    gamma\n  delta\nomega\n");
+      }));
     }
     public void test_intermediateDedent() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> {
-        {
-          SModel source = PasteAssertions.fixtureModel(myProject);
-          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
-          try {
-            SNode root = CopyUtil.copy(LayoutAssertions.fixture(myProject, "left"));
-            SModelOperations.addRootNode(model, root);
-            SNode content = SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF);
-            PlaintextPaster.pastePlainText((SNode) content, "alpha\n    beta\n  gamma\nomega");
-            Assert.assertFalse("intermediateDedent: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF));
-            Assert.assertEquals("intermediateDedent: Indentation must be represented structurally", Integer.valueOf(2), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF))));
-            PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "alpha\n    beta\n  gamma\nomega\n");
-          } finally {
-            TemporaryModels.getInstance().dispose(model);
-          }
-        }
-      });
+      runWithinCommand(() -> PasteAssertions.withFixture(myProject, (root) -> {
+        SNode content = SLinkOperations.getTarget(root, LINKS.content$rMPF);
+        PlaintextPaster.pastePlainText(SNodeOperations.cast(content, CONCEPTS.IText$2X), "alpha\n    beta\n  gamma\nomega");
+        Assert.assertFalse("intermediateDedent: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(root, LINKS.content$rMPF));
+        Assert.assertEquals("intermediateDedent: Indentation must be represented structurally", Integer.valueOf(2), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(root, LINKS.content$rMPF))));
+        PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "alpha\n    beta\n  gamma\nomega\n");
+      }));
     }
     public void test_initialIndentation() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> {
-        {
-          SModel source = PasteAssertions.fixtureModel(myProject);
-          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
-          try {
-            SNode root = CopyUtil.copy(LayoutAssertions.fixture(myProject, "left"));
-            SModelOperations.addRootNode(model, root);
-            SNode content = SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF);
-            PlaintextPaster.pastePlainText((SNode) content, "  alpha\n    beta\n  gamma");
-            Assert.assertFalse("initialIndentation: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF));
-            Assert.assertEquals("initialIndentation: Indentation must be represented structurally", Integer.valueOf(2), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF))));
-            PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "  alpha\n    beta\n  gamma\n");
-          } finally {
-            TemporaryModels.getInstance().dispose(model);
-          }
-        }
-      });
+      runWithinCommand(() -> PasteAssertions.withFixture(myProject, (root) -> {
+        SNode content = SLinkOperations.getTarget(root, LINKS.content$rMPF);
+        PlaintextPaster.pastePlainText(SNodeOperations.cast(content, CONCEPTS.IText$2X), "  alpha\n    beta\n  gamma");
+        Assert.assertFalse("initialIndentation: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(root, LINKS.content$rMPF));
+        Assert.assertEquals("initialIndentation: Indentation must be represented structurally", Integer.valueOf(2), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(root, LINKS.content$rMPF))));
+        PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "  alpha\n    beta\n  gamma\n");
+      }));
     }
     public void test_blankLineWithinIndentation() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> {
-        {
-          SModel source = PasteAssertions.fixtureModel(myProject);
-          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
-          try {
-            SNode root = CopyUtil.copy(LayoutAssertions.fixture(myProject, "left"));
-            SModelOperations.addRootNode(model, root);
-            SNode content = SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF);
-            PlaintextPaster.pastePlainText((SNode) content, "alpha\n  beta\n\n  gamma\nomega");
-            Assert.assertFalse("blankLineWithinIndentation: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF));
-            Assert.assertEquals("blankLineWithinIndentation: Indentation must be represented structurally", Integer.valueOf(1), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF))));
-            PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "alpha\n  beta\n\n  gamma\nomega\n");
-          } finally {
-            TemporaryModels.getInstance().dispose(model);
-          }
-        }
-      });
+      runWithinCommand(() -> PasteAssertions.withFixture(myProject, (root) -> {
+        SNode content = SLinkOperations.getTarget(root, LINKS.content$rMPF);
+        PlaintextPaster.pastePlainText(SNodeOperations.cast(content, CONCEPTS.IText$2X), "alpha\n  beta\n\n  gamma\nomega");
+        Assert.assertFalse("blankLineWithinIndentation: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(root, LINKS.content$rMPF));
+        Assert.assertEquals("blankLineWithinIndentation: Indentation must be represented structurally", Integer.valueOf(1), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(root, LINKS.content$rMPF))));
+        PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "alpha\n  beta\n\n  gamma\nomega\n");
+      }));
     }
     public void test_windowsLineEndings() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> {
-        {
-          SModel source = PasteAssertions.fixtureModel(myProject);
-          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
-          try {
-            SNode root = CopyUtil.copy(LayoutAssertions.fixture(myProject, "left"));
-            SModelOperations.addRootNode(model, root);
-            SNode content = SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF);
-            PlaintextPaster.pastePlainText((SNode) content, "alpha\r\n  beta\r\nomega\r\n");
-            Assert.assertFalse("windowsLineEndings: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF));
-            Assert.assertEquals("windowsLineEndings: Indentation must be represented structurally", Integer.valueOf(1), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF))));
-            PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "alpha\n  beta\nomega\n");
-          } finally {
-            TemporaryModels.getInstance().dispose(model);
-          }
-        }
-      });
+      runWithinCommand(() -> PasteAssertions.withFixture(myProject, (root) -> {
+        SNode content = SLinkOperations.getTarget(root, LINKS.content$rMPF);
+        PlaintextPaster.pastePlainText(SNodeOperations.cast(content, CONCEPTS.IText$2X), "alpha\r\n  beta\r\nomega\r\n");
+        Assert.assertFalse("windowsLineEndings: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(root, LINKS.content$rMPF));
+        Assert.assertEquals("windowsLineEndings: Indentation must be represented structurally", Integer.valueOf(1), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(root, LINKS.content$rMPF))));
+        PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "alpha\n  beta\nomega\n");
+      }));
     }
     public void test_tabsExpandedToFourSpaces() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> {
-        {
-          SModel source = PasteAssertions.fixtureModel(myProject);
-          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
-          try {
-            SNode root = CopyUtil.copy(LayoutAssertions.fixture(myProject, "left"));
-            SModelOperations.addRootNode(model, root);
-            SNode content = SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF);
-            PlaintextPaster.pastePlainText((SNode) content, "alpha\n\tbeta\n\t\tgamma\nomega");
-            Assert.assertFalse("tabsExpandedToFourSpaces: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF));
-            Assert.assertEquals("tabsExpandedToFourSpaces: Indentation must be represented structurally", Integer.valueOf(2), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF))));
-            PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "alpha\n    beta\n        gamma\nomega\n");
-          } finally {
-            TemporaryModels.getInstance().dispose(model);
-          }
-        }
-      });
+      runWithinCommand(() -> PasteAssertions.withFixture(myProject, (root) -> {
+        SNode content = SLinkOperations.getTarget(root, LINKS.content$rMPF);
+        PlaintextPaster.pastePlainText(SNodeOperations.cast(content, CONCEPTS.IText$2X), "alpha\n\tbeta\n\t\tgamma\nomega");
+        Assert.assertFalse("tabsExpandedToFourSpaces: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(root, LINKS.content$rMPF));
+        Assert.assertEquals("tabsExpandedToFourSpaces: Indentation must be represented structurally", Integer.valueOf(2), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(root, LINKS.content$rMPF))));
+        PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "alpha\n    beta\n        gamma\nomega\n");
+      }));
     }
     public void test_tabsPreserved() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> {
-        {
-          SModel source = PasteAssertions.fixtureModel(myProject);
-          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
-          try {
-            SNode root = CopyUtil.copy(LayoutAssertions.fixture(myProject, "left"));
-            SModelOperations.addRootNode(model, root);
-            SNode content = SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF);
-            PlaintextPaster.pastePlainTextWithTabs((SNode) content, "\talpha\t\tbeta\t\n\t\t");
-            Assert.assertFalse("tabsPreserved: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF));
-            Assert.assertEquals("tabsPreserved: Indentation must be represented structurally", Integer.valueOf(0), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF))));
-            PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "\talpha\t\tbeta\t\n");
-          } finally {
-            TemporaryModels.getInstance().dispose(model);
-          }
-        }
-      });
+      runWithinCommand(() -> PasteAssertions.withFixture(myProject, (root) -> {
+        SNode content = SLinkOperations.getTarget(root, LINKS.content$rMPF);
+        PlaintextPaster.pastePlainTextWithTabs(SNodeOperations.cast(content, CONCEPTS.IText$2X), "\talpha\t\tbeta\t\n\t\t");
+        Assert.assertFalse("tabsPreserved: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(root, LINKS.content$rMPF));
+        Assert.assertEquals("tabsPreserved: Indentation must be represented structurally", Integer.valueOf(0), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(root, LINKS.content$rMPF))));
+        PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "\talpha\t\tbeta\t\n");
+      }));
     }
     public void test_emptyInputDoesNotReplace() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> {
-        {
-          SModel source = PasteAssertions.fixtureModel(myProject);
-          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
-          try {
-            SNode root = CopyUtil.copy(LayoutAssertions.fixture(myProject, "left"));
-            SModelOperations.addRootNode(model, root);
-            SNode content = SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF);
-            PlaintextPaster.pastePlainText((SNode) content, "");
-            Assert.assertSame("emptyInputDoesNotReplace: Both paste variants must retain the original left.content container", content, SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF));
-            PlaintextPaster.pastePlainTextWithTabs((SNode) content, "");
-            Assert.assertSame("emptyInputDoesNotReplace: Both paste variants must retain the original left.content container", content, SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF));
-          } finally {
-            TemporaryModels.getInstance().dispose(model);
-          }
-        }
-      });
+      runWithinCommand(() -> PasteAssertions.withFixture(myProject, (root) -> {
+        SNode content = SLinkOperations.getTarget(root, LINKS.content$rMPF);
+        PlaintextPaster.pastePlainText(SNodeOperations.cast(content, CONCEPTS.IText$2X), "");
+        Assert.assertSame("emptyInputDoesNotReplace: Both paste variants must retain the original left.content container", content, SLinkOperations.getTarget(root, LINKS.content$rMPF));
+        PlaintextPaster.pastePlainTextWithTabs(SNodeOperations.cast(content, CONCEPTS.IText$2X), "");
+        Assert.assertSame("emptyInputDoesNotReplace: Both paste variants must retain the original left.content container", content, SLinkOperations.getTarget(root, LINKS.content$rMPF));
+      }));
     }
     public void test_nullInputDoesNotReplace() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> {
-        {
-          SModel source = PasteAssertions.fixtureModel(myProject);
-          SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.forExistingModule(((SModel) source).getModule()));
-          try {
-            SNode root = CopyUtil.copy(LayoutAssertions.fixture(myProject, "left"));
-            SModelOperations.addRootNode(model, root);
-            SNode content = SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF);
-            PlaintextPaster.pastePlainText((SNode) content, null);
-            Assert.assertSame("nullInputDoesNotReplace: Both paste variants must retain the original left.content container", content, SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF));
-            PlaintextPaster.pastePlainTextWithTabs((SNode) content, null);
-            Assert.assertSame("nullInputDoesNotReplace: Both paste variants must retain the original left.content container", content, SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF));
-          } finally {
-            TemporaryModels.getInstance().dispose(model);
-          }
-        }
-      });
+      runWithinCommand(() -> PasteAssertions.withFixture(myProject, (root) -> {
+        SNode content = SLinkOperations.getTarget(root, LINKS.content$rMPF);
+        PlaintextPaster.pastePlainText(SNodeOperations.cast(content, CONCEPTS.IText$2X), null);
+        Assert.assertSame("nullInputDoesNotReplace: Both paste variants must retain the original left.content container", content, SLinkOperations.getTarget(root, LINKS.content$rMPF));
+        PlaintextPaster.pastePlainTextWithTabs(SNodeOperations.cast(content, CONCEPTS.IText$2X), null);
+        Assert.assertSame("nullInputDoesNotReplace: Both paste variants must retain the original left.content container", content, SLinkOperations.getTarget(root, LINKS.content$rMPF));
+      }));
     }
 
-  }
-
-  private static final class CONCEPTS {
-    /*package*/ static final SConcept TextgenText$PS = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, "com.dslfoundry.plaintextgen.structure.TextgenText");
   }
 
   private static final class LINKS {
     /*package*/ static final SContainmentLink content$rMPF = MetaAdapterFactory.getContainmentLink(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0xfe48d5fcaff82faL, "content");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SInterfaceConcept IText$2X = MetaAdapterFactory.getInterfaceConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47eaL, "com.dslfoundry.plaintextgen.structure.IText");
   }
 }

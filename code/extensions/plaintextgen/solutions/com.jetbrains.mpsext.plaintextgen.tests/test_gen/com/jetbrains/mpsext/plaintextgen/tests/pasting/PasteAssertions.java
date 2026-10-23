@@ -9,6 +9,12 @@ import jetbrains.mps.project.Project;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import org.junit.Assert;
+import java.util.function.Consumer;
+import jetbrains.mps.smodel.tempmodel.TemporaryModels;
+import jetbrains.mps.smodel.tempmodel.TempModuleOptions;
+import jetbrains.mps.smodel.CopyUtil;
+import com.jetbrains.mpsext.plaintextgen.tests.layouts.LayoutAssertions;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
@@ -22,11 +28,22 @@ public class PasteAssertions {
   }
   public static SModel fixtureModel(Project project) {
     SModel model = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:2f17ab6e-1fbc-460b-969f-c9fd8950e44d(com.jetbrains.mpsext.plaintextgen.tests.layouts)"), project.getRepository());
-    Assert.assertNotNull("PasteAssertions: assertNotNull must hold for the supplied fixture", model);
+    Assert.assertNotNull("The named layouts fixture model must resolve in the project repository", model);
     return model;
+  }
+  public static void withFixture(Project project, Consumer<SNode> body) {
+    SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.nonReloadableModule(project.getRepository()));
+    try {
+      SNode root = SNodeOperations.cast(CopyUtil.copy(LayoutAssertions.fixture(project, "left")), CONCEPTS.TextgenText$PS);
+      SModelOperations.addRootNode(model, root);
+      body.accept(root);
+    } finally {
+      TemporaryModels.getInstance().dispose(model);
+    }
   }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept SpaceIndentedText$2u = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e9L, "com.dslfoundry.plaintextgen.structure.SpaceIndentedText");
+    /*package*/ static final SConcept TextgenText$PS = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, "com.dslfoundry.plaintextgen.structure.TextgenText");
   }
 }

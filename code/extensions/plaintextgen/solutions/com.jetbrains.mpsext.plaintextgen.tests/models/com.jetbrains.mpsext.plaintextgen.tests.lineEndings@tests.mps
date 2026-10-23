@@ -186,7 +186,6 @@
       <concept id="7400021826774799413" name="jetbrains.mps.lang.smodel.structure.NodePointerExpression" flags="ng" index="2tJFMh">
         <child id="7400021826774799510" name="ref" index="2tJFKM" />
       </concept>
-      <concept id="4065387505485742666" name="jetbrains.mps.lang.smodel.structure.ModelPointer_ResolveOperation" flags="ng" index="2yCiCJ" />
       <concept id="4065387505485742749" name="jetbrains.mps.lang.smodel.structure.AbstractPointerResolveOperation" flags="ng" index="2yCiFS">
         <child id="3648723375513868575" name="repositoryArg" index="Vysub" />
       </concept>
@@ -211,9 +210,6 @@
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
-      </concept>
-      <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
-        <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
       </concept>
       <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
         <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
@@ -557,27 +553,37 @@
             <property role="OYnhT" value="local variable" />
             <property role="TrG5h" value="source" />
             <property role="2Lvdk3" value="source" />
-            <node concept="2OqwBi" id="5w9TncgejTe" role="33vP2m">
-              <node concept="1Xw6AR" id="5w9TncgejTf" role="2Oq$k0">
-                <node concept="1dCxOl" id="5w9TncgejTg" role="1XwpL7">
-                  <property role="1XweGQ" value="r:c8c2f97c-abe2-45ba-bf47-780c2953f546" />
-                  <node concept="1j_P7g" id="5w9TncgejTh" role="1j$8Uc">
-                    <property role="1j_P7h" value="com.jetbrains.mpsext.plaintextgen.tests.fixtures" />
+            <node concept="1PxgMI" id="5w9TnchaYmd" role="33vP2m">
+              <node concept="2OqwBi" id="5w9TnchaYme" role="1m5AlR">
+                <node concept="2tJFMh" id="5w9TnchaYmf" role="2Oq$k0">
+                  <node concept="1dCxOE" id="5w9TnchaYmg" role="2tJFKM">
+                    <property role="2OI7jA" value="6343853832443338663" />
+                    <node concept="1dCxOl" id="5w9TnchaYmh" role="2OI7jE">
+                      <property role="1XweGQ" value="r:c8c2f97c-abe2-45ba-bf47-780c2953f546" />
+                      <node concept="1j_P7g" id="5w9TnchaYmi" role="1j$8Uc">
+                        <property role="1j_P7h" value="com.jetbrains.mpsext.plaintextgen.tests.fixtures" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Vyspw" id="5w9TnchaYmj" role="2OqNvi">
+                  <node concept="2OqwBi" id="5w9TnchaYmk" role="Vysub">
+                    <node concept="37vLTw" id="5w9TnchaYml" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5w9TncgPm1I" resolve="project" />
+                    </node>
+                    <node concept="liA8E" id="5w9TnchaYmm" role="2OqNvi">
+                      <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+                    </node>
                   </node>
                 </node>
               </node>
-              <node concept="2yCiCJ" id="5w9TncgejTi" role="2OqNvi">
-                <node concept="2OqwBi" id="5w9TncgejTj" role="Vysub">
-                  <node concept="37vLTw" id="5w9TncgPoNT" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5w9TncgPm1I" resolve="project" />
-                  </node>
-                  <node concept="liA8E" id="5w9TncgejTl" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
-                  </node>
-                </node>
+              <node concept="chp4Y" id="5w9TnchaYmn" role="3oSUPX">
+                <ref role="cht4Q" to="myiq:Z$zlZaZkv$" resolve="TextgenText" />
               </node>
             </node>
-            <node concept="H_c77" id="5w9TncgejTm" role="1tU5fm" />
+            <node concept="3Tqbb2" id="5w9TnchaYmA" role="1tU5fm">
+              <ref role="ehGHo" to="myiq:Z$zlZaZkv$" resolve="TextgenText" />
+            </node>
           </node>
         </node>
         <node concept="2Hmddi" id="5w9TncgejTn" role="3cqZAp">
@@ -586,7 +592,7 @@
           </node>
           <node concept="3_1$Yv" id="5w9TncgejTp" role="3_9lra">
             <node concept="Xl_RD" id="5w9TncgejTq" role="3_1BAH">
-              <property role="Xl_RC" value="Missing PlainTextGen test fixture" />
+              <property role="Xl_RC" value="The lineEndings template node must resolve before copying" />
             </node>
           </node>
         </node>
@@ -631,28 +637,8 @@
                   <node concept="2YIFZM" id="5w9TncgeC1t" role="1m5AlR">
                     <ref role="1Pybhc" to="w1kc:~CopyUtil" resolve="CopyUtil" />
                     <ref role="37wK5l" to="w1kc:~CopyUtil.copy(org.jetbrains.mps.openapi.model.SNode)" resolve="copy" />
-                    <node concept="2OqwBi" id="5w9TncgeC1u" role="37wK5m">
-                      <node concept="2tJFMh" id="5w9TncgeC1v" role="2Oq$k0">
-                        <node concept="1dCxOE" id="5w9TncgeC1w" role="2tJFKM">
-                          <property role="2OI7jA" value="6343853832443338663" />
-                          <node concept="1dCxOl" id="5w9TncgeC1x" role="2OI7jE">
-                            <property role="1XweGQ" value="r:c8c2f97c-abe2-45ba-bf47-780c2953f546" />
-                            <node concept="1j_P7g" id="5w9TncgeC1y" role="1j$8Uc">
-                              <property role="1j_P7h" value="com.jetbrains.mpsext.plaintextgen.tests.fixtures" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="Vyspw" id="5w9TncgeC1z" role="2OqNvi">
-                        <node concept="2OqwBi" id="5w9TncgeC1$" role="Vysub">
-                          <node concept="37vLTw" id="5w9TncgPoNU" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5w9TncgPm1I" resolve="project" />
-                          </node>
-                          <node concept="liA8E" id="5w9TncgeC1A" role="2OqNvi">
-                            <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
-                          </node>
-                        </node>
-                      </node>
+                    <node concept="37vLTw" id="5w9TnchaYmB" role="37wK5m">
+                      <ref role="3cqZAo" node="5w9TncgejTd" resolve="source" />
                     </node>
                   </node>
                   <node concept="chp4Y" id="5w9TncgeC1B" role="3oSUPX">

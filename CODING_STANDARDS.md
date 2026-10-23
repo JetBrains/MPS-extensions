@@ -94,6 +94,10 @@ Tests use the MPS test languages: `jetbrains.mps.lang.test` for anything with no
 7. SHOULD: changed code uses no deprecated API or concept when the deprecation names a replacement.
 8. SHOULD: code that runs in a command or write action (an intention's `execute`, an action that changes the model)
    opens no modal dialog. Ask the user first, then change the model in a command.
+9. MUST: code that needs a certain thread, such as the EDT, does not switch to it by itself (no `invokeAndWait` hidden
+   inside a method or an expression). Its documentation names the thread, and the caller moves to that thread. A
+   hidden thread switch surprises the caller and can deadlock when the caller holds a lock that the other thread waits
+   for.
 
 ## 4. Changelog and documentation
 

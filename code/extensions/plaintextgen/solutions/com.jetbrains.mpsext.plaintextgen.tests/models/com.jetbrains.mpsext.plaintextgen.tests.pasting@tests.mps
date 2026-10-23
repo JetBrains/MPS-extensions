@@ -131,19 +131,7 @@
       </concept>
       <concept id="8992394414545679616" name="jetbrains.mps.baseLanguage.closures.structure.ClosureVarType" flags="ig" index="3VYd8j" />
     </language>
-    <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
-      <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
-        <property id="1863527487546097494" name="modelId" index="1XweGQ" />
-        <child id="679099339649067980" name="name" index="1j$8Uc" />
-      </concept>
-      <concept id="679099339649053840" name="jetbrains.mps.lang.modelapi.structure.ModelName" flags="ng" index="1j_P7g">
-        <property id="679099339649053841" name="value" index="1j_P7h" />
-      </concept>
-    </language>
     <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest">
-      <concept id="7080278351417106679" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertIsNotNull" flags="nn" index="2Hmddi">
-        <child id="7080278351417106681" name="expression" index="2Hmdds" />
-      </concept>
       <concept id="8427750732757990717" name="jetbrains.mps.baseLanguage.unitTest.structure.BinaryAssert" flags="nn" index="3tpDYu">
         <child id="8427750732757990725" name="actual" index="3tpDZA" />
         <child id="8427750732757990724" name="expected" index="3tpDZB" />
@@ -164,10 +152,6 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
-      <concept id="4065387505485742666" name="jetbrains.mps.lang.smodel.structure.ModelPointer_ResolveOperation" flags="ng" index="2yCiCJ" />
-      <concept id="4065387505485742749" name="jetbrains.mps.lang.smodel.structure.AbstractPointerResolveOperation" flags="ng" index="2yCiFS">
-        <child id="3648723375513868575" name="repositoryArg" index="Vysub" />
-      </concept>
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -186,9 +170,6 @@
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
-      </concept>
-      <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
-        <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -272,60 +253,6 @@
       </node>
       <node concept="3Tm1VV" id="5w9Tncge_9Y" role="1B3o_S" />
       <node concept="10Oyi0" id="5w9TncdPvp6" role="3clF45" />
-    </node>
-    <node concept="2YIFZL" id="5w9TncdPvpA" role="jymVt">
-      <property role="TrG5h" value="fixtureModel" />
-      <node concept="37vLTG" id="5w9TncdPvpB" role="3clF46">
-        <property role="TrG5h" value="project" />
-        <node concept="3uibUv" id="5w9TncdPvpC" role="1tU5fm">
-          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="5w9TncdPvpD" role="3clF47">
-        <node concept="3cpWs8" id="5w9TncdPvpF" role="3cqZAp">
-          <node concept="3cpWsn" id="5w9TncdPvpE" role="3cpWs9">
-            <property role="TrG5h" value="model" />
-            <node concept="H_c77" id="5w9TncgcEFA" role="1tU5fm" />
-            <node concept="2OqwBi" id="5w9TncgcF4r" role="33vP2m">
-              <node concept="1Xw6AR" id="5w9TncgcF4s" role="2Oq$k0">
-                <node concept="1dCxOl" id="5w9TncgcF4t" role="1XwpL7">
-                  <property role="1XweGQ" value="r:2f17ab6e-1fbc-460b-969f-c9fd8950e44d" />
-                  <node concept="1j_P7g" id="5w9TncgcF4u" role="1j$8Uc">
-                    <property role="1j_P7h" value="com.jetbrains.mpsext.plaintextgen.tests.layouts" />
-                  </node>
-                </node>
-              </node>
-              <node concept="2yCiCJ" id="5w9TncgcF4v" role="2OqNvi">
-                <node concept="2OqwBi" id="5w9TncgcF4w" role="Vysub">
-                  <node concept="37vLTw" id="5w9TncgcF4x" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5w9TncdPvpB" resolve="project" />
-                  </node>
-                  <node concept="liA8E" id="5w9TncgcF4y" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2Hmddi" id="5w9TncgcFuz" role="3cqZAp">
-          <node concept="3_1$Yv" id="5w9TncgcFu$" role="3_9lra">
-            <node concept="Xl_RD" id="5w9TncgcFu_" role="3_1BAH">
-              <property role="Xl_RC" value="The named layouts fixture model must resolve in the project repository" />
-            </node>
-          </node>
-          <node concept="37vLTw" id="5w9TncgcFuA" role="2Hmdds">
-            <ref role="3cqZAo" node="5w9TncdPvpE" resolve="model" />
-          </node>
-        </node>
-        <node concept="3cpWs6" id="5w9TncdPvpP" role="3cqZAp">
-          <node concept="37vLTw" id="5w9TncdPvpQ" role="3cqZAk">
-            <ref role="3cqZAo" node="5w9TncdPvpE" resolve="model" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="5w9Tncge_9Z" role="1B3o_S" />
-      <node concept="H_c77" id="5w9TncgcEF_" role="3clF45" />
     </node>
     <node concept="2YIFZL" id="5w9TncgPtNY" role="jymVt">
       <property role="TrG5h" value="withFixture" />

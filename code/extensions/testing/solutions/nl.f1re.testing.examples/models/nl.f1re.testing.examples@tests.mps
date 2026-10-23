@@ -91,7 +91,6 @@
     <import index="rvbb" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:jetbrains.mps.ide.projectPane(MPS.Workbench/)" />
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
     <import index="rgfa" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.tree(JDK/)" />
-    <import index="54q7" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.command.undo(MPS.IDEA/)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="j936" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide.ui(MPS.IDEA/)" />
     <import index="fdd1" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide.ui.laf(MPS.IDEA/)" />
@@ -499,9 +498,6 @@
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
-    </language>
-    <language id="953e4089-c643-455b-8629-636de7085d1c" name="nl.f1re.testing">
-      <concept id="2964412296093649523" name="nl.f1re.testing.structure.FileNodeEditorExpression" flags="ng" index="3tlvWP" />
     </language>
     <language id="6b3888c1-9802-44d8-8baf-f8e6c33ed689" name="jetbrains.mps.kotlin">
       <concept id="7358760241248942182" name="jetbrains.mps.kotlin.structure.Comment" flags="ng" index="gXE$l">
@@ -4773,100 +4769,6 @@
       </node>
     </node>
   </node>
-  <node concept="LiM7Y" id="2$zHkrOwgvf">
-    <property role="TrG5h" value="Redo" />
-    <property role="3GE5qa" value="ideaPlatform" />
-    <property role="3YCmrE" value="Execute redo in the editor." />
-    <node concept="1qefOq" id="2$zHkrOwgvg" role="25YQCW">
-      <node concept="312cEu" id="2$zHkrOwgvh" role="1qenE9">
-        <property role="TrG5h" value="Class" />
-        <node concept="3Tm1VV" id="2$zHkrOwgvi" role="1B3o_S" />
-        <node concept="LIFWc" id="2$zHkrOwjuG" role="lGtFl">
-          <property role="ZRATv" value="true" />
-          <property role="OXtK3" value="true" />
-          <property role="p6zMq" value="5" />
-          <property role="p6zMs" value="5" />
-          <property role="LIFWd" value="property_name" />
-        </node>
-      </node>
-    </node>
-    <node concept="1qefOq" id="2$zHkrOwgvl" role="25YQFr">
-      <node concept="312cEu" id="2$zHkrOwgvm" role="1qenE9">
-        <property role="TrG5h" value="ClassHi" />
-        <node concept="3Tm1VV" id="2$zHkrOwgvn" role="1B3o_S" />
-      </node>
-    </node>
-    <node concept="3clFbS" id="2$zHkrOwgvo" role="LjaKd">
-      <node concept="2TK7Tu" id="2$zHkrOwlM8" role="3cqZAp">
-        <property role="2TTd_B" value="Hi" />
-      </node>
-      <node concept="3cpWs8" id="2$zHkrOwgvq" role="3cqZAp">
-        <node concept="3cpWsn" id="2$zHkrOwgvr" role="3cpWs9">
-          <property role="TrG5h" value="ideaProject" />
-          <node concept="3uibUv" id="2$zHkrOwgvs" role="1tU5fm">
-            <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
-          </node>
-          <node concept="2YIFZM" id="2$zHkrOwgvt" role="33vP2m">
-            <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
-            <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-            <node concept="1jxXqW" id="2$zHkrOwgvu" role="37wK5m" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbF" id="2$zHkrOwgvv" role="3cqZAp">
-        <node concept="2OqwBi" id="2$zHkrOwgvw" role="3clFbG">
-          <node concept="2YIFZM" id="2$zHkrOwgvx" role="2Oq$k0">
-            <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
-            <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
-          </node>
-          <node concept="liA8E" id="2$zHkrOwgvy" role="2OqNvi">
-            <ref role="37wK5l" to="bd8o:~Application.invokeAndWait(java.lang.Runnable)" resolve="invokeAndWait" />
-            <node concept="1bVj0M" id="2$zHkrOwgvz" role="37wK5m">
-              <node concept="3clFbS" id="2$zHkrOwgv$" role="1bW5cS">
-                <node concept="3cpWs8" id="2$zHkrOwoWM" role="3cqZAp">
-                  <node concept="3cpWsn" id="2$zHkrOwoWN" role="3cpWs9">
-                    <property role="TrG5h" value="undoManager" />
-                    <node concept="3uibUv" id="2$zHkrOwoUI" role="1tU5fm">
-                      <ref role="3uigEE" to="54q7:~UndoManager" resolve="UndoManager" />
-                    </node>
-                    <node concept="2YIFZM" id="2$zHkrOwoWO" role="33vP2m">
-                      <ref role="37wK5l" to="54q7:~UndoManager.getInstance(com.intellij.openapi.project.Project)" resolve="getInstance" />
-                      <ref role="1Pybhc" to="54q7:~UndoManager" resolve="UndoManager" />
-                      <node concept="37vLTw" id="2$zHkrOwoWP" role="37wK5m">
-                        <ref role="3cqZAo" node="2$zHkrOwgvr" resolve="ideaProject" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbF" id="2$zHkrOwgv_" role="3cqZAp">
-                  <node concept="2OqwBi" id="2$zHkrOwgvA" role="3clFbG">
-                    <node concept="37vLTw" id="2$zHkrOwoWQ" role="2Oq$k0">
-                      <ref role="3cqZAo" node="2$zHkrOwoWN" resolve="undoManager" />
-                    </node>
-                    <node concept="liA8E" id="2$zHkrOwgvD" role="2OqNvi">
-                      <ref role="37wK5l" to="54q7:~UndoManager.undo(com.intellij.openapi.fileEditor.FileEditor)" resolve="undo" />
-                      <node concept="3tlvWP" id="2$zHkrOwgvE" role="37wK5m" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbF" id="2$zHkrOwm0$" role="3cqZAp">
-                  <node concept="2OqwBi" id="2$zHkrOwm0_" role="3clFbG">
-                    <node concept="37vLTw" id="2$zHkrOwoWR" role="2Oq$k0">
-                      <ref role="3cqZAo" node="2$zHkrOwoWN" resolve="undoManager" />
-                    </node>
-                    <node concept="liA8E" id="2$zHkrOwm0C" role="2OqNvi">
-                      <ref role="37wK5l" to="54q7:~UndoManager.redo(com.intellij.openapi.fileEditor.FileEditor)" resolve="redo" />
-                      <node concept="3tlvWP" id="2$zHkrOwm0D" role="37wK5m" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1lH9Xt" id="6cyqnzelau2">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="ThemeSwitching" />
@@ -5008,78 +4910,6 @@
                     <ref role="3cqZAo" node="6cyqnzelTAG" resolve="currentLookAndFeel" />
                   </node>
                   <node concept="3clFbT" id="6cyqnzelYQJ" role="37wK5m" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="LiM7Y" id="4GRmlJ04VXg">
-    <property role="TrG5h" value="Undo" />
-    <property role="3GE5qa" value="ideaPlatform" />
-    <property role="3YCmrE" value="Execude undo in the editor." />
-    <node concept="1qefOq" id="4GRmlJ04VYj" role="25YQCW">
-      <node concept="312cEu" id="4GRmlJ04VYh" role="1qenE9">
-        <property role="TrG5h" value="Class" />
-        <node concept="3Tm1VV" id="4GRmlJ04VYi" role="1B3o_S" />
-        <node concept="LIFWc" id="4GRmlJ04W1X" role="lGtFl">
-          <property role="ZRATv" value="true" />
-          <property role="OXtK3" value="true" />
-          <property role="p6zMq" value="5" />
-          <property role="p6zMs" value="5" />
-          <property role="LIFWd" value="property_name" />
-        </node>
-      </node>
-    </node>
-    <node concept="1qefOq" id="4GRmlJ04VZ6" role="25YQFr">
-      <node concept="312cEu" id="4GRmlJ04VZo" role="1qenE9">
-        <property role="TrG5h" value="Class" />
-        <node concept="3Tm1VV" id="4GRmlJ04VZp" role="1B3o_S" />
-      </node>
-    </node>
-    <node concept="3clFbS" id="4GRmlJ04W0R" role="LjaKd">
-      <node concept="2TK7Tu" id="4GRmlJ04W0Q" role="3cqZAp">
-        <property role="2TTd_B" value="Hi" />
-      </node>
-      <node concept="3cpWs8" id="2$zHkrOr$RS" role="3cqZAp">
-        <node concept="3cpWsn" id="2$zHkrOr$RT" role="3cpWs9">
-          <property role="TrG5h" value="ideaProject" />
-          <node concept="3uibUv" id="2$zHkrOr$gd" role="1tU5fm">
-            <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
-          </node>
-          <node concept="2YIFZM" id="2$zHkrOr$RU" role="33vP2m">
-            <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
-            <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-            <node concept="1jxXqW" id="2$zHkrOr$RV" role="37wK5m" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbF" id="2$zHkrOrzA7" role="3cqZAp">
-        <node concept="2OqwBi" id="2$zHkrOr$fB" role="3clFbG">
-          <node concept="2YIFZM" id="2$zHkrOrzAU" role="2Oq$k0">
-            <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
-            <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
-          </node>
-          <node concept="liA8E" id="2$zHkrOr$OO" role="2OqNvi">
-            <ref role="37wK5l" to="bd8o:~Application.invokeAndWait(java.lang.Runnable)" resolve="invokeAndWait" />
-            <node concept="1bVj0M" id="2$zHkrOr$PV" role="37wK5m">
-              <node concept="3clFbS" id="2$zHkrOr$PY" role="1bW5cS">
-                <node concept="3clFbF" id="4GRmlJ04ZGd" role="3cqZAp">
-                  <node concept="2OqwBi" id="2$zHkrOr_ok" role="3clFbG">
-                    <node concept="2YIFZM" id="4GRmlJ04ZGF" role="2Oq$k0">
-                      <ref role="37wK5l" to="54q7:~UndoManager.getInstance(com.intellij.openapi.project.Project)" resolve="getInstance" />
-                      <ref role="1Pybhc" to="54q7:~UndoManager" resolve="UndoManager" />
-                      <node concept="37vLTw" id="2$zHkrOr$RW" role="37wK5m">
-                        <ref role="3cqZAo" node="2$zHkrOr$RT" resolve="ideaProject" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="2$zHkrOr_yy" role="2OqNvi">
-                      <ref role="37wK5l" to="54q7:~UndoManager.undo(com.intellij.openapi.fileEditor.FileEditor)" resolve="undo" />
-                      <node concept="3tlvWP" id="2$zHkrOuwix" role="37wK5m" />
-                    </node>
-                  </node>
                 </node>
               </node>
             </node>

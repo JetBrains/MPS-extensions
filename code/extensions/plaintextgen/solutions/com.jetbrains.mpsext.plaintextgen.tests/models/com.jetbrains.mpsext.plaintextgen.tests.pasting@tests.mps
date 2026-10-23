@@ -345,15 +345,6 @@
         </node>
       </node>
       <node concept="3clFbS" id="5w9TncgPtO4" role="3clF47">
-        <node concept="3clFbF" id="5w9TncgXs8L" role="3cqZAp">
-          <node concept="2YIFZM" id="5w9TncgXs8M" role="3clFbG">
-            <ref role="37wK5l" node="5w9TncdPvpA" resolve="fixtureModel" />
-            <ref role="1Pybhc" node="5w9TncdPvkp" resolve="PasteAssertions" />
-            <node concept="37vLTw" id="5w9TncgXs8N" role="37wK5m">
-              <ref role="3cqZAo" node="5w9TncgPtNZ" resolve="project" />
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="5w9Tncge7Wh" role="3cqZAp">
           <node concept="3cpWsn" id="5w9Tncge7Wi" role="3cpWs9">
             <property role="OYnhT" value="local variable" />

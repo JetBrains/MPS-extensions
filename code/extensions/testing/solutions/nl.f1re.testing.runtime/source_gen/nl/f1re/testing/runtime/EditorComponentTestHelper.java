@@ -8,8 +8,10 @@ import de.slisson.mps.reflection.runtime.ReflectionUtil;
 import jetbrains.mps.ide.ThreadUtils;
 import jetbrains.mps.openapi.editor.assist.ContextAssistantManager;
 import jetbrains.mps.ide.editor.MPSFileNodeEditor;
+import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
+import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.actionSystem.DataContext;
-import com.intellij.ide.DataManager;
+import com.intellij.ide.impl.DataManagerImpl;
 import java.awt.Component;
 import jetbrains.mps.ide.actions.MPSCommonDataKeys;
 
@@ -49,7 +51,11 @@ public class EditorComponentTestHelper {
   }
 
   public MPSFileNodeEditor getFileEditor() {
-    DataContext dataContext = DataManager.getInstance().getDataContext((Component) editorComponent);
-    return (MPSFileNodeEditor) MPSCommonDataKeys.FILE_EDITOR.getData(dataContext);
+    final Wrappers._T<MPSFileNodeEditor> fileEditor = new Wrappers._T<MPSFileNodeEditor>(null);
+    ApplicationManager.getApplication().invokeAndWait(() -> {
+      DataContext dataContext = new DataManagerImpl().getDataContext((Component) editorComponent);
+      fileEditor.value = (MPSFileNodeEditor) MPSCommonDataKeys.FILE_EDITOR.getData(dataContext);
+    });
+    return fileEditor.value;
   }
 }

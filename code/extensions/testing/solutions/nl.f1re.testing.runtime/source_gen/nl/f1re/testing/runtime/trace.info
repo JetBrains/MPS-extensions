@@ -162,53 +162,59 @@
   </root>
   <root nodeRef="r:e0971d7a-26cb-4f9b-923b-022db20993f1(nl.f1re.testing.runtime)/7743737196471307031">
     <file name="EditorComponentTestHelper.java">
-      <node id="7743737196471307802" at="21,0,22,0" concept="5" trace="editorComponent" />
-      <node id="7743737196471308378" at="23,69,24,43" concept="4" />
-      <node id="4395092345676013349" at="27,33,28,118" concept="9" />
-      <node id="4395092345676035481" at="28,118,29,129" concept="4" />
-      <node id="7743737196471571638" at="29,129,30,172" concept="4" />
-      <node id="4395092345676043202" at="33,33,34,118" concept="9" />
-      <node id="4395092345676043210" at="34,118,35,129" concept="4" />
-      <node id="4395092345676043214" at="35,129,36,172" concept="4" />
-      <node id="4395092345676048930" at="39,30,40,118" concept="9" />
-      <node id="4395092345676048938" at="40,118,41,119" concept="4" />
-      <node id="4395092345676048942" at="41,119,42,172" concept="4" />
-      <node id="2964412296095768302" at="45,57,46,102" concept="9" />
-      <node id="2964412296095859331" at="46,102,47,32" concept="4" />
-      <node id="7743737196472199111" at="47,32,48,19" concept="10" />
-      <node id="4940118688292621883" at="51,44,52,100" concept="9" />
-      <node id="4940118688292621892" at="52,100,53,82" concept="10" />
-      <node id="7743737196471307691" at="23,0,26,0" concept="3" trace="EditorComponentTestHelper#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
-      <node id="4940118688292621880" at="51,0,55,0" concept="8" trace="getFileEditor#()Ljetbrains/mps/ide/editor/MPSFileNodeEditor;" />
-      <node id="7743737196471314832" at="27,0,32,0" concept="8" trace="increaseUIScale#()V" />
-      <node id="4395092345676043200" at="33,0,38,0" concept="8" trace="decreaseUIScale#()V" />
-      <node id="4395092345676048928" at="39,0,44,0" concept="8" trace="resetUIScale#()V" />
-      <node id="7743737196472175584" at="45,0,50,0" concept="8" trace="openContextAssistant#()Ljetbrains/mps/openapi/editor/assist/ContextAssistantManager;" />
-      <scope id="7743737196471307694" at="23,69,24,43" />
-      <scope id="4940118688292621882" at="51,44,53,82">
+      <node id="7743737196471307802" at="23,0,24,0" concept="5" trace="editorComponent" />
+      <node id="7743737196471308378" at="25,69,26,43" concept="4" />
+      <node id="4395092345676013349" at="29,33,30,118" concept="9" />
+      <node id="4395092345676035481" at="30,118,31,129" concept="4" />
+      <node id="7743737196471571638" at="31,129,32,172" concept="4" />
+      <node id="4395092345676043202" at="35,33,36,118" concept="9" />
+      <node id="4395092345676043210" at="36,118,37,129" concept="4" />
+      <node id="4395092345676043214" at="37,129,38,172" concept="4" />
+      <node id="4395092345676048930" at="41,30,42,118" concept="9" />
+      <node id="4395092345676048938" at="42,118,43,119" concept="4" />
+      <node id="4395092345676048942" at="43,119,44,172" concept="4" />
+      <node id="2964412296095768302" at="47,57,48,102" concept="9" />
+      <node id="2964412296095859331" at="48,102,49,32" concept="4" />
+      <node id="7743737196472199111" at="49,32,50,19" concept="10" />
+      <node id="771339992238348154" at="53,44,54,95" concept="9" />
+      <node id="4940118688292621883" at="55,61,56,98" concept="9" />
+      <node id="771339992238348161" at="56,98,57,96" concept="4" />
+      <node id="771339992238348165" at="58,7,59,28" concept="10" />
+      <node id="7743737196471307691" at="25,0,28,0" concept="3" trace="EditorComponentTestHelper#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
+      <node id="771339992238348157" at="54,95,58,7" concept="4" />
+      <node id="7743737196471314832" at="29,0,34,0" concept="8" trace="increaseUIScale#()V" />
+      <node id="4395092345676043200" at="35,0,40,0" concept="8" trace="decreaseUIScale#()V" />
+      <node id="4395092345676048928" at="41,0,46,0" concept="8" trace="resetUIScale#()V" />
+      <node id="7743737196472175584" at="47,0,52,0" concept="8" trace="openContextAssistant#()Ljetbrains/mps/openapi/editor/assist/ContextAssistantManager;" />
+      <node id="4940118688292621880" at="53,0,61,0" concept="8" trace="getFileEditor#()Ljetbrains/mps/ide/editor/MPSFileNodeEditor;" />
+      <scope id="7743737196471307694" at="25,69,26,43" />
+      <scope id="771339992238348223" at="55,61,57,96">
         <var name="dataContext" id="4940118688292621884" />
       </scope>
-      <scope id="7743737196471307691" at="23,0,26,0">
+      <scope id="7743737196471307691" at="25,0,28,0">
         <var name="editorComponent" id="7743737196471307720" />
       </scope>
-      <scope id="7743737196471314835" at="27,33,30,172">
+      <scope id="7743737196471314835" at="29,33,32,172">
         <var name="settings" id="4395092345676013350" />
       </scope>
-      <scope id="4395092345676043201" at="33,33,36,172">
+      <scope id="4395092345676043201" at="35,33,38,172">
         <var name="settings" id="4395092345676043203" />
       </scope>
-      <scope id="4395092345676048929" at="39,30,42,172">
+      <scope id="4395092345676048929" at="41,30,44,172">
         <var name="settings" id="4395092345676048931" />
       </scope>
-      <scope id="7743737196472175587" at="45,57,48,19">
+      <scope id="7743737196472175587" at="47,57,50,19">
         <var name="manager" id="2964412296095768303" />
       </scope>
-      <scope id="4940118688292621880" at="51,0,55,0" />
-      <scope id="7743737196471314832" at="27,0,32,0" />
-      <scope id="4395092345676043200" at="33,0,38,0" />
-      <scope id="4395092345676048928" at="39,0,44,0" />
-      <scope id="7743737196472175584" at="45,0,50,0" />
-      <unit id="7743737196471307031" at="19,0,56,0" name="nl.f1re.testing.runtime.EditorComponentTestHelper" />
+      <scope id="7743737196471314832" at="29,0,34,0" />
+      <scope id="4395092345676043200" at="35,0,40,0" />
+      <scope id="4395092345676048928" at="41,0,46,0" />
+      <scope id="7743737196472175584" at="47,0,52,0" />
+      <scope id="4940118688292621882" at="53,44,59,28">
+        <var name="fileEditor" id="771339992238348153" />
+      </scope>
+      <scope id="4940118688292621880" at="53,0,61,0" />
+      <unit id="7743737196471307031" at="21,0,62,0" name="nl.f1re.testing.runtime.EditorComponentTestHelper" />
     </file>
   </root>
   <root nodeRef="r:e0971d7a-26cb-4f9b-923b-022db20993f1(nl.f1re.testing.runtime)/7743737196471919105">

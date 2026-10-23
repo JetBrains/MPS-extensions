@@ -15,6 +15,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 *de.slisson.mps.richtext* TextCellModifier has a new method modifyWordList() with the per-word editor wiring of modify(). WordCellSubstituteInfo and the new-line handler no longer assume that the parent of a word is a Text so other concepts that contain words can reuse the wiring. The behavior of Text is unchanged.
 
+### Fixed
+
+- *nl.f1re.testing* `fileNodeEditor` returned null when editor tests ran headless, for example on CI. It now reads the file editor from the data context of the editor component, as the MPS editor tests do, on the UI thread.
+
 ## September 2026
 
 ### Fixed

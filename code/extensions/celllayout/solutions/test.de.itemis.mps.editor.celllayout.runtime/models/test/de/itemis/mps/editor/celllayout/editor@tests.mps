@@ -117,6 +117,7 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
@@ -4430,6 +4431,47 @@
               </node>
             </node>
           </node>
+          <node concept="3cpWs8" id="6q$yoRMhE91" role="3cqZAp">
+            <node concept="3cpWsn" id="6q$yoRMhE90" role="3cpWs9">
+              <property role="TrG5h" value="layers" />
+              <node concept="10Q1$e" id="6q$yoRMhE93" role="1tU5fm">
+                <node concept="17QB3L" id="3uYssuoV$lg" role="10Q1$1" />
+              </node>
+              <node concept="2ShNRf" id="6q$yoRMhE99" role="33vP2m">
+                <node concept="3g6Rrh" id="6q$yoRMhE98" role="2ShVmc">
+                  <node concept="Xl_RD" id="6q$yoRMhE95" role="3g7hyw">
+                    <property role="Xl_RC" value="content" />
+                  </node>
+                  <node concept="Xl_RD" id="6q$yoRMhE96" role="3g7hyw">
+                    <property role="Xl_RC" value="inner" />
+                  </node>
+                  <node concept="Xl_RD" id="6q$yoRMhE97" role="3g7hyw">
+                    <property role="Xl_RC" value="outer" />
+                  </node>
+                  <node concept="17QB3L" id="3uYssuoV$lh" role="3g7fb8" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3vlDli" id="3uYssuoUjNJ" role="3cqZAp">
+            <node concept="3_1$Yv" id="3uYssuoUjNQ" role="3_9lra">
+              <node concept="Xl_RD" id="3uYssuoUjNR" role="3_1BAH">
+                <property role="Xl_RC" value="layers does not have one name per box" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3uYssuoUjO0" role="3tpDZB">
+              <node concept="37vLTw" id="3uYssuoUjNZ" role="2Oq$k0">
+                <ref role="3cqZAo" node="4Dq5m_WUuvK" resolve="originalBoxes" />
+              </node>
+              <node concept="1Rwk04" id="3uYssuoUjP8" role="2OqNvi" />
+            </node>
+            <node concept="2OqwBi" id="3uYssuoUjPh" role="3tpDZA">
+              <node concept="37vLTw" id="3uYssuoUjPg" role="2Oq$k0">
+                <ref role="3cqZAo" node="6q$yoRMhE90" resolve="layers" />
+              </node>
+              <node concept="1Rwk04" id="3uYssuoUjQO" role="2OqNvi" />
+            </node>
+          </node>
           <node concept="3clFbF" id="4Dq5m_WUuw3" role="3cqZAp">
             <node concept="2YIFZM" id="4Dq5m_WUINJ" role="3clFbG">
               <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
@@ -4754,8 +4796,18 @@
                   </node>
                 </node>
                 <node concept="3_1$Yv" id="4Dq5m_WUVgF" role="3_9lra">
-                  <node concept="Xl_RD" id="4Dq5m_WUuxO" role="3_1BAH">
-                    <property role="Xl_RC" value="clone shares a geometry layer" />
+                  <node concept="3cpWs3" id="6q$yoRMhE9e" role="3_1BAH">
+                    <node concept="AH0OO" id="6q$yoRMhE9g" role="3uHU7w">
+                      <node concept="37vLTw" id="6q$yoRMhE9h" role="AHHXb">
+                        <ref role="3cqZAo" node="6q$yoRMhE90" resolve="layers" />
+                      </node>
+                      <node concept="37vLTw" id="6q$yoRMhE9i" role="AHEQo">
+                        <ref role="3cqZAo" node="4Dq5m_WUuxx" resolve="i" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="4Dq5m_WUuxO" role="3uHU7B">
+                      <property role="Xl_RC" value="clone shares a geometry layer: " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -4817,8 +4869,25 @@
                       </node>
                     </node>
                     <node concept="3_1$Yv" id="4Dq5m_WUVgH" role="3_9lra">
-                      <node concept="Xl_RD" id="4Dq5m_WUuyi" role="3_1BAH">
-                        <property role="Xl_RC" value="cloning changed original geometry" />
+                      <node concept="3cpWs3" id="6q$yoRMhE9n" role="3_1BAH">
+                        <node concept="2YIFZM" id="6q$yoRMhE9w" role="3uHU7w">
+                          <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                          <ref role="37wK5l" node="6mTvvjrLgQm" resolve="geometryValue" />
+                          <node concept="AH0OO" id="6q$yoRMhE9x" role="37wK5m">
+                            <node concept="37vLTw" id="6q$yoRMhE9y" role="AHHXb">
+                              <ref role="3cqZAo" node="6q$yoRMhE90" resolve="layers" />
+                            </node>
+                            <node concept="37vLTw" id="6q$yoRMhE9z" role="AHEQo">
+                              <ref role="3cqZAo" node="4Dq5m_WUuxx" resolve="i" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="6q$yoRMhE9$" role="37wK5m">
+                            <ref role="3cqZAo" node="4Dq5m_WUuxR" resolve="j" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="4Dq5m_WUuyi" role="3uHU7B">
+                          <property role="Xl_RC" value="cloning changed original geometry: " />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -4850,8 +4919,25 @@
                       </node>
                     </node>
                     <node concept="3_1$Yv" id="4Dq5m_WUVgJ" role="3_9lra">
-                      <node concept="Xl_RD" id="4Dq5m_WUuyv" role="3_1BAH">
-                        <property role="Xl_RC" value="clone changed a geometry value" />
+                      <node concept="3cpWs3" id="6q$yoRMhE9F" role="3_1BAH">
+                        <node concept="2YIFZM" id="6q$yoRMhE9O" role="3uHU7w">
+                          <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                          <ref role="37wK5l" node="6mTvvjrLgQm" resolve="geometryValue" />
+                          <node concept="AH0OO" id="6q$yoRMhE9P" role="37wK5m">
+                            <node concept="37vLTw" id="6q$yoRMhE9Q" role="AHHXb">
+                              <ref role="3cqZAo" node="6q$yoRMhE90" resolve="layers" />
+                            </node>
+                            <node concept="37vLTw" id="6q$yoRMhE9R" role="AHEQo">
+                              <ref role="3cqZAo" node="4Dq5m_WUuxx" resolve="i" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="6q$yoRMhE9S" role="37wK5m">
+                            <ref role="3cqZAo" node="4Dq5m_WUuxR" resolve="j" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="4Dq5m_WUuyv" role="3uHU7B">
+                          <property role="Xl_RC" value="clone changed a geometry value: " />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -4907,8 +4993,23 @@
                   </node>
                 </node>
                 <node concept="3_1$Yv" id="4Dq5m_WUVgL" role="3_9lra">
-                  <node concept="Xl_RD" id="4Dq5m_WUuyQ" role="3_1BAH">
-                    <property role="Xl_RC" value="clone frame points to the wrong inner layer" />
+                  <node concept="3cpWs3" id="6q$yoRMhE9Z" role="3_1BAH">
+                    <node concept="AH0OO" id="6q$yoRMhEa1" role="3uHU7w">
+                      <node concept="37vLTw" id="6q$yoRMhEa2" role="AHHXb">
+                        <ref role="3cqZAo" node="6q$yoRMhE90" resolve="layers" />
+                      </node>
+                      <node concept="3cpWs3" id="6q$yoRMhEa3" role="AHEQo">
+                        <node concept="37vLTw" id="6q$yoRMhEa4" role="3uHU7B">
+                          <ref role="3cqZAo" node="4Dq5m_WUuyy" resolve="i" />
+                        </node>
+                        <node concept="3cmrfG" id="6q$yoRMhEa5" role="3uHU7w">
+                          <property role="3cmrfH" value="1" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="4Dq5m_WUuyQ" role="3uHU7B">
+                      <property role="Xl_RC" value="clone frame points to the wrong inner layer: " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -4970,8 +5071,30 @@
                       </node>
                     </node>
                     <node concept="3_1$Yv" id="4Dq5m_WUVgN" role="3_9lra">
-                      <node concept="Xl_RD" id="4Dq5m_WUuzk" role="3_1BAH">
-                        <property role="Xl_RC" value="cloning changed original frame sizes" />
+                      <node concept="3cpWs3" id="6q$yoRMhEaa" role="3_1BAH">
+                        <node concept="2YIFZM" id="6q$yoRMhEal" role="3uHU7w">
+                          <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                          <ref role="37wK5l" node="6mTvvjrLgQA" resolve="frameSide" />
+                          <node concept="AH0OO" id="6q$yoRMhEam" role="37wK5m">
+                            <node concept="37vLTw" id="6q$yoRMhEan" role="AHHXb">
+                              <ref role="3cqZAo" node="6q$yoRMhE90" resolve="layers" />
+                            </node>
+                            <node concept="3cpWs3" id="6q$yoRMhEao" role="AHEQo">
+                              <node concept="37vLTw" id="6q$yoRMhEap" role="3uHU7B">
+                                <ref role="3cqZAo" node="4Dq5m_WUuyy" resolve="i" />
+                              </node>
+                              <node concept="3cmrfG" id="6q$yoRMhEaq" role="3uHU7w">
+                                <property role="3cmrfH" value="1" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="6q$yoRMhEar" role="37wK5m">
+                            <ref role="3cqZAo" node="4Dq5m_WUuyT" resolve="j" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="4Dq5m_WUuzk" role="3uHU7B">
+                          <property role="Xl_RC" value="cloning changed original frame sizes: " />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -5003,8 +5126,30 @@
                       </node>
                     </node>
                     <node concept="3_1$Yv" id="4Dq5m_WUVgP" role="3_9lra">
-                      <node concept="Xl_RD" id="4Dq5m_WUuzx" role="3_1BAH">
-                        <property role="Xl_RC" value="clone changed a frame side" />
+                      <node concept="3cpWs3" id="6q$yoRMhEay" role="3_1BAH">
+                        <node concept="2YIFZM" id="6q$yoRMhEaH" role="3uHU7w">
+                          <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                          <ref role="37wK5l" node="6mTvvjrLgQA" resolve="frameSide" />
+                          <node concept="AH0OO" id="6q$yoRMhEaI" role="37wK5m">
+                            <node concept="37vLTw" id="6q$yoRMhEaJ" role="AHHXb">
+                              <ref role="3cqZAo" node="6q$yoRMhE90" resolve="layers" />
+                            </node>
+                            <node concept="3cpWs3" id="6q$yoRMhEaK" role="AHEQo">
+                              <node concept="37vLTw" id="6q$yoRMhEaL" role="3uHU7B">
+                                <ref role="3cqZAo" node="4Dq5m_WUuyy" resolve="i" />
+                              </node>
+                              <node concept="3cmrfG" id="6q$yoRMhEaM" role="3uHU7w">
+                                <property role="3cmrfH" value="1" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="6q$yoRMhEaN" role="37wK5m">
+                            <ref role="3cqZAo" node="4Dq5m_WUuyT" resolve="j" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="4Dq5m_WUuzx" role="3uHU7B">
+                          <property role="Xl_RC" value="clone changed a frame side: " />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -5141,8 +5286,25 @@
                       </node>
                     </node>
                     <node concept="3_1$Yv" id="4Dq5m_WUVgR" role="3_9lra">
-                      <node concept="Xl_RD" id="4Dq5m_WUu$u" role="3_1BAH">
-                        <property role="Xl_RC" value="clone mutation changed original geometry" />
+                      <node concept="3cpWs3" id="6q$yoRMhEaU" role="3_1BAH">
+                        <node concept="2YIFZM" id="6q$yoRMhEb3" role="3uHU7w">
+                          <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                          <ref role="37wK5l" node="6mTvvjrLgQm" resolve="geometryValue" />
+                          <node concept="AH0OO" id="6q$yoRMhEb4" role="37wK5m">
+                            <node concept="37vLTw" id="6q$yoRMhEb5" role="AHHXb">
+                              <ref role="3cqZAo" node="6q$yoRMhE90" resolve="layers" />
+                            </node>
+                            <node concept="37vLTw" id="6q$yoRMhEb6" role="AHEQo">
+                              <ref role="3cqZAo" node="4Dq5m_WUuzQ" resolve="i" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="6q$yoRMhEb7" role="37wK5m">
+                            <ref role="3cqZAo" node="4Dq5m_WUu$3" resolve="j" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="4Dq5m_WUu$u" role="3uHU7B">
+                          <property role="Xl_RC" value="clone mutation changed original geometry: " />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -5233,8 +5395,30 @@
                       </node>
                     </node>
                     <node concept="3_1$Yv" id="4Dq5m_WUVgT" role="3_9lra">
-                      <node concept="Xl_RD" id="4Dq5m_WUu_9" role="3_1BAH">
-                        <property role="Xl_RC" value="clone mutation changed original frame sizes" />
+                      <node concept="3cpWs3" id="6q$yoRMhEbe" role="3_1BAH">
+                        <node concept="2YIFZM" id="6q$yoRMhEbp" role="3uHU7w">
+                          <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                          <ref role="37wK5l" node="6mTvvjrLgQA" resolve="frameSide" />
+                          <node concept="AH0OO" id="6q$yoRMhEbq" role="37wK5m">
+                            <node concept="37vLTw" id="6q$yoRMhEbr" role="AHHXb">
+                              <ref role="3cqZAo" node="6q$yoRMhE90" resolve="layers" />
+                            </node>
+                            <node concept="3cpWs3" id="6q$yoRMhEbs" role="AHEQo">
+                              <node concept="37vLTw" id="6q$yoRMhEbt" role="3uHU7B">
+                                <ref role="3cqZAo" node="4Dq5m_WUu$x" resolve="i" />
+                              </node>
+                              <node concept="3cmrfG" id="6q$yoRMhEbu" role="3uHU7w">
+                                <property role="3cmrfH" value="1" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="6q$yoRMhEbv" role="37wK5m">
+                            <ref role="3cqZAo" node="4Dq5m_WUu$I" resolve="j" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="4Dq5m_WUu_9" role="3uHU7B">
+                          <property role="Xl_RC" value="clone mutation changed original frame sizes: " />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -5405,8 +5589,25 @@
                       </node>
                     </node>
                     <node concept="3_1$Yv" id="4Dq5m_WUVgV" role="3_9lra">
-                      <node concept="Xl_RD" id="4Dq5m_WUuAk" role="3_1BAH">
-                        <property role="Xl_RC" value="original mutation changed clone geometry" />
+                      <node concept="3cpWs3" id="6q$yoRMhEbA" role="3_1BAH">
+                        <node concept="2YIFZM" id="6q$yoRMhEbJ" role="3uHU7w">
+                          <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                          <ref role="37wK5l" node="6mTvvjrLgQm" resolve="geometryValue" />
+                          <node concept="AH0OO" id="6q$yoRMhEbK" role="37wK5m">
+                            <node concept="37vLTw" id="6q$yoRMhEbL" role="AHHXb">
+                              <ref role="3cqZAo" node="6q$yoRMhE90" resolve="layers" />
+                            </node>
+                            <node concept="37vLTw" id="6q$yoRMhEbM" role="AHEQo">
+                              <ref role="3cqZAo" node="4Dq5m_WUu_G" resolve="i" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="6q$yoRMhEbN" role="37wK5m">
+                            <ref role="3cqZAo" node="4Dq5m_WUu_T" resolve="j" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="4Dq5m_WUuAk" role="3uHU7B">
+                          <property role="Xl_RC" value="original mutation changed clone geometry: " />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -5497,8 +5698,30 @@
                       </node>
                     </node>
                     <node concept="3_1$Yv" id="4Dq5m_WUVgX" role="3_9lra">
-                      <node concept="Xl_RD" id="4Dq5m_WUuAZ" role="3_1BAH">
-                        <property role="Xl_RC" value="original mutation changed clone frame sizes" />
+                      <node concept="3cpWs3" id="6q$yoRMhEbU" role="3_1BAH">
+                        <node concept="2YIFZM" id="6q$yoRMhEc5" role="3uHU7w">
+                          <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                          <ref role="37wK5l" node="6mTvvjrLgQA" resolve="frameSide" />
+                          <node concept="AH0OO" id="6q$yoRMhEc6" role="37wK5m">
+                            <node concept="37vLTw" id="6q$yoRMhEc7" role="AHHXb">
+                              <ref role="3cqZAo" node="6q$yoRMhE90" resolve="layers" />
+                            </node>
+                            <node concept="3cpWs3" id="6q$yoRMhEc8" role="AHEQo">
+                              <node concept="37vLTw" id="6q$yoRMhEc9" role="3uHU7B">
+                                <ref role="3cqZAo" node="4Dq5m_WUuAn" resolve="i" />
+                              </node>
+                              <node concept="3cmrfG" id="6q$yoRMhEca" role="3uHU7w">
+                                <property role="3cmrfH" value="1" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="6q$yoRMhEcb" role="37wK5m">
+                            <ref role="3cqZAo" node="4Dq5m_WUuA$" resolve="j" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="4Dq5m_WUuAZ" role="3uHU7B">
+                          <property role="Xl_RC" value="original mutation changed clone frame sizes: " />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -5705,7 +5928,7 @@
             </node>
             <node concept="3_1$Yv" id="7ZFEi34xPvg" role="3_9lra">
               <node concept="Xl_RD" id="7ZFEi34xPvf" role="3_1BAH">
-                <property role="Xl_RC" value="exact flexible shrink control failed" />
+                <property role="Xl_RC" value="exact flexible shrink changed fixed column 0" />
               </node>
             </node>
           </node>
@@ -5723,7 +5946,7 @@
             </node>
             <node concept="3_1$Yv" id="7ZFEi34xPvj" role="3_9lra">
               <node concept="Xl_RD" id="7ZFEi34xPvi" role="3_1BAH">
-                <property role="Xl_RC" value="exact flexible shrink control failed" />
+                <property role="Xl_RC" value="exact flexible shrink did not reach the target width 290" />
               </node>
             </node>
           </node>
@@ -5800,7 +6023,7 @@
             </node>
             <node concept="3_1$Yv" id="7ZFEi34xPvm" role="3_9lra">
               <node concept="Xl_RD" id="7ZFEi34xPvl" role="3_1BAH">
-                <property role="Xl_RC" value="rounding changed fixed column" />
+                <property role="Xl_RC" value="rounding changed fixed column 0" />
               </node>
             </node>
           </node>
@@ -5818,7 +6041,7 @@
             </node>
             <node concept="3_1$Yv" id="7ZFEi34xPvp" role="3_9lra">
               <node concept="Xl_RD" id="7ZFEi34xPvo" role="3_1BAH">
-                <property role="Xl_RC" value="rounding changed fixed column" />
+                <property role="Xl_RC" value="grid width differs from the target 295 after rounding" />
               </node>
             </node>
           </node>
@@ -6016,7 +6239,7 @@
             </node>
             <node concept="3_1$Yv" id="7ZFEi34xPvy" role="3_9lra">
               <node concept="Xl_RD" id="7ZFEi34xPvx" role="3_1BAH">
-                <property role="Xl_RC" value="normal word control failed" />
+                <property role="Xl_RC" value="normal word lost its preferred width" />
               </node>
             </node>
           </node>
@@ -6034,7 +6257,7 @@
             </node>
             <node concept="3_1$Yv" id="7ZFEi34xPv_" role="3_9lra">
               <node concept="Xl_RD" id="7ZFEi34xPv$" role="3_1BAH">
-                <property role="Xl_RC" value="normal word control failed" />
+                <property role="Xl_RC" value="normal word lost its preferred height" />
               </node>
             </node>
           </node>
@@ -6352,7 +6575,7 @@
             </node>
             <node concept="3_1$Yv" id="7ZFEi34xPvL" role="3_9lra">
               <node concept="Xl_RD" id="7ZFEi34xPvK" role="3_1BAH">
-                <property role="Xl_RC" value="normal word control failed" />
+                <property role="Xl_RC" value="normal word lost its preferred height" />
               </node>
             </node>
           </node>
@@ -6595,7 +6818,7 @@
                                 <property role="TrG5h" value="ex" />
                                 <node concept="nSUau" id="4Iz1_7hTYh8" role="1tU5fm">
                                   <node concept="3uibUv" id="4Iz1_7hTYha" role="nSUat">
-                                    <ref role="3uigEE" to="qxi4:3bNiYZ6RftC" resolve="LayoutTimeoutException" />
+                                    <ref role="3uigEE" to="qxi4:3bNiYZ6RftC" resolve="LayoutWatchdog.LayoutTimeoutException" />
                                   </node>
                                 </node>
                               </node>
@@ -6657,7 +6880,7 @@
               <node concept="2ShNRf" id="4Iz1_7hTBuK" role="33vP2m">
                 <node concept="1pGfFk" id="4Iz1_7hTBuM" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="37wK5l" to="xggr:40e1npHteKo" />
+                  <ref role="37wK5l" to="xggr:40e1npHteKo" resolve="Grid" />
                   <node concept="3cmrfG" id="4Iz1_7hTBuN" role="37wK5m">
                     <property role="3cmrfH" value="1" />
                   </node>
@@ -6786,7 +7009,7 @@
               <node concept="2ShNRf" id="4Iz1_7hTBvW" role="33vP2m">
                 <node concept="1pGfFk" id="4Iz1_7hTBvY" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="37wK5l" to="xggr:40e1npHteKo" />
+                  <ref role="37wK5l" to="xggr:40e1npHteKo" resolve="Grid" />
                   <node concept="3cmrfG" id="4Iz1_7hTBvZ" role="37wK5m">
                     <property role="3cmrfH" value="1" />
                   </node>
@@ -8348,6 +8571,56 @@
           </node>
         </node>
       </node>
+      <node concept="3cpWs8" id="6q$yoRMhlbn" role="3cqZAp">
+        <node concept="3cpWsn" id="6q$yoRMhlbm" role="3cpWs9">
+          <property role="TrG5h" value="layers" />
+          <node concept="10Q1$e" id="6q$yoRMhlbp" role="1tU5fm">
+            <node concept="17QB3L" id="3uYssuoV$le" role="10Q1$1" />
+          </node>
+          <node concept="2ShNRf" id="6q$yoRMhlby" role="33vP2m">
+            <node concept="3g6Rrh" id="6q$yoRMhlbx" role="2ShVmc">
+              <node concept="Xl_RD" id="6q$yoRMhlbr" role="3g7hyw">
+                <property role="Xl_RC" value="content" />
+              </node>
+              <node concept="Xl_RD" id="6q$yoRMhlbs" role="3g7hyw">
+                <property role="Xl_RC" value="padding" />
+              </node>
+              <node concept="Xl_RD" id="6q$yoRMhlbt" role="3g7hyw">
+                <property role="Xl_RC" value="additional padding" />
+              </node>
+              <node concept="Xl_RD" id="6q$yoRMhlbu" role="3g7hyw">
+                <property role="Xl_RC" value="brackets" />
+              </node>
+              <node concept="Xl_RD" id="6q$yoRMhlbv" role="3g7hyw">
+                <property role="Xl_RC" value="border" />
+              </node>
+              <node concept="Xl_RD" id="6q$yoRMhlbw" role="3g7hyw">
+                <property role="Xl_RC" value="margin" />
+              </node>
+              <node concept="17QB3L" id="3uYssuoV$lj" role="3g7fb8" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3vlDli" id="3uYssuoUjK0" role="3cqZAp">
+        <node concept="3_1$Yv" id="3uYssuoUjK7" role="3_9lra">
+          <node concept="Xl_RD" id="3uYssuoUjK8" role="3_1BAH">
+            <property role="Xl_RC" value="layers does not have one name per box" />
+          </node>
+        </node>
+        <node concept="2OqwBi" id="3uYssuoUjKf" role="3tpDZB">
+          <node concept="37vLTw" id="3uYssuoUjKe" role="2Oq$k0">
+            <ref role="3cqZAo" node="4Dq5m_WUIZ1" resolve="originalBoxes" />
+          </node>
+          <node concept="1Rwk04" id="3uYssuoUjM4" role="2OqNvi" />
+        </node>
+        <node concept="2OqwBi" id="3uYssuoUjMb" role="3tpDZA">
+          <node concept="37vLTw" id="3uYssuoUjMa" role="2Oq$k0">
+            <ref role="3cqZAo" node="6q$yoRMhlbm" resolve="layers" />
+          </node>
+          <node concept="1Rwk04" id="3uYssuoUjNI" role="2OqNvi" />
+        </node>
+      </node>
       <node concept="3clFbF" id="4Dq5m_WUIZq" role="3cqZAp">
         <node concept="2YIFZM" id="4Dq5m_WUJjR" role="3clFbG">
           <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
@@ -8729,8 +9002,18 @@
               </node>
             </node>
             <node concept="3_1$Yv" id="4Dq5m_WUVh9" role="3_9lra">
-              <node concept="Xl_RD" id="4Dq5m_WUJ1d" role="3_1BAH">
-                <property role="Xl_RC" value="clone shares a geometry layer" />
+              <node concept="3cpWs3" id="6q$yoRMhE6f" role="3_1BAH">
+                <node concept="AH0OO" id="6q$yoRMhE6h" role="3uHU7w">
+                  <node concept="37vLTw" id="6q$yoRMhE6i" role="AHHXb">
+                    <ref role="3cqZAo" node="6q$yoRMhlbm" resolve="layers" />
+                  </node>
+                  <node concept="37vLTw" id="6q$yoRMhE6j" role="AHEQo">
+                    <ref role="3cqZAo" node="4Dq5m_WUJ0U" resolve="i" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="4Dq5m_WUJ1d" role="3uHU7B">
+                  <property role="Xl_RC" value="clone shares a geometry layer: " />
+                </node>
               </node>
             </node>
           </node>
@@ -8792,8 +9075,25 @@
                   </node>
                 </node>
                 <node concept="3_1$Yv" id="4Dq5m_WUVhb" role="3_9lra">
-                  <node concept="Xl_RD" id="4Dq5m_WUJ1F" role="3_1BAH">
-                    <property role="Xl_RC" value="cloning changed original geometry" />
+                  <node concept="3cpWs3" id="6q$yoRMhE6o" role="3_1BAH">
+                    <node concept="2YIFZM" id="6q$yoRMhE6v" role="3uHU7w">
+                      <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                      <ref role="37wK5l" node="6mTvvjrLgQm" resolve="geometryValue" />
+                      <node concept="AH0OO" id="6q$yoRMhE6w" role="37wK5m">
+                        <node concept="37vLTw" id="6q$yoRMhE6x" role="AHHXb">
+                          <ref role="3cqZAo" node="6q$yoRMhlbm" resolve="layers" />
+                        </node>
+                        <node concept="37vLTw" id="6q$yoRMhE6y" role="AHEQo">
+                          <ref role="3cqZAo" node="4Dq5m_WUJ0U" resolve="i" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="6q$yoRMhE6z" role="37wK5m">
+                        <ref role="3cqZAo" node="4Dq5m_WUJ1g" resolve="j" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="4Dq5m_WUJ1F" role="3uHU7B">
+                      <property role="Xl_RC" value="cloning changed original geometry: " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -8825,8 +9125,25 @@
                   </node>
                 </node>
                 <node concept="3_1$Yv" id="4Dq5m_WUVhd" role="3_9lra">
-                  <node concept="Xl_RD" id="4Dq5m_WUJ1S" role="3_1BAH">
-                    <property role="Xl_RC" value="clone changed a geometry value" />
+                  <node concept="3cpWs3" id="6q$yoRMhE6E" role="3_1BAH">
+                    <node concept="2YIFZM" id="6q$yoRMhE6L" role="3uHU7w">
+                      <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                      <ref role="37wK5l" node="6mTvvjrLgQm" resolve="geometryValue" />
+                      <node concept="AH0OO" id="6q$yoRMhE6M" role="37wK5m">
+                        <node concept="37vLTw" id="6q$yoRMhE6N" role="AHHXb">
+                          <ref role="3cqZAo" node="6q$yoRMhlbm" resolve="layers" />
+                        </node>
+                        <node concept="37vLTw" id="6q$yoRMhE6O" role="AHEQo">
+                          <ref role="3cqZAo" node="4Dq5m_WUJ0U" resolve="i" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="6q$yoRMhE6P" role="37wK5m">
+                        <ref role="3cqZAo" node="4Dq5m_WUJ1g" resolve="j" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="4Dq5m_WUJ1S" role="3uHU7B">
+                      <property role="Xl_RC" value="clone changed a geometry value: " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -8882,8 +9199,23 @@
               </node>
             </node>
             <node concept="3_1$Yv" id="4Dq5m_WUVhf" role="3_9lra">
-              <node concept="Xl_RD" id="4Dq5m_WUJ2f" role="3_1BAH">
-                <property role="Xl_RC" value="clone frame points to the wrong inner layer" />
+              <node concept="3cpWs3" id="6q$yoRMhE6W" role="3_1BAH">
+                <node concept="AH0OO" id="6q$yoRMhE6Y" role="3uHU7w">
+                  <node concept="37vLTw" id="6q$yoRMhE6Z" role="AHHXb">
+                    <ref role="3cqZAo" node="6q$yoRMhlbm" resolve="layers" />
+                  </node>
+                  <node concept="3cpWs3" id="6q$yoRMhE70" role="AHEQo">
+                    <node concept="37vLTw" id="6q$yoRMhE71" role="3uHU7B">
+                      <ref role="3cqZAo" node="4Dq5m_WUJ1V" resolve="i" />
+                    </node>
+                    <node concept="3cmrfG" id="6q$yoRMhE72" role="3uHU7w">
+                      <property role="3cmrfH" value="1" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="4Dq5m_WUJ2f" role="3uHU7B">
+                  <property role="Xl_RC" value="clone frame points to the wrong inner layer: " />
+                </node>
               </node>
             </node>
           </node>
@@ -8945,8 +9277,30 @@
                   </node>
                 </node>
                 <node concept="3_1$Yv" id="4Dq5m_WUVhh" role="3_9lra">
-                  <node concept="Xl_RD" id="4Dq5m_WUJ2H" role="3_1BAH">
-                    <property role="Xl_RC" value="cloning changed original frame sizes" />
+                  <node concept="3cpWs3" id="6q$yoRMhE77" role="3_1BAH">
+                    <node concept="2YIFZM" id="6q$yoRMhE7g" role="3uHU7w">
+                      <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                      <ref role="37wK5l" node="6mTvvjrLgQA" resolve="frameSide" />
+                      <node concept="AH0OO" id="6q$yoRMhE7h" role="37wK5m">
+                        <node concept="37vLTw" id="6q$yoRMhE7i" role="AHHXb">
+                          <ref role="3cqZAo" node="6q$yoRMhlbm" resolve="layers" />
+                        </node>
+                        <node concept="3cpWs3" id="6q$yoRMhE7j" role="AHEQo">
+                          <node concept="37vLTw" id="6q$yoRMhE7k" role="3uHU7B">
+                            <ref role="3cqZAo" node="4Dq5m_WUJ1V" resolve="i" />
+                          </node>
+                          <node concept="3cmrfG" id="6q$yoRMhE7l" role="3uHU7w">
+                            <property role="3cmrfH" value="1" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="6q$yoRMhE7m" role="37wK5m">
+                        <ref role="3cqZAo" node="4Dq5m_WUJ2i" resolve="j" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="4Dq5m_WUJ2H" role="3uHU7B">
+                      <property role="Xl_RC" value="cloning changed original frame sizes: " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -8978,8 +9332,30 @@
                   </node>
                 </node>
                 <node concept="3_1$Yv" id="4Dq5m_WUVhj" role="3_9lra">
-                  <node concept="Xl_RD" id="4Dq5m_WUJ2U" role="3_1BAH">
-                    <property role="Xl_RC" value="clone changed a frame side" />
+                  <node concept="3cpWs3" id="6q$yoRMhE7t" role="3_1BAH">
+                    <node concept="2YIFZM" id="6q$yoRMhE7A" role="3uHU7w">
+                      <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                      <ref role="37wK5l" node="6mTvvjrLgQA" resolve="frameSide" />
+                      <node concept="AH0OO" id="6q$yoRMhE7B" role="37wK5m">
+                        <node concept="37vLTw" id="6q$yoRMhE7C" role="AHHXb">
+                          <ref role="3cqZAo" node="6q$yoRMhlbm" resolve="layers" />
+                        </node>
+                        <node concept="3cpWs3" id="6q$yoRMhE7D" role="AHEQo">
+                          <node concept="37vLTw" id="6q$yoRMhE7E" role="3uHU7B">
+                            <ref role="3cqZAo" node="4Dq5m_WUJ1V" resolve="i" />
+                          </node>
+                          <node concept="3cmrfG" id="6q$yoRMhE7F" role="3uHU7w">
+                            <property role="3cmrfH" value="1" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="6q$yoRMhE7G" role="37wK5m">
+                        <ref role="3cqZAo" node="4Dq5m_WUJ2i" resolve="j" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="4Dq5m_WUJ2U" role="3uHU7B">
+                      <property role="Xl_RC" value="clone changed a frame side: " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -9116,8 +9492,25 @@
                   </node>
                 </node>
                 <node concept="3_1$Yv" id="4Dq5m_WUVhl" role="3_9lra">
-                  <node concept="Xl_RD" id="4Dq5m_WUJ3R" role="3_1BAH">
-                    <property role="Xl_RC" value="clone mutation changed original geometry" />
+                  <node concept="3cpWs3" id="6q$yoRMhE7N" role="3_1BAH">
+                    <node concept="2YIFZM" id="6q$yoRMhE7U" role="3uHU7w">
+                      <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                      <ref role="37wK5l" node="6mTvvjrLgQm" resolve="geometryValue" />
+                      <node concept="AH0OO" id="6q$yoRMhE7V" role="37wK5m">
+                        <node concept="37vLTw" id="6q$yoRMhE7W" role="AHHXb">
+                          <ref role="3cqZAo" node="6q$yoRMhlbm" resolve="layers" />
+                        </node>
+                        <node concept="37vLTw" id="6q$yoRMhE7X" role="AHEQo">
+                          <ref role="3cqZAo" node="4Dq5m_WUJ3f" resolve="i" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="6q$yoRMhE7Y" role="37wK5m">
+                        <ref role="3cqZAo" node="4Dq5m_WUJ3s" resolve="j" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="4Dq5m_WUJ3R" role="3uHU7B">
+                      <property role="Xl_RC" value="clone mutation changed original geometry: " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -9208,8 +9601,30 @@
                   </node>
                 </node>
                 <node concept="3_1$Yv" id="4Dq5m_WUVhn" role="3_9lra">
-                  <node concept="Xl_RD" id="4Dq5m_WUJ4y" role="3_1BAH">
-                    <property role="Xl_RC" value="clone mutation changed original frame sizes" />
+                  <node concept="3cpWs3" id="6q$yoRMhE85" role="3_1BAH">
+                    <node concept="2YIFZM" id="6q$yoRMhE8e" role="3uHU7w">
+                      <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                      <ref role="37wK5l" node="6mTvvjrLgQA" resolve="frameSide" />
+                      <node concept="AH0OO" id="6q$yoRMhE8f" role="37wK5m">
+                        <node concept="37vLTw" id="6q$yoRMhE8g" role="AHHXb">
+                          <ref role="3cqZAo" node="6q$yoRMhlbm" resolve="layers" />
+                        </node>
+                        <node concept="3cpWs3" id="6q$yoRMhE8h" role="AHEQo">
+                          <node concept="37vLTw" id="6q$yoRMhE8i" role="3uHU7B">
+                            <ref role="3cqZAo" node="4Dq5m_WUJ3U" resolve="i" />
+                          </node>
+                          <node concept="3cmrfG" id="6q$yoRMhE8j" role="3uHU7w">
+                            <property role="3cmrfH" value="1" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="6q$yoRMhE8k" role="37wK5m">
+                        <ref role="3cqZAo" node="4Dq5m_WUJ47" resolve="j" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="4Dq5m_WUJ4y" role="3uHU7B">
+                      <property role="Xl_RC" value="clone mutation changed original frame sizes: " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -9380,8 +9795,25 @@
                   </node>
                 </node>
                 <node concept="3_1$Yv" id="4Dq5m_WUVhp" role="3_9lra">
-                  <node concept="Xl_RD" id="4Dq5m_WUJ5H" role="3_1BAH">
-                    <property role="Xl_RC" value="original mutation changed clone geometry" />
+                  <node concept="3cpWs3" id="6q$yoRMhE8r" role="3_1BAH">
+                    <node concept="2YIFZM" id="6q$yoRMhE8y" role="3uHU7w">
+                      <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                      <ref role="37wK5l" node="6mTvvjrLgQm" resolve="geometryValue" />
+                      <node concept="AH0OO" id="6q$yoRMhE8z" role="37wK5m">
+                        <node concept="37vLTw" id="6q$yoRMhE8$" role="AHHXb">
+                          <ref role="3cqZAo" node="6q$yoRMhlbm" resolve="layers" />
+                        </node>
+                        <node concept="37vLTw" id="6q$yoRMhE8_" role="AHEQo">
+                          <ref role="3cqZAo" node="4Dq5m_WUJ55" resolve="i" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="6q$yoRMhE8A" role="37wK5m">
+                        <ref role="3cqZAo" node="4Dq5m_WUJ5i" resolve="j" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="4Dq5m_WUJ5H" role="3uHU7B">
+                      <property role="Xl_RC" value="original mutation changed clone geometry: " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -9472,8 +9904,30 @@
                   </node>
                 </node>
                 <node concept="3_1$Yv" id="4Dq5m_WUVhr" role="3_9lra">
-                  <node concept="Xl_RD" id="4Dq5m_WUJ6o" role="3_1BAH">
-                    <property role="Xl_RC" value="original mutation changed clone frame sizes" />
+                  <node concept="3cpWs3" id="6q$yoRMhE8H" role="3_1BAH">
+                    <node concept="2YIFZM" id="6q$yoRMhE8Q" role="3uHU7w">
+                      <ref role="1Pybhc" node="4Dq5m_WUoWh" resolve="CloneContractFixture" />
+                      <ref role="37wK5l" node="6mTvvjrLgQA" resolve="frameSide" />
+                      <node concept="AH0OO" id="6q$yoRMhE8R" role="37wK5m">
+                        <node concept="37vLTw" id="6q$yoRMhE8S" role="AHHXb">
+                          <ref role="3cqZAo" node="6q$yoRMhlbm" resolve="layers" />
+                        </node>
+                        <node concept="3cpWs3" id="6q$yoRMhE8T" role="AHEQo">
+                          <node concept="37vLTw" id="6q$yoRMhE8U" role="3uHU7B">
+                            <ref role="3cqZAo" node="4Dq5m_WUJ5K" resolve="i" />
+                          </node>
+                          <node concept="3cmrfG" id="6q$yoRMhE8V" role="3uHU7w">
+                            <property role="3cmrfH" value="1" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="6q$yoRMhE8W" role="37wK5m">
+                        <ref role="3cqZAo" node="4Dq5m_WUJ5X" resolve="j" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="4Dq5m_WUJ6o" role="3uHU7B">
+                      <property role="Xl_RC" value="original mutation changed clone frame sizes: " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -9503,44 +9957,29 @@
           <node concept="369mXd" id="3Mmo2MQsK_7" role="33vP2m" />
         </node>
       </node>
-      <node concept="3cpWs8" id="3Mmo2MQviEh" role="3cqZAp">
-        <node concept="3cpWsn" id="3Mmo2MQviEg" role="3cpWs9">
-          <property role="TrG5h" value="outer" />
-          <node concept="3uibUv" id="3Mmo2MQviEi" role="1tU5fm">
-            <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
+      <node concept="3cpWs8" id="3uYssuoSZaT" role="3cqZAp">
+        <node concept="3cpWsn" id="3uYssuoSZaU" role="3cpWs9">
+          <property role="TrG5h" value="leaf" />
+          <node concept="3uibUv" id="3uYssuoSZaV" role="1tU5fm">
+            <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
           </node>
-          <node concept="10QFUN" id="3Mmo2MQviEj" role="33vP2m">
-            <node concept="2OqwBi" id="3Mmo2MQviHH" role="10QFUP">
-              <node concept="37vLTw" id="3Mmo2MQviF7" role="2Oq$k0">
-                <ref role="3cqZAo" node="3Mmo2MQsK_5" resolve="editorComponent" />
-              </node>
-              <node concept="liA8E" id="3Mmo2MQviHI" role="2OqNvi">
-                <ref role="37wK5l" to="exr9:~EditorComponent.getRootCell()" resolve="getRootCell" />
-              </node>
+          <node concept="2OqwBi" id="3uYssuoSZbn" role="33vP2m">
+            <node concept="37vLTw" id="3uYssuoSZba" role="2Oq$k0">
+              <ref role="3cqZAo" node="3Mmo2MQsK_5" resolve="editorComponent" />
             </node>
-            <node concept="3uibUv" id="3Mmo2MQviEl" role="10QFUM">
-              <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3cpWs8" id="3Mmo2MQviEn" role="3cqZAp">
-        <node concept="3cpWsn" id="3Mmo2MQviEm" role="3cpWs9">
-          <property role="TrG5h" value="row" />
-          <node concept="3uibUv" id="3Mmo2MQviEo" role="1tU5fm">
-            <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
-          </node>
-          <node concept="10QFUN" id="3Mmo2MQviEp" role="33vP2m">
-            <node concept="2OqwBi" id="3Mmo2MQviHY" role="10QFUP">
-              <node concept="37vLTw" id="3Mmo2MQviF9" role="2Oq$k0">
-                <ref role="3cqZAo" node="3Mmo2MQviEg" resolve="outer" />
+            <node concept="liA8E" id="3uYssuoSZbo" role="2OqNvi">
+              <ref role="37wK5l" to="exr9:~EditorComponent.findCellWithId(org.jetbrains.mps.openapi.model.SNode,java.lang.String)" resolve="findCellWithId" />
+              <node concept="2OqwBi" id="3uYssuoSZbA" role="37wK5m">
+                <node concept="37vLTw" id="3uYssuoSZbr" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3Mmo2MQsK_5" resolve="editorComponent" />
+                </node>
+                <node concept="liA8E" id="3uYssuoSZbB" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditedNode()" resolve="getEditedNode" />
+                </node>
               </node>
-              <node concept="liA8E" id="3Mmo2MQviHZ" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell_Collection.firstCell()" resolve="firstCell" />
+              <node concept="Xl_RD" id="3uYssuoSZbq" role="37wK5m">
+                <property role="Xl_RC" value="Constant_lb074b_a0a" />
               </node>
-            </node>
-            <node concept="3uibUv" id="3Mmo2MQviEr" role="10QFUM">
-              <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
             </node>
           </node>
         </node>
@@ -9554,13 +9993,8 @@
           <node concept="2ShNRf" id="3Mmo2MQviFb" role="33vP2m">
             <node concept="1pGfFk" id="3Mmo2MQviFq" role="2ShVmc">
               <ref role="37wK5l" to="qxi4:6aN_eBIZw$g" resolve="LayoutableAdapter" />
-              <node concept="2OqwBi" id="3Mmo2MQviJv" role="37wK5m">
-                <node concept="37vLTw" id="3Mmo2MQviI0" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3Mmo2MQviEm" resolve="row" />
-                </node>
-                <node concept="liA8E" id="3Mmo2MQviJw" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell_Collection.firstCell()" resolve="firstCell" />
-                </node>
+              <node concept="37vLTw" id="3uYssuoSZbG" role="37wK5m">
+                <ref role="3cqZAo" node="3uYssuoSZaU" resolve="leaf" />
               </node>
             </node>
           </node>
@@ -10140,7 +10574,7 @@
         </node>
         <node concept="3_1$Yv" id="7ZFEi34xSvu" role="3_9lra">
           <node concept="Xl_RD" id="7ZFEi34xSvt" role="3_1BAH">
-            <property role="Xl_RC" value="border fixture control failed" />
+            <property role="Xl_RC" value="root collection has no right border" />
           </node>
         </node>
       </node>
@@ -10164,7 +10598,7 @@
         </node>
         <node concept="3_1$Yv" id="7ZFEi34xSvx" role="3_9lra">
           <node concept="Xl_RD" id="7ZFEi34xSvw" role="3_1BAH">
-            <property role="Xl_RC" value="border fixture control failed" />
+            <property role="Xl_RC" value="last child has no right border" />
           </node>
         </node>
       </node>
@@ -10174,7 +10608,7 @@
         </node>
         <node concept="3_1$Yv" id="7ZFEi34xSv$" role="3_9lra">
           <node concept="Xl_RD" id="7ZFEi34xSvz" role="3_1BAH">
-            <property role="Xl_RC" value="border fixture control failed" />
+            <property role="Xl_RC" value="first child has a right border" />
           </node>
         </node>
         <node concept="10QFUN" id="7ZFEi34yK94" role="3tpDZA">
@@ -10293,24 +10727,23 @@
             <node concept="3uibUv" id="uz5d2N8qQ7" role="10QFUM">
               <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
             </node>
-            <node concept="2OqwBi" id="uz5d2N8qQ4" role="10QFUP">
-              <node concept="1eOMI4" id="uz5d2N8qQ3" role="2Oq$k0">
-                <node concept="10QFUN" id="uz5d2N8qPY" role="1eOMHV">
-                  <node concept="2OqwBi" id="uz5d2N8qPZ" role="10QFUP">
-                    <node concept="37vLTw" id="uz5d2N8qQ0" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3Mmo2MQtViz" resolve="editorComponent" />
-                    </node>
-                    <node concept="liA8E" id="uz5d2N8qQ1" role="2OqNvi">
-                      <ref role="37wK5l" to="exr9:~EditorComponent.getRootCell()" resolve="getRootCell" />
-                    </node>
+            <node concept="2OqwBi" id="3uYssuoSZ8P" role="10QFUP">
+              <node concept="37vLTw" id="3uYssuoSNqE" role="2Oq$k0">
+                <ref role="3cqZAo" node="3Mmo2MQtViz" resolve="editorComponent" />
+              </node>
+              <node concept="liA8E" id="3uYssuoSZ8Q" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorComponent.findCellWithId(org.jetbrains.mps.openapi.model.SNode,java.lang.String)" resolve="findCellWithId" />
+                <node concept="2OqwBi" id="3uYssuoSZ94" role="37wK5m">
+                  <node concept="37vLTw" id="3uYssuoSZ8T" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3Mmo2MQtViz" resolve="editorComponent" />
                   </node>
-                  <node concept="3uibUv" id="uz5d2N8qQ2" role="10QFUM">
-                    <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
+                  <node concept="liA8E" id="3uYssuoSZ95" role="2OqNvi">
+                    <ref role="37wK5l" to="exr9:~EditorComponent.getEditedNode()" resolve="getEditedNode" />
                   </node>
                 </node>
-              </node>
-              <node concept="liA8E" id="uz5d2N8qQ5" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell_Collection.firstCell()" resolve="firstCell" />
+                <node concept="Xl_RD" id="3uYssuoSZ8S" role="37wK5m">
+                  <property role="Xl_RC" value="Collection_f9gyoa_a0" />
+                </node>
               </node>
             </node>
           </node>
@@ -10346,17 +10779,27 @@
             <node concept="3uibUv" id="3Mmo2MQviwv" role="10QFUM">
               <ref role="3uigEE" to="qxi4:JPngvNuatB" resolve="LayoutableCollectionAdapter" />
             </node>
-            <node concept="1y4W85" id="uz5d2N8qQc" role="10QFUP">
-              <node concept="2OqwBi" id="uz5d2N8qQa" role="1y566C">
-                <node concept="37vLTw" id="uz5d2N8qQ8" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3Mmo2MQviwi" resolve="gridRoot" />
+            <node concept="2YIFZM" id="3uYssuoSZ96" role="10QFUP">
+              <ref role="1Pybhc" to="qxi4:JPngvNub0g" resolve="LayoutableAdapters" />
+              <ref role="37wK5l" to="qxi4:40e1npHqXb7" resolve="getAdapter" />
+              <node concept="2OqwBi" id="3uYssuoSZ9s" role="37wK5m">
+                <node concept="37vLTw" id="3uYssuoSZ9f" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3Mmo2MQtViz" resolve="editorComponent" />
                 </node>
-                <node concept="liA8E" id="uz5d2N8qQ9" role="2OqNvi">
-                  <ref role="37wK5l" to="qxi4:JPngvNuauB" resolve="getChildren" />
+                <node concept="liA8E" id="3uYssuoSZ9t" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.findCellWithId(org.jetbrains.mps.openapi.model.SNode,java.lang.String)" resolve="findCellWithId" />
+                  <node concept="2OqwBi" id="3uYssuoSZ9F" role="37wK5m">
+                    <node concept="37vLTw" id="3uYssuoSZ9w" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3Mmo2MQtViz" resolve="editorComponent" />
+                    </node>
+                    <node concept="liA8E" id="3uYssuoSZ9G" role="2OqNvi">
+                      <ref role="37wK5l" to="exr9:~EditorComponent.getEditedNode()" resolve="getEditedNode" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="3uYssuoSZ9v" role="37wK5m">
+                    <property role="Xl_RC" value="Collection_f9gyoa_b0a" />
+                  </node>
                 </node>
-              </node>
-              <node concept="3cmrfG" id="uz5d2N8qQb" role="1y58nS">
-                <property role="3cmrfH" value="1" />
               </node>
             </node>
           </node>
@@ -10397,17 +10840,27 @@
             <node concept="3uibUv" id="4Iz1_7hUjmX" role="10QFUM">
               <ref role="3uigEE" to="qxi4:JPngvNuatB" resolve="LayoutableCollectionAdapter" />
             </node>
-            <node concept="1y4W85" id="4Iz1_7hUjmY" role="10QFUP">
-              <node concept="2OqwBi" id="4Iz1_7hUjn1" role="1y566C">
-                <node concept="37vLTw" id="4Iz1_7hUjn4" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3Mmo2MQviwi" resolve="gridRoot" />
+            <node concept="2YIFZM" id="3uYssuoSZ9H" role="10QFUP">
+              <ref role="1Pybhc" to="qxi4:JPngvNub0g" resolve="LayoutableAdapters" />
+              <ref role="37wK5l" to="qxi4:40e1npHqXb7" resolve="getAdapter" />
+              <node concept="2OqwBi" id="3uYssuoSZa3" role="37wK5m">
+                <node concept="37vLTw" id="3uYssuoSZ9Q" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3Mmo2MQtViz" resolve="editorComponent" />
                 </node>
-                <node concept="liA8E" id="4Iz1_7hUjn5" role="2OqNvi">
-                  <ref role="37wK5l" to="qxi4:JPngvNuauB" resolve="getChildren" />
+                <node concept="liA8E" id="3uYssuoSZa4" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.findCellWithId(org.jetbrains.mps.openapi.model.SNode,java.lang.String)" resolve="findCellWithId" />
+                  <node concept="2OqwBi" id="3uYssuoSZai" role="37wK5m">
+                    <node concept="37vLTw" id="3uYssuoSZa7" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3Mmo2MQtViz" resolve="editorComponent" />
+                    </node>
+                    <node concept="liA8E" id="3uYssuoSZaj" role="2OqNvi">
+                      <ref role="37wK5l" to="exr9:~EditorComponent.getEditedNode()" resolve="getEditedNode" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="3uYssuoSZa6" role="37wK5m">
+                    <property role="Xl_RC" value="Collection_f9gyoa_c0a" />
+                  </node>
                 </node>
-              </node>
-              <node concept="3cmrfG" id="4Iz1_7hUjn6" role="1y58nS">
-                <property role="3cmrfH" value="2" />
               </node>
             </node>
           </node>
@@ -10592,7 +11045,7 @@
         </node>
         <node concept="3_1$Yv" id="7ZFEi34xSvH" role="3_9lra">
           <node concept="Xl_RD" id="7ZFEi34xSvG" role="3_1BAH">
-            <property role="Xl_RC" value="independent collection setup failed" />
+            <property role="Xl_RC" value="independent collection did not grow to the allocated width" />
           </node>
         </node>
       </node>
@@ -10607,7 +11060,7 @@
         </node>
         <node concept="3_1$Yv" id="7ZFEi34xSvK" role="3_9lra">
           <node concept="Xl_RD" id="7ZFEi34xSvJ" role="3_1BAH">
-            <property role="Xl_RC" value="independent collection setup failed" />
+            <property role="Xl_RC" value="independent collection did not grow to the allocated height" />
           </node>
         </node>
       </node>
@@ -10620,7 +11073,7 @@
         </node>
         <node concept="3_1$Yv" id="7ZFEi34xSvN" role="3_9lra">
           <node concept="Xl_RD" id="7ZFEi34xSvM" role="3_1BAH">
-            <property role="Xl_RC" value="independent collection setup failed" />
+            <property role="Xl_RC" value="left padding of the independent collection was not set to 7" />
           </node>
         </node>
       </node>
@@ -10700,7 +11153,7 @@
         </node>
         <node concept="3_1$Yv" id="7ZFEi34xSvQ" role="3_9lra">
           <node concept="Xl_RD" id="7ZFEi34xSvP" role="3_1BAH">
-            <property role="Xl_RC" value="independent collection changed by grid postprocess" />
+            <property role="Xl_RC" value="grid postprocess changed the width of the independent collection" />
           </node>
         </node>
       </node>
@@ -10718,7 +11171,7 @@
         </node>
         <node concept="3_1$Yv" id="7ZFEi34xSvT" role="3_9lra">
           <node concept="Xl_RD" id="7ZFEi34xSvS" role="3_1BAH">
-            <property role="Xl_RC" value="independent collection changed by grid postprocess" />
+            <property role="Xl_RC" value="grid postprocess changed the height of the independent collection" />
           </node>
         </node>
       </node>
@@ -10753,7 +11206,7 @@
         </node>
         <node concept="3_1$Yv" id="7ZFEi34xSvW" role="3_9lra">
           <node concept="Xl_RD" id="7ZFEi34xSvV" role="3_1BAH">
-            <property role="Xl_RC" value="independent collection changed by grid postprocess" />
+            <property role="Xl_RC" value="grid postprocess changed the left padding of the independent collection" />
           </node>
         </node>
       </node>
@@ -10934,7 +11387,7 @@
         </node>
         <node concept="3_1$Yv" id="4Iz1_7hUjp$" role="3_9lra">
           <node concept="Xl_RD" id="4Iz1_7hUjp_" role="3_1BAH">
-            <property role="Xl_RC" value="flattened collection not fitted to its children" />
+            <property role="Xl_RC" value="inner x of the flattened collection is not the left edge of its children" />
           </node>
         </node>
       </node>
@@ -10957,7 +11410,7 @@
         </node>
         <node concept="3_1$Yv" id="4Iz1_7hUjpN" role="3_9lra">
           <node concept="Xl_RD" id="4Iz1_7hUjpO" role="3_1BAH">
-            <property role="Xl_RC" value="flattened collection not fitted to its children" />
+            <property role="Xl_RC" value="inner width of the flattened collection does not span its children" />
           </node>
         </node>
       </node>
@@ -10975,7 +11428,7 @@
         </node>
         <node concept="3_1$Yv" id="4Iz1_7hUjpY" role="3_9lra">
           <node concept="Xl_RD" id="4Iz1_7hUjpZ" role="3_1BAH">
-            <property role="Xl_RC" value="flattened collection not fitted to its children" />
+            <property role="Xl_RC" value="inner y of the flattened collection is not the top edge of its children" />
           </node>
         </node>
       </node>
@@ -10998,7 +11451,7 @@
         </node>
         <node concept="3_1$Yv" id="4Iz1_7hUjqd" role="3_9lra">
           <node concept="Xl_RD" id="4Iz1_7hUjqe" role="3_1BAH">
-            <property role="Xl_RC" value="flattened collection not fitted to its children" />
+            <property role="Xl_RC" value="inner height of the flattened collection does not span its children" />
           </node>
         </node>
       </node>
@@ -11272,7 +11725,7 @@
         </node>
         <node concept="3_1$Yv" id="7ZFEi34xSw2" role="3_9lra">
           <node concept="Xl_RD" id="7ZFEi34xSw1" role="3_1BAH">
-            <property role="Xl_RC" value="child removal control failed" />
+            <property role="Xl_RC" value="child count after removal is not 1" />
           </node>
         </node>
       </node>
@@ -11292,7 +11745,7 @@
         </node>
         <node concept="3_1$Yv" id="7ZFEi34xSw5" role="3_9lra">
           <node concept="Xl_RD" id="7ZFEi34xSw4" role="3_1BAH">
-            <property role="Xl_RC" value="child removal control failed" />
+            <property role="Xl_RC" value="removed child is still the last cell" />
           </node>
         </node>
       </node>
@@ -11380,6 +11833,62 @@
   <node concept="312cEu" id="4Dq5m_WUoWh">
     <property role="TrG5h" value="CloneContractFixture" />
     <node concept="3Tm1VV" id="4Dq5m_WUoWi" role="1B3o_S" />
+    <node concept="Wx3nA" id="6mTvvjrLgPY" role="jymVt">
+      <property role="TrG5h" value="GEOMETRY_VALUES" />
+      <property role="3TUv4t" value="true" />
+      <node concept="10Q1$e" id="6mTvvjrLgQ0" role="1tU5fm">
+        <node concept="17QB3L" id="3uYssuoV$li" role="10Q1$1" />
+      </node>
+      <node concept="2ShNRf" id="6mTvvjrLgQ9" role="33vP2m">
+        <node concept="3g6Rrh" id="6mTvvjrLgQ8" role="2ShVmc">
+          <node concept="Xl_RD" id="6mTvvjrLgQ2" role="3g7hyw">
+            <property role="Xl_RC" value="x" />
+          </node>
+          <node concept="Xl_RD" id="6mTvvjrLgQ3" role="3g7hyw">
+            <property role="Xl_RC" value="y" />
+          </node>
+          <node concept="Xl_RD" id="6mTvvjrLgQ4" role="3g7hyw">
+            <property role="Xl_RC" value="width" />
+          </node>
+          <node concept="Xl_RD" id="6mTvvjrLgQ5" role="3g7hyw">
+            <property role="Xl_RC" value="height" />
+          </node>
+          <node concept="Xl_RD" id="6mTvvjrLgQ6" role="3g7hyw">
+            <property role="Xl_RC" value="ascent" />
+          </node>
+          <node concept="Xl_RD" id="6mTvvjrLgQ7" role="3g7hyw">
+            <property role="Xl_RC" value="descent" />
+          </node>
+          <node concept="17QB3L" id="3uYssuoV$lo" role="3g7fb8" />
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="6mTvvjrLgQa" role="1B3o_S" />
+    </node>
+    <node concept="Wx3nA" id="6mTvvjrLgQb" role="jymVt">
+      <property role="TrG5h" value="FRAME_SIDES" />
+      <property role="3TUv4t" value="true" />
+      <node concept="10Q1$e" id="6mTvvjrLgQd" role="1tU5fm">
+        <node concept="17QB3L" id="3uYssuoV$lp" role="10Q1$1" />
+      </node>
+      <node concept="2ShNRf" id="6mTvvjrLgQk" role="33vP2m">
+        <node concept="3g6Rrh" id="6mTvvjrLgQj" role="2ShVmc">
+          <node concept="Xl_RD" id="6mTvvjrLgQf" role="3g7hyw">
+            <property role="Xl_RC" value="left" />
+          </node>
+          <node concept="Xl_RD" id="6mTvvjrLgQg" role="3g7hyw">
+            <property role="Xl_RC" value="right" />
+          </node>
+          <node concept="Xl_RD" id="6mTvvjrLgQh" role="3g7hyw">
+            <property role="Xl_RC" value="top" />
+          </node>
+          <node concept="Xl_RD" id="6mTvvjrLgQi" role="3g7hyw">
+            <property role="Xl_RC" value="bottom" />
+          </node>
+          <node concept="17QB3L" id="3uYssuoV$ll" role="3g7fb8" />
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="6mTvvjrLgQl" role="1B3o_S" />
+    </node>
     <node concept="2YIFZL" id="4Dq5m_WUoWj" role="jymVt">
       <property role="TrG5h" value="configure" />
       <node concept="37vLTG" id="4Dq5m_WUoWk" role="3clF46">
@@ -12053,6 +12562,81 @@
         </node>
       </node>
     </node>
+    <node concept="2YIFZL" id="6mTvvjrLgQm" role="jymVt">
+      <property role="TrG5h" value="geometryValue" />
+      <node concept="37vLTG" id="6mTvvjrLgQn" role="3clF46">
+        <property role="TrG5h" value="layer" />
+        <node concept="17QB3L" id="3uYssuoV$ln" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6mTvvjrLgQp" role="3clF46">
+        <property role="TrG5h" value="index" />
+        <node concept="10Oyi0" id="6mTvvjrLgQq" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="6mTvvjrLgQr" role="3clF47">
+        <node concept="3cpWs6" id="6mTvvjrLgQs" role="3cqZAp">
+          <node concept="3cpWs3" id="6mTvvjrLgQt" role="3cqZAk">
+            <node concept="3cpWs3" id="6mTvvjrLgQu" role="3uHU7B">
+              <node concept="37vLTw" id="6mTvvjrLgQv" role="3uHU7B">
+                <ref role="3cqZAo" node="6mTvvjrLgQn" resolve="layer" />
+              </node>
+              <node concept="Xl_RD" id="6mTvvjrLgQw" role="3uHU7w">
+                <property role="Xl_RC" value="." />
+              </node>
+            </node>
+            <node concept="AH0OO" id="6mTvvjrLgQx" role="3uHU7w">
+              <node concept="37vLTw" id="6mTvvjrLgQy" role="AHHXb">
+                <ref role="3cqZAo" node="6mTvvjrLgPY" resolve="GEOMETRY_VALUES" />
+              </node>
+              <node concept="37vLTw" id="6mTvvjrLgQz" role="AHEQo">
+                <ref role="3cqZAo" node="6mTvvjrLgQp" resolve="index" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6mTvvjrLgQ$" role="1B3o_S" />
+      <node concept="17QB3L" id="3uYssuoV$lk" role="3clF45" />
+    </node>
+    <node concept="2YIFZL" id="6mTvvjrLgQA" role="jymVt">
+      <property role="TrG5h" value="frameSide" />
+      <node concept="37vLTG" id="6mTvvjrLgQB" role="3clF46">
+        <property role="TrG5h" value="layer" />
+        <node concept="17QB3L" id="3uYssuoV$lf" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6mTvvjrLgQD" role="3clF46">
+        <property role="TrG5h" value="index" />
+        <node concept="10Oyi0" id="6mTvvjrLgQE" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="6mTvvjrLgQF" role="3clF47">
+        <node concept="3cpWs6" id="6mTvvjrLgQG" role="3cqZAp">
+          <node concept="3cpWs3" id="6mTvvjrLgQH" role="3cqZAk">
+            <node concept="3cpWs3" id="6mTvvjrLgQI" role="3uHU7B">
+              <node concept="3cpWs3" id="6mTvvjrLgQJ" role="3uHU7B">
+                <node concept="37vLTw" id="6mTvvjrLgQK" role="3uHU7B">
+                  <ref role="3cqZAo" node="6mTvvjrLgQB" resolve="layer" />
+                </node>
+                <node concept="Xl_RD" id="6mTvvjrLgQL" role="3uHU7w">
+                  <property role="Xl_RC" value="." />
+                </node>
+              </node>
+              <node concept="AH0OO" id="6mTvvjrLgQM" role="3uHU7w">
+                <node concept="37vLTw" id="6mTvvjrLgQN" role="AHHXb">
+                  <ref role="3cqZAo" node="6mTvvjrLgQb" resolve="FRAME_SIDES" />
+                </node>
+                <node concept="37vLTw" id="6mTvvjrLgQO" role="AHEQo">
+                  <ref role="3cqZAo" node="6mTvvjrLgQD" resolve="index" />
+                </node>
+              </node>
+            </node>
+            <node concept="Xl_RD" id="6mTvvjrLgQP" role="3uHU7w">
+              <property role="Xl_RC" value=" size" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6mTvvjrLgQQ" role="1B3o_S" />
+      <node concept="17QB3L" id="3uYssuoV$lm" role="3clF45" />
+    </node>
     <node concept="2YIFZL" id="4Dq5m_WUp0k" role="jymVt">
       <property role="TrG5h" value="mutate" />
       <node concept="37vLTG" id="4Dq5m_WUp0l" role="3clF46">
@@ -12501,51 +13085,29 @@
           <node concept="369mXd" id="4Iz1_7hUCPu" role="33vP2m" />
         </node>
       </node>
-      <node concept="3cpWs8" id="4Iz1_7hUCPv" role="3cqZAp">
-        <node concept="3cpWsn" id="4Iz1_7hUCPy" role="3cpWs9">
-          <property role="TrG5h" value="row" />
-          <node concept="3uibUv" id="4Iz1_7hUCP$" role="1tU5fm">
-            <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
-          </node>
-          <node concept="10QFUN" id="4Iz1_7hUCP_" role="33vP2m">
-            <node concept="3uibUv" id="4Iz1_7hUCPC" role="10QFUM">
-              <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
-            </node>
-            <node concept="2OqwBi" id="4Iz1_7hUCPD" role="10QFUP">
-              <node concept="1eOMI4" id="4Iz1_7hUCPG" role="2Oq$k0">
-                <node concept="10QFUN" id="4Iz1_7hUCPI" role="1eOMHV">
-                  <node concept="3uibUv" id="4Iz1_7hUCPL" role="10QFUM">
-                    <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
-                  </node>
-                  <node concept="2OqwBi" id="4Iz1_7hUCPM" role="10QFUP">
-                    <node concept="37vLTw" id="4Iz1_7hUCPP" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4Iz1_7hUCPr" resolve="editorComponent" />
-                    </node>
-                    <node concept="liA8E" id="4Iz1_7hUCPQ" role="2OqNvi">
-                      <ref role="37wK5l" to="exr9:~EditorComponent.getRootCell()" resolve="getRootCell" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="liA8E" id="4Iz1_7hUCPR" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell_Collection.firstCell()" resolve="firstCell" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="3cpWs8" id="4Iz1_7hUCPS" role="3cqZAp">
         <node concept="3cpWsn" id="4Iz1_7hUCPV" role="3cpWs9">
           <property role="TrG5h" value="leaf" />
           <node concept="3uibUv" id="4Iz1_7hUCPX" role="1tU5fm">
             <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
           </node>
-          <node concept="2OqwBi" id="4Iz1_7hUCPY" role="33vP2m">
-            <node concept="37vLTw" id="4Iz1_7hUCQ1" role="2Oq$k0">
-              <ref role="3cqZAo" node="4Iz1_7hUCPy" resolve="row" />
+          <node concept="2OqwBi" id="3uYssuoSZaC" role="33vP2m">
+            <node concept="37vLTw" id="3uYssuoSZar" role="2Oq$k0">
+              <ref role="3cqZAo" node="4Iz1_7hUCPr" resolve="editorComponent" />
             </node>
-            <node concept="liA8E" id="4Iz1_7hUCQ2" role="2OqNvi">
-              <ref role="37wK5l" to="f4zo:~EditorCell_Collection.firstCell()" resolve="firstCell" />
+            <node concept="liA8E" id="3uYssuoSZaD" role="2OqNvi">
+              <ref role="37wK5l" to="exr9:~EditorComponent.findCellWithId(org.jetbrains.mps.openapi.model.SNode,java.lang.String)" resolve="findCellWithId" />
+              <node concept="2OqwBi" id="3uYssuoSZaR" role="37wK5m">
+                <node concept="37vLTw" id="3uYssuoSZaG" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Iz1_7hUCPr" resolve="editorComponent" />
+                </node>
+                <node concept="liA8E" id="3uYssuoSZaS" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditedNode()" resolve="getEditedNode" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="3uYssuoSZaF" role="37wK5m">
+                <property role="Xl_RC" value="Constant_lb074b_a0a" />
+              </node>
             </node>
           </node>
         </node>
@@ -12613,7 +13175,7 @@
         </node>
         <node concept="3_1$Yv" id="4Iz1_7hUCQC" role="3_9lra">
           <node concept="Xl_RD" id="4Iz1_7hUCQD" role="3_1BAH">
-            <property role="Xl_RC" value="border fixture control failed" />
+            <property role="Xl_RC" value="right border size of the leaf is not 2" />
           </node>
         </node>
       </node>
@@ -12633,7 +13195,7 @@
         </node>
         <node concept="3_1$Yv" id="4Iz1_7hUCQO" role="3_9lra">
           <node concept="Xl_RD" id="4Iz1_7hUCQP" role="3_1BAH">
-            <property role="Xl_RC" value="border fixture control failed" />
+            <property role="Xl_RC" value="leaf has a left border" />
           </node>
         </node>
       </node>
@@ -12778,7 +13340,7 @@
           <node concept="2ShNRf" id="4Iz1_7hUGHY" role="37wK5m">
             <node concept="1pGfFk" id="4Iz1_7hUGI0" role="2ShVmc">
               <property role="373rjd" value="true" />
-              <ref role="37wK5l" to="xggr:IKsX8pnevq" />
+              <ref role="37wK5l" to="xggr:IKsX8pnevq" resolve="IndentLayout" />
               <node concept="3cmrfG" id="4Iz1_7hUGI1" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>

@@ -274,7 +274,6 @@
       <concept id="7400021826774799413" name="jetbrains.mps.lang.smodel.structure.NodePointerExpression" flags="ng" index="2tJFMh">
         <child id="7400021826774799510" name="ref" index="2tJFKM" />
       </concept>
-      <concept id="4065387505485742666" name="jetbrains.mps.lang.smodel.structure.ModelPointer_ResolveOperation" flags="ng" index="2yCiCJ" />
       <concept id="4065387505485742749" name="jetbrains.mps.lang.smodel.structure.AbstractPointerResolveOperation" flags="ng" index="2yCiFS">
         <child id="3648723375513868575" name="repositoryArg" index="Vysub" />
       </concept>
@@ -316,9 +315,6 @@
       </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
-      </concept>
-      <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
-        <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
       </concept>
       <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
         <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
@@ -421,60 +417,6 @@
       </node>
       <node concept="3Tm1VV" id="5w9Tncge_9Y" role="1B3o_S" />
       <node concept="10Oyi0" id="5w9TncdPvp6" role="3clF45" />
-    </node>
-    <node concept="2YIFZL" id="5w9TncdPvpA" role="jymVt">
-      <property role="TrG5h" value="fixtureModel" />
-      <node concept="37vLTG" id="5w9TncdPvpB" role="3clF46">
-        <property role="TrG5h" value="project" />
-        <node concept="3uibUv" id="5w9TncdPvpC" role="1tU5fm">
-          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="5w9TncdPvpD" role="3clF47">
-        <node concept="3cpWs8" id="5w9TncdPvpF" role="3cqZAp">
-          <node concept="3cpWsn" id="5w9TncdPvpE" role="3cpWs9">
-            <property role="TrG5h" value="model" />
-            <node concept="H_c77" id="5w9TncgcEFA" role="1tU5fm" />
-            <node concept="2OqwBi" id="5w9TncgcF4r" role="33vP2m">
-              <node concept="1Xw6AR" id="5w9TncgcF4s" role="2Oq$k0">
-                <node concept="1dCxOl" id="5w9TncgcF4t" role="1XwpL7">
-                  <property role="1XweGQ" value="r:2f17ab6e-1fbc-460b-969f-c9fd8950e44d" />
-                  <node concept="1j_P7g" id="5w9TncgcF4u" role="1j$8Uc">
-                    <property role="1j_P7h" value="com.jetbrains.mpsext.plaintextgen.tests.layouts" />
-                  </node>
-                </node>
-              </node>
-              <node concept="2yCiCJ" id="5w9TncgcF4v" role="2OqNvi">
-                <node concept="2OqwBi" id="5w9TncgcF4w" role="Vysub">
-                  <node concept="37vLTw" id="5w9TncgcF4x" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5w9TncdPvpB" resolve="project" />
-                  </node>
-                  <node concept="liA8E" id="5w9TncgcF4y" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2Hmddi" id="5w9TncgcFuz" role="3cqZAp">
-          <node concept="3_1$Yv" id="5w9TncgcFu$" role="3_9lra">
-            <node concept="Xl_RD" id="5w9TncgcFu_" role="3_1BAH">
-              <property role="Xl_RC" value="The named layouts fixture model must resolve in the project repository" />
-            </node>
-          </node>
-          <node concept="37vLTw" id="5w9TncgcFuA" role="2Hmdds">
-            <ref role="3cqZAo" node="5w9TncdPvpE" resolve="model" />
-          </node>
-        </node>
-        <node concept="3cpWs6" id="5w9TncdPvpP" role="3cqZAp">
-          <node concept="37vLTw" id="5w9TncdPvpQ" role="3cqZAk">
-            <ref role="3cqZAo" node="5w9TncdPvpE" resolve="model" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="5w9Tncge_9Z" role="1B3o_S" />
-      <node concept="H_c77" id="5w9TncgcEF_" role="3clF45" />
     </node>
     <node concept="2YIFZL" id="5w9TncgPtNY" role="jymVt">
       <property role="TrG5h" value="withFixture" />

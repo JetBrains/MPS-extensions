@@ -11725,7 +11725,7 @@
         </node>
         <node concept="3_1$Yv" id="7ZFEi34xSw2" role="3_9lra">
           <node concept="Xl_RD" id="7ZFEi34xSw1" role="3_1BAH">
-            <property role="Xl_RC" value="child removal control failed" />
+            <property role="Xl_RC" value="child count after removal is not 1" />
           </node>
         </node>
       </node>
@@ -11745,7 +11745,7 @@
         </node>
         <node concept="3_1$Yv" id="7ZFEi34xSw5" role="3_9lra">
           <node concept="Xl_RD" id="7ZFEi34xSw4" role="3_1BAH">
-            <property role="Xl_RC" value="child removal control failed" />
+            <property role="Xl_RC" value="removed child is still the last cell" />
           </node>
         </node>
       </node>

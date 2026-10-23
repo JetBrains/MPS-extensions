@@ -14,6 +14,10 @@ Add layout templates to `layouts` and use
 expectedText)`. This local adapter only copies fixtures into temporary models
 and delegates exact byte/metadata checks to the shared comparator assertions.
 Select fixtures by name, not root order. `OutputAssertions` covers rejection paths.
+Keep each scenario's input, production call and native test assertions in its
+test method; helpers provide fixture setup, generation or reusable byte assertions,
+not a scenario dispatcher. Access fixture links and properties through smodel,
+and use typed `LineEnding`/`LineEndingOverride` enum members for override matrices.
 
 For generator comparisons, use the existing comparison-language assertions, as
 in `Generator`. Its checked-in expected snapshot is independent of the generator

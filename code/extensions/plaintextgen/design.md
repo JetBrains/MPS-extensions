@@ -39,16 +39,25 @@ previous empty/null-input behavior.
 ### Dialogs and model access
 
 Both the intention and the paste-group action defer their UI work until the
-initiating editor command has returned. Preview preparation uses a short model
-command, dialogs run without model read/write access, and only the confirmed
-application enters a separate command. The fingerprint check rejects changes
-made while the preview was open. Recovery similarly copies models in a bounded
-command and opens the projectional diff after releasing model access.
+initiating editor command has returned. Preview preparation uses a short write
+action to register and dispose temporary models, not an undoable command.
+Dialogs run without model read/write access, and only the confirmed application
+enters a separate command. The fingerprint check rejects changes made while the
+preview was open. Recovery similarly copies models in a bounded write action
+and opens the projectional diff after releasing model access.
+
+Preview, recovery, and test fixtures use independent, non-reloadable temporary
+modules. Adding missing imports to a temporary model in the source module can
+change that module's dependencies and invalidate its classloader. Independent
+temporary modules avoid changing the source module or its classloader.
 
 The UI entry points check that no model access is held before opening dialogs.
-Native regressions cover the lock guard and a deferred EDT callback that allows
-a concurrent background model reader to complete. Actual preview and warning
-cancellation remain manual UI checks, not claims made by the plan-preparation test.
+Per-call dialog hooks let native regressions invoke the real paste and recovery
+entry points from an EDT command without displaying modal UI. The hooks cancel
+the actual preview, check the recovery report and isolated model copies, and
+allow concurrent background model readers to complete. Every reader thread is
+joined. Visible dialog interaction, replacement-warning cancellation, and
+one-step Ctrl+Z in the editor remain manual validation checks.
 
 ### Recovery
 
@@ -61,7 +70,7 @@ directory, outside the project and Git. They survive restarts and cache
 invalidation, are local to that IDE configuration, and remain until manually
 removed. A snapshot may contain other roots from the original model.
 
-**Review latest diffing-paste recovery** opens the report and standard MPS
+**Review Latest Diffing-Paste Recovery** opens the report and standard MPS
 projectional model diff. The left side contains the original model, including
 macro ASTs, for copying and reconstruction. Both sides are temporary copies;
 reviewing recovery cannot edit the current template. The report identifies the
@@ -73,13 +82,13 @@ and is hidden when its `latest` index does not exist.
 
 1. Use a disposable template with a property macro on a word and a loop macro
    on an indented group. Copy matching literal text with a change on another line.
-2. Invoke **Paste text with diff preview** and cancel. Verify content and macros
+2. Invoke **Paste Text with Diff Preview** and cancel. Verify content and macros
    are unchanged. Repeat and apply; unchanged annotated content must retain macros.
 3. Change only an unannotated word on the same line as the annotated word.
    Verify that the unchanged word's property macro survives.
 4. Replace the annotated word. Verify the extra warning; cancel first, then
    repeat and confirm. Read the saved annotation report.
-5. Invoke **Review latest diffing-paste recovery**, inspect/copy original macros
+5. Invoke **Review Latest Diffing-Paste Recovery**, inspect/copy original macros
    from the left side, close the dialog, restart MPS, and review again.
 6. Check indentation, tabs, and internal blank lines. Verify Undo restores the
    pre-paste template. Recovery files intentionally remain on disk.
@@ -104,7 +113,7 @@ separate build-script registration.
 | `generation@tests` | `Generator`, `GeneratedText` | Independent model snapshot; nested/empty property and loop macros; PlainTextFlow reductions |
 | `pasting@tests` | `Pasting` | Indent detection, dedents, blank lines, line endings, tabs, and empty/null input |
 | `pasting@tests` | `DiffingPaste`, `DiffingPasteWords`, `DiffingPasteLayouts`, `DiffingPasteHistory`, `DiffingPasteReview` | Node/annotation identity, edits, repeated text, layout fallback, confirmations, stale previews, persistence failure, recovery history, non-generator attributes, and the dialog lock guard |
-| `pasting@tests` | `DiffingPasteThreading` | Deferred UI work releases model access and permits a concurrent background reader |
+| `pasting@tests` | `DiffingPasteThreading` | Real paste/recovery entry points, preview cancellation, isolated recovery copies, unlocked dialog callbacks, and joined concurrent readers |
 
 For layout regressions, add a template to `layouts` and use
 `PlainTextGenAssertions.assertText(project, template, fileName, encoding,

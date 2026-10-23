@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:e23337c0-33b4-42ca-b61c-0ab8c2a58412(com.dslfoundry.plaintextgen.tests.intentions@tests)">
+<model ref="r:e23337c0-33b4-42ca-b61c-0ab8c2a58412(com.jetbrains.mpsext.plaintextgen.editor.tests.intentions@tests)">
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="990507d3-3527-4c54-bfe9-0ca3c9c6247a" name="com.dslfoundry.plaintextgen" version="0" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -52,10 +56,6 @@
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
-      <concept id="1173175405605" name="jetbrains.mps.baseLanguage.structure.ArrayAccessExpression" flags="nn" index="AH0OO">
-        <child id="1173175577737" name="index" index="AHEQo" />
-        <child id="1173175590490" name="array" index="AHHXb" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -69,20 +69,14 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
-        <child id="1182160096073" name="cls" index="YeSDq" />
-      </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
-        <child id="1164991057263" name="throwable" index="YScLw" />
-      </concept>
-      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
-      <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
-        <child id="1070534760952" name="componentType" index="10Q1$1" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
       </concept>
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -103,8 +97,6 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
-      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
-      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -126,7 +118,6 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-      <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
@@ -149,13 +140,6 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
-      <concept id="1184950988562" name="jetbrains.mps.baseLanguage.structure.ArrayCreator" flags="nn" index="3$_iS1">
-        <child id="1184951007469" name="componentType" index="3$_nBY" />
-        <child id="1184952969026" name="dimensionExpression" index="3$GQph" />
-      </concept>
-      <concept id="1184952934362" name="jetbrains.mps.baseLanguage.structure.DimensionExpression" flags="nn" index="3$GHV9">
-        <child id="1184953288404" name="expression" index="3$I4v7" />
-      </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -167,8 +151,40 @@
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
-      <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
-        <reference id="1170346070688" name="classifier" index="1Y3XeK" />
+    </language>
+    <language id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access">
+      <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
+      <concept id="8974276187400348170" name="jetbrains.mps.lang.access.structure.BaseExecuteCommandStatement" flags="nn" index="1QHqEJ">
+        <child id="1423104411234567454" name="repo" index="ukAjM" />
+        <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
+      </concept>
+      <concept id="8974276187400348181" name="jetbrains.mps.lang.access.structure.ExecuteLightweightCommandStatement" flags="nn" index="1QHqEK" />
+    </language>
+    <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
+        <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
+    </language>
+    <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest">
+      <concept id="7080278351417106679" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertIsNotNull" flags="nn" index="2Hmddi">
+        <child id="7080278351417106681" name="expression" index="2Hmdds" />
+      </concept>
+      <concept id="8427750732757990717" name="jetbrains.mps.baseLanguage.unitTest.structure.BinaryAssert" flags="nn" index="3tpDYu">
+        <child id="8427750732757990725" name="actual" index="3tpDZA" />
+        <child id="8427750732757990724" name="expected" index="3tpDZB" />
+      </concept>
+      <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
+      <concept id="1171981022339" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertTrue" flags="nn" index="3vwNmj">
+        <child id="1171981057159" name="condition" index="3vwVQn" />
+      </concept>
+      <concept id="1171983834376" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertFalse" flags="nn" index="3vFxKo">
+        <child id="1171983854940" name="condition" index="3vFALc" />
+      </concept>
+      <concept id="1172073500303" name="jetbrains.mps.baseLanguage.unitTest.structure.Message" flags="ng" index="3_1$Yv">
+        <child id="1172073511101" name="message" index="3_1BAH" />
+      </concept>
+      <concept id="1172075514136" name="jetbrains.mps.baseLanguage.unitTest.structure.MessageHolder" flags="ngI" index="3_9gw8">
+        <child id="1172075534298" name="message" index="3_9lra" />
       </concept>
     </language>
     <language id="990507d3-3527-4c54-bfe9-0ca3c9c6247a" name="com.dslfoundry.plaintextgen">
@@ -199,7 +215,10 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
+      <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
+      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -279,9 +298,7 @@
       <node concept="3cpWs8" id="2kY8lc_JsIZ" role="3cqZAp">
         <node concept="3cpWsn" id="2kY8lc_JsIY" role="3cpWs9">
           <property role="TrG5h" value="root" />
-          <node concept="3uibUv" id="2kY8lc_JsJ0" role="1tU5fm">
-            <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-          </node>
+          <node concept="3Tqbb2" id="5w9TncfTqeX" role="1tU5fm" />
           <node concept="2OqwBi" id="2kY8lc_JsSb" role="33vP2m">
             <node concept="1eOMI4" id="2kY8lc_JsJ5" role="2Oq$k0">
               <node concept="369mXd" id="2kY8lc_JsSh" role="1eOMHV" />
@@ -305,37 +322,33 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="2kY8lc_JscP" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_Jsu3" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertTrue(java.lang.String,boolean)" resolve="assertTrue" />
-          <node concept="Xl_RD" id="2kY8lc_Jsu4" role="37wK5m">
-            <property role="Xl_RC" value="Intention availability at the selected word" />
+      <node concept="3vwNmj" id="5w9TncfTqf6" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqf7" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqf8" role="3_1BAH">
+            <property role="Xl_RC" value="SplitTopLevelFromWord: intention must be available at the selected word" />
           </node>
-          <node concept="2bRw2S" id="2kY8lc_Jsu9" role="37wK5m">
-            <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
-          </node>
+        </node>
+        <node concept="2bRw2S" id="5w9TncfTqf9" role="3vwVQn">
+          <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
         </node>
       </node>
       <node concept="1MFPAf" id="2kY8lc_Jsua" role="3cqZAp">
         <ref role="1MFYO6" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
       </node>
-      <node concept="3clFbF" id="2kY8lc_JsSj" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_JsSp" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object)" resolve="assertEquals" />
-          <node concept="Xl_RD" id="2kY8lc_JsSq" role="37wK5m">
-            <property role="Xl_RC" value="Splitting must preserve generated layout" />
+      <node concept="3vlDli" id="5w9TncfTqfa" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqfb" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqfc" role="3_1BAH">
+            <property role="Xl_RC" value="SplitTopLevelFromWord: splitting must preserve generated layout" />
           </node>
-          <node concept="37vLTw" id="2kY8lc_JsSr" role="37wK5m">
-            <ref role="3cqZAo" node="2kY8lc_JsJ6" resolve="before" />
-          </node>
-          <node concept="2YIFZM" id="2kY8lc_JsSu" role="37wK5m">
-            <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
-            <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
-            <node concept="37vLTw" id="2kY8lc_JsSv" role="37wK5m">
-              <ref role="3cqZAo" node="2kY8lc_JsIY" resolve="root" />
-            </node>
+        </node>
+        <node concept="37vLTw" id="5w9TncfTqfd" role="3tpDZB">
+          <ref role="3cqZAo" node="2kY8lc_JsJ6" resolve="before" />
+        </node>
+        <node concept="2YIFZM" id="5w9TncfTqfe" role="3tpDZA">
+          <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
+          <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
+          <node concept="37vLTw" id="5w9TncfTqff" role="37wK5m">
+            <ref role="3cqZAo" node="2kY8lc_JsIY" resolve="root" />
           </node>
         </node>
       </node>
@@ -407,9 +420,7 @@
       <node concept="3cpWs8" id="2kY8lc_JsZI" role="3cqZAp">
         <node concept="3cpWsn" id="2kY8lc_JsZH" role="3cpWs9">
           <property role="TrG5h" value="root" />
-          <node concept="3uibUv" id="2kY8lc_JsZJ" role="1tU5fm">
-            <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-          </node>
+          <node concept="3Tqbb2" id="5w9TncfTqeY" role="1tU5fm" />
           <node concept="2OqwBi" id="2kY8lc_Jt04" role="33vP2m">
             <node concept="1eOMI4" id="2kY8lc_JsZO" role="2Oq$k0">
               <node concept="369mXd" id="2kY8lc_Jt0a" role="1eOMHV" />
@@ -433,37 +444,33 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="2kY8lc_JsuG" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_JsuK" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertTrue(java.lang.String,boolean)" resolve="assertTrue" />
-          <node concept="Xl_RD" id="2kY8lc_JsuL" role="37wK5m">
-            <property role="Xl_RC" value="Intention availability at the selected word" />
+      <node concept="3vwNmj" id="5w9TncfTqfk" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqfl" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqfm" role="3_1BAH">
+            <property role="Xl_RC" value="SplitAfterMiddleLine: intention must be available at the selected word" />
           </node>
-          <node concept="2bRw2S" id="2kY8lc_JsuQ" role="37wK5m">
-            <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
-          </node>
+        </node>
+        <node concept="2bRw2S" id="5w9TncfTqfn" role="3vwVQn">
+          <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
         </node>
       </node>
       <node concept="1MFPAf" id="2kY8lc_JsuR" role="3cqZAp">
         <ref role="1MFYO6" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jt0c" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_Jt0i" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object)" resolve="assertEquals" />
-          <node concept="Xl_RD" id="2kY8lc_Jt0j" role="37wK5m">
-            <property role="Xl_RC" value="Splitting must preserve generated layout" />
+      <node concept="3vlDli" id="5w9TncfTqfo" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqfp" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqfq" role="3_1BAH">
+            <property role="Xl_RC" value="SplitAfterMiddleLine: splitting must preserve generated layout" />
           </node>
-          <node concept="37vLTw" id="2kY8lc_Jt0k" role="37wK5m">
-            <ref role="3cqZAo" node="2kY8lc_JsZP" resolve="before" />
-          </node>
-          <node concept="2YIFZM" id="2kY8lc_Jt0n" role="37wK5m">
-            <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
-            <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
-            <node concept="37vLTw" id="2kY8lc_Jt0o" role="37wK5m">
-              <ref role="3cqZAo" node="2kY8lc_JsZH" resolve="root" />
-            </node>
+        </node>
+        <node concept="37vLTw" id="5w9TncfTqfr" role="3tpDZB">
+          <ref role="3cqZAo" node="2kY8lc_JsZP" resolve="before" />
+        </node>
+        <node concept="2YIFZM" id="5w9TncfTqfs" role="3tpDZA">
+          <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
+          <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
+          <node concept="37vLTw" id="5w9TncfTqft" role="37wK5m">
+            <ref role="3cqZAo" node="2kY8lc_JsZH" resolve="root" />
           </node>
         </node>
       </node>
@@ -551,9 +558,7 @@
       <node concept="3cpWs8" id="2kY8lc_Jt0W" role="3cqZAp">
         <node concept="3cpWsn" id="2kY8lc_Jt0V" role="3cpWs9">
           <property role="TrG5h" value="root" />
-          <node concept="3uibUv" id="2kY8lc_Jt0X" role="1tU5fm">
-            <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-          </node>
+          <node concept="3Tqbb2" id="5w9TncfTqeZ" role="1tU5fm" />
           <node concept="2OqwBi" id="2kY8lc_Jt1i" role="33vP2m">
             <node concept="1eOMI4" id="2kY8lc_Jt12" role="2Oq$k0">
               <node concept="369mXd" id="2kY8lc_Jt1o" role="1eOMHV" />
@@ -577,37 +582,33 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jsvy" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_JsvA" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertTrue(java.lang.String,boolean)" resolve="assertTrue" />
-          <node concept="Xl_RD" id="2kY8lc_JsvB" role="37wK5m">
-            <property role="Xl_RC" value="Intention availability at the selected word" />
+      <node concept="3vwNmj" id="5w9TncfTqfy" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqfz" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqf$" role="3_1BAH">
+            <property role="Xl_RC" value="SplitInsideHorizontalLine: intention must be available at the selected word" />
           </node>
-          <node concept="2bRw2S" id="2kY8lc_JsvG" role="37wK5m">
-            <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
-          </node>
+        </node>
+        <node concept="2bRw2S" id="5w9TncfTqf_" role="3vwVQn">
+          <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
         </node>
       </node>
       <node concept="1MFPAf" id="2kY8lc_JsvH" role="3cqZAp">
         <ref role="1MFYO6" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jt1q" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_Jt1w" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object)" resolve="assertEquals" />
-          <node concept="Xl_RD" id="2kY8lc_Jt1x" role="37wK5m">
-            <property role="Xl_RC" value="Splitting must preserve generated layout" />
+      <node concept="3vlDli" id="5w9TncfTqfA" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqfB" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqfC" role="3_1BAH">
+            <property role="Xl_RC" value="SplitInsideHorizontalLine: splitting must preserve generated layout" />
           </node>
-          <node concept="37vLTw" id="2kY8lc_Jt1y" role="37wK5m">
-            <ref role="3cqZAo" node="2kY8lc_Jt13" resolve="before" />
-          </node>
-          <node concept="2YIFZM" id="2kY8lc_Jt1_" role="37wK5m">
-            <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
-            <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
-            <node concept="37vLTw" id="2kY8lc_Jt1A" role="37wK5m">
-              <ref role="3cqZAo" node="2kY8lc_Jt0V" resolve="root" />
-            </node>
+        </node>
+        <node concept="37vLTw" id="5w9TncfTqfD" role="3tpDZB">
+          <ref role="3cqZAo" node="2kY8lc_Jt13" resolve="before" />
+        </node>
+        <node concept="2YIFZM" id="5w9TncfTqfE" role="3tpDZA">
+          <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
+          <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
+          <node concept="37vLTw" id="5w9TncfTqfF" role="37wK5m">
+            <ref role="3cqZAo" node="2kY8lc_Jt0V" resolve="root" />
           </node>
         </node>
       </node>
@@ -675,9 +676,7 @@
       <node concept="3cpWs8" id="2kY8lc_Jt2a" role="3cqZAp">
         <node concept="3cpWsn" id="2kY8lc_Jt29" role="3cpWs9">
           <property role="TrG5h" value="root" />
-          <node concept="3uibUv" id="2kY8lc_Jt2b" role="1tU5fm">
-            <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-          </node>
+          <node concept="3Tqbb2" id="5w9TncfTqf0" role="1tU5fm" />
           <node concept="2OqwBi" id="2kY8lc_Jt2w" role="33vP2m">
             <node concept="1eOMI4" id="2kY8lc_Jt2g" role="2Oq$k0">
               <node concept="369mXd" id="2kY8lc_Jt2A" role="1eOMHV" />
@@ -701,37 +700,33 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jswa" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_Jswe" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertTrue(java.lang.String,boolean)" resolve="assertTrue" />
-          <node concept="Xl_RD" id="2kY8lc_Jswf" role="37wK5m">
-            <property role="Xl_RC" value="Intention availability at the selected word" />
+      <node concept="3vwNmj" id="5w9TncfTqfK" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqfL" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqfM" role="3_1BAH">
+            <property role="Xl_RC" value="SplitNestedRightAlignment: intention must be available at the selected word" />
           </node>
-          <node concept="2bRw2S" id="2kY8lc_Jswk" role="37wK5m">
-            <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
-          </node>
+        </node>
+        <node concept="2bRw2S" id="5w9TncfTqfN" role="3vwVQn">
+          <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
         </node>
       </node>
       <node concept="1MFPAf" id="2kY8lc_Jswl" role="3cqZAp">
         <ref role="1MFYO6" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jt2C" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_Jt2I" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object)" resolve="assertEquals" />
-          <node concept="Xl_RD" id="2kY8lc_Jt2J" role="37wK5m">
-            <property role="Xl_RC" value="Splitting must preserve generated layout" />
+      <node concept="3vlDli" id="5w9TncfTqfO" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqfP" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqfQ" role="3_1BAH">
+            <property role="Xl_RC" value="SplitNestedRightAlignment: splitting must preserve generated layout" />
           </node>
-          <node concept="37vLTw" id="2kY8lc_Jt2K" role="37wK5m">
-            <ref role="3cqZAo" node="2kY8lc_Jt2h" resolve="before" />
-          </node>
-          <node concept="2YIFZM" id="2kY8lc_Jt2N" role="37wK5m">
-            <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
-            <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
-            <node concept="37vLTw" id="2kY8lc_Jt2O" role="37wK5m">
-              <ref role="3cqZAo" node="2kY8lc_Jt29" resolve="root" />
-            </node>
+        </node>
+        <node concept="37vLTw" id="5w9TncfTqfR" role="3tpDZB">
+          <ref role="3cqZAo" node="2kY8lc_Jt2h" resolve="before" />
+        </node>
+        <node concept="2YIFZM" id="5w9TncfTqfS" role="3tpDZA">
+          <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
+          <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
+          <node concept="37vLTw" id="5w9TncfTqfT" role="37wK5m">
+            <ref role="3cqZAo" node="2kY8lc_Jt29" resolve="root" />
           </node>
         </node>
       </node>
@@ -799,9 +794,7 @@
       <node concept="3cpWs8" id="2kY8lc_Jt3o" role="3cqZAp">
         <node concept="3cpWsn" id="2kY8lc_Jt3n" role="3cpWs9">
           <property role="TrG5h" value="root" />
-          <node concept="3uibUv" id="2kY8lc_Jt3p" role="1tU5fm">
-            <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-          </node>
+          <node concept="3Tqbb2" id="5w9TncfTqf1" role="1tU5fm" />
           <node concept="2OqwBi" id="2kY8lc_Jt3I" role="33vP2m">
             <node concept="1eOMI4" id="2kY8lc_Jt3u" role="2Oq$k0">
               <node concept="369mXd" id="2kY8lc_Jt3O" role="1eOMHV" />
@@ -825,37 +818,33 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="2kY8lc_JswM" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_JswQ" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertTrue(java.lang.String,boolean)" resolve="assertTrue" />
-          <node concept="Xl_RD" id="2kY8lc_JswR" role="37wK5m">
-            <property role="Xl_RC" value="Intention availability at the selected word" />
+      <node concept="3vwNmj" id="5w9TncfTqfY" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqfZ" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqg0" role="3_1BAH">
+            <property role="Xl_RC" value="SplitNestedCenterAlignment: intention must be available at the selected word" />
           </node>
-          <node concept="2bRw2S" id="2kY8lc_JswW" role="37wK5m">
-            <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
-          </node>
+        </node>
+        <node concept="2bRw2S" id="5w9TncfTqg1" role="3vwVQn">
+          <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
         </node>
       </node>
       <node concept="1MFPAf" id="2kY8lc_JswX" role="3cqZAp">
         <ref role="1MFYO6" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jt3Q" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_Jt3W" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object)" resolve="assertEquals" />
-          <node concept="Xl_RD" id="2kY8lc_Jt3X" role="37wK5m">
-            <property role="Xl_RC" value="Splitting must preserve generated layout" />
+      <node concept="3vlDli" id="5w9TncfTqg2" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqg3" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqg4" role="3_1BAH">
+            <property role="Xl_RC" value="SplitNestedCenterAlignment: splitting must preserve generated layout" />
           </node>
-          <node concept="37vLTw" id="2kY8lc_Jt3Y" role="37wK5m">
-            <ref role="3cqZAo" node="2kY8lc_Jt3v" resolve="before" />
-          </node>
-          <node concept="2YIFZM" id="2kY8lc_Jt41" role="37wK5m">
-            <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
-            <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
-            <node concept="37vLTw" id="2kY8lc_Jt42" role="37wK5m">
-              <ref role="3cqZAo" node="2kY8lc_Jt3n" resolve="root" />
-            </node>
+        </node>
+        <node concept="37vLTw" id="5w9TncfTqg5" role="3tpDZB">
+          <ref role="3cqZAo" node="2kY8lc_Jt3v" resolve="before" />
+        </node>
+        <node concept="2YIFZM" id="5w9TncfTqg6" role="3tpDZA">
+          <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
+          <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
+          <node concept="37vLTw" id="5w9TncfTqg7" role="37wK5m">
+            <ref role="3cqZAo" node="2kY8lc_Jt3n" resolve="root" />
           </node>
         </node>
       </node>
@@ -937,9 +926,7 @@
       <node concept="3cpWs8" id="2kY8lc_Jt4A" role="3cqZAp">
         <node concept="3cpWsn" id="2kY8lc_Jt4_" role="3cpWs9">
           <property role="TrG5h" value="root" />
-          <node concept="3uibUv" id="2kY8lc_Jt4B" role="1tU5fm">
-            <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-          </node>
+          <node concept="3Tqbb2" id="5w9TncfTqf2" role="1tU5fm" />
           <node concept="2OqwBi" id="2kY8lc_Jt4W" role="33vP2m">
             <node concept="1eOMI4" id="2kY8lc_Jt4G" role="2Oq$k0">
               <node concept="369mXd" id="2kY8lc_Jt52" role="1eOMHV" />
@@ -963,37 +950,33 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jsxz" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_JsxB" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertTrue(java.lang.String,boolean)" resolve="assertTrue" />
-          <node concept="Xl_RD" id="2kY8lc_JsxC" role="37wK5m">
-            <property role="Xl_RC" value="Intention availability at the selected word" />
+      <node concept="3vwNmj" id="5w9TncfTqgc" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqgd" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqge" role="3_1BAH">
+            <property role="Xl_RC" value="SplitInsideIndentedCollection: intention must be available at the selected word" />
           </node>
-          <node concept="2bRw2S" id="2kY8lc_JsxH" role="37wK5m">
-            <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
-          </node>
+        </node>
+        <node concept="2bRw2S" id="5w9TncfTqgf" role="3vwVQn">
+          <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
         </node>
       </node>
       <node concept="1MFPAf" id="2kY8lc_JsxI" role="3cqZAp">
         <ref role="1MFYO6" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jt54" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_Jt5a" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object)" resolve="assertEquals" />
-          <node concept="Xl_RD" id="2kY8lc_Jt5b" role="37wK5m">
-            <property role="Xl_RC" value="Splitting must preserve generated layout" />
+      <node concept="3vlDli" id="5w9TncfTqgg" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqgh" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqgi" role="3_1BAH">
+            <property role="Xl_RC" value="SplitInsideIndentedCollection: splitting must preserve generated layout" />
           </node>
-          <node concept="37vLTw" id="2kY8lc_Jt5c" role="37wK5m">
-            <ref role="3cqZAo" node="2kY8lc_Jt4H" resolve="before" />
-          </node>
-          <node concept="2YIFZM" id="2kY8lc_Jt5f" role="37wK5m">
-            <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
-            <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
-            <node concept="37vLTw" id="2kY8lc_Jt5g" role="37wK5m">
-              <ref role="3cqZAo" node="2kY8lc_Jt4_" resolve="root" />
-            </node>
+        </node>
+        <node concept="37vLTw" id="5w9TncfTqgj" role="3tpDZB">
+          <ref role="3cqZAo" node="2kY8lc_Jt4H" resolve="before" />
+        </node>
+        <node concept="2YIFZM" id="5w9TncfTqgk" role="3tpDZA">
+          <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
+          <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
+          <node concept="37vLTw" id="5w9TncfTqgl" role="37wK5m">
+            <ref role="3cqZAo" node="2kY8lc_Jt4_" resolve="root" />
           </node>
         </node>
       </node>
@@ -1049,9 +1032,7 @@
       <node concept="3cpWs8" id="2kY8lc_Jt5O" role="3cqZAp">
         <node concept="3cpWsn" id="2kY8lc_Jt5N" role="3cpWs9">
           <property role="TrG5h" value="root" />
-          <node concept="3uibUv" id="2kY8lc_Jt5P" role="1tU5fm">
-            <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-          </node>
+          <node concept="3Tqbb2" id="5w9TncfTqf3" role="1tU5fm" />
           <node concept="2OqwBi" id="2kY8lc_Jt6a" role="33vP2m">
             <node concept="1eOMI4" id="2kY8lc_Jt5U" role="2Oq$k0">
               <node concept="369mXd" id="2kY8lc_Jt6g" role="1eOMHV" />
@@ -1075,34 +1056,30 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jsy7" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_Jsyb" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertFalse(java.lang.String,boolean)" resolve="assertFalse" />
-          <node concept="Xl_RD" id="2kY8lc_Jsyc" role="37wK5m">
-            <property role="Xl_RC" value="Intention availability at the selected word" />
-          </node>
-          <node concept="2bRw2S" id="2kY8lc_Jsyh" role="37wK5m">
-            <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
+      <node concept="3vFxKo" id="5w9TncfTqgq" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqgr" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqgs" role="3_1BAH">
+            <property role="Xl_RC" value="UnavailableAfterLastLine: intention must be unavailable at the selected word" />
           </node>
         </node>
+        <node concept="2bRw2S" id="5w9TncfTqgt" role="3vFALc">
+          <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
+        </node>
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jt6i" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_Jt6o" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object)" resolve="assertEquals" />
-          <node concept="Xl_RD" id="2kY8lc_Jt6p" role="37wK5m">
-            <property role="Xl_RC" value="Splitting must preserve generated layout" />
+      <node concept="3vlDli" id="5w9TncfTqgu" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqgv" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqgw" role="3_1BAH">
+            <property role="Xl_RC" value="UnavailableAfterLastLine: layout must remain unchanged without a split" />
           </node>
-          <node concept="37vLTw" id="2kY8lc_Jt6q" role="37wK5m">
-            <ref role="3cqZAo" node="2kY8lc_Jt5V" resolve="before" />
-          </node>
-          <node concept="2YIFZM" id="2kY8lc_Jt6t" role="37wK5m">
-            <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
-            <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
-            <node concept="37vLTw" id="2kY8lc_Jt6u" role="37wK5m">
-              <ref role="3cqZAo" node="2kY8lc_Jt5N" resolve="root" />
-            </node>
+        </node>
+        <node concept="37vLTw" id="5w9TncfTqgx" role="3tpDZB">
+          <ref role="3cqZAo" node="2kY8lc_Jt5V" resolve="before" />
+        </node>
+        <node concept="2YIFZM" id="5w9TncfTqgy" role="3tpDZA">
+          <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
+          <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
+          <node concept="37vLTw" id="5w9TncfTqgz" role="37wK5m">
+            <ref role="3cqZAo" node="2kY8lc_Jt5N" resolve="root" />
           </node>
         </node>
       </node>
@@ -1146,9 +1123,7 @@
       <node concept="3cpWs8" id="2kY8lc_Jt72" role="3cqZAp">
         <node concept="3cpWsn" id="2kY8lc_Jt71" role="3cpWs9">
           <property role="TrG5h" value="root" />
-          <node concept="3uibUv" id="2kY8lc_Jt73" role="1tU5fm">
-            <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-          </node>
+          <node concept="3Tqbb2" id="5w9TncfTqf4" role="1tU5fm" />
           <node concept="2OqwBi" id="2kY8lc_Jt7o" role="33vP2m">
             <node concept="1eOMI4" id="2kY8lc_Jt78" role="2Oq$k0">
               <node concept="369mXd" id="2kY8lc_Jt7u" role="1eOMHV" />
@@ -1172,34 +1147,30 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jsyz" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_JsyB" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertFalse(java.lang.String,boolean)" resolve="assertFalse" />
-          <node concept="Xl_RD" id="2kY8lc_JsyC" role="37wK5m">
-            <property role="Xl_RC" value="Intention availability at the selected word" />
-          </node>
-          <node concept="2bRw2S" id="2kY8lc_JsyH" role="37wK5m">
-            <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
+      <node concept="3vFxKo" id="5w9TncfTqgC" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqgD" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqgE" role="3_1BAH">
+            <property role="Xl_RC" value="UnavailableForSingleLine: intention must be unavailable at the selected word" />
           </node>
         </node>
+        <node concept="2bRw2S" id="5w9TncfTqgF" role="3vFALc">
+          <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
+        </node>
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jt7w" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_Jt7A" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object)" resolve="assertEquals" />
-          <node concept="Xl_RD" id="2kY8lc_Jt7B" role="37wK5m">
-            <property role="Xl_RC" value="Splitting must preserve generated layout" />
+      <node concept="3vlDli" id="5w9TncfTqgG" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqgH" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqgI" role="3_1BAH">
+            <property role="Xl_RC" value="UnavailableForSingleLine: layout must remain unchanged without a split" />
           </node>
-          <node concept="37vLTw" id="2kY8lc_Jt7C" role="37wK5m">
-            <ref role="3cqZAo" node="2kY8lc_Jt79" resolve="before" />
-          </node>
-          <node concept="2YIFZM" id="2kY8lc_Jt7F" role="37wK5m">
-            <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
-            <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
-            <node concept="37vLTw" id="2kY8lc_Jt7G" role="37wK5m">
-              <ref role="3cqZAo" node="2kY8lc_Jt71" resolve="root" />
-            </node>
+        </node>
+        <node concept="37vLTw" id="5w9TncfTqgJ" role="3tpDZB">
+          <ref role="3cqZAo" node="2kY8lc_Jt79" resolve="before" />
+        </node>
+        <node concept="2YIFZM" id="5w9TncfTqgK" role="3tpDZA">
+          <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
+          <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
+          <node concept="37vLTw" id="5w9TncfTqgL" role="37wK5m">
+            <ref role="3cqZAo" node="2kY8lc_Jt71" resolve="root" />
           </node>
         </node>
       </node>
@@ -1261,9 +1232,7 @@
       <node concept="3cpWs8" id="2kY8lc_Jt8g" role="3cqZAp">
         <node concept="3cpWsn" id="2kY8lc_Jt8f" role="3cpWs9">
           <property role="TrG5h" value="root" />
-          <node concept="3uibUv" id="2kY8lc_Jt8h" role="1tU5fm">
-            <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-          </node>
+          <node concept="3Tqbb2" id="5w9TncfTqf5" role="1tU5fm" />
           <node concept="2OqwBi" id="2kY8lc_Jt8A" role="33vP2m">
             <node concept="1eOMI4" id="2kY8lc_Jt8m" role="2Oq$k0">
               <node concept="369mXd" id="2kY8lc_Jt8G" role="1eOMHV" />
@@ -1287,34 +1256,30 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jsz9" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_Jszd" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertFalse(java.lang.String,boolean)" resolve="assertFalse" />
-          <node concept="Xl_RD" id="2kY8lc_Jsze" role="37wK5m">
-            <property role="Xl_RC" value="Intention availability at the selected word" />
-          </node>
-          <node concept="2bRw2S" id="2kY8lc_Jszj" role="37wK5m">
-            <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
+      <node concept="3vFxKo" id="5w9TncfTqgQ" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqgR" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqgS" role="3_1BAH">
+            <property role="Xl_RC" value="UnavailableDirectlyInIndentedCollection: intention must be unavailable at the selected word" />
           </node>
         </node>
+        <node concept="2bRw2S" id="5w9TncfTqgT" role="3vFALc">
+          <ref role="2bRw2V" to="pspb:5WSbPOdnzOJ" resolve="SplitVerticalLayoutAfter" />
+        </node>
       </node>
-      <node concept="3clFbF" id="2kY8lc_Jt8I" role="3cqZAp">
-        <node concept="2YIFZM" id="2kY8lc_Jt8O" role="3clFbG">
-          <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
-          <ref role="37wK5l" to="rjhg:~Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object)" resolve="assertEquals" />
-          <node concept="Xl_RD" id="2kY8lc_Jt8P" role="37wK5m">
-            <property role="Xl_RC" value="Splitting must preserve generated layout" />
+      <node concept="3vlDli" id="5w9TncfTqgU" role="3cqZAp">
+        <node concept="3_1$Yv" id="5w9TncfTqgV" role="3_9lra">
+          <node concept="Xl_RD" id="5w9TncfTqgW" role="3_1BAH">
+            <property role="Xl_RC" value="UnavailableDirectlyInIndentedCollection: layout must remain unchanged without a split" />
           </node>
-          <node concept="37vLTw" id="2kY8lc_Jt8Q" role="37wK5m">
-            <ref role="3cqZAo" node="2kY8lc_Jt8n" resolve="before" />
-          </node>
-          <node concept="2YIFZM" id="2kY8lc_Jt8T" role="37wK5m">
-            <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
-            <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
-            <node concept="37vLTw" id="2kY8lc_Jt8U" role="37wK5m">
-              <ref role="3cqZAo" node="2kY8lc_Jt8f" resolve="root" />
-            </node>
+        </node>
+        <node concept="37vLTw" id="5w9TncfTqgX" role="3tpDZB">
+          <ref role="3cqZAo" node="2kY8lc_Jt8n" resolve="before" />
+        </node>
+        <node concept="2YIFZM" id="5w9TncfTqgY" role="3tpDZA">
+          <ref role="1Pybhc" node="2kY8lc_JsGc" resolve="LayoutText" />
+          <ref role="37wK5l" node="2kY8lc_Jw$Q" resolve="render" />
+          <node concept="37vLTw" id="5w9TncfTqgZ" role="37wK5m">
+            <ref role="3cqZAo" node="2kY8lc_Jt8f" resolve="root" />
           </node>
         </node>
       </node>
@@ -1327,9 +1292,7 @@
       <property role="TrG5h" value="renderContent" />
       <node concept="37vLTG" id="2kY8lc_JsGf" role="3clF46">
         <property role="TrG5h" value="root" />
-        <node concept="3uibUv" id="2kY8lc_JsGg" role="1tU5fm">
-          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-        </node>
+        <node concept="3Tqbb2" id="5w9TncfTqeU" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="2kY8lc_JsGh" role="3clF47">
         <node concept="3cpWs8" id="2kY8lc_JsGj" role="3cqZAp">
@@ -1348,9 +1311,7 @@
         <node concept="3cpWs8" id="2kY8lc_JsGn" role="3cqZAp">
           <node concept="3cpWsn" id="2kY8lc_JsGm" role="3cpWs9">
             <property role="TrG5h" value="content" />
-            <node concept="3uibUv" id="2kY8lc_JsGo" role="1tU5fm">
-              <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-            </node>
+            <node concept="3Tqbb2" id="5w9TncfTqeV" role="1tU5fm" />
             <node concept="2OqwBi" id="2kY8lc_JsIN" role="33vP2m">
               <node concept="1PxgMI" id="2kY8lc_JsIL" role="2Oq$k0">
                 <node concept="37vLTw" id="2kY8lc_JsIJ" role="1m5AlR">
@@ -1492,149 +1453,67 @@
       <node concept="37vLTG" id="2kY8lc_Jw$R" role="3clF46">
         <property role="TrG5h" value="root" />
         <property role="3TUv4t" value="true" />
-        <node concept="3uibUv" id="2kY8lc_Jw$S" role="1tU5fm">
-          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-        </node>
+        <node concept="3Tqbb2" id="5w9TncfTqeW" role="1tU5fm" />
       </node>
-      <node concept="3clFbS" id="5w9TncfBmN8" role="3clF47">
-        <node concept="3cpWs8" id="5w9TncfBmMh" role="3cqZAp">
-          <node concept="3cpWsn" id="5w9TncfBmMg" role="3cpWs9">
-            <property role="3TUv4t" value="true" />
-            <property role="TrG5h" value="model" />
-            <node concept="3uibUv" id="5w9TncfBmMi" role="1tU5fm">
-              <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
-            </node>
-            <node concept="2OqwBi" id="5w9TncfBmUB" role="33vP2m">
-              <node concept="37vLTw" id="5w9TncfBmNP" role="2Oq$k0">
+      <node concept="3clFbS" id="5w9TncfTszu" role="3clF47">
+        <node concept="3cpWs8" id="5w9TncfTszv" role="3cqZAp">
+          <node concept="3cpWsn" id="5w9TncfTszw" role="3cpWs9">
+            <property role="TrG5h" value="owner" />
+            <node concept="H_c77" id="5w9TncfTszx" role="1tU5fm" />
+            <node concept="2OqwBi" id="5w9TncfTszy" role="33vP2m">
+              <node concept="37vLTw" id="5w9TncfTszz" role="2Oq$k0">
                 <ref role="3cqZAo" node="2kY8lc_Jw$R" resolve="root" />
               </node>
-              <node concept="liA8E" id="5w9TncfBmUC" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
-              </node>
+              <node concept="I4A8Y" id="5w9TncfTsz$" role="2OqNvi" />
             </node>
           </node>
         </node>
-        <node concept="3clFbJ" id="5w9TncfBmMk" role="3cqZAp">
-          <node concept="3clFbC" id="5w9TncfBmMl" role="3clFbw">
-            <node concept="37vLTw" id="5w9TncfBmMm" role="3uHU7B">
-              <ref role="3cqZAo" node="5w9TncfBmMg" resolve="model" />
-            </node>
-            <node concept="10Nm6u" id="5w9TncfBmMn" role="3uHU7w" />
+        <node concept="2Hmddi" id="5w9TncfTsz_" role="3cqZAp">
+          <node concept="37vLTw" id="5w9TncfTszA" role="2Hmdds">
+            <ref role="3cqZAo" node="5w9TncfTszw" resolve="owner" />
           </node>
-          <node concept="3clFbS" id="5w9TncfBmMp" role="3clFbx">
-            <node concept="YS8fn" id="5w9TncfBmMs" role="3cqZAp">
-              <node concept="2ShNRf" id="5w9TncfBmNR" role="YScLw">
-                <node concept="1pGfFk" id="5w9TncfBmTV" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
-                  <node concept="Xl_RD" id="5w9TncfBmTW" role="37wK5m">
-                    <property role="Xl_RC" value="Layout root must belong to a model" />
+          <node concept="3_1$Yv" id="5w9TncfTszB" role="3_9lra">
+            <node concept="Xl_RD" id="5w9TncfTszC" role="3_1BAH">
+              <property role="Xl_RC" value="Editor fixture must belong to a model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5w9TncfTszD" role="3cqZAp">
+          <node concept="3cpWsn" id="5w9TncfTszE" role="3cpWs9">
+            <property role="TrG5h" value="output" />
+            <node concept="17QB3L" id="5w9TncfTszF" role="1tU5fm" />
+            <node concept="Xl_RD" id="5w9TncfTszG" role="33vP2m">
+              <property role="Xl_RC" value="" />
+            </node>
+          </node>
+        </node>
+        <node concept="1QHqEK" id="5w9TncfTszH" role="3cqZAp">
+          <node concept="2OqwBi" id="5w9TncfTszI" role="ukAjM">
+            <node concept="1eOMI4" id="5w9TncfU032" role="2Oq$k0">
+              <node concept="10QFUN" id="5w9TncfU033" role="1eOMHV">
+                <node concept="3uibUv" id="5w9TncfU034" role="10QFUM">
+                  <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+                </node>
+                <node concept="37vLTw" id="5w9TncfU035" role="10QFUP">
+                  <ref role="3cqZAo" node="5w9TncfTszw" resolve="owner" />
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="5w9TncfTszM" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+            </node>
+          </node>
+          <node concept="1QHqEC" id="5w9TncfTszN" role="1QHqEI">
+            <node concept="3clFbS" id="5w9TncfTszO" role="1bW5cS">
+              <node concept="3clFbF" id="5w9TncfTszP" role="3cqZAp">
+                <node concept="37vLTI" id="5w9TncfTszQ" role="3clFbG">
+                  <node concept="37vLTw" id="5w9TncfTszR" role="37vLTJ">
+                    <ref role="3cqZAo" node="5w9TncfTszE" resolve="output" />
                   </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="5w9TncfBmMu" role="3cqZAp">
-          <node concept="3cpWsn" id="5w9TncfBmMt" role="3cpWs9">
-            <property role="3TUv4t" value="true" />
-            <property role="TrG5h" value="repository" />
-            <node concept="3uibUv" id="5w9TncfBmMv" role="1tU5fm">
-              <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
-            </node>
-            <node concept="2OqwBi" id="5w9TncfBmUN" role="33vP2m">
-              <node concept="37vLTw" id="5w9TncfBmTZ" role="2Oq$k0">
-                <ref role="3cqZAo" node="5w9TncfBmMg" resolve="model" />
-              </node>
-              <node concept="liA8E" id="5w9TncfBmUO" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="5w9TncfBmMx" role="3cqZAp">
-          <node concept="3clFbC" id="5w9TncfBmMy" role="3clFbw">
-            <node concept="37vLTw" id="5w9TncfBmMz" role="3uHU7B">
-              <ref role="3cqZAo" node="5w9TncfBmMt" resolve="repository" />
-            </node>
-            <node concept="10Nm6u" id="5w9TncfBmM$" role="3uHU7w" />
-          </node>
-          <node concept="3clFbS" id="5w9TncfBmMA" role="3clFbx">
-            <node concept="YS8fn" id="5w9TncfBmMD" role="3cqZAp">
-              <node concept="2ShNRf" id="5w9TncfBmU1" role="YScLw">
-                <node concept="1pGfFk" id="5w9TncfBmUg" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
-                  <node concept="Xl_RD" id="5w9TncfBmUh" role="37wK5m">
-                    <property role="Xl_RC" value="Layout model must belong to a repository" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="5w9TncfBmMF" role="3cqZAp">
-          <node concept="3cpWsn" id="5w9TncfBmME" role="3cpWs9">
-            <property role="3TUv4t" value="true" />
-            <property role="TrG5h" value="result" />
-            <node concept="10Q1$e" id="5w9TncfBmMH" role="1tU5fm">
-              <node concept="3uibUv" id="5w9TncfBmMG" role="10Q1$1">
-                <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-              </node>
-            </node>
-            <node concept="2ShNRf" id="5w9TncfBmMM" role="33vP2m">
-              <node concept="3$_iS1" id="5w9TncfBmMK" role="2ShVmc">
-                <node concept="3$GHV9" id="5w9TncfBmML" role="3$GQph">
-                  <node concept="3cmrfG" id="5w9TncfBmMJ" role="3$I4v7">
-                    <property role="3cmrfH" value="1" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="5w9TncfBmMI" role="3$_nBY">
-                  <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5w9TncfBmMN" role="3cqZAp">
-          <node concept="2OqwBi" id="5w9TncfBmVK" role="3clFbG">
-            <node concept="2OqwBi" id="5w9TncfBmV7" role="2Oq$k0">
-              <node concept="37vLTw" id="5w9TncfBmUs" role="2Oq$k0">
-                <ref role="3cqZAo" node="5w9TncfBmMt" resolve="repository" />
-              </node>
-              <node concept="liA8E" id="5w9TncfBmV8" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
-              </node>
-            </node>
-            <node concept="liA8E" id="5w9TncfBmVL" role="2OqNvi">
-              <ref role="37wK5l" to="lui2:~ModelAccess.runReadAction(java.lang.Runnable)" resolve="runReadAction" />
-              <node concept="2ShNRf" id="5w9TncfBmVM" role="37wK5m">
-                <node concept="YeOm9" id="5w9TncfBmVN" role="2ShVmc">
-                  <node concept="1Y3b0j" id="5w9TncfBmVO" role="YeSDq">
-                    <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                    <node concept="3clFb_" id="5w9TncfBmVP" role="jymVt">
-                      <property role="TrG5h" value="run" />
-                      <node concept="3clFbS" id="5w9TncfBmVQ" role="3clF47">
-                        <node concept="3clFbF" id="5w9TncfBmVR" role="3cqZAp">
-                          <node concept="37vLTI" id="5w9TncfBmVS" role="3clFbG">
-                            <node concept="AH0OO" id="5w9TncfBmVT" role="37vLTJ">
-                              <node concept="37vLTw" id="5w9TncfBmVU" role="AHHXb">
-                                <ref role="3cqZAo" node="5w9TncfBmME" resolve="result" />
-                              </node>
-                              <node concept="3cmrfG" id="5w9TncfBmVV" role="AHEQo">
-                                <property role="3cmrfH" value="0" />
-                              </node>
-                            </node>
-                            <node concept="1rXfSq" id="5w9TncfBmVW" role="37vLTx">
-                              <ref role="37wK5l" node="2kY8lc_JsGe" resolve="renderContent" />
-                              <node concept="37vLTw" id="5w9TncfBmVX" role="37wK5m">
-                                <ref role="3cqZAo" node="2kY8lc_Jw$R" resolve="root" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3Tm1VV" id="5w9TncfBmVY" role="1B3o_S" />
-                      <node concept="3cqZAl" id="5w9TncfBmVZ" role="3clF45" />
+                  <node concept="1rXfSq" id="5w9TncfTszS" role="37vLTx">
+                    <ref role="37wK5l" node="2kY8lc_JsGe" resolve="renderContent" />
+                    <node concept="37vLTw" id="5w9TncfTszT" role="37wK5m">
+                      <ref role="3cqZAo" node="2kY8lc_Jw$R" resolve="root" />
                     </node>
                   </node>
                 </node>
@@ -1642,14 +1521,9 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs6" id="5w9TncfBmN4" role="3cqZAp">
-          <node concept="AH0OO" id="5w9TncfBmN5" role="3cqZAk">
-            <node concept="37vLTw" id="5w9TncfBmN6" role="AHHXb">
-              <ref role="3cqZAo" node="5w9TncfBmME" resolve="result" />
-            </node>
-            <node concept="3cmrfG" id="5w9TncfBmN7" role="AHEQo">
-              <property role="3cmrfH" value="0" />
-            </node>
+        <node concept="3cpWs6" id="5w9TncfTszU" role="3cqZAp">
+          <node concept="37vLTw" id="5w9TncfTszV" role="3cqZAk">
+            <ref role="3cqZAo" node="5w9TncfTszE" resolve="output" />
           </node>
         </node>
       </node>

@@ -9060,7 +9060,7 @@
                 <node concept="liA8E" id="5w9TncgxyOM" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                   <node concept="Xl_RD" id="5w9TncgxyON" role="37wK5m">
-                    <property role="Xl_RC" value="\nAn original model snapshot and full report will be saved locally, outside the project.\nUse 'Review latest diffing-paste recovery' to copy original annotations from the projectional diff.\nApply this replacement?" />
+                    <property role="Xl_RC" value="\nAn original model snapshot and full report will be saved locally, outside the project.\nUse 'Review Latest Diffing-Paste Recovery' to copy original annotations from the projectional diff.\nApply this replacement?" />
                   </node>
                 </node>
               </node>
@@ -9277,7 +9277,7 @@
                       </node>
                     </node>
                     <node concept="Xl_RD" id="5w9TncgxySX" role="3uHU7w">
-                      <property role="Xl_RC" value="\n\nThe adjacent .txt file lists replaced annotations.\nUse 'Review latest diffing-paste recovery' on this template to inspect and copy the originals." />
+                      <property role="Xl_RC" value="\n\nThe adjacent .txt file lists replaced annotations.\nUse 'Review Latest Diffing-Paste Recovery' on this template to inspect and copy the originals." />
                     </node>
                   </node>
                   <node concept="Xl_RD" id="5w9TncgxySY" role="37wK5m">

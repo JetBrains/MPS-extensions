@@ -30,6 +30,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptVerticalLines = createDescriptorForVerticalLines();
   /*package*/ final ConceptDescriptor myConceptWord = createDescriptorForWord();
   /*package*/ final EnumerationDescriptor myEnumerationLineEnding = new EnumerationDescriptor_LineEnding();
+  /*package*/ final EnumerationDescriptor myEnumerationLineEndingOverride = new EnumerationDescriptor_LineEndingOverride();
   /*package*/ final EnumerationDescriptor myEnumerationTextAlignment = new EnumerationDescriptor_TextAlignment();
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeSpaceIndentation = new ConstrainedStringDatatypeDescriptorImpl(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x48241aad8b30788fL, "SpaceIndentation", "r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)/5198309202559269007", "( )*");
   private final LanguageConceptSwitch myIndexSwitch;
@@ -82,7 +83,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
-    return Arrays.asList(myEnumerationLineEnding, myEnumerationTextAlignment, myCSDatatypeSpaceIndentation);
+    return Arrays.asList(myEnumerationLineEnding, myEnumerationLineEndingOverride, myEnumerationTextAlignment, myCSDatatypeSpaceIndentation);
   }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
@@ -170,6 +171,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("ext", 0x4b0b5d65ba33c118L).type(PrimitiveTypeId.STRING).origin("5407518469085446424").done();
     b.property("encoding", 0x6d22d8512a805febL).type(PrimitiveTypeId.STRING).origin("7864085742459314155").done();
     b.property("lineEnding", 0x705a2e3e0ba1ef4cL).type(MetaIdFactory.dataTypeId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L)).origin("9167550852342474777").done();
+    b.property("modelLineEnding", 0x5809e5730dbe30e6L).type(MetaIdFactory.dataTypeId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL)).origin("6343853832442622182").done();
+    b.property("settingsLineEnding", 0x5809e5730dbe30e9L).type(MetaIdFactory.dataTypeId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL)).origin("6343853832442622185").done();
     b.aggregate("content", 0xfe48d5fcaff82faL).target(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L).optional(false).ordered(true).multiple(false).origin("1145195647826100986").done();
     return b.create();
   }

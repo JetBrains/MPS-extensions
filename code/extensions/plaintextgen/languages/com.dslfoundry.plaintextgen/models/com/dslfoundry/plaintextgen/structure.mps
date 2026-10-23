@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="4" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -183,6 +184,16 @@
       <property role="IQ2nx" value="8095834124169899852" />
       <ref role="AX2Wp" node="7WTFIQIcYt4" resolve="LineEnding" />
     </node>
+    <node concept="1TJgyi" id="5w9TncdJz3A" role="1TKVEl">
+      <property role="IQ2nx" value="6343853832442622182" />
+      <property role="TrG5h" value="modelLineEnding" />
+      <ref role="AX2Wp" node="5w9TncdJz3t" resolve="LineEndingOverride" />
+    </node>
+    <node concept="1TJgyi" id="5w9TncdJz3D" role="1TKVEl">
+      <property role="IQ2nx" value="6343853832442622185" />
+      <property role="TrG5h" value="settingsLineEnding" />
+      <ref role="AX2Wp" node="5w9TncdJz3t" resolve="LineEndingOverride" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4q7d2VGNiCW">
     <property role="TrG5h" value="NewlineMarker" />
@@ -266,6 +277,36 @@
       <property role="TrG5h" value="right" />
       <property role="1L1pqM" value="◨" />
       <property role="3tVfz5" value="2659193236633741100" />
+    </node>
+  </node>
+  <node concept="25R3W" id="5w9TncdJz3t">
+    <property role="3F6X1D" value="6343853832442622173" />
+    <property role="TrG5h" value="LineEndingOverride" />
+    <ref role="1H5jkz" node="5w9TncdJz3v" resolve="Inherit" />
+    <node concept="25R33" id="5w9TncdJz3v" role="25R1y">
+      <property role="3tVfz5" value="1254225136848015468" />
+      <property role="TrG5h" value="Inherit" />
+      <property role="1L1pqM" value="Inherit" />
+    </node>
+    <node concept="25R33" id="5w9TncdJz3w" role="25R1y">
+      <property role="3tVfz5" value="4495464862885827585" />
+      <property role="TrG5h" value="Native" />
+      <property role="1L1pqM" value="Native" />
+    </node>
+    <node concept="25R33" id="5w9TncdJz3x" role="25R1y">
+      <property role="3tVfz5" value="42490042417619946" />
+      <property role="TrG5h" value="CRLF" />
+      <property role="1L1pqM" value="CRLF" />
+    </node>
+    <node concept="25R33" id="5w9TncdJz3y" role="25R1y">
+      <property role="3tVfz5" value="1212772166064891708" />
+      <property role="TrG5h" value="CR" />
+      <property role="1L1pqM" value="CR" />
+    </node>
+    <node concept="25R33" id="5w9TncdJz3z" role="25R1y">
+      <property role="3tVfz5" value="1582683241666045016" />
+      <property role="TrG5h" value="LF" />
+      <property role="1L1pqM" value="LF" />
     </node>
   </node>
 </model>

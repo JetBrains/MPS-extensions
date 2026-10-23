@@ -57,11 +57,11 @@ entry points from an EDT command without displaying modal UI. The hooks cancel
 the actual preview, check the recovery report and isolated model copies, and
 allow concurrent background model readers to complete. Every reader thread is
 joined. A native editor test confirms a deferred paste that removes a generator
-macro, invokes the platform UndoManager once for the fixture's model document,
-and compares the restored structure and macro with the original fixture. A
-document-only FileEditor adapter routes Undo to that same production document;
-it does not create an editor or implement Undo, and does not require a workbench
-FileEditor in headless tests. The preview's layout-support flag is captured
+macro, invokes the platform `$Undo` action once through the native editor test
+language, and compares the restored structure and macro with the original
+fixture. The action runs directly in the test body, outside the `Runnable`
+used to check the pasted text, and needs no FileEditor adapter or custom Undo
+routing. The preview's layout-support flag is captured
 during preparation so showing the warning needs no model access. Visible dialog
 interaction and replacement-warning cancellation remain manual validation checks.
 

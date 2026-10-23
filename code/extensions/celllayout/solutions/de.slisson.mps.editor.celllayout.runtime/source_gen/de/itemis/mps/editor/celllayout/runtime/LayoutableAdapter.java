@@ -77,7 +77,7 @@ public class LayoutableAdapter extends AbstractLayoutableAdapter {
     LayoutBoxFrame additionalPadding = myBoxModel.getAdditionalPadding();
     int deltaR = Math.max(-additionalPadding.getRightSize(), deltaW);
     int deltaL = deltaW - deltaR;
-    int deltaT = Math.max(-additionalPadding.getLeftSize(), deltaH);
+    int deltaT = Math.max(-additionalPadding.getTopSize(), deltaH);
     int deltaB = deltaH - deltaT;
     LayoutBoxFrameExtensions.addLeftSize(additionalPadding, deltaL);
     LayoutBoxFrameExtensions.addRightSize(additionalPadding, deltaR);

@@ -15,6 +15,23 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 *de.slisson.mps.richtext* TextCellModifier has a new method modifyWordList() with the per-word editor wiring of modify(). WordCellSubstituteInfo and the new-line handler no longer assume that the parent of a word is a Text so other concepts that contain words can reuse the wiring. The behavior of Text is unchanged.
 
+### Fixed
+
+- *de.itemis.mps.editor.celllayout.runtime* Words with overflow-x or overflow-y in an indent layout got a width or height of zero in the overflow direction. They now keep their preferred size.
+- *de.itemis.mps.editor.celllayout.runtime* Shrinking a cell vertically after it was grown failed with an IllegalArgumentException, because the change of the top padding was limited by the left padding.
+- *de.itemis.mps.editor.celllayout.runtime* The selection of cells with a top-down layout could contain child cells that were already removed, because the layout used its own adapter that was never synchronized.
+- *de.itemis.mps.editor.celllayout.runtime* Collections with a top-down layout reported an ascent of 0 when it was queried while a layout was in progress. The ascent is now calculated in that case too.
+- *de.itemis.mps.editor.celllayout.runtime* Grid post-processing resized collections that the grid lays out as single elements and reset their padding. Only flattened collections are processed now.
+- *de.itemis.mps.editor.celllayout.runtime* Cells that inherit relayoutImpl from a superclass were not detected as overriding it. They now skip the top-down layout like cells that declare it themselves, for example diagram elements.
+- *de.itemis.mps.editor.celllayout.runtime* Cloning a box model shared the outer box of a frame between the clone and the original, and the padding and content boxes of the clone pointed at the wrong layers.
+- *de.itemis.mps.editor.celllayout.runtime* The own border of a collection was ignored when calculating whether it has a border.
+- *de.itemis.mps.editor.celllayout.runtime* When scaling grid columns, the rounding error could be added to a column with weight 0, changing its fixed width.
+- *de.itemis.mps.editor.celllayout.runtime* The right gap of a collection with a border was removed when its first child had a right border instead of its last child, so a double border was drawn on the right.
+- *de.itemis.mps.editor.celllayout.runtime* In a grid, the gap after a cell with a border only on its right side was put on the wrong cell, because the right border was looked up as the left border.
+- *de.itemis.mps.editor.celllayout.runtime* When scaling grid rows, the rounding error was always added to the last row, even when its weight was 0, and a weighted row with a height of 0 did not grow.
+- *de.itemis.mps.editor.celllayout.runtime* The selection bounds of cells with a top-down layout overlapped where the gap between two neighbouring cells was closed.
+- *de.itemis.mps.editor.celllayout.runtime* When the layout watchdog had used up its budget, a nested layout started over with a new budget instead of timing out.
+
 ## September 2026
 
 ### Fixed

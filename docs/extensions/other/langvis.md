@@ -59,7 +59,7 @@ bitmap. It does not rerun PlantUML. Refresh regenerates the diagram from the
 current model and options, then renders the new SVG at the current zoom. The
 preview preserves the diagram's aspect ratio and limits its rendered dimensions.
 
-If the provided tool panel isn't to your liking, two alternative methods of viewing the visualizations exist.
+If the provided tool panel isn't to your liking, you can view the visualization in an image viewer instead.
 
 ### (Optional) Viewing the visualization with your favorite image viewer
 

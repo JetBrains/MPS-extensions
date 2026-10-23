@@ -2743,7 +2743,7 @@
             <node concept="3cpWsn" id="5kBF9y1FUCF" role="3cpWs9">
               <property role="TrG5h" value="source" />
               <node concept="3uibUv" id="5kBF9y1FUCH" role="1tU5fm">
-                <ref role="3uigEE" to="eoo2:~Path" resolve="java.nio.file.Path" />
+                <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
               </node>
               <node concept="2YIFZM" id="5kBF9y1FUDI" role="33vP2m">
                 <ref role="1Pybhc" to="eoo2:~Files" resolve="Files" />
@@ -2761,7 +2761,7 @@
             <node concept="3cpWsn" id="5kBF9y1FUCL" role="3cpWs9">
               <property role="TrG5h" value="target" />
               <node concept="3uibUv" id="5kBF9y1FUCN" role="1tU5fm">
-                <ref role="3uigEE" to="eoo2:~Path" resolve="java.nio.file.Path" />
+                <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
               </node>
               <node concept="2YIFZM" id="5kBF9y1FUDN" role="33vP2m">
                 <ref role="1Pybhc" to="eoo2:~Files" resolve="Files" />
@@ -2930,7 +2930,7 @@
             <node concept="3cpWsn" id="5kBF9y1FZsN" role="3cpWs9">
               <property role="TrG5h" value="source" />
               <node concept="3uibUv" id="5kBF9y1FZsP" role="1tU5fm">
-                <ref role="3uigEE" to="eoo2:~Path" resolve="java.nio.file.Path" />
+                <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
               </node>
               <node concept="2YIFZM" id="5kBF9y1FZur" role="33vP2m">
                 <ref role="1Pybhc" to="eoo2:~Files" resolve="Files" />
@@ -2948,7 +2948,7 @@
             <node concept="3cpWsn" id="5kBF9y1FZsT" role="3cpWs9">
               <property role="TrG5h" value="target" />
               <node concept="3uibUv" id="5kBF9y1FZsV" role="1tU5fm">
-                <ref role="3uigEE" to="eoo2:~Path" resolve="java.nio.file.Path" />
+                <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
               </node>
               <node concept="2YIFZM" id="5kBF9y1FZuw" role="33vP2m">
                 <ref role="1Pybhc" to="eoo2:~Files" resolve="Files" />
@@ -3043,7 +3043,7 @@
                     <property role="TrG5h" value="expected" />
                     <node concept="nSUau" id="5kBF9y1FZtn" role="1tU5fm">
                       <node concept="3uibUv" id="5kBF9y1FZtm" role="nSUat">
-                        <ref role="3uigEE" to="guwi:~IOException" resolve="java.io.IOException" />
+                        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
                       </node>
                     </node>
                   </node>
@@ -3138,7 +3138,7 @@
                     <property role="TrG5h" value="expected" />
                     <node concept="nSUau" id="5kBF9y1FZtU" role="1tU5fm">
                       <node concept="3uibUv" id="5kBF9y1FZtT" role="nSUat">
-                        <ref role="3uigEE" to="guwi:~IOException" resolve="java.io.IOException" />
+                        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
                       </node>
                     </node>
                   </node>
@@ -3216,7 +3216,7 @@
             <node concept="3cpWsn" id="5kBF9y1G4Ho" role="3cpWs9">
               <property role="TrG5h" value="file" />
               <node concept="3uibUv" id="5kBF9y1G4Hq" role="1tU5fm">
-                <ref role="3uigEE" to="eoo2:~Path" resolve="java.nio.file.Path" />
+                <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
               </node>
               <node concept="2YIFZM" id="5kBF9y1G4Jv" role="33vP2m">
                 <ref role="1Pybhc" to="eoo2:~Files" resolve="Files" />
@@ -3282,7 +3282,7 @@
                     <node concept="3cpWsn" id="5kBF9y1G4HC" role="3cpWs9">
                       <property role="TrG5h" value="viewer" />
                       <node concept="3uibUv" id="5kBF9y1G4HE" role="1tU5fm">
-                        <ref role="3uigEE" to="lr45:4LYtwg98d2" resolve="com.dslfoundry.langvis.plugin.plugin.ImageViewer" />
+                        <ref role="3uigEE" to="lr45:4LYtwg98d2" resolve="ImageViewer" />
                       </node>
                       <node concept="2YIFZM" id="5kBF9y1G4JI" role="33vP2m">
                         <ref role="1Pybhc" node="75V$0rwmuj$" resolve="LangvisTestSupport" />
@@ -3549,7 +3549,7 @@
             <node concept="3cpWsn" id="5kBF9y1GaBD" role="3cpWs9">
               <property role="TrG5h" value="file" />
               <node concept="3uibUv" id="5kBF9y1GaBF" role="1tU5fm">
-                <ref role="3uigEE" to="eoo2:~Path" resolve="java.nio.file.Path" />
+                <ref role="3uigEE" to="eoo2:~Path" resolve="Path" />
               </node>
               <node concept="2YIFZM" id="5kBF9y1GaDK" role="33vP2m">
                 <ref role="1Pybhc" to="eoo2:~Files" resolve="Files" />
@@ -3567,7 +3567,7 @@
             <node concept="3cpWsn" id="5kBF9y1GaBJ" role="3cpWs9">
               <property role="TrG5h" value="viewer" />
               <node concept="3uibUv" id="5kBF9y1GaBL" role="1tU5fm">
-                <ref role="3uigEE" to="lr45:4LYtwg98d2" resolve="com.dslfoundry.langvis.plugin.plugin.ImageViewer" />
+                <ref role="3uigEE" to="lr45:4LYtwg98d2" resolve="ImageViewer" />
               </node>
               <node concept="2YIFZM" id="5kBF9y1GaDP" role="33vP2m">
                 <ref role="1Pybhc" node="75V$0rwmuj$" resolve="LangvisTestSupport" />

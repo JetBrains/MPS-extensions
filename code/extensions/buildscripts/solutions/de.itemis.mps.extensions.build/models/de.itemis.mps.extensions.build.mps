@@ -9699,6 +9699,25 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="30u5PALtaJw" role="3bR31x">
+          <node concept="3LXTmp" id="30u5PALtaJx" role="3rtmxm">
+            <node concept="3qWCbU" id="30u5PALtaJy" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="30u5PALtaJz" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="30u5PALtaJ$" role="iGT6I">
+                <property role="2Ry0Am" value="langvis" />
+                <node concept="2Ry0Ak" id="30u5PALtaJ_" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="30u5PALtaJA" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.langvis.plantuml" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="6lSuB9eYUwh" role="3989C9">

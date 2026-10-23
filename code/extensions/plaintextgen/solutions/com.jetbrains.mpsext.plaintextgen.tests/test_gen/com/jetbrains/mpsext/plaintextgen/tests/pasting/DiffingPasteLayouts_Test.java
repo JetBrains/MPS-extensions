@@ -10,6 +10,15 @@ import jetbrains.mps.lang.test.runtime.TestParametersCacheBuilder;
 import org.junit.jupiter.api.Test;
 import jetbrains.mps.lang.test.runtime.BaseTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import com.dslfoundry.plaintextgen.plugin.DiffPaste;
+import org.junit.Assert;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import org.jetbrains.mps.openapi.language.SInterfaceConcept;
+import org.jetbrains.mps.openapi.language.SProperty;
 
 @MPSLaunch
 public class DiffingPasteLayouts_Test extends BaseTransformationTest {
@@ -38,8 +47,25 @@ public class DiffingPasteLayouts_Test extends BaseTransformationTest {
 
     public void test_unsupportedAlignmentReportsAllReplacedMacros() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> DiffPasteAssertions.unsupportedAlignmentReportsAllReplacedMacros(myProject));
+      runWithinCommand(() -> DiffPasteAssertions.withFixture(myProject, "alpha\nbeta\nomega", false, (f) -> {
+        {
+          SPropertyOperations.assignEnum(SNodeOperations.cast(f.content, CONCEPTS.IVerticalGroup$fF), PROPS.align$grMv, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x24e75a28e2ace727L, "com.dslfoundry.plaintextgen.structure.TextAlignment"), 0x24e75a28e2ace72cL, "right"));
+          f.annotate(f.word(0));
+          DiffPaste.Plan plan = f.prepare("alpha\nchanged\nomega");
+          Assert.assertFalse("Right-aligned content must require whole-content replacement", plan.isLayoutSupported());
+          Assert.assertFalse("Whole-content replacement must report the affected annotation", ListSequence.fromList(plan.getConflicts()).isEmpty());
+          f.assertRecovery(f.apply(plan, true));
+        }
+      }));
     }
 
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SInterfaceConcept IVerticalGroup$fF = MetaAdapterFactory.getInterfaceConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L, "com.dslfoundry.plaintextgen.structure.IVerticalGroup");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty align$grMv = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L, 0x64208511ac31899bL, "align");
   }
 }

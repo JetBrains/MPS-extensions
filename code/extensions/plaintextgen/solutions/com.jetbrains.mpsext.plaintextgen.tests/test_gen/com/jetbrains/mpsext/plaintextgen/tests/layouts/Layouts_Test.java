@@ -98,67 +98,70 @@ public class Layouts_Test extends BaseTransformationTest {
 
     public void test_leftAlignment() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.leftAlignment(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "left"), "left" + ".txt", "UTF-8", "a\nbbb\n"));
     }
     public void test_centerAlignment() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.centerAlignment(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "center"), "center" + ".txt", "UTF-8", " a\nbbb\n"));
     }
     public void test_rightAlignment() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.rightAlignment(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "right"), "right" + ".txt", "UTF-8", "  a\nbbb\n"));
     }
     public void test_centerRoundsDown() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.centerRoundsDown(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "centerOdd"), "centerOdd" + ".txt", "UTF-8", " a\nbbbb\n"));
     }
     public void test_spaceIndentation() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.spaceIndentation(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "spaceIndent"), "spaceIndent" + ".txt", "UTF-8", "  a\n  bbb\n"));
     }
     public void test_nestedIndentation() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.nestedIndentation(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "nestedIndent"), "nestedIndent" + ".txt", "UTF-8", "  a\n    b\n"));
     }
     public void test_rightAlignedIndentationKeepsHistoricalPadding() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.rightAlignedIndentationKeepsHistoricalPadding(myProject));
+      runWithinCommand(() -> {
+        // Pins the extra padding of right-aligned indented text; update the expectation when https://github.com/JetBrains/MPS-extensions/issues/1941 is fixed.
+        PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "alignedIndent"), "alignedIndent" + ".txt", "UTF-8", "      a\n    bbb\n");
+      });
     }
     public void test_verticalGroupWithinLine() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.verticalGroupWithinLine(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "horizontalGroup"), "horizontalGroup" + ".txt", "UTF-8", "ax!\n y\n"));
     }
     public void test_literalTabs() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.literalTabs(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "tabs"), "tabs" + ".txt", "UTF-8", "a\tb\n"));
     }
     public void test_internalBlankLines() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.internalBlankLines(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "blankLines"), "blankLines" + ".txt", "UTF-8", "alpha\n\nbeta\n"));
     }
     public void test_explicitWordSpacing() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.explicitWordSpacing(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "explicitSpaces"), "explicitSpaces" + ".txt", "UTF-8", "a b\n"));
     }
     public void test_emptyTemplate() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.emptyTemplate(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "empty"), "empty" + ".txt", "UTF-8", ""));
     }
     public void test_unicodeUTF8() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.unicodeUTF8(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "unicodeUTF8"), "unicodeUTF8" + ".txt", "UTF-8", "é\n"));
     }
     public void test_unicodeLatin1() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.unicodeLatin1(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "unicodeLatin1"), "unicodeLatin1.txt", "ISO-8859-1", "é\n"));
     }
     public void test_unicodeUTF16LE() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.unicodeUTF16LE(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "unicodeUTF16LE"), "unicodeUTF16LE.txt", "UTF-16LE", "é\n"));
     }
     public void test_outputFileExtension() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> LayoutAssertions.outputFileExtension(myProject));
+      runWithinCommand(() -> PlainTextGenAssertions.assertText(myProject, LayoutAssertions.fixture(myProject, "fileExtension"), "fileExtension.log", "UTF-8", "content\n"));
     }
 
   }

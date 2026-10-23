@@ -44,7 +44,7 @@ public final class DiffingPaste_Intention extends AbstractIntentionDescriptor im
 
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Paste text with diff preview";
+      return "Paste Text with Diff Preview";
     }
 
     @Override

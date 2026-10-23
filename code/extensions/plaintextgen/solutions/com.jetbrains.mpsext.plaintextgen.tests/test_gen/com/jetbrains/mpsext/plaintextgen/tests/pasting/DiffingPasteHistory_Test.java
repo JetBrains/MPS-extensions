@@ -10,6 +10,19 @@ import jetbrains.mps.lang.test.runtime.TestParametersCacheBuilder;
 import org.junit.jupiter.api.Test;
 import jetbrains.mps.lang.test.runtime.BaseTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
+import com.dslfoundry.plaintextgen.plugin.DiffPaste;
+import java.nio.file.Path;
+import org.junit.Assert;
+import java.nio.file.Files;
+import java.nio.charset.StandardCharsets;
+import org.jetbrains.mps.openapi.model.SModel;
+import jetbrains.mps.smodel.tempmodel.TemporaryModels;
+import jetbrains.mps.smodel.tempmodel.TempModuleOptions;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import java.io.IOException;
+import org.jetbrains.mps.openapi.language.SConcept;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 @MPSLaunch
 public class DiffingPasteHistory_Test extends BaseTransformationTest {
@@ -38,8 +51,38 @@ public class DiffingPasteHistory_Test extends BaseTransformationTest {
 
     public void test_successivePastesKeepHistoryAndLatestSnapshot() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> DiffPasteAssertions.successivePastesKeepHistoryAndLatestSnapshot(myProject));
+      runWithinCommand(() -> DiffPasteAssertions.withFixture(myProject, "alpha\nbeta\nomega", false, (f) -> {
+        {
+          f.annotate(f.word(0));
+          DiffPaste.Plan first = f.prepare("alpha\nchanged\nomega");
+          Path saved = f.apply(first, false);
+          f.assertRecovery(saved);
+          f.assertRejected(first, false);
+          DiffPaste.Plan second = f.prepare("alpha\nsecond\nomega");
+          Path latest = f.apply(second, false);
+          Assert.assertTrue("Applying another paste must retain the first recovery snapshot", Files.isRegularFile(saved));
+          Assert.assertTrue("The second paste must write its own recovery snapshot", Files.isRegularFile(latest));
+          try {
+            Path index = DiffPaste.recoveryDirectory(f.recovery, f.template).resolve("latest");
+            Assert.assertEquals("The latest index must select the second snapshot", latest.getFileName().toString(), new String(Files.readAllBytes(index), StandardCharsets.UTF_8));
+            SModel restored = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.nonReloadableModule(myProject.getRepository()));
+            try {
+              SNode previous = SNodeOperations.cast(DiffPaste.copyRecovery(latest, restored, ((SNode) f.template).getNodeId()), CONCEPTS.TextgenText$PS);
+              Assert.assertEquals("The latest snapshot must contain the template immediately before the second paste", first.after, DiffPaste.render(previous, myProject));
+            } finally {
+              TemporaryModels.getInstance().dispose(restored);
+            }
+          } catch (IOException exception) {
+            Assert.fail("PlainTextGen diff-paste fixture operation must succeed: " + exception);
+          }
+          f.assertAnnotationPreserved();
+        }
+      }));
     }
 
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept TextgenText$PS = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, "com.dslfoundry.plaintextgen.structure.TextgenText");
   }
 }

@@ -1873,7 +1873,7 @@
       <node concept="3clFbS" id="5w9TncdU7TC" role="2VODD2">
         <node concept="3cpWs6" id="5w9TncdU7TD" role="3cqZAp">
           <node concept="Xl_RD" id="5w9TncdU7TE" role="3cqZAk">
-            <property role="Xl_RC" value="Paste text with diff preview" />
+            <property role="Xl_RC" value="Paste Text with Diff Preview" />
           </node>
         </node>
       </node>
@@ -1909,7 +1909,7 @@
       <node concept="3clFbS" id="5w9TncdU7TL" role="2VODD2">
         <node concept="3cpWs6" id="5w9TncdU7TM" role="3cqZAp">
           <node concept="Xl_RD" id="5w9TncdU7TN" role="3cqZAk">
-            <property role="Xl_RC" value="Review latest diffing-paste recovery" />
+            <property role="Xl_RC" value="Review Latest Diffing-Paste Recovery" />
           </node>
         </node>
       </node>

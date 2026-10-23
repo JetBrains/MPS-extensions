@@ -1,5 +1,7 @@
 # code/ needs a review before merging, everything else does not
 code/ @sergej-koscejev @wsafonov
 
+code/platform/ @sergej-koscejev @slisson
+
 # CODEOWNERS should be protected by code owners
 .github/CODEOWNERS @sergej-koscejev @wsafonov

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-dhslq2gvrnwqvm08wm8s8akzhrenkwp">
+<product version="3" modelHash="7y7jbf46xp9rlh3xl9g7gz48a3b9p1a">
   <files names="LayoutText.java:SplitAfterMiddleLine_Test.java:SplitInsideHorizontalLine_Test.java:SplitInsideIndentedCollection_Test.java:SplitNestedCenterAlignment_Test.java:SplitNestedRightAlignment_Test.java:SplitTopLevelFromWord_Test.java:UnavailableAfterLastLine_Test.java:UnavailableDirectlyInIndentedCollection_Test.java:UnavailableForSingleLine_Test.java" />
 </product>
 

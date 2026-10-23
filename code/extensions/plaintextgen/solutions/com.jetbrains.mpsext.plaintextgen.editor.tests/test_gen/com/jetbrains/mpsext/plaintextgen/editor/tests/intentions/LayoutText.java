@@ -5,21 +5,19 @@ package com.jetbrains.mpsext.plaintextgen.editor.tests.intentions;
 import org.jetbrains.mps.openapi.model.SNode;
 import com.dslfoundry.plaintextgen.plugin.CharacterMatrix;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import com.dslfoundry.plaintextgen.behavior.ITextGenElement__BehaviorDescriptor;
 import org.jetbrains.mps.openapi.model.SModel;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.junit.Assert;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
-import org.jetbrains.mps.openapi.language.SConcept;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class LayoutText {
   public static String renderContent(SNode root) {
     CharacterMatrix matrix = new CharacterMatrix();
-    SNode content = SLinkOperations.getTarget(SNodeOperations.cast(root, CONCEPTS.TextgenText$PS), LINKS.content$rMPF);
-    ITextGenElement__BehaviorDescriptor.getPosition_id4GbnmmUaMp0.invoke(SNodeOperations.cast(content, CONCEPTS.ITextGenElement$Te), ((int) 0), ((int) 0), matrix);
+    SNode content = SLinkOperations.getTarget(root, LINKS.content$rMPF);
+    ITextGenElement__BehaviorDescriptor.getPosition_id4GbnmmUaMp0.invoke(content, ((int) 0), ((int) 0), matrix);
     String output = "";
     for (int row = 0; row < matrix.getLineCount(); row++) {
       if (row > 0) {
@@ -35,11 +33,6 @@ public class LayoutText {
     final Wrappers._T<String> output = new Wrappers._T<String>("");
     ((SModel) owner).getRepository().getModelAccess().runReadAction(() -> output.value = renderContent(root));
     return output.value;
-  }
-
-  private static final class CONCEPTS {
-    /*package*/ static final SConcept TextgenText$PS = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, "com.dslfoundry.plaintextgen.structure.TextgenText");
-    /*package*/ static final SInterfaceConcept ITextGenElement$Te = MetaAdapterFactory.getInterfaceConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x4b0b5d65ba2e6992L, "com.dslfoundry.plaintextgen.structure.ITextGenElement");
   }
 
   private static final class LINKS {

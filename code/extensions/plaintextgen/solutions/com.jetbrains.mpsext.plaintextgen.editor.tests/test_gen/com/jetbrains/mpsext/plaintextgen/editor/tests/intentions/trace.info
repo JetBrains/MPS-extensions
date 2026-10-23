@@ -12,342 +12,357 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root nodeRef="r:e23337c0-33b4-42ca-b61c-0ab8c2a58412(com.jetbrains.mpsext.plaintextgen.editor.tests.intentions@tests)/2683619068958589746">
     <file name="SplitTopLevelFromWord_Test.java">
-      <node id="2683619068958589746" at="21,39,22,60" concept="9" />
-      <node id="2683619068958589746" at="26,61,27,36" concept="1" />
-      <node id="2683619068958589746" at="32,52,33,19" concept="9" />
-      <node id="2683619068958589746" at="37,51,38,72" concept="1" />
-      <node id="2683619068958591935" at="38,72,39,58" concept="5" />
-      <node id="2683619068958591943" at="39,58,40,46" concept="5" />
-      <node id="6343853832478761926" at="40,46,41,218" concept="1" />
-      <node id="2683619068958590858" at="41,218,42,118" concept="1" />
-      <node id="6343853832478761930" at="42,118,43,126" concept="1" />
-      <node id="2683619068958589746" at="18,0,20,0" concept="7" trace="ourParametersCacheExtension" />
-      <node id="2683619068958589746" at="21,0,24,0" concept="0" trace="SplitTopLevelFromWord_Test#()V" />
-      <node id="2683619068958589746" at="32,0,35,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="2683619068958589746" at="25,0,29,0" concept="4" trace="test_SplitTopLevelFromWord#()V" />
-      <node id="2683619068958589746" at="36,0,45,0" concept="4" trace="testMethodImpl#()V" />
-      <scope id="2683619068958589746" at="21,39,22,60" />
-      <scope id="2683619068958589746" at="26,61,27,36" />
-      <scope id="2683619068958589746" at="32,52,33,19" />
-      <scope id="2683619068958589746" at="21,0,24,0" />
-      <scope id="2683619068958589746" at="32,0,35,0">
+      <node id="2683619068958589746" at="24,39,25,60" concept="9" />
+      <node id="2683619068958589746" at="29,61,30,36" concept="1" />
+      <node id="2683619068958589746" at="35,52,36,19" concept="9" />
+      <node id="2683619068958589746" at="40,51,41,72" concept="1" />
+      <node id="2683619068958591935" at="41,72,42,105" concept="5" />
+      <node id="2683619068958591943" at="42,105,43,46" concept="5" />
+      <node id="6343853832478761926" at="43,46,44,218" concept="1" />
+      <node id="2683619068958590858" at="44,218,45,118" concept="1" />
+      <node id="6343853832478761930" at="45,118,46,126" concept="1" />
+      <node id="2683619068958589746" at="51,0,52,0" concept="7" trace="TextgenText$PS" />
+      <node id="2683619068958589746" at="21,0,23,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="2683619068958589746" at="24,0,27,0" concept="0" trace="SplitTopLevelFromWord_Test#()V" />
+      <node id="2683619068958589746" at="35,0,38,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2683619068958589746" at="28,0,32,0" concept="4" trace="test_SplitTopLevelFromWord#()V" />
+      <node id="2683619068958589746" at="39,0,48,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="2683619068958589746" at="24,39,25,60" />
+      <scope id="2683619068958589746" at="29,61,30,36" />
+      <scope id="2683619068958589746" at="35,52,36,19" />
+      <scope id="2683619068958589746" at="24,0,27,0" />
+      <scope id="2683619068958589746" at="35,0,38,0">
         <var name="owner" id="2683619068958589746" />
       </scope>
-      <scope id="2683619068958589746" at="25,0,29,0" />
-      <scope id="2683619068958589746" at="37,51,43,126">
+      <scope id="2683619068958589746" at="28,0,32,0" />
+      <scope id="2683619068958589746" at="40,51,46,126">
         <var name="before" id="2683619068958591942" />
         <var name="root" id="2683619068958591934" />
       </scope>
-      <scope id="2683619068958589746" at="36,0,45,0" />
-      <unit id="2683619068958589746" at="30,0,46,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitTopLevelFromWord_Test$TestBody" />
-      <unit id="2683619068958589746" at="16,0,47,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitTopLevelFromWord_Test" />
+      <scope id="2683619068958589746" at="39,0,48,0" />
+      <unit id="2683619068958589746" at="50,0,53,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitTopLevelFromWord_Test$CONCEPTS" />
+      <unit id="2683619068958589746" at="33,0,49,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitTopLevelFromWord_Test$TestBody" />
+      <unit id="2683619068958589746" at="19,0,54,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitTopLevelFromWord_Test" />
     </file>
   </root>
   <root nodeRef="r:e23337c0-33b4-42ca-b61c-0ab8c2a58412(com.jetbrains.mpsext.plaintextgen.editor.tests.intentions@tests)/2683619068958590889">
     <file name="SplitAfterMiddleLine_Test.java">
-      <node id="2683619068958590889" at="21,38,22,60" concept="9" />
-      <node id="2683619068958590889" at="26,60,27,36" concept="1" />
-      <node id="2683619068958590889" at="32,52,33,19" concept="9" />
-      <node id="2683619068958590889" at="37,51,38,72" concept="1" />
-      <node id="2683619068958593006" at="38,72,39,58" concept="5" />
-      <node id="2683619068958593014" at="39,58,40,46" concept="5" />
-      <node id="6343853832478761940" at="40,46,41,217" concept="1" />
-      <node id="2683619068958590903" at="41,217,42,118" concept="1" />
-      <node id="6343853832478761944" at="42,118,43,125" concept="1" />
-      <node id="2683619068958590889" at="18,0,20,0" concept="7" trace="ourParametersCacheExtension" />
-      <node id="2683619068958590889" at="21,0,24,0" concept="0" trace="SplitAfterMiddleLine_Test#()V" />
-      <node id="2683619068958590889" at="32,0,35,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="2683619068958590889" at="25,0,29,0" concept="4" trace="test_SplitAfterMiddleLine#()V" />
-      <node id="2683619068958590889" at="36,0,45,0" concept="4" trace="testMethodImpl#()V" />
-      <scope id="2683619068958590889" at="21,38,22,60" />
-      <scope id="2683619068958590889" at="26,60,27,36" />
-      <scope id="2683619068958590889" at="32,52,33,19" />
-      <scope id="2683619068958590889" at="21,0,24,0" />
-      <scope id="2683619068958590889" at="32,0,35,0">
+      <node id="2683619068958590889" at="24,38,25,60" concept="9" />
+      <node id="2683619068958590889" at="29,60,30,36" concept="1" />
+      <node id="2683619068958590889" at="35,52,36,19" concept="9" />
+      <node id="2683619068958590889" at="40,51,41,72" concept="1" />
+      <node id="2683619068958593006" at="41,72,42,105" concept="5" />
+      <node id="2683619068958593014" at="42,105,43,46" concept="5" />
+      <node id="6343853832478761940" at="43,46,44,217" concept="1" />
+      <node id="2683619068958590903" at="44,217,45,118" concept="1" />
+      <node id="6343853832478761944" at="45,118,46,125" concept="1" />
+      <node id="2683619068958590889" at="51,0,52,0" concept="7" trace="TextgenText$PS" />
+      <node id="2683619068958590889" at="21,0,23,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="2683619068958590889" at="24,0,27,0" concept="0" trace="SplitAfterMiddleLine_Test#()V" />
+      <node id="2683619068958590889" at="35,0,38,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2683619068958590889" at="28,0,32,0" concept="4" trace="test_SplitAfterMiddleLine#()V" />
+      <node id="2683619068958590889" at="39,0,48,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="2683619068958590889" at="24,38,25,60" />
+      <scope id="2683619068958590889" at="29,60,30,36" />
+      <scope id="2683619068958590889" at="35,52,36,19" />
+      <scope id="2683619068958590889" at="24,0,27,0" />
+      <scope id="2683619068958590889" at="35,0,38,0">
         <var name="owner" id="2683619068958590889" />
       </scope>
-      <scope id="2683619068958590889" at="25,0,29,0" />
-      <scope id="2683619068958590889" at="37,51,43,125">
+      <scope id="2683619068958590889" at="28,0,32,0" />
+      <scope id="2683619068958590889" at="40,51,46,125">
         <var name="before" id="2683619068958593013" />
         <var name="root" id="2683619068958593005" />
       </scope>
-      <scope id="2683619068958590889" at="36,0,45,0" />
-      <unit id="2683619068958590889" at="30,0,46,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitAfterMiddleLine_Test$TestBody" />
-      <unit id="2683619068958590889" at="16,0,47,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitAfterMiddleLine_Test" />
+      <scope id="2683619068958590889" at="39,0,48,0" />
+      <unit id="2683619068958590889" at="50,0,53,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitAfterMiddleLine_Test$CONCEPTS" />
+      <unit id="2683619068958590889" at="33,0,49,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitAfterMiddleLine_Test$TestBody" />
+      <unit id="2683619068958590889" at="19,0,54,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitAfterMiddleLine_Test" />
     </file>
   </root>
   <root nodeRef="r:e23337c0-33b4-42ca-b61c-0ab8c2a58412(com.jetbrains.mpsext.plaintextgen.editor.tests.intentions@tests)/2683619068958590943">
     <file name="SplitInsideHorizontalLine_Test.java">
-      <node id="2683619068958590943" at="21,43,22,60" concept="9" />
-      <node id="2683619068958590943" at="26,65,27,36" concept="1" />
-      <node id="2683619068958590943" at="32,52,33,19" concept="9" />
-      <node id="2683619068958590943" at="37,51,38,72" concept="1" />
-      <node id="2683619068958593084" at="38,72,39,58" concept="5" />
-      <node id="2683619068958593092" at="39,58,40,46" concept="5" />
-      <node id="6343853832478761954" at="40,46,41,222" concept="1" />
-      <node id="2683619068958590957" at="41,222,42,118" concept="1" />
-      <node id="6343853832478761958" at="42,118,43,130" concept="1" />
-      <node id="2683619068958590943" at="18,0,20,0" concept="7" trace="ourParametersCacheExtension" />
-      <node id="2683619068958590943" at="21,0,24,0" concept="0" trace="SplitInsideHorizontalLine_Test#()V" />
-      <node id="2683619068958590943" at="32,0,35,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="2683619068958590943" at="25,0,29,0" concept="4" trace="test_SplitInsideHorizontalLine#()V" />
-      <node id="2683619068958590943" at="36,0,45,0" concept="4" trace="testMethodImpl#()V" />
-      <scope id="2683619068958590943" at="21,43,22,60" />
-      <scope id="2683619068958590943" at="26,65,27,36" />
-      <scope id="2683619068958590943" at="32,52,33,19" />
-      <scope id="2683619068958590943" at="21,0,24,0" />
-      <scope id="2683619068958590943" at="32,0,35,0">
+      <node id="2683619068958590943" at="24,43,25,60" concept="9" />
+      <node id="2683619068958590943" at="29,65,30,36" concept="1" />
+      <node id="2683619068958590943" at="35,52,36,19" concept="9" />
+      <node id="2683619068958590943" at="40,51,41,72" concept="1" />
+      <node id="2683619068958593084" at="41,72,42,105" concept="5" />
+      <node id="2683619068958593092" at="42,105,43,46" concept="5" />
+      <node id="6343853832478761954" at="43,46,44,222" concept="1" />
+      <node id="2683619068958590957" at="44,222,45,118" concept="1" />
+      <node id="6343853832478761958" at="45,118,46,130" concept="1" />
+      <node id="2683619068958590943" at="51,0,52,0" concept="7" trace="TextgenText$PS" />
+      <node id="2683619068958590943" at="21,0,23,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="2683619068958590943" at="24,0,27,0" concept="0" trace="SplitInsideHorizontalLine_Test#()V" />
+      <node id="2683619068958590943" at="35,0,38,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2683619068958590943" at="28,0,32,0" concept="4" trace="test_SplitInsideHorizontalLine#()V" />
+      <node id="2683619068958590943" at="39,0,48,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="2683619068958590943" at="24,43,25,60" />
+      <scope id="2683619068958590943" at="29,65,30,36" />
+      <scope id="2683619068958590943" at="35,52,36,19" />
+      <scope id="2683619068958590943" at="24,0,27,0" />
+      <scope id="2683619068958590943" at="35,0,38,0">
         <var name="owner" id="2683619068958590943" />
       </scope>
-      <scope id="2683619068958590943" at="25,0,29,0" />
-      <scope id="2683619068958590943" at="37,51,43,130">
+      <scope id="2683619068958590943" at="28,0,32,0" />
+      <scope id="2683619068958590943" at="40,51,46,130">
         <var name="before" id="2683619068958593091" />
         <var name="root" id="2683619068958593083" />
       </scope>
-      <scope id="2683619068958590943" at="36,0,45,0" />
-      <unit id="2683619068958590943" at="30,0,46,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitInsideHorizontalLine_Test$TestBody" />
-      <unit id="2683619068958590943" at="16,0,47,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitInsideHorizontalLine_Test" />
+      <scope id="2683619068958590943" at="39,0,48,0" />
+      <unit id="2683619068958590943" at="50,0,53,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitInsideHorizontalLine_Test$CONCEPTS" />
+      <unit id="2683619068958590943" at="33,0,49,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitInsideHorizontalLine_Test$TestBody" />
+      <unit id="2683619068958590943" at="19,0,54,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitInsideHorizontalLine_Test" />
     </file>
   </root>
   <root nodeRef="r:e23337c0-33b4-42ca-b61c-0ab8c2a58412(com.jetbrains.mpsext.plaintextgen.editor.tests.intentions@tests)/2683619068958590983">
     <file name="SplitNestedRightAlignment_Test.java">
-      <node id="2683619068958590983" at="21,43,22,60" concept="9" />
-      <node id="2683619068958590983" at="26,65,27,36" concept="1" />
-      <node id="2683619068958590983" at="32,52,33,19" concept="9" />
-      <node id="2683619068958590983" at="37,51,38,72" concept="1" />
-      <node id="2683619068958593162" at="38,72,39,58" concept="5" />
-      <node id="2683619068958593170" at="39,58,40,46" concept="5" />
-      <node id="6343853832478761968" at="40,46,41,222" concept="1" />
-      <node id="2683619068958590997" at="41,222,42,118" concept="1" />
-      <node id="6343853832478761972" at="42,118,43,130" concept="1" />
-      <node id="2683619068958590983" at="18,0,20,0" concept="7" trace="ourParametersCacheExtension" />
-      <node id="2683619068958590983" at="21,0,24,0" concept="0" trace="SplitNestedRightAlignment_Test#()V" />
-      <node id="2683619068958590983" at="32,0,35,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="2683619068958590983" at="25,0,29,0" concept="4" trace="test_SplitNestedRightAlignment#()V" />
-      <node id="2683619068958590983" at="36,0,45,0" concept="4" trace="testMethodImpl#()V" />
-      <scope id="2683619068958590983" at="21,43,22,60" />
-      <scope id="2683619068958590983" at="26,65,27,36" />
-      <scope id="2683619068958590983" at="32,52,33,19" />
-      <scope id="2683619068958590983" at="21,0,24,0" />
-      <scope id="2683619068958590983" at="32,0,35,0">
+      <node id="2683619068958590983" at="24,43,25,60" concept="9" />
+      <node id="2683619068958590983" at="29,65,30,36" concept="1" />
+      <node id="2683619068958590983" at="35,52,36,19" concept="9" />
+      <node id="2683619068958590983" at="40,51,41,72" concept="1" />
+      <node id="2683619068958593162" at="41,72,42,105" concept="5" />
+      <node id="2683619068958593170" at="42,105,43,46" concept="5" />
+      <node id="6343853832478761968" at="43,46,44,222" concept="1" />
+      <node id="2683619068958590997" at="44,222,45,118" concept="1" />
+      <node id="6343853832478761972" at="45,118,46,130" concept="1" />
+      <node id="2683619068958590983" at="51,0,52,0" concept="7" trace="TextgenText$PS" />
+      <node id="2683619068958590983" at="21,0,23,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="2683619068958590983" at="24,0,27,0" concept="0" trace="SplitNestedRightAlignment_Test#()V" />
+      <node id="2683619068958590983" at="35,0,38,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2683619068958590983" at="28,0,32,0" concept="4" trace="test_SplitNestedRightAlignment#()V" />
+      <node id="2683619068958590983" at="39,0,48,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="2683619068958590983" at="24,43,25,60" />
+      <scope id="2683619068958590983" at="29,65,30,36" />
+      <scope id="2683619068958590983" at="35,52,36,19" />
+      <scope id="2683619068958590983" at="24,0,27,0" />
+      <scope id="2683619068958590983" at="35,0,38,0">
         <var name="owner" id="2683619068958590983" />
       </scope>
-      <scope id="2683619068958590983" at="25,0,29,0" />
-      <scope id="2683619068958590983" at="37,51,43,130">
+      <scope id="2683619068958590983" at="28,0,32,0" />
+      <scope id="2683619068958590983" at="40,51,46,130">
         <var name="before" id="2683619068958593169" />
         <var name="root" id="2683619068958593161" />
       </scope>
-      <scope id="2683619068958590983" at="36,0,45,0" />
-      <unit id="2683619068958590983" at="30,0,46,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitNestedRightAlignment_Test$TestBody" />
-      <unit id="2683619068958590983" at="16,0,47,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitNestedRightAlignment_Test" />
+      <scope id="2683619068958590983" at="39,0,48,0" />
+      <unit id="2683619068958590983" at="50,0,53,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitNestedRightAlignment_Test$CONCEPTS" />
+      <unit id="2683619068958590983" at="33,0,49,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitNestedRightAlignment_Test$TestBody" />
+      <unit id="2683619068958590983" at="19,0,54,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitNestedRightAlignment_Test" />
     </file>
   </root>
   <root nodeRef="r:e23337c0-33b4-42ca-b61c-0ab8c2a58412(com.jetbrains.mpsext.plaintextgen.editor.tests.intentions@tests)/2683619068958591023">
     <file name="SplitNestedCenterAlignment_Test.java">
-      <node id="2683619068958591023" at="21,44,22,60" concept="9" />
-      <node id="2683619068958591023" at="26,66,27,36" concept="1" />
-      <node id="2683619068958591023" at="32,52,33,19" concept="9" />
-      <node id="2683619068958591023" at="37,51,38,72" concept="1" />
-      <node id="2683619068958593240" at="38,72,39,58" concept="5" />
-      <node id="2683619068958593248" at="39,58,40,46" concept="5" />
-      <node id="6343853832478761982" at="40,46,41,223" concept="1" />
-      <node id="2683619068958591037" at="41,223,42,118" concept="1" />
-      <node id="6343853832478761986" at="42,118,43,131" concept="1" />
-      <node id="2683619068958591023" at="18,0,20,0" concept="7" trace="ourParametersCacheExtension" />
-      <node id="2683619068958591023" at="21,0,24,0" concept="0" trace="SplitNestedCenterAlignment_Test#()V" />
-      <node id="2683619068958591023" at="32,0,35,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="2683619068958591023" at="25,0,29,0" concept="4" trace="test_SplitNestedCenterAlignment#()V" />
-      <node id="2683619068958591023" at="36,0,45,0" concept="4" trace="testMethodImpl#()V" />
-      <scope id="2683619068958591023" at="21,44,22,60" />
-      <scope id="2683619068958591023" at="26,66,27,36" />
-      <scope id="2683619068958591023" at="32,52,33,19" />
-      <scope id="2683619068958591023" at="21,0,24,0" />
-      <scope id="2683619068958591023" at="32,0,35,0">
+      <node id="2683619068958591023" at="24,44,25,60" concept="9" />
+      <node id="2683619068958591023" at="29,66,30,36" concept="1" />
+      <node id="2683619068958591023" at="35,52,36,19" concept="9" />
+      <node id="2683619068958591023" at="40,51,41,72" concept="1" />
+      <node id="2683619068958593240" at="41,72,42,105" concept="5" />
+      <node id="2683619068958593248" at="42,105,43,46" concept="5" />
+      <node id="6343853832478761982" at="43,46,44,223" concept="1" />
+      <node id="2683619068958591037" at="44,223,45,118" concept="1" />
+      <node id="6343853832478761986" at="45,118,46,131" concept="1" />
+      <node id="2683619068958591023" at="51,0,52,0" concept="7" trace="TextgenText$PS" />
+      <node id="2683619068958591023" at="21,0,23,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="2683619068958591023" at="24,0,27,0" concept="0" trace="SplitNestedCenterAlignment_Test#()V" />
+      <node id="2683619068958591023" at="35,0,38,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2683619068958591023" at="28,0,32,0" concept="4" trace="test_SplitNestedCenterAlignment#()V" />
+      <node id="2683619068958591023" at="39,0,48,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="2683619068958591023" at="24,44,25,60" />
+      <scope id="2683619068958591023" at="29,66,30,36" />
+      <scope id="2683619068958591023" at="35,52,36,19" />
+      <scope id="2683619068958591023" at="24,0,27,0" />
+      <scope id="2683619068958591023" at="35,0,38,0">
         <var name="owner" id="2683619068958591023" />
       </scope>
-      <scope id="2683619068958591023" at="25,0,29,0" />
-      <scope id="2683619068958591023" at="37,51,43,131">
+      <scope id="2683619068958591023" at="28,0,32,0" />
+      <scope id="2683619068958591023" at="40,51,46,131">
         <var name="before" id="2683619068958593247" />
         <var name="root" id="2683619068958593239" />
       </scope>
-      <scope id="2683619068958591023" at="36,0,45,0" />
-      <unit id="2683619068958591023" at="30,0,46,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitNestedCenterAlignment_Test$TestBody" />
-      <unit id="2683619068958591023" at="16,0,47,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitNestedCenterAlignment_Test" />
+      <scope id="2683619068958591023" at="39,0,48,0" />
+      <unit id="2683619068958591023" at="50,0,53,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitNestedCenterAlignment_Test$CONCEPTS" />
+      <unit id="2683619068958591023" at="33,0,49,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitNestedCenterAlignment_Test$TestBody" />
+      <unit id="2683619068958591023" at="19,0,54,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitNestedCenterAlignment_Test" />
     </file>
   </root>
   <root nodeRef="r:e23337c0-33b4-42ca-b61c-0ab8c2a58412(com.jetbrains.mpsext.plaintextgen.editor.tests.intentions@tests)/2683619068958591072">
     <file name="SplitInsideIndentedCollection_Test.java">
-      <node id="2683619068958591072" at="21,47,22,60" concept="9" />
-      <node id="2683619068958591072" at="26,69,27,36" concept="1" />
-      <node id="2683619068958591072" at="32,52,33,19" concept="9" />
-      <node id="2683619068958591072" at="37,51,38,72" concept="1" />
-      <node id="2683619068958593318" at="38,72,39,58" concept="5" />
-      <node id="2683619068958593326" at="39,58,40,46" concept="5" />
-      <node id="6343853832478761996" at="40,46,41,226" concept="1" />
-      <node id="2683619068958591086" at="41,226,42,118" concept="1" />
-      <node id="6343853832478762000" at="42,118,43,134" concept="1" />
-      <node id="2683619068958591072" at="18,0,20,0" concept="7" trace="ourParametersCacheExtension" />
-      <node id="2683619068958591072" at="21,0,24,0" concept="0" trace="SplitInsideIndentedCollection_Test#()V" />
-      <node id="2683619068958591072" at="32,0,35,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="2683619068958591072" at="25,0,29,0" concept="4" trace="test_SplitInsideIndentedCollection#()V" />
-      <node id="2683619068958591072" at="36,0,45,0" concept="4" trace="testMethodImpl#()V" />
-      <scope id="2683619068958591072" at="21,47,22,60" />
-      <scope id="2683619068958591072" at="26,69,27,36" />
-      <scope id="2683619068958591072" at="32,52,33,19" />
-      <scope id="2683619068958591072" at="21,0,24,0" />
-      <scope id="2683619068958591072" at="32,0,35,0">
+      <node id="2683619068958591072" at="24,47,25,60" concept="9" />
+      <node id="2683619068958591072" at="29,69,30,36" concept="1" />
+      <node id="2683619068958591072" at="35,52,36,19" concept="9" />
+      <node id="2683619068958591072" at="40,51,41,72" concept="1" />
+      <node id="2683619068958593318" at="41,72,42,105" concept="5" />
+      <node id="2683619068958593326" at="42,105,43,46" concept="5" />
+      <node id="6343853832478761996" at="43,46,44,226" concept="1" />
+      <node id="2683619068958591086" at="44,226,45,118" concept="1" />
+      <node id="6343853832478762000" at="45,118,46,134" concept="1" />
+      <node id="2683619068958591072" at="51,0,52,0" concept="7" trace="TextgenText$PS" />
+      <node id="2683619068958591072" at="21,0,23,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="2683619068958591072" at="24,0,27,0" concept="0" trace="SplitInsideIndentedCollection_Test#()V" />
+      <node id="2683619068958591072" at="35,0,38,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2683619068958591072" at="28,0,32,0" concept="4" trace="test_SplitInsideIndentedCollection#()V" />
+      <node id="2683619068958591072" at="39,0,48,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="2683619068958591072" at="24,47,25,60" />
+      <scope id="2683619068958591072" at="29,69,30,36" />
+      <scope id="2683619068958591072" at="35,52,36,19" />
+      <scope id="2683619068958591072" at="24,0,27,0" />
+      <scope id="2683619068958591072" at="35,0,38,0">
         <var name="owner" id="2683619068958591072" />
       </scope>
-      <scope id="2683619068958591072" at="25,0,29,0" />
-      <scope id="2683619068958591072" at="37,51,43,134">
+      <scope id="2683619068958591072" at="28,0,32,0" />
+      <scope id="2683619068958591072" at="40,51,46,134">
         <var name="before" id="2683619068958593325" />
         <var name="root" id="2683619068958593317" />
       </scope>
-      <scope id="2683619068958591072" at="36,0,45,0" />
-      <unit id="2683619068958591072" at="30,0,46,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitInsideIndentedCollection_Test$TestBody" />
-      <unit id="2683619068958591072" at="16,0,47,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitInsideIndentedCollection_Test" />
+      <scope id="2683619068958591072" at="39,0,48,0" />
+      <unit id="2683619068958591072" at="50,0,53,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitInsideIndentedCollection_Test$CONCEPTS" />
+      <unit id="2683619068958591072" at="33,0,49,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitInsideIndentedCollection_Test$TestBody" />
+      <unit id="2683619068958591072" at="19,0,54,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.SplitInsideIndentedCollection_Test" />
     </file>
   </root>
   <root nodeRef="r:e23337c0-33b4-42ca-b61c-0ab8c2a58412(com.jetbrains.mpsext.plaintextgen.editor.tests.intentions@tests)/2683619068958591108">
     <file name="UnavailableAfterLastLine_Test.java">
-      <node id="2683619068958591108" at="21,42,22,60" concept="9" />
-      <node id="2683619068958591108" at="26,64,27,36" concept="1" />
-      <node id="2683619068958591108" at="32,52,33,19" concept="9" />
-      <node id="2683619068958591108" at="37,51,38,72" concept="1" />
-      <node id="2683619068958593396" at="38,72,39,58" concept="5" />
-      <node id="2683619068958593404" at="39,58,40,46" concept="5" />
-      <node id="6343853832478762010" at="40,46,41,224" concept="1" />
-      <node id="6343853832478762014" at="41,224,42,133" concept="1" />
-      <node id="2683619068958591108" at="18,0,20,0" concept="7" trace="ourParametersCacheExtension" />
-      <node id="2683619068958591108" at="21,0,24,0" concept="0" trace="UnavailableAfterLastLine_Test#()V" />
-      <node id="2683619068958591108" at="32,0,35,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="2683619068958591108" at="25,0,29,0" concept="4" trace="test_UnavailableAfterLastLine#()V" />
-      <node id="2683619068958591108" at="36,0,44,0" concept="4" trace="testMethodImpl#()V" />
-      <scope id="2683619068958591108" at="21,42,22,60" />
-      <scope id="2683619068958591108" at="26,64,27,36" />
-      <scope id="2683619068958591108" at="32,52,33,19" />
-      <scope id="2683619068958591108" at="21,0,24,0" />
-      <scope id="2683619068958591108" at="32,0,35,0">
+      <node id="2683619068958591108" at="24,42,25,60" concept="9" />
+      <node id="2683619068958591108" at="29,64,30,36" concept="1" />
+      <node id="2683619068958591108" at="35,52,36,19" concept="9" />
+      <node id="2683619068958591108" at="40,51,41,72" concept="1" />
+      <node id="2683619068958593396" at="41,72,42,105" concept="5" />
+      <node id="2683619068958593404" at="42,105,43,46" concept="5" />
+      <node id="6343853832478762010" at="43,46,44,224" concept="1" />
+      <node id="6343853832478762014" at="44,224,45,133" concept="1" />
+      <node id="2683619068958591108" at="50,0,51,0" concept="7" trace="TextgenText$PS" />
+      <node id="2683619068958591108" at="21,0,23,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="2683619068958591108" at="24,0,27,0" concept="0" trace="UnavailableAfterLastLine_Test#()V" />
+      <node id="2683619068958591108" at="35,0,38,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2683619068958591108" at="28,0,32,0" concept="4" trace="test_UnavailableAfterLastLine#()V" />
+      <node id="2683619068958591108" at="39,0,47,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="2683619068958591108" at="24,42,25,60" />
+      <scope id="2683619068958591108" at="29,64,30,36" />
+      <scope id="2683619068958591108" at="35,52,36,19" />
+      <scope id="2683619068958591108" at="24,0,27,0" />
+      <scope id="2683619068958591108" at="35,0,38,0">
         <var name="owner" id="2683619068958591108" />
       </scope>
-      <scope id="2683619068958591108" at="25,0,29,0" />
-      <scope id="2683619068958591108" at="37,51,42,133">
+      <scope id="2683619068958591108" at="28,0,32,0" />
+      <scope id="2683619068958591108" at="40,51,45,133">
         <var name="before" id="2683619068958593403" />
         <var name="root" id="2683619068958593395" />
       </scope>
-      <scope id="2683619068958591108" at="36,0,44,0" />
-      <unit id="2683619068958591108" at="30,0,45,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableAfterLastLine_Test$TestBody" />
-      <unit id="2683619068958591108" at="16,0,46,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableAfterLastLine_Test" />
+      <scope id="2683619068958591108" at="39,0,47,0" />
+      <unit id="2683619068958591108" at="49,0,52,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableAfterLastLine_Test$CONCEPTS" />
+      <unit id="2683619068958591108" at="33,0,48,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableAfterLastLine_Test$TestBody" />
+      <unit id="2683619068958591108" at="19,0,53,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableAfterLastLine_Test" />
     </file>
   </root>
   <root nodeRef="r:e23337c0-33b4-42ca-b61c-0ab8c2a58412(com.jetbrains.mpsext.plaintextgen.editor.tests.intentions@tests)/2683619068958591136">
     <file name="UnavailableForSingleLine_Test.java">
-      <node id="2683619068958591136" at="21,42,22,60" concept="9" />
-      <node id="2683619068958591136" at="26,64,27,36" concept="1" />
-      <node id="2683619068958591136" at="32,52,33,19" concept="9" />
-      <node id="2683619068958591136" at="37,51,38,72" concept="1" />
-      <node id="2683619068958593474" at="38,72,39,58" concept="5" />
-      <node id="2683619068958593482" at="39,58,40,46" concept="5" />
-      <node id="6343853832478762024" at="40,46,41,224" concept="1" />
-      <node id="6343853832478762028" at="41,224,42,133" concept="1" />
-      <node id="2683619068958591136" at="18,0,20,0" concept="7" trace="ourParametersCacheExtension" />
-      <node id="2683619068958591136" at="21,0,24,0" concept="0" trace="UnavailableForSingleLine_Test#()V" />
-      <node id="2683619068958591136" at="32,0,35,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="2683619068958591136" at="25,0,29,0" concept="4" trace="test_UnavailableForSingleLine#()V" />
-      <node id="2683619068958591136" at="36,0,44,0" concept="4" trace="testMethodImpl#()V" />
-      <scope id="2683619068958591136" at="21,42,22,60" />
-      <scope id="2683619068958591136" at="26,64,27,36" />
-      <scope id="2683619068958591136" at="32,52,33,19" />
-      <scope id="2683619068958591136" at="21,0,24,0" />
-      <scope id="2683619068958591136" at="32,0,35,0">
+      <node id="2683619068958591136" at="24,42,25,60" concept="9" />
+      <node id="2683619068958591136" at="29,64,30,36" concept="1" />
+      <node id="2683619068958591136" at="35,52,36,19" concept="9" />
+      <node id="2683619068958591136" at="40,51,41,72" concept="1" />
+      <node id="2683619068958593474" at="41,72,42,105" concept="5" />
+      <node id="2683619068958593482" at="42,105,43,46" concept="5" />
+      <node id="6343853832478762024" at="43,46,44,224" concept="1" />
+      <node id="6343853832478762028" at="44,224,45,133" concept="1" />
+      <node id="2683619068958591136" at="50,0,51,0" concept="7" trace="TextgenText$PS" />
+      <node id="2683619068958591136" at="21,0,23,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="2683619068958591136" at="24,0,27,0" concept="0" trace="UnavailableForSingleLine_Test#()V" />
+      <node id="2683619068958591136" at="35,0,38,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2683619068958591136" at="28,0,32,0" concept="4" trace="test_UnavailableForSingleLine#()V" />
+      <node id="2683619068958591136" at="39,0,47,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="2683619068958591136" at="24,42,25,60" />
+      <scope id="2683619068958591136" at="29,64,30,36" />
+      <scope id="2683619068958591136" at="35,52,36,19" />
+      <scope id="2683619068958591136" at="24,0,27,0" />
+      <scope id="2683619068958591136" at="35,0,38,0">
         <var name="owner" id="2683619068958591136" />
       </scope>
-      <scope id="2683619068958591136" at="25,0,29,0" />
-      <scope id="2683619068958591136" at="37,51,42,133">
+      <scope id="2683619068958591136" at="28,0,32,0" />
+      <scope id="2683619068958591136" at="40,51,45,133">
         <var name="before" id="2683619068958593481" />
         <var name="root" id="2683619068958593473" />
       </scope>
-      <scope id="2683619068958591136" at="36,0,44,0" />
-      <unit id="2683619068958591136" at="30,0,45,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableForSingleLine_Test$TestBody" />
-      <unit id="2683619068958591136" at="16,0,46,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableForSingleLine_Test" />
+      <scope id="2683619068958591136" at="39,0,47,0" />
+      <unit id="2683619068958591136" at="49,0,52,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableForSingleLine_Test$CONCEPTS" />
+      <unit id="2683619068958591136" at="33,0,48,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableForSingleLine_Test$TestBody" />
+      <unit id="2683619068958591136" at="19,0,53,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableForSingleLine_Test" />
     </file>
   </root>
   <root nodeRef="r:e23337c0-33b4-42ca-b61c-0ab8c2a58412(com.jetbrains.mpsext.plaintextgen.editor.tests.intentions@tests)/2683619068958591174">
     <file name="UnavailableDirectlyInIndentedCollection_Test.java">
-      <node id="2683619068958591174" at="21,57,22,60" concept="9" />
-      <node id="2683619068958591174" at="26,79,27,36" concept="1" />
-      <node id="2683619068958591174" at="32,52,33,19" concept="9" />
-      <node id="2683619068958591174" at="37,51,38,72" concept="1" />
-      <node id="2683619068958593552" at="38,72,39,58" concept="5" />
-      <node id="2683619068958593560" at="39,58,40,46" concept="5" />
-      <node id="6343853832478762038" at="40,46,41,239" concept="1" />
-      <node id="6343853832478762042" at="41,239,42,148" concept="1" />
-      <node id="2683619068958591174" at="18,0,20,0" concept="7" trace="ourParametersCacheExtension" />
-      <node id="2683619068958591174" at="21,0,24,0" concept="0" trace="UnavailableDirectlyInIndentedCollection_Test#()V" />
-      <node id="2683619068958591174" at="32,0,35,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="2683619068958591174" at="25,0,29,0" concept="4" trace="test_UnavailableDirectlyInIndentedCollection#()V" />
-      <node id="2683619068958591174" at="36,0,44,0" concept="4" trace="testMethodImpl#()V" />
-      <scope id="2683619068958591174" at="21,57,22,60" />
-      <scope id="2683619068958591174" at="26,79,27,36" />
-      <scope id="2683619068958591174" at="32,52,33,19" />
-      <scope id="2683619068958591174" at="21,0,24,0" />
-      <scope id="2683619068958591174" at="32,0,35,0">
+      <node id="2683619068958591174" at="24,57,25,60" concept="9" />
+      <node id="2683619068958591174" at="29,79,30,36" concept="1" />
+      <node id="2683619068958591174" at="35,52,36,19" concept="9" />
+      <node id="2683619068958591174" at="40,51,41,72" concept="1" />
+      <node id="2683619068958593552" at="41,72,42,105" concept="5" />
+      <node id="2683619068958593560" at="42,105,43,46" concept="5" />
+      <node id="6343853832478762038" at="43,46,44,239" concept="1" />
+      <node id="6343853832478762042" at="44,239,45,148" concept="1" />
+      <node id="2683619068958591174" at="50,0,51,0" concept="7" trace="TextgenText$PS" />
+      <node id="2683619068958591174" at="21,0,23,0" concept="7" trace="ourParametersCacheExtension" />
+      <node id="2683619068958591174" at="24,0,27,0" concept="0" trace="UnavailableDirectlyInIndentedCollection_Test#()V" />
+      <node id="2683619068958591174" at="35,0,38,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2683619068958591174" at="28,0,32,0" concept="4" trace="test_UnavailableDirectlyInIndentedCollection#()V" />
+      <node id="2683619068958591174" at="39,0,47,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="2683619068958591174" at="24,57,25,60" />
+      <scope id="2683619068958591174" at="29,79,30,36" />
+      <scope id="2683619068958591174" at="35,52,36,19" />
+      <scope id="2683619068958591174" at="24,0,27,0" />
+      <scope id="2683619068958591174" at="35,0,38,0">
         <var name="owner" id="2683619068958591174" />
       </scope>
-      <scope id="2683619068958591174" at="25,0,29,0" />
-      <scope id="2683619068958591174" at="37,51,42,148">
+      <scope id="2683619068958591174" at="28,0,32,0" />
+      <scope id="2683619068958591174" at="40,51,45,148">
         <var name="before" id="2683619068958593559" />
         <var name="root" id="2683619068958593551" />
       </scope>
-      <scope id="2683619068958591174" at="36,0,44,0" />
-      <unit id="2683619068958591174" at="30,0,45,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableDirectlyInIndentedCollection_Test$TestBody" />
-      <unit id="2683619068958591174" at="16,0,46,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableDirectlyInIndentedCollection_Test" />
+      <scope id="2683619068958591174" at="39,0,47,0" />
+      <unit id="2683619068958591174" at="49,0,52,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableDirectlyInIndentedCollection_Test$CONCEPTS" />
+      <unit id="2683619068958591174" at="33,0,48,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableDirectlyInIndentedCollection_Test$TestBody" />
+      <unit id="2683619068958591174" at="19,0,53,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.UnavailableDirectlyInIndentedCollection_Test" />
     </file>
   </root>
   <root nodeRef="r:e23337c0-33b4-42ca-b61c-0ab8c2a58412(com.jetbrains.mpsext.plaintextgen.editor.tests.intentions@tests)/2683619068958591756">
     <file name="LayoutText.java">
-      <node id="2683619068958591763" at="19,50,20,51" concept="5" />
-      <node id="2683619068958591767" at="20,51,21,119" concept="5" />
-      <node id="2683619068958591770" at="21,119,22,163" concept="1" />
-      <node id="2683619068958591773" at="22,163,23,23" concept="5" />
-      <node id="2683619068958591795" at="25,20,26,31" concept="1" />
-      <node id="2683619068958591798" at="27,7,28,48" concept="1" />
-      <node id="2683619068958591802" at="29,5,30,18" concept="6" />
-      <node id="6343853832478771423" at="32,49,33,50" concept="5" />
-      <node id="6343853832478771429" at="33,50,34,73" concept="1" />
-      <node id="6343853832478771433" at="34,73,35,67" concept="5" />
-      <node id="6343853832478771437" at="35,67,36,110" concept="1" />
-      <node id="6343853832478771450" at="36,110,37,24" concept="6" />
-      <node id="2683619068958591756" at="41,0,42,0" concept="7" trace="TextgenText$PS" />
-      <node id="2683619068958591756" at="42,0,43,0" concept="7" trace="ITextGenElement$Te" />
-      <node id="2683619068958591756" at="46,0,47,0" concept="7" trace="content$rMPF" />
-      <node id="2683619068958591789" at="24,59,27,7" concept="3" />
-      <node id="2683619068958591776" at="23,23,29,5" concept="2" />
-      <node id="2683619068958607670" at="32,0,39,0" concept="8" trace="render#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="2683619068958591758" at="19,0,32,0" concept="8" trace="renderContent#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <scope id="2683619068958591794" at="25,20,26,31" />
-      <scope id="2683619068958591788" at="24,59,28,48" />
-      <scope id="6343853832478771422" at="32,49,37,24">
+      <node id="2683619068958591763" at="17,50,18,51" concept="5" />
+      <node id="2683619068958591767" at="18,51,19,72" concept="5" />
+      <node id="2683619068958591770" at="19,72,20,112" concept="1" />
+      <node id="2683619068958591773" at="20,112,21,23" concept="5" />
+      <node id="2683619068958591795" at="23,20,24,31" concept="1" />
+      <node id="2683619068958591798" at="25,7,26,48" concept="1" />
+      <node id="2683619068958591802" at="27,5,28,18" concept="6" />
+      <node id="6343853832478771423" at="30,49,31,50" concept="5" />
+      <node id="6343853832478771429" at="31,50,32,73" concept="1" />
+      <node id="6343853832478771433" at="32,73,33,67" concept="5" />
+      <node id="6343853832478771437" at="33,67,34,110" concept="1" />
+      <node id="6343853832478771450" at="34,110,35,24" concept="6" />
+      <node id="2683619068958591756" at="39,0,40,0" concept="7" trace="content$rMPF" />
+      <node id="2683619068958591789" at="22,59,25,7" concept="3" />
+      <node id="2683619068958591776" at="21,23,27,5" concept="2" />
+      <node id="2683619068958607670" at="30,0,37,0" concept="8" trace="render#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="2683619068958591758" at="17,0,30,0" concept="8" trace="renderContent#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="2683619068958591794" at="23,20,24,31" />
+      <scope id="2683619068958591788" at="22,59,26,48" />
+      <scope id="6343853832478771422" at="30,49,35,24">
         <var name="output" id="6343853832478771434" />
         <var name="owner" id="6343853832478771424" />
       </scope>
-      <scope id="2683619068958591776" at="23,23,29,5">
+      <scope id="2683619068958591776" at="21,23,27,5">
         <var name="row" id="2683619068958591777" />
       </scope>
-      <scope id="2683619068958607670" at="32,0,39,0">
+      <scope id="2683619068958607670" at="30,0,37,0">
         <var name="root" id="2683619068958607671" />
       </scope>
-      <scope id="2683619068958591761" at="19,50,30,18">
+      <scope id="2683619068958591761" at="17,50,28,18">
         <var name="content" id="2683619068958591766" />
         <var name="matrix" id="2683619068958591762" />
         <var name="output" id="2683619068958591772" />
       </scope>
-      <scope id="2683619068958591758" at="19,0,32,0">
+      <scope id="2683619068958591758" at="17,0,30,0">
         <var name="root" id="2683619068958591759" />
       </scope>
-      <unit id="2683619068958591756" at="45,0,48,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.LayoutText$LINKS" />
-      <unit id="2683619068958591756" at="40,0,44,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.LayoutText$CONCEPTS" />
-      <unit id="2683619068958591756" at="18,0,49,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.LayoutText" />
+      <unit id="2683619068958591756" at="38,0,41,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.LayoutText$LINKS" />
+      <unit id="2683619068958591756" at="16,0,42,0" name="com.jetbrains.mpsext.plaintextgen.editor.tests.intentions.LayoutText" />
     </file>
   </root>
 </debug-info>

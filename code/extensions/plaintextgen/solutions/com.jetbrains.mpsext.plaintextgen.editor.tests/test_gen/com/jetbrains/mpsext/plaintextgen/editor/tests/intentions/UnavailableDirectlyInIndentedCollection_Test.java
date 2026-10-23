@@ -11,7 +11,10 @@ import org.junit.jupiter.api.Test;
 import jetbrains.mps.lang.test.runtime.BaseEditorTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.junit.Assert;
+import org.jetbrains.mps.openapi.language.SConcept;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 @MPSLaunch
 public class UnavailableDirectlyInIndentedCollection_Test extends BaseTransformationTest {
@@ -36,10 +39,14 @@ public class UnavailableDirectlyInIndentedCollection_Test extends BaseTransforma
     @Override
     public void testMethodImpl() throws Exception {
       initEditorComponent("2683619068958591159", "2683619068958591162");
-      SNode root = (getEditorComponent()).getEditedNode();
+      SNode root = SNodeOperations.cast((getEditorComponent()).getEditedNode(), CONCEPTS.TextgenText$PS);
       String before = LayoutText.render(root);
       Assert.assertFalse("UnavailableDirectlyInIndentedCollection: intention must be unavailable at the selected word", isIntentionApplicable("com.dslfoundry.plaintextgen.intentions.SplitVerticalLayoutAfter_Intention", myStart.getNode()));
       Assert.assertEquals("UnavailableDirectlyInIndentedCollection: layout must remain unchanged without a split", before, LayoutText.render(root));
     }
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept TextgenText$PS = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, "com.dslfoundry.plaintextgen.structure.TextgenText");
   }
 }

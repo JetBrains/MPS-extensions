@@ -1511,35 +1511,14 @@
       <node concept="3clFbS" id="1vA0kATHUPF" role="3clF47">
         <node concept="3cpWs8" id="1vA0kATHUPM" role="3cqZAp">
           <node concept="3cpWsn" id="1vA0kATHUPN" role="3cpWs9">
-            <property role="TrG5h" value="containers" />
-            <node concept="3uibUv" id="1vA0kATHUPO" role="1tU5fm">
-              <ref role="3uigEE" to="33ny:~Stack" resolve="Stack" />
-              <node concept="3Tqbb2" id="1vA0kATHUPP" role="11_B2D">
-                <ref role="ehGHo" to="myiq:Z$zlZaZO7_" resolve="VerticalLines" />
-              </node>
+            <property role="TrG5h" value="result" />
+            <node concept="3Tqbb2" id="5w9Tncg45Il" role="1tU5fm">
+              <ref role="ehGHo" to="myiq:Z$zlZaZO7_" resolve="VerticalLines" />
             </node>
-            <node concept="2ShNRf" id="1vA0kATHUPQ" role="33vP2m">
-              <node concept="1pGfFk" id="1vA0kATHUPR" role="2ShVmc">
-                <ref role="37wK5l" to="33ny:~Stack.&lt;init&gt;()" resolve="Stack" />
-                <node concept="3Tqbb2" id="1vA0kATHUPS" role="1pMfVU">
+            <node concept="2ShNRf" id="5w9Tncg45Io" role="33vP2m">
+              <node concept="3zrR0B" id="5w9Tncg45Ip" role="2ShVmc">
+                <node concept="3Tqbb2" id="5w9Tncg45Iq" role="3zrR0E">
                   <ref role="ehGHo" to="myiq:Z$zlZaZO7_" resolve="VerticalLines" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1vA0kATHUPT" role="3cqZAp">
-          <node concept="2OqwBi" id="1vA0kATHUPU" role="3clFbG">
-            <node concept="37vLTw" id="1vA0kATHUPV" role="2Oq$k0">
-              <ref role="3cqZAo" node="1vA0kATHUPN" resolve="containers" />
-            </node>
-            <node concept="liA8E" id="1vA0kATHUPW" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Vector.add(java.lang.Object)" resolve="add" />
-              <node concept="2ShNRf" id="1vA0kATHUPX" role="37wK5m">
-                <node concept="3zrR0B" id="1vA0kATHUPY" role="2ShVmc">
-                  <node concept="3Tqbb2" id="1vA0kATHUPZ" role="3zrR0E">
-                    <ref role="ehGHo" to="myiq:Z$zlZaZO7_" resolve="VerticalLines" />
-                  </node>
                 </node>
               </node>
             </node>
@@ -1760,13 +1739,8 @@
                 <node concept="3clFbF" id="1vA0kATHURQ" role="3cqZAp">
                   <node concept="2OqwBi" id="1vA0kATHURR" role="3clFbG">
                     <node concept="2OqwBi" id="1vA0kATHURS" role="2Oq$k0">
-                      <node concept="2OqwBi" id="1vA0kATHURT" role="2Oq$k0">
-                        <node concept="37vLTw" id="1vA0kATHURU" role="2Oq$k0">
-                          <ref role="3cqZAo" node="1vA0kATHUPN" resolve="containers" />
-                        </node>
-                        <node concept="liA8E" id="1vA0kATHURV" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~Stack.peek()" resolve="peek" />
-                        </node>
+                      <node concept="37vLTw" id="5w9Tncg45Iv" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1vA0kATHUPN" resolve="result" />
                       </node>
                       <node concept="3Tsc0h" id="1vA0kATHURW" role="2OqNvi">
                         <ref role="3TtcxE" to="myiq:6gwxh6GbQuo" resolve="lines" />
@@ -1790,13 +1764,8 @@
           </node>
         </node>
         <node concept="3cpWs6" id="1vA0kATHUSz" role="3cqZAp">
-          <node concept="2OqwBi" id="1vA0kATHUWi" role="3cqZAk">
-            <node concept="37vLTw" id="1vA0kATHUSF" role="2Oq$k0">
-              <ref role="3cqZAo" node="1vA0kATHUPN" resolve="containers" />
-            </node>
-            <node concept="liA8E" id="1vA0kATHUWj" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Vector.firstElement()" resolve="firstElement" />
-            </node>
+          <node concept="37vLTw" id="5w9Tncg45Iy" role="3cqZAk">
+            <ref role="3cqZAo" node="1vA0kATHUPN" resolve="result" />
           </node>
         </node>
       </node>

@@ -27256,7 +27256,7 @@
         <ref role="L2wRA" node="55VuGTP$hiD" resolve="test.com.jetbrains.mpsext.viewmodel" />
       </node>
       <node concept="L2wRC" id="5w9TncfLJZc" role="39821P">
-        <ref role="L2wRA" node="5w9TncfLJYI" resolve="com.dslfoundry.plaintextgen.tests" />
+        <ref role="L2wRA" node="5w9TncfLJYI" resolve="com.jetbrains.mpsext.plaintextgen.paster.tests" />
       </node>
     </node>
     <node concept="2igEWh" id="H43MYuxQDj" role="1hWBAP">
@@ -27364,7 +27364,7 @@
         <ref role="22LTRN" node="55VuGTP$hiD" resolve="test.com.jetbrains.mpsext.viewmodel" />
       </node>
       <node concept="22LTRM" id="5w9TncfLJZd" role="22LTRK">
-        <ref role="22LTRN" node="5w9TncfLJYI" resolve="com.dslfoundry.plaintextgen.tests" />
+        <ref role="22LTRN" node="5w9TncfLJYI" resolve="com.jetbrains.mpsext.plaintextgen.paster.tests" />
       </node>
     </node>
     <node concept="2igEWh" id="1OMGwhrtizD" role="1hWBAP">
@@ -27546,7 +27546,7 @@
       <property role="TrG5h" value="plaintextgen" />
       <node concept="1E1JtA" id="5w9TncfLJYI" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="com.dslfoundry.plaintextgen.tests" />
+        <property role="TrG5h" value="com.jetbrains.mpsext.plaintextgen.paster.tests" />
         <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <property role="3LESm3" value="0dd44350-ab01-48e7-b31a-d86148384c8b" />
         <node concept="1BupzO" id="5w9TncfLJYK" role="3bR31x">
@@ -27561,7 +27561,7 @@
                 <node concept="2Ry0Ak" id="5w9TncfLJYO" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="5w9TncfLJYP" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.dslfoundry.plaintextgen.tests" />
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.plaintextgen.paster.tests" />
                     <node concept="2Ry0Ak" id="5w9TncfLJYQ" role="2Ry0An">
                       <property role="2Ry0Am" value="models" />
                     </node>
@@ -27583,7 +27583,7 @@
                 <node concept="2Ry0Ak" id="5w9TncfLJYW" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="5w9TncfLJYX" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.dslfoundry.plaintextgen.tests" />
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.plaintextgen.paster.tests" />
                   </node>
                 </node>
               </node>
@@ -27620,12 +27620,17 @@
             <node concept="2Ry0Ak" id="5w9TncfLJZ9" role="2Ry0An">
               <property role="2Ry0Am" value="solutions" />
               <node concept="2Ry0Ak" id="5w9TncfLJZa" role="2Ry0An">
-                <property role="2Ry0Am" value="com.dslfoundry.plaintextgen.tests" />
+                <property role="2Ry0Am" value="com.jetbrains.mpsext.plaintextgen.paster.tests" />
                 <node concept="2Ry0Ak" id="5w9TncfLJZb" role="2Ry0An">
-                  <property role="2Ry0Am" value="com.dslfoundry.plaintextgen.tests.msd" />
+                  <property role="2Ry0Am" value="com.jetbrains.mpsext.plaintextgen.paster.tests.msd" />
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5w9Tncg5kAU" role="3bR37C">
+          <node concept="3bR9La" id="5w9Tncg5kAV" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:ymnOULAU0H" resolve="jetbrains.mps.lang.test" />
           </node>
         </node>
       </node>

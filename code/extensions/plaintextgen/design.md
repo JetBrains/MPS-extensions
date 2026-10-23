@@ -60,8 +60,7 @@ joined. A native editor test confirms a deferred paste that removes a generator
 macro, invokes the platform `$Undo` action once through the native editor test
 language, and compares the restored structure and macro with the original
 fixture. The action runs directly in the test body, outside the `Runnable`
-used to check the pasted text, and needs no FileEditor adapter or custom Undo
-routing. The preview's layout-support flag is captured
+used to check the pasted text. The preview's layout-support flag is captured
 during preparation so showing the warning needs no model access. Visible dialog
 interaction and replacement-warning cancellation remain manual validation checks.
 
@@ -116,10 +115,13 @@ separate build-script registration.
 | --- | --- | --- |
 | `lineEndings@tests` | `LineEndings` | Exact-byte fallback/override precedence, defaults, and isolation |
 | `layouts@tests` | `Layouts` | Alignment, indentation, composition, tabs, whitespace, filenames, and charsets |
+| `layouts@tests` | `OutputAssertions` | Rejection paths of the exact-output assertions |
 | `generation@tests` | `Generator`, `GeneratedText` | Independent model snapshot; nested/empty property and loop macros; PlainTextFlow reductions |
+| `generation@tests` | `MacroOverrides` | Line-ending overrides set by property macros during model-to-model generation |
 | `pasting@tests` | `Pasting` | Indent detection, dedents, blank lines, line endings, tabs, and empty/null input |
 | `pasting@tests` | `DiffingPaste`, `DiffingPasteWords`, `DiffingPasteLayouts`, `DiffingPasteHistory`, `DiffingPasteReview` | Node/annotation identity, edits, repeated text, layout fallback, confirmations, stale previews, persistence failure, recovery history, non-generator attributes, and the dialog lock guard |
 | `pasting@tests` | `DiffingPasteThreading` | Real paste/recovery entry points, preview cancellation, isolated recovery copies, unlocked dialog callbacks, and joined concurrent readers |
+| `pasting@tests` | `ConfirmedDiffingPasteUndo` | Editor test: a confirmed paste that removes a macro is undone in one step by `$Undo` |
 
 For layout regressions, add a template to `layouts` and use
 `PlainTextGenAssertions.assertText(project, template, fileName, encoding,

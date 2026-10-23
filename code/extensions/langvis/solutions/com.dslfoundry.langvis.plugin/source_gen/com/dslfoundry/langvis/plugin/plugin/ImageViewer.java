@@ -4,11 +4,9 @@ package com.dslfoundry.langvis.plugin.plugin;
 
 import javax.swing.JLabel;
 import java.awt.Image;
-import com.intellij.util.concurrency.AppExecutorUtil;
-import javax.imageio.ImageIO;
-import java.io.File;
+import java.io.FileInputStream;
+import com.intellij.util.SVGLoader;
 import java.io.IOException;
-import jetbrains.mps.baseLanguage.logging.rt.LogContext;
 import com.intellij.openapi.application.ApplicationManager;
 import javax.swing.ImageIcon;
 
@@ -31,17 +29,12 @@ public class ImageViewer extends JLabel {
   }
 
   public void reloadImage(String path) {
-    AppExecutorUtil.getAppExecutorService().execute(() -> {
-      // Load image from disk
-      try {
-        this.unscaledImage = ImageIO.read(new File(path));
-      } catch (IOException ex) {
-        LogContext.with(ImageViewer.class, ex, null, null).error(String.format("Could not read '%s'", path));
-        return;
-      }
-      // Redraw image with current settings
-      ApplicationManager.getApplication().invokeAndWait(() -> refreshView());
-    });
+    try (FileInputStream input = new FileInputStream(path)) {
+      this.unscaledImage = SVGLoader.load(input, 1.0f);
+    } catch (IOException ex) {
+      throw new RuntimeException(ex);
+    }
+    ApplicationManager.getApplication().invokeLater(() -> refreshView());
   }
 
   public void refreshView() {

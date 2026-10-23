@@ -4,6 +4,13 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## October 2026
+
+### Fixed
+
+- *com.dslfoundry.langvis.plugin* Include inherited concept and interface structures when visualizing a language (#372), and offer language visualization only for structure models (#511).
+- *com.dslfoundry.langvis.plugin* Initialize the visualization tool and toolbar safely in MPS 2026.2 (#1869, #1872). Use the Markdown plugin-managed PlantUML and SVG preview without an external Java executable or a home-directory PlantUML jar (#1873, #364, #363).
+
 ## September 2026
 
 ### Fixed

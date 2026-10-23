@@ -26825,6 +26825,9 @@
       <node concept="L2wRC" id="2nIe0Om1syq" role="39821P">
         <ref role="L2wRA" node="3sHcYAWpgHi" resolve="test.nl.f1re.mps.aliascustomization" />
       </node>
+      <node concept="L2wRC" id="75V$0rwolyT" role="39821P">
+        <ref role="L2wRA" node="75V$0rwoly4" resolve="com.dslfoundry.langvis.tests" />
+      </node>
     </node>
     <node concept="2igEWh" id="H43MYuxQDj" role="1hWBAP">
       <property role="3UIfUI" value="2024" />
@@ -26927,9 +26930,145 @@
       <node concept="22LTRM" id="2nIe0Om1s$q" role="22LTRK">
         <ref role="22LTRN" node="3sHcYAWpgHi" resolve="test.nl.f1re.mps.aliascustomization" />
       </node>
+      <node concept="22LTRM" id="75V$0rwolyU" role="22LTRK">
+        <ref role="22LTRN" node="75V$0rwoly4" resolve="com.dslfoundry.langvis.tests" />
+      </node>
     </node>
     <node concept="2igEWh" id="1OMGwhrtizD" role="1hWBAP">
       <property role="3UIfUI" value="1024" />
+    </node>
+    <node concept="2G$12M" id="75V$0rwoly3" role="3989C9">
+      <property role="TrG5h" value="langvis" />
+      <node concept="1E1JtA" id="75V$0rwoly4" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.dslfoundry.langvis.tests" />
+        <property role="3LESm3" value="f9133308-2aac-49ab-85f4-3fbecfa0f253" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <node concept="398BVA" id="75V$0rwoly5" role="3LF7KH">
+          <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="75V$0rwoly6" role="iGT6I">
+            <property role="2Ry0Am" value="langvis" />
+            <node concept="2Ry0Ak" id="75V$0rwoly7" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="75V$0rwoly8" role="2Ry0An">
+                <property role="2Ry0Am" value="com.dslfoundry.langvis.tests" />
+                <node concept="2Ry0Ak" id="75V$0rwoly9" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.dslfoundry.langvis.tests.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="75V$0rwolyg" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="75V$0rwolyh" role="1HemKq">
+            <node concept="398BVA" id="75V$0rwolyi" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="75V$0rwolyj" role="iGT6I">
+                <property role="2Ry0Am" value="langvis" />
+                <node concept="2Ry0Ak" id="75V$0rwolyk" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="75V$0rwolyl" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.dslfoundry.langvis.tests" />
+                    <node concept="2Ry0Ak" id="75V$0rwolym" role="2Ry0An">
+                      <property role="2Ry0Am" value="models" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="75V$0rwolyn" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="75V$0rwolyo" role="3bR31x">
+          <node concept="3LXTmp" id="75V$0rwolyp" role="3rtmxm">
+            <node concept="398BVA" id="75V$0rwolyq" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="75V$0rwolyr" role="iGT6I">
+                <property role="2Ry0Am" value="langvis" />
+                <node concept="2Ry0Ak" id="75V$0rwolys" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="75V$0rwolyt" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.dslfoundry.langvis.tests" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="75V$0rwolyu" role="3LXTna">
+              <property role="3qWCbO" value="icons/**" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="75V$0rwolyv" role="3bR37C">
+          <node concept="3bR9La" id="75V$0rwolyw" role="1SiIV1">
+            <ref role="3bR37D" node="28JShQGqjTW" resolve="com.dslfoundry.langvis.plugin" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="75V$0rwolyx" role="3bR37C">
+          <node concept="3bR9La" id="75V$0rwolyy" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="75V$0rwolyz" role="3bR37C">
+          <node concept="3bR9La" id="75V$0rwoly$" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1xb0AuwN7WS" resolve="JUnit" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="75V$0rwoly_" role="3bR37C">
+          <node concept="3bR9La" id="75V$0rwolyA" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="75V$0rwolyB" role="3bR37C">
+          <node concept="3bR9La" id="75V$0rwolyC" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="75V$0rwolyD" role="3bR37C">
+          <node concept="3bR9La" id="75V$0rwolyE" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="75V$0rwolyF" role="3bR37C">
+          <node concept="3bR9La" id="75V$0rwolyG" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="75V$0rwolyH" role="3bR37C">
+          <node concept="3bR9La" id="75V$0rwolyI" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="75V$0rwolyJ" role="3bR37C">
+          <node concept="3bR9La" id="75V$0rwolyK" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:ymnOULAU0H" resolve="jetbrains.mps.lang.test" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="75V$0rwolyL" role="3bR37C">
+          <node concept="3bR9La" id="75V$0rwolyM" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:ymnOULAU0j" resolve="jetbrains.mps.baseLanguage.unitTest" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="75V$0rwolyN" role="3bR37C">
+          <node concept="3bR9La" id="75V$0rwolyO" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="75V$0rwolyP" role="3bR37C">
+          <node concept="3bR9La" id="75V$0rwolyQ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="75V$0rwolyR" role="3bR37C">
+          <node concept="3bR9La" id="75V$0rwolyS" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:ymnOULAU1u" resolve="jetbrains.mps.lang.test.runtime" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

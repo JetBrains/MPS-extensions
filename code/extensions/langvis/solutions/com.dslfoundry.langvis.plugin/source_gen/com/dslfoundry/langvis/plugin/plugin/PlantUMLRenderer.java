@@ -197,19 +197,40 @@ public class PlantUMLRenderer {
     }
   }
 
-  public void collectDownUp(SNode node, Set<SNode> collectedNodes) {
-    Set<SNode> upCollection = SetSequence.fromSet(new HashSet<SNode>());
-    Set<SNode> downCollection = SetSequence.fromSet(new HashSet<SNode>());
-
-    collectDown(node, downCollection);
-    collectUp(node, upCollection);
-    for (SNode n : SetSequence.fromSet(downCollection)) {
-      collectUp(n, collectedNodes);
+  private void collectStructure(SNode node, Set<SNode> collectedNodes) {
+    if (SetSequence.fromSet(collectedNodes).contains(node)) {
+      return;
     }
-    SetSequence.fromSet(collectedNodes).addSequence(SetSequence.fromSet(downCollection));
-    SetSequence.fromSet(collectedNodes).addSequence(SetSequence.fromSet(upCollection));
+    SetSequence.fromSet(collectedNodes).addElement(node);
+    {
+      final SNode cdecl = node;
+      if (SNodeOperations.isInstanceOf(cdecl, CONCEPTS.ConceptDeclaration$gH)) {
+        if ((SLinkOperations.getTarget(cdecl, LINKS.extends$_Isg) != null)) {
+          collectStructure(SLinkOperations.getTarget(cdecl, LINKS.extends$_Isg), collectedNodes);
+        }
+        for (SNode intf : ListSequence.fromList(SLinkOperations.getChildren(cdecl, LINKS.implements$u_P2))) {
+          collectStructure(SLinkOperations.getTarget(intf, LINKS.intfc$zM4e), collectedNodes);
+        }
+      }
+    }
+    {
+      final SNode intfc = node;
+      if (SNodeOperations.isInstanceOf(intfc, CONCEPTS.InterfaceConceptDeclaration$CG)) {
+        for (SNode intf : ListSequence.fromList(SLinkOperations.getChildren(intfc, LINKS.extends$nawU))) {
+          collectStructure(SLinkOperations.getTarget(intf, LINKS.intfc$zM4e), collectedNodes);
+        }
+      }
+    }
+    for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.linkDeclaration$YU1f))) {
+      collectStructure(SLinkOperations.getTarget(child, LINKS.target$m40F), collectedNodes);
+    }
+  }
+  public void collectDownUp(SNode node, Set<SNode> collectedNodes) {
+    collectStructure(node, collectedNodes);
     if (this.collectInheritors) {
-      SetSequence.fromSet(collectedNodes).addSequence(ListSequence.fromList(inheritors(node)));
+      for (SNode n : ListSequence.fromList(inheritors(node))) {
+        collectStructure(n, collectedNodes);
+      }
     }
     List<SNode> filter = SetSequence.fromSet(collectedNodes).where((it) -> !(showAsBox(it))).toList();
     SetSequence.fromSet(collectedNodes).removeSequence(ListSequence.fromList(filter));

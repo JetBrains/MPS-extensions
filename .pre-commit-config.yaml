@@ -1,0 +1,303 @@
+# Checks run with prek (https://github.com/j178/prek) or pre-commit. See docs/contributing.md.
+#
+# The `exclude` lists and `--exclude` arguments below name existing files and modules that break a check. New files and
+# modules are still checked. Remove an entry once its file is fixed.
+repos:
+  # MPS project-structure checks. See https://github.com/specificlanguages/mps-pre-commit-hooks for what each one
+  # catches.
+  #
+  # Not enabled:
+  # - mps-check-orphan-modules: some existing modules are not registered in any modules.xml, and the hook has no
+  #   option to exclude them.
+  # - mps-check-orphan-models: some existing model files (mostly leftover generator/template/main@generator.mps
+  #   files in languages without a generator) lie outside every model root, and the hook has no option to exclude them.
+  - repo: "https://github.com/specificlanguages/mps-pre-commit-hooks"
+    rev: v0.5.0
+    hooks:
+      - id: mps-fix-path-variables
+      - id: mps-fix-missing-modules
+      - id: mps-check-orphan-mpsr-files
+      - id: mps-check-empty-model-roots
+
+      - id: mps-check-well-formed-xml
+        # Empty .model header file of a model that is not in any model root.
+        exclude: |
+          (?x)^(
+            code/extensions/widgets/solutions/de\.itemis\.mps\.editor\.collapsible\.tests/models/de\.itemis\.mps\.editor\.collapsible\.tests@tests/\.model
+          )$
+
+      # Existing modules that no build script packages: sandboxes, demos, tests and other modules that are not shipped.
+      - id: mps-check-unbuilt-modules
+        args:
+          - --exclude=code/extensions/blutil/tests/test.com.mbeddr.mpsutil.blutil/test.com.mbeddr.mpsutil.blutil.msd
+          - --exclude=code/extensions/changelog/de.itemis.mps.changelog.sandbox/de.itemis.mps.changelog.sandbox.msd
+          - --exclude=code/extensions/changelog/de.itemis.mps.changelog/sandbox/de.itemis.mps.changelog.sandbox.msd
+          - --exclude=code/extensions/devkits/de.q60.mps.genplan.virutalinterfaces_incremental.devkit/de.q60.mps.genplan.virutalinterfaces_incremental.devkit.devkit
+          - --exclude=code/extensions/devkits/de.q60.mps.incremental.devkit/de.q60.mps.incremental.devkit.devkit
+          - --exclude=code/extensions/grammarcells/solutions/com.mbeddr.mpsutil.grammarcells.sandbox/com.mbeddr.mpsutil.grammarcells.sandbox.msd
+          - --exclude=code/extensions/htmlcell/languages/de.itemis.mps.editor.htmlcell/sandbox/de.itemis.mps.editor.htmlcell.sandbox.msd
+          - --exclude=code/extensions/languages/de.itemis.model.merge.test/runtime/de.itemis.model.merge.test.runtime.msd
+          - --exclude=code/extensions/languages/de.itemis.model.merge.test/sandbox/de.itemis.model.merge.test.sandbox.msd
+          - --exclude=code/extensions/langvis/languages/com.dslfoundry.langvis.demolang/com.dslfoundry.langvis.demolang.mpl
+          - --exclude=code/extensions/langvis/solutions/com.dslfoundry.langvis.demo/com.dslfoundry.langvis.demo.msd
+          - --exclude=code/extensions/modellisteners/com.mbeddr.mpsutil.modellisteners.sandbox/com.mbeddr.mpsutil.modellisteners.sandbox.msd
+          - --exclude=code/extensions/pagination/solutions/de.itemis.mps.editor.pagination.demolang.sandbox/de.itemis.mps.editor.pagination.demolang.sandbox.msd
+          - --exclude=code/extensions/projectview/com.mbeddr.mpsutil.projectview.demo/com.mbeddr.mpsutil.projectview.demo.msd
+          - --exclude=code/extensions/querylist/com.mbeddr.mpsutil.editor.querylist.sandbox/com.mbeddr.mpsutil.editor.querylist.sandbox.msd
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.incremental.sandboxlang/de.q60.mps.incremental.sandboxlang.mpl
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.polymorphicfunctions.sandboxlang/de.q60.mps.polymorphicfunctions.sandboxlang.mpl
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.shadowmodels.examples.editor/de.q60.mps.shadowmodels.examples.editor.mpl
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.virtualinterfaces.sandboxlang/de.q60.mps.virtualinterfaces.sandboxlang.mpl
+          - --exclude=code/extensions/shadowmodels/solutions/de.q60.mps.genplan.virutalinterfaces_incremental/de.q60.mps.genplan.virutalinterfaces_incremental.msd
+          - --exclude=code/extensions/shadowmodels/solutions/de.q60.mps.incremental.sandbox/de.q60.mps.incremental.sandbox.msd
+          - --exclude=code/extensions/shadowmodels/solutions/de.q60.mps.polymorphicfunctions.sandbox/de.q60.mps.polymorphicfunctions.sandbox.msd
+          - --exclude=code/extensions/shadowmodels/solutions/de.q60.mps.shadowmodels.examples.javainterpreter/de.q60.mps.shadowmodels.examples.javainterpreter.msd
+          - --exclude=code/extensions/shadowmodels/solutions/de.q60.mps.shadowmodels.examples.output/de.q60.mps.shadowmodels.examples.output.msd
+          - --exclude=code/extensions/solutions/com.mbeddr.mpsutil.intentions.sandbox/com.mbeddr.mpsutil.intentions.sandbox.msd
+          - --exclude=code/extensions/solutions/de.itemis.model.merge.exec/de.itemis.model.merge.exec.msd
+          - --exclude=code/extensions/solutions/de.itemis.mps.extensions.changelog/de.itemis.mps.extensions.changelog.msd
+          - --exclude=code/extensions/spellcheck/solutions/de.itemis.mps.spellcheck.demo/de.itemis.mps.spellcheck.demo.msd
+          - --exclude=code/extensions/structurecheck/solutions/de.itemis.mps.structurecheck.sandbox/de.itemis.mps.structurecheck.sandbox.msd
+          - --exclude=code/extensions/tables/languages/de.slisson.mps.tables/sandbox/de.slisson.mps.tables.sandbox.msd
+          - --exclude=code/extensions/treenotation/com.mbeddr.mpsutil.treenotation.sandbox/com.mbeddr.mpsutil.treenotation.sandbox.msd
+          - --exclude=code/extensions/utils/solutions/de.itemis.mps.noderversioning.sandbox/de.itemis.mps.noderversioning.sandbox.msd
+
+      # Existing modules whose descriptor file or directory name does not match the module name. Renaming a module
+      # directory or descriptor touches build scripts and modules.xml files.
+      - id: mps-check-module-naming
+        exclude: |
+          (?x)^(
+            code/extensions/batik/solutions/de\.itemis\.stubs\.batik\.msd|
+            code/extensions/blutil/languages/com\.mbeddr\.mpsutil\.blutil/blutil\.mpl|
+            code/extensions/blutil/languages/com\.mbeddr\.mpsutil\.blutil/solutions/com\.mbeddr\.mpsutil\.blutil\.rt\.msd|
+            code/extensions/blutil/tests/test\.ts\.match/match\.msd|
+            code/extensions/celllayout/languages/de\.itemis\.mps\.celllayout/de\.itemis\.mps\.editor\.celllayout\.styles\.mpl|
+            code/extensions/celllayout/solutions/de\.slisson\.mps\.editor\.celllayout\.runtime/de\.itemis\.mps\.editor\.celllayout\.runtime\.msd|
+            code/extensions/celllayout/solutions/test\.de\.itemis\.mps\.editor\.celllayout\.runtime/test\.de\.itemis\.mps\.editor\.celllayout\.msd|
+            code/extensions/changelog/de\.itemis\.mps\.changelog/sandbox/de\.itemis\.mps\.changelog\.sandbox\.msd|
+            code/extensions/compare/languages/de\.itemis\.mps\.compare/compare\.mpl|
+            code/extensions/compare/solutions/de\.itemis\.mps\.comparator/comparator\.msd|
+            code/extensions/diagram/devkits/de\.itemis\.mps\.editor\.diagram\.devkit\.devkit|
+            code/extensions/htmlcell/languages/de\.itemis\.mps\.editor\.htmlcell/sandbox/de\.itemis\.mps\.editor\.htmlcell\.sandbox\.msd|
+            code/extensions/languages/de\.itemis\.model\.merge\.baselang/sandbox/de\.itemis\.model\.merge\.baselang\.sandbox\.msd|
+            code/extensions/languages/de\.itemis\.model\.merge\.test/runtime/de\.itemis\.model\.merge\.test\.runtime\.msd|
+            code/extensions/languages/de\.itemis\.model\.merge\.test/sandbox/de\.itemis\.model\.merge\.test\.sandbox\.msd|
+            code/extensions/modelmerger/languages/de\.itemis\.mps\.modelmerger/sandbox/de\.itemis\.mps\.modelmerger\.testhelper\.msd|
+            code/extensions/multiline/languages/demolang/demolang\.mpl|
+            code/extensions/multiline/languages/multiline/multiline\.mpl|
+            code/extensions/multiline/solutions/de\.slisson\.mps\.editor\.multiline\.runtime/runtime\.msd|
+            code/extensions/nodeversioning/solutions/de\.itemis\.mps\.nodeversioning\.runtime\.msd|
+            code/extensions/richtext/languages/de\.slisson\.richtext\.customcell/de\.slisson\.richtext\.customcell\.mpl|
+            code/extensions/richtext/languages/javadoc/javadoc\.mpl|
+            code/extensions/richtext/languages/richtext/richtext\.mpl|
+            code/extensions/statistics/de\.itemis\.mps\.statistics\.mpl|
+            code/extensions/tables/languages/de\.slisson\.mps\.tables/runtime/de\.slisson\.mps\.tables\.runtime\.msd|
+            code/extensions/tables/languages/de\.slisson\.mps\.tables/sandbox/de\.slisson\.mps\.tables\.sandbox\.msd|
+            code/extensions/widgets/languages/de\.itemis\.mps\.editor\.enumeration/runtime/de\.itemis\.mps\.editor\.enumeration\.runtime\.msd|
+            code/extensions/widgets/languages/de\.itemis\.mps\.editor\.enumeration/sandbox/de\.itemis\.mps\.editor\.enumeration\.sandbox\.msd|
+            code/extensions/widgets/tests/test\.de\.itemis\.mps\.editor\.bool\.runtime\.msd|
+            code/extensions/xml/solutions/de\.itemis\.stubs\.xml\.msd
+          )$
+
+      # Existing models whose file name does not match the model name, or generator models not named under their
+      # language.
+      - id: mps-check-model-naming
+        exclude: |
+          (?x)^(
+            code/extensions/blutil/languages/com\.mbeddr\.mpsutil\.blutil\.genutil/generator/template/main@generator\.mps|
+            code/extensions/blutil/tests/test\.com\.mbeddr\.mpsutil\.blutil\.genutil\.lang/generator/template/main@generator\.mps|
+            code/extensions/celllayout/languages/de\.itemis\.mps\.celllayout/models/styles/behavior\.mps|
+            code/extensions/celllayout/languages/de\.itemis\.mps\.celllayout/models/styles/constraints\.mps|
+            code/extensions/celllayout/languages/de\.itemis\.mps\.celllayout/models/styles/editor\.mps|
+            code/extensions/celllayout/languages/de\.itemis\.mps\.celllayout/models/styles/structure\.mps|
+            code/extensions/celllayout/languages/de\.itemis\.mps\.celllayout/models/styles/typesystem\.mps|
+            code/extensions/compare/solutions/de\.itemis\.mps\.comparator\.diff\.tests/models/de\.itemis\.mps\.comparator\.diff\.tests\.diffs@tests\.mps|
+            code/extensions/compare/solutions/de\.itemis\.mps\.comparator/models/\.model|
+            code/extensions/grammarcells/solutions/com\.mbeddr\.mpsutil\.grammarcells\.sandbox/models/com/mbeddr/mpsutil/editor/cells/sandbox\.mps|
+            code/extensions/modelmerger/languages/de\.itemis\.mps\.modelmerger/generator/template/main@generator\.mps|
+            code/extensions/plaintextgen/languages/com\.dslfoundry\.plaintextflow/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.incremental/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.polymorphicfunctions/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.gen\.afterPF/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.gen\.desugar/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.gen\.typesystem/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.transformation/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.util/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.virtualinterfaces/generator/template/main@generator\.mps|
+            code/extensions/statistics/generator/templates/de\.itemis\.mps\.statistics\.generator\.templates@generator\.mps|
+            code/extensions/structurecheck/languages/de\.itemis\.mps\.structurecheck/generator/template/main@generator\.mps|
+            code/extensions/widgets/languages/de\.itemis\.mps\.editor\.enumeration/generator/template/main@generator\.mps
+          )$
+
+      # Existing models saved with unknown (-1) or outdated language versions, and the descriptors of the modules that
+      # own them. The hook checks all models of a passed descriptor, so the descriptors are excluded as well.
+      - id: mps-check-language-versions
+        exclude: |
+          (?x)^(
+            code/extensions/blutil/languages/com\.mbeddr\.mpsutil\.blutil/blutil\.mpl|
+            code/extensions/blutil/languages/com\.mbeddr\.mpsutil\.blutil/generator/template/main@generator\.mps|
+            code/extensions/blutil/languages/com\.mbeddr\.mpsutil\.blutil/languageModels/intentions\.mps|
+            code/extensions/blutil/languages/com\.mbeddr\.mpsutil\.blutil/languageModels/structure\.mps|
+            code/extensions/blutil/tests/test\.com\.mbeddr\.mpsutil\.blutil\.genutil\.lang/generator/template/main@generator\.mps|
+            code/extensions/blutil/tests/test\.com\.mbeddr\.mpsutil\.blutil\.genutil\.lang/test\.com\.mbeddr\.mpsutil\.blutil\.genutil\.lang\.mpl|
+            code/extensions/blutil/tests/test\.com\.mbeddr\.mpsutil\.blutil\.genutil/models/input\.mps|
+            code/extensions/blutil/tests/test\.com\.mbeddr\.mpsutil\.blutil\.genutil/test\.com\.mbeddr\.mpsutil\.blutil\.genutil\.msd|
+            code/extensions/buildscripts/solutions/de\.itemis\.mps\.extensions\.build/de\.itemis\.mps\.extensions\.build\.msd|
+            code/extensions/buildscripts/solutions/de\.itemis\.mps\.extensions\.build/models/de\.itemis\.mps\.extensions\.build\.mps|
+            code/extensions/celllayout/languages/de\.itemis\.mps\.editor\.celllayout/de\.itemis\.mps\.editor\.celllayout\.mpl|
+            code/extensions/celllayout/languages/de\.itemis\.mps\.editor\.celllayout/generator/template/main@generator\.mps|
+            code/extensions/celllayout/languages/test\.de\.itemis\.mps\.editor\.celllayout\.lang/models/intentions\.mps|
+            code/extensions/celllayout/languages/test\.de\.itemis\.mps\.editor\.celllayout\.lang/test\.de\.itemis\.mps\.editor\.celllayout\.lang\.mpl|
+            code/extensions/celllayout/solutions/de\.slisson\.mps\.editor\.celllayout\.runtime/de\.itemis\.mps\.editor\.celllayout\.runtime\.msd|
+            code/extensions/celllayout/solutions/de\.slisson\.mps\.editor\.celllayout\.runtime/models/de/itemis/mps/editor/celllayout/runtime\.mps|
+            code/extensions/celllayout/solutions/test\.de\.itemis\.mps\.editor\.celllayout\.runtime/models/test/de/itemis/mps/editor/celllayout/editor@tests\.mps|
+            code/extensions/celllayout/solutions/test\.de\.itemis\.mps\.editor\.celllayout\.runtime/test\.de\.itemis\.mps\.editor\.celllayout\.msd|
+            code/extensions/compare/solutions/de\.itemis\.mps\.compare\.pattern\.test/de\.itemis\.mps\.compare\.pattern\.test\.msd|
+            code/extensions/compare/solutions/de\.itemis\.mps\.compare\.pattern\.test/models/de\.itemis\.mps\.compare\.pattern\.test\.basic@tests\.mps|
+            code/extensions/diagram/languages/de\.itemis\.mps\.editor\.diagram\.demolang/de\.itemis\.mps\.editor\.diagram\.demolang\.mpl|
+            code/extensions/diagram/languages/de\.itemis\.mps\.editor\.diagram\.demolang/languageModels/editor\.mps|
+            code/extensions/diagram/languages/de\.itemis\.mps\.editor\.diagram/de\.itemis\.mps\.editor\.diagram\.mpl|
+            code/extensions/diagram/languages/de\.itemis\.mps\.editor\.diagram/generator/template/main@generator\.mps|
+            code/extensions/diagram/languages/de\.itemis\.mps\.editor\.diagram/languageModels/editor\.mps|
+            code/extensions/diagram/solutions/de\.itemis\.mps\.editor\.diagram\.demoentities\.sandbox/de\.itemis\.mps\.editor\.diagram\.demoentities\.sandbox\.msd|
+            code/extensions/diagram/solutions/de\.itemis\.mps\.editor\.diagram\.demoentities\.sandbox/models/de/itemis/mps/editor/diagram/demoentities/sandbox\.mps|
+            code/extensions/diagram/solutions/de\.itemis\.mps\.editor\.diagram\.runtime/de\.itemis\.mps\.editor\.diagram\.runtime\.msd|
+            code/extensions/diagram/solutions/de\.itemis\.mps\.editor\.diagram\.runtime/models/de/itemis/mps/editor/diagram/runtime\.mps|
+            code/extensions/diagram/solutions/de\.itemis\.mps\.editor\.diagram\.runtime/models/de/itemis/mps/editor/diagram/runtime/jgraph\.mps|
+            code/extensions/diagram/solutions/de\.itemis\.mps\.editor\.diagram\.runtime/models/de/itemis/mps/editor/diagram/runtime/model\.mps|
+            code/extensions/diagram/solutions/test\.de\.itemis\.mps\.editor\.diagram\.solution/models/test/de/itemis/mps/editor/diagram/solution@tests\.mps|
+            code/extensions/diagram/solutions/test\.de\.itemis\.mps\.editor\.diagram\.solution/test\.de\.itemis\.mps\.editor\.diagram\.solution\.msd|
+            code/extensions/grammarcells/languages/com\.mbeddr\.mpsutil\.grammarcells/com\.mbeddr\.mpsutil\.grammarcells\.mpl|
+            code/extensions/grammarcells/languages/com\.mbeddr\.mpsutil\.grammarcells/generator/template/main@generator\.mps|
+            code/extensions/grammarcells/languages/com\.mbeddr\.mpsutil\.grammarcells/models/com/mbeddr/mpsutil/grammarcells/behavior\.mps|
+            code/extensions/grammarcells/solutions/com\.mbeddr\.mpsutil\.grammarcells\.runtime/com\.mbeddr\.mpsutil\.grammarcells\.runtime\.msd|
+            code/extensions/grammarcells/solutions/com\.mbeddr\.mpsutil\.grammarcells\.runtime/models/com/mbeddr/mpsutil/grammarcells/runtime\.mps|
+            code/extensions/langvis/languages/com\.dslfoundry\.langvis\.demolang/com\.dslfoundry\.langvis\.demolang\.mpl|
+            code/extensions/langvis/languages/com\.dslfoundry\.langvis\.demolang/generator/template/main@generator\.mps|
+            code/extensions/math/solutions/de\.itemis\.mps\.editor\.math\.runtime/de\.itemis\.mps\.editor\.math\.runtime\.msd|
+            code/extensions/math/solutions/de\.itemis\.mps\.editor\.math\.runtime/models/de/itemis/mps/editor/math/runtime\.mps|
+            code/extensions/model-api/org\.modelix\.model\.mpsadapters/models/org\.modelix\.model\.mpsadapters\.mps\.mps|
+            code/extensions/model-api/org\.modelix\.model\.mpsadapters/org\.modelix\.model\.mpsadapters\.msd|
+            code/extensions/model-api/org\.modelix\.model\.repositoryconcepts/models/org\.modelix\.model\.repositoryconcepts\.structure\.mps|
+            code/extensions/model-api/org\.modelix\.model\.repositoryconcepts/org\.modelix\.model\.repositoryconcepts\.mpl|
+            code/extensions/modelmerger/solutions/tests\.de\.itemis\.mps\.modelmerger/models/basictest@tests\.mps|
+            code/extensions/modelmerger/solutions/tests\.de\.itemis\.mps\.modelmerger/tests\.de\.itemis\.mps\.modelmerger\.msd|
+            code/extensions/mouseselection/solutions/de\.itemis\.mps\.selection\.runtime/de\.itemis\.mps\.selection\.runtime\.msd|
+            code/extensions/mouseselection/solutions/de\.itemis\.mps\.selection\.runtime/models/de/itemis/mps/selection/runtime/mouse\.mps|
+            code/extensions/multiline/solutions/de\.slisson\.mps\.editor\.multiline\.runtime/models/de/slisson/mps/editor/multiline/cells\.mps|
+            code/extensions/multiline/solutions/de\.slisson\.mps\.editor\.multiline\.runtime/runtime\.msd|
+            code/extensions/multiline/solutions/test\.de\.slisson\.mps\.editor\.multiline/models/test\.de\.slisson\.mps\.editor\.multiline@tests\.mps|
+            code/extensions/multiline/solutions/test\.de\.slisson\.mps\.editor\.multiline/test\.de\.slisson\.mps\.editor\.multiline\.msd|
+            code/extensions/plaintextgen/languages/com\.dslfoundry\.plaintextgen/com\.dslfoundry\.plaintextgen\.mpl|
+            code/extensions/plaintextgen/languages/com\.dslfoundry\.plaintextgen/models/com/dslfoundry/plaintextgen/behavior\.mps|
+            code/extensions/plaintextgen/languages/com\.dslfoundry\.plaintextgen/models/com/dslfoundry/plaintextgen/intentions\.mps|
+            code/extensions/plaintextgen/languages/com\.dslfoundry\.plaintextgen/models/com/dslfoundry/plaintextgen/plugin\.mps|
+            code/extensions/plaintextgen/solutions/com\.dslfoundry\.plaintextgen\.example\.nestedlist\.sandbox/com\.dslfoundry\.plaintextgen\.example\.nestedlist\.sandbox\.msd|
+            code/extensions/plaintextgen/solutions/com\.dslfoundry\.plaintextgen\.example\.nestedlist\.sandbox/models/NestedList\.mps|
+            code/extensions/projectview/com\.mbeddr\.mpsutil\.projectview\.runtime/com\.mbeddr\.mpsutil\.projectview\.runtime\.msd|
+            code/extensions/projectview/com\.mbeddr\.mpsutil\.projectview\.runtime/models/com/mbeddr/mpsutil/projectview/runtime\.mps|
+            code/extensions/projectview/com\.mbeddr\.mpsutil\.projectview\.runtime/models/com/mbeddr/mpsutil/projectview/runtime/tree\.mps|
+            code/extensions/projectview/com\.mbeddr\.mpsutil\.projectview\.runtime/models/com/mbeddr/mpsutil/projectview/runtime/tree/highlighter\.mps|
+            code/extensions/projectview/com\.mbeddr\.mpsutil\.projectview\.views/com\.mbeddr\.mpsutil\.projectview\.views\.msd|
+            code/extensions/projectview/com\.mbeddr\.mpsutil\.projectview\.views/models/com/mbeddr/mpsutil/projectview/views/plugin\.mps|
+            code/extensions/projectview/com\.mbeddr\.mpsutil\.projectview/com\.mbeddr\.mpsutil\.projectview\.mpl|
+            code/extensions/projectview/com\.mbeddr\.mpsutil\.projectview/generator/template/main@generator\.mps|
+            code/extensions/querylist/com\.mbeddr\.mpsutil\.editor\.querylist\.demolang/com\.mbeddr\.mpsutil\.editor\.querylist\.demolang\.mpl|
+            code/extensions/querylist/com\.mbeddr\.mpsutil\.editor\.querylist\.demolang/languageModels/editor\.mps|
+            code/extensions/querylist/com\.mbeddr\.mpsutil\.editor\.querylist\.runtime/com\.mbeddr\.mpsutil\.editor\.querylist\.runtime\.msd|
+            code/extensions/querylist/com\.mbeddr\.mpsutil\.editor\.querylist\.runtime/models/com/mbeddr/mpsutil/editor/querylist/runtime\.mps|
+            code/extensions/querylist/com\.mbeddr\.mpsutil\.editor\.querylist\.sandbox/com\.mbeddr\.mpsutil\.editor\.querylist\.sandbox\.msd|
+            code/extensions/querylist/com\.mbeddr\.mpsutil\.editor\.querylist\.sandbox/models/com/mbeddr/mpsutil/editor/querylist/sandbox\.mps|
+            code/extensions/richtext/languages/javadoc/javadoc\.mpl|
+            code/extensions/richtext/languages/javadoc/languageModels/intentions\.mps|
+            code/extensions/richtext/languages/richtext/languageModels/behavior\.mps|
+            code/extensions/richtext/languages/richtext/languageModels/editor\.mps|
+            code/extensions/richtext/languages/richtext/languageModels/plugin\.mps|
+            code/extensions/richtext/languages/richtext/models/de/slisson/mps/richtext/runtime\.mps|
+            code/extensions/richtext/languages/richtext/models/de/slisson/mps/richtext/runtime/selection\.mps|
+            code/extensions/richtext/languages/richtext/richtext\.mpl|
+            code/extensions/shadowmodels/de\.q60\.mps\.explorer/de\.q60\.mps\.explorer\.msd|
+            code/extensions/shadowmodels/de\.q60\.mps\.explorer/models/de\.q60\.mps\.explorer\.pf\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.transformation/de\.q60\.mps\.shadowmodels\.transformation\.mpl|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.transformation/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.transformation/models/editor\.mps|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.incremental\.runtime/de\.q60\.mps\.incremental\.runtime\.msd|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.incremental\.runtime/models/de\.q60\.mps\.incremental\.runtime\.mps|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.polymorphicfunctions\.runtime/de\.q60\.mps\.polymorphicfunctions\.runtime\.msd|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.polymorphicfunctions\.runtime/models/de\.q60\.mps\.polymorphicfunctions\.runtime\.mps|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.shadowmodels\.debugview/de\.q60\.mps\.shadowmodels\.debugview\.msd|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.shadowmodels\.debugview/models/pf\.mps|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.shadowmodels\.debugview/models/plugin\.mps|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.shadowmodels\.modelcheck\.runtime/de\.q60\.mps\.shadowmodels\.modelcheck\.runtime\.msd|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.shadowmodels\.modelcheck\.runtime/models/de\.q60\.mps\.shadowmodels\.modelcheck\.runtime\.mps|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.shadowmodels\.runtime/de\.q60\.mps\.shadowmodels\.runtime\.msd|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.shadowmodels\.runtime/models/concurrentrepo\.mps|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.shadowmodels\.runtime/models/engine\.mps|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.shadowmodels\.runtime/models/model\.mps|
+            code/extensions/shadowmodels/solutions/de\.q60\.mps\.shadowmodels\.runtime/models/plugin\.mps|
+            code/extensions/solutions/de\.itemis\.mps\.extensions\.changelog/de\.itemis\.mps\.extensions\.changelog\.msd|
+            code/extensions/solutions/de\.itemis\.mps\.extensions\.changelog/models/de\.itemis\.mps\.extensions\.changelog\.mps|
+            code/extensions/tables/languages/de\.slisson\.mps\.tables/de\.slisson\.mps\.tables\.mpl|
+            code/extensions/tables/languages/de\.slisson\.mps\.tables/generator/template/main@generator\.mps|
+            code/extensions/tables/solutions/test\.de\.slisson\.mps\.tables/models/test/de/slisson/mps/tables@tests\.mps|
+            code/extensions/tables/solutions/test\.de\.slisson\.mps\.tables/test\.de\.slisson\.mps\.tables\.msd|
+            code/extensions/testing/solutions/nl\.f1re\.testing\.examples/models/nl\.f1re\.testing\.examples@tests\.mps|
+            code/extensions/testing/solutions/nl\.f1re\.testing\.examples/nl\.f1re\.testing\.examples\.msd|
+            code/extensions/tooltips/solutions/de\.itemis\.mps\.tooltips\.runtime/de\.itemis\.mps\.tooltips\.runtime\.msd|
+            code/extensions/tooltips/solutions/de\.itemis\.mps\.tooltips\.runtime/models/de/itemis/mps/tooltips/runtime\.mps|
+            code/extensions/treenotation/com\.mbeddr\.mpsutil\.treenotation\.sandbox/com\.mbeddr\.mpsutil\.treenotation\.sandbox\.msd|
+            code/extensions/treenotation/com\.mbeddr\.mpsutil\.treenotation\.sandbox/models/com/mbeddr/mpsutil/treenotation/sandbox\.mps|
+            code/extensions/treenotation/com\.mbeddr\.mpsutil\.treenotation\.sandboxlang/com\.mbeddr\.mpsutil\.treenotation\.sandboxlang\.mpl|
+            code/extensions/treenotation/com\.mbeddr\.mpsutil\.treenotation\.sandboxlang/generator/template/main@generator\.mps|
+            code/extensions/treenotation/com\.mbeddr\.mpsutil\.treenotation\.sandboxlang/models/editor\.mps|
+            code/extensions/treenotation/com\.mbeddr\.mpsutil\.treenotation\.styles/com\.mbeddr\.mpsutil\.treenotation\.styles\.mpl|
+            code/extensions/treenotation/com\.mbeddr\.mpsutil\.treenotation\.styles/generator/template/main@generator\.mps|
+            code/extensions/utils/solutions/de\.itemis\.mps\.utils\.serializer\.xml/de\.itemis\.mps\.utils\.serializer\.xml\.msd|
+            code/extensions/utils/solutions/de\.itemis\.mps\.utils\.serializer\.xml/models/de/itemis/mps/utils/serializer/xml/serializer\.mps|
+            code/extensions/widgets/languages/de\.itemis\.mps\.editor\.bool\.demolang/de\.itemis\.mps\.editor\.bool\.demolang\.mpl|
+            code/extensions/widgets/languages/de\.itemis\.mps\.editor\.bool\.demolang/languageModels/editor\.mps|
+            code/extensions/widgets/solutions/de\.itemis\.mps\.editor\.bool\.runtime/de\.itemis\.mps\.editor\.bool\.runtime\.msd|
+            code/extensions/widgets/solutions/de\.itemis\.mps\.editor\.bool\.runtime/models/de/itemis/mps/editor/bool/runtime\.mps
+          )$
+
+      # Existing test model with a TestInfo node.
+      - id: mps-check-no-test-info
+        exclude: |
+          (?x)^(
+            code/extensions/blutil/tests/test\.com\.mbeddr\.mpsutil\.blutil\.doc/models/test\.com\.mbeddr\.mpsutil\.blutil\.doc@tests\.mps
+          )$
+
+      # main@generator is MPS' default generator model name, which is not unique. Existing models with that name are
+      # excluded.
+      - id: mps-check-banned-model-names
+        args: [--ban=main@generator]
+        exclude: |
+          (?x)^(
+            code/extensions/blutil/languages/com\.mbeddr\.mpsutil\.blutil\.genutil/generator/template/main@generator\.mps|
+            code/extensions/blutil/tests/test\.com\.mbeddr\.mpsutil\.blutil\.genutil\.lang/generator/template/main@generator\.mps|
+            code/extensions/modelmerger/languages/de\.itemis\.mps\.modelmerger/generator/template/main@generator\.mps|
+            code/extensions/nodeversioning/languages/de\.itemis\.mps\.nodeversioning/generator/template/main@generator\.mps|
+            code/extensions/plaintextgen/languages/com\.dslfoundry\.plaintextflow/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.incremental\.sandboxlang/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.incremental/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.polymorphicfunctions\.sandboxlang/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.polymorphicfunctions/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.examples\.blext/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.examples\.editor/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.examples\.entities/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.examples\.statemachine/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.gen\.afterPF/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.gen\.desugar/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.gen\.typesystem/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.repository/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.runtimelang/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.target\.editor/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.target\.text/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.transformation/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.shadowmodels\.util/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.virtualinterfaces\.sandboxlang/generator/template/main@generator\.mps|
+            code/extensions/shadowmodels/languages/de\.q60\.mps\.virtualinterfaces/generator/template/main@generator\.mps|
+            code/extensions/widgets/languages/de\.itemis\.mps\.editor\.collapsible\.testlang/generator/template/main@generator\.mps|
+            code/extensions/widgets/languages/de\.itemis\.mps\.editor\.enumeration\.demolang/generator/template/main@generator\.mps|
+            code/extensions/widgets/languages/de\.itemis\.mps\.editor\.enumeration/generator/template/main@generator\.mps
+          )$

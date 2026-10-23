@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-eqfw1o4ne1qn9fobyg4sisct7a9g2tc">
-  <files names="PasteAssertions.java:Pasting_Test.java" />
+<product version="3" modelHash="3uplp3t4rab3ybd6x3klzbv2lh0956u">
+  <files names="ConfirmedDiffingPasteUndo_Test.java:DiffPasteAssertions.java:DiffingPasteHistory_Test.java:DiffingPasteLayouts_Test.java:DiffingPasteReview_Test.java:DiffingPasteThreading_Test.java:DiffingPasteWords_Test.java:DiffingPaste_Test.java:PasteAssertions.java:Pasting_Test.java" />
 </product>
 

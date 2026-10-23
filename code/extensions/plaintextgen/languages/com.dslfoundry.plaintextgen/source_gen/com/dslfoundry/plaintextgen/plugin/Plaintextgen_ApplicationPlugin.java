@@ -20,6 +20,7 @@ public class Plaintextgen_ApplicationPlugin extends BaseApplicationPlugin {
 
   public void createGroups() {
     // actions w/o parameters
+    addAction(new PasteTextWithDiffPreview_Action());
     addAction(new PasteUnstructuredTextWithTabs_Action());
     addAction(new PasteUnstructuredText_Action());
     // groups

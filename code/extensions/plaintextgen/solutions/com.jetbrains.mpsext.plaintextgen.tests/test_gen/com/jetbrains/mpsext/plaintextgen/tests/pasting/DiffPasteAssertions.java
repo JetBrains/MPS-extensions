@@ -32,12 +32,6 @@ import com.dslfoundry.plaintextgen.plugin.DiffPasteUI;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.TimeUnit;
-import com.intellij.openapi.util.UserDataHolderBase;
-import com.intellij.openapi.fileEditor.DocumentsEditor;
-import com.intellij.openapi.editor.Document;
-import javax.swing.JComponent;
-import com.intellij.openapi.fileEditor.FileEditorState;
-import java.beans.PropertyChangeListener;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -315,39 +309,6 @@ public class DiffPasteAssertions {
     }
     public void info(Project project, String message, String title) {
       completed.countDown();
-    }
-  }
-  public static class UndoDocumentEditor extends UserDataHolderBase implements DocumentsEditor {
-    public Document document;
-    private final JComponent component;
-    public UndoDocumentEditor(JComponent component) {
-      this.component = component;
-    }
-    public Document[] getDocuments() {
-      return new Document[]{document};
-    }
-    public JComponent getComponent() {
-      return component;
-    }
-    public JComponent getPreferredFocusedComponent() {
-      return component;
-    }
-    public String getName() {
-      return "Native editor Undo document";
-    }
-    public void setState(FileEditorState state) {
-    }
-    public boolean isModified() {
-      return false;
-    }
-    public boolean isValid() {
-      return document != null;
-    }
-    public void addPropertyChangeListener(PropertyChangeListener listener) {
-    }
-    public void removePropertyChangeListener(PropertyChangeListener listener) {
-    }
-    public void dispose() {
     }
   }
 

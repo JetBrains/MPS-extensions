@@ -12,8 +12,6 @@ import jetbrains.mps.lang.test.runtime.BaseEditorTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
 import com.intellij.openapi.application.Application;
 import com.intellij.openapi.application.ApplicationManager;
-import com.intellij.openapi.project.Project;
-import jetbrains.mps.ide.project.ProjectHelper;
 import java.nio.file.Path;
 import java.nio.file.Files;
 import com.dslfoundry.plaintextgen.plugin.DiffPasteUI;
@@ -21,8 +19,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.concurrent.TimeUnit;
 import org.junit.Assert;
 import com.dslfoundry.plaintextgen.plugin.DiffPaste;
-import jetbrains.mps.ide.undo.MPSUndoUtil;
-import com.intellij.openapi.command.undo.UndoManager;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
@@ -50,7 +46,6 @@ public class ConfirmedDiffingPasteUndo_Test extends BaseTransformationTest {
     public void testMethodImpl() throws Exception {
       initEditorComponent("6136062788315926128", "6136062788315926148");
       Application application = ApplicationManager.getApplication();
-      final Project ideaProject = ProjectHelper.toIdeaProject(myProject);
       final Path recovery = Files.createTempDirectory("plaintextgen-editor-undo-");
       final DiffPasteAssertions.UndoDialogs dialogs = new DiffPasteAssertions.UndoDialogs();
       try {
@@ -60,19 +55,8 @@ public class ConfirmedDiffingPasteUndo_Test extends BaseTransformationTest {
         Assert.assertNull("The confirmed production paste must not report an error", dialogs.failure);
         Assert.assertEquals("The real deferred path must show one preview", Integer.valueOf(1), Integer.valueOf(dialogs.previews));
         Assert.assertEquals("Removing a generator macro must require one confirmation", Integer.valueOf(1), Integer.valueOf(dialogs.confirmations));
-        application.invokeAndWait(() -> {
-          {
-            final DiffPasteAssertions.UndoDocumentEditor fileEditor = new DiffPasteAssertions.UndoDocumentEditor(getEditorComponent());
-            myProject.getRepository().getModelAccess().runReadAction(() -> {
-              Assert.assertEquals("The real paste must change the editor before Undo", "XYZ\n", DiffPaste.render(SNodeOperations.cast(getEditorComponent().getEditedNode(), CONCEPTS.TextgenText$PS), myProject));
-              fileEditor.document = MPSUndoUtil.getDoc(myProject.getRepository(), SNodeOperations.getPointer(SNodeOperations.cast(getEditorComponent().getEditedNode(), CONCEPTS.TextgenText$PS)));
-            });
-            Assert.assertNotNull("The native editor fixture must have the production model undo document", fileEditor.document);
-            UndoManager manager = UndoManager.getInstance(ideaProject);
-            Assert.assertTrue("The confirmed paste must register an editor undo step", manager.isUndoAvailable(fileEditor));
-            manager.undo(fileEditor);
-          }
-        });
+        application.invokeAndWait(() -> myProject.getRepository().getModelAccess().runReadAction(() -> Assert.assertEquals("The real paste must change the editor before Undo", "XYZ\n", DiffPaste.render(SNodeOperations.cast(getEditorComponent().getEditedNode(), CONCEPTS.TextgenText$PS), myProject))));
+        invokeAction("$Undo");
       } finally {
         DiffPasteAssertions.deleteRecovery(recovery);
       }

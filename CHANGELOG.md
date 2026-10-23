@@ -17,7 +17,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
-- *nl.f1re.testing* `fileNodeEditor` returned null when editor tests ran headless, for example on CI. It now reads the file editor from the data context of the editor component, as the MPS editor tests do, on the UI thread.
+- *nl.f1re.testing* `fileNodeEditor` returned null when editor tests ran headless, for example on CI. It now reads the file editor from the data context of the editor component, as the MPS editor tests do. Use it only on the event dispatch thread (EDT).
 
 ## September 2026
 

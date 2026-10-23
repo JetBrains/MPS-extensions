@@ -3,13 +3,14 @@
   <persistence version="9" />
   <languages>
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <devkit ref="fa73d85a-ac7f-447b-846c-fcdc41caa600(jetbrains.mps.devkit.aspect.textgen)" />
   </languages>
   <imports>
     <import index="k44w" ref="r:359669ec-8146-4c97-9e8a-7f7baa158ff0(com.dslfoundry.plaintextgen.plugin)" />
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
     <import index="myiq" ref="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)" />
-    <import index="3rmn" ref="r:b897be85-c7f0-4f6e-a384-6097798b14e3(com.dslfoundry.plaintextgen.behavior)" implicit="true" />
+    <import index="3rmn" ref="r:b897be85-c7f0-4f6e-a384-6097798b14e3(com.dslfoundry.plaintextgen.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -254,8 +255,8 @@
                       <node concept="1xIGOp" id="4CBE$H0L0VI" role="1xVPHs" />
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="4CBE$H0L0VJ" role="2OqNvi">
-                    <ref role="3TsBF5" to="myiq:7WTFIQIcYwp" resolve="lineEnding" />
+                  <node concept="3zqWPK" id="5w9TncdLpOl" role="2OqNvi">
+                    <ref role="37wK5l" to="3rmn:5w9TncdLpKi" resolve="getEffectiveLineEnding" />
                   </node>
                 </node>
                 <node concept="3X5Udd" id="4CBE$H0L0VK" role="3X5gkp">
@@ -520,8 +521,8 @@
                       <node concept="1xIGOp" id="4CBE$H0L1eM" role="1xVPHs" />
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="4CBE$H0L1eN" role="2OqNvi">
-                    <ref role="3TsBF5" to="myiq:7WTFIQIcYwp" resolve="lineEnding" />
+                  <node concept="3zqWPK" id="5w9TncdLpPI" role="2OqNvi">
+                    <ref role="37wK5l" to="3rmn:5w9TncdLpKi" resolve="getEffectiveLineEnding" />
                   </node>
                 </node>
                 <node concept="3X5Udd" id="4CBE$H0L1eO" role="3X5gkp">
@@ -677,8 +678,8 @@
                       <node concept="1xIGOp" id="4CBE$H0L08b" role="1xVPHs" />
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="4CBE$H0L08c" role="2OqNvi">
-                    <ref role="3TsBF5" to="myiq:7WTFIQIcYwp" resolve="lineEnding" />
+                  <node concept="3zqWPK" id="5w9TncdLpR7" role="2OqNvi">
+                    <ref role="37wK5l" to="3rmn:5w9TncdLpKi" resolve="getEffectiveLineEnding" />
                   </node>
                 </node>
                 <node concept="3X5Udd" id="4CBE$H0L08d" role="3X5gkp">
@@ -834,8 +835,8 @@
                       <node concept="1xIGOp" id="4CBE$H0KYX9" role="1xVPHs" />
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="4CBE$H0KYXa" role="2OqNvi">
-                    <ref role="3TsBF5" to="myiq:7WTFIQIcYwp" resolve="lineEnding" />
+                  <node concept="3zqWPK" id="5w9TncdLpRl" role="2OqNvi">
+                    <ref role="37wK5l" to="3rmn:5w9TncdLpKi" resolve="getEffectiveLineEnding" />
                   </node>
                 </node>
                 <node concept="3X5Udd" id="4CBE$H0KZnf" role="3X5gkp">
@@ -991,8 +992,8 @@
                       <node concept="1xIGOp" id="4CBE$H0KZVJ" role="1xVPHs" />
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="4CBE$H0KZVK" role="2OqNvi">
-                    <ref role="3TsBF5" to="myiq:7WTFIQIcYwp" resolve="lineEnding" />
+                  <node concept="3zqWPK" id="5w9TncdLpRz" role="2OqNvi">
+                    <ref role="37wK5l" to="3rmn:5w9TncdLpKi" resolve="getEffectiveLineEnding" />
                   </node>
                 </node>
                 <node concept="3X5Udd" id="4CBE$H0KZVL" role="3X5gkp">

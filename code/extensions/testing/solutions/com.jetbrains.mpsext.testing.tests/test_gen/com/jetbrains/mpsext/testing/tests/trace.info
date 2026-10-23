@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:1c472fb9-5cb4-469b-b8e0-841f5cdf3b94(com.jetbrains.mpsext.testing.tests@tests)/2964412296094353359">
+    <file name="Redo_Test.java">
+      <node id="2964412296094353359" at="19,22,20,60" concept="7" />
+      <node id="2964412296094353359" at="24,44,25,36" concept="1" />
+      <node id="2964412296094353359" at="30,52,31,19" concept="7" />
+      <node id="2964412296094353359" at="35,51,36,72" concept="1" />
+      <node id="2964412296094375048" at="36,72,37,23" concept="1" />
+      <node id="6694439799023443848" at="37,23,38,28" concept="1" />
+      <node id="6694439799023443850" at="38,28,39,28" concept="1" />
+      <node id="2964412296094353359" at="16,0,18,0" concept="5" trace="ourParametersCacheExtension" />
+      <node id="2964412296094353359" at="19,0,22,0" concept="0" trace="Redo_Test#()V" />
+      <node id="2964412296094353359" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="2964412296094353359" at="23,0,27,0" concept="2" trace="test_Redo#()V" />
+      <node id="2964412296094353359" at="34,0,41,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="2964412296094353359" at="19,22,20,60" />
+      <scope id="2964412296094353359" at="24,44,25,36" />
+      <scope id="2964412296094353359" at="30,52,31,19" />
+      <scope id="2964412296094353359" at="19,0,22,0" />
+      <scope id="2964412296094353359" at="30,0,33,0">
+        <var name="owner" id="2964412296094353359" />
+      </scope>
+      <scope id="2964412296094353359" at="23,0,27,0" />
+      <scope id="2964412296094353359" at="35,51,39,28" />
+      <scope id="2964412296094353359" at="34,0,41,0" />
+      <unit id="2964412296094353359" at="28,0,42,0" name="com.jetbrains.mpsext.testing.tests.Redo_Test$TestBody" />
+      <unit id="2964412296094353359" at="14,0,43,0" name="com.jetbrains.mpsext.testing.tests.Redo_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:1c472fb9-5cb4-469b-b8e0-841f5cdf3b94(com.jetbrains.mpsext.testing.tests@tests)/5419898927163096912">
+    <file name="Undo_Test.java">
+      <node id="5419898927163096912" at="19,22,20,60" concept="7" />
+      <node id="5419898927163096912" at="24,44,25,36" concept="1" />
+      <node id="5419898927163096912" at="30,52,31,19" concept="7" />
+      <node id="5419898927163096912" at="35,51,36,72" concept="1" />
+      <node id="5419898927163097142" at="36,72,37,23" concept="1" />
+      <node id="6694439799023434682" at="37,23,38,28" concept="1" />
+      <node id="5419898927163096912" at="16,0,18,0" concept="5" trace="ourParametersCacheExtension" />
+      <node id="5419898927163096912" at="19,0,22,0" concept="0" trace="Undo_Test#()V" />
+      <node id="5419898927163096912" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5419898927163096912" at="23,0,27,0" concept="2" trace="test_Undo#()V" />
+      <node id="5419898927163096912" at="34,0,40,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="5419898927163096912" at="19,22,20,60" />
+      <scope id="5419898927163096912" at="24,44,25,36" />
+      <scope id="5419898927163096912" at="30,52,31,19" />
+      <scope id="5419898927163096912" at="19,0,22,0" />
+      <scope id="5419898927163096912" at="30,0,33,0">
+        <var name="owner" id="5419898927163096912" />
+      </scope>
+      <scope id="5419898927163096912" at="35,51,38,28" />
+      <scope id="5419898927163096912" at="23,0,27,0" />
+      <scope id="5419898927163096912" at="34,0,40,0" />
+      <unit id="5419898927163096912" at="28,0,41,0" name="com.jetbrains.mpsext.testing.tests.Undo_Test$TestBody" />
+      <unit id="5419898927163096912" at="14,0,42,0" name="com.jetbrains.mpsext.testing.tests.Undo_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:1c472fb9-5cb4-469b-b8e0-841f5cdf3b94(com.jetbrains.mpsext.testing.tests@tests)/6694439799023952725">
+    <file name="UndoHistory_Test.java">
+      <node id="6694439799023952725" at="25,29,26,60" concept="7" />
+      <node id="6694439799023952725" at="30,51,31,36" concept="1" />
+      <node id="6694439799023952725" at="36,52,37,19" concept="7" />
+      <node id="6694439799023952725" at="41,51,42,72" concept="1" />
+      <node id="6694439799023952734" at="42,72,43,23" concept="1" />
+      <node id="6694439799024231583" at="43,23,44,190" concept="3" />
+      <node id="6694439799023952739" at="44,190,45,102" concept="3" />
+      <node id="6694439799024231586" at="45,102,46,177" concept="1" />
+      <node id="6694439799023952735" at="46,177,47,28" concept="1" />
+      <node id="6694439799023952820" at="48,63,49,117" concept="1" />
+      <node id="6694439799023952823" at="49,117,50,117" concept="1" />
+      <node id="6694439799023952725" at="53,72,54,49" concept="4" />
+      <node id="6694439799023952725" at="22,0,24,0" concept="5" trace="ourParametersCacheExtension" />
+      <node id="6694439799023952725" at="25,0,28,0" concept="0" trace="UndoHistory_Test#()V" />
+      <node id="6694439799023952725" at="36,0,39,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6694439799023952725" at="53,0,56,0" concept="6" trace="as_q2od3k_a1a0a0c0d6#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="6694439799023952725" at="29,0,33,0" concept="2" trace="test_UndoHistory#()V" />
+      <node id="6694439799024231590" at="47,28,51,9" concept="1" />
+      <node id="6694439799023952725" at="40,0,53,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="6694439799023952725" at="25,29,26,60" />
+      <scope id="6694439799023952725" at="30,51,31,36" />
+      <scope id="6694439799023952725" at="36,52,37,19" />
+      <scope id="6694439799023952725" at="53,72,54,49" />
+      <scope id="6694439799024231654" at="48,63,50,117" />
+      <scope id="6694439799023952725" at="25,0,28,0" />
+      <scope id="6694439799023952725" at="36,0,39,0">
+        <var name="owner" id="6694439799023952725" />
+      </scope>
+      <scope id="6694439799023952725" at="53,0,56,0">
+        <var name="o" id="6694439799023952725" />
+        <var name="type" id="6694439799023952725" />
+      </scope>
+      <scope id="6694439799023952725" at="29,0,33,0" />
+      <scope id="6694439799023952725" at="41,51,51,9">
+        <var name="fileEditor" id="6694439799024231582" />
+        <var name="undoManager" id="6694439799023952738" />
+      </scope>
+      <scope id="6694439799023952725" at="40,0,53,0" />
+      <unit id="6694439799023952725" at="34,0,57,0" name="com.jetbrains.mpsext.testing.tests.UndoHistory_Test$TestBody" />
+      <unit id="6694439799023952725" at="20,0,58,0" name="com.jetbrains.mpsext.testing.tests.UndoHistory_Test" />
+    </file>
+  </root>
+</debug-info>
+

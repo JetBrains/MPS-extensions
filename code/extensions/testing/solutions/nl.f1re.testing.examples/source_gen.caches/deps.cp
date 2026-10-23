@@ -26,7 +26,6 @@
   <uses language="l:68015e26-cc4d-49db-8715-b643faea1769:jetbrains.mps.lang.test.generator" />
   <uses language="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" />
   <uses language="l:7a5dda62-9140-4668-ab76-d5ed1746f2b2:jetbrains.mps.lang.typesystem" />
-  <uses language="l:953e4089-c643-455b-8629-636de7085d1c:nl.f1re.testing" />
   <uses language="l:87e083b3-d1b3-4c3f-9d8c-b24d74710f49:nl.f1re.testing.examples.lang" />
   <uses module="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" kind="dp" />
   <uses module="847a3235-09f9-403c-b6a9-1c294a212e92(Ant)" kind="dp" />
@@ -79,7 +78,7 @@
   <uses module="63089e65-5c76-4c44-9eb6-15698b4444cf(jetbrains.mps.vcs.mergehints.runtime)" kind="dp" />
   <uses module="aade93d7-c51c-4471-a883-01aa02ec2bc2(nl.f1re.testing.examples)" kind="dp" />
   <uses module="87e083b3-d1b3-4c3f-9d8c-b24d74710f49(nl.f1re.testing.examples.lang)" kind="dp" />
-  <uses module="f4eaf5cb-c1e6-4968-831c-c28a93349488(nl.f1re.testing.runtime)" kind="rt+dp" />
+  <uses module="f4eaf5cb-c1e6-4968-831c-c28a93349488(nl.f1re.testing.runtime)" kind="dp" />
   <uses module="63b449db-0918-4a4a-a891-2c430ab133e4(org.junit.junit5)" kind="rt+dp" />
 </dependenciesRoot>
 

@@ -183,56 +183,6 @@
       <unit id="2039284509583725033" at="22,0,62,0" name="nl.f1re.testing.examples.Notification_Test" />
     </file>
   </root>
-  <root nodeRef="r:7278af02-5968-483c-a44b-8f5fe18eb6a2(nl.f1re.testing.examples@tests)/2964412296094353359">
-    <file name="Redo_Test.java">
-      <node id="2964412296094353359" at="25,22,26,60" concept="14" />
-      <node id="2964412296094353359" at="30,44,31,36" concept="3" />
-      <node id="2964412296094353359" at="36,52,37,19" concept="14" />
-      <node id="2964412296094353359" at="41,51,42,72" concept="3" />
-      <node id="2964412296094375048" at="42,72,43,23" concept="3" />
-      <node id="2964412296094353370" at="43,23,44,73" concept="8" />
-      <node id="2964412296094388018" at="45,63,46,71" concept="8" />
-      <node id="2964412296094353381" at="46,71,47,188" concept="3" />
-      <node id="2964412296094375972" at="47,188,48,188" concept="3" />
-      <node id="2964412296094353359" at="51,78,52,49" concept="9" />
-      <node id="2964412296094353359" at="54,78,55,49" concept="9" />
-      <node id="2964412296094353359" at="22,0,24,0" concept="12" trace="ourParametersCacheExtension" />
-      <node id="2964412296094353359" at="25,0,28,0" concept="2" trace="Redo_Test#()V" />
-      <node id="2964412296094353359" at="36,0,39,0" concept="2" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="2964412296094353359" at="51,0,54,0" concept="13" trace="as_vz5n2x_a1a0a0a1a0a0d0d6#(Ljava/lang/Object;Ljava/lang/Class;)null" />
-      <node id="2964412296094353359" at="54,0,57,0" concept="13" trace="as_vz5n2x_a1a0a0a2a0a0d0d6#(Ljava/lang/Object;Ljava/lang/Class;)null" />
-      <node id="2964412296094353359" at="29,0,33,0" concept="7" trace="test_Redo#()V" />
-      <node id="2964412296094353375" at="44,73,49,9" concept="3" />
-      <node id="2964412296094353359" at="40,0,51,0" concept="7" trace="testMethodImpl#()V" />
-      <scope id="2964412296094353359" at="25,22,26,60" />
-      <scope id="2964412296094353359" at="30,44,31,36" />
-      <scope id="2964412296094353359" at="36,52,37,19" />
-      <scope id="2964412296094353359" at="51,78,52,49" />
-      <scope id="2964412296094353359" at="54,78,55,49" />
-      <scope id="2964412296094353359" at="25,0,28,0" />
-      <scope id="2964412296094353359" at="36,0,39,0">
-        <var name="owner" id="2964412296094353359" />
-      </scope>
-      <scope id="2964412296094353380" at="45,63,48,188">
-        <var name="undoManager" id="2964412296094388019" />
-      </scope>
-      <scope id="2964412296094353359" at="51,0,54,0">
-        <var name="o" id="2964412296094353359" />
-        <var name="type" id="2964412296094353359" />
-      </scope>
-      <scope id="2964412296094353359" at="54,0,57,0">
-        <var name="o" id="2964412296094353359" />
-        <var name="type" id="2964412296094353359" />
-      </scope>
-      <scope id="2964412296094353359" at="29,0,33,0" />
-      <scope id="2964412296094353359" at="41,51,49,9">
-        <var name="ideaProject" id="2964412296094353371" />
-      </scope>
-      <scope id="2964412296094353359" at="40,0,51,0" />
-      <unit id="2964412296094353359" at="34,0,58,0" name="nl.f1re.testing.examples.Redo_Test$TestBody" />
-      <unit id="2964412296094353359" at="20,0,59,0" name="nl.f1re.testing.examples.Redo_Test" />
-    </file>
-  </root>
   <root nodeRef="r:7278af02-5968-483c-a44b-8f5fe18eb6a2(nl.f1re.testing.examples@tests)/2964412296094418661">
     <file name="OpenEditor_Test.java">
       <node id="2964412296094418661" at="29,28,30,60" concept="14" />
@@ -1243,43 +1193,6 @@
       <unit id="5419898927163069105" at="68,45,74,9" name="nl.f1re.testing.examples.ExtensionPointMasking_Test$TestBody$1" />
       <unit id="5419898927162506180" at="54,0,92,0" name="nl.f1re.testing.examples.ExtensionPointMasking_Test$TestBody" />
       <unit id="5419898927162506180" at="30,0,93,0" name="nl.f1re.testing.examples.ExtensionPointMasking_Test" />
-    </file>
-  </root>
-  <root nodeRef="r:7278af02-5968-483c-a44b-8f5fe18eb6a2(nl.f1re.testing.examples@tests)/5419898927163096912">
-    <file name="Undo_Test.java">
-      <node id="5419898927163096912" at="25,22,26,60" concept="14" />
-      <node id="5419898927163096912" at="30,44,31,36" concept="3" />
-      <node id="5419898927163096912" at="36,52,37,19" concept="14" />
-      <node id="5419898927163096912" at="41,51,42,72" concept="3" />
-      <node id="5419898927163097142" at="42,72,43,23" concept="3" />
-      <node id="2964412296093126136" at="43,23,44,73" concept="8" />
-      <node id="2964412296093120903" at="44,73,45,268" concept="3" />
-      <node id="5419898927163096912" at="47,78,48,49" concept="9" />
-      <node id="5419898927163096912" at="22,0,24,0" concept="12" trace="ourParametersCacheExtension" />
-      <node id="5419898927163096912" at="25,0,28,0" concept="2" trace="Undo_Test#()V" />
-      <node id="5419898927163096912" at="36,0,39,0" concept="2" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="5419898927163096912" at="47,0,50,0" concept="13" trace="as_aamnpi_a1a0a0a0a0a0d0d6#(Ljava/lang/Object;Ljava/lang/Class;)null" />
-      <node id="5419898927163096912" at="29,0,33,0" concept="7" trace="test_Undo#()V" />
-      <node id="5419898927163096912" at="40,0,47,0" concept="7" trace="testMethodImpl#()V" />
-      <scope id="5419898927163096912" at="25,22,26,60" />
-      <scope id="5419898927163096912" at="30,44,31,36" />
-      <scope id="5419898927163096912" at="36,52,37,19" />
-      <scope id="5419898927163096912" at="47,78,48,49" />
-      <scope id="5419898927163096912" at="25,0,28,0" />
-      <scope id="5419898927163096912" at="36,0,39,0">
-        <var name="owner" id="5419898927163096912" />
-      </scope>
-      <scope id="5419898927163096912" at="47,0,50,0">
-        <var name="o" id="5419898927163096912" />
-        <var name="type" id="5419898927163096912" />
-      </scope>
-      <scope id="5419898927163096912" at="29,0,33,0" />
-      <scope id="5419898927163096912" at="41,51,45,268">
-        <var name="ideaProject" id="2964412296093126137" />
-      </scope>
-      <scope id="5419898927163096912" at="40,0,47,0" />
-      <unit id="5419898927163096912" at="34,0,51,0" name="nl.f1re.testing.examples.Undo_Test$TestBody" />
-      <unit id="5419898927163096912" at="20,0,52,0" name="nl.f1re.testing.examples.Undo_Test" />
     </file>
   </root>
   <root nodeRef="r:7278af02-5968-483c-a44b-8f5fe18eb6a2(nl.f1re.testing.examples@tests)/5763077163305028161">

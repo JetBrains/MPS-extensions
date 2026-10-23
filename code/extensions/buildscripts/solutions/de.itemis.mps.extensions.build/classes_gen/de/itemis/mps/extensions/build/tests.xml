@@ -5795,6 +5795,81 @@
       <zipfileset file="${extensions.code}/viewmodel/solutions/test.com.jetbrains.mpsext.viewmodel/test.com.jetbrains.mpsext.viewmodel.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/viewmodel-solutions-test.com.jetbrains.mpsext.viewmodel-models" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.plaintextgen.editor.tests.jar" />
+    <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.plaintextgen.editor.tests.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/com.jetbrains.mpsext.plaintextgen.editor.tests.jar/META-INF/module.xml">
+      <module namespace="com.jetbrains.mpsext.plaintextgen.editor.tests" type="solution" uuid="effab223-d26b-4652-8077-8c0553f11d28">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="rt" />
+          <module ref="49808fad-9d41-4b96-83fa-9231640f6b2b(JUnit)" kind="rt" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" kind="rt" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="rt" />
+          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" kind="rt" />
+          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" kind="rt" />
+          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" kind="rt" />
+          <module ref="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" kind="rt" />
+          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" kind="rt" />
+          <module ref="6ef0db41-d3b2-47fe-82ac-d55a42cb6b13(jetbrains.mps.baseLanguage.unitTest.runtime)" kind="rt" />
+          <module ref="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" kind="rt" />
+          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" kind="rt" />
+          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" kind="rt" />
+          <module ref="e55e6749-03cb-4ea7-9695-2322bab791c1(jetbrains.mps.lang.test.matcher)" kind="rt" />
+          <module ref="707c4fde-f79a-44b5-b3d7-b5cef8844ccf(jetbrains.mps.lang.test.runtime)" kind="rt" />
+          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
+          <module ref="63b449db-0918-4a4a-a891-2c430ab133e4(org.junit.junit5)" kind="rt" />
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="cl" />
+          <module ref="49808fad-9d41-4b96-83fa-9231640f6b2b(JUnit)" kind="cl" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" kind="cl" />
+          <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" kind="cl" />
+          <module ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" kind="cl" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="cl" />
+          <module ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" kind="cl" />
+          <module ref="990507d3-3527-4c54-bfe9-0ca3c9c6247a(com.dslfoundry.plaintextgen)" kind="cl" />
+          <module ref="5b1f863d-65a0-41a6-a801-33896be24202(jetbrains.mps.ide.editor)" kind="cl" />
+          <module ref="d7a92d38-f7db-40d0-8431-763b0c3c9f20(jetbrains.mps.lang.intentions)" kind="cl" />
+          <module ref="8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)" kind="cl" />
+        </dependencies>
+        <uses>
+          <language id="l:990507d3-3527-4c54-bfe9-0ca3c9c6247a:com.dslfoundry.plaintextgen" />
+          <language id="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
+          <language id="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" />
+          <language id="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" />
+          <language id="l:f2801650-65d5-424e-bb1b-463a8781b786:jetbrains.mps.baseLanguage.javadoc" />
+          <language id="l:760a0a8c-eabb-4521-8bfd-65db761a9ba3:jetbrains.mps.baseLanguage.logging" />
+          <language id="l:a247e09e-2435-45ba-b8d2-07e93feba96a:jetbrains.mps.baseLanguage.tuples" />
+          <language id="l:f61473f9-130f-42f6-b98d-6c438812c2f6:jetbrains.mps.baseLanguage.unitTest" />
+          <language id="l:63650c59-16c8-498a-99c8-005c7ee9515d:jetbrains.mps.lang.access" />
+          <language id="l:af65afd8-f0dd-4942-87d9-63a55f2a9db1:jetbrains.mps.lang.behavior" />
+          <language id="l:3a13115c-633c-4c5c-bbcc-75c4219e9555:jetbrains.mps.lang.quotation" />
+          <language id="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
+          <language id="l:8585453e-6bfb-4d80-98de-b16074f1d86c:jetbrains.mps.lang.test" />
+          <language id="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" />
+        </uses>
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="com.jetbrains.mpsext.plaintextgen.editor.tests-src.jar" descriptor="com.jetbrains.mpsext.plaintextgen.editor.tests.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/com.jetbrains.mpsext.plaintextgen.editor.tests.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/com.jetbrains.mpsext.plaintextgen.editor.tests" />
+      <fileset dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.editor.tests" includes="icons/**, resources/**" />
+      <fileset dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.editor.tests/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/com.jetbrains.mpsext.plaintextgen.editor.tests.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/plaintextgen-solutions-com.jetbrains.mpsext.plaintextgen.editor.tests-models">
+      <fileset dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.editor.tests/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.layout}/com.jetbrains.mpsext.plaintextgen.editor.tests-src.jar" duplicate="preserve">
+      <fileset dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.editor.tests/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.editor.tests/com.jetbrains.mpsext.plaintextgen.editor.tests.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/plaintextgen-solutions-com.jetbrains.mpsext.plaintextgen.editor.tests-models" prefix="module/models" />
+    </jar>
     <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.plaintextgen.paster.tests.jar" />
     <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.plaintextgen.paster.tests.jar/META-INF" />
     <echoxml file="${build.tmp}/default/com.jetbrains.mpsext.plaintextgen.paster.tests.jar/META-INF/module.xml">
@@ -5852,6 +5927,117 @@
       <zipfileset file="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.paster.tests/com.jetbrains.mpsext.plaintextgen.paster.tests.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/plaintextgen-solutions-com.jetbrains.mpsext.plaintextgen.paster.tests-models" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.langvis.tests.jar" />
+    <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.langvis.tests.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/com.jetbrains.mpsext.langvis.tests.jar/META-INF/module.xml">
+      <module namespace="com.jetbrains.mpsext.langvis.tests" type="solution" uuid="f9133308-2aac-49ab-85f4-3fbecfa0f253">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="rt" />
+          <module ref="49808fad-9d41-4b96-83fa-9231640f6b2b(JUnit)" kind="rt" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" kind="rt" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="rt" />
+          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" kind="rt" />
+          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" kind="rt" />
+          <module ref="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" kind="rt" />
+          <module ref="6ef0db41-d3b2-47fe-82ac-d55a42cb6b13(jetbrains.mps.baseLanguage.unitTest.runtime)" kind="rt" />
+          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" kind="rt" />
+          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" kind="rt" />
+          <module ref="e55e6749-03cb-4ea7-9695-2322bab791c1(jetbrains.mps.lang.test.matcher)" kind="rt" />
+          <module ref="707c4fde-f79a-44b5-b3d7-b5cef8844ccf(jetbrains.mps.lang.test.runtime)" kind="rt" />
+          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
+          <module ref="63b449db-0918-4a4a-a891-2c430ab133e4(org.junit.junit5)" kind="rt" />
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="cl" />
+          <module ref="49808fad-9d41-4b96-83fa-9231640f6b2b(JUnit)" kind="cl" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" kind="cl" />
+          <module ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" kind="cl" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="cl" />
+          <module ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" kind="cl" />
+          <module ref="2af4e160-40bc-45d5-9078-9e2dabc7e7c0(com.dslfoundry.langvis.plugin)" kind="cl" />
+          <module ref="c896f805-9bfd-4e31-9cd9-44cf39064826(com.jetbrains.mpsext.langvis.testdata)" kind="cl" />
+          <module ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" kind="cl" />
+          <module ref="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" kind="cl" />
+        </dependencies>
+        <uses>
+          <language id="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
+          <language id="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" />
+          <language id="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" />
+          <language id="l:f61473f9-130f-42f6-b98d-6c438812c2f6:jetbrains.mps.baseLanguage.unitTest" />
+          <language id="l:446c26eb-2b7b-4bf0-9b35-f83fa582753e:jetbrains.mps.lang.modelapi" />
+          <language id="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
+          <language id="l:c72da2b9-7cce-4447-8389-f407dc1158b7:jetbrains.mps.lang.structure" />
+          <language id="l:8585453e-6bfb-4d80-98de-b16074f1d86c:jetbrains.mps.lang.test" />
+        </uses>
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="com.jetbrains.mpsext.langvis.tests-src.jar" descriptor="com.jetbrains.mpsext.langvis.tests.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/com.jetbrains.mpsext.langvis.tests.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/com.jetbrains.mpsext.langvis.tests" />
+      <fileset dir="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.tests" includes="icons/**" />
+      <fileset dir="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.tests/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/com.jetbrains.mpsext.langvis.tests.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/langvis-solutions-com.jetbrains.mpsext.langvis.tests-models">
+      <fileset dir="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.tests/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.layout}/com.jetbrains.mpsext.langvis.tests-src.jar" duplicate="preserve">
+      <fileset dir="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.tests/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.tests/com.jetbrains.mpsext.langvis.tests.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/langvis-solutions-com.jetbrains.mpsext.langvis.tests-models" prefix="module/models" />
+    </jar>
+    <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.langvis.testdata.jar" />
+    <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.langvis.testdata.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/com.jetbrains.mpsext.langvis.testdata.jar/META-INF/module.xml">
+      <module namespace="com.jetbrains.mpsext.langvis.testdata" type="language" uuid="c896f805-9bfd-4e31-9cd9-44cf39064826">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="rt" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" kind="rt" />
+          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" kind="rt" />
+          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" kind="rt" />
+          <module ref="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" kind="rt" />
+          <module ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" kind="cl" />
+        </dependencies>
+        <uses>
+          <language id="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
+          <language id="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" />
+          <language id="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" />
+          <language id="l:df345b11-b8c7-4213-ac66-48d2a9b75d88:jetbrains.mps.baseLanguageInternal" />
+          <language id="l:f4ad079d-bc71-4ffb-9600-9328705cf998:jetbrains.mps.lang.descriptor" />
+          <language id="l:982eb8df-2c96-4bd7-9963-11712ea622e5:jetbrains.mps.lang.resources" />
+          <language id="l:c72da2b9-7cce-4447-8389-f407dc1158b7:jetbrains.mps.lang.structure" />
+        </uses>
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="com.jetbrains.mpsext.langvis.testdata-src.jar" descriptor="com.jetbrains.mpsext.langvis.testdata.mpl" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/com.jetbrains.mpsext.langvis.testdata.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/com.jetbrains.mpsext.langvis.testdata" />
+      <fileset dir="${extensions.code}/langvis/languages/com.jetbrains.mpsext.langvis.testdata" includes="icons/**, resources/**" />
+      <fileset dir="${extensions.code}/langvis/languages/com.jetbrains.mpsext.langvis.testdata/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/com.jetbrains.mpsext.langvis.testdata.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/langvis-languages-com.jetbrains.mpsext.langvis.testdata-models">
+      <fileset dir="${extensions.code}/langvis/languages/com.jetbrains.mpsext.langvis.testdata/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.layout}/com.jetbrains.mpsext.langvis.testdata-src.jar" duplicate="preserve">
+      <fileset dir="${extensions.code}/langvis/languages/com.jetbrains.mpsext.langvis.testdata/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${extensions.code}/langvis/languages/com.jetbrains.mpsext.langvis.testdata/com.jetbrains.mpsext.langvis.testdata.mpl" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/langvis-languages-com.jetbrains.mpsext.langvis.testdata-models" prefix="module/models" />
+    </jar>
     <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mps.runtimeBuild=${mps.runtimeBuild}${line.separator}mpsBootstrapCore.version.major=${mpsBootstrapCore.version.major}${line.separator}mpsBootstrapCore.version.minor=${mpsBootstrapCore.version.minor}${line.separator}mpsBootstrapCore.version.bugfixNr=${mpsBootstrapCore.version.bugfixNr}${line.separator}mpsBootstrapCore.version.eap=${mpsBootstrapCore.version.eap}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}de.itemis.mps.extensions.version=${de.itemis.mps.extensions.version}</echo>
   </target>
   
@@ -5868,7 +6054,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.kotlin.usage.test, java.compile.com.mbeddr.mpsutil.grammarcells.sandboxlang, java.compile.com.mbeddr.mpsutil.grammarcells.tests, java.compile.de.itemis.mps.structurecheck.runtime, java.compile.de.itemis.mps.structurecheck, java.compile.de.itemis.mps.structurecheck#380240910834170735, java.compile.test.de.slisson.mps.tables, java.compile.test.de.slisson.mps.tables.runtime, java.compile.de.slisson.mps.tables.demolang, java.compile.test.de.slisson.mps.tables.lang, java.compile.test.de.slisson.mps.tables.lang.generator, java.compile.test.com.mbeddr.mpsutil.blutil.genutil.lang, java.compile.test.com.mbeddr.mpsutil.blutil.genutil.lang#4213334375079416143, java.compile.test.com.mbeddr.mpsutil.blutil.genutil, java.compile.test.com.mbeddr.mpsutil.blutil.doc, java.compile.test.ts.conceptswitch, java.compile.test.ex.match, java.compile.de.itemis.mps.blutil.sandbox, java.compile.de.itemis.mps.nodeversioning.test, java.compile.de.itemis.model.merge.diamond, java.compile.de.itemis.model.merge.simple.demo.annotated, java.compile.de.itemis.model.simple.demo.children, java.compile.de.itemis.model.simple.demo.collection, java.compile.de.itemis.model.simple.demo.collection.keeper, java.compile.de.itemis.model.simple.demo.collection.ref, java.compile.de.itemis.model.simple.demo.collection.ref.generator, java.compile.de.itemis.model.simple.demo.enums, java.compile.de.itemis.model.simple.demo.enums.generator, java.compile.de.itemis.model.simple.demo.property, java.compile.de.itemis.model.simple.demo.reference, java.compile.test.de.itemis.mps.modelmerger.testlanguage, java.compile.de.itemis.model.merge.baselang.sandbox, java.compile.de.itemis.model.merge.simple.demo, java.compile.de.itemis.model.merge.test, java.compile.de.itemis.mps.modelmerger.testhelper, java.compile.tests.de.itemis.mps.modelmerger, java.compile.de.itemis.model.merge.test.integration, java.compile.test.de.itemis.model.merge, java.compile.com.dslfoundry.plaintextgen.example.nestedlist, java.compile.com.dslfoundry.plaintextgen.example.nestedlist#7022720084780710580, java.compile.com.dslfoundry.plaintextgen.example.testlang, java.compile.com.dslfoundry.plaintextgen.example.testlang#3661149507326583883, java.compile.com.dslfoundry.plaintextgen.example.nestedlist.sandbox, java.compile.com.dslfoundry.plaintextgen.example.plaintextflow, java.compile.com.dslfoundry.plaintextgen.example.testlang.sandbox, java.compile.test.org.modelix.model.mpsadapters, java.compile.de.itemis.mps.editor.pagination.test, java.compile.test.de.q60.mps.shadowmodels.examples, java.compile.test.de.q60.mps.shadowmodels.runtime, java.compile.test.de.q60.mps.incremental.runtime, java.compile.de.itemis.mps.editor.collapsible.testlang, java.compile.de.itemis.mps.editor.enumeration.demolang, java.compile.de.itemis.mps.editor.dropdown.demolang, java.compile.de.itemis.mps.editor.bool.demolang, java.compile.nl.f1re.mps.editor.swing.demolang, java.compile.de.itemis.mps.editor.enumeration.sandbox, java.compile.de.itemis.mps.editor.dropdown.sandbox, java.compile.de.itemis.mps.editor.bool.sandbox, java.compile.de.itemis.mps.editor.collapsible.sandbox, java.compile.test.de.itemis.mps.editor.bool.runtime, java.compile.nl.f1re.mps.editor.swing.sandbox, java.compile.de.slisson.mps.javadoc, java.compile.de.slisson.mps.richtext.sandbox, java.compile.test.de.slisson.mps.richtext, java.compile.de.slisson.mps.editor.multiline.demolang, java.compile.de.slisson.mps.editor.multiline.sandbox, java.compile.test.de.slisson.mps.editor.multiline, java.compile.de.slisson.mps.conditionalEditor.demolang, java.compile.de.slisson.mps.conditionalEditor.sandbox, java.compile.de.itemis.mps.editor.math.demolang, java.compile.de.itemis.mps.editor.math.java, java.compile.de.itemis.mps.editor.math.java#9023431908320258336, java.compile.de.itemis.mps.editor.math.sandbox, java.compile.de.itemis.mps.editor.math.tests, java.compile.test.de.itemis.mps.editor.celllayout, java.compile.test.de.itemis.mps.editor.celllayout.lang, java.compile.de.itemis.mps.editor.celllayout.sandboxlang, java.compile.de.itemis.mps.editor.celllayout.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.activity, java.compile.test.de.itemis.mps.editor.diagram.lang, java.compile.test.de.itemis.mps.editor.diagram.solution, java.compile.de.itemis.mps.editor.diagram.demolang, java.compile.de.itemis.mps.editor.diagram.demolang#5806942359871451541, java.compile.de.itemis.mps.editor.diagram.demoentities, java.compile.de.itemis.mps.editor.diagram.demo.callgraph, java.compile.de.itemis.mps.editor.diagram.demo.elk, java.compile.de.itemis.mps.editor.diagram.demo.elk.generator, java.compile.de.itemis.mps.editor.diagram.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.ports, java.compile.de.itemis.mps.editor.diagram.demo.ports.generator, java.compile.de.itemis.mps.editor.diagram.demo.ports.sandbox, java.compile.de.itemis.mps.editor.diagram.demoentities.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.activity.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.elk.sandbox, java.compile.com.mbeddr.mpsutil.intentions.tests, java.compile.de.itemis.mps.comparator.diff.tests, java.compile.test.de.itemis.mps.compare, java.compile.de.itemis.mps.compare.pattern.test, java.compile.test.de.itemis.mps.compare.testlang, java.compile.nl.f1re.mpsutil.hasher.tests, java.compile.nl.f1re.testing.examples.lang, java.compile.nl.f1re.testing.examples.lang.generator, java.compile.nl.f1re.testing.examples, java.compile.test.com.mbeddr.mpsutil.modellisteners, java.compile.test.nl.f1re.mps.aliascustomization.demolang, java.compile.test.nl.f1re.mps.aliascustomization, java.compile.de.itemis.mps.editor.htmlcell.demolang, java.compile.com.mbeddr.mpsutil.modellisteners.sandboxlang, java.compile.com.mbeddr.mpsutil.editor.querylist.demolang, java.compile.de.itemis.mps.editor.pagination.demolang, java.compile.com.mbeddr.mpsutil.intentions.sandboxlang, java.compile.com.mbeddr.mpsutil.intentions.sandboxlang.generator, java.compile.com.mbeddr.mpsutil.treenotation.sandboxlang, java.compile.test.com.jetbrains.mpsext.viewmodel.lang, java.compile.test.com.jetbrains.mpsext.viewmodel, java.compile.com.jetbrains.mpsext.plaintextgen.paster.tests" />
+  <target name="compileJava" depends="java.compile.kotlin.usage.test, java.compile.com.mbeddr.mpsutil.grammarcells.sandboxlang, java.compile.com.mbeddr.mpsutil.grammarcells.tests, java.compile.de.itemis.mps.structurecheck.runtime, java.compile.de.itemis.mps.structurecheck, java.compile.de.itemis.mps.structurecheck#380240910834170735, java.compile.test.de.slisson.mps.tables, java.compile.test.de.slisson.mps.tables.runtime, java.compile.de.slisson.mps.tables.demolang, java.compile.test.de.slisson.mps.tables.lang, java.compile.test.de.slisson.mps.tables.lang.generator, java.compile.test.com.mbeddr.mpsutil.blutil.genutil.lang, java.compile.test.com.mbeddr.mpsutil.blutil.genutil.lang#4213334375079416143, java.compile.test.com.mbeddr.mpsutil.blutil.genutil, java.compile.test.com.mbeddr.mpsutil.blutil.doc, java.compile.test.ts.conceptswitch, java.compile.test.ex.match, java.compile.de.itemis.mps.blutil.sandbox, java.compile.de.itemis.mps.nodeversioning.test, java.compile.de.itemis.model.merge.diamond, java.compile.de.itemis.model.merge.simple.demo.annotated, java.compile.de.itemis.model.simple.demo.children, java.compile.de.itemis.model.simple.demo.collection, java.compile.de.itemis.model.simple.demo.collection.keeper, java.compile.de.itemis.model.simple.demo.collection.ref, java.compile.de.itemis.model.simple.demo.collection.ref.generator, java.compile.de.itemis.model.simple.demo.enums, java.compile.de.itemis.model.simple.demo.enums.generator, java.compile.de.itemis.model.simple.demo.property, java.compile.de.itemis.model.simple.demo.reference, java.compile.test.de.itemis.mps.modelmerger.testlanguage, java.compile.de.itemis.model.merge.baselang.sandbox, java.compile.de.itemis.model.merge.simple.demo, java.compile.de.itemis.model.merge.test, java.compile.de.itemis.mps.modelmerger.testhelper, java.compile.tests.de.itemis.mps.modelmerger, java.compile.de.itemis.model.merge.test.integration, java.compile.test.de.itemis.model.merge, java.compile.com.dslfoundry.plaintextgen.example.nestedlist, java.compile.com.dslfoundry.plaintextgen.example.nestedlist#7022720084780710580, java.compile.com.dslfoundry.plaintextgen.example.testlang, java.compile.com.dslfoundry.plaintextgen.example.testlang#3661149507326583883, java.compile.com.dslfoundry.plaintextgen.example.nestedlist.sandbox, java.compile.com.dslfoundry.plaintextgen.example.plaintextflow, java.compile.com.dslfoundry.plaintextgen.example.testlang.sandbox, java.compile.com.jetbrains.mpsext.plaintextgen.editor.tests, java.compile.test.org.modelix.model.mpsadapters, java.compile.de.itemis.mps.editor.pagination.test, java.compile.test.de.q60.mps.shadowmodels.examples, java.compile.test.de.q60.mps.shadowmodels.runtime, java.compile.test.de.q60.mps.incremental.runtime, java.compile.de.itemis.mps.editor.collapsible.testlang, java.compile.de.itemis.mps.editor.enumeration.demolang, java.compile.de.itemis.mps.editor.dropdown.demolang, java.compile.de.itemis.mps.editor.bool.demolang, java.compile.nl.f1re.mps.editor.swing.demolang, java.compile.de.itemis.mps.editor.enumeration.sandbox, java.compile.de.itemis.mps.editor.dropdown.sandbox, java.compile.de.itemis.mps.editor.bool.sandbox, java.compile.de.itemis.mps.editor.collapsible.sandbox, java.compile.test.de.itemis.mps.editor.bool.runtime, java.compile.nl.f1re.mps.editor.swing.sandbox, java.compile.de.slisson.mps.javadoc, java.compile.de.slisson.mps.richtext.sandbox, java.compile.test.de.slisson.mps.richtext, java.compile.de.slisson.mps.editor.multiline.demolang, java.compile.de.slisson.mps.editor.multiline.sandbox, java.compile.test.de.slisson.mps.editor.multiline, java.compile.de.slisson.mps.conditionalEditor.demolang, java.compile.de.slisson.mps.conditionalEditor.sandbox, java.compile.de.itemis.mps.editor.math.demolang, java.compile.de.itemis.mps.editor.math.java, java.compile.de.itemis.mps.editor.math.java#9023431908320258336, java.compile.de.itemis.mps.editor.math.sandbox, java.compile.de.itemis.mps.editor.math.tests, java.compile.test.de.itemis.mps.editor.celllayout, java.compile.test.de.itemis.mps.editor.celllayout.lang, java.compile.de.itemis.mps.editor.celllayout.sandboxlang, java.compile.de.itemis.mps.editor.celllayout.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.activity, java.compile.test.de.itemis.mps.editor.diagram.lang, java.compile.test.de.itemis.mps.editor.diagram.solution, java.compile.de.itemis.mps.editor.diagram.demolang, java.compile.de.itemis.mps.editor.diagram.demolang#5806942359871451541, java.compile.de.itemis.mps.editor.diagram.demoentities, java.compile.de.itemis.mps.editor.diagram.demo.callgraph, java.compile.de.itemis.mps.editor.diagram.demo.elk, java.compile.de.itemis.mps.editor.diagram.demo.elk.generator, java.compile.de.itemis.mps.editor.diagram.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.ports, java.compile.de.itemis.mps.editor.diagram.demo.ports.generator, java.compile.de.itemis.mps.editor.diagram.demo.ports.sandbox, java.compile.de.itemis.mps.editor.diagram.demoentities.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.activity.sandbox, java.compile.de.itemis.mps.editor.diagram.demo.elk.sandbox, java.compile.com.mbeddr.mpsutil.intentions.tests, java.compile.de.itemis.mps.comparator.diff.tests, java.compile.test.de.itemis.mps.compare, java.compile.de.itemis.mps.compare.pattern.test, java.compile.test.de.itemis.mps.compare.testlang, java.compile.nl.f1re.mpsutil.hasher.tests, java.compile.nl.f1re.testing.examples.lang, java.compile.nl.f1re.testing.examples.lang.generator, java.compile.nl.f1re.testing.examples, java.compile.test.com.mbeddr.mpsutil.modellisteners, java.compile.test.nl.f1re.mps.aliascustomization.demolang, java.compile.test.nl.f1re.mps.aliascustomization, java.compile.de.itemis.mps.editor.htmlcell.demolang, java.compile.com.mbeddr.mpsutil.modellisteners.sandboxlang, java.compile.com.mbeddr.mpsutil.editor.querylist.demolang, java.compile.de.itemis.mps.editor.pagination.demolang, java.compile.com.mbeddr.mpsutil.intentions.sandboxlang, java.compile.com.mbeddr.mpsutil.intentions.sandboxlang.generator, java.compile.com.mbeddr.mpsutil.treenotation.sandboxlang, java.compile.test.com.jetbrains.mpsext.viewmodel.lang, java.compile.test.com.jetbrains.mpsext.viewmodel, java.compile.com.jetbrains.mpsext.langvis.tests, java.compile.com.jetbrains.mpsext.langvis.testdata, java.compile.com.jetbrains.mpsext.plaintextgen.paster.tests" />
   
   <target name="processResources" />
   
@@ -5883,6 +6069,7 @@
     <generate fork="true" targetJavaVersion="11" logLevel="${mps.ant.log}">      
       <settings refid="m2m-0" />
       <plugin path="${artifacts.de.itemis.mps.extensions}/MPS.Kotlin" id="MPS.Kotlin" />
+      <plugin path="${artifacts.de.itemis.mps.extensions}/com.dslfoundry.langvis" id="com.dslfoundry.langvis" />
       <plugin path="${artifacts.de.itemis.mps.extensions}/com.dslfoundry.plaintextgen" id="com.dslfoundry.plaintextgen" />
       <plugin path="${artifacts.de.itemis.mps.extensions}/com.jetbrains.mpsext.viewmodel" id="com.jetbrains.mpsext.viewmodel" />
       <plugin path="${artifacts.de.itemis.mps.extensions}/com.mbeddr.mpsutil.editor.querylist" id="com.mbeddr.mpsutil.editor.querylist" />
@@ -5942,6 +6129,9 @@
         <module file="${extensions.code}/plaintextgen/languages/com.dslfoundry.plaintextgen.example.nestedlist/com.dslfoundry.plaintextgen.example.nestedlist.mpl" />
         <module file="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.plaintextflow/com.dslfoundry.plaintextgen.example.plaintextflow.msd" />
         <module file="${extensions.code}/plaintextgen/languages/com.dslfoundry.plaintextgen.example.testlang/com.dslfoundry.plaintextgen.example.testlang.mpl" />
+        <module file="${extensions.code}/langvis/languages/com.jetbrains.mpsext.langvis.testdata/com.jetbrains.mpsext.langvis.testdata.mpl" />
+        <module file="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.tests/com.jetbrains.mpsext.langvis.tests.msd" />
+        <module file="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.editor.tests/com.jetbrains.mpsext.plaintextgen.editor.tests.msd" />
         <module file="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.paster.tests/com.jetbrains.mpsext.plaintextgen.paster.tests.msd" />
         <module file="${extensions.code}/querylist/com.mbeddr.mpsutil.editor.querylist.demolang/com.mbeddr.mpsutil.editor.querylist.demolang.mpl" />
         <module file="${grammarcells.home}/languages/com.mbeddr.mpsutil.grammarcells.sandboxlang/com.mbeddr.mpsutil.grammarcells.sandboxlang.mpl" />
@@ -17559,6 +17749,338 @@
         <path location="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.testlang.sandbox/source_gen" />
       </src>
       <classpath refid="path.jdk.classpath" />
+    </javac2>
+  </target>
+  
+  <target name="java.compile.com.jetbrains.mpsext.plaintextgen.editor.tests" depends="fetchDependencies">
+    <mkdir dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.editor.tests/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/com.jetbrains.mpsext.plaintextgen.editor.tests" />
+    <javac2 destdir="${build.tmp}/java/out/com.jetbrains.mpsext.plaintextgen.editor.tests" fork="false" encoding="utf8" includeantruntime="false" debug="true" source="11" target="11">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.editor.tests/source_gen" />
+        <pathelement path="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.editor.tests/test_gen/" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-test.jar" />
+        <fileset file="${artifacts.IDEA}/lib/app-backend.jar" />
+        <fileset file="${artifacts.IDEA}/lib/lib.jar" />
+        <fileset file="${artifacts.IDEA}/lib/util.jar" />
+        <fileset file="${artifacts.IDEA}/lib/util_rt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/util-8.jar" />
+        <fileset file="${artifacts.IDEA}/lib/forms_rt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/jps-model.jar" />
+        <fileset file="${artifacts.IDEA}/lib/platform-loader.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.asm.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.fastutil.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.gson.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.http.client.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.collections.immutable.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.coroutines.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.miglayout.swing.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.netty.buffer.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.netty.codec.http.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.analysis.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.analysis.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.bootstrap.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.builtInServer.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.builtInServer.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.concurrency.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.core.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.core.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.credentialStore.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.debugger.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.diff.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.diff.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.editor.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.editor.ex.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.editor.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.execution.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.execution.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.feedback.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.icons.api.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.bootstrap.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.core.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.util.netty.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.indexing.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.indexing.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.lang.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.lang.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.lang.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.locking.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.lvcs.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.projectFrame.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.projectModel.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.projectModel.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.refactoring.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.serviceContainer.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.statistics.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.usageView.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.ex.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.text.matching.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.vcs.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.whatsNew.jar" />
+        <fileset file="${artifacts.IDEA}/lib/testFramework.jar" />
+        <fileset file="${artifacts.IDEA}/plugins/xml-plugin/lib/modules/intellij.xml.parser.jar" />
+        <fileset file="${artifacts.IDEA}/plugins/platform-problemView-plugin/lib/modules/intellij.platform.problemView.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jetbrains.annotations.jar" />
+        <fileset file="${artifacts.de.itemis.mps.extensions}/com.dslfoundry.plaintextgen/languages/com.dslfoundry.plaintextgen/com.dslfoundry.plaintextgen.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.baseLanguage.lightweightdsl.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.intentions.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.matcher.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ant/lib/ant.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.junit4.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.hamcrest.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.junit6.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.junit6.jupiter.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.junit6.launcher.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.junit6.vintage.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.netty.codec.compression.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.guava.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.java.compatibility.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.codeStyle.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.configurationStore.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.credentialStore.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.credentialStore.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.concurrency.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.core.plugins.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.initialConfigImport.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.recentProjects.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.kernel.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.starter.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.diff.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.vcs.shared.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.welcomeScreen.jar" />
+        <fileset file="${artifacts.IDEA}/lib/external-system-rt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/externalProcess-rt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.andel.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.bifurcan.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.fastutil.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.kernel.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.multiplatform.shims.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.openmap.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.radixTrie.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.reporting.api.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.reporting.shared.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.rhizomedb.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.rhizomedb.transactor.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.rhizomedb.transactor.rebase.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.rpc.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.rpc.server.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.util.codepoints.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.util.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.util.logging.api.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.util.serialization.jar" />
+        <fileset file="${artifacts.IDEA}/lib/idea_rt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.idea.community.customization.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.java.ide.resources.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.json.syntax.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.aalto.xml.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.automaton.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.blockmap.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.bouncy.castle.pgp.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.bouncy.castle.provider.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.caffeine.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.cglib.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.classgraph.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.cli.parser.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.commons.codec.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.commons.compress.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.commons.imaging.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.commons.io.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.commons.lang3.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.commons.logging.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.download.pgp.verifier.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.hash4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.hdr.histogram.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.imgscalr.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.ini4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.ion.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jackson.annotations.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jackson3.databind.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jackson3.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jackson3.jr.objects.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jackson3.module.kotlin.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.javax.annotation.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jaxen.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jbr.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jcip.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jediterm.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jediterm.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jgoodies.common.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jgoodies.forms.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jsoup.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jsvg.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlin.reflect.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.coroutines.debug.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.coroutines.slf4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.datetime.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.html.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.io.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.serialization.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.serialization.json.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.serialization.protobuf.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kryo5.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.ktor.client.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.ktor.io.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.ktor.network.tls.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.ktor.utils.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.lz4.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.markdown.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.mvstore.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentelemetry.exporter.otlp.common.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentelemetry.exporter.sender.jdk.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentelemetry.extension.kotlin.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentelemetry.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentelemetry.sdk.autoconfigure.spi.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentelemetry.semconv.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.oro.matcher.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.protobuf.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.rd.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.rd.framework.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.rd.swing.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.rd.text.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.snakeyaml.engine.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.snakeyaml.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.stream.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.velocity.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.winp.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.xtext.xbase.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.xz.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.bazel.runfiles.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.buildData.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.diagnostic.startUpPerformanceReporter.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.diagnostic.telemetry.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.discoverability.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.duplicates.analysis.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.eel.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.eel.nioFs.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.experiment.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.icons.impl.intellij.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.codeinsight.inline.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.designer.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.favoritesTreeView.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.remote.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.jps.build.javac.rt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.lsp.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.lsp.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.macro.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.markdown.utils.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.polySymbols.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.rd.community.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.remote.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.resources.en.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.resources.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.rpc.topics.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.runtime.product.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.statistics.config.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.statistics.uploader.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.syntax.psi.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.testIntegration.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.testIntegration.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.threadDumpParser.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.usageView.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.coroutines.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.welcomeScreen.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.remoteDev.util.jar" />
+        <fileset file="${artifacts.IDEA}/lib/javac2.jar" />
+        <fileset file="${artifacts.IDEA}/lib/jetbrains.intellij.deps.java.atk.wrapper.linux.jar" />
+        <fileset file="${artifacts.IDEA}/lib/maven-resolver-provider.jar" />
+        <fileset file="${artifacts.IDEA}/lib/trove.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.idea.community.ide.customization.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.eclipse.lsp4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.eclipse.lsp4j.jsonrpc.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.fus.ap.validation.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jps.javac.extension.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.serialization.json.io.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.netty.codec.protobuf.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentest4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.backend.observation.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.backend.workspace.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.codeStyle.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.diagnostic.telemetry.exporters.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.diagnostic.telemetry.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.eel.impl.base.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.eel.provider.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.foldings.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.icons.api.rendering.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.icons.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.icons.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.bootstrap.eel.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.bootstrap.kernel.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.observable.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.progress.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.rpc.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.updateChecker.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.util.io.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ijent.community.buildConstants.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ijent.community.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ijent.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.instanceContainer.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.jbr.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.klogger.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.objectSerializer.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.pasta.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.pluginSystem.parser.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.pratt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.project.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.resources.applicationInfo.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.resources.en.fileTemplates.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.resources.fileTypes.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.rpc.lite.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.settings.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.syntax.extensions.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.syntax.i18n.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.syntax.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.syntax.tree.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.syntax.util.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.annotations.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.http.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.io.storages.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.progress.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.workspace.jps.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.workspace.storage.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.wsl.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jaxb.jar" />
+        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-platform-reporting-6.1.3.jar" />
+        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-jupiter-params-6.1.3.jar" />
+        <path refid="path.jdk.classpath" />
+      </classpath>
     </javac2>
   </target>
   
@@ -36841,6 +37363,368 @@
     </javac2>
   </target>
   
+  <target name="java.compile.com.jetbrains.mpsext.langvis.tests" depends="java.compile.com.jetbrains.mpsext.langvis.testdata, fetchDependencies">
+    <mkdir dir="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.tests/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/com.jetbrains.mpsext.langvis.tests" />
+    <javac2 destdir="${build.tmp}/java/out/com.jetbrains.mpsext.langvis.tests" fork="false" encoding="utf8" includeantruntime="false" debug="true" source="11" target="11">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.tests/source_gen" />
+        <pathelement path="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.tests/test_gen/" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
+        <pathelement path="${build.tmp}/java/out/com.jetbrains.mpsext.langvis.testdata" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-test.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jetbrains.annotations.jar" />
+        <fileset file="${artifacts.IDEA}/lib/app-backend.jar" />
+        <fileset file="${artifacts.IDEA}/lib/lib.jar" />
+        <fileset file="${artifacts.IDEA}/lib/util.jar" />
+        <fileset file="${artifacts.IDEA}/lib/util_rt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/util-8.jar" />
+        <fileset file="${artifacts.IDEA}/lib/forms_rt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/jps-model.jar" />
+        <fileset file="${artifacts.IDEA}/lib/platform-loader.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.asm.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.fastutil.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.gson.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.http.client.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.collections.immutable.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.coroutines.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.miglayout.swing.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.netty.buffer.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.netty.codec.http.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.analysis.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.analysis.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.bootstrap.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.builtInServer.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.builtInServer.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.concurrency.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.core.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.core.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.credentialStore.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.debugger.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.diff.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.diff.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.editor.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.editor.ex.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.editor.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.execution.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.execution.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.feedback.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.icons.api.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.bootstrap.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.core.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.util.netty.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.indexing.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.indexing.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.lang.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.lang.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.lang.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.locking.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.lvcs.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.projectFrame.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.projectModel.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.projectModel.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.refactoring.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.serviceContainer.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.statistics.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.usageView.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.ex.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.text.matching.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.vcs.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.whatsNew.jar" />
+        <fileset file="${artifacts.IDEA}/lib/testFramework.jar" />
+        <fileset file="${artifacts.IDEA}/plugins/xml-plugin/lib/modules/intellij.xml.parser.jar" />
+        <fileset file="${artifacts.IDEA}/plugins/platform-problemView-plugin/lib/modules/intellij.platform.problemView.ui.jar" />
+        <fileset file="${artifacts.de.itemis.mps.extensions}/com.dslfoundry.langvis/languages/com.dslfoundry.langvis/com.dslfoundry.langvis.plugin.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.matcher.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ant/lib/ant.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.junit4.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.hamcrest.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.junit6.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.junit6.jupiter.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.junit6.launcher.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.junit6.vintage.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.netty.codec.compression.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.guava.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.java.compatibility.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.codeStyle.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.configurationStore.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.credentialStore.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.credentialStore.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.concurrency.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.core.plugins.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.initialConfigImport.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.recentProjects.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.kernel.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.starter.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.diff.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.vcs.shared.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.welcomeScreen.jar" />
+        <fileset file="${artifacts.IDEA}/lib/external-system-rt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/externalProcess-rt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.andel.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.bifurcan.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.fastutil.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.kernel.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.multiplatform.shims.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.openmap.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.radixTrie.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.reporting.api.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.reporting.shared.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.rhizomedb.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.rhizomedb.transactor.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.rhizomedb.transactor.rebase.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.rpc.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.rpc.server.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.util.codepoints.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.util.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.util.logging.api.jar" />
+        <fileset file="${artifacts.IDEA}/lib/fleet.util.serialization.jar" />
+        <fileset file="${artifacts.IDEA}/lib/idea_rt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.idea.community.customization.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.java.ide.resources.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.json.syntax.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.aalto.xml.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.automaton.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.blockmap.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.bouncy.castle.pgp.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.bouncy.castle.provider.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.caffeine.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.cglib.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.classgraph.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.cli.parser.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.commons.codec.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.commons.compress.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.commons.imaging.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.commons.io.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.commons.lang3.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.commons.logging.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.download.pgp.verifier.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.hash4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.hdr.histogram.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.imgscalr.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.ini4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.ion.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jackson.annotations.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jackson3.databind.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jackson3.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jackson3.jr.objects.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jackson3.module.kotlin.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.javax.annotation.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jaxen.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jbr.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jcip.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jediterm.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jediterm.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jgoodies.common.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jgoodies.forms.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jsoup.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jsvg.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlin.reflect.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.coroutines.debug.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.coroutines.slf4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.datetime.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.html.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.io.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.serialization.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.serialization.json.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.serialization.protobuf.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kryo5.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.ktor.client.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.ktor.io.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.ktor.network.tls.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.ktor.utils.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.lz4.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.markdown.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.mvstore.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentelemetry.exporter.otlp.common.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentelemetry.exporter.sender.jdk.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentelemetry.extension.kotlin.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentelemetry.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentelemetry.sdk.autoconfigure.spi.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentelemetry.semconv.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.oro.matcher.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.protobuf.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.rd.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.rd.framework.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.rd.swing.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.rd.text.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.snakeyaml.engine.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.snakeyaml.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.stream.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.velocity.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.winp.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.xtext.xbase.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.xz.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.bazel.runfiles.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.buildData.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.diagnostic.startUpPerformanceReporter.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.diagnostic.telemetry.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.discoverability.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.duplicates.analysis.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.eel.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.eel.nioFs.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.experiment.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.icons.impl.intellij.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.codeinsight.inline.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.designer.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.favoritesTreeView.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.remote.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.jps.build.javac.rt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.lsp.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.lsp.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.macro.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.markdown.utils.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.polySymbols.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.rd.community.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.remote.core.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.resources.en.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.resources.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.rpc.topics.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.runtime.product.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.statistics.config.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.statistics.uploader.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.syntax.psi.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.testIntegration.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.testIntegration.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.threadDumpParser.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.usageView.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.coroutines.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.welcomeScreen.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.remoteDev.util.jar" />
+        <fileset file="${artifacts.IDEA}/lib/javac2.jar" />
+        <fileset file="${artifacts.IDEA}/lib/jetbrains.intellij.deps.java.atk.wrapper.linux.jar" />
+        <fileset file="${artifacts.IDEA}/lib/maven-resolver-provider.jar" />
+        <fileset file="${artifacts.IDEA}/lib/trove.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.idea.community.ide.customization.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.eclipse.lsp4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.eclipse.lsp4j.jsonrpc.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.fus.ap.validation.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jps.javac.extension.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.kotlinx.serialization.json.io.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.netty.codec.protobuf.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.opentest4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.backend.observation.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.backend.workspace.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.codeStyle.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.diagnostic.telemetry.exporters.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.diagnostic.telemetry.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.eel.impl.base.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.eel.provider.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.foldings.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.icons.api.rendering.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.icons.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.icons.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.bootstrap.eel.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.bootstrap.kernel.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.observable.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.progress.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.rpc.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.ui.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.updateChecker.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ide.util.io.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ijent.community.buildConstants.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ijent.community.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.ijent.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.instanceContainer.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.jbr.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.klogger.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.objectSerializer.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.pasta.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.pluginSystem.parser.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.pratt.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.project.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.resources.applicationInfo.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.resources.en.fileTemplates.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.resources.fileTypes.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.rpc.lite.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.settings.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.syntax.extensions.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.syntax.i18n.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.syntax.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.syntax.tree.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.syntax.util.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.annotations.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.http.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.io.storages.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.util.progress.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.workspace.jps.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.workspace.storage.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.platform.wsl.impl.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jaxb.jar" />
+        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-platform-reporting-6.1.3.jar" />
+        <fileset dir="${artifacts.mps}/plugins/mps-junit5/lib" includes="junit-jupiter-params-6.1.3.jar" />
+        <path refid="path.jdk.classpath" />
+      </classpath>
+    </javac2>
+  </target>
+  
+  <target name="java.compile.com.jetbrains.mpsext.langvis.testdata" depends="fetchDependencies">
+    <mkdir dir="${extensions.code}/langvis/languages/com.jetbrains.mpsext.langvis.testdata/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/com.jetbrains.mpsext.langvis.testdata" />
+    <javac2 destdir="${build.tmp}/java/out/com.jetbrains.mpsext.langvis.testdata" fork="false" encoding="utf8" includeantruntime="false" debug="true" source="11" target="11">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${extensions.code}/langvis/languages/com.jetbrains.mpsext.langvis.testdata/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
+        <fileset file="${artifacts.IDEA}/lib/intellij.libraries.jetbrains.annotations.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
+        <path refid="path.jdk.classpath" />
+      </classpath>
+    </javac2>
+  </target>
+  
   <target name="java.compile.com.jetbrains.mpsext.plaintextgen.paster.tests" depends="fetchDependencies">
     <mkdir dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.paster.tests/source_gen" />
     <mkdir dir="${build.tmp}/java/out/com.jetbrains.mpsext.plaintextgen.paster.tests" />
@@ -37209,7 +38093,9 @@
       <pathelement location="${build.layout}/nl.f1re.mpsutil.hasher.tests.jar" />
       <pathelement location="${build.layout}/test.nl.f1re.mps.aliascustomization.jar" />
       <pathelement location="${build.layout}/test.com.jetbrains.mpsext.viewmodel.jar" />
+      <pathelement location="${build.layout}/com.jetbrains.mpsext.plaintextgen.editor.tests.jar" />
       <pathelement location="${build.layout}/com.jetbrains.mpsext.plaintextgen.paster.tests.jar" />
+      <pathelement location="${build.layout}/com.jetbrains.mpsext.langvis.tests.jar" />
     </path>
     <pathconvert property="mps.tests.path.string" refid="mps.tests.path" />
     <property name="build.jna.library.path" location="${artifacts.mps}/lib/jna" />
@@ -37225,6 +38111,7 @@
       </jvmargs>
       
       
+      <library file="${build.layout}/com.jetbrains.mpsext.langvis.testdata.jar" />
       <library file="${build.layout}/com.mbeddr.mpsutil.intentions.sandboxlang.jar" />
       <library file="${build.layout}/de.itemis.model.merge.diamond.jar" />
       <library file="${build.layout}/de.itemis.model.merge.simple.demo.annotated.jar" />
@@ -37248,6 +38135,7 @@
       <library file="${build.layout}/test.nl.f1re.mps.aliascustomization.demolang.jar" />
       
       <plugin id="MPS.Kotlin" path="${artifacts.de.itemis.mps.extensions}/MPS.Kotlin" />
+      <plugin id="com.dslfoundry.langvis" path="${artifacts.de.itemis.mps.extensions}/com.dslfoundry.langvis" />
       <plugin id="com.dslfoundry.plaintextgen" path="${artifacts.de.itemis.mps.extensions}/com.dslfoundry.plaintextgen" />
       <plugin id="com.jetbrains.mpsext.viewmodel" path="${artifacts.de.itemis.mps.extensions}/com.jetbrains.mpsext.viewmodel" />
       <plugin id="com.mbeddr.mpsutil.editor.querylist" path="${artifacts.de.itemis.mps.extensions}/com.mbeddr.mpsutil.editor.querylist" />
@@ -37317,6 +38205,9 @@
     <delete dir="${extensions.code}/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.plaintextflow/source_gen" />
     <delete dir="${extensions.code}/plaintextgen/languages/com.dslfoundry.plaintextgen.example.testlang/source_gen" />
     <delete dir="${extensions.code}/plaintextgen/languages/com.dslfoundry.plaintextgen.example.testlang/generator/source_gen" />
+    <delete dir="${extensions.code}/langvis/languages/com.jetbrains.mpsext.langvis.testdata/source_gen" />
+    <delete dir="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.tests/source_gen" />
+    <delete dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.editor.tests/source_gen" />
     <delete dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.paster.tests/source_gen" />
     <delete dir="${extensions.code}/querylist/com.mbeddr.mpsutil.editor.querylist.demolang/source_gen" />
     <delete dir="${grammarcells.home}/languages/com.mbeddr.mpsutil.grammarcells.sandboxlang/source_gen" />
@@ -37428,6 +38319,8 @@
     <delete dir="${tables.home}/solutions/test.de.slisson.mps.tables/source_gen" />
     <delete dir="${extensions.code}/alias-customization/solutions/test.nl.f1re.mps.aliascustomization/source_gen" />
     <delete dir="${extensions.code}/modelmerger/solutions/tests.de.itemis.mps.modelmerger/source_gen" />
+    <delete dir="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.tests/test_gen" />
+    <delete dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.editor.tests/test_gen" />
     <delete dir="${extensions.code}/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.paster.tests/test_gen" />
     <delete dir="${extensions.code}/compare/solutions/de.itemis.mps.comparator.diff.tests/test_gen" />
     <delete dir="${extensions.code}/compare/solutions/de.itemis.mps.compare.pattern.test/test_gen" />

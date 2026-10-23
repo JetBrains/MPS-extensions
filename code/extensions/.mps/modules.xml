@@ -100,8 +100,11 @@
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.property/de.itemis.model.simple.demo.property.mpl" folder="modelmerger.test.language" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.reference/de.itemis.model.simple.demo.reference.mpl" folder="modelmerger.test.language" />
       <modulePath path="$PROJECT_DIR$/langvis/languages/com.dslfoundry.langvis.demolang/com.dslfoundry.langvis.demolang.mpl" folder="langvis" />
+      <modulePath path="$PROJECT_DIR$/langvis/languages/com.jetbrains.mpsext.langvis.testdata/com.jetbrains.mpsext.langvis.testdata.mpl" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.demo/com.dslfoundry.langvis.demo.msd" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.plugin/com.dslfoundry.langvis.plugin.msd" folder="langvis" />
+      <modulePath path="$PROJECT_DIR$/langvis/solutions/com.jetbrains.mpsext.langvis.plantuml/com.jetbrains.mpsext.langvis.plantuml.msd" folder="langvis" />
+      <modulePath path="$PROJECT_DIR$/langvis/solutions/com.jetbrains.mpsext.langvis.tests/com.jetbrains.mpsext.langvis.tests.msd" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/linenumbers/de.itemis.mps.linenumbers/de.itemis.mps.linenumbers.msd" folder="linenumbers" />
       <modulePath path="$PROJECT_DIR$/math/languages/de.itemis.mps.editor.math.demolang/de.itemis.mps.editor.math.demolang.mpl" folder="math" />
       <modulePath path="$PROJECT_DIR$/math/languages/de.itemis.mps.editor.math.java/de.itemis.mps.editor.math.java.mpl" folder="math" />
@@ -147,6 +150,7 @@
       <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.nestedlist.sandbox/com.dslfoundry.plaintextgen.example.nestedlist.sandbox.msd" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.plaintextflow/com.dslfoundry.plaintextgen.example.plaintextflow.msd" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.testlang.sandbox/com.dslfoundry.plaintextgen.example.testlang.sandbox.msd" folder="plaintextgen" />
+      <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.editor.tests/com.jetbrains.mpsext.plaintextgen.editor.tests.msd" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.jetbrains.mpsext.plaintextgen.paster.tests/com.jetbrains.mpsext.plaintextgen.paster.tests.msd" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/projectview/com.mbeddr.mpsutil.projectview.demo/com.mbeddr.mpsutil.projectview.demo.msd" folder="projectview" />
       <modulePath path="$PROJECT_DIR$/projectview/com.mbeddr.mpsutil.projectview.runtime/com.mbeddr.mpsutil.projectview.runtime.msd" folder="projectview" />

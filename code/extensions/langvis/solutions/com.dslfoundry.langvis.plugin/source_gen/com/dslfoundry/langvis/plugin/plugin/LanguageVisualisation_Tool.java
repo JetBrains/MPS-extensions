@@ -13,27 +13,20 @@ import javax.swing.JCheckBox;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindowAnchor;
 import java.awt.BorderLayout;
-import jetbrains.mps.workbench.action.BaseGroup;
-import jetbrains.mps.workbench.action.ActionUtils;
-import javax.swing.JComponent;
-import com.intellij.openapi.actionSystem.ActionManager;
-import com.intellij.openapi.actionSystem.ActionPlaces;
 import javax.swing.JScrollPane;
 import com.intellij.util.concurrency.AppExecutorUtil;
-import java.io.File;
-import jetbrains.mps.baseLanguage.logging.rt.LogContext;
 import jetbrains.mps.project.MPSProject;
 import jetbrains.mps.ide.project.ProjectHelper;
 import java.io.IOException;
+import java.io.UncheckedIOException;
+import javax.swing.JComponent;
 
 public class LanguageVisualisation_Tool extends GeneratedTool {
   private static final Icon ICON = IconContainer.ICON5;
   private JPanel mainPanel;
   private ImageViewer imageViewer;
-  private String pumlFilePath = System.getProperty("user.home") + "/mps-metamodel.txt";
-  private String pngImagePath = System.getProperty("user.home") + "/mps-metamodel.png";
-  private String plantUmlJarPath = System.getProperty("user.home") + "/plantuml.jar";
-  private double zoomFactor = 1;
+  private String pumlFilePath = System.getProperty("user.home") + "/mps-metamodel.puml";
+  private String svgImagePath = System.getProperty("user.home") + "/mps-metamodel.svg";
   private Set<SNode> contextElements = SetSequence.fromSet(new HashSet<SNode>());
   private JCheckBox collectStructureDown = new JCheckBox("Structure", true);
   private JCheckBox collectHierarchyUp = new JCheckBox("Hierarchy", true);
@@ -56,9 +49,6 @@ public class LanguageVisualisation_Tool extends GeneratedTool {
     LanguageVisualisation_Tool.this.mainPanel = new JPanel();
     LanguageVisualisation_Tool.this.mainPanel.setLayout(new BorderLayout());
 
-    BaseGroup group = ActionUtils.getGroup("com.dslfoundry.langvis.plugin.plugin.Toolbar_ActionGroup");
-    JComponent toolbar = ActionManager.getInstance().createActionToolbar(ActionPlaces.TOOLBAR, group, true).getComponent();
-    LanguageVisualisation_Tool.this.mainPanel.add(toolbar, BorderLayout.PAGE_START);
 
     LanguageVisualisation_Tool.this.imageViewer = new ImageViewer();
     JScrollPane diagramScroller = new JScrollPane(LanguageVisualisation_Tool.this.imageViewer);
@@ -77,6 +67,8 @@ public class LanguageVisualisation_Tool extends GeneratedTool {
     // Enable drag scrolling for the diagram
     DragScrollListener sl = new DragScrollListener(LanguageVisualisation_Tool.this.imageViewer);
 
+    SysUtils.installToolbar(LanguageVisualisation_Tool.this.ideaProject, LanguageVisualisation_Tool.this.mainPanel);
+    LanguageVisualisation_Tool.this.imageViewer.setErrorHandler((message) -> SysUtils.reportError(LanguageVisualisation_Tool.this.ideaProject, message));
   }
   @Override
   protected boolean isInitiallyAvailable() {
@@ -85,52 +77,43 @@ public class LanguageVisualisation_Tool extends GeneratedTool {
   public void zoomMax() {
     int clientWidth = Math.max(LanguageVisualisation_Tool.this.mainPanel.getWidth(), 100);
     int clientHeight = Math.max(LanguageVisualisation_Tool.this.mainPanel.getHeight(), 100);
-    LanguageVisualisation_Tool.this.zoomFactor = LanguageVisualisation_Tool.this.imageViewer.zoomMax(clientWidth, clientHeight);
+    LanguageVisualisation_Tool.this.imageViewer.zoomMax(clientWidth, clientHeight);
   }
   public void zoomOneToOne() {
-    LanguageVisualisation_Tool.this.zoomFactor = 1;
-    LanguageVisualisation_Tool.this.imageViewer.refreshView(LanguageVisualisation_Tool.this.zoomFactor);
+    LanguageVisualisation_Tool.this.imageViewer.refreshView(1);
   }
   public void zoomIn() {
-    LanguageVisualisation_Tool.this.zoomFactor = LanguageVisualisation_Tool.this.zoomFactor * 2;
-    LanguageVisualisation_Tool.this.imageViewer.refreshView(LanguageVisualisation_Tool.this.zoomFactor);
+    LanguageVisualisation_Tool.this.imageViewer.refreshView(LanguageVisualisation_Tool.this.imageViewer.getCurrentZoom() * 2);
   }
   public void zoomOut() {
-    LanguageVisualisation_Tool.this.zoomFactor = LanguageVisualisation_Tool.this.zoomFactor * 0.5;
-    LanguageVisualisation_Tool.this.imageViewer.refreshView(LanguageVisualisation_Tool.this.zoomFactor);
+    LanguageVisualisation_Tool.this.imageViewer.refreshView(LanguageVisualisation_Tool.this.imageViewer.getCurrentZoom() * 0.5);
   }
   public void setContextElements(Set<SNode> elements) {
     LanguageVisualisation_Tool.this.contextElements = elements;
   }
   public void redrawBasedOnCurrentContextAndSettings() {
     AppExecutorUtil.getAppExecutorService().execute(() -> {
-      if (!(new File(LanguageVisualisation_Tool.this.plantUmlJarPath).exists())) {
-        String msg = String.format("mps-langvis plugin: plantuml.jar needs to be installed in '%s', but was not found.", LanguageVisualisation_Tool.this.plantUmlJarPath);
-        LogContext.with(LanguageVisualisation_Tool.class, null, null, null).error(msg);
-        return;
+      try {
+        final PlantUMLRenderer r = new PlantUMLRenderer(false, true);
+        MPSProject mpsProject = ProjectHelper.fromIdeaProject(LanguageVisualisation_Tool.this.ideaProject);
+        mpsProject.getRepository().getModelAccess().runReadAction(() -> {
+          try {
+            r.renderPlantUMLSource(LanguageVisualisation_Tool.this.contextElements, LanguageVisualisation_Tool.this.collectStructureDown.isSelected(), LanguageVisualisation_Tool.this.collectHierarchyUp.isSelected(), LanguageVisualisation_Tool.this.renderCardinalities.isSelected(), LanguageVisualisation_Tool.this.renderRoleNames.isSelected(), LanguageVisualisation_Tool.this.flattenNamespaces.isSelected(), LanguageVisualisation_Tool.this.pumlFilePath);
+          } catch (IOException e) {
+            throw new UncheckedIOException(e);
+          }
+        });
+        SysUtils.renderPlantUMLToSvg(LanguageVisualisation_Tool.this.pumlFilePath, LanguageVisualisation_Tool.this.svgImagePath);
+        LanguageVisualisation_Tool.this.reloadImage();
+      } catch (IOException exception) {
+        SysUtils.reportError(LanguageVisualisation_Tool.this.ideaProject, "Could not render the language diagram: " + exception.getMessage());
+      } catch (UncheckedIOException exception) {
+        SysUtils.reportError(LanguageVisualisation_Tool.this.ideaProject, "Could not write the language diagram: " + exception.getMessage());
       }
-
-      // Make plantuml file based on current elements
-      final PlantUMLRenderer r = new PlantUMLRenderer(false, true);
-      MPSProject mpsProject = ProjectHelper.fromIdeaProject(LanguageVisualisation_Tool.this.ideaProject);
-      mpsProject.getRepository().getModelAccess().runReadAction(() -> {
-        try {
-          r.renderPlantUMLSource(LanguageVisualisation_Tool.this.contextElements, LanguageVisualisation_Tool.this.collectStructureDown.isSelected(), LanguageVisualisation_Tool.this.collectHierarchyUp.isSelected(), LanguageVisualisation_Tool.this.renderCardinalities.isSelected(), LanguageVisualisation_Tool.this.renderRoleNames.isSelected(), LanguageVisualisation_Tool.this.flattenNamespaces.isSelected(), LanguageVisualisation_Tool.this.pumlFilePath);
-        } catch (IOException e) {
-          e.printStackTrace();
-          LogContext.with(LanguageVisualisation_Tool.class, e, null, null).error("Visualizing language elements failed (rendering to PlantUML)");
-        }
-      });
-
-      // Make PNG file from plantuml source
-      String[] commandarray = {"java", "-jar", LanguageVisualisation_Tool.this.plantUmlJarPath, LanguageVisualisation_Tool.this.pumlFilePath};
-      String result = SysUtils.ExecuteCommand(commandarray);
-      LogContext.with(LanguageVisualisation_Tool.class, null, null, null).info("Command executed with result " + result);
-      LanguageVisualisation_Tool.this.reloadImage();
     });
   }
   private void reloadImage() {
-    LanguageVisualisation_Tool.this.imageViewer.reloadImage(LanguageVisualisation_Tool.this.pngImagePath);
+    LanguageVisualisation_Tool.this.imageViewer.reloadImage(LanguageVisualisation_Tool.this.svgImagePath);
   }
   public JComponent getComponent() {
     return LanguageVisualisation_Tool.this.mainPanel;

@@ -15,6 +15,12 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 *de.slisson.mps.richtext* TextCellModifier has a new method modifyWordList() with the per-word editor wiring of modify(). WordCellSubstituteInfo and the new-line handler no longer assume that the parent of a word is a Text so other concepts that contain words can reuse the wiring. The behavior of Text is unchanged.
 
+### Fixed
+
+- *com.dslfoundry.langvis.plugin* Include inherited concept and interface structures when visualizing a language (#372), and offer language visualization only for structure models (#511).
+- *com.dslfoundry.langvis.plugin* Initialize the visualization tool and toolbar safely in MPS 2026.2 (#1869, #1872). Use the Markdown plugin-managed PlantUML and SVG preview without an external Java executable or a home-directory PlantUML jar (#1873, #364, #363).
+- *com.dslfoundry.langvis.plugin* Re-render the SVG at the selected zoom for a sharp preview. Refresh regenerates the diagram at the current zoom, and zoom limits preserve the aspect ratio.
+
 ## September 2026
 
 ### Fixed
@@ -464,11 +470,3 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - The auto-completion for a [WrapperCell](http://127.0.0.1:63320/node?ref=r%3A96165ed2-ef22-48c7-bfe5-8fce083cbabb%28com.mbeddr.mpsutil.grammarcells.structure%29%2F7363578995839435357) where the wrapping node is not created yet, shows entries for possible wrapped nodes with the description of the wrapped nodes concept and not the description of the wrapping nodes concept.
 - The auto-completion for an [OptionalCell](http://127.0.0.1:63320/node?ref=r%3A96165ed2-ef22-48c7-bfe5-8fce083cbabb%28com.mbeddr.mpsutil.grammarcells.structure%29%2F5083944728298846680) without a dedicated description shows no description anymore, instead of using the description of the concept which is using the [OptionalCell](http://127.0.0.1:63320/node?ref=r%3A96165ed2-ef22-48c7-bfe5-8fce083cbabb%28com.mbeddr.mpsutil.grammarcells.structure%29%2F5083944728298846680) .
-
-## October 2026
-
-### Fixed
-
-- *com.dslfoundry.langvis.plugin* Include inherited concept and interface structures when visualizing a language (#372), and offer language visualization only for structure models (#511).
-- *com.dslfoundry.langvis.plugin* Initialize the visualization tool and toolbar safely in MPS 2026.2 (#1869, #1872). Use the Markdown plugin-managed PlantUML and SVG preview without an external Java executable or a home-directory PlantUML jar (#1873, #364, #363).
-- *com.dslfoundry.langvis.plugin* Re-render the SVG at the selected zoom for a sharp preview. Refresh regenerates the diagram at the current zoom, and zoom limits preserve the aspect ratio.

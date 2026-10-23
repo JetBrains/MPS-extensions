@@ -1,0 +1,3009 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="MPS-extensions">
+      
+      
+      
+        <link rel="canonical" href="https://jetbrains.github.io/MPS-extensions/extensions/generator/plaintext-gen/">
+      
+      
+        <link rel="prev" href="../../bl-extensions/blutil/">
+      
+      
+        <link rel="next" href="../../other/langvis/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Plaintext Generator - MPS Extensions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#plaintextgen-generating-text-from-your-models" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="MPS Extensions" class="md-header__button md-logo" aria-label="MPS Extensions" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MPS Extensions
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Plaintext Generator
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/jetbrains/mps-extensions" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mps-extensions
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../building/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Building
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../contributing/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Contributing
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../migrating/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Migrating
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../adding/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Adding
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../full_extensions_list/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Full Extension List
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../editor/celllayout/" class="md-tabs__link">
+          
+  
+  
+  Editor extensions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../bl-extensions/structure-check/" class="md-tabs__link">
+          
+  
+  
+  Other extensions
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="MPS Extensions" class="md-nav__button md-logo" aria-label="MPS Extensions" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    MPS Extensions
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/jetbrains/mps-extensions" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mps-extensions
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../building/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Building
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../migrating/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Migrating
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../adding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adding
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../full_extensions_list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Full Extension List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Editor extensions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Editor extensions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/celllayout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cell Layout
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/conditional-editor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conditional Editor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/diagrams/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diagrams
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/grammar-cells/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grammar Cells
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/math/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Math
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/mouse-selection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intentions for custom selections
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/multiline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multiline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/querylist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Query List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/richtext/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Richtext
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/tables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/tree-notation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tree Notation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/widgets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Widgets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/linenumbers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Line Numbers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editor/pagination/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pagination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other extensions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Other extensions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Language Extensions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Language Extensions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bl-extensions/structure-check/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Check
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bl-extensions/blutil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Language Util (blutil)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generator
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Generator
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plaintext Generator
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plaintext Generator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-use-plaintextgen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why use PlainTextGen?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why use PlainTextGen?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#advantages-of-this-plugin-over-the-default-textgen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advantages of this plugin over the default textgen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#differences-to-standard-textgen-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Differences to standard textgen mechanism
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#your-first-generated-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Your first generated file
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Your first generated file">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-and-enable-the-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install and enable the language
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-a-template-and-connect-it-to-the-input" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create a template and connect it to the input
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#start-from-text-or-edit-the-template-directly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Start from text or edit the template directly
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Start from text or edit the template directly">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pasting-text-containing-tabs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pasting text containing tabs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fill-values-from-your-input-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fill values from your input model
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#splitting-vertical-layouts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Splitting vertical layouts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#repeat-and-conditionally-include-sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Repeat and conditionally include sections
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arrange-lines-blocks-and-whitespace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arrange lines, blocks, and whitespace
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#update-an-existing-template-with-diffing-paste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Update an existing template with diffing paste
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configure-output-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configure output files
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configure output files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#encoding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Encoding
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line-endings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Line endings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plaintextflow-explicit-line-breaks-and-indentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PlainTextFlow: explicit line breaks and indentation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="PlainTextFlow: explicit line breaks and indentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-prefix-repeated-on-each-line" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A prefix repeated on each line
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continue-a-line-without-repeating-indentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Continue a line without repeating indentation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#put-punctuation-after-a-nested-multiline-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Put punctuation after a nested multiline value
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#embedded-indentation-sensitive-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Embedded indentation-sensitive text
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compose-generators-and-diagnose-problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compose generators and diagnose problems
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-examples-and-tutorials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Further examples and tutorials
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Other
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/langvis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Language Visualizer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/project-view/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project View
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/shadow-models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shadow Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stubs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stubs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_6" id="__nav_8_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utilities
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Utilities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/intentions-menu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intentions Menu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/model-listener/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Model Listener
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/hacks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hacks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/debug/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Debug
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/spellcheck/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spell Check
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/statistics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Statistics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/model-merger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Model Merger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/node-versioning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Node Versioning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/serializer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Serializer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/view-models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    View Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="plaintextgen-generating-text-from-your-models">PlainTextGen: generating text from your models<a class="headerlink" href="#plaintextgen-generating-text-from-your-models" title="Permanent link">&para;</a></h1>
+<p><strong>Languages:</strong> <code>com.dslfoundry.plaintextgen</code> and, optionally,
+<code>com.dslfoundry.plaintextflow</code>.</p>
+<p>PlainTextGen lets you turn an example text file into an MPS generator template:
+keep the fixed text, replace selected values with queries of your model, and
+repeat sections for lists of model elements. You do not need to build an MPS
+language for the output format first. This is useful for configuration files,
+scripts, reports, and source code in a language you do not otherwise model.</p>
+<p>Start with ordinary PlainTextGen for line-oriented output. Add PlainTextFlow
+when you need explicit control over every line break and indentation prefix,
+for example for multiline strings or indentation-sensitive embedded code.</p>
+<h2 id="why-use-plaintextgen">Why use PlainTextGen?<a class="headerlink" href="#why-use-plaintextgen" title="Permanent link">&para;</a></h2>
+<h3 id="advantages-of-this-plugin-over-the-default-textgen">Advantages of this plugin over the default textgen<a class="headerlink" href="#advantages-of-this-plugin-over-the-default-textgen" title="Permanent link">&para;</a></h3>
+<p>In short, this plugin brings MPS -&gt; plaintext connectivity in a pretty usable way to MPS.</p>
+<ul>
+<li>Text generation can be part of your normal generator chain and can thus have a place in the generator priorities</li>
+<li>The language looks similar to the MPS editor language, which helps you to structure/layout your text, including indentation</li>
+<li>Different use cases are accommodated:<ul>
+<li>Pasting in larger amounts of text from the clipboard and parametrizing some of it</li>
+<li>Making text from scratch and parameterizing some of it</li>
+</ul>
+</li>
+</ul>
+<h3 id="differences-to-standard-textgen-mechanism">Differences to standard textgen mechanism<a class="headerlink" href="#differences-to-standard-textgen-mechanism" title="Permanent link">&para;</a></h3>
+<p>The standard textgen approach assumes that you model your target language (e.g. XML, or C in mbeddr) as an MPS language with all its concepts. Concept textgens provide a simple translation from concept to text. This approach is great for language extensibility, but requires that you model concepts of your target language, which sometimes is too large an investment.</p>
+<p>This plugin allows you to write a text template and fill in the gaps using standard macros.
+For example: You generate from your DSL directly to VHDL, but VHDL has not yet been modeled in MPS.</p>
+<p>Additionally, because text is now also an MPS model, all standard generator mechanisms (including reductions and generator priorities) apply. This is not the case for the default textgens, which are only triggered after all model to model transformations are complete.
+Also, this approach enables you to implement the textgen as a language extension (and therefore define multiple textgens for the same concept).</p>
+<p>You can also target multiple text formats in the same generator run.</p>
+<p>PlainTextFlow extends PlainTextGen as a separate, optional language. Importing
+it adds finer whitespace and indentation control without changing existing
+ordinary PlainTextGen templates.</p>
+<h2 id="your-first-generated-file">Your first generated file<a class="headerlink" href="#your-first-generated-file" title="Permanent link">&para;</a></h2>
+<p>You need an MPS language with a root concept and a solution containing an
+instance of that concept. You do <strong>not</strong> need a textgen aspect for your language.
+The steps below use a root called <code>Device</code> with a string property <code>name</code>;
+substitute a root concept from your own language.</p>
+<h3 id="install-and-enable-the-language">Install and enable the language<a class="headerlink" href="#install-and-enable-the-language" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Install the PlainTextGen plugin compatible with your MPS version from
+   <strong>File &gt; Settings &gt; Plugins &gt; Marketplace</strong>: search for <code>plaintextgen</code> and
+   choose <strong>Install</strong>, then restart if requested. Older MPS versions call this
+   plugin browser <strong>Browse repositories&hellip;</strong>. If you install MPS Extensions
+   another way, make its languages available to the project.</li>
+<li>In your language module, create a generator if it does not already have one.
+   Open its template model, usually <code>main@generator</code>.</li>
+<li>Add <code>com.dslfoundry.plaintextgen</code> to that model&rsquo;s <strong>Used Languages</strong>
+   (<code>Ctrl+L, L</code>, or the model&rsquo;s properties).</li>
+</ol>
+<p>The generator template belongs in the <strong>language&rsquo;s generator</strong>, not in the
+solution containing your input data. The input solution uses your language;
+you will generate that solution&rsquo;s model later.</p>
+<h3 id="create-a-template-and-connect-it-to-the-input">Create a template and connect it to the input<a class="headerlink" href="#create-a-template-and-connect-it-to-the-input" title="Permanent link">&para;</a></h3>
+<p>An MPS generator needs a rule saying which input nodes produce which output.
+Creating a text template alone does not connect it to your input model.</p>
+<ol>
+<li>In the generator&rsquo;s template model, create a <code>TextgenText</code> root.</li>
+<li>Set its <strong>Filename</strong> to <code>device</code> and its extension to <code>.txt</code>. Start with a
+   fixed filename and one input root, so output names cannot collide.</li>
+<li>Add literal content, for example:</li>
+</ol>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a>name = Example
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>enabled = true
+</code></pre></div></td></tr></table></div>
+<p>The easiest way is to copy these lines and use the template&rsquo;s
+   <strong>Paste &gt; Unstructured Text</strong> action. This creates editable template elements,
+   not a single opaque string.
+4. Create or open a <strong>Mapping Configuration</strong> in the same template model.
+   Add a <strong>root mapping rule</strong>, choose your input root concept (<code>Device</code>), and
+   select the <code>TextgenText</code> root as its output template.
+5. Make the language/generator. Then make a model in the input solution that
+   contains a <code>Device</code> root. Use <strong>Preview Generated Text</strong> from the input
+   root&rsquo;s context menu to inspect the result.</p>
+<p>The result should contain <code>device.txt</code> with the literal text above. Generating
+means making the <strong>input model</strong>, not just making the generator definition.
+If nothing is produced, check the root mapping&rsquo;s input concept and template
+reference before adding macros.
+Edit the template or input model to change future output; editing a generated
+file does not update either of them and can be overwritten by regeneration.</p>
+<p>The repository&rsquo;s <code>com.dslfoundry.plaintextgen.example.testlang</code> language has
+working root mappings in its generator, and
+<code>com.dslfoundry.plaintextgen.example.testlang.sandbox</code> supplies input models.
+These are examples to browse, not a requirement for using the plugin.</p>
+<h2 id="start-from-text-or-edit-the-template-directly">Start from text or edit the template directly<a class="headerlink" href="#start-from-text-or-edit-the-template-directly" title="Permanent link">&para;</a></h2>
+<p>The editor resembles the output, but its content is structured: words are
+inside lines, and lines can be grouped or indented. The visible borders and
+markers help select those elements; they are not emitted as text.</p>
+<p><strong>Paste &gt; Unstructured Text</strong> analyzes indentation and newlines and replaces
+the selected text collection&rsquo;s content. It expands tabs to four spaces.
+Use <strong>Paste &gt; Unstructured Text (Preserve Tab Literals)</strong> when literal tabs
+matter, for example for a tab-separated format. Paste into a fresh template
+when you do not want to replace existing parameterized content.</p>
+<p>You can also build content from completion:</p>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Word</code></td>
+<td>Literal text, possibly including spaces or punctuation</td>
+</tr>
+<tr>
+<td><code>Line</code></td>
+<td>A horizontal sequence of elements</td>
+</tr>
+<tr>
+<td><code>VerticalLines</code></td>
+<td>Lines or groups arranged below one another</td>
+</tr>
+<tr>
+<td><code>SpaceIndentedText</code></td>
+<td>A group with an editable indentation prefix</td>
+</tr>
+<tr>
+<td><code>Tab</code></td>
+<td>A literal tab character, rather than spaces</td>
+</tr>
+</tbody>
+</table>
+<p>Adjacent words do not acquire spaces automatically: <code>Word("hello")</code> followed
+by <code>Word("world")</code> produces <code>helloworld</code>. Put the separating space in a word
+when you want <code>hello world</code>.</p>
+<p>Useful editor shortcuts, when the caret is in a text element:</p>
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ctrl+Enter</code></td>
+<td>Append a line</td>
+</tr>
+<tr>
+<td><code>Ctrl+Shift+Enter</code></td>
+<td>Append a word</td>
+</tr>
+<tr>
+<td><code>Ctrl+Alt+Enter</code></td>
+<td>Append a literal tab</td>
+</tr>
+</tbody>
+</table>
+<p>The intentions menu (<code>Alt+Enter</code>) also offers <strong>Add New Line Before</strong>,
+<strong>Add New Line After</strong>, and collection operations. For a selected range of
+elements, use <code>Alt+Enter</code> to access selection intentions; the light bulb at a
+single cell may not show the same selection actions.</p>
+<h3 id="pasting-text-containing-tabs">Pasting text containing tabs<a class="headerlink" href="#pasting-text-containing-tabs" title="Permanent link">&para;</a></h3>
+<p>Use <strong>Paste Unstructured Text (Preserves Tab Literals)</strong> when your template must
+keep actual tab characters, for example when generating tab-separated data.</p>
+<ol>
+<li>Copy plain text containing actual tabs to the clipboard. Make sure your source
+   editor has not replaced them with spaces.</li>
+<li>In your <code>TextgenText</code> template, select the text node you want to replace.</li>
+<li>Open the editor&rsquo;s context menu and choose <strong>Paste Unstructured Text (Preserves
+   Tab Literals)</strong>. The action is also available through the intentions menu
+   (<code>Alt+Enter</code>) when applicable.</li>
+</ol>
+<p>The action replaces the selected text node with a vertical collection of lines.
+Each tab becomes a separate <code>Tab</code> node, displayed as an arrow in the editor.
+The arrow is an editor marker: generated text contains a tab character, not an
+arrow or a fixed number of spaces. You can then parameterize the imported text
+with generator macros as usual.</p>
+<p>Suppose you copy a line containing <code>name</code>, two actual tabs, and <code>value</code>.
+The imported line contains:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a>Word("name")  Tab  Tab  Word("value")
+</code></pre></div></td></tr></table></div>
+<p>Both tabs are retained, so the empty field between them remains present in the
+generated tab-separated text. Leading and trailing tabs are retained too:</p>
+<table>
+<thead>
+<tr>
+<th>Clipboard text (<code>\t</code> denotes one actual tab)</th>
+<th>Imported line contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>\t\t</code></td>
+<td><code>Tab</code>, <code>Tab</code></td>
+</tr>
+<tr>
+<td><code>name\t\tvalue</code></td>
+<td><code>Word("name")</code>, <code>Tab</code>, <code>Tab</code>, <code>Word("value")</code></td>
+</tr>
+<tr>
+<td><code>\tname\t</code></td>
+<td><code>Tab</code>, <code>Word("name")</code>, <code>Tab</code></td>
+</tr>
+</tbody>
+</table>
+<p>The <code>\t</code> notation above is only for readability; copying the literal characters
+backslash and <code>t</code> does not insert a tab. Adjacent tabs do not create empty <code>Word</code>
+nodes. A line containing only spaces and no tabs still becomes an empty line;
+this action does not preserve spaces-only lines.</p>
+<h2 id="fill-values-from-your-input-model">Fill values from your input model<a class="headerlink" href="#fill-values-from-your-input-model" title="Permanent link">&para;</a></h2>
+<p>A <strong>property macro</strong> computes one template property during generation. Use it
+for a word&rsquo;s text or the output filename; its query runs against the current
+input node.</p>
+<p>For the first template, change <code>name = Example</code> to use the input <code>Device.name</code>:</p>
+<ol>
+<li>Select only <code>Example</code> within the word. Invoke
+   <strong>Split-extract Selection into Word</strong>. The surrounding <code>name =</code> stays literal.
+   With just a caret, <strong>Split Word at Cursor</strong> splits at that position instead.</li>
+<li>Add a standard MPS <strong>property macro</strong> to the extracted word&rsquo;s text property
+   using the generator&rsquo;s macro editing actions. Select the macro to edit its query
+   in the Inspector.</li>
+<li>In that query, return the input node&rsquo;s <code>name</code> property, for example
+   <code>node.name</code> in an smodel query whose input is a <code>Device</code>.</li>
+<li>Make the generator and preview the input model again.</li>
+</ol>
+<p>For a device named <code>Pump</code>, the output is now:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
+<span class="normal"><a href="#__codelineno-2-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a>name = Pump
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a>enabled = true
+</code></pre></div></td></tr></table></div>
+<p>Apply the same technique to <strong>Filename</strong> to generate <code>Pump.txt</code>: query the
+device&rsquo;s name for the filename and leave the extension <code>.txt</code> fixed. Give each
+output a unique name when generating several roots. Splitting fixed text from
+variable text keeps queries small and leaves punctuation visible in the template.</p>
+<h2 id="splitting-vertical-layouts">Splitting vertical layouts<a class="headerlink" href="#splitting-vertical-layouts" title="Permanent link">&para;</a></h2>
+<p>Use <strong>Split Vertical Layout after Line</strong> on a line, or a word inside it, to move
+the following lines into a separate vertical collection. The intention is
+available when the line&rsquo;s direct parent is a <code>VerticalLines</code> collection and
+there is at least one following line.</p>
+<p>The two collections are wrapped in another vertical collection with the same
+alignment, preserving their line order and layout even inside a horizontal line
+or a nested aligned collection. Existing lines and their attached macros are
+moved, not copied. Lines directly inside a <code>SpaceIndentedText</code> collection are
+not supported; a <code>VerticalLines</code> collection nested inside one can be split
+without changing its surrounding indentation.</p>
+<p>For example, suppose a vertical collection contains three lines: <code>Header</code>,
+<code>Body</code>, and <code>Footer</code>. To separate the header from the remaining lines:</p>
+<ol>
+<li>Place the caret on <code>Header</code>, or on a word inside that line.</li>
+<li>Press <strong>Alt+Enter</strong> to open the intentions menu.</li>
+<li>Choose <strong>Split Vertical Layout after Line</strong>.</li>
+</ol>
+<p>The following schematic shows the collection structure before and after the
+intention (it is not text to paste into the editor):</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
+<span class="normal"><a href="#__codelineno-3-2">2</a></span>
+<span class="normal"><a href="#__codelineno-3-3">3</a></span>
+<span class="normal"><a href="#__codelineno-3-4">4</a></span>
+<span class="normal"><a href="#__codelineno-3-5">5</a></span>
+<span class="normal"><a href="#__codelineno-3-6">6</a></span>
+<span class="normal"><a href="#__codelineno-3-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a>Before:                  After:
+<a id="__codelineno-3-2" name="__codelineno-3-2"></a>Vertical                 Vertical
+<a id="__codelineno-3-3" name="__codelineno-3-3"></a>  Header                   Vertical
+<a id="__codelineno-3-4" name="__codelineno-3-4"></a>  Body                       Header
+<a id="__codelineno-3-5" name="__codelineno-3-5"></a>  Footer                   Vertical
+<a id="__codelineno-3-6" name="__codelineno-3-6"></a>                             Body
+<a id="__codelineno-3-7" name="__codelineno-3-7"></a>                             Footer
+</code></pre></div></td></tr></table></div>
+<p>The selected line stays in the first group; all following lines move to the
+second group. The displayed and generated text remains the same:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">1</a></span>
+<span class="normal"><a href="#__codelineno-4-2">2</a></span>
+<span class="normal"><a href="#__codelineno-4-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a>Header
+<a id="__codelineno-4-2" name="__codelineno-4-2"></a>Body
+<a id="__codelineno-4-3" name="__codelineno-4-3"></a>Footer
+</code></pre></div></td></tr></table></div>
+<p>The separate groups can now be edited independently, for example to apply a
+generator macro to the body/footer group without including the header. If the
+intention is missing, check that the selected line is not the last line and
+that its direct parent is a vertical collection, not an indented collection.</p>
+<h2 id="repeat-and-conditionally-include-sections">Repeat and conditionally include sections<a class="headerlink" href="#repeat-and-conditionally-include-sections" title="Permanent link">&para;</a></h2>
+<p>Suppose <code>Device</code> also has a <code>ports</code> child list, and each port has a <code>name</code>.
+To generate one line per port, keep one sample line:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a>port = ExamplePort
+</code></pre></div></td></tr></table></div>
+<p>Attach a standard MPS <strong>LOOP</strong> node macro to the whole line and have its source
+nodes query return <code>node.ports</code>. Inside that line, put a property macro on
+<code>ExamplePort</code> that returns the current port&rsquo;s <code>name</code>. The loop changes the
+current input context to each port; that inner query is no longer on <code>Device</code>.</p>
+<p>For ports named <code>inlet</code> and <code>outlet</code>, the repeated section is:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1">1</a></span>
+<span class="normal"><a href="#__codelineno-6-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a>port = inlet
+<a id="__codelineno-6-2" name="__codelineno-6-2"></a>port = outlet
+</code></pre></div></td></tr></table></div>
+<p>Include the line&rsquo;s newline marker in the repeated unit, not only the word.
+Otherwise iterations can run together. An empty source list produces no
+iterations. Nested loops work the same way: query the current element&rsquo;s children
+and parameterize their text inside the inner loop.</p>
+<p>For a repeated multiline block, select its lines and invoke <strong>Surround with
+Vertical Collection</strong>. Put the LOOP on that collection so the entire block
+repeats as one unit. Use <strong>Surround with Indent Collection</strong> when the repeated
+block also needs indentation.</p>
+<p>A standard <strong>IF</strong> node macro conditionally includes a line or collection.
+For example, put the <code>enabled = true</code> line inside an IF whose condition queries
+your input model. Include its newline in the conditional unit to avoid leaving
+an unwanted blank line. PlainTextGen uses the normal MPS generator macros and
+query context; it does not introduce a separate template-expression language.</p>
+<h2 id="arrange-lines-blocks-and-whitespace">Arrange lines, blocks, and whitespace<a class="headerlink" href="#arrange-lines-blocks-and-whitespace" title="Permanent link">&para;</a></h2>
+<p>Use a <code>VerticalLines</code> collection for a sequence of lines and
+<code>SpaceIndentedText</code> for a block whose lines share a prefix. For example, a
+two-space indent around the port lines gives:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1">1</a></span>
+<span class="normal"><a href="#__codelineno-7-2">2</a></span>
+<span class="normal"><a href="#__codelineno-7-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1"></a>device Pump
+<a id="__codelineno-7-2" name="__codelineno-7-2"></a>  port inlet
+<a id="__codelineno-7-3" name="__codelineno-7-3"></a>  port outlet
+</code></pre></div></td></tr></table></div>
+<p>Indentation composes: an inner two-space block inside that block starts four
+spaces in. Place the next unindented line <strong>outside</strong> the indented collection.
+Use an empty line for a blank line in the output, and literal spaces/tabs for
+spacing within a line.</p>
+<p>Collection intentions help restructure an existing template:</p>
+<table>
+<thead>
+<tr>
+<th>Intention</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Surround with Horizontal Collection</strong></td>
+<td>Group adjacent elements on a line</td>
+</tr>
+<tr>
+<td><strong>Surround with Vertical Collection</strong></td>
+<td>Group lines, for example for one macro</td>
+</tr>
+<tr>
+<td><strong>Surround with Indent Collection</strong></td>
+<td>Group and indent content</td>
+</tr>
+<tr>
+<td><strong>Change to Indent Collection</strong> / <strong>Change to Vertical Collection</strong></td>
+<td>Change the kind of an existing group</td>
+</tr>
+<tr>
+<td><strong>Unpack Collection</strong></td>
+<td>Remove a grouping level while retaining its elements</td>
+</tr>
+<tr>
+<td><strong>Empty the Template</strong> / <strong>Empty Lines</strong></td>
+<td>Clear content; use with care on parameterized templates</td>
+</tr>
+</tbody>
+</table>
+<p>Vertical groups offer left, center, and right <strong>Horizontal alignment</strong> in the
+Inspector. Alignment pads shorter lines to the group&rsquo;s width. For lines <code>a</code>
+and <code>bbb</code>, left alignment produces <code>a</code> / <code>bbb</code>, center produces <code>a</code> / <code>bbb</code>,
+and right produces <code>a</code> / <code>bbb</code>. Centering rounds down for an odd padding
+difference. For indentation-sensitive output, start with left alignment:
+right-aligned indented groups currently have an extra-padding issue tracked
+in <a href="https://github.com/JetBrains/MPS-extensions/issues/1941">#1941</a>.</p>
+<p>If nesting is difficult to select in the output-like view, enable the
+<strong>Structural</strong> editor hint (&ldquo;View under-the-hood structure&rdquo;) to see collection
+boundaries. Preview generated text to check the actual result.</p>
+<h2 id="update-an-existing-template-with-diffing-paste">Update an existing template with diffing paste<a class="headerlink" href="#update-an-existing-template-with-diffing-paste" title="Permanent link">&para;</a></h2>
+<p>Use <strong>Paste Text with Diff Preview</strong> from the intentions menu on a <code>TextgenText</code>
+template or a cell inside it. It compares the current literal template text
+with the clipboard text before applying changes. Unlike replacing the entire
+content, it can preserve unchanged words and their generator macros and other
+annotations. With the template itself selected, the same command is also
+available beside the existing paste commands in the editor context menu.</p>
+<p>For example, with a property macro on <code>Example</code>:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-8-1">1</a></span>
+<span class="normal"><a href="#__codelineno-8-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1"></a>name = Example
+<a id="__codelineno-8-2" name="__codelineno-8-2"></a>enabled = false
+</code></pre></div></td></tr></table></div>
+<ol>
+<li>In a text editor, change <code>false</code> to <code>true</code> and copy both lines.</li>
+<li>In MPS, invoke <strong>Paste Text with Diff Preview</strong>.</li>
+<li>Review the change and choose <strong>Apply paste</strong>. The unchanged <code>Example</code> word
+   keeps its property macro. Cancel leaves the template untouched.</li>
+</ol>
+<p>Replacing annotated text, including comments, requires separate confirmation.
+Some layouts require
+whole-content replacement; the preview warns you before doing so. Filename,
+encoding, and line-ending settings are kept.</p>
+<p>Use Undo once to restore the pre-paste structure, including replaced macros.
+To inspect the original model and macros later,
+invoke <strong>Review Latest Diffing-Paste Recovery</strong> on the same template. Recovery
+snapshots survive restarts but are local to your IDE, not shared through Git.
+Every applied change saves the original complete model and an annotation report,
+even when no macro is removed. The files are under
+<code>&lt;IDE configuration directory&gt;/plaintextgen-paste-recovery/</code>, grouped by template.
+They remain until you remove them manually; there is no automatic history limit.
+Snapshots can include other templates in the same model. The recovery intention
+is available only after a snapshot has been saved for the selected template.</p>
+<p>Developer details are <a href="../../../code/extensions/plaintextgen/design.md#diffing-paste">alongside the implementation</a>.</p>
+<h2 id="configure-output-files">Configure output files<a class="headerlink" href="#configure-output-files" title="Permanent link">&para;</a></h2>
+<p>Each <code>TextgenText</code> root describes an output file. Its filename and extension
+determine the output name; a filename property macro can derive it from the
+input. Multiple root mappings can produce different files or formats from the
+same input concept. Use distinct names and preview the input model to inspect
+all outputs.</p>
+<h3 id="encoding">Encoding<a class="headerlink" href="#encoding" title="Permanent link">&para;</a></h3>
+<p>Select the <code>TextgenText</code> root and open its Inspector. An unset encoding uses
+UTF-8. Set a charset name such as <code>ISO-8859-1</code> or <code>UTF-16LE</code> when the receiving
+tool requires it, and ensure that charset can represent the generated content.
+Text that looks identical in an editor can have different encoded bytes.</p>
+<h3 id="line-endings">Line endings<a class="headerlink" href="#line-endings" title="Permanent link">&para;</a></h3>
+<p>The Inspector&rsquo;s <code>LineEnding</code> is the template&rsquo;s fallback: <code>CR</code>, <code>LF</code>, <code>CRLF</code>, or
+<code>Native</code> (the MPS text generation buffer&rsquo;s newline). Its existing default is
+<code>CRLF</code>. For example, choose <code>LF</code> for a format or tool that requires LF.</p>
+<p>Two optional overrides let a language supply configuration:</p>
+<table>
+<thead>
+<tr>
+<th>Priority</th>
+<th>Inspector field</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Highest</td>
+<td>Model/query override (<code>modelLineEnding</code>)</td>
+<td>A value from the input model/root or another queried source</td>
+</tr>
+<tr>
+<td>Next</td>
+<td>Settings override (<code>settingsLineEnding</code>)</td>
+<td>A language&rsquo;s application/project preference</td>
+</tr>
+<tr>
+<td>Fallback</td>
+<td>LineEnding (<code>lineEnding</code>)</td>
+<td>The template&rsquo;s own setting</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides accept <code>Inherit</code>, <code>Native</code>, <code>CRLF</code>, <code>CR</code>, or <code>LF</code>. Both default to
+<code>Inherit</code>, which delegates to the next priority. <code>Native</code> is an explicit choice,
+not another spelling of <code>Inherit</code>. Existing templates need no migration and
+retain their output when you leave the overrides at <code>Inherit</code>.</p>
+<p>For example, a fallback of <code>LF</code> with a settings override of <code>CRLF</code> produces
+CRLF. Setting the model/query override to <code>LF</code> wins over that settings value.
+Return it to <code>Inherit</code> to use the settings value again.</p>
+<p>For query-fed values, put a standard property macro on either override cell.
+Return an <code>enummember&lt;LineEndingOverride&gt;</code>, such as
+<code>enum/LineEndingOverride/.LF</code>, or <code>enum/LineEndingOverride/.Inherit</code> when the
+source has no configured value. Your language chooses where to read the
+configuration; PlainTextGen does not install a global IDE preference or query
+the IDE project during text generation. Keep <code>lineEnding</code> as the language
+developer&rsquo;s fallback. Supply the same configuration during interactive and
+headless model-to-model generation; the resulting <code>TextgenText</code> carries those
+query results through subsequent generation steps.</p>
+<h2 id="plaintextflow-explicit-line-breaks-and-indentation">PlainTextFlow: explicit line breaks and indentation<a class="headerlink" href="#plaintextflow-explicit-line-breaks-and-indentation" title="Permanent link">&para;</a></h2>
+<p>Ordinary PlainTextGen is convenient when the document naturally consists of
+lines and indented blocks. Use <strong>PlainTextFlow</strong> when those automatic boundaries
+get in the way: continuing a string without adding indentation, controlling
+where an embedded script starts its next line, conditionally emitting a line
+break, or repeating a non-whitespace prefix such as <code>&gt;</code>.</p>
+<p>Add <code>com.dslfoundry.plaintextflow</code> to the generator template model&rsquo;s <strong>Used
+Languages</strong>. Insert a <code>Flow</code> from completion (its alias is <code>[</code>), as the sole
+element of an ordinary, unindented PlainTextGen <code>Line</code>. Keep alignment/layout
+outside the flow simple; do not rely on centered/right-aligned layout of a flow.
+Within the flow, use flow elements rather than ordinary Words and Lines:</p>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>What it emits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>FlowWord</code></td>
+<td>Its text exactly, without adding a separator or line break</td>
+</tr>
+<tr>
+<td><code>Flow</code></td>
+<td>Its own indent/prefix followed by its children</td>
+</tr>
+<tr>
+<td><code>SoftWrap</code></td>
+<td>A newline followed by the combined prefixes of its enclosing flows</td>
+</tr>
+<tr>
+<td><code>HardWrap</code></td>
+<td>A newline without repeating the enclosing flow prefixes</td>
+</tr>
+</tbody>
+</table>
+<p><strong>SoftWrap is an explicit newline</strong>, not automatic wrapping at a page width.
+Neither word boundaries nor the end of a nested Flow add a newline. Insert
+every required break yourself. The enclosing ordinary Line can still contribute
+its own final newline marker.</p>
+<h3 id="a-prefix-repeated-on-each-line">A prefix repeated on each line<a class="headerlink" href="#a-prefix-repeated-on-each-line" title="Permanent link">&para;</a></h3>
+<p>Edit the Flow&rsquo;s green indentation field to <code>&gt;</code>, then add a FlowWord <code>alpha</code>,
+a SoftWrap, and a FlowWord <code>beta</code>. The output is:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-9-1">1</a></span>
+<span class="normal"><a href="#__codelineno-9-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1"></a>&gt; alpha
+<a id="__codelineno-9-2" name="__codelineno-9-2"></a>&gt; beta
+</code></pre></div></td></tr></table></div>
+<p>The prefix need not be whitespace. With two spaces instead of <code>&gt;</code>, the same
+construction produces two indented lines. Adjacent FlowWords concatenate, so
+include spaces in their text where needed.</p>
+<p>Nested flows combine prefixes. An outer <code>&gt;</code> prefix and inner <code>+</code> prefix can
+produce:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-10-1">1</a></span>
+<span class="normal"><a href="#__codelineno-10-2">2</a></span>
+<span class="normal"><a href="#__codelineno-10-3">3</a></span>
+<span class="normal"><a href="#__codelineno-10-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1"></a>&gt; alpha
+<a id="__codelineno-10-2" name="__codelineno-10-2"></a>&gt; + beta
+<a id="__codelineno-10-3" name="__codelineno-10-3"></a>&gt; + gamma
+<a id="__codelineno-10-4" name="__codelineno-10-4"></a>&gt; delta
+</code></pre></div></td></tr></table></div>
+<p>Construct <code>alpha</code> in the outer flow, insert a SoftWrap, enter the inner flow
+for <code>beta</code>, SoftWrap, <code>gamma</code>, then leave it and insert the next SoftWrap in
+the <strong>outer</strong> flow before <code>delta</code>. The gray closing <code>]</code> marks where a flow ends:
+an element added before it is still inside that indentation context.</p>
+<h3 id="continue-a-line-without-repeating-indentation">Continue a line without repeating indentation<a class="headerlink" href="#continue-a-line-without-repeating-indentation" title="Permanent link">&para;</a></h3>
+<p>In the <code>&gt;</code> example, replacing SoftWrap with HardWrap produces:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-11-1">1</a></span>
+<span class="normal"><a href="#__codelineno-11-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1"></a>&gt; alpha
+<a id="__codelineno-11-2" name="__codelineno-11-2"></a>beta
+</code></pre></div></td></tr></table></div>
+<p>HardWrap suppresses the prefix for that break; it does not exit the flow or
+reset its indentation. A subsequent SoftWrap repeats the enclosing prefixes
+again. This is useful for a long string continuation where inserting leading
+spaces on the next physical line would change the string&rsquo;s value.</p>
+<p>FlowWords can have property macros, and flow elements, including wraps, can
+be controlled by ordinary generator node macros. For a conditional newline,
+put an IF on the wrap; for repetition, include the appropriate wrap inside
+the repeated unit. Existing ordinary Words/NewlineMarkers are not automatically
+converted to their flow counterparts: recreate that portion using flow elements.</p>
+<h3 id="put-punctuation-after-a-nested-multiline-value">Put punctuation after a nested multiline value<a class="headerlink" href="#put-punctuation-after-a-nested-multiline-value" title="Permanent link">&para;</a></h3>
+<p>Use Flow when a separator must follow the <strong>end</strong> of a nested value, as in
+<a href="https://github.com/JetBrains/MPS-extensions/issues/190">#190</a>. Ordinary
+PlainTextGen layout treats a multiline collection as a rectangular block:
+a following Word is placed beside its first row, not immediately after its
+last character. That layout is useful for side-by-side columns, but is not
+the desired composition for a comma after a nested JSON array.</p>
+<p>For example, Flow can produce:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-12-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-12-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-12-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-12-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-12-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-12-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-12-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-12-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-12-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-12-10">10</a></span>
+<span class="normal"><a href="#__codelineno-12-11">11</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1"></a><span class="p">[</span>
+<a id="__codelineno-12-2" name="__codelineno-12-2"></a><span class="w">  </span><span class="kc">null</span><span class="p">,</span>
+<a id="__codelineno-12-3" name="__codelineno-12-3"></a><span class="w">  </span><span class="mi">22</span><span class="p">,</span>
+<a id="__codelineno-12-4" name="__codelineno-12-4"></a><span class="w">  </span><span class="p">[</span>
+<a id="__codelineno-12-5" name="__codelineno-12-5"></a><span class="w">    </span><span class="s2">"INNER"</span><span class="p">,</span>
+<a id="__codelineno-12-6" name="__codelineno-12-6"></a><span class="w">    </span><span class="s2">"inner_2"</span>
+<a id="__codelineno-12-7" name="__codelineno-12-7"></a><span class="w">  </span><span class="p">],</span>
+<a id="__codelineno-12-8" name="__codelineno-12-8"></a><span class="w">  </span><span class="p">[</span>
+<a id="__codelineno-12-9" name="__codelineno-12-9"></a><span class="w">    </span><span class="mi">33</span>
+<a id="__codelineno-12-10" name="__codelineno-12-10"></a><span class="w">  </span><span class="p">]</span>
+<a id="__codelineno-12-11" name="__codelineno-12-11"></a><span class="p">]</span>
+</code></pre></div></td></tr></table></div>
+<p>Build the array in an empty-prefix Flow inside an ordinary, unindented Line.
+Emit <code>[</code> as a FlowWord, then a SoftWrap. Put the items in a nested Flow with
+a two-space prefix. Within that items flow, emit each value, a comma when
+another item follows, and a SoftWrap between items. After leaving the items
+flow, insert a SoftWrap in the array&rsquo;s flow, then emit <code>]</code>.</p>
+<p>Use the same construction recursively for an array-valued item. Its closing
+<code>]</code> must be the final FlowWord of that nested array, with <strong>no trailing wrap</strong>.
+Add the comma as the next FlowWord in the containing items flow: it will
+appear immediately after <code>]</code> on the same line, regardless of the nested
+array&rsquo;s height or the width of its contents. For an empty array, emit <code>[]</code>
+without the items flow or its surrounding wraps.</p>
+<p>In a generator template, a LOOP can repeat the item unit and an IF can
+suppress its comma for the last item. Use COPY_SRC to generate nested values
+as flow elements too; the relevant value reductions must produce compatible
+Flow/FlowWord elements rather than ordinary Lines or vertical collections.
+Wrapping an existing multiline PlainTextGen collection in a Flow does not
+convert it or change its layout. Convert the affected template fragment
+consistently, and keep the ordinary enclosing Line outside that fragment.</p>
+<h3 id="embedded-indentation-sensitive-text">Embedded indentation-sensitive text<a class="headerlink" href="#embedded-indentation-sensitive-text" title="Permanent link">&para;</a></h3>
+<p><a href="https://github.com/JetBrains/MPS-extensions/issues/307">#307</a> illustrates Python
+embedded in XML: the script&rsquo;s indentation should not simply follow the XML
+nesting. A flow lets you express the intended script prefixes and breaks
+explicitly instead of treating each script line as an automatically indented
+PlainTextGen line. For example, the desired text might be:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-13-1">1</a></span>
+<span class="normal"><a href="#__codelineno-13-2">2</a></span>
+<span class="normal"><a href="#__codelineno-13-3">3</a></span>
+<span class="normal"><a href="#__codelineno-13-4">4</a></span>
+<span class="normal"><a href="#__codelineno-13-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1"></a>&lt;code&gt;if ready:
+<a id="__codelineno-13-2" name="__codelineno-13-2"></a>  run()
+<a id="__codelineno-13-3" name="__codelineno-13-3"></a>else:
+<a id="__codelineno-13-4" name="__codelineno-13-4"></a>  wait()
+<a id="__codelineno-13-5" name="__codelineno-13-5"></a>&lt;/code&gt;
+</code></pre></div></td></tr></table></div>
+<p>Use an outer flow with an empty prefix, FlowWords for the fixed text, nested
+two-space flows for the statements, and explicit wraps between lines. If the
+script should start on a new line rather than immediately after <code>&lt;code&gt;</code>,
+insert a wrap before <code>if ready:</code>.</p>
+<p>This is control of the <strong>flow&rsquo;s text</strong>, not a general &ldquo;reset indentation&rdquo; switch
+for another language&rsquo;s textgen buffer. When composing with an XML language or
+another generator, its containment rules and generation steps still apply.
+Start with a flow inside an unindented PlainTextGen Line, as above, and preview
+the complete mixed result. The editor&rsquo;s visual wrapping is not a substitute for
+that preview.</p>
+<p>Flow wraps insert literal LF characters during generation. Do not assume that
+changing <code>TextgenText.LineEnding</code> also rewrites those embedded characters:
+ordinary line markers and flow-internal breaks are different. Check the final
+output when a receiving format requires uniform line endings.</p>
+<p>The repository example
+<code>com.dslfoundry.plaintextgen.example.plaintextflow</code>, model <code>ExampleText</code>, root
+<code>FlowExplained</code>, demonstrates prefixes, nesting, and string continuations.</p>
+<h2 id="compose-generators-and-diagnose-problems">Compose generators and diagnose problems<a class="headerlink" href="#compose-generators-and-diagnose-problems" title="Permanent link">&para;</a></h2>
+<p>PlainTextGen templates participate in the usual MPS model-to-model generation
+chain before final text generation. This lets you use mapping configurations,
+generator priorities, and intermediate transformations rather than writing a
+programmatic textgen for every source concept.</p>
+<p>If you use an explicit generation plan, include the generators required by
+your template languages. In particular, Flow elements must be reduced by
+PlainTextFlow before final text generation; they are not directly text-generated.
+An IDE preview succeeding does not by itself establish that a separate headless
+build has all the same languages and generation steps configured.</p>
+<p>When something goes wrong:</p>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Check</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No output file</td>
+<td>Make the input model; verify its root concept matches the root mapping and that the output template is selected</td>
+</tr>
+<tr>
+<td>Literal placeholder remains</td>
+<td>Verify the property macro is on the intended word/property, not just a neighboring cell</td>
+</tr>
+<tr>
+<td>&ldquo;Cannot evaluate property macro&rdquo; or a loop query fails</td>
+<td>Check the query&rsquo;s current input concept, null/absent values, and return type; a nested LOOP changes input context</td>
+</tr>
+<tr>
+<td>Repeated text runs together or leaves blank lines</td>
+<td>Include the intended newline in the LOOP/IF unit, or add explicit flow wraps</td>
+</tr>
+<tr>
+<td>Unexpected indentation</td>
+<td>Inspect collection boundaries and alignment; in a flow, check whether the break is SoftWrap or HardWrap and where the enclosing flow ends</td>
+</tr>
+<tr>
+<td>Flow cannot be text-generated</td>
+<td>Check that PlainTextFlow&rsquo;s reduction generator runs, especially in a custom generation plan</td>
+</tr>
+</tbody>
+</table>
+<p>For query exceptions or an unexpected intermediate result, find
+<strong>Save transient models on generation</strong> in MPS&rsquo;s Generator settings and enable
+it before making the input model; keep the models when prompted. Inspect the
+generation steps to find where a query failed or a value/layout diverged.
+Transient models can show the relevant input and intermediate templates even
+when the final text-generation stack trace is not helpful. Fix the query or
+mapping in the generator, make it, and regenerate the input model.</p>
+<h2 id="further-examples-and-tutorials">Further examples and tutorials<a class="headerlink" href="#further-examples-and-tutorials" title="Permanent link">&para;</a></h2>
+<p>The <a href="https://dslfoundry.com/plaintextgen-tutorial/">PlainTextGen tutorial</a> on the
+<a href="https://dslfoundry.com/">DSLFoundry blog</a> walks
+through importing a source file, parameterizing its filename and words, and
+looping over single- and multiline sections. The
+<a href="https://github.com/DSLFoundry/mps-teaching/blob/master/Plaintextgen.pdf">MPS Power Users Group presentation</a>,
+given at the <a href="https://mps-community.nl/power-users-group/">27 February 2019 group meeting</a>
+and hosted in the DSLFoundry MPS teaching repository, provides another
+introduction. These supplement the guide; you do not need to
+follow the external tutorial to generate your first file.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../bl-extensions/blutil/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Base Language Util (blutil)">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Base Language Util (blutil)
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../other/langvis/" class="md-footer__link md-footer__link--next" aria-label="Next: Language Visualizer">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Language Visualizer
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.instant", "navigation.tracking", "navigation.expand", "navigation.tabs", "navigation.tabs.sticky", "navigation.footer", "header.autohide", "content.code.annotate", "search.suggest", "search.highlight", "search.share", "announce.dismiss", "content.code.copy", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

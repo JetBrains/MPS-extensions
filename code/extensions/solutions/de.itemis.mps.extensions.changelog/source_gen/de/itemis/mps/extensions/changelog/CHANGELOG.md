@@ -6,6 +6,15 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## October 2026
 
+### Added
+
+*com.jetbrains.mpsext.richtext.styles* New language that styles individual words of a richtext Text with reusable styles. A Style defines bold, italic and light/dark foreground and background colors, a Stylesheet holds styles and a Span wraps words and references a Style. Intentions apply a style to the selected words and clear styles again. Existing richtext documents keep working without changes.
+- *com.jetbrains.mpsext.viewmodel* New (experimental): view models. A view model keeps data that belongs to nodes of persisted models, such as computed results, in memory instead of in the model. Editors that show it are updated when it changes, and an entry computed from other nodes is removed as soon as one of them changes. Declare a view model with `view model X` and use it with `viewmodel/X/`. `write` finds the project of the node and applies the value at once inside a command, otherwise later. In editor code the project of the editor is used, elsewhere one can be given with `viewmodel/X/(project)`. The Java API is in com.jetbrains.mpsext.viewmodel.runtime (`ViewModels.named(...)`). The *View Models* tool window shows the content of all view models, the nodes each value was computed from, and removes entries on request. Values can also be nodes: a rewrite updates the stored copy in place, so editors that show it only update what changed. See *Utilities* > *View Models* in the documentation.
+
+### Changed
+
+*de.slisson.mps.richtext* TextCellModifier has a new method modifyWordList() with the per-word editor wiring of modify(). WordCellSubstituteInfo and the new-line handler no longer assume that the parent of a word is a Text so other concepts that contain words can reuse the wiring. The behavior of Text is unchanged.
+
 ### Fixed
 
 - *de.itemis.mps.editor.celllayout.runtime* Words with overflow-x or overflow-y in an indent layout got a width or height of zero in the overflow direction. They now keep their preferred size.
@@ -18,6 +27,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.editor.celllayout.runtime* The own border of a collection was ignored when calculating whether it has a border.
 - *de.itemis.mps.editor.celllayout.runtime* When scaling grid columns, the rounding error could be added to a column with weight 0, changing its fixed width.
 - *de.itemis.mps.editor.celllayout.runtime* The right gap of a collection with a border was removed when its first child had a right border instead of its last child, so a double border was drawn on the right.
+- *de.itemis.mps.editor.celllayout.runtime* In a grid, the gap after a cell with a border only on its right side was put on the wrong cell, because the right border was looked up as the left border.
+- *de.itemis.mps.editor.celllayout.runtime* When scaling grid rows, the rounding error was always added to the last row, even when its weight was 0, and a weighted row with a height of 0 did not grow.
+- *de.itemis.mps.editor.celllayout.runtime* The selection bounds of cells with a top-down layout overlapped where the gap between two neighbouring cells was closed.
+- *de.itemis.mps.editor.celllayout.runtime* When the layout watchdog had used up its budget, a nested layout started over with a new budget instead of timing out.
 
 ## September 2026
 

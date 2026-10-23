@@ -11,8 +11,9 @@ import org.junit.jupiter.api.Test;
 import jetbrains.mps.lang.test.runtime.BaseEditorTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
 import jetbrains.mps.nodeEditor.EditorComponent;
-import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
+import jetbrains.mps.openapi.editor.cells.EditorCell;
 import de.itemis.mps.editor.celllayout.runtime.LayoutableAdapter;
+import de.itemis.mps.editor.celllayout.boxmodel.EditorCellBoxModel;
 import org.junit.Assert;
 
 @MPSLaunch
@@ -39,15 +40,21 @@ public class LayoutableAdapterVerticalGrowThenShrink_Test extends BaseTransforma
     public void testMethodImpl() throws Exception {
       initEditorComponent("4365782633938094485", "");
       EditorComponent editorComponent = getEditorComponent();
-      EditorCell_Collection outer = (EditorCell_Collection) editorComponent.getRootCell();
-      EditorCell_Collection row = (EditorCell_Collection) outer.firstCell();
-      LayoutableAdapter adapter = new LayoutableAdapter(row.firstCell());
+      EditorCell leaf = editorComponent.findCellWithId(editorComponent.getEditedNode(), "Constant_lb074b_a0a");
+      LayoutableAdapter adapter = new LayoutableAdapter(leaf);
+      EditorCellBoxModel boxModel = (EditorCellBoxModel) adapter.getBoxModel();
       int originalWidth = adapter.getWidth();
       int originalHeight = adapter.getHeight();
+      int originalContentY = boxModel.getContentBox().getY();
+      int originalTopPadding = boxModel.getAdditionalPadding().getTopSize();
+      int originalBottomPadding = boxModel.getAdditionalPadding().getBottomSize();
       adapter.setSize(originalWidth, originalHeight + 20);
       Assert.assertEquals("vertical growth control failed", originalHeight + 20, adapter.getHeight());
       adapter.setSize(originalWidth, originalHeight);
       Assert.assertEquals("vertical shrink did not restore height", originalHeight, adapter.getHeight());
+      Assert.assertEquals("vertical shrink left top padding", originalTopPadding, boxModel.getAdditionalPadding().getTopSize());
+      Assert.assertEquals("vertical shrink left bottom padding", originalBottomPadding, boxModel.getAdditionalPadding().getBottomSize());
+      Assert.assertEquals("vertical shrink moved the content", originalContentY, boxModel.getContentBox().getY());
     }
   }
 }

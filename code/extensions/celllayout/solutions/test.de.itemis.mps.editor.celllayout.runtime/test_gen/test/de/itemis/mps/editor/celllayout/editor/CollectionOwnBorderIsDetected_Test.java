@@ -15,6 +15,7 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import org.junit.Assert;
 import de.itemis.mps.editor.celllayout.runtime.LayoutableCollectionAdapter;
 import de.itemis.mps.editor.celllayout.runtime.LayoutableAdapters;
+import jetbrains.mps.ide.ThreadUtils;
 
 @MPSLaunch
 public class CollectionOwnBorderIsDetected_Test extends BaseTransformationTest {
@@ -42,8 +43,11 @@ public class CollectionOwnBorderIsDetected_Test extends BaseTransformationTest {
       EditorComponent editorComponent = getEditorComponent();
       editorComponent.getRootCell().getStyle().set(StyleAttributes.DRAW_BORDER, true);
       Assert.assertTrue("border style control failed", editorComponent.getRootCell().getStyle().get(StyleAttributes.DRAW_BORDER));
-      LayoutableCollectionAdapter adapter = (LayoutableCollectionAdapter) LayoutableAdapters.getAdapter(editorComponent.getRootCell());
+      final LayoutableCollectionAdapter adapter = (LayoutableCollectionAdapter) LayoutableAdapters.getAdapter(editorComponent.getRootCell());
       Assert.assertTrue("collection own border ignored", adapter.calcHasBorder(true));
+      ThreadUtils.runInUIThreadAndWait(() -> adapter.readSyncAll());
+      Assert.assertTrue("synchronized collection lost its own left border", adapter.hasBorder(true));
+      Assert.assertTrue("synchronized collection lost its own right border", adapter.hasBorder(false));
     }
   }
 }

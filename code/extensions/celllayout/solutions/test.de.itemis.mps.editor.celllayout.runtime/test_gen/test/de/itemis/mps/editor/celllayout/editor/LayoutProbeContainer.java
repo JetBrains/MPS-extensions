@@ -7,6 +7,7 @@ import java.util.List;
 import de.itemis.mps.editor.celllayout.layout.ILayoutable;
 import java.util.ArrayList;
 import de.itemis.mps.editor.celllayout.layout.ILayouter;
+import org.jetbrains.annotations.NotNull;
 import de.itemis.mps.editor.celllayout.boxmodel.Size;
 
 /*package*/ class LayoutProbeContainer extends LayoutProbeLeaf implements ILayoutableContainer {
@@ -47,9 +48,11 @@ import de.itemis.mps.editor.celllayout.boxmodel.Size;
   public ILayoutable getBaselineChild() {
     return (children.isEmpty() ? null : children.get(0));
   }
+  @NotNull
   public Size getPreferredSize(Size limit) {
     return layouter.getPreferredInnerSize(this, limit);
   }
+  @NotNull
   public Size getMinSize(Size limit) {
     return layouter.getMinInnerSize(this, limit);
   }

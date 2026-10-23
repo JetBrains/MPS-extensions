@@ -6,6 +6,8 @@ import de.itemis.mps.editor.celllayout.boxmodel.LayoutBox;
 import de.itemis.mps.editor.celllayout.boxmodel.LayoutBoxFrame;
 
 public class CloneContractFixture {
+  private static final String[] GEOMETRY_VALUES = new String[]{"x", "y", "width", "height", "ascent", "descent"};
+  private static final String[] FRAME_SIDES = new String[]{"left", "right", "top", "bottom"};
   public static void configure(LayoutBox content, LayoutBoxFrame[] frames) {
     content.setX(101);
     content.setY(203);
@@ -39,6 +41,12 @@ public class CloneContractFixture {
       result[i][3] = frames[i].getBottomSize();
     }
     return result;
+  }
+  public static String geometryValue(String layer, int index) {
+    return layer + "." + GEOMETRY_VALUES[index];
+  }
+  public static String frameSide(String layer, int index) {
+    return layer + "." + FRAME_SIDES[index] + " size";
   }
   public static void mutate(LayoutBox[] boxes, LayoutBoxFrame[] frames) {
     for (int i = 0; i < boxes.length; i++) {

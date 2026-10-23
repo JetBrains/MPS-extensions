@@ -18,8 +18,7 @@ import de.itemis.mps.editor.celllayout.runtime.TopDownCellLayoutAdapter;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import java.util.List;
 import org.junit.Assert;
-import de.itemis.mps.editor.celllayout.runtime.LayoutableCollectionAdapter;
-import de.itemis.mps.editor.celllayout.runtime.LayoutableAdapters;
+import jetbrains.mps.ide.ThreadUtils;
 
 @MPSLaunch
 public class SelectionCellsForgetRemovedChild_Test extends BaseTransformationTest {
@@ -44,18 +43,20 @@ public class SelectionCellsForgetRemovedChild_Test extends BaseTransformationTes
     @Override
     public void testMethodImpl() throws Exception {
       initEditorComponent("4365782633938514290", "");
-      EditorComponent editorComponent = getEditorComponent();
-      EditorCell_Collection cell = (EditorCell_Collection) editorComponent.getRootCell();
+      final EditorComponent editorComponent = getEditorComponent();
+      final EditorCell_Collection cell = (EditorCell_Collection) editorComponent.getRootCell();
       CellLayoutUtil.setLayout(cell, new IndentLayout(0));
       TopDownCellLayoutAdapter layout = (TopDownCellLayoutAdapter) cell.getCellLayout();
       EditorCell removed = cell.lastCell();
       List<? extends EditorCell> before = layout.getSelectionCells(cell);
       Assert.assertTrue("selection fixture omitted last child", SelectionCellsFixture.includesUnder(before, removed));
       cell.removeCell(removed);
-      Assert.assertEquals("child removal control failed", 1, cell.getCellsCount());
-      Assert.assertFalse("child removal control failed", cell.lastCell() == removed);
-      LayoutableCollectionAdapter adapter = (LayoutableCollectionAdapter) LayoutableAdapters.getAdapter(cell);
-      adapter.readSyncAll();
+      Assert.assertEquals("child count after removal is not 1", 1, cell.getCellsCount());
+      Assert.assertFalse("removed child is still the last cell", cell.lastCell() == removed);
+      ThreadUtils.runInUIThreadAndWait(() -> {
+        cell.requestRelayout();
+        editorComponent.relayout();
+      });
       List<? extends EditorCell> after = layout.getSelectionCells(cell);
       Assert.assertFalse("selection contains removed child", SelectionCellsFixture.includesUnder(after, removed));
     }

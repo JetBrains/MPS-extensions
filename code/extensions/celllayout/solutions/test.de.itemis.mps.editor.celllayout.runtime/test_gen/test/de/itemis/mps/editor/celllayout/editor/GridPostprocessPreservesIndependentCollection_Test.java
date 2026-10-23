@@ -14,10 +14,11 @@ import jetbrains.mps.nodeEditor.EditorComponent;
 import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
 import de.itemis.mps.editor.celllayout.runtime.LayoutableCollectionAdapter;
 import de.itemis.mps.editor.celllayout.runtime.LayoutableAdapters;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import org.junit.Assert;
 import de.itemis.mps.editor.celllayout.boxmodel.EditorCellBoxModel;
 import de.itemis.mps.editor.celllayout.layout.GridLayout;
+import de.itemis.mps.editor.celllayout.layout.ILayoutable;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 @MPSLaunch
 public class GridPostprocessPreservesIndependentCollection_Test extends BaseTransformationTest {
@@ -43,11 +44,14 @@ public class GridPostprocessPreservesIndependentCollection_Test extends BaseTran
     public void testMethodImpl() throws Exception {
       initEditorComponent("550306466060409023", "");
       EditorComponent editorComponent = getEditorComponent();
-      EditorCell_Collection cell = (EditorCell_Collection) ((EditorCell_Collection) editorComponent.getRootCell()).firstCell();
+      EditorCell_Collection cell = (EditorCell_Collection) editorComponent.findCellWithId(editorComponent.getEditedNode(), "Collection_f9gyoa_a0");
       LayoutableCollectionAdapter gridRoot = (LayoutableCollectionAdapter) LayoutableAdapters.getAdapter(cell);
-      LayoutableCollectionAdapter independent = (LayoutableCollectionAdapter) ListSequence.fromList(gridRoot.getChildren()).getElement(1);
+      LayoutableCollectionAdapter independent = (LayoutableCollectionAdapter) LayoutableAdapters.getAdapter(editorComponent.findCellWithId(editorComponent.getEditedNode(), "Collection_f9gyoa_b0a"));
       independent.readSyncAll();
       Assert.assertFalse("collection fixture is flattened", independent.isFlattenInGrid());
+      LayoutableCollectionAdapter flattened = (LayoutableCollectionAdapter) LayoutableAdapters.getAdapter(editorComponent.findCellWithId(editorComponent.getEditedNode(), "Collection_f9gyoa_c0a"));
+      flattened.readSyncAll();
+      Assert.assertTrue("flattened collection fixture is not flattened", flattened.isFlattenInGrid());
       int allocatedWidth = independent.getWidth() + 60;
       int allocatedHeight = independent.getHeight() + 20;
       independent.setSize(allocatedWidth, allocatedHeight);
@@ -55,14 +59,29 @@ public class GridPostprocessPreservesIndependentCollection_Test extends BaseTran
       int preparedWidth = independent.getWidth();
       int preparedHeight = independent.getHeight();
       int preparedPadding = ((EditorCellBoxModel) independent.getBoxModel()).getPaddingBox().getLeftSize();
-      Assert.assertFalse("independent collection setup failed", preparedWidth < allocatedWidth);
-      Assert.assertFalse("independent collection setup failed", preparedHeight < allocatedHeight);
-      Assert.assertEquals("independent collection setup failed", 7, preparedPadding);
+      Assert.assertFalse("independent collection did not grow to the allocated width", preparedWidth < allocatedWidth);
+      Assert.assertFalse("independent collection did not grow to the allocated height", preparedHeight < allocatedHeight);
+      Assert.assertEquals("left padding of the independent collection was not set to 7", 7, preparedPadding);
+      flattened.setSize(flattened.getWidth() + 60, flattened.getHeight() + 20);
       GridLayout layout = new GridLayout();
       layout.layoutIntermediateCollections(gridRoot);
-      Assert.assertEquals("independent collection changed by grid postprocess", preparedWidth, independent.getWidth());
-      Assert.assertEquals("independent collection changed by grid postprocess", preparedHeight, independent.getHeight());
-      Assert.assertEquals("independent collection changed by grid postprocess", preparedPadding, ((EditorCellBoxModel) independent.getBoxModel()).getPaddingBox().getLeftSize());
+      Assert.assertEquals("grid postprocess changed the width of the independent collection", preparedWidth, independent.getWidth());
+      Assert.assertEquals("grid postprocess changed the height of the independent collection", preparedHeight, independent.getHeight());
+      Assert.assertEquals("grid postprocess changed the left padding of the independent collection", preparedPadding, ((EditorCellBoxModel) independent.getBoxModel()).getPaddingBox().getLeftSize());
+      int minX = Integer.MAX_VALUE;
+      int maxX = Integer.MIN_VALUE;
+      int minY = Integer.MAX_VALUE;
+      int maxY = Integer.MIN_VALUE;
+      for (ILayoutable child : ListSequence.fromList(flattened.getChildren())) {
+        minX = Math.min(minX, child.getX());
+        maxX = Math.max(maxX, child.getX() + child.getWidth());
+        minY = Math.min(minY, child.getY());
+        maxY = Math.max(maxY, child.getY() + child.getHeight());
+      }
+      Assert.assertEquals("inner x of the flattened collection is not the left edge of its children", minX, flattened.getInnerX());
+      Assert.assertEquals("inner width of the flattened collection does not span its children", maxX - minX, flattened.getInnerWidth());
+      Assert.assertEquals("inner y of the flattened collection is not the top edge of its children", minY, flattened.getInnerY());
+      Assert.assertEquals("inner height of the flattened collection does not span its children", maxY - minY, flattened.getInnerHeight());
     }
   }
 }

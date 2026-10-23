@@ -33,17 +33,17 @@ The tests in the solution `com.jetbrains.mpsext.testing.tests` are examples.
 ## fileNodeEditor
 
 `fileNodeEditor` returns the `MPSFileNodeEditor` that the editor test opened. Use it for checks that need the IntelliJ
-file editor and that the test language statements cannot express, for example the undo history of the editor:
+file editor and that the test language statements cannot express, for example the undo history of the editor.
+
+Use `fileNodeEditor` only on the event dispatch thread (EDT). The test code runs on another thread, so put the code
+that uses `fileNodeEditor` inside `invokeAndWait`:
 
 ```java
-MPSFileNodeEditor fileEditor = fileNodeEditor;
 UndoManager undoManager = UndoManager.getInstance(ProjectHelper.toIdeaProject(project));
 ApplicationManager.getApplication().invokeAndWait({ =>
-  assert true undoManager.isUndoAvailable(fileEditor) : "Typing should leave an undo step in the file editor";
+  assert true undoManager.isUndoAvailable(fileNodeEditor) : "Typing should leave an undo step in the file editor";
 });
 ```
-
-Most IntelliJ file editor APIs must be called on the event dispatch thread, so call them inside `invokeAndWait`.
 
 ## Asserts
 

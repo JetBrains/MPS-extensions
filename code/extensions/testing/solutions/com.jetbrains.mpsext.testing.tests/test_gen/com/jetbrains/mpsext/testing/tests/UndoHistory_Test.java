@@ -10,12 +10,12 @@ import jetbrains.mps.lang.test.runtime.TestParametersCacheBuilder;
 import org.junit.jupiter.api.Test;
 import jetbrains.mps.lang.test.runtime.BaseEditorTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
-import jetbrains.mps.ide.editor.MPSFileNodeEditor;
-import de.slisson.mps.reflection.runtime.ReflectionUtil;
 import com.intellij.openapi.command.undo.UndoManager;
 import jetbrains.mps.ide.project.ProjectHelper;
 import com.intellij.openapi.application.ApplicationManager;
 import org.junit.Assert;
+import jetbrains.mps.ide.editor.MPSFileNodeEditor;
+import de.slisson.mps.reflection.runtime.ReflectionUtil;
 
 @MPSLaunch
 public class UndoHistory_Test extends BaseTransformationTest {
@@ -41,16 +41,21 @@ public class UndoHistory_Test extends BaseTransformationTest {
     public void testMethodImpl() throws Exception {
       initEditorComponent("6694439799023952727", "6694439799023952731");
       typeString("Hi");
-      final MPSFileNodeEditor fileEditor = ((MPSFileNodeEditor) ReflectionUtil.readField(BaseEditorTestBody.class, as_q2od3k_a1a0a0c0d6(this, BaseEditorTestBody.class), "myFileNodeEditor"));
       final UndoManager undoManager = UndoManager.getInstance(ProjectHelper.toIdeaProject(myProject));
-      ApplicationManager.getApplication().invokeAndWait(() -> Assert.assertTrue("Typing should leave an undo step in the file editor", undoManager.isUndoAvailable(fileEditor)));
+      ApplicationManager.getApplication().invokeAndWait(() -> Assert.assertTrue("Typing should leave an undo step in the file editor", undoManager.isUndoAvailable(((MPSFileNodeEditor) ReflectionUtil.readField(BaseEditorTestBody.class, as_q2od3k_a1a0a0b0a0a0a3a3g(TestBody.this, BaseEditorTestBody.class), "myFileNodeEditor")))));
       invokeAction("$Undo");
       ApplicationManager.getApplication().invokeAndWait(() -> {
-        Assert.assertFalse("One undo step should revert all of the typing", undoManager.isUndoAvailable(fileEditor));
-        Assert.assertTrue("The undone typing should be available for redo", undoManager.isRedoAvailable(fileEditor));
+        Assert.assertFalse("One undo step should revert all of the typing", undoManager.isUndoAvailable(((MPSFileNodeEditor) ReflectionUtil.readField(BaseEditorTestBody.class, as_q2od3k_a1a0a0b0a0a0a5a3g(TestBody.this, BaseEditorTestBody.class), "myFileNodeEditor"))));
+        Assert.assertTrue("The undone typing should be available for redo", undoManager.isRedoAvailable(((MPSFileNodeEditor) ReflectionUtil.readField(BaseEditorTestBody.class, as_q2od3k_a1a0a0b0b0a0a5a3g(TestBody.this, BaseEditorTestBody.class), "myFileNodeEditor"))));
       });
     }
-    private static <T> T as_q2od3k_a1a0a0c0d6(Object o, Class<T> type) {
+    private static <T> T as_q2od3k_a1a0a0b0a0a0a3a3g(Object o, Class<T> type) {
+      return (type.isInstance(o) ? (T) o : null);
+    }
+    private static <T> T as_q2od3k_a1a0a0b0a0a0a5a3g(Object o, Class<T> type) {
+      return (type.isInstance(o) ? (T) o : null);
+    }
+    private static <T> T as_q2od3k_a1a0a0b0b0a0a5a3g(Object o, Class<T> type) {
       return (type.isInstance(o) ? (T) o : null);
     }
   }

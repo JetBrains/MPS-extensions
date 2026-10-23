@@ -12,7 +12,6 @@
     <import index="54q7" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.command.undo(MPS.IDEA/)" />
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
-    <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -219,15 +218,6 @@
       <node concept="2TK7Tu" id="5NBrotf3Qdu" role="3cqZAp">
         <property role="2TTd_B" value="Hi" />
       </node>
-      <node concept="3cpWs8" id="5NBrotf4Uiv" role="3cqZAp">
-        <node concept="3cpWsn" id="5NBrotf4Uiu" role="3cpWs9">
-          <property role="TrG5h" value="fileEditor" />
-          <node concept="3uibUv" id="5NBrotf4Uiw" role="1tU5fm">
-            <ref role="3uigEE" to="k3nr:~MPSFileNodeEditor" resolve="MPSFileNodeEditor" />
-          </node>
-          <node concept="3tlvWP" id="5NBrotf4Ujy" role="33vP2m" />
-        </node>
-      </node>
       <node concept="3cpWs8" id="5NBrotf3Qdz" role="3cqZAp">
         <node concept="3cpWsn" id="5NBrotf3Qdy" role="3cpWs9">
           <property role="TrG5h" value="undoManager" />
@@ -262,9 +252,7 @@
                     </node>
                     <node concept="liA8E" id="5NBrotf3Qed" role="2OqNvi">
                       <ref role="37wK5l" to="54q7:~UndoManager.isUndoAvailable(com.intellij.openapi.fileEditor.FileEditor)" resolve="isUndoAvailable" />
-                      <node concept="37vLTw" id="5NBrotf4UjB" role="37wK5m">
-                        <ref role="3cqZAo" node="5NBrotf4Uiu" resolve="fileEditor" />
-                      </node>
+                      <node concept="3tlvWP" id="4CI3yKbc$Ku" role="37wK5m" />
                     </node>
                   </node>
                   <node concept="3_1$Yv" id="5NBrotf3QeM" role="3_9lra">
@@ -300,9 +288,7 @@
                     </node>
                     <node concept="liA8E" id="5NBrotf3Qep" role="2OqNvi">
                       <ref role="37wK5l" to="54q7:~UndoManager.isUndoAvailable(com.intellij.openapi.fileEditor.FileEditor)" resolve="isUndoAvailable" />
-                      <node concept="37vLTw" id="5NBrotf4UjC" role="37wK5m">
-                        <ref role="3cqZAo" node="5NBrotf4Uiu" resolve="fileEditor" />
-                      </node>
+                      <node concept="3tlvWP" id="4CI3yKbc$Kv" role="37wK5m" />
                     </node>
                   </node>
                   <node concept="3_1$Yv" id="5NBrotf3QeP" role="3_9lra">
@@ -318,9 +304,7 @@
                     </node>
                     <node concept="liA8E" id="5NBrotf3Qe_" role="2OqNvi">
                       <ref role="37wK5l" to="54q7:~UndoManager.isRedoAvailable(com.intellij.openapi.fileEditor.FileEditor)" resolve="isRedoAvailable" />
-                      <node concept="37vLTw" id="5NBrotf4UjD" role="37wK5m">
-                        <ref role="3cqZAo" node="5NBrotf4Uiu" resolve="fileEditor" />
-                      </node>
+                      <node concept="3tlvWP" id="4CI3yKbc$Kw" role="37wK5m" />
                     </node>
                   </node>
                   <node concept="3_1$Yv" id="5NBrotf3QeS" role="3_9lra">

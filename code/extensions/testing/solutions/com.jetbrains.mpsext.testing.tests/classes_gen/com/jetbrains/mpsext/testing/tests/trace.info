@@ -70,41 +70,53 @@
       <node id="6694439799023952725" at="36,52,37,19" concept="7" />
       <node id="6694439799023952725" at="41,51,42,72" concept="1" />
       <node id="6694439799023952734" at="42,72,43,23" concept="1" />
-      <node id="6694439799024231583" at="43,23,44,190" concept="3" />
-      <node id="6694439799023952739" at="44,190,45,102" concept="3" />
-      <node id="6694439799024231586" at="45,102,46,177" concept="1" />
-      <node id="6694439799023952735" at="46,177,47,28" concept="1" />
-      <node id="6694439799023952820" at="48,63,49,117" concept="1" />
-      <node id="6694439799023952823" at="49,117,50,117" concept="1" />
-      <node id="6694439799023952725" at="53,72,54,49" concept="4" />
+      <node id="6694439799023952739" at="43,23,44,102" concept="3" />
+      <node id="6694439799024231586" at="44,102,45,329" concept="1" />
+      <node id="6694439799023952735" at="45,329,46,28" concept="1" />
+      <node id="6694439799023952820" at="47,63,48,269" concept="1" />
+      <node id="6694439799023952823" at="48,269,49,269" concept="1" />
+      <node id="6694439799023952725" at="52,79,53,49" concept="4" />
+      <node id="6694439799023952725" at="55,79,56,49" concept="4" />
+      <node id="6694439799023952725" at="58,79,59,49" concept="4" />
       <node id="6694439799023952725" at="22,0,24,0" concept="5" trace="ourParametersCacheExtension" />
       <node id="6694439799023952725" at="25,0,28,0" concept="0" trace="UndoHistory_Test#()V" />
       <node id="6694439799023952725" at="36,0,39,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
-      <node id="6694439799023952725" at="53,0,56,0" concept="6" trace="as_q2od3k_a1a0a0c0d6#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="6694439799023952725" at="52,0,55,0" concept="6" trace="as_q2od3k_a1a0a0b0a0a0a3a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="6694439799023952725" at="55,0,58,0" concept="6" trace="as_q2od3k_a1a0a0b0a0a0a5a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="6694439799023952725" at="58,0,61,0" concept="6" trace="as_q2od3k_a1a0a0b0b0a0a5a3g#(Ljava/lang/Object;Ljava/lang/Class;)null" />
       <node id="6694439799023952725" at="29,0,33,0" concept="2" trace="test_UndoHistory#()V" />
-      <node id="6694439799024231590" at="47,28,51,9" concept="1" />
-      <node id="6694439799023952725" at="40,0,53,0" concept="2" trace="testMethodImpl#()V" />
+      <node id="6694439799024231590" at="46,28,50,9" concept="1" />
+      <node id="6694439799023952725" at="40,0,52,0" concept="2" trace="testMethodImpl#()V" />
       <scope id="6694439799023952725" at="25,29,26,60" />
       <scope id="6694439799023952725" at="30,51,31,36" />
       <scope id="6694439799023952725" at="36,52,37,19" />
-      <scope id="6694439799023952725" at="53,72,54,49" />
-      <scope id="6694439799024231654" at="48,63,50,117" />
+      <scope id="6694439799023952725" at="52,79,53,49" />
+      <scope id="6694439799023952725" at="55,79,56,49" />
+      <scope id="6694439799023952725" at="58,79,59,49" />
+      <scope id="6694439799024231654" at="47,63,49,269" />
       <scope id="6694439799023952725" at="25,0,28,0" />
       <scope id="6694439799023952725" at="36,0,39,0">
         <var name="owner" id="6694439799023952725" />
       </scope>
-      <scope id="6694439799023952725" at="53,0,56,0">
+      <scope id="6694439799023952725" at="52,0,55,0">
+        <var name="o" id="6694439799023952725" />
+        <var name="type" id="6694439799023952725" />
+      </scope>
+      <scope id="6694439799023952725" at="55,0,58,0">
+        <var name="o" id="6694439799023952725" />
+        <var name="type" id="6694439799023952725" />
+      </scope>
+      <scope id="6694439799023952725" at="58,0,61,0">
         <var name="o" id="6694439799023952725" />
         <var name="type" id="6694439799023952725" />
       </scope>
       <scope id="6694439799023952725" at="29,0,33,0" />
-      <scope id="6694439799023952725" at="41,51,51,9">
-        <var name="fileEditor" id="6694439799024231582" />
+      <scope id="6694439799023952725" at="41,51,50,9">
         <var name="undoManager" id="6694439799023952738" />
       </scope>
-      <scope id="6694439799023952725" at="40,0,53,0" />
-      <unit id="6694439799023952725" at="34,0,57,0" name="com.jetbrains.mpsext.testing.tests.UndoHistory_Test$TestBody" />
-      <unit id="6694439799023952725" at="20,0,58,0" name="com.jetbrains.mpsext.testing.tests.UndoHistory_Test" />
+      <scope id="6694439799023952725" at="40,0,52,0" />
+      <unit id="6694439799023952725" at="34,0,62,0" name="com.jetbrains.mpsext.testing.tests.UndoHistory_Test$TestBody" />
+      <unit id="6694439799023952725" at="20,0,63,0" name="com.jetbrains.mpsext.testing.tests.UndoHistory_Test" />
     </file>
   </root>
 </debug-info>

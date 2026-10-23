@@ -19,6 +19,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.FileNodeEditorExpression:
         if (props_FileNodeEditorExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("the IntelliJ file editor of the editor test; use only on the EDT");
           cpb.rawPresentation("fileNodeEditor");
           props_FileNodeEditorExpression = cpb.create();
         }

@@ -10,6 +10,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 *com.jetbrains.mpsext.richtext.styles* New language that styles individual words of a richtext Text with reusable styles. A Style defines bold, italic and light/dark foreground and background colors, a Stylesheet holds styles and a Span wraps words and references a Style. Intentions apply a style to the selected words and clear styles again. Existing richtext documents keep working without changes.
 - *com.jetbrains.mpsext.viewmodel* New (experimental): view models. A view model keeps data that belongs to nodes of persisted models, such as computed results, in memory instead of in the model. Editors that show it are updated when it changes, and an entry computed from other nodes is removed as soon as one of them changes. Declare a view model with `view model X` and use it with `viewmodel/X/`. `write` finds the project of the node and applies the value at once inside a command, otherwise later. In editor code the project of the editor is used, elsewhere one can be given with `viewmodel/X/(project)`. The Java API is in com.jetbrains.mpsext.viewmodel.runtime (`ViewModels.named(...)`). The *View Models* tool window shows the content of all view models, the nodes each value was computed from, and removes entries on request. Values can also be nodes: a rewrite updates the stored copy in place, so editors that show it only update what changed. See *Utilities* > *View Models* in the documentation.
+- *com.dslfoundry.plaintextgen* New intention "Split Vertical Layout after Line" moves the lines that follow the selected line of a vertical layout into a new vertical layout placed right after it.
 
 ### Changed
 
@@ -17,6 +18,9 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
+- *com.dslfoundry.langvis.plugin* Include inherited concept and interface structures when visualizing a language (#372), and offer language visualization only for structure models (#511).
+- *com.dslfoundry.langvis.plugin* Initialize the visualization tool and toolbar safely in MPS 2026.2 (#1869, #1872). Use the bundled MIT-licensed PlantUML and SVG preview without an external Java executable or a home-directory PlantUML jar (#1873, #364, #363).
+- *com.dslfoundry.langvis.plugin* Re-render the SVG at the selected zoom for a sharp preview. Refresh regenerates the diagram at the current zoom, and zoom limits preserve the aspect ratio.
 - *com.dslfoundry.plaintextgen* Paste Unstructured Text (Preserves Tab Literals) turned a line that contained only tabs into an empty line, and created an empty word next to adjacent, leading and trailing tabs. Lines with only tabs now keep their tabs, and no empty words are created.
 
 ## September 2026

@@ -13,10 +13,18 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *com.dslfoundry.plaintextgen* TextgenText has two optional line ending overrides, modelLineEnding and settingsLineEnding, that a generator can fill with property macros. The model/query override wins over the settings override, which wins over the existing lineEnding setting. Both default to Inherit, so existing templates generate the same output as before.
 - *de.itemis.mps.comparator* The new class TextOutputAssertions checks the filename, charset and exact bytes of text generation output, without normalizing line endings.
 - *com.dslfoundry.plaintextgen* The new intention Paste Text with Diff Preview updates a TextgenText from text in the clipboard. It shows the change in a diff first and keeps unchanged lines and words together with their generator macros. Before each change it saves the original model locally, outside the project, and the intention Review Latest Diffing-Paste Recovery compares that copy with the current template.
+- *com.dslfoundry.plaintextgen* New intention "Split Vertical Layout after Line" moves the lines that follow the selected line of a vertical layout into a new vertical layout placed right after it.
 
 ### Changed
 
 *de.slisson.mps.richtext* TextCellModifier has a new method modifyWordList() with the per-word editor wiring of modify(). WordCellSubstituteInfo and the new-line handler no longer assume that the parent of a word is a Text so other concepts that contain words can reuse the wiring. The behavior of Text is unchanged.
+
+### Fixed
+
+- *com.dslfoundry.langvis.plugin* Include inherited concept and interface structures when visualizing a language (#372), and offer language visualization only for structure models (#511).
+- *com.dslfoundry.langvis.plugin* Initialize the visualization tool and toolbar safely in MPS 2026.2 (#1869, #1872). Use the bundled MIT-licensed PlantUML and SVG preview without an external Java executable or a home-directory PlantUML jar (#1873, #364, #363).
+- *com.dslfoundry.langvis.plugin* Re-render the SVG at the selected zoom for a sharp preview. Refresh regenerates the diagram at the current zoom, and zoom limits preserve the aspect ratio.
+- *com.dslfoundry.plaintextgen* Paste Unstructured Text (Preserves Tab Literals) turned a line that contained only tabs into an empty line, and created an empty word next to adjacent, leading and trailing tabs. Lines with only tabs now keep their tabs, and no empty words are created.
 
 ## September 2026
 

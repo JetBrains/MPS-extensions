@@ -13,7 +13,10 @@ public class LanguageVisualiserListener {
     tool = visualiserTool;
   }
   public void rebuild() {
-    tool.openTool(true);
+    if (tool == null) {
+      throw new IllegalStateException("Langvis tool is not initialized");
+    }
+    tool.openToolLater(true);
     tool.redrawBasedOnCurrentContextAndSettings();
   }
   public void setElements(Set<SNode> elements) {

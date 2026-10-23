@@ -51,9 +51,10 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
       case 2:
         if (true) {
           // concept
-          intentions = new IntentionFactory[2];
+          intentions = new IntentionFactory[3];
           intentions[0] = new AddNewLineBefore_Intention();
           intentions[1] = new AddNewLineAfter_Intention();
+          intentions[2] = new SplitVerticalLayoutAfter_Intention();
         }
         break;
       case 3:
@@ -95,7 +96,7 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
   @NotNull
   @Override
   public Collection<IntentionFactory> getAllIntentions() {
-    IntentionFactory[] rv = new IntentionFactory[13];
+    IntentionFactory[] rv = new IntentionFactory[14];
     rv[0] = new SplitWordAtSelection_Intention();
     rv[1] = new SurroundWithHorizontal_Intention();
     rv[2] = new SurroundWithVertical_Intention();
@@ -109,6 +110,7 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
     rv[10] = new UnpackIndent_Intention();
     rv[11] = new DiffingPaste_Intention();
     rv[12] = new ReviewDiffingPasteRecovery_Intention();
+    rv[13] = new SplitVerticalLayoutAfter_Intention();
     return Arrays.asList(rv);
   }
   private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x7425635c3ac3945aL), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e9L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L), MetaIdFactory.conceptId(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47f4L)).seal();

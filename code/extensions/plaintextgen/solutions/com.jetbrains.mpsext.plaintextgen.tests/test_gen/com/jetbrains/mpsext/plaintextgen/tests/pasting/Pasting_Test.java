@@ -144,7 +144,7 @@ public class Pasting_Test extends BaseTransformationTest {
         PlaintextPaster.pastePlainTextWithTabs(SNodeOperations.cast(content, CONCEPTS.IText$2X), "\talpha\t\tbeta\t\n\t\t");
         Assert.assertFalse("tabsPreserved: Nonempty paste replaces the selected container", content == SLinkOperations.getTarget(root, LINKS.content$rMPF));
         Assert.assertEquals("tabsPreserved: Indentation must be represented structurally", Integer.valueOf(0), Integer.valueOf(PasteAssertions.count(SLinkOperations.getTarget(root, LINKS.content$rMPF))));
-        PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "\talpha\t\tbeta\t\n");
+        PlainTextGenAssertions.assertText(myProject, root, "left.txt", "UTF-8", "\talpha\t\tbeta\t\n\t\t\n");
       }));
     }
     public void test_emptyInputDoesNotReplace() throws Exception {

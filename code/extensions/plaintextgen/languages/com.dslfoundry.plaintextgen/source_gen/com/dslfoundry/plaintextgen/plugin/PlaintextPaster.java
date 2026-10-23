@@ -133,33 +133,35 @@ public class PlaintextPaster {
    * Preserve tabs
    */
   public static void pastePlainTextWithTabs(SNode node, String text) {
-    Stack<Integer> levels = new Stack();
-    Stack<SNode> containers = new Stack<SNode>();
-    containers.add(SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L, "com.dslfoundry.plaintextgen.structure.VerticalLines")));
-    levels.add(0);
+    if ((text != null && text.length() > 0)) {
+      SNodeOperations.replaceWithAnother(node, verticalLinesFromText(text));
+    }
+  }
+  public static SNode verticalLinesFromText(String inputText) {
+    SNode result = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L, "com.dslfoundry.plaintextgen.structure.VerticalLines"));
 
+    String text = inputText;
     if ((text != null && text.length() > 0)) {
       for (String line : text.split("\\r?\\n")) {
         SNode lineNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47efL, "com.dslfoundry.plaintextgen.structure.Line"));
         SLinkOperations.setNewChild(lineNode, LINKS.newlineMarker$LMfW, null);
-        if (isEmptyString(line.trim())) {
+        if (isEmptyString(line.trim()) && !(line.contains("\t"))) {
           ListSequence.fromList(SLinkOperations.getChildren(lineNode, LINKS.words$teE6)).removeElementAt(0);
         } else {
-          // MPS text fields strip away the tabs, so we replace them by spaces.
           ListSequence.fromList(SLinkOperations.getChildren(lineNode, LINKS.words$teE6)).clear();
           String[] parts = line.split("\t", -1);
           for (String x : parts) {
-            SPropertyOperations.assign(SLinkOperations.addNewChild(lineNode, LINKS.words$teE6, CONCEPTS.Word$dj), PROPS.name$MnvL, x);
+            if ((x != null && x.length() > 0)) {
+              SPropertyOperations.assign(SLinkOperations.addNewChild(lineNode, LINKS.words$teE6, CONCEPTS.Word$dj), PROPS.name$MnvL, x);
+            }
             SLinkOperations.addNewChild(lineNode, LINKS.words$teE6, CONCEPTS.Tab$tC);
           }
-          if ((line != null && line.length() > 0)) {
-            ListSequence.fromList(SLinkOperations.getChildren(lineNode, LINKS.words$teE6)).removeLastElement();
-          }
+          ListSequence.fromList(SLinkOperations.getChildren(lineNode, LINKS.words$teE6)).removeLastElement();
         }
-        ListSequence.fromList(SLinkOperations.getChildren(containers.peek(), LINKS.lines$u7C)).addElement(lineNode);
+        ListSequence.fromList(SLinkOperations.getChildren(result, LINKS.lines$u7C)).addElement(lineNode);
       }
-      SNodeOperations.replaceWithAnother(node, containers.firstElement());
     }
+    return result;
   }
   private static boolean isEmptyString(String str) {
     return str == null || str.isEmpty();

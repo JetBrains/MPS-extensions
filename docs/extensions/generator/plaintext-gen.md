@@ -140,6 +140,45 @@ The intentions menu (`Alt+Enter`) also offers **Add New Line Before**,
 elements, use `Alt+Enter` to access selection intentions; the light bulb at a
 single cell may not show the same selection actions.
 
+### Pasting text containing tabs
+
+Use **Paste Unstructured Text (Preserves Tab Literals)** when your template must
+keep actual tab characters, for example when generating tab-separated data.
+
+1. Copy plain text containing actual tabs to the clipboard. Make sure your source
+   editor has not replaced them with spaces.
+2. In your `TextgenText` template, select the text node you want to replace.
+3. Open the editor's context menu and choose **Paste Unstructured Text (Preserves
+   Tab Literals)**. The action is also available through the intentions menu
+   (`Alt+Enter`) when applicable.
+
+The action replaces the selected text node with a vertical collection of lines.
+Each tab becomes a separate `Tab` node, displayed as an arrow in the editor.
+The arrow is an editor marker: generated text contains a tab character, not an
+arrow or a fixed number of spaces. You can then parameterize the imported text
+with generator macros as usual.
+
+Suppose you copy a line containing `name`, two actual tabs, and `value`.
+The imported line contains:
+
+```text
+Word("name")  Tab  Tab  Word("value")
+```
+
+Both tabs are retained, so the empty field between them remains present in the
+generated tab-separated text. Leading and trailing tabs are retained too:
+
+| Clipboard text (`\t` denotes one actual tab) | Imported line contents |
+| --- | --- |
+| `\t\t` | `Tab`, `Tab` |
+| `name\t\tvalue` | `Word("name")`, `Tab`, `Tab`, `Word("value")` |
+| `\tname\t` | `Tab`, `Word("name")`, `Tab` |
+
+The `\t` notation above is only for readability; copying the literal characters
+backslash and `t` does not insert a tab. Adjacent tabs do not create empty `Word`
+nodes. A line containing only spaces and no tabs still becomes an empty line;
+this action does not preserve spaces-only lines.
+
 ## Fill values from your input model
 
 A **property macro** computes one template property during generation. Use it
@@ -169,6 +208,54 @@ Apply the same technique to **Filename** to generate `Pump.txt`: query the
 device's name for the filename and leave the extension `.txt` fixed. Give each
 output a unique name when generating several roots. Splitting fixed text from
 variable text keeps queries small and leaves punctuation visible in the template.
+
+## Splitting vertical layouts
+
+Use **Split Vertical Layout after Line** on a line, or a word inside it, to move
+the following lines into a separate vertical collection. The intention is
+available when the line's direct parent is a `VerticalLines` collection and
+there is at least one following line.
+
+The two collections are wrapped in another vertical collection with the same
+alignment, preserving their line order and layout even inside a horizontal line
+or a nested aligned collection. Existing lines and their attached macros are
+moved, not copied. Lines directly inside a `SpaceIndentedText` collection are
+not supported; a `VerticalLines` collection nested inside one can be split
+without changing its surrounding indentation.
+
+For example, suppose a vertical collection contains three lines: `Header`,
+`Body`, and `Footer`. To separate the header from the remaining lines:
+
+1. Place the caret on `Header`, or on a word inside that line.
+2. Press **Alt+Enter** to open the intentions menu.
+3. Choose **Split Vertical Layout after Line**.
+
+The following schematic shows the collection structure before and after the
+intention (it is not text to paste into the editor):
+
+```text
+Before:                  After:
+Vertical                 Vertical
+  Header                   Vertical
+  Body                       Header
+  Footer                   Vertical
+                             Body
+                             Footer
+```
+
+The selected line stays in the first group; all following lines move to the
+second group. The displayed and generated text remains the same:
+
+```text
+Header
+Body
+Footer
+```
+
+The separate groups can now be edited independently, for example to apply a
+generator macro to the body/footer group without including the header. If the
+intention is missing, check that the selected line is not the last line and
+that its direct parent is a vertical collection, not an indented collection.
 
 ## Repeat and conditionally include sections
 

@@ -146,14 +146,15 @@ for a pooled thread, while that thread waits for a read lock.
 
 1. SHOULD: callee. An expression, a getter, a concept function (`property getter`, `can be child`, a scope) or a
    behaviour method that reads like a property starts no thread switch or wait, and takes no lock. When it needs a
-   certain thread or lock, it asserts it (`checkReadAccess()`, `assertIsDispatchThread()`) and/or names it in its doc
-   comment ("Use only on the EDT, in a read action."). The caller does the thread switch and takes the lock. A
-   simple call that waits surprises its caller: the code does not work as expected, and finding out why costs time,
-   effort and tokens.
+   certain thread or lock, it asserts it (`ModelAccess.checkReadAccess()`,
+   `ThreadingAssertions.assertEventDispatchThread()`) and/or names it in its doc comment ("Use only on the EDT, in a
+   read action."). The caller does the thread switch and takes the lock. A simple call that waits surprises its
+   caller: the code does not work as expected, and finding out why costs time, effort and tokens.
 2. MUST: caller. Each thread switch, each wait, and each `synchronized` or `Lock.lock()` has a comment directly before
    it. The comment gives a reason that a reviewer can check: why this thread, and why the code waits there when it
    waits. "The test fails otherwise" is not such a reason (see 8.4). When the reason is not known, the comment says so
-   and links an issue. A thread switch in a test needs no comment.
+   and links an issue. A thread switch in a test needs no comment. A `read action` or `command` needs no comment of its
+   own; 8.3 covers work that is split over several of them.
 3. MUST: caller. When work is split over several locks, a comment says what may change between them. The caller
    chooses how much work each lock covers: one lock keeps the model consistent, several shorter locks let other threads
    run in between. A reviewer accepts split locks when this comment is there.

@@ -64,6 +64,8 @@
     <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
+    <import index="btn2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide.impl(MPS.IDEA/)" />
+    <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -960,48 +962,83 @@
     <node concept="3clFb_" id="4ieOWnFWOSS" role="jymVt">
       <property role="TrG5h" value="getFileEditor" />
       <node concept="3clFbS" id="4ieOWnFWOSU" role="3clF47">
-        <node concept="3cpWs8" id="4ieOWnFWOSV" role="3cqZAp">
-          <node concept="3cpWsn" id="4ieOWnFWOSW" role="3cpWs9">
-            <property role="TrG5h" value="dataContext" />
-            <node concept="3uibUv" id="4ieOWnFWOSX" role="1tU5fm">
-              <ref role="3uigEE" to="qkt:~DataContext" resolve="DataContext" />
+        <node concept="3cpWs8" id="EOmqbuqPtU" role="3cqZAp">
+          <node concept="3cpWsn" id="EOmqbuqPtT" role="3cpWs9">
+            <property role="TrG5h" value="fileEditor" />
+            <node concept="3uibUv" id="EOmqbuqPtV" role="1tU5fm">
+              <ref role="3uigEE" to="k3nr:~MPSFileNodeEditor" resolve="MPSFileNodeEditor" />
             </node>
-            <node concept="2OqwBi" id="4ieOWnFWOSY" role="33vP2m">
-              <node concept="2YIFZM" id="4ieOWnFWOSZ" role="2Oq$k0">
-                <ref role="1Pybhc" to="ddhc:~DataManager" resolve="DataManager" />
-                <ref role="37wK5l" to="ddhc:~DataManager.getInstance()" resolve="getInstance" />
-              </node>
-              <node concept="liA8E" id="4ieOWnFWOT0" role="2OqNvi">
-                <ref role="37wK5l" to="ddhc:~DataManager.getDataContext(java.awt.Component)" resolve="getDataContext" />
-                <node concept="10QFUN" id="4ieOWnFWOT1" role="37wK5m">
-                  <node concept="3uibUv" id="4ieOWnFWOT2" role="10QFUM">
-                    <ref role="3uigEE" to="z60i:~Component" resolve="Component" />
+            <node concept="10Nm6u" id="EOmqbuqPtW" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="EOmqbuqPtX" role="3cqZAp">
+          <node concept="2OqwBi" id="EOmqbuqPuE" role="3clFbG">
+            <node concept="2YIFZM" id="EOmqbuqPur" role="2Oq$k0">
+              <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+              <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+            </node>
+            <node concept="liA8E" id="EOmqbuqPuF" role="2OqNvi">
+              <ref role="37wK5l" to="bd8o:~Application.invokeAndWait(java.lang.Runnable)" resolve="invokeAndWait" />
+              <node concept="1bVj0M" id="EOmqbuqPuY" role="37wK5m">
+                <node concept="3clFbS" id="EOmqbuqPuZ" role="1bW5cS">
+                  <node concept="3cpWs8" id="4ieOWnFWOSV" role="3cqZAp">
+                    <node concept="3cpWsn" id="4ieOWnFWOSW" role="3cpWs9">
+                      <property role="TrG5h" value="dataContext" />
+                      <node concept="3uibUv" id="4ieOWnFWOSX" role="1tU5fm">
+                        <ref role="3uigEE" to="qkt:~DataContext" resolve="DataContext" />
+                      </node>
+                      <node concept="2OqwBi" id="4ieOWnFWOSY" role="33vP2m">
+                        <node concept="2ShNRf" id="EOmqbunKE6" role="2Oq$k0">
+                          <node concept="1pGfFk" id="EOmqbunKE7" role="2ShVmc">
+                            <ref role="37wK5l" to="btn2:~DataManagerImpl.&lt;init&gt;()" resolve="DataManagerImpl" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="4ieOWnFWOT0" role="2OqNvi">
+                          <ref role="37wK5l" to="btn2:~DataManagerImpl.getDataContext(java.awt.Component)" resolve="getDataContext" />
+                          <node concept="10QFUN" id="4ieOWnFWOT1" role="37wK5m">
+                            <node concept="3uibUv" id="4ieOWnFWOT2" role="10QFUM">
+                              <ref role="3uigEE" to="z60i:~Component" resolve="Component" />
+                            </node>
+                            <node concept="37vLTw" id="4ieOWnFWOT3" role="10QFUP">
+                              <ref role="3cqZAo" node="6HRhZeXDGSq" resolve="editorComponent" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                   </node>
-                  <node concept="37vLTw" id="4ieOWnFWOT3" role="10QFUP">
-                    <ref role="3cqZAo" node="6HRhZeXDGSq" resolve="editorComponent" />
+                  <node concept="3clFbF" id="EOmqbuqPu1" role="3cqZAp">
+                    <node concept="37vLTI" id="EOmqbuqPu2" role="3clFbG">
+                      <node concept="37vLTw" id="EOmqbuqPu3" role="37vLTJ">
+                        <ref role="3cqZAo" node="EOmqbuqPtT" resolve="fileEditor" />
+                      </node>
+                      <node concept="10QFUN" id="2EmVdCCM9gb" role="37vLTx">
+                        <node concept="2OqwBi" id="2EmVdCCM9g7" role="10QFUP">
+                          <node concept="10M0yZ" id="2EmVdCCM9g8" role="2Oq$k0">
+                            <ref role="3cqZAo" to="qkt:~PlatformCoreDataKeys.FILE_EDITOR" resolve="FILE_EDITOR" />
+                            <ref role="1PxDUh" to="qq03:~MPSCommonDataKeys" resolve="MPSCommonDataKeys" />
+                          </node>
+                          <node concept="liA8E" id="2EmVdCCM9g9" role="2OqNvi">
+                            <ref role="37wK5l" to="qkt:~DataKey.getData(com.intellij.openapi.actionSystem.DataContext)" resolve="getData" />
+                            <node concept="37vLTw" id="2EmVdCCM9ga" role="37wK5m">
+                              <ref role="3cqZAo" node="4ieOWnFWOSW" resolve="dataContext" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3uibUv" id="2EmVdCCM9g6" role="10QFUM">
+                          <ref role="3uigEE" to="k3nr:~MPSFileNodeEditor" resolve="MPSFileNodeEditor" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3cpWs6" id="4ieOWnFWOT4" role="3cqZAp">
-          <node concept="10QFUN" id="2EmVdCCM9gb" role="3cqZAk">
-            <node concept="2OqwBi" id="2EmVdCCM9g7" role="10QFUP">
-              <node concept="10M0yZ" id="2EmVdCCM9g8" role="2Oq$k0">
-                <ref role="3cqZAo" to="qkt:~PlatformCoreDataKeys.FILE_EDITOR" resolve="FILE_EDITOR" />
-                <ref role="1PxDUh" to="qq03:~MPSCommonDataKeys" resolve="MPSCommonDataKeys" />
-              </node>
-              <node concept="liA8E" id="2EmVdCCM9g9" role="2OqNvi">
-                <ref role="37wK5l" to="qkt:~DataKey.getData(com.intellij.openapi.actionSystem.DataContext)" resolve="getData" />
-                <node concept="37vLTw" id="2EmVdCCM9ga" role="37wK5m">
-                  <ref role="3cqZAo" node="4ieOWnFWOSW" resolve="dataContext" />
-                </node>
-              </node>
-            </node>
-            <node concept="3uibUv" id="2EmVdCCM9g6" role="10QFUM">
-              <ref role="3uigEE" to="k3nr:~MPSFileNodeEditor" resolve="MPSFileNodeEditor" />
-            </node>
+        <node concept="3cpWs6" id="EOmqbuqPu5" role="3cqZAp">
+          <node concept="37vLTw" id="EOmqbuqPu6" role="3cqZAk">
+            <ref role="3cqZAo" node="EOmqbuqPtT" resolve="fileEditor" />
           </node>
         </node>
       </node>

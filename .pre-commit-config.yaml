@@ -5,19 +5,80 @@
 repos:
   # MPS project-structure checks. See https://github.com/specificlanguages/mps-pre-commit-hooks for what each one
   # catches.
-  #
-  # Not enabled:
-  # - mps-check-orphan-modules: some existing modules are not registered in any modules.xml, and the hook has no
-  #   option to exclude them.
-  # - mps-check-orphan-models: some existing model files (mostly leftover generator/template/main@generator.mps
-  #   files in languages without a generator) lie outside every model root, and the hook has no option to exclude them.
   - repo: "https://github.com/specificlanguages/mps-pre-commit-hooks"
-    rev: v0.5.0
+    rev: v0.6.0
     hooks:
       - id: mps-fix-path-variables
       - id: mps-fix-missing-modules
       - id: mps-check-orphan-mpsr-files
       - id: mps-check-empty-model-roots
+
+      # Existing modules that are not registered in any modules.xml.
+      - id: mps-check-orphan-modules
+        args:
+          - --exclude=code/extensions/changelog/de.itemis.mps.changelog/sandbox/de.itemis.mps.changelog.sandbox.msd
+          - --exclude=code/extensions/languages/de.itemis.model.merge.test/de.itemis.model.merge.test.mpl
+          - --exclude=code/extensions/languages/de.itemis.model.merge.test/runtime/de.itemis.model.merge.test.runtime.msd
+          - --exclude=code/extensions/languages/de.itemis.model.merge.test/sandbox/de.itemis.model.merge.test.sandbox.msd
+          - --exclude=code/extensions/solutions/de.itemis.model.merge.exec/de.itemis.model.merge.exec.msd
+
+      # Existing model files outside every model root, mostly leftover generator/template/main@generator.mps files in
+      # languages without a generator.
+      - id: mps-check-orphan-models
+        args:
+          - --exclude=code/extensions/celllayout/languages/de.itemis.mps.celllayout/generator/template/main@generator.mps
+          - --exclude=code/extensions/celllayout/languages/de.itemis.mps.editor.celllayout.sandboxlang/generator/template/main@generator.mps
+          - --exclude=code/extensions/celllayout/languages/test.de.itemis.mps.editor.celllayout.lang/generator/template/main@generator.mps
+          - --exclude=code/extensions/conditional-editor/languages/de.slisson.mps.conditionalEditor.demolang/generator/template/main@generator.mps
+          - --exclude=code/extensions/conditional-editor/languages/de.slisson.mps.conditionalEditor.hints/generator/template/main@generator.mps
+          - --exclude=code/extensions/diagram/languages/de.itemis.mps.editor.diagram.demo.activity/generator/template/main@generator.mps
+          - --exclude=code/extensions/diagram/languages/de.itemis.mps.editor.diagram.demo.callgraph/generator/template/main@generator.mps
+          - --exclude=code/extensions/diagram/languages/de.itemis.mps.editor.diagram.demoentities/generator/template/main@generator.mps
+          - --exclude=code/extensions/diagram/languages/de.itemis.mps.editor.diagram.layout/generator/template/main@generator.mps
+          - --exclude=code/extensions/diagram/languages/de.itemis.mps.editor.diagram.styles/generator/template/main@generator.mps
+          - --exclude=code/extensions/diagram/languages/test.de.itemis.mps.editor.diagram.lang/generator/template/main@generator.mps
+          - --exclude=code/extensions/grammarcells/languages/com.mbeddr.mpsutil.grammarcells.runtimelang/generator/template/main@generator.mps
+          - --exclude=code/extensions/grammarcells/languages/com.mbeddr.mpsutil.grammarcells.sandboxlang/generator/template/main@generator.mps
+          - --exclude=code/extensions/hacks/languages/de.itemis.mps.hacks.xmodelgen/generator/template/main@generator.mps
+          - --exclude=code/extensions/languages/de.itemis.model.merge.diamond/generator/templates/de.itemis.model.merge.diamond.generator.templates@generator.mps
+          - --exclude=code/extensions/languages/de.itemis.model.merge.graph/generator/templates/de.itemis.model.merge.graph.templates@generator.mps
+          - --exclude=code/extensions/languages/de.itemis.model.merge.graph/models/de.itemis.model.merge.graph.behavior.mps
+          - --exclude=code/extensions/languages/de.itemis.model.merge.graph/models/de.itemis.model.merge.graph.constraints.mps
+          - --exclude=code/extensions/languages/de.itemis.model.merge.graph/models/de.itemis.model.merge.graph.editor.mps
+          - --exclude=code/extensions/languages/de.itemis.model.merge.graph/models/de.itemis.model.merge.graph.structure.mps
+          - --exclude=code/extensions/languages/de.itemis.model.merge.graph/models/de.itemis.model.merge.graph.typesystem.mps
+          - --exclude=code/extensions/languages/de.itemis.model.merge.graph/sandbox/models/de.itemis.model.merge.graph.sandbox.mps
+          - --exclude=code/extensions/languages/de.itemis.model.simple.demo.children/generator/templates/de.itemis.model.simple.demo.children.generator.templates@generator.mps
+          - --exclude=code/extensions/languages/de.itemis.model.simple.demo.property/generator/templates/de.itemis.model.simple.demo.property.property.templates@generator.mps
+          - --exclude=code/extensions/langvis/languages/com.dslfoundry.langvis.demolang/generator/template/main@generator.mps
+          - --exclude=code/extensions/math/languages/de.itemis.mps.editor.math.demolang/generator/template/main@generator.mps
+          - --exclude=code/extensions/model-api/org.modelix.model.repositoryconcepts/generator/templates/org.modelix.model.repositoryconcepts.generator.templates@generator.mps
+          - --exclude=code/extensions/modellisteners/com.mbeddr.mpsutil.modellisteners.sandboxlang/generator/template/main@generator.mps
+          - --exclude=code/extensions/nodeversioning/languages/de.itemis.mps.nodeversioning/generator/template/main@generator.mps
+          - --exclude=code/extensions/plaintextgen/languages/com.dslfoundry.plaintextgen/generator/template/main@generator.mps
+          - --exclude=code/extensions/querylist/com.mbeddr.mpsutil.editor.querylist.demolang/generator/template/main@generator.mps
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.incremental.sandboxlang/generator/template/main@generator.mps
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.polymorphicfunctions.sandboxlang/generator/template/main@generator.mps
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.shadowmodels.examples.blext/generator/template/main@generator.mps
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.shadowmodels.examples.editor/generator/template/main@generator.mps
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.shadowmodels.examples.entities/generator/template/main@generator.mps
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.shadowmodels.examples.statemachine/generator/template/main@generator.mps
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.shadowmodels.repository/generator/template/main@generator.mps
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.shadowmodels.runtimelang/generator/template/main@generator.mps
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.shadowmodels.target.editor/generator/template/main@generator.mps
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.shadowmodels.target.text/generator/template/main@generator.mps
+          - --exclude=code/extensions/shadowmodels/languages/de.q60.mps.virtualinterfaces.sandboxlang/generator/template/main@generator.mps
+          - --exclude=code/extensions/solutions/de.itemis.model.merge.policy.diamond/models/de.itemis.model.merge.policy.diamond.plugin.mps
+          - --exclude=code/extensions/tables/languages/de.slisson.mps.tables.demolang/generator/template/main@generator.mps
+          - --exclude=code/extensions/third-party/solutions/MPS.ThirdParty/models/MPS.Thirdparty.keep_me.mps
+          - --exclude=code/extensions/treenotation/com.mbeddr.mpsutil.treenotation.sandboxlang/generator/template/main@generator.mps
+          - --exclude=code/extensions/treenotation/com.mbeddr.mpsutil.treenotation.styles/generator/template/main@generator.mps
+          - --exclude=code/extensions/widgets/languages/de.itemis.mps.editor.bool.demolang/generator/template/main@generator.mps
+          - --exclude=code/extensions/widgets/languages/de.itemis.mps.editor.collapsible.testlang/generator/template/main@generator.mps
+          - --exclude=code/extensions/widgets/languages/de.itemis.mps.editor.dropdown.demolang/generator/template/main@generator.mps
+          - --exclude=code/extensions/widgets/languages/de.itemis.mps.editor.enumeration.demolang/generator/template/main@generator.mps
+          - --exclude=code/extensions/widgets/languages/nl.f1re.mps.editor.intellij/generator/templates/nl.f1re.mps.editor.intellij.generator.templates@generator.mps
+          - --exclude=code/extensions/widgets/solutions/de.itemis.mps.editor.collapsible.tests/models/de.itemis.mps.editor.collapsible.tests@tests/.model
 
       - id: mps-check-well-formed-xml
         # Empty .model header file of a model that is not in any model root.

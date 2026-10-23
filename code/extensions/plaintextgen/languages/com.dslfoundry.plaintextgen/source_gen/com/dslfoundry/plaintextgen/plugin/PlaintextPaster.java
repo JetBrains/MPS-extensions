@@ -131,8 +131,7 @@ public class PlaintextPaster {
     }
   }
   public static SNode verticalLinesFromText(String inputText) {
-    Stack<SNode> containers = new Stack<SNode>();
-    containers.add(SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L, "com.dslfoundry.plaintextgen.structure.VerticalLines")));
+    SNode result = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcaff41e5L, "com.dslfoundry.plaintextgen.structure.VerticalLines"));
 
     String text = inputText;
     if ((text != null && text.length() > 0)) {
@@ -152,10 +151,10 @@ public class PlaintextPaster {
           }
           ListSequence.fromList(SLinkOperations.getChildren(lineNode, LINKS.words$teE6)).removeLastElement();
         }
-        ListSequence.fromList(SLinkOperations.getChildren(containers.peek(), LINKS.lines$u7C)).addElement(lineNode);
+        ListSequence.fromList(SLinkOperations.getChildren(result, LINKS.lines$u7C)).addElement(lineNode);
       }
     }
-    return containers.firstElement();
+    return result;
   }
   private static boolean isEmptyString(String str) {
     return str == null || str.isEmpty();

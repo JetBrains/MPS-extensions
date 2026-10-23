@@ -77,6 +77,54 @@ A presentation that was held at the 27 February 2019 meeting of [MPS Power Users
 * Split plain text into various cells to apply MPS generator macros to them
 * Paste unstructured text from a buffer to MPS. The structure of this text (indentations, new lines, tabs) will be automatically analyzed and converted into a `TextgenText` structure which you can then parameterize at your convenience.
 
+### Splitting vertical layouts
+
+Use **Split Vertical Layout after Line** on a line, or a word inside it, to move
+the following lines into a separate vertical collection. The intention is
+available when the line's direct parent is a `VerticalLines` collection and
+there is at least one following line.
+
+The two collections are wrapped in another vertical collection with the same
+alignment, preserving their line order and layout even inside a horizontal line
+or a nested aligned collection. Existing lines and their attached macros are
+moved, not copied. Lines directly inside a `SpaceIndentedText` collection are
+not supported; a `VerticalLines` collection nested inside one can be split
+without changing its surrounding indentation.
+
+For example, suppose a vertical collection contains three lines: `Header`,
+`Body`, and `Footer`. To separate the header from the remaining lines:
+
+1. Place the caret on `Header`, or on a word inside that line.
+2. Press **Alt+Enter** to open the intentions menu.
+3. Choose **Split Vertical Layout after Line**.
+
+The following schematic shows the collection structure before and after the
+intention (it is not text to paste into the editor):
+
+```text
+Before:                  After:
+Vertical                 Vertical
+  Header                   Vertical
+  Body                       Header
+  Footer                   Vertical
+                             Body
+                             Footer
+```
+
+The selected line stays in the first group; all following lines move to the
+second group. The displayed and generated text remains the same:
+
+```text
+Header
+Body
+Footer
+```
+
+The separate groups can now be edited independently, for example to apply a
+generator macro to the body/footer group without including the header. If the
+intention is missing, check that the selected line is not the last line and
+that its direct parent is a vertical collection, not an indented collection.
+
 ## Advantages of this plugin over the default textgen
 In short, this plugin brings MPS -> plaintext connectivity in a pretty usable way to MPS.
 

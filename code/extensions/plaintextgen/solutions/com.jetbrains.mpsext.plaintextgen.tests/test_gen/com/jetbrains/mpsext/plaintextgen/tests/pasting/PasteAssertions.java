@@ -4,12 +4,9 @@ package com.jetbrains.mpsext.plaintextgen.tests.pasting;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.project.Project;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
-import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
-import org.junit.Assert;
 import java.util.function.Consumer;
+import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.smodel.tempmodel.TemporaryModels;
 import jetbrains.mps.smodel.tempmodel.TempModuleOptions;
 import jetbrains.mps.smodel.CopyUtil;
@@ -25,11 +22,6 @@ public class PasteAssertions {
       result += count(child);
     }
     return result;
-  }
-  public static SModel fixtureModel(Project project) {
-    SModel model = SPointerOperations.resolveModel(PersistenceFacade.getInstance().createModelReference("r:2f17ab6e-1fbc-460b-969f-c9fd8950e44d(com.jetbrains.mpsext.plaintextgen.tests.layouts)"), project.getRepository());
-    Assert.assertNotNull("The named layouts fixture model must resolve in the project repository", model);
-    return model;
   }
   public static void withFixture(Project project, Consumer<SNode> body) {
     SModel model = TemporaryModels.getInstance().createEditable(false, TempModuleOptions.nonReloadableModule(project.getRepository()));

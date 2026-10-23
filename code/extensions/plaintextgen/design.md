@@ -2,7 +2,7 @@
 
 ## Diffing paste
 
-User instructions are in the [PlainTextGen guide](../../../docs/extensions/generator/plaintext-gen.md#diffing-paste).
+User instructions are in the [PlainTextGen guide](../../../docs/extensions/generator/plaintext-gen.md#update-an-existing-template-with-diffing-paste).
 This document describes preservation boundaries, recovery, and developer checks.
 
 ### Diff and preservation

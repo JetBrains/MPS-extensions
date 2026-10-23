@@ -54,6 +54,11 @@ The tool window allows you to select the following options using check boxes:
 
 After adjusting the options, you need to press the `refresh icon` to apply the changes.
 
+Zoom re-renders the retained SVG at the selected scale rather than magnifying a
+bitmap. It does not rerun PlantUML. Refresh regenerates the diagram from the
+current model and options, then renders the new SVG at the current zoom. The
+preview preserves the diagram's aspect ratio and limits its rendered dimensions.
+
 If the provided tool panel isn't to your liking, two alternative methods of viewing the visualizations exist.
 
 ### (Optional) Viewing the visualization with your favorite image viewer

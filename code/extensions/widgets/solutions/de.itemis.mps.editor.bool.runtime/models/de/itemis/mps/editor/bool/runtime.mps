@@ -24,8 +24,6 @@
     <import index="emqf" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellProviders(MPS.Editor/)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
-    <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" />
-    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="jan3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.image(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
@@ -40,9 +38,9 @@
     <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
     <import index="hhnx" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime(MPS.Editor/)" />
     <import index="3qmy" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.classloading(MPS.Core/)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
-    <import index="w827" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs.openapi(MPS.Core/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -5087,6 +5085,58 @@
           </node>
         </node>
         <node concept="3clFbH" id="1kq2va83WCj" role="3cqZAp" />
+        <node concept="3SKdUt" id="3kCq8EisguT" role="3cqZAp">
+          <node concept="1PaTwC" id="3kCq8EisguU" role="1aUNEU">
+            <node concept="3oM_SD" id="3kCq8EisgV_" role="1PaTwD">
+              <property role="3oM_SC" value="well," />
+            </node>
+            <node concept="3oM_SD" id="3kCq8EisgX1" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="3kCq8EisgYW" role="1PaTwD">
+              <property role="3oM_SC" value="fact," />
+            </node>
+            <node concept="3oM_SD" id="3kCq8Eish0O" role="1PaTwD">
+              <property role="3oM_SC" value="doesn't" />
+            </node>
+            <node concept="3oM_SD" id="3kCq8Eish47" role="1PaTwD">
+              <property role="3oM_SC" value="make" />
+            </node>
+            <node concept="3oM_SD" id="3kCq8EitDqU" role="1PaTwD">
+              <property role="3oM_SC" value="much" />
+            </node>
+            <node concept="3oM_SD" id="3kCq8Eish48" role="1PaTwD">
+              <property role="3oM_SC" value="sense" />
+            </node>
+            <node concept="3oM_SD" id="3kCq8Eish6z" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="3kCq8Eish70" role="1PaTwD">
+              <property role="3oM_SC" value="use" />
+            </node>
+            <node concept="3oM_SD" id="3kCq8Eish7t" role="1PaTwD">
+              <property role="3oM_SC" value="MacrosFactory.forModule" />
+            </node>
+            <node concept="3oM_SD" id="3kCq8EishdA" role="1PaTwD">
+              <property role="3oM_SC" value="when" />
+            </node>
+            <node concept="3oM_SD" id="3kCq8Eishf2" role="1PaTwD">
+              <property role="3oM_SC" value="fileName" />
+            </node>
+            <node concept="3oM_SD" id="3kCq8EishgU" role="1PaTwD">
+              <property role="3oM_SC" value="doesn't" />
+            </node>
+            <node concept="3oM_SD" id="3kCq8Eishim" role="1PaTwD">
+              <property role="3oM_SC" value="start" />
+            </node>
+            <node concept="3oM_SD" id="3kCq8EishlF" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="3kCq8EishmF" role="1PaTwD">
+              <property role="3oM_SC" value="MacrosFactory.MODULE" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1wjaGbcT0_t" role="3cqZAp">
           <node concept="37vLTI" id="1wjaGbcT0_v" role="3clFbG">
             <node concept="2OqwBi" id="1wjaGbcSOvd" role="37vLTx">
@@ -5113,28 +5163,14 @@
           <node concept="3cpWsn" id="HtNrEHAIQH" role="3cpWs9">
             <property role="TrG5h" value="imageFile" />
             <node concept="3uibUv" id="HtNrEHAIQB" role="1tU5fm">
-              <ref role="3uigEE" to="3ju5:~IFile" resolve="IFile" />
+              <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
-            <node concept="2OqwBi" id="HtNrEHAIQI" role="33vP2m">
-              <node concept="liA8E" id="HtNrEHAIQK" role="2OqNvi">
-                <ref role="37wK5l" to="w827:~FileSystem.getFile(java.lang.String)" resolve="getFile" />
-                <node concept="37vLTw" id="HtNrEHAIQL" role="37wK5m">
+            <node concept="2ShNRf" id="3kCq8EisV1N" role="33vP2m">
+              <node concept="1pGfFk" id="3kCq8Eit$gU" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                <node concept="37vLTw" id="3kCq8Eit_2M" role="37wK5m">
                   <ref role="3cqZAo" node="1gaGt1kiIkn" resolve="fileName" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="1wjaGbcTr2c" role="2Oq$k0">
-                <node concept="1eOMI4" id="1kq2va84n_J" role="2Oq$k0">
-                  <node concept="10QFUN" id="1kq2va84n_G" role="1eOMHV">
-                    <node concept="3uibUv" id="1kq2va84nEo" role="10QFUM">
-                      <ref role="3uigEE" to="z1c3:~AbstractModule" resolve="AbstractModule" />
-                    </node>
-                    <node concept="37vLTw" id="1kq2va84n_L" role="10QFUP">
-                      <ref role="3cqZAo" node="1wjaGbcRSFS" resolve="module" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="liA8E" id="1wjaGbcTuqq" role="2OqNvi">
-                  <ref role="37wK5l" to="z1c3:~AbstractModule.getFileSystem()" resolve="getFileSystem" />
                 </node>
               </node>
             </node>
@@ -5152,12 +5188,17 @@
                     </node>
                     <node concept="liA8E" id="20OtND1EgVW" role="2OqNvi">
                       <ref role="37wK5l" to="z60i:~Toolkit.getImage(java.net.URL)" resolve="getImage" />
-                      <node concept="2OqwBi" id="HtNrEHAMVX" role="37wK5m">
-                        <node concept="37vLTw" id="HtNrEHAJiD" role="2Oq$k0">
-                          <ref role="3cqZAo" node="HtNrEHAIQH" resolve="imageFile" />
+                      <node concept="2OqwBi" id="3kCq8EitBgJ" role="37wK5m">
+                        <node concept="2OqwBi" id="HtNrEHAMVX" role="2Oq$k0">
+                          <node concept="37vLTw" id="HtNrEHAJiD" role="2Oq$k0">
+                            <ref role="3cqZAo" node="HtNrEHAIQH" resolve="imageFile" />
+                          </node>
+                          <node concept="liA8E" id="HtNrEHAN5d" role="2OqNvi">
+                            <ref role="37wK5l" to="guwi:~File.toURI()" resolve="toURI" />
+                          </node>
                         </node>
-                        <node concept="liA8E" id="HtNrEHAN5d" role="2OqNvi">
-                          <ref role="37wK5l" to="3ju5:~IFile.getUrl()" resolve="getUrl" />
+                        <node concept="liA8E" id="3kCq8EitCcY" role="2OqNvi">
+                          <ref role="37wK5l" to="zf81:~URI.toURL()" resolve="toURL" />
                         </node>
                       </node>
                     </node>
@@ -5193,7 +5234,7 @@
               <ref role="3cqZAo" node="HtNrEHAIQH" resolve="imageFile" />
             </node>
             <node concept="liA8E" id="7bBLNlFJMLy" role="2OqNvi">
-              <ref role="37wK5l" to="3ju5:~IFile.exists()" resolve="exists" />
+              <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
             </node>
           </node>
         </node>

@@ -43,6 +43,11 @@ val codeDir = layout.projectDirectory
 val reportsDir = layout.buildDirectory.dir("reports")
 
 bundledDependencies {
+    create("plantuml") {
+        destinationDir = codeDir.dir("langvis/solutions/com.jetbrains.mpsext.langvis.plantuml/lib")
+        dependency("net.sourceforge.plantuml:plantuml-mit:1.2026.9")
+    }
+
     create("diagram") {
         destinationDir = codeDir.dir("diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib")
 

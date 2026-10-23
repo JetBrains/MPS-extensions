@@ -130,7 +130,7 @@ public class DiffPasteUI {
       if (ListSequence.fromList(conflicts).isEmpty()) {
         warning.append("(none)\n");
       }
-      warning.append("\nAn original model snapshot and full report will be saved locally, outside the project.\nUse 'Review latest diffing-paste recovery' to copy original annotations from the projectional diff.\nApply this replacement?");
+      warning.append("\nAn original model snapshot and full report will be saved locally, outside the project.\nUse 'Review Latest Diffing-Paste Recovery' to copy original annotations from the projectional diff.\nApply this replacement?");
       if (!(dialogs.confirm(project, warning.toString()))) {
         return;
       }
@@ -150,7 +150,7 @@ public class DiffPasteUI {
       return;
     }
     if (saved.value != null && !(ListSequence.fromList(conflicts).isEmpty())) {
-      dialogs.info(project, "Original model saved to:\n" + saved.value + "\n\nThe adjacent .txt file lists replaced annotations.\nUse 'Review latest diffing-paste recovery' on this template to inspect and copy the originals.", "Diffing Paste Recovery");
+      dialogs.info(project, "Original model saved to:\n" + saved.value + "\n\nThe adjacent .txt file lists replaced annotations.\nUse 'Review Latest Diffing-Paste Recovery' on this template to inspect and copy the originals.", "Diffing Paste Recovery");
     }
   }
   private static void recoverLater(final SNodeReference reference, final Project project, Dialogs dialogs, final Path recovery) {

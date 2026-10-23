@@ -5375,6 +5375,23 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbF" id="5kBF9y18qrA" role="3cqZAp">
+            <node concept="37vLTI" id="5kBF9y18qrB" role="3clFbG">
+              <node concept="2OqwBi" id="5kBF9y18qrC" role="37vLTJ">
+                <node concept="Xjq3P" id="5kBF9y18qrD" role="2Oq$k0" />
+                <node concept="2OwXpG" id="5kBF9y18qrE" role="2OqNvi">
+                  <ref role="2Oxat5" node="5kBF9y17AdB" resolve="layoutSupported" />
+                </node>
+              </node>
+              <node concept="2YIFZM" id="5kBF9y18qtY" role="37vLTx">
+                <ref role="1Pybhc" node="5w9TncdRAiv" resolve="DiffPaste" />
+                <ref role="37wK5l" node="5w9Tnce1crK" resolve="safeLayout" />
+                <node concept="37vLTw" id="5kBF9y18qtZ" role="37wK5m">
+                  <ref role="3cqZAo" node="5w9TncdRAkg" resolve="original" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3clFb_" id="5w9TncdRAkZ" role="jymVt">
@@ -6494,19 +6511,21 @@
       </node>
       <node concept="3clFb_" id="5w9Tnce8UaJ" role="jymVt">
         <property role="TrG5h" value="isLayoutSupported" />
-        <node concept="3clFbS" id="5w9Tnce8UaK" role="3clF47">
-          <node concept="3cpWs6" id="5w9Tnce8UaL" role="3cqZAp">
-            <node concept="2YIFZM" id="5w9Tnce8UaW" role="3cqZAk">
-              <ref role="1Pybhc" node="5w9TncdRAiv" resolve="DiffPaste" />
-              <ref role="37wK5l" node="5w9Tnce1crK" resolve="safeLayout" />
-              <node concept="37vLTw" id="5w9Tnce8UaX" role="37wK5m">
-                <ref role="3cqZAo" node="5w9TncdRAjI" resolve="original" />
-              </node>
+        <node concept="3clFbS" id="5kBF9y19exq" role="3clF47">
+          <node concept="3cpWs6" id="5kBF9y19exo" role="3cqZAp">
+            <node concept="37vLTw" id="5kBF9y19exp" role="3cqZAk">
+              <ref role="3cqZAo" node="5kBF9y17AdB" resolve="layoutSupported" />
             </node>
           </node>
         </node>
         <node concept="3Tm1VV" id="5w9Tnce8UaO" role="1B3o_S" />
         <node concept="10P_77" id="5w9Tnce8UaP" role="3clF45" />
+      </node>
+      <node concept="312cEg" id="5kBF9y17AdB" role="jymVt">
+        <property role="TrG5h" value="layoutSupported" />
+        <property role="3TUv4t" value="true" />
+        <node concept="10P_77" id="5kBF9y17AdD" role="1tU5fm" />
+        <node concept="3Tm6S6" id="5kBF9y17AdE" role="1B3o_S" />
       </node>
     </node>
     <node concept="2YIFZL" id="5w9TncdVxUd" role="jymVt">
@@ -9060,7 +9079,7 @@
                 <node concept="liA8E" id="5w9TncgxyOM" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                   <node concept="Xl_RD" id="5w9TncgxyON" role="37wK5m">
-                    <property role="Xl_RC" value="\nAn original model snapshot and full report will be saved locally, outside the project.\nUse 'Review latest diffing-paste recovery' to copy original annotations from the projectional diff.\nApply this replacement?" />
+                    <property role="Xl_RC" value="\nAn original model snapshot and full report will be saved locally, outside the project.\nUse 'Review Latest Diffing-Paste Recovery' to copy original annotations from the projectional diff.\nApply this replacement?" />
                   </node>
                 </node>
               </node>
@@ -9277,7 +9296,7 @@
                       </node>
                     </node>
                     <node concept="Xl_RD" id="5w9TncgxySX" role="3uHU7w">
-                      <property role="Xl_RC" value="\n\nThe adjacent .txt file lists replaced annotations.\nUse 'Review latest diffing-paste recovery' on this template to inspect and copy the originals." />
+                      <property role="Xl_RC" value="\n\nThe adjacent .txt file lists replaced annotations.\nUse 'Review Latest Diffing-Paste Recovery' on this template to inspect and copy the originals." />
                     </node>
                   </node>
                   <node concept="Xl_RD" id="5w9TncgxySY" role="37wK5m">
@@ -9671,7 +9690,7 @@
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="5w9TncgxOTR" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
+                                    <ref role="37wK5l" to="eoo2:~Path.equals(java.lang.Object)" resolve="equals" />
                                     <node concept="37vLTw" id="5w9TncgxOTS" role="37wK5m">
                                       <ref role="3cqZAo" node="5w9TncgxOTa" resolve="directory" />
                                     </node>

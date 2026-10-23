@@ -32,6 +32,12 @@ import com.dslfoundry.plaintextgen.plugin.DiffPasteUI;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.TimeUnit;
+import com.intellij.openapi.util.UserDataHolderBase;
+import com.intellij.openapi.fileEditor.DocumentsEditor;
+import com.intellij.openapi.editor.Document;
+import javax.swing.JComponent;
+import com.intellij.openapi.fileEditor.FileEditorState;
+import java.beans.PropertyChangeListener;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -62,7 +68,7 @@ public class DiffPasteAssertions {
     }
     return result;
   }
-  private static void deleteRecovery(Path path) throws IOException {
+  public static void deleteRecovery(Path path) throws IOException {
     if (Files.isDirectory(path)) {
       DirectoryStream<Path> entries = Files.newDirectoryStream(path);
       try {
@@ -288,6 +294,60 @@ public class DiffPasteAssertions {
         Thread.currentThread().interrupt();
         Assert.fail("Interrupted while joining the dialog model reader: " + exception);
       }
+    }
+  }
+  public static class UndoDialogs extends DiffPasteUI.Dialogs {
+    public final CountDownLatch completed = new CountDownLatch(1);
+    public String failure;
+    public int previews;
+    public int confirmations;
+    public boolean preview(DiffPaste.Plan plan, Project project) {
+      previews++;
+      return true;
+    }
+    public boolean confirm(Project project, String warning) {
+      confirmations++;
+      return true;
+    }
+    public void error(Project project, String message, String title) {
+      failure = message;
+      completed.countDown();
+    }
+    public void info(Project project, String message, String title) {
+      completed.countDown();
+    }
+  }
+  public static class UndoDocumentEditor extends UserDataHolderBase implements DocumentsEditor {
+    public Document document;
+    private final JComponent component;
+    public UndoDocumentEditor(JComponent component) {
+      this.component = component;
+    }
+    public Document[] getDocuments() {
+      return new Document[]{document};
+    }
+    public JComponent getComponent() {
+      return component;
+    }
+    public JComponent getPreferredFocusedComponent() {
+      return component;
+    }
+    public String getName() {
+      return "Native editor Undo document";
+    }
+    public void setState(FileEditorState state) {
+    }
+    public boolean isModified() {
+      return false;
+    }
+    public boolean isValid() {
+      return document != null;
+    }
+    public void addPropertyChangeListener(PropertyChangeListener listener) {
+    }
+    public void removePropertyChangeListener(PropertyChangeListener listener) {
+    }
+    public void dispose() {
     }
   }
 

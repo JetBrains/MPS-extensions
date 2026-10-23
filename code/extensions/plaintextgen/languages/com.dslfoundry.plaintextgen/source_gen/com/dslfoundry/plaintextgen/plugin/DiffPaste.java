@@ -278,6 +278,7 @@ public class DiffPaste {
       this.before = before;
       this.after = after;
       this.originalFingerprint = originalFingerprint;
+      this.layoutSupported = DiffPaste.safeLayout(original);
     }
     public boolean isChanged() {
       return !(before.equals(after));
@@ -369,8 +370,9 @@ public class DiffPaste {
     }
     private final List<Piece> words = ListSequence.fromList(new ArrayList<Piece>());
     public boolean isLayoutSupported() {
-      return DiffPaste.safeLayout(original);
+      return layoutSupported;
     }
+    private final boolean layoutSupported;
   }
   public static SNode copyRecovery(Path file, SModel destination, SNodeId templateId) throws IOException {
     SModel stored = loadRecovery(file);

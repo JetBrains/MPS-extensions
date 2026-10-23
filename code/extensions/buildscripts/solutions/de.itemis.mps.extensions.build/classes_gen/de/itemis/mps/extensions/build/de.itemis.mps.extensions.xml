@@ -7731,7 +7731,6 @@
         <depends>jetbrains.mps.build</depends>
         <depends>de.itemis.mps.selection</depends>
         <depends>jetbrains.mps.vcs</depends>
-        <depends>jetbrains.mps.vcs</depends>
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />

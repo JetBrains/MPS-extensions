@@ -16,6 +16,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 *de.slisson.mps.richtext* TextCellModifier has a new method modifyWordList() with the per-word editor wiring of modify(). WordCellSubstituteInfo and the new-line handler no longer assume that the parent of a word is a Text so other concepts that contain words can reuse the wiring. The behavior of Text is unchanged.
 
+### Fixed
+
+- *com.dslfoundry.plaintextgen* Paste Unstructured Text (Preserves Tab Literals) turned a line that contained only tabs into an empty line, and created an empty word next to adjacent, leading and trailing tabs. Lines with only tabs now keep their tabs, and no empty words are created.
+
 ## September 2026
 
 ### Fixed

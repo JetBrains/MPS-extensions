@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    implementation("de.itemis.mps.gradle.common:de.itemis.mps.gradle.common.gradle.plugin:1.30.0.+")
+    implementation("de.itemis.mps.gradle.common:de.itemis.mps.gradle.common.gradle.plugin:1.32.0")
 }
 
 repositories {

@@ -25,6 +25,47 @@ The quickest way to install the plaintextgen plugin is to add it from the JetBra
 After installation, add `com.dslfoundry.plaintextgen` to the `Used Languages` of your generator (`main@generator` model) and create a `TextgenText` template in your generator.
 There's a test language in this repository that demonstrates this language.
 
+## Pasting text containing tabs
+
+Use **Paste Unstructured Text (Preserves Tab Literals)** when your template must
+keep actual tab characters, for example when generating tab-separated data.
+
+1. Copy plain text containing actual tabs to the clipboard. Make sure your source
+   editor has not replaced them with spaces.
+2. In your `TextgenText` template, select the text node you want to replace.
+3. Open the editor's context menu and choose **Paste Unstructured Text (Preserves
+   Tab Literals)**. The action is also available through the intentions menu
+   (`Alt+Enter`) when applicable.
+
+The action replaces the selected text node with a vertical collection of lines.
+Each tab becomes a separate `Tab` node, displayed as an arrow in the editor.
+The arrow is an editor marker: generated text contains a tab character, not an
+arrow or a fixed number of spaces. You can then parameterize the imported text
+with generator macros as usual.
+
+### Small example
+
+Suppose you copy a line containing `name`, two actual tabs, and `value`.
+The imported line contains:
+
+```text
+Word("name")  Tab  Tab  Word("value")
+```
+
+Both tabs are retained, so the empty field between them remains present in the
+generated tab-separated text. Leading and trailing tabs are retained too:
+
+| Clipboard text (`\t` denotes one actual tab) | Imported line contents |
+| --- | --- |
+| `\t\t` | `Tab`, `Tab` |
+| `name\t\tvalue` | `Word("name")`, `Tab`, `Tab`, `Word("value")` |
+| `\tname\t` | `Tab`, `Word("name")`, `Tab` |
+
+The `\t` notation above is only for readability; copying the literal characters
+backslash and `t` does not insert a tab. Adjacent tabs do not create empty `Word`
+nodes. A line containing only spaces and no tabs still becomes an empty line;
+this action does not preserve spaces-only lines.
+
 # Presentations and tutorials
 
 A [tutorial on plaintextgen](https://dslfoundry.com/plaintextgen-tutorial/) is available on the [DSLFoundry blog](https://dslfoundry.com/).

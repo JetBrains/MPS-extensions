@@ -1149,16 +1149,16 @@
             <property role="3oM_SC" value="Paste" />
           </node>
           <node concept="3oM_SD" id="5w9TncfSU3n" role="1PaTwD">
-            <property role="3oM_SC" value="text" />
+            <property role="3oM_SC" value="Text" />
           </node>
           <node concept="3oM_SD" id="5w9TncfSU3o" role="1PaTwD">
             <property role="3oM_SC" value="with" />
           </node>
           <node concept="3oM_SD" id="5w9TncfSU3p" role="1PaTwD">
-            <property role="3oM_SC" value="diff" />
+            <property role="3oM_SC" value="Diff" />
           </node>
           <node concept="3oM_SD" id="5w9TncfSU3q" role="1PaTwD">
-            <property role="3oM_SC" value="preview" />
+            <property role="3oM_SC" value="Preview" />
           </node>
           <node concept="3oM_SD" id="5w9TncfSU3r" role="1PaTwD">
             <property role="3oM_SC" value="updates" />
@@ -1290,13 +1290,13 @@
             <property role="3oM_SC" value="Review" />
           </node>
           <node concept="3oM_SD" id="5w9TncfSU46" role="1PaTwD">
-            <property role="3oM_SC" value="latest" />
+            <property role="3oM_SC" value="Latest" />
           </node>
           <node concept="3oM_SD" id="5w9TncfSU47" role="1PaTwD">
-            <property role="3oM_SC" value="diffing-paste" />
+            <property role="3oM_SC" value="Diffing-Paste" />
           </node>
           <node concept="3oM_SD" id="5w9TncfSU48" role="1PaTwD">
-            <property role="3oM_SC" value="recovery" />
+            <property role="3oM_SC" value="Recovery" />
           </node>
           <node concept="3oM_SD" id="5w9TncfSU49" role="1PaTwD">
             <property role="3oM_SC" value="compares" />

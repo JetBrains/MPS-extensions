@@ -56,8 +56,11 @@ Per-call dialog hooks let native regressions invoke the real paste and recovery
 entry points from an EDT command without displaying modal UI. The hooks cancel
 the actual preview, check the recovery report and isolated model copies, and
 allow concurrent background model readers to complete. Every reader thread is
-joined. Visible dialog interaction, replacement-warning cancellation, and
-one-step Ctrl+Z in the editor remain manual validation checks.
+joined. A native editor test confirms a deferred paste that removes a generator
+macro, invokes the editor's Undo once, and compares the restored structure and
+macro with the original fixture. The preview's layout-support flag is captured
+during preparation so showing the warning needs no model access. Visible dialog
+interaction and replacement-warning cancellation remain manual validation checks.
 
 ### Recovery
 

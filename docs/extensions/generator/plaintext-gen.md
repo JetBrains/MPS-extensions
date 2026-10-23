@@ -273,7 +273,8 @@ Some layouts require
 whole-content replacement; the preview warns you before doing so. Filename,
 encoding, and line-ending settings are kept.
 
-Use Undo to revert a paste. To inspect the original model and macros later,
+Use Undo once to restore the pre-paste structure, including replaced macros.
+To inspect the original model and macros later,
 invoke **Review Latest Diffing-Paste Recovery** on the same template. Recovery
 snapshots survive restarts but are local to your IDE, not shared through Git.
 Every applied change saves the original complete model and an annotation report,

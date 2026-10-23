@@ -21,8 +21,6 @@
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
     <import index="p9jd" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.lang.editor.cellProviders(MPS.Editor/)" />
-    <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" />
-    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="jan3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.image(JDK/)" />
     <import index="wcxw" ref="r:b9f36c08-4a75-4513-9277-a390d3426e0f(jetbrains.mps.editor.runtime.impl.cellActions)" />
@@ -34,7 +32,6 @@
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
     <import index="1ctc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.stream(JDK/)" />
-    <import index="w827" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs.openapi(MPS.Core/)" />
     <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
     <import index="hhnx" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime(MPS.Editor/)" />
@@ -3504,28 +3501,14 @@
           <node concept="3cpWsn" id="HtNrEHBabz" role="3cpWs9">
             <property role="TrG5h" value="imageFile" />
             <node concept="3uibUv" id="HtNrEHBabw" role="1tU5fm">
-              <ref role="3uigEE" to="3ju5:~IFile" resolve="IFile" />
+              <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
-            <node concept="2OqwBi" id="HtNrEHBab$" role="33vP2m">
-              <node concept="liA8E" id="HtNrEHBabA" role="2OqNvi">
-                <ref role="37wK5l" to="w827:~FileSystem.findExistingFile(java.lang.String)" resolve="findExistingFile" />
-                <node concept="37vLTw" id="HtNrEHBabB" role="37wK5m">
+            <node concept="2ShNRf" id="3kCq8EitPem" role="33vP2m">
+              <node concept="1pGfFk" id="3kCq8EitT2O" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                <node concept="37vLTw" id="3kCq8EitUV_" role="37wK5m">
                   <ref role="3cqZAo" node="7bBLNlFJBbS" resolve="fileName" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="1wjaGbcUt4A" role="2Oq$k0">
-                <node concept="liA8E" id="1wjaGbcUtRE" role="2OqNvi">
-                  <ref role="37wK5l" to="z1c3:~AbstractModule.getFileSystem()" resolve="getFileSystem" />
-                </node>
-                <node concept="1eOMI4" id="1kq2va82RES" role="2Oq$k0">
-                  <node concept="10QFUN" id="1kq2va82REP" role="1eOMHV">
-                    <node concept="3uibUv" id="1kq2va82T5w" role="10QFUM">
-                      <ref role="3uigEE" to="z1c3:~AbstractModule" resolve="AbstractModule" />
-                    </node>
-                    <node concept="37vLTw" id="1kq2va82REU" role="10QFUP">
-                      <ref role="3cqZAo" node="7bBLNlFJJUu" resolve="module" />
-                    </node>
-                  </node>
                 </node>
               </node>
             </node>
@@ -3543,12 +3526,17 @@
                     </node>
                     <node concept="liA8E" id="7bBLNlFJN$r" role="2OqNvi">
                       <ref role="37wK5l" to="z60i:~Toolkit.getImage(java.net.URL)" resolve="getImage" />
-                      <node concept="2OqwBi" id="HtNrEHAMVX" role="37wK5m">
-                        <node concept="37vLTw" id="HtNrEHAJiD" role="2Oq$k0">
-                          <ref role="3cqZAo" node="HtNrEHBabz" resolve="imageFile" />
+                      <node concept="2OqwBi" id="3kCq8EitXJv" role="37wK5m">
+                        <node concept="2OqwBi" id="HtNrEHAMVX" role="2Oq$k0">
+                          <node concept="37vLTw" id="HtNrEHAJiD" role="2Oq$k0">
+                            <ref role="3cqZAo" node="HtNrEHBabz" resolve="imageFile" />
+                          </node>
+                          <node concept="liA8E" id="HtNrEHAN5d" role="2OqNvi">
+                            <ref role="37wK5l" to="guwi:~File.toURI()" resolve="toURI" />
+                          </node>
                         </node>
-                        <node concept="liA8E" id="HtNrEHAN5d" role="2OqNvi">
-                          <ref role="37wK5l" to="3ju5:~IFile.getUrl()" resolve="getUrl" />
+                        <node concept="liA8E" id="3kCq8EitZ0r" role="2OqNvi">
+                          <ref role="37wK5l" to="zf81:~URI.toURL()" resolve="toURL" />
                         </node>
                       </node>
                     </node>
@@ -3584,7 +3572,7 @@
               <ref role="3cqZAo" node="HtNrEHBabz" resolve="imageFile" />
             </node>
             <node concept="liA8E" id="7bBLNlFJMLy" role="2OqNvi">
-              <ref role="37wK5l" to="3ju5:~IFile.exists()" resolve="exists" />
+              <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
             </node>
           </node>
         </node>

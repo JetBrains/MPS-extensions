@@ -17,8 +17,7 @@ import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.module.SModule;
 import jetbrains.mps.util.MacrosFactory;
 import java.awt.Toolkit;
-import jetbrains.mps.vfs.IFile;
-import jetbrains.mps.project.AbstractModule;
+import java.io.File;
 import java.net.MalformedURLException;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.smodel.language.LanguageRegistry;
@@ -67,11 +66,12 @@ public class ImageLoading {
       }
     }
 
+    // well, in fact, doesn't make much sense to use MacrosFactory.forModule when fileName doesn't start with MacrosFactory.MODULE
     fileName = MacrosFactory.forModule(module).expandPath(fileName);
-    IFile imageFile = ((AbstractModule) module).getFileSystem().getFile(fileName);
+    File imageFile = new File(fileName);
     if (imageFile.exists()) {
       try {
-        return Toolkit.getDefaultToolkit().getImage(imageFile.getUrl());
+        return Toolkit.getDefaultToolkit().getImage(imageFile.toURI().toURL());
       } catch (MalformedURLException e) {
         if (LOG.isErrorLevel()) {
           LOG.error("Failed to load checkbox image", e);

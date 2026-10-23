@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:b6692149-2550-4b5f-bdc1-76c30c697450(com.jetbrains.mpsext.plaintextgen.paster.tests@tests)/6343853832481811440">
+    <file name="PlaintextPasterTests_Test.java">
+      <node id="6343853832481811440" at="30,38,31,60" concept="5" />
+      <node id="6343853832481811441" at="35,65,36,56" concept="1" />
+      <node id="6343853832481811444" at="39,69,40,60" concept="1" />
+      <node id="6343853832481813020" at="43,76,44,67" concept="1" />
+      <node id="6343853832481813023" at="47,68,48,59" concept="1" />
+      <node id="6343853832481811440" at="53,52,54,19" concept="5" />
+      <node id="6343853832481811440" at="58,36,59,25" concept="1" />
+      <node id="6343853832481811441" at="62,67,63,22" concept="1" />
+      <node id="6343853832481551859" at="64,30,65,67" concept="3" />
+      <node id="6343853832481551864" at="65,67,66,213" concept="1" />
+      <node id="6343853832481551873" at="66,213,67,228" concept="1" />
+      <node id="6343853832481551885" at="67,228,68,337" concept="1" />
+      <node id="6343853832481551901" at="68,337,69,348" concept="1" />
+      <node id="6343853832481551920" at="69,348,70,348" concept="1" />
+      <node id="6343853832481811444" at="73,71,74,22" concept="1" />
+      <node id="6343853832481554311" at="75,30,76,69" concept="3" />
+      <node id="6343853832481554316" at="76,69,77,219" concept="1" />
+      <node id="6343853832481554325" at="77,219,78,234" concept="1" />
+      <node id="6343853832481554337" at="78,234,79,343" concept="1" />
+      <node id="6343853832481554353" at="79,343,80,356" concept="1" />
+      <node id="6343853832481554372" at="80,356,81,416" concept="1" />
+      <node id="6343853832481554393" at="81,416,82,354" concept="1" />
+      <node id="6343853832481554412" at="82,354,83,354" concept="1" />
+      <node id="6343853832481554431" at="83,354,84,356" concept="1" />
+      <node id="6343853832481554450" at="84,356,85,416" concept="1" />
+      <node id="6343853832481813020" at="88,78,89,22" concept="1" />
+      <node id="6343853832481556533" at="90,30,91,72" concept="3" />
+      <node id="6343853832481556538" at="91,72,92,229" concept="1" />
+      <node id="6343853832481556547" at="92,229,93,244" concept="1" />
+      <node id="6343853832481556559" at="93,244,94,353" concept="1" />
+      <node id="6343853832481556575" at="94,353,95,364" concept="1" />
+      <node id="6343853832481556594" at="95,364,96,366" concept="1" />
+      <node id="6343853832481556613" at="96,366,97,430" concept="1" />
+      <node id="6343853832481556634" at="97,430,98,364" concept="1" />
+      <node id="6343853832481813023" at="101,70,102,22" concept="1" />
+      <node id="6343853832481558043" at="103,30,104,68" concept="3" />
+      <node id="6343853832481558048" at="104,68,105,215" concept="1" />
+      <node id="6343853832481558057" at="105,215,106,230" concept="1" />
+      <node id="6343853832481558069" at="106,230,107,339" concept="1" />
+      <node id="6343853832481811440" at="114,0,115,0" concept="4" trace="lines$u7C" />
+      <node id="6343853832481811440" at="115,0,116,0" concept="4" trace="words$teE6" />
+      <node id="6343853832481811440" at="119,0,120,0" concept="4" trace="Line$5o" />
+      <node id="6343853832481811440" at="120,0,121,0" concept="4" trace="Tab$tC" />
+      <node id="6343853832481811440" at="121,0,122,0" concept="4" trace="Word$dj" />
+      <node id="6343853832481811440" at="125,0,126,0" concept="4" trace="name$MnvL" />
+      <node id="6343853832481811440" at="27,0,29,0" concept="4" trace="ourParametersCacheExtension" />
+      <node id="6343853832481811440" at="30,0,33,0" concept="0" trace="PlaintextPasterTests_Test#()V" />
+      <node id="6343853832481811440" at="53,0,56,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="6343853832481811441" at="34,0,38,0" concept="2" trace="test_pastePreservesTabOnlyLine#()V" />
+      <node id="6343853832481811444" at="38,0,42,0" concept="2" trace="test_pastePreservesConsecutiveTabs#()V" />
+      <node id="6343853832481813020" at="42,0,46,0" concept="2" trace="test_pastePreservesLeadingAndTrailingTabs#()V" />
+      <node id="6343853832481813023" at="46,0,50,0" concept="2" trace="test_pastePreservesSpacesOnlyLine#()V" />
+      <node id="6343853832481811440" at="57,0,61,0" concept="2" trace="initTestNodes#()V" />
+      <node id="6343853832481813023" at="102,22,108,9" concept="1" />
+      <node id="6343853832481811441" at="63,22,71,9" concept="1" />
+      <node id="6343853832481813023" at="101,0,110,0" concept="2" trace="test_pastePreservesSpacesOnlyLine#()V" />
+      <node id="6343853832481813020" at="89,22,99,9" concept="1" />
+      <node id="6343853832481811441" at="62,0,73,0" concept="2" trace="test_pastePreservesTabOnlyLine#()V" />
+      <node id="6343853832481811444" at="74,22,86,9" concept="1" />
+      <node id="6343853832481813020" at="88,0,101,0" concept="2" trace="test_pastePreservesLeadingAndTrailingTabs#()V" />
+      <node id="6343853832481811444" at="73,0,88,0" concept="2" trace="test_pastePreservesConsecutiveTabs#()V" />
+      <scope id="6343853832481811440" at="30,38,31,60" />
+      <scope id="6343853832481811441" at="35,65,36,56" />
+      <scope id="6343853832481811444" at="39,69,40,60" />
+      <scope id="6343853832481813020" at="43,76,44,67" />
+      <scope id="6343853832481813023" at="47,68,48,59" />
+      <scope id="6343853832481811440" at="53,52,54,19" />
+      <scope id="6343853832481811440" at="58,36,59,25" />
+      <scope id="6343853832481811440" at="30,0,33,0" />
+      <scope id="6343853832481811440" at="53,0,56,0">
+        <var name="owner" id="6343853832481811440" />
+      </scope>
+      <scope id="6343853832481811441" at="34,0,38,0" />
+      <scope id="6343853832481811444" at="38,0,42,0" />
+      <scope id="6343853832481813020" at="42,0,46,0" />
+      <scope id="6343853832481813023" at="46,0,50,0" />
+      <scope id="6343853832481811440" at="57,0,61,0" />
+      <scope id="6343853832481813023" at="103,30,107,339">
+        <var name="parsed" id="6343853832481558044" />
+      </scope>
+      <scope id="6343853832481811441" at="64,30,70,348">
+        <var name="parsed" id="6343853832481551860" />
+      </scope>
+      <scope id="6343853832481813023" at="101,70,108,9" />
+      <scope id="6343853832481813020" at="90,30,98,364">
+        <var name="parsed" id="6343853832481556534" />
+      </scope>
+      <scope id="6343853832481811441" at="62,67,71,9" />
+      <scope id="6343853832481813023" at="101,0,110,0" />
+      <scope id="6343853832481811444" at="75,30,85,416">
+        <var name="parsed" id="6343853832481554312" />
+      </scope>
+      <scope id="6343853832481811441" at="62,0,73,0" />
+      <scope id="6343853832481813020" at="88,78,99,9" />
+      <scope id="6343853832481811444" at="73,71,86,9" />
+      <scope id="6343853832481813020" at="88,0,101,0" />
+      <scope id="6343853832481811444" at="73,0,88,0" />
+      <unit id="6343853832481811440" at="124,0,127,0" name="com.jetbrains.mpsext.plaintextgen.paster.tests.PlaintextPasterTests_Test$PROPS" />
+      <unit id="6343853832481811440" at="113,0,117,0" name="com.jetbrains.mpsext.plaintextgen.paster.tests.PlaintextPasterTests_Test$LINKS" />
+      <unit id="6343853832481811440" at="118,0,123,0" name="com.jetbrains.mpsext.plaintextgen.paster.tests.PlaintextPasterTests_Test$CONCEPTS" />
+      <unit id="6343853832481811440" at="51,0,112,0" name="com.jetbrains.mpsext.plaintextgen.paster.tests.PlaintextPasterTests_Test$TestBody" />
+      <unit id="6343853832481811440" at="25,0,128,0" name="com.jetbrains.mpsext.plaintextgen.paster.tests.PlaintextPasterTests_Test" />
+    </file>
+  </root>
+</debug-info>
+

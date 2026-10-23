@@ -240,32 +240,30 @@
       <node id="2659193236634685178" at="113,120,114,156" concept="3" />
       <node id="868022654780961830" at="117,9,118,116" concept="3" />
       <node id="3661149507326611253" at="119,7,120,74" concept="3" />
-      <node id="2847858303665389244" at="127,57,128,40" concept="9" />
-      <node id="2847858303665389250" at="128,40,129,49" concept="9" />
-      <node id="2847858303665389257" at="129,49,130,201" concept="3" />
-      <node id="2847858303665389264" at="130,201,131,18" concept="3" />
-      <node id="2847858303665389269" at="131,18,132,0" concept="12" />
-      <node id="2847858303665389270" at="132,0,133,43" concept="9" />
-      <node id="2847858303665389290" at="135,49,136,197" concept="9" />
-      <node id="2847858303665389296" at="136,197,137,78" concept="3" />
-      <node id="2847858303665389304" at="138,41,139,108" concept="3" />
-      <node id="2847858303665389317" at="140,16,141,79" concept="11" />
-      <node id="2847858303668337087" at="141,79,142,97" concept="3" />
-      <node id="2847858303665481351" at="142,97,143,48" concept="9" />
-      <node id="2847858303668380854" at="144,34,145,134" concept="3" />
-      <node id="2847858303668423566" at="145,134,146,85" concept="3" />
-      <node id="2847858303671678299" at="148,52,149,111" concept="3" />
-      <node id="2847858303665389445" at="151,9,152,116" concept="3" />
-      <node id="2847858303665389454" at="153,7,154,74" concept="3" />
-      <node id="868022654781103987" at="157,52,158,40" concept="10" />
-      <node id="3661149507326719680" at="162,0,163,0" concept="13" trace="newlineMarker$LMfW" />
-      <node id="3661149507326719680" at="163,0,164,0" concept="13" trace="words$teE6" />
-      <node id="3661149507326719680" at="164,0,165,0" concept="13" trace="lines$u7C" />
-      <node id="3661149507326719680" at="168,0,169,0" concept="13" trace="Word$dj" />
-      <node id="3661149507326719680" at="169,0,170,0" concept="13" trace="SpaceIndentedText$2u" />
-      <node id="3661149507326719680" at="170,0,171,0" concept="13" trace="Tab$tC" />
-      <node id="3661149507326719680" at="174,0,175,0" concept="13" trace="name$MnvL" />
-      <node id="3661149507326719680" at="175,0,176,0" concept="13" trace="indent$WJd" />
+      <node id="2847858303665389270" at="127,57,128,43" concept="9" />
+      <node id="2847858303665389454" at="129,46,130,76" concept="3" />
+      <node id="1722065323675856242" at="133,63,134,200" concept="9" />
+      <node id="1722065323675856261" at="134,200,135,0" concept="12" />
+      <node id="1722065323675856262" at="135,0,136,28" concept="9" />
+      <node id="1722065323675856275" at="138,49,139,197" concept="9" />
+      <node id="1722065323675856281" at="139,197,140,78" concept="3" />
+      <node id="1722065323675856289" at="141,67,142,108" concept="3" />
+      <node id="1722065323675856323" at="143,16,144,97" concept="3" />
+      <node id="1722065323675856329" at="144,97,145,48" concept="9" />
+      <node id="1722065323675856344" at="147,48,148,136" concept="3" />
+      <node id="1722065323675856354" at="149,13,150,85" concept="3" />
+      <node id="1722065323675856365" at="151,11,152,109" concept="3" />
+      <node id="1722065323675856374" at="153,9,154,105" concept="3" />
+      <node id="1722065323675856419" at="156,5,157,18" concept="10" />
+      <node id="868022654781103987" at="159,52,160,40" concept="10" />
+      <node id="3661149507326719680" at="164,0,165,0" concept="13" trace="newlineMarker$LMfW" />
+      <node id="3661149507326719680" at="165,0,166,0" concept="13" trace="words$teE6" />
+      <node id="3661149507326719680" at="166,0,167,0" concept="13" trace="lines$u7C" />
+      <node id="3661149507326719680" at="170,0,171,0" concept="13" trace="Word$dj" />
+      <node id="3661149507326719680" at="171,0,172,0" concept="13" trace="SpaceIndentedText$2u" />
+      <node id="3661149507326719680" at="172,0,173,0" concept="13" trace="Tab$tC" />
+      <node id="3661149507326719680" at="176,0,177,0" concept="13" trace="name$MnvL" />
+      <node id="3661149507326719680" at="177,0,178,0" concept="13" trace="indent$WJd" />
       <node id="875682139908692366" at="27,0,30,0" concept="14" trace="hasClipboardContents#()Z" />
       <node id="5646944109420336622" at="34,82,37,7" concept="7" />
       <node id="5646944109420336637" at="39,5,42,5" concept="7" />
@@ -273,27 +271,29 @@
       <node id="868022654780707603" at="61,56,64,5" concept="7" />
       <node id="868022654780700541" at="65,42,68,7" concept="7" />
       <node id="868022654780883764" at="74,42,77,5" concept="5" />
-      <node id="2847858303668721759" at="147,11,150,11" concept="7" />
-      <node id="868022654781103987" at="157,0,160,0" concept="14" trace="isEmptyString#(Ljava/lang/String;)Z" />
+      <node id="2847858303665389274" at="128,43,131,5" concept="7" />
+      <node id="1722065323675856340" at="146,34,149,13" concept="7" />
+      <node id="868022654781103987" at="159,0,162,0" concept="14" trace="isEmptyString#(Ljava/lang/String;)Z" />
       <node id="4059077796231822882" at="51,38,55,11" concept="3" />
       <node id="868022654780888715" at="100,41,104,11" concept="18" />
       <node id="2659193236634673048" at="111,28,115,13" concept="7" />
-      <node id="2847858303668377669" at="143,48,147,11" concept="6" />
       <node id="868022654780697619" at="64,5,69,5" concept="5" />
       <node id="5646944109420336615" at="33,0,39,5" concept="6" />
+      <node id="2847858303665389242" at="127,0,133,0" concept="14" trace="pastePlainTextWithTabs#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1722065323675856338" at="145,48,151,11" concept="6" />
       <node id="868022654780881513" at="73,0,80,0" concept="14" trace="toIndent#(I)Ljava/lang/String;" />
+      <node id="1722065323675856306" at="143,14,153,9" concept="0" />
       <node id="868022654780775426" at="61,0,72,0" concept="14" trace="getIndentationLevel#(Ljava/lang/String;)Ljava/lang/Integer;" />
       <node id="868022654780949752" at="105,42,116,11" concept="7" />
-      <node id="2847858303665389315" at="140,14,151,9" concept="0" />
       <node id="5646944109420336650" at="43,66,56,7" concept="17" />
-      <node id="2847858303665389302" at="137,78,151,9" concept="7" />
+      <node id="1722065323675856287" at="140,78,153,9" concept="7" />
       <node id="5646944109420336644" at="42,5,57,5" concept="7" />
-      <node id="2847858303665389283" at="134,46,153,7" concept="6" />
-      <node id="2847858303665389274" at="133,43,155,5" concept="7" />
+      <node id="1722065323675856268" at="137,46,155,7" concept="6" />
+      <node id="1722065323675856266" at="136,28,156,5" concept="7" />
       <node id="868022654780744665" at="94,14,117,9" concept="0" />
       <node id="3661149507326879479" at="91,78,117,9" concept="7" />
+      <node id="1722065323675856234" at="133,0,159,0" concept="14" trace="verticalLinesFromText#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3661149507326867014" at="31,0,60,0" concept="14" trace="getStringFromClipboard#()Ljava/lang/String;" />
-      <node id="2847858303665389242" at="127,0,157,0" concept="14" trace="pastePlainTextWithTabs#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3661149507326845275" at="88,46,119,7" concept="6" />
       <node id="868022654780584221" at="87,43,121,5" concept="7" />
       <node id="3661149507326867842" at="81,0,123,0" concept="14" trace="pastePlainText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
@@ -306,9 +306,10 @@
       <scope id="868022654780700543" at="66,31,67,17" />
       <scope id="868022654780883766" at="75,37,76,20" />
       <scope id="3661149507326879481" at="92,41,93,108" />
-      <scope id="2847858303665389303" at="138,41,139,108" />
-      <scope id="2847858303668721761" at="148,52,149,111" />
-      <scope id="868022654781103987" at="157,52,158,40" />
+      <scope id="2847858303665389275" at="129,46,130,76" />
+      <scope id="1722065323675856288" at="141,67,142,108" />
+      <scope id="1722065323675856343" at="147,48,148,136" />
+      <scope id="868022654781103987" at="159,52,160,40" />
       <scope id="5646944109420336651" at="49,7,51,7">
         <var name="ex" id="5646944109420336655" />
       </scope>
@@ -317,13 +318,12 @@
       </scope>
       <scope id="868022654780888716" at="101,39,103,38" />
       <scope id="2659193236634673050" at="112,35,114,156" />
-      <scope id="2847858303668377671" at="144,34,146,85" />
       <scope id="875682139908692366" at="27,0,30,0" />
       <scope id="868022654780697621" at="65,42,68,7" />
       <scope id="868022654780883764" at="74,42,77,5">
         <var name="i" id="868022654780883767" />
       </scope>
-      <scope id="868022654781103987" at="157,0,160,0">
+      <scope id="868022654781103987" at="159,0,162,0">
         <var name="str" id="868022654781103987" />
       </scope>
       <scope id="5646944109420336621" at="34,82,38,12" />
@@ -331,9 +331,10 @@
         <var name="data" id="5646944109420336668" />
       </scope>
       <scope id="5646944109420336658" at="51,38,55,11" />
-      <scope id="2847858303668377669" at="143,48,147,11">
-        <var name="x" id="2847858303668377672" />
+      <scope id="2847858303665389243" at="127,57,131,5">
+        <var name="text" id="2847858303665389271" />
       </scope>
+      <scope id="1722065323675856339" at="146,34,150,85" />
       <scope id="5646944109420336657" at="51,7,56,7">
         <var name="ex" id="5646944109420336664" />
       </scope>
@@ -346,6 +347,12 @@
       <scope id="5646944109420336615" at="33,0,39,5">
         <var name="trf" id="5646944109420336619" />
       </scope>
+      <scope id="2847858303665389242" at="127,0,133,0">
+        <var name="node" id="2847858303665389464" />
+      </scope>
+      <scope id="1722065323675856338" at="145,48,151,11">
+        <var name="x" id="1722065323675856360" />
+      </scope>
       <scope id="868022654780881513" at="73,0,80,0">
         <var name="level" id="868022654780882178" />
       </scope>
@@ -353,20 +360,20 @@
       <scope id="868022654780949754" at="106,30,115,13">
         <var name="container" id="868022654780866103" />
       </scope>
-      <scope id="2847858303665389316" at="140,16,150,11">
-        <var name="parts" id="2847858303665481354" />
+      <scope id="1722065323675856307" at="143,16,152,109">
+        <var name="parts" id="1722065323675856330" />
       </scope>
       <scope id="868022654780775426" at="61,0,72,0">
         <var name="s" id="868022654780692861" />
       </scope>
       <scope id="5646944109420336649" at="43,66,56,7" />
-      <scope id="2847858303665389289" at="135,49,152,116">
-        <var name="lineNode" id="2847858303665389291" />
+      <scope id="1722065323675856274" at="138,49,154,105">
+        <var name="lineNode" id="1722065323675856276" />
       </scope>
-      <scope id="2847858303665389283" at="134,46,153,7">
-        <var name="line" id="2847858303665389284" />
+      <scope id="1722065323675856267" at="137,46,155,7" />
+      <scope id="1722065323675856268" at="137,46,155,7">
+        <var name="line" id="1722065323675856269" />
       </scope>
-      <scope id="2847858303665389275" at="134,46,154,74" />
       <scope id="868022654780744666" at="94,16,116,11">
         <var name="current" id="868022654780868872" />
         <var name="l" id="868022654780740506" />
@@ -374,20 +381,19 @@
         <var name="last_level" id="2659193236634661193" />
         <var name="lvl" id="868022654780774579" />
       </scope>
+      <scope id="1722065323675856235" at="133,63,157,18">
+        <var name="result" id="1722065323675856243" />
+        <var name="text" id="1722065323675856263" />
+      </scope>
+      <scope id="1722065323675856234" at="133,0,159,0">
+        <var name="inputText" id="1722065323675856393" />
+      </scope>
       <scope id="5646944109420336610" at="31,49,58,16">
         <var name="contents" id="5646944109420336612" />
-      </scope>
-      <scope id="2847858303665389243" at="127,57,155,5">
-        <var name="containers" id="2847858303665389251" />
-        <var name="levels" id="2847858303665389245" />
-        <var name="text" id="2847858303665389271" />
       </scope>
       <scope id="3661149507326867014" at="31,0,60,0" />
       <scope id="3661149507326845281" at="89,49,118,116">
         <var name="lineNode" id="3661149507326621843" />
-      </scope>
-      <scope id="2847858303665389242" at="127,0,157,0">
-        <var name="node" id="2847858303665389464" />
       </scope>
       <scope id="3661149507326845275" at="88,46,119,7">
         <var name="line" id="3661149507326845277" />
@@ -401,10 +407,10 @@
       <scope id="3661149507326867842" at="81,0,123,0">
         <var name="node" id="3661149507326840616" />
       </scope>
-      <unit id="3661149507326719680" at="173,0,177,0" name="com.dslfoundry.plaintextgen.plugin.PlaintextPaster$PROPS" />
-      <unit id="3661149507326719680" at="161,0,166,0" name="com.dslfoundry.plaintextgen.plugin.PlaintextPaster$LINKS" />
-      <unit id="3661149507326719680" at="167,0,172,0" name="com.dslfoundry.plaintextgen.plugin.PlaintextPaster$CONCEPTS" />
-      <unit id="3661149507326719680" at="26,0,178,0" name="com.dslfoundry.plaintextgen.plugin.PlaintextPaster" />
+      <unit id="3661149507326719680" at="175,0,179,0" name="com.dslfoundry.plaintextgen.plugin.PlaintextPaster$PROPS" />
+      <unit id="3661149507326719680" at="163,0,168,0" name="com.dslfoundry.plaintextgen.plugin.PlaintextPaster$LINKS" />
+      <unit id="3661149507326719680" at="169,0,174,0" name="com.dslfoundry.plaintextgen.plugin.PlaintextPaster$CONCEPTS" />
+      <unit id="3661149507326719680" at="26,0,180,0" name="com.dslfoundry.plaintextgen.plugin.PlaintextPaster" />
     </file>
   </root>
   <root nodeRef="r:359669ec-8146-4c97-9e8a-7f7baa158ff0(com.dslfoundry.plaintextgen.plugin)/467505246852156816">

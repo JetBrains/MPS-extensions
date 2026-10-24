@@ -21,6 +21,20 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
+- *de.itemis.mps.editor.celllayout.runtime* Words with overflow-x or overflow-y in an indent layout got a width or height of zero in the overflow direction. They now keep their preferred size.
+- *de.itemis.mps.editor.celllayout.runtime* Shrinking a cell vertically after it was grown failed with an IllegalArgumentException, because the change of the top padding was limited by the left padding.
+- *de.itemis.mps.editor.celllayout.runtime* The selection of cells with a top-down layout could contain child cells that were already removed, because the layout used its own adapter that was never synchronized.
+- *de.itemis.mps.editor.celllayout.runtime* Collections with a top-down layout reported an ascent of 0 when it was queried while a layout was in progress. The ascent is now calculated in that case too.
+- *de.itemis.mps.editor.celllayout.runtime* Grid post-processing resized collections that the grid lays out as single elements and reset their padding. Only flattened collections are processed now.
+- *de.itemis.mps.editor.celllayout.runtime* Cells that inherit relayoutImpl from a superclass were not detected as overriding it. They now skip the top-down layout like cells that declare it themselves, for example diagram elements.
+- *de.itemis.mps.editor.celllayout.runtime* Cloning a box model shared the outer box of a frame between the clone and the original, and the padding and content boxes of the clone pointed at the wrong layers.
+- *de.itemis.mps.editor.celllayout.runtime* The own border of a collection was ignored when calculating whether it has a border.
+- *de.itemis.mps.editor.celllayout.runtime* When scaling grid columns, the rounding error could be added to a column with weight 0, changing its fixed width.
+- *de.itemis.mps.editor.celllayout.runtime* The right gap of a collection with a border was removed when its first child had a right border instead of its last child, so a double border was drawn on the right.
+- *de.itemis.mps.editor.celllayout.runtime* In a grid, the gap after a cell with a border only on its right side was put on the wrong cell, because the right border was looked up as the left border.
+- *de.itemis.mps.editor.celllayout.runtime* When scaling grid rows, the rounding error was always added to the last row, even when its weight was 0, and a weighted row with a height of 0 did not grow.
+- *de.itemis.mps.editor.celllayout.runtime* The selection bounds of cells with a top-down layout overlapped where the gap between two neighbouring cells was closed.
+- *de.itemis.mps.editor.celllayout.runtime* When the layout watchdog had used up its budget, a nested layout started over with a new budget instead of timing out.
 - *com.dslfoundry.langvis.plugin* Include inherited concept and interface structures when visualizing a language (#372), and offer language visualization only for structure models (#511).
 - *com.dslfoundry.langvis.plugin* Initialize the visualization tool and toolbar safely in MPS 2026.2 (#1869, #1872). Use the bundled MIT-licensed PlantUML and SVG preview without an external Java executable or a home-directory PlantUML jar (#1873, #364, #363).
 - *com.dslfoundry.langvis.plugin* Re-render the SVG at the selected zoom for a sharp preview. Refresh regenerates the diagram at the current zoom, and zoom limits preserve the aspect ratio.

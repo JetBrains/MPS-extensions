@@ -239,7 +239,7 @@ public class CellLayoutUtil {
         if (gap > 0) {
           int gap1 = gap / 2;
           int gap2 = gap - gap1;
-          bounds1.width += gap;
+          bounds1.width += gap1;
           bounds2.width += gap2;
           bounds2.x -= gap2;
         }

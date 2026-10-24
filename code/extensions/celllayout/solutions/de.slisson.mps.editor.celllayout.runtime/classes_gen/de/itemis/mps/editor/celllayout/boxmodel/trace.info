@@ -1078,8 +1078,8 @@
       <node id="2623983396592697728" at="208,37,209,40" concept="2" />
       <node id="2623983396592697732" at="209,40,210,18" concept="7" />
       <node id="2623983396592705271" at="215,9,216,66" concept="6" />
-      <node id="2623983396592720198" at="216,66,217,32" concept="2" />
-      <node id="2623983396592705278" at="217,32,218,44" concept="2" />
+      <node id="550306466058884822" at="216,66,217,46" concept="2" />
+      <node id="2623983396592705278" at="217,46,218,44" concept="2" />
       <node id="2623983396592761335" at="218,44,219,19" concept="7" />
       <node id="2623983396592718148" at="220,45,221,37" concept="12" />
       <node id="2623983396592551893" at="15,0,18,0" concept="1" trace="CalcOnWriteFrame#(Lde/itemis/mps/editor/celllayout/boxmodel/LayoutBox;)V" />
@@ -1416,32 +1416,33 @@
       <node id="4297552911202864510" at="125,68,126,44" concept="2" />
       <node id="4297552911202864518" at="126,44,127,75" concept="2" />
       <node id="4297552911202870531" at="127,75,128,77" concept="2" />
-      <node id="4297552911202864531" at="128,77,129,78" concept="2" />
-      <node id="4297552911202864544" at="129,78,130,58" concept="2" />
-      <node id="4297552911202864552" at="130,58,131,17" concept="7" />
-      <node id="4297552911203167714" at="136,20,137,18" concept="7" />
-      <node id="4297552911203167720" at="139,55,140,19" concept="7" />
-      <node id="4297552911203167733" at="141,5,142,0" concept="9" />
-      <node id="4297552911203167734" at="142,0,143,53" concept="6" />
-      <node id="4297552911203167752" at="144,101,145,19" concept="7" />
-      <node id="4297552911203167771" at="147,105,148,19" concept="7" />
-      <node id="4297552911203167785" at="149,5,150,0" concept="9" />
-      <node id="4297552911203167786" at="150,0,151,16" concept="7" />
-      <node id="4297552911203167793" at="155,25,156,19" concept="6" />
-      <node id="4297552911203167806" at="156,19,157,91" concept="2" />
-      <node id="4297552911203167825" at="157,91,158,93" concept="2" />
-      <node id="4297552911203167839" at="158,93,159,18" concept="7" />
-      <node id="2735157399254777068" at="161,66,162,47" concept="7" />
+      <node id="550306466058891741" at="128,77,129,85" concept="2" />
+      <node id="550306466058891748" at="129,85,130,84" concept="2" />
+      <node id="4297552911202864544" at="130,84,131,58" concept="2" />
+      <node id="4297552911202864552" at="131,58,132,17" concept="7" />
+      <node id="4297552911203167714" at="137,20,138,18" concept="7" />
+      <node id="4297552911203167720" at="140,55,141,19" concept="7" />
+      <node id="4297552911203167733" at="142,5,143,0" concept="9" />
+      <node id="4297552911203167734" at="143,0,144,53" concept="6" />
+      <node id="4297552911203167752" at="145,101,146,19" concept="7" />
+      <node id="4297552911203167771" at="148,105,149,19" concept="7" />
+      <node id="4297552911203167785" at="150,5,151,0" concept="9" />
+      <node id="4297552911203167786" at="151,0,152,16" concept="7" />
+      <node id="4297552911203167793" at="156,25,157,19" concept="6" />
+      <node id="4297552911203167806" at="157,19,158,91" concept="2" />
+      <node id="4297552911203167825" at="158,91,159,93" concept="2" />
+      <node id="4297552911203167839" at="159,93,160,18" concept="7" />
+      <node id="2735157399254777068" at="162,66,163,47" concept="7" />
       <node id="2701956601757876039" at="23,45,26,5" concept="4" />
       <node id="4403454289951433171" at="45,0,48,0" concept="5" trace="init#()V" />
       <node id="135390487415925217" at="49,0,52,0" concept="5" trace="getAdditionalPadding#()Lde/itemis/mps/editor/celllayout/boxmodel/LayoutBoxFrame;" />
       <node id="135390487415965295" at="53,0,56,0" concept="5" trace="getBracketsBox#()Lde/itemis/mps/editor/celllayout/boxmodel/LayoutBoxFrame;" />
       <node id="5538198647897532274" at="113,10,116,5" concept="0" />
-      <node id="4297552911203167712" at="135,35,138,5" concept="4" />
-      <node id="4297552911203167718" at="138,5,141,5" concept="4" />
-      <node id="4297552911203167750" at="143,53,146,5" concept="4" />
-      <node id="4297552911203167769" at="146,5,149,5" concept="4" />
-      <node id="2735157399254777068" at="161,0,164,0" concept="11" trace="as_rhf012_a0a0a3#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="4297552911203167712" at="136,35,139,5" concept="4" />
+      <node id="4297552911203167718" at="139,5,142,5" concept="4" />
+      <node id="4297552911203167750" at="144,53,147,5" concept="4" />
+      <node id="4297552911203167769" at="147,5,150,5" concept="4" />
+      <node id="2735157399254777068" at="162,0,165,0" concept="11" trace="as_rhf012_a0a0a3#(Ljava/lang/Object;Ljava/lang/Class;)null" />
       <node id="861697192441918731" at="15,109,19,5" concept="4" />
       <node id="135390487416012345" at="63,86,67,5" concept="4" />
       <node id="135390487416019019" at="67,5,71,5" concept="4" />
@@ -1451,23 +1452,23 @@
       <node id="4303254841190017163" at="116,5,120,5" concept="4" />
       <node id="2701956601757870407" at="23,0,28,0" concept="11" trace="clear#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
       <node id="5538198647897527916" at="110,69,116,5" concept="4" />
-      <node id="4297552911203167788" at="154,0,161,0" concept="5" trace="hashCode#()I" />
+      <node id="4297552911203167788" at="155,0,162,0" concept="5" trace="hashCode#()I" />
       <node id="861697192442189460" at="14,0,22,0" concept="11" trace="getInstance#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Lde/itemis/mps/editor/celllayout/boxmodel/EditorCellBoxModel;" />
-      <node id="4297552911202864497" at="123,0,133,0" concept="5" trace="clone#()Lde/itemis/mps/editor/celllayout/boxmodel/DefaultBoxModel;" />
       <node id="4403454289951403351" at="33,0,44,0" concept="1" trace="EditorCellBoxModel#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="4297552911202864497" at="123,0,134,0" concept="5" trace="clone#()Lde/itemis/mps/editor/celllayout/boxmodel/DefaultBoxModel;" />
       <node id="4403454289951403477" at="106,0,122,0" concept="5" trace="writeSync#(Z)V" />
-      <node id="4297552911203167708" at="134,0,153,0" concept="5" trace="equals#(Ljava/lang/Object;)Z" />
+      <node id="4297552911203167708" at="135,0,154,0" concept="5" trace="equals#(Ljava/lang/Object;)Z" />
       <node id="4403454289951403427" at="57,0,100,0" concept="5" trace="readSync#()V" />
       <scope id="4403454289951433198" at="46,25,46,25" />
       <scope id="2701956601757876040" at="24,54,25,48" />
       <scope id="135390487415925221" at="49,48,50,31" />
       <scope id="135390487415965299" at="53,42,54,25" />
       <scope id="5538198647897527918" at="111,18,112,100" />
-      <scope id="4297552911203167713" at="136,20,137,18" />
-      <scope id="4297552911203167719" at="139,55,140,19" />
-      <scope id="4297552911203167751" at="144,101,145,19" />
-      <scope id="4297552911203167770" at="147,105,148,19" />
-      <scope id="2735157399254777068" at="161,66,162,47" />
+      <scope id="4297552911203167713" at="137,20,138,18" />
+      <scope id="4297552911203167719" at="140,55,141,19" />
+      <scope id="4297552911203167751" at="145,101,146,19" />
+      <scope id="4297552911203167770" at="148,105,149,19" />
+      <scope id="2735157399254777068" at="162,66,163,47" />
       <scope id="861697192441918733" at="16,22,18,47" />
       <scope id="135390487416012347" at="64,22,66,18" />
       <scope id="135390487416019021" at="68,23,70,19" />
@@ -1480,12 +1481,12 @@
       <scope id="4403454289951433171" at="45,0,48,0" />
       <scope id="135390487415925217" at="49,0,52,0" />
       <scope id="135390487415965295" at="53,0,56,0" />
-      <scope id="2735157399254777068" at="161,0,164,0">
+      <scope id="2735157399254777068" at="162,0,165,0">
         <var name="o" id="2735157399254777068" />
         <var name="type" id="2735157399254777068" />
       </scope>
       <scope id="7790698011507431997" at="101,0,105,0" />
-      <scope id="4297552911203167791" at="155,25,159,18">
+      <scope id="4297552911203167791" at="156,25,160,18">
         <var name="result" id="4297552911203167794" />
       </scope>
       <scope id="2701956601757870407" at="23,0,28,0">
@@ -1494,26 +1495,26 @@
       <scope id="861697192441917004" at="14,65,20,15">
         <var name="box" id="861697192441918293" />
       </scope>
-      <scope id="4297552911202864500" at="124,34,131,17">
-        <var name="clone" id="4297552911202864504" />
-      </scope>
-      <scope id="4297552911203167788" at="154,0,161,0" />
+      <scope id="4297552911203167788" at="155,0,162,0" />
       <scope id="861697192442189460" at="14,0,22,0">
         <var name="cell" id="861697192441917203" />
       </scope>
+      <scope id="4297552911202864500" at="124,34,132,17">
+        <var name="clone" id="4297552911202864504" />
+      </scope>
       <scope id="4403454289951403355" at="33,52,42,15" />
-      <scope id="4297552911202864497" at="123,0,133,0" />
       <scope id="4403454289951403351" at="33,0,44,0">
         <var name="editorCell" id="4403454289951403353" />
       </scope>
+      <scope id="4297552911202864497" at="123,0,134,0" />
       <scope id="4403454289951403480" at="106,42,120,5" />
       <scope id="4403454289951403477" at="106,0,122,0">
         <var name="useMove" id="5538198647897515786" />
       </scope>
-      <scope id="4297552911203167711" at="135,35,151,16">
+      <scope id="4297552911203167711" at="136,35,152,16">
         <var name="that" id="4297552911203167735" />
       </scope>
-      <scope id="4297552911203167708" at="134,0,153,0">
+      <scope id="4297552911203167708" at="135,0,154,0">
         <var name="o" id="4297552911203167740" />
       </scope>
       <scope id="4403454289951403430" at="57,26,98,102">
@@ -1524,7 +1525,7 @@
         <var name="width" id="171054729459574259" />
       </scope>
       <scope id="4403454289951403427" at="57,0,100,0" />
-      <unit id="4403454289951403328" at="10,0,165,0" name="de.itemis.mps.editor.celllayout.boxmodel.EditorCellBoxModel" />
+      <unit id="4403454289951403328" at="10,0,166,0" name="de.itemis.mps.editor.celllayout.boxmodel.EditorCellBoxModel" />
     </file>
   </root>
   <root nodeRef="r:6107a535-c9ce-47d9-a4cd-4df6fd2db517(de.itemis.mps.editor.celllayout.boxmodel)/4531685632216805338">

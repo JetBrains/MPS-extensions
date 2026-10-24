@@ -4,10 +4,12 @@
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
     <use id="990507d3-3527-4c54-bfe9-0ca3c9c6247a" name="com.dslfoundry.plaintextgen" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="b7rd" ref="r:e4a8ca6a-7b45-453e-94e2-7138dbc8da65(com.dslfoundry.plaintextgen.example.testlang.structure)" implicit="true" />
+    <import index="b7rd" ref="r:e4a8ca6a-7b45-453e-94e2-7138dbc8da65(com.dslfoundry.plaintextgen.example.testlang.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -236,6 +238,38 @@
     </node>
     <node concept="n94m4" id="3bf11hdN3$D" role="lGtFl">
       <ref role="n9lRv" to="b7rd:3bf11hdN2og" resolve="TestConcept" />
+    </node>
+    <node concept="17Uvod" id="5w9TnceIOMk" role="lGtFl">
+      <property role="2qtEX9" value="modelLineEnding" />
+      <property role="P4ACc" value="990507d3-3527-4c54-bfe9-0ca3c9c6247a/1145195647825954788/6343853832442622182" />
+      <node concept="3zFVjK" id="5w9TnceIOMl" role="3zH0cK">
+        <node concept="3clFbS" id="5w9TnceIOMm" role="2VODD2">
+          <node concept="3clFbF" id="5w9TnceIOMn" role="3cqZAp">
+            <node concept="2OqwBi" id="5w9TnceIOMo" role="3clFbG">
+              <node concept="30H73N" id="5w9TnceIOMp" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5w9TnceIOMq" role="2OqNvi">
+                <ref role="3TsBF5" to="b7rd:5w9TnceIOMf" resolve="modelLineEnding" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="17Uvod" id="5w9TnceIOMA" role="lGtFl">
+      <property role="2qtEX9" value="settingsLineEnding" />
+      <property role="P4ACc" value="990507d3-3527-4c54-bfe9-0ca3c9c6247a/1145195647825954788/6343853832442622185" />
+      <node concept="3zFVjK" id="5w9TnceIOMB" role="3zH0cK">
+        <node concept="3clFbS" id="5w9TnceIOMC" role="2VODD2">
+          <node concept="3clFbF" id="5w9TnceIOMD" role="3cqZAp">
+            <node concept="2OqwBi" id="5w9TnceIOME" role="3clFbG">
+              <node concept="30H73N" id="5w9TnceIOMF" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5w9TnceIOMG" role="2OqNvi">
+                <ref role="3TsBF5" to="b7rd:5w9TnceIOMz" resolve="settingsLineEnding" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="356sEV" id="2VrnFamdTZv">

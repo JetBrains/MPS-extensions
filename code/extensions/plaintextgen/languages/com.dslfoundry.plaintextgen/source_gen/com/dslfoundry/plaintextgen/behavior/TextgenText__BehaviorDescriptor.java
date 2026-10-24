@@ -8,21 +8,25 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
+import org.jetbrains.mps.openapi.language.SEnumerationLiteral;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
+import jetbrains.mps.lang.smodel.EnumerationLiteralsIndex;
 import org.jetbrains.mps.openapi.language.SProperty;
 
 public final class TextgenText__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, "com.dslfoundry.plaintextgen.structure.TextgenText");
 
   public static final SMethod<String> getPresentation_idhEwIMiw = new SMethodBuilder<>(String.class).name("getPresentation").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1213877396640L).languageId(0x9b92103b95ca8c0cL, 0xceab519525ea4f22L).build2();
+  public static final SMethod<SEnumerationLiteral> getEffectiveLineEnding_id5w9TncdLpKi = new SMethodBuilder<>(SEnumerationLiteral.class).name("getEffectiveLineEnding").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(6343853832443108370L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2();
 
-  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getPresentation_idhEwIMiw);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getPresentation_idhEwIMiw, getEffectiveLineEnding_id5w9TncdLpKi);
 
 
   /*package*/ static String getPresentation_idhEwIMiw(@NotNull SNode __thisNode__) {
@@ -38,6 +42,20 @@ public final class TextgenText__BehaviorDescriptor extends BaseBHDescriptor {
     }
     return representation;
   }
+  /*package*/ static SEnumerationLiteral getEffectiveLineEnding_id5w9TncdLpKi(@NotNull SNode __thisNode__) {
+    switch (enumSwitchIndex.indexNullable((SPropertyOperations.getEnum(__thisNode__, PROPS.modelLineEnding$396w) != SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, "com.dslfoundry.plaintextgen.structure.LineEndingOverride"), 0x1167e71de631106cL, "Inherit") ? SPropertyOperations.getEnum(__thisNode__, PROPS.modelLineEnding$396w) : SPropertyOperations.getEnum(__thisNode__, PROPS.settingsLineEnding$39Nz)))) {
+      case 0:
+        return SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L, "com.dslfoundry.plaintextgen.structure.LineEnding"), 0x4a27aa4b40c21e6aL, "Native");
+      case 1:
+        return SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L, "com.dslfoundry.plaintextgen.structure.LineEnding"), 0x705a2e3e0ba1ef48L, "CRLF");
+      case 2:
+        return SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L, "com.dslfoundry.plaintextgen.structure.LineEnding"), 0x705a2e3e0ba1ef44L, "CR");
+      case 3:
+        return SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x705a2e3e0ba1ef43L, "com.dslfoundry.plaintextgen.structure.LineEnding"), 0x705a2e3e0ba1ef45L, "LF");
+      default:
+        return SPropertyOperations.getEnum(__thisNode__, PROPS.lineEnding$vhkT);
+    }
+  }
 
   /*package*/ TextgenText__BehaviorDescriptor() {
   }
@@ -52,6 +70,8 @@ public final class TextgenText__BehaviorDescriptor extends BaseBHDescriptor {
     switch (methodIndex) {
       case 0:
         return (T) ((String) getPresentation_idhEwIMiw(node));
+      case 1:
+        return (T) ((SEnumerationLiteral) getEffectiveLineEnding_id5w9TncdLpKi(node));
       default:
         throw new BHMethodNotFoundException(this, method);
     }
@@ -80,6 +100,7 @@ public final class TextgenText__BehaviorDescriptor extends BaseBHDescriptor {
   public SAbstractConcept getConcept() {
     return CONCEPT;
   }
+  private static final EnumerationLiteralsIndex enumSwitchIndex = EnumerationLiteralsIndex.build(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x5809e5730dbe30ddL, 0x3e6319798c8f5401L, 0x96f477eccb23eaL, 0x10d4a1dc07c7673cL, 0x15f6d205db77e458L);
   private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }
@@ -87,5 +108,8 @@ public final class TextgenText__BehaviorDescriptor extends BaseBHDescriptor {
   private static final class PROPS {
     /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
     /*package*/ static final SProperty ext$2$7y = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0x4b0b5d65ba33c118L, "ext");
+    /*package*/ static final SProperty modelLineEnding$396w = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0x5809e5730dbe30e6L, "modelLineEnding");
+    /*package*/ static final SProperty settingsLineEnding$39Nz = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0x5809e5730dbe30e9L, "settingsLineEnding");
+    /*package*/ static final SProperty lineEnding$vhkT = MetaAdapterFactory.getProperty(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0xfe48d5fcafd47e4L, 0x705a2e3e0ba1ef4cL, "lineEnding");
   }
 }

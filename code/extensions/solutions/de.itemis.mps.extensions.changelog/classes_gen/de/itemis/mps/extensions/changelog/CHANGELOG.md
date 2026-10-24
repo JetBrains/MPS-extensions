@@ -10,6 +10,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 *com.jetbrains.mpsext.richtext.styles* New language that styles individual words of a richtext Text with reusable styles. A Style defines bold, italic and light/dark foreground and background colors, a Stylesheet holds styles and a Span wraps words and references a Style. Intentions apply a style to the selected words and clear styles again. Existing richtext documents keep working without changes.
 - *com.jetbrains.mpsext.viewmodel* New (experimental): view models. A view model keeps data that belongs to nodes of persisted models, such as computed results, in memory instead of in the model. Editors that show it are updated when it changes, and an entry computed from other nodes is removed as soon as one of them changes. Declare a view model with `view model X` and use it with `viewmodel/X/`. `write` finds the project of the node and applies the value at once inside a command, otherwise later. In editor code the project of the editor is used, elsewhere one can be given with `viewmodel/X/(project)`. The Java API is in com.jetbrains.mpsext.viewmodel.runtime (`ViewModels.named(...)`). The *View Models* tool window shows the content of all view models, the nodes each value was computed from, and removes entries on request. Values can also be nodes: a rewrite updates the stored copy in place, so editors that show it only update what changed. See *Utilities* > *View Models* in the documentation.
+- *com.dslfoundry.plaintextgen* TextgenText has two optional line ending overrides, modelLineEnding and settingsLineEnding, that a generator can fill with property macros. The model/query override wins over the settings override, which wins over the existing lineEnding setting. Both default to Inherit, so existing templates generate the same output as before.
+- *de.itemis.mps.comparator* The new class TextOutputAssertions checks the filename, charset and exact bytes of text generation output, without normalizing line endings.
+- *com.dslfoundry.plaintextgen* The new intention Paste Text with Diff Preview updates a TextgenText from text in the clipboard. It shows the change in a diff first and keeps unchanged lines and words together with their generator macros. Before each change it saves the original model locally, outside the project, and the intention Review Latest Diffing-Paste Recovery compares that copy with the current template.
+- *com.dslfoundry.plaintextgen* New intention "Split Vertical Layout after Line" moves the lines that follow the selected line of a vertical layout into a new vertical layout placed right after it.
 
 ### Changed
 
@@ -31,6 +35,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 - *de.itemis.mps.editor.celllayout.runtime* When scaling grid rows, the rounding error was always added to the last row, even when its weight was 0, and a weighted row with a height of 0 did not grow.
 - *de.itemis.mps.editor.celllayout.runtime* The selection bounds of cells with a top-down layout overlapped where the gap between two neighbouring cells was closed.
 - *de.itemis.mps.editor.celllayout.runtime* When the layout watchdog had used up its budget, a nested layout started over with a new budget instead of timing out.
+- *com.dslfoundry.langvis.plugin* Include inherited concept and interface structures when visualizing a language (#372), and offer language visualization only for structure models (#511).
+- *com.dslfoundry.langvis.plugin* Initialize the visualization tool and toolbar safely in MPS 2026.2 (#1869, #1872). Use the bundled MIT-licensed PlantUML and SVG preview without an external Java executable or a home-directory PlantUML jar (#1873, #364, #363).
+- *com.dslfoundry.langvis.plugin* Re-render the SVG at the selected zoom for a sharp preview. Refresh regenerates the diagram at the current zoom, and zoom limits preserve the aspect ratio.
+- *com.dslfoundry.plaintextgen* Paste Unstructured Text (Preserves Tab Literals) turned a line that contained only tabs into an empty line, and created an empty word next to adjacent, leading and trailing tabs. Lines with only tabs now keep their tabs, and no empty words are created.
 
 ## September 2026
 

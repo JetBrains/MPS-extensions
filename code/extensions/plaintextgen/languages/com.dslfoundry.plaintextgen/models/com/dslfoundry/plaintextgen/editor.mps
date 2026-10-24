@@ -11,7 +11,7 @@
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="k44w" ref="r:359669ec-8146-4c97-9e8a-7f7baa158ff0(com.dslfoundry.plaintextgen.plugin)" />
-    <import index="myiq" ref="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)" implicit="true" />
+    <import index="myiq" ref="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)" />
     <import index="3rmn" ref="r:b897be85-c7f0-4f6e-a384-6097798b14e3(com.dslfoundry.plaintextgen.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -788,6 +788,26 @@
       </node>
       <node concept="3F0A7n" id="71qbzSbCuXt" role="3EZMnx">
         <ref role="1NtTu8" to="myiq:7WTFIQIcYwp" resolve="lineEnding" />
+      </node>
+      <node concept="3EZMnI" id="5w9TncdLpRL" role="3EZMnx">
+        <node concept="VPM3Z" id="5w9TncdLpRM" role="3F10Kt" />
+        <node concept="2iRfu4" id="5w9TncdLpRO" role="2iSdaV" />
+        <node concept="3F0ifn" id="5w9TncdLpRP" role="3EZMnx">
+          <property role="3F0ifm" value="Model/query override:" />
+        </node>
+        <node concept="3F0A7n" id="5w9TncdLpRQ" role="3EZMnx">
+          <ref role="1NtTu8" to="myiq:5w9TncdJz3A" resolve="modelLineEnding" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="5w9TncdLpRT" role="3EZMnx">
+        <node concept="VPM3Z" id="5w9TncdLpRU" role="3F10Kt" />
+        <node concept="2iRfu4" id="5w9TncdLpRW" role="2iSdaV" />
+        <node concept="3F0ifn" id="5w9TncdLpRX" role="3EZMnx">
+          <property role="3F0ifm" value="Settings override:" />
+        </node>
+        <node concept="3F0A7n" id="5w9TncdLpRY" role="3EZMnx">
+          <ref role="1NtTu8" to="myiq:5w9TncdJz3D" resolve="settingsLineEnding" />
+        </node>
       </node>
     </node>
   </node>

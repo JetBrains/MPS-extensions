@@ -24,10 +24,10 @@ public class DiagramApplicationPlugin_AppPluginPart extends ApplicationPluginPar
   }
   @Override
   public void init() {
-    Extensions.getArea(null).getExtensionPoint(ActionPromoter.EP_NAME).registerExtension(DiagramApplicationPlugin_AppPluginPart.this.promoter);
+    Extensions.getRootArea().getExtensionPoint(ActionPromoter.EP_NAME).registerExtension(DiagramApplicationPlugin_AppPluginPart.this.promoter);
   }
   @Override
   public void dispose() {
-    Extensions.getArea(null).getExtensionPoint(ActionPromoter.EP_NAME).unregisterExtension(DiagramApplicationPlugin_AppPluginPart.this.promoter);
+    Extensions.getRootArea().getExtensionPoint(ActionPromoter.EP_NAME).unregisterExtension(DiagramApplicationPlugin_AppPluginPart.this.promoter);
   }
 }

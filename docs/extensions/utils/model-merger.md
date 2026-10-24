@@ -22,16 +22,16 @@ To get started:
 ## Creating merging policies
 
 Create a new root node of concept [ModelMergingPolicy](http://127.0.0.1:63320/node?ref=r%3A58892eeb-9059-4684-af0a-e0f5f7f9800d%28de.itemis.model.merge.structure%29%2F1912777765298163335) inside the **plugin** model. The main language has to be defined. If there are additional languages involved, they can be specified as well. Now, merge policies can be defined for different concepts. The concepts need to be identifiable by a unique ID, for example, by an ID property. The scope of the uniqueness property depends on the context where the model merger is used. Normally, it's the project scope but there are cases where the ID needs to be globally unique.
-All concepts defined in those languages used in the merging policy shall have a `ConceptMergingPolicy` defined in the `ModelMergingPolicy`. For prototyping purpose or for big languages, there is an option to set the flag `Partial policy` to `true` so that some check for the ModelMerging are relaxed. However models used in the merging shall not contain concepts wihtout policies otherwise an exception will be throw.
+All concepts defined in those languages used in the merging policy shall have a `ConceptMergingPolicy` defined in the `ModelMergingPolicy`. For prototyping purpose or for big languages, there is an option to set the flag `Partial policy` to `true` so that some check for the ModelMerging are relaxed. However models used in the merging shall not contain concepts without policies otherwise an exception will be thrown.
 
-Each `ConceptMergingPolicy` is composed of an identification function and policies for Properties, Children, and Reference, as described bellow.
+Each `ConceptMergingPolicy` is composed of an identification function and policies for Properties, Children, and Reference, as described below.
 
 ### Properties
 
 For properties, three options are possible: 
 
 - **Left**: use the value of the left property, and discard the value of the right property.
-- **Right**: use the value of the right property, and discard the value of the right property.
+- **Right**: use the value of the right property, and discard the value of the left property.
 - **Manual**: a custom merger that must return a value of the same type as the property
 
 ### Children
@@ -62,7 +62,7 @@ For references, three options are possible:
 
 ## Running model merging
 
-The model merge can be executed by creating a [ModelMergingConfiguration](http://127.0.0.1:63320/node?ref=r%3A58892eeb-9059-4684-af0a-e0f5f7f9800d%28de.itemis.model.merge.structure%29%2F6402745832171993510) node in a model with dependencies to the models being merged and mde`de.itemis.model.merge` language. The following parameters must be defined in the configuraiton: 
+The model merge can be executed by creating a [ModelMergingConfiguration](http://127.0.0.1:63320/node?ref=r%3A58892eeb-9059-4684-af0a-e0f5f7f9800d%28de.itemis.model.merge.structure%29%2F6402745832171993510) node in a model with dependencies to the models being merged and the `de.itemis.model.merge` language. The following parameters must be defined in the configuration: 
 
 - **Left**: a model pointer to the first model
 - **Right**: a model pointer to the second model
@@ -71,7 +71,7 @@ The model merge can be executed by creating a [ModelMergingConfiguration](http:/
 - **Merge Policy**: the policy that should be applied to the left and right model
 
 In order to execute the merging one can use the intention `Run Model Merge` or call the `execute` method programmatically.
-Additonaly one can use the [ModelMerger](http://127.0.0.1:63320/node?ref=r%3Aa4055897-4d16-4474-96e9-a78cf2abfe5a%28de.itemis.model.merge.runtime.runtime%29%2F3370123198534290138) directly to control which root-nodes shall be provided for merging. Use the following code snippet for inspiration: 
+Additionally one can use the [ModelMerger](http://127.0.0.1:63320/node?ref=r%3Aa4055897-4d16-4474-96e9-a78cf2abfe5a%28de.itemis.model.merge.runtime.runtime%29%2F3370123198534290138) directly to control which root-nodes shall be provided for merging. Use the following code snippet for inspiration: 
 
 ```java
 private void mergeRoots(concept<> usingConcept)  { 

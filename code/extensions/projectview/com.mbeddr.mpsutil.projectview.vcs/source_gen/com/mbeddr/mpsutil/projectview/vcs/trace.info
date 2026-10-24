@@ -49,16 +49,16 @@
       <node id="2392588809324709640" at="16,58,17,24" concept="2" />
       <node id="2392588809324706888" at="17,24,18,69" concept="2" />
       <node id="2392588809324580117" at="22,44,23,77" concept="2" />
-      <node id="2392588809324572433" at="27,26,28,85" concept="2" />
-      <node id="2392588809324574377" at="31,28,32,87" concept="2" />
+      <node id="2392588809324572433" at="27,26,28,80" concept="2" />
+      <node id="2392588809324574377" at="31,28,32,82" concept="2" />
       <node id="2392588809324576668" at="21,39,24,5" concept="4" />
       <node id="2392588809324572378" at="27,0,30,0" concept="5" trace="register#()V" />
       <node id="2392588809324572407" at="31,0,34,0" concept="5" trace="unregister#()V" />
       <node id="2392588809324706539" at="16,0,20,0" concept="1" trace="CustomTreeHighlighterExtension#(Lcom/intellij/openapi/project/Project;)V" />
       <node id="2392588809324574100" at="21,0,26,0" concept="5" trace="attach#(Ljetbrains/mps/ide/ui/tree/MPSTree;)V" />
       <scope id="2392588809324576669" at="22,44,23,77" />
-      <scope id="2392588809324572382" at="27,26,28,85" />
-      <scope id="2392588809324572411" at="31,28,32,87" />
+      <scope id="2392588809324572382" at="27,26,28,80" />
+      <scope id="2392588809324572411" at="31,28,32,82" />
       <scope id="2392588809324706543" at="16,58,18,69" />
       <scope id="2392588809324574106" at="21,39,24,5" />
       <scope id="2392588809324572378" at="27,0,30,0" />

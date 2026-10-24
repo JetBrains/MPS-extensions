@@ -35,3 +35,4 @@ TEST*.xml
 code/extensions/cell-screenshots
 
 /code/extensions/build/
+/code/extensions/langvis/solutions/com.jetbrains.mpsext.langvis.plantuml/lib/

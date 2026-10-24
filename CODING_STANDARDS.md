@@ -117,16 +117,9 @@ Tests use the MPS test languages: `jetbrains.mps.lang.test` for anything with no
 3. Make use of task-name selection across projects. Add aggregate wrappers only when they provide a distinct operation
    or required entry point.
 
-## 6. Review checklist
+## 6. Removed
 
-- [ ] Node access is typed; no concept, link or property is found by a name string (1.1).
-- [ ] Declarations use smodel types, not `SNode`, `SConcept`, `SModel` (1.2).
-- [ ] Node trees, model access and collections use the MPS languages; behaviour lives in its aspect (1.3–1.5).
-- [ ] Models and descriptors were changed through MPS, not as text (1.6).
-- [ ] Tests use the test languages, call production code, have one method per scenario and assert with messages (2).
-- [ ] The model check is clean for the changed models and the build leaves the tree clean (3.1, 3.2).
-- [ ] New modules use `com.jetbrains.mpsext`; imports and used languages are minimal (3.3, 3.4).
-- [ ] Changelog entry, docs page and plugin metadata are in place (4).
+This section held a review checklist. It is empty so that the numbers of the other sections stay the same.
 
 ## 7. Existing code
 
@@ -134,6 +127,41 @@ Tests use the MPS test languages: `jetbrains.mps.lang.test` for anything with no
 2. SHOULD: when a change rewrites a large part of a method or class, it also brings the rest of it in line with
    section 1. A large cleanup goes into its own commit or PR, apart from changes in behaviour.
 3. A reviewer does not ask for cleanup of code the change does not touch, but may note it as a follow-up.
+
+## 8. Threads
+
+The caller chooses the thread and takes the locks; the callee states what it needs.
+
+In this section:
+
+- A **thread switch** runs work on another thread, for example `invokeLater`, `invokeAndWait`, `runWriteInEDT`,
+  `runInEDT`, `ApplicationManager.executeOnPooledThread`, `new Thread`, `ExecutorService.submit`.
+- A **wait** blocks the current thread until another thread is done, for example `invokeAndWait`, `Future.get()`,
+  `CompletableFuture.join()`, `CountDownLatch.await()`, `Object.wait()`.
+- A **lock** blocks the current thread until other threads let go of it, for example `read action`, `command`,
+  `ModelAccess.runReadAction`, `synchronized`, `Lock.lock()`.
+
+Waits and locks can deadlock when two threads wait for each other. For example, the EDT holds the write lock and waits
+for a pooled thread, while that thread waits for a read lock.
+
+1. SHOULD: callee. An expression, a getter, a concept function (`property getter`, `can be child`, a scope) or a
+   behaviour method that reads like a property starts no thread switch or wait, and takes no lock. When it needs a
+   certain thread or lock, it asserts it (`ModelAccess.checkReadAccess()`,
+   `ThreadingAssertions.assertEventDispatchThread()`) and/or names it in its doc comment ("Use only on the EDT, in a
+   read action."). The caller does the thread switch and takes the lock. A simple call that waits surprises its
+   caller: the code does not work as expected, and finding out why costs time, effort and tokens.
+2. MUST: caller. Each thread switch, each wait, and each `synchronized` or `Lock.lock()` has a comment directly before
+   it. The comment gives a reason that a reviewer can check: why this thread, and why the code waits there when it
+   waits. "The test fails otherwise" is not such a reason (see 8.4). When the reason is not known, the comment says so
+   and links an issue. A thread switch in a test needs no comment. A `read action` or `command` needs no comment of its
+   own; 8.3 covers work that is split over several of them.
+3. MUST: caller. When work is split over several locks, a comment says what may change between them. The caller
+   chooses how much work each lock covers: one lock keeps the model consistent, several shorter locks let other threads
+   run in between. A reviewer accepts split locks when this comment is there.
+4. MUST: a test is a caller like any other. It does the thread switch and takes the lock that the code needs, for
+   example with `invokeAndWait` in the test method. Production code keeps the thread and lock contract it states, and
+   the test adapts to it. A thread switch, wait or lock added to production code only for a test passes in the test
+   and fails later, in the IDE or under load.
 
 [guide]: https://www.jetbrains.com/help/mps/mps-user-s-guide.html
 [guide-smodel]: https://www.jetbrains.com/help/mps/smodel-language.html

@@ -67,10 +67,15 @@ public class ImageLoading {
     }
 
     // well, in fact, doesn't make much sense to use MacrosFactory.forModule when fileName doesn't start with MacrosFactory.MODULE
+    //  - for one, if expansion of other variables is needed, more specific MacrosFactory would convey less confusing message (e.g. forProjectFile or global)
+    //  - for two, language designers, let alone users, generally don't control product distribution to an extent other variables or 
+    //    global paths are valid for image locations. It's unlikely we face paths other than starting with ${module}.
     fileName = MacrosFactory.forModule(module).expandPath(fileName);
     File imageFile = new File(fileName);
     if (imageFile.exists()) {
       try {
+        // FWIW, this code doesn't look inside jar and can't handle .jar!/path-inside like IFile.
+        //     If this is a requirement, the method would need more context, e.g. a project.
         return Toolkit.getDefaultToolkit().getImage(imageFile.toURI().toURL());
       } catch (MalformedURLException e) {
         if (LOG.isErrorLevel()) {

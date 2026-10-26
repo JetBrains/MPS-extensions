@@ -15,8 +15,7 @@ import org.jetbrains.mps.openapi.module.SModule;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.util.MacrosFactory;
 import java.awt.Toolkit;
-import jetbrains.mps.vfs.IFile;
-import jetbrains.mps.project.AbstractModule;
+import java.io.File;
 import java.net.MalformedURLException;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.smodel.language.LanguageRegistry;
@@ -84,10 +83,10 @@ public class EnumerationCheckboxImage {
     }
 
     fileName = MacrosFactory.forModule(module).expandPath(fileName);
-    IFile imageFile = ((AbstractModule) module).getFileSystem().findExistingFile(fileName);
+    File imageFile = new File(fileName);
     if (imageFile.exists()) {
       try {
-        return Toolkit.getDefaultToolkit().getImage(imageFile.getUrl());
+        return Toolkit.getDefaultToolkit().getImage(imageFile.toURI().toURL());
       } catch (MalformedURLException e) {
         if (LOG.isErrorLevel()) {
           LOG.error("Failed to load enum checkbox image", e);

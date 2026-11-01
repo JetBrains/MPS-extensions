@@ -173,7 +173,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
               public void run() {
                 final ContextVariables _variablesContext = ContextVariables.getCurrent();
                 final EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, parameterObject);
-                editorCell.setCellId("transformedGraphElement_c0" + "." + ((SNode) _variablesContext.getValue("thisNode")));
+                editorCell.setCellId("transformedGraphElement_c0_0" + "." + ((SNode) _variablesContext.getValue("thisNode")));
 
                 final EditorCell labelCell = DiagramUtil.getCellIfNotEmpty(new Inline_Builder_4b5m3x_a2a(editorContext, parameterObject).createCell());
                 if (labelCell != null) {

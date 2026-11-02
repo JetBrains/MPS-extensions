@@ -3,7 +3,7 @@
 **Language Namespace :** `nl.f1re.testing`
 
 This language contains utility classes to help with writing tests and
-a concept `fileNodeEditor` to get access to the (IntelliJ) editor of the testcase ([MPSFileNodeEditor](http://127.0.0.1:63320/node?ref=1ed103c3-3aa6-49b7-9c21-6765ee11f224%2Fjava%3Ajetbrains.mps.ide.editor%28MPS.Editor%2F%29%2F~MPSFileNodeEditor)).
+a concept `fileNodeEditor` to get access to the (IntelliJ) editor of the testcase ([MPSFileNodeEditor](http://127.0.0.1:63320/node?ref=1ed103c3-3aa6-49b7-9c21-6765ee11f224%2Fjava%3Ajetbrains.mps.ide.editor%28MPS.Editor%2F%29%2F~MPSFileNodeEditor), see [fileNodeEditor](#filenodeeditor)).
 All helper classes assume no read/write access to the model.
 When a class needs an editor cell, you can pass it, for example, through
 
@@ -14,6 +14,35 @@ If you are in a nodes test case and not an editor test case, you need an editor 
 ```java
 HeadlessEditorComponent component = new HeadlessEditorComponent();
 component.editNode(node);
+```
+
+## Testing Undo and Redo
+
+To test Undo and Redo in an `EditorTestCase`, use the `invoke action` statement of `jetbrains.mps.lang.test` with the
+platform action IDs `$Undo` and `$Redo` (in the editor: `invoke action by id: $Undo`). The test then checks the
+result node as usual. Do not call `UndoManager.undo()` or `UndoManager.redo()` yourself.
+
+```
+type "Hi"
+invoke action by id: $Undo
+invoke action by id: $Redo
+```
+
+The tests in the solution `com.jetbrains.mpsext.testing.tests` are examples.
+
+## fileNodeEditor
+
+`fileNodeEditor` returns the `MPSFileNodeEditor` that the editor test opened. Use it for checks that need the IntelliJ
+file editor and that the test language statements cannot express, for example the undo history of the editor.
+
+Use `fileNodeEditor` only on the event dispatch thread (EDT). The test code runs on another thread, so put the code
+that uses `fileNodeEditor` inside `invokeAndWait`:
+
+```java
+UndoManager undoManager = UndoManager.getInstance(ProjectHelper.toIdeaProject(project));
+ApplicationManager.getApplication().invokeAndWait({ =>
+  assert true undoManager.isUndoAvailable(fileNodeEditor) : "Typing should leave an undo step in the file editor";
+});
 ```
 
 ## Asserts

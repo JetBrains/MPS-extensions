@@ -15,7 +15,7 @@ plugins {
     id("buildlogic.versioning")
     id("buildlogic.maven-publishing")
     id("de.itemis.mps.gradle.launcher")
-    id("org.cyclonedx.bom") version "3.4.1"
+    id("org.cyclonedx.bom") version "3.5.1"
 
     id("com.specificlanguages.mps") version "2.1.1"
 }
@@ -46,7 +46,7 @@ bundledDependencies {
     create("diagram") {
         destinationDir = codeDir.dir("diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib")
 
-        val elkVersion = "0.12.0"
+        val elkVersion = "0.12.1"
 
         dependency("de.itemis.mps:jgraphx:1.0.0")
 
@@ -76,7 +76,7 @@ bundledDependencies {
 
     create("batik") {
         destinationDir = codeDir.dir("batik/solutions/lib")
-        dependency("org.apache.xmlgraphics:batik-all:1.19")
+        dependency("org.apache.xmlgraphics:batik-all:1.20")
 
         configuration {
             exclude(group = "commons-io")
@@ -93,21 +93,21 @@ bundledDependencies {
 
         dependency("org.apache.commons:commons-csv:1.14.1")
         dependency("commons-io:commons-io:2.22.0")
-        dependency("org.apache.commons:commons-lang3:3.20.0")
+        dependency("org.apache.commons:commons-lang3:3.21.0")
         dependency("org.apache.commons:commons-math3:3.6.1")
         dependency("org.apache.commons:commons-csv:1.14.1")
         dependency("commons-primitives:commons-primitives:1.0")
-        dependency("com.miglayout:miglayout-core:11.4.3")
-        dependency("com.miglayout:miglayout-swing:11.4.3")
+        dependency("com.miglayout:miglayout-core:11.5.2")
+        dependency("com.miglayout:miglayout-swing:11.5.2")
     }
 
     create("collections") {
         destinationDir = codeDir.dir("shadowmodels/solutions/de.q60.mps.collections.libs/lib")
 
         dependency("org.apache.commons:commons-collections4:4.6.0")
-        dependency("com.google.guava:guava:33.7.1-jre")
+        dependency("com.google.guava:guava:33.7.2-jre")
         dependency("net.sf.trove4j:trove4j:3.0.3")
-        dependency("io.vavr:vavr:1.0.1")
+        dependency("io.vavr:vavr:1.1.0")
 
         configuration {
             isTransitive = false

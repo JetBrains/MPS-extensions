@@ -64,7 +64,7 @@ project {
 object Build : BuildType({
     name = "build"
 
-    artifactRules = "artifacts"
+    collectBuildArtifacts()
 
     vcs {
         root(MpsExtensions)
@@ -138,9 +138,9 @@ object Docs : BuildType({
 
 object Publish : BuildType({
     name = "publish"
-    description = "Publish artifacts to GitHub Packages and Nexus."
+    description = "Publish extensions and platform artifacts to GitHub Packages and Nexus, and attach both distributions to the release."
 
-    artifactRules = "artifacts"
+    collectBuildArtifacts()
 
     vcs {
         root(MpsExtensions)
@@ -190,6 +190,8 @@ object PullRequestsBuild : BuildType({
     id("PullRequests")
     name = "Pull Requests"
     description = "Check GitHub pull requests before merging"
+
+    collectBuildArtifacts()
 
     maxRunningBuildsPerBranch = "*:1"
 

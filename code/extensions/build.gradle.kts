@@ -383,3 +383,10 @@ val copyChangelog by tasks.registering {
 tasks.build {
     dependsOn(copyChangelog)
 }
+
+configurations.consumable("providedDependenciesPom") {
+    val pom = tasks.named<GenerateMavenPom>("generatePomFileForExtensionsPublication")
+    outgoing.artifact(pom.map { it.destination }) {
+        builtBy(pom)
+    }
+}

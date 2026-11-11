@@ -33,8 +33,10 @@ import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import jetbrains.mps.project.ProjectBase;
+import com.jetbrains.mpsext.viewmodel.runtime.ReadRecorder;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import com.jetbrains.mpsext.viewmodel.runtime.RootDependency;
+import jetbrains.mps.project.ProjectBase;
 import org.jetbrains.mps.openapi.model.SNodeChangeListener;
 import org.jetbrains.mps.openapi.event.SPropertyChangeEvent;
 import org.jetbrains.mps.openapi.event.SReferenceChangeEvent;
@@ -114,6 +116,10 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
   @Test
   public void test_aComputationOverTheRootsIsRemovedWhenARootIsAdded() throws Throwable {
     new TestBody(this).test_aComputationOverTheRootsIsRemovedWhenARootIsAdded();
+  }
+  @Test
+  public void test_aComputationThatReadsManyNodesDependsOnTheirRoot() throws Throwable {
+    new TestBody(this).test_aComputationThatReadsManyNodesDependsOnTheirRoot();
   }
   @Test
   public void test_removalsOfAClosedProjectAreApplied() throws Throwable {
@@ -417,6 +423,40 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         model.removeRootNode(added);
       });
     }
+    public void test_aComputationThatReadsManyNodesDependsOnTheirRoot() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        vm.clear();
+        SNode item = getAnnotatedNode("a");
+        SModel model = item.getModel();
+        // more nodes of one model than a recording keeps one by one
+        final SNode tree = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree"));
+        SPropertyOperations.assign(tree, PROPS.name$MnvL, "many");
+        for (int i = 0; i <= ReadRecorder.NODE_LIMIT; i++) {
+          SNode child = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree"));
+          SPropertyOperations.assign(child, PROPS.name$MnvL, "item" + i);
+          SPropertyOperations.assign(child, PROPS.label$IRFe, "" + i);
+          ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).addElement(child);
+        }
+        model.addRootNode(tree);
+        Computed<String> computed = vm.compute(() -> {
+          String labels = "";
+          for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4))) {
+            labels = labels + SPropertyOperations.getString(child, PROPS.label$IRFe);
+          }
+          return labels;
+        });
+        Assert.assertTrue(SetSequence.fromSet(computed.getDependencies()).contains(new RootDependency(tree.getReference())));
+        Assert.assertFalse(SetSequence.fromSet(computed.getDependencies()).contains(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first().getReference()));
+        vm.writeComputed(item, computed);
+        Assert.assertNotNull(vm.get(item));
+        // a node below the root changes the dependency on the whole root
+        SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.label$IRFe, "changed");
+        Assert.assertNull(vm.get(item));
+        model.removeRootNode(tree);
+      });
+    }
     public void test_removalsOfAClosedProjectAreApplied() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
@@ -610,13 +650,13 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     /*package*/ static final SProperty label$IRFe = MetaAdapterFactory.getProperty(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, 0x4d1a0d2e910043eaL, "label");
   }
 
-  private static final class CONCEPTS {
-    /*package*/ static final SConcept TestTree$V5 = MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree");
-    /*package*/ static final SConcept TestItem$HE = MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x2ca97b783b1b7b84L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestItem");
-  }
-
   private static final class LINKS {
     /*package*/ static final SContainmentLink items$WHh4 = MetaAdapterFactory.getContainmentLink(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, 0x4901e03b85761c22L, "items");
     /*package*/ static final SReferenceLink pointsTo$36gM = MetaAdapterFactory.getReferenceLink(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, 0x50e44c3dabc9724L, "pointsTo");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept TestTree$V5 = MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree");
+    /*package*/ static final SConcept TestItem$HE = MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x2ca97b783b1b7b84L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestItem");
   }
 }

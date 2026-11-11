@@ -86,6 +86,10 @@ A value is removed when:
 Only reads made inside `compute` are recorded. Dependencies passed explicitly to `write` are used as they are. A stored
 object whose class was unloaded by a class reload reads as `null`.
 
+A computation that reads more than 100 nodes of one model doesn't depend on each of them: it depends on the roots that
+contain them (`RootDependency`), and any change below such a root removes the value. The limit is set with the system
+property `mpsext.viewmodel.nodeDependencyLimit` (for example `-Dmpsext.viewmodel.nodeDependencyLimit=500`).
+
 ## View Models tool window
 
 The *View Models* tool window shows the content of all view models: the keys, the values, and the nodes each value was

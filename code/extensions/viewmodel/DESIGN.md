@@ -364,6 +364,11 @@ viewmodel/TestResults/(project).writeComputed(item, c);
   node reference with the model and no node id. A root added to or removed from the model is a change of
   it. Without it a computation that looks up roots (a scope, a lookup by name) would keep its result when
   a matching root is added.
+* A computation that reads more than `ReadRecorder.NODE_LIMIT` nodes of one model (system property
+  `mpsext.viewmodel.nodeDependencyLimit`, default 100) depends on the roots that contain them
+  (`RootDependency`) instead of on each node. The change tracker reports every change below a root as a
+  change of the root as well (`ChangeTracker.rootChanged`), so any change below such a root invalidates
+  the entries that depend on it.
 * A change of a dependency node (property, reference, child added/removed) removes the dependent
   entries. Removing a node removes the entries keyed by any node of the removed subtree and the
   entries depending on it. A model that is replaced (reloaded from disk) invalidates all entries

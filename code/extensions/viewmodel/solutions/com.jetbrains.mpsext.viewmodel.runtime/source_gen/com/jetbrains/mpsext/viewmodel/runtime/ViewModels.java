@@ -42,6 +42,12 @@ import org.jetbrains.mps.openapi.language.SConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SProperty;
 
+/**
+ * The write queue (pending, pendingByDependency) is filled from any thread, also without model access
+ * (writePathAsync), marked stale by the change listener in write actions, taken by drains in write actions
+ * and cleared by release, which runs without model access. So it is guarded by a lock of its own,
+ * pendingByDependency. Nothing that takes another lock is called while it is held.
+ */
 public final class ViewModels {
   public static final String OBJECT_KEY = "com.jetbrains.mpsext.viewmodel.ObjectValue";
   private static final String STORE_KEY = "com.jetbrains.mpsext.viewmodel.store";
@@ -317,6 +323,10 @@ public final class ViewModels {
   public Set<SNodeReference> getDependencies(String viewModel, List<ViewModelKey> path) {
     // the nodes the value at the path was computed from
     return index.getDependencies(qualify(viewModel, path));
+  }
+  public int countDependencies(String viewModel, List<ViewModelKey> path) {
+    // the number of dependencies of the value at the path, without copying them as getDependencies does
+    return index.countDependencies(qualify(viewModel, path));
   }
   public boolean hasEntries(SNodeReference node) {
     // whether a value of any view model has the node in its key (alone or in a composite key)
@@ -598,6 +608,33 @@ public final class ViewModels {
       invalidate(path);
     }
   }
+  public void nodesInRootChanged(SNodeReference root, List<SNodeReference> changed) {
+    // Called by the change listener for a change below a root, inside the write action of the change: what
+    // depends on the root (RootDependency) is invalidated when it may have read one of the changed nodes.
+    RootDependency key = new RootDependency(root);
+    // guards the write queue, which several threads use (see the class comment)
+    synchronized (pendingByDependency) {
+      List<PendingWrite> writes = MapSequence.fromMap(pendingByDependency).get(key);
+      if (writes != null) {
+        List<PendingWrite> kept = ListSequence.fromList(new ArrayList<PendingWrite>());
+        for (PendingWrite write : ListSequence.fromList(writes)) {
+          if (RootDependency.mayConcern(write.getFilters(), changed)) {
+            write.markStale();
+          } else {
+            ListSequence.fromList(kept).addElement(write);
+          }
+        }
+        if (ListSequence.fromList(kept).isEmpty()) {
+          MapSequence.fromMap(pendingByDependency).removeKey(key);
+        } else {
+          MapSequence.fromMap(pendingByDependency).put(key, kept);
+        }
+      }
+    }
+    for (List<ViewModelKey> path : ListSequence.fromList(index.getDependentsOfChange(key, changed))) {
+      invalidate(path);
+    }
+  }
 
   public void nodeRemoved(SNodeReference ref) {
     nodeChanged(ref);
@@ -691,12 +728,18 @@ public final class ViewModels {
   }
 
   private void enqueue(PendingWrite write) {
+    // under the keys of the dependencies (RootDependency.keyOf), each once
+    Set<SNodeReference> keys = SetSequence.fromSet(new HashSet<SNodeReference>());
+    for (SNodeReference dep : SetSequence.fromSet(write.getDependencies())) {
+      SetSequence.fromSet(keys).addElement(RootDependency.keyOf(dep));
+    }
+    // guards the write queue, which several threads use (see the class comment)
     synchronized (pendingByDependency) {
-      for (SNodeReference dep : SetSequence.fromSet(write.getDependencies())) {
-        List<PendingWrite> writes = MapSequence.fromMap(pendingByDependency).get(dep);
+      for (SNodeReference key : SetSequence.fromSet(keys)) {
+        List<PendingWrite> writes = MapSequence.fromMap(pendingByDependency).get(key);
         if (writes == null) {
           writes = ListSequence.fromList(new ArrayList<PendingWrite>());
-          MapSequence.fromMap(pendingByDependency).put(dep, writes);
+          MapSequence.fromMap(pendingByDependency).put(key, writes);
         }
         ListSequence.fromList(writes).addElement(write);
       }

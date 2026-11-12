@@ -366,9 +366,19 @@ viewmodel/TestResults/(project).writeComputed(item, c);
   a matching root is added.
 * A computation that reads more than `ReadRecorder.NODE_LIMIT` nodes of one model (system property
   `mpsext.viewmodel.nodeDependencyLimit`, default 100) depends on the roots that contain them
-  (`RootDependency`) instead of on each node. The change tracker reports every change below a root as a
-  change of the root as well (`ChangeTracker.rootChanged`), so any change below such a root invalidates
-  the entries that depend on it.
+  (`RootDependency`) instead of on each node. The nodes it read go into a Bloom filter (`NodeFilter`,
+  10 bits per node, 5 hashes) that all root dependencies of the recording share. A change below such a
+  root (`ViewModels.nodesInRootChanged`) invalidates the entry, or marks a queued write stale, only when
+  the filter may contain one of the changed nodes: the node whose property or reference changed, the
+  parent of an added or removed child, and each node of a removed subtree. About one change in a hundred
+  of a node that wasn't read gets through the filter and invalidates the entry as well. Removing the root
+  itself invalidates every entry that depends on it.
+* Two root dependencies on one root are equal only when their filters are. A set that merges the
+  dependencies of several computations therefore keeps the filter of each, and a rewrite of the same
+  value computed from other nodes takes the new dependencies. The reverse indexes
+  (`ViewModelIndex.dependents`, `ViewModels.pendingByDependency`) key a root dependency by the one without
+  a filter (`RootDependency.keyOf`), so the dependencies on a root are found together and no filter stays
+  referenced from a key; the filters of an entry are kept next to it (`ViewModelIndex.filtersOf`).
 * A change of a dependency node (property, reference, child added/removed) removes the dependent
   entries. Removing a node removes the entries keyed by any node of the removed subtree and the
   entries depending on it. A model that is replaced (reloaded from disk) invalidates all entries

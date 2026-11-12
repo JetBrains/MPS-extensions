@@ -122,6 +122,10 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     new TestBody(this).test_aComputationThatReadsManyNodesDependsOnTheirRoot();
   }
   @Test
+  public void test_aChangeOfANodeThatWasNotReadKeepsADependencyOnItsRoot() throws Throwable {
+    new TestBody(this).test_aChangeOfANodeThatWasNotReadKeepsADependencyOnItsRoot();
+  }
+  @Test
   public void test_removalsOfAClosedProjectAreApplied() throws Throwable {
     new TestBody(this).test_removalsOfAClosedProjectAreApplied();
   }
@@ -451,7 +455,44 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         Assert.assertFalse(SetSequence.fromSet(computed.getDependencies()).contains(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first().getReference()));
         vm.writeComputed(item, computed);
         Assert.assertNotNull(vm.get(item));
-        // a node below the root changes the dependency on the whole root
+        // a change of a node it read below the root changes the dependency on the root
+        SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.label$IRFe, "changed");
+        Assert.assertNull(vm.get(item));
+        model.removeRootNode(tree);
+      });
+    }
+    public void test_aChangeOfANodeThatWasNotReadKeepsADependencyOnItsRoot() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        vm.clear();
+        SNode item = getAnnotatedNode("a");
+        SModel model = item.getModel();
+        // more nodes of one model than a recording keeps one by one, and below the first one a node that isn't read
+        final SNode tree = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree"));
+        SPropertyOperations.assign(tree, PROPS.name$MnvL, "many");
+        for (int i = 0; i <= ReadRecorder.NODE_LIMIT; i++) {
+          SNode child = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree"));
+          SPropertyOperations.assign(child, PROPS.name$MnvL, "item" + i);
+          SPropertyOperations.assign(child, PROPS.label$IRFe, "" + i);
+          ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).addElement(child);
+        }
+        SNode unread = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree"));
+        SPropertyOperations.assign(unread, PROPS.label$IRFe, "unread");
+        ListSequence.fromList(SLinkOperations.getChildren(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first(), LINKS.items$WHh4)).addElement(unread);
+        model.addRootNode(tree);
+        Computed<String> computed = vm.compute(() -> {
+          String labels = "";
+          for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4))) {
+            labels = labels + SPropertyOperations.getString(child, PROPS.label$IRFe);
+          }
+          return labels;
+        });
+        Assert.assertTrue(SetSequence.fromSet(computed.getDependencies()).contains(new RootDependency(tree.getReference())));
+        vm.writeComputed(item, computed);
+        // the dependency on the root only changes with the nodes the computation read
+        SPropertyOperations.assign(unread, PROPS.label$IRFe, "changed");
+        Assert.assertNotNull(vm.get(item));
         SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.label$IRFe, "changed");
         Assert.assertNull(vm.get(item));
         model.removeRootNode(tree);

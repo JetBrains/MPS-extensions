@@ -598,6 +598,32 @@ public final class ViewModels {
       invalidate(path);
     }
   }
+  public void nodesInRootChanged(SNodeReference root, List<SNodeReference> changed) {
+    // Called by the change listener for a change below a root, inside the write action of the change: what
+    // depends on the root (RootDependency) is invalidated when it may have read one of the changed nodes.
+    RootDependency key = new RootDependency(root);
+    synchronized (pendingByDependency) {
+      List<PendingWrite> writes = MapSequence.fromMap(pendingByDependency).get(key);
+      if (writes != null) {
+        List<PendingWrite> kept = ListSequence.fromList(new ArrayList<PendingWrite>());
+        for (PendingWrite write : ListSequence.fromList(writes)) {
+          if (RootDependency.mayConcern(write.getFilters(), changed)) {
+            write.markStale();
+          } else {
+            ListSequence.fromList(kept).addElement(write);
+          }
+        }
+        if (ListSequence.fromList(kept).isEmpty()) {
+          MapSequence.fromMap(pendingByDependency).removeKey(key);
+        } else {
+          MapSequence.fromMap(pendingByDependency).put(key, kept);
+        }
+      }
+    }
+    for (List<ViewModelKey> path : ListSequence.fromList(index.getDependentsOfChange(key, changed))) {
+      invalidate(path);
+    }
+  }
 
   public void nodeRemoved(SNodeReference ref) {
     nodeChanged(ref);

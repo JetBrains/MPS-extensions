@@ -18,6 +18,7 @@ import jetbrains.mps.internal.collections.runtime.IMapping;
 
 public final class ViewModelIndex {
   private final Map<List<ViewModelKey>, Set<SNodeReference>> dependenciesOf = MapSequence.fromMap(new HashMap<List<ViewModelKey>, Set<SNodeReference>>());
+  private final Map<List<ViewModelKey>, List<NodeFilter>> filtersOf = MapSequence.fromMap(new HashMap<List<ViewModelKey>, List<NodeFilter>>());
   private final Map<List<ViewModelKey>, Project> projects = MapSequence.fromMap(new HashMap<List<ViewModelKey>, Project>());
   private final Map<SNodeReference, Set<List<ViewModelKey>>> dependents = MapSequence.fromMap(new HashMap<SNodeReference, Set<List<ViewModelKey>>>());
   private final Map<SNodeReference, Set<List<ViewModelKey>>> keyed = MapSequence.fromMap(new HashMap<SNodeReference, Set<List<ViewModelKey>>>());
@@ -65,9 +66,14 @@ public final class ViewModelIndex {
         SetSequence.fromSet(deps).addSequence(SetSequence.fromSet(dependencies));
       }
       MapSequence.fromMap(dependenciesOf).put(path, deps);
+      List<NodeFilter> filters = RootDependency.filtersOf(deps);
+      if (ListSequence.fromList(filters).isNotEmpty()) {
+        MapSequence.fromMap(filtersOf).put(path, filters);
+      }
       MapSequence.fromMap(projects).put(path, project);
       for (SNodeReference dep : SetSequence.fromSet(deps)) {
-        addTo(dependents, dep, path);
+        // a key without the filter, so that no filter stays referenced from the key after its entry is gone
+        addTo(dependents, ((dep instanceof RootDependency ? new RootDependency(((RootDependency) dep).getRoot()) : dep)), path);
       }
       for (ViewModelKey key : ListSequence.fromList(path)) {
         if (key instanceof ViewModelNodeKey) {
@@ -78,6 +84,7 @@ public final class ViewModelIndex {
   }
 
   public boolean hasSameDependencies(List<ViewModelKey> path, Set<SNodeReference> dependencies) {
+    // the filters of root dependencies count too, as they are no part of their equals
     synchronized (this) {
       Set<SNodeReference> current = MapSequence.fromMap(dependenciesOf).get(path);
       if (current == null) {
@@ -86,7 +93,15 @@ public final class ViewModelIndex {
       if (dependencies == null) {
         return SetSequence.fromSet(current).isEmpty();
       }
-      return SetSequence.fromSet(current).count() == SetSequence.fromSet(dependencies).count() && SetSequence.fromSet(current).containsSequence(SetSequence.fromSet(dependencies));
+      if (SetSequence.fromSet(current).count() != SetSequence.fromSet(dependencies).count() || !(SetSequence.fromSet(current).containsSequence(SetSequence.fromSet(dependencies)))) {
+        return false;
+      }
+      List<NodeFilter> currentFilters = MapSequence.fromMap(filtersOf).get(path);
+      List<NodeFilter> filters = RootDependency.filtersOf(dependencies);
+      if (currentFilters == null) {
+        return ListSequence.fromList(filters).isEmpty();
+      }
+      return ListSequence.fromList(currentFilters).count() == ListSequence.fromList(filters).count() && ListSequence.fromList(currentFilters).containsSequence(ListSequence.fromList(filters));
     }
   }
 
@@ -98,6 +113,7 @@ public final class ViewModelIndex {
 
   private void removeUnsynchronized(List<ViewModelKey> path) {
     Set<SNodeReference> deps = MapSequence.fromMap(dependenciesOf).removeKey(path);
+    MapSequence.fromMap(filtersOf).removeKey(path);
     MapSequence.fromMap(projects).removeKey(path);
     if (deps != null) {
       for (SNodeReference dep : SetSequence.fromSet(deps)) {
@@ -129,6 +145,23 @@ public final class ViewModelIndex {
     synchronized (this) {
       Set<List<ViewModelKey>> paths = MapSequence.fromMap(dependents).get(ref);
       return ((paths == null ? ListSequence.fromList(new ArrayList<List<ViewModelKey>>()) : ListSequence.fromListWithValues(new ArrayList<List<ViewModelKey>>(), paths)));
+    }
+  }
+
+  public List<List<ViewModelKey>> getDependentsOfChange(RootDependency root, List<SNodeReference> changed) {
+    // the paths that depend on the root and may have read one of the changed nodes below it
+    synchronized (this) {
+      List<List<ViewModelKey>> result = ListSequence.fromList(new ArrayList<List<ViewModelKey>>());
+      Set<List<ViewModelKey>> paths = MapSequence.fromMap(dependents).get(root);
+      if (paths == null) {
+        return result;
+      }
+      for (List<ViewModelKey> path : SetSequence.fromSet(paths)) {
+        if (RootDependency.mayConcern(MapSequence.fromMap(filtersOf).get(path), changed)) {
+          ListSequence.fromList(result).addElement(path);
+        }
+      }
+      return result;
     }
   }
 
@@ -184,6 +217,7 @@ public final class ViewModelIndex {
   public void clear() {
     synchronized (this) {
       MapSequence.fromMap(dependenciesOf).clear();
+      MapSequence.fromMap(filtersOf).clear();
       MapSequence.fromMap(projects).clear();
       MapSequence.fromMap(dependents).clear();
       MapSequence.fromMap(keyed).clear();

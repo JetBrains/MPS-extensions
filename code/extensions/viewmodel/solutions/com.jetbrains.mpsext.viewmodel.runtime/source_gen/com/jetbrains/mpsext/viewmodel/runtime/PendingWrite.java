@@ -13,6 +13,7 @@ public final class PendingWrite {
   private final List<ViewModelKey> path;
   private final Object value;
   private final Set<SNodeReference> dependencies;
+  private final List<NodeFilter> filters;
   private final CompletableFuture<Boolean> future = new CompletableFuture<Boolean>();
   private volatile boolean stale = false;
 
@@ -21,6 +22,7 @@ public final class PendingWrite {
     this.path = path;
     this.value = value;
     this.dependencies = dependencies;
+    this.filters = RootDependency.filtersOf(dependencies);
   }
 
   public Project getProject() {
@@ -37,6 +39,11 @@ public final class PendingWrite {
 
   public Set<SNodeReference> getDependencies() {
     return dependencies;
+  }
+
+  public List<NodeFilter> getFilters() {
+    // the filters of the root dependencies (RootDependency.filtersOf)
+    return filters;
   }
 
   public CompletableFuture<Boolean> getFuture() {

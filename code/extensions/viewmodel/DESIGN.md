@@ -468,8 +468,10 @@ what is stored, mainly while developing a language that uses view models:
   opens the target) and children are rows below it, identified by node id, so in-place updates keep
   them expanded.
 * A value with dependencies has a *dependencies* child listing the nodes it was computed from
-  (`ViewModels.getDependencies`, a copy of the index entry); a dependency on the roots of a model shows as
-  *roots of* and the model name.
+  (`ViewModels.getDependencies`, a copy of the index entry; the count comes from
+  `ViewModels.countDependencies`, which copies nothing); a dependency on the roots of a model shows as
+  *roots of* and the model name, a dependency on a root (`RootDependency`) as the root with *nodes read
+  below the root*.
 * Double-click opens the node of a key or dependency. *Remove* deletes the selected entry, nested map
   or whole view model (a `writePath` with a null value in a command of the project).
 * *Show View Model Entries* in the editor's *Language Debug* menu (group `ViewModelsDebug`, added to
@@ -482,6 +484,15 @@ what is stored, mainly while developing a language that uses view models:
 * *Show Store in Node Explorer* opens the `ViewModelStore` root, with the raw HAMT, in MPS's Node
   Explorer. It runs the devkit plugin's `ShowNodeInExplorer` action by id, so there is no dependency on
   that plugin; the button is disabled when the action isn't installed.
+* A refresh builds only the rows of the view models. The rows below a row are added when it is first
+  expanded (`ViewModelsExplorer.load`); until then a placeholder gives the row an expand handle, and a
+  row with nothing below it gets none. Value counts are a walk over the store that builds no rows. A view
+  model is expanded on the first show only when it has at most 100 values.
+* `load` reads in a read action of its own, later than the one in which the store nodes of the rows were
+  captured. A write in between may have changed them or removed them from the store; the rows then show
+  the store as it is, or the last content of a removed entry, until the refresh that the change schedules.
+* The tree is dropped when the tool window is hidden, keeping only which rows were expanded and
+  selected, and is rebuilt with them when the tool window is shown again.
 * The tool window listens to the store model (`SNodeChangeListener`) and rebuilds the tree 300 ms after
   the last change, only while it is shown (otherwise when it is shown next), keeping the expanded
   rows and the selection. It reads the store through `ViewModels.getStore()` and doesn't register

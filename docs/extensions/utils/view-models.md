@@ -97,4 +97,5 @@ that wasn't read, so such a change occasionally removes a value too. The limit i
 
 The *View Models* tool window shows the content of all view models: the keys, the values, and the nodes each value was
 computed from. *Remove* deletes the selected entry. *Show View Model Entries* in the *Language Debug* context menu of the
-editor shows the entries of the selected node.
+editor shows the entries of the selected node. The rows below a row are added when it is first expanded, and the rows
+are dropped while the tool window is hidden.

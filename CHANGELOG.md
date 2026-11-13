@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## November 2026
+
+### Added
+
+- *de.itemis.stubs.jcef* added due to missing stubs in current MPS version. The commited .jar is binary identical across all platforms. Seen https://youtrack.jetbrains.com/issue/MPS-40100/com.intellij.ui.jcef-stubs-missing for more information.
+
 ## October 2026
 
 ### Added

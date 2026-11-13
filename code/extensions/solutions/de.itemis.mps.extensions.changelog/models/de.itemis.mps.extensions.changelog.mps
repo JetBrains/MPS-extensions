@@ -238,6 +238,94 @@
         </node>
       </node>
     </node>
+    <node concept="15bmVD" id="2nrX0pgmpZn" role="15bmVC">
+      <node concept="15ShDW" id="2nrX0pgmpZk" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgBl/November" />
+        <property role="15ShDw" value="2026" />
+      </node>
+      <node concept="15bAme" id="2nrX0pgmpZl" role="15bAlL">
+        <property role="15bAli" value="Po4Z58tnOE/added" />
+        <node concept="2DRihI" id="2nrX0pgmpZm" role="15bAlk">
+          <node concept="15Ami3" id="2nrX0pgmpZo" role="1PaTwD">
+            <node concept="37shsh" id="2nrX0pgmpZp" role="15Aodc">
+              <node concept="1dCxOk" id="2nrX0pgmpZu" role="37shsm">
+                <property role="1XweGW" value="4368e872-3beb-47e5-b702-b599cefe324b" />
+                <property role="1XxBO9" value="de.itemis.stubs.jcef" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmq8G" role="1PaTwD">
+            <property role="3oM_SC" value="added" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmq8J" role="1PaTwD">
+            <property role="3oM_SC" value="due" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmq8K" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmq8L" role="1PaTwD">
+            <property role="3oM_SC" value="missing" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmq8M" role="1PaTwD">
+            <property role="3oM_SC" value="stubs" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmq8N" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmq8O" role="1PaTwD">
+            <property role="3oM_SC" value="current" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmq8P" role="1PaTwD">
+            <property role="3oM_SC" value="MPS" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmq8Q" role="1PaTwD">
+            <property role="3oM_SC" value="version." />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmqi6" role="1PaTwD">
+            <property role="3oM_SC" value="The" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmqi7" role="1PaTwD">
+            <property role="3oM_SC" value="commited" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmqi8" role="1PaTwD">
+            <property role="3oM_SC" value=".jar" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmqi9" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmqia" role="1PaTwD">
+            <property role="3oM_SC" value="binary" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmqro" role="1PaTwD">
+            <property role="3oM_SC" value="identical" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmq$$" role="1PaTwD">
+            <property role="3oM_SC" value="across" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmq$_" role="1PaTwD">
+            <property role="3oM_SC" value="all" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmqHL" role="1PaTwD">
+            <property role="3oM_SC" value="platforms." />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmq8R" role="1PaTwD">
+            <property role="3oM_SC" value="Seen" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmq8T" role="1PaTwD">
+            <property role="3oM_SC" value="https://youtrack.jetbrains.com/issue/MPS-40100/com.intellij.ui.jcef-stubs-missing" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmqi3" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmqi4" role="1PaTwD">
+            <property role="3oM_SC" value="more" />
+          </node>
+          <node concept="3oM_SD" id="2nrX0pgmqi5" role="1PaTwD">
+            <property role="3oM_SC" value="information." />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="15bmVD" id="6sHtZytnvA" role="15bmVC">
       <node concept="15bAme" id="6sHtZytoLg" role="15bAlL">
         <property role="15bAli" value="Po4Z58tnOE/added" />

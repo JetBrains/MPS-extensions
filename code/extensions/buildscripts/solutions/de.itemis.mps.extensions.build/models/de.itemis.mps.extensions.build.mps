@@ -10697,6 +10697,39 @@
         <ref role="m$_y1" node="2sSK94l$Fo0" resolve="de.itemis.stubs.xml" />
       </node>
     </node>
+    <node concept="m$_wf" id="7jcf0001" role="3989C9">
+      <property role="m$_wk" value="de.itemis.stubs.jcef" />
+      <node concept="3_J27D" id="7jcf0002" role="m$_yQ">
+        <node concept="3Mxwew" id="7jcf0003" role="3MwsjC">
+          <property role="3MwjfP" value="MPS JCEF (Stubs)" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="7jcf0004" role="m_cZH">
+        <node concept="3Mxwew" id="7jcf0005" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.stubs.jcef" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="7jcf0006" role="m$_w8">
+        <node concept="3Mxwey" id="7jcf0007" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="version" />
+        </node>
+      </node>
+      <node concept="m$f5U" id="7jcf0008" role="m$_yh">
+        <ref role="m$f5T" node="7jcf0014" resolve="de.itemis.stubs.jcef" />
+      </node>
+      <node concept="m$_yC" id="7jcf0009" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="2iUeEo" id="7jcf0010" role="2iVFfd">
+        <property role="2iUeEt" value="itemis AG" />
+        <property role="2iUeEu" value="https://www.itemis.com/en/it-services/methods-and-tools/mps" />
+      </node>
+      <node concept="3_J27D" id="7jcf0011" role="3s6cr7">
+        <node concept="3Mxwew" id="7jcf0012" role="3MwsjC">
+          <property role="3MwjfP" value="JAR and its stubs for using the JCEF classes (com.intellij.ui.jcef) in MPS." />
+        </node>
+      </node>
+    </node>
     <node concept="m$_wf" id="2sSK94l$Fo0" role="3989C9">
       <property role="m$_wk" value="de.itemis.stubs.xml" />
       <node concept="3_J27D" id="2sSK94l$Fo1" role="m$_yQ">
@@ -13607,6 +13640,66 @@
               <node concept="2Ry0Ak" id="7ej5dvGAnG" role="iGT6I">
                 <property role="2Ry0Am" value="batik" />
                 <node concept="2Ry0Ak" id="7ej5dvGAnH" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2G$12M" id="7jcf0014" role="3989C9">
+      <property role="TrG5h" value="de.itemis.stubs.jcef" />
+      <node concept="1E1JtA" id="7jcf0015" role="2G$12L">
+        <property role="TrG5h" value="de.itemis.stubs.jcef" />
+        <property role="3LESm3" value="4368e872-3beb-47e5-b702-b599cefe324b" />
+        <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
+        <node concept="398BVA" id="7jcf0016" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="7jcf0017" role="iGT6I">
+            <property role="2Ry0Am" value="jcef" />
+            <node concept="2Ry0Ak" id="7jcf0018" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="7jcf0019" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.stubs.jcef.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7jcf0020" role="3bR37C">
+          <node concept="3bR9La" id="7jcf0021" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7jcf0029" role="3bR37C">
+          <node concept="1BurEX" id="7jcf0030" role="1SiIV1">
+            <node concept="398BVA" id="7jcf0031" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7jcf0032" role="iGT6I">
+                <property role="2Ry0Am" value="jcef" />
+                <node concept="2Ry0Ak" id="7jcf0033" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="7jcf0034" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="7jcf0035" role="2Ry0An">
+                      <property role="2Ry0Am" value="intellij.platform.ui.jcef.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7jcf0038" role="3bR31x">
+          <node concept="3LXTmp" id="7jcf0039" role="3rtmxm">
+            <node concept="3qWCbU" id="7jcf0040" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7jcf0041" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7jcf0042" role="iGT6I">
+                <property role="2Ry0Am" value="jcef" />
+                <node concept="2Ry0Ak" id="7jcf0043" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                 </node>
               </node>
@@ -18933,6 +19026,34 @@
           </node>
         </node>
         <node concept="pUk6x" id="6bkzxtWPMLv" role="pUk7w" />
+      </node>
+      <node concept="m$_wl" id="7jcf0044" role="39821P">
+        <ref role="m_rDy" node="7jcf0001" resolve="de.itemis.stubs.jcef" />
+        <node concept="398223" id="7jcf0045" role="39821P">
+          <node concept="3_J27D" id="7jcf0046" role="Nbhlr">
+            <node concept="3Mxwew" id="7jcf0047" role="3MwsjC">
+              <property role="3MwjfP" value="lib" />
+            </node>
+          </node>
+          <node concept="28jJK3" id="7jcf0048" role="39821P">
+            <node concept="398BVA" id="7jcf0049" role="28jJRO">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7jcf0050" role="iGT6I">
+                <property role="2Ry0Am" value="jcef" />
+                <node concept="2Ry0Ak" id="7jcf0051" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="7jcf0052" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="7jcf0053" role="2Ry0An">
+                      <property role="2Ry0Am" value="intellij.platform.ui.jcef.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="pUk6x" id="7jcf0060" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="2sSK94l$G4K" role="39821P">
         <ref role="m_rDy" node="2sSK94l$Fo0" resolve="de.itemis.stubs.xml" />

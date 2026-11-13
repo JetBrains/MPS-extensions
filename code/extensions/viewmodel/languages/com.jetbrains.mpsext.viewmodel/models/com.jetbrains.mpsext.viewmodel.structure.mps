@@ -27,7 +27,6 @@
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
-        <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
@@ -53,19 +52,13 @@
     <property role="EcuMT" value="4228493813037741087" />
     <property role="TrG5h" value="ViewModelExpression" />
     <property role="34LRSv" value="viewmodel" />
-    <property role="R4oN_" value="a declared view model, bound to the project of the context or to the given one" />
+    <property role="R4oN_" value="a declared view model" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="55VuGTNRh4U" role="1TKVEi">
       <property role="IQ2ns" value="4851465508841353702" />
       <property role="20kJfa" value="viewModel" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="55VuGTNRcm_" resolve="ViewModelDeclaration" />
-    </node>
-    <node concept="1TJgyj" id="55VuGTNRh4V" role="1TKVEi">
-      <property role="IQ2ns" value="319559975733150894" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="project" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
 </model>

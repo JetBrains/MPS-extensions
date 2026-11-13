@@ -8,7 +8,6 @@ import java.util.Set;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import jetbrains.mps.project.Project;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -17,15 +16,11 @@ import org.jetbrains.mps.openapi.model.SModelReference;
 import jetbrains.mps.internal.collections.runtime.IMapping;
 
 /**
- * The index is used by the change listener in write actions, by writes in commands, by readers in read
- * actions on any thread (ViewModels.hasEntries, getDependencies) and by ViewModels.release, which runs
- * without model access. So its public methods are synchronized on the index instead of relying on the model
- * lock. Nothing that takes another lock is called while the index is locked.
+ * The index is used by the change listener in write actions, by writes from any thread with no more than read access, by readers in read actions on any thread (ViewModels.hasEntries, getDependencies) and by ViewModels.release, which runs without model access. So its public methods are synchronized on the index instead of relying on the model lock. Nothing that takes another lock is called while the index is locked.
  */
 public final class ViewModelIndex {
   private final Map<List<ViewModelKey>, Set<SNodeReference>> dependenciesOf = MapSequence.fromMap(new HashMap<List<ViewModelKey>, Set<SNodeReference>>());
   private final Map<List<ViewModelKey>, List<NodeFilter>> filtersOf = MapSequence.fromMap(new HashMap<List<ViewModelKey>, List<NodeFilter>>());
-  private final Map<List<ViewModelKey>, Project> projects = MapSequence.fromMap(new HashMap<List<ViewModelKey>, Project>());
   private final Map<SNodeReference, Set<List<ViewModelKey>>> dependents = MapSequence.fromMap(new HashMap<SNodeReference, Set<List<ViewModelKey>>>());
   private final Map<SNodeReference, Set<List<ViewModelKey>>> keyed = MapSequence.fromMap(new HashMap<SNodeReference, Set<List<ViewModelKey>>>());
 
@@ -64,7 +59,7 @@ public final class ViewModelIndex {
     return true;
   }
 
-  public synchronized void put(List<ViewModelKey> path, Project project, Set<SNodeReference> dependencies) {
+  public synchronized void put(List<ViewModelKey> path, Set<SNodeReference> dependencies) {
     removeUnsynchronized(path);
     Set<SNodeReference> deps = SetSequence.fromSet(new HashSet<SNodeReference>());
     if (dependencies != null) {
@@ -75,7 +70,6 @@ public final class ViewModelIndex {
     if (ListSequence.fromList(filters).isNotEmpty()) {
       MapSequence.fromMap(filtersOf).put(path, filters);
     }
-    MapSequence.fromMap(projects).put(path, project);
     for (SNodeReference dep : SetSequence.fromSet(deps)) {
       addTo(dependents, RootDependency.keyOf(dep), path);
     }
@@ -86,17 +80,6 @@ public final class ViewModelIndex {
     }
   }
 
-  public synchronized boolean hasSameDependencies(List<ViewModelKey> path, Set<SNodeReference> dependencies) {
-    Set<SNodeReference> current = MapSequence.fromMap(dependenciesOf).get(path);
-    if (current == null) {
-      return false;
-    }
-    if (dependencies == null) {
-      return SetSequence.fromSet(current).isEmpty();
-    }
-    return SetSequence.fromSet(current).count() == SetSequence.fromSet(dependencies).count() && SetSequence.fromSet(current).containsSequence(SetSequence.fromSet(dependencies));
-  }
-
   public synchronized void remove(List<ViewModelKey> path) {
     removeUnsynchronized(path);
   }
@@ -104,7 +87,6 @@ public final class ViewModelIndex {
   private void removeUnsynchronized(List<ViewModelKey> path) {
     Set<SNodeReference> deps = MapSequence.fromMap(dependenciesOf).removeKey(path);
     MapSequence.fromMap(filtersOf).removeKey(path);
-    MapSequence.fromMap(projects).removeKey(path);
     if (deps != null) {
       for (SNodeReference dep : SetSequence.fromSet(deps)) {
         removeFrom(dependents, RootDependency.keyOf(dep), path);
@@ -176,9 +158,6 @@ public final class ViewModelIndex {
     }
     return ListSequence.fromListWithValues(new ArrayList<List<ViewModelKey>>(), result);
   }
-  public synchronized Project getProject(List<ViewModelKey> path) {
-    return MapSequence.fromMap(projects).get(path);
-  }
 
   public synchronized Set<SNodeReference> getDependencies(List<ViewModelKey> path) {
     // a copy; empty when the path has no entry
@@ -194,7 +173,6 @@ public final class ViewModelIndex {
   public synchronized void clear() {
     MapSequence.fromMap(dependenciesOf).clear();
     MapSequence.fromMap(filtersOf).clear();
-    MapSequence.fromMap(projects).clear();
     MapSequence.fromMap(dependents).clear();
     MapSequence.fromMap(keyed).clear();
   }

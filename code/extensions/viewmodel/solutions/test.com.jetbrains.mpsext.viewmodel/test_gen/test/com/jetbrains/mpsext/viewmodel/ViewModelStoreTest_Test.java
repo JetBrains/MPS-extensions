@@ -20,19 +20,13 @@ import java.util.List;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelKey;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import java.util.concurrent.CompletableFuture;
-import com.jetbrains.mpsext.viewmodel.runtime.ViewModelBatch;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SConcept;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
-import com.jetbrains.mpsext.viewmodel.runtime.NamedViewModel;
-import org.jetbrains.mps.openapi.module.SRepository;
-import jetbrains.mps.smodel.MPSModuleRepository;
-import jetbrains.mps.project.ProjectRepository;
-import org.jetbrains.mps.openapi.model.SModel;
-import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import org.jetbrains.mps.openapi.model.SModel;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import com.jetbrains.mpsext.viewmodel.runtime.RootDependency;
@@ -40,7 +34,6 @@ import com.jetbrains.mpsext.viewmodel.runtime.ReadRecorder;
 import java.util.Set;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import java.util.HashSet;
-import jetbrains.mps.project.ProjectBase;
 import org.jetbrains.mps.openapi.model.SNodeChangeListener;
 import org.jetbrains.mps.openapi.event.SPropertyChangeEvent;
 import org.jetbrains.mps.openapi.event.SReferenceChangeEvent;
@@ -80,22 +73,6 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     new TestBody(this).test_manyKeys();
   }
   @Test
-  public void test_asyncWriteIsAppliedWhenTheQueueIsDrained() throws Throwable {
-    new TestBody(this).test_asyncWriteIsAppliedWhenTheQueueIsDrained();
-  }
-  @Test
-  public void test_aQueuedWriteDoesntOverwriteALaterOne() throws Throwable {
-    new TestBody(this).test_aQueuedWriteDoesntOverwriteALaterOne();
-  }
-  @Test
-  public void test_staleAsyncWriteIsDropped() throws Throwable {
-    new TestBody(this).test_staleAsyncWriteIsDropped();
-  }
-  @Test
-  public void test_batchedAsyncWritesAreAppliedTogether() throws Throwable {
-    new TestBody(this).test_batchedAsyncWritesAreAppliedTogether();
-  }
-  @Test
   public void test_entryIsRemovedWhenItsNodeIsDeleted() throws Throwable {
     new TestBody(this).test_entryIsRemovedWhenItsNodeIsDeleted();
   }
@@ -104,16 +81,12 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     new TestBody(this).test_noViewModelsForReadOnlyModels();
   }
   @Test
+  public void test_noViewModelsForNodesInNoModel() throws Throwable {
+    new TestBody(this).test_noViewModelsForNodesInNoModel();
+  }
+  @Test
   public void test_nestedComputationsAddUpDependencies() throws Throwable {
     new TestBody(this).test_nestedComputationsAddUpDependencies();
-  }
-  @Test
-  public void test_writeWithoutAProject() throws Throwable {
-    new TestBody(this).test_writeWithoutAProject();
-  }
-  @Test
-  public void test_aRepositoryOfNoProjectGivesTheViewModelWithoutAProject() throws Throwable {
-    new TestBody(this).test_aRepositoryOfNoProjectGivesTheViewModelWithoutAProject();
   }
   @Test
   public void test_aComputationOverTheRootsIsRemovedWhenARootIsAdded() throws Throwable {
@@ -126,14 +99,6 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
   @Test
   public void test_aChangeOfANodeThatWasNotReadKeepsADependencyOnItsRoot() throws Throwable {
     new TestBody(this).test_aChangeOfANodeThatWasNotReadKeepsADependencyOnItsRoot();
-  }
-  @Test
-  public void test_aQueuedWriteIsDroppedWhenANodeItReadBelowTheRootChanges() throws Throwable {
-    new TestBody(this).test_aQueuedWriteIsDroppedWhenANodeItReadBelowTheRootChanges();
-  }
-  @Test
-  public void test_aQueuedWriteIsAppliedWhenANodeItDidntReadBelowTheRootChanges() throws Throwable {
-    new TestBody(this).test_aQueuedWriteIsAppliedWhenANodeItDidntReadBelowTheRootChanges();
   }
   @Test
   public void test_aRewriteWithTheSameValueTakesTheDependenciesOfItsComputation() throws Throwable {
@@ -164,12 +129,12 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     new TestBody(this).test_mergedDependenciesKeepTheNodesEachComputationRead();
   }
   @Test
-  public void test_removalsOfAClosedProjectAreApplied() throws Throwable {
-    new TestBody(this).test_removalsOfAClosedProjectAreApplied();
-  }
-  @Test
   public void test_aNewInstanceTakesOverTheStore() throws Throwable {
     new TestBody(this).test_aNewInstanceTakesOverTheStore();
+  }
+  @Test
+  public void test_findStoreFindsTheStore() throws Throwable {
+    new TestBody(this).test_findStoreFindsTheStore();
   }
   @Test
   public void test_nodeValueIsStoredAsACopy() throws Throwable {
@@ -187,10 +152,6 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
   public void test_valueOfAnotherKindReplacesTheNode() throws Throwable {
     new TestBody(this).test_valueOfAnotherKindReplacesTheNode();
   }
-  @Test
-  public void test_asyncNodeWriteStoresASnapshot() throws Throwable {
-    new TestBody(this).test_asyncNodeWriteStoresASnapshot();
-  }
 
   /*package*/ static class TestBody extends BaseTestBody {
 
@@ -206,7 +167,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_writeAndRead() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         vm.write(getAnnotatedNode("a"), "v", null);
         Assert.assertEquals("v", vm.get(getAnnotatedNode("a")));
@@ -218,8 +179,8 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_viewModelsAreSeparate() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
-        ViewModel other = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Other").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
+        ViewModel other = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Other");
         vm.clear();
         other.clear();
         vm.write(getAnnotatedNode("a"), "test value", null);
@@ -238,7 +199,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_computedValueIsRemovedWhenADependencyChanges() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         final SNode item = getAnnotatedNode("a");
         Computed<String> computed = vm.compute(() -> SPropertyOperations.getString(item, PROPS.input$_sYF) + "!");
@@ -253,7 +214,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_nestedKeys() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         List<ViewModelKey> first = ListSequence.fromList(new ArrayList<ViewModelKey>());
         ListSequence.fromList(first).addElement(ViewModelKey.forNode(getAnnotatedNode("a")));
@@ -277,7 +238,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_manyKeys() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         int count = 500;
@@ -307,69 +268,10 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         Assert.assertNull(vm.getPath(last));
       });
     }
-    public void test_asyncWriteIsAppliedWhenTheQueueIsDrained() throws Exception {
-      initTestNodes();
-      runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
-        vm.clear();
-        SNode item = getAnnotatedNode("a");
-        CompletableFuture<Boolean> future = TestBody.this.enqueue(vm, item, "async", null);
-        Assert.assertFalse(future.isDone());
-        Assert.assertNull(vm.get(item));
-        vm.drain();
-        Assert.assertTrue(future.getNow(false));
-        Assert.assertEquals("async", vm.get(item));
-      });
-    }
-    public void test_aQueuedWriteDoesntOverwriteALaterOne() throws Exception {
-      initTestNodes();
-      runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
-        vm.clear();
-        SNode item = getAnnotatedNode("a");
-        CompletableFuture<Boolean> queued = TestBody.this.enqueue(vm, item, "queued", null);
-        // a write inside a command applies the queued writes first
-        vm.write(item, "later", null);
-        Assert.assertTrue(queued.getNow(false));
-        vm.drain();
-        Assert.assertEquals("later", vm.get(item));
-      });
-    }
-    public void test_staleAsyncWriteIsDropped() throws Exception {
-      initTestNodes();
-      runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
-        vm.clear();
-        final SNode item = getAnnotatedNode("a");
-        Computed<String> computed = vm.compute(() -> SPropertyOperations.getString(item, PROPS.input$_sYF) + "!");
-        CompletableFuture<Boolean> future = TestBody.this.enqueue(vm, item, computed.getValue(), computed.getDependencies());
-        SPropertyOperations.assign(item, PROPS.input$_sYF, "changed");
-        vm.drain();
-        Assert.assertFalse(future.getNow(true));
-        Assert.assertNull(vm.get(item));
-      });
-    }
-    public void test_batchedAsyncWritesAreAppliedTogether() throws Exception {
-      initTestNodes();
-      runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
-        vm.clear();
-        SNode first = getAnnotatedNode("a");
-        SNode second = getAnnotatedNode("b");
-        ViewModelBatch batch = vm.startBatch();
-        CompletableFuture<Boolean> firstWrite = TestBody.this.enqueue(vm, first, "1", null);
-        CompletableFuture<Boolean> secondWrite = TestBody.this.enqueue(vm, second, "2", null);
-        batch.close();
-        vm.drain();
-        Assert.assertTrue(firstWrite.getNow(false) && secondWrite.getNow(false));
-        Assert.assertEquals("1", vm.get(first));
-        Assert.assertEquals("2", vm.get(second));
-      });
-    }
     public void test_entryIsRemovedWhenItsNodeIsDeleted() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         vm.write(getAnnotatedNode("b"), "value", null);
         List<ViewModelKey> path = ViewModels.path(getAnnotatedNode("b"));
@@ -382,17 +284,31 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_noViewModelsForReadOnlyModels() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         SNode readOnly = ((SConcept) SNodeOperations.getConcept(getAnnotatedNode("a"))).getSuperConcept().getDeclarationNode();
         Assert.assertTrue(readOnly.getModel().isReadOnly());
         Assert.assertFalse(vm.write(readOnly, "value", null).getNow(true));
         Assert.assertNull(vm.get(readOnly));
       });
     }
+    /**
+     * A write for a node in no model of a repository, e.g. a node of a transient model while generating, is
+     * rejected: nothing would remove its value.
+     */
+    public void test_noViewModelsForNodesInNoModel() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
+        SNode loose = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x2ca97b783b1b7b84L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestItem"));
+        SPropertyOperations.assign(loose, PROPS.name$MnvL, "loose");
+        Assert.assertFalse("a write for the node " + SPropertyOperations.getString(loose, PROPS.name$MnvL) + ", which is in no model, is rejected", vm.write(loose, "value", null).getNow(true));
+        Assert.assertNull("the rejected write for the node " + SPropertyOperations.getString(loose, PROPS.name$MnvL) + " stores nothing", vm.get(loose));
+      });
+    }
     public void test_nestedComputationsAddUpDependencies() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         final SNode first = getAnnotatedNode("a");
         final SNode second = getAnnotatedNode("b");
@@ -405,46 +321,10 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         Assert.assertTrue(SetSequence.fromSet(outer.getDependencies()).contains(second.getReference()));
       });
     }
-    public void test_writeWithoutAProject() throws Exception {
-      initTestNodes();
-      runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
-        vm.clear();
-        // Without a project the view model finds one: the project of the node, otherwise the first open project
-        // (the nodes of a test are copies in a temporary module, which belongs to no project). Inside a command
-        // the write is applied at once.
-        ViewModel results = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
-        SNode item = getAnnotatedNode("a");
-        CompletableFuture<Boolean> future = results.write(item, "v", null);
-        Assert.assertTrue(future.getNow(false));
-        Assert.assertEquals("v", results.get(item));
-        Assert.assertNotNull(ViewModels.findProject(ViewModels.path(item)));
-        results.remove(item);
-        Assert.assertNull(results.get(item));
-      });
-    }
-    public void test_aRepositoryOfNoProjectGivesTheViewModelWithoutAProject() throws Exception {
-      initTestNodes();
-      runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
-        vm.clear();
-        SNode item = getAnnotatedNode("a");
-        // e.g. a headless editor on the global repository: the editor form of viewmodel/X/ reads through it. Taken
-        // from the platform, not from the node: since MPS 2026.1 a module registered through a project (the
-        // temporary module of the test nodes) belongs to the project repository.
-        NamedViewModel named = ViewModels.named(vm.getName());
-        SRepository global = myProject.getPlatform().findComponent(MPSModuleRepository.class);
-        Assert.assertFalse(global instanceof ProjectRepository);
-        ViewModel viewModel = named.forRepository(global);
-        Assert.assertSame(named, viewModel);
-        Assert.assertTrue(viewModel.write(item, "v", null).getNow(false));
-        Assert.assertEquals("v", viewModel.get(item));
-      });
-    }
     public void test_aComputationOverTheRootsIsRemovedWhenARootIsAdded() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         final SNode item = getAnnotatedNode("a");
         final SModel model = item.getModel();
@@ -468,7 +348,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_aComputationThatReadsManyNodesDependsOnTheirRoot() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         SModel model = SNodeOperations.getModel(item);
@@ -496,7 +376,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_aChangeOfANodeThatWasNotReadKeepsADependencyOnItsRoot() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         SModel model = SNodeOperations.getModel(item);
@@ -525,71 +405,10 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         SNodeOperations.deleteNode(tree);
       });
     }
-    public void test_aQueuedWriteIsDroppedWhenANodeItReadBelowTheRootChanges() throws Exception {
-      initTestNodes();
-      runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
-        vm.clear();
-        SNode item = getAnnotatedNode("a");
-        SModel model = SNodeOperations.getModel(item);
-        // a copy of the fixture as a root of its own: the test changes it, and the computation depends on its root
-        SNode fixture = getAnnotatedNode("many");
-        final SNode tree = SNodeOperations.copyNode(fixture);
-        SModelOperations.addRootNode(model, tree);
-        Computed<String> computed = vm.compute(() -> {
-          String labels = "";
-          for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4))) {
-            labels = labels + SPropertyOperations.getString(child, PROPS.label$IRFe);
-          }
-          return labels;
-        });
-        // a write through the queue: the tests run inside a command, where write applies at once
-        List<ViewModelKey> path = ViewModels.path(item);
-        CompletableFuture<Boolean> future = ViewModels.getInstance().writePathAsync(ViewModels.findProject(path), vm.getName(), path, computed.getValue(), computed.getDependencies());
-        SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.label$IRFe, "changed");
-        vm.drain();
-        Assert.assertFalse("a queued write is dropped when the label of " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.name$MnvL) + ", which its computation read, changes before the queue is drained", future.getNow(true));
-        Assert.assertNull("the dropped write stores nothing", vm.get(item));
-        SNodeOperations.deleteNode(tree);
-      });
-    }
-    public void test_aQueuedWriteIsAppliedWhenANodeItDidntReadBelowTheRootChanges() throws Exception {
-      initTestNodes();
-      runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
-        vm.clear();
-        SNode item = getAnnotatedNode("a");
-        SModel model = SNodeOperations.getModel(item);
-        // a copy of the fixture as a root of its own: the test changes it, and the computation depends on its root
-        SNode fixture = getAnnotatedNode("many");
-        final SNode tree = SNodeOperations.copyNode(fixture);
-        SModelOperations.addRootNode(model, tree);
-        Computed<String> computed = vm.compute(() -> {
-          String labels = "";
-          for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4))) {
-            labels = labels + SPropertyOperations.getString(child, PROPS.label$IRFe);
-          }
-          return labels;
-        });
-        RootDependency dependency = RootDependencyFixtures.rootDependencyOn(computed.getDependencies(), tree);
-        Assert.assertNotNull("a computation that read " + (ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).count() + 1) + " nodes of the copy of many depends on its root, but its dependencies are " + computed.getDependencies(), dependency);
-        // one of the nodes below item0, which the computation doesn't read
-        SNode unread = RootDependencyFixtures.keptOut(dependency, ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first());
-        Assert.assertNotNull("the filter of the dependency keeps out at least one of the nodes below " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first(), PROPS.name$MnvL) + ", which the computation didn't read", unread);
-        // a write through the queue: the tests run inside a command, where write applies at once
-        List<ViewModelKey> path = ViewModels.path(item);
-        CompletableFuture<Boolean> future = ViewModels.getInstance().writePathAsync(ViewModels.findProject(path), vm.getName(), path, computed.getValue(), computed.getDependencies());
-        SPropertyOperations.assign(unread, PROPS.label$IRFe, "changed");
-        vm.drain();
-        Assert.assertTrue("a queued write is applied after a change of the label of " + SPropertyOperations.getString(unread, PROPS.name$MnvL) + ", which its computation didn't read", future.getNow(false));
-        Assert.assertNotNull("the applied write stores the value", vm.get(item));
-        SNodeOperations.deleteNode(tree);
-      });
-    }
     public void test_aRewriteWithTheSameValueTakesTheDependenciesOfItsComputation() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         SModel model = SNodeOperations.getModel(item);
@@ -627,7 +446,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_removingNodesBelowTheRootWithANodeThatWasReadRemovesTheValue() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         SModel model = SNodeOperations.getModel(item);
@@ -654,7 +473,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_addingAChildToANodeThatWasReadRemovesTheValue() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         SModel model = SNodeOperations.getModel(item);
@@ -679,7 +498,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_addingAChildToANodeThatWasNotReadKeepsTheValue() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         SModel model = SNodeOperations.getModel(item);
@@ -709,7 +528,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_removingANodeThatWasReadFromANodeThatWasNotReadRemovesTheValue() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         SModel model = SNodeOperations.getModel(item);
@@ -736,7 +555,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_removingTheRootRemovesTheValue() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         SModel model = SNodeOperations.getModel(item);
@@ -760,7 +579,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_mergedDependenciesKeepTheNodesEachComputationRead() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         SModel model = SNodeOperations.getModel(item);
@@ -798,51 +617,46 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         SNodeOperations.deleteNode(tree);
       });
     }
-    public void test_removalsOfAClosedProjectAreApplied() throws Exception {
-      initTestNodes();
-      runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
-        vm.clear();
-        SNode item = getAnnotatedNode("a");
-        ProjectBase closing = new ProjectBase("closing", myProject.getPlatform()) {
-          @Override
-          public void save() {
-          }
-        };
-        // a value written through the project, which is applied by a drain of any project
-        List<ViewModelKey> path = ViewModels.path(item);
-        ViewModels.getInstance().writePathAsync(closing, vm.getName(), path, "v", null);
-        vm.drain();
-        Assert.assertEquals("v", vm.get(item));
-        // What closing a project does: it removes its models in a write action outside a command, so the removals
-        // of their entries are queued, and then the project is disposed before the queue is drained (here by the
-        // test's project; the scheduled drain of the closed project goes through another project, too).
-        CompletableFuture<Boolean> removal = ViewModels.getInstance().writePathAsync(closing, vm.getName(), path, null, null);
-        closing.dispose();
-        vm.drain();
-        Assert.assertTrue(removal.getNow(false));
-        Assert.assertNull(vm.get(item));
-      });
-    }
     public void test_aNewInstanceTakesOverTheStore() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         vm.write(item, "v", null);
         SNode root = ViewModels.getInstance().getStore();
-        // what a class reload does: a new instance of ViewModels; it reads from the same store root at once,
-        // without write access, so editors rebuilt after the reload depend on it
+        // What a class reload does: a new instance of ViewModels. Its first read finds the store by the name of its model,
+        // in the repository of the node and without write access, so that editors rebuilt after the reload depend on it.
+        // The values of the previous instance are gone with it.
         ViewModels next = new ViewModels();
-        Assert.assertSame(root, next.getStore());
-        Assert.assertEquals("v", vm.get(item));
+        Assert.assertNull("a new instance of ViewModels reads none of the values the previous instance wrote for " + SPropertyOperations.getString(item, PROPS.name$MnvL), next.getPath(vm.getName(), ViewModels.path(item)));
+        Assert.assertSame("a new instance of ViewModels takes over the store of the previous one, found by the name of its model", root, next.getStore());
+        Assert.assertEquals("the current instance still reads the value it wrote for " + SPropertyOperations.getString(item, PROPS.name$MnvL), "v", vm.get(item));
+      });
+    }
+    /**
+     * A new instance of ViewModels after a class reload finds the store with ViewModels.findStore, by the name of its
+     * model and only in the kind of module that TempModuleOptions.nonReloadableModule creates. Should MPS create
+     * another kind of module, or the store be created differently, the store wouldn't be found after a reload, and
+     * editors rebuilt by the reload would miss the first write.
+     */
+    public void test_findStoreFindsTheStore() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
+        List<ViewModelKey> path = ListSequence.fromList(new ArrayList<ViewModelKey>());
+        ListSequence.fromList(path).addElement(ViewModelKey.forString("store"));
+        vm.writePath(path, "v", null);
+        SNode root = ViewModels.getInstance().getStore();
+        Assert.assertNotNull("the write at the path [store] creates the store", root);
+        Assert.assertSame("findStore finds the store in the repository of its model " + SModelOperations.getModelName(SNodeOperations.getModel(root)), root, ViewModels.findStore(SNodeOperations.getModel(root).getRepository()));
+        vm.writePath(path, null, null);
       });
     }
     public void test_nodeValueIsStoredAsACopy() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         SNode source = TestBody.this.tree(item);
@@ -863,7 +677,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_rewriteUpdatesTheStoredNodeInPlace() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         SNode source = TestBody.this.tree(item);
@@ -897,7 +711,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_identicalRewriteChangesNothing() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         vm.write(item, TestBody.this.tree(item), null);
@@ -932,7 +746,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     public void test_valueOfAnotherKindReplacesTheNode() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
         vm.write(item, TestBody.this.tree(item), null);
@@ -946,27 +760,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         Assert.assertEquals("text", vm.get(item));
       });
     }
-    public void test_asyncNodeWriteStoresASnapshot() throws Exception {
-      initTestNodes();
-      runWithinCommand(() -> {
-        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
-        vm.clear();
-        SNode item = getAnnotatedNode("a");
-        SNode source = TestBody.this.tree(item);
-        TestBody.this.enqueue(vm, item, source, null);
-        // a change after the write was queued isn't part of the written value
-        SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).first(), PROPS.label$IRFe, "changed");
-        vm.drain();
-        SNode stored = SNodeOperations.cast(vm.getNode(item), CONCEPTS.TestTree$V5);
-        Assert.assertEquals("1", SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).first(), PROPS.label$IRFe));
-      });
-    }
 
-    public CompletableFuture<Boolean> enqueue(ViewModel vm, SNode node, Object value, Set<SNodeReference> dependencies) {
-      // a write through the queue: the tests run inside a command, where write applies at once
-      List<ViewModelKey> path = ViewModels.path(node);
-      return ViewModels.getInstance().writePathAsync(ViewModels.findProject(path), vm.getName(), path, value, dependencies);
-    }
     public SNode tree(SNode outside) {
       // root -> outside, with the items x (label 1) and y (label 2, -> x)
       SNode root = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree"));

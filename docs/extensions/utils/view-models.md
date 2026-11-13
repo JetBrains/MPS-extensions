@@ -38,17 +38,17 @@ viewmodel/CheckResults/.remove(node);
 viewmodel/CheckResults/.clear();
 ```
 
-A write can be made from any thread and returns a `CompletableFuture<Boolean>`:
+A write can be made from any thread, needs no project, and is stored at once: reading the value right after writing it
+returns it, inside a command or not, in the IDE and in a headless run (e.g. code that runs while an Ant build
+generates).
 
-* Inside a command the value is applied at once.
-* Otherwise it is queued and applied in a command on the EDT. Call it while you still hold the read access under which
-  the value was computed: if one of its dependencies changes before the write is applied, the write is dropped.
-* The future completes with `true` when the value was stored and with `false` when it was dropped (a dependency changed,
-  the node is in a read-only model or was deleted, or no project is open).
-
-Writes go through the project that contains the node, which is found automatically. In editor code the project of the
-editor is used. Elsewhere a project can be given explicitly with `viewmodel/CheckResults/(project)`: type `(` after the
-expression.
+* Write a value computed from other nodes while you still hold the read access under which it was computed, so that no
+  change of a dependency can be missed.
+* Editors are updated when the command the write is made in ends. A write outside a command updates them in a command
+  that is run on the EDT afterwards.
+* The write returns a `CompletableFuture<Boolean>` that is already completed: `true` when the value was stored, `false`
+  when it was rejected because the node is in a read-only model or isn't in a model of the repository (e.g. a node of
+  a transient model while generating).
 
 ## Java API
 
@@ -56,14 +56,13 @@ Code that doesn't use the language depends on the runtime solution and uses the 
 
 ```java
 ViewModel results = ViewModels.named("my.language.checkResults");
-ViewModel inProject = ViewModels.named("my.language.checkResults").forProject(project);
 
 Object value = results.get(node);
 results.write(node, value, dependencies);         // dependencies: set<SNodeReference>, may be null
 results.writeComputed(node, results.compute(() -> evaluate(node)));
 results.writePath(path, value, dependencies);     // composite keys: list<ViewModelKey>
 try (ViewModelBatch batch = results.startBatch()) {
-  // many writes, applied together in one command
+  // many writes outside a command: the editors are updated for all of them in one command
 }
 ```
 

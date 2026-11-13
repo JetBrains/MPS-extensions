@@ -10,17 +10,16 @@ import java.util.Set;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.project.Project;
-import org.jetbrains.mps.openapi.module.SRepository;
-import jetbrains.mps.ide.project.ProjectHelper;
 
+/**
+ * A named view model: the data of one use case, in a map of its own. The handle only holds the name, so it stays
+ * valid when the store is recreated (e.g. after a class reload). It needs no project: reads and writes work in an
+ * IDE and in a headless run alike.
+ */
 public final class NamedViewModel implements ViewModel {
   private final String name;
 
   public NamedViewModel(String name) {
-    // A named view model: the data of one use case, in a map of its own. The handle only holds the name,
-    // so it stays valid when the store is recreated (e.g. after a class reload). Writes go through the
-    // project of the node (ViewModels.findProject).
     if (name == null || name.isEmpty()) {
       throw new IllegalArgumentException("a view model needs a name");
     }
@@ -53,18 +52,23 @@ public final class NamedViewModel implements ViewModel {
     return ViewModels.getInstance().compute(computation);
   }
 
+  /**
+   * Writes the value of the node, from any thread, with the read access the value was computed in. The value is
+   * stored at once, so get returns it right after the write, inside a command or not. The editors are updated when
+   * the command the write is made in ends, otherwise by a later command.
+   * The future is already completed: true when the value was stored, false when it was rejected (the node is in a
+   * read-only model, or in no model of a repository).
+   */
   public CompletableFuture<Boolean> write(SNode node, Object value, Set<SNodeReference> dependencies) {
-    // Writing without a project at hand: the write goes through the project of the node
-    // (ViewModels.findProject), at once inside a command of it, otherwise through the write queue, so called
-    // with the read access the value was computed in. Without an open project the write is dropped. The
-    // future is completed when the write was applied (true) or rejected or dropped (false).
     return writePath(ViewModels.path(node), value, dependencies);
   }
   public CompletableFuture<Boolean> writeComputed(SNode node, Computed<?> computed) {
     return writePath(ViewModels.path(node), computed.getValue(), computed.getDependencies());
   }
   public CompletableFuture<Boolean> writePath(List<ViewModelKey> path, Object value, Set<SNodeReference> dependencies) {
-    return ViewModels.getInstance().writePath(ViewModels.findProject(path), name, path, value, dependencies);
+    ViewModels viewModels = ViewModels.getInstance();
+    CompletableFuture<Boolean> written = viewModels.writePath(name, path, value, dependencies);
+    return written;
   }
   public CompletableFuture<Boolean> remove(SNode node) {
     // removes the value of the node, and the values of composite keys that start with the node
@@ -72,34 +76,24 @@ public final class NamedViewModel implements ViewModel {
   }
 
   public CompletableFuture<Boolean> clear() {
-    // removes all data of this view model (through the first open project)
+    // removes all data of this view model
     return writePath(ListSequence.fromList(new ArrayList<ViewModelKey>()), null, null);
   }
 
+  /**
+   * Batches the store updates of the writes of all view models made outside a command.
+   */
   public ViewModelBatch startBatch() {
-    // batches the asynchronous writes of all view models
     return ViewModels.getInstance().startBatch();
   }
 
+  /**
+   * Updates the store now for the writes of all view models, so that the editors are updated by the current
+   * command. Has to be called inside a command.
+   */
   public void drain() {
-    // applies the queued writes of all projects now (of all view models); has to be called inside a command
-    ViewModels.getInstance().drainAll();
-  }
-
-  public ProjectViewModel forProject(Project project) {
-    // the view model bound to a project, so writes don't need the project as an argument
-    return new ProjectViewModel(this, project);
-  }
-
-  public ViewModel forRepository(SRepository repository) {
-    // The view model bound to the project of a repository, e.g. editorContext.getRepository(). A repository
-    // of no project (e.g. of a headless editor on the global repository, which only reads) gives this view
-    // model, whose writes find the project of the node.
-    Project project = ProjectHelper.getProject(repository);
-    if (project == null) {
-      return this;
-    }
-    return forProject(project);
+    ViewModels viewModels = ViewModels.getInstance();
+    viewModels.drain();
   }
 
   @Override

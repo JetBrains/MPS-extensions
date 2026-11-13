@@ -10835,6 +10835,51 @@
     <copy todir="${build.layout}/de.itemis.stubs.batik/lib">
       <fileset file="${extensions.code}/batik/solutions/lib/xmlgraphics-commons.jar" />
     </copy>
+    <mkdir dir="${build.layout}/de.itemis.stubs.jcef" />
+    <mkdir dir="${build.layout}/de.itemis.stubs.jcef/lib" />
+    <mkdir dir="${build.tmp}/default/de.itemis.stubs.jcef.jar" />
+    <mkdir dir="${build.tmp}/default/de.itemis.stubs.jcef.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/de.itemis.stubs.jcef.jar/META-INF/plugin.xml">
+      <idea-plugin>
+        <id>de.itemis.stubs.jcef</id>
+        <name>MPS JCEF (Stubs)</name>
+        <description>JAR and its stubs for using the JCEF classes (com.intellij.ui.jcef) in MPS.</description>
+        <version>${version}</version>
+        <vendor url="https://www.itemis.com/en/it-services/methods-and-tools/mps">itemis AG</vendor>
+        <depends>com.intellij.modules.mps</depends>
+        <depends>jetbrains.mps.core</depends>
+        
+        <extensions defaultExtensionNs="com.intellij">
+          <mps.LanguageLibrary dir="/languages" />
+        </extensions>
+      </idea-plugin>
+    </echoxml>
+    <jar destfile="${build.layout}/de.itemis.stubs.jcef/lib/de.itemis.stubs.jcef.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/default/de.itemis.stubs.jcef.jar" />
+    </jar>
+    <mkdir dir="${build.layout}/de.itemis.stubs.jcef/languages" />
+    <mkdir dir="${build.layout}/de.itemis.stubs.jcef/languages/de.itemis.stubs.jcef" />
+    <mkdir dir="${build.tmp}/default/de.itemis.stubs.jcef.jar1" />
+    <mkdir dir="${build.tmp}/default/de.itemis.stubs.jcef.jar1/META-INF" />
+    <echoxml file="${build.tmp}/default/de.itemis.stubs.jcef.jar1/META-INF/module.xml">
+      <module namespace="de.itemis.stubs.jcef" type="solution" uuid="4368e872-3beb-47e5-b702-b599cefe324b">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="cl" />
+        </dependencies>
+        <uses />
+        <library jar="../../lib/intellij.platform.ui.jcef.jar" />
+        <sources jar="." descriptor="de.itemis.stubs.jcef.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/de.itemis.stubs.jcef/languages/de.itemis.stubs.jcef/de.itemis.stubs.jcef.jar" duplicate="preserve">
+      <fileset dir="${extensions.code}/jcef/solutions" includes="icons/**, resources/**" />
+      <zipfileset file="${extensions.code}/jcef/solutions/de.itemis.stubs.jcef.msd" prefix="module" />
+      <fileset dir="${build.tmp}/default/de.itemis.stubs.jcef.jar1" />
+    </jar>
+    <mkdir dir="${build.layout}/de.itemis.stubs.jcef/lib" />
+    <copy todir="${build.layout}/de.itemis.stubs.jcef/lib">
+      <fileset file="${extensions.code}/jcef/solutions/lib/intellij.platform.ui.jcef.jar" />
+    </copy>
     <mkdir dir="${build.layout}/de.itemis.stubs.xml" />
     <mkdir dir="${build.layout}/de.itemis.stubs.xml/lib" />
     <mkdir dir="${build.tmp}/default/de.itemis.stubs.xml.jar" />
@@ -15413,6 +15458,7 @@
         <module file="${extensions.code}/statistics/de.itemis.mps.statistics.mpl" />
         <module file="${extensions.code}/utils/solutions/de.itemis.mps.utils.serializer.xml/de.itemis.mps.utils.serializer.xml.msd" />
         <module file="${extensions.code}/batik/solutions/de.itemis.stubs.batik.msd" />
+        <module file="${extensions.code}/jcef/solutions/de.itemis.stubs.jcef.msd" />
         <module file="${extensions.code}/xml/solutions/de.itemis.stubs.xml.msd" />
         <module file="${extensions.code}/shadowmodels/solutions/de.q60.mps.collections.libs/de.q60.mps.collections.libs.msd" />
         <module file="${extensions.code}/shadowmodels/solutions/de.q60.mps.incremental.runtime/de.q60.mps.incremental.runtime.msd" />

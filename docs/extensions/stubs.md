@@ -40,6 +40,12 @@ This module contains the following libraries:
 - [Apache™ Batik SVG Toolkit](https://xmlgraphics.apache.org/batik/) library for working with SVG files
 - [Apache™ XML Graphics](https://xmlgraphics.apache.org/) library for conversion of XML formats to graphical output
 
+## JCEF
+
+This module (`de.itemis.stubs.jcef`) contains stubs for the JCEF classes of the IntelliJ Platform
+(`com.intellij.ui.jcef`, for example `JBCefBrowser`), for which MPS has no stubs of its own
+([MPS-40100](https://youtrack.jetbrains.com/issue/MPS-40100/com.intellij.ui.jcef-stubs-missing)).
+
 # Xerces
 
 - [xerces](https://xerces.apache.org/xerces2-j/) XML parsers

@@ -14,9 +14,9 @@ import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 import java.util.Objects;
 import java.util.List;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
 import java.util.ArrayList;
 import java.util.Arrays;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -62,7 +62,11 @@ public final class NodeDiff {
     }
     MapSequence.fromMap(targetOf).put(source, copy);
     for (SNode child : ListSequence.fromList(SNodeOperations.getChildren(source))) {
-      copy.addChild(child.getContainmentLink(), copyStructure(child));
+      SContainmentLink link = child.getContainmentLink();
+      if (link == null) {
+        continue;
+      }
+      copy.addChild(link, copyStructure(child));
     }
     return copy;
   }
@@ -183,7 +187,7 @@ public final class NodeDiff {
     if (rows == 0 || columns == 0) {
       return matches;
     }
-    if ((long) rows * columns > MAX_TABLE_SIZE) {
+    if (rows * columns > MAX_TABLE_SIZE) {
       // too big for the table: children at the same position with the same key are matched
       for (int k = 0; k < rows && k < columns; k++) {
         if (targetKeys[start + k].equals(sourceKeys[start + k])) {

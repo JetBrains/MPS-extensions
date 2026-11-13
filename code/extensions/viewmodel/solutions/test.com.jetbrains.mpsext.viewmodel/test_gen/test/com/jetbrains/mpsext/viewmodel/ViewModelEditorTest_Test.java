@@ -39,6 +39,10 @@ public class ViewModelEditorTest_Test extends BaseTransformationTest {
   public void test_editorShowsTheValueAndIsUpdated() throws Throwable {
     new TestBody(this).test_editorShowsTheValueAndIsUpdated();
   }
+  @Test
+  public void test_aWriteOutsideACommandIsReadBackAtOnceAndShownLater() throws Throwable {
+    new TestBody(this).test_aWriteOutsideACommandIsReadBackAtOnceAndShownLater();
+  }
 
   /*package*/ static class TestBody extends BaseTestBody {
 
@@ -56,7 +60,7 @@ public class ViewModelEditorTest_Test extends BaseTransformationTest {
       // Each step is a command of its own, as in the IDE: an editor collects the model events of the commands
       // that start after it was built, and updates when such a command finishes. Since MPS 2026.1 an editor
       // built inside a command misses the events of that same command.
-      final ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+      final ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
       final SNode item = getAnnotatedNode("a");
       final HeadlessEditorComponent[] editor = new HeadlessEditorComponent[1];
       this.command(myProject, () -> {
@@ -77,6 +81,39 @@ public class ViewModelEditorTest_Test extends BaseTransformationTest {
         this.command(myProject, () -> Assert.assertEquals("<none>", TestBody.this.valueCellText(editor[0])));
       } finally {
         this.command(myProject, () -> editor[0].dispose());
+      }
+    }
+    /**
+     * A write as a background computation makes it: in a read action, not in a command. It is read back at once,
+     * and the editor is updated by the command that the write schedules on the EDT.
+     */
+    public void test_aWriteOutsideACommandIsReadBackAtOnceAndShownLater() throws Exception {
+      initTestNodes();
+      final Project p = myProject;
+      final ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
+      final SNode item = getAnnotatedNode("a");
+      final HeadlessEditorComponent[] editor = new HeadlessEditorComponent[1];
+      ViewModelTestUtil.command(p, () -> {
+        vm.clear();
+        editor[0] = new HeadlessEditorComponent(p.getRepository());
+        editor[0].editNode(item);
+        Assert.assertEquals("<none>", ViewModelTestUtil.valueCellText(editor[0]));
+      });
+      try {
+        p.getModelAccess().runReadAction(() -> {
+          Computed<String> computed = vm.compute(() -> SPropertyOperations.getString(item, PROPS.input$_sYF) + "?");
+          Assert.assertTrue(vm.writeComputed(item, computed).getNow(false));
+          Assert.assertEquals("x?", vm.get(item));
+        });
+        Assert.assertEquals("x?", ViewModelTestUtil.waitForValueCellText(p, editor[0], "x?"));
+        // a change of the dependency, in a command: removed from the values and the store in that command
+        ViewModelTestUtil.command(p, () -> {
+          SPropertyOperations.assign(item, PROPS.input$_sYF, "changed");
+          Assert.assertNull(vm.get(item));
+        });
+        ViewModelTestUtil.command(p, () -> Assert.assertEquals("<none>", ViewModelTestUtil.valueCellText(editor[0])));
+      } finally {
+        ViewModelTestUtil.command(p, () -> editor[0].dispose());
       }
     }
 

@@ -23,8 +23,12 @@ public abstract class ViewModelKey {
     return new ViewModelNodeKey(target);
   }
 
+  /**
+   * Returns the key of the node. It remembers the node, so that the key can be resolved without a repository.
+   */
   public static ViewModelKey forNode(SNode target) {
-    return new ViewModelNodeKey(target.getReference());
+    ViewModelNodeKey key = new ViewModelNodeKey(target);
+    return key;
   }
 
   public static ViewModelKey of(SNode keyNode) {

@@ -106,31 +106,40 @@ iets3 variability `EvalVarPointCache`, `SkelTreeCache`, `AbstractConfigHashing`;
 3. **Lifecycle.** Keyed by node reference, not node instance: survives model reload, is removed when
    the key node is deleted, does not leak into copies or persistence, does not keep objects of
    disposed class loaders.
-4. **Async producers.** Results computed in the background can be written; results computed from
-   inputs that changed in the meantime are dropped.
+4. **Async producers.** Results computed in the background can be written, and are read back right
+   after the write, also outside a command and in a headless run. A result computed from inputs that
+   changed in the meantime must not be stored.
 5. **No undo, no dirty models, not visible in the project.**
 6. Later: scopes per editor/root, typesystem integration, persisted view models, memory bounds.
 
 ## Decisions
 
 * Implemented in MPS-extensions; no changes to MPS. Use cases in MPS itself are ignored.
-* **Storage: nodes in a temporary model** (`TemporaryModels`, no undo tracking). Because the data are
-  nodes in a model registered in the repository, the editor's existing read tracking and update
-  mechanism work without any change. A persisted `<model>@view` model in the same module is a later
-  option (not in the first version).
-* **Writes always happen in the context of a project** (`jetbrains.mps.project.Project`), never via
-  the deprecated global model access. Reads need no project. A caller without a project writes
-  through the view model, which finds the project of the key node (`ViewModels.findProject`).
-* **One asynchronous write.** `write` can be called from any thread and returns a future. Inside a
-  command of the project it is applied before it returns (after the writes still queued, so that none
-  of them overwrites it later); otherwise it is queued and the queue is drained in one
-  undo-transparent command on the EDT. Writes are rare, so there is no throttling; a batch API
-  (start/close) lets a producer group many writes into one command. A caller that has to read its own
-  write writes inside a command. Explicitly synchronous and asynchronous writes were dropped because
-  no caller needed them; the primitives `ViewModels.writePathAsync` (always queued) and `drain` remain.
+* **Storage: the values in memory, and a copy of them as nodes in a temporary model** (the store;
+  `TemporaryModels`, no undo tracking). Every read and write uses the values (`ValueTree`), which need
+  no model access beyond the caller's. Editors read through the store: because its data are nodes in a
+  model registered in the repository, the editor's existing read tracking and update mechanism work
+  without any change. A persisted `<model>@view` model in the same module is a later option (not in
+  the first version).
+* **No project.** Neither reads nor writes need a `jetbrains.mps.project.Project`, or an IDE. An
+  `SRepository` is enough for everything but one thing: starting a command, which editors need to
+  see a change (see *Updating the store*). The model access of `MPSModuleRepository` (the repository
+  of every module in MPS 2025.1) can't run commands, so that one command is run through an open
+  project — any one, because the commands of all projects share one model access and update the
+  editors of all projects. Code that uses view models never names a project.
+* **Writes are applied at once.** `write` can be called from any thread, with the read access the
+  value was computed in, and stores the value before it returns, so a read right after it returns
+  the value — inside a command or not, in an IDE or headless (e.g. a facet that runs while an Ant
+  build generates). Because the caller still holds the read access the value was computed in, no
+  dependency can have changed in between, so there is nothing to drop later. The store is updated
+  inside a command: at once when the write is made inside one, otherwise in one undo-transparent
+  command on the EDT. A batch (start/close) groups the store updates of many writes outside a command
+  into one command. `write` returns a completed future, which the first version needed for queued
+  writes; it is kept so that callers compiled against it keep working.
 * **No undo tracking** of view models.
 * **No view models for read-only models.** Writes for nodes of read-only models are rejected, reads
-  return nothing.
+  return nothing. So are writes for nodes in no model of a repository (a deleted node, or a node of a
+  transient model while generating): nothing would remove their values.
 * **Map storage shaped as a hash array mapped trie (HAMT), mutated in place.**
 * **Named view models.** Each use case writes to a view model of its own name (e.g.
   `"org.iets3.testResults"`), which is a map of its own. Keys of different use cases can't collide,
@@ -169,9 +178,9 @@ stable across sessions — they are computed from strings, never from `identityH
 |---|---|---|
 | `com.jetbrains.mpsext.viewmodel` | language + generator | the DSL: view model declarations and the `viewmodel/X/` expression |
 | `com.jetbrains.mpsext.viewmodel.storage` | language | concepts of the storage (structure only) |
-| `com.jetbrains.mpsext.viewmodel.runtime` | solution | Java API, HAMT, dependency tracking, write queue, application plugin, *View Models* tool window; runtime of the DSL |
+| `com.jetbrains.mpsext.viewmodel.runtime` | solution | Java API, values, HAMT, dependency tracking, store updates, application plugin, *View Models* tool window; runtime of the DSL |
 | `test.com.jetbrains.mpsext.viewmodel.lang` | language | `TestItem`, whose editor shows the value stored for it in `Results`; declares the view models `Results` and `Other` |
-| `test.com.jetbrains.mpsext.viewmodel` | solution | `ViewModelStoreTest` (`NodesTestCase`) |
+| `test.com.jetbrains.mpsext.viewmodel` | solution | `ViewModelStoreTest` (`NodesTestCase`, in a command) and `ViewModelEditorTest` (a headless editor, writes in and outside commands) |
 
 Clients use the DSL, or depend on the runtime solution and use the Java API directly.
 
@@ -180,7 +189,7 @@ Clients use the DSL, or depend on the runtime solution and use the Java API dire
 ```
 ViewModelStore               root; one per store
   viewModels : ViewModel [0..n]
-ViewModel                    named (INamedConcept); one per use case, created by its first write
+ViewModel                    named (INamedConcept); one per use case, created by its first store update
   root : HamtBranch [1]
 
 abstract HamtNode            slot : integer — position in the parent branch (0..15)
@@ -224,8 +233,8 @@ event the editor needs.
 * Remove: remove the entry, then collapse upwards: a non-root branch with no items is removed; a
   non-root branch whose only child is an entry is replaced by that entry. Removing the last key of a
   nested map removes the parent entry.
-* A write whose value is equal (`equals`) to the stored one and has the same dependencies is skipped,
-  so it doesn't update editors.
+* A store update whose value is equal (`equals`) to the one in the store doesn't change the store, so
+  it doesn't update editors.
 
 ### Store lifecycle
 
@@ -244,23 +253,27 @@ event the editor needs.
 * The store root outlives class reloads of the runtime module. A class reload replaces the
   `ViewModels` class, and MPS rebuilds the open editors before it initializes the plugins again; when
   the new instance had to create a store first, those editors read no store, recorded no dependency
-  and missed the first write. So the root is remembered in the user data of the IntelliJ
-  `Application` (a platform object, under a key found by name), the plugin's dispose block only
-  releases what the instance holds (index, listeners, pending writes), and a new instance takes the
-  root over on its first read (read-only). Its first write access (plugin init or first write) clears
-  the view models of the previous instance: their dependencies are gone with its index, so they could
-  no longer be invalidated, and the removal updates the editors that showed them.
-* Without the plugin (headless runs without plugins) the first write creates the store.
+  and missed the first write. So the plugin's dispose block only releases what the instance holds
+  (values, index, listeners) and keeps the store model, which stays registered because its module
+  isn't reloadable. A new instance finds it again by its name (`ViewModels.findStore`): the store is
+  the temporary model whose name starts with `com.jetbrains.mpsext.viewmodel.store` (`TemporaryModels`
+  appends a unique suffix; its id is random). It looks once, on its first read (read-only), in the
+  repository it knows: the plugin's, or that of the first key node read or written. This needs no
+  IntelliJ `Application`; the root used to be remembered in the `Application`'s user data. The
+  first write access (plugin init or first store update) clears the view models of the previous
+  instance: their values are gone with it, and the removal updates the editors that showed them.
+* Without the plugin (headless runs without plugins) the first store update creates the store, in the
+  repository of the first key node written. A run without an IDE updates the store only when a write
+  is made inside a command, which generation never does, so there it usually never exists.
 
 ### Java API (runtime solution)
 
 ```java
 // a named view model; a lightweight handle that only holds the name. Code uses the interface ViewModel,
-// which both handles (NamedViewModel, ProjectViewModel) implement and which the DSL expression has as type.
+// which NamedViewModel implements and which the DSL expression has as type.
 ViewModel results = ViewModels.named("org.iets3.testResults");
 
-// reading — needs read access but no project, e.g. in an editor;
-// reads from an editor are tracked as cell dependencies
+// reading — needs read access, e.g. in an editor; reads from an editor are tracked as cell dependencies
 Object v = results.get(node);
 node<> n = results.getNode(node);                     // a node value; null for other values
 Object v = results.getPath(path);                     // composite key: list<ViewModelKey>
@@ -268,36 +281,25 @@ Object v = results.getPath(path);                     // composite key: list<Vie
 // recording dependencies of a computation (inside one read action)
 Computed<T> c = results.compute(() -> evaluate(node)); // c.getValue(), c.getDependencies()
 
-// writing from any thread, through the project of the node: applied before write returns inside a
-// command of it, otherwise queued (called with the read access the value was computed in); the future
-// completes with false when the write is rejected (read-only model, node gone) or dropped (a dependency
-// changed before it was applied, no project is open)
+// writing from any thread, with the read access the value was computed in; stored before write returns,
+// the future is completed: false when the write is rejected (read-only model, node in no model of a
+// repository)
 CompletableFuture<Boolean> f = results.write(node, value, dependencies); // a node: a NodeValue
 results.writeComputed(node, c);
 results.writePath(path, value, dependencies);         // value null removes
 results.remove(node);                                 // all data of the node, composite keys included
 results.clear();                                      // all data of this view model
-try (ViewModelBatch b = results.startBatch()) { … many writes … }
-results.drain();                                      // apply the queue now (inside a command)
-
-// the same through a given project (NamedViewModel.forProject, forRepository)
-ViewModel vm = ViewModels.named("org.iets3.testResults").forProject(project);
+try (ViewModelBatch b = results.startBatch()) { … many writes … } // one store update outside a command
+results.drain();                                      // update the store now (inside a command)
 ```
 
-`NamedViewModel` and `ProjectViewModel` are lightweight handles (a name, plus the project) and can be
-created whenever needed; they stay valid when the store is recreated after a class reload. Without a
-project, writes go through the project of the node (`clear` through the first open project); with
-one, through that project. Batches and the write queue are shared by all view models and projects:
-`startBatch` groups the asynchronous writes of every view model, and `drain` applies all queued
-writes. Code that uses view models only
-names the interface `ViewModel`, so how the project is found can change (e.g. to no project at all)
-without changing it. `ViewModels` itself
-offers `named(name)` and the path-based primitives `getPath(viewModel, path)`,
-`writePath(project, viewModel, …)` / `writePathAsync(project, viewModel, …)` (always queued) /
-`drain(project)`, and `findProject(path)`: the open project that contains the module of the first node
-of the path, otherwise the first open project (null when none is open).
-Internally the name of the view model is the first key of each path, so the index of dependencies
-and the write queue treat all view models alike.
+`NamedViewModel` is a lightweight handle that only holds the name and can be created whenever needed;
+it stays valid when the store is recreated after a class reload. Batches and the store updates are
+shared by all view models: `startBatch` groups the store updates of every view model, and `drain`
+updates the store for all of them. `ViewModels` itself offers `named(name)` and the path-based
+primitives `getPath(viewModel, path)`, `writePath(viewModel, path, value, dependencies)` and `drain()`.
+Internally the name of the view model is the first key of each path, so the values and the index of
+dependencies treat all view models alike.
 
 Keys are the Java value objects `ViewModelStringKey` and `ViewModelNodeKey` (created with
 `ViewModelKey.forString/forNode/forNodeReference`), matching the key concepts. The methods taking a
@@ -314,40 +316,18 @@ repeating a string:
 ```
 view model TestResults                                   // root ViewModelDeclaration
 
-// in editor code: the project is taken from editorContext
 Object r = viewmodel/TestResults/.get(node);
-
-// elsewhere: the project of the node is found, or the project is passed
 viewmodel/TestResults/.writeComputed(item, c);
-viewmodel/TestResults/(project).writeComputed(item, c);
 ```
 
 * `ViewModelDeclaration` (root, `INamedConcept`). Its runtime name is the model name plus the
   declaration name (`getRuntimeName()`), so view models of different models can't collide.
-* `ViewModelExpression` references a declaration and has an optional child `project`. Its type is the
-  interface `ViewModel` either way, so neither reading nor writing needs a project, and the project
-  only decides which handle the generator creates.
-* Project from the context: inside any concept function that offers the `editorContext` parameter
-  (editor queries, cell actions, intentions, menus, …) the project is found at runtime through
-  `editorContext.getRepository()` (`NamedViewModel.forRepository`, using `ProjectHelper.getProject`).
-  A repository that belongs to no project (e.g. a headless editor on the global repository, created by an
-  export or rendering tool) gives the view model without a project, which reads like any other and finds
-  the project of the node for writes. Elsewhere the project of the node is found. The editor shows the
-  `(…)` part only when a project is given; typing `(` after the expression (a right side transform) adds
-  an empty project expression.
-* Generator: three rules in `main`. An expression with a project reduces to
-  `ViewModels.named("<runtime name>").forProject(<project>)`, one without a project to
-  `ViewModels.named("<runtime name>")`. In editor code it reduces through the
-  template `reduce_ViewModelExpression_inEditor`, whose context is an editor query function, so that
-  `editorContext` in the template is a real concept function parameter, to
-  `ViewModels.named("<runtime name>").forRepository(editorContext.getRepository())`. Declarations are
-  dropped.
-* The context can only be found in the input model: once the editor generator has turned the concept
-  function into Java, the expression has no concept function ancestor any more. So the mappings of
-  this generator run before or together with those of `jetbrains.mps.lang.editor`,
-  `jetbrains.mps.lang.intentions` and `jetbrains.mps.lang.actions` (priority rules in the generator
-  descriptor).
-* Tests (`NodesTestCase`) pass the test's `project` explicitly: `viewmodel/Results/(project)`.
+* `ViewModelExpression` references a declaration. Its type is the interface `ViewModel`.
+* Generator: one reduction rule in `main` reduces the expression to `ViewModels.named("<runtime name>")`.
+  Declarations are dropped.
+* The first version had an optional child `project` (`viewmodel/X/(project)`) and took the project from
+  `editorContext` in editor code, through a template of its own and priority rules against the editor,
+  intentions and actions generators. All of it went with the project.
 
 ### Dependency tracking and invalidation
 
@@ -368,16 +348,16 @@ viewmodel/TestResults/(project).writeComputed(item, c);
   `mpsext.viewmodel.nodeDependencyLimit`, default 100) depends on the roots that contain them
   (`RootDependency`) instead of on each node. The nodes it read go into a Bloom filter (`NodeFilter`,
   10 bits per node, 5 hashes) that all root dependencies of the recording share. A change below such a
-  root (`ViewModels.nodesInRootChanged`) invalidates the entry, or marks a queued write stale, only when
-  the filter may contain one of the changed nodes: the node whose property or reference changed, the
+  root (`ViewModels.nodesInRootChanged`) invalidates the entry only when the filter may contain one of
+  the changed nodes: the node whose property or reference changed, the
   parent of an added or removed child, and each node of a removed subtree. About one change in a hundred
   of a node that wasn't read gets through the filter and invalidates the entry as well. Removing the root
   itself invalidates every entry that depends on it.
 * Two root dependencies on one root are equal only when their filters are. A set that merges the
   dependencies of several computations therefore keeps the filter of each, and a rewrite of the same
-  value computed from other nodes takes the new dependencies. The reverse indexes
-  (`ViewModelIndex.dependents`, `ViewModels.pendingByDependency`) key a root dependency by the one without
-  a filter (`RootDependency.keyOf`), so the dependencies on a root are found together and no filter stays
+  value computed from other nodes takes the new dependencies. The reverse index
+  (`ViewModelIndex.dependents`) keys a root dependency by the one without a filter
+  (`RootDependency.keyOf`), so the dependencies on a root are found together and no filter stays
   referenced from a key; the filters of an entry are kept next to it (`ViewModelIndex.filtersOf`).
 * A change of a dependency node (property, reference, child added/removed) removes the dependent
   entries. Removing a node removes the entries keyed by any node of the removed subtree and the
@@ -385,46 +365,43 @@ viewmodel/TestResults/(project).writeComputed(item, c);
   depending on nodes of that model; entries keyed by its nodes stay (the references remain valid).
   A model removed from the repository (deleted, or a disposed temporary model) removes the entries
   keyed by and depending on its nodes.
-* Whether a removed key node is really gone (and not just moved) is checked when the write queue is
-  drained, so its entries are removed in a later command; nothing displays them in the meantime.
-* Change events arrive while the change's command is running, so the removal happens in the same
-  command and the editor update of that command includes it. Changes outside a command (rare, e.g.
-  migrations) enqueue the removal through the write queue, using the project of the entry's last write:
-  MPS editors only record model events while a command runs, so a removal made directly would not
-  update them.
-* Closing a project is such a change. `Project.dispose` removes the project's modules in a write action
-  outside a command and only then marks the project disposed, so the removals of the entries keyed by
-  or depending on its models are queued for a project that is disposed by the time the queue is
-  drained. Queued removals are therefore applied even when their project is closed (they need none),
-  and the drain scheduled for a closed project runs in a command of another open project, or in a
-  write action when none is open (then there is no editor to update). Otherwise the entries would stay
-  in the store with nothing left to invalidate them, and show stale results when the project is
-  reopened.
+* Whether a removed key node is really gone (and not just moved) is checked by the next store update
+  in a command of its own (a scheduled one, or `drain`), not inside the command that removed it, where
+  the node may still be added again. Until then its values stay; nothing displays them.
+* Change events arrive while the change's command is running, so the value is removed at once and the
+  store is updated in the same command: the editor update of that command includes it. Changes outside
+  a command (rare, e.g. a model reloaded from disk) remove the value at once too, and schedule the store
+  update: MPS editors only record model events while a command runs.
+* Closing a project is such a change: `Project.dispose` removes the project's modules in a write action
+  outside a command. The values keyed by or depending on its models are removed at once, and the store
+  is updated by a command of another open project, or by the next command that writes when none is
+  open.
 * An `ObjectValue` whose object was loaded by a disposed module class loader (after a class reload)
   reads as `null` (this replaces the `ClassCastException` handling in iets3). Class reloads rebuild
   the editors anyway, so no change event is needed.
 
-### The write queue
+### Updating the store
 
-* A write outside a command of the project is queued (`ViewModels.writePathAsync`). It must be made
-  while the caller still holds the read access under which the value was computed. It registers the
-  pending write in the reverse index immediately and starts listening to the models of its
-  dependencies; a change of any of its dependencies before the queue is drained marks it stale, and
-  stale writes are dropped.
-* A write inside a command drains the queue first and is then applied, so that a write queued before
-  it can't overwrite it later.
-* A drain applies the queued writes of all projects, each through the project it was queued for. A
-  command of any project can do that, because MPS runs the commands of all projects through one model
-  access and the editors of every project are updated when it ends. Draining only the writes of one
-  project missed writes queued through another one: a node that belongs to no project (e.g. in a
-  temporary model, as the nodes of a test are) is written through the first open project.
-* `drain()` is public, so tests (and code that is already inside a command) can apply the queue
-  synchronously.
-* Drain: one `executeUndoTransparentCommand` on the project's model access, scheduled on the EDT once
-  per batch (outermost `startBatch`/`close` pair, or each queued write outside a batch). Writes to the
-  same path in one drain: the last one wins. Writes whose key node is gone or in a read-only model are
-  dropped, as are writes of values (not removals) queued for a project that was closed in the meantime.
-  The returned `Future` completes when the write was applied or dropped.
+* A write changes the values at once and marks its path as out of sync. Inside a command (any
+  project's; `ModelAccess.isCommandAction`, which any repository's model access answers) the store is
+  updated before the write returns, so the editors are updated when the command ends. Otherwise one
+  undo-transparent command is scheduled on the EDT, through an open project
+  (`ViewModels.commandProject`), once per batch (outermost `startBatch`/`close` pair) or for each write
+  outside a batch.
+* An update makes the store equal to the values at every path that is out of sync: it puts the value
+  (replacing a nested map), removes the entry (collapsing nested maps), or leaves a nested map whose
+  entries are out of sync themselves. The order of the paths doesn't matter, because each update reads
+  the current values rather than replaying writes.
+* `drain()` updates the store now (inside a command), so tests and code that is already inside a
+  command can have the store, and so the editors, updated by that command. A write needs no drain to be
+  read back.
+* Without an IDE (the Ant `generate` task runs in a plain `MpsEnvironment`, which has no IntelliJ
+  `Application`, so `MPSCoreComponents` and the `ProjectManager` aren't there) or without an open
+  project, nothing is scheduled: there is no editor to update. The values work all the same, so code
+  that stores a value while generating (a check result stored by a facet) reads it back.
+* A reader takes the value from the values and walks the store along, so that an editor depends on
+  the store entries the value is (or will be) kept in. A cell built between a write and the update of
+  the store already shows the new value, and is built again when the update changes the store.
 
 ### Node values
 
@@ -434,9 +411,10 @@ events update exactly the cells that show a changed part. A rewrite changes the 
 place instead of replacing it (`NodeDiff`), so an editor showing it only updates what changed, and
 nothing at all when the new node is equal to the stored one.
 
-* The stored node is a copy; the source node isn't changed or moved. A write inside a command reads
-  the source directly. A queued write copies it at once, because it may change before the queue is
-  drained, so it needs read access.
+* The stored node is a copy; the source node isn't changed or moved. A write copies it at once (so it
+  needs read access), because it may change before the store is updated. The update copies that copy
+  into the store, or updates the node there (`NodeDiff`); from then on the node in the store is the
+  value, so a read returns the node that editors show.
 * `NodeDiff.update(target, source)` makes the stored node equal to the source:
   * a node of another concept is replaced by a copy;
   * properties are set only where they differ;
@@ -450,9 +428,10 @@ nothing at all when the new node is equal to the stored one.
     A reference is only set when its target differs.
 * Children without a name and of the same concept are matched in order, so inserting one in front of
   others updates all following ones (still in place, but more cells than necessary).
-* The store model uses the languages of the stored nodes (added on write).
-* `getNode` returns the stored node. It belongs to the view model: callers read and show it but don't
-  change it. Rewriting the node read from the view model is a no-op.
+* The store model uses the languages of the stored nodes (added by the store update).
+* `getNode` returns the stored node: the one in the store, or the copy made by the write until the
+  store is updated (outside a command, or without an IDE). It belongs to the view model: callers read
+  and show it but don't change it. Rewriting the node read from the view model changes nothing.
 * Stored nodes don't hold objects of module class loaders, so they survive class reloads, and they
   can be persisted by a later `@view` model.
 
@@ -473,7 +452,7 @@ what is stored, mainly while developing a language that uses view models:
   *roots of* and the model name, a dependency on a root (`RootDependency`) as the root with *nodes read
   below the root*.
 * Double-click opens the node of a key or dependency. *Remove* deletes the selected entry, nested map
-  or whole view model (a `writePath` with a null value in a command of the project).
+  or whole view model (a `writePath` with a null value, in a command so that the editors are updated).
 * *Show View Model Entries* in the editor's *Language Debug* menu (group `ViewModelsDebug`, added to
   MPS's `DebugActions`) filters the tree to the entries whose path contains the selected node, in all
   view models. When the node has none, it takes the closest node that has
@@ -496,7 +475,7 @@ what is stored, mainly while developing a language that uses view models:
 * The tool window listens to the store model (`SNodeChangeListener`) and rebuilds the tree 300 ms after
   the last change, only while it is shown (otherwise when it is shown next), keeping the expanded
   rows and the selection. It reads the store through `ViewModels.getStore()` and doesn't register
-  editor dependencies.
+  editor dependencies. So it shows a write outside a command once the store is updated for it.
 
 ## Later
 

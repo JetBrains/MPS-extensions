@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## November 2026
+
+### Fixed
+
+- *com.jetbrains.mpsext.viewmodel.runtime* Writing to a view model without a project (in a headless run without an IDE, such as the Ant generate task, or with no open project) failed with a NullPointerException in ViewModels.findProject. Such writes are now applied at once to an in-memory store without dependency tracking, so that reading the value back returns it. Code that stores check results during generation works again.
+
 ## October 2026
 
 ### Added

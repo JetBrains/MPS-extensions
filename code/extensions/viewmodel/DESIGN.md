@@ -121,6 +121,8 @@ iets3 variability `EvalVarPointCache`, `SkelTreeCache`, `AbstractConfigHashing`;
 * **Writes always happen in the context of a project** (`jetbrains.mps.project.Project`), never via
   the deprecated global model access. Reads need no project. A caller without a project writes
   through the view model, which finds the project of the key node (`ViewModels.findProject`).
+  When there is no project to write through (none is open, or a headless run without an IDE), the
+  write goes to the detached store instead (see *Writes without a project*).
 * **One asynchronous write.** `write` can be called from any thread and returns a future. Inside a
   command of the project it is applied before it returns (after the writes still queued, so that none
   of them overwrites it later); otherwise it is queued and the queue is drained in one
@@ -271,7 +273,8 @@ Computed<T> c = results.compute(() -> evaluate(node)); // c.getValue(), c.getDep
 // writing from any thread, through the project of the node: applied before write returns inside a
 // command of it, otherwise queued (called with the read access the value was computed in); the future
 // completes with false when the write is rejected (read-only model, node gone) or dropped (a dependency
-// changed before it was applied, no project is open)
+// changed before it was applied); without a project to write through (none is open, or headless without
+// an IDE) the write is applied at once to the detached store
 CompletableFuture<Boolean> f = results.write(node, value, dependencies); // a node: a NodeValue
 results.writeComputed(node, c);
 results.writePath(path, value, dependencies);         // value null removes
@@ -410,6 +413,24 @@ viewmodel/TestResults/(project).writeComputed(item, c);
   same path in one drain: the last one wins. Writes whose key node is gone or in a read-only model are
   dropped, as are writes of values (not removals) queued for a project that was closed in the meantime.
   The returned `Future` completes when the write was applied or dropped.
+
+### Writes without a project
+
+* A headless run without an IDE has no IntelliJ `Application`: the Ant `generate` task (`GeneratorWorker`)
+  runs in a plain `MpsEnvironment`, so `findProject` finds no project (`MPSCoreComponents` and the
+  `ProjectManager` need the `Application`), and there is no EDT to drain the queue in. An IDE with no
+  open project has no project either. Code that stores a value while generating (e.g. a check result
+  stored by a facet) still has to read it back.
+* So such writes (`writePath` without a project, and any write when there is no `Application`) are
+  applied at once to the `DetachedStore`, synchronously and with no more than the caller's read access.
+  There are no editors to update, so there is no dependency tracking and no invalidation. Node values
+  are stored as a copy, as in the store; read-only models aren't rejected.
+* A value is held as a user object of the node of the first node key of its path (the key keeps the node
+  it was made from weakly, `ViewModelNodeKey.getNode`), so it goes away with the node even when the value
+  refers to the node, as the user objects did that some clients used before view models. Paths without
+  such a node are held in a map of their own.
+* Reads look in the store first and then in the detached store. A write through a project removes the
+  detached value at its path, so that it can't come back after a later removal from the store.
 
 ### Node values
 

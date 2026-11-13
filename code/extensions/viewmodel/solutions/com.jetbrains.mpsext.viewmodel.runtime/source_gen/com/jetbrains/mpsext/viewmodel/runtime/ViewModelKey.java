@@ -24,7 +24,9 @@ public abstract class ViewModelKey {
   }
 
   public static ViewModelKey forNode(SNode target) {
-    return new ViewModelNodeKey(target.getReference());
+    // remembers the node, so that the key can be resolved without a repository
+    ViewModelNodeKey key = new ViewModelNodeKey(target);
+    return key;
   }
 
   public static ViewModelKey of(SNode keyNode) {

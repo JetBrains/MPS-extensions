@@ -143,6 +143,10 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
   public void test_asyncNodeWriteStoresASnapshot() throws Throwable {
     new TestBody(this).test_asyncNodeWriteStoresASnapshot();
   }
+  @Test
+  public void test_aWriteWithNoProjectIsAppliedAtOnce() throws Throwable {
+    new TestBody(this).test_aWriteWithNoProjectIsAppliedAtOnce();
+  }
 
   /*package*/ static class TestBody extends BaseTestBody {
 
@@ -578,6 +582,52 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         vm.drain();
         SNode stored = SNodeOperations.cast(vm.getNode(item), CONCEPTS.TestTree$V5);
         Assert.assertEquals("1", SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).first(), PROPS.label$IRFe));
+      });
+    }
+    public void test_aWriteWithNoProjectIsAppliedAtOnce() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+        vm.clear();
+        SNode item = getAnnotatedNode("a");
+        SNode other = getAnnotatedNode("b");
+        // What happens when no project is open, or in a headless run without an IDE (e.g. the generation of an Ant
+        // build): there is no project to write through, so the write is applied at once to the detached store.
+        ViewModels viewModels = ViewModels.getInstance();
+        CompletableFuture<Boolean> future = viewModels.writePath(null, vm.getName(), ViewModels.path(item), "detached", null);
+        Assert.assertTrue(future.getNow(false));
+        Assert.assertEquals("detached", vm.get(item));
+        // a key made from the reference of the node finds it, too
+        List<ViewModelKey> byReference = ListSequence.fromList(new ArrayList<ViewModelKey>());
+        ListSequence.fromList(byReference).addElement(ViewModelKey.forNodeReference(item.getReference()));
+        Assert.assertEquals("detached", vm.getPath(byReference));
+        Assert.assertNull(vm.get(other));
+        // composite keys, and the removal of all values of a node
+        List<ViewModelKey> nested = ViewModels.path(item);
+        ListSequence.fromList(nested).addElement(ViewModelKey.forString("nested"));
+        viewModels.writePath(null, vm.getName(), nested, "n", null);
+        Assert.assertEquals("n", vm.getPath(nested));
+        viewModels.writePath(null, vm.getName(), ViewModels.path(item), null, null);
+        Assert.assertNull(vm.get(item));
+        Assert.assertNull(vm.getPath(nested));
+        // a node value is stored as a copy
+        SNode source = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree"));
+        SPropertyOperations.assign(source, PROPS.name$MnvL, "source");
+        SPropertyOperations.assign(source, PROPS.label$IRFe, "1");
+        viewModels.writePath(null, vm.getName(), ViewModels.path(item), source, null);
+        SNode stored = SNodeOperations.cast(vm.getNode(item), CONCEPTS.TestTree$V5);
+        Assert.assertNotNull(stored);
+        Assert.assertFalse((stored == source));
+        Assert.assertEquals("1", SPropertyOperations.getString(stored, PROPS.label$IRFe));
+        // a write through the project replaces the value written without one
+        vm.write(item, "store", null);
+        Assert.assertEquals("store", vm.get(item));
+        vm.remove(item);
+        Assert.assertNull(vm.get(item));
+        // clearing the view model removes the values written without a project
+        viewModels.writePath(null, vm.getName(), ViewModels.path(other), "detached", null);
+        vm.clear();
+        Assert.assertNull(vm.get(other));
       });
     }
 

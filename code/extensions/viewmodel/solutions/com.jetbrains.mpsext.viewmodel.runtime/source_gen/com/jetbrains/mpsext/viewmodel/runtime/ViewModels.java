@@ -18,8 +18,8 @@ import jetbrains.mps.project.Project;
 import java.util.concurrent.atomic.AtomicInteger;
 import org.jetbrains.mps.openapi.module.SRepository;
 import org.jetbrains.mps.openapi.module.ModelAccess;
-import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.application.Application;
+import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.util.Key;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -58,6 +58,7 @@ public final class ViewModels {
   private final Set<Project> scheduledProjects = SetSequence.fromSet(new HashSet<Project>());
   private final AtomicInteger batchDepth = new AtomicInteger(0);
   private final ChangeTracker tracker = new ChangeTracker(this);
+  private final DetachedStore detached = new DetachedStore();
 
   public ViewModels() {
   }
@@ -105,9 +106,10 @@ public final class ViewModels {
     // At once when possible: MPS initializes application plugins in the EDT without model access, and a store
     // created later misses the editors built in between.
     ModelAccess modelAccess = repository.getModelAccess();
+    Application application = ApplicationManager.getApplication();
     if (modelAccess.canWrite()) {
       action.run();
-    } else if (ApplicationManager.getApplication().isDispatchThread() && !(modelAccess.canRead())) {
+    } else if (application != null && application.isDispatchThread() && !(modelAccess.canRead())) {
       modelAccess.runWriteAction(action);
     } else {
       modelAccess.runWriteInEDT(action);
@@ -186,6 +188,7 @@ public final class ViewModels {
     }
     untrackModels();
     index.clear();
+    detached.clear();
     model = null;
     store = null;
   }
@@ -219,8 +222,12 @@ public final class ViewModels {
   }
   public static Project findProject(List<ViewModelKey> path) {
     // The project to write through when the caller has none: the open project that contains the module of
-    // the first node of the path, otherwise the first open project. Null when no project is open (e.g. a
-    // headless run without a project). Without read access the node isn't resolved.
+    // the first node of the path, otherwise the first open project. Null when no project is open, and in a
+    // headless run without an IDE (e.g. the generation of an Ant build, which has no Application and whose
+    // projects the ProjectManager doesn't know). Without read access the node isn't resolved.
+    if (ApplicationManager.getApplication() == null) {
+      return null;
+    }
     MPSCoreComponents components = MPSCoreComponents.getInstance();
     if (components == null) {
       return null;
@@ -302,10 +309,11 @@ public final class ViewModels {
   }
 
   public Object getPath(String viewModel, List<ViewModelKey> path) {
-    // Needs read access. Reads from an editor are recorded as dependencies of the editor cells.
+    // Needs read access. Reads from an editor are recorded as dependencies of the editor cells. A value
+    // written without a project (see writePath) is found in the detached store.
     SNode entry = findEntry(qualify(viewModel, path));
     if (entry == null) {
-      return null;
+      return detached.getValue(qualify(viewModel, path));
     }
     return objectOf(SLinkOperations.getTarget(entry, LINKS.value$QjaP));
   }
@@ -391,11 +399,15 @@ public final class ViewModels {
     // The write of all view models. A null value removes the entry; a null value at the empty path removes the
     // whole view model. Inside a command of the project the write is applied at once, after the writes still
     // queued, so that none of them overwrites it later. Otherwise it goes through the write queue
-    // (writePathAsync, with its requirements). Without a project (none is open) it is dropped. The future is
-    // completed when the write was applied (true) or rejected or dropped (false).
-    if (project == null) {
-      return CompletableFuture.completedFuture(false);
+    // (writePathAsync, with its requirements). Without a project (none is open, or a headless run without an
+    // IDE) it is applied at once to the detached store, which needs no model access beyond the read access of
+    // the caller: there are no editors to update. The future is completed when the write was applied (true) or
+    // rejected or dropped (false).
+    if (project == null || ApplicationManager.getApplication() == null) {
+      return CompletableFuture.completedFuture(detached.write(qualify(viewModel, path), value));
     }
+    // a value written to the store replaces the one written without a project
+    detached.remove(qualify(viewModel, path));
     if (project.getModelAccess().isCommandAction()) {
       drain(project);
       return CompletableFuture.completedFuture(apply(project, qualify(viewModel, path), value, dependencies));
@@ -663,6 +675,10 @@ public final class ViewModels {
     // Can be called from any thread. A value computed from dependencies has to be passed while the read
     // action it was computed in is still held, so that no change of a dependency can be missed. The
     // future completes with true when the write was applied and with false when it was dropped.
+    if (ApplicationManager.getApplication() == null) {
+      // a headless run without an IDE has no thread to drain the queue in and no editors to update
+      return CompletableFuture.completedFuture(detached.write(qualify(viewModel, path), value));
+    }
     Set<SNodeReference> deps = SetSequence.fromSet(new HashSet<SNodeReference>());
     if (dependencies != null) {
       SetSequence.fromSet(deps).addSequence(SetSequence.fromSet(dependencies));
@@ -740,6 +756,10 @@ public final class ViewModels {
   }
 
   private void scheduleDrain(final Project project) {
+    if (ApplicationManager.getApplication() == null) {
+      // Headless (no IDE): writes don't go through the queue then (writePathAsync), so there is nothing to drain.
+      return;
+    }
     synchronized (scheduledProjects) {
       if (SetSequence.fromSet(scheduledProjects).contains(project)) {
         return;

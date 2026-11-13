@@ -56,7 +56,8 @@ public final class NamedViewModel implements ViewModel {
   public CompletableFuture<Boolean> write(SNode node, Object value, Set<SNodeReference> dependencies) {
     // Writing without a project at hand: the write goes through the project of the node
     // (ViewModels.findProject), at once inside a command of it, otherwise through the write queue, so called
-    // with the read access the value was computed in. Without an open project the write is dropped. The
+    // with the read access the value was computed in. Without an open project (or headless, without an IDE)
+    // the write is applied at once to a store without dependency tracking, so that get returns it. The
     // future is completed when the write was applied (true) or rejected or dropped (false).
     return writePath(ViewModels.path(node), value, dependencies);
   }

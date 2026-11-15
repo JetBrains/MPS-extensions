@@ -12,6 +12,7 @@
   <property name="artifacts.mps" location="${mps.home}" />
   <property name="artifacts.mpsBootstrapCore" location="${mps.home}" />
   <property name="artifacts.IDEA" location="${mps.home}" />
+  <property name="artifacts.jcef-plugin" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
   <property name="mps.date" value="${import.mps.mps.date}" />

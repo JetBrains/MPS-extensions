@@ -19031,7 +19031,46 @@
       </node>
       <node concept="m$_wl" id="7jcf0044" role="39821P">
         <ref role="m_rDy" node="7jcf0001" resolve="de.itemis.stubs.jcef" />
-        <node concept="pUk6x" id="7jcf0060" role="pUk7w" />
+        <node concept="pUk6w" id="75qazh2Ve1g" role="pUk7w" />
+        <node concept="398223" id="75qazh2Ve1h" role="39821P">
+          <node concept="3_J27D" id="75qazh2Ve1i" role="Nbhlr">
+            <node concept="3Mxwew" id="75qazh2Ve1j" role="3MwsjC">
+              <property role="3MwjfP" value="languages" />
+            </node>
+          </node>
+          <node concept="3981dx" id="75qazh2Ve1k" role="39821P">
+            <node concept="3_J27D" id="75qazh2Ve1l" role="Nbhlr">
+              <node concept="3Mxwew" id="75qazh2Ve1m" role="3MwsjC">
+                <property role="3MwjfP" value="de.itemis.stubs.jcef.jar" />
+              </node>
+            </node>
+            <node concept="398223" id="75qazh2Ve1n" role="39821P">
+              <node concept="3_J27D" id="75qazh2Ve1o" role="Nbhlr">
+                <node concept="3Mxwew" id="75qazh2Ve1p" role="3MwsjC">
+                  <property role="3MwjfP" value="modules" />
+                </node>
+              </node>
+              <node concept="398223" id="75qazh2Ve1q" role="39821P">
+                <node concept="3_J27D" id="75qazh2Ve1r" role="Nbhlr">
+                  <node concept="3Mxwew" id="75qazh2Ve1s" role="3MwsjC">
+                    <property role="3MwjfP" value="de.itemis.stubs.jcef" />
+                  </node>
+                </node>
+                <node concept="2HvfSZ" id="75qazh2Ve1t" role="39821P">
+                  <node concept="398BVA" id="75qazh2Ve1u" role="2HvfZ0">
+                    <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+                    <node concept="2Ry0Ak" id="75qazh2Ve1v" role="iGT6I">
+                      <property role="2Ry0Am" value="jcef" />
+                      <node concept="2Ry0Ak" id="75qazh2Ve1w" role="2Ry0An">
+                        <property role="2Ry0Am" value="solutions" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="m$_wl" id="2sSK94l$G4K" role="39821P">
         <ref role="m_rDy" node="2sSK94l$Fo0" resolve="de.itemis.stubs.xml" />

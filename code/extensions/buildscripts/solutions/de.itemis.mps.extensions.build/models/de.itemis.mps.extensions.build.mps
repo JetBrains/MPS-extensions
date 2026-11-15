@@ -628,7 +628,6 @@
       <node concept="1E1JtA" id="5z3whG1oBTp" role="2G$12L">
         <property role="TrG5h" value="MPS.Kotlin" />
         <property role="3LESm3" value="47198eff-d292-4dcd-85af-227f983426b5" />
-        <property role="BnDLt" value="true" />
         <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
         <node concept="398BVA" id="5z3whG1oBTq" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
@@ -13671,25 +13670,6 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="7jcf0029" role="3bR37C">
-          <node concept="1BurEX" id="7jcf0030" role="1SiIV1">
-            <node concept="398BVA" id="7jcf0031" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="7jcf0032" role="iGT6I">
-                <property role="2Ry0Am" value="jcef" />
-                <node concept="2Ry0Ak" id="7jcf0033" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="7jcf0034" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="7jcf0035" role="2Ry0An">
-                      <property role="2Ry0Am" value="intellij.platform.ui.jcef.jar" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3rtmxn" id="7jcf0038" role="3bR31x">
           <node concept="3LXTmp" id="7jcf0039" role="3rtmxm">
             <node concept="3qWCbU" id="7jcf0040" role="3LXTna">
@@ -13701,6 +13681,28 @@
                 <property role="2Ry0Am" value="jcef" />
                 <node concept="2Ry0Ak" id="7jcf0043" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7VebTt8tplf" role="3bR37C">
+          <node concept="1BurEX" id="7VebTt8tplg" role="1SiIV1">
+            <node concept="398BVA" id="7VebTt8tpl9" role="1BurEY">
+              <ref role="398BVh" node="2IcGFI9XwnY" resolve="mps_home" />
+              <node concept="2Ry0Ak" id="7VebTt8tpla" role="iGT6I">
+                <property role="2Ry0Am" value="plugins" />
+                <node concept="2Ry0Ak" id="7VebTt8tplb" role="2Ry0An">
+                  <property role="2Ry0Am" value="jcef-plugin" />
+                  <node concept="2Ry0Ak" id="7VebTt8tplc" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="7VebTt8tpld" role="2Ry0An">
+                      <property role="2Ry0Am" value="modules" />
+                      <node concept="2Ry0Ak" id="7VebTt8tple" role="2Ry0An">
+                        <property role="2Ry0Am" value="intellij.platform.ui.jcef.jar" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -19029,30 +19031,6 @@
       </node>
       <node concept="m$_wl" id="7jcf0044" role="39821P">
         <ref role="m_rDy" node="7jcf0001" resolve="de.itemis.stubs.jcef" />
-        <node concept="398223" id="7jcf0045" role="39821P">
-          <node concept="3_J27D" id="7jcf0046" role="Nbhlr">
-            <node concept="3Mxwew" id="7jcf0047" role="3MwsjC">
-              <property role="3MwjfP" value="lib" />
-            </node>
-          </node>
-          <node concept="28jJK3" id="7jcf0048" role="39821P">
-            <node concept="398BVA" id="7jcf0049" role="28jJRO">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="7jcf0050" role="iGT6I">
-                <property role="2Ry0Am" value="jcef" />
-                <node concept="2Ry0Ak" id="7jcf0051" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="7jcf0052" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="7jcf0053" role="2Ry0An">
-                      <property role="2Ry0Am" value="intellij.platform.ui.jcef.jar" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="pUk6x" id="7jcf0060" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="2sSK94l$G4K" role="39821P">

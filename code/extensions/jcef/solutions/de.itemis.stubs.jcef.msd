@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="de.itemis.stubs.jcef" uuid="4368e872-3beb-47e5-b702-b599cefe324b" moduleVersion="0">
   <models>
-    <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot location="lib/intellij.platform.ui.jcef.jar" />
+    <modelRoot contentPath="${mps_home}/plugins/jcef-plugin/lib/modules" type="java_classes">
+      <sourceRoot path="${mps_home}/plugins/jcef-plugin/lib/modules/intellij.platform.ui.jcef.jar" />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" compile="ext" classes="mps" ext="no">
+    <facet type="java" compile="ext" classes="provided" ext="no">
       <classes generated="true" />
-      <library location="${module}/lib/intellij.platform.ui.jcef.jar" />
+      <library location="${mps_home}/plugins/jcef-plugin/lib/modules/intellij.platform.ui.jcef.jar" />
     </facet>
   </facets>
   <dependencies>

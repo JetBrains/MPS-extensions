@@ -144,6 +144,7 @@
       </concept>
       <concept id="6592112598314498932" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPlugin" flags="ng" index="m$_wf">
         <property id="6592112598314498927" name="id" index="m$_wk" />
+        <property id="4972001163784560067" name="pluginXmlProvided" index="1NdglO" />
         <child id="1359186315025500371" name="xml" index="20twgj" />
         <child id="7832771629084912518" name="vendor" index="2iVFfd" />
         <child id="6592112598314498931" name="version" index="m$_w8" />
@@ -10700,6 +10701,25 @@
         <ref role="m$_y1" node="2sSK94l$Fo0" resolve="de.itemis.stubs.xml" />
       </node>
     </node>
+    <node concept="m$_wf" id="75qazhazME$" role="3989C9">
+      <property role="1NdglO" value="true" />
+      <property role="m$_wk" value="com.intellij.modules.jcef" />
+      <node concept="3_J27D" id="75qazhazMEA" role="m$_yQ">
+        <node concept="3Mxwew" id="75qazhazMXk" role="3MwsjC">
+          <property role="3MwjfP" value="Web Browser (JCEF)" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="75qazhazMEC" role="m_cZH">
+        <node concept="3Mxwew" id="75qazhazNfX" role="3MwsjC">
+          <property role="3MwjfP" value="jcef-plugin" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="75qazhazMEE" role="m$_w8">
+        <node concept="3Mxwey" id="75qazhazOhc" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="version" />
+        </node>
+      </node>
+    </node>
     <node concept="m$_wf" id="7jcf0001" role="3989C9">
       <property role="m$_wk" value="com.jetbrains.mpsext.stubs.jcef" />
       <node concept="3_J27D" id="7jcf0002" role="m$_yQ">
@@ -10722,6 +10742,9 @@
       </node>
       <node concept="m$_yC" id="7jcf0009" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="m$_yC" id="75qazhazNPf" role="m$_yJ">
+        <ref role="m$_y1" node="75qazhazME$" resolve="com.intellij.modules.jcef" />
       </node>
       <node concept="2iUeEo" id="7jcf0010" role="2iVFfd">
         <property role="2iUeEt" value="itemis AG" />

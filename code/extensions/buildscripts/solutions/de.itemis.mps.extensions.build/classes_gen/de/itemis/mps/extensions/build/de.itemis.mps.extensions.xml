@@ -10849,6 +10849,7 @@
         <vendor url="https://www.itemis.com/en/it-services/methods-and-tools/mps">itemis AG</vendor>
         <depends>com.intellij.modules.mps</depends>
         <depends>jetbrains.mps.core</depends>
+        <depends>com.intellij.modules.jcef</depends>
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />

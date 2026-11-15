@@ -285,31 +285,31 @@
             <property role="3oM_SC" value="The" />
           </node>
           <node concept="3oM_SD" id="2nrX0pgmqi7" role="1PaTwD">
-            <property role="3oM_SC" value="commited" />
+            <property role="3oM_SC" value="stubs" />
           </node>
           <node concept="3oM_SD" id="2nrX0pgmqi8" role="1PaTwD">
-            <property role="3oM_SC" value=".jar" />
+            <property role="3oM_SC" value="are" />
           </node>
           <node concept="3oM_SD" id="2nrX0pgmqi9" role="1PaTwD">
-            <property role="3oM_SC" value="is" />
+            <property role="3oM_SC" value="read" />
           </node>
           <node concept="3oM_SD" id="2nrX0pgmqia" role="1PaTwD">
-            <property role="3oM_SC" value="binary" />
+            <property role="3oM_SC" value="from" />
           </node>
           <node concept="3oM_SD" id="2nrX0pgmqro" role="1PaTwD">
-            <property role="3oM_SC" value="identical" />
+            <property role="3oM_SC" value="the" />
           </node>
           <node concept="3oM_SD" id="2nrX0pgmq$$" role="1PaTwD">
-            <property role="3oM_SC" value="across" />
+            <property role="3oM_SC" value="MPS" />
           </node>
           <node concept="3oM_SD" id="2nrX0pgmq$_" role="1PaTwD">
-            <property role="3oM_SC" value="all" />
+            <property role="3oM_SC" value="installation's" />
           </node>
           <node concept="3oM_SD" id="2nrX0pgmqHL" role="1PaTwD">
-            <property role="3oM_SC" value="platforms." />
+            <property role="3oM_SC" value="jcef-plugin." />
           </node>
           <node concept="3oM_SD" id="2nrX0pgmq8R" role="1PaTwD">
-            <property role="3oM_SC" value="Seen" />
+            <property role="3oM_SC" value="See" />
           </node>
           <node concept="3oM_SD" id="2nrX0pgmq8T" role="1PaTwD">
             <property role="3oM_SC" value="https://youtrack.jetbrains.com/issue/MPS-40100/com.intellij.ui.jcef-stubs-missing" />

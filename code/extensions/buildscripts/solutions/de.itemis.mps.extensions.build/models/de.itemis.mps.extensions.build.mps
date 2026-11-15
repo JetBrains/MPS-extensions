@@ -10725,7 +10725,7 @@
       </node>
       <node concept="3_J27D" id="7jcf0011" role="3s6cr7">
         <node concept="3Mxwew" id="7jcf0012" role="3MwsjC">
-          <property role="3MwjfP" value="JAR and its stubs for using the JCEF classes (com.intellij.ui.jcef) in MPS." />
+          <property role="3MwjfP" value="Stubs for the JCEF classes (com.intellij.ui.jcef) of the JCEF plugin in the MPS installation. Ships no JAR of its own." />
         </node>
       </node>
     </node>

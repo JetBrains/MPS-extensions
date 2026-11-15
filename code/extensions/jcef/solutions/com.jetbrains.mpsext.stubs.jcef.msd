@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.itemis.stubs.jcef" uuid="4368e872-3beb-47e5-b702-b599cefe324b" moduleVersion="0">
+<solution name="com.jetbrains.mpsext.stubs.jcef" uuid="4368e872-3beb-47e5-b702-b599cefe324b" moduleVersion="0">
   <models>
     <modelRoot contentPath="${mps_home}/plugins/jcef-plugin/lib/modules" type="java_classes">
       <sourceRoot path="${mps_home}/plugins/jcef-plugin/lib/modules/intellij.platform.ui.jcef.jar" />
@@ -23,7 +23,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
-    <module reference="4368e872-3beb-47e5-b702-b599cefe324b(de.itemis.stubs.jcef)" version="0" />
+    <module reference="4368e872-3beb-47e5-b702-b599cefe324b(com.jetbrains.mpsext.stubs.jcef)" version="0" />
   </dependencyVersions>
 </solution>
 

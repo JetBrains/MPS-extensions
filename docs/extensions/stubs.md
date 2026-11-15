@@ -42,7 +42,7 @@ This module contains the following libraries:
 
 ## JCEF
 
-This module (`de.itemis.stubs.jcef`) contains stubs for the JCEF classes of the IntelliJ Platform
+This module (`com.jetbrains.mpsext.stubs.jcef`) contains stubs for the JCEF classes of the IntelliJ Platform
 (`com.intellij.ui.jcef`, for example `JBCefBrowser`), for which MPS has no stubs of its own
 ([MPS-40100](https://youtrack.jetbrains.com/issue/MPS-40100/com.intellij.ui.jcef-stubs-missing)).
 The stubs are read from `plugins/jcef-plugin/lib/modules/intellij.platform.ui.jcef.jar` of the MPS installation, so the

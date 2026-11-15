@@ -250,7 +250,7 @@
             <node concept="37shsh" id="2nrX0pgmpZp" role="15Aodc">
               <node concept="1dCxOk" id="2nrX0pgmpZu" role="37shsm">
                 <property role="1XweGW" value="4368e872-3beb-47e5-b702-b599cefe324b" />
-                <property role="1XxBO9" value="de.itemis.stubs.jcef" />
+                <property role="1XxBO9" value="com.jetbrains.mpsext.stubs.jcef" />
               </node>
             </node>
           </node>

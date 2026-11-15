@@ -48,6 +48,10 @@ This module (`com.jetbrains.mpsext.stubs.jcef`) contains stubs for the JCEF clas
 The stubs are read from `plugins/jcef-plugin/lib/modules/intellij.platform.ui.jcef.jar` of the MPS installation, so the
 `jcef-plugin` must be present there. The module ships no JAR of its own.
 
+A build script of a project whose modules depend on this module needs a dependency on the external layout `jcef-plugin`
+(declared in `de.itemis.mps.extensions.build`) with the artifacts location `$mps.home`, similar to the usual `IDEA`
+layout dependency. Without it, generating the build script fails with `path ... was not found in the layout`.
+
 # Xerces
 
 - [xerces](https://xerces.apache.org/xerces2-j/) XML parsers

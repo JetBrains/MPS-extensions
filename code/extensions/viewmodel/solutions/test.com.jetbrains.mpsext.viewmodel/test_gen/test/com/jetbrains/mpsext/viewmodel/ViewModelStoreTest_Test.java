@@ -33,6 +33,7 @@ import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import com.jetbrains.mpsext.viewmodel.runtime.RootDependency;
 import com.jetbrains.mpsext.viewmodel.runtime.ReadRecorder;
@@ -474,7 +475,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a copy of the fixture as a root of its own: the test changes it, and the computation depends on its root
         SNode fixture = getAnnotatedNode("many");
         final SNode tree = SNodeOperations.copyNode(fixture);
-        model.addRootNode(tree);
+        SModelOperations.addRootNode(model, tree);
         Computed<String> computed = vm.compute(() -> {
           String labels = "";
           for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4))) {
@@ -489,7 +490,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a change of a node it read below the root changes the dependency on the root
         SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.label$IRFe, "changed");
         Assert.assertNull("a change of the label of " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.name$MnvL) + ", which the computation read, removes the value", vm.get(item));
-        model.removeRootNode(tree);
+        SNodeOperations.deleteNode(tree);
       });
     }
     public void test_aChangeOfANodeThatWasNotReadKeepsADependencyOnItsRoot() throws Exception {
@@ -502,7 +503,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a copy of the fixture as a root of its own: the test changes it, and the computation depends on its root
         SNode fixture = getAnnotatedNode("many");
         final SNode tree = SNodeOperations.copyNode(fixture);
-        model.addRootNode(tree);
+        SModelOperations.addRootNode(model, tree);
         Computed<String> computed = vm.compute(() -> {
           String labels = "";
           for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4))) {
@@ -521,7 +522,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         Assert.assertNotNull("a change of the label of " + SPropertyOperations.getString(unread, PROPS.name$MnvL) + ", which the computation didn't read, keeps the value", vm.get(item));
         SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.label$IRFe, "changed");
         Assert.assertNull("a change of the label of " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.name$MnvL) + ", which the computation read, removes the value", vm.get(item));
-        model.removeRootNode(tree);
+        SNodeOperations.deleteNode(tree);
       });
     }
     public void test_aQueuedWriteIsDroppedWhenANodeItReadBelowTheRootChanges() throws Exception {
@@ -534,7 +535,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a copy of the fixture as a root of its own: the test changes it, and the computation depends on its root
         SNode fixture = getAnnotatedNode("many");
         final SNode tree = SNodeOperations.copyNode(fixture);
-        model.addRootNode(tree);
+        SModelOperations.addRootNode(model, tree);
         Computed<String> computed = vm.compute(() -> {
           String labels = "";
           for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4))) {
@@ -549,7 +550,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         vm.drain();
         Assert.assertFalse("a queued write is dropped when the label of " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.name$MnvL) + ", which its computation read, changes before the queue is drained", future.getNow(true));
         Assert.assertNull("the dropped write stores nothing", vm.get(item));
-        model.removeRootNode(tree);
+        SNodeOperations.deleteNode(tree);
       });
     }
     public void test_aQueuedWriteIsAppliedWhenANodeItDidntReadBelowTheRootChanges() throws Exception {
@@ -562,7 +563,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a copy of the fixture as a root of its own: the test changes it, and the computation depends on its root
         SNode fixture = getAnnotatedNode("many");
         final SNode tree = SNodeOperations.copyNode(fixture);
-        model.addRootNode(tree);
+        SModelOperations.addRootNode(model, tree);
         Computed<String> computed = vm.compute(() -> {
           String labels = "";
           for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4))) {
@@ -582,7 +583,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         vm.drain();
         Assert.assertTrue("a queued write is applied after a change of the label of " + SPropertyOperations.getString(unread, PROPS.name$MnvL) + ", which its computation didn't read", future.getNow(false));
         Assert.assertNotNull("the applied write stores the value", vm.get(item));
-        model.removeRootNode(tree);
+        SNodeOperations.deleteNode(tree);
       });
     }
     public void test_aRewriteWithTheSameValueTakesTheDependenciesOfItsComputation() throws Exception {
@@ -595,7 +596,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a copy of the fixture as a root of its own: the test changes it, and the computations depend on its root
         SNode fixture = getAnnotatedNode("many");
         final SNode tree = SNodeOperations.copyNode(fixture);
-        model.addRootNode(tree);
+        SModelOperations.addRootNode(model, tree);
         // two computations with the same value that read different halves of the items, each more nodes than a
         // recording keeps one by one
         final int half = ReadRecorder.NODE_LIMIT + 1;
@@ -620,7 +621,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a change of a node only the second computation read
         SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.label$IRFe, "changed");
         Assert.assertNull("a rewrite of the same value takes the dependencies of its computation, so a change of the label of " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.name$MnvL) + ", which only that computation read, removes the value", vm.get(item));
-        model.removeRootNode(tree);
+        SNodeOperations.deleteNode(tree);
       });
     }
     public void test_removingNodesBelowTheRootWithANodeThatWasReadRemovesTheValue() throws Exception {
@@ -633,7 +634,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a copy of the fixture as a root of its own: the test changes it, and the computation depends on its root
         SNode fixture = getAnnotatedNode("many");
         final SNode tree = SNodeOperations.copyNode(fixture);
-        model.addRootNode(tree);
+        SModelOperations.addRootNode(model, tree);
         // below item0 a holder with a group with the target that item0 points to; the computation reads the target
         // through the reference, but neither the group nor the holder
         Computed<String> computed = vm.compute(() -> {
@@ -647,7 +648,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         Assert.assertNotNull("the computed value is stored", vm.get(item));
         SNodeOperations.deleteNode(RootDependencyFixtures.named(tree, "group"));
         Assert.assertNull("removing the group from the holder removes the value, as the computation read the target below the group", vm.get(item));
-        model.removeRootNode(tree);
+        SNodeOperations.deleteNode(tree);
       });
     }
     public void test_addingAChildToANodeThatWasReadRemovesTheValue() throws Exception {
@@ -660,7 +661,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a copy of the fixture as a root of its own: the test changes it, and the computation depends on its root
         SNode fixture = getAnnotatedNode("many");
         final SNode tree = SNodeOperations.copyNode(fixture);
-        model.addRootNode(tree);
+        SModelOperations.addRootNode(model, tree);
         Computed<String> computed = vm.compute(() -> {
           String labels = "";
           for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4))) {
@@ -672,7 +673,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         Assert.assertNotNull("the computed value is stored", vm.get(item));
         ListSequence.fromList(SLinkOperations.getChildren(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), LINKS.items$WHh4)).addElement(SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree")));
         Assert.assertNull("adding a child to " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.name$MnvL) + ", which the computation read, removes the value", vm.get(item));
-        model.removeRootNode(tree);
+        SNodeOperations.deleteNode(tree);
       });
     }
     public void test_addingAChildToANodeThatWasNotReadKeepsTheValue() throws Exception {
@@ -685,7 +686,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a copy of the fixture as a root of its own: the test changes it, and the computation depends on its root
         SNode fixture = getAnnotatedNode("many");
         final SNode tree = SNodeOperations.copyNode(fixture);
-        model.addRootNode(tree);
+        SModelOperations.addRootNode(model, tree);
         Computed<String> computed = vm.compute(() -> {
           String labels = "";
           for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4))) {
@@ -702,7 +703,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a child added below the root reports only its parent as changed
         ListSequence.fromList(SLinkOperations.getChildren(unread, LINKS.items$WHh4)).addElement(SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree")));
         Assert.assertNotNull("adding a child to " + SPropertyOperations.getString(unread, PROPS.name$MnvL) + ", which the computation didn't read, keeps the value", vm.get(item));
-        model.removeRootNode(tree);
+        SNodeOperations.deleteNode(tree);
       });
     }
     public void test_removingANodeThatWasReadFromANodeThatWasNotReadRemovesTheValue() throws Exception {
@@ -715,7 +716,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a copy of the fixture as a root of its own: the test changes it, and the computation depends on its root
         SNode fixture = getAnnotatedNode("many");
         final SNode tree = SNodeOperations.copyNode(fixture);
-        model.addRootNode(tree);
+        SModelOperations.addRootNode(model, tree);
         // below item0 a holder with a group with the target that item0 points to; the computation reads the target
         // through the reference, but neither the group nor the holder
         Computed<String> computed = vm.compute(() -> {
@@ -729,7 +730,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         Assert.assertNotNull("the computed value is stored", vm.get(item));
         SNodeOperations.deleteNode(RootDependencyFixtures.named(tree, "target"));
         Assert.assertNull("removing the target, which the computation read, from the group, which it didn't read, removes the value", vm.get(item));
-        model.removeRootNode(tree);
+        SNodeOperations.deleteNode(tree);
       });
     }
     public void test_removingTheRootRemovesTheValue() throws Exception {
@@ -742,7 +743,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a copy of the fixture as a root of its own: the test removes it, and the computation depends on it
         SNode fixture = getAnnotatedNode("many");
         final SNode tree = SNodeOperations.copyNode(fixture);
-        model.addRootNode(tree);
+        SModelOperations.addRootNode(model, tree);
         Computed<String> computed = vm.compute(() -> {
           String labels = "";
           for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4))) {
@@ -752,7 +753,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         });
         vm.writeComputed(item, computed);
         Assert.assertNotNull("the computed value is stored", vm.get(item));
-        model.removeRootNode(tree);
+        SNodeOperations.deleteNode(tree);
         Assert.assertNull("removing the root " + SPropertyOperations.getString(tree, PROPS.name$MnvL) + " removes the value computed from the nodes below it", vm.get(item));
       });
     }
@@ -766,7 +767,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a copy of the fixture as a root of its own: the test changes it, and the computations depend on its root
         SNode fixture = getAnnotatedNode("many");
         final SNode tree = SNodeOperations.copyNode(fixture);
-        model.addRootNode(tree);
+        SModelOperations.addRootNode(model, tree);
         // two computations that read different halves of the items, each more nodes than a recording keeps one by one
         final int half = ReadRecorder.NODE_LIMIT + 1;
         int needed = 2 * half;
@@ -794,7 +795,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // a change of a node only the second computation read
         SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.label$IRFe, "changed");
         Assert.assertNull("a change of the label of " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.name$MnvL) + ", which only the second computation read, removes the value written with the merged dependencies", vm.get(item));
-        model.removeRootNode(tree);
+        SNodeOperations.deleteNode(tree);
       });
     }
     public void test_removalsOfAClosedProjectAreApplied() throws Exception {

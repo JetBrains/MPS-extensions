@@ -49,10 +49,11 @@ public final class ChangeTracker implements SNodeChangeListener, SModelListener 
 
   @Override
   public void nodeAdded(SNodeAddEvent event) {
-    if (event.getParent() != null) {
-      SNodeReference parentRef = event.getParent().getReference();
+    SNode parent = event.getParent();
+    if (parent != null) {
+      SNodeReference parentRef = parent.getReference();
       viewModels.nodeChanged(parentRef);
-      rootChanged(event.getParent(), Collections.singletonList(parentRef));
+      rootChanged(parent, Collections.singletonList(parentRef));
     } else {
       viewModels.nodeChanged(ViewModels.rootsOf(event.getModel().getReference()));
       viewModels.nodeChanged(new RootDependency(event.getChild().getReference()));
@@ -69,13 +70,14 @@ public final class ChangeTracker implements SNodeChangeListener, SModelListener 
     for (SNode descendant : ListSequence.fromList(SNodeOperations.getNodeDescendants(child, null, false, new SAbstractConcept[]{}))) {
       ListSequence.fromList(removed).addElement(new SNodePointer(modelRef, descendant.getNodeId()));
     }
-    if (event.getParent() != null) {
-      SNodeReference parentRef = event.getParent().getReference();
+    SNode parent = event.getParent();
+    if (parent != null) {
+      SNodeReference parentRef = parent.getReference();
       viewModels.nodeChanged(parentRef);
       List<SNodeReference> changed = ListSequence.fromList(new ArrayList<SNodeReference>());
       ListSequence.fromList(changed).addElement(parentRef);
       ListSequence.fromList(changed).addSequence(ListSequence.fromList(removed));
-      rootChanged(event.getParent(), changed);
+      rootChanged(parent, changed);
     } else {
       // a removed root changes every dependency on it
       viewModels.nodeChanged(ViewModels.rootsOf(modelRef));

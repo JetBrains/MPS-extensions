@@ -38,26 +38,28 @@ import javax.swing.JPanel;
 import java.awt.BorderLayout;
 import com.intellij.ui.ScrollPaneFactory;
 import javax.swing.JComponent;
+import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import javax.swing.tree.TreePath;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import java.util.Enumeration;
 import java.util.function.Consumer;
 import org.jetbrains.mps.openapi.model.SNode;
-import com.jetbrains.mpsext.viewmodel.runtime.ViewModels;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import com.jetbrains.mpsext.viewmodel.runtime.ViewModels;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.ArrayList;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelKey;
 import java.util.List;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelNodeKey;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import org.jetbrains.mps.openapi.model.SReference;
 import jetbrains.mps.ide.icons.GlobalIconManager;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelStringKey;
+import org.jetbrains.mps.openapi.model.SModelReference;
 import jetbrains.mps.ide.icons.IdeIcons;
 import com.jetbrains.mpsext.viewmodel.runtime.RootDependency;
 import com.intellij.openapi.util.text.StringUtil;
@@ -237,19 +239,14 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
 
   public void refresh() {
     dirty = false;
-    final DefaultMutableTreeNode[] built = new DefaultMutableTreeNode[1];
-    final ViewModelsExplorer explorer = this;
-    project.getModelAccess().runReadAction(new Runnable() {
-      public void run() {
-        built[0] = explorer.buildTree();
-      }
-    });
+    final Wrappers._T<DefaultMutableTreeNode> built = new Wrappers._T<DefaultMutableTreeNode>(null);
+    project.getRepository().getModelAccess().runReadAction(() -> built.value = buildTree());
     Set<String> expandedBefore = ((releasedExpanded == null ? expandedIds() : releasedExpanded));
     String selectedBefore = ((releasedExpanded == null ? selectedId() : releasedSelection));
     releasedExpanded = null;
     releasedSelection = null;
-    treeModel.setRoot(built[0]);
-    restore(built[0], new TreePath(built[0]), expandedBefore, selectedBefore);
+    treeModel.setRoot(built.value);
+    restore(built.value, new TreePath(built.value), expandedBefore, selectedBefore);
     initialized = true;
     expandAll = false;
   }
@@ -277,7 +274,7 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
       return;
     }
     String id = idOf(path);
-    boolean firstViewModelLevel = !(initialized) && path.getPathCount() == 2 && item.expandFirst;
+    boolean firstViewModelLevel = !(initialized) && path.getPathCount() == 2 && item != null && item.expandFirst;
     if (path.getPathCount() == 1 || expandAll || SetSequence.fromSet(expanded).contains(id) || firstViewModelLevel) {
       tree.expandPath(path);
     }
@@ -310,11 +307,11 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
     final Consumer<DefaultMutableTreeNode> rows = item.loadRows;
     item.loadRows = null;
     parent.removeAllChildren();
-    this.project.getModelAccess().runReadAction(new Runnable() {
-      public void run() {
-        rows.accept(parent);
-      }
-    });
+    // A read action of its own, later than the one in which buildTree or an earlier load captured the store nodes
+    // of these rows (loadRows): a write in between may have changed them or removed them from the store. The rows
+    // then show the store as it is now, or the last content of a removed entry, until the refresh that each change
+    // of the store schedules (scheduleRefresh) rebuilds the tree.
+    project.getRepository().getModelAccess().runReadAction(() -> rows.accept(parent));
     treeModel.nodeStructureChanged(parent);
   }
   private static DefaultMutableTreeNode lazyNode(ViewModelsExplorerItem item) {
@@ -324,6 +321,10 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
       treeNode.add(new DefaultMutableTreeNode());
     }
     return treeNode;
+  }
+  private static boolean hasNodeRows(SNode node) {
+    // whether a stored node has properties, references or children to show as rows below it (addNodeRows)
+    return node.getProperties().iterator().hasNext() || node.getReferences().iterator().hasNext() || ListSequence.fromList(SNodeOperations.getChildren(node)).isNotEmpty();
   }
 
   public DefaultMutableTreeNode buildTree() {
@@ -413,17 +414,23 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
         final SNode content = SLinkOperations.getTarget(SNodeOperations.cast(value, CONCEPTS.NodeValue$o7), LINKS.content$1Rh$);
         item.value = content.getPresentation();
         item.detail = join(item.detail, content.getConcept().getName());
-        item.loadRows = (DefaultMutableTreeNode p) -> {
-          explorer.addNodeRows(p, content);
-          explorer.addDependencies(p, viewModel, path);
-        };
+        // an expand handle only when there are rows below
+        if (hasNodeRows(content) || ViewModels.getInstance().countDependencies(viewModel, path) > 0) {
+          item.loadRows = (DefaultMutableTreeNode p) -> {
+            explorer.addNodeRows(p, content);
+            explorer.addDependencies(p, viewModel, path);
+          };
+        }
       } else {
         Object object = value.getUserObject(ViewModels.OBJECT_KEY);
         String text = String.valueOf(object);
         item.value = firstLine(text);
         item.tooltip = tooltipOf(text);
         item.detail = join(item.detail, ((object == null ? null : object.getClass().getSimpleName())));
-        item.loadRows = (DefaultMutableTreeNode p) -> explorer.addDependencies(p, viewModel, path);
+        // an expand handle only when there are dependencies to show below
+        if (ViewModels.getInstance().countDependencies(viewModel, path) > 0) {
+          item.loadRows = (DefaultMutableTreeNode p) -> explorer.addDependencies(p, viewModel, path);
+        }
       }
       ListSequence.fromList(children).addElement(lazyNode(item));
     }
@@ -451,7 +458,9 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
       ViewModelsExplorerItem item = new ViewModelsExplorerItem("c:" + child.getNodeId(), child.getContainmentLink().getName(), GlobalIconManager.getInstance().getIconFor(child));
       item.value = child.getPresentation();
       item.detail = child.getConcept().getName();
-      item.loadRows = (DefaultMutableTreeNode p) -> explorer.addNodeRows(p, childNode);
+      if (hasNodeRows(child)) {
+        item.loadRows = (DefaultMutableTreeNode p) -> explorer.addNodeRows(p, childNode);
+      }
       parent.add(lazyNode(item));
     }
   }
@@ -475,9 +484,10 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
   }
 
   private ViewModelsExplorerItem nodeItem(String idPrefix, SNodeReference ref) {
-    if (ViewModels.isRootsOf(ref)) {
+    SModelReference rootsModel = ref.getModelReference();
+    if (ViewModels.isRootsOf(ref) && rootsModel != null) {
       // the value depends on which roots the model has
-      ViewModelsExplorerItem rootsItem = new ViewModelsExplorerItem(idPrefix + ref, "roots of " + ref.getModelReference().getName().getLongName(), IdeIcons.MODEL_ICON);
+      ViewModelsExplorerItem rootsItem = new ViewModelsExplorerItem(idPrefix + ref, "roots of " + rootsModel.getName().getLongName(), IdeIcons.MODEL_ICON);
       rootsItem.detail = "a root added or removed";
       return rootsItem;
     }
@@ -502,7 +512,7 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
 
   private void addDependencies(DefaultMutableTreeNode parent, final String viewModel, final List<ViewModelKey> path) {
     // the group of the dependencies of a value, whose rows are added when it is expanded
-    int count = SetSequence.fromSet(ViewModels.getInstance().getDependencies(viewModel, path)).count();
+    int count = ViewModels.getInstance().countDependencies(viewModel, path);
     if (count == 0) {
       return;
     }

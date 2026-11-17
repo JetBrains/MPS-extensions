@@ -25,8 +25,9 @@ public final class RootDependency implements SNodeReference {
   public RootDependency(SNodeReference root, NodeFilter filter) {
     // A dependency on the nodes of a root that are in the filter: a change below the root changes it only when
     // the changed node may be in the filter. A recording that reads many nodes of one model depends on their
-    // roots this way (ReadRecorder). The filter is no part of equals, so a dependency without one is the key
-    // under which the dependencies on a root are found.
+    // roots this way (ReadRecorder). Dependencies on one root with different filters are not equal, so a set
+    // that merges the dependencies of several computations keeps the filter of each. The indexes find the
+    // dependencies on a root under the one without a filter (keyOf).
     this.root = root;
     this.filter = filter;
   }
@@ -38,6 +39,16 @@ public final class RootDependency implements SNodeReference {
   public NodeFilter getFilter() {
     // null for a dependency on the whole subtree
     return filter;
+  }
+
+  public static SNodeReference keyOf(SNodeReference dependency) {
+    // The key under which an index finds a dependency: for a root dependency the one without a filter, so that
+    // the dependencies on a root are found together, and no filter stays referenced from a key after its
+    // entry is gone.
+    if (dependency instanceof RootDependency && ((RootDependency) dependency).filter != null) {
+      return new RootDependency(((RootDependency) dependency).root);
+    }
+    return dependency;
   }
 
   public static List<NodeFilter> filtersOf(Set<SNodeReference> dependencies) {
@@ -58,14 +69,12 @@ public final class RootDependency implements SNodeReference {
   }
 
   public static boolean mayConcern(List<NodeFilter> filters, List<SNodeReference> changed) {
-    // whether a change of the nodes below a root may concern root dependencies with these filters
-    if (filters == null || ListSequence.fromList(filters).isEmpty()) {
+    // whether a change of the nodes below a root may concern root dependencies with these filters; null stands
+    // for a dependency on the whole subtree
+    if (filters == null || ListSequence.fromList(filters).isEmpty() || ListSequence.fromList(filters).contains(null)) {
       return true;
     }
     for (NodeFilter f : ListSequence.fromList(filters)) {
-      if (f == null) {
-        return true;
-      }
       for (SNodeReference node : ListSequence.fromList(changed)) {
         if (f.mightContain(node)) {
           return true;
@@ -93,17 +102,19 @@ public final class RootDependency implements SNodeReference {
   @Override
   public boolean equals(Object other) {
     // never equal to the reference of the root itself, which is a dependency on the root node alone
-    if (this == other) {
-      return true;
-    }
     if (!(other instanceof RootDependency)) {
       return false;
     }
-    return root.equals(((RootDependency) other).root);
+    RootDependency that = (RootDependency) other;
+    if (!(root.equals(that.root))) {
+      return false;
+    }
+    return ((filter == null ? that.filter == null : filter.equals(that.filter)));
   }
 
   @Override
   public int hashCode() {
+    // the filter is left out: filters are only compared between dependencies on the same root
     return root.hashCode() * 31 + 7;
   }
 

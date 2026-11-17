@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## November 2026
+
+### Changed
+
+- *com.jetbrains.mpsext.viewmodel* Less memory. A computation that reads more than 100 nodes of one model depends on the roots that contain them instead of on each node, together with a filter of the nodes it read, so that a change of a node it didn't read rarely removes its value. The limit is set with the system property `mpsext.viewmodel.nodeDependencyLimit`. The *View Models* tool window adds the rows below a row when it is first expanded, and drops its rows while it is hidden.
+
 ## October 2026
 
 ### Added

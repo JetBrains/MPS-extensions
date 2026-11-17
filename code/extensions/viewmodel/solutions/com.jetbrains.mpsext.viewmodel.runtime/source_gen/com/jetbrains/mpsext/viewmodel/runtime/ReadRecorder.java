@@ -15,6 +15,7 @@ import java.util.Map;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.Sequence;
@@ -59,14 +60,14 @@ public final class ReadRecorder extends AbstractNodesReadListener {
     Map<SModel, List<SNode>> byModel = MapSequence.fromMap(new HashMap<SModel, List<SNode>>());
     for (SNode node : SetSequence.fromSet(nodes)) {
       // nodes of the view model itself are never dependencies
-      SModel model = node.getModel();
-      if (model == null || model == excludedModel) {
+      SModel nodeModel = SNodeOperations.getModel(node);
+      if (nodeModel == null || nodeModel == excludedModel) {
         continue;
       }
-      List<SNode> inModel = MapSequence.fromMap(byModel).get(model);
+      List<SNode> inModel = MapSequence.fromMap(byModel).get(nodeModel);
       if (inModel == null) {
         inModel = ListSequence.fromList(new ArrayList<SNode>());
-        MapSequence.fromMap(byModel).put(model, inModel);
+        MapSequence.fromMap(byModel).put(nodeModel, inModel);
       }
       ListSequence.fromList(inModel).addElement(node);
     }
@@ -76,9 +77,10 @@ public final class ReadRecorder extends AbstractNodesReadListener {
         filtered = filtered + ListSequence.fromList(inModel).count();
       }
     }
-    NodeFilter filter = ((filtered > 0 ? new NodeFilter(filtered) : null));
+    NodeFilter filter = null;
     Set<SNodeReference> result = SetSequence.fromSet(new HashSet<SNodeReference>());
-    // getContainingRoot only walks the parent pointers. It notifies the editor of every ancestor, but not the
+    Set<SNode> roots = SetSequence.fromSet(new HashSet<SNode>());
+    // containingRoot only walks the parent pointers. It notifies the editor of every ancestor, but not the
     // recordings; blocked, so that the editor cells built around the computation don't depend on every ancestor.
     boolean wereBlocked = NodeReadAccessCasterInEditor.areEventsBlocked();
     NodeReadAccessCasterInEditor.setEventsBlocked(true);
@@ -90,15 +92,18 @@ public final class ReadRecorder extends AbstractNodesReadListener {
           }
           continue;
         }
+        if (filter == null) {
+          filter = new NodeFilter(filtered);
+        }
         SModelReference modelRef = entry.key().getReference();
-        Set<SNode> roots = SetSequence.fromSet(new HashSet<SNode>());
         for (SNode node : ListSequence.fromList(entry.value())) {
           filter.add(modelRef, node.getNodeId());
-          SetSequence.fromSet(roots).addElement(node.getContainingRoot());
+          SetSequence.fromSet(roots).addElement(SNodeOperations.getContainingRoot(node));
         }
-        for (SNode root : SetSequence.fromSet(roots)) {
-          SetSequence.fromSet(result).addElement(new RootDependency(root.getReference(), filter));
-        }
+      }
+      // the dependencies on the roots are made once the filter holds all nodes, as it is part of their equals
+      for (SNode root : SetSequence.fromSet(roots)) {
+        SetSequence.fromSet(result).addElement(new RootDependency(root.getReference(), filter));
       }
     } finally {
       NodeReadAccessCasterInEditor.setEventsBlocked(wereBlocked);

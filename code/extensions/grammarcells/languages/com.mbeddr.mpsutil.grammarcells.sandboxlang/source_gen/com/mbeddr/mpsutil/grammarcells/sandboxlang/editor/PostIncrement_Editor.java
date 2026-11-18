@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class PostIncrement_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new PostIncrement_EditorBuilder_a(editorContext, node).createCell();
+    return new PostIncrement_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class IgnoredChild_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new IgnoredChild_EditorBuilder_a(editorContext, node).createCell();
+    return new IgnoredChild_EditorBuilder(editorContext, node).createCell();
   }
 }

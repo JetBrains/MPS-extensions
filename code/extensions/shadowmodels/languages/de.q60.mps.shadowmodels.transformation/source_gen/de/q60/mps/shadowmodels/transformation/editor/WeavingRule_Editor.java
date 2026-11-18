@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class WeavingRule_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new WeavingRule_EditorBuilder_a(editorContext, node).createCell();
+    return new WeavingRule_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new WeavingRule_InspectorBuilder_a(editorContext, node).createCell();
+    return new WeavingRule_InspectorBuilder(editorContext, node).createCell();
   }
 }

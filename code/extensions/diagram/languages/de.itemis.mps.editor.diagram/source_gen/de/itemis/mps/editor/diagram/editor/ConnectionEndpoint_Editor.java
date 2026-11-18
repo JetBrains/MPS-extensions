@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ConnectionEndpoint_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ConnectionEndpoint_EditorBuilder_a(editorContext, node).createCell();
+    return new ConnectionEndpoint_EditorBuilder(editorContext, node).createCell();
   }
 }

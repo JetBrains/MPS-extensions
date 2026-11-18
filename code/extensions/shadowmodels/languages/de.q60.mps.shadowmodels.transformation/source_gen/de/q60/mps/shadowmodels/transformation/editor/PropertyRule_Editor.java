@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class PropertyRule_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new PropertyRule_EditorBuilder_a(editorContext, node).createCell();
+    return new PropertyRule_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new PropertyRule_InspectorBuilder_a(editorContext, node).createCell();
+    return new PropertyRule_InspectorBuilder(editorContext, node).createCell();
   }
 }

@@ -110,12 +110,12 @@
   </root>
   <root nodeRef="r:f13f1fc2-8c3c-4594-a521-1362b5aeb9a1(de.slisson.mps.richtext.test.editor)/3158011787693544944">
     <file name="RichtextCellAnnotation_Editor.java">
-      <node id="3158011787693544944" at="11,79,12,88" concept="6" />
-      <node id="3158011787693544944" at="14,82,15,91" concept="6" />
+      <node id="3158011787693544944" at="11,79,12,86" concept="6" />
+      <node id="3158011787693544944" at="14,82,15,89" concept="6" />
       <node id="3158011787693544944" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3158011787693544944" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3158011787693544944" at="11,79,12,88" />
-      <scope id="3158011787693544944" at="14,82,15,91" />
+      <scope id="3158011787693544944" at="11,79,12,86" />
+      <scope id="3158011787693544944" at="14,82,15,89" />
       <scope id="3158011787693544944" at="11,0,14,0">
         <var name="editorContext" id="3158011787693544944" />
         <var name="node" id="3158011787693544944" />
@@ -126,8 +126,8 @@
       </scope>
       <unit id="3158011787693544944" at="10,0,18,0" name="de.slisson.mps.richtext.test.editor.RichtextCellAnnotation_Editor" />
     </file>
-    <file name="RichtextCellAnnotation_EditorBuilder_a.java">
-      <node id="3158011787693544944" at="37,102,38,19" concept="11" />
+    <file name="RichtextCellAnnotation_EditorBuilder.java">
+      <node id="3158011787693544944" at="37,100,38,19" concept="11" />
       <node id="3158011787693544944" at="38,19,39,18" concept="1" />
       <node id="3158011787693544944" at="44,26,45,18" concept="6" />
       <node id="3158011787693544944" at="48,39,49,32" concept="6" />
@@ -183,7 +183,7 @@
       <node id="3158011787693544944" at="123,0,124,0" concept="9" trace="PropertyAttribute$Gb" />
       <node id="3158011787693544944" at="34,0,36,0" concept="2" trace="myNode" />
       <node id="3158011787693544944" at="48,0,51,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3158011787693544944" at="37,0,41,0" concept="0" trace="RichtextCellAnnotation_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3158011787693544944" at="37,0,41,0" concept="0" trace="RichtextCellAnnotation_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3158011787693544944" at="42,0,47,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6193633844718718950" at="93,208,98,24" concept="3" />
       <node id="1229195083676" at="112,0,117,0" concept="4" trace="createAttributedNodeCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -196,7 +196,7 @@
       <scope id="3158011787693544944" at="44,26,45,18" />
       <scope id="3158011787693544944" at="48,39,49,32" />
       <scope id="6193633844718718950" at="99,15,100,40" />
-      <scope id="3158011787693544944" at="37,102,39,18" />
+      <scope id="3158011787693544944" at="37,100,39,18" />
       <scope id="6193633844718718950" at="94,74,96,145">
         <var name="manager" id="6193633844718718950" />
       </scope>
@@ -238,12 +238,12 @@
       </scope>
       <scope id="6193633844718718950" at="78,41,101,5" />
       <scope id="6193633844718718950" at="78,0,103,0" />
-      <unit id="3158011787693544944" at="118,0,121,0" name="de.slisson.mps.richtext.test.editor.RichtextCellAnnotation_EditorBuilder_a$PROPS" />
-      <unit id="3158011787693544944" at="122,0,125,0" name="de.slisson.mps.richtext.test.editor.RichtextCellAnnotation_EditorBuilder_a$CONCEPTS" />
-      <unit id="3158011787693544944" at="33,0,126,0" name="de.slisson.mps.richtext.test.editor.RichtextCellAnnotation_EditorBuilder_a" />
+      <unit id="3158011787693544944" at="118,0,121,0" name="de.slisson.mps.richtext.test.editor.RichtextCellAnnotation_EditorBuilder$PROPS" />
+      <unit id="3158011787693544944" at="122,0,125,0" name="de.slisson.mps.richtext.test.editor.RichtextCellAnnotation_EditorBuilder$CONCEPTS" />
+      <unit id="3158011787693544944" at="33,0,126,0" name="de.slisson.mps.richtext.test.editor.RichtextCellAnnotation_EditorBuilder" />
     </file>
-    <file name="RichtextCellAnnotation_InspectorBuilder_a.java">
-      <node id="3158011787693544944" at="35,105,36,19" concept="11" />
+    <file name="RichtextCellAnnotation_InspectorBuilder.java">
+      <node id="3158011787693544944" at="35,103,36,19" concept="11" />
       <node id="3158011787693544944" at="36,19,37,18" concept="1" />
       <node id="3158011787693544944" at="42,26,43,18" concept="6" />
       <node id="3158011787693544944" at="46,39,47,32" concept="6" />
@@ -359,7 +359,7 @@
       <node id="3158011787693544944" at="204,0,205,0" concept="9" trace="PropertyAttribute$Gb" />
       <node id="3158011787693544944" at="32,0,34,0" concept="2" trace="myNode" />
       <node id="3158011787693544944" at="46,0,49,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3158011787693544944" at="35,0,39,0" concept="0" trace="RichtextCellAnnotation_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3158011787693544944" at="35,0,39,0" concept="0" trace="RichtextCellAnnotation_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3158011787693544944" at="40,0,45,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1977980803835510358" at="82,208,87,24" concept="3" />
       <node id="3158011787693549454" at="112,208,117,24" concept="3" />
@@ -385,7 +385,7 @@
       <scope id="3158011787693549454" at="118,15,119,40" />
       <scope id="1932269937152637539" at="161,15,162,40" />
       <scope id="1932269937152637544" at="191,15,192,40" />
-      <scope id="3158011787693544944" at="35,105,37,18" />
+      <scope id="3158011787693544944" at="35,103,37,18" />
       <scope id="1977980803835510358" at="83,74,85,145">
         <var name="manager" id="1977980803835510358" />
       </scope>
@@ -465,24 +465,24 @@
       <scope id="3158011787693549454" at="98,0,122,0" />
       <scope id="1932269937152637539" at="141,0,165,0" />
       <scope id="1932269937152637544" at="171,0,195,0" />
-      <unit id="3158011787693544944" at="203,0,206,0" name="de.slisson.mps.richtext.test.editor.RichtextCellAnnotation_InspectorBuilder_a$CONCEPTS" />
-      <unit id="3158011787693544944" at="196,0,202,0" name="de.slisson.mps.richtext.test.editor.RichtextCellAnnotation_InspectorBuilder_a$PROPS" />
-      <unit id="3158011787693544944" at="31,0,207,0" name="de.slisson.mps.richtext.test.editor.RichtextCellAnnotation_InspectorBuilder_a" />
+      <unit id="3158011787693544944" at="203,0,206,0" name="de.slisson.mps.richtext.test.editor.RichtextCellAnnotation_InspectorBuilder$CONCEPTS" />
+      <unit id="3158011787693544944" at="196,0,202,0" name="de.slisson.mps.richtext.test.editor.RichtextCellAnnotation_InspectorBuilder$PROPS" />
+      <unit id="3158011787693544944" at="31,0,207,0" name="de.slisson.mps.richtext.test.editor.RichtextCellAnnotation_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:f13f1fc2-8c3c-4594-a521-1362b5aeb9a1(de.slisson.mps.richtext.test.editor)/6193633844718721313">
     <file name="RichtextCellReference_Editor.java">
-      <node id="6193633844718721313" at="11,79,12,87" concept="6" />
+      <node id="6193633844718721313" at="11,79,12,85" concept="6" />
       <node id="6193633844718721313" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6193633844718721313" at="11,79,12,87" />
+      <scope id="6193633844718721313" at="11,79,12,85" />
       <scope id="6193633844718721313" at="11,0,14,0">
         <var name="editorContext" id="6193633844718721313" />
         <var name="node" id="6193633844718721313" />
       </scope>
       <unit id="6193633844718721313" at="10,0,15,0" name="de.slisson.mps.richtext.test.editor.RichtextCellReference_Editor" />
     </file>
-    <file name="RichtextCellReference_EditorBuilder_a.java">
-      <node id="6193633844718721313" at="43,101,44,19" concept="11" />
+    <file name="RichtextCellReference_EditorBuilder.java">
+      <node id="6193633844718721313" at="43,99,44,19" concept="11" />
       <node id="6193633844718721313" at="44,19,45,18" concept="1" />
       <node id="6193633844718721313" at="50,26,51,18" concept="6" />
       <node id="6193633844718721313" at="54,39,55,32" concept="6" />
@@ -545,7 +545,7 @@
       <node id="6193633844718721473" at="102,0,104,0" concept="2" trace="myNode" />
       <node id="6193633844718721313" at="54,0,57,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6193633844718721473" at="112,0,115,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6193633844718721313" at="43,0,47,0" concept="0" trace="RichtextCellReference_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6193633844718721313" at="43,0,47,0" concept="0" trace="RichtextCellReference_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6193633844718721313" at="87,0,91,5" concept="3" />
       <node id="6193633844718721313" at="48,0,53,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6193633844718721313" at="94,205,99,22" concept="3" />
@@ -564,7 +564,7 @@
       <scope id="6193633844718721473" at="112,41,113,32" />
       <scope id="6193633844718721473" at="118,28,119,20" />
       <scope id="6193633844718721766" at="142,17,143,42" />
-      <scope id="6193633844718721313" at="43,101,45,18" />
+      <scope id="6193633844718721313" at="43,99,45,18" />
       <scope id="6193633844718721313" at="88,40,90,49" />
       <scope id="6193633844718721313" at="95,73,97,145">
         <var name="manager" id="6193633844718721313" />
@@ -619,12 +619,12 @@
         <var name="referenceLink" id="6193633844718721313" />
       </scope>
       <scope id="6193633844718721313" at="66,0,101,0" />
-      <unit id="6193633844718721313" at="148,0,151,0" name="de.slisson.mps.richtext.test.editor.RichtextCellReference_EditorBuilder_a$LINKS" />
-      <unit id="6193633844718721313" at="157,0,160,0" name="de.slisson.mps.richtext.test.editor.RichtextCellReference_EditorBuilder_a$PROPS" />
-      <unit id="6193633844718721313" at="152,0,156,0" name="de.slisson.mps.richtext.test.editor.RichtextCellReference_EditorBuilder_a$CONCEPTS" />
-      <unit id="6193633844718721313" at="68,42,83,5" name="de.slisson.mps.richtext.test.editor.RichtextCellReference_EditorBuilder_a$1" />
-      <unit id="6193633844718721473" at="101,0,147,0" name="de.slisson.mps.richtext.test.editor.RichtextCellReference_EditorBuilder_a$Inline_Builder0" />
-      <unit id="6193633844718721313" at="39,0,161,0" name="de.slisson.mps.richtext.test.editor.RichtextCellReference_EditorBuilder_a" />
+      <unit id="6193633844718721313" at="148,0,151,0" name="de.slisson.mps.richtext.test.editor.RichtextCellReference_EditorBuilder$LINKS" />
+      <unit id="6193633844718721313" at="157,0,160,0" name="de.slisson.mps.richtext.test.editor.RichtextCellReference_EditorBuilder$PROPS" />
+      <unit id="6193633844718721313" at="152,0,156,0" name="de.slisson.mps.richtext.test.editor.RichtextCellReference_EditorBuilder$CONCEPTS" />
+      <unit id="6193633844718721313" at="68,42,83,5" name="de.slisson.mps.richtext.test.editor.RichtextCellReference_EditorBuilder$1" />
+      <unit id="6193633844718721473" at="101,0,147,0" name="de.slisson.mps.richtext.test.editor.RichtextCellReference_EditorBuilder$Inline_Builder0" />
+      <unit id="6193633844718721313" at="39,0,161,0" name="de.slisson.mps.richtext.test.editor.RichtextCellReference_EditorBuilder" />
     </file>
   </root>
 </debug-info>

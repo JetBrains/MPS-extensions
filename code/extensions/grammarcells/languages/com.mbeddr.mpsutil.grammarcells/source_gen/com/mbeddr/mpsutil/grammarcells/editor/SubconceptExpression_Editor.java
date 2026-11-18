@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class SubconceptExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SubconceptExpression_EditorBuilder_a(editorContext, node).createCell();
+    return new SubconceptExpression_EditorBuilder(editorContext, node).createCell();
   }
 }

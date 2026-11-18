@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:1c23d5cf-ada9-4796-81d2-91d05eac344f(de.itemis.model.simple.demo.collection.keeper.editor)/6502826827916091675">
     <file name="ConceptWithNestedCollections_Editor.java">
-      <node id="6502826827916091675" at="11,79,12,94" concept="6" />
+      <node id="6502826827916091675" at="11,79,12,92" concept="6" />
       <node id="6502826827916091675" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6502826827916091675" at="11,79,12,94" />
+      <scope id="6502826827916091675" at="11,79,12,92" />
       <scope id="6502826827916091675" at="11,0,14,0">
         <var name="editorContext" id="6502826827916091675" />
         <var name="node" id="6502826827916091675" />
       </scope>
       <unit id="6502826827916091675" at="10,0,15,0" name="de.itemis.model.simple.demo.collection.keeper.editor.ConceptWithNestedCollections_Editor" />
     </file>
-    <file name="ConceptWithNestedCollections_EditorBuilder_a.java">
-      <node id="6502826827916091675" at="47,108,48,19" concept="8" />
+    <file name="ConceptWithNestedCollections_EditorBuilder.java">
+      <node id="6502826827916091675" at="47,106,48,19" concept="8" />
       <node id="6502826827916091675" at="48,19,49,18" concept="1" />
       <node id="6502826827916091675" at="54,26,55,18" concept="6" />
       <node id="6502826827916091675" at="58,39,59,32" concept="6" />
@@ -99,7 +99,7 @@
       <node id="6502826827916091675" at="122,0,125,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="6502826827916091675" at="125,0,128,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="6502826827916091675" at="169,96,172,9" concept="3" />
-      <node id="6502826827916091675" at="47,0,51,0" concept="0" trace="ConceptWithNestedCollections_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6502826827916091675" at="47,0,51,0" concept="0" trace="ConceptWithNestedCollections_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6502826827916091675" at="113,0,117,0" concept="0" trace="collectionListHandler_15om4u_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6502826827916091675" at="118,0,122,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6502826827916091675" at="151,97,155,9" concept="3" />
@@ -128,7 +128,7 @@
       <scope id="6502826827916091675" at="125,48,126,51" />
       <scope id="6502826827916091675" at="143,17,144,42" />
       <scope id="6502826827916091675" at="170,34,171,91" />
-      <scope id="6502826827916091675" at="47,108,49,18" />
+      <scope id="6502826827916091675" at="47,106,49,18" />
       <scope id="6502826827916175816" at="87,74,89,145">
         <var name="manager" id="6502826827916175816" />
       </scope>
@@ -192,11 +192,11 @@
         <var name="elementNode" id="6502826827916091675" />
         <var name="isEmptyCell" id="6502826827916091675" />
       </scope>
-      <unit id="6502826827916091675" at="177,0,180,0" name="de.itemis.model.simple.demo.collection.keeper.editor.ConceptWithNestedCollections_EditorBuilder_a$PROPS" />
-      <unit id="6502826827916091675" at="186,0,189,0" name="de.itemis.model.simple.demo.collection.keeper.editor.ConceptWithNestedCollections_EditorBuilder_a$LINKS" />
-      <unit id="6502826827916091675" at="181,0,185,0" name="de.itemis.model.simple.demo.collection.keeper.editor.ConceptWithNestedCollections_EditorBuilder_a$CONCEPTS" />
-      <unit id="6502826827916091675" at="109,0,176,0" name="de.itemis.model.simple.demo.collection.keeper.editor.ConceptWithNestedCollections_EditorBuilder_a$collectionListHandler_15om4u_c0" />
-      <unit id="6502826827916091675" at="43,0,190,0" name="de.itemis.model.simple.demo.collection.keeper.editor.ConceptWithNestedCollections_EditorBuilder_a" />
+      <unit id="6502826827916091675" at="177,0,180,0" name="de.itemis.model.simple.demo.collection.keeper.editor.ConceptWithNestedCollections_EditorBuilder$PROPS" />
+      <unit id="6502826827916091675" at="186,0,189,0" name="de.itemis.model.simple.demo.collection.keeper.editor.ConceptWithNestedCollections_EditorBuilder$LINKS" />
+      <unit id="6502826827916091675" at="181,0,185,0" name="de.itemis.model.simple.demo.collection.keeper.editor.ConceptWithNestedCollections_EditorBuilder$CONCEPTS" />
+      <unit id="6502826827916091675" at="109,0,176,0" name="de.itemis.model.simple.demo.collection.keeper.editor.ConceptWithNestedCollections_EditorBuilder$collectionListHandler_15om4u_c0" />
+      <unit id="6502826827916091675" at="43,0,190,0" name="de.itemis.model.simple.demo.collection.keeper.editor.ConceptWithNestedCollections_EditorBuilder" />
     </file>
   </root>
 </debug-info>

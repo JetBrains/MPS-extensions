@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class FloatLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new FloatLiteral_EditorBuilder_a(editorContext, node).createCell();
+    return new FloatLiteral_EditorBuilder(editorContext, node).createCell();
   }
 }

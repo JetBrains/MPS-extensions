@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ViewModelExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ViewModelExpression_EditorBuilder_a(editorContext, node).createCell();
+    return new ViewModelExpression_EditorBuilder(editorContext, node).createCell();
   }
 }

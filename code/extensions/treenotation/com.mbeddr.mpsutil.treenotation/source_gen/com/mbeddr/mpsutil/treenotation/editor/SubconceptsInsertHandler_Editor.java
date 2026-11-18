@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class SubconceptsInsertHandler_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SubconceptsInsertHandler_EditorBuilder_a(editorContext, node).createCell();
+    return new SubconceptsInsertHandler_EditorBuilder(editorContext, node).createCell();
   }
 }

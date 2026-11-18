@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class IfInstanceOfElseIfClause_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new IfInstanceOfElseIfClause_EditorBuilder_a(editorContext, node).createCell();
+    return new IfInstanceOfElseIfClause_EditorBuilder(editorContext, node).createCell();
   }
 }

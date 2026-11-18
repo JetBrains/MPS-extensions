@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class NodeRoleClause_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new NodeRoleClause_EditorBuilder_a(editorContext, node).createCell();
+    return new NodeRoleClause_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Indentation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Indentation_EditorBuilder_a(editorContext, node).createCell();
+    return new Indentation_EditorBuilder(editorContext, node).createCell();
   }
 }

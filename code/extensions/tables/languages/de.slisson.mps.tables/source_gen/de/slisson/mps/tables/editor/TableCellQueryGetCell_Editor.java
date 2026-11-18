@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TableCellQueryGetCell_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TableCellQueryGetCell_EditorBuilder_a(editorContext, node).createCell();
+    return new TableCellQueryGetCell_EditorBuilder(editorContext, node).createCell();
   }
 }

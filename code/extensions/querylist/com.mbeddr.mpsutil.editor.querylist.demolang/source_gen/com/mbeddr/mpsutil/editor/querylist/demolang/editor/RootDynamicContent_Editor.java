@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class RootDynamicContent_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new RootDynamicContent_EditorBuilder_a(editorContext, node).createCell();
+    return new RootDynamicContent_EditorBuilder(editorContext, node).createCell();
   }
 }

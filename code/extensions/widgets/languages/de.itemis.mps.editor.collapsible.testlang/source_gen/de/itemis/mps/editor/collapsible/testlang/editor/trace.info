@@ -18,17 +18,17 @@
   </root>
   <root nodeRef="r:52282949-9e6b-44e7-9eb3-3d2fa9ef356d(de.itemis.mps.editor.collapsible.testlang.editor)/5303122274454864438">
     <file name="CollapsibleDefault_Editor.java">
-      <node id="5303122274454864438" at="11,79,12,84" concept="6" />
+      <node id="5303122274454864438" at="11,79,12,82" concept="6" />
       <node id="5303122274454864438" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5303122274454864438" at="11,79,12,84" />
+      <scope id="5303122274454864438" at="11,79,12,82" />
       <scope id="5303122274454864438" at="11,0,14,0">
         <var name="editorContext" id="5303122274454864438" />
         <var name="node" id="5303122274454864438" />
       </scope>
       <unit id="5303122274454864438" at="10,0,15,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleDefault_Editor" />
     </file>
-    <file name="CollapsibleDefault_EditorBuilder_a.java">
-      <node id="5303122274454864438" at="21,98,22,19" concept="9" />
+    <file name="CollapsibleDefault_EditorBuilder.java">
+      <node id="5303122274454864438" at="21,96,22,19" concept="9" />
       <node id="5303122274454864438" at="22,19,23,18" concept="1" />
       <node id="5303122274454864438" at="28,26,29,18" concept="6" />
       <node id="5303122274454864438" at="32,39,33,33" concept="6" />
@@ -64,7 +64,7 @@
       <node id="5303122274454864438" at="50,0,53,0" concept="4" trace="paintEdge#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V" />
       <node id="5303122274454864438" at="53,0,56,0" concept="4" trace="paintLine#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V" />
       <node id="5303122274454864438" at="65,0,68,0" concept="4" trace="createCollapsible_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5303122274454864438" at="21,0,25,0" concept="0" trace="CollapsibleDefault_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5303122274454864438" at="21,0,25,0" concept="0" trace="CollapsibleDefault_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5303122274454864438" at="26,0,31,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5303122274454864454" at="68,0,74,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5303122274454864450" at="74,0,80,0" concept="4" trace="createConstant_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -78,7 +78,7 @@
       <scope id="5303122274454864438" at="50,92,51,15" />
       <scope id="5303122274454864438" at="53,92,54,15" />
       <scope id="5303122274454864438" at="65,44,66,62" />
-      <scope id="5303122274454864438" at="21,98,23,18" />
+      <scope id="5303122274454864438" at="21,96,23,18" />
       <scope id="5303122274454864438" at="32,0,35,0" />
       <scope id="5303122274454864438" at="41,0,44,0" />
       <scope id="5303122274454864438" at="44,0,47,0" />
@@ -122,23 +122,23 @@
         <var name="editorContext" id="5303122274454864438" />
         <var name="node" id="5303122274454864438" />
       </scope>
-      <unit id="5303122274454864438" at="40,40,56,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleDefault_EditorBuilder_a$1" />
-      <unit id="5303122274454864438" at="17,0,81,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleDefault_EditorBuilder_a" />
+      <unit id="5303122274454864438" at="40,40,56,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleDefault_EditorBuilder$1" />
+      <unit id="5303122274454864438" at="17,0,81,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleDefault_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:52282949-9e6b-44e7-9eb3-3d2fa9ef356d(de.itemis.mps.editor.collapsible.testlang.editor)/6960125930951507263">
     <file name="CollapsibleGrouped_Editor.java">
-      <node id="6960125930951507263" at="11,79,12,84" concept="6" />
+      <node id="6960125930951507263" at="11,79,12,82" concept="6" />
       <node id="6960125930951507263" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6960125930951507263" at="11,79,12,84" />
+      <scope id="6960125930951507263" at="11,79,12,82" />
       <scope id="6960125930951507263" at="11,0,14,0">
         <var name="editorContext" id="6960125930951507263" />
         <var name="node" id="6960125930951507263" />
       </scope>
       <unit id="6960125930951507263" at="10,0,15,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleGrouped_Editor" />
     </file>
-    <file name="CollapsibleGrouped_EditorBuilder_a.java">
-      <node id="6960125930951507263" at="24,98,25,19" concept="9" />
+    <file name="CollapsibleGrouped_EditorBuilder.java">
+      <node id="6960125930951507263" at="24,96,25,19" concept="9" />
       <node id="6960125930951507263" at="25,19,26,18" concept="1" />
       <node id="6960125930951507263" at="31,26,32,18" concept="6" />
       <node id="6960125930951507263" at="35,39,36,33" concept="6" />
@@ -212,7 +212,7 @@
       <node id="6960125930951507263" at="99,0,102,0" concept="4" trace="getNodeSize#()Ljava/awt/Dimension;" />
       <node id="6960125930951507263" at="102,0,105,0" concept="4" trace="customPaint#()Z" />
       <node id="6960125930951507263" at="124,0,127,0" concept="4" trace="createCollapsible_3#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6960125930951507263" at="24,0,28,0" concept="0" trace="CollapsibleGrouped_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6960125930951507263" at="24,0,28,0" concept="0" trace="CollapsibleGrouped_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6960125930951507263" at="50,0,54,0" concept="4" trace="paintNode#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;ZZ)V" />
       <node id="6960125930951507263" at="54,0,58,0" concept="4" trace="paintEdge#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V" />
       <node id="6960125930951507263" at="58,0,62,0" concept="4" trace="paintLine#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V" />
@@ -238,7 +238,7 @@
       <scope id="6960125930951507263" at="99,38,100,20" />
       <scope id="6960125930951507263" at="102,36,103,20" />
       <scope id="6960125930951507263" at="124,44,125,62" />
-      <scope id="6960125930951507263" at="24,98,26,18" />
+      <scope id="6960125930951507263" at="24,96,26,18" />
       <scope id="6960125930951507966" at="50,107,52,75" />
       <scope id="6960125930951510769" at="54,92,56,75" />
       <scope id="6960125930951514524" at="58,92,60,75" />
@@ -333,24 +333,24 @@
         <var name="editorContext" id="6960125930951507263" />
         <var name="node" id="6960125930951507263" />
       </scope>
-      <unit id="6960125930951507263" at="43,40,62,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleGrouped_EditorBuilder_a$1" />
-      <unit id="6960125930951507263" at="98,40,117,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleGrouped_EditorBuilder_a$2" />
-      <unit id="6960125930951507263" at="20,0,146,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleGrouped_EditorBuilder_a" />
+      <unit id="6960125930951507263" at="43,40,62,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleGrouped_EditorBuilder$1" />
+      <unit id="6960125930951507263" at="98,40,117,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleGrouped_EditorBuilder$2" />
+      <unit id="6960125930951507263" at="20,0,146,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleGrouped_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:52282949-9e6b-44e7-9eb3-3d2fa9ef356d(de.itemis.mps.editor.collapsible.testlang.editor)/6960125930951536465">
     <file name="CollapsibleUngrouped_Editor.java">
-      <node id="6960125930951536465" at="11,79,12,86" concept="6" />
+      <node id="6960125930951536465" at="11,79,12,84" concept="6" />
       <node id="6960125930951536465" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6960125930951536465" at="11,79,12,86" />
+      <scope id="6960125930951536465" at="11,79,12,84" />
       <scope id="6960125930951536465" at="11,0,14,0">
         <var name="editorContext" id="6960125930951536465" />
         <var name="node" id="6960125930951536465" />
       </scope>
       <unit id="6960125930951536465" at="10,0,15,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleUngrouped_Editor" />
     </file>
-    <file name="CollapsibleUngrouped_EditorBuilder_a.java">
-      <node id="6960125930951536465" at="24,100,25,19" concept="9" />
+    <file name="CollapsibleUngrouped_EditorBuilder.java">
+      <node id="6960125930951536465" at="24,98,25,19" concept="9" />
       <node id="6960125930951536465" at="25,19,26,18" concept="1" />
       <node id="6960125930951536465" at="31,26,32,18" concept="6" />
       <node id="6960125930951536465" at="35,39,36,33" concept="6" />
@@ -424,7 +424,7 @@
       <node id="6960125930951536465" at="99,0,102,0" concept="4" trace="getNodeSize#()Ljava/awt/Dimension;" />
       <node id="6960125930951536465" at="102,0,105,0" concept="4" trace="customPaint#()Z" />
       <node id="6960125930951536465" at="124,0,127,0" concept="4" trace="createCollapsible_3#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6960125930951536465" at="24,0,28,0" concept="0" trace="CollapsibleUngrouped_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6960125930951536465" at="24,0,28,0" concept="0" trace="CollapsibleUngrouped_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6960125930951536465" at="50,0,54,0" concept="4" trace="paintNode#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;ZZ)V" />
       <node id="6960125930951536465" at="54,0,58,0" concept="4" trace="paintEdge#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V" />
       <node id="6960125930951536465" at="58,0,62,0" concept="4" trace="paintLine#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V" />
@@ -450,7 +450,7 @@
       <scope id="6960125930951536465" at="99,38,100,20" />
       <scope id="6960125930951536465" at="102,36,103,20" />
       <scope id="6960125930951536465" at="124,44,125,62" />
-      <scope id="6960125930951536465" at="24,100,26,18" />
+      <scope id="6960125930951536465" at="24,98,26,18" />
       <scope id="6960125930951536547" at="50,107,52,75" />
       <scope id="6960125930951536573" at="54,92,56,75" />
       <scope id="6960125930951536596" at="58,92,60,75" />
@@ -545,24 +545,24 @@
         <var name="editorContext" id="6960125930951536465" />
         <var name="node" id="6960125930951536465" />
       </scope>
-      <unit id="6960125930951536465" at="43,40,62,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleUngrouped_EditorBuilder_a$1" />
-      <unit id="6960125930951536465" at="98,40,117,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleUngrouped_EditorBuilder_a$2" />
-      <unit id="6960125930951536465" at="20,0,146,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleUngrouped_EditorBuilder_a" />
+      <unit id="6960125930951536465" at="43,40,62,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleUngrouped_EditorBuilder$1" />
+      <unit id="6960125930951536465" at="98,40,117,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleUngrouped_EditorBuilder$2" />
+      <unit id="6960125930951536465" at="20,0,146,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleUngrouped_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:52282949-9e6b-44e7-9eb3-3d2fa9ef356d(de.itemis.mps.editor.collapsible.testlang.editor)/8796578821620848777">
     <file name="CollapsibleWithCallbackCollapsed_Editor.java">
-      <node id="8796578821620848777" at="11,79,12,98" concept="6" />
+      <node id="8796578821620848777" at="11,79,12,96" concept="6" />
       <node id="8796578821620848777" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8796578821620848777" at="11,79,12,98" />
+      <scope id="8796578821620848777" at="11,79,12,96" />
       <scope id="8796578821620848777" at="11,0,14,0">
         <var name="editorContext" id="8796578821620848777" />
         <var name="node" id="8796578821620848777" />
       </scope>
       <unit id="8796578821620848777" at="10,0,15,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackCollapsed_Editor" />
     </file>
-    <file name="CollapsibleWithCallbackCollapsed_EditorBuilder_a.java">
-      <node id="8796578821620848777" at="22,112,23,19" concept="9" />
+    <file name="CollapsibleWithCallbackCollapsed_EditorBuilder.java">
+      <node id="8796578821620848777" at="22,110,23,19" concept="9" />
       <node id="8796578821620848777" at="23,19,24,18" concept="1" />
       <node id="8796578821620848777" at="29,26,30,18" concept="6" />
       <node id="8796578821620848777" at="33,39,34,33" concept="6" />
@@ -598,7 +598,7 @@
       <node id="8796578821620848777" at="52,0,55,0" concept="4" trace="paintEdge#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V" />
       <node id="8796578821620848777" at="55,0,58,0" concept="4" trace="paintLine#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V" />
       <node id="8796578821620848777" at="67,0,70,0" concept="4" trace="createCollapsible_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8796578821620848777" at="22,0,26,0" concept="0" trace="CollapsibleWithCallbackCollapsed_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8796578821620848777" at="22,0,26,0" concept="0" trace="CollapsibleWithCallbackCollapsed_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8796578821620848777" at="48,0,52,0" concept="4" trace="paintNode#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;ZZ)V" />
       <node id="8796578821620848777" at="27,0,32,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8796578821620848785" at="70,0,76,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -612,7 +612,7 @@
       <scope id="8796578821620848777" at="52,92,53,15" />
       <scope id="8796578821620848777" at="55,92,56,15" />
       <scope id="8796578821620848777" at="67,44,68,62" />
-      <scope id="8796578821620848777" at="22,112,24,18" />
+      <scope id="8796578821620848777" at="22,110,24,18" />
       <scope id="8796578821621136495" at="48,107,50,75" />
       <scope id="8796578821620848777" at="33,0,36,0" />
       <scope id="8796578821620848777" at="42,0,45,0" />
@@ -657,23 +657,23 @@
         <var name="editorContext" id="8796578821620848777" />
         <var name="node" id="8796578821620848777" />
       </scope>
-      <unit id="8796578821620848777" at="41,40,58,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackCollapsed_EditorBuilder_a$1" />
-      <unit id="8796578821620848777" at="18,0,83,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackCollapsed_EditorBuilder_a" />
+      <unit id="8796578821620848777" at="41,40,58,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackCollapsed_EditorBuilder$1" />
+      <unit id="8796578821620848777" at="18,0,83,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackCollapsed_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:52282949-9e6b-44e7-9eb3-3d2fa9ef356d(de.itemis.mps.editor.collapsible.testlang.editor)/8796578821621466214">
     <file name="CollapsibleWithCallbackExpanded_Editor.java">
-      <node id="8796578821621466214" at="11,79,12,97" concept="6" />
+      <node id="8796578821621466214" at="11,79,12,95" concept="6" />
       <node id="8796578821621466214" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8796578821621466214" at="11,79,12,97" />
+      <scope id="8796578821621466214" at="11,79,12,95" />
       <scope id="8796578821621466214" at="11,0,14,0">
         <var name="editorContext" id="8796578821621466214" />
         <var name="node" id="8796578821621466214" />
       </scope>
       <unit id="8796578821621466214" at="10,0,15,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackExpanded_Editor" />
     </file>
-    <file name="CollapsibleWithCallbackExpanded_EditorBuilder_a.java">
-      <node id="8796578821621466214" at="48,111,49,19" concept="9" />
+    <file name="CollapsibleWithCallbackExpanded_EditorBuilder.java">
+      <node id="8796578821621466214" at="48,109,49,19" concept="9" />
       <node id="8796578821621466214" at="49,19,50,18" concept="1" />
       <node id="8796578821621466214" at="55,26,56,18" concept="6" />
       <node id="8796578821621466214" at="59,39,60,33" concept="6" />
@@ -761,7 +761,7 @@
       <node id="8796578821621466214" at="146,0,149,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="8796578821621466214" at="149,0,152,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="8796578821621466214" at="193,96,196,9" concept="3" />
-      <node id="8796578821621466214" at="48,0,52,0" concept="0" trace="CollapsibleWithCallbackExpanded_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8796578821621466214" at="48,0,52,0" concept="0" trace="CollapsibleWithCallbackExpanded_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8796578821621466214" at="74,0,78,0" concept="4" trace="paintNode#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;ZZ)V" />
       <node id="8796578821621466214" at="78,0,82,0" concept="4" trace="paintEdge#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V" />
       <node id="8796578821621466214" at="82,0,86,0" concept="4" trace="paintLine#(Ljava/awt/Graphics2D;Ljava/awt/Rectangle;Ljava/awt/Rectangle;)V" />
@@ -798,7 +798,7 @@
       <scope id="8796578821621466214" at="149,48,150,57" />
       <scope id="8796578821621466214" at="167,17,168,42" />
       <scope id="8796578821621466214" at="194,34,195,91" />
-      <scope id="8796578821621466214" at="48,111,50,18" />
+      <scope id="8796578821621466214" at="48,109,50,18" />
       <scope id="8796578821621466232" at="74,107,76,75" />
       <scope id="8796578821621511467" at="78,92,80,75" />
       <scope id="8796578821621513236" at="82,92,84,75" />
@@ -893,12 +893,12 @@
         <var name="editorContext" id="8796578821621466214" />
         <var name="node" id="8796578821621466214" />
       </scope>
-      <unit id="8796578821621466214" at="207,0,210,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackExpanded_EditorBuilder_a$PROPS" />
-      <unit id="8796578821621466214" at="216,0,219,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackExpanded_EditorBuilder_a$LINKS" />
-      <unit id="8796578821621466214" at="211,0,215,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackExpanded_EditorBuilder_a$CONCEPTS" />
-      <unit id="8796578821621466214" at="67,40,86,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackExpanded_EditorBuilder_a$1" />
-      <unit id="8796578821621466214" at="133,0,200,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackExpanded_EditorBuilder_a$childrenListHandler_njjfcf_b0a" />
-      <unit id="8796578821621466214" at="44,0,220,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackExpanded_EditorBuilder_a" />
+      <unit id="8796578821621466214" at="207,0,210,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackExpanded_EditorBuilder$PROPS" />
+      <unit id="8796578821621466214" at="216,0,219,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackExpanded_EditorBuilder$LINKS" />
+      <unit id="8796578821621466214" at="211,0,215,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackExpanded_EditorBuilder$CONCEPTS" />
+      <unit id="8796578821621466214" at="67,40,86,5" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackExpanded_EditorBuilder$1" />
+      <unit id="8796578821621466214" at="133,0,200,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackExpanded_EditorBuilder$childrenListHandler_njjfcf_b0a" />
+      <unit id="8796578821621466214" at="44,0,220,0" name="de.itemis.mps.editor.collapsible.testlang.editor.CollapsibleWithCallbackExpanded_EditorBuilder" />
     </file>
   </root>
 </debug-info>

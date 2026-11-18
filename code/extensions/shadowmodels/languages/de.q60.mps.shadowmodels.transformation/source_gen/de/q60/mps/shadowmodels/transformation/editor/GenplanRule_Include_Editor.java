@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class GenplanRule_Include_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new GenplanRule_Include_EditorBuilder_a(editorContext, node).createCell();
+    return new GenplanRule_Include_EditorBuilder(editorContext, node).createCell();
   }
 }

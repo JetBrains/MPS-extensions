@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class StressLayoutConfig_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new StressLayoutConfig_EditorBuilder_a(editorContext, node).createCell();
+    return new StressLayoutConfig_EditorBuilder(editorContext, node).createCell();
   }
 }

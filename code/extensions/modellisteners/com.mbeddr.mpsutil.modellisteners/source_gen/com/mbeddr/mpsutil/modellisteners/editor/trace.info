@@ -18,17 +18,17 @@
   </root>
   <root nodeRef="r:bf8b15b3-3020-491d-8b97-4aa01a650593(com.mbeddr.mpsutil.modellisteners.editor)/5818559022137629492">
     <file name="ConceptModelListeners_Editor.java">
-      <node id="5818559022137629492" at="11,79,12,87" concept="6" />
+      <node id="5818559022137629492" at="11,79,12,85" concept="6" />
       <node id="5818559022137629492" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5818559022137629492" at="11,79,12,87" />
+      <scope id="5818559022137629492" at="11,79,12,85" />
       <scope id="5818559022137629492" at="11,0,14,0">
         <var name="editorContext" id="5818559022137629492" />
         <var name="node" id="5818559022137629492" />
       </scope>
       <unit id="5818559022137629492" at="10,0,15,0" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_Editor" />
     </file>
-    <file name="ConceptModelListeners_EditorBuilder_a.java">
-      <node id="5818559022137629492" at="53,101,54,19" concept="9" />
+    <file name="ConceptModelListeners_EditorBuilder.java">
+      <node id="5818559022137629492" at="53,99,54,19" concept="9" />
       <node id="5818559022137629492" at="54,19,55,18" concept="1" />
       <node id="5818559022137629492" at="60,26,61,18" concept="6" />
       <node id="5818559022137629492" at="64,39,65,32" concept="6" />
@@ -155,7 +155,7 @@
       <node id="5818559022137629492" at="201,0,204,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="5818559022137629492" at="204,0,207,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="5818559022137629492" at="248,96,251,9" concept="3" />
-      <node id="5818559022137629492" at="53,0,57,0" concept="0" trace="ConceptModelListeners_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5818559022137629492" at="53,0,57,0" concept="0" trace="ConceptModelListeners_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5818559022137629492" at="100,0,104,5" concept="3" />
       <node id="5818559022137629492" at="192,0,196,0" concept="0" trace="listenersListHandler_bs3ulz_a3a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5818559022137629492" at="197,0,201,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -196,7 +196,7 @@
       <scope id="5818559022137629492" at="204,48,205,40" />
       <scope id="5818559022137629492" at="222,17,223,42" />
       <scope id="5818559022137629492" at="249,34,250,91" />
-      <scope id="5818559022137629492" at="53,101,55,18" />
+      <scope id="5818559022137629492" at="53,99,55,18" />
       <scope id="5818559022137629492" at="101,40,103,46" />
       <scope id="5818559022137629492" at="108,73,110,145">
         <var name="manager" id="5818559022137629492" />
@@ -301,28 +301,28 @@
         <var name="referenceLink" id="5818559022137629492" />
       </scope>
       <scope id="5818559022137629492" at="86,0,114,0" />
-      <unit id="5818559022137629492" at="277,0,280,0" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder_a$PROPS" />
-      <unit id="5818559022137629492" at="266,0,270,0" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder_a$LINKS" />
-      <unit id="5818559022137629492" at="271,0,276,0" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder_a$CONCEPTS" />
-      <unit id="5818559022137629492" at="88,42,96,5" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder_a$1" />
-      <unit id="1213094094191" at="114,0,157,0" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder_a$Inline_Builder0" />
-      <unit id="5818559022137629492" at="188,0,255,0" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder_a$listenersListHandler_bs3ulz_a3a" />
-      <unit id="5818559022137629492" at="49,0,281,0" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder_a" />
+      <unit id="5818559022137629492" at="277,0,280,0" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder$PROPS" />
+      <unit id="5818559022137629492" at="266,0,270,0" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder$LINKS" />
+      <unit id="5818559022137629492" at="271,0,276,0" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder$CONCEPTS" />
+      <unit id="5818559022137629492" at="88,42,96,5" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder$1" />
+      <unit id="1213094094191" at="114,0,157,0" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder$Inline_Builder0" />
+      <unit id="5818559022137629492" at="188,0,255,0" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder$listenersListHandler_bs3ulz_a3a" />
+      <unit id="5818559022137629492" at="49,0,281,0" name="com.mbeddr.mpsutil.modellisteners.editor.ConceptModelListeners_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:bf8b15b3-3020-491d-8b97-4aa01a650593(com.mbeddr.mpsutil.modellisteners.editor)/5818559022137773133">
     <file name="AbstractRoleListener_Editor.java">
-      <node id="5818559022137773133" at="11,79,12,86" concept="6" />
+      <node id="5818559022137773133" at="11,79,12,84" concept="6" />
       <node id="5818559022137773133" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5818559022137773133" at="11,79,12,86" />
+      <scope id="5818559022137773133" at="11,79,12,84" />
       <scope id="5818559022137773133" at="11,0,14,0">
         <var name="editorContext" id="5818559022137773133" />
         <var name="node" id="5818559022137773133" />
       </scope>
       <unit id="5818559022137773133" at="10,0,15,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_Editor" />
     </file>
-    <file name="AbstractRoleListener_EditorBuilder_a.java">
-      <node id="5818559022137773133" at="45,100,46,19" concept="9" />
+    <file name="AbstractRoleListener_EditorBuilder.java">
+      <node id="5818559022137773133" at="45,98,46,19" concept="9" />
       <node id="5818559022137773133" at="46,19,47,18" concept="1" />
       <node id="5818559022137773133" at="52,26,53,18" concept="6" />
       <node id="5818559022137773133" at="56,39,57,32" concept="6" />
@@ -397,7 +397,7 @@
       <node id="5818559022137773133" at="56,0,59,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2900100530630621653" at="73,0,76,0" concept="4" trace="getText#()Ljava/lang/String;" />
       <node id="5818559022137783996" at="131,0,134,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5818559022137773133" at="45,0,49,0" concept="0" trace="AbstractRoleListener_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5818559022137773133" at="45,0,49,0" concept="0" trace="AbstractRoleListener_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5818559022137773133" at="106,0,110,5" concept="3" />
       <node id="1196975582231" at="163,0,167,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5818559022137773133" at="50,0,55,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -420,7 +420,7 @@
       <scope id="5818559022137783996" at="131,41,132,32" />
       <scope id="5818559022137783996" at="137,28,138,20" />
       <scope id="5818559022137784024" at="158,17,159,42" />
-      <scope id="5818559022137773133" at="45,100,47,18" />
+      <scope id="5818559022137773133" at="45,98,47,18" />
       <scope id="5818559022137773133" at="107,40,109,43" />
       <scope id="5818559022137773133" at="114,73,116,145">
         <var name="manager" id="5818559022137773133" />
@@ -482,28 +482,28 @@
         <var name="referenceLink" id="5818559022137773133" />
       </scope>
       <scope id="5818559022137773133" at="92,0,120,0" />
-      <unit id="5818559022137773133" at="168,0,171,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder_a$LINKS" />
-      <unit id="5818559022137773133" at="177,0,180,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder_a$PROPS" />
-      <unit id="2900100530630621653" at="72,88,76,5" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder_a$1" />
-      <unit id="5818559022137773133" at="172,0,176,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder_a$CONCEPTS" />
-      <unit id="5818559022137773133" at="94,42,102,5" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder_a$2" />
-      <unit id="5818559022137783996" at="120,0,163,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder_a$Inline_Builder0" />
-      <unit id="5818559022137773133" at="41,0,181,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder_a" />
+      <unit id="5818559022137773133" at="168,0,171,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder$LINKS" />
+      <unit id="5818559022137773133" at="177,0,180,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder$PROPS" />
+      <unit id="2900100530630621653" at="72,88,76,5" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder$1" />
+      <unit id="5818559022137773133" at="172,0,176,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder$CONCEPTS" />
+      <unit id="5818559022137773133" at="94,42,102,5" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder$2" />
+      <unit id="5818559022137783996" at="120,0,163,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder$Inline_Builder0" />
+      <unit id="5818559022137773133" at="41,0,181,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractRoleListener_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:bf8b15b3-3020-491d-8b97-4aa01a650593(com.mbeddr.mpsutil.modellisteners.editor)/6105788070833316187">
     <file name="PropertyListener_Editor.java">
-      <node id="6105788070833316187" at="11,79,12,82" concept="6" />
+      <node id="6105788070833316187" at="11,79,12,80" concept="6" />
       <node id="6105788070833316187" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6105788070833316187" at="11,79,12,82" />
+      <scope id="6105788070833316187" at="11,79,12,80" />
       <scope id="6105788070833316187" at="11,0,14,0">
         <var name="editorContext" id="6105788070833316187" />
         <var name="node" id="6105788070833316187" />
       </scope>
       <unit id="6105788070833316187" at="10,0,15,0" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_Editor" />
     </file>
-    <file name="PropertyListener_EditorBuilder_a.java">
-      <node id="6105788070833316187" at="45,96,46,19" concept="9" />
+    <file name="PropertyListener_EditorBuilder.java">
+      <node id="6105788070833316187" at="45,94,46,19" concept="9" />
       <node id="6105788070833316187" at="46,19,47,18" concept="1" />
       <node id="6105788070833316187" at="52,26,53,18" concept="6" />
       <node id="6105788070833316187" at="56,39,57,32" concept="6" />
@@ -578,7 +578,7 @@
       <node id="6105788070833316187" at="56,0,59,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6105788070833316483" at="73,0,76,0" concept="4" trace="getText#()Ljava/lang/String;" />
       <node id="6105788070833317835" at="131,0,134,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6105788070833316187" at="45,0,49,0" concept="0" trace="PropertyListener_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6105788070833316187" at="45,0,49,0" concept="0" trace="PropertyListener_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6105788070833316187" at="106,0,110,5" concept="3" />
       <node id="6105788070833316499" at="163,0,167,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6105788070833316187" at="50,0,55,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -601,7 +601,7 @@
       <scope id="6105788070833317835" at="131,41,132,32" />
       <scope id="6105788070833317835" at="137,28,138,20" />
       <scope id="6105788070833318358" at="158,17,159,42" />
-      <scope id="6105788070833316187" at="45,96,47,18" />
+      <scope id="6105788070833316187" at="45,94,47,18" />
       <scope id="6105788070833316187" at="107,40,109,47" />
       <scope id="6105788070833316187" at="114,73,116,145">
         <var name="manager" id="6105788070833316187" />
@@ -663,28 +663,28 @@
         <var name="referenceLink" id="6105788070833316187" />
       </scope>
       <scope id="6105788070833316187" at="92,0,120,0" />
-      <unit id="6105788070833316187" at="168,0,171,0" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder_a$LINKS" />
-      <unit id="6105788070833316187" at="177,0,180,0" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder_a$PROPS" />
-      <unit id="6105788070833316483" at="72,88,76,5" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder_a$1" />
-      <unit id="6105788070833316187" at="172,0,176,0" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder_a$CONCEPTS" />
-      <unit id="6105788070833316187" at="94,42,102,5" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder_a$2" />
-      <unit id="6105788070833317835" at="120,0,163,0" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder_a$Inline_Builder0" />
-      <unit id="6105788070833316187" at="41,0,181,0" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder_a" />
+      <unit id="6105788070833316187" at="168,0,171,0" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder$LINKS" />
+      <unit id="6105788070833316187" at="177,0,180,0" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder$PROPS" />
+      <unit id="6105788070833316483" at="72,88,76,5" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder$1" />
+      <unit id="6105788070833316187" at="172,0,176,0" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder$CONCEPTS" />
+      <unit id="6105788070833316187" at="94,42,102,5" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder$2" />
+      <unit id="6105788070833317835" at="120,0,163,0" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder$Inline_Builder0" />
+      <unit id="6105788070833316187" at="41,0,181,0" name="com.mbeddr.mpsutil.modellisteners.editor.PropertyListener_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:bf8b15b3-3020-491d-8b97-4aa01a650593(com.mbeddr.mpsutil.modellisteners.editor)/6105788070835304994">
     <file name="AbstractListener_Editor.java">
-      <node id="6105788070835304994" at="11,79,12,82" concept="6" />
+      <node id="6105788070835304994" at="11,79,12,80" concept="6" />
       <node id="6105788070835304994" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6105788070835304994" at="11,79,12,82" />
+      <scope id="6105788070835304994" at="11,79,12,80" />
       <scope id="6105788070835304994" at="11,0,14,0">
         <var name="editorContext" id="6105788070835304994" />
         <var name="node" id="6105788070835304994" />
       </scope>
       <unit id="6105788070835304994" at="10,0,15,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractListener_Editor" />
     </file>
-    <file name="AbstractListener_EditorBuilder_a.java">
-      <node id="6105788070835304994" at="27,96,28,19" concept="9" />
+    <file name="AbstractListener_EditorBuilder.java">
+      <node id="6105788070835304994" at="27,94,28,19" concept="9" />
       <node id="6105788070835304994" at="28,19,29,18" concept="1" />
       <node id="6105788070835304994" at="34,26,35,18" concept="6" />
       <node id="6105788070835304994" at="38,39,39,32" concept="6" />
@@ -709,7 +709,7 @@
       <node id="6105788070835304994" at="24,0,26,0" concept="2" trace="myNode" />
       <node id="6105788070835304994" at="38,0,41,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6105788070835305310" at="53,0,56,0" concept="4" trace="getText#()Ljava/lang/String;" />
-      <node id="6105788070835304994" at="27,0,31,0" concept="0" trace="AbstractListener_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6105788070835304994" at="27,0,31,0" concept="0" trace="AbstractListener_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6105788070835305326" at="66,0,70,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6105788070835304994" at="32,0,37,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6105788070835305310" at="51,54,56,15" concept="5" />
@@ -718,7 +718,7 @@
       <scope id="6105788070835304994" at="34,26,35,18" />
       <scope id="6105788070835304994" at="38,39,39,32" />
       <scope id="6105788070835305313" at="53,31,54,83" />
-      <scope id="6105788070835304994" at="27,96,29,18" />
+      <scope id="6105788070835304994" at="27,94,29,18" />
       <scope id="6105788070835305326" at="66,42,68,22">
         <var name="editorCell" id="6105788070835305326" />
       </scope>
@@ -739,8 +739,8 @@
         <var name="style" id="6105788070835305310" />
       </scope>
       <scope id="6105788070835305310" at="51,0,66,0" />
-      <unit id="6105788070835305310" at="52,88,56,5" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractListener_EditorBuilder_a$1" />
-      <unit id="6105788070835304994" at="23,0,71,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractListener_EditorBuilder_a" />
+      <unit id="6105788070835305310" at="52,88,56,5" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractListener_EditorBuilder$1" />
+      <unit id="6105788070835304994" at="23,0,71,0" name="com.mbeddr.mpsutil.modellisteners.editor.AbstractListener_EditorBuilder" />
     </file>
   </root>
 </debug-info>

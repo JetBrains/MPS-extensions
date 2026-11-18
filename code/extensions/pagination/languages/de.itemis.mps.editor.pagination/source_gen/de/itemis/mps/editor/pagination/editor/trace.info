@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:34427b77-5b5e-414e-91a7-566b6fbd7d74(de.itemis.mps.editor.pagination.editor)/2646108724982387177">
     <file name="Paginate_CellModel_Editor.java">
-      <node id="2646108724982387177" at="11,79,12,84" concept="6" />
+      <node id="2646108724982387177" at="11,79,12,82" concept="6" />
       <node id="2646108724982387177" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2646108724982387177" at="11,79,12,84" />
+      <scope id="2646108724982387177" at="11,79,12,82" />
       <scope id="2646108724982387177" at="11,0,14,0">
         <var name="editorContext" id="2646108724982387177" />
         <var name="node" id="2646108724982387177" />
       </scope>
       <unit id="2646108724982387177" at="10,0,15,0" name="de.itemis.mps.editor.pagination.editor.Paginate_CellModel_Editor" />
     </file>
-    <file name="Paginate_CellModel_EditorBuilder_a.java">
-      <node id="2646108724982387177" at="33,98,34,19" concept="8" />
+    <file name="Paginate_CellModel_EditorBuilder.java">
+      <node id="2646108724982387177" at="33,96,34,19" concept="8" />
       <node id="2646108724982387177" at="34,19,35,18" concept="1" />
       <node id="2646108724982387177" at="40,26,41,18" concept="6" />
       <node id="2646108724982387177" at="44,39,45,32" concept="6" />
@@ -131,7 +131,7 @@
       <node id="2646108724982387177" at="187,87,190,7" concept="3" />
       <node id="2646108724982387177" at="190,7,193,7" concept="3" />
       <node id="2646108724982387177" at="212,0,215,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="2646108724982387177" at="33,0,37,0" concept="0" trace="Paginate_CellModel_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2646108724982387177" at="33,0,37,0" concept="0" trace="Paginate_CellModel_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2646108724982387177" at="79,0,83,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2646108724982387177" at="87,0,91,0" concept="0" trace="collectionToPaginateSingleRoleHandler_sq7bkm_b0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="2646108724982387177" at="158,0,162,0" concept="4" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -165,7 +165,7 @@
       <scope id="2646108724982387177" at="191,42,192,49" />
       <scope id="2646108724982387177" at="208,17,209,42" />
       <scope id="2646108724982387177" at="212,40,213,29" />
-      <scope id="2646108724982387177" at="33,98,35,18" />
+      <scope id="2646108724982387177" at="33,96,35,18" />
       <scope id="2646108724982387177" at="79,40,81,33">
         <var name="provider" id="2646108724982387177" />
       </scope>
@@ -261,10 +261,10 @@
       <scope id="2646108724982387177" at="48,0,61,0" />
       <scope id="2646108724982387177" at="116,0,130,0" />
       <scope id="2646108724982387177" at="198,0,212,0" />
-      <unit id="2646108724982387177" at="217,0,221,0" name="de.itemis.mps.editor.pagination.editor.Paginate_CellModel_EditorBuilder_a$LINKS" />
-      <unit id="2646108724982387177" at="83,0,134,0" name="de.itemis.mps.editor.pagination.editor.Paginate_CellModel_EditorBuilder_a$collectionToPaginateSingleRoleHandler_sq7bkm_b0a" />
-      <unit id="2646108724982387177" at="162,0,216,0" name="de.itemis.mps.editor.pagination.editor.Paginate_CellModel_EditorBuilder_a$pageSizeSingleRoleHandler_sq7bkm_b1a" />
-      <unit id="2646108724982387177" at="29,0,222,0" name="de.itemis.mps.editor.pagination.editor.Paginate_CellModel_EditorBuilder_a" />
+      <unit id="2646108724982387177" at="217,0,221,0" name="de.itemis.mps.editor.pagination.editor.Paginate_CellModel_EditorBuilder$LINKS" />
+      <unit id="2646108724982387177" at="83,0,134,0" name="de.itemis.mps.editor.pagination.editor.Paginate_CellModel_EditorBuilder$collectionToPaginateSingleRoleHandler_sq7bkm_b0a" />
+      <unit id="2646108724982387177" at="162,0,216,0" name="de.itemis.mps.editor.pagination.editor.Paginate_CellModel_EditorBuilder$pageSizeSingleRoleHandler_sq7bkm_b1a" />
+      <unit id="2646108724982387177" at="29,0,222,0" name="de.itemis.mps.editor.pagination.editor.Paginate_CellModel_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:34427b77-5b5e-414e-91a7-566b6fbd7d74(de.itemis.mps.editor.pagination.editor)/5849402595854925905">

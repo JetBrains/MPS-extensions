@@ -16,6 +16,6 @@ public class TEST_optionalInComponent_component implements ConceptEditorComponen
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TEST_optionalInComponent_component_ComponentBuilder_a(editorContext, node).createCell();
+    return new TEST_optionalInComponent_component_ComponentBuilder(editorContext, node).createCell();
   }
 }

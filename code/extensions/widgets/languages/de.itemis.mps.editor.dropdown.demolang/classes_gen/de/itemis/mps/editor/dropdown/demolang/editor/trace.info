@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:24e5d177-f282-40c2-ae7e-c52db64f5eb0(de.itemis.mps.editor.dropdown.demolang.editor)/4141535073102526247">
     <file name="RootConcept_Editor.java">
-      <node id="4141535073102526247" at="11,79,12,77" concept="6" />
+      <node id="4141535073102526247" at="11,79,12,75" concept="6" />
       <node id="4141535073102526247" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4141535073102526247" at="11,79,12,77" />
+      <scope id="4141535073102526247" at="11,79,12,75" />
       <scope id="4141535073102526247" at="11,0,14,0">
         <var name="editorContext" id="4141535073102526247" />
         <var name="node" id="4141535073102526247" />
       </scope>
       <unit id="4141535073102526247" at="10,0,15,0" name="de.itemis.mps.editor.dropdown.demolang.editor.RootConcept_Editor" />
     </file>
-    <file name="RootConcept_EditorBuilder_a.java">
-      <node id="4141535073102526247" at="42,91,43,19" concept="8" />
+    <file name="RootConcept_EditorBuilder.java">
+      <node id="4141535073102526247" at="42,89,43,19" concept="8" />
       <node id="4141535073102526247" at="43,19,44,18" concept="1" />
       <node id="4141535073102526247" at="49,26,50,18" concept="6" />
       <node id="4141535073102526247" at="53,39,54,32" concept="6" />
@@ -120,7 +120,7 @@
       <node id="4141535073102526247" at="160,87,163,7" concept="3" />
       <node id="4141535073102526247" at="163,7,166,7" concept="3" />
       <node id="4141535073102526247" at="182,0,185,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="4141535073102526247" at="42,0,46,0" concept="0" trace="RootConcept_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4141535073102526247" at="42,0,46,0" concept="0" trace="RootConcept_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4141535073102526247" at="131,0,135,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4141535073102526247" at="139,0,143,0" concept="0" trace="expressionSingleRoleHandler_aw3qer_a1b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="4141535073102526247" at="47,0,52,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -151,7 +151,7 @@
       <scope id="4141535073102526247" at="164,42,165,51" />
       <scope id="4141535073102526247" at="178,17,179,42" />
       <scope id="4141535073102526247" at="182,40,183,31" />
-      <scope id="4141535073102526247" at="42,91,44,18" />
+      <scope id="4141535073102526247" at="42,89,44,18" />
       <scope id="4141535073102651225" at="101,74,103,145">
         <var name="manager" id="4141535073102651225" />
       </scope>
@@ -242,11 +242,11 @@
       <scope id="4141535073102526247" at="168,0,182,0" />
       <scope id="4141535073102651225" at="89,41,108,5" />
       <scope id="4141535073102651225" at="89,0,110,0" />
-      <unit id="4141535073102526247" at="199,0,202,0" name="de.itemis.mps.editor.dropdown.demolang.editor.RootConcept_EditorBuilder_a$PROPS" />
-      <unit id="4141535073102526247" at="203,0,206,0" name="de.itemis.mps.editor.dropdown.demolang.editor.RootConcept_EditorBuilder_a$CONCEPTS" />
-      <unit id="4141535073102526247" at="207,0,210,0" name="de.itemis.mps.editor.dropdown.demolang.editor.RootConcept_EditorBuilder_a$LINKS" />
-      <unit id="4141535073102526247" at="135,0,186,0" name="de.itemis.mps.editor.dropdown.demolang.editor.RootConcept_EditorBuilder_a$expressionSingleRoleHandler_aw3qer_a1b0" />
-      <unit id="4141535073102526247" at="38,0,211,0" name="de.itemis.mps.editor.dropdown.demolang.editor.RootConcept_EditorBuilder_a" />
+      <unit id="4141535073102526247" at="199,0,202,0" name="de.itemis.mps.editor.dropdown.demolang.editor.RootConcept_EditorBuilder$PROPS" />
+      <unit id="4141535073102526247" at="203,0,206,0" name="de.itemis.mps.editor.dropdown.demolang.editor.RootConcept_EditorBuilder$CONCEPTS" />
+      <unit id="4141535073102526247" at="207,0,210,0" name="de.itemis.mps.editor.dropdown.demolang.editor.RootConcept_EditorBuilder$LINKS" />
+      <unit id="4141535073102526247" at="135,0,186,0" name="de.itemis.mps.editor.dropdown.demolang.editor.RootConcept_EditorBuilder$expressionSingleRoleHandler_aw3qer_a1b0" />
+      <unit id="4141535073102526247" at="38,0,211,0" name="de.itemis.mps.editor.dropdown.demolang.editor.RootConcept_EditorBuilder" />
     </file>
   </root>
 </debug-info>

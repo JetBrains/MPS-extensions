@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TestCase_DoNotGrow_orizontalInGrid_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TestCase_DoNotGrow_orizontalInGrid_EditorBuilder_a(editorContext, node).createCell();
+    return new TestCase_DoNotGrow_orizontalInGrid_EditorBuilder(editorContext, node).createCell();
   }
 }

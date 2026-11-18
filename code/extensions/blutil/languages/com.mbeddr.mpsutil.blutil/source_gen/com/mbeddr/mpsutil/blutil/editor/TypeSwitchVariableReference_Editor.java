@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TypeSwitchVariableReference_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TypeSwitchVariableReference_EditorBuilder_a(editorContext, node).createCell();
+    return new TypeSwitchVariableReference_EditorBuilder(editorContext, node).createCell();
   }
 }

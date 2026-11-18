@@ -18,17 +18,17 @@
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/1246226064909613296">
     <file name="ComboBox_Editor.java">
-      <node id="1246226064909613296" at="11,79,12,74" concept="6" />
+      <node id="1246226064909613296" at="11,79,12,72" concept="6" />
       <node id="1246226064909613296" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1246226064909613296" at="11,79,12,74" />
+      <scope id="1246226064909613296" at="11,79,12,72" />
       <scope id="1246226064909613296" at="11,0,14,0">
         <var name="editorContext" id="1246226064909613296" />
         <var name="node" id="1246226064909613296" />
       </scope>
       <unit id="1246226064909613296" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.ComboBox_Editor" />
     </file>
-    <file name="ComboBox_EditorBuilder_a.java">
-      <node id="1246226064909613296" at="29,88,30,19" concept="9" />
+    <file name="ComboBox_EditorBuilder.java">
+      <node id="1246226064909613296" at="29,86,30,19" concept="9" />
       <node id="1246226064909613296" at="30,19,31,18" concept="1" />
       <node id="1246226064909613296" at="36,26,37,18" concept="6" />
       <node id="1246226064909613296" at="40,39,41,32" concept="6" />
@@ -82,7 +82,7 @@
       <node id="1246226064910948731" at="112,34,113,22" concept="6" />
       <node id="1246226064909613296" at="26,0,28,0" concept="2" trace="myNode" />
       <node id="1246226064909613296" at="40,0,43,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1246226064909613296" at="29,0,33,0" concept="0" trace="ComboBox_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1246226064909613296" at="29,0,33,0" concept="0" trace="ComboBox_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1246226064909613296" at="34,0,39,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1246226064910668161" at="98,0,103,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
       <node id="6891244572254491960" at="73,0,79,0" concept="4" trace="createConstant_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -97,7 +97,7 @@
       <node id="1246226064910732621" at="95,0,109,0" concept="4" trace="createCustom_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="1246226064909613296" at="36,26,37,18" />
       <scope id="1246226064909613296" at="40,39,41,32" />
-      <scope id="1246226064909613296" at="29,88,31,18" />
+      <scope id="1246226064909613296" at="29,86,31,18" />
       <scope id="1246226064910668166" at="99,98,101,72">
         <var name="box" id="1246226064910672489" />
       </scope>
@@ -147,23 +147,23 @@
         <var name="provider" id="1246226064910732621" />
       </scope>
       <scope id="1246226064910732621" at="95,0,109,0" />
-      <unit id="1246226064910668159" at="97,17,103,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.ComboBox_EditorBuilder_a$1" />
-      <unit id="1246226064909613296" at="25,0,116,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.ComboBox_EditorBuilder_a" />
+      <unit id="1246226064910668159" at="97,17,103,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.ComboBox_EditorBuilder$1" />
+      <unit id="1246226064909613296" at="25,0,116,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.ComboBox_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/1246226064911264586">
     <file name="CheckBox_Editor.java">
-      <node id="1246226064911264586" at="11,79,12,74" concept="6" />
+      <node id="1246226064911264586" at="11,79,12,72" concept="6" />
       <node id="1246226064911264586" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1246226064911264586" at="11,79,12,74" />
+      <scope id="1246226064911264586" at="11,79,12,72" />
       <scope id="1246226064911264586" at="11,0,14,0">
         <var name="editorContext" id="1246226064911264586" />
         <var name="node" id="1246226064911264586" />
       </scope>
       <unit id="1246226064911264586" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.CheckBox_Editor" />
     </file>
-    <file name="CheckBox_EditorBuilder_a.java">
-      <node id="1246226064911264586" at="27,88,28,19" concept="9" />
+    <file name="CheckBox_EditorBuilder.java">
+      <node id="1246226064911264586" at="27,86,28,19" concept="9" />
       <node id="1246226064911264586" at="28,19,29,18" concept="1" />
       <node id="1246226064911264586" at="34,26,35,18" concept="6" />
       <node id="1246226064911264586" at="38,39,39,32" concept="6" />
@@ -199,7 +199,7 @@
       <node id="1246226064911348083" at="93,45,94,22" concept="6" />
       <node id="1246226064911264586" at="24,0,26,0" concept="2" trace="myNode" />
       <node id="1246226064911264586" at="38,0,41,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1246226064911264586" at="27,0,31,0" concept="0" trace="CheckBox_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1246226064911264586" at="27,0,31,0" concept="0" trace="CheckBox_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1246226064911285112" at="73,0,77,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
       <node id="1246226064911348091" at="86,0,90,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
       <node id="1246226064911264586" at="32,0,37,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -216,7 +216,7 @@
       <scope id="1246226064911264586" at="38,39,39,32" />
       <scope id="1246226064911285118" at="74,98,75,108" />
       <scope id="1246226064911348096" at="87,98,88,115" />
-      <scope id="1246226064911264586" at="27,88,29,18" />
+      <scope id="1246226064911264586" at="27,86,29,18" />
       <scope id="1246226064911264586" at="38,0,41,0" />
       <scope id="1246226064911264586" at="27,0,31,0">
         <var name="context" id="1246226064911264586" />
@@ -255,24 +255,24 @@
       </scope>
       <scope id="1246226064911264597" at="70,0,83,0" />
       <scope id="1246226064911348083" at="83,0,96,0" />
-      <unit id="1246226064911285108" at="72,17,77,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.CheckBox_EditorBuilder_a$1" />
-      <unit id="1246226064911348089" at="85,17,90,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.CheckBox_EditorBuilder_a$2" />
-      <unit id="1246226064911264586" at="23,0,97,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.CheckBox_EditorBuilder_a" />
+      <unit id="1246226064911285108" at="72,17,77,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.CheckBox_EditorBuilder$1" />
+      <unit id="1246226064911348089" at="85,17,90,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.CheckBox_EditorBuilder$2" />
+      <unit id="1246226064911264586" at="23,0,97,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.CheckBox_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/1246226064911591654">
     <file name="InputField_Editor.java">
-      <node id="1246226064911591654" at="11,79,12,76" concept="6" />
+      <node id="1246226064911591654" at="11,79,12,74" concept="6" />
       <node id="1246226064911591654" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1246226064911591654" at="11,79,12,76" />
+      <scope id="1246226064911591654" at="11,79,12,74" />
       <scope id="1246226064911591654" at="11,0,14,0">
         <var name="editorContext" id="1246226064911591654" />
         <var name="node" id="1246226064911591654" />
       </scope>
       <unit id="1246226064911591654" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.InputField_Editor" />
     </file>
-    <file name="InputField_EditorBuilder_a.java">
-      <node id="1246226064911591654" at="30,90,31,19" concept="9" />
+    <file name="InputField_EditorBuilder.java">
+      <node id="1246226064911591654" at="30,88,31,19" concept="9" />
       <node id="1246226064911591654" at="31,19,32,18" concept="1" />
       <node id="1246226064911591654" at="37,26,38,18" concept="6" />
       <node id="1246226064911591654" at="41,39,42,32" concept="6" />
@@ -333,7 +333,7 @@
       <node id="6891244572256355594" at="129,46,130,22" concept="6" />
       <node id="1246226064911591654" at="27,0,29,0" concept="2" trace="myNode" />
       <node id="1246226064911591654" at="41,0,44,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1246226064911591654" at="30,0,34,0" concept="0" trace="InputField_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1246226064911591654" at="30,0,34,0" concept="0" trace="InputField_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1246226064911591654" at="35,0,40,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1246226064912361056" at="92,0,98,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
       <node id="6891244572256401361" at="111,0,117,0" concept="4" trace="createConstant_2#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -352,7 +352,7 @@
       <node id="6891244572256355594" at="117,0,132,0" concept="4" trace="createCustom_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="1246226064911591654" at="37,26,38,18" />
       <scope id="1246226064911591654" at="41,39,42,32" />
-      <scope id="1246226064911591654" at="30,90,32,18" />
+      <scope id="1246226064911591654" at="30,88,32,18" />
       <scope id="1246226064911591654" at="41,0,44,0" />
       <scope id="1246226064912361062" at="93,98,96,74">
         <var name="field" id="1246226064912017625" />
@@ -414,24 +414,24 @@
       </scope>
       <scope id="1246226064912335606" at="89,0,104,0" />
       <scope id="6891244572256355594" at="117,0,132,0" />
-      <unit id="1246226064912361052" at="91,17,98,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.InputField_EditorBuilder_a$1" />
-      <unit id="6891244572256355600" at="119,17,126,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.InputField_EditorBuilder_a$2" />
-      <unit id="1246226064911591654" at="26,0,133,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.InputField_EditorBuilder_a" />
+      <unit id="1246226064912361052" at="91,17,98,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.InputField_EditorBuilder$1" />
+      <unit id="6891244572256355600" at="119,17,126,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.InputField_EditorBuilder$2" />
+      <unit id="1246226064911591654" at="26,0,133,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.InputField_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/1246226064912567723">
     <file name="RadioButton_Editor.java">
-      <node id="1246226064912567723" at="11,79,12,77" concept="6" />
+      <node id="1246226064912567723" at="11,79,12,75" concept="6" />
       <node id="1246226064912567723" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1246226064912567723" at="11,79,12,77" />
+      <scope id="1246226064912567723" at="11,79,12,75" />
       <scope id="1246226064912567723" at="11,0,14,0">
         <var name="editorContext" id="1246226064912567723" />
         <var name="node" id="1246226064912567723" />
       </scope>
       <unit id="1246226064912567723" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RadioButton_Editor" />
     </file>
-    <file name="RadioButton_EditorBuilder_a.java">
-      <node id="1246226064912567723" at="30,91,31,19" concept="9" />
+    <file name="RadioButton_EditorBuilder.java">
+      <node id="1246226064912567723" at="30,89,31,19" concept="9" />
       <node id="1246226064912567723" at="31,19,32,18" concept="1" />
       <node id="1246226064912567723" at="37,26,38,18" concept="6" />
       <node id="1246226064912567723" at="41,39,42,32" concept="6" />
@@ -481,7 +481,7 @@
       <node id="1246226064912573099" at="114,46,115,22" concept="6" />
       <node id="1246226064912567723" at="27,0,29,0" concept="2" trace="myNode" />
       <node id="1246226064912567723" at="41,0,44,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1246226064912567723" at="30,0,34,0" concept="0" trace="RadioButton_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1246226064912567723" at="30,0,34,0" concept="0" trace="RadioButton_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1246226064912573107" at="107,0,111,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
       <node id="1246226064912567723" at="35,0,40,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1246226064912569861" at="92,0,98,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
@@ -499,7 +499,7 @@
       <scope id="1246226064912567723" at="37,26,38,18" />
       <scope id="1246226064912567723" at="41,39,42,32" />
       <scope id="1246226064912573112" at="108,98,109,102" />
-      <scope id="1246226064912567723" at="30,91,32,18" />
+      <scope id="1246226064912567723" at="30,89,32,18" />
       <scope id="1246226064912567723" at="41,0,44,0" />
       <scope id="1246226064912569866" at="93,98,96,75">
         <var name="button" id="6891244572253811390" />
@@ -550,24 +550,24 @@
       </scope>
       <scope id="1246226064912573099" at="104,0,117,0" />
       <scope id="1246226064912567725" at="89,0,104,0" />
-      <unit id="1246226064912573105" at="106,17,111,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RadioButton_EditorBuilder_a$2" />
-      <unit id="1246226064912569859" at="91,17,98,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RadioButton_EditorBuilder_a$1" />
-      <unit id="1246226064912567723" at="26,0,118,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RadioButton_EditorBuilder_a" />
+      <unit id="1246226064912573105" at="106,17,111,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RadioButton_EditorBuilder$2" />
+      <unit id="1246226064912569859" at="91,17,98,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RadioButton_EditorBuilder$1" />
+      <unit id="1246226064912567723" at="26,0,118,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RadioButton_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/1246226064913025333">
     <file name="ToggleButton_Editor.java">
-      <node id="1246226064913025333" at="11,79,12,78" concept="6" />
+      <node id="1246226064913025333" at="11,79,12,76" concept="6" />
       <node id="1246226064913025333" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1246226064913025333" at="11,79,12,78" />
+      <scope id="1246226064913025333" at="11,79,12,76" />
       <scope id="1246226064913025333" at="11,0,14,0">
         <var name="editorContext" id="1246226064913025333" />
         <var name="node" id="1246226064913025333" />
       </scope>
       <unit id="1246226064913025333" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.ToggleButton_Editor" />
     </file>
-    <file name="ToggleButton_EditorBuilder_a.java">
-      <node id="1246226064913025333" at="30,92,31,19" concept="9" />
+    <file name="ToggleButton_EditorBuilder.java">
+      <node id="1246226064913025333" at="30,90,31,19" concept="9" />
       <node id="1246226064913025333" at="31,19,32,18" concept="1" />
       <node id="1246226064913025333" at="37,26,38,18" concept="6" />
       <node id="1246226064913025333" at="41,39,42,32" concept="6" />
@@ -642,7 +642,7 @@
       <node id="6891244572254636874" at="147,34,148,22" concept="6" />
       <node id="1246226064913025333" at="27,0,29,0" concept="2" trace="myNode" />
       <node id="1246226064913025333" at="41,0,44,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1246226064913025333" at="30,0,34,0" concept="0" trace="ToggleButton_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1246226064913025333" at="30,0,34,0" concept="0" trace="ToggleButton_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1246226064913025333" at="35,0,40,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1246226064913644397" at="132,0,138,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
       <node id="6891244572254636874" at="144,0,150,0" concept="4" trace="createConstant_3#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -663,7 +663,7 @@
       <node id="1246226064913025341" at="97,0,113,0" concept="4" trace="createCustom_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="1246226064913025333" at="37,26,38,18" />
       <scope id="1246226064913025333" at="41,39,42,32" />
-      <scope id="1246226064913025333" at="30,92,32,18" />
+      <scope id="1246226064913025333" at="30,90,32,18" />
       <scope id="1246226064913025333" at="41,0,44,0" />
       <scope id="1246226064913644402" at="133,98,136,75">
         <var name="button" id="1246226064913644404" />
@@ -734,24 +734,24 @@
       </scope>
       <scope id="1246226064913644389" at="129,0,144,0" />
       <scope id="1246226064913025341" at="97,0,113,0" />
-      <unit id="1246226064913644395" at="131,17,138,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.ToggleButton_EditorBuilder_a$2" />
-      <unit id="1246226064913046582" at="99,17,107,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.ToggleButton_EditorBuilder_a$1" />
-      <unit id="1246226064913025333" at="26,0,151,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.ToggleButton_EditorBuilder_a" />
+      <unit id="1246226064913644395" at="131,17,138,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.ToggleButton_EditorBuilder$2" />
+      <unit id="1246226064913046582" at="99,17,107,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.ToggleButton_EditorBuilder$1" />
+      <unit id="1246226064913025333" at="26,0,151,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.ToggleButton_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/3389359701653548929">
     <file name="Button_Editor.java">
-      <node id="3389359701653548929" at="11,79,12,72" concept="6" />
+      <node id="3389359701653548929" at="11,79,12,70" concept="6" />
       <node id="3389359701653548929" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3389359701653548929" at="11,79,12,72" />
+      <scope id="3389359701653548929" at="11,79,12,70" />
       <scope id="3389359701653548929" at="11,0,14,0">
         <var name="editorContext" id="3389359701653548929" />
         <var name="node" id="3389359701653548929" />
       </scope>
       <unit id="3389359701653548929" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Button_Editor" />
     </file>
-    <file name="Button_EditorBuilder_a.java">
-      <node id="3389359701653548929" at="50,86,51,19" concept="9" />
+    <file name="Button_EditorBuilder.java">
+      <node id="3389359701653548929" at="50,84,51,19" concept="9" />
       <node id="3389359701653548929" at="51,19,52,18" concept="1" />
       <node id="3389359701653548929" at="57,26,58,18" concept="6" />
       <node id="3389359701653548929" at="61,39,62,32" concept="6" />
@@ -2041,7 +2041,7 @@
       <node id="6891244572254699455" at="1827,47,1828,22" concept="6" />
       <node id="3389359701653548929" at="47,0,49,0" concept="2" trace="myNode" />
       <node id="3389359701653548929" at="61,0,64,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3389359701653548929" at="50,0,54,0" concept="0" trace="Button_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3389359701653548929" at="50,0,54,0" concept="0" trace="Button_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6891244572257669499" at="262,0,266,0" concept="4" trace="createIndentCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6891244572257721095" at="313,0,317,0" concept="4" trace="createIndentCell_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6891244572257714760" at="341,39,345,16" concept="5" />
@@ -2285,7 +2285,7 @@
       <node id="3389359701653548929" at="65,0,112,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="3389359701653548929" at="57,26,58,18" />
       <scope id="3389359701653548929" at="61,39,62,32" />
-      <scope id="3389359701653548929" at="50,86,52,18" />
+      <scope id="3389359701653548929" at="50,84,52,18" />
       <scope id="6891244572257669499" at="262,43,264,22">
         <var name="editorCell" id="6891244572257669499" />
       </scope>
@@ -3339,23 +3339,23 @@
         <var name="editorCell" id="3389359701653548929" />
       </scope>
       <scope id="3389359701653548929" at="65,0,112,0" />
-      <unit id="6891244572257919870" at="352,17,358,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Button_EditorBuilder_a$1" />
-      <unit id="3389359701653548929" at="46,0,1831,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Button_EditorBuilder_a" />
+      <unit id="6891244572257919870" at="352,17,358,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Button_EditorBuilder$1" />
+      <unit id="3389359701653548929" at="46,0,1831,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Button_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/3389359701654409733">
     <file name="Tooltip_Editor.java">
-      <node id="3389359701654409733" at="11,79,12,73" concept="6" />
+      <node id="3389359701654409733" at="11,79,12,71" concept="6" />
       <node id="3389359701654409733" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3389359701654409733" at="11,79,12,73" />
+      <scope id="3389359701654409733" at="11,79,12,71" />
       <scope id="3389359701654409733" at="11,0,14,0">
         <var name="editorContext" id="3389359701654409733" />
         <var name="node" id="3389359701654409733" />
       </scope>
       <unit id="3389359701654409733" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Tooltip_Editor" />
     </file>
-    <file name="Tooltip_EditorBuilder_a.java">
-      <node id="3389359701654409733" at="36,87,37,19" concept="9" />
+    <file name="Tooltip_EditorBuilder.java">
+      <node id="3389359701654409733" at="36,85,37,19" concept="9" />
       <node id="3389359701654409733" at="37,19,38,18" concept="1" />
       <node id="3389359701654409733" at="43,26,44,18" concept="6" />
       <node id="3389359701654409733" at="47,39,48,32" concept="6" />
@@ -3396,7 +3396,7 @@
       <node id="3389359701654409733" at="95,43,96,163" concept="5" />
       <node id="3389359701654409733" at="96,163,97,52" concept="1" />
       <node id="3389359701654409733" at="97,52,98,22" concept="6" />
-      <node id="3389359701655046937" at="104,65,105,85" concept="1" />
+      <node id="3389359701655046937" at="104,65,105,83" concept="1" />
       <node id="3389359701654985346" at="108,34,109,20" concept="6" />
       <node id="3389359701655142624" at="112,6,113,90" concept="1" />
       <node id="3389359701654771032" at="113,90,114,62" concept="5" />
@@ -3413,7 +3413,7 @@
       <node id="1246226064909491369" at="126,34,127,22" concept="6" />
       <node id="3389359701654409733" at="33,0,35,0" concept="2" trace="myNode" />
       <node id="3389359701654409733" at="47,0,50,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3389359701654409733" at="36,0,40,0" concept="0" trace="Tooltip_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3389359701654409733" at="36,0,40,0" concept="0" trace="Tooltip_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3389359701654950914" at="103,0,107,0" concept="4" trace="actionPerformed#(Lcom/intellij/openapi/actionSystem/AnActionEvent;)V" />
       <node id="3389359701654984140" at="107,0,111,0" concept="4" trace="isEnabled#()Z" />
       <node id="3389359701654409733" at="41,0,46,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -3428,9 +3428,9 @@
       <node id="3389359701654412313" at="100,0,120,0" concept="4" trace="_QueryFunction_JComponent_qh3et0_a0d0#()Ljavax/swing/JComponent;" />
       <scope id="3389359701654409733" at="43,26,44,18" />
       <scope id="3389359701654409733" at="47,39,48,32" />
-      <scope id="3389359701654950924" at="104,65,105,85" />
+      <scope id="3389359701654950924" at="104,65,105,83" />
       <scope id="3389359701654984145" at="108,34,109,20" />
-      <scope id="3389359701654409733" at="36,87,38,18" />
+      <scope id="3389359701654409733" at="36,85,38,18" />
       <scope id="3389359701654409733" at="47,0,50,0" />
       <scope id="3389359701654409733" at="95,43,98,22">
         <var name="editorCell" id="3389359701654409733" />
@@ -3479,23 +3479,23 @@
         <var name="toolbar" id="3389359701654876825" />
       </scope>
       <scope id="3389359701654412313" at="100,0,120,0" />
-      <unit id="3389359701654950133" at="101,32,112,5" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Tooltip_EditorBuilder_a$1" />
-      <unit id="3389359701654409733" at="32,0,130,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Tooltip_EditorBuilder_a" />
+      <unit id="3389359701654950133" at="101,32,112,5" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Tooltip_EditorBuilder$1" />
+      <unit id="3389359701654409733" at="32,0,130,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Tooltip_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/6178899575243568612">
     <file name="Tabs_Editor.java">
-      <node id="6178899575243568612" at="11,79,12,70" concept="6" />
+      <node id="6178899575243568612" at="11,79,12,68" concept="6" />
       <node id="6178899575243568612" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6178899575243568612" at="11,79,12,70" />
+      <scope id="6178899575243568612" at="11,79,12,68" />
       <scope id="6178899575243568612" at="11,0,14,0">
         <var name="editorContext" id="6178899575243568612" />
         <var name="node" id="6178899575243568612" />
       </scope>
       <unit id="6178899575243568612" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Tabs_Editor" />
     </file>
-    <file name="Tabs_EditorBuilder_a.java">
-      <node id="6178899575243568612" at="29,84,30,19" concept="9" />
+    <file name="Tabs_EditorBuilder.java">
+      <node id="6178899575243568612" at="29,82,30,19" concept="9" />
       <node id="6178899575243568612" at="30,19,31,18" concept="1" />
       <node id="6178899575243568612" at="36,26,37,18" concept="6" />
       <node id="6178899575243568612" at="40,39,41,32" concept="6" />
@@ -3544,7 +3544,7 @@
       <node id="6178899575243763057" at="96,34,97,22" concept="6" />
       <node id="6178899575243568612" at="26,0,28,0" concept="2" trace="myNode" />
       <node id="6178899575243568612" at="40,0,43,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6178899575243568612" at="29,0,33,0" concept="0" trace="Tabs_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6178899575243568612" at="29,0,33,0" concept="0" trace="Tabs_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6178899575243568612" at="34,0,39,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6178899575243568612" at="72,0,77,0" concept="4" trace="createJComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6178899575243763057" at="93,0,99,0" concept="4" trace="createConstant_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -3554,7 +3554,7 @@
       <node id="6178899575243568619" at="77,0,93,0" concept="4" trace="_QueryFunction_JComponent_xv461z_a2a#()Ljavax/swing/JComponent;" />
       <scope id="6178899575243568612" at="36,26,37,18" />
       <scope id="6178899575243568612" at="40,39,41,32" />
-      <scope id="6178899575243568612" at="29,84,31,18" />
+      <scope id="6178899575243568612" at="29,82,31,18" />
       <scope id="6178899575243568612" at="40,0,43,0" />
       <scope id="6178899575243568612" at="72,43,75,22">
         <var name="editorCell" id="6178899575243568612" />
@@ -3591,22 +3591,22 @@
         <var name="pane" id="6178899575243569031" />
       </scope>
       <scope id="6178899575243568619" at="77,0,93,0" />
-      <unit id="6178899575243568612" at="25,0,100,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Tabs_EditorBuilder_a" />
+      <unit id="6178899575243568612" at="25,0,100,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Tabs_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/6178899575244215435">
     <file name="TextArea_Editor.java">
-      <node id="6178899575244215435" at="11,79,12,74" concept="6" />
+      <node id="6178899575244215435" at="11,79,12,72" concept="6" />
       <node id="6178899575244215435" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6178899575244215435" at="11,79,12,74" />
+      <scope id="6178899575244215435" at="11,79,12,72" />
       <scope id="6178899575244215435" at="11,0,14,0">
         <var name="editorContext" id="6178899575244215435" />
         <var name="node" id="6178899575244215435" />
       </scope>
       <unit id="6178899575244215435" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.TextArea_Editor" />
     </file>
-    <file name="TextArea_EditorBuilder_a.java">
-      <node id="6178899575244215435" at="29,88,30,19" concept="9" />
+    <file name="TextArea_EditorBuilder.java">
+      <node id="6178899575244215435" at="29,86,30,19" concept="9" />
       <node id="6178899575244215435" at="30,19,31,18" concept="1" />
       <node id="6178899575244215435" at="36,26,37,18" concept="6" />
       <node id="6178899575244215435" at="40,39,41,32" concept="6" />
@@ -3648,7 +3648,7 @@
       <node id="6178899575244215449" at="94,45,95,22" concept="6" />
       <node id="6178899575244215435" at="26,0,28,0" concept="2" trace="myNode" />
       <node id="6178899575244215435" at="40,0,43,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6178899575244215435" at="29,0,33,0" concept="0" trace="TextArea_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6178899575244215435" at="29,0,33,0" concept="0" trace="TextArea_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6178899575244215435" at="34,0,39,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6178899575244243431" at="84,0,91,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
       <node id="6891244572254592306" at="64,0,72,0" concept="4" trace="createHorizontalLineCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -3660,7 +3660,7 @@
       <node id="6178899575244215449" at="81,0,97,0" concept="4" trace="createCustom_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6178899575244215435" at="36,26,37,18" />
       <scope id="6178899575244215435" at="40,39,41,32" />
-      <scope id="6178899575244215435" at="29,88,31,18" />
+      <scope id="6178899575244215435" at="29,86,31,18" />
       <scope id="6178899575244215435" at="40,0,43,0" />
       <scope id="6178899575244215435" at="29,0,33,0">
         <var name="context" id="6178899575244215435" />
@@ -3698,23 +3698,23 @@
         <var name="provider" id="6178899575244215449" />
       </scope>
       <scope id="6178899575244215449" at="81,0,97,0" />
-      <unit id="6178899575244243427" at="83,17,91,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.TextArea_EditorBuilder_a$1" />
-      <unit id="6178899575244215435" at="25,0,98,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.TextArea_EditorBuilder_a" />
+      <unit id="6178899575244243427" at="83,17,91,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.TextArea_EditorBuilder$1" />
+      <unit id="6178899575244215435" at="25,0,98,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.TextArea_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/6178899575244631431">
     <file name="DataFormat_Editor.java">
-      <node id="6178899575244631431" at="11,79,12,76" concept="6" />
+      <node id="6178899575244631431" at="11,79,12,74" concept="6" />
       <node id="6178899575244631431" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6178899575244631431" at="11,79,12,76" />
+      <scope id="6178899575244631431" at="11,79,12,74" />
       <scope id="6178899575244631431" at="11,0,14,0">
         <var name="editorContext" id="6178899575244631431" />
         <var name="node" id="6178899575244631431" />
       </scope>
       <unit id="6178899575244631431" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.DataFormat_Editor" />
     </file>
-    <file name="DataFormat_EditorBuilder_a.java">
-      <node id="6178899575244631431" at="29,90,30,19" concept="9" />
+    <file name="DataFormat_EditorBuilder.java">
+      <node id="6178899575244631431" at="29,88,30,19" concept="9" />
       <node id="6178899575244631431" at="30,19,31,18" concept="1" />
       <node id="6178899575244631431" at="36,26,37,18" concept="6" />
       <node id="6178899575244631431" at="40,39,41,32" concept="6" />
@@ -4012,7 +4012,7 @@
       <node id="6178899575244631661" at="423,34,424,22" concept="6" />
       <node id="6178899575244631431" at="26,0,28,0" concept="2" trace="myNode" />
       <node id="6178899575244631431" at="40,0,43,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6178899575244631431" at="29,0,33,0" concept="0" trace="DataFormat_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6178899575244631431" at="29,0,33,0" concept="0" trace="DataFormat_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6178899575244631431" at="34,0,39,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6178899575244631470" at="108,0,114,0" concept="4" trace="createConstant_2#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6178899575244631489" at="114,0,120,0" concept="4" trace="createConstant_3#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -4061,7 +4061,7 @@
       <node id="6178899575244631431" at="81,0,100,0" concept="4" trace="createCollection_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6178899575244631431" at="36,26,37,18" />
       <scope id="6178899575244631431" at="40,39,41,32" />
-      <scope id="6178899575244631431" at="29,90,31,18" />
+      <scope id="6178899575244631431" at="29,88,31,18" />
       <scope id="6178899575244631431" at="40,0,43,0" />
       <scope id="6178899575244631431" at="29,0,33,0">
         <var name="context" id="6178899575244631431" />
@@ -4275,22 +4275,22 @@
         <var name="editorCell" id="6178899575244631431" />
       </scope>
       <scope id="6178899575244631431" at="81,0,100,0" />
-      <unit id="6178899575244631431" at="25,0,427,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.DataFormat_EditorBuilder_a" />
+      <unit id="6178899575244631431" at="25,0,427,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.DataFormat_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/6178899575245174051">
     <file name="GridLayout_Editor.java">
-      <node id="6178899575245174051" at="11,79,12,76" concept="6" />
+      <node id="6178899575245174051" at="11,79,12,74" concept="6" />
       <node id="6178899575245174051" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6178899575245174051" at="11,79,12,76" />
+      <scope id="6178899575245174051" at="11,79,12,74" />
       <scope id="6178899575245174051" at="11,0,14,0">
         <var name="editorContext" id="6178899575245174051" />
         <var name="node" id="6178899575245174051" />
       </scope>
       <unit id="6178899575245174051" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.GridLayout_Editor" />
     </file>
-    <file name="GridLayout_EditorBuilder_a.java">
-      <node id="6178899575245174051" at="26,90,27,19" concept="9" />
+    <file name="GridLayout_EditorBuilder.java">
+      <node id="6178899575245174051" at="26,88,27,19" concept="9" />
       <node id="6178899575245174051" at="27,19,28,18" concept="1" />
       <node id="6178899575245174051" at="33,26,34,18" concept="6" />
       <node id="6178899575245174051" at="37,39,38,32" concept="6" />
@@ -4560,7 +4560,7 @@
       <node id="6178899575245237953" at="382,57,383,22" concept="6" />
       <node id="6178899575245174051" at="23,0,25,0" concept="2" trace="myNode" />
       <node id="6178899575245174051" at="37,0,40,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6178899575245174051" at="26,0,30,0" concept="0" trace="GridLayout_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6178899575245174051" at="26,0,30,0" concept="0" trace="GridLayout_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6178899575245174051" at="31,0,36,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6178899575245237953" at="380,0,385,0" concept="4" trace="createHorizontalLineCell_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6178899575245174088" at="110,0,116,0" concept="4" trace="createConstant_2#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -4604,7 +4604,7 @@
       <node id="6178899575245174051" at="84,0,101,0" concept="4" trace="createCollection_2#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6178899575245174051" at="33,26,34,18" />
       <scope id="6178899575245174051" at="37,39,38,32" />
-      <scope id="6178899575245174051" at="26,90,28,18" />
+      <scope id="6178899575245174051" at="26,88,28,18" />
       <scope id="6178899575245174051" at="37,0,40,0" />
       <scope id="6178899575245237953" at="380,51,383,22">
         <var name="editorCell" id="6178899575245237953" />
@@ -4793,22 +4793,22 @@
         <var name="editorCell" id="6178899575245174051" />
       </scope>
       <scope id="6178899575245174051" at="84,0,101,0" />
-      <unit id="6178899575245174051" at="22,0,386,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.GridLayout_EditorBuilder_a" />
+      <unit id="6178899575245174051" at="22,0,386,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.GridLayout_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/6891244572255373326">
     <file name="List_Editor.java">
-      <node id="6891244572255373326" at="11,79,12,70" concept="6" />
+      <node id="6891244572255373326" at="11,79,12,68" concept="6" />
       <node id="6891244572255373326" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6891244572255373326" at="11,79,12,70" />
+      <scope id="6891244572255373326" at="11,79,12,68" />
       <scope id="6891244572255373326" at="11,0,14,0">
         <var name="editorContext" id="6891244572255373326" />
         <var name="node" id="6891244572255373326" />
       </scope>
       <unit id="6891244572255373326" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.List_Editor" />
     </file>
-    <file name="List_EditorBuilder_a.java">
-      <node id="6891244572255373326" at="33,84,34,19" concept="9" />
+    <file name="List_EditorBuilder.java">
+      <node id="6891244572255373326" at="33,82,34,19" concept="9" />
       <node id="6891244572255373326" at="34,19,35,18" concept="1" />
       <node id="6891244572255373326" at="40,26,41,18" concept="6" />
       <node id="6891244572255373326" at="44,39,45,32" concept="6" />
@@ -4844,7 +4844,7 @@
       <node id="6891244572255373326" at="30,0,32,0" concept="2" trace="myNode" />
       <node id="6891244572255373326" at="44,0,47,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6891244572255840174" at="83,64,86,15" concept="3" />
-      <node id="6891244572255373326" at="33,0,37,0" concept="0" trace="List_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6891244572255373326" at="33,0,37,0" concept="0" trace="List_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6891244572255373326" at="38,0,43,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6891244572255682134" at="82,0,89,0" concept="4" trace="valueChanged#(Ljavax/swing/event/ListSelectionEvent;)V" />
       <node id="6891244572255383413" at="67,0,75,0" concept="4" trace="createHorizontalLineCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -4858,7 +4858,7 @@
       <scope id="6891244572255373326" at="40,26,41,18" />
       <scope id="6891244572255373326" at="44,39,45,32" />
       <scope id="6891244572255840176" at="84,48,85,23" />
-      <scope id="6891244572255373326" at="33,84,35,18" />
+      <scope id="6891244572255373326" at="33,82,35,18" />
       <scope id="6891244572255373326" at="44,0,47,0" />
       <scope id="6891244572255373326" at="33,0,37,0">
         <var name="context" id="6891244572255373326" />
@@ -4895,24 +4895,24 @@
         <var name="provider" id="6891244572255384713" />
       </scope>
       <scope id="6891244572255384713" at="75,0,99,0" />
-      <unit id="6891244572255682128" at="81,44,89,11" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.List_EditorBuilder_a$1$1" />
-      <unit id="6891244572255384719" at="77,17,93,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.List_EditorBuilder_a$1" />
-      <unit id="6891244572255373326" at="29,0,100,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.List_EditorBuilder_a" />
+      <unit id="6891244572255682128" at="81,44,89,11" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.List_EditorBuilder$1$1" />
+      <unit id="6891244572255384719" at="77,17,93,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.List_EditorBuilder$1" />
+      <unit id="6891244572255373326" at="29,0,100,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.List_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/6891244572255970423">
     <file name="OptionButton_Editor.java">
-      <node id="6891244572255970423" at="11,79,12,78" concept="6" />
+      <node id="6891244572255970423" at="11,79,12,76" concept="6" />
       <node id="6891244572255970423" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6891244572255970423" at="11,79,12,78" />
+      <scope id="6891244572255970423" at="11,79,12,76" />
       <scope id="6891244572255970423" at="11,0,14,0">
         <var name="editorContext" id="6891244572255970423" />
         <var name="node" id="6891244572255970423" />
       </scope>
       <unit id="6891244572255970423" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.OptionButton_Editor" />
     </file>
-    <file name="OptionButton_EditorBuilder_a.java">
-      <node id="6891244572255970423" at="31,92,32,19" concept="9" />
+    <file name="OptionButton_EditorBuilder.java">
+      <node id="6891244572255970423" at="31,90,32,19" concept="9" />
       <node id="6891244572255970423" at="32,19,33,18" concept="1" />
       <node id="6891244572255970423" at="38,26,39,18" concept="6" />
       <node id="6891244572255970423" at="42,39,43,32" concept="6" />
@@ -4960,7 +4960,7 @@
       <node id="6891244572256027873" at="95,0,98,0" concept="4" trace="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
       <node id="6891244572256029275" at="99,0,102,0" concept="4" trace="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
       <node id="6891244572256034821" at="103,0,106,0" concept="4" trace="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-      <node id="6891244572255970423" at="31,0,35,0" concept="0" trace="OptionButton_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6891244572255970423" at="31,0,35,0" concept="0" trace="OptionButton_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6891244572255970423" at="36,0,41,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6891244572255970423" at="73,0,80,0" concept="4" trace="createCollection_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6891244572255970427" at="65,0,73,0" concept="4" trace="createHorizontalLineCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -4977,7 +4977,7 @@
       <scope id="6891244572256034826" at="104,60,104,60" />
       <scope id="6891244572255970423" at="38,26,39,18" />
       <scope id="6891244572255970423" at="42,39,43,32" />
-      <scope id="6891244572255970423" at="31,92,33,18" />
+      <scope id="6891244572255970423" at="31,90,33,18" />
       <scope id="6891244572255970423" at="42,0,45,0" />
       <scope id="6891244572256027873" at="95,0,98,0">
         <var name="event" id="6891244572256027877" />
@@ -5029,26 +5029,26 @@
         <var name="provider" id="6891244572255970432" />
       </scope>
       <scope id="6891244572255970432" at="89,0,117,0" />
-      <unit id="6891244572256027485" at="94,57,98,11" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.OptionButton_EditorBuilder_a$1$1" />
-      <unit id="6891244572256029272" at="98,38,102,11" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.OptionButton_EditorBuilder_a$1$2" />
-      <unit id="6891244572256034818" at="102,17,106,11" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.OptionButton_EditorBuilder_a$1$3" />
-      <unit id="6891244572255970438" at="91,17,111,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.OptionButton_EditorBuilder_a$1" />
-      <unit id="6891244572255970423" at="27,0,118,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.OptionButton_EditorBuilder_a" />
+      <unit id="6891244572256027485" at="94,57,98,11" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.OptionButton_EditorBuilder$1$1" />
+      <unit id="6891244572256029272" at="98,38,102,11" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.OptionButton_EditorBuilder$1$2" />
+      <unit id="6891244572256034818" at="102,17,106,11" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.OptionButton_EditorBuilder$1$3" />
+      <unit id="6891244572255970438" at="91,17,111,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.OptionButton_EditorBuilder$1" />
+      <unit id="6891244572255970423" at="27,0,118,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.OptionButton_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/6891244572265270721">
     <file name="Layout_Editor.java">
-      <node id="6891244572265270721" at="11,79,12,72" concept="6" />
+      <node id="6891244572265270721" at="11,79,12,70" concept="6" />
       <node id="6891244572265270721" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6891244572265270721" at="11,79,12,72" />
+      <scope id="6891244572265270721" at="11,79,12,70" />
       <scope id="6891244572265270721" at="11,0,14,0">
         <var name="editorContext" id="6891244572265270721" />
         <var name="node" id="6891244572265270721" />
       </scope>
       <unit id="6891244572265270721" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Layout_Editor" />
     </file>
-    <file name="Layout_EditorBuilder_a.java">
-      <node id="6891244572265270721" at="36,86,37,19" concept="9" />
+    <file name="Layout_EditorBuilder.java">
+      <node id="6891244572265270721" at="36,84,37,19" concept="9" />
       <node id="6891244572265270721" at="37,19,38,18" concept="1" />
       <node id="6891244572265270721" at="43,26,44,18" concept="6" />
       <node id="6891244572265270721" at="47,39,48,32" concept="6" />
@@ -5487,7 +5487,7 @@
       <node id="6891244572265312655" at="643,49,644,22" concept="6" />
       <node id="6891244572265270721" at="33,0,35,0" concept="2" trace="myNode" />
       <node id="6891244572265270721" at="47,0,50,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6891244572265270721" at="36,0,40,0" concept="0" trace="Layout_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6891244572265270721" at="36,0,40,0" concept="0" trace="Layout_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6891244572265277148" at="140,0,144,0" concept="4" trace="createIndentCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6891244572265379856" at="541,0,545,0" concept="4" trace="createIndentCell_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6891244572265270721" at="41,0,46,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -5571,7 +5571,7 @@
       <node id="6891244572265270721" at="51,0,73,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6891244572265270721" at="43,26,44,18" />
       <scope id="6891244572265270721" at="47,39,48,32" />
-      <scope id="6891244572265270721" at="36,86,38,18" />
+      <scope id="6891244572265270721" at="36,84,38,18" />
       <scope id="6891244572265277148" at="140,43,142,22">
         <var name="editorCell" id="6891244572265277148" />
       </scope>
@@ -5930,24 +5930,24 @@
         <var name="editorCell" id="6891244572265270721" />
       </scope>
       <scope id="6891244572265270721" at="51,0,73,0" />
-      <unit id="6891244572265311219" at="572,17,579,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Layout_EditorBuilder_a$1" />
-      <unit id="6891244572265312661" at="633,17,640,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Layout_EditorBuilder_a$2" />
-      <unit id="6891244572265270721" at="32,0,647,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Layout_EditorBuilder_a" />
+      <unit id="6891244572265311219" at="572,17,579,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Layout_EditorBuilder$1" />
+      <unit id="6891244572265312661" at="633,17,640,7" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Layout_EditorBuilder$2" />
+      <unit id="6891244572265270721" at="32,0,647,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Layout_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/6891244572265506793">
     <file name="Spinner_Editor.java">
-      <node id="6891244572265506793" at="11,79,12,73" concept="6" />
+      <node id="6891244572265506793" at="11,79,12,71" concept="6" />
       <node id="6891244572265506793" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6891244572265506793" at="11,79,12,73" />
+      <scope id="6891244572265506793" at="11,79,12,71" />
       <scope id="6891244572265506793" at="11,0,14,0">
         <var name="editorContext" id="6891244572265506793" />
         <var name="node" id="6891244572265506793" />
       </scope>
       <unit id="6891244572265506793" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Spinner_Editor" />
     </file>
-    <file name="Spinner_EditorBuilder_a.java">
-      <node id="6891244572265506793" at="34,87,35,19" concept="9" />
+    <file name="Spinner_EditorBuilder.java">
+      <node id="6891244572265506793" at="34,85,35,19" concept="9" />
       <node id="6891244572265506793" at="35,19,36,18" concept="1" />
       <node id="6891244572265506793" at="41,26,42,18" concept="6" />
       <node id="6891244572265506793" at="45,39,46,32" concept="6" />
@@ -6024,7 +6024,7 @@
       <node id="6891244572265582396" at="143,47,144,22" concept="6" />
       <node id="6891244572265506793" at="31,0,33,0" concept="2" trace="myNode" />
       <node id="6891244572265506793" at="45,0,48,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6891244572265506793" at="34,0,38,0" concept="0" trace="Spinner_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6891244572265506793" at="34,0,38,0" concept="0" trace="Spinner_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6891244572265582396" at="137,39,141,16" concept="5" />
       <node id="6891244572265506793" at="39,0,44,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6891244572265513386" at="107,39,112,16" concept="5" />
@@ -6041,7 +6041,7 @@
       <node id="6891244572265513386" at="107,0,121,0" concept="4" trace="createCustom_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6891244572265506793" at="41,26,42,18" />
       <scope id="6891244572265506793" at="45,39,46,32" />
-      <scope id="6891244572265506793" at="34,87,36,18" />
+      <scope id="6891244572265506793" at="34,85,36,18" />
       <scope id="6891244572265582398" at="138,97,140,112">
         <var name="model" id="6891244572265583879" />
       </scope>
@@ -6106,22 +6106,22 @@
         <var name="style" id="6891244572265513386" />
       </scope>
       <scope id="6891244572265513386" at="107,0,121,0" />
-      <unit id="6891244572265506793" at="30,0,147,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Spinner_EditorBuilder_a" />
+      <unit id="6891244572265506793" at="30,0,147,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Spinner_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/8304752469786516930">
     <file name="TextWithVerticalLine_Editor.java">
-      <node id="8304752469786516930" at="11,79,12,86" concept="6" />
+      <node id="8304752469786516930" at="11,79,12,84" concept="6" />
       <node id="8304752469786516930" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8304752469786516930" at="11,79,12,86" />
+      <scope id="8304752469786516930" at="11,79,12,84" />
       <scope id="8304752469786516930" at="11,0,14,0">
         <var name="editorContext" id="8304752469786516930" />
         <var name="node" id="8304752469786516930" />
       </scope>
       <unit id="8304752469786516930" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.TextWithVerticalLine_Editor" />
     </file>
-    <file name="TextWithVerticalLine_EditorBuilder_a.java">
-      <node id="8304752469786516930" at="25,100,26,19" concept="9" />
+    <file name="TextWithVerticalLine_EditorBuilder.java">
+      <node id="8304752469786516930" at="25,98,26,19" concept="9" />
       <node id="8304752469786516930" at="26,19,27,18" concept="1" />
       <node id="8304752469786516930" at="32,26,33,18" concept="6" />
       <node id="8304752469786516930" at="36,39,37,32" concept="6" />
@@ -6164,7 +6164,7 @@
       <node id="8304752469787208522" at="88,34,89,22" concept="6" />
       <node id="8304752469786516930" at="22,0,24,0" concept="2" trace="myNode" />
       <node id="8304752469786516930" at="36,0,39,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8304752469786516930" at="25,0,29,0" concept="0" trace="TextWithVerticalLine_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8304752469786516930" at="25,0,29,0" concept="0" trace="TextWithVerticalLine_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8304752469786516930" at="30,0,35,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8304752469787208512" at="50,0,56,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8304752469786565565" at="73,0,79,0" concept="4" trace="createConstant_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -6175,7 +6175,7 @@
       <node id="8304752469786516930" at="40,0,50,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="8304752469786516930" at="32,26,33,18" />
       <scope id="8304752469786516930" at="36,39,37,32" />
-      <scope id="8304752469786516930" at="25,100,27,18" />
+      <scope id="8304752469786516930" at="25,98,27,18" />
       <scope id="8304752469786516930" at="36,0,39,0" />
       <scope id="8304752469786516930" at="25,0,29,0">
         <var name="context" id="8304752469786516930" />
@@ -6211,22 +6211,22 @@
       <scope id="8304752469786516930" at="65,0,73,0" />
       <scope id="8304752469786516939" at="56,0,65,0" />
       <scope id="8304752469786516930" at="40,0,50,0" />
-      <unit id="8304752469786516930" at="21,0,92,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.TextWithVerticalLine_EditorBuilder_a" />
+      <unit id="8304752469786516930" at="21,0,92,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.TextWithVerticalLine_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/8304752469786581909">
     <file name="LinesContainer_Editor.java">
-      <node id="8304752469786581909" at="11,79,12,80" concept="6" />
+      <node id="8304752469786581909" at="11,79,12,78" concept="6" />
       <node id="8304752469786581909" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8304752469786581909" at="11,79,12,80" />
+      <scope id="8304752469786581909" at="11,79,12,78" />
       <scope id="8304752469786581909" at="11,0,14,0">
         <var name="editorContext" id="8304752469786581909" />
         <var name="node" id="8304752469786581909" />
       </scope>
       <unit id="8304752469786581909" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.LinesContainer_Editor" />
     </file>
-    <file name="LinesContainer_EditorBuilder_a.java">
-      <node id="8304752469786581909" at="46,94,47,19" concept="9" />
+    <file name="LinesContainer_EditorBuilder.java">
+      <node id="8304752469786581909" at="46,92,47,19" concept="9" />
       <node id="8304752469786581909" at="47,19,48,18" concept="1" />
       <node id="8304752469786581909" at="53,26,54,18" concept="6" />
       <node id="8304752469786581909" at="57,39,58,32" concept="6" />
@@ -6313,7 +6313,7 @@
       <node id="8304752469786581909" at="140,0,143,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="8304752469786581909" at="143,0,146,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="8304752469786581909" at="187,96,190,9" concept="3" />
-      <node id="8304752469786581909" at="46,0,50,0" concept="0" trace="LinesContainer_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8304752469786581909" at="46,0,50,0" concept="0" trace="LinesContainer_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8304752469786581909" at="131,0,135,0" concept="0" trace="linesListHandler_u73yf9_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="8304752469786581909" at="136,0,140,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8304752469786581909" at="169,97,173,9" concept="3" />
@@ -6344,7 +6344,7 @@
       <scope id="8304752469786581909" at="143,48,144,42" />
       <scope id="8304752469786581909" at="161,17,162,42" />
       <scope id="8304752469786581909" at="188,34,189,91" />
-      <scope id="8304752469786581909" at="46,94,48,18" />
+      <scope id="8304752469786581909" at="46,92,48,18" />
       <scope id="8304752469786581939" at="102,74,104,145">
         <var name="manager" id="8304752469786581939" />
       </scope>
@@ -6418,26 +6418,26 @@
         <var name="elementNode" id="8304752469786581909" />
         <var name="isEmptyCell" id="8304752469786581909" />
       </scope>
-      <unit id="8304752469786581909" at="195,0,198,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.LinesContainer_EditorBuilder_a$PROPS" />
-      <unit id="8304752469786581909" at="204,0,207,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.LinesContainer_EditorBuilder_a$LINKS" />
-      <unit id="8304752469786581909" at="199,0,203,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.LinesContainer_EditorBuilder_a$CONCEPTS" />
-      <unit id="8304752469786581909" at="127,0,194,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.LinesContainer_EditorBuilder_a$linesListHandler_u73yf9_c0" />
-      <unit id="8304752469786581909" at="42,0,208,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.LinesContainer_EditorBuilder_a" />
+      <unit id="8304752469786581909" at="195,0,198,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.LinesContainer_EditorBuilder$PROPS" />
+      <unit id="8304752469786581909" at="204,0,207,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.LinesContainer_EditorBuilder$LINKS" />
+      <unit id="8304752469786581909" at="199,0,203,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.LinesContainer_EditorBuilder$CONCEPTS" />
+      <unit id="8304752469786581909" at="127,0,194,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.LinesContainer_EditorBuilder$linesListHandler_u73yf9_c0" />
+      <unit id="8304752469786581909" at="42,0,208,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.LinesContainer_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/8304752469786641470">
     <file name="TextWithHorizontalLine_Editor.java">
-      <node id="8304752469786641470" at="11,79,12,88" concept="6" />
+      <node id="8304752469786641470" at="11,79,12,86" concept="6" />
       <node id="8304752469786641470" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8304752469786641470" at="11,79,12,88" />
+      <scope id="8304752469786641470" at="11,79,12,86" />
       <scope id="8304752469786641470" at="11,0,14,0">
         <var name="editorContext" id="8304752469786641470" />
         <var name="node" id="8304752469786641470" />
       </scope>
       <unit id="8304752469786641470" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.TextWithHorizontalLine_Editor" />
     </file>
-    <file name="TextWithHorizontalLine_EditorBuilder_a.java">
-      <node id="8304752469786641470" at="24,102,25,19" concept="9" />
+    <file name="TextWithHorizontalLine_EditorBuilder.java">
+      <node id="8304752469786641470" at="24,100,25,19" concept="9" />
       <node id="8304752469786641470" at="25,19,26,18" concept="1" />
       <node id="8304752469786641470" at="31,26,32,18" concept="6" />
       <node id="8304752469786641470" at="35,39,36,32" concept="6" />
@@ -6461,14 +6461,14 @@
       <node id="8304752469786641485" at="60,40,61,22" concept="6" />
       <node id="8304752469786641470" at="21,0,23,0" concept="2" trace="myNode" />
       <node id="8304752469786641470" at="35,0,38,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8304752469786641470" at="24,0,28,0" concept="0" trace="TextWithHorizontalLine_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8304752469786641470" at="24,0,28,0" concept="0" trace="TextWithHorizontalLine_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8304752469786641470" at="29,0,34,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8304752469786641477" at="48,0,54,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8304752469786641470" at="39,0,48,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8304752469786641485" at="54,0,63,0" concept="4" trace="createHorizontalLineCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="8304752469786641470" at="31,26,32,18" />
       <scope id="8304752469786641470" at="35,39,36,32" />
-      <scope id="8304752469786641470" at="24,102,26,18" />
+      <scope id="8304752469786641470" at="24,100,26,18" />
       <scope id="8304752469786641470" at="35,0,38,0" />
       <scope id="8304752469786641470" at="24,0,28,0">
         <var name="context" id="8304752469786641470" />
@@ -6488,22 +6488,22 @@
       </scope>
       <scope id="8304752469786641470" at="39,0,48,0" />
       <scope id="8304752469786641485" at="54,0,63,0" />
-      <unit id="8304752469786641470" at="20,0,64,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.TextWithHorizontalLine_EditorBuilder_a" />
+      <unit id="8304752469786641470" at="20,0,64,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.TextWithHorizontalLine_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/844721202018453627">
     <file name="StyleDemo_Editor.java">
-      <node id="844721202018453627" at="11,79,12,75" concept="6" />
+      <node id="844721202018453627" at="11,79,12,73" concept="6" />
       <node id="844721202018453627" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="844721202018453627" at="11,79,12,75" />
+      <scope id="844721202018453627" at="11,79,12,73" />
       <scope id="844721202018453627" at="11,0,14,0">
         <var name="editorContext" id="844721202018453627" />
         <var name="node" id="844721202018453627" />
       </scope>
       <unit id="844721202018453627" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.StyleDemo_Editor" />
     </file>
-    <file name="StyleDemo_EditorBuilder_a.java">
-      <node id="844721202018453627" at="39,89,40,19" concept="9" />
+    <file name="StyleDemo_EditorBuilder.java">
+      <node id="844721202018453627" at="39,87,40,19" concept="9" />
       <node id="844721202018453627" at="40,19,41,18" concept="1" />
       <node id="844721202018453627" at="46,26,47,18" concept="6" />
       <node id="844721202018453627" at="50,39,51,32" concept="6" />
@@ -6627,7 +6627,7 @@
       <node id="844721202018453627" at="223,0,224,0" concept="8" trace="PropertyAttribute$Gb" />
       <node id="844721202018453627" at="36,0,38,0" concept="2" trace="myNode" />
       <node id="844721202018453627" at="50,0,53,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="844721202018453627" at="39,0,43,0" concept="0" trace="StyleDemo_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="844721202018453627" at="39,0,43,0" concept="0" trace="StyleDemo_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="844721202018453627" at="44,0,49,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="844721202018987888" at="99,0,104,0" concept="4" trace="createHorizontalLineCell_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="844721202018950911" at="137,208,142,24" concept="3" />
@@ -6656,7 +6656,7 @@
       <scope id="844721202018950911" at="143,15,144,40" />
       <scope id="844721202018950935" at="177,15,178,40" />
       <scope id="844721202018950963" at="211,15,212,40" />
-      <scope id="844721202018453627" at="39,89,41,18" />
+      <scope id="844721202018453627" at="39,87,41,18" />
       <scope id="844721202018950911" at="138,74,140,145">
         <var name="manager" id="844721202018950911" />
       </scope>
@@ -6751,24 +6751,24 @@
       <scope id="844721202018950911" at="126,0,147,0" />
       <scope id="844721202018950935" at="160,0,181,0" />
       <scope id="844721202018950963" at="194,0,215,0" />
-      <unit id="844721202018453627" at="222,0,225,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.StyleDemo_EditorBuilder_a$CONCEPTS" />
-      <unit id="844721202018453627" at="216,0,221,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.StyleDemo_EditorBuilder_a$PROPS" />
-      <unit id="844721202018453627" at="35,0,226,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.StyleDemo_EditorBuilder_a" />
+      <unit id="844721202018453627" at="222,0,225,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.StyleDemo_EditorBuilder$CONCEPTS" />
+      <unit id="844721202018453627" at="216,0,221,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.StyleDemo_EditorBuilder$PROPS" />
+      <unit id="844721202018453627" at="35,0,226,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.StyleDemo_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/861697192441878798">
     <file name="RootConcept_Editor.java">
-      <node id="861697192441878798" at="11,79,12,77" concept="6" />
+      <node id="861697192441878798" at="11,79,12,75" concept="6" />
       <node id="861697192441878798" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="861697192441878798" at="11,79,12,77" />
+      <scope id="861697192441878798" at="11,79,12,75" />
       <scope id="861697192441878798" at="11,0,14,0">
         <var name="editorContext" id="861697192441878798" />
         <var name="node" id="861697192441878798" />
       </scope>
       <unit id="861697192441878798" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RootConcept_Editor" />
     </file>
-    <file name="RootConcept_EditorBuilder_a.java">
-      <node id="861697192441878798" at="42,91,43,19" concept="9" />
+    <file name="RootConcept_EditorBuilder.java">
+      <node id="861697192441878798" at="42,89,43,19" concept="9" />
       <node id="861697192441878798" at="43,19,44,18" concept="1" />
       <node id="861697192441878798" at="49,26,50,18" concept="6" />
       <node id="861697192441878798" at="53,39,54,32" concept="6" />
@@ -6924,11 +6924,11 @@
       <node id="861697192441878798" at="236,42,237,98" concept="5" />
       <node id="861697192441878798" at="237,98,238,48" concept="1" />
       <node id="861697192441878798" at="238,48,239,34" concept="5" />
-      <node id="4682418030829414813" at="239,34,240,153" concept="1" />
-      <node id="861697192441878798" at="240,153,241,40" concept="1" />
+      <node id="4682418030829414813" at="239,34,240,141" concept="1" />
+      <node id="861697192441878798" at="240,141,241,40" concept="1" />
       <node id="861697192441878798" at="241,40,242,34" concept="1" />
       <node id="861697192441878798" at="242,34,243,22" concept="6" />
-      <node id="4682418030829427028" at="245,46,246,19" concept="6" />
+      <node id="4682418030829427028" at="245,34,246,19" concept="6" />
       <node id="861697192441878798" at="248,43,249,122" concept="5" />
       <node id="861697192441878798" at="249,122,250,49" concept="1" />
       <node id="861697192441878798" at="250,49,251,34" concept="5" />
@@ -8508,13 +8508,13 @@
       <node id="861697192441878798" at="2338,0,2339,0" concept="8" trace="PropertyAttribute$Gb" />
       <node id="861697192441878798" at="39,0,41,0" concept="2" trace="myNode" />
       <node id="861697192441878798" at="53,0,56,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="4682418030829426949" at="245,0,248,0" concept="4" trace="matchingNode_aw3qer_a0l1a#()Ljava/lang/String;" />
+      <node id="4682418030829426949" at="245,0,248,0" concept="4" trace="matchingNode0#()Ljava/lang/String;" />
       <node id="2728748097295235958" at="378,0,381,0" concept="4" trace="_StyleParameter_QueryFunction_aw3qer_a3c2d0#()Ljava/awt/Color;" />
       <node id="20138194853551390" at="465,0,468,0" concept="4" trace="_StyleParameter_QueryFunction_aw3qer_a1g0#()Ljava/awt/Color;" />
       <node id="20138194853536368" at="481,0,484,0" concept="4" trace="_StyleParameter_QueryFunction_aw3qer_a2a6a#()Ljava/awt/Color;" />
       <node id="20138194853551120" at="771,0,774,0" concept="4" trace="_StyleParameter_QueryFunction_aw3qer_a2b6a#()Ljava/awt/Color;" />
       <node id="20138194853551255" at="1108,0,1111,0" concept="4" trace="_StyleParameter_QueryFunction_aw3qer_a2c6a#()Ljava/awt/Color;" />
-      <node id="861697192441878798" at="42,0,46,0" concept="0" trace="RootConcept_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="861697192441878798" at="42,0,46,0" concept="0" trace="RootConcept_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="861697192441878798" at="47,0,52,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="4615632674301225286" at="819,208,824,24" concept="3" />
       <node id="2728748097294469003" at="309,0,315,0" concept="4" trace="createConstant_15#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -8783,14 +8783,14 @@
       <node id="861697192441878798" at="493,0,538,0" concept="4" trace="createCollection_12#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="861697192441878798" at="49,26,50,18" />
       <scope id="861697192441878798" at="53,39,54,32" />
-      <scope id="4682418030829426950" at="245,46,246,19" />
+      <scope id="4682418030829426950" at="245,34,246,19" />
       <scope id="2728748097295235959" at="378,63,379,37" />
       <scope id="20138194853551391" at="465,61,466,36" />
       <scope id="20138194853536369" at="481,62,482,34" />
       <scope id="20138194853551121" at="771,62,772,34" />
       <scope id="4615632674301225286" at="825,15,826,40" />
       <scope id="20138194853551256" at="1108,62,1109,34" />
-      <scope id="861697192441878798" at="42,91,44,18" />
+      <scope id="861697192441878798" at="42,89,44,18" />
       <scope id="4615632674301225286" at="820,74,822,145">
         <var name="manager" id="4615632674301225286" />
       </scope>
@@ -9968,24 +9968,24 @@
       </scope>
       <scope id="861697192441878798" at="840,0,884,0" />
       <scope id="861697192441878798" at="493,0,538,0" />
-      <unit id="861697192441878798" at="2333,0,2336,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RootConcept_EditorBuilder_a$PROPS" />
-      <unit id="861697192441878798" at="2337,0,2340,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RootConcept_EditorBuilder_a$CONCEPTS" />
-      <unit id="861697192441878798" at="38,0,2341,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RootConcept_EditorBuilder_a" />
+      <unit id="861697192441878798" at="2333,0,2336,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RootConcept_EditorBuilder$PROPS" />
+      <unit id="861697192441878798" at="2337,0,2340,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RootConcept_EditorBuilder$CONCEPTS" />
+      <unit id="861697192441878798" at="38,0,2341,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.RootConcept_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0908520a-3756-41ac-b1de-5731ff9b3d7d(de.itemis.mps.editor.celllayout.sandboxlang.editor)/8916305754265875848">
     <file name="Header_Editor.java">
-      <node id="8916305754265875848" at="11,79,12,72" concept="6" />
+      <node id="8916305754265875848" at="11,79,12,70" concept="6" />
       <node id="8916305754265875848" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8916305754265875848" at="11,79,12,72" />
+      <scope id="8916305754265875848" at="11,79,12,70" />
       <scope id="8916305754265875848" at="11,0,14,0">
         <var name="editorContext" id="8916305754265875848" />
         <var name="node" id="8916305754265875848" />
       </scope>
       <unit id="8916305754265875848" at="10,0,15,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Header_Editor" />
     </file>
-    <file name="Header_EditorBuilder_a.java">
-      <node id="8916305754265875848" at="30,86,31,19" concept="9" />
+    <file name="Header_EditorBuilder.java">
+      <node id="8916305754265875848" at="30,84,31,19" concept="9" />
       <node id="8916305754265875848" at="31,19,32,18" concept="1" />
       <node id="8916305754265875848" at="37,26,38,18" concept="6" />
       <node id="8916305754265875848" at="41,39,42,32" concept="6" />
@@ -10075,7 +10075,7 @@
       <node id="8916305754265889899" at="148,34,149,22" concept="6" />
       <node id="8916305754265875848" at="27,0,29,0" concept="2" trace="myNode" />
       <node id="8916305754265875848" at="41,0,44,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8916305754265875848" at="30,0,34,0" concept="0" trace="Header_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8916305754265875848" at="30,0,34,0" concept="0" trace="Header_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8916305754265875848" at="35,0,40,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6891244572254585761" at="71,0,79,0" concept="4" trace="createHorizontalLineCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6891244572254492524" at="62,0,71,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -10090,7 +10090,7 @@
       <node id="8916305754265875848" at="45,0,62,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="8916305754265875848" at="37,26,38,18" />
       <scope id="8916305754265875848" at="41,39,42,32" />
-      <scope id="8916305754265875848" at="30,86,32,18" />
+      <scope id="8916305754265875848" at="30,84,32,18" />
       <scope id="8916305754265875848" at="41,0,44,0" />
       <scope id="8916305754265875848" at="30,0,34,0">
         <var name="context" id="8916305754265875848" />
@@ -10151,7 +10151,7 @@
         <var name="editorCell" id="8916305754265875848" />
       </scope>
       <scope id="8916305754265875848" at="45,0,62,0" />
-      <unit id="8916305754265875848" at="26,0,152,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Header_EditorBuilder_a" />
+      <unit id="8916305754265875848" at="26,0,152,0" name="de.itemis.mps.editor.celllayout.sandboxlang.editor.Header_EditorBuilder" />
     </file>
   </root>
 </debug-info>

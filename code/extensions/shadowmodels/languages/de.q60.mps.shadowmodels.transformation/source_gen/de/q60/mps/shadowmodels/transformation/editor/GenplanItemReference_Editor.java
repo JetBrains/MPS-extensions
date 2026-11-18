@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class GenplanItemReference_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new GenplanItemReference_EditorBuilder_a(editorContext, node).createCell();
+    return new GenplanItemReference_EditorBuilder(editorContext, node).createCell();
   }
 }

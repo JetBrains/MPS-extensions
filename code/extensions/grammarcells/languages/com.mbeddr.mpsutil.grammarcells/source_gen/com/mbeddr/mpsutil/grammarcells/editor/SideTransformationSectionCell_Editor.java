@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class SideTransformationSectionCell_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SideTransformationSectionCell_EditorBuilder_a(editorContext, node).createCell();
+    return new SideTransformationSectionCell_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new SideTransformationSectionCell_InspectorBuilder_a(editorContext, node).createCell();
+    return new SideTransformationSectionCell_InspectorBuilder(editorContext, node).createCell();
   }
 }

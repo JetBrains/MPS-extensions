@@ -18,6 +18,6 @@ public class TEST_FlagAndTooltip_tooltipHint_mo9qib_a_Editor extends DefaultNode
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TEST_FlagAndTooltip_tooltipHint_mo9qib_a_EditorBuilder_a(editorContext, node).createCell();
+    return new TEST_FlagAndTooltip_tooltipHint_mo9qib_a_EditorBuilder(editorContext, node).createCell();
   }
 }

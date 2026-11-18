@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TopdownPackingLayoutConfig_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TopdownPackingLayoutConfig_EditorBuilder_a(editorContext, node).createCell();
+    return new TopdownPackingLayoutConfig_EditorBuilder(editorContext, node).createCell();
   }
 }

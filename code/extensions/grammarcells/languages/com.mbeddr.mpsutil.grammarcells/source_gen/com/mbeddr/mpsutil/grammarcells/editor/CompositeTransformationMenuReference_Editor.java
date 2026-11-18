@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class CompositeTransformationMenuReference_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new CompositeTransformationMenuReference_EditorBuilder_a(editorContext, node).createCell();
+    return new CompositeTransformationMenuReference_EditorBuilder(editorContext, node).createCell();
   }
 }

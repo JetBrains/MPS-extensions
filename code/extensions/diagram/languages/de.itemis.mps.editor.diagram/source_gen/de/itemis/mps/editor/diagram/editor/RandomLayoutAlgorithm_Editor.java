@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class RandomLayoutAlgorithm_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new RandomLayoutAlgorithm_EditorBuilder_a(editorContext, node).createCell();
+    return new RandomLayoutAlgorithm_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new RandomLayoutAlgorithm_InspectorBuilder_a(editorContext, node).createCell();
+    return new RandomLayoutAlgorithm_InspectorBuilder(editorContext, node).createCell();
   }
 }

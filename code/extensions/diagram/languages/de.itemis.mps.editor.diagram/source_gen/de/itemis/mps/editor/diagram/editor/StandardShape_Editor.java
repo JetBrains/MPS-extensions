@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class StandardShape_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new StandardShape_EditorBuilder_a(editorContext, node).createCell();
+    return new StandardShape_EditorBuilder(editorContext, node).createCell();
   }
 }

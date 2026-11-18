@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class PartialTableWithRowHeaderQuery_Cell_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new PartialTableWithRowHeaderQuery_Cell_EditorBuilder_a(editorContext, node).createCell();
+    return new PartialTableWithRowHeaderQuery_Cell_EditorBuilder(editorContext, node).createCell();
   }
 }

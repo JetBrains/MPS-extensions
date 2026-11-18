@@ -16,6 +16,6 @@ public class GeneratorOptions implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new GeneratorOptions_ComponentBuilder_a(editorContext, node).createCell();
+    return new GeneratorOptions_ComponentBuilder(editorContext, node).createCell();
   }
 }

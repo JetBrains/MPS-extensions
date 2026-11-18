@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ParenthesesExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ParenthesesExpression_EditorBuilder_a(editorContext, node).createCell();
+    return new ParenthesesExpression_EditorBuilder(editorContext, node).createCell();
   }
 }

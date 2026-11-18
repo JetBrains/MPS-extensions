@@ -17,12 +17,12 @@
   </root>
   <root nodeRef="r:851420a8-4c6f-4b29-a2e6-353fa69bdb4e(de.itemis.mps.editor.collapsible.editor)/4767615435807738219">
     <file name="CellModel_Collapsible_Editor.java">
-      <node id="4767615435807738219" at="11,79,12,87" concept="6" />
-      <node id="4767615435807738219" at="14,82,15,90" concept="6" />
+      <node id="4767615435807738219" at="11,79,12,85" concept="6" />
+      <node id="4767615435807738219" at="14,82,15,88" concept="6" />
       <node id="4767615435807738219" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4767615435807738219" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4767615435807738219" at="11,79,12,87" />
-      <scope id="4767615435807738219" at="14,82,15,90" />
+      <scope id="4767615435807738219" at="11,79,12,85" />
+      <scope id="4767615435807738219" at="14,82,15,88" />
       <scope id="4767615435807738219" at="11,0,14,0">
         <var name="editorContext" id="4767615435807738219" />
         <var name="node" id="4767615435807738219" />
@@ -33,8 +33,8 @@
       </scope>
       <unit id="4767615435807738219" at="10,0,18,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_Editor" />
     </file>
-    <file name="CellModel_Collapsible_EditorBuilder_a.java">
-      <node id="4767615435807738219" at="35,101,36,19" concept="8" />
+    <file name="CellModel_Collapsible_EditorBuilder.java">
+      <node id="4767615435807738219" at="35,99,36,19" concept="8" />
       <node id="4767615435807738219" at="36,19,37,18" concept="1" />
       <node id="4767615435807738219" at="42,26,43,18" concept="6" />
       <node id="4767615435807738219" at="46,39,47,32" concept="6" />
@@ -199,7 +199,7 @@
       <node id="4767615435807738219" at="259,87,262,7" concept="3" />
       <node id="4767615435807738219" at="262,7,265,7" concept="3" />
       <node id="4767615435807738219" at="284,0,287,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="4767615435807738219" at="35,0,39,0" concept="0" trace="CellModel_Collapsible_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4767615435807738219" at="35,0,39,0" concept="0" trace="CellModel_Collapsible_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1355051069417756638" at="103,0,107,0" concept="4" trace="createIndentCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4767615435807738219" at="155,0,159,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4767615435807738219" at="163,0,167,0" concept="0" trace="collapsedCellSingleRoleHandler_tbw0l9_b0b1b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -242,7 +242,7 @@
       <scope id="4767615435807738219" at="263,42,264,53" />
       <scope id="4767615435807738219" at="280,17,281,42" />
       <scope id="4767615435807738219" at="284,40,285,33" />
-      <scope id="4767615435807738219" at="35,101,37,18" />
+      <scope id="4767615435807738219" at="35,99,37,18" />
       <scope id="1355051069417756638" at="103,43,105,22">
         <var name="editorCell" id="1355051069417756638" />
       </scope>
@@ -382,13 +382,13 @@
       <scope id="4767615435807738219" at="50,0,62,0" />
       <scope id="4767615435807738219" at="195,0,209,0" />
       <scope id="4767615435807738219" at="270,0,284,0" />
-      <unit id="4767615435807738219" at="298,0,302,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_EditorBuilder_a$LINKS" />
-      <unit id="4767615435807738219" at="159,0,213,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_EditorBuilder_a$collapsedCellSingleRoleHandler_tbw0l9_b0b1b0" />
-      <unit id="4767615435807738219" at="234,0,288,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_EditorBuilder_a$expandedCellSingleRoleHandler_tbw0l9_b1b1b0" />
-      <unit id="4767615435807738219" at="31,0,303,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_EditorBuilder_a" />
+      <unit id="4767615435807738219" at="298,0,302,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_EditorBuilder$LINKS" />
+      <unit id="4767615435807738219" at="159,0,213,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_EditorBuilder$collapsedCellSingleRoleHandler_tbw0l9_b0b1b0" />
+      <unit id="4767615435807738219" at="234,0,288,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_EditorBuilder$expandedCellSingleRoleHandler_tbw0l9_b1b1b0" />
+      <unit id="4767615435807738219" at="31,0,303,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_EditorBuilder" />
     </file>
-    <file name="CellModel_Collapsible_InspectorBuilder_a.java">
-      <node id="4767615435807738219" at="44,104,45,19" concept="8" />
+    <file name="CellModel_Collapsible_InspectorBuilder.java">
+      <node id="4767615435807738219" at="44,102,45,19" concept="8" />
       <node id="4767615435807738219" at="45,19,46,18" concept="1" />
       <node id="4767615435807738219" at="51,26,52,18" concept="6" />
       <node id="4767615435807738219" at="55,39,56,32" concept="6" />
@@ -701,7 +701,7 @@
       <node id="4767615435807738219" at="510,87,513,7" concept="3" />
       <node id="4767615435807738219" at="513,7,516,7" concept="3" />
       <node id="4767615435807738219" at="535,0,538,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="4767615435807738219" at="44,0,48,0" concept="0" trace="CellModel_Collapsible_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4767615435807738219" at="44,0,48,0" concept="0" trace="CellModel_Collapsible_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4767615435807738219" at="256,0,260,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4767615435807738219" at="264,0,268,0" concept="0" trace="getNodeSizeSingleRoleHandler_tbw0l9_b4a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="4767615435807738219" at="331,0,335,0" concept="4" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -786,7 +786,7 @@
       <scope id="4767615435807738219" at="514,42,515,50" />
       <scope id="4767615435807738219" at="531,17,532,42" />
       <scope id="4767615435807738219" at="535,40,536,30" />
-      <scope id="4767615435807738219" at="44,104,46,18" />
+      <scope id="4767615435807738219" at="44,102,46,18" />
       <scope id="4767615435812496331" at="107,74,109,145">
         <var name="manager" id="4767615435812496331" />
       </scope>
@@ -1041,14 +1041,14 @@
       <scope id="4767615435813506625" at="133,0,157,0" />
       <scope id="4767615435817184565" at="174,0,198,0" />
       <scope id="6960125930950627804" at="215,0,239,0" />
-      <unit id="4767615435807738219" at="547,0,550,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder_a$CONCEPTS" />
-      <unit id="4767615435807738219" at="540,0,546,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder_a$PROPS" />
-      <unit id="4767615435807738219" at="551,0,557,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder_a$LINKS" />
-      <unit id="4767615435807738219" at="260,0,314,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder_a$getNodeSizeSingleRoleHandler_tbw0l9_b4a" />
-      <unit id="4767615435807738219" at="335,0,389,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder_a$paintNodeSingleRoleHandler_tbw0l9_b5a" />
-      <unit id="4767615435807738219" at="410,0,464,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder_a$paintEdgeSingleRoleHandler_tbw0l9_b6a" />
-      <unit id="4767615435807738219" at="485,0,539,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder_a$paintLineSingleRoleHandler_tbw0l9_b7a" />
-      <unit id="4767615435807738219" at="40,0,558,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder_a" />
+      <unit id="4767615435807738219" at="547,0,550,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder$CONCEPTS" />
+      <unit id="4767615435807738219" at="540,0,546,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder$PROPS" />
+      <unit id="4767615435807738219" at="551,0,557,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder$LINKS" />
+      <unit id="4767615435807738219" at="260,0,314,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder$getNodeSizeSingleRoleHandler_tbw0l9_b4a" />
+      <unit id="4767615435807738219" at="335,0,389,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder$paintNodeSingleRoleHandler_tbw0l9_b5a" />
+      <unit id="4767615435807738219" at="410,0,464,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder$paintEdgeSingleRoleHandler_tbw0l9_b6a" />
+      <unit id="4767615435807738219" at="485,0,539,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder$paintLineSingleRoleHandler_tbw0l9_b7a" />
+      <unit id="4767615435807738219" at="40,0,558,0" name="de.itemis.mps.editor.collapsible.editor.CellModel_Collapsible_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:851420a8-4c6f-4b29-a2e6-353fa69bdb4e(de.itemis.mps.editor.collapsible.editor)/7087532378458388722">

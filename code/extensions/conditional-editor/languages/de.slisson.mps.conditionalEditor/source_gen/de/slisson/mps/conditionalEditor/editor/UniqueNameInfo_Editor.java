@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class UniqueNameInfo_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new UniqueNameInfo_EditorBuilder_a(editorContext, node).createCell();
+    return new UniqueNameInfo_EditorBuilder(editorContext, node).createCell();
   }
 }

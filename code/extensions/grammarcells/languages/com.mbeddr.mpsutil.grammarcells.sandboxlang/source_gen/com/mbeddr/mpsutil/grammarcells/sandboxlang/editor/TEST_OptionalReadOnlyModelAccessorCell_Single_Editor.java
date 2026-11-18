@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TEST_OptionalReadOnlyModelAccessorCell_Single_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TEST_OptionalReadOnlyModelAccessorCell_Single_EditorBuilder_a(editorContext, node).createCell();
+    return new TEST_OptionalReadOnlyModelAccessorCell_Single_EditorBuilder(editorContext, node).createCell();
   }
 }

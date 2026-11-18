@@ -26,17 +26,17 @@
   </root>
   <root nodeRef="r:a6bc822a-e7bc-4268-bf29-b2a032b8a774(de.q60.mps.shadowmodels.examples.blext.editor)/7651629045960405912">
     <file name="ErrorStatement_Editor.java">
-      <node id="7651629045960405912" at="11,79,12,80" concept="7" />
+      <node id="7651629045960405912" at="11,79,12,78" concept="7" />
       <node id="7651629045960405912" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7651629045960405912" at="11,79,12,80" />
+      <scope id="7651629045960405912" at="11,79,12,78" />
       <scope id="7651629045960405912" at="11,0,14,0">
         <var name="editorContext" id="7651629045960405912" />
         <var name="node" id="7651629045960405912" />
       </scope>
       <unit id="7651629045960405912" at="10,0,15,0" name="de.q60.mps.shadowmodels.examples.blext.editor.ErrorStatement_Editor" />
     </file>
-    <file name="ErrorStatement_EditorBuilder_a.java">
-      <node id="7651629045960405912" at="44,94,45,19" concept="10" />
+    <file name="ErrorStatement_EditorBuilder.java">
+      <node id="7651629045960405912" at="44,92,45,19" concept="10" />
       <node id="7651629045960405912" at="45,19,46,18" concept="1" />
       <node id="7651629045960405912" at="51,26,52,18" concept="7" />
       <node id="7651629045960405912" at="55,39,56,32" concept="7" />
@@ -121,7 +121,7 @@
       <node id="7651629045960405912" at="114,87,117,7" concept="4" />
       <node id="7651629045960405912" at="117,7,120,7" concept="4" />
       <node id="7651629045960405912" at="136,0,139,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="7651629045960405912" at="44,0,48,0" concept="0" trace="ErrorStatement_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7651629045960405912" at="44,0,48,0" concept="0" trace="ErrorStatement_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7651629045960405914" at="72,0,76,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7651629045960405912" at="85,0,89,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7651629045960405912" at="93,0,97,0" concept="0" trace="conditionSingleRoleHandler_hh09pu_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -146,7 +146,7 @@
       <scope id="7651629045960405912" at="132,17,133,42" />
       <scope id="7651629045960405912" at="136,40,137,16" />
       <scope id="7651629045960405925" at="169,15,170,40" />
-      <scope id="7651629045960405912" at="44,94,46,18" />
+      <scope id="7651629045960405912" at="44,92,46,18" />
       <scope id="7651629045960405914" at="72,42,74,22">
         <var name="editorCell" id="7651629045960405914" />
       </scope>
@@ -217,26 +217,26 @@
       </scope>
       <scope id="7651629045960405925" at="149,41,171,5" />
       <scope id="7651629045960405925" at="149,0,173,0" />
-      <unit id="7651629045960405912" at="183,0,186,0" name="de.q60.mps.shadowmodels.examples.blext.editor.ErrorStatement_EditorBuilder_a$LINKS" />
-      <unit id="7651629045960405912" at="187,0,190,0" name="de.q60.mps.shadowmodels.examples.blext.editor.ErrorStatement_EditorBuilder_a$PROPS" />
-      <unit id="7651629045960405912" at="191,0,194,0" name="de.q60.mps.shadowmodels.examples.blext.editor.ErrorStatement_EditorBuilder_a$CONCEPTS" />
-      <unit id="7651629045960405912" at="89,0,140,0" name="de.q60.mps.shadowmodels.examples.blext.editor.ErrorStatement_EditorBuilder_a$conditionSingleRoleHandler_hh09pu_c0" />
-      <unit id="7651629045960405912" at="40,0,195,0" name="de.q60.mps.shadowmodels.examples.blext.editor.ErrorStatement_EditorBuilder_a" />
+      <unit id="7651629045960405912" at="183,0,186,0" name="de.q60.mps.shadowmodels.examples.blext.editor.ErrorStatement_EditorBuilder$LINKS" />
+      <unit id="7651629045960405912" at="187,0,190,0" name="de.q60.mps.shadowmodels.examples.blext.editor.ErrorStatement_EditorBuilder$PROPS" />
+      <unit id="7651629045960405912" at="191,0,194,0" name="de.q60.mps.shadowmodels.examples.blext.editor.ErrorStatement_EditorBuilder$CONCEPTS" />
+      <unit id="7651629045960405912" at="89,0,140,0" name="de.q60.mps.shadowmodels.examples.blext.editor.ErrorStatement_EditorBuilder$conditionSingleRoleHandler_hh09pu_c0" />
+      <unit id="7651629045960405912" at="40,0,195,0" name="de.q60.mps.shadowmodels.examples.blext.editor.ErrorStatement_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:a6bc822a-e7bc-4268-bf29-b2a032b8a774(de.q60.mps.shadowmodels.examples.blext.editor)/7898342489378057200">
     <file name="NullAlternativeExpression_Editor.java">
-      <node id="7898342489378057200" at="11,79,12,91" concept="7" />
+      <node id="7898342489378057200" at="11,79,12,89" concept="7" />
       <node id="7898342489378057200" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7898342489378057200" at="11,79,12,91" />
+      <scope id="7898342489378057200" at="11,79,12,89" />
       <scope id="7898342489378057200" at="11,0,14,0">
         <var name="editorContext" id="7898342489378057200" />
         <var name="node" id="7898342489378057200" />
       </scope>
       <unit id="7898342489378057200" at="10,0,15,0" name="de.q60.mps.shadowmodels.examples.blext.editor.NullAlternativeExpression_Editor" />
     </file>
-    <file name="NullAlternativeExpression_EditorBuilder_a.java">
-      <node id="7898342489378057200" at="30,105,31,19" concept="10" />
+    <file name="NullAlternativeExpression_EditorBuilder.java">
+      <node id="7898342489378057200" at="30,103,31,19" concept="10" />
       <node id="7898342489378057200" at="31,19,32,18" concept="1" />
       <node id="7898342489378057200" at="37,26,38,18" concept="7" />
       <node id="7898342489378057200" at="41,39,42,32" concept="7" />
@@ -310,7 +310,7 @@
       <node id="7898342489378057200" at="149,87,152,7" concept="4" />
       <node id="7898342489378057200" at="152,7,155,7" concept="4" />
       <node id="7898342489378057200" at="171,0,174,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="7898342489378057200" at="30,0,34,0" concept="0" trace="NullAlternativeExpression_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7898342489378057200" at="30,0,34,0" concept="0" trace="NullAlternativeExpression_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7898342489378057200" at="55,0,59,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7898342489378057200" at="63,0,67,0" concept="0" trace="possibleNullSingleRoleHandler_9d0ftj_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="7898342489378057200" at="120,0,124,0" concept="5" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -340,7 +340,7 @@
       <scope id="7898342489378057200" at="153,42,154,52" />
       <scope id="7898342489378057200" at="167,17,168,42" />
       <scope id="7898342489378057200" at="171,40,172,32" />
-      <scope id="7898342489378057200" at="30,105,32,18" />
+      <scope id="7898342489378057200" at="30,103,32,18" />
       <scope id="7898342489378057200" at="55,40,57,33">
         <var name="provider" id="7898342489378057200" />
       </scope>
@@ -414,10 +414,10 @@
       <scope id="7898342489378057200" at="158,44,169,7" />
       <scope id="7898342489378057200" at="92,0,106,0" />
       <scope id="7898342489378057200" at="157,0,171,0" />
-      <unit id="7898342489378057200" at="176,0,180,0" name="de.q60.mps.shadowmodels.examples.blext.editor.NullAlternativeExpression_EditorBuilder_a$LINKS" />
-      <unit id="7898342489378057200" at="59,0,110,0" name="de.q60.mps.shadowmodels.examples.blext.editor.NullAlternativeExpression_EditorBuilder_a$possibleNullSingleRoleHandler_9d0ftj_a0" />
-      <unit id="7898342489378057200" at="124,0,175,0" name="de.q60.mps.shadowmodels.examples.blext.editor.NullAlternativeExpression_EditorBuilder_a$valueIfNullSingleRoleHandler_9d0ftj_c0" />
-      <unit id="7898342489378057200" at="26,0,181,0" name="de.q60.mps.shadowmodels.examples.blext.editor.NullAlternativeExpression_EditorBuilder_a" />
+      <unit id="7898342489378057200" at="176,0,180,0" name="de.q60.mps.shadowmodels.examples.blext.editor.NullAlternativeExpression_EditorBuilder$LINKS" />
+      <unit id="7898342489378057200" at="59,0,110,0" name="de.q60.mps.shadowmodels.examples.blext.editor.NullAlternativeExpression_EditorBuilder$possibleNullSingleRoleHandler_9d0ftj_a0" />
+      <unit id="7898342489378057200" at="124,0,175,0" name="de.q60.mps.shadowmodels.examples.blext.editor.NullAlternativeExpression_EditorBuilder$valueIfNullSingleRoleHandler_9d0ftj_c0" />
+      <unit id="7898342489378057200" at="26,0,181,0" name="de.q60.mps.shadowmodels.examples.blext.editor.NullAlternativeExpression_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:a6bc822a-e7bc-4268-bf29-b2a032b8a774(de.q60.mps.shadowmodels.examples.blext.editor)/7898342489378203824">
@@ -501,17 +501,17 @@
   </root>
   <root nodeRef="r:a6bc822a-e7bc-4268-bf29-b2a032b8a774(de.q60.mps.shadowmodels.examples.blext.editor)/7898342489379231370">
     <file name="UntilStatement_Editor.java">
-      <node id="7898342489379231370" at="11,79,12,80" concept="7" />
+      <node id="7898342489379231370" at="11,79,12,78" concept="7" />
       <node id="7898342489379231370" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7898342489379231370" at="11,79,12,80" />
+      <scope id="7898342489379231370" at="11,79,12,78" />
       <scope id="7898342489379231370" at="11,0,14,0">
         <var name="editorContext" id="7898342489379231370" />
         <var name="node" id="7898342489379231370" />
       </scope>
       <unit id="7898342489379231370" at="10,0,15,0" name="de.q60.mps.shadowmodels.examples.blext.editor.UntilStatement_Editor" />
     </file>
-    <file name="UntilStatement_EditorBuilder_a.java">
-      <node id="7898342489379231370" at="30,94,31,19" concept="10" />
+    <file name="UntilStatement_EditorBuilder.java">
+      <node id="7898342489379231370" at="30,92,31,19" concept="10" />
       <node id="7898342489379231370" at="31,19,32,18" concept="1" />
       <node id="7898342489379231370" at="37,26,38,18" concept="7" />
       <node id="7898342489379231370" at="41,39,42,32" concept="7" />
@@ -608,7 +608,7 @@
       <node id="7898342489379231370" at="168,87,171,7" concept="4" />
       <node id="7898342489379231370" at="171,7,174,7" concept="4" />
       <node id="7898342489379231370" at="193,0,196,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="7898342489379231370" at="30,0,34,0" concept="0" trace="UntilStatement_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7898342489379231370" at="30,0,34,0" concept="0" trace="UntilStatement_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7898342489379231379" at="59,0,63,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7898342489379231370" at="69,0,73,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7898342489379231370" at="77,0,81,0" concept="0" trace="conditionSingleRoleHandler_rbf0f1_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -642,7 +642,7 @@
       <scope id="7898342489379231370" at="172,42,173,45" />
       <scope id="7898342489379231370" at="189,17,190,42" />
       <scope id="7898342489379231370" at="193,40,194,25" />
-      <scope id="7898342489379231370" at="30,94,32,18" />
+      <scope id="7898342489379231370" at="30,92,32,18" />
       <scope id="7898342489379231379" at="59,42,61,22">
         <var name="editorCell" id="7898342489379231379" />
       </scope>
@@ -735,25 +735,25 @@
       <scope id="7898342489379231370" at="45,0,59,0" />
       <scope id="7898342489379231370" at="106,0,120,0" />
       <scope id="7898342489379231370" at="179,0,193,0" />
-      <unit id="7898342489379231370" at="207,0,211,0" name="de.q60.mps.shadowmodels.examples.blext.editor.UntilStatement_EditorBuilder_a$LINKS" />
-      <unit id="7898342489379231370" at="73,0,124,0" name="de.q60.mps.shadowmodels.examples.blext.editor.UntilStatement_EditorBuilder_a$conditionSingleRoleHandler_rbf0f1_c0" />
-      <unit id="7898342489379231370" at="143,0,197,0" name="de.q60.mps.shadowmodels.examples.blext.editor.UntilStatement_EditorBuilder_a$bodySingleRoleHandler_rbf0f1_f0" />
-      <unit id="7898342489379231370" at="26,0,212,0" name="de.q60.mps.shadowmodels.examples.blext.editor.UntilStatement_EditorBuilder_a" />
+      <unit id="7898342489379231370" at="207,0,211,0" name="de.q60.mps.shadowmodels.examples.blext.editor.UntilStatement_EditorBuilder$LINKS" />
+      <unit id="7898342489379231370" at="73,0,124,0" name="de.q60.mps.shadowmodels.examples.blext.editor.UntilStatement_EditorBuilder$conditionSingleRoleHandler_rbf0f1_c0" />
+      <unit id="7898342489379231370" at="143,0,197,0" name="de.q60.mps.shadowmodels.examples.blext.editor.UntilStatement_EditorBuilder$bodySingleRoleHandler_rbf0f1_f0" />
+      <unit id="7898342489379231370" at="26,0,212,0" name="de.q60.mps.shadowmodels.examples.blext.editor.UntilStatement_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:a6bc822a-e7bc-4268-bf29-b2a032b8a774(de.q60.mps.shadowmodels.examples.blext.editor)/8286906820977887364">
     <file name="VariableWithInferredType_Editor.java">
-      <node id="8286906820977887364" at="11,79,12,90" concept="7" />
+      <node id="8286906820977887364" at="11,79,12,88" concept="7" />
       <node id="8286906820977887364" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8286906820977887364" at="11,79,12,90" />
+      <scope id="8286906820977887364" at="11,79,12,88" />
       <scope id="8286906820977887364" at="11,0,14,0">
         <var name="editorContext" id="8286906820977887364" />
         <var name="node" id="8286906820977887364" />
       </scope>
       <unit id="8286906820977887364" at="10,0,15,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Editor" />
     </file>
-    <file name="VariableWithInferredType_EditorBuilder_a.java">
-      <node id="8286906820977887364" at="43,104,44,19" concept="10" />
+    <file name="VariableWithInferredType_EditorBuilder.java">
+      <node id="8286906820977887364" at="43,102,44,19" concept="10" />
       <node id="8286906820977887364" at="44,19,45,18" concept="1" />
       <node id="8286906820977887364" at="50,26,51,18" concept="7" />
       <node id="8286906820977887364" at="54,39,55,32" concept="7" />
@@ -824,7 +824,7 @@
       <node id="8286906820977887364" at="130,87,133,7" concept="4" />
       <node id="8286906820977887364" at="133,7,136,7" concept="4" />
       <node id="8286906820977887364" at="152,0,155,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8286906820977887364" at="43,0,47,0" concept="0" trace="VariableWithInferredType_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8286906820977887364" at="43,0,47,0" concept="0" trace="VariableWithInferredType_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8286906820977887376" at="70,0,74,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8286906820977887364" at="101,0,105,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8286906820977887364" at="109,0,113,0" concept="0" trace="initializerSingleRoleHandler_hhnlye_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -848,7 +848,7 @@
       <scope id="8286906820977887364" at="134,42,135,52" />
       <scope id="8286906820977887364" at="148,17,149,42" />
       <scope id="8286906820977887364" at="152,40,153,32" />
-      <scope id="8286906820977887364" at="43,104,45,18" />
+      <scope id="8286906820977887364" at="43,102,45,18" />
       <scope id="8286906820977887376" at="70,42,72,22">
         <var name="editorCell" id="8286906820977887376" />
       </scope>
@@ -912,26 +912,26 @@
       <scope id="8286906820977887364" at="138,0,152,0" />
       <scope id="8286906820977887390" at="74,41,93,5" />
       <scope id="8286906820977887390" at="74,0,95,0" />
-      <unit id="8286906820977887364" at="166,0,169,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_EditorBuilder_a$PROPS" />
-      <unit id="8286906820977887364" at="170,0,173,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_EditorBuilder_a$CONCEPTS" />
-      <unit id="8286906820977887364" at="174,0,177,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_EditorBuilder_a$LINKS" />
-      <unit id="8286906820977887364" at="105,0,156,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_EditorBuilder_a$initializerSingleRoleHandler_hhnlye_d0" />
-      <unit id="8286906820977887364" at="39,0,178,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_EditorBuilder_a" />
+      <unit id="8286906820977887364" at="166,0,169,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_EditorBuilder$PROPS" />
+      <unit id="8286906820977887364" at="170,0,173,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_EditorBuilder$CONCEPTS" />
+      <unit id="8286906820977887364" at="174,0,177,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_EditorBuilder$LINKS" />
+      <unit id="8286906820977887364" at="105,0,156,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_EditorBuilder$initializerSingleRoleHandler_hhnlye_d0" />
+      <unit id="8286906820977887364" at="39,0,178,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:a6bc822a-e7bc-4268-bf29-b2a032b8a774(de.q60.mps.shadowmodels.examples.blext.editor)/8286906820978307381">
     <file name="VariableWithInferredType_Reference_Editor.java">
-      <node id="8286906820978307381" at="11,79,12,100" concept="7" />
+      <node id="8286906820978307381" at="11,79,12,98" concept="7" />
       <node id="8286906820978307381" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8286906820978307381" at="11,79,12,100" />
+      <scope id="8286906820978307381" at="11,79,12,98" />
       <scope id="8286906820978307381" at="11,0,14,0">
         <var name="editorContext" id="8286906820978307381" />
         <var name="node" id="8286906820978307381" />
       </scope>
       <unit id="8286906820978307381" at="10,0,15,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Reference_Editor" />
     </file>
-    <file name="VariableWithInferredType_Reference_EditorBuilder_a.java">
-      <node id="8286906820978307381" at="43,114,44,19" concept="10" />
+    <file name="VariableWithInferredType_Reference_EditorBuilder.java">
+      <node id="8286906820978307381" at="43,112,44,19" concept="10" />
       <node id="8286906820978307381" at="44,19,45,18" concept="1" />
       <node id="8286906820978307381" at="50,26,51,18" concept="7" />
       <node id="8286906820978307381" at="54,39,55,32" concept="7" />
@@ -994,7 +994,7 @@
       <node id="8286906820978307385" at="102,0,104,0" concept="2" trace="myNode" />
       <node id="8286906820978307381" at="54,0,57,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8286906820978307385" at="112,0,115,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8286906820978307381" at="43,0,47,0" concept="0" trace="VariableWithInferredType_Reference_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8286906820978307381" at="43,0,47,0" concept="0" trace="VariableWithInferredType_Reference_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8286906820978307381" at="87,0,91,5" concept="4" />
       <node id="8286906820978307381" at="48,0,53,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8286906820978307381" at="94,205,99,22" concept="4" />
@@ -1013,7 +1013,7 @@
       <scope id="8286906820978307385" at="112,41,113,32" />
       <scope id="8286906820978307385" at="118,28,119,20" />
       <scope id="8286906820978706017" at="142,17,143,42" />
-      <scope id="8286906820978307381" at="43,114,45,18" />
+      <scope id="8286906820978307381" at="43,112,45,18" />
       <scope id="8286906820978307381" at="88,40,90,42" />
       <scope id="8286906820978307381" at="95,73,97,145">
         <var name="manager" id="8286906820978307381" />
@@ -1068,12 +1068,12 @@
         <var name="referenceLink" id="8286906820978307381" />
       </scope>
       <scope id="8286906820978307381" at="66,0,101,0" />
-      <unit id="8286906820978307381" at="148,0,151,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Reference_EditorBuilder_a$LINKS" />
-      <unit id="8286906820978307381" at="157,0,160,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Reference_EditorBuilder_a$PROPS" />
-      <unit id="8286906820978307381" at="152,0,156,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Reference_EditorBuilder_a$CONCEPTS" />
-      <unit id="8286906820978307381" at="68,42,83,5" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Reference_EditorBuilder_a$1" />
-      <unit id="8286906820978307385" at="101,0,147,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Reference_EditorBuilder_a$Inline_Builder0" />
-      <unit id="8286906820978307381" at="39,0,161,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Reference_EditorBuilder_a" />
+      <unit id="8286906820978307381" at="148,0,151,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Reference_EditorBuilder$LINKS" />
+      <unit id="8286906820978307381" at="157,0,160,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Reference_EditorBuilder$PROPS" />
+      <unit id="8286906820978307381" at="152,0,156,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Reference_EditorBuilder$CONCEPTS" />
+      <unit id="8286906820978307381" at="68,42,83,5" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Reference_EditorBuilder$1" />
+      <unit id="8286906820978307385" at="101,0,147,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Reference_EditorBuilder$Inline_Builder0" />
+      <unit id="8286906820978307381" at="39,0,161,0" name="de.q60.mps.shadowmodels.examples.blext.editor.VariableWithInferredType_Reference_EditorBuilder" />
     </file>
   </root>
 </debug-info>

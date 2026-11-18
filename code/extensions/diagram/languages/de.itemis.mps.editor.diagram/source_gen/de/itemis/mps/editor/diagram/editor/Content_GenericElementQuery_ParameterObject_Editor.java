@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Content_GenericElementQuery_ParameterObject_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Content_GenericElementQuery_ParameterObject_EditorBuilder_a(editorContext, node).createCell();
+    return new Content_GenericElementQuery_ParameterObject_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class IncrementalFunctionCall_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new IncrementalFunctionCall_EditorBuilder_a(editorContext, node).createCell();
+    return new IncrementalFunctionCall_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ConditionChecker_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ConditionChecker_EditorBuilder_a(editorContext, node).createCell();
+    return new ConditionChecker_EditorBuilder(editorContext, node).createCell();
   }
 }

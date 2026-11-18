@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ColorTableStyleItem_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ColorTableStyleItem_EditorBuilder_a(editorContext, node).createCell();
+    return new ColorTableStyleItem_EditorBuilder(editorContext, node).createCell();
   }
 }

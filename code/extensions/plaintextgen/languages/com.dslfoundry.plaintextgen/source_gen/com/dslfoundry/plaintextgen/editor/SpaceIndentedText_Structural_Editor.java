@@ -18,9 +18,9 @@ public class SpaceIndentedText_Structural_Editor extends DefaultNodeEditor {
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SpaceIndentedText_Structural_EditorBuilder_a(editorContext, node).createCell();
+    return new SpaceIndentedText_Structural_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new SpaceIndentedText_Structural_InspectorBuilder_a(editorContext, node).createCell();
+    return new SpaceIndentedText_Structural_InspectorBuilder(editorContext, node).createCell();
   }
 }

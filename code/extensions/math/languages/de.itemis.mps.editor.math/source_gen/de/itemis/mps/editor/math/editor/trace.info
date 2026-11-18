@@ -53,17 +53,17 @@
   </root>
   <root nodeRef="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)/1330709772460757916">
     <file name="ChildCellDecl_Editor.java">
-      <node id="1330709772460757916" at="11,79,12,79" concept="6" />
+      <node id="1330709772460757916" at="11,79,12,77" concept="6" />
       <node id="1330709772460757916" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1330709772460757916" at="11,79,12,79" />
+      <scope id="1330709772460757916" at="11,79,12,77" />
       <scope id="1330709772460757916" at="11,0,14,0">
         <var name="editorContext" id="1330709772460757916" />
         <var name="node" id="1330709772460757916" />
       </scope>
       <unit id="1330709772460757916" at="10,0,15,0" name="de.itemis.mps.editor.math.editor.ChildCellDecl_Editor" />
     </file>
-    <file name="ChildCellDecl_EditorBuilder_a.java">
-      <node id="1330709772460757916" at="42,93,43,19" concept="9" />
+    <file name="ChildCellDecl_EditorBuilder.java">
+      <node id="1330709772460757916" at="42,91,43,19" concept="9" />
       <node id="1330709772460757916" at="43,19,44,18" concept="1" />
       <node id="1330709772460757916" at="49,26,50,18" concept="6" />
       <node id="1330709772460757916" at="53,39,54,32" concept="6" />
@@ -141,7 +141,7 @@
       <node id="1330709772460757916" at="126,87,129,7" concept="3" />
       <node id="1330709772460757916" at="129,7,132,7" concept="3" />
       <node id="1330709772460757916" at="148,0,151,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="1330709772460757916" at="42,0,46,0" concept="0" trace="ChildCellDecl_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1330709772460757916" at="42,0,46,0" concept="0" trace="ChildCellDecl_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1330709772460757916" at="97,0,101,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1330709772460757916" at="105,0,109,0" concept="0" trace="cellModelSingleRoleHandler_msdlf6_a1a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1330709772460757916" at="47,0,52,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -167,7 +167,7 @@
       <scope id="1330709772460757916" at="144,17,145,42" />
       <scope id="1330709772460757916" at="148,40,149,30" />
       <scope id="1330709772460758011" at="169,15,170,40" />
-      <scope id="1330709772460757916" at="42,93,44,18" />
+      <scope id="1330709772460757916" at="42,91,44,18" />
       <scope id="1330709772460757975" at="79,74,81,145">
         <var name="manager" id="1330709772460757975" />
       </scope>
@@ -234,26 +234,26 @@
       <scope id="1330709772460758011" at="152,41,171,5" />
       <scope id="1330709772460757975" at="67,0,88,0" />
       <scope id="1330709772460758011" at="152,0,173,0" />
-      <unit id="1330709772460757916" at="179,0,182,0" name="de.itemis.mps.editor.math.editor.ChildCellDecl_EditorBuilder_a$CONCEPTS" />
-      <unit id="1330709772460757916" at="183,0,186,0" name="de.itemis.mps.editor.math.editor.ChildCellDecl_EditorBuilder_a$LINKS" />
-      <unit id="1330709772460757916" at="174,0,178,0" name="de.itemis.mps.editor.math.editor.ChildCellDecl_EditorBuilder_a$PROPS" />
-      <unit id="1330709772460757916" at="101,0,152,0" name="de.itemis.mps.editor.math.editor.ChildCellDecl_EditorBuilder_a$cellModelSingleRoleHandler_msdlf6_a1a" />
-      <unit id="1330709772460757916" at="38,0,187,0" name="de.itemis.mps.editor.math.editor.ChildCellDecl_EditorBuilder_a" />
+      <unit id="1330709772460757916" at="179,0,182,0" name="de.itemis.mps.editor.math.editor.ChildCellDecl_EditorBuilder$CONCEPTS" />
+      <unit id="1330709772460757916" at="183,0,186,0" name="de.itemis.mps.editor.math.editor.ChildCellDecl_EditorBuilder$LINKS" />
+      <unit id="1330709772460757916" at="174,0,178,0" name="de.itemis.mps.editor.math.editor.ChildCellDecl_EditorBuilder$PROPS" />
+      <unit id="1330709772460757916" at="101,0,152,0" name="de.itemis.mps.editor.math.editor.ChildCellDecl_EditorBuilder$cellModelSingleRoleHandler_msdlf6_a1a" />
+      <unit id="1330709772460757916" at="38,0,187,0" name="de.itemis.mps.editor.math.editor.ChildCellDecl_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)/1330709772460851559">
     <file name="ChildCellRef_Editor.java">
-      <node id="1330709772460851559" at="11,79,12,78" concept="6" />
+      <node id="1330709772460851559" at="11,79,12,76" concept="6" />
       <node id="1330709772460851559" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1330709772460851559" at="11,79,12,78" />
+      <scope id="1330709772460851559" at="11,79,12,76" />
       <scope id="1330709772460851559" at="11,0,14,0">
         <var name="editorContext" id="1330709772460851559" />
         <var name="node" id="1330709772460851559" />
       </scope>
       <unit id="1330709772460851559" at="10,0,15,0" name="de.itemis.mps.editor.math.editor.ChildCellRef_Editor" />
     </file>
-    <file name="ChildCellRef_EditorBuilder_a.java">
-      <node id="1330709772460851559" at="43,92,44,19" concept="9" />
+    <file name="ChildCellRef_EditorBuilder.java">
+      <node id="1330709772460851559" at="43,90,44,19" concept="9" />
       <node id="1330709772460851559" at="44,19,45,18" concept="1" />
       <node id="1330709772460851559" at="50,26,51,18" concept="6" />
       <node id="1330709772460851559" at="54,39,55,32" concept="6" />
@@ -316,7 +316,7 @@
       <node id="1330709772460851603" at="102,0,104,0" concept="2" trace="myNode" />
       <node id="1330709772460851559" at="54,0,57,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1330709772460851603" at="112,0,115,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1330709772460851559" at="43,0,47,0" concept="0" trace="ChildCellRef_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1330709772460851559" at="43,0,47,0" concept="0" trace="ChildCellRef_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1330709772460851559" at="87,0,91,5" concept="3" />
       <node id="1330709772460851559" at="48,0,53,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1330709772460851559" at="94,205,99,22" concept="3" />
@@ -335,7 +335,7 @@
       <scope id="1330709772460851603" at="112,41,113,32" />
       <scope id="1330709772460851603" at="118,28,119,20" />
       <scope id="1330709772460851617" at="142,17,143,42" />
-      <scope id="1330709772460851559" at="43,92,45,18" />
+      <scope id="1330709772460851559" at="43,90,45,18" />
       <scope id="1330709772460851559" at="88,40,90,42" />
       <scope id="1330709772460851559" at="95,73,97,145">
         <var name="manager" id="1330709772460851559" />
@@ -390,22 +390,22 @@
         <var name="referenceLink" id="1330709772460851559" />
       </scope>
       <scope id="1330709772460851559" at="66,0,101,0" />
-      <unit id="1330709772460851559" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.ChildCellRef_EditorBuilder_a$LINKS" />
-      <unit id="1330709772460851559" at="157,0,160,0" name="de.itemis.mps.editor.math.editor.ChildCellRef_EditorBuilder_a$PROPS" />
-      <unit id="1330709772460851559" at="152,0,156,0" name="de.itemis.mps.editor.math.editor.ChildCellRef_EditorBuilder_a$CONCEPTS" />
-      <unit id="1330709772460851559" at="68,42,83,5" name="de.itemis.mps.editor.math.editor.ChildCellRef_EditorBuilder_a$1" />
-      <unit id="1330709772460851603" at="101,0,147,0" name="de.itemis.mps.editor.math.editor.ChildCellRef_EditorBuilder_a$Inline_Builder0" />
-      <unit id="1330709772460851559" at="39,0,161,0" name="de.itemis.mps.editor.math.editor.ChildCellRef_EditorBuilder_a" />
+      <unit id="1330709772460851559" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.ChildCellRef_EditorBuilder$LINKS" />
+      <unit id="1330709772460851559" at="157,0,160,0" name="de.itemis.mps.editor.math.editor.ChildCellRef_EditorBuilder$PROPS" />
+      <unit id="1330709772460851559" at="152,0,156,0" name="de.itemis.mps.editor.math.editor.ChildCellRef_EditorBuilder$CONCEPTS" />
+      <unit id="1330709772460851559" at="68,42,83,5" name="de.itemis.mps.editor.math.editor.ChildCellRef_EditorBuilder$1" />
+      <unit id="1330709772460851603" at="101,0,147,0" name="de.itemis.mps.editor.math.editor.ChildCellRef_EditorBuilder$Inline_Builder0" />
+      <unit id="1330709772460851559" at="39,0,161,0" name="de.itemis.mps.editor.math.editor.ChildCellRef_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)/175930839491944302">
     <file name="CellModel_MathBase_Editor.java">
-      <node id="175930839491944302" at="11,79,12,84" concept="6" />
-      <node id="175930839491944302" at="14,82,15,87" concept="6" />
+      <node id="175930839491944302" at="11,79,12,82" concept="6" />
+      <node id="175930839491944302" at="14,82,15,85" concept="6" />
       <node id="175930839491944302" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="175930839491944302" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="175930839491944302" at="11,79,12,84" />
-      <scope id="175930839491944302" at="14,82,15,87" />
+      <scope id="175930839491944302" at="11,79,12,82" />
+      <scope id="175930839491944302" at="14,82,15,85" />
       <scope id="175930839491944302" at="11,0,14,0">
         <var name="editorContext" id="175930839491944302" />
         <var name="node" id="175930839491944302" />
@@ -416,8 +416,8 @@
       </scope>
       <unit id="175930839491944302" at="10,0,18,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_Editor" />
     </file>
-    <file name="CellModel_MathBase_EditorBuilder_a.java">
-      <node id="175930839491944302" at="40,98,41,19" concept="9" />
+    <file name="CellModel_MathBase_EditorBuilder.java">
+      <node id="175930839491944302" at="40,96,41,19" concept="9" />
       <node id="175930839491944302" at="41,19,42,18" concept="1" />
       <node id="175930839491944302" at="47,26,48,18" concept="6" />
       <node id="175930839491944302" at="51,39,52,32" concept="6" />
@@ -875,7 +875,7 @@
       <node id="175930839491944302" at="777,87,780,7" concept="3" />
       <node id="175930839491944302" at="780,7,783,7" concept="3" />
       <node id="175930839491944302" at="802,0,805,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="175930839491944302" at="40,0,44,0" concept="0" trace="CellModel_MathBase_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="175930839491944302" at="40,0,44,0" concept="0" trace="CellModel_MathBase_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="175930839491944302" at="162,0,166,0" concept="0" trace="childCellsListHandler_dny3ct_c1a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="175930839491944302" at="167,0,171,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="175930839491944302" at="200,97,204,9" concept="3" />
@@ -1019,7 +1019,7 @@
       <scope id="175930839491944302" at="781,42,782,59" />
       <scope id="175930839491944302" at="798,17,799,42" />
       <scope id="175930839491944302" at="802,40,803,39" />
-      <scope id="175930839491944302" at="40,98,42,18" />
+      <scope id="175930839491944302" at="40,96,42,18" />
       <scope id="175930839491944302" at="162,85,164,25" />
       <scope id="175930839491944302" at="201,122,203,146" />
       <scope id="175930839491944302" at="207,34,209,142" />
@@ -1406,20 +1406,20 @@
         <var name="style" id="175930839491944302" />
       </scope>
       <scope id="175930839491944302" at="98,0,132,0" />
-      <unit id="175930839491944302" at="827,0,832,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder_a$CONCEPTS" />
-      <unit id="175930839491944302" at="816,0,826,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder_a$LINKS" />
-      <unit id="175930839491944302" at="596,0,650,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder_a$paintFunctionSingleRoleHandler_dny3ct_r1a" />
-      <unit id="175930839491944302" at="674,0,728,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder_a$getCenterYFunctionSingleRoleHandler_dny3ct_u1a" />
-      <unit id="175930839491944302" at="752,0,806,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder_a$renderTextFunctionSingleRoleHandler_dny3ct_x1a" />
-      <unit id="175930839491944302" at="438,0,493,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder_a$initFunctionSingleRoleHandler_dny3ct_l1a" />
-      <unit id="175930839491944302" at="517,0,572,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder_a$layoutFunctionSingleRoleHandler_dny3ct_o1a" />
-      <unit id="175930839491944302" at="158,0,225,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder_a$childCellsListHandler_dny3ct_c1a" />
-      <unit id="175930839491944302" at="253,0,320,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder_a$symbolsListHandler_dny3ct_f1a" />
-      <unit id="175930839491944302" at="347,0,414,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder_a$sharedVariablesListHandler_dny3ct_i1a" />
-      <unit id="175930839491944302" at="36,0,833,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder_a" />
+      <unit id="175930839491944302" at="827,0,832,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder$CONCEPTS" />
+      <unit id="175930839491944302" at="816,0,826,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder$LINKS" />
+      <unit id="175930839491944302" at="596,0,650,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder$paintFunctionSingleRoleHandler_dny3ct_r1a" />
+      <unit id="175930839491944302" at="674,0,728,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder$getCenterYFunctionSingleRoleHandler_dny3ct_u1a" />
+      <unit id="175930839491944302" at="752,0,806,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder$renderTextFunctionSingleRoleHandler_dny3ct_x1a" />
+      <unit id="175930839491944302" at="438,0,493,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder$initFunctionSingleRoleHandler_dny3ct_l1a" />
+      <unit id="175930839491944302" at="517,0,572,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder$layoutFunctionSingleRoleHandler_dny3ct_o1a" />
+      <unit id="175930839491944302" at="158,0,225,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder$childCellsListHandler_dny3ct_c1a" />
+      <unit id="175930839491944302" at="253,0,320,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder$symbolsListHandler_dny3ct_f1a" />
+      <unit id="175930839491944302" at="347,0,414,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder$sharedVariablesListHandler_dny3ct_i1a" />
+      <unit id="175930839491944302" at="36,0,833,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_EditorBuilder" />
     </file>
-    <file name="CellModel_MathBase_InspectorBuilder_a.java">
-      <node id="175930839491944302" at="16,101,17,19" concept="9" />
+    <file name="CellModel_MathBase_InspectorBuilder.java">
+      <node id="175930839491944302" at="16,99,17,19" concept="9" />
       <node id="175930839491944302" at="17,19,18,18" concept="1" />
       <node id="175930839491944302" at="23,26,24,18" concept="6" />
       <node id="175930839491944302" at="27,39,28,31" concept="6" />
@@ -1430,13 +1430,13 @@
       <node id="1214478849829" at="37,5,38,22" concept="6" />
       <node id="175930839491944302" at="13,0,15,0" concept="2" trace="myNode" />
       <node id="175930839491944302" at="27,0,30,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="175930839491944302" at="16,0,20,0" concept="0" trace="CellModel_MathBase_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="175930839491944302" at="16,0,20,0" concept="0" trace="CellModel_MathBase_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1214478849829" at="33,72,37,5" concept="3" />
       <node id="175930839491944302" at="21,0,26,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1214478849829" at="31,0,40,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="175930839491944302" at="23,26,24,18" />
       <scope id="175930839491944302" at="27,39,28,31" />
-      <scope id="175930839491944302" at="16,101,18,18" />
+      <scope id="175930839491944302" at="16,99,18,18" />
       <scope id="1214478849829" at="34,26,36,30" />
       <scope id="175930839491944302" at="27,0,30,0" />
       <scope id="175930839491944302" at="16,0,20,0">
@@ -1449,7 +1449,7 @@
         <var name="editorCell" id="1214478849829" />
       </scope>
       <scope id="1214478849829" at="31,0,40,0" />
-      <unit id="175930839491944302" at="12,0,41,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_InspectorBuilder_a" />
+      <unit id="175930839491944302" at="12,0,41,0" name="de.itemis.mps.editor.math.editor.CellModel_MathBase_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)/8732109676277022148">
@@ -1465,17 +1465,17 @@
   </root>
   <root nodeRef="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)/9120555111506959392">
     <file name="PredefinedMathSymbol_Editor.java">
-      <node id="9120555111506959392" at="11,79,12,86" concept="6" />
+      <node id="9120555111506959392" at="11,79,12,84" concept="6" />
       <node id="9120555111506959392" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9120555111506959392" at="11,79,12,86" />
+      <scope id="9120555111506959392" at="11,79,12,84" />
       <scope id="9120555111506959392" at="11,0,14,0">
         <var name="editorContext" id="9120555111506959392" />
         <var name="node" id="9120555111506959392" />
       </scope>
       <unit id="9120555111506959392" at="10,0,15,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_Editor" />
     </file>
-    <file name="PredefinedMathSymbol_EditorBuilder_a.java">
-      <node id="9120555111506959392" at="43,100,44,19" concept="9" />
+    <file name="PredefinedMathSymbol_EditorBuilder.java">
+      <node id="9120555111506959392" at="43,98,44,19" concept="9" />
       <node id="9120555111506959392" at="44,19,45,18" concept="1" />
       <node id="9120555111506959392" at="50,26,51,18" concept="6" />
       <node id="9120555111506959392" at="54,39,55,32" concept="6" />
@@ -1657,7 +1657,7 @@
       <node id="9120555111506959392" at="308,87,311,7" concept="3" />
       <node id="9120555111506959392" at="311,7,314,7" concept="3" />
       <node id="9120555111506959392" at="330,0,333,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="9120555111506959392" at="43,0,47,0" concept="0" trace="PredefinedMathSymbol_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9120555111506959392" at="43,0,47,0" concept="0" trace="PredefinedMathSymbol_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9120555111506959392" at="123,0,127,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9120555111506959392" at="131,0,135,0" concept="0" trace="paintFunctionSingleRoleHandler_4n7fw3_e0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="9120555111506959392" at="201,0,205,0" concept="4" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1710,7 +1710,7 @@
       <scope id="9120555111506959392" at="312,42,313,59" />
       <scope id="9120555111506959392" at="326,17,327,42" />
       <scope id="9120555111506959392" at="330,40,331,39" />
-      <scope id="9120555111506959392" at="43,100,45,18" />
+      <scope id="9120555111506959392" at="43,98,45,18" />
       <scope id="9120555111506959806" at="95,74,97,145">
         <var name="manager" id="9120555111506959806" />
       </scope>
@@ -1862,28 +1862,28 @@
       <scope id="9120555111506959392" at="58,0,77,0" />
       <scope id="9120555111506959806" at="83,41,102,5" />
       <scope id="9120555111506959806" at="83,0,104,0" />
-      <unit id="9120555111506959392" at="345,0,348,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder_a$PROPS" />
-      <unit id="9120555111506959392" at="349,0,352,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder_a$CONCEPTS" />
-      <unit id="9120555111506959392" at="353,0,358,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder_a$LINKS" />
-      <unit id="9120555111506959392" at="283,0,334,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder_a$renderTextFunctionSingleRoleHandler_4n7fw3_k0" />
-      <unit id="9120555111506959392" at="127,0,181,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder_a$paintFunctionSingleRoleHandler_4n7fw3_e0" />
-      <unit id="9120555111506959392" at="205,0,259,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder_a$updateDimensionFunctionSingleRoleHandler_4n7fw3_h0" />
-      <unit id="9120555111506959392" at="39,0,359,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder_a" />
+      <unit id="9120555111506959392" at="345,0,348,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder$PROPS" />
+      <unit id="9120555111506959392" at="349,0,352,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder$CONCEPTS" />
+      <unit id="9120555111506959392" at="353,0,358,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder$LINKS" />
+      <unit id="9120555111506959392" at="283,0,334,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder$renderTextFunctionSingleRoleHandler_4n7fw3_k0" />
+      <unit id="9120555111506959392" at="127,0,181,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder$paintFunctionSingleRoleHandler_4n7fw3_e0" />
+      <unit id="9120555111506959392" at="205,0,259,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder$updateDimensionFunctionSingleRoleHandler_4n7fw3_h0" />
+      <unit id="9120555111506959392" at="39,0,359,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbol_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)/9120555111507643912">
     <file name="SymbolLayoutElement_Editor.java">
-      <node id="9120555111507643912" at="11,79,12,85" concept="6" />
+      <node id="9120555111507643912" at="11,79,12,83" concept="6" />
       <node id="9120555111507643912" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9120555111507643912" at="11,79,12,85" />
+      <scope id="9120555111507643912" at="11,79,12,83" />
       <scope id="9120555111507643912" at="11,0,14,0">
         <var name="editorContext" id="9120555111507643912" />
         <var name="node" id="9120555111507643912" />
       </scope>
       <unit id="9120555111507643912" at="10,0,15,0" name="de.itemis.mps.editor.math.editor.SymbolLayoutElement_Editor" />
     </file>
-    <file name="SymbolLayoutElement_EditorBuilder_a.java">
-      <node id="9120555111507643912" at="43,99,44,19" concept="9" />
+    <file name="SymbolLayoutElement_EditorBuilder.java">
+      <node id="9120555111507643912" at="43,97,44,19" concept="9" />
       <node id="9120555111507643912" at="44,19,45,18" concept="1" />
       <node id="9120555111507643912" at="50,26,51,18" concept="6" />
       <node id="9120555111507643912" at="54,39,55,32" concept="6" />
@@ -1946,7 +1946,7 @@
       <node id="9120555111507644278" at="102,0,104,0" concept="2" trace="myNode" />
       <node id="9120555111507643912" at="54,0,57,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9120555111507644278" at="112,0,115,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="9120555111507643912" at="43,0,47,0" concept="0" trace="SymbolLayoutElement_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9120555111507643912" at="43,0,47,0" concept="0" trace="SymbolLayoutElement_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9120555111507643912" at="87,0,91,5" concept="3" />
       <node id="9120555111507643912" at="48,0,53,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9120555111507643912" at="94,205,99,22" concept="3" />
@@ -1965,7 +1965,7 @@
       <scope id="9120555111507644278" at="112,41,113,32" />
       <scope id="9120555111507644278" at="118,28,119,20" />
       <scope id="9120555111507644289" at="142,17,143,42" />
-      <scope id="9120555111507643912" at="43,99,45,18" />
+      <scope id="9120555111507643912" at="43,97,45,18" />
       <scope id="9120555111507643912" at="88,40,90,45" />
       <scope id="9120555111507643912" at="95,73,97,145">
         <var name="manager" id="9120555111507643912" />
@@ -2020,27 +2020,27 @@
         <var name="referenceLink" id="9120555111507643912" />
       </scope>
       <scope id="9120555111507643912" at="66,0,101,0" />
-      <unit id="9120555111507643912" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.SymbolLayoutElement_EditorBuilder_a$LINKS" />
-      <unit id="9120555111507643912" at="157,0,160,0" name="de.itemis.mps.editor.math.editor.SymbolLayoutElement_EditorBuilder_a$PROPS" />
-      <unit id="9120555111507643912" at="152,0,156,0" name="de.itemis.mps.editor.math.editor.SymbolLayoutElement_EditorBuilder_a$CONCEPTS" />
-      <unit id="9120555111507643912" at="68,42,83,5" name="de.itemis.mps.editor.math.editor.SymbolLayoutElement_EditorBuilder_a$1" />
-      <unit id="9120555111507644278" at="101,0,147,0" name="de.itemis.mps.editor.math.editor.SymbolLayoutElement_EditorBuilder_a$Inline_Builder0" />
-      <unit id="9120555111507643912" at="39,0,161,0" name="de.itemis.mps.editor.math.editor.SymbolLayoutElement_EditorBuilder_a" />
+      <unit id="9120555111507643912" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.SymbolLayoutElement_EditorBuilder$LINKS" />
+      <unit id="9120555111507643912" at="157,0,160,0" name="de.itemis.mps.editor.math.editor.SymbolLayoutElement_EditorBuilder$PROPS" />
+      <unit id="9120555111507643912" at="152,0,156,0" name="de.itemis.mps.editor.math.editor.SymbolLayoutElement_EditorBuilder$CONCEPTS" />
+      <unit id="9120555111507643912" at="68,42,83,5" name="de.itemis.mps.editor.math.editor.SymbolLayoutElement_EditorBuilder$1" />
+      <unit id="9120555111507644278" at="101,0,147,0" name="de.itemis.mps.editor.math.editor.SymbolLayoutElement_EditorBuilder$Inline_Builder0" />
+      <unit id="9120555111507643912" at="39,0,161,0" name="de.itemis.mps.editor.math.editor.SymbolLayoutElement_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)/9120555111508998810">
     <file name="SharedVariableDeclaration_Editor.java">
-      <node id="9120555111508998810" at="11,79,12,91" concept="6" />
+      <node id="9120555111508998810" at="11,79,12,89" concept="6" />
       <node id="9120555111508998810" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9120555111508998810" at="11,79,12,91" />
+      <scope id="9120555111508998810" at="11,79,12,89" />
       <scope id="9120555111508998810" at="11,0,14,0">
         <var name="editorContext" id="9120555111508998810" />
         <var name="node" id="9120555111508998810" />
       </scope>
       <unit id="9120555111508998810" at="10,0,15,0" name="de.itemis.mps.editor.math.editor.SharedVariableDeclaration_Editor" />
     </file>
-    <file name="SharedVariableDeclaration_EditorBuilder_a.java">
-      <node id="9120555111508998810" at="40,105,41,19" concept="9" />
+    <file name="SharedVariableDeclaration_EditorBuilder.java">
+      <node id="9120555111508998810" at="40,103,41,19" concept="9" />
       <node id="9120555111508998810" at="41,19,42,18" concept="1" />
       <node id="9120555111508998810" at="47,26,48,18" concept="6" />
       <node id="9120555111508998810" at="51,39,52,32" concept="6" />
@@ -2100,7 +2100,7 @@
       <node id="9120555111508998810" at="121,87,124,7" concept="3" />
       <node id="9120555111508998810" at="124,7,127,7" concept="3" />
       <node id="9120555111508998810" at="143,0,146,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="9120555111508998810" at="40,0,44,0" concept="0" trace="SharedVariableDeclaration_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9120555111508998810" at="40,0,44,0" concept="0" trace="SharedVariableDeclaration_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9120555111508998810" at="92,0,96,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9120555111508998810" at="100,0,104,0" concept="0" trace="typeSingleRoleHandler_at4gzd_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="9120555111508998810" at="45,0,50,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2122,7 +2122,7 @@
       <scope id="9120555111508998810" at="125,42,126,45" />
       <scope id="9120555111508998810" at="139,17,140,42" />
       <scope id="9120555111508998810" at="143,40,144,25" />
-      <scope id="9120555111508998810" at="40,105,42,18" />
+      <scope id="9120555111508998810" at="40,103,42,18" />
       <scope id="9120555111508999199" at="77,74,79,145">
         <var name="manager" id="9120555111508999199" />
       </scope>
@@ -2177,26 +2177,26 @@
       <scope id="9120555111508998810" at="129,0,143,0" />
       <scope id="9120555111508999199" at="65,41,84,5" />
       <scope id="9120555111508999199" at="65,0,86,0" />
-      <unit id="9120555111508998810" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.SharedVariableDeclaration_EditorBuilder_a$PROPS" />
-      <unit id="9120555111508998810" at="152,0,155,0" name="de.itemis.mps.editor.math.editor.SharedVariableDeclaration_EditorBuilder_a$CONCEPTS" />
-      <unit id="9120555111508998810" at="156,0,159,0" name="de.itemis.mps.editor.math.editor.SharedVariableDeclaration_EditorBuilder_a$LINKS" />
-      <unit id="9120555111508998810" at="96,0,147,0" name="de.itemis.mps.editor.math.editor.SharedVariableDeclaration_EditorBuilder_a$typeSingleRoleHandler_at4gzd_c0" />
-      <unit id="9120555111508998810" at="36,0,160,0" name="de.itemis.mps.editor.math.editor.SharedVariableDeclaration_EditorBuilder_a" />
+      <unit id="9120555111508998810" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.SharedVariableDeclaration_EditorBuilder$PROPS" />
+      <unit id="9120555111508998810" at="152,0,155,0" name="de.itemis.mps.editor.math.editor.SharedVariableDeclaration_EditorBuilder$CONCEPTS" />
+      <unit id="9120555111508998810" at="156,0,159,0" name="de.itemis.mps.editor.math.editor.SharedVariableDeclaration_EditorBuilder$LINKS" />
+      <unit id="9120555111508998810" at="96,0,147,0" name="de.itemis.mps.editor.math.editor.SharedVariableDeclaration_EditorBuilder$typeSingleRoleHandler_at4gzd_c0" />
+      <unit id="9120555111508998810" at="36,0,160,0" name="de.itemis.mps.editor.math.editor.SharedVariableDeclaration_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)/9120555111509402130">
     <file name="SharedVariableReference_Editor.java">
-      <node id="9120555111509402130" at="11,79,12,89" concept="6" />
+      <node id="9120555111509402130" at="11,79,12,87" concept="6" />
       <node id="9120555111509402130" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9120555111509402130" at="11,79,12,89" />
+      <scope id="9120555111509402130" at="11,79,12,87" />
       <scope id="9120555111509402130" at="11,0,14,0">
         <var name="editorContext" id="9120555111509402130" />
         <var name="node" id="9120555111509402130" />
       </scope>
       <unit id="9120555111509402130" at="10,0,15,0" name="de.itemis.mps.editor.math.editor.SharedVariableReference_Editor" />
     </file>
-    <file name="SharedVariableReference_EditorBuilder_a.java">
-      <node id="9120555111509402130" at="43,103,44,19" concept="9" />
+    <file name="SharedVariableReference_EditorBuilder.java">
+      <node id="9120555111509402130" at="43,101,44,19" concept="9" />
       <node id="9120555111509402130" at="44,19,45,18" concept="1" />
       <node id="9120555111509402130" at="50,26,51,18" concept="6" />
       <node id="9120555111509402130" at="54,39,55,32" concept="6" />
@@ -2259,7 +2259,7 @@
       <node id="9120555111509402445" at="102,0,104,0" concept="2" trace="myNode" />
       <node id="9120555111509402130" at="54,0,57,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9120555111509402445" at="112,0,115,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="9120555111509402130" at="43,0,47,0" concept="0" trace="SharedVariableReference_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9120555111509402130" at="43,0,47,0" concept="0" trace="SharedVariableReference_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9120555111509402130" at="87,0,91,5" concept="3" />
       <node id="9120555111509402130" at="48,0,53,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9120555111509402130" at="94,205,99,22" concept="3" />
@@ -2278,7 +2278,7 @@
       <scope id="9120555111509402445" at="112,41,113,32" />
       <scope id="9120555111509402445" at="118,28,119,20" />
       <scope id="9120555111509402456" at="142,17,143,42" />
-      <scope id="9120555111509402130" at="43,103,45,18" />
+      <scope id="9120555111509402130" at="43,101,45,18" />
       <scope id="9120555111509402130" at="88,40,90,50" />
       <scope id="9120555111509402130" at="95,73,97,145">
         <var name="manager" id="9120555111509402130" />
@@ -2333,27 +2333,27 @@
         <var name="referenceLink" id="9120555111509402130" />
       </scope>
       <scope id="9120555111509402130" at="66,0,101,0" />
-      <unit id="9120555111509402130" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.SharedVariableReference_EditorBuilder_a$LINKS" />
-      <unit id="9120555111509402130" at="157,0,160,0" name="de.itemis.mps.editor.math.editor.SharedVariableReference_EditorBuilder_a$PROPS" />
-      <unit id="9120555111509402130" at="152,0,156,0" name="de.itemis.mps.editor.math.editor.SharedVariableReference_EditorBuilder_a$CONCEPTS" />
-      <unit id="9120555111509402130" at="68,42,83,5" name="de.itemis.mps.editor.math.editor.SharedVariableReference_EditorBuilder_a$1" />
-      <unit id="9120555111509402445" at="101,0,147,0" name="de.itemis.mps.editor.math.editor.SharedVariableReference_EditorBuilder_a$Inline_Builder0" />
-      <unit id="9120555111509402130" at="39,0,161,0" name="de.itemis.mps.editor.math.editor.SharedVariableReference_EditorBuilder_a" />
+      <unit id="9120555111509402130" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.SharedVariableReference_EditorBuilder$LINKS" />
+      <unit id="9120555111509402130" at="157,0,160,0" name="de.itemis.mps.editor.math.editor.SharedVariableReference_EditorBuilder$PROPS" />
+      <unit id="9120555111509402130" at="152,0,156,0" name="de.itemis.mps.editor.math.editor.SharedVariableReference_EditorBuilder$CONCEPTS" />
+      <unit id="9120555111509402130" at="68,42,83,5" name="de.itemis.mps.editor.math.editor.SharedVariableReference_EditorBuilder$1" />
+      <unit id="9120555111509402445" at="101,0,147,0" name="de.itemis.mps.editor.math.editor.SharedVariableReference_EditorBuilder$Inline_Builder0" />
+      <unit id="9120555111509402130" at="39,0,161,0" name="de.itemis.mps.editor.math.editor.SharedVariableReference_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)/9120555111513575720">
     <file name="PredefinedMathSymbolReference_Editor.java">
-      <node id="9120555111513575720" at="11,79,12,95" concept="6" />
+      <node id="9120555111513575720" at="11,79,12,93" concept="6" />
       <node id="9120555111513575720" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9120555111513575720" at="11,79,12,95" />
+      <scope id="9120555111513575720" at="11,79,12,93" />
       <scope id="9120555111513575720" at="11,0,14,0">
         <var name="editorContext" id="9120555111513575720" />
         <var name="node" id="9120555111513575720" />
       </scope>
       <unit id="9120555111513575720" at="10,0,15,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbolReference_Editor" />
     </file>
-    <file name="PredefinedMathSymbolReference_EditorBuilder_a.java">
-      <node id="9120555111513575720" at="43,109,44,19" concept="9" />
+    <file name="PredefinedMathSymbolReference_EditorBuilder.java">
+      <node id="9120555111513575720" at="43,107,44,19" concept="9" />
       <node id="9120555111513575720" at="44,19,45,18" concept="1" />
       <node id="9120555111513575720" at="50,26,51,18" concept="6" />
       <node id="9120555111513575720" at="54,39,55,32" concept="6" />
@@ -2416,7 +2416,7 @@
       <node id="9120555111513576090" at="102,0,104,0" concept="2" trace="myNode" />
       <node id="9120555111513575720" at="54,0,57,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9120555111513576090" at="112,0,115,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="9120555111513575720" at="43,0,47,0" concept="0" trace="PredefinedMathSymbolReference_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9120555111513575720" at="43,0,47,0" concept="0" trace="PredefinedMathSymbolReference_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9120555111513575720" at="87,0,91,5" concept="3" />
       <node id="9120555111513575720" at="48,0,53,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9120555111513575720" at="94,205,99,22" concept="3" />
@@ -2435,7 +2435,7 @@
       <scope id="9120555111513576090" at="112,41,113,32" />
       <scope id="9120555111513576090" at="118,28,119,20" />
       <scope id="9120555111513576110" at="142,17,143,42" />
-      <scope id="9120555111513575720" at="43,109,45,18" />
+      <scope id="9120555111513575720" at="43,107,45,18" />
       <scope id="9120555111513575720" at="88,40,90,43" />
       <scope id="9120555111513575720" at="95,73,97,145">
         <var name="manager" id="9120555111513575720" />
@@ -2490,22 +2490,22 @@
         <var name="referenceLink" id="9120555111513575720" />
       </scope>
       <scope id="9120555111513575720" at="66,0,101,0" />
-      <unit id="9120555111513575720" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbolReference_EditorBuilder_a$LINKS" />
-      <unit id="9120555111513575720" at="157,0,160,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbolReference_EditorBuilder_a$PROPS" />
-      <unit id="9120555111513575720" at="152,0,156,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbolReference_EditorBuilder_a$CONCEPTS" />
-      <unit id="9120555111513575720" at="68,42,83,5" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbolReference_EditorBuilder_a$1" />
-      <unit id="9120555111513576090" at="101,0,147,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbolReference_EditorBuilder_a$Inline_Builder0" />
-      <unit id="9120555111513575720" at="39,0,161,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbolReference_EditorBuilder_a" />
+      <unit id="9120555111513575720" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbolReference_EditorBuilder$LINKS" />
+      <unit id="9120555111513575720" at="157,0,160,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbolReference_EditorBuilder$PROPS" />
+      <unit id="9120555111513575720" at="152,0,156,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbolReference_EditorBuilder$CONCEPTS" />
+      <unit id="9120555111513575720" at="68,42,83,5" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbolReference_EditorBuilder$1" />
+      <unit id="9120555111513576090" at="101,0,147,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbolReference_EditorBuilder$Inline_Builder0" />
+      <unit id="9120555111513575720" at="39,0,161,0" name="de.itemis.mps.editor.math.editor.PredefinedMathSymbolReference_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)/9120555111513755637">
     <file name="MathSymbolDecl_Editor.java">
-      <node id="9120555111513755637" at="11,79,12,80" concept="6" />
-      <node id="9120555111513755637" at="14,82,15,83" concept="6" />
+      <node id="9120555111513755637" at="11,79,12,78" concept="6" />
+      <node id="9120555111513755637" at="14,82,15,81" concept="6" />
       <node id="9120555111513755637" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9120555111513755637" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9120555111513755637" at="11,79,12,80" />
-      <scope id="9120555111513755637" at="14,82,15,83" />
+      <scope id="9120555111513755637" at="11,79,12,78" />
+      <scope id="9120555111513755637" at="14,82,15,81" />
       <scope id="9120555111513755637" at="11,0,14,0">
         <var name="editorContext" id="9120555111513755637" />
         <var name="node" id="9120555111513755637" />
@@ -2516,8 +2516,8 @@
       </scope>
       <unit id="9120555111513755637" at="10,0,18,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_Editor" />
     </file>
-    <file name="MathSymbolDecl_EditorBuilder_a.java">
-      <node id="9120555111513755637" at="40,94,41,19" concept="9" />
+    <file name="MathSymbolDecl_EditorBuilder.java">
+      <node id="9120555111513755637" at="40,92,41,19" concept="9" />
       <node id="9120555111513755637" at="41,19,42,18" concept="1" />
       <node id="9120555111513755637" at="47,26,48,18" concept="6" />
       <node id="9120555111513755637" at="51,39,52,32" concept="6" />
@@ -2577,7 +2577,7 @@
       <node id="9120555111513755637" at="121,87,124,7" concept="3" />
       <node id="9120555111513755637" at="124,7,127,7" concept="3" />
       <node id="9120555111513755637" at="143,0,146,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="9120555111513755637" at="40,0,44,0" concept="0" trace="MathSymbolDecl_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9120555111513755637" at="40,0,44,0" concept="0" trace="MathSymbolDecl_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9120555111513755637" at="92,0,96,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9120555111513755637" at="100,0,104,0" concept="0" trace="symbolSingleRoleHandler_y9ew9t_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="9120555111513755637" at="45,0,50,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2599,7 +2599,7 @@
       <scope id="9120555111513755637" at="125,42,126,47" />
       <scope id="9120555111513755637" at="139,17,140,42" />
       <scope id="9120555111513755637" at="143,40,144,27" />
-      <scope id="9120555111513755637" at="40,94,42,18" />
+      <scope id="9120555111513755637" at="40,92,42,18" />
       <scope id="9120555111513756014" at="77,74,79,145">
         <var name="manager" id="9120555111513756014" />
       </scope>
@@ -2654,14 +2654,14 @@
       <scope id="9120555111513755637" at="129,0,143,0" />
       <scope id="9120555111513756014" at="65,41,84,5" />
       <scope id="9120555111513756014" at="65,0,86,0" />
-      <unit id="9120555111513755637" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_EditorBuilder_a$PROPS" />
-      <unit id="9120555111513755637" at="152,0,155,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_EditorBuilder_a$CONCEPTS" />
-      <unit id="9120555111513755637" at="156,0,159,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_EditorBuilder_a$LINKS" />
-      <unit id="9120555111513755637" at="96,0,147,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_EditorBuilder_a$symbolSingleRoleHandler_y9ew9t_c0" />
-      <unit id="9120555111513755637" at="36,0,160,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_EditorBuilder_a" />
+      <unit id="9120555111513755637" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_EditorBuilder$PROPS" />
+      <unit id="9120555111513755637" at="152,0,155,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_EditorBuilder$CONCEPTS" />
+      <unit id="9120555111513755637" at="156,0,159,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_EditorBuilder$LINKS" />
+      <unit id="9120555111513755637" at="96,0,147,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_EditorBuilder$symbolSingleRoleHandler_y9ew9t_c0" />
+      <unit id="9120555111513755637" at="36,0,160,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_EditorBuilder" />
     </file>
-    <file name="MathSymbolDecl_InspectorBuilder_a.java">
-      <node id="9120555111513755637" at="32,97,33,19" concept="9" />
+    <file name="MathSymbolDecl_InspectorBuilder.java">
+      <node id="9120555111513755637" at="32,95,33,19" concept="9" />
       <node id="9120555111513755637" at="33,19,34,18" concept="1" />
       <node id="9120555111513755637" at="39,26,40,18" concept="6" />
       <node id="9120555111513755637" at="43,39,44,32" concept="6" />
@@ -2694,7 +2694,7 @@
       <node id="9120555111513755637" at="89,0,90,0" concept="8" trace="PropertyAttribute$Gb" />
       <node id="9120555111513755637" at="29,0,31,0" concept="2" trace="myNode" />
       <node id="9120555111513755637" at="43,0,46,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="9120555111513755637" at="32,0,36,0" concept="0" trace="MathSymbolDecl_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9120555111513755637" at="32,0,36,0" concept="0" trace="MathSymbolDecl_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9120555111513755637" at="37,0,42,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5098456557389520988" at="73,208,78,24" concept="3" />
       <node id="5098456557389520939" at="56,0,62,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -2704,7 +2704,7 @@
       <scope id="9120555111513755637" at="39,26,40,18" />
       <scope id="9120555111513755637" at="43,39,44,32" />
       <scope id="5098456557389520988" at="79,15,80,40" />
-      <scope id="9120555111513755637" at="32,97,34,18" />
+      <scope id="9120555111513755637" at="32,95,34,18" />
       <scope id="5098456557389520988" at="74,74,76,145">
         <var name="manager" id="5098456557389520988" />
       </scope>
@@ -2730,24 +2730,24 @@
       </scope>
       <scope id="5098456557389520988" at="62,41,81,5" />
       <scope id="5098456557389520988" at="62,0,83,0" />
-      <unit id="9120555111513755637" at="84,0,87,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_InspectorBuilder_a$PROPS" />
-      <unit id="9120555111513755637" at="88,0,91,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_InspectorBuilder_a$CONCEPTS" />
-      <unit id="9120555111513755637" at="28,0,92,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_InspectorBuilder_a" />
+      <unit id="9120555111513755637" at="84,0,87,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_InspectorBuilder$PROPS" />
+      <unit id="9120555111513755637" at="88,0,91,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_InspectorBuilder$CONCEPTS" />
+      <unit id="9120555111513755637" at="28,0,92,0" name="de.itemis.mps.editor.math.editor.MathSymbolDecl_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)/9120555111514550851">
     <file name="MathSymbolReferenceExpression_Editor.java">
-      <node id="9120555111514550851" at="11,79,12,95" concept="6" />
+      <node id="9120555111514550851" at="11,79,12,93" concept="6" />
       <node id="9120555111514550851" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9120555111514550851" at="11,79,12,95" />
+      <scope id="9120555111514550851" at="11,79,12,93" />
       <scope id="9120555111514550851" at="11,0,14,0">
         <var name="editorContext" id="9120555111514550851" />
         <var name="node" id="9120555111514550851" />
       </scope>
       <unit id="9120555111514550851" at="10,0,15,0" name="de.itemis.mps.editor.math.editor.MathSymbolReferenceExpression_Editor" />
     </file>
-    <file name="MathSymbolReferenceExpression_EditorBuilder_a.java">
-      <node id="9120555111514550851" at="43,109,44,19" concept="9" />
+    <file name="MathSymbolReferenceExpression_EditorBuilder.java">
+      <node id="9120555111514550851" at="43,107,44,19" concept="9" />
       <node id="9120555111514550851" at="44,19,45,18" concept="1" />
       <node id="9120555111514550851" at="50,26,51,18" concept="6" />
       <node id="9120555111514550851" at="54,39,55,32" concept="6" />
@@ -2810,7 +2810,7 @@
       <node id="9120555111514551217" at="102,0,104,0" concept="2" trace="myNode" />
       <node id="9120555111514550851" at="54,0,57,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9120555111514551217" at="112,0,115,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="9120555111514550851" at="43,0,47,0" concept="0" trace="MathSymbolReferenceExpression_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9120555111514550851" at="43,0,47,0" concept="0" trace="MathSymbolReferenceExpression_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9120555111514550851" at="87,0,91,5" concept="3" />
       <node id="9120555111514550851" at="48,0,53,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9120555111514550851" at="94,205,99,22" concept="3" />
@@ -2829,7 +2829,7 @@
       <scope id="9120555111514551217" at="112,41,113,32" />
       <scope id="9120555111514551217" at="118,28,119,20" />
       <scope id="9120555111514551228" at="142,17,143,42" />
-      <scope id="9120555111514550851" at="43,109,45,18" />
+      <scope id="9120555111514550851" at="43,107,45,18" />
       <scope id="9120555111514550851" at="88,40,90,43" />
       <scope id="9120555111514550851" at="95,73,97,145">
         <var name="manager" id="9120555111514550851" />
@@ -2884,27 +2884,27 @@
         <var name="referenceLink" id="9120555111514550851" />
       </scope>
       <scope id="9120555111514550851" at="66,0,101,0" />
-      <unit id="9120555111514550851" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.MathSymbolReferenceExpression_EditorBuilder_a$LINKS" />
-      <unit id="9120555111514550851" at="157,0,160,0" name="de.itemis.mps.editor.math.editor.MathSymbolReferenceExpression_EditorBuilder_a$PROPS" />
-      <unit id="9120555111514550851" at="152,0,156,0" name="de.itemis.mps.editor.math.editor.MathSymbolReferenceExpression_EditorBuilder_a$CONCEPTS" />
-      <unit id="9120555111514550851" at="68,42,83,5" name="de.itemis.mps.editor.math.editor.MathSymbolReferenceExpression_EditorBuilder_a$1" />
-      <unit id="9120555111514551217" at="101,0,147,0" name="de.itemis.mps.editor.math.editor.MathSymbolReferenceExpression_EditorBuilder_a$Inline_Builder0" />
-      <unit id="9120555111514550851" at="39,0,161,0" name="de.itemis.mps.editor.math.editor.MathSymbolReferenceExpression_EditorBuilder_a" />
+      <unit id="9120555111514550851" at="148,0,151,0" name="de.itemis.mps.editor.math.editor.MathSymbolReferenceExpression_EditorBuilder$LINKS" />
+      <unit id="9120555111514550851" at="157,0,160,0" name="de.itemis.mps.editor.math.editor.MathSymbolReferenceExpression_EditorBuilder$PROPS" />
+      <unit id="9120555111514550851" at="152,0,156,0" name="de.itemis.mps.editor.math.editor.MathSymbolReferenceExpression_EditorBuilder$CONCEPTS" />
+      <unit id="9120555111514550851" at="68,42,83,5" name="de.itemis.mps.editor.math.editor.MathSymbolReferenceExpression_EditorBuilder$1" />
+      <unit id="9120555111514551217" at="101,0,147,0" name="de.itemis.mps.editor.math.editor.MathSymbolReferenceExpression_EditorBuilder$Inline_Builder0" />
+      <unit id="9120555111514550851" at="39,0,161,0" name="de.itemis.mps.editor.math.editor.MathSymbolReferenceExpression_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)/9120555111528208656">
     <file name="InlineMathSymbol_Editor.java">
-      <node id="9120555111528208656" at="11,79,12,82" concept="6" />
+      <node id="9120555111528208656" at="11,79,12,80" concept="6" />
       <node id="9120555111528208656" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9120555111528208656" at="11,79,12,82" />
+      <scope id="9120555111528208656" at="11,79,12,80" />
       <scope id="9120555111528208656" at="11,0,14,0">
         <var name="editorContext" id="9120555111528208656" />
         <var name="node" id="9120555111528208656" />
       </scope>
       <unit id="9120555111528208656" at="10,0,15,0" name="de.itemis.mps.editor.math.editor.InlineMathSymbol_Editor" />
     </file>
-    <file name="InlineMathSymbol_EditorBuilder_a.java">
-      <node id="9120555111528208656" at="30,96,31,19" concept="9" />
+    <file name="InlineMathSymbol_EditorBuilder.java">
+      <node id="9120555111528208656" at="30,94,31,19" concept="9" />
       <node id="9120555111528208656" at="31,19,32,18" concept="1" />
       <node id="9120555111528208656" at="37,26,38,18" concept="6" />
       <node id="9120555111528208656" at="41,39,42,32" concept="6" />
@@ -3069,7 +3069,7 @@
       <node id="9120555111528208656" at="273,87,276,7" concept="3" />
       <node id="9120555111528208656" at="276,7,279,7" concept="3" />
       <node id="9120555111528208656" at="295,0,298,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="9120555111528208656" at="30,0,34,0" concept="0" trace="InlineMathSymbol_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9120555111528208656" at="30,0,34,0" concept="0" trace="InlineMathSymbol_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9120555111528208656" at="88,0,92,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9120555111528208656" at="96,0,100,0" concept="0" trace="paintFunctionSingleRoleHandler_i9i715_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="9120555111528208656" at="166,0,170,0" concept="4" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -3118,7 +3118,7 @@
       <scope id="9120555111528208656" at="277,42,278,59" />
       <scope id="9120555111528208656" at="291,17,292,42" />
       <scope id="9120555111528208656" at="295,40,296,39" />
-      <scope id="9120555111528208656" at="30,96,32,18" />
+      <scope id="9120555111528208656" at="30,94,32,18" />
       <scope id="9120555111528208656" at="88,40,90,33">
         <var name="provider" id="9120555111528208656" />
       </scope>
@@ -3259,11 +3259,11 @@
         <var name="editorCell" id="9120555111528208656" />
       </scope>
       <scope id="9120555111528208656" at="45,0,63,0" />
-      <unit id="9120555111528208656" at="310,0,315,0" name="de.itemis.mps.editor.math.editor.InlineMathSymbol_EditorBuilder_a$LINKS" />
-      <unit id="9120555111528208656" at="248,0,299,0" name="de.itemis.mps.editor.math.editor.InlineMathSymbol_EditorBuilder_a$renderTextFunctionSingleRoleHandler_i9i715_j0" />
-      <unit id="9120555111528208656" at="92,0,146,0" name="de.itemis.mps.editor.math.editor.InlineMathSymbol_EditorBuilder_a$paintFunctionSingleRoleHandler_i9i715_d0" />
-      <unit id="9120555111528208656" at="170,0,224,0" name="de.itemis.mps.editor.math.editor.InlineMathSymbol_EditorBuilder_a$updateDimensionFunctionSingleRoleHandler_i9i715_g0" />
-      <unit id="9120555111528208656" at="26,0,316,0" name="de.itemis.mps.editor.math.editor.InlineMathSymbol_EditorBuilder_a" />
+      <unit id="9120555111528208656" at="310,0,315,0" name="de.itemis.mps.editor.math.editor.InlineMathSymbol_EditorBuilder$LINKS" />
+      <unit id="9120555111528208656" at="248,0,299,0" name="de.itemis.mps.editor.math.editor.InlineMathSymbol_EditorBuilder$renderTextFunctionSingleRoleHandler_i9i715_j0" />
+      <unit id="9120555111528208656" at="92,0,146,0" name="de.itemis.mps.editor.math.editor.InlineMathSymbol_EditorBuilder$paintFunctionSingleRoleHandler_i9i715_d0" />
+      <unit id="9120555111528208656" at="170,0,224,0" name="de.itemis.mps.editor.math.editor.InlineMathSymbol_EditorBuilder$updateDimensionFunctionSingleRoleHandler_i9i715_g0" />
+      <unit id="9120555111528208656" at="26,0,316,0" name="de.itemis.mps.editor.math.editor.InlineMathSymbol_EditorBuilder" />
     </file>
   </root>
 </debug-info>

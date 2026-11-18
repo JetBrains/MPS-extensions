@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class MappingLabelDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new MappingLabelDeclaration_EditorBuilder_a(editorContext, node).createCell();
+    return new MappingLabelDeclaration_EditorBuilder(editorContext, node).createCell();
   }
 }

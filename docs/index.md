@@ -28,7 +28,7 @@ To get started, grab a release from our release page on [GitHub](https://github.
 
 See the documentation regarding the individual extensions above. Documentation-related contributions are always welcome!
 
-### Artefacts on the nexus server
+### Artefacts on the Nexus server
 
 We also provide the artefacts as a maven repository. Where you can fetch them during your CI build to set up your local development environment.
 

@@ -42,17 +42,17 @@
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/2130403681863114752">
     <file name="LinkMember_Editor.java">
-      <node id="2130403681863114752" at="11,79,12,76" concept="7" />
+      <node id="2130403681863114752" at="11,79,12,74" concept="7" />
       <node id="2130403681863114752" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2130403681863114752" at="11,79,12,76" />
+      <scope id="2130403681863114752" at="11,79,12,74" />
       <scope id="2130403681863114752" at="11,0,14,0">
         <var name="editorContext" id="2130403681863114752" />
         <var name="node" id="2130403681863114752" />
       </scope>
       <unit id="2130403681863114752" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.LinkMember_Editor" />
     </file>
-    <file name="LinkMember_EditorBuilder_a.java">
-      <node id="2130403681863114752" at="45,90,46,19" concept="12" />
+    <file name="LinkMember_EditorBuilder.java">
+      <node id="2130403681863114752" at="45,88,46,19" concept="12" />
       <node id="2130403681863114752" at="46,19,47,18" concept="2" />
       <node id="2130403681863114752" at="52,26,53,18" concept="7" />
       <node id="2130403681863114752" at="56,39,57,32" concept="7" />
@@ -122,7 +122,7 @@
       <node id="5455284157994012197" at="109,0,111,0" concept="3" trace="myNode" />
       <node id="2130403681863114752" at="56,0,59,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5455284157994012197" at="119,0,122,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2130403681863114752" at="45,0,49,0" concept="1" trace="LinkMember_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2130403681863114752" at="45,0,49,0" concept="1" trace="LinkMember_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2130403681863114752" at="90,0,94,5" concept="4" />
       <node id="579990121611016157" at="154,0,158,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2130403681863114752" at="50,0,55,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -142,7 +142,7 @@
       <scope id="5455284157994012197" at="119,41,120,32" />
       <scope id="5455284157994012197" at="125,28,126,20" />
       <scope id="5455284157994012198" at="149,17,150,42" />
-      <scope id="2130403681863114752" at="45,90,47,18" />
+      <scope id="2130403681863114752" at="45,88,47,18" />
       <scope id="2130403681863114752" at="91,40,93,43" />
       <scope id="2130403681863114752" at="102,73,104,145">
         <var name="manager" id="2130403681863114752" />
@@ -202,27 +202,27 @@
         <var name="style" id="2130403681863114752" />
       </scope>
       <scope id="2130403681863114752" at="69,0,108,0" />
-      <unit id="2130403681863114752" at="159,0,162,0" name="de.itemis.mps.compare.pattern.editor.LinkMember_EditorBuilder_a$LINKS" />
-      <unit id="2130403681863114752" at="168,0,171,0" name="de.itemis.mps.compare.pattern.editor.LinkMember_EditorBuilder_a$PROPS" />
-      <unit id="2130403681863114752" at="163,0,167,0" name="de.itemis.mps.compare.pattern.editor.LinkMember_EditorBuilder_a$CONCEPTS" />
-      <unit id="2130403681863114752" at="71,42,86,5" name="de.itemis.mps.compare.pattern.editor.LinkMember_EditorBuilder_a$1" />
-      <unit id="5455284157994012197" at="108,0,154,0" name="de.itemis.mps.compare.pattern.editor.LinkMember_EditorBuilder_a$Inline_Builder0" />
-      <unit id="2130403681863114752" at="41,0,172,0" name="de.itemis.mps.compare.pattern.editor.LinkMember_EditorBuilder_a" />
+      <unit id="2130403681863114752" at="159,0,162,0" name="de.itemis.mps.compare.pattern.editor.LinkMember_EditorBuilder$LINKS" />
+      <unit id="2130403681863114752" at="168,0,171,0" name="de.itemis.mps.compare.pattern.editor.LinkMember_EditorBuilder$PROPS" />
+      <unit id="2130403681863114752" at="163,0,167,0" name="de.itemis.mps.compare.pattern.editor.LinkMember_EditorBuilder$CONCEPTS" />
+      <unit id="2130403681863114752" at="71,42,86,5" name="de.itemis.mps.compare.pattern.editor.LinkMember_EditorBuilder$1" />
+      <unit id="5455284157994012197" at="108,0,154,0" name="de.itemis.mps.compare.pattern.editor.LinkMember_EditorBuilder$Inline_Builder0" />
+      <unit id="2130403681863114752" at="41,0,172,0" name="de.itemis.mps.compare.pattern.editor.LinkMember_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/2130403681863146297">
     <file name="PropertyMember_Editor.java">
-      <node id="2130403681863146297" at="11,79,12,80" concept="7" />
+      <node id="2130403681863146297" at="11,79,12,78" concept="7" />
       <node id="2130403681863146297" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2130403681863146297" at="11,79,12,80" />
+      <scope id="2130403681863146297" at="11,79,12,78" />
       <scope id="2130403681863146297" at="11,0,14,0">
         <var name="editorContext" id="2130403681863146297" />
         <var name="node" id="2130403681863146297" />
       </scope>
       <unit id="2130403681863146297" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.PropertyMember_Editor" />
     </file>
-    <file name="PropertyMember_EditorBuilder_a.java">
-      <node id="2130403681863146297" at="45,94,46,19" concept="12" />
+    <file name="PropertyMember_EditorBuilder.java">
+      <node id="2130403681863146297" at="45,92,46,19" concept="12" />
       <node id="2130403681863146297" at="46,19,47,18" concept="2" />
       <node id="2130403681863146297" at="52,26,53,18" concept="7" />
       <node id="2130403681863146297" at="56,39,57,32" concept="7" />
@@ -291,7 +291,7 @@
       <node id="5455284157993911088" at="108,0,110,0" concept="3" trace="myNode" />
       <node id="2130403681863146297" at="56,0,59,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5455284157993911088" at="118,0,121,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2130403681863146297" at="45,0,49,0" concept="1" trace="PropertyMember_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2130403681863146297" at="45,0,49,0" concept="1" trace="PropertyMember_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2130403681863146297" at="90,0,94,5" concept="4" />
       <node id="579990121611015862" at="153,0,157,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2130403681863146297" at="50,0,55,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -311,7 +311,7 @@
       <scope id="5455284157993911088" at="118,41,119,32" />
       <scope id="5455284157993911088" at="124,28,125,20" />
       <scope id="5455284157993911090" at="148,17,149,42" />
-      <scope id="2130403681863146297" at="45,94,47,18" />
+      <scope id="2130403681863146297" at="45,92,47,18" />
       <scope id="2130403681863146297" at="91,40,93,47" />
       <scope id="2130403681863146297" at="101,73,103,145">
         <var name="manager" id="2130403681863146297" />
@@ -371,12 +371,12 @@
         <var name="style" id="2130403681863146297" />
       </scope>
       <scope id="2130403681863146297" at="69,0,107,0" />
-      <unit id="2130403681863146297" at="158,0,161,0" name="de.itemis.mps.compare.pattern.editor.PropertyMember_EditorBuilder_a$LINKS" />
-      <unit id="2130403681863146297" at="167,0,170,0" name="de.itemis.mps.compare.pattern.editor.PropertyMember_EditorBuilder_a$PROPS" />
-      <unit id="2130403681863146297" at="162,0,166,0" name="de.itemis.mps.compare.pattern.editor.PropertyMember_EditorBuilder_a$CONCEPTS" />
-      <unit id="2130403681863146297" at="71,42,86,5" name="de.itemis.mps.compare.pattern.editor.PropertyMember_EditorBuilder_a$1" />
-      <unit id="5455284157993911088" at="107,0,153,0" name="de.itemis.mps.compare.pattern.editor.PropertyMember_EditorBuilder_a$Inline_Builder0" />
-      <unit id="2130403681863146297" at="41,0,171,0" name="de.itemis.mps.compare.pattern.editor.PropertyMember_EditorBuilder_a" />
+      <unit id="2130403681863146297" at="158,0,161,0" name="de.itemis.mps.compare.pattern.editor.PropertyMember_EditorBuilder$LINKS" />
+      <unit id="2130403681863146297" at="167,0,170,0" name="de.itemis.mps.compare.pattern.editor.PropertyMember_EditorBuilder$PROPS" />
+      <unit id="2130403681863146297" at="162,0,166,0" name="de.itemis.mps.compare.pattern.editor.PropertyMember_EditorBuilder$CONCEPTS" />
+      <unit id="2130403681863146297" at="71,42,86,5" name="de.itemis.mps.compare.pattern.editor.PropertyMember_EditorBuilder$1" />
+      <unit id="5455284157993911088" at="107,0,153,0" name="de.itemis.mps.compare.pattern.editor.PropertyMember_EditorBuilder$Inline_Builder0" />
+      <unit id="2130403681863146297" at="41,0,171,0" name="de.itemis.mps.compare.pattern.editor.PropertyMember_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/2531002643688031944">
@@ -390,17 +390,17 @@
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/3560698633098301845">
     <file name="AncestorMember_Editor.java">
-      <node id="3560698633098301845" at="11,79,12,80" concept="7" />
+      <node id="3560698633098301845" at="11,79,12,78" concept="7" />
       <node id="3560698633098301845" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3560698633098301845" at="11,79,12,80" />
+      <scope id="3560698633098301845" at="11,79,12,78" />
       <scope id="3560698633098301845" at="11,0,14,0">
         <var name="editorContext" id="3560698633098301845" />
         <var name="node" id="3560698633098301845" />
       </scope>
       <unit id="3560698633098301845" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.AncestorMember_Editor" />
     </file>
-    <file name="AncestorMember_EditorBuilder_a.java">
-      <node id="3560698633098301845" at="23,94,24,19" concept="12" />
+    <file name="AncestorMember_EditorBuilder.java">
+      <node id="3560698633098301845" at="23,92,24,19" concept="12" />
       <node id="3560698633098301845" at="24,19,25,18" concept="2" />
       <node id="3560698633098301845" at="30,26,31,18" concept="7" />
       <node id="3560698633098301845" at="34,39,35,32" concept="7" />
@@ -423,14 +423,14 @@
       <node id="579990121611016307" at="58,145,59,22" concept="7" />
       <node id="3560698633098301845" at="20,0,22,0" concept="3" trace="myNode" />
       <node id="3560698633098301845" at="34,0,37,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3560698633098301845" at="23,0,27,0" concept="1" trace="AncestorMember_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3560698633098301845" at="23,0,27,0" concept="1" trace="AncestorMember_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="579990121611016307" at="57,0,61,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3560698633098301845" at="28,0,33,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3560698633098301845" at="38,0,47,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="91081616815990371" at="47,0,57,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="3560698633098301845" at="30,26,31,18" />
       <scope id="3560698633098301845" at="34,39,35,32" />
-      <scope id="3560698633098301845" at="23,94,25,18" />
+      <scope id="3560698633098301845" at="23,92,25,18" />
       <scope id="579990121611016307" at="57,42,59,22">
         <var name="editorCell" id="579990121611016307" />
       </scope>
@@ -450,22 +450,22 @@
       </scope>
       <scope id="3560698633098301845" at="38,0,47,0" />
       <scope id="91081616815990371" at="47,0,57,0" />
-      <unit id="3560698633098301845" at="19,0,62,0" name="de.itemis.mps.compare.pattern.editor.AncestorMember_EditorBuilder_a" />
+      <unit id="3560698633098301845" at="19,0,62,0" name="de.itemis.mps.compare.pattern.editor.AncestorMember_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/3560698633098301861">
     <file name="TypeMember_Editor.java">
-      <node id="3560698633098301861" at="11,79,12,76" concept="7" />
+      <node id="3560698633098301861" at="11,79,12,74" concept="7" />
       <node id="3560698633098301861" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3560698633098301861" at="11,79,12,76" />
+      <scope id="3560698633098301861" at="11,79,12,74" />
       <scope id="3560698633098301861" at="11,0,14,0">
         <var name="editorContext" id="3560698633098301861" />
         <var name="node" id="3560698633098301861" />
       </scope>
       <unit id="3560698633098301861" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.TypeMember_Editor" />
     </file>
-    <file name="TypeMember_EditorBuilder_a.java">
-      <node id="3560698633098301861" at="23,90,24,19" concept="12" />
+    <file name="TypeMember_EditorBuilder.java">
+      <node id="3560698633098301861" at="23,88,24,19" concept="12" />
       <node id="3560698633098301861" at="24,19,25,18" concept="2" />
       <node id="3560698633098301861" at="30,26,31,18" concept="7" />
       <node id="3560698633098301861" at="34,39,35,32" concept="7" />
@@ -488,14 +488,14 @@
       <node id="579990121611015935" at="58,145,59,22" concept="7" />
       <node id="3560698633098301861" at="20,0,22,0" concept="3" trace="myNode" />
       <node id="3560698633098301861" at="34,0,37,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3560698633098301861" at="23,0,27,0" concept="1" trace="TypeMember_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3560698633098301861" at="23,0,27,0" concept="1" trace="TypeMember_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="579990121611015935" at="57,0,61,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3560698633098301861" at="28,0,33,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3560698633098301861" at="38,0,47,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="91081616815990360" at="47,0,57,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="3560698633098301861" at="30,26,31,18" />
       <scope id="3560698633098301861" at="34,39,35,32" />
-      <scope id="3560698633098301861" at="23,90,25,18" />
+      <scope id="3560698633098301861" at="23,88,25,18" />
       <scope id="579990121611015935" at="57,42,59,22">
         <var name="editorCell" id="579990121611015935" />
       </scope>
@@ -515,22 +515,22 @@
       </scope>
       <scope id="3560698633098301861" at="38,0,47,0" />
       <scope id="91081616815990360" at="47,0,57,0" />
-      <unit id="3560698633098301861" at="19,0,62,0" name="de.itemis.mps.compare.pattern.editor.TypeMember_EditorBuilder_a" />
+      <unit id="3560698633098301861" at="19,0,62,0" name="de.itemis.mps.compare.pattern.editor.TypeMember_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/3560698633098301873">
     <file name="ParentMember_Editor.java">
-      <node id="3560698633098301873" at="11,79,12,78" concept="7" />
+      <node id="3560698633098301873" at="11,79,12,76" concept="7" />
       <node id="3560698633098301873" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3560698633098301873" at="11,79,12,78" />
+      <scope id="3560698633098301873" at="11,79,12,76" />
       <scope id="3560698633098301873" at="11,0,14,0">
         <var name="editorContext" id="3560698633098301873" />
         <var name="node" id="3560698633098301873" />
       </scope>
       <unit id="3560698633098301873" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.ParentMember_Editor" />
     </file>
-    <file name="ParentMember_EditorBuilder_a.java">
-      <node id="3560698633098301873" at="23,92,24,19" concept="12" />
+    <file name="ParentMember_EditorBuilder.java">
+      <node id="3560698633098301873" at="23,90,24,19" concept="12" />
       <node id="3560698633098301873" at="24,19,25,18" concept="2" />
       <node id="3560698633098301873" at="30,26,31,18" concept="7" />
       <node id="3560698633098301873" at="34,39,35,32" concept="7" />
@@ -553,14 +553,14 @@
       <node id="579990121611016006" at="58,145,59,22" concept="7" />
       <node id="3560698633098301873" at="20,0,22,0" concept="3" trace="myNode" />
       <node id="3560698633098301873" at="34,0,37,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3560698633098301873" at="23,0,27,0" concept="1" trace="ParentMember_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3560698633098301873" at="23,0,27,0" concept="1" trace="ParentMember_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="579990121611016006" at="57,0,61,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3560698633098301873" at="28,0,33,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3560698633098301873" at="38,0,47,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="91081616815990389" at="47,0,57,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="3560698633098301873" at="30,26,31,18" />
       <scope id="3560698633098301873" at="34,39,35,32" />
-      <scope id="3560698633098301873" at="23,92,25,18" />
+      <scope id="3560698633098301873" at="23,90,25,18" />
       <scope id="579990121611016006" at="57,42,59,22">
         <var name="editorCell" id="579990121611016006" />
       </scope>
@@ -580,22 +580,22 @@
       </scope>
       <scope id="3560698633098301873" at="38,0,47,0" />
       <scope id="91081616815990389" at="47,0,57,0" />
-      <unit id="3560698633098301873" at="19,0,62,0" name="de.itemis.mps.compare.pattern.editor.ParentMember_EditorBuilder_a" />
+      <unit id="3560698633098301873" at="19,0,62,0" name="de.itemis.mps.compare.pattern.editor.ParentMember_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/3560698633098601396">
     <file name="Pattern_Editor.java">
-      <node id="3560698633098601396" at="11,79,12,73" concept="7" />
+      <node id="3560698633098601396" at="11,79,12,71" concept="7" />
       <node id="3560698633098601396" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3560698633098601396" at="11,79,12,73" />
+      <scope id="3560698633098601396" at="11,79,12,71" />
       <scope id="3560698633098601396" at="11,0,14,0">
         <var name="editorContext" id="3560698633098601396" />
         <var name="node" id="3560698633098601396" />
       </scope>
       <unit id="3560698633098601396" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.Pattern_Editor" />
     </file>
-    <file name="Pattern_EditorBuilder_a.java">
-      <node id="3560698633098601396" at="49,87,50,19" concept="12" />
+    <file name="Pattern_EditorBuilder.java">
+      <node id="3560698633098601396" at="49,85,50,19" concept="12" />
       <node id="3560698633098601396" at="50,19,51,18" concept="2" />
       <node id="3560698633098601396" at="56,26,57,18" concept="7" />
       <node id="3560698633098601396" at="60,39,61,32" concept="7" />
@@ -609,9 +609,9 @@
       <node id="5455284157993895967" at="71,40,72,49" concept="2" />
       <node id="5455284157993895972" at="72,49,73,48" concept="2" />
       <node id="5455284157993895973" at="73,48,74,49" concept="2" />
-      <node id="665537614209718098" at="75,37,76,53" concept="2" />
+      <node id="665537614209718098" at="75,27,76,53" concept="2" />
       <node id="3560698633098601396" at="77,5,78,22" concept="7" />
-      <node id="665537614209733384" at="80,46,81,150" concept="7" />
+      <node id="665537614209733384" at="80,36,81,150" concept="7" />
       <node id="5455284157993895967" at="83,41,84,94" concept="6" />
       <node id="5455284157993895967" at="84,94,85,47" concept="2" />
       <node id="5455284157993895967" at="85,47,86,34" concept="6" />
@@ -692,12 +692,12 @@
       <node id="3560698633098601396" at="101,0,103,0" concept="3" trace="myNode" />
       <node id="3560698633098601396" at="60,0,63,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="665537614209718098" at="74,49,77,5" concept="4" />
-      <node id="665537614209718396" at="80,0,83,0" concept="5" trace="nodeCondition_28q3ku_a3a#()Z" />
+      <node id="665537614209718396" at="80,0,83,0" concept="5" trace="nodeCondition0#()Z" />
       <node id="3560698633098601396" at="125,87,128,7" concept="4" />
       <node id="3560698633098601396" at="128,7,131,7" concept="4" />
       <node id="3560698633098601396" at="150,0,153,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="665537614209733390" at="204,0,207,0" concept="11" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
-      <node id="3560698633098601396" at="49,0,53,0" concept="1" trace="Pattern_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3560698633098601396" at="49,0,53,0" concept="1" trace="Pattern_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3560698633098601396" at="96,0,100,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3560698633098601396" at="104,0,108,0" concept="1" trace="builderNodeSingleRoleHandler_28q3ku_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="3560698633098601396" at="54,0,59,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -716,8 +716,8 @@
       <node id="665537614209426292" at="183,0,204,0" concept="5" trace="createProperty_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="3560698633098601396" at="56,26,57,18" />
       <scope id="3560698633098601396" at="60,39,61,32" />
-      <scope id="665537614209718098" at="75,37,76,53" />
-      <scope id="665537614209718397" at="80,46,81,150" />
+      <scope id="665537614209718098" at="75,27,76,53" />
+      <scope id="665537614209718397" at="80,36,81,150" />
       <scope id="3560698633098601396" at="111,28,112,20" />
       <scope id="3560698633098601396" at="126,118,127,137" />
       <scope id="3560698633098601396" at="129,42,130,52" />
@@ -725,7 +725,7 @@
       <scope id="3560698633098601396" at="150,40,151,32" />
       <scope id="665537614209426292" at="200,15,201,40" />
       <scope id="665537614209733390" at="204,55,205,43" />
-      <scope id="3560698633098601396" at="49,87,51,18" />
+      <scope id="3560698633098601396" at="49,85,51,18" />
       <scope id="3560698633098601396" at="96,40,98,33">
         <var name="provider" id="3560698633098601396" />
       </scope>
@@ -802,26 +802,26 @@
       <scope id="3560698633098601396" at="64,0,80,0" />
       <scope id="665537614209426292" at="183,41,202,5" />
       <scope id="665537614209426292" at="183,0,204,0" />
-      <unit id="3560698633098601396" at="208,0,211,0" name="de.itemis.mps.compare.pattern.editor.Pattern_EditorBuilder_a$PROPS" />
-      <unit id="3560698633098601396" at="212,0,215,0" name="de.itemis.mps.compare.pattern.editor.Pattern_EditorBuilder_a$LINKS" />
-      <unit id="3560698633098601396" at="216,0,219,0" name="de.itemis.mps.compare.pattern.editor.Pattern_EditorBuilder_a$CONCEPTS" />
-      <unit id="3560698633098601396" at="100,0,154,0" name="de.itemis.mps.compare.pattern.editor.Pattern_EditorBuilder_a$builderNodeSingleRoleHandler_28q3ku_b0" />
-      <unit id="3560698633098601396" at="45,0,220,0" name="de.itemis.mps.compare.pattern.editor.Pattern_EditorBuilder_a" />
+      <unit id="3560698633098601396" at="208,0,211,0" name="de.itemis.mps.compare.pattern.editor.Pattern_EditorBuilder$PROPS" />
+      <unit id="3560698633098601396" at="212,0,215,0" name="de.itemis.mps.compare.pattern.editor.Pattern_EditorBuilder$LINKS" />
+      <unit id="3560698633098601396" at="216,0,219,0" name="de.itemis.mps.compare.pattern.editor.Pattern_EditorBuilder$CONCEPTS" />
+      <unit id="3560698633098601396" at="100,0,154,0" name="de.itemis.mps.compare.pattern.editor.Pattern_EditorBuilder$builderNodeSingleRoleHandler_28q3ku_b0" />
+      <unit id="3560698633098601396" at="45,0,220,0" name="de.itemis.mps.compare.pattern.editor.Pattern_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/3935692745220220746">
     <file name="GetConceptOperation_Editor.java">
-      <node id="3935692745220220746" at="11,79,12,85" concept="7" />
+      <node id="3935692745220220746" at="11,79,12,83" concept="7" />
       <node id="3935692745220220746" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3935692745220220746" at="11,79,12,85" />
+      <scope id="3935692745220220746" at="11,79,12,83" />
       <scope id="3935692745220220746" at="11,0,14,0">
         <var name="editorContext" id="3935692745220220746" />
         <var name="node" id="3935692745220220746" />
       </scope>
       <unit id="3935692745220220746" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.GetConceptOperation_Editor" />
     </file>
-    <file name="GetConceptOperation_EditorBuilder_a.java">
-      <node id="3935692745220220746" at="22,99,23,19" concept="12" />
+    <file name="GetConceptOperation_EditorBuilder.java">
+      <node id="3935692745220220746" at="22,97,23,19" concept="12" />
       <node id="3935692745220220746" at="23,19,24,18" concept="2" />
       <node id="3935692745220220746" at="29,26,30,18" concept="7" />
       <node id="3935692745220220746" at="33,39,34,32" concept="7" />
@@ -851,7 +851,7 @@
       <node id="3935692745220001988" at="66,34,67,22" concept="7" />
       <node id="3935692745220220746" at="19,0,21,0" concept="3" trace="myNode" />
       <node id="3935692745220220746" at="33,0,36,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3935692745220220746" at="22,0,26,0" concept="1" trace="GetConceptOperation_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3935692745220220746" at="22,0,26,0" concept="1" trace="GetConceptOperation_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3935692745220001967" at="47,0,51,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3935692745220220746" at="27,0,32,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3935692745220001975" at="51,0,60,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -859,7 +859,7 @@
       <node id="3935692745220220746" at="37,0,47,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="3935692745220220746" at="29,26,30,18" />
       <scope id="3935692745220220746" at="33,39,34,32" />
-      <scope id="3935692745220220746" at="22,99,24,18" />
+      <scope id="3935692745220220746" at="22,97,24,18" />
       <scope id="3935692745220001967" at="47,42,49,22">
         <var name="editorCell" id="3935692745220001967" />
       </scope>
@@ -884,22 +884,22 @@
       <scope id="3935692745220001975" at="51,0,60,0" />
       <scope id="3935692745220001988" at="60,0,69,0" />
       <scope id="3935692745220220746" at="37,0,47,0" />
-      <unit id="3935692745220220746" at="18,0,70,0" name="de.itemis.mps.compare.pattern.editor.GetConceptOperation_EditorBuilder_a" />
+      <unit id="3935692745220220746" at="18,0,70,0" name="de.itemis.mps.compare.pattern.editor.GetConceptOperation_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/5017685253022109683">
     <file name="NullLiteral_Editor.java">
-      <node id="5017685253022109683" at="11,79,12,77" concept="7" />
+      <node id="5017685253022109683" at="11,79,12,75" concept="7" />
       <node id="5017685253022109683" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5017685253022109683" at="11,79,12,77" />
+      <scope id="5017685253022109683" at="11,79,12,75" />
       <scope id="5017685253022109683" at="11,0,14,0">
         <var name="editorContext" id="5017685253022109683" />
         <var name="node" id="5017685253022109683" />
       </scope>
       <unit id="5017685253022109683" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.NullLiteral_Editor" />
     </file>
-    <file name="NullLiteral_EditorBuilder_a.java">
-      <node id="5017685253022109683" at="20,91,21,19" concept="12" />
+    <file name="NullLiteral_EditorBuilder.java">
+      <node id="5017685253022109683" at="20,89,21,19" concept="12" />
       <node id="5017685253022109683" at="21,19,22,18" concept="2" />
       <node id="5017685253022109683" at="27,26,28,18" concept="7" />
       <node id="5017685253022109683" at="31,39,32,30" concept="7" />
@@ -916,12 +916,12 @@
       <node id="5017685253022109685" at="45,34,46,22" concept="7" />
       <node id="5017685253022109683" at="17,0,19,0" concept="3" trace="myNode" />
       <node id="5017685253022109683" at="31,0,34,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5017685253022109683" at="20,0,24,0" concept="1" trace="NullLiteral_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5017685253022109683" at="20,0,24,0" concept="1" trace="NullLiteral_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5017685253022109683" at="25,0,30,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5017685253022109685" at="35,0,48,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="5017685253022109683" at="27,26,28,18" />
       <scope id="5017685253022109683" at="31,39,32,30" />
-      <scope id="5017685253022109683" at="20,91,22,18" />
+      <scope id="5017685253022109683" at="20,89,22,18" />
       <scope id="5017685253022109683" at="31,0,34,0" />
       <scope id="5017685253022109683" at="20,0,24,0">
         <var name="context" id="5017685253022109683" />
@@ -933,22 +933,22 @@
         <var name="style" id="5017685253022109685" />
       </scope>
       <scope id="5017685253022109685" at="35,0,48,0" />
-      <unit id="5017685253022109683" at="16,0,49,0" name="de.itemis.mps.compare.pattern.editor.NullLiteral_EditorBuilder_a" />
+      <unit id="5017685253022109683" at="16,0,49,0" name="de.itemis.mps.compare.pattern.editor.NullLiteral_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/5017685253022109694">
     <file name="NotNullLiteral_Editor.java">
-      <node id="5017685253022109694" at="11,79,12,80" concept="7" />
+      <node id="5017685253022109694" at="11,79,12,78" concept="7" />
       <node id="5017685253022109694" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5017685253022109694" at="11,79,12,80" />
+      <scope id="5017685253022109694" at="11,79,12,78" />
       <scope id="5017685253022109694" at="11,0,14,0">
         <var name="editorContext" id="5017685253022109694" />
         <var name="node" id="5017685253022109694" />
       </scope>
       <unit id="5017685253022109694" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.NotNullLiteral_Editor" />
     </file>
-    <file name="NotNullLiteral_EditorBuilder_a.java">
-      <node id="5017685253022109694" at="20,94,21,19" concept="12" />
+    <file name="NotNullLiteral_EditorBuilder.java">
+      <node id="5017685253022109694" at="20,92,21,19" concept="12" />
       <node id="5017685253022109694" at="21,19,22,18" concept="2" />
       <node id="5017685253022109694" at="27,26,28,18" concept="7" />
       <node id="5017685253022109694" at="31,39,32,30" concept="7" />
@@ -965,12 +965,12 @@
       <node id="5017685253022109696" at="45,34,46,22" concept="7" />
       <node id="5017685253022109694" at="17,0,19,0" concept="3" trace="myNode" />
       <node id="5017685253022109694" at="31,0,34,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5017685253022109694" at="20,0,24,0" concept="1" trace="NotNullLiteral_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5017685253022109694" at="20,0,24,0" concept="1" trace="NotNullLiteral_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5017685253022109694" at="25,0,30,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5017685253022109696" at="35,0,48,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="5017685253022109694" at="27,26,28,18" />
       <scope id="5017685253022109694" at="31,39,32,30" />
-      <scope id="5017685253022109694" at="20,94,22,18" />
+      <scope id="5017685253022109694" at="20,92,22,18" />
       <scope id="5017685253022109694" at="31,0,34,0" />
       <scope id="5017685253022109694" at="20,0,24,0">
         <var name="context" id="5017685253022109694" />
@@ -982,22 +982,22 @@
         <var name="style" id="5017685253022109696" />
       </scope>
       <scope id="5017685253022109696" at="35,0,48,0" />
-      <unit id="5017685253022109694" at="16,0,49,0" name="de.itemis.mps.compare.pattern.editor.NotNullLiteral_EditorBuilder_a" />
+      <unit id="5017685253022109694" at="16,0,49,0" name="de.itemis.mps.compare.pattern.editor.NotNullLiteral_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/5058472606515323941">
     <file name="PatternBuilderList_Editor.java">
-      <node id="5058472606515323941" at="11,79,12,84" concept="7" />
+      <node id="5058472606515323941" at="11,79,12,82" concept="7" />
       <node id="5058472606515323941" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5058472606515323941" at="11,79,12,84" />
+      <scope id="5058472606515323941" at="11,79,12,82" />
       <scope id="5058472606515323941" at="11,0,14,0">
         <var name="editorContext" id="5058472606515323941" />
         <var name="node" id="5058472606515323941" />
       </scope>
       <unit id="5058472606515323941" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderList_Editor" />
     </file>
-    <file name="PatternBuilderList_EditorBuilder_a.java">
-      <node id="5058472606515323941" at="51,98,52,19" concept="12" />
+    <file name="PatternBuilderList_EditorBuilder.java">
+      <node id="5058472606515323941" at="51,96,52,19" concept="12" />
       <node id="5058472606515323941" at="52,19,53,18" concept="2" />
       <node id="5058472606515323941" at="58,26,59,18" concept="7" />
       <node id="5058472606515323941" at="62,39,63,32" concept="7" />
@@ -1114,7 +1114,7 @@
       <node id="3917979096078700826" at="88,0,91,0" concept="5" trace="_StyleParameter_QueryFunction_rhitup_a0a0#()Z" />
       <node id="5058472606515323941" at="114,0,117,0" concept="5" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="5058472606515323941" at="117,0,120,0" concept="5" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="5058472606515323941" at="51,0,55,0" concept="1" trace="PatternBuilderList_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5058472606515323941" at="51,0,55,0" concept="1" trace="PatternBuilderList_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5058472606515323941" at="105,0,109,0" concept="1" trace="nodesListHandler_rhitup_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5058472606515323941" at="110,0,114,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5058472606515323941" at="143,97,147,9" concept="4" />
@@ -1148,7 +1148,7 @@
       <scope id="5058472606515323941" at="117,48,118,36" />
       <scope id="5058472606515323941" at="135,17,136,42" />
       <scope id="5058472606515326418" at="232,15,233,40" />
-      <scope id="5058472606515323941" at="51,98,53,18" />
+      <scope id="5058472606515323941" at="51,96,53,18" />
       <scope id="5058472606515323941" at="105,79,107,25" />
       <scope id="5058472606515323941" at="144,122,146,146" />
       <scope id="5058472606515323941" at="150,34,152,142" />
@@ -1239,21 +1239,21 @@
         <var name="elementNode" id="5058472606515323941" />
         <var name="isEmptyCell" id="5058472606515323941" />
       </scope>
-      <unit id="5058472606515323941" at="237,0,240,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderList_EditorBuilder_a$LINKS" />
-      <unit id="5058472606515323941" at="246,0,249,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderList_EditorBuilder_a$PROPS" />
-      <unit id="5058472606515323941" at="241,0,245,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderList_EditorBuilder_a$CONCEPTS" />
-      <unit id="5058472606515323941" at="101,0,191,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderList_EditorBuilder_a$nodesListHandler_rhitup_b0" />
-      <unit id="5058472606515323941" at="47,0,250,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderList_EditorBuilder_a" />
+      <unit id="5058472606515323941" at="237,0,240,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderList_EditorBuilder$LINKS" />
+      <unit id="5058472606515323941" at="246,0,249,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderList_EditorBuilder$PROPS" />
+      <unit id="5058472606515323941" at="241,0,245,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderList_EditorBuilder$CONCEPTS" />
+      <unit id="5058472606515323941" at="101,0,191,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderList_EditorBuilder$nodesListHandler_rhitup_b0" />
+      <unit id="5058472606515323941" at="47,0,250,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderList_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/579990121611015159">
     <file name="IInitPart_EditorComponent.java">
       <node id="579990121611015159" at="15,47,16,35" concept="7" />
-      <node id="579990121611015159" at="18,79,19,94" concept="7" />
+      <node id="579990121611015159" at="18,79,19,92" concept="7" />
       <node id="579990121611015159" at="18,0,21,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="579990121611015159" at="14,0,18,0" concept="5" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="579990121611015159" at="15,47,16,35" />
-      <scope id="579990121611015159" at="18,79,19,94" />
+      <scope id="579990121611015159" at="18,79,19,92" />
       <scope id="579990121611015159" at="18,0,21,0">
         <var name="editorContext" id="579990121611015159" />
         <var name="node" id="579990121611015159" />
@@ -1261,18 +1261,18 @@
       <scope id="579990121611015159" at="14,0,18,0" />
       <unit id="579990121611015159" at="13,0,22,0" name="de.itemis.mps.compare.pattern.editor.IInitPart_EditorComponent" />
     </file>
-    <file name="IInitPart_EditorComponent_ComponentBuilder_a.java">
-      <node id="579990121611015159" at="34,108,35,19" concept="12" />
+    <file name="IInitPart_EditorComponent_ComponentBuilder.java">
+      <node id="579990121611015159" at="34,106,35,19" concept="12" />
       <node id="579990121611015159" at="35,19,36,18" concept="2" />
       <node id="579990121611015159" at="41,26,42,18" concept="7" />
       <node id="579990121611015159" at="45,39,46,32" concept="7" />
       <node id="579990121611015159" at="49,43,50,118" concept="6" />
       <node id="579990121611015159" at="50,118,51,48" concept="2" />
-      <node id="579990121611015175" at="52,37,53,53" concept="2" />
+      <node id="579990121611015175" at="52,27,53,53" concept="2" />
       <node id="579990121611015193" at="54,5,55,49" concept="2" />
       <node id="579990121611015202" at="55,49,56,48" concept="2" />
       <node id="579990121611015159" at="56,48,57,22" concept="7" />
-      <node id="579990121611015185" at="59,46,60,125" concept="7" />
+      <node id="579990121611015185" at="59,36,60,125" concept="7" />
       <node id="579990121611015159" at="62,43,63,118" concept="6" />
       <node id="579990121611015159" at="63,118,64,49" concept="2" />
       <node id="579990121611015177" at="64,49,65,49" concept="2" />
@@ -1347,14 +1347,14 @@
       <node id="579990121611015159" at="153,0,155,0" concept="3" trace="myNode" />
       <node id="579990121611015159" at="45,0,48,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="579990121611015175" at="51,48,54,5" concept="4" />
-      <node id="579990121611015183" at="59,0,62,0" concept="5" trace="nodeCondition_ntvpy6_a0a#()Z" />
+      <node id="579990121611015183" at="59,0,62,0" concept="5" trace="nodeCondition0#()Z" />
       <node id="579990121611015159" at="109,87,112,7" concept="4" />
       <node id="579990121611015159" at="112,7,115,7" concept="4" />
       <node id="579990121611015159" at="134,0,137,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="579990121611015159" at="177,87,180,7" concept="4" />
       <node id="579990121611015159" at="180,7,183,7" concept="4" />
       <node id="579990121611015159" at="199,0,202,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="579990121611015159" at="34,0,38,0" concept="1" trace="IInitPart_EditorComponent_ComponentBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="579990121611015159" at="34,0,38,0" concept="1" trace="IInitPart_EditorComponent_ComponentBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="579990121611015159" at="80,0,84,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="579990121611015159" at="88,0,92,0" concept="1" trace="annotationSingleRoleHandler_ntvpy6_b0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="579990121611015159" at="148,0,152,0" concept="5" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1376,8 +1376,8 @@
       <node id="579990121611015159" at="185,0,199,0" concept="5" trace="createEmptyCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="579990121611015159" at="41,26,42,18" />
       <scope id="579990121611015159" at="45,39,46,32" />
-      <scope id="579990121611015175" at="52,37,53,53" />
-      <scope id="579990121611015184" at="59,46,60,125" />
+      <scope id="579990121611015175" at="52,27,53,53" />
+      <scope id="579990121611015184" at="59,36,60,125" />
       <scope id="579990121611015159" at="95,28,96,20" />
       <scope id="579990121611015159" at="110,118,111,137" />
       <scope id="579990121611015159" at="113,42,114,51" />
@@ -1388,7 +1388,7 @@
       <scope id="579990121611015159" at="181,42,182,51" />
       <scope id="579990121611015159" at="195,17,196,42" />
       <scope id="579990121611015159" at="199,40,200,31" />
-      <scope id="579990121611015159" at="34,108,36,18" />
+      <scope id="579990121611015159" at="34,106,36,18" />
       <scope id="579990121611015159" at="80,40,82,33">
         <var name="provider" id="579990121611015159" />
       </scope>
@@ -1474,25 +1474,25 @@
       <scope id="579990121611015159" at="186,44,197,7" />
       <scope id="579990121611015159" at="120,0,134,0" />
       <scope id="579990121611015159" at="185,0,199,0" />
-      <unit id="579990121611015159" at="204,0,208,0" name="de.itemis.mps.compare.pattern.editor.IInitPart_EditorComponent_ComponentBuilder_a$LINKS" />
-      <unit id="579990121611015159" at="152,0,203,0" name="de.itemis.mps.compare.pattern.editor.IInitPart_EditorComponent_ComponentBuilder_a$expressionSingleRoleHandler_ntvpy6_c0" />
-      <unit id="579990121611015159" at="84,0,138,0" name="de.itemis.mps.compare.pattern.editor.IInitPart_EditorComponent_ComponentBuilder_a$annotationSingleRoleHandler_ntvpy6_b0a" />
-      <unit id="579990121611015159" at="30,0,209,0" name="de.itemis.mps.compare.pattern.editor.IInitPart_EditorComponent_ComponentBuilder_a" />
+      <unit id="579990121611015159" at="204,0,208,0" name="de.itemis.mps.compare.pattern.editor.IInitPart_EditorComponent_ComponentBuilder$LINKS" />
+      <unit id="579990121611015159" at="152,0,203,0" name="de.itemis.mps.compare.pattern.editor.IInitPart_EditorComponent_ComponentBuilder$expressionSingleRoleHandler_ntvpy6_c0" />
+      <unit id="579990121611015159" at="84,0,138,0" name="de.itemis.mps.compare.pattern.editor.IInitPart_EditorComponent_ComponentBuilder$annotationSingleRoleHandler_ntvpy6_b0a" />
+      <unit id="579990121611015159" at="30,0,209,0" name="de.itemis.mps.compare.pattern.editor.IInitPart_EditorComponent_ComponentBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/579990121611203744">
     <file name="NegationAttribute_Editor.java">
-      <node id="579990121611203744" at="11,79,12,83" concept="7" />
+      <node id="579990121611203744" at="11,79,12,81" concept="7" />
       <node id="579990121611203744" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="579990121611203744" at="11,79,12,83" />
+      <scope id="579990121611203744" at="11,79,12,81" />
       <scope id="579990121611203744" at="11,0,14,0">
         <var name="editorContext" id="579990121611203744" />
         <var name="node" id="579990121611203744" />
       </scope>
       <unit id="579990121611203744" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.NegationAttribute_Editor" />
     </file>
-    <file name="NegationAttribute_EditorBuilder_a.java">
-      <node id="579990121611203744" at="23,97,24,19" concept="12" />
+    <file name="NegationAttribute_EditorBuilder.java">
+      <node id="579990121611203744" at="23,95,24,19" concept="12" />
       <node id="579990121611203744" at="24,19,25,18" concept="2" />
       <node id="579990121611203744" at="30,26,31,18" concept="7" />
       <node id="579990121611203744" at="34,39,35,32" concept="7" />
@@ -1516,14 +1516,14 @@
       <node id="579990121611203746" at="59,93,60,22" concept="7" />
       <node id="579990121611203744" at="20,0,22,0" concept="3" trace="myNode" />
       <node id="579990121611203744" at="34,0,37,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="579990121611203744" at="23,0,27,0" concept="1" trace="NegationAttribute_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="579990121611203744" at="23,0,27,0" concept="1" trace="NegationAttribute_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="579990121611203744" at="28,0,33,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="579990121611203746" at="57,0,62,0" concept="5" trace="createAttributedNodeCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="579990121611203744" at="38,0,47,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="579990121611203765" at="47,0,57,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="579990121611203744" at="30,26,31,18" />
       <scope id="579990121611203744" at="34,39,35,32" />
-      <scope id="579990121611203744" at="23,97,25,18" />
+      <scope id="579990121611203744" at="23,95,25,18" />
       <scope id="579990121611203744" at="34,0,37,0" />
       <scope id="579990121611203746" at="57,51,60,22">
         <var name="editorCell" id="579990121611203746" />
@@ -1544,7 +1544,7 @@
       </scope>
       <scope id="579990121611203744" at="38,0,47,0" />
       <scope id="579990121611203765" at="47,0,57,0" />
-      <unit id="579990121611203744" at="19,0,63,0" name="de.itemis.mps.compare.pattern.editor.NegationAttribute_EditorBuilder_a" />
+      <unit id="579990121611203744" at="19,0,63,0" name="de.itemis.mps.compare.pattern.editor.NegationAttribute_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/579990121611537665">
@@ -1656,17 +1656,17 @@
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/665537614207997903">
     <file name="PatternBuilderExpression_Editor.java">
-      <node id="665537614207997903" at="11,79,12,90" concept="7" />
+      <node id="665537614207997903" at="11,79,12,88" concept="7" />
       <node id="665537614207997903" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="665537614207997903" at="11,79,12,90" />
+      <scope id="665537614207997903" at="11,79,12,88" />
       <scope id="665537614207997903" at="11,0,14,0">
         <var name="editorContext" id="665537614207997903" />
         <var name="node" id="665537614207997903" />
       </scope>
       <unit id="665537614207997903" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderExpression_Editor" />
     </file>
-    <file name="PatternBuilderExpression_EditorBuilder_a.java">
-      <node id="665537614207997903" at="30,104,31,19" concept="12" />
+    <file name="PatternBuilderExpression_EditorBuilder.java">
+      <node id="665537614207997903" at="30,102,31,19" concept="12" />
       <node id="665537614207997903" at="31,19,32,18" concept="2" />
       <node id="665537614207997903" at="37,26,38,18" concept="7" />
       <node id="665537614207997903" at="41,39,42,32" concept="7" />
@@ -1712,7 +1712,7 @@
       <node id="665537614207997903" at="92,87,95,7" concept="4" />
       <node id="665537614207997903" at="95,7,98,7" concept="4" />
       <node id="665537614207997903" at="114,0,117,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="665537614207997903" at="30,0,34,0" concept="1" trace="PatternBuilderExpression_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="665537614207997903" at="30,0,34,0" concept="1" trace="PatternBuilderExpression_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="665537614207997903" at="63,0,67,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="665537614207997903" at="71,0,75,0" concept="1" trace="expressionSingleRoleHandler_fjj3fo_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="665537614207997903" at="35,0,40,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -1730,7 +1730,7 @@
       <scope id="665537614207997903" at="96,42,97,51" />
       <scope id="665537614207997903" at="110,17,111,42" />
       <scope id="665537614207997903" at="114,40,115,31" />
-      <scope id="665537614207997903" at="30,104,32,18" />
+      <scope id="665537614207997903" at="30,102,32,18" />
       <scope id="665537614207997903" at="63,40,65,33">
         <var name="provider" id="665537614207997903" />
       </scope>
@@ -1775,24 +1775,24 @@
       <scope id="8182547171709752119" at="54,0,63,0" />
       <scope id="665537614207997903" at="101,44,112,7" />
       <scope id="665537614207997903" at="100,0,114,0" />
-      <unit id="665537614207997903" at="119,0,122,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderExpression_EditorBuilder_a$LINKS" />
-      <unit id="665537614207997903" at="67,0,118,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderExpression_EditorBuilder_a$expressionSingleRoleHandler_fjj3fo_b0" />
-      <unit id="665537614207997903" at="26,0,123,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderExpression_EditorBuilder_a" />
+      <unit id="665537614207997903" at="119,0,122,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderExpression_EditorBuilder$LINKS" />
+      <unit id="665537614207997903" at="67,0,118,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderExpression_EditorBuilder$expressionSingleRoleHandler_fjj3fo_b0" />
+      <unit id="665537614207997903" at="26,0,123,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderExpression_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/665537614208925436">
     <file name="MemberAnnotation_Editor.java">
-      <node id="665537614208925436" at="11,79,12,82" concept="7" />
+      <node id="665537614208925436" at="11,79,12,80" concept="7" />
       <node id="665537614208925436" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="665537614208925436" at="11,79,12,82" />
+      <scope id="665537614208925436" at="11,79,12,80" />
       <scope id="665537614208925436" at="11,0,14,0">
         <var name="editorContext" id="665537614208925436" />
         <var name="node" id="665537614208925436" />
       </scope>
       <unit id="665537614208925436" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.MemberAnnotation_Editor" />
     </file>
-    <file name="MemberAnnotation_EditorBuilder_a.java">
-      <node id="665537614208925436" at="29,96,30,19" concept="12" />
+    <file name="MemberAnnotation_EditorBuilder.java">
+      <node id="665537614208925436" at="29,94,30,19" concept="12" />
       <node id="665537614208925436" at="30,19,31,18" concept="2" />
       <node id="665537614208925436" at="36,26,37,18" concept="7" />
       <node id="665537614208925436" at="40,39,41,30" concept="7" />
@@ -1816,7 +1816,7 @@
       <node id="665537614208925436" at="73,0,74,0" concept="10" trace="PropertyAttribute$Gb" />
       <node id="665537614208925436" at="26,0,28,0" concept="3" trace="myNode" />
       <node id="665537614208925436" at="40,0,43,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="665537614208925436" at="29,0,33,0" concept="1" trace="MemberAnnotation_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="665537614208925436" at="29,0,33,0" concept="1" trace="MemberAnnotation_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="665537614208925436" at="34,0,39,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="665537614208925438" at="57,208,62,24" concept="4" />
       <node id="665537614208925438" at="45,39,65,5" concept="13" />
@@ -1824,7 +1824,7 @@
       <scope id="665537614208925436" at="36,26,37,18" />
       <scope id="665537614208925436" at="40,39,41,30" />
       <scope id="665537614208925438" at="63,15,64,40" />
-      <scope id="665537614208925436" at="29,96,31,18" />
+      <scope id="665537614208925436" at="29,94,31,18" />
       <scope id="665537614208925438" at="58,74,60,145">
         <var name="manager" id="665537614208925438" />
       </scope>
@@ -1842,24 +1842,24 @@
       </scope>
       <scope id="665537614208925438" at="44,41,65,5" />
       <scope id="665537614208925438" at="44,0,67,0" />
-      <unit id="665537614208925436" at="68,0,71,0" name="de.itemis.mps.compare.pattern.editor.MemberAnnotation_EditorBuilder_a$PROPS" />
-      <unit id="665537614208925436" at="72,0,75,0" name="de.itemis.mps.compare.pattern.editor.MemberAnnotation_EditorBuilder_a$CONCEPTS" />
-      <unit id="665537614208925436" at="25,0,76,0" name="de.itemis.mps.compare.pattern.editor.MemberAnnotation_EditorBuilder_a" />
+      <unit id="665537614208925436" at="68,0,71,0" name="de.itemis.mps.compare.pattern.editor.MemberAnnotation_EditorBuilder$PROPS" />
+      <unit id="665537614208925436" at="72,0,75,0" name="de.itemis.mps.compare.pattern.editor.MemberAnnotation_EditorBuilder$CONCEPTS" />
+      <unit id="665537614208925436" at="25,0,76,0" name="de.itemis.mps.compare.pattern.editor.MemberAnnotation_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/91081616816046025">
     <file name="PatternRefExpression_Editor.java">
-      <node id="91081616816046025" at="11,79,12,86" concept="7" />
+      <node id="91081616816046025" at="11,79,12,84" concept="7" />
       <node id="91081616816046025" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="91081616816046025" at="11,79,12,86" />
+      <scope id="91081616816046025" at="11,79,12,84" />
       <scope id="91081616816046025" at="11,0,14,0">
         <var name="editorContext" id="91081616816046025" />
         <var name="node" id="91081616816046025" />
       </scope>
       <unit id="91081616816046025" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.PatternRefExpression_Editor" />
     </file>
-    <file name="PatternRefExpression_EditorBuilder_a.java">
-      <node id="91081616816046025" at="27,100,28,19" concept="12" />
+    <file name="PatternRefExpression_EditorBuilder.java">
+      <node id="91081616816046025" at="27,98,28,19" concept="12" />
       <node id="91081616816046025" at="28,19,29,18" concept="2" />
       <node id="91081616816046025" at="34,26,35,18" concept="7" />
       <node id="91081616816046025" at="38,39,39,32" concept="7" />
@@ -1902,7 +1902,7 @@
       <node id="91081616816046025" at="86,87,89,7" concept="4" />
       <node id="91081616816046025" at="89,7,92,7" concept="4" />
       <node id="91081616816046025" at="108,0,111,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="91081616816046025" at="27,0,31,0" concept="1" trace="PatternRefExpression_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="91081616816046025" at="27,0,31,0" concept="1" trace="PatternRefExpression_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="91081616816046025" at="57,0,61,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="91081616816046025" at="65,0,69,0" concept="1" trace="expressionSingleRoleHandler_z7yka0_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="91081616816046025" at="32,0,37,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -1920,7 +1920,7 @@
       <scope id="91081616816046025" at="90,42,91,51" />
       <scope id="91081616816046025" at="104,17,105,42" />
       <scope id="91081616816046025" at="108,40,109,31" />
-      <scope id="91081616816046025" at="27,100,29,18" />
+      <scope id="91081616816046025" at="27,98,29,18" />
       <scope id="91081616816046025" at="57,40,59,33">
         <var name="provider" id="91081616816046025" />
       </scope>
@@ -1964,24 +1964,24 @@
       <scope id="91081616816046025" at="42,0,51,0" />
       <scope id="91081616816046025" at="95,44,106,7" />
       <scope id="91081616816046025" at="94,0,108,0" />
-      <unit id="91081616816046025" at="113,0,116,0" name="de.itemis.mps.compare.pattern.editor.PatternRefExpression_EditorBuilder_a$LINKS" />
-      <unit id="91081616816046025" at="61,0,112,0" name="de.itemis.mps.compare.pattern.editor.PatternRefExpression_EditorBuilder_a$expressionSingleRoleHandler_z7yka0_b0" />
-      <unit id="91081616816046025" at="23,0,117,0" name="de.itemis.mps.compare.pattern.editor.PatternRefExpression_EditorBuilder_a" />
+      <unit id="91081616816046025" at="113,0,116,0" name="de.itemis.mps.compare.pattern.editor.PatternRefExpression_EditorBuilder$LINKS" />
+      <unit id="91081616816046025" at="61,0,112,0" name="de.itemis.mps.compare.pattern.editor.PatternRefExpression_EditorBuilder$expressionSingleRoleHandler_z7yka0_b0" />
+      <unit id="91081616816046025" at="23,0,117,0" name="de.itemis.mps.compare.pattern.editor.PatternRefExpression_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/91081616816150767">
     <file name="PatternType_Editor.java">
-      <node id="91081616816150767" at="11,79,12,77" concept="7" />
+      <node id="91081616816150767" at="11,79,12,75" concept="7" />
       <node id="91081616816150767" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="91081616816150767" at="11,79,12,77" />
+      <scope id="91081616816150767" at="11,79,12,75" />
       <scope id="91081616816150767" at="11,0,14,0">
         <var name="editorContext" id="91081616816150767" />
         <var name="node" id="91081616816150767" />
       </scope>
       <unit id="91081616816150767" at="10,0,15,0" name="de.itemis.mps.compare.pattern.editor.PatternType_Editor" />
     </file>
-    <file name="PatternType_EditorBuilder_a.java">
-      <node id="91081616816150767" at="40,91,41,19" concept="12" />
+    <file name="PatternType_EditorBuilder.java">
+      <node id="91081616816150767" at="40,89,41,19" concept="12" />
       <node id="91081616816150767" at="41,19,42,18" concept="2" />
       <node id="91081616816150767" at="47,26,48,18" concept="7" />
       <node id="91081616816150767" at="51,39,52,32" concept="7" />
@@ -2053,7 +2053,7 @@
       <node id="91081616816150797" at="103,0,105,0" concept="3" trace="myNode" />
       <node id="91081616816150767" at="51,0,54,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="91081616816150797" at="113,0,116,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="91081616816150767" at="40,0,44,0" concept="1" trace="PatternType_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="91081616816150767" at="40,0,44,0" concept="1" trace="PatternType_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="91081616816150767" at="88,0,92,5" concept="4" />
       <node id="91081616816150767" at="45,0,50,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="91081616816150767" at="95,205,100,22" concept="4" />
@@ -2073,7 +2073,7 @@
       <scope id="91081616816150797" at="113,41,114,32" />
       <scope id="91081616816150797" at="119,28,120,20" />
       <scope id="91081616816150813" at="140,17,141,42" />
-      <scope id="91081616816150767" at="40,91,42,18" />
+      <scope id="91081616816150767" at="40,89,42,18" />
       <scope id="91081616816150767" at="89,40,91,46" />
       <scope id="91081616816150767" at="96,73,98,145">
         <var name="manager" id="91081616816150767" />
@@ -2131,22 +2131,22 @@
         <var name="referenceLink" id="91081616816150767" />
       </scope>
       <scope id="91081616816150767" at="74,0,102,0" />
-      <unit id="91081616816150767" at="155,0,158,0" name="de.itemis.mps.compare.pattern.editor.PatternType_EditorBuilder_a$LINKS" />
-      <unit id="91081616816150767" at="164,0,167,0" name="de.itemis.mps.compare.pattern.editor.PatternType_EditorBuilder_a$PROPS" />
-      <unit id="91081616816150767" at="159,0,163,0" name="de.itemis.mps.compare.pattern.editor.PatternType_EditorBuilder_a$CONCEPTS" />
-      <unit id="91081616816150767" at="76,42,84,5" name="de.itemis.mps.compare.pattern.editor.PatternType_EditorBuilder_a$1" />
-      <unit id="91081616816150797" at="102,0,145,0" name="de.itemis.mps.compare.pattern.editor.PatternType_EditorBuilder_a$Inline_Builder0" />
-      <unit id="91081616816150767" at="36,0,168,0" name="de.itemis.mps.compare.pattern.editor.PatternType_EditorBuilder_a" />
+      <unit id="91081616816150767" at="155,0,158,0" name="de.itemis.mps.compare.pattern.editor.PatternType_EditorBuilder$LINKS" />
+      <unit id="91081616816150767" at="164,0,167,0" name="de.itemis.mps.compare.pattern.editor.PatternType_EditorBuilder$PROPS" />
+      <unit id="91081616816150767" at="159,0,163,0" name="de.itemis.mps.compare.pattern.editor.PatternType_EditorBuilder$CONCEPTS" />
+      <unit id="91081616816150767" at="76,42,84,5" name="de.itemis.mps.compare.pattern.editor.PatternType_EditorBuilder$1" />
+      <unit id="91081616816150797" at="102,0,145,0" name="de.itemis.mps.compare.pattern.editor.PatternType_EditorBuilder$Inline_Builder0" />
+      <unit id="91081616816150767" at="36,0,168,0" name="de.itemis.mps.compare.pattern.editor.PatternType_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e14e3f70-e9b9-421a-9060-c8ac30089d4b(de.itemis.mps.compare.pattern.editor)/91081616816649663">
     <file name="PatternBuilderNode_Editor.java">
-      <node id="91081616816649663" at="11,79,12,84" concept="7" />
-      <node id="91081616816649663" at="14,82,15,87" concept="7" />
+      <node id="91081616816649663" at="11,79,12,82" concept="7" />
+      <node id="91081616816649663" at="14,82,15,85" concept="7" />
       <node id="91081616816649663" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="91081616816649663" at="14,0,17,0" concept="5" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="91081616816649663" at="11,79,12,84" />
-      <scope id="91081616816649663" at="14,82,15,87" />
+      <scope id="91081616816649663" at="11,79,12,82" />
+      <scope id="91081616816649663" at="14,82,15,85" />
       <scope id="91081616816649663" at="11,0,14,0">
         <var name="editorContext" id="91081616816649663" />
         <var name="node" id="91081616816649663" />
@@ -2157,8 +2157,8 @@
       </scope>
       <unit id="91081616816649663" at="10,0,18,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_Editor" />
     </file>
-    <file name="PatternBuilderNode_EditorBuilder_a.java">
-      <node id="91081616816649663" at="61,98,62,19" concept="12" />
+    <file name="PatternBuilderNode_EditorBuilder.java">
+      <node id="91081616816649663" at="61,96,62,19" concept="12" />
       <node id="91081616816649663" at="62,19,63,18" concept="2" />
       <node id="91081616816649663" at="68,26,69,18" concept="7" />
       <node id="91081616816649663" at="72,39,73,32" concept="7" />
@@ -2167,12 +2167,12 @@
       <node id="91081616816649663" at="78,48,79,28" concept="2" />
       <node id="91081616816649663" at="79,28,80,31" concept="2" />
       <node id="5455284157993910967" at="80,31,81,48" concept="2" />
-      <node id="6279983981656118560" at="82,37,83,51" concept="2" />
+      <node id="6279983981656118560" at="82,27,83,51" concept="2" />
       <node id="8182547171709589116" at="84,5,85,52" concept="2" />
       <node id="5455284157993911100" at="85,52,86,52" concept="2" />
       <node id="5455284157993911075" at="86,52,87,49" concept="2" />
       <node id="91081616816649663" at="87,49,88,22" concept="7" />
-      <node id="6279983981656119294" at="90,46,91,68" concept="7" />
+      <node id="6279983981656119294" at="90,36,91,68" concept="7" />
       <node id="91081616816649663" at="93,40,94,60" concept="6" />
       <node id="91081616816649663" at="96,72,97,185" concept="6" />
       <node id="91081616816649663" at="97,185,98,60" concept="2" />
@@ -2229,12 +2229,12 @@
       <node id="6279983981656118560" at="182,40,183,34" concept="2" />
       <node id="6279983981656118560" at="183,34,184,22" concept="7" />
       <node id="91081616816649663" at="186,44,187,40" concept="6" />
-      <node id="91081616816649663" at="187,40,188,54" concept="2" />
-      <node id="91081616816649663" at="188,54,189,33" concept="6" />
+      <node id="91081616816649663" at="187,40,188,44" concept="2" />
+      <node id="91081616816649663" at="188,44,189,33" concept="6" />
       <node id="91081616816649663" at="190,31,191,38" concept="2" />
       <node id="91081616816649663" at="192,12,193,38" concept="2" />
       <node id="91081616816649663" at="194,5,195,22" concept="7" />
-      <node id="8182547171709589124" at="197,46,198,101" concept="7" />
+      <node id="8182547171709589124" at="197,36,198,101" concept="7" />
       <node id="8182547171709589121" at="200,41,201,94" concept="6" />
       <node id="8182547171709589121" at="201,94,202,48" concept="2" />
       <node id="8182547171709589121" at="202,48,203,34" concept="6" />
@@ -2323,12 +2323,12 @@
       <node id="91081616816649663" at="233,0,235,0" concept="3" trace="myNode" />
       <node id="91081616816649663" at="72,0,75,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6279983981656118560" at="81,48,84,5" concept="4" />
-      <node id="6279983981656119249" at="90,0,93,0" concept="5" trace="nodeCondition_vjvnvz_a1a#()Z" />
+      <node id="6279983981656119249" at="90,0,93,0" concept="5" trace="nodeCondition0#()Z" />
       <node id="5455284157993910968" at="142,0,145,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8182547171709589118" at="197,0,200,0" concept="5" trace="nodeCondition_vjvnvz_a2a#()Z" />
+      <node id="8182547171709589118" at="197,0,200,0" concept="5" trace="nodeCondition1#()Z" />
       <node id="91081616816649663" at="245,0,248,0" concept="5" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="91081616816649663" at="248,0,251,0" concept="5" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="91081616816649663" at="61,0,65,0" concept="1" trace="PatternBuilderNode_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="91081616816649663" at="61,0,65,0" concept="1" trace="PatternBuilderNode_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="91081616816649663" at="114,0,118,5" concept="4" />
       <node id="91081616816649663" at="236,0,240,0" concept="1" trace="valuesListHandler_vjvnvz_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="91081616816649663" at="241,0,245,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2367,19 +2367,19 @@
       <node id="91081616816649663" at="93,0,131,0" concept="5" trace="createRefCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="91081616816649663" at="68,26,69,18" />
       <scope id="91081616816649663" at="72,39,73,32" />
-      <scope id="6279983981656118560" at="82,37,83,51" />
-      <scope id="6279983981656119250" at="90,46,91,68" />
+      <scope id="6279983981656118560" at="82,27,83,51" />
+      <scope id="6279983981656119250" at="90,36,91,68" />
       <scope id="5455284157993910968" at="142,41,143,32" />
       <scope id="5455284157993910968" at="148,28,149,20" />
       <scope id="5455284157993910970" at="172,17,173,42" />
       <scope id="91081616816649663" at="190,31,191,38" />
       <scope id="91081616816649663" at="192,12,193,38" />
-      <scope id="8182547171709589119" at="197,46,198,101" />
+      <scope id="8182547171709589119" at="197,36,198,101" />
       <scope id="91081616816649663" at="242,28,243,20" />
       <scope id="91081616816649663" at="245,40,246,31" />
       <scope id="91081616816649663" at="248,48,249,35" />
       <scope id="91081616816649663" at="266,17,267,42" />
-      <scope id="91081616816649663" at="61,98,63,18" />
+      <scope id="91081616816649663" at="61,96,63,18" />
       <scope id="91081616816649663" at="115,40,117,46" />
       <scope id="91081616816649663" at="125,73,127,145">
         <var name="manager" id="91081616816649663" />
@@ -2514,16 +2514,16 @@
         <var name="style" id="91081616816649663" />
       </scope>
       <scope id="91081616816649663" at="93,0,131,0" />
-      <unit id="91081616816649663" at="332,0,336,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder_a$PROPS" />
-      <unit id="91081616816649663" at="337,0,341,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder_a$LINKS" />
-      <unit id="91081616816649663" at="342,0,347,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder_a$CONCEPTS" />
-      <unit id="91081616816649663" at="95,42,110,5" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder_a$1" />
-      <unit id="5455284157993910968" at="131,0,177,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder_a$Inline_Builder0" />
-      <unit id="91081616816649663" at="232,0,322,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder_a$valuesListHandler_vjvnvz_d0" />
-      <unit id="91081616816649663" at="57,0,348,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder_a" />
+      <unit id="91081616816649663" at="332,0,336,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder$PROPS" />
+      <unit id="91081616816649663" at="337,0,341,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder$LINKS" />
+      <unit id="91081616816649663" at="342,0,347,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder$CONCEPTS" />
+      <unit id="91081616816649663" at="95,42,110,5" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder$1" />
+      <unit id="5455284157993910968" at="131,0,177,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder$Inline_Builder0" />
+      <unit id="91081616816649663" at="232,0,322,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder$valuesListHandler_vjvnvz_d0" />
+      <unit id="91081616816649663" at="57,0,348,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_EditorBuilder" />
     </file>
-    <file name="PatternBuilderNode_InspectorBuilder_a.java">
-      <node id="91081616816649663" at="30,101,31,19" concept="12" />
+    <file name="PatternBuilderNode_InspectorBuilder.java">
+      <node id="91081616816649663" at="30,99,31,19" concept="12" />
       <node id="91081616816649663" at="31,19,32,18" concept="2" />
       <node id="91081616816649663" at="37,26,38,18" concept="7" />
       <node id="91081616816649663" at="41,39,42,32" concept="7" />
@@ -2553,7 +2553,7 @@
       <node id="91081616816649663" at="27,0,29,0" concept="3" trace="myNode" />
       <node id="91081616816649663" at="41,0,44,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5455284157993911066" at="65,0,68,0" concept="5" trace="getText#()Ljava/lang/String;" />
-      <node id="91081616816649663" at="30,0,34,0" concept="1" trace="PatternBuilderNode_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="91081616816649663" at="30,0,34,0" concept="1" trace="PatternBuilderNode_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="91081616816649663" at="35,0,40,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5455284157993911066" at="63,54,68,15" concept="6" />
       <node id="91081616816649663" at="45,0,54,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -2562,7 +2562,7 @@
       <scope id="91081616816649663" at="37,26,38,18" />
       <scope id="91081616816649663" at="41,39,42,32" />
       <scope id="5455284157993911069" at="65,31,66,219" />
-      <scope id="91081616816649663" at="30,101,32,18" />
+      <scope id="91081616816649663" at="30,99,32,18" />
       <scope id="91081616816649663" at="41,0,44,0" />
       <scope id="5455284157993911066" at="65,0,68,0" />
       <scope id="91081616816649663" at="30,0,34,0">
@@ -2584,9 +2584,9 @@
         <var name="style" id="5455284157993911066" />
       </scope>
       <scope id="5455284157993911066" at="63,0,77,0" />
-      <unit id="91081616816649663" at="78,0,81,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_InspectorBuilder_a$LINKS" />
-      <unit id="5455284157993911066" at="64,88,68,5" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_InspectorBuilder_a$1" />
-      <unit id="91081616816649663" at="26,0,82,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_InspectorBuilder_a" />
+      <unit id="91081616816649663" at="78,0,81,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_InspectorBuilder$LINKS" />
+      <unit id="5455284157993911066" at="64,88,68,5" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_InspectorBuilder$1" />
+      <unit id="91081616816649663" at="26,0,82,0" name="de.itemis.mps.compare.pattern.editor.PatternBuilderNode_InspectorBuilder" />
     </file>
   </root>
 </debug-info>

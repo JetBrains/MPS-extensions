@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class NodeOverlapRemovalTest_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new NodeOverlapRemovalTest_EditorBuilder_a(editorContext, node).createCell();
+    return new NodeOverlapRemovalTest_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new NodeOverlapRemovalTest_InspectorBuilder_a(editorContext, node).createCell();
+    return new NodeOverlapRemovalTest_InspectorBuilder(editorContext, node).createCell();
   }
 }

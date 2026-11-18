@@ -17,12 +17,12 @@
   </root>
   <root nodeRef="r:9c3762e4-b489-45f0-9711-2124493e5d11(de.itemis.mps.editor.htmlcell.editor)/9175692738071697541">
     <file name="CellModel_HTML_Editor.java">
-      <node id="9175692738071697541" at="11,79,12,80" concept="6" />
-      <node id="9175692738071697541" at="14,82,15,83" concept="6" />
+      <node id="9175692738071697541" at="11,79,12,78" concept="6" />
+      <node id="9175692738071697541" at="14,82,15,81" concept="6" />
       <node id="9175692738071697541" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9175692738071697541" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9175692738071697541" at="11,79,12,80" />
-      <scope id="9175692738071697541" at="14,82,15,83" />
+      <scope id="9175692738071697541" at="11,79,12,78" />
+      <scope id="9175692738071697541" at="14,82,15,81" />
       <scope id="9175692738071697541" at="11,0,14,0">
         <var name="editorContext" id="9175692738071697541" />
         <var name="node" id="9175692738071697541" />
@@ -33,8 +33,8 @@
       </scope>
       <unit id="9175692738071697541" at="10,0,18,0" name="de.itemis.mps.editor.htmlcell.editor.CellModel_HTML_Editor" />
     </file>
-    <file name="CellModel_HTML_EditorBuilder_a.java">
-      <node id="9175692738071697541" at="24,94,25,19" concept="8" />
+    <file name="CellModel_HTML_EditorBuilder.java">
+      <node id="9175692738071697541" at="24,92,25,19" concept="8" />
       <node id="9175692738071697541" at="25,19,26,18" concept="1" />
       <node id="9175692738071697541" at="31,26,32,18" concept="6" />
       <node id="9175692738071697541" at="35,39,36,32" concept="6" />
@@ -68,7 +68,7 @@
       <node id="1355051069417735592" at="72,40,73,22" concept="6" />
       <node id="9175692738071697541" at="21,0,23,0" concept="2" trace="myNode" />
       <node id="9175692738071697541" at="35,0,38,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="9175692738071697541" at="24,0,28,0" concept="0" trace="CellModel_HTML_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9175692738071697541" at="24,0,28,0" concept="0" trace="CellModel_HTML_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9175692738071697541" at="29,0,34,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1355051069417735589" at="52,0,59,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1355051069417735592" at="68,0,75,0" concept="4" trace="createComponent_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -76,7 +76,7 @@
       <node id="9175692738071697541" at="39,0,52,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="9175692738071697541" at="31,26,32,18" />
       <scope id="9175692738071697541" at="35,39,36,32" />
-      <scope id="9175692738071697541" at="24,94,26,18" />
+      <scope id="9175692738071697541" at="24,92,26,18" />
       <scope id="9175692738071697541" at="35,0,38,0" />
       <scope id="9175692738071697541" at="24,0,28,0">
         <var name="context" id="9175692738071697541" />
@@ -103,10 +103,10 @@
         <var name="style" id="9175692738071697541" />
       </scope>
       <scope id="9175692738071697541" at="39,0,52,0" />
-      <unit id="9175692738071697541" at="20,0,76,0" name="de.itemis.mps.editor.htmlcell.editor.CellModel_HTML_EditorBuilder_a" />
+      <unit id="9175692738071697541" at="20,0,76,0" name="de.itemis.mps.editor.htmlcell.editor.CellModel_HTML_EditorBuilder" />
     </file>
-    <file name="CellModel_HTML_InspectorBuilder_a.java">
-      <node id="9175692738071697541" at="28,97,29,19" concept="8" />
+    <file name="CellModel_HTML_InspectorBuilder.java">
+      <node id="9175692738071697541" at="28,95,29,19" concept="8" />
       <node id="9175692738071697541" at="29,19,30,18" concept="1" />
       <node id="9175692738071697541" at="35,26,36,18" concept="6" />
       <node id="9175692738071697541" at="39,39,40,32" concept="6" />
@@ -153,7 +153,7 @@
       <node id="9175692738071697541" at="93,87,96,7" concept="3" />
       <node id="9175692738071697541" at="96,7,99,7" concept="3" />
       <node id="9175692738071697541" at="115,0,118,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="9175692738071697541" at="28,0,32,0" concept="0" trace="CellModel_HTML_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9175692738071697541" at="28,0,32,0" concept="0" trace="CellModel_HTML_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9175692738071697541" at="64,0,68,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9175692738071697541" at="72,0,76,0" concept="0" trace="contentProviderSingleRoleHandler_pcwqs4_b0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="9175692738071697541" at="33,0,38,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -172,7 +172,7 @@
       <scope id="9175692738071697541" at="97,42,98,56" />
       <scope id="9175692738071697541" at="111,17,112,42" />
       <scope id="9175692738071697541" at="115,40,116,36" />
-      <scope id="9175692738071697541" at="28,97,30,18" />
+      <scope id="9175692738071697541" at="28,95,30,18" />
       <scope id="9175692738071697541" at="64,40,66,33">
         <var name="provider" id="9175692738071697541" />
       </scope>
@@ -220,9 +220,9 @@
       </scope>
       <scope id="9175692738071697541" at="102,44,113,7" />
       <scope id="9175692738071697541" at="101,0,115,0" />
-      <unit id="9175692738071697541" at="120,0,123,0" name="de.itemis.mps.editor.htmlcell.editor.CellModel_HTML_InspectorBuilder_a$LINKS" />
-      <unit id="9175692738071697541" at="68,0,119,0" name="de.itemis.mps.editor.htmlcell.editor.CellModel_HTML_InspectorBuilder_a$contentProviderSingleRoleHandler_pcwqs4_b0a" />
-      <unit id="9175692738071697541" at="24,0,124,0" name="de.itemis.mps.editor.htmlcell.editor.CellModel_HTML_InspectorBuilder_a" />
+      <unit id="9175692738071697541" at="120,0,123,0" name="de.itemis.mps.editor.htmlcell.editor.CellModel_HTML_InspectorBuilder$LINKS" />
+      <unit id="9175692738071697541" at="68,0,119,0" name="de.itemis.mps.editor.htmlcell.editor.CellModel_HTML_InspectorBuilder$contentProviderSingleRoleHandler_pcwqs4_b0a" />
+      <unit id="9175692738071697541" at="24,0,124,0" name="de.itemis.mps.editor.htmlcell.editor.CellModel_HTML_InspectorBuilder" />
     </file>
   </root>
 </debug-info>

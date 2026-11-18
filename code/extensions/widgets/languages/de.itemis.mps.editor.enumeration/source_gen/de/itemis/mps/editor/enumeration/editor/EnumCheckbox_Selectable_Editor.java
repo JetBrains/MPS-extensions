@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class EnumCheckbox_Selectable_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new EnumCheckbox_Selectable_EditorBuilder_a(editorContext, node).createCell();
+    return new EnumCheckbox_Selectable_EditorBuilder(editorContext, node).createCell();
   }
 }

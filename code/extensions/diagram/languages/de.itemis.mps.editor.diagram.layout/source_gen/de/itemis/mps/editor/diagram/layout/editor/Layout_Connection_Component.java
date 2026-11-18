@@ -16,6 +16,6 @@ public class Layout_Connection_Component implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Layout_Connection_Component_ComponentBuilder_a(editorContext, node).createCell();
+    return new Layout_Connection_Component_ComponentBuilder(editorContext, node).createCell();
   }
 }

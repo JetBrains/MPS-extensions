@@ -495,11 +495,11 @@
     </file>
     <file name="Header.java">
       <node id="3601881183937354932" at="15,47,16,35" concept="8" />
-      <node id="3601881183937354932" at="18,79,19,75" concept="8" />
+      <node id="3601881183937354932" at="18,79,19,73" concept="8" />
       <node id="3601881183937354932" at="18,0,21,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3601881183937354932" at="14,0,18,0" concept="6" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="3601881183937354932" at="15,47,16,35" />
-      <scope id="3601881183937354932" at="18,79,19,75" />
+      <scope id="3601881183937354932" at="18,79,19,73" />
       <scope id="3601881183937354932" at="18,0,21,0">
         <var name="editorContext" id="3601881183937354932" />
         <var name="node" id="3601881183937354932" />
@@ -507,8 +507,8 @@
       <scope id="3601881183937354932" at="14,0,18,0" />
       <unit id="3601881183937354932" at="13,0,22,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Header" />
     </file>
-    <file name="Header_ComponentBuilder_a.java">
-      <node id="3601881183937354932" at="46,89,47,19" concept="13" />
+    <file name="Header_ComponentBuilder.java">
+      <node id="3601881183937354932" at="46,87,47,19" concept="13" />
       <node id="3601881183937354932" at="47,19,48,18" concept="2" />
       <node id="3601881183937354932" at="53,26,54,18" concept="8" />
       <node id="3601881183937354932" at="57,39,58,32" concept="8" />
@@ -605,12 +605,12 @@
       <node id="5080030193841784468" at="212,52,213,49" concept="2" />
       <node id="3601881183937354932" at="213,49,214,22" concept="8" />
       <node id="3601881183937354932" at="216,44,217,40" concept="7" />
-      <node id="3601881183937354932" at="217,40,218,58" concept="2" />
-      <node id="3601881183937354932" at="218,58,219,33" concept="7" />
+      <node id="3601881183937354932" at="217,40,218,44" concept="2" />
+      <node id="3601881183937354932" at="218,44,219,33" concept="7" />
       <node id="3601881183937354932" at="220,31,221,38" concept="2" />
       <node id="3601881183937354932" at="222,12,223,38" concept="2" />
       <node id="3601881183937354932" at="224,5,225,22" concept="8" />
-      <node id="3601881183937354932" at="227,50,228,78" concept="8" />
+      <node id="3601881183937354932" at="227,36,228,78" concept="8" />
       <node id="3601881183937354932" at="230,41,231,96" concept="7" />
       <node id="3601881183937354932" at="231,96,232,52" concept="2" />
       <node id="3601881183937354932" at="232,52,233,34" concept="2" />
@@ -631,12 +631,12 @@
       <node id="5080030193841785634" at="253,52,254,49" concept="2" />
       <node id="3601881183937354932" at="254,49,255,22" concept="8" />
       <node id="3601881183937354932" at="257,44,258,40" concept="7" />
-      <node id="3601881183937354932" at="258,40,259,58" concept="2" />
-      <node id="3601881183937354932" at="259,58,260,33" concept="7" />
+      <node id="3601881183937354932" at="258,40,259,44" concept="2" />
+      <node id="3601881183937354932" at="259,44,260,33" concept="7" />
       <node id="3601881183937354932" at="261,31,262,38" concept="2" />
       <node id="3601881183937354932" at="263,12,264,38" concept="2" />
       <node id="3601881183937354932" at="265,5,266,22" concept="8" />
-      <node id="3601881183937354932" at="268,50,269,78" concept="8" />
+      <node id="3601881183937354932" at="268,36,269,78" concept="8" />
       <node id="3601881183937354932" at="271,41,272,96" concept="7" />
       <node id="3601881183937354932" at="272,96,273,52" concept="2" />
       <node id="3601881183937354932" at="273,52,274,34" concept="2" />
@@ -657,12 +657,12 @@
       <node id="5080030193841786453" at="294,52,295,50" concept="2" />
       <node id="3601881183937354932" at="295,50,296,22" concept="8" />
       <node id="3601881183937354932" at="298,44,299,40" concept="7" />
-      <node id="3601881183937354932" at="299,40,300,58" concept="2" />
-      <node id="3601881183937354932" at="300,58,301,33" concept="7" />
+      <node id="3601881183937354932" at="299,40,300,44" concept="2" />
+      <node id="3601881183937354932" at="300,44,301,33" concept="7" />
       <node id="3601881183937354932" at="302,31,303,39" concept="2" />
       <node id="3601881183937354932" at="304,12,305,39" concept="2" />
       <node id="3601881183937354932" at="306,5,307,22" concept="8" />
-      <node id="3601881183937354932" at="309,50,310,79" concept="8" />
+      <node id="3601881183937354932" at="309,36,310,79" concept="8" />
       <node id="3601881183937354932" at="312,42,313,96" concept="7" />
       <node id="3601881183937354932" at="313,96,314,52" concept="2" />
       <node id="3601881183937354932" at="314,52,315,34" concept="2" />
@@ -724,13 +724,13 @@
       <node id="3601881183937354932" at="142,87,145,7" concept="5" />
       <node id="3601881183937354932" at="145,7,148,7" concept="5" />
       <node id="3601881183937354932" at="164,0,167,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="3601881183937354932" at="227,0,230,0" concept="6" trace="nodeCondition_hua1cm_a0a1b4a#()Z" />
-      <node id="3601881183937354932" at="268,0,271,0" concept="6" trace="nodeCondition_hua1cm_a0b1b4a#()Z" />
-      <node id="3601881183937354932" at="309,0,312,0" concept="6" trace="nodeCondition_hua1cm_a0c1b4a#()Z" />
+      <node id="3601881183937354932" at="227,0,230,0" concept="6" trace="nodeCondition0#()Z" />
+      <node id="3601881183937354932" at="268,0,271,0" concept="6" trace="nodeCondition1#()Z" />
+      <node id="3601881183937354932" at="309,0,312,0" concept="6" trace="nodeCondition2#()Z" />
       <node id="3601881183937354932" at="374,87,377,7" concept="5" />
       <node id="3601881183937354932" at="377,7,380,7" concept="5" />
       <node id="3601881183937354932" at="396,0,399,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="3601881183937354932" at="46,0,50,0" concept="1" trace="Header_ComponentBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3601881183937354932" at="46,0,50,0" concept="1" trace="Header_ComponentBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3601881183937354932" at="113,0,117,0" concept="6" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3601881183937354932" at="121,0,125,0" concept="1" trace="descriptionSingleRoleHandler_hua1cm_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5080030193841781480" at="195,0,199,0" concept="6" trace="createIndentCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -789,19 +789,19 @@
       <scope id="3601881183937354932" at="164,40,165,32" />
       <scope id="3601881183937354932" at="220,31,221,38" />
       <scope id="3601881183937354932" at="222,12,223,38" />
-      <scope id="3601881183937354932" at="227,50,228,78" />
+      <scope id="3601881183937354932" at="227,36,228,78" />
       <scope id="3601881183937354932" at="261,31,262,38" />
       <scope id="3601881183937354932" at="263,12,264,38" />
-      <scope id="3601881183937354932" at="268,50,269,78" />
+      <scope id="3601881183937354932" at="268,36,269,78" />
       <scope id="3601881183937354932" at="302,31,303,39" />
       <scope id="3601881183937354932" at="304,12,305,39" />
-      <scope id="3601881183937354932" at="309,50,310,79" />
+      <scope id="3601881183937354932" at="309,36,310,79" />
       <scope id="3601881183937354932" at="360,28,361,20" />
       <scope id="3601881183937354932" at="375,118,376,137" />
       <scope id="3601881183937354932" at="378,42,379,47" />
       <scope id="3601881183937354932" at="392,17,393,42" />
       <scope id="3601881183937354932" at="396,40,397,27" />
-      <scope id="3601881183937354932" at="46,89,48,18" />
+      <scope id="3601881183937354932" at="46,87,48,18" />
       <scope id="3601881183937355515" at="98,74,100,145">
         <var name="manager" id="3601881183937355515" />
       </scope>
@@ -992,12 +992,12 @@
       <scope id="3601881183937354932" at="382,0,396,0" />
       <scope id="3601881183937355515" at="86,41,105,5" />
       <scope id="3601881183937355515" at="86,0,107,0" />
-      <unit id="3601881183937354932" at="408,0,411,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Header_ComponentBuilder_a$CONCEPTS" />
-      <unit id="3601881183937354932" at="412,0,416,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Header_ComponentBuilder_a$LINKS" />
-      <unit id="3601881183937354932" at="401,0,407,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Header_ComponentBuilder_a$PROPS" />
-      <unit id="3601881183937354932" at="117,0,168,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Header_ComponentBuilder_a$descriptionSingleRoleHandler_hua1cm_c0" />
-      <unit id="3601881183937354932" at="349,0,400,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Header_ComponentBuilder_a$configSingleRoleHandler_hua1cm_g0" />
-      <unit id="3601881183937354932" at="42,0,417,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Header_ComponentBuilder_a" />
+      <unit id="3601881183937354932" at="408,0,411,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Header_ComponentBuilder$CONCEPTS" />
+      <unit id="3601881183937354932" at="412,0,416,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Header_ComponentBuilder$LINKS" />
+      <unit id="3601881183937354932" at="401,0,407,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Header_ComponentBuilder$PROPS" />
+      <unit id="3601881183937354932" at="117,0,168,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Header_ComponentBuilder$descriptionSingleRoleHandler_hua1cm_c0" />
+      <unit id="3601881183937354932" at="349,0,400,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Header_ComponentBuilder$configSingleRoleHandler_hua1cm_g0" />
+      <unit id="3601881183937354932" at="42,0,417,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Header_ComponentBuilder" />
     </file>
     <file name="ToggleCheckboxAction_hua1cm_a1b4a.java">
       <node id="5080030193841784124" at="16,0,17,0" concept="3" trace="myNode" />
@@ -1077,17 +1077,17 @@
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/3601881183937360958">
     <file name="Edge_Editor.java">
-      <node id="3601881183937360958" at="11,79,12,70" concept="8" />
+      <node id="3601881183937360958" at="11,79,12,68" concept="8" />
       <node id="3601881183937360958" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3601881183937360958" at="11,79,12,70" />
+      <scope id="3601881183937360958" at="11,79,12,68" />
       <scope id="3601881183937360958" at="11,0,14,0">
         <var name="editorContext" id="3601881183937360958" />
         <var name="node" id="3601881183937360958" />
       </scope>
       <unit id="3601881183937360958" at="10,0,15,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_Editor" />
     </file>
-    <file name="Edge_EditorBuilder_a.java">
-      <node id="3601881183937360958" at="58,84,59,19" concept="13" />
+    <file name="Edge_EditorBuilder.java">
+      <node id="3601881183937360958" at="58,82,59,19" concept="13" />
       <node id="3601881183937360958" at="59,19,60,18" concept="2" />
       <node id="3601881183937360958" at="65,26,66,18" concept="8" />
       <node id="3601881183937360958" at="69,39,70,38" concept="8" />
@@ -1129,19 +1129,19 @@
       <node id="3601881183937360958" at="159,0,160,36" concept="7" />
       <node id="3601881183937360958" at="160,36,161,64" concept="7" />
       <node id="3601881183937360958" at="162,52,163,38" concept="7" />
-      <node id="5080030193844011296" at="164,57,165,85" concept="2" />
-      <node id="5080030193844011315" at="167,57,168,87" concept="2" />
-      <node id="5080030193844011334" at="170,57,171,87" concept="2" />
-      <node id="5080030193844011353" at="173,57,174,87" concept="2" />
-      <node id="5080030193844011372" at="176,57,177,88" concept="2" />
-      <node id="5080030193844011391" at="179,57,180,89" concept="2" />
-      <node id="5080030193844011410" at="182,57,183,88" concept="2" />
-      <node id="5080030193844011429" at="185,57,186,88" concept="2" />
-      <node id="5080030193844011448" at="188,57,189,91" concept="2" />
-      <node id="5080030193844011467" at="191,57,192,91" concept="2" />
-      <node id="5080030193844011486" at="194,58,195,93" concept="2" />
-      <node id="5080030193844011505" at="197,58,198,96" concept="2" />
-      <node id="5080030193844011524" at="200,58,201,86" concept="2" />
+      <node id="5080030193844011296" at="164,57,165,83" concept="2" />
+      <node id="5080030193844011315" at="167,57,168,85" concept="2" />
+      <node id="5080030193844011334" at="170,57,171,85" concept="2" />
+      <node id="5080030193844011353" at="173,57,174,85" concept="2" />
+      <node id="5080030193844011372" at="176,57,177,86" concept="2" />
+      <node id="5080030193844011391" at="179,57,180,87" concept="2" />
+      <node id="5080030193844011410" at="182,57,183,86" concept="2" />
+      <node id="5080030193844011429" at="185,57,186,86" concept="2" />
+      <node id="5080030193844011448" at="188,57,189,89" concept="2" />
+      <node id="5080030193844011467" at="191,57,192,89" concept="2" />
+      <node id="5080030193844011486" at="194,58,195,91" concept="2" />
+      <node id="5080030193844011505" at="197,58,198,94" concept="2" />
+      <node id="5080030193844011524" at="200,58,201,84" concept="2" />
       <node id="3601881183937360958" at="202,9,203,44" concept="2" />
       <node id="3601881183937360958" at="203,44,204,91" concept="7" />
       <node id="3601881183937360958" at="204,91,205,73" concept="2" />
@@ -1154,19 +1154,19 @@
       <node id="3601881183937360958" at="212,56,213,30" concept="2" />
       <node id="3601881183937360958" at="213,30,214,33" concept="2" />
       <node id="3601881183937360958" at="214,33,215,36" concept="7" />
-      <node id="5080030193844011296" at="216,55,217,83" concept="2" />
-      <node id="5080030193844011315" at="219,55,220,85" concept="2" />
-      <node id="5080030193844011334" at="222,55,223,85" concept="2" />
-      <node id="5080030193844011353" at="225,55,226,85" concept="2" />
-      <node id="5080030193844011372" at="228,55,229,86" concept="2" />
-      <node id="5080030193844011391" at="231,55,232,87" concept="2" />
-      <node id="5080030193844011410" at="234,55,235,86" concept="2" />
-      <node id="5080030193844011429" at="237,55,238,86" concept="2" />
-      <node id="5080030193844011448" at="240,55,241,89" concept="2" />
-      <node id="5080030193844011467" at="243,55,244,89" concept="2" />
-      <node id="5080030193844011486" at="246,56,247,91" concept="2" />
-      <node id="5080030193844011505" at="249,56,250,94" concept="2" />
-      <node id="5080030193844011524" at="252,56,253,84" concept="2" />
+      <node id="5080030193844011296" at="216,55,217,81" concept="2" />
+      <node id="5080030193844011315" at="219,55,220,83" concept="2" />
+      <node id="5080030193844011334" at="222,55,223,83" concept="2" />
+      <node id="5080030193844011353" at="225,55,226,83" concept="2" />
+      <node id="5080030193844011372" at="228,55,229,84" concept="2" />
+      <node id="5080030193844011391" at="231,55,232,85" concept="2" />
+      <node id="5080030193844011410" at="234,55,235,84" concept="2" />
+      <node id="5080030193844011429" at="237,55,238,84" concept="2" />
+      <node id="5080030193844011448" at="240,55,241,87" concept="2" />
+      <node id="5080030193844011467" at="243,55,244,87" concept="2" />
+      <node id="5080030193844011486" at="246,56,247,89" concept="2" />
+      <node id="5080030193844011505" at="249,56,250,92" concept="2" />
+      <node id="5080030193844011524" at="252,56,253,82" concept="2" />
       <node id="3601881183937360958" at="254,7,255,42" concept="2" />
       <node id="3601881183937360958" at="255,42,256,0" concept="10" />
       <node id="3601881183937360958" at="257,30,258,91" concept="7" />
@@ -1257,7 +1257,7 @@
       <node id="5080030193844011487" at="308,0,311,0" concept="6" trace="_StyleParameter_QueryFunction_awgniv_a01a#()Z" />
       <node id="5080030193844011506" at="311,0,314,0" concept="6" trace="_StyleParameter_QueryFunction_awgniv_a11a#()Z" />
       <node id="5080030193844011525" at="314,0,317,0" concept="6" trace="_StyleParameter_QueryFunction_awgniv_a21a#()Z" />
-      <node id="3601881183937360958" at="58,0,62,0" concept="1" trace="Edge_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3601881183937360958" at="58,0,62,0" concept="1" trace="Edge_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3601881183937360958" at="110,0,114,0" concept="6" trace="writeFrom#(Lde/itemis/mps/editor/diagram/runtime/model/IConnectionEndpoint_Internal;)V" />
       <node id="3601881183937360958" at="116,0,120,0" concept="6" trace="writeTo#(Lde/itemis/mps/editor/diagram/runtime/model/IConnectionEndpoint_Internal;)V" />
       <node id="3601881183937360958" at="123,0,127,0" concept="6" trace="readFrom#()Lde/itemis/mps/editor/diagram/runtime/model/IConnectionEndpointReference;" />
@@ -1289,32 +1289,32 @@
       <scope id="3601881183937360958" at="139,46,140,31" />
       <scope id="3601881183937360958" at="142,39,143,28" />
       <scope id="3601881183937360958" at="146,38,147,39" />
-      <scope id="5080030193844011296" at="164,57,165,85" />
-      <scope id="5080030193844011315" at="167,57,168,87" />
-      <scope id="5080030193844011334" at="170,57,171,87" />
-      <scope id="5080030193844011353" at="173,57,174,87" />
-      <scope id="5080030193844011372" at="176,57,177,88" />
-      <scope id="5080030193844011391" at="179,57,180,89" />
-      <scope id="5080030193844011410" at="182,57,183,88" />
-      <scope id="5080030193844011429" at="185,57,186,88" />
-      <scope id="5080030193844011448" at="188,57,189,91" />
-      <scope id="5080030193844011467" at="191,57,192,91" />
-      <scope id="5080030193844011486" at="194,58,195,93" />
-      <scope id="5080030193844011505" at="197,58,198,96" />
-      <scope id="5080030193844011524" at="200,58,201,86" />
-      <scope id="5080030193844011296" at="216,55,217,83" />
-      <scope id="5080030193844011315" at="219,55,220,85" />
-      <scope id="5080030193844011334" at="222,55,223,85" />
-      <scope id="5080030193844011353" at="225,55,226,85" />
-      <scope id="5080030193844011372" at="228,55,229,86" />
-      <scope id="5080030193844011391" at="231,55,232,87" />
-      <scope id="5080030193844011410" at="234,55,235,86" />
-      <scope id="5080030193844011429" at="237,55,238,86" />
-      <scope id="5080030193844011448" at="240,55,241,89" />
-      <scope id="5080030193844011467" at="243,55,244,89" />
-      <scope id="5080030193844011486" at="246,56,247,91" />
-      <scope id="5080030193844011505" at="249,56,250,94" />
-      <scope id="5080030193844011524" at="252,56,253,84" />
+      <scope id="5080030193844011296" at="164,57,165,83" />
+      <scope id="5080030193844011315" at="167,57,168,85" />
+      <scope id="5080030193844011334" at="170,57,171,85" />
+      <scope id="5080030193844011353" at="173,57,174,85" />
+      <scope id="5080030193844011372" at="176,57,177,86" />
+      <scope id="5080030193844011391" at="179,57,180,87" />
+      <scope id="5080030193844011410" at="182,57,183,86" />
+      <scope id="5080030193844011429" at="185,57,186,86" />
+      <scope id="5080030193844011448" at="188,57,189,89" />
+      <scope id="5080030193844011467" at="191,57,192,89" />
+      <scope id="5080030193844011486" at="194,58,195,91" />
+      <scope id="5080030193844011505" at="197,58,198,94" />
+      <scope id="5080030193844011524" at="200,58,201,84" />
+      <scope id="5080030193844011296" at="216,55,217,81" />
+      <scope id="5080030193844011315" at="219,55,220,83" />
+      <scope id="5080030193844011334" at="222,55,223,83" />
+      <scope id="5080030193844011353" at="225,55,226,83" />
+      <scope id="5080030193844011372" at="228,55,229,84" />
+      <scope id="5080030193844011391" at="231,55,232,85" />
+      <scope id="5080030193844011410" at="234,55,235,84" />
+      <scope id="5080030193844011429" at="237,55,238,84" />
+      <scope id="5080030193844011448" at="240,55,241,87" />
+      <scope id="5080030193844011467" at="243,55,244,87" />
+      <scope id="5080030193844011486" at="246,56,247,89" />
+      <scope id="5080030193844011505" at="249,56,250,92" />
+      <scope id="5080030193844011524" at="252,56,253,82" />
       <scope id="3601881183937360958" at="262,44,263,65" />
       <scope id="3601881183937360958" at="265,48,266,69" />
       <scope id="3601881183937360958" at="268,46,269,67" />
@@ -1332,7 +1332,7 @@
       <scope id="5080030193844011488" at="308,63,309,280" />
       <scope id="5080030193844011507" at="311,63,312,276" />
       <scope id="5080030193844011526" at="314,63,315,266" />
-      <scope id="3601881183937360958" at="58,84,60,18" />
+      <scope id="3601881183937360958" at="58,82,60,18" />
       <scope id="3601881183937360958" at="114,0,116,0">
         <var name="port" id="3601881183937360958" />
         <var name="targetDNode" id="3601881183937360958" />
@@ -1351,13 +1351,13 @@
       </scope>
       <scope id="3601881183937360958" at="69,0,72,0" />
       <scope id="3601881183937360958" at="92,13,95,61">
-        <var name="_tmp_mlfag7_b0b0i0a0a1a2a3a8" id="3601881183937360958" />
+        <var name="_tmp_jtypme_b0b0i0a0a1a2a3a8" id="3601881183937360958" />
       </scope>
       <scope id="3601881183937360958" at="97,13,100,62">
-        <var name="_tmp_mlfag7_c0b0i0a0a1a2a3a8" id="3601881183937360958" />
+        <var name="_tmp_jtypme_c0b0i0a0a1a2a3a8" id="3601881183937360958" />
       </scope>
       <scope id="3601881183937360958" at="102,13,105,59">
-        <var name="_tmp_mlfag7_d0b0i0a0a1a2a3a8" id="3601881183937360958" />
+        <var name="_tmp_jtypme_d0b0i0a0a1a2a3a8" id="3601881183937360958" />
       </scope>
       <scope id="3601881183937360958" at="135,0,138,0" />
       <scope id="3601881183937360958" at="142,0,145,0" />
@@ -1417,26 +1417,26 @@
         <var name="editorContext" id="3601881183937360958" />
         <var name="node" id="3601881183937360958" />
       </scope>
-      <unit id="3601881183937360958" at="340,0,343,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_EditorBuilder_a$PROPS" />
-      <unit id="3601881183937360958" at="318,0,322,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_EditorBuilder_a$LINKS" />
-      <unit id="3601881183937360958" at="323,0,339,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_EditorBuilder_a$CONCEPTS" />
-      <unit id="3601881183937360958" at="79,39,156,7" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_EditorBuilder_a$1" />
-      <unit id="3601881183937360958" at="54,0,344,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_EditorBuilder_a" />
+      <unit id="3601881183937360958" at="340,0,343,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_EditorBuilder$PROPS" />
+      <unit id="3601881183937360958" at="318,0,322,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_EditorBuilder$LINKS" />
+      <unit id="3601881183937360958" at="323,0,339,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_EditorBuilder$CONCEPTS" />
+      <unit id="3601881183937360958" at="79,39,156,7" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_EditorBuilder$1" />
+      <unit id="3601881183937360958" at="54,0,344,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/3601881183937377451">
     <file name="Node_Editor.java">
-      <node id="3601881183937377451" at="11,79,12,70" concept="8" />
+      <node id="3601881183937377451" at="11,79,12,68" concept="8" />
       <node id="3601881183937377451" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3601881183937377451" at="11,79,12,70" />
+      <scope id="3601881183937377451" at="11,79,12,68" />
       <scope id="3601881183937377451" at="11,0,14,0">
         <var name="editorContext" id="3601881183937377451" />
         <var name="node" id="3601881183937377451" />
       </scope>
       <unit id="3601881183937377451" at="10,0,15,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_Editor" />
     </file>
-    <file name="Node_EditorBuilder_a.java">
-      <node id="3601881183937377451" at="58,84,59,19" concept="13" />
+    <file name="Node_EditorBuilder.java">
+      <node id="3601881183937377451" at="58,82,59,19" concept="13" />
       <node id="3601881183937377451" at="59,19,60,18" concept="2" />
       <node id="3601881183937377451" at="65,26,66,18" concept="8" />
       <node id="3601881183937377451" at="69,39,70,35" concept="8" />
@@ -1462,19 +1462,19 @@
       <node id="3601881183937377451" at="112,57,113,36" concept="2" />
       <node id="3601881183937377451" at="113,36,114,39" concept="2" />
       <node id="3601881183937377451" at="114,39,115,36" concept="7" />
-      <node id="5080030193843929861" at="116,55,117,89" concept="2" />
-      <node id="5080030193843985975" at="119,55,120,91" concept="2" />
-      <node id="5080030193843986647" at="122,55,123,91" concept="2" />
-      <node id="5080030193843987194" at="125,55,126,91" concept="2" />
-      <node id="5080030193844008438" at="128,55,129,92" concept="2" />
-      <node id="5080030193843987877" at="131,55,132,93" concept="2" />
-      <node id="5080030193843988481" at="134,55,135,92" concept="2" />
-      <node id="5080030193843989195" at="137,55,138,92" concept="2" />
-      <node id="5080030193843990016" at="140,55,141,95" concept="2" />
-      <node id="5080030193843990944" at="143,55,144,95" concept="2" />
-      <node id="5080030193843992310" at="146,56,147,97" concept="2" />
-      <node id="5080030193843993449" at="149,56,150,100" concept="2" />
-      <node id="5080030193843994698" at="152,56,153,90" concept="2" />
+      <node id="5080030193843929861" at="116,55,117,87" concept="2" />
+      <node id="5080030193843985975" at="119,55,120,89" concept="2" />
+      <node id="5080030193843986647" at="122,55,123,89" concept="2" />
+      <node id="5080030193843987194" at="125,55,126,89" concept="2" />
+      <node id="5080030193844008438" at="128,55,129,90" concept="2" />
+      <node id="5080030193843987877" at="131,55,132,91" concept="2" />
+      <node id="5080030193843988481" at="134,55,135,90" concept="2" />
+      <node id="5080030193843989195" at="137,55,138,90" concept="2" />
+      <node id="5080030193843990016" at="140,55,141,93" concept="2" />
+      <node id="5080030193843990944" at="143,55,144,93" concept="2" />
+      <node id="5080030193843992310" at="146,56,147,95" concept="2" />
+      <node id="5080030193843993449" at="149,56,150,98" concept="2" />
+      <node id="5080030193843994698" at="152,56,153,88" concept="2" />
       <node id="3601881183937377451" at="154,7,155,48" concept="2" />
       <node id="3601881183937377451" at="155,48,156,0" concept="10" />
       <node id="3601881183937377451" at="156,0,157,50" concept="2" />
@@ -1558,7 +1558,7 @@
       <node id="5080030193843992311" at="200,0,203,0" concept="6" trace="_StyleParameter_QueryFunction_aofvvp_a01a#()Z" />
       <node id="5080030193843993450" at="203,0,206,0" concept="6" trace="_StyleParameter_QueryFunction_aofvvp_a11a#()Z" />
       <node id="5080030193843994699" at="206,0,209,0" concept="6" trace="_StyleParameter_QueryFunction_aofvvp_a21a#()Z" />
-      <node id="3601881183937377451" at="58,0,62,0" concept="1" trace="Node_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3601881183937377451" at="58,0,62,0" concept="1" trace="Node_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3601881183937377451" at="87,0,91,0" concept="6" trace="getPorts#()Ljava/util/List;" />
       <node id="3601881183937377451" at="100,0,104,0" concept="6" trace="getElements#(Lde/itemis/mps/editor/diagram/runtime/model/IAccessorFactory;)Ljava/util/List;" />
       <node id="3601881183937377451" at="158,64,162,7" concept="5" />
@@ -1574,19 +1574,19 @@
       <scope id="3601881183937377451" at="69,39,70,35" />
       <scope id="3601881183937377451" at="88,38,89,23" />
       <scope id="3601881183937377451" at="94,39,95,50" />
-      <scope id="5080030193843929861" at="116,55,117,89" />
-      <scope id="5080030193843985975" at="119,55,120,91" />
-      <scope id="5080030193843986647" at="122,55,123,91" />
-      <scope id="5080030193843987194" at="125,55,126,91" />
-      <scope id="5080030193844008438" at="128,55,129,92" />
-      <scope id="5080030193843987877" at="131,55,132,93" />
-      <scope id="5080030193843988481" at="134,55,135,92" />
-      <scope id="5080030193843989195" at="137,55,138,92" />
-      <scope id="5080030193843990016" at="140,55,141,95" />
-      <scope id="5080030193843990944" at="143,55,144,95" />
-      <scope id="5080030193843992310" at="146,56,147,97" />
-      <scope id="5080030193843993449" at="149,56,150,100" />
-      <scope id="5080030193843994698" at="152,56,153,90" />
+      <scope id="5080030193843929861" at="116,55,117,87" />
+      <scope id="5080030193843985975" at="119,55,120,89" />
+      <scope id="5080030193843986647" at="122,55,123,89" />
+      <scope id="5080030193843987194" at="125,55,126,89" />
+      <scope id="5080030193844008438" at="128,55,129,90" />
+      <scope id="5080030193843987877" at="131,55,132,91" />
+      <scope id="5080030193843988481" at="134,55,135,90" />
+      <scope id="5080030193843989195" at="137,55,138,90" />
+      <scope id="5080030193843990016" at="140,55,141,93" />
+      <scope id="5080030193843990944" at="143,55,144,93" />
+      <scope id="5080030193843992310" at="146,56,147,95" />
+      <scope id="5080030193843993449" at="149,56,150,98" />
+      <scope id="5080030193843994698" at="152,56,153,88" />
       <scope id="3601881183937377451" at="167,46,168,62" />
       <scope id="5080030193843929863" at="170,62,171,265" />
       <scope id="5080030193843985977" at="173,62,174,279" />
@@ -1602,7 +1602,7 @@
       <scope id="5080030193843993451" at="203,63,204,276" />
       <scope id="5080030193843994700" at="206,63,207,266" />
       <scope id="3601881183937413543" at="226,15,227,40" />
-      <scope id="3601881183937377451" at="58,84,60,18" />
+      <scope id="3601881183937377451" at="58,82,60,18" />
       <scope id="3601881183937377451" at="100,102,102,26">
         <var name="elements" id="3601881183937377451" />
       </scope>
@@ -1662,20 +1662,20 @@
         <var name="editorContext" id="3601881183937377451" />
         <var name="node" id="3601881183937377451" />
       </scope>
-      <unit id="3601881183937377451" at="249,0,253,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_EditorBuilder_a$PROPS" />
-      <unit id="3601881183937377451" at="231,0,248,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_EditorBuilder_a$CONCEPTS" />
-      <unit id="3601881183937377451" at="86,38,109,7" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_EditorBuilder_a$1" />
-      <unit id="3601881183937377451" at="54,0,254,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_EditorBuilder_a" />
+      <unit id="3601881183937377451" at="249,0,253,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_EditorBuilder$PROPS" />
+      <unit id="3601881183937377451" at="231,0,248,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_EditorBuilder$CONCEPTS" />
+      <unit id="3601881183937377451" at="86,38,109,7" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_EditorBuilder$1" />
+      <unit id="3601881183937377451" at="54,0,254,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/3601881183937443614">
     <file name="RadialTest_Editor.java">
-      <node id="3601881183937443614" at="11,79,12,76" concept="8" />
-      <node id="3601881183937443614" at="14,82,15,79" concept="8" />
+      <node id="3601881183937443614" at="11,79,12,74" concept="8" />
+      <node id="3601881183937443614" at="14,82,15,77" concept="8" />
       <node id="3601881183937443614" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3601881183937443614" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3601881183937443614" at="11,79,12,76" />
-      <scope id="3601881183937443614" at="14,82,15,79" />
+      <scope id="3601881183937443614" at="11,79,12,74" />
+      <scope id="3601881183937443614" at="14,82,15,77" />
       <scope id="3601881183937443614" at="11,0,14,0">
         <var name="editorContext" id="3601881183937443614" />
         <var name="node" id="3601881183937443614" />
@@ -1686,8 +1686,8 @@
       </scope>
       <unit id="3601881183937443614" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RadialTest_Editor" />
     </file>
-    <file name="RadialTest_EditorBuilder_a.java">
-      <node id="3601881183937443614" at="65,90,66,19" concept="13" />
+    <file name="RadialTest_EditorBuilder.java">
+      <node id="3601881183937443614" at="65,88,66,19" concept="13" />
       <node id="3601881183937443614" at="66,19,67,18" concept="2" />
       <node id="3601881183937443614" at="72,26,73,18" concept="8" />
       <node id="3601881183937443614" at="76,39,77,32" concept="8" />
@@ -1724,10 +1724,10 @@
       <node id="3601881183937443614" at="128,17,129,32" concept="8" />
       <node id="3601881183937443614" at="132,65,133,89" concept="7" />
       <node id="3601881183937443614" at="133,89,134,39" concept="8" />
-      <node id="2218603406781541907" at="142,58,143,28" concept="8" />
+      <node id="2218603406781541907" at="142,48,143,28" concept="8" />
       <node id="3601881183937443614" at="161,52,162,47" concept="7" />
-      <node id="3601881183937443614" at="162,47,163,60" concept="2" />
-      <node id="3601881183937443614" at="163,60,164,38" concept="8" />
+      <node id="3601881183937443614" at="162,47,163,50" concept="2" />
+      <node id="3601881183937443614" at="163,50,164,38" concept="8" />
       <node id="3601881183937443614" at="168,54,169,47" concept="7" />
       <node id="3601881183937443614" at="169,47,170,38" concept="8" />
       <node id="3601881183937443614" at="174,48,175,42" concept="7" />
@@ -1842,7 +1842,7 @@
       <node id="3601881183937443614" at="76,0,79,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3601881183937443624" at="122,104,125,17" concept="4" />
       <node id="3601881183937443625" at="125,17,128,17" concept="4" />
-      <node id="2218603406781540956" at="142,0,145,0" concept="6" trace="nodeCondition_oi3bwt_a2a#()Z" />
+      <node id="2218603406781540956" at="142,0,145,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="3601881183937443614" at="279,97,282,21" concept="5" />
       <node id="3601881183937443614" at="283,111,286,21" concept="5" />
       <node id="3601881183937443614" at="295,73,298,15" concept="5" />
@@ -1862,7 +1862,7 @@
       <node id="477607467887755419" at="373,0,376,0" concept="6" trace="_StyleParameter_QueryFunction_oi3bwt_a11c0#()Lorg/eclipse/elk/alg/radial/options/SortingStrategy;" />
       <node id="477607467887760737" at="376,0,379,0" concept="6" trace="_StyleParameter_QueryFunction_oi3bwt_a21c0#()D" />
       <node id="477607467887763884" at="379,0,382,0" concept="6" trace="_StyleParameter_QueryFunction_oi3bwt_a31c0#()Lorg/eclipse/elk/alg/radial/options/RadialTranslationStrategy;" />
-      <node id="3601881183937443614" at="65,0,69,0" concept="1" trace="RadialTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3601881183937443614" at="65,0,69,0" concept="1" trace="RadialTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3601881183937443617" at="90,0,94,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3601881183937443614" at="320,91,324,15" concept="5" />
       <node id="3601881183937443614" at="70,0,75,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -1904,7 +1904,7 @@
       <scope id="3601881183937443614" at="76,39,77,32" />
       <scope id="3601881183937443624" at="123,108,124,64" />
       <scope id="3601881183937443625" at="126,108,127,64" />
-      <scope id="2218603406781540957" at="142,58,143,28" />
+      <scope id="2218603406781540957" at="142,48,143,28" />
       <scope id="3601881183937443614" at="212,21,213,96" />
       <scope id="3601881183937443614" at="214,40,215,27" />
       <scope id="3601881183937443614" at="268,56,269,81" />
@@ -1927,7 +1927,7 @@
       <scope id="477607467887755421" at="373,72,374,150" />
       <scope id="477607467887760739" at="376,63,377,138" />
       <scope id="477607467887763886" at="379,82,380,174" />
-      <scope id="3601881183937443614" at="65,90,67,18" />
+      <scope id="3601881183937443614" at="65,88,67,18" />
       <scope id="3601881183937443617" at="90,42,92,22">
         <var name="editorCell" id="3601881183937443617" />
       </scope>
@@ -2084,14 +2084,14 @@
         <var name="editorContext" id="3601881183937443614" />
         <var name="node" id="3601881183937443614" />
       </scope>
-      <unit id="3601881183937443614" at="383,0,389,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RadialTest_EditorBuilder_a$LINKS" />
-      <unit id="3601881183937443614" at="276,53,290,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.RadialTest_EditorBuilder_a$2" />
-      <unit id="3601881183937443614" at="390,0,405,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RadialTest_EditorBuilder_a$PROPS" />
-      <unit id="3601881183937443614" at="120,44,261,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.RadialTest_EditorBuilder_a$1" />
-      <unit id="3601881183937443614" at="61,0,406,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RadialTest_EditorBuilder_a" />
+      <unit id="3601881183937443614" at="383,0,389,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RadialTest_EditorBuilder$LINKS" />
+      <unit id="3601881183937443614" at="276,53,290,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.RadialTest_EditorBuilder$2" />
+      <unit id="3601881183937443614" at="390,0,405,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RadialTest_EditorBuilder$PROPS" />
+      <unit id="3601881183937443614" at="120,44,261,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.RadialTest_EditorBuilder$1" />
+      <unit id="3601881183937443614" at="61,0,406,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RadialTest_EditorBuilder" />
     </file>
-    <file name="RadialTest_InspectorBuilder_a.java">
-      <node id="3601881183937443614" at="16,93,17,19" concept="13" />
+    <file name="RadialTest_InspectorBuilder.java">
+      <node id="3601881183937443614" at="16,91,17,19" concept="13" />
       <node id="3601881183937443614" at="17,19,18,18" concept="2" />
       <node id="3601881183937443614" at="23,26,24,18" concept="8" />
       <node id="3601881183937443614" at="27,39,28,31" concept="8" />
@@ -2102,13 +2102,13 @@
       <node id="3662141892363178322" at="37,5,38,22" concept="8" />
       <node id="3601881183937443614" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="3601881183937443614" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3601881183937443614" at="16,0,20,0" concept="1" trace="RadialTest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3601881183937443614" at="16,0,20,0" concept="1" trace="RadialTest_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363178322" at="33,72,37,5" concept="5" />
       <node id="3601881183937443614" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363178322" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="3601881183937443614" at="23,26,24,18" />
       <scope id="3601881183937443614" at="27,39,28,31" />
-      <scope id="3601881183937443614" at="16,93,18,18" />
+      <scope id="3601881183937443614" at="16,91,18,18" />
       <scope id="3662141892363178322" at="34,26,36,30" />
       <scope id="3601881183937443614" at="27,0,30,0" />
       <scope id="3601881183937443614" at="16,0,20,0">
@@ -2121,7 +2121,7 @@
         <var name="editorCell" id="3662141892363178322" />
       </scope>
       <scope id="3662141892363178322" at="31,0,40,0" />
-      <unit id="3601881183937443614" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RadialTest_InspectorBuilder_a" />
+      <unit id="3601881183937443614" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RadialTest_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/3662141892363158367">
@@ -2131,11 +2131,11 @@
     </file>
     <file name="HeaderInspector.java">
       <node id="3662141892363158367" at="15,47,16,35" concept="8" />
-      <node id="3662141892363158367" at="18,79,19,84" concept="8" />
+      <node id="3662141892363158367" at="18,79,19,82" concept="8" />
       <node id="3662141892363158367" at="18,0,21,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3662141892363158367" at="14,0,18,0" concept="6" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="3662141892363158367" at="15,47,16,35" />
-      <scope id="3662141892363158367" at="18,79,19,84" />
+      <scope id="3662141892363158367" at="18,79,19,82" />
       <scope id="3662141892363158367" at="18,0,21,0">
         <var name="editorContext" id="3662141892363158367" />
         <var name="node" id="3662141892363158367" />
@@ -2143,8 +2143,8 @@
       <scope id="3662141892363158367" at="14,0,18,0" />
       <unit id="3662141892363158367" at="13,0,22,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.HeaderInspector" />
     </file>
-    <file name="HeaderInspector_ComponentBuilder_a.java">
-      <node id="3662141892363158367" at="29,98,30,19" concept="13" />
+    <file name="HeaderInspector_ComponentBuilder.java">
+      <node id="3662141892363158367" at="29,96,30,19" concept="13" />
       <node id="3662141892363158367" at="30,19,31,18" concept="2" />
       <node id="3662141892363158367" at="36,26,37,18" concept="8" />
       <node id="3662141892363158367" at="40,39,41,32" concept="8" />
@@ -2237,7 +2237,7 @@
       <node id="3662141892363158367" at="157,0,160,0" concept="6" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="3662141892363158367" at="160,0,163,0" concept="6" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="3662141892363158367" at="204,96,207,9" concept="5" />
-      <node id="3662141892363158367" at="29,0,33,0" concept="1" trace="HeaderInspector_ComponentBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3662141892363158367" at="29,0,33,0" concept="1" trace="HeaderInspector_ComponentBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363158367" at="62,0,66,0" concept="1" trace="nodesListHandler_q6n3hh_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="3662141892363158367" at="67,0,71,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363158367" at="100,97,104,9" concept="5" />
@@ -2286,7 +2286,7 @@
       <scope id="3662141892363158367" at="178,17,179,42" />
       <scope id="3662141892363158367" at="205,34,206,91" />
       <scope id="3662141892363158367" at="218,17,219,42" />
-      <scope id="3662141892363158367" at="29,98,31,18" />
+      <scope id="3662141892363158367" at="29,96,31,18" />
       <scope id="3662141892363158367" at="62,79,64,25" />
       <scope id="3662141892363158367" at="101,122,103,146" />
       <scope id="3662141892363158367" at="107,34,109,142" />
@@ -2377,11 +2377,11 @@
         <var name="elementNode" id="3662141892363158367" />
         <var name="isEmptyCell" id="3662141892363158367" />
       </scope>
-      <unit id="3662141892363158367" at="224,0,228,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.HeaderInspector_ComponentBuilder_a$LINKS" />
-      <unit id="3662141892363158367" at="229,0,233,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.HeaderInspector_ComponentBuilder_a$CONCEPTS" />
-      <unit id="3662141892363158367" at="58,0,137,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.HeaderInspector_ComponentBuilder_a$nodesListHandler_q6n3hh_a0" />
-      <unit id="3662141892363158367" at="144,0,223,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.HeaderInspector_ComponentBuilder_a$edgesListHandler_q6n3hh_b0" />
-      <unit id="3662141892363158367" at="25,0,234,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.HeaderInspector_ComponentBuilder_a" />
+      <unit id="3662141892363158367" at="224,0,228,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.HeaderInspector_ComponentBuilder$LINKS" />
+      <unit id="3662141892363158367" at="229,0,233,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.HeaderInspector_ComponentBuilder$CONCEPTS" />
+      <unit id="3662141892363158367" at="58,0,137,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.HeaderInspector_ComponentBuilder$nodesListHandler_q6n3hh_a0" />
+      <unit id="3662141892363158367" at="144,0,223,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.HeaderInspector_ComponentBuilder$edgesListHandler_q6n3hh_b0" />
+      <unit id="3662141892363158367" at="25,0,234,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.HeaderInspector_ComponentBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/5080030193841708151">
@@ -2975,12 +2975,12 @@
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/5257545360092389028">
     <file name="RectanglePackingTest_Editor.java">
-      <node id="5257545360092389028" at="11,79,12,86" concept="8" />
-      <node id="5257545360092389028" at="14,82,15,89" concept="8" />
+      <node id="5257545360092389028" at="11,79,12,84" concept="8" />
+      <node id="5257545360092389028" at="14,82,15,87" concept="8" />
       <node id="5257545360092389028" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5257545360092389028" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5257545360092389028" at="11,79,12,86" />
-      <scope id="5257545360092389028" at="14,82,15,89" />
+      <scope id="5257545360092389028" at="11,79,12,84" />
+      <scope id="5257545360092389028" at="14,82,15,87" />
       <scope id="5257545360092389028" at="11,0,14,0">
         <var name="editorContext" id="5257545360092389028" />
         <var name="node" id="5257545360092389028" />
@@ -2991,8 +2991,8 @@
       </scope>
       <unit id="5257545360092389028" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RectanglePackingTest_Editor" />
     </file>
-    <file name="RectanglePackingTest_EditorBuilder_a.java">
-      <node id="5257545360092389028" at="68,100,69,19" concept="13" />
+    <file name="RectanglePackingTest_EditorBuilder.java">
+      <node id="5257545360092389028" at="68,98,69,19" concept="13" />
       <node id="5257545360092389028" at="69,19,70,18" concept="2" />
       <node id="5257545360092389028" at="75,26,76,18" concept="8" />
       <node id="5257545360092389028" at="79,39,80,32" concept="8" />
@@ -3029,10 +3029,10 @@
       <node id="5257545360092389028" at="131,17,132,32" concept="8" />
       <node id="5257545360092389028" at="135,65,136,89" concept="7" />
       <node id="5257545360092389028" at="136,89,137,39" concept="8" />
-      <node id="2218603406781552645" at="145,58,146,28" concept="8" />
+      <node id="2218603406781552645" at="145,48,146,28" concept="8" />
       <node id="5257545360092389028" at="164,52,165,47" concept="7" />
-      <node id="5257545360092389028" at="165,47,166,60" concept="2" />
-      <node id="5257545360092389028" at="166,60,167,38" concept="8" />
+      <node id="5257545360092389028" at="165,47,166,50" concept="2" />
+      <node id="5257545360092389028" at="166,50,167,38" concept="8" />
       <node id="5257545360092389028" at="171,54,172,47" concept="7" />
       <node id="5257545360092389028" at="172,47,173,38" concept="8" />
       <node id="5257545360092389028" at="177,48,178,42" concept="7" />
@@ -3162,7 +3162,7 @@
       <node id="5257545360092389028" at="79,0,82,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5257545360092389034" at="125,104,128,17" concept="4" />
       <node id="5257545360092389035" at="128,17,131,17" concept="4" />
-      <node id="2218603406781550348" at="145,0,148,0" concept="6" trace="nodeCondition_9jyamo_a2a#()Z" />
+      <node id="2218603406781550348" at="145,0,148,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="5257545360092389028" at="282,97,285,21" concept="5" />
       <node id="5257545360092389028" at="286,111,289,21" concept="5" />
       <node id="5257545360092389028" at="298,73,301,15" concept="5" />
@@ -3186,7 +3186,7 @@
       <node id="477607467893429817" at="396,0,399,0" concept="6" trace="_StyleParameter_QueryFunction_9jyamo_a51c0#()Z" />
       <node id="477607467899555840" at="399,86,402,5" concept="5" />
       <node id="477607467893431352" at="405,0,408,0" concept="6" trace="_StyleParameter_QueryFunction_9jyamo_a71c0#()Lorg/eclipse/elk/alg/rectpacking/p1widthapproximation/WidthApproximationStrategy;" />
-      <node id="5257545360092389028" at="68,0,72,0" concept="1" trace="RectanglePackingTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5257545360092389028" at="68,0,72,0" concept="1" trace="RectanglePackingTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5257545360092389031" at="93,0,97,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5257545360092389028" at="327,91,331,15" concept="5" />
       <node id="5257545360092389028" at="73,0,78,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -3230,7 +3230,7 @@
       <scope id="5257545360092389028" at="79,39,80,32" />
       <scope id="5257545360092389034" at="126,108,127,64" />
       <scope id="5257545360092389035" at="129,108,130,64" />
-      <scope id="2218603406781550349" at="145,58,146,28" />
+      <scope id="2218603406781550349" at="145,48,146,28" />
       <scope id="5257545360092389028" at="215,21,216,96" />
       <scope id="5257545360092389028" at="217,40,218,27" />
       <scope id="5257545360092389028" at="271,56,272,81" />
@@ -3257,7 +3257,7 @@
       <scope id="477607467893429819" at="396,64,397,129" />
       <scope id="477607467899555842" at="400,147,401,189" />
       <scope id="477607467893431354" at="405,83,406,181" />
-      <scope id="5257545360092389028" at="68,100,70,18" />
+      <scope id="5257545360092389028" at="68,98,70,18" />
       <scope id="5257545360092389031" at="93,42,95,22">
         <var name="editorCell" id="5257545360092389031" />
       </scope>
@@ -3425,14 +3425,14 @@
         <var name="editorContext" id="5257545360092389028" />
         <var name="node" id="5257545360092389028" />
       </scope>
-      <unit id="5257545360092389028" at="409,0,417,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RectanglePackingTest_EditorBuilder_a$LINKS" />
-      <unit id="5257545360092389028" at="279,53,293,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.RectanglePackingTest_EditorBuilder_a$2" />
-      <unit id="5257545360092389028" at="418,0,435,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RectanglePackingTest_EditorBuilder_a$PROPS" />
-      <unit id="5257545360092389028" at="123,44,264,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.RectanglePackingTest_EditorBuilder_a$1" />
-      <unit id="5257545360092389028" at="64,0,436,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RectanglePackingTest_EditorBuilder_a" />
+      <unit id="5257545360092389028" at="409,0,417,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RectanglePackingTest_EditorBuilder$LINKS" />
+      <unit id="5257545360092389028" at="279,53,293,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.RectanglePackingTest_EditorBuilder$2" />
+      <unit id="5257545360092389028" at="418,0,435,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RectanglePackingTest_EditorBuilder$PROPS" />
+      <unit id="5257545360092389028" at="123,44,264,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.RectanglePackingTest_EditorBuilder$1" />
+      <unit id="5257545360092389028" at="64,0,436,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RectanglePackingTest_EditorBuilder" />
     </file>
-    <file name="RectanglePackingTest_InspectorBuilder_a.java">
-      <node id="5257545360092389028" at="16,103,17,19" concept="13" />
+    <file name="RectanglePackingTest_InspectorBuilder.java">
+      <node id="5257545360092389028" at="16,101,17,19" concept="13" />
       <node id="5257545360092389028" at="17,19,18,18" concept="2" />
       <node id="5257545360092389028" at="23,26,24,18" concept="8" />
       <node id="5257545360092389028" at="27,39,28,31" concept="8" />
@@ -3443,13 +3443,13 @@
       <node id="3662141892363186279" at="37,5,38,22" concept="8" />
       <node id="5257545360092389028" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="5257545360092389028" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5257545360092389028" at="16,0,20,0" concept="1" trace="RectanglePackingTest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5257545360092389028" at="16,0,20,0" concept="1" trace="RectanglePackingTest_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363186279" at="33,72,37,5" concept="5" />
       <node id="5257545360092389028" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363186279" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="5257545360092389028" at="23,26,24,18" />
       <scope id="5257545360092389028" at="27,39,28,31" />
-      <scope id="5257545360092389028" at="16,103,18,18" />
+      <scope id="5257545360092389028" at="16,101,18,18" />
       <scope id="3662141892363186279" at="34,26,36,30" />
       <scope id="5257545360092389028" at="27,0,30,0" />
       <scope id="5257545360092389028" at="16,0,20,0">
@@ -3462,17 +3462,17 @@
         <var name="editorCell" id="3662141892363186279" />
       </scope>
       <scope id="3662141892363186279" at="31,0,40,0" />
-      <unit id="5257545360092389028" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RectanglePackingTest_InspectorBuilder_a" />
+      <unit id="5257545360092389028" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RectanglePackingTest_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/5574140559873343666">
     <file name="LayeredTest_Editor.java">
-      <node id="5574140559873343666" at="11,79,12,77" concept="8" />
-      <node id="5574140559873343666" at="14,82,15,80" concept="8" />
+      <node id="5574140559873343666" at="11,79,12,75" concept="8" />
+      <node id="5574140559873343666" at="14,82,15,78" concept="8" />
       <node id="5574140559873343666" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5574140559873343666" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5574140559873343666" at="11,79,12,77" />
-      <scope id="5574140559873343666" at="14,82,15,80" />
+      <scope id="5574140559873343666" at="11,79,12,75" />
+      <scope id="5574140559873343666" at="14,82,15,78" />
       <scope id="5574140559873343666" at="11,0,14,0">
         <var name="editorContext" id="5574140559873343666" />
         <var name="node" id="5574140559873343666" />
@@ -3483,8 +3483,8 @@
       </scope>
       <unit id="5574140559873343666" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.LayeredTest_Editor" />
     </file>
-    <file name="LayeredTest_EditorBuilder_a.java">
-      <node id="5574140559873343666" at="90,91,91,19" concept="13" />
+    <file name="LayeredTest_EditorBuilder.java">
+      <node id="5574140559873343666" at="90,89,91,19" concept="13" />
       <node id="5574140559873343666" at="91,19,92,18" concept="2" />
       <node id="5574140559873343666" at="97,26,98,18" concept="8" />
       <node id="5574140559873343666" at="101,39,102,32" concept="8" />
@@ -3521,10 +3521,10 @@
       <node id="5574140559873343666" at="153,17,154,32" concept="8" />
       <node id="5574140559873343666" at="157,65,158,89" concept="7" />
       <node id="5574140559873343666" at="158,89,159,39" concept="8" />
-      <node id="2218603406781154963" at="167,58,168,28" concept="8" />
+      <node id="2218603406781154963" at="167,48,168,28" concept="8" />
       <node id="5574140559873343666" at="186,52,187,47" concept="7" />
-      <node id="5574140559873343666" at="187,47,188,60" concept="2" />
-      <node id="5574140559873343666" at="188,60,189,38" concept="8" />
+      <node id="5574140559873343666" at="187,47,188,50" concept="2" />
+      <node id="5574140559873343666" at="188,50,189,38" concept="8" />
       <node id="5574140559873343666" at="193,54,194,47" concept="7" />
       <node id="5574140559873343666" at="194,47,195,38" concept="8" />
       <node id="5574140559873343666" at="199,48,200,42" concept="7" />
@@ -3870,7 +3870,7 @@
       <node id="5574140559873343666" at="101,0,104,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3601881183937414114" at="147,104,150,17" concept="4" />
       <node id="3601881183937377100" at="150,17,153,17" concept="4" />
-      <node id="2218603406781147969" at="167,0,170,0" concept="6" trace="nodeCondition_osin11_a2a#()Z" />
+      <node id="2218603406781147969" at="167,0,170,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="5574140559873343666" at="304,97,307,21" concept="5" />
       <node id="5574140559873343666" at="308,111,311,21" concept="5" />
       <node id="5574140559873343666" at="320,73,323,15" concept="5" />
@@ -3967,7 +3967,7 @@
       <node id="2734629909127741649" at="709,0,712,0" concept="6" trace="_StyleParameter_QueryFunction_osin11_a88c0#()Lorg/eclipse/elk/core/math/ElkPadding;" />
       <node id="2734629909127742769" at="712,0,715,0" concept="6" trace="_StyleParameter_QueryFunction_osin11_a98c0#()Lorg/eclipse/elk/core/math/ElkPadding;" />
       <node id="575226493383012240" at="715,0,718,0" concept="12" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
-      <node id="5574140559873343666" at="90,0,94,0" concept="1" trace="LayeredTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5574140559873343666" at="90,0,94,0" concept="1" trace="LayeredTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3601881183937358148" at="115,0,119,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5574140559873343666" at="421,91,425,15" concept="5" />
       <node id="5574140559873343666" at="95,0,100,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -4010,7 +4010,7 @@
       <scope id="5574140559873343666" at="101,39,102,32" />
       <scope id="3601881183937414114" at="148,108,149,64" />
       <scope id="3601881183937377100" at="151,108,152,64" />
-      <scope id="2218603406781147970" at="167,58,168,28" />
+      <scope id="2218603406781147970" at="167,48,168,28" />
       <scope id="5574140559873343666" at="237,21,238,96" />
       <scope id="5574140559873343666" at="239,40,240,27" />
       <scope id="5574140559873343666" at="293,56,294,81" />
@@ -4110,7 +4110,7 @@
       <scope id="2734629909127741651" at="709,67,710,199" />
       <scope id="2734629909127742771" at="712,67,713,190" />
       <scope id="575226493383012240" at="715,55,716,43" />
-      <scope id="5574140559873343666" at="90,91,92,18" />
+      <scope id="5574140559873343666" at="90,89,92,18" />
       <scope id="3601881183937358148" at="115,42,117,22">
         <var name="editorCell" id="3601881183937358148" />
       </scope>
@@ -4352,14 +4352,14 @@
         <var name="editorContext" id="5574140559873343666" />
         <var name="node" id="5574140559873343666" />
       </scope>
-      <unit id="5574140559873343666" at="719,0,729,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.LayeredTest_EditorBuilder_a$LINKS" />
-      <unit id="5574140559873343666" at="301,53,315,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.LayeredTest_EditorBuilder_a$2" />
-      <unit id="5574140559873343666" at="730,0,817,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.LayeredTest_EditorBuilder_a$PROPS" />
-      <unit id="5574140559873343666" at="145,44,286,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.LayeredTest_EditorBuilder_a$1" />
-      <unit id="5574140559873343666" at="86,0,818,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.LayeredTest_EditorBuilder_a" />
+      <unit id="5574140559873343666" at="719,0,729,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.LayeredTest_EditorBuilder$LINKS" />
+      <unit id="5574140559873343666" at="301,53,315,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.LayeredTest_EditorBuilder$2" />
+      <unit id="5574140559873343666" at="730,0,817,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.LayeredTest_EditorBuilder$PROPS" />
+      <unit id="5574140559873343666" at="145,44,286,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.LayeredTest_EditorBuilder$1" />
+      <unit id="5574140559873343666" at="86,0,818,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.LayeredTest_EditorBuilder" />
     </file>
-    <file name="LayeredTest_InspectorBuilder_a.java">
-      <node id="5574140559873343666" at="16,94,17,19" concept="13" />
+    <file name="LayeredTest_InspectorBuilder.java">
+      <node id="5574140559873343666" at="16,92,17,19" concept="13" />
       <node id="5574140559873343666" at="17,19,18,18" concept="2" />
       <node id="5574140559873343666" at="23,26,24,18" concept="8" />
       <node id="5574140559873343666" at="27,39,28,31" concept="8" />
@@ -4370,13 +4370,13 @@
       <node id="3662141892363174746" at="37,5,38,22" concept="8" />
       <node id="5574140559873343666" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="5574140559873343666" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5574140559873343666" at="16,0,20,0" concept="1" trace="LayeredTest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5574140559873343666" at="16,0,20,0" concept="1" trace="LayeredTest_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363174746" at="33,72,37,5" concept="5" />
       <node id="5574140559873343666" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363174746" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="5574140559873343666" at="23,26,24,18" />
       <scope id="5574140559873343666" at="27,39,28,31" />
-      <scope id="5574140559873343666" at="16,94,18,18" />
+      <scope id="5574140559873343666" at="16,92,18,18" />
       <scope id="3662141892363174746" at="34,26,36,30" />
       <scope id="5574140559873343666" at="27,0,30,0" />
       <scope id="5574140559873343666" at="16,0,20,0">
@@ -4389,18 +4389,18 @@
         <var name="editorCell" id="3662141892363174746" />
       </scope>
       <scope id="3662141892363174746" at="31,0,40,0" />
-      <unit id="5574140559873343666" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.LayeredTest_InspectorBuilder_a" />
+      <unit id="5574140559873343666" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.LayeredTest_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/5574140559873383826">
     <file name="Node_text_Editor.java">
       <node id="5574140559873383826" at="14,0,15,0" concept="3" trace="myContextHints" />
       <node id="5574140559873383826" at="17,47,18,26" concept="8" />
-      <node id="5574140559873383826" at="20,79,21,75" concept="8" />
+      <node id="5574140559873383826" at="20,79,21,73" concept="8" />
       <node id="5574140559873383826" at="20,0,23,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5574140559873383826" at="15,0,20,0" concept="6" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="5574140559873383826" at="17,47,18,26" />
-      <scope id="5574140559873383826" at="20,79,21,75" />
+      <scope id="5574140559873383826" at="20,79,21,73" />
       <scope id="5574140559873383826" at="20,0,23,0">
         <var name="editorContext" id="5574140559873383826" />
         <var name="node" id="5574140559873383826" />
@@ -4408,8 +4408,8 @@
       <scope id="5574140559873383826" at="15,0,20,0" />
       <unit id="5574140559873383826" at="13,0,24,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_text_Editor" />
     </file>
-    <file name="Node_text_EditorBuilder_a.java">
-      <node id="5574140559873383826" at="35,89,36,19" concept="13" />
+    <file name="Node_text_EditorBuilder.java">
+      <node id="5574140559873383826" at="35,87,36,19" concept="13" />
       <node id="5574140559873383826" at="36,19,37,18" concept="2" />
       <node id="5574140559873383826" at="42,26,43,18" concept="8" />
       <node id="5574140559873383826" at="46,39,47,32" concept="8" />
@@ -4445,7 +4445,7 @@
       <node id="5574140559873383826" at="95,0,96,0" concept="11" trace="PropertyAttribute$Gb" />
       <node id="5574140559873383826" at="32,0,34,0" concept="3" trace="myNode" />
       <node id="5574140559873383826" at="46,0,49,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5574140559873383826" at="35,0,39,0" concept="1" trace="Node_text_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5574140559873383826" at="35,0,39,0" concept="1" trace="Node_text_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5574140559873383826" at="40,0,45,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5574140559873385452" at="79,208,84,24" concept="5" />
       <node id="5574140559873383826" at="50,0,59,0" concept="6" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -4455,7 +4455,7 @@
       <scope id="5574140559873383826" at="42,26,43,18" />
       <scope id="5574140559873383826" at="46,39,47,32" />
       <scope id="5574140559873385452" at="85,15,86,40" />
-      <scope id="5574140559873383826" at="35,89,37,18" />
+      <scope id="5574140559873383826" at="35,87,37,18" />
       <scope id="5574140559873385452" at="80,74,82,145">
         <var name="manager" id="5574140559873385452" />
       </scope>
@@ -4482,20 +4482,20 @@
       </scope>
       <scope id="5574140559873385452" at="68,41,87,5" />
       <scope id="5574140559873385452" at="68,0,89,0" />
-      <unit id="5574140559873383826" at="90,0,93,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_text_EditorBuilder_a$PROPS" />
-      <unit id="5574140559873383826" at="94,0,97,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_text_EditorBuilder_a$CONCEPTS" />
-      <unit id="5574140559873383826" at="31,0,98,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_text_EditorBuilder_a" />
+      <unit id="5574140559873383826" at="90,0,93,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_text_EditorBuilder$PROPS" />
+      <unit id="5574140559873383826" at="94,0,97,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_text_EditorBuilder$CONCEPTS" />
+      <unit id="5574140559873383826" at="31,0,98,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Node_text_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/5574140559873385697">
     <file name="Edge_text_Editor.java">
       <node id="5574140559873385697" at="14,0,15,0" concept="3" trace="myContextHints" />
       <node id="5574140559873385697" at="17,47,18,26" concept="8" />
-      <node id="5574140559873385697" at="20,79,21,75" concept="8" />
+      <node id="5574140559873385697" at="20,79,21,73" concept="8" />
       <node id="5574140559873385697" at="20,0,23,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5574140559873385697" at="15,0,20,0" concept="6" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="5574140559873385697" at="17,47,18,26" />
-      <scope id="5574140559873385697" at="20,79,21,75" />
+      <scope id="5574140559873385697" at="20,79,21,73" />
       <scope id="5574140559873385697" at="20,0,23,0">
         <var name="editorContext" id="5574140559873385697" />
         <var name="node" id="5574140559873385697" />
@@ -4503,8 +4503,8 @@
       <scope id="5574140559873385697" at="15,0,20,0" />
       <unit id="5574140559873385697" at="13,0,24,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_Editor" />
     </file>
-    <file name="Edge_text_EditorBuilder_a.java">
-      <node id="5574140559873385697" at="40,89,41,19" concept="13" />
+    <file name="Edge_text_EditorBuilder.java">
+      <node id="5574140559873385697" at="40,87,41,19" concept="13" />
       <node id="5574140559873385697" at="41,19,42,18" concept="2" />
       <node id="5574140559873385697" at="47,26,48,18" concept="8" />
       <node id="5574140559873385697" at="51,39,52,32" concept="8" />
@@ -4615,7 +4615,7 @@
       <node id="5574140559873385697" at="51,0,54,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5574140559873386468" at="114,0,117,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5574140559873387179" at="191,0,194,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5574140559873385697" at="40,0,44,0" concept="1" trace="Edge_text_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5574140559873385697" at="40,0,44,0" concept="1" trace="Edge_text_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5574140559873385697" at="89,0,93,5" concept="5" />
       <node id="5574140559873385697" at="166,0,170,5" concept="5" />
       <node id="5574140559873385697" at="45,0,50,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -4648,7 +4648,7 @@
       <scope id="5574140559873387179" at="191,41,192,32" />
       <scope id="5574140559873387179" at="197,28,198,20" />
       <scope id="5574140559873387451" at="218,17,219,42" />
-      <scope id="5574140559873385697" at="40,89,42,18" />
+      <scope id="5574140559873385697" at="40,87,42,18" />
       <scope id="5574140559873385697" at="90,40,92,44" />
       <scope id="5574140559873385697" at="97,73,99,145">
         <var name="manager" id="5574140559873385697" />
@@ -4742,24 +4742,24 @@
       </scope>
       <scope id="5574140559873385697" at="75,0,103,0" />
       <scope id="5574140559873385697" at="152,0,180,0" />
-      <unit id="5574140559873385697" at="234,0,237,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder_a$PROPS" />
-      <unit id="5574140559873385697" at="224,0,228,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder_a$LINKS" />
-      <unit id="5574140559873385697" at="229,0,233,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder_a$CONCEPTS" />
-      <unit id="5574140559873385697" at="77,42,85,5" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder_a$1" />
-      <unit id="5574140559873385697" at="154,42,162,5" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder_a$2" />
-      <unit id="5574140559873386468" at="103,0,146,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder_a$Inline_Builder0" />
-      <unit id="5574140559873387179" at="180,0,223,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder_a$Inline_Builder1" />
-      <unit id="5574140559873385697" at="36,0,238,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder_a" />
+      <unit id="5574140559873385697" at="234,0,237,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder$PROPS" />
+      <unit id="5574140559873385697" at="224,0,228,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder$LINKS" />
+      <unit id="5574140559873385697" at="229,0,233,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder$CONCEPTS" />
+      <unit id="5574140559873385697" at="77,42,85,5" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder$1" />
+      <unit id="5574140559873385697" at="154,42,162,5" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder$2" />
+      <unit id="5574140559873386468" at="103,0,146,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder$Inline_Builder0" />
+      <unit id="5574140559873387179" at="180,0,223,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder$Inline_Builder1" />
+      <unit id="5574140559873385697" at="36,0,238,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.Edge_text_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/5731047739261375680">
     <file name="NestedTreeDiagram_Editor.java">
-      <node id="5731047739261375680" at="11,79,12,83" concept="8" />
-      <node id="5731047739261375680" at="14,82,15,86" concept="8" />
+      <node id="5731047739261375680" at="11,79,12,81" concept="8" />
+      <node id="5731047739261375680" at="14,82,15,84" concept="8" />
       <node id="5731047739261375680" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5731047739261375680" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5731047739261375680" at="11,79,12,83" />
-      <scope id="5731047739261375680" at="14,82,15,86" />
+      <scope id="5731047739261375680" at="11,79,12,81" />
+      <scope id="5731047739261375680" at="14,82,15,84" />
       <scope id="5731047739261375680" at="11,0,14,0">
         <var name="editorContext" id="5731047739261375680" />
         <var name="node" id="5731047739261375680" />
@@ -4770,8 +4770,8 @@
       </scope>
       <unit id="5731047739261375680" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_Editor" />
     </file>
-    <file name="NestedTreeDiagram_EditorBuilder_a.java">
-      <node id="5731047739261375680" at="63,97,64,19" concept="13" />
+    <file name="NestedTreeDiagram_EditorBuilder.java">
+      <node id="5731047739261375680" at="63,95,64,19" concept="13" />
       <node id="5731047739261375680" at="64,19,65,18" concept="2" />
       <node id="5731047739261375680" at="70,26,71,18" concept="8" />
       <node id="5731047739261375680" at="74,39,75,32" concept="8" />
@@ -4912,7 +4912,7 @@
       <node id="5731047739261375680" at="355,0,358,5" concept="5" />
       <node id="5731047739261375680" at="361,0,364,0" concept="6" trace="createDiagram_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5731047739263923567" at="373,0,376,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5731047739261375680" at="63,0,67,0" concept="1" trace="NestedTreeDiagram_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5731047739261375680" at="63,0,67,0" concept="1" trace="NestedTreeDiagram_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5731047739261388179" at="88,0,92,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5731047739263923565" at="142,0,146,0" concept="6" trace="getSNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5731047739263923565" at="158,0,162,0" concept="6" trace="getShape#()Lde/itemis/mps/editor/diagram/runtime/shape/IShape;" />
@@ -4983,7 +4983,7 @@
       <scope id="5731047739261375680" at="361,40,362,58" />
       <scope id="5731047739263923567" at="373,41,374,34" />
       <scope id="5731047739263923567" at="379,28,380,20" />
-      <scope id="5731047739261375680" at="63,97,65,18" />
+      <scope id="5731047739261375680" at="63,95,65,18" />
       <scope id="5731047739261388179" at="88,42,90,22">
         <var name="editorCell" id="5731047739261388179" />
       </scope>
@@ -5158,17 +5158,17 @@
         <var name="editorContext" id="5731047739261375680" />
         <var name="node" id="5731047739261375680" />
       </scope>
-      <unit id="5731047739263923565" at="127,55,131,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder_a$1$2" />
-      <unit id="5731047739261375680" at="391,0,396,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder_a$LINKS" />
-      <unit id="5731047739261375680" at="317,53,331,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder_a$2" />
-      <unit id="5731047739263923565" at="141,57,162,23" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder_a$1$1$1" />
-      <unit id="5731047739263923567" at="364,0,390,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder_a$Inline_Builder_q22qon_a2c0" />
-      <unit id="5731047739263923565" at="132,113,172,19" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder_a$1$1" />
-      <unit id="5731047739261375680" at="118,44,302,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder_a$1" />
-      <unit id="5731047739261375680" at="59,0,397,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder_a" />
+      <unit id="5731047739263923565" at="127,55,131,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder$1$2" />
+      <unit id="5731047739261375680" at="391,0,396,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder$LINKS" />
+      <unit id="5731047739261375680" at="317,53,331,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder$2" />
+      <unit id="5731047739263923565" at="141,57,162,23" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder$1$1$1" />
+      <unit id="5731047739263923567" at="364,0,390,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder$Inline_Builder_q22qon_a2c0" />
+      <unit id="5731047739263923565" at="132,113,172,19" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder$1$1" />
+      <unit id="5731047739261375680" at="118,44,302,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder$1" />
+      <unit id="5731047739261375680" at="59,0,397,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_EditorBuilder" />
     </file>
-    <file name="NestedTreeDiagram_InspectorBuilder_a.java">
-      <node id="5731047739261375680" at="30,100,31,19" concept="13" />
+    <file name="NestedTreeDiagram_InspectorBuilder.java">
+      <node id="5731047739261375680" at="30,98,31,19" concept="13" />
       <node id="5731047739261375680" at="31,19,32,18" concept="2" />
       <node id="5731047739261375680" at="37,26,38,18" concept="8" />
       <node id="5731047739261375680" at="41,39,42,32" concept="8" />
@@ -5229,7 +5229,7 @@
       <node id="5731047739261375680" at="79,0,82,0" concept="6" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="5731047739261375680" at="82,0,85,0" concept="6" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="5731047739261375680" at="126,96,129,9" concept="5" />
-      <node id="5731047739261375680" at="30,0,34,0" concept="1" trace="NestedTreeDiagram_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5731047739261375680" at="30,0,34,0" concept="1" trace="NestedTreeDiagram_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5731047739261388445" at="55,0,59,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5731047739261375680" at="70,0,74,0" concept="1" trace="subDiagramsListHandler_q22qon_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5731047739261375680" at="75,0,79,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -5258,7 +5258,7 @@
       <scope id="5731047739261375680" at="100,17,101,42" />
       <scope id="5731047739261375680" at="127,34,128,91" />
       <scope id="5731047739261375680" at="140,17,141,42" />
-      <scope id="5731047739261375680" at="30,100,32,18" />
+      <scope id="5731047739261375680" at="30,98,32,18" />
       <scope id="5731047739261388445" at="55,42,57,22">
         <var name="editorCell" id="5731047739261388445" />
       </scope>
@@ -5317,20 +5317,20 @@
         <var name="elementNode" id="5731047739261375680" />
         <var name="isEmptyCell" id="5731047739261375680" />
       </scope>
-      <unit id="5731047739261375680" at="152,0,155,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_InspectorBuilder_a$LINKS" />
-      <unit id="5731047739261375680" at="156,0,159,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_InspectorBuilder_a$CONCEPTS" />
-      <unit id="5731047739261375680" at="66,0,145,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_InspectorBuilder_a$subDiagramsListHandler_q22qon_b0" />
-      <unit id="5731047739261375680" at="26,0,160,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_InspectorBuilder_a" />
+      <unit id="5731047739261375680" at="152,0,155,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_InspectorBuilder$LINKS" />
+      <unit id="5731047739261375680" at="156,0,159,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_InspectorBuilder$CONCEPTS" />
+      <unit id="5731047739261375680" at="66,0,145,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_InspectorBuilder$subDiagramsListHandler_q22qon_b0" />
+      <unit id="5731047739261375680" at="26,0,160,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NestedTreeDiagram_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/5731047739261719042">
     <file name="TreeSubDiagram_Editor.java">
-      <node id="5731047739261719042" at="11,79,12,80" concept="8" />
-      <node id="5731047739261719042" at="14,82,15,83" concept="8" />
+      <node id="5731047739261719042" at="11,79,12,78" concept="8" />
+      <node id="5731047739261719042" at="14,82,15,81" concept="8" />
       <node id="5731047739261719042" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5731047739261719042" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5731047739261719042" at="11,79,12,80" />
-      <scope id="5731047739261719042" at="14,82,15,83" />
+      <scope id="5731047739261719042" at="11,79,12,78" />
+      <scope id="5731047739261719042" at="14,82,15,81" />
       <scope id="5731047739261719042" at="11,0,14,0">
         <var name="editorContext" id="5731047739261719042" />
         <var name="node" id="5731047739261719042" />
@@ -5341,8 +5341,8 @@
       </scope>
       <unit id="5731047739261719042" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_Editor" />
     </file>
-    <file name="TreeSubDiagram_EditorBuilder_a.java">
-      <node id="5731047739261719042" at="56,94,57,19" concept="13" />
+    <file name="TreeSubDiagram_EditorBuilder.java">
+      <node id="5731047739261719042" at="56,92,57,19" concept="13" />
       <node id="5731047739261719042" at="57,19,58,18" concept="2" />
       <node id="5731047739261719042" at="63,26,64,18" concept="8" />
       <node id="5731047739261719042" at="67,39,68,32" concept="8" />
@@ -5451,7 +5451,7 @@
       <node id="5731047739261719042" at="271,73,274,15" concept="5" />
       <node id="5731047739261719042" at="290,0,293,5" concept="5" />
       <node id="5731047739261719042" at="296,0,299,0" concept="6" trace="createDiagram_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5731047739261719042" at="56,0,60,0" concept="1" trace="TreeSubDiagram_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5731047739261719042" at="56,0,60,0" concept="1" trace="TreeSubDiagram_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5731047739261719042" at="279,91,283,15" concept="5" />
       <node id="5731047739261719042" at="61,0,66,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5731047739261719042" at="91,63,96,24" concept="2" />
@@ -5500,7 +5500,7 @@
       <scope id="5731047739261719042" at="272,50,273,90" />
       <scope id="5731047739261719042" at="291,40,292,35" />
       <scope id="5731047739261719042" at="296,40,297,58" />
-      <scope id="5731047739261719042" at="56,94,58,18" />
+      <scope id="5731047739261719042" at="56,92,58,18" />
       <scope id="5731047739261719042" at="112,65,114,39">
         <var name="connectionTypes" id="5731047739261719042" />
       </scope>
@@ -5637,13 +5637,13 @@
         <var name="editorContext" id="5731047739261719042" />
         <var name="node" id="5731047739261719042" />
       </scope>
-      <unit id="5731047739261719042" at="306,0,310,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_EditorBuilder_a$LINKS" />
-      <unit id="5731047739261719042" at="252,53,266,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_EditorBuilder_a$2" />
-      <unit id="5731047739261719042" at="100,44,237,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_EditorBuilder_a$1" />
-      <unit id="5731047739261719042" at="52,0,311,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_EditorBuilder_a" />
+      <unit id="5731047739261719042" at="306,0,310,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_EditorBuilder$LINKS" />
+      <unit id="5731047739261719042" at="252,53,266,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_EditorBuilder$2" />
+      <unit id="5731047739261719042" at="100,44,237,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_EditorBuilder$1" />
+      <unit id="5731047739261719042" at="52,0,311,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_EditorBuilder" />
     </file>
-    <file name="TreeSubDiagram_InspectorBuilder_a.java">
-      <node id="5731047739261719042" at="18,97,19,19" concept="13" />
+    <file name="TreeSubDiagram_InspectorBuilder.java">
+      <node id="5731047739261719042" at="18,95,19,19" concept="13" />
       <node id="5731047739261719042" at="19,19,20,18" concept="2" />
       <node id="5731047739261719042" at="25,26,26,18" concept="8" />
       <node id="5731047739261719042" at="29,39,30,32" concept="8" />
@@ -5665,7 +5665,7 @@
       <node id="5731047739261720868" at="54,143,55,22" concept="8" />
       <node id="5731047739261719042" at="15,0,17,0" concept="3" trace="myNode" />
       <node id="5731047739261719042" at="29,0,32,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5731047739261719042" at="18,0,22,0" concept="1" trace="TreeSubDiagram_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5731047739261719042" at="18,0,22,0" concept="1" trace="TreeSubDiagram_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5731047739261720580" at="43,0,47,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5731047739261720868" at="53,0,57,0" concept="6" trace="createComponent_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5731047739261719042" at="23,0,28,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -5673,7 +5673,7 @@
       <node id="5731047739261719042" at="33,0,43,0" concept="6" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="5731047739261719042" at="25,26,26,18" />
       <scope id="5731047739261719042" at="29,39,30,32" />
-      <scope id="5731047739261719042" at="18,97,20,18" />
+      <scope id="5731047739261719042" at="18,95,20,18" />
       <scope id="5731047739261720580" at="43,42,45,22">
         <var name="editorCell" id="5731047739261720580" />
       </scope>
@@ -5696,21 +5696,21 @@
         <var name="editorCell" id="5731047739261719042" />
       </scope>
       <scope id="5731047739261719042" at="33,0,43,0" />
-      <unit id="5731047739261719042" at="14,0,58,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_InspectorBuilder_a" />
+      <unit id="5731047739261719042" at="14,0,58,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/5731047739263672053">
     <file name="TreeSubDiagram_text_Editor.java">
       <node id="5731047739263672053" at="14,0,15,0" concept="3" trace="myContextHints" />
       <node id="5731047739263672053" at="17,47,18,26" concept="8" />
-      <node id="5731047739263672053" at="20,79,21,85" concept="8" />
-      <node id="5731047739263672053" at="23,82,24,88" concept="8" />
+      <node id="5731047739263672053" at="20,79,21,83" concept="8" />
+      <node id="5731047739263672053" at="23,82,24,86" concept="8" />
       <node id="5731047739263672053" at="20,0,23,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5731047739263672053" at="23,0,26,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5731047739263672053" at="15,0,20,0" concept="6" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="5731047739263672053" at="17,47,18,26" />
-      <scope id="5731047739263672053" at="20,79,21,85" />
-      <scope id="5731047739263672053" at="23,82,24,88" />
+      <scope id="5731047739263672053" at="20,79,21,83" />
+      <scope id="5731047739263672053" at="23,82,24,86" />
       <scope id="5731047739263672053" at="20,0,23,0">
         <var name="editorContext" id="5731047739263672053" />
         <var name="node" id="5731047739263672053" />
@@ -5722,8 +5722,8 @@
       <scope id="5731047739263672053" at="15,0,20,0" />
       <unit id="5731047739263672053" at="13,0,27,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_text_Editor" />
     </file>
-    <file name="TreeSubDiagram_text_EditorBuilder_a.java">
-      <node id="5731047739263672053" at="16,99,17,19" concept="13" />
+    <file name="TreeSubDiagram_text_EditorBuilder.java">
+      <node id="5731047739263672053" at="16,97,17,19" concept="13" />
       <node id="5731047739263672053" at="17,19,18,18" concept="2" />
       <node id="5731047739263672053" at="23,26,24,18" concept="8" />
       <node id="5731047739263672053" at="27,39,28,31" concept="8" />
@@ -5734,13 +5734,13 @@
       <node id="5731047739263672484" at="37,5,38,22" concept="8" />
       <node id="5731047739263672053" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="5731047739263672053" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5731047739263672053" at="16,0,20,0" concept="1" trace="TreeSubDiagram_text_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5731047739263672053" at="16,0,20,0" concept="1" trace="TreeSubDiagram_text_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5731047739263672484" at="33,72,37,5" concept="5" />
       <node id="5731047739263672053" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5731047739263672484" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="5731047739263672053" at="23,26,24,18" />
       <scope id="5731047739263672053" at="27,39,28,31" />
-      <scope id="5731047739263672053" at="16,99,18,18" />
+      <scope id="5731047739263672053" at="16,97,18,18" />
       <scope id="5731047739263672484" at="34,26,36,30" />
       <scope id="5731047739263672053" at="27,0,30,0" />
       <scope id="5731047739263672053" at="16,0,20,0">
@@ -5753,10 +5753,10 @@
         <var name="editorCell" id="5731047739263672484" />
       </scope>
       <scope id="5731047739263672484" at="31,0,40,0" />
-      <unit id="5731047739263672053" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_text_EditorBuilder_a" />
+      <unit id="5731047739263672053" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_text_EditorBuilder" />
     </file>
-    <file name="TreeSubDiagram_text_InspectorBuilder_a.java">
-      <node id="5731047739263672053" at="16,102,17,19" concept="13" />
+    <file name="TreeSubDiagram_text_InspectorBuilder.java">
+      <node id="5731047739263672053" at="16,100,17,19" concept="13" />
       <node id="5731047739263672053" at="17,19,18,18" concept="2" />
       <node id="5731047739263672053" at="23,26,24,18" concept="8" />
       <node id="5731047739263672053" at="27,39,28,31" concept="8" />
@@ -5767,13 +5767,13 @@
       <node id="5731047739263672065" at="37,5,38,22" concept="8" />
       <node id="5731047739263672053" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="5731047739263672053" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5731047739263672053" at="16,0,20,0" concept="1" trace="TreeSubDiagram_text_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5731047739263672053" at="16,0,20,0" concept="1" trace="TreeSubDiagram_text_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5731047739263672065" at="33,72,37,5" concept="5" />
       <node id="5731047739263672053" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5731047739263672065" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="5731047739263672053" at="23,26,24,18" />
       <scope id="5731047739263672053" at="27,39,28,31" />
-      <scope id="5731047739263672053" at="16,102,18,18" />
+      <scope id="5731047739263672053" at="16,100,18,18" />
       <scope id="5731047739263672065" at="34,26,36,30" />
       <scope id="5731047739263672053" at="27,0,30,0" />
       <scope id="5731047739263672053" at="16,0,20,0">
@@ -5786,17 +5786,17 @@
         <var name="editorCell" id="5731047739263672065" />
       </scope>
       <scope id="5731047739263672065" at="31,0,40,0" />
-      <unit id="5731047739263672053" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_text_InspectorBuilder_a" />
+      <unit id="5731047739263672053" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeSubDiagram_text_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/6286296976400791611">
     <file name="ShrinkingTreeTest_Editor.java">
-      <node id="6286296976400791611" at="11,79,12,83" concept="8" />
-      <node id="6286296976400791611" at="14,82,15,86" concept="8" />
+      <node id="6286296976400791611" at="11,79,12,81" concept="8" />
+      <node id="6286296976400791611" at="14,82,15,84" concept="8" />
       <node id="6286296976400791611" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6286296976400791611" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6286296976400791611" at="11,79,12,83" />
-      <scope id="6286296976400791611" at="14,82,15,86" />
+      <scope id="6286296976400791611" at="11,79,12,81" />
+      <scope id="6286296976400791611" at="14,82,15,84" />
       <scope id="6286296976400791611" at="11,0,14,0">
         <var name="editorContext" id="6286296976400791611" />
         <var name="node" id="6286296976400791611" />
@@ -5807,8 +5807,8 @@
       </scope>
       <unit id="6286296976400791611" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ShrinkingTreeTest_Editor" />
     </file>
-    <file name="ShrinkingTreeTest_EditorBuilder_a.java">
-      <node id="6286296976400791611" at="66,97,67,19" concept="13" />
+    <file name="ShrinkingTreeTest_EditorBuilder.java">
+      <node id="6286296976400791611" at="66,95,67,19" concept="13" />
       <node id="6286296976400791611" at="67,19,68,18" concept="2" />
       <node id="6286296976400791611" at="73,26,74,18" concept="8" />
       <node id="6286296976400791611" at="77,39,78,32" concept="8" />
@@ -5845,10 +5845,10 @@
       <node id="6286296976400791611" at="129,17,130,32" concept="8" />
       <node id="6286296976400791611" at="133,65,134,89" concept="7" />
       <node id="6286296976400791611" at="134,89,135,39" concept="8" />
-      <node id="2218603406781557597" at="143,58,144,28" concept="8" />
+      <node id="2218603406781557597" at="143,48,144,28" concept="8" />
       <node id="6286296976400791611" at="162,52,163,47" concept="7" />
-      <node id="6286296976400791611" at="163,47,164,60" concept="2" />
-      <node id="6286296976400791611" at="164,60,165,38" concept="8" />
+      <node id="6286296976400791611" at="163,47,164,50" concept="2" />
+      <node id="6286296976400791611" at="164,50,165,38" concept="8" />
       <node id="6286296976400791611" at="169,54,170,47" concept="7" />
       <node id="6286296976400791611" at="170,47,171,38" concept="8" />
       <node id="6286296976400791611" at="175,48,176,42" concept="7" />
@@ -5953,7 +5953,7 @@
       <node id="6286296976400791611" at="77,0,80,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6286296976400791617" at="123,104,126,17" concept="4" />
       <node id="6286296976400791618" at="126,17,129,17" concept="4" />
-      <node id="2218603406781557497" at="143,0,146,0" concept="6" trace="nodeCondition_nx4qyp_a2a#()Z" />
+      <node id="2218603406781557497" at="143,0,146,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="6286296976400791611" at="280,97,283,21" concept="5" />
       <node id="6286296976400791611" at="284,111,287,21" concept="5" />
       <node id="6286296976400791611" at="296,73,299,15" concept="5" />
@@ -5968,7 +5968,7 @@
       <node id="3662141892364995334" at="355,0,358,0" concept="6" trace="_StyleParameter_QueryFunction_nx4qyp_a6c0#()Lorg/eclipse/elk/alg/spore/options/RootSelection;" />
       <node id="3662141892364996096" at="358,0,361,0" concept="6" trace="_StyleParameter_QueryFunction_nx4qyp_a7c0#()Lorg/eclipse/elk/alg/spore/options/StructureExtractionStrategy;" />
       <node id="3662141892364997198" at="361,0,364,0" concept="6" trace="_StyleParameter_QueryFunction_nx4qyp_a8c0#()Lorg/eclipse/elk/alg/spore/options/TreeConstructionStrategy;" />
-      <node id="6286296976400791611" at="66,0,70,0" concept="1" trace="ShrinkingTreeTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6286296976400791611" at="66,0,70,0" concept="1" trace="ShrinkingTreeTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6286296976400791614" at="91,0,95,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6286296976400791611" at="317,91,321,15" concept="5" />
       <node id="6286296976400791611" at="71,0,76,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -6012,7 +6012,7 @@
       <scope id="6286296976400791611" at="77,39,78,32" />
       <scope id="6286296976400791617" at="124,108,125,64" />
       <scope id="6286296976400791618" at="127,108,128,64" />
-      <scope id="2218603406781557498" at="143,58,144,28" />
+      <scope id="2218603406781557498" at="143,48,144,28" />
       <scope id="6286296976400791611" at="213,21,214,96" />
       <scope id="6286296976400791611" at="215,40,216,27" />
       <scope id="6286296976400791611" at="269,56,270,81" />
@@ -6032,7 +6032,7 @@
       <scope id="3662141892364997200" at="361,80,362,177" />
       <scope id="2173774385799102748" at="365,143,366,167" />
       <scope id="2173774385799111095" at="367,12,368,18" />
-      <scope id="6286296976400791611" at="66,97,68,18" />
+      <scope id="6286296976400791611" at="66,95,68,18" />
       <scope id="6286296976400791614" at="91,42,93,22">
         <var name="editorCell" id="6286296976400791614" />
       </scope>
@@ -6186,14 +6186,14 @@
         <var name="editorContext" id="6286296976400791611" />
         <var name="node" id="6286296976400791611" />
       </scope>
-      <unit id="6286296976400791611" at="372,0,378,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ShrinkingTreeTest_EditorBuilder_a$LINKS" />
-      <unit id="6286296976400791611" at="379,0,390,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ShrinkingTreeTest_EditorBuilder_a$PROPS" />
-      <unit id="6286296976400791611" at="277,53,291,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.ShrinkingTreeTest_EditorBuilder_a$2" />
-      <unit id="6286296976400791611" at="121,44,262,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.ShrinkingTreeTest_EditorBuilder_a$1" />
-      <unit id="6286296976400791611" at="62,0,391,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ShrinkingTreeTest_EditorBuilder_a" />
+      <unit id="6286296976400791611" at="372,0,378,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ShrinkingTreeTest_EditorBuilder$LINKS" />
+      <unit id="6286296976400791611" at="379,0,390,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ShrinkingTreeTest_EditorBuilder$PROPS" />
+      <unit id="6286296976400791611" at="277,53,291,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.ShrinkingTreeTest_EditorBuilder$2" />
+      <unit id="6286296976400791611" at="121,44,262,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.ShrinkingTreeTest_EditorBuilder$1" />
+      <unit id="6286296976400791611" at="62,0,391,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ShrinkingTreeTest_EditorBuilder" />
     </file>
-    <file name="ShrinkingTreeTest_InspectorBuilder_a.java">
-      <node id="6286296976400791611" at="16,100,17,19" concept="13" />
+    <file name="ShrinkingTreeTest_InspectorBuilder.java">
+      <node id="6286296976400791611" at="16,98,17,19" concept="13" />
       <node id="6286296976400791611" at="17,19,18,18" concept="2" />
       <node id="6286296976400791611" at="23,26,24,18" concept="8" />
       <node id="6286296976400791611" at="27,39,28,31" concept="8" />
@@ -6204,13 +6204,13 @@
       <node id="3662141892363188780" at="37,5,38,22" concept="8" />
       <node id="6286296976400791611" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="6286296976400791611" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6286296976400791611" at="16,0,20,0" concept="1" trace="ShrinkingTreeTest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6286296976400791611" at="16,0,20,0" concept="1" trace="ShrinkingTreeTest_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363188780" at="33,72,37,5" concept="5" />
       <node id="6286296976400791611" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363188780" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6286296976400791611" at="23,26,24,18" />
       <scope id="6286296976400791611" at="27,39,28,31" />
-      <scope id="6286296976400791611" at="16,100,18,18" />
+      <scope id="6286296976400791611" at="16,98,18,18" />
       <scope id="3662141892363188780" at="34,26,36,30" />
       <scope id="6286296976400791611" at="27,0,30,0" />
       <scope id="6286296976400791611" at="16,0,20,0">
@@ -6223,17 +6223,17 @@
         <var name="editorCell" id="3662141892363188780" />
       </scope>
       <scope id="3662141892363188780" at="31,0,40,0" />
-      <unit id="6286296976400791611" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ShrinkingTreeTest_InspectorBuilder_a" />
+      <unit id="6286296976400791611" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ShrinkingTreeTest_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/6286296976401963055">
     <file name="NodeOverlapRemovalTest_Editor.java">
-      <node id="6286296976401963055" at="11,79,12,88" concept="8" />
-      <node id="6286296976401963055" at="14,82,15,91" concept="8" />
+      <node id="6286296976401963055" at="11,79,12,86" concept="8" />
+      <node id="6286296976401963055" at="14,82,15,89" concept="8" />
       <node id="6286296976401963055" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6286296976401963055" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6286296976401963055" at="11,79,12,88" />
-      <scope id="6286296976401963055" at="14,82,15,91" />
+      <scope id="6286296976401963055" at="11,79,12,86" />
+      <scope id="6286296976401963055" at="14,82,15,89" />
       <scope id="6286296976401963055" at="11,0,14,0">
         <var name="editorContext" id="6286296976401963055" />
         <var name="node" id="6286296976401963055" />
@@ -6244,8 +6244,8 @@
       </scope>
       <unit id="6286296976401963055" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NodeOverlapRemovalTest_Editor" />
     </file>
-    <file name="NodeOverlapRemovalTest_EditorBuilder_a.java">
-      <node id="6286296976401963055" at="62,102,63,19" concept="13" />
+    <file name="NodeOverlapRemovalTest_EditorBuilder.java">
+      <node id="6286296976401963055" at="62,100,63,19" concept="13" />
       <node id="6286296976401963055" at="63,19,64,18" concept="2" />
       <node id="6286296976401963055" at="69,26,70,18" concept="8" />
       <node id="6286296976401963055" at="73,39,74,32" concept="8" />
@@ -6282,10 +6282,10 @@
       <node id="6286296976401963055" at="125,17,126,32" concept="8" />
       <node id="6286296976401963055" at="129,65,130,89" concept="7" />
       <node id="6286296976401963055" at="130,89,131,39" concept="8" />
-      <node id="2218603406781560277" at="139,58,140,28" concept="8" />
+      <node id="2218603406781560277" at="139,48,140,28" concept="8" />
       <node id="6286296976401963055" at="158,52,159,47" concept="7" />
-      <node id="6286296976401963055" at="159,47,160,60" concept="2" />
-      <node id="6286296976401963055" at="160,60,161,38" concept="8" />
+      <node id="6286296976401963055" at="159,47,160,50" concept="2" />
+      <node id="6286296976401963055" at="160,50,161,38" concept="8" />
       <node id="6286296976401963055" at="165,54,166,47" concept="7" />
       <node id="6286296976401963055" at="166,47,167,38" concept="8" />
       <node id="6286296976401963055" at="171,48,172,42" concept="7" />
@@ -6378,7 +6378,7 @@
       <node id="6286296976401963055" at="73,0,76,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6286296976401963061" at="119,104,122,17" concept="4" />
       <node id="6286296976401963062" at="122,17,125,17" concept="4" />
-      <node id="2218603406781559718" at="139,0,142,0" concept="6" trace="nodeCondition_udrn95_a2a#()Z" />
+      <node id="2218603406781559718" at="139,0,142,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="6286296976401963055" at="276,97,279,21" concept="5" />
       <node id="6286296976401963055" at="280,111,283,21" concept="5" />
       <node id="6286296976401963055" at="292,73,295,15" concept="5" />
@@ -6389,7 +6389,7 @@
       <node id="575226493386319296" at="342,0,345,0" concept="6" trace="_StyleParameter_QueryFunction_udrn95_a3c0#()I" />
       <node id="575226493386320232" at="345,0,348,0" concept="6" trace="_StyleParameter_QueryFunction_udrn95_a4c0#()Z" />
       <node id="575226493386320935" at="348,0,351,0" concept="6" trace="_StyleParameter_QueryFunction_udrn95_a5c0#()Lorg/eclipse/elk/core/math/ElkPadding;" />
-      <node id="6286296976401963055" at="62,0,66,0" concept="1" trace="NodeOverlapRemovalTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6286296976401963055" at="62,0,66,0" concept="1" trace="NodeOverlapRemovalTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6286296976401963058" at="87,0,91,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6286296976401963055" at="309,91,313,15" concept="5" />
       <node id="6286296976401963055" at="67,0,72,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -6433,7 +6433,7 @@
       <scope id="6286296976401963055" at="73,39,74,32" />
       <scope id="6286296976401963061" at="120,108,121,64" />
       <scope id="6286296976401963062" at="123,108,124,64" />
-      <scope id="2218603406781559719" at="139,58,140,28" />
+      <scope id="2218603406781559719" at="139,48,140,28" />
       <scope id="6286296976401963055" at="209,21,210,96" />
       <scope id="6286296976401963055" at="211,40,212,27" />
       <scope id="6286296976401963055" at="265,56,266,81" />
@@ -6449,7 +6449,7 @@
       <scope id="575226493386319298" at="342,59,343,139" />
       <scope id="575226493386320234" at="345,63,346,137" />
       <scope id="575226493386320937" at="348,66,349,190" />
-      <scope id="6286296976401963055" at="62,102,64,18" />
+      <scope id="6286296976401963055" at="62,100,64,18" />
       <scope id="6286296976401963058" at="87,42,89,22">
         <var name="editorCell" id="6286296976401963058" />
       </scope>
@@ -6599,14 +6599,14 @@
         <var name="editorContext" id="6286296976401963055" />
         <var name="node" id="6286296976401963055" />
       </scope>
-      <unit id="6286296976401963055" at="352,0,358,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NodeOverlapRemovalTest_EditorBuilder_a$LINKS" />
-      <unit id="6286296976401963055" at="359,0,366,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NodeOverlapRemovalTest_EditorBuilder_a$PROPS" />
-      <unit id="6286296976401963055" at="273,53,287,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.NodeOverlapRemovalTest_EditorBuilder_a$2" />
-      <unit id="6286296976401963055" at="117,44,258,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.NodeOverlapRemovalTest_EditorBuilder_a$1" />
-      <unit id="6286296976401963055" at="58,0,367,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NodeOverlapRemovalTest_EditorBuilder_a" />
+      <unit id="6286296976401963055" at="352,0,358,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NodeOverlapRemovalTest_EditorBuilder$LINKS" />
+      <unit id="6286296976401963055" at="359,0,366,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NodeOverlapRemovalTest_EditorBuilder$PROPS" />
+      <unit id="6286296976401963055" at="273,53,287,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.NodeOverlapRemovalTest_EditorBuilder$2" />
+      <unit id="6286296976401963055" at="117,44,258,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.NodeOverlapRemovalTest_EditorBuilder$1" />
+      <unit id="6286296976401963055" at="58,0,367,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NodeOverlapRemovalTest_EditorBuilder" />
     </file>
-    <file name="NodeOverlapRemovalTest_InspectorBuilder_a.java">
-      <node id="6286296976401963055" at="16,105,17,19" concept="13" />
+    <file name="NodeOverlapRemovalTest_InspectorBuilder.java">
+      <node id="6286296976401963055" at="16,103,17,19" concept="13" />
       <node id="6286296976401963055" at="17,19,18,18" concept="2" />
       <node id="6286296976401963055" at="23,26,24,18" concept="8" />
       <node id="6286296976401963055" at="27,39,28,31" concept="8" />
@@ -6617,13 +6617,13 @@
       <node id="3662141892363189172" at="37,5,38,22" concept="8" />
       <node id="6286296976401963055" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="6286296976401963055" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6286296976401963055" at="16,0,20,0" concept="1" trace="NodeOverlapRemovalTest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6286296976401963055" at="16,0,20,0" concept="1" trace="NodeOverlapRemovalTest_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363189172" at="33,72,37,5" concept="5" />
       <node id="6286296976401963055" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363189172" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6286296976401963055" at="23,26,24,18" />
       <scope id="6286296976401963055" at="27,39,28,31" />
-      <scope id="6286296976401963055" at="16,105,18,18" />
+      <scope id="6286296976401963055" at="16,103,18,18" />
       <scope id="3662141892363189172" at="34,26,36,30" />
       <scope id="6286296976401963055" at="27,0,30,0" />
       <scope id="6286296976401963055" at="16,0,20,0">
@@ -6636,17 +6636,17 @@
         <var name="editorCell" id="3662141892363189172" />
       </scope>
       <scope id="3662141892363189172" at="31,0,40,0" />
-      <unit id="6286296976401963055" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NodeOverlapRemovalTest_InspectorBuilder_a" />
+      <unit id="6286296976401963055" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.NodeOverlapRemovalTest_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/6286296976402978884">
     <file name="StressTest_Editor.java">
-      <node id="6286296976402978884" at="11,79,12,76" concept="8" />
-      <node id="6286296976402978884" at="14,82,15,79" concept="8" />
+      <node id="6286296976402978884" at="11,79,12,74" concept="8" />
+      <node id="6286296976402978884" at="14,82,15,77" concept="8" />
       <node id="6286296976402978884" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6286296976402978884" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6286296976402978884" at="11,79,12,76" />
-      <scope id="6286296976402978884" at="14,82,15,79" />
+      <scope id="6286296976402978884" at="11,79,12,74" />
+      <scope id="6286296976402978884" at="14,82,15,77" />
       <scope id="6286296976402978884" at="11,0,14,0">
         <var name="editorContext" id="6286296976402978884" />
         <var name="node" id="6286296976402978884" />
@@ -6657,8 +6657,8 @@
       </scope>
       <unit id="6286296976402978884" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.StressTest_Editor" />
     </file>
-    <file name="StressTest_EditorBuilder_a.java">
-      <node id="6286296976402978884" at="60,90,61,19" concept="13" />
+    <file name="StressTest_EditorBuilder.java">
+      <node id="6286296976402978884" at="60,88,61,19" concept="13" />
       <node id="6286296976402978884" at="61,19,62,18" concept="2" />
       <node id="6286296976402978884" at="67,26,68,18" concept="8" />
       <node id="6286296976402978884" at="71,39,72,32" concept="8" />
@@ -6695,10 +6695,10 @@
       <node id="6286296976402978884" at="123,17,124,32" concept="8" />
       <node id="6286296976402978884" at="127,65,128,89" concept="7" />
       <node id="6286296976402978884" at="128,89,129,39" concept="8" />
-      <node id="2218603406781537647" at="137,58,138,28" concept="8" />
+      <node id="2218603406781537647" at="137,48,138,28" concept="8" />
       <node id="6286296976402978884" at="156,52,157,47" concept="7" />
-      <node id="6286296976402978884" at="157,47,158,60" concept="2" />
-      <node id="6286296976402978884" at="158,60,159,38" concept="8" />
+      <node id="6286296976402978884" at="157,47,158,50" concept="2" />
+      <node id="6286296976402978884" at="158,50,159,38" concept="8" />
       <node id="6286296976402978884" at="163,54,164,47" concept="7" />
       <node id="6286296976402978884" at="164,47,165,38" concept="8" />
       <node id="6286296976402978884" at="169,48,170,42" concept="7" />
@@ -6789,7 +6789,7 @@
       <node id="6286296976402978884" at="71,0,74,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6286296976402978890" at="117,104,120,17" concept="4" />
       <node id="6286296976402978891" at="120,17,123,17" concept="4" />
-      <node id="2218603406781537113" at="137,0,140,0" concept="6" trace="nodeCondition_3ze7qr_a2a#()Z" />
+      <node id="2218603406781537113" at="137,0,140,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="6286296976402978884" at="274,97,277,21" concept="5" />
       <node id="6286296976402978884" at="278,111,281,21" concept="5" />
       <node id="6286296976402978884" at="290,73,293,15" concept="5" />
@@ -6801,7 +6801,7 @@
       <node id="3662141892371626156" at="336,0,339,0" concept="6" trace="_StyleParameter_QueryFunction_3ze7qr_a3c0#()Lorg/eclipse/elk/alg/force/stress/StressMajorization/Dimension;" />
       <node id="3662141892371626862" at="339,0,342,0" concept="6" trace="_StyleParameter_QueryFunction_3ze7qr_a4c0#()Z" />
       <node id="3662141892371627571" at="342,0,345,0" concept="6" trace="_StyleParameter_QueryFunction_3ze7qr_a5c0#()D" />
-      <node id="6286296976402978884" at="60,0,64,0" concept="1" trace="StressTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6286296976402978884" at="60,0,64,0" concept="1" trace="StressTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6286296976402978887" at="85,0,89,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6286296976402978884" at="307,91,311,15" concept="5" />
       <node id="6286296976402978884" at="65,0,70,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -6843,7 +6843,7 @@
       <scope id="6286296976402978884" at="71,39,72,32" />
       <scope id="6286296976402978890" at="118,108,119,64" />
       <scope id="6286296976402978891" at="121,108,122,64" />
-      <scope id="2218603406781537114" at="137,58,138,28" />
+      <scope id="2218603406781537114" at="137,48,138,28" />
       <scope id="6286296976402978884" at="207,21,208,96" />
       <scope id="6286296976402978884" at="209,40,210,27" />
       <scope id="6286296976402978884" at="263,56,264,81" />
@@ -6858,7 +6858,7 @@
       <scope id="3662141892371626158" at="336,84,337,172" />
       <scope id="3662141892371626864" at="339,63,340,131" />
       <scope id="3662141892371627573" at="342,62,343,140" />
-      <scope id="6286296976402978884" at="60,90,62,18" />
+      <scope id="6286296976402978884" at="60,88,62,18" />
       <scope id="6286296976402978887" at="85,42,87,22">
         <var name="editorCell" id="6286296976402978887" />
       </scope>
@@ -7007,14 +7007,14 @@
         <var name="editorContext" id="6286296976402978884" />
         <var name="node" id="6286296976402978884" />
       </scope>
-      <unit id="6286296976402978884" at="346,0,351,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.StressTest_EditorBuilder_a$LINKS" />
-      <unit id="6286296976402978884" at="352,0,360,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.StressTest_EditorBuilder_a$PROPS" />
-      <unit id="6286296976402978884" at="271,53,285,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.StressTest_EditorBuilder_a$2" />
-      <unit id="6286296976402978884" at="115,44,256,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.StressTest_EditorBuilder_a$1" />
-      <unit id="6286296976402978884" at="56,0,361,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.StressTest_EditorBuilder_a" />
+      <unit id="6286296976402978884" at="346,0,351,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.StressTest_EditorBuilder$LINKS" />
+      <unit id="6286296976402978884" at="352,0,360,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.StressTest_EditorBuilder$PROPS" />
+      <unit id="6286296976402978884" at="271,53,285,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.StressTest_EditorBuilder$2" />
+      <unit id="6286296976402978884" at="115,44,256,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.StressTest_EditorBuilder$1" />
+      <unit id="6286296976402978884" at="56,0,361,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.StressTest_EditorBuilder" />
     </file>
-    <file name="StressTest_InspectorBuilder_a.java">
-      <node id="6286296976402978884" at="16,93,17,19" concept="13" />
+    <file name="StressTest_InspectorBuilder.java">
+      <node id="6286296976402978884" at="16,91,17,19" concept="13" />
       <node id="6286296976402978884" at="17,19,18,18" concept="2" />
       <node id="6286296976402978884" at="23,26,24,18" concept="8" />
       <node id="6286296976402978884" at="27,39,28,31" concept="8" />
@@ -7025,13 +7025,13 @@
       <node id="3662141892363174005" at="37,5,38,22" concept="8" />
       <node id="6286296976402978884" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="6286296976402978884" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6286296976402978884" at="16,0,20,0" concept="1" trace="StressTest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6286296976402978884" at="16,0,20,0" concept="1" trace="StressTest_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363174005" at="33,72,37,5" concept="5" />
       <node id="6286296976402978884" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363174005" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6286296976402978884" at="23,26,24,18" />
       <scope id="6286296976402978884" at="27,39,28,31" />
-      <scope id="6286296976402978884" at="16,93,18,18" />
+      <scope id="6286296976402978884" at="16,91,18,18" />
       <scope id="3662141892363174005" at="34,26,36,30" />
       <scope id="6286296976402978884" at="27,0,30,0" />
       <scope id="6286296976402978884" at="16,0,20,0">
@@ -7044,17 +7044,17 @@
         <var name="editorCell" id="3662141892363174005" />
       </scope>
       <scope id="3662141892363174005" at="31,0,40,0" />
-      <unit id="6286296976402978884" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.StressTest_InspectorBuilder_a" />
+      <unit id="6286296976402978884" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.StressTest_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/6747382324546254926">
     <file name="ForceTest_Editor.java">
-      <node id="6747382324546254926" at="11,79,12,75" concept="8" />
-      <node id="6747382324546254926" at="14,82,15,78" concept="8" />
+      <node id="6747382324546254926" at="11,79,12,73" concept="8" />
+      <node id="6747382324546254926" at="14,82,15,76" concept="8" />
       <node id="6747382324546254926" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6747382324546254926" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6747382324546254926" at="11,79,12,75" />
-      <scope id="6747382324546254926" at="14,82,15,78" />
+      <scope id="6747382324546254926" at="11,79,12,73" />
+      <scope id="6747382324546254926" at="14,82,15,76" />
       <scope id="6747382324546254926" at="11,0,14,0">
         <var name="editorContext" id="6747382324546254926" />
         <var name="node" id="6747382324546254926" />
@@ -7065,8 +7065,8 @@
       </scope>
       <unit id="6747382324546254926" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ForceTest_Editor" />
     </file>
-    <file name="ForceTest_EditorBuilder_a.java">
-      <node id="6747382324546254926" at="62,89,63,19" concept="13" />
+    <file name="ForceTest_EditorBuilder.java">
+      <node id="6747382324546254926" at="62,87,63,19" concept="13" />
       <node id="6747382324546254926" at="63,19,64,18" concept="2" />
       <node id="6747382324546254926" at="69,26,70,18" concept="8" />
       <node id="6747382324546254926" at="73,39,74,32" concept="8" />
@@ -7103,10 +7103,10 @@
       <node id="6747382324546254926" at="125,17,126,32" concept="8" />
       <node id="6747382324546254926" at="129,65,130,89" concept="7" />
       <node id="6747382324546254926" at="130,89,131,39" concept="8" />
-      <node id="2218603406781535506" at="139,58,140,28" concept="8" />
+      <node id="2218603406781535506" at="139,48,140,28" concept="8" />
       <node id="6747382324546254926" at="158,52,159,47" concept="7" />
-      <node id="6747382324546254926" at="159,47,160,60" concept="2" />
-      <node id="6747382324546254926" at="160,60,161,38" concept="8" />
+      <node id="6747382324546254926" at="159,47,160,50" concept="2" />
+      <node id="6747382324546254926" at="160,50,161,38" concept="8" />
       <node id="6747382324546254926" at="165,54,166,47" concept="7" />
       <node id="6747382324546254926" at="166,47,167,38" concept="8" />
       <node id="6747382324546254926" at="171,48,172,42" concept="7" />
@@ -7233,7 +7233,7 @@
       <node id="6747382324546254926" at="73,0,76,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6747382324546254932" at="119,104,122,17" concept="4" />
       <node id="6747382324546254933" at="122,17,125,17" concept="4" />
-      <node id="2218603406781534262" at="139,0,142,0" concept="6" trace="nodeCondition_icboxz_a2a#()Z" />
+      <node id="2218603406781534262" at="139,0,142,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="6747382324546254926" at="276,97,279,21" concept="5" />
       <node id="6747382324546254926" at="280,111,283,21" concept="5" />
       <node id="6747382324546254926" at="292,73,295,15" concept="5" />
@@ -7257,7 +7257,7 @@
       <node id="3662141892373750449" at="386,0,389,0" concept="6" trace="_StyleParameter_QueryFunction_icboxz_a51c0#()D" />
       <node id="3662141892373750984" at="389,0,392,0" concept="6" trace="_StyleParameter_QueryFunction_icboxz_a61c0#()Z" />
       <node id="3662141892373752249" at="392,0,395,0" concept="6" trace="_StyleParameter_QueryFunction_icboxz_a71c0#()D" />
-      <node id="6747382324546254926" at="62,0,66,0" concept="1" trace="ForceTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6747382324546254926" at="62,0,66,0" concept="1" trace="ForceTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6747382324546254929" at="87,0,91,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6747382324546254926" at="321,91,325,15" concept="5" />
       <node id="6747382324546254926" at="67,0,72,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -7299,7 +7299,7 @@
       <scope id="6747382324546254926" at="73,39,74,32" />
       <scope id="6747382324546254932" at="120,108,121,64" />
       <scope id="6747382324546254933" at="123,108,124,64" />
-      <scope id="2218603406781534263" at="139,58,140,28" />
+      <scope id="2218603406781534263" at="139,48,140,28" />
       <scope id="6747382324546254926" at="209,21,210,96" />
       <scope id="6747382324546254926" at="211,40,212,27" />
       <scope id="6747382324546254926" at="265,56,266,81" />
@@ -7326,7 +7326,7 @@
       <scope id="3662141892373750451" at="386,63,387,155" />
       <scope id="3662141892373750986" at="389,64,390,125" />
       <scope id="3662141892373752251" at="392,63,393,145" />
-      <scope id="6747382324546254926" at="62,89,64,18" />
+      <scope id="6747382324546254926" at="62,87,64,18" />
       <scope id="6747382324546254929" at="87,42,89,22">
         <var name="editorCell" id="6747382324546254929" />
       </scope>
@@ -7487,14 +7487,14 @@
         <var name="editorContext" id="6747382324546254926" />
         <var name="node" id="6747382324546254926" />
       </scope>
-      <unit id="6747382324546254926" at="396,0,402,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ForceTest_EditorBuilder_a$LINKS" />
-      <unit id="6747382324546254926" at="273,53,287,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.ForceTest_EditorBuilder_a$2" />
-      <unit id="6747382324546254926" at="403,0,422,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ForceTest_EditorBuilder_a$PROPS" />
-      <unit id="6747382324546254926" at="117,44,258,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.ForceTest_EditorBuilder_a$1" />
-      <unit id="6747382324546254926" at="58,0,423,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ForceTest_EditorBuilder_a" />
+      <unit id="6747382324546254926" at="396,0,402,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ForceTest_EditorBuilder$LINKS" />
+      <unit id="6747382324546254926" at="273,53,287,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.ForceTest_EditorBuilder$2" />
+      <unit id="6747382324546254926" at="403,0,422,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ForceTest_EditorBuilder$PROPS" />
+      <unit id="6747382324546254926" at="117,44,258,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.ForceTest_EditorBuilder$1" />
+      <unit id="6747382324546254926" at="58,0,423,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ForceTest_EditorBuilder" />
     </file>
-    <file name="ForceTest_InspectorBuilder_a.java">
-      <node id="6747382324546254926" at="16,92,17,19" concept="13" />
+    <file name="ForceTest_InspectorBuilder.java">
+      <node id="6747382324546254926" at="16,90,17,19" concept="13" />
       <node id="6747382324546254926" at="17,19,18,18" concept="2" />
       <node id="6747382324546254926" at="23,26,24,18" concept="8" />
       <node id="6747382324546254926" at="27,39,28,31" concept="8" />
@@ -7505,13 +7505,13 @@
       <node id="3662141892363173639" at="37,5,38,22" concept="8" />
       <node id="6747382324546254926" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="6747382324546254926" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6747382324546254926" at="16,0,20,0" concept="1" trace="ForceTest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6747382324546254926" at="16,0,20,0" concept="1" trace="ForceTest_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363173639" at="33,72,37,5" concept="5" />
       <node id="6747382324546254926" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363173639" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6747382324546254926" at="23,26,24,18" />
       <scope id="6747382324546254926" at="27,39,28,31" />
-      <scope id="6747382324546254926" at="16,92,18,18" />
+      <scope id="6747382324546254926" at="16,90,18,18" />
       <scope id="3662141892363173639" at="34,26,36,30" />
       <scope id="6747382324546254926" at="27,0,30,0" />
       <scope id="6747382324546254926" at="16,0,20,0">
@@ -7524,17 +7524,17 @@
         <var name="editorCell" id="3662141892363173639" />
       </scope>
       <scope id="3662141892363173639" at="31,0,40,0" />
-      <unit id="6747382324546254926" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ForceTest_InspectorBuilder_a" />
+      <unit id="6747382324546254926" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.ForceTest_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/6747382324546319116">
     <file name="TreeTest_Editor.java">
-      <node id="6747382324546319116" at="11,79,12,74" concept="8" />
-      <node id="6747382324546319116" at="14,82,15,77" concept="8" />
+      <node id="6747382324546319116" at="11,79,12,72" concept="8" />
+      <node id="6747382324546319116" at="14,82,15,75" concept="8" />
       <node id="6747382324546319116" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6747382324546319116" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6747382324546319116" at="11,79,12,74" />
-      <scope id="6747382324546319116" at="14,82,15,77" />
+      <scope id="6747382324546319116" at="11,79,12,72" />
+      <scope id="6747382324546319116" at="14,82,15,75" />
       <scope id="6747382324546319116" at="11,0,14,0">
         <var name="editorContext" id="6747382324546319116" />
         <var name="node" id="6747382324546319116" />
@@ -7545,8 +7545,8 @@
       </scope>
       <unit id="6747382324546319116" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeTest_Editor" />
     </file>
-    <file name="TreeTest_EditorBuilder_a.java">
-      <node id="6747382324546319116" at="65,88,66,19" concept="13" />
+    <file name="TreeTest_EditorBuilder.java">
+      <node id="6747382324546319116" at="65,86,66,19" concept="13" />
       <node id="6747382324546319116" at="66,19,67,18" concept="2" />
       <node id="6747382324546319116" at="72,26,73,18" concept="8" />
       <node id="6747382324546319116" at="76,39,77,32" concept="8" />
@@ -7583,10 +7583,10 @@
       <node id="6747382324546319116" at="128,17,129,32" concept="8" />
       <node id="6747382324546319116" at="132,65,133,89" concept="7" />
       <node id="6747382324546319116" at="133,89,134,39" concept="8" />
-      <node id="2218603406781567970" at="142,58,143,28" concept="8" />
+      <node id="2218603406781567970" at="142,48,143,28" concept="8" />
       <node id="6747382324546319116" at="161,52,162,47" concept="7" />
-      <node id="6747382324546319116" at="162,47,163,60" concept="2" />
-      <node id="6747382324546319116" at="163,60,164,38" concept="8" />
+      <node id="6747382324546319116" at="162,47,163,50" concept="2" />
+      <node id="6747382324546319116" at="163,50,164,38" concept="8" />
       <node id="6747382324546319116" at="168,54,169,47" concept="7" />
       <node id="6747382324546319116" at="169,47,170,38" concept="8" />
       <node id="6747382324546319116" at="174,48,175,42" concept="7" />
@@ -7716,7 +7716,7 @@
       <node id="6747382324546319116" at="76,0,79,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6747382324546319122" at="122,104,125,17" concept="4" />
       <node id="6747382324546319123" at="125,17,128,17" concept="4" />
-      <node id="2218603406781566611" at="142,0,145,0" concept="6" trace="nodeCondition_7xqc9q_a2a#()Z" />
+      <node id="2218603406781566611" at="142,0,145,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="6747382324546319116" at="279,97,282,21" concept="5" />
       <node id="6747382324546319116" at="283,111,286,21" concept="5" />
       <node id="6747382324546319116" at="295,73,298,15" concept="5" />
@@ -7741,7 +7741,7 @@
       <node id="575226493388580687" at="393,0,396,0" concept="6" trace="_StyleParameter_QueryFunction_7xqc9q_a61c0#()D" />
       <node id="575226493388580697" at="396,0,399,0" concept="6" trace="_StyleParameter_QueryFunction_7xqc9q_a71c0#()Z" />
       <node id="575226493388580718" at="399,0,402,0" concept="6" trace="_StyleParameter_QueryFunction_7xqc9q_a81c0#()D" />
-      <node id="6747382324546319116" at="65,0,69,0" concept="1" trace="TreeTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6747382324546319116" at="65,0,69,0" concept="1" trace="TreeTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6747382324546319119" at="90,0,94,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6747382324546319116" at="325,91,329,15" concept="5" />
       <node id="6747382324546319116" at="70,0,75,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -7783,7 +7783,7 @@
       <scope id="6747382324546319116" at="76,39,77,32" />
       <scope id="6747382324546319122" at="123,108,124,64" />
       <scope id="6747382324546319123" at="126,108,127,64" />
-      <scope id="2218603406781566612" at="142,58,143,28" />
+      <scope id="2218603406781566612" at="142,48,143,28" />
       <scope id="6747382324546319116" at="212,21,213,96" />
       <scope id="6747382324546319116" at="214,40,215,27" />
       <scope id="6747382324546319116" at="268,56,269,81" />
@@ -7811,7 +7811,7 @@
       <scope id="575226493388580688" at="393,63,394,155" />
       <scope id="575226493388580698" at="396,64,397,125" />
       <scope id="575226493388580719" at="399,63,400,145" />
-      <scope id="6747382324546319116" at="65,88,67,18" />
+      <scope id="6747382324546319116" at="65,86,67,18" />
       <scope id="6747382324546319119" at="90,42,92,22">
         <var name="editorCell" id="6747382324546319119" />
       </scope>
@@ -7973,14 +7973,14 @@
         <var name="editorContext" id="6747382324546319116" />
         <var name="node" id="6747382324546319116" />
       </scope>
-      <unit id="6747382324546319116" at="403,0,410,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeTest_EditorBuilder_a$LINKS" />
-      <unit id="6747382324546319116" at="276,53,290,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeTest_EditorBuilder_a$2" />
-      <unit id="6747382324546319116" at="411,0,430,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeTest_EditorBuilder_a$PROPS" />
-      <unit id="6747382324546319116" at="120,44,261,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeTest_EditorBuilder_a$1" />
-      <unit id="6747382324546319116" at="61,0,431,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeTest_EditorBuilder_a" />
+      <unit id="6747382324546319116" at="403,0,410,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeTest_EditorBuilder$LINKS" />
+      <unit id="6747382324546319116" at="276,53,290,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeTest_EditorBuilder$2" />
+      <unit id="6747382324546319116" at="411,0,430,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeTest_EditorBuilder$PROPS" />
+      <unit id="6747382324546319116" at="120,44,261,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeTest_EditorBuilder$1" />
+      <unit id="6747382324546319116" at="61,0,431,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeTest_EditorBuilder" />
     </file>
-    <file name="TreeTest_InspectorBuilder_a.java">
-      <node id="6747382324546319116" at="16,91,17,19" concept="13" />
+    <file name="TreeTest_InspectorBuilder.java">
+      <node id="6747382324546319116" at="16,89,17,19" concept="13" />
       <node id="6747382324546319116" at="17,19,18,18" concept="2" />
       <node id="6747382324546319116" at="23,26,24,18" concept="8" />
       <node id="6747382324546319116" at="27,39,28,31" concept="8" />
@@ -7991,13 +7991,13 @@
       <node id="3662141892363189930" at="37,5,38,22" concept="8" />
       <node id="6747382324546319116" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="6747382324546319116" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6747382324546319116" at="16,0,20,0" concept="1" trace="TreeTest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6747382324546319116" at="16,0,20,0" concept="1" trace="TreeTest_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363189930" at="33,72,37,5" concept="5" />
       <node id="6747382324546319116" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363189930" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6747382324546319116" at="23,26,24,18" />
       <scope id="6747382324546319116" at="27,39,28,31" />
-      <scope id="6747382324546319116" at="16,91,18,18" />
+      <scope id="6747382324546319116" at="16,89,18,18" />
       <scope id="3662141892363189930" at="34,26,36,30" />
       <scope id="6747382324546319116" at="27,0,30,0" />
       <scope id="6747382324546319116" at="16,0,20,0">
@@ -8010,17 +8010,17 @@
         <var name="editorCell" id="3662141892363189930" />
       </scope>
       <scope id="3662141892363189930" at="31,0,40,0" />
-      <unit id="6747382324546319116" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeTest_InspectorBuilder_a" />
+      <unit id="6747382324546319116" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TreeTest_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/6747382324549521628">
     <file name="BoxTest_Editor.java">
-      <node id="6747382324549521628" at="11,79,12,73" concept="8" />
-      <node id="6747382324549521628" at="14,82,15,76" concept="8" />
+      <node id="6747382324549521628" at="11,79,12,71" concept="8" />
+      <node id="6747382324549521628" at="14,82,15,74" concept="8" />
       <node id="6747382324549521628" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6747382324549521628" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6747382324549521628" at="11,79,12,73" />
-      <scope id="6747382324549521628" at="14,82,15,76" />
+      <scope id="6747382324549521628" at="11,79,12,71" />
+      <scope id="6747382324549521628" at="14,82,15,74" />
       <scope id="6747382324549521628" at="11,0,14,0">
         <var name="editorContext" id="6747382324549521628" />
         <var name="node" id="6747382324549521628" />
@@ -8031,8 +8031,8 @@
       </scope>
       <unit id="6747382324549521628" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.BoxTest_Editor" />
     </file>
-    <file name="BoxTest_EditorBuilder_a.java">
-      <node id="6747382324549521628" at="65,87,66,19" concept="13" />
+    <file name="BoxTest_EditorBuilder.java">
+      <node id="6747382324549521628" at="65,85,66,19" concept="13" />
       <node id="6747382324549521628" at="66,19,67,18" concept="2" />
       <node id="6747382324549521628" at="72,26,73,18" concept="8" />
       <node id="6747382324549521628" at="76,39,77,32" concept="8" />
@@ -8069,10 +8069,10 @@
       <node id="6747382324549521628" at="128,17,129,32" concept="8" />
       <node id="6747382324549521628" at="132,65,133,89" concept="7" />
       <node id="6747382324549521628" at="133,89,134,39" concept="8" />
-      <node id="2218603406781520604" at="142,58,143,28" concept="8" />
+      <node id="2218603406781520604" at="142,48,143,28" concept="8" />
       <node id="6747382324549521628" at="161,52,162,47" concept="7" />
-      <node id="6747382324549521628" at="162,47,163,60" concept="2" />
-      <node id="6747382324549521628" at="163,60,164,38" concept="8" />
+      <node id="6747382324549521628" at="162,47,163,50" concept="2" />
+      <node id="6747382324549521628" at="163,50,164,38" concept="8" />
       <node id="6747382324549521628" at="168,54,169,47" concept="7" />
       <node id="6747382324549521628" at="169,47,170,38" concept="8" />
       <node id="6747382324549521628" at="174,48,175,42" concept="7" />
@@ -8171,7 +8171,7 @@
       <node id="6747382324549521628" at="76,0,79,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6747382324549521634" at="122,104,125,17" concept="4" />
       <node id="6747382324549521635" at="125,17,128,17" concept="4" />
-      <node id="2218603406781518904" at="142,0,145,0" concept="6" trace="nodeCondition_9u9j87_a2a#()Z" />
+      <node id="2218603406781518904" at="142,0,145,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="6747382324549521628" at="279,97,282,21" concept="5" />
       <node id="6747382324549521628" at="283,111,286,21" concept="5" />
       <node id="6747382324549521628" at="295,73,298,15" concept="5" />
@@ -8185,7 +8185,7 @@
       <node id="5878290447145635012" at="353,0,356,0" concept="6" trace="_StyleParameter_QueryFunction_9u9j87_a5c0#()Z" />
       <node id="5878290447145638963" at="356,0,359,0" concept="6" trace="_StyleParameter_QueryFunction_9u9j87_a6c0#()D" />
       <node id="5878290447145644117" at="359,0,362,0" concept="6" trace="_StyleParameter_QueryFunction_9u9j87_a7c0#()Lorg/eclipse/elk/core/math/ElkPadding;" />
-      <node id="6747382324549521628" at="65,0,69,0" concept="1" trace="BoxTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6747382324549521628" at="65,0,69,0" concept="1" trace="BoxTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6747382324549521631" at="90,0,94,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6747382324549521628" at="314,91,318,15" concept="5" />
       <node id="6747382324549521628" at="70,0,75,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -8228,7 +8228,7 @@
       <scope id="6747382324549521628" at="76,39,77,32" />
       <scope id="6747382324549521634" at="123,108,124,64" />
       <scope id="6747382324549521635" at="126,108,127,64" />
-      <scope id="2218603406781518905" at="142,58,143,28" />
+      <scope id="2218603406781518905" at="142,48,143,28" />
       <scope id="6747382324549521628" at="212,21,213,96" />
       <scope id="6747382324549521628" at="214,40,215,27" />
       <scope id="6747382324549521628" at="268,56,269,81" />
@@ -8245,7 +8245,7 @@
       <scope id="5878290447145635014" at="353,63,354,123" />
       <scope id="5878290447145638965" at="356,62,357,138" />
       <scope id="5878290447145644118" at="359,66,360,190" />
-      <scope id="6747382324549521628" at="65,87,67,18" />
+      <scope id="6747382324549521628" at="65,85,67,18" />
       <scope id="6747382324549521631" at="90,42,92,22">
         <var name="editorCell" id="6747382324549521631" />
       </scope>
@@ -8402,14 +8402,14 @@
         <var name="editorContext" id="6747382324549521628" />
         <var name="node" id="6747382324549521628" />
       </scope>
-      <unit id="6747382324549521628" at="372,0,379,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.BoxTest_EditorBuilder_a$PROPS" />
-      <unit id="6747382324549521628" at="363,0,371,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.BoxTest_EditorBuilder_a$LINKS" />
-      <unit id="6747382324549521628" at="276,53,290,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.BoxTest_EditorBuilder_a$2" />
-      <unit id="6747382324549521628" at="120,44,261,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.BoxTest_EditorBuilder_a$1" />
-      <unit id="6747382324549521628" at="61,0,380,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.BoxTest_EditorBuilder_a" />
+      <unit id="6747382324549521628" at="372,0,379,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.BoxTest_EditorBuilder$PROPS" />
+      <unit id="6747382324549521628" at="363,0,371,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.BoxTest_EditorBuilder$LINKS" />
+      <unit id="6747382324549521628" at="276,53,290,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.BoxTest_EditorBuilder$2" />
+      <unit id="6747382324549521628" at="120,44,261,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.BoxTest_EditorBuilder$1" />
+      <unit id="6747382324549521628" at="61,0,380,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.BoxTest_EditorBuilder" />
     </file>
-    <file name="BoxTest_InspectorBuilder_a.java">
-      <node id="6747382324549521628" at="16,90,17,19" concept="13" />
+    <file name="BoxTest_InspectorBuilder.java">
+      <node id="6747382324549521628" at="16,88,17,19" concept="13" />
       <node id="6747382324549521628" at="17,19,18,18" concept="2" />
       <node id="6747382324549521628" at="23,26,24,18" concept="8" />
       <node id="6747382324549521628" at="27,39,28,31" concept="8" />
@@ -8420,13 +8420,13 @@
       <node id="3662141892363166955" at="37,5,38,22" concept="8" />
       <node id="6747382324549521628" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="6747382324549521628" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6747382324549521628" at="16,0,20,0" concept="1" trace="BoxTest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6747382324549521628" at="16,0,20,0" concept="1" trace="BoxTest_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363166955" at="33,72,37,5" concept="5" />
       <node id="6747382324549521628" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363166955" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6747382324549521628" at="23,26,24,18" />
       <scope id="6747382324549521628" at="27,39,28,31" />
-      <scope id="6747382324549521628" at="16,90,18,18" />
+      <scope id="6747382324549521628" at="16,88,18,18" />
       <scope id="3662141892363166955" at="34,26,36,30" />
       <scope id="6747382324549521628" at="27,0,30,0" />
       <scope id="6747382324549521628" at="16,0,20,0">
@@ -8439,17 +8439,17 @@
         <var name="editorCell" id="3662141892363166955" />
       </scope>
       <scope id="3662141892363166955" at="31,0,40,0" />
-      <unit id="6747382324549521628" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.BoxTest_InspectorBuilder_a" />
+      <unit id="6747382324549521628" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.BoxTest_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/7599475316692606836">
     <file name="TopDownPackingTest_Editor.java">
-      <node id="7599475316692606836" at="11,79,12,84" concept="8" />
-      <node id="7599475316692606836" at="14,82,15,87" concept="8" />
+      <node id="7599475316692606836" at="11,79,12,82" concept="8" />
+      <node id="7599475316692606836" at="14,82,15,85" concept="8" />
       <node id="7599475316692606836" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7599475316692606836" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7599475316692606836" at="11,79,12,84" />
-      <scope id="7599475316692606836" at="14,82,15,87" />
+      <scope id="7599475316692606836" at="11,79,12,82" />
+      <scope id="7599475316692606836" at="14,82,15,85" />
       <scope id="7599475316692606836" at="11,0,14,0">
         <var name="editorContext" id="7599475316692606836" />
         <var name="node" id="7599475316692606836" />
@@ -8460,8 +8460,8 @@
       </scope>
       <unit id="7599475316692606836" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TopDownPackingTest_Editor" />
     </file>
-    <file name="TopDownPackingTest_EditorBuilder_a.java">
-      <node id="7599475316692606836" at="62,98,63,19" concept="13" />
+    <file name="TopDownPackingTest_EditorBuilder.java">
+      <node id="7599475316692606836" at="62,96,63,19" concept="13" />
       <node id="7599475316692606836" at="63,19,64,18" concept="2" />
       <node id="7599475316692606836" at="69,26,70,18" concept="8" />
       <node id="7599475316692606836" at="73,39,74,32" concept="8" />
@@ -8498,10 +8498,10 @@
       <node id="7599475316692606836" at="125,17,126,32" concept="8" />
       <node id="7599475316692606836" at="129,65,130,89" concept="7" />
       <node id="7599475316692606836" at="130,89,131,39" concept="8" />
-      <node id="2218603406781562845" at="139,58,140,28" concept="8" />
+      <node id="2218603406781562845" at="139,48,140,28" concept="8" />
       <node id="7599475316692606836" at="158,52,159,47" concept="7" />
-      <node id="7599475316692606836" at="159,47,160,60" concept="2" />
-      <node id="7599475316692606836" at="160,60,161,38" concept="8" />
+      <node id="7599475316692606836" at="159,47,160,50" concept="2" />
+      <node id="7599475316692606836" at="160,50,161,38" concept="8" />
       <node id="7599475316692606836" at="165,54,166,47" concept="7" />
       <node id="7599475316692606836" at="166,47,167,38" concept="8" />
       <node id="7599475316692606836" at="171,48,172,42" concept="7" />
@@ -8592,7 +8592,7 @@
       <node id="7599475316692606836" at="73,0,76,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7599475316692606842" at="119,104,122,17" concept="4" />
       <node id="7599475316692606843" at="122,17,125,17" concept="4" />
-      <node id="2218603406781562259" at="139,0,142,0" concept="6" trace="nodeCondition_d1f59g_a2a#()Z" />
+      <node id="2218603406781562259" at="139,0,142,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="7599475316692606836" at="276,97,279,21" concept="5" />
       <node id="7599475316692606836" at="280,111,283,21" concept="5" />
       <node id="7599475316692606836" at="292,73,295,15" concept="5" />
@@ -8604,7 +8604,7 @@
       <node id="3662141892376909735" at="338,0,341,0" concept="6" trace="_StyleParameter_QueryFunction_d1f59g_a3c0#()D" />
       <node id="3662141892376910198" at="341,0,344,0" concept="6" trace="_StyleParameter_QueryFunction_d1f59g_a4c0#()D" />
       <node id="3662141892376910615" at="344,0,347,0" concept="6" trace="_StyleParameter_QueryFunction_d1f59g_a5c0#()Z" />
-      <node id="7599475316692606836" at="62,0,66,0" concept="1" trace="TopDownPackingTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7599475316692606836" at="62,0,66,0" concept="1" trace="TopDownPackingTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7599475316692606839" at="87,0,91,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7599475316692606836" at="309,91,313,15" concept="5" />
       <node id="7599475316692606836" at="67,0,72,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -8646,7 +8646,7 @@
       <scope id="7599475316692606836" at="73,39,74,32" />
       <scope id="7599475316692606842" at="120,108,121,64" />
       <scope id="7599475316692606843" at="123,108,124,64" />
-      <scope id="2218603406781562260" at="139,58,140,28" />
+      <scope id="2218603406781562260" at="139,48,140,28" />
       <scope id="7599475316692606836" at="209,21,210,96" />
       <scope id="7599475316692606836" at="211,40,212,27" />
       <scope id="7599475316692606836" at="265,56,266,81" />
@@ -8661,7 +8661,7 @@
       <scope id="3662141892376909737" at="338,62,339,161" />
       <scope id="3662141892376910200" at="341,62,342,155" />
       <scope id="3662141892376910617" at="344,63,345,125" />
-      <scope id="7599475316692606836" at="62,98,64,18" />
+      <scope id="7599475316692606836" at="62,96,64,18" />
       <scope id="7599475316692606839" at="87,42,89,22">
         <var name="editorCell" id="7599475316692606839" />
       </scope>
@@ -8810,14 +8810,14 @@
         <var name="editorContext" id="7599475316692606836" />
         <var name="node" id="7599475316692606836" />
       </scope>
-      <unit id="7599475316692606836" at="348,0,354,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TopDownPackingTest_EditorBuilder_a$LINKS" />
-      <unit id="7599475316692606836" at="355,0,362,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TopDownPackingTest_EditorBuilder_a$PROPS" />
-      <unit id="7599475316692606836" at="273,53,287,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.TopDownPackingTest_EditorBuilder_a$2" />
-      <unit id="7599475316692606836" at="117,44,258,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.TopDownPackingTest_EditorBuilder_a$1" />
-      <unit id="7599475316692606836" at="58,0,363,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TopDownPackingTest_EditorBuilder_a" />
+      <unit id="7599475316692606836" at="348,0,354,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TopDownPackingTest_EditorBuilder$LINKS" />
+      <unit id="7599475316692606836" at="355,0,362,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TopDownPackingTest_EditorBuilder$PROPS" />
+      <unit id="7599475316692606836" at="273,53,287,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.TopDownPackingTest_EditorBuilder$2" />
+      <unit id="7599475316692606836" at="117,44,258,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.TopDownPackingTest_EditorBuilder$1" />
+      <unit id="7599475316692606836" at="58,0,363,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TopDownPackingTest_EditorBuilder" />
     </file>
-    <file name="TopDownPackingTest_InspectorBuilder_a.java">
-      <node id="7599475316692606836" at="16,101,17,19" concept="13" />
+    <file name="TopDownPackingTest_InspectorBuilder.java">
+      <node id="7599475316692606836" at="16,99,17,19" concept="13" />
       <node id="7599475316692606836" at="17,19,18,18" concept="2" />
       <node id="7599475316692606836" at="23,26,24,18" concept="8" />
       <node id="7599475316692606836" at="27,39,28,31" concept="8" />
@@ -8828,13 +8828,13 @@
       <node id="3662141892363189564" at="37,5,38,22" concept="8" />
       <node id="7599475316692606836" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="7599475316692606836" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="7599475316692606836" at="16,0,20,0" concept="1" trace="TopDownPackingTest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7599475316692606836" at="16,0,20,0" concept="1" trace="TopDownPackingTest_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363189564" at="33,72,37,5" concept="5" />
       <node id="7599475316692606836" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363189564" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="7599475316692606836" at="23,26,24,18" />
       <scope id="7599475316692606836" at="27,39,28,31" />
-      <scope id="7599475316692606836" at="16,101,18,18" />
+      <scope id="7599475316692606836" at="16,99,18,18" />
       <scope id="3662141892363189564" at="34,26,36,30" />
       <scope id="7599475316692606836" at="27,0,30,0" />
       <scope id="7599475316692606836" at="16,0,20,0">
@@ -8847,17 +8847,17 @@
         <var name="editorCell" id="3662141892363189564" />
       </scope>
       <scope id="3662141892363189564" at="31,0,40,0" />
-      <unit id="7599475316692606836" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TopDownPackingTest_InspectorBuilder_a" />
+      <unit id="7599475316692606836" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.TopDownPackingTest_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/8180566525129826204">
     <file name="DisconnectedGraphTest_Editor.java">
-      <node id="8180566525129826204" at="11,79,12,87" concept="8" />
-      <node id="8180566525129826204" at="14,82,15,90" concept="8" />
+      <node id="8180566525129826204" at="11,79,12,85" concept="8" />
+      <node id="8180566525129826204" at="14,82,15,88" concept="8" />
       <node id="8180566525129826204" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8180566525129826204" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8180566525129826204" at="11,79,12,87" />
-      <scope id="8180566525129826204" at="14,82,15,90" />
+      <scope id="8180566525129826204" at="11,79,12,85" />
+      <scope id="8180566525129826204" at="14,82,15,88" />
       <scope id="8180566525129826204" at="11,0,14,0">
         <var name="editorContext" id="8180566525129826204" />
         <var name="node" id="8180566525129826204" />
@@ -8868,8 +8868,8 @@
       </scope>
       <unit id="8180566525129826204" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.DisconnectedGraphTest_Editor" />
     </file>
-    <file name="DisconnectedGraphTest_EditorBuilder_a.java">
-      <node id="8180566525129826204" at="65,101,66,19" concept="13" />
+    <file name="DisconnectedGraphTest_EditorBuilder.java">
+      <node id="8180566525129826204" at="65,99,66,19" concept="13" />
       <node id="8180566525129826204" at="66,19,67,18" concept="2" />
       <node id="8180566525129826204" at="72,26,73,18" concept="8" />
       <node id="8180566525129826204" at="76,39,77,32" concept="8" />
@@ -8906,10 +8906,10 @@
       <node id="8180566525129826204" at="128,17,129,32" concept="8" />
       <node id="8180566525129826204" at="132,65,133,89" concept="7" />
       <node id="8180566525129826204" at="133,89,134,39" concept="8" />
-      <node id="2218603406781529067" at="142,58,143,28" concept="8" />
+      <node id="2218603406781529067" at="142,48,143,28" concept="8" />
       <node id="8180566525129826204" at="161,52,162,47" concept="7" />
-      <node id="8180566525129826204" at="162,47,163,60" concept="2" />
-      <node id="8180566525129826204" at="163,60,164,38" concept="8" />
+      <node id="8180566525129826204" at="162,47,163,50" concept="2" />
+      <node id="8180566525129826204" at="163,50,164,38" concept="8" />
       <node id="8180566525129826204" at="168,54,169,47" concept="7" />
       <node id="8180566525129826204" at="169,47,170,38" concept="8" />
       <node id="8180566525129826204" at="174,48,175,42" concept="7" />
@@ -9011,7 +9011,7 @@
       <node id="8180566525129826204" at="76,0,79,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8180566525129826210" at="122,104,125,17" concept="4" />
       <node id="8180566525129826211" at="125,17,128,17" concept="4" />
-      <node id="2218603406781524411" at="142,0,145,0" concept="6" trace="nodeCondition_tjhbmb_a2a#()Z" />
+      <node id="2218603406781524411" at="142,0,145,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="8180566525129826204" at="279,97,282,21" concept="5" />
       <node id="8180566525129826204" at="283,111,286,21" concept="5" />
       <node id="8180566525129826204" at="295,73,298,15" concept="5" />
@@ -9027,7 +9027,7 @@
       <node id="477607467901315929" at="359,0,362,0" concept="6" trace="_StyleParameter_QueryFunction_tjhbmb_a7c0#()Lorg/eclipse/elk/alg/common/compaction/options/LowLevelSortingCriterion;" />
       <node id="477607467901316657" at="362,0,365,0" concept="6" trace="_StyleParameter_QueryFunction_tjhbmb_a8c0#()Lorg/eclipse/elk/alg/common/compaction/options/TraversalStrategy;" />
       <node id="477607467901561734" at="365,0,368,0" concept="12" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
-      <node id="8180566525129826204" at="65,0,69,0" concept="1" trace="DisconnectedGraphTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8180566525129826204" at="65,0,69,0" concept="1" trace="DisconnectedGraphTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8180566525129826207" at="90,0,94,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8180566525129826204" at="315,91,319,15" concept="5" />
       <node id="8180566525129826204" at="70,0,75,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -9070,7 +9070,7 @@
       <scope id="8180566525129826204" at="76,39,77,32" />
       <scope id="8180566525129826210" at="123,108,124,64" />
       <scope id="8180566525129826211" at="126,108,127,64" />
-      <scope id="2218603406781524412" at="142,58,143,28" />
+      <scope id="2218603406781524412" at="142,48,143,28" />
       <scope id="8180566525129826204" at="212,21,213,96" />
       <scope id="8180566525129826204" at="214,40,215,27" />
       <scope id="8180566525129826204" at="268,56,269,81" />
@@ -9089,7 +9089,7 @@
       <scope id="477607467901315931" at="359,80,360,174" />
       <scope id="477607467901316659" at="362,73,363,172" />
       <scope id="477607467901561734" at="365,55,366,43" />
-      <scope id="8180566525129826204" at="65,101,67,18" />
+      <scope id="8180566525129826204" at="65,99,67,18" />
       <scope id="8180566525129826207" at="90,42,92,22">
         <var name="editorCell" id="8180566525129826207" />
       </scope>
@@ -9245,14 +9245,14 @@
         <var name="editorContext" id="8180566525129826204" />
         <var name="node" id="8180566525129826204" />
       </scope>
-      <unit id="8180566525129826204" at="369,0,375,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.DisconnectedGraphTest_EditorBuilder_a$LINKS" />
-      <unit id="8180566525129826204" at="376,0,386,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.DisconnectedGraphTest_EditorBuilder_a$PROPS" />
-      <unit id="8180566525129826204" at="276,53,290,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.DisconnectedGraphTest_EditorBuilder_a$2" />
-      <unit id="8180566525129826204" at="120,44,261,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.DisconnectedGraphTest_EditorBuilder_a$1" />
-      <unit id="8180566525129826204" at="61,0,387,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.DisconnectedGraphTest_EditorBuilder_a" />
+      <unit id="8180566525129826204" at="369,0,375,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.DisconnectedGraphTest_EditorBuilder$LINKS" />
+      <unit id="8180566525129826204" at="376,0,386,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.DisconnectedGraphTest_EditorBuilder$PROPS" />
+      <unit id="8180566525129826204" at="276,53,290,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.DisconnectedGraphTest_EditorBuilder$2" />
+      <unit id="8180566525129826204" at="120,44,261,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.DisconnectedGraphTest_EditorBuilder$1" />
+      <unit id="8180566525129826204" at="61,0,387,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.DisconnectedGraphTest_EditorBuilder" />
     </file>
-    <file name="DisconnectedGraphTest_InspectorBuilder_a.java">
-      <node id="8180566525129826204" at="16,104,17,19" concept="13" />
+    <file name="DisconnectedGraphTest_InspectorBuilder.java">
+      <node id="8180566525129826204" at="16,102,17,19" concept="13" />
       <node id="8180566525129826204" at="17,19,18,18" concept="2" />
       <node id="8180566525129826204" at="23,26,24,18" concept="8" />
       <node id="8180566525129826204" at="27,39,28,31" concept="8" />
@@ -9263,13 +9263,13 @@
       <node id="3662141892363171745" at="37,5,38,22" concept="8" />
       <node id="8180566525129826204" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="8180566525129826204" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8180566525129826204" at="16,0,20,0" concept="1" trace="DisconnectedGraphTest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8180566525129826204" at="16,0,20,0" concept="1" trace="DisconnectedGraphTest_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363171745" at="33,72,37,5" concept="5" />
       <node id="8180566525129826204" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363171745" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="8180566525129826204" at="23,26,24,18" />
       <scope id="8180566525129826204" at="27,39,28,31" />
-      <scope id="8180566525129826204" at="16,104,18,18" />
+      <scope id="8180566525129826204" at="16,102,18,18" />
       <scope id="3662141892363171745" at="34,26,36,30" />
       <scope id="8180566525129826204" at="27,0,30,0" />
       <scope id="8180566525129826204" at="16,0,20,0">
@@ -9282,17 +9282,17 @@
         <var name="editorCell" id="3662141892363171745" />
       </scope>
       <scope id="3662141892363171745" at="31,0,40,0" />
-      <unit id="8180566525129826204" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.DisconnectedGraphTest_InspectorBuilder_a" />
+      <unit id="8180566525129826204" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.DisconnectedGraphTest_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/8180566525131991233">
     <file name="FixedTest_Editor.java">
-      <node id="8180566525131991233" at="11,79,12,75" concept="8" />
-      <node id="8180566525131991233" at="14,82,15,78" concept="8" />
+      <node id="8180566525131991233" at="11,79,12,73" concept="8" />
+      <node id="8180566525131991233" at="14,82,15,76" concept="8" />
       <node id="8180566525131991233" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8180566525131991233" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8180566525131991233" at="11,79,12,75" />
-      <scope id="8180566525131991233" at="14,82,15,78" />
+      <scope id="8180566525131991233" at="11,79,12,73" />
+      <scope id="8180566525131991233" at="14,82,15,76" />
       <scope id="8180566525131991233" at="11,0,14,0">
         <var name="editorContext" id="8180566525131991233" />
         <var name="node" id="8180566525131991233" />
@@ -9303,8 +9303,8 @@
       </scope>
       <unit id="8180566525131991233" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.FixedTest_Editor" />
     </file>
-    <file name="FixedTest_EditorBuilder_a.java">
-      <node id="8180566525131991233" at="61,89,62,19" concept="13" />
+    <file name="FixedTest_EditorBuilder.java">
+      <node id="8180566525131991233" at="61,87,62,19" concept="13" />
       <node id="8180566525131991233" at="62,19,63,18" concept="2" />
       <node id="8180566525131991233" at="68,26,69,18" concept="8" />
       <node id="8180566525131991233" at="72,39,73,32" concept="8" />
@@ -9341,10 +9341,10 @@
       <node id="8180566525131991233" at="124,17,125,32" concept="8" />
       <node id="8180566525131991233" at="128,65,129,89" concept="7" />
       <node id="8180566525131991233" at="129,89,130,39" concept="8" />
-      <node id="2218603406781530104" at="138,58,139,28" concept="8" />
+      <node id="2218603406781530104" at="138,48,139,28" concept="8" />
       <node id="8180566525131991233" at="157,52,158,47" concept="7" />
-      <node id="8180566525131991233" at="158,47,159,60" concept="2" />
-      <node id="8180566525131991233" at="159,60,160,38" concept="8" />
+      <node id="8180566525131991233" at="158,47,159,50" concept="2" />
+      <node id="8180566525131991233" at="159,50,160,38" concept="8" />
       <node id="8180566525131991233" at="164,54,165,47" concept="7" />
       <node id="8180566525131991233" at="165,47,166,38" concept="8" />
       <node id="8180566525131991233" at="170,48,171,42" concept="7" />
@@ -9423,7 +9423,7 @@
       <node id="8180566525131991233" at="72,0,75,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8180566525131991239" at="118,104,121,17" concept="4" />
       <node id="8180566525131991240" at="121,17,124,17" concept="4" />
-      <node id="2218603406781530030" at="138,0,141,0" concept="6" trace="nodeCondition_j37yer_a2a#()Z" />
+      <node id="2218603406781530030" at="138,0,141,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="8180566525131991233" at="275,97,278,21" concept="5" />
       <node id="8180566525131991233" at="279,111,282,21" concept="5" />
       <node id="8180566525131991233" at="291,73,294,15" concept="5" />
@@ -9431,7 +9431,7 @@
       <node id="8180566525131991233" at="321,0,324,0" concept="6" trace="createDiagram_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="477607467907813372" at="324,0,327,0" concept="6" trace="_StyleParameter_QueryFunction_j37yer_a0c0#()Z" />
       <node id="477607467907818989" at="327,0,330,0" concept="6" trace="_StyleParameter_QueryFunction_j37yer_a1c0#()Lorg/eclipse/elk/core/math/ElkPadding;" />
-      <node id="8180566525131991233" at="61,0,65,0" concept="1" trace="FixedTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8180566525131991233" at="61,0,65,0" concept="1" trace="FixedTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8180566525131991236" at="86,0,90,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8180566525131991233" at="304,91,308,15" concept="5" />
       <node id="8180566525131991233" at="66,0,71,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -9473,7 +9473,7 @@
       <scope id="8180566525131991233" at="72,39,73,32" />
       <scope id="8180566525131991239" at="119,108,120,64" />
       <scope id="8180566525131991240" at="122,108,123,64" />
-      <scope id="2218603406781530031" at="138,58,139,28" />
+      <scope id="2218603406781530031" at="138,48,139,28" />
       <scope id="8180566525131991233" at="208,21,209,96" />
       <scope id="8180566525131991233" at="210,40,211,27" />
       <scope id="8180566525131991233" at="264,56,265,81" />
@@ -9484,7 +9484,7 @@
       <scope id="8180566525131991233" at="321,40,322,58" />
       <scope id="477607467907813373" at="324,63,325,126" />
       <scope id="477607467907818991" at="327,66,328,190" />
-      <scope id="8180566525131991233" at="61,89,63,18" />
+      <scope id="8180566525131991233" at="61,87,63,18" />
       <scope id="8180566525131991236" at="86,42,88,22">
         <var name="editorCell" id="8180566525131991236" />
       </scope>
@@ -9629,14 +9629,14 @@
         <var name="editorContext" id="8180566525131991233" />
         <var name="node" id="8180566525131991233" />
       </scope>
-      <unit id="8180566525131991233" at="338,0,341,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.FixedTest_EditorBuilder_a$PROPS" />
-      <unit id="8180566525131991233" at="331,0,337,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.FixedTest_EditorBuilder_a$LINKS" />
-      <unit id="8180566525131991233" at="272,53,286,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.FixedTest_EditorBuilder_a$2" />
-      <unit id="8180566525131991233" at="116,44,257,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.FixedTest_EditorBuilder_a$1" />
-      <unit id="8180566525131991233" at="57,0,342,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.FixedTest_EditorBuilder_a" />
+      <unit id="8180566525131991233" at="338,0,341,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.FixedTest_EditorBuilder$PROPS" />
+      <unit id="8180566525131991233" at="331,0,337,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.FixedTest_EditorBuilder$LINKS" />
+      <unit id="8180566525131991233" at="272,53,286,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.FixedTest_EditorBuilder$2" />
+      <unit id="8180566525131991233" at="116,44,257,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.FixedTest_EditorBuilder$1" />
+      <unit id="8180566525131991233" at="57,0,342,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.FixedTest_EditorBuilder" />
     </file>
-    <file name="FixedTest_InspectorBuilder_a.java">
-      <node id="8180566525131991233" at="16,92,17,19" concept="13" />
+    <file name="FixedTest_InspectorBuilder.java">
+      <node id="8180566525131991233" at="16,90,17,19" concept="13" />
       <node id="8180566525131991233" at="17,19,18,18" concept="2" />
       <node id="8180566525131991233" at="23,26,24,18" concept="8" />
       <node id="8180566525131991233" at="27,39,28,31" concept="8" />
@@ -9647,13 +9647,13 @@
       <node id="3662141892363173206" at="37,5,38,22" concept="8" />
       <node id="8180566525131991233" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="8180566525131991233" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8180566525131991233" at="16,0,20,0" concept="1" trace="FixedTest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8180566525131991233" at="16,0,20,0" concept="1" trace="FixedTest_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363173206" at="33,72,37,5" concept="5" />
       <node id="8180566525131991233" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363173206" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="8180566525131991233" at="23,26,24,18" />
       <scope id="8180566525131991233" at="27,39,28,31" />
-      <scope id="8180566525131991233" at="16,92,18,18" />
+      <scope id="8180566525131991233" at="16,90,18,18" />
       <scope id="3662141892363173206" at="34,26,36,30" />
       <scope id="8180566525131991233" at="27,0,30,0" />
       <scope id="8180566525131991233" at="16,0,20,0">
@@ -9666,17 +9666,17 @@
         <var name="editorCell" id="3662141892363173206" />
       </scope>
       <scope id="3662141892363173206" at="31,0,40,0" />
-      <unit id="8180566525131991233" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.FixedTest_InspectorBuilder_a" />
+      <unit id="8180566525131991233" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.FixedTest_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:37620960-62b9-4f89-b6a6-51b609691f93(de.itemis.mps.editor.diagram.demo.elk.editor)/8180566525132982052">
     <file name="RandomTest_Editor.java">
-      <node id="8180566525132982052" at="11,79,12,76" concept="8" />
-      <node id="8180566525132982052" at="14,82,15,79" concept="8" />
+      <node id="8180566525132982052" at="11,79,12,74" concept="8" />
+      <node id="8180566525132982052" at="14,82,15,77" concept="8" />
       <node id="8180566525132982052" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8180566525132982052" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8180566525132982052" at="11,79,12,76" />
-      <scope id="8180566525132982052" at="14,82,15,79" />
+      <scope id="8180566525132982052" at="11,79,12,74" />
+      <scope id="8180566525132982052" at="14,82,15,77" />
       <scope id="8180566525132982052" at="11,0,14,0">
         <var name="editorContext" id="8180566525132982052" />
         <var name="node" id="8180566525132982052" />
@@ -9687,8 +9687,8 @@
       </scope>
       <unit id="8180566525132982052" at="10,0,18,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RandomTest_Editor" />
     </file>
-    <file name="RandomTest_EditorBuilder_a.java">
-      <node id="8180566525132982052" at="61,90,62,19" concept="13" />
+    <file name="RandomTest_EditorBuilder.java">
+      <node id="8180566525132982052" at="61,88,62,19" concept="13" />
       <node id="8180566525132982052" at="62,19,63,18" concept="2" />
       <node id="8180566525132982052" at="68,26,69,18" concept="8" />
       <node id="8180566525132982052" at="72,39,73,32" concept="8" />
@@ -9725,10 +9725,10 @@
       <node id="8180566525132982052" at="124,17,125,32" concept="8" />
       <node id="8180566525132982052" at="128,65,129,89" concept="7" />
       <node id="8180566525132982052" at="129,89,130,39" concept="8" />
-      <node id="2218603406781543080" at="138,58,139,28" concept="8" />
+      <node id="2218603406781543080" at="138,48,139,28" concept="8" />
       <node id="8180566525132982052" at="157,52,158,47" concept="7" />
-      <node id="8180566525132982052" at="158,47,159,60" concept="2" />
-      <node id="8180566525132982052" at="159,60,160,38" concept="8" />
+      <node id="8180566525132982052" at="158,47,159,50" concept="2" />
+      <node id="8180566525132982052" at="159,50,160,38" concept="8" />
       <node id="8180566525132982052" at="164,54,165,47" concept="7" />
       <node id="8180566525132982052" at="165,47,166,38" concept="8" />
       <node id="8180566525132982052" at="170,48,171,42" concept="7" />
@@ -9813,7 +9813,7 @@
       <node id="8180566525132982052" at="72,0,75,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8180566525132982058" at="118,104,121,17" concept="4" />
       <node id="8180566525132982059" at="121,17,124,17" concept="4" />
-      <node id="2218603406781543006" at="138,0,141,0" concept="6" trace="nodeCondition_umc3uj_a2a#()Z" />
+      <node id="2218603406781543006" at="138,0,141,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="8180566525132982052" at="275,97,278,21" concept="5" />
       <node id="8180566525132982052" at="279,111,282,21" concept="5" />
       <node id="8180566525132982052" at="291,73,294,15" concept="5" />
@@ -9823,7 +9823,7 @@
       <node id="477607467891761341" at="329,0,332,0" concept="6" trace="_StyleParameter_QueryFunction_umc3uj_a1c0#()D" />
       <node id="477607467891763204" at="332,0,335,0" concept="6" trace="_StyleParameter_QueryFunction_umc3uj_a2c0#()Lorg/eclipse/elk/core/math/ElkPadding;" />
       <node id="477607467891768653" at="335,0,338,0" concept="6" trace="_StyleParameter_QueryFunction_umc3uj_a3c0#()Ljava/lang/Integer;" />
-      <node id="8180566525132982052" at="61,0,65,0" concept="1" trace="RandomTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8180566525132982052" at="61,0,65,0" concept="1" trace="RandomTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8180566525132982055" at="86,0,90,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8180566525132982052" at="306,91,310,15" concept="5" />
       <node id="8180566525132982052" at="66,0,71,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -9865,7 +9865,7 @@
       <scope id="8180566525132982052" at="72,39,73,32" />
       <scope id="8180566525132982058" at="119,108,120,64" />
       <scope id="8180566525132982059" at="122,108,123,64" />
-      <scope id="2218603406781543007" at="138,58,139,28" />
+      <scope id="2218603406781543007" at="138,48,139,28" />
       <scope id="8180566525132982052" at="208,21,209,96" />
       <scope id="8180566525132982052" at="210,40,211,27" />
       <scope id="8180566525132982052" at="264,56,265,81" />
@@ -9878,7 +9878,7 @@
       <scope id="477607467891761343" at="329,62,330,138" />
       <scope id="477607467891763206" at="332,66,333,190" />
       <scope id="477607467891768655" at="335,63,336,129" />
-      <scope id="8180566525132982052" at="61,90,63,18" />
+      <scope id="8180566525132982052" at="61,88,63,18" />
       <scope id="8180566525132982055" at="86,42,88,22">
         <var name="editorCell" id="8180566525132982055" />
       </scope>
@@ -10025,14 +10025,14 @@
         <var name="editorContext" id="8180566525132982052" />
         <var name="node" id="8180566525132982052" />
       </scope>
-      <unit id="8180566525132982052" at="346,0,351,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RandomTest_EditorBuilder_a$PROPS" />
-      <unit id="8180566525132982052" at="339,0,345,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RandomTest_EditorBuilder_a$LINKS" />
-      <unit id="8180566525132982052" at="272,53,286,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.RandomTest_EditorBuilder_a$2" />
-      <unit id="8180566525132982052" at="116,44,257,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.RandomTest_EditorBuilder_a$1" />
-      <unit id="8180566525132982052" at="57,0,352,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RandomTest_EditorBuilder_a" />
+      <unit id="8180566525132982052" at="346,0,351,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RandomTest_EditorBuilder$PROPS" />
+      <unit id="8180566525132982052" at="339,0,345,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RandomTest_EditorBuilder$LINKS" />
+      <unit id="8180566525132982052" at="272,53,286,17" name="de.itemis.mps.editor.diagram.demo.elk.editor.RandomTest_EditorBuilder$2" />
+      <unit id="8180566525132982052" at="116,44,257,13" name="de.itemis.mps.editor.diagram.demo.elk.editor.RandomTest_EditorBuilder$1" />
+      <unit id="8180566525132982052" at="57,0,352,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RandomTest_EditorBuilder" />
     </file>
-    <file name="RandomTest_InspectorBuilder_a.java">
-      <node id="8180566525132982052" at="16,93,17,19" concept="13" />
+    <file name="RandomTest_InspectorBuilder.java">
+      <node id="8180566525132982052" at="16,91,17,19" concept="13" />
       <node id="8180566525132982052" at="17,19,18,18" concept="2" />
       <node id="8180566525132982052" at="23,26,24,18" concept="8" />
       <node id="8180566525132982052" at="27,39,28,31" concept="8" />
@@ -10043,13 +10043,13 @@
       <node id="3662141892363180351" at="37,5,38,22" concept="8" />
       <node id="8180566525132982052" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="8180566525132982052" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8180566525132982052" at="16,0,20,0" concept="1" trace="RandomTest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8180566525132982052" at="16,0,20,0" concept="1" trace="RandomTest_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3662141892363180351" at="33,72,37,5" concept="5" />
       <node id="8180566525132982052" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3662141892363180351" at="31,0,40,0" concept="6" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="8180566525132982052" at="23,26,24,18" />
       <scope id="8180566525132982052" at="27,39,28,31" />
-      <scope id="8180566525132982052" at="16,93,18,18" />
+      <scope id="8180566525132982052" at="16,91,18,18" />
       <scope id="3662141892363180351" at="34,26,36,30" />
       <scope id="8180566525132982052" at="27,0,30,0" />
       <scope id="8180566525132982052" at="16,0,20,0">
@@ -10062,7 +10062,7 @@
         <var name="editorCell" id="3662141892363180351" />
       </scope>
       <scope id="3662141892363180351" at="31,0,40,0" />
-      <unit id="8180566525132982052" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RandomTest_InspectorBuilder_a" />
+      <unit id="8180566525132982052" at="12,0,41,0" name="de.itemis.mps.editor.diagram.demo.elk.editor.RandomTest_InspectorBuilder" />
     </file>
   </root>
 </debug-info>

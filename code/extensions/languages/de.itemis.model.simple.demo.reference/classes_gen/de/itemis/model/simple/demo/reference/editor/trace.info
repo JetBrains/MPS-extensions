@@ -25,17 +25,17 @@
   </root>
   <root nodeRef="r:5fe8c692-ca5f-478a-97f8-738b577e7714(de.itemis.model.simple.demo.reference.editor)/3912520324585634340">
     <file name="ConceptWithRef_Editor.java">
-      <node id="3912520324585634340" at="11,79,12,80" concept="6" />
+      <node id="3912520324585634340" at="11,79,12,78" concept="6" />
       <node id="3912520324585634340" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3912520324585634340" at="11,79,12,80" />
+      <scope id="3912520324585634340" at="11,79,12,78" />
       <scope id="3912520324585634340" at="11,0,14,0">
         <var name="editorContext" id="3912520324585634340" />
         <var name="node" id="3912520324585634340" />
       </scope>
       <unit id="3912520324585634340" at="10,0,15,0" name="de.itemis.model.simple.demo.reference.editor.ConceptWithRef_Editor" />
     </file>
-    <file name="ConceptWithRef_EditorBuilder_a.java">
-      <node id="3912520324585634340" at="45,94,46,19" concept="9" />
+    <file name="ConceptWithRef_EditorBuilder.java">
+      <node id="3912520324585634340" at="45,92,46,19" concept="9" />
       <node id="3912520324585634340" at="46,19,47,18" concept="1" />
       <node id="3912520324585634340" at="52,26,53,18" concept="6" />
       <node id="3912520324585634340" at="56,39,57,32" concept="6" />
@@ -132,7 +132,7 @@
       <node id="4728270771317653099" at="155,0,157,0" concept="2" trace="myNode" />
       <node id="3912520324585634340" at="56,0,59,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4728270771317653099" at="165,0,168,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3912520324585634340" at="45,0,49,0" concept="0" trace="ConceptWithRef_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3912520324585634340" at="45,0,49,0" concept="0" trace="ConceptWithRef_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3912520324585634340" at="140,0,144,5" concept="3" />
       <node id="3912520324585634340" at="50,0,55,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="4728270771321133476" at="96,208,101,24" concept="3" />
@@ -159,7 +159,7 @@
       <scope id="4728270771317653099" at="165,41,166,32" />
       <scope id="4728270771317653099" at="171,28,172,20" />
       <scope id="4728270771317653107" at="192,17,193,42" />
-      <scope id="3912520324585634340" at="45,94,47,18" />
+      <scope id="3912520324585634340" at="45,92,47,18" />
       <scope id="4728270771321133476" at="97,74,99,145">
         <var name="manager" id="4728270771321133476" />
       </scope>
@@ -241,12 +241,12 @@
         <var name="referenceLink" id="3912520324585634340" />
       </scope>
       <scope id="3912520324585634340" at="119,0,154,0" />
-      <unit id="3912520324585634340" at="208,0,211,0" name="de.itemis.model.simple.demo.reference.editor.ConceptWithRef_EditorBuilder_a$LINKS" />
-      <unit id="3912520324585634340" at="198,0,202,0" name="de.itemis.model.simple.demo.reference.editor.ConceptWithRef_EditorBuilder_a$PROPS" />
-      <unit id="3912520324585634340" at="203,0,207,0" name="de.itemis.model.simple.demo.reference.editor.ConceptWithRef_EditorBuilder_a$CONCEPTS" />
-      <unit id="3912520324585634340" at="121,42,136,5" name="de.itemis.model.simple.demo.reference.editor.ConceptWithRef_EditorBuilder_a$1" />
-      <unit id="4728270771317653099" at="154,0,197,0" name="de.itemis.model.simple.demo.reference.editor.ConceptWithRef_EditorBuilder_a$Inline_Builder0" />
-      <unit id="3912520324585634340" at="41,0,212,0" name="de.itemis.model.simple.demo.reference.editor.ConceptWithRef_EditorBuilder_a" />
+      <unit id="3912520324585634340" at="208,0,211,0" name="de.itemis.model.simple.demo.reference.editor.ConceptWithRef_EditorBuilder$LINKS" />
+      <unit id="3912520324585634340" at="198,0,202,0" name="de.itemis.model.simple.demo.reference.editor.ConceptWithRef_EditorBuilder$PROPS" />
+      <unit id="3912520324585634340" at="203,0,207,0" name="de.itemis.model.simple.demo.reference.editor.ConceptWithRef_EditorBuilder$CONCEPTS" />
+      <unit id="3912520324585634340" at="121,42,136,5" name="de.itemis.model.simple.demo.reference.editor.ConceptWithRef_EditorBuilder$1" />
+      <unit id="4728270771317653099" at="154,0,197,0" name="de.itemis.model.simple.demo.reference.editor.ConceptWithRef_EditorBuilder$Inline_Builder0" />
+      <unit id="3912520324585634340" at="41,0,212,0" name="de.itemis.model.simple.demo.reference.editor.ConceptWithRef_EditorBuilder" />
     </file>
   </root>
 </debug-info>

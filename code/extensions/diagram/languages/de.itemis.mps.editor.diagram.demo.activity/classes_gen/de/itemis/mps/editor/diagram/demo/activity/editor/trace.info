@@ -32,17 +32,17 @@
   </root>
   <root nodeRef="r:bf442e83-0d50-4922-a5b0-c399017f39b0(de.itemis.mps.editor.diagram.demo.activity.editor)/5383048119166641901">
     <file name="BranchStatement_Editor.java">
-      <node id="5383048119166641901" at="11,79,12,81" concept="9" />
+      <node id="5383048119166641901" at="11,79,12,79" concept="9" />
       <node id="5383048119166641901" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5383048119166641901" at="11,79,12,81" />
+      <scope id="5383048119166641901" at="11,79,12,79" />
       <scope id="5383048119166641901" at="11,0,14,0">
         <var name="editorContext" id="5383048119166641901" />
         <var name="node" id="5383048119166641901" />
       </scope>
       <unit id="5383048119166641901" at="10,0,15,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_Editor" />
     </file>
-    <file name="BranchStatement_EditorBuilder_a.java">
-      <node id="5383048119166641901" at="35,95,36,19" concept="13" />
+    <file name="BranchStatement_EditorBuilder.java">
+      <node id="5383048119166641901" at="35,93,36,19" concept="13" />
       <node id="5383048119166641901" at="36,19,37,18" concept="2" />
       <node id="5383048119166641901" at="42,26,43,18" concept="9" />
       <node id="5383048119166641901" at="46,39,47,32" concept="9" />
@@ -122,7 +122,7 @@
       <node id="5383048119166641901" at="46,0,49,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5383048119166641901" at="99,0,102,0" concept="7" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="5383048119166641901" at="102,0,105,0" concept="7" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="5383048119166641901" at="35,0,39,0" concept="1" trace="BranchStatement_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5383048119166641901" at="35,0,39,0" concept="1" trace="BranchStatement_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5383048119166641901" at="90,0,94,0" concept="1" trace="branchesListHandler_f6i9sv_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5383048119166641901" at="95,0,99,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5383048119166641901" at="128,97,132,9" concept="6" />
@@ -150,7 +150,7 @@
       <scope id="5383048119166641901" at="99,40,100,33" />
       <scope id="5383048119166641901" at="102,48,103,39" />
       <scope id="5383048119166641901" at="120,17,121,42" />
-      <scope id="5383048119166641901" at="35,95,37,18" />
+      <scope id="5383048119166641901" at="35,93,37,18" />
       <scope id="5383048119166641901" at="90,82,92,25" />
       <scope id="5383048119166641901" at="129,122,131,146" />
       <scope id="5383048119166641901" at="135,34,137,142" />
@@ -222,21 +222,21 @@
         <var name="elementNode" id="5383048119166641901" />
         <var name="isEmptyCell" id="5383048119166641901" />
       </scope>
-      <unit id="5383048119166641901" at="176,0,179,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_EditorBuilder_a$LINKS" />
-      <unit id="5383048119166641901" at="180,0,183,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_EditorBuilder_a$CONCEPTS" />
-      <unit id="5383048119166641901" at="86,0,166,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_EditorBuilder_a$branchesListHandler_f6i9sv_c0" />
-      <unit id="5383048119166641901" at="31,0,184,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_EditorBuilder_a" />
+      <unit id="5383048119166641901" at="176,0,179,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_EditorBuilder$LINKS" />
+      <unit id="5383048119166641901" at="180,0,183,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_EditorBuilder$CONCEPTS" />
+      <unit id="5383048119166641901" at="86,0,166,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_EditorBuilder$branchesListHandler_f6i9sv_c0" />
+      <unit id="5383048119166641901" at="31,0,184,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:bf442e83-0d50-4922-a5b0-c399017f39b0(de.itemis.mps.editor.diagram.demo.activity.editor)/5383048119166848245">
     <file name="BranchStatement_ActivityAsDiagram_Editor.java">
       <node id="5383048119166848245" at="14,0,15,0" concept="3" trace="myContextHints" />
       <node id="5383048119166848245" at="17,47,18,26" concept="9" />
-      <node id="5383048119166848245" at="20,79,21,99" concept="9" />
+      <node id="5383048119166848245" at="20,79,21,97" concept="9" />
       <node id="5383048119166848245" at="20,0,23,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5383048119166848245" at="15,0,20,0" concept="7" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="5383048119166848245" at="17,47,18,26" />
-      <scope id="5383048119166848245" at="20,79,21,99" />
+      <scope id="5383048119166848245" at="20,79,21,97" />
       <scope id="5383048119166848245" at="20,0,23,0">
         <var name="editorContext" id="5383048119166848245" />
         <var name="node" id="5383048119166848245" />
@@ -244,8 +244,8 @@
       <scope id="5383048119166848245" at="15,0,20,0" />
       <unit id="5383048119166848245" at="13,0,24,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_Editor" />
     </file>
-    <file name="BranchStatement_ActivityAsDiagram_EditorBuilder_a.java">
-      <node id="5383048119166848245" at="53,113,54,19" concept="13" />
+    <file name="BranchStatement_ActivityAsDiagram_EditorBuilder.java">
+      <node id="5383048119166848245" at="53,111,54,19" concept="13" />
       <node id="5383048119166848245" at="54,19,55,18" concept="2" />
       <node id="5383048119166848245" at="60,26,61,18" concept="9" />
       <node id="5383048119166848245" at="64,39,65,36" concept="9" />
@@ -431,7 +431,7 @@
       <node id="1122727885938272252" at="419,0,422,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1122727885938275441" at="445,0,448,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1122727885938276857" at="471,0,474,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5383048119166848245" at="53,0,57,0" concept="1" trace="BranchStatement_ActivityAsDiagram_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5383048119166848245" at="53,0,57,0" concept="1" trace="BranchStatement_ActivityAsDiagram_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5383048119166853137" at="99,0,103,0" concept="7" trace="getSNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5383048119166853137" at="115,0,119,0" concept="7" trace="getShape#()Lde/itemis/mps/editor/diagram/runtime/shape/IShape;" />
       <node id="5383048119166853137" at="121,74,125,17" concept="6" />
@@ -561,7 +561,7 @@
       <scope id="1122727885938275441" at="451,28,452,20" />
       <scope id="1122727885938276857" at="471,41,472,32" />
       <scope id="1122727885938276857" at="477,28,478,20" />
-      <scope id="5383048119166848245" at="53,113,55,18" />
+      <scope id="5383048119166848245" at="53,111,55,18" />
       <scope id="5383048119166853137" at="103,0,105,0" />
       <scope id="5383048119166853137" at="122,40,124,80">
         <var name="layouter" id="5383048119166853137" />
@@ -791,28 +791,28 @@
         <var name="editorContext" id="5383048119166848245" />
         <var name="node" id="5383048119166848245" />
       </scope>
-      <unit id="5383048119166872778" at="77,51,81,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$1" />
-      <unit id="5383048119166853137" at="84,50,88,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$3" />
-      <unit id="5383048119167002638" at="135,228,139,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$5$1" />
-      <unit id="5383048119167032541" at="210,49,214,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$7" />
-      <unit id="5383048119167097907" at="282,49,286,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$9" />
-      <unit id="5383048119166848245" at="489,0,493,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$LINKS" />
-      <unit id="5383048119166916163" at="131,67,142,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$5" />
-      <unit id="5383048119166848245" at="358,29,372,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$2" />
-      <unit id="5383048119166853137" at="98,51,119,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$2$1" />
-      <unit id="5383048119166853138" at="384,0,410,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$Inline_Builder_1gbh46_a1a" />
-      <unit id="1122727885938272252" at="410,0,436,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$Inline_Builder_1gbh46_a2a" />
-      <unit id="1122727885938275441" at="436,0,462,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$Inline_Builder_1gbh46_a3a" />
-      <unit id="1122727885938276857" at="462,0,488,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$Inline_Builder_1gbh46_a4a" />
-      <unit id="5383048119166853137" at="89,107,129,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$2" />
-      <unit id="5383048119166916163" at="156,52,197,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$4$1" />
-      <unit id="5383048119167032541" at="228,52,269,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$6$1" />
-      <unit id="5383048119167097907" at="300,52,341,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$8$1" />
-      <unit id="5383048119166916163" at="143,107,208,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$4" />
-      <unit id="5383048119167032541" at="215,107,280,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$6" />
-      <unit id="5383048119167097907" at="287,107,352,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1$8" />
-      <unit id="5383048119166848245" at="74,31,356,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a$1" />
-      <unit id="5383048119166848245" at="49,0,494,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder_a" />
+      <unit id="5383048119166872778" at="77,51,81,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$1" />
+      <unit id="5383048119166853137" at="84,50,88,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$3" />
+      <unit id="5383048119167002638" at="135,228,139,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$5$1" />
+      <unit id="5383048119167032541" at="210,49,214,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$7" />
+      <unit id="5383048119167097907" at="282,49,286,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$9" />
+      <unit id="5383048119166848245" at="489,0,493,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$LINKS" />
+      <unit id="5383048119166916163" at="131,67,142,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$5" />
+      <unit id="5383048119166848245" at="358,29,372,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$2" />
+      <unit id="5383048119166853137" at="98,51,119,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$2$1" />
+      <unit id="5383048119166853138" at="384,0,410,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$Inline_Builder_1gbh46_a1a" />
+      <unit id="1122727885938272252" at="410,0,436,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$Inline_Builder_1gbh46_a2a" />
+      <unit id="1122727885938275441" at="436,0,462,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$Inline_Builder_1gbh46_a3a" />
+      <unit id="1122727885938276857" at="462,0,488,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$Inline_Builder_1gbh46_a4a" />
+      <unit id="5383048119166853137" at="89,107,129,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$2" />
+      <unit id="5383048119166916163" at="156,52,197,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$4$1" />
+      <unit id="5383048119167032541" at="228,52,269,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$6$1" />
+      <unit id="5383048119167097907" at="300,52,341,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$8$1" />
+      <unit id="5383048119166916163" at="143,107,208,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$4" />
+      <unit id="5383048119167032541" at="215,107,280,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$6" />
+      <unit id="5383048119167097907" at="287,107,352,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1$8" />
+      <unit id="5383048119166848245" at="74,31,356,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder$1" />
+      <unit id="5383048119166848245" at="49,0,494,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.BranchStatement_ActivityAsDiagram_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:bf442e83-0d50-4922-a5b0-c399017f39b0(de.itemis.mps.editor.diagram.demo.activity.editor)/5383048119166848268">
@@ -836,11 +836,11 @@
     <file name="ForStatement_InsideActivityDiagram_Editor.java">
       <node id="5383048119168005564" at="14,0,15,0" concept="3" trace="myContextHints" />
       <node id="5383048119168005564" at="17,47,18,26" concept="9" />
-      <node id="5383048119168005564" at="20,79,21,100" concept="9" />
+      <node id="5383048119168005564" at="20,79,21,98" concept="9" />
       <node id="5383048119168005564" at="20,0,23,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5383048119168005564" at="15,0,20,0" concept="7" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="5383048119168005564" at="17,47,18,26" />
-      <scope id="5383048119168005564" at="20,79,21,100" />
+      <scope id="5383048119168005564" at="20,79,21,98" />
       <scope id="5383048119168005564" at="20,0,23,0">
         <var name="editorContext" id="5383048119168005564" />
         <var name="node" id="5383048119168005564" />
@@ -848,8 +848,8 @@
       <scope id="5383048119168005564" at="15,0,20,0" />
       <unit id="5383048119168005564" at="13,0,24,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_Editor" />
     </file>
-    <file name="ForStatement_InsideActivityDiagram_EditorBuilder_a.java">
-      <node id="5383048119168005564" at="63,114,64,19" concept="13" />
+    <file name="ForStatement_InsideActivityDiagram_EditorBuilder.java">
+      <node id="5383048119168005564" at="63,112,64,19" concept="13" />
       <node id="5383048119168005564" at="64,19,65,18" concept="2" />
       <node id="5383048119168005564" at="70,26,71,18" concept="9" />
       <node id="5383048119168005564" at="74,39,75,36" concept="9" />
@@ -1011,7 +1011,7 @@
       <node id="5383048119168005651" at="374,89,377,9" concept="6" />
       <node id="5383048119168005651" at="377,9,380,9" concept="6" />
       <node id="5383048119168005651" at="396,0,399,0" concept="7" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="5383048119168005564" at="63,0,67,0" concept="1" trace="ForStatement_InsideActivityDiagram_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5383048119168005564" at="63,0,67,0" concept="1" trace="ForStatement_InsideActivityDiagram_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5383048119168005575" at="123,0,127,0" concept="7" trace="writeFrom#(Lde/itemis/mps/editor/diagram/runtime/model/IConnectionEndpoint_Internal;)V" />
       <node id="5383048119168005575" at="129,0,133,0" concept="7" trace="writeTo#(Lde/itemis/mps/editor/diagram/runtime/model/IConnectionEndpoint_Internal;)V" />
       <node id="5383048119168005575" at="135,0,139,0" concept="7" trace="readFrom#()Lde/itemis/mps/editor/diagram/runtime/model/IConnectionEndpointReference;" />
@@ -1103,7 +1103,7 @@
       <scope id="5383048119168005651" at="378,44,379,52" />
       <scope id="5383048119168005651" at="392,19,393,44" />
       <scope id="5383048119168005651" at="396,42,397,32" />
-      <scope id="5383048119168005564" at="63,114,65,18" />
+      <scope id="5383048119168005564" at="63,112,65,18" />
       <scope id="5383048119168005575" at="127,0,129,0">
         <var name="port" id="5383048119168005575" />
         <var name="targetDNode" id="5383048119168005575" />
@@ -1291,35 +1291,35 @@
         <var name="editorContext" id="5383048119168005564" />
         <var name="node" id="5383048119168005564" />
       </scope>
-      <unit id="5383048119168005567" at="87,51,91,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a$1$1" />
-      <unit id="5383048119168005624" at="176,103,180,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a$1$5" />
-      <unit id="5383048119168005564" at="402,0,409,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a$LINKS" />
-      <unit id="5383048119168005575" at="100,67,108,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a$1$3" />
-      <unit id="5383048119168005564" at="261,29,275,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a$2" />
-      <unit id="1122727885938307324" at="294,0,320,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a$Inline_Builder_lx58se_a3a" />
-      <unit id="5383048119168005575" at="122,52,163,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a$1$2$1" />
-      <unit id="5383048119168005624" at="194,52,241,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a$1$4$1" />
-      <unit id="5383048119168005651" at="349,0,400,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a$Inline_Builder_lx58se_a4a$conditionSingleRoleHandler_lx58se_a0a4a" />
-      <unit id="5383048119168005575" at="109,107,174,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a$1$2" />
-      <unit id="5383048119168005624" at="181,107,255,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a$1$4" />
-      <unit id="5383048119168005651" at="320,0,401,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a$Inline_Builder_lx58se_a4a" />
-      <unit id="5383048119168005564" at="84,31,259,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a$1" />
-      <unit id="5383048119168005564" at="59,0,410,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder_a" />
+      <unit id="5383048119168005567" at="87,51,91,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder$1$1" />
+      <unit id="5383048119168005624" at="176,103,180,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder$1$5" />
+      <unit id="5383048119168005564" at="402,0,409,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder$LINKS" />
+      <unit id="5383048119168005575" at="100,67,108,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder$1$3" />
+      <unit id="5383048119168005564" at="261,29,275,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder$2" />
+      <unit id="1122727885938307324" at="294,0,320,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder$Inline_Builder_lx58se_a3a" />
+      <unit id="5383048119168005575" at="122,52,163,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder$1$2$1" />
+      <unit id="5383048119168005624" at="194,52,241,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder$1$4$1" />
+      <unit id="5383048119168005651" at="349,0,400,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder$Inline_Builder_lx58se_a4a$conditionSingleRoleHandler_lx58se_a0a4a" />
+      <unit id="5383048119168005575" at="109,107,174,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder$1$2" />
+      <unit id="5383048119168005624" at="181,107,255,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder$1$4" />
+      <unit id="5383048119168005651" at="320,0,401,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder$Inline_Builder_lx58se_a4a" />
+      <unit id="5383048119168005564" at="84,31,259,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder$1" />
+      <unit id="5383048119168005564" at="59,0,410,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ForStatement_InsideActivityDiagram_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:bf442e83-0d50-4922-a5b0-c399017f39b0(de.itemis.mps.editor.diagram.demo.activity.editor)/5725606875425068441">
     <file name="ActivityModule_Editor.java">
-      <node id="5725606875425068441" at="11,79,12,80" concept="9" />
+      <node id="5725606875425068441" at="11,79,12,78" concept="9" />
       <node id="5725606875425068441" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5725606875425068441" at="11,79,12,80" />
+      <scope id="5725606875425068441" at="11,79,12,78" />
       <scope id="5725606875425068441" at="11,0,14,0">
         <var name="editorContext" id="5725606875425068441" />
         <var name="node" id="5725606875425068441" />
       </scope>
       <unit id="5725606875425068441" at="10,0,15,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ActivityModule_Editor" />
     </file>
-    <file name="ActivityModule_EditorBuilder_a.java">
-      <node id="5725606875425068441" at="49,94,50,19" concept="13" />
+    <file name="ActivityModule_EditorBuilder.java">
+      <node id="5725606875425068441" at="49,92,50,19" concept="13" />
       <node id="5725606875425068441" at="50,19,51,18" concept="2" />
       <node id="5725606875425068441" at="56,26,57,18" concept="9" />
       <node id="5725606875425068441" at="60,39,61,32" concept="9" />
@@ -1410,7 +1410,7 @@
       <node id="5725606875425068441" at="142,0,145,0" concept="7" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5725606875425068441" at="146,0,149,0" concept="7" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5725606875425068441" at="189,96,192,9" concept="6" />
-      <node id="5725606875425068441" at="49,0,53,0" concept="1" trace="ActivityModule_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5725606875425068441" at="49,0,53,0" concept="1" trace="ActivityModule_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5725606875425068441" at="127,0,131,0" concept="1" trace="contentListHandler_aieaqw_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5725606875425068441" at="132,0,136,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5725606875425068441" at="171,97,175,9" concept="6" />
@@ -1446,7 +1446,7 @@
       <scope id="5725606875425068441" at="163,17,164,42" />
       <scope id="5725606875425068441" at="190,34,191,91" />
       <scope id="5725606875425068441" at="203,17,204,42" />
-      <scope id="5725606875425068441" at="49,94,51,18" />
+      <scope id="5725606875425068441" at="49,92,51,18" />
       <scope id="5725606875425068623" at="102,74,104,145">
         <var name="manager" id="5725606875425068623" />
       </scope>
@@ -1532,26 +1532,26 @@
         <var name="elementNode" id="5725606875425068441" />
         <var name="isEmptyCell" id="5725606875425068441" />
       </scope>
-      <unit id="5725606875425068441" at="209,0,212,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ActivityModule_EditorBuilder_a$PROPS" />
-      <unit id="5725606875425068441" at="219,0,222,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ActivityModule_EditorBuilder_a$LINKS" />
-      <unit id="5725606875425068441" at="213,0,218,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ActivityModule_EditorBuilder_a$CONCEPTS" />
-      <unit id="5725606875425068441" at="123,0,208,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ActivityModule_EditorBuilder_a$contentListHandler_aieaqw_c0" />
-      <unit id="5725606875425068441" at="45,0,223,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ActivityModule_EditorBuilder_a" />
+      <unit id="5725606875425068441" at="209,0,212,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ActivityModule_EditorBuilder$PROPS" />
+      <unit id="5725606875425068441" at="219,0,222,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ActivityModule_EditorBuilder$LINKS" />
+      <unit id="5725606875425068441" at="213,0,218,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ActivityModule_EditorBuilder$CONCEPTS" />
+      <unit id="5725606875425068441" at="123,0,208,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ActivityModule_EditorBuilder$contentListHandler_aieaqw_c0" />
+      <unit id="5725606875425068441" at="45,0,223,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.ActivityModule_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:bf442e83-0d50-4922-a5b0-c399017f39b0(de.itemis.mps.editor.diagram.demo.activity.editor)/5725606875425082120">
     <file name="EmptyActivityModuleContent_Editor.java">
-      <node id="5725606875425082120" at="11,79,12,92" concept="9" />
+      <node id="5725606875425082120" at="11,79,12,90" concept="9" />
       <node id="5725606875425082120" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5725606875425082120" at="11,79,12,92" />
+      <scope id="5725606875425082120" at="11,79,12,90" />
       <scope id="5725606875425082120" at="11,0,14,0">
         <var name="editorContext" id="5725606875425082120" />
         <var name="node" id="5725606875425082120" />
       </scope>
       <unit id="5725606875425082120" at="10,0,15,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.EmptyActivityModuleContent_Editor" />
     </file>
-    <file name="EmptyActivityModuleContent_EditorBuilder_a.java">
-      <node id="5725606875425082120" at="19,106,20,19" concept="13" />
+    <file name="EmptyActivityModuleContent_EditorBuilder.java">
+      <node id="5725606875425082120" at="19,104,20,19" concept="13" />
       <node id="5725606875425082120" at="20,19,21,18" concept="2" />
       <node id="5725606875425082120" at="26,26,27,18" concept="9" />
       <node id="5725606875425082120" at="30,39,31,30" concept="9" />
@@ -1566,12 +1566,12 @@
       <node id="5725606875425082173" at="42,34,43,22" concept="9" />
       <node id="5725606875425082120" at="16,0,18,0" concept="3" trace="myNode" />
       <node id="5725606875425082120" at="30,0,33,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5725606875425082120" at="19,0,23,0" concept="1" trace="EmptyActivityModuleContent_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5725606875425082120" at="19,0,23,0" concept="1" trace="EmptyActivityModuleContent_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5725606875425082120" at="24,0,29,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5725606875425082173" at="34,0,45,0" concept="7" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="5725606875425082120" at="26,26,27,18" />
       <scope id="5725606875425082120" at="30,39,31,30" />
-      <scope id="5725606875425082120" at="19,106,21,18" />
+      <scope id="5725606875425082120" at="19,104,21,18" />
       <scope id="5725606875425082120" at="30,0,33,0" />
       <scope id="5725606875425082120" at="19,0,23,0">
         <var name="context" id="5725606875425082120" />
@@ -1583,22 +1583,22 @@
         <var name="style" id="5725606875425082173" />
       </scope>
       <scope id="5725606875425082173" at="34,0,45,0" />
-      <unit id="5725606875425082120" at="15,0,46,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.EmptyActivityModuleContent_EditorBuilder_a" />
+      <unit id="5725606875425082120" at="15,0,46,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.EmptyActivityModuleContent_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:bf442e83-0d50-4922-a5b0-c399017f39b0(de.itemis.mps.editor.diagram.demo.activity.editor)/5725606875425089023">
     <file name="Activity_Editor.java">
-      <node id="5725606875425089023" at="11,79,12,74" concept="9" />
+      <node id="5725606875425089023" at="11,79,12,72" concept="9" />
       <node id="5725606875425089023" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5725606875425089023" at="11,79,12,74" />
+      <scope id="5725606875425089023" at="11,79,12,72" />
       <scope id="5725606875425089023" at="11,0,14,0">
         <var name="editorContext" id="5725606875425089023" />
         <var name="node" id="5725606875425089023" />
       </scope>
       <unit id="5725606875425089023" at="10,0,15,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_Editor" />
     </file>
-    <file name="Activity_EditorBuilder_a.java">
-      <node id="5725606875425089023" at="30,88,31,19" concept="13" />
+    <file name="Activity_EditorBuilder.java">
+      <node id="5725606875425089023" at="30,86,31,19" concept="13" />
       <node id="5725606875425089023" at="31,19,32,18" concept="2" />
       <node id="5725606875425089023" at="37,26,38,18" concept="9" />
       <node id="5725606875425089023" at="41,39,42,32" concept="9" />
@@ -1660,7 +1660,7 @@
       <node id="5725606875425089023" at="100,87,103,7" concept="6" />
       <node id="5725606875425089023" at="103,7,106,7" concept="6" />
       <node id="5725606875425089023" at="125,0,128,0" concept="7" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="5725606875425089023" at="30,0,34,0" concept="1" trace="Activity_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5725606875425089023" at="30,0,34,0" concept="1" trace="Activity_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5725606875425089023" at="71,0,75,0" concept="7" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5725606875425089023" at="79,0,83,0" concept="1" trace="statementListSingleRoleHandler_luypn2_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5725606875425089023" at="35,0,40,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -1680,7 +1680,7 @@
       <scope id="5725606875425089023" at="104,42,105,54" />
       <scope id="5725606875425089023" at="121,17,122,42" />
       <scope id="5725606875425089023" at="125,40,126,34" />
-      <scope id="5725606875425089023" at="30,88,32,18" />
+      <scope id="5725606875425089023" at="30,86,32,18" />
       <scope id="5725606875425089023" at="71,40,73,33">
         <var name="provider" id="5725606875425089023" />
       </scope>
@@ -1736,20 +1736,20 @@
       </scope>
       <scope id="5725606875425089023" at="112,44,123,7" />
       <scope id="5725606875425089023" at="111,0,125,0" />
-      <unit id="5725606875425089023" at="139,0,142,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_EditorBuilder_a$LINKS" />
-      <unit id="5725606875425089023" at="75,0,129,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_EditorBuilder_a$statementListSingleRoleHandler_luypn2_c0" />
-      <unit id="5725606875425089023" at="26,0,143,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_EditorBuilder_a" />
+      <unit id="5725606875425089023" at="139,0,142,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_EditorBuilder$LINKS" />
+      <unit id="5725606875425089023" at="75,0,129,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_EditorBuilder$statementListSingleRoleHandler_luypn2_c0" />
+      <unit id="5725606875425089023" at="26,0,143,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:bf442e83-0d50-4922-a5b0-c399017f39b0(de.itemis.mps.editor.diagram.demo.activity.editor)/5725606875425818530">
     <file name="Activity_ActivityAsDiagram_Editor.java">
       <node id="5725606875425818530" at="14,0,15,0" concept="3" trace="myContextHints" />
       <node id="5725606875425818530" at="17,47,18,26" concept="9" />
-      <node id="5725606875425818530" at="20,79,21,92" concept="9" />
+      <node id="5725606875425818530" at="20,79,21,90" concept="9" />
       <node id="5725606875425818530" at="20,0,23,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5725606875425818530" at="15,0,20,0" concept="7" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="5725606875425818530" at="17,47,18,26" />
-      <scope id="5725606875425818530" at="20,79,21,92" />
+      <scope id="5725606875425818530" at="20,79,21,90" />
       <scope id="5725606875425818530" at="20,0,23,0">
         <var name="editorContext" id="5725606875425818530" />
         <var name="node" id="5725606875425818530" />
@@ -1757,8 +1757,8 @@
       <scope id="5725606875425818530" at="15,0,20,0" />
       <unit id="5725606875425818530" at="13,0,24,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_Editor" />
     </file>
-    <file name="Activity_ActivityAsDiagram_EditorBuilder_a.java">
-      <node id="5725606875425818530" at="100,106,101,19" concept="13" />
+    <file name="Activity_ActivityAsDiagram_EditorBuilder.java">
+      <node id="5725606875425818530" at="100,104,101,19" concept="13" />
       <node id="5725606875425818530" at="101,19,102,18" concept="2" />
       <node id="5725606875425818530" at="107,26,108,18" concept="9" />
       <node id="5725606875425818530" at="111,39,112,33" concept="9" />
@@ -2125,8 +2125,8 @@
       <node id="5725606875425818530" at="1059,65,1060,89" concept="8" />
       <node id="3738241549323868615" at="1062,66,1063,83" concept="9" />
       <node id="5725606875425818530" at="1065,31,1066,39" concept="9" />
-      <node id="1556636692856640264" at="1072,59,1073,29" concept="9" />
-      <node id="5725606875425818530" at="1077,50,1078,51" concept="9" />
+      <node id="1556636692856640264" at="1072,48,1073,29" concept="9" />
+      <node id="5725606875425818530" at="1077,50,1078,40" concept="9" />
       <node id="5725606875425818530" at="1097,52,1098,46" concept="8" />
       <node id="5725606875425818530" at="1098,46,1099,38" concept="9" />
       <node id="5725606875425818530" at="1103,54,1104,46" concept="8" />
@@ -2282,7 +2282,7 @@
       <node id="2064429317485310096" at="932,89,935,21" concept="4" />
       <node id="2064429317485556923" at="1035,0,1038,0" concept="7" trace="delete#()V" />
       <node id="3738241549323862036" at="1062,0,1065,0" concept="7" trace="queryMany#()Ljava/util/Collection;" />
-      <node id="1556636692856638915" at="1072,0,1075,0" concept="7" trace="nodeCondition_s7zaad_a3a0#()Z" />
+      <node id="1556636692856638915" at="1072,0,1075,0" concept="7" trace="nodeCondition0#()Z" />
       <node id="5725606875425818530" at="1214,97,1217,21" concept="6" />
       <node id="5725606875425818530" at="1218,111,1221,21" concept="6" />
       <node id="5725606875425818530" at="1230,73,1233,15" concept="6" />
@@ -2291,7 +2291,7 @@
       <node id="7275805619867891566" at="1279,0,1282,0" concept="7" trace="_StyleParameter_QueryFunction_s7zaad_a0d0a#()Lorg/eclipse/elk/alg/mrtree/options/OrderWeighting;" />
       <node id="3738241549323885699" at="1291,0,1294,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3738241549323891055" at="1303,0,1306,0" concept="7" trace="getText#()Ljava/lang/String;" />
-      <node id="5725606875425818530" at="100,0,104,0" concept="1" trace="Activity_ActivityAsDiagram_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5725606875425818530" at="100,0,104,0" concept="1" trace="Activity_ActivityAsDiagram_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5725606875426376693" at="214,0,218,0" concept="7" trace="getSNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5725606875426376693" at="230,0,234,0" concept="7" trace="getShape#()Lde/itemis/mps/editor/diagram/runtime/shape/IShape;" />
       <node id="5725606875426376693" at="236,80,240,23" concept="6" />
@@ -2591,8 +2591,8 @@
       <scope id="2064429317485556923" at="1032,53,1033,42" />
       <scope id="2064429317485556923" at="1039,49,1040,38" />
       <scope id="3738241549323862036" at="1062,66,1063,83" />
-      <scope id="1556636692856638916" at="1072,59,1073,29" />
-      <scope id="5725606875425818530" at="1077,50,1078,51" />
+      <scope id="1556636692856638916" at="1072,48,1073,29" />
+      <scope id="5725606875425818530" at="1077,50,1078,40" />
       <scope id="5725606875425818530" at="1147,21,1148,96" />
       <scope id="5725606875425818530" at="1149,40,1150,27" />
       <scope id="5725606875425818530" at="1203,56,1204,81" />
@@ -2605,7 +2605,7 @@
       <scope id="3738241549323885699" at="1291,41,1292,45" />
       <scope id="3738241549323885699" at="1297,28,1298,20" />
       <scope id="3738241549323891061" at="1303,33,1304,86" />
-      <scope id="5725606875425818530" at="100,106,102,18" />
+      <scope id="5725606875425818530" at="100,104,102,18" />
       <scope id="5725606875426376693" at="218,0,220,0" />
       <scope id="5725606875426376693" at="237,46,239,86">
         <var name="layouter" id="5725606875426376693" />
@@ -3249,47 +3249,47 @@
         <var name="editorContext" id="5725606875425818530" />
         <var name="node" id="5725606875425818530" />
       </scope>
-      <unit id="5725606875425966515" at="192,57,196,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$1" />
-      <unit id="5725606875426376693" at="199,111,203,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$3" />
-      <unit id="5725606875426506998" at="246,111,250,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$5" />
-      <unit id="5725606875426567498" at="293,73,297,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$7" />
-      <unit id="5725606875426902907" at="378,109,382,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$9" />
-      <unit id="5725606875426950218" at="455,109,459,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$11" />
-      <unit id="5725606875425880028" at="690,134,694,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$3" />
-      <unit id="3738241549323862036" at="1061,43,1065,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$5$5" />
-      <unit id="3738241549323891055" at="1302,90,1306,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$Inline_Builder_s7zaad_a0d0a$1" />
-      <unit id="5725606875425818530" at="1323,0,1327,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$CONCEPTS" />
-      <unit id="5725606875425818530" at="1317,0,1322,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$LINKS" />
-      <unit id="3738241549323885698" at="930,56,938,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$5$2" />
-      <unit id="5725606875425818530" at="705,53,719,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$4" />
-      <unit id="5725606875425818530" at="1211,53,1225,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$6" />
-      <unit id="2064429317485556923" at="981,70,996,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$5$4" />
-      <unit id="5725606875425818530" at="119,40,135,5" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$1" />
-      <unit id="3725488364126729189" at="543,95,560,21" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$12$1" />
-      <unit id="5725606875426376693" at="213,57,234,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$2$1" />
-      <unit id="5725606875426506998" at="260,57,281,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$4$1" />
-      <unit id="5725606875425818884" at="541,43,562,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$12" />
-      <unit id="3738241549323885698" at="948,57,969,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$5$1$1" />
-      <unit id="5725606875426506999" at="797,0,823,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$Inline_Builder_s7zaad_a2b0a" />
-      <unit id="7623784619782159599" at="823,0,849,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$Inline_Builder_s7zaad_a3b0a" />
-      <unit id="1122727885938249921" at="849,0,875,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$Inline_Builder_s7zaad_a4b0a" />
-      <unit id="1122727885938264473" at="875,0,901,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$Inline_Builder_s7zaad_a5b0a" />
-      <unit id="3738241549323885699" at="1282,0,1316,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$Inline_Builder_s7zaad_a0d0a" />
-      <unit id="2064429317485556923" at="1006,58,1043,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$5$3$1" />
-      <unit id="5725606875426376693" at="204,113,244,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$2" />
-      <unit id="5725606875426506998" at="251,113,291,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$4" />
-      <unit id="3738241549323885698" at="939,113,979,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$5$1" />
-      <unit id="5725606875426376695" at="752,0,797,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$Inline_Builder_s7zaad_a1b0a" />
-      <unit id="5725606875426902907" at="396,58,442,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$8$1" />
-      <unit id="5725606875426950218" at="473,58,519,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$10$1" />
-      <unit id="5725606875426567498" at="311,58,365,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$6$1" />
-      <unit id="2064429317485556923" at="997,113,1054,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$5$3" />
-      <unit id="5725606875426902907" at="383,113,453,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$8" />
-      <unit id="5725606875426950218" at="460,113,530,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$10" />
-      <unit id="5725606875426567498" at="298,113,376,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2$6" />
-      <unit id="5725606875425818530" at="927,44,1196,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$5" />
-      <unit id="5725606875425818530" at="189,44,686,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a$2" />
-      <unit id="5725606875425818530" at="96,0,1328,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder_a" />
+      <unit id="5725606875425966515" at="192,57,196,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$1" />
+      <unit id="5725606875426376693" at="199,111,203,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$3" />
+      <unit id="5725606875426506998" at="246,111,250,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$5" />
+      <unit id="5725606875426567498" at="293,73,297,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$7" />
+      <unit id="5725606875426902907" at="378,109,382,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$9" />
+      <unit id="5725606875426950218" at="455,109,459,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$11" />
+      <unit id="5725606875425880028" at="690,134,694,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$3" />
+      <unit id="3738241549323862036" at="1061,43,1065,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$5$5" />
+      <unit id="3738241549323891055" at="1302,90,1306,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$Inline_Builder_s7zaad_a0d0a$1" />
+      <unit id="5725606875425818530" at="1323,0,1327,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$CONCEPTS" />
+      <unit id="5725606875425818530" at="1317,0,1322,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$LINKS" />
+      <unit id="3738241549323885698" at="930,56,938,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$5$2" />
+      <unit id="5725606875425818530" at="705,53,719,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$4" />
+      <unit id="5725606875425818530" at="1211,53,1225,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$6" />
+      <unit id="2064429317485556923" at="981,70,996,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$5$4" />
+      <unit id="5725606875425818530" at="119,40,135,5" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$1" />
+      <unit id="3725488364126729189" at="543,95,560,21" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$12$1" />
+      <unit id="5725606875426376693" at="213,57,234,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$2$1" />
+      <unit id="5725606875426506998" at="260,57,281,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$4$1" />
+      <unit id="5725606875425818884" at="541,43,562,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$12" />
+      <unit id="3738241549323885698" at="948,57,969,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$5$1$1" />
+      <unit id="5725606875426506999" at="797,0,823,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$Inline_Builder_s7zaad_a2b0a" />
+      <unit id="7623784619782159599" at="823,0,849,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$Inline_Builder_s7zaad_a3b0a" />
+      <unit id="1122727885938249921" at="849,0,875,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$Inline_Builder_s7zaad_a4b0a" />
+      <unit id="1122727885938264473" at="875,0,901,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$Inline_Builder_s7zaad_a5b0a" />
+      <unit id="3738241549323885699" at="1282,0,1316,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$Inline_Builder_s7zaad_a0d0a" />
+      <unit id="2064429317485556923" at="1006,58,1043,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$5$3$1" />
+      <unit id="5725606875426376693" at="204,113,244,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$2" />
+      <unit id="5725606875426506998" at="251,113,291,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$4" />
+      <unit id="3738241549323885698" at="939,113,979,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$5$1" />
+      <unit id="5725606875426376695" at="752,0,797,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$Inline_Builder_s7zaad_a1b0a" />
+      <unit id="5725606875426902907" at="396,58,442,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$8$1" />
+      <unit id="5725606875426950218" at="473,58,519,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$10$1" />
+      <unit id="5725606875426567498" at="311,58,365,23" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$6$1" />
+      <unit id="2064429317485556923" at="997,113,1054,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$5$3" />
+      <unit id="5725606875426902907" at="383,113,453,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$8" />
+      <unit id="5725606875426950218" at="460,113,530,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$10" />
+      <unit id="5725606875426567498" at="298,113,376,19" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2$6" />
+      <unit id="5725606875425818530" at="927,44,1196,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$5" />
+      <unit id="5725606875425818530" at="189,44,686,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder$2" />
+      <unit id="5725606875425818530" at="96,0,1328,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.Activity_ActivityAsDiagram_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:bf442e83-0d50-4922-a5b0-c399017f39b0(de.itemis.mps.editor.diagram.demo.activity.editor)/5725606875426392145">
@@ -3377,11 +3377,11 @@
     <file name="DoWhileStatement_InsideActivityDiagram_Editor.java">
       <node id="5725606875427451560" at="14,0,15,0" concept="3" trace="myContextHints" />
       <node id="5725606875427451560" at="17,47,18,26" concept="9" />
-      <node id="5725606875427451560" at="20,79,21,104" concept="9" />
+      <node id="5725606875427451560" at="20,79,21,102" concept="9" />
       <node id="5725606875427451560" at="20,0,23,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5725606875427451560" at="15,0,20,0" concept="7" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="5725606875427451560" at="17,47,18,26" />
-      <scope id="5725606875427451560" at="20,79,21,104" />
+      <scope id="5725606875427451560" at="20,79,21,102" />
       <scope id="5725606875427451560" at="20,0,23,0">
         <var name="editorContext" id="5725606875427451560" />
         <var name="node" id="5725606875427451560" />
@@ -3389,8 +3389,8 @@
       <scope id="5725606875427451560" at="15,0,20,0" />
       <unit id="5725606875427451560" at="13,0,24,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_Editor" />
     </file>
-    <file name="DoWhileStatement_InsideActivityDiagram_EditorBuilder_a.java">
-      <node id="5725606875427451560" at="64,118,65,19" concept="13" />
+    <file name="DoWhileStatement_InsideActivityDiagram_EditorBuilder.java">
+      <node id="5725606875427451560" at="64,116,65,19" concept="13" />
       <node id="5725606875427451560" at="65,19,66,18" concept="2" />
       <node id="5725606875427451560" at="71,26,72,18" concept="9" />
       <node id="5725606875427451560" at="75,39,76,36" concept="9" />
@@ -3546,7 +3546,7 @@
       <node id="301931493267682832" at="369,89,372,9" concept="6" />
       <node id="301931493267682832" at="372,9,375,9" concept="6" />
       <node id="301931493267682832" at="391,0,394,0" concept="7" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="5725606875427451560" at="64,0,68,0" concept="1" trace="DoWhileStatement_InsideActivityDiagram_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5725606875427451560" at="64,0,68,0" concept="1" trace="DoWhileStatement_InsideActivityDiagram_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="301931493267253855" at="114,0,118,0" concept="7" trace="writeFrom#(Lde/itemis/mps/editor/diagram/runtime/model/IConnectionEndpoint_Internal;)V" />
       <node id="301931493267253855" at="120,0,124,0" concept="7" trace="writeTo#(Lde/itemis/mps/editor/diagram/runtime/model/IConnectionEndpoint_Internal;)V" />
       <node id="301931493267253855" at="126,0,130,0" concept="7" trace="readFrom#()Lde/itemis/mps/editor/diagram/runtime/model/IConnectionEndpointReference;" />
@@ -3637,7 +3637,7 @@
       <scope id="301931493267682832" at="373,44,374,52" />
       <scope id="301931493267682832" at="387,19,388,44" />
       <scope id="301931493267682832" at="391,42,392,32" />
-      <scope id="5725606875427451560" at="64,118,66,18" />
+      <scope id="5725606875427451560" at="64,116,66,18" />
       <scope id="301931493267253855" at="118,0,120,0">
         <var name="port" id="301931493267253855" />
         <var name="targetDNode" id="301931493267253855" />
@@ -3817,20 +3817,20 @@
         <var name="editorContext" id="5725606875427451560" />
         <var name="node" id="5725606875427451560" />
       </scope>
-      <unit id="301931493266737134" at="88,51,92,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a$1$1" />
-      <unit id="301931493267253855" at="95,67,99,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a$1$3" />
-      <unit id="301931493267305855" at="167,103,171,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a$1$5" />
-      <unit id="5725606875427451560" at="397,0,402,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a$LINKS" />
-      <unit id="5725606875427451560" at="253,29,267,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a$2" />
-      <unit id="1122727885938293463" at="289,0,315,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a$Inline_Builder_4b5m3x_a1a" />
-      <unit id="301931493267253855" at="113,52,154,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a$1$2$1" />
-      <unit id="301931493267305855" at="185,52,232,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a$1$4$1" />
-      <unit id="301931493267682832" at="344,0,395,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a$Inline_Builder_4b5m3x_a2a$conditionSingleRoleHandler_4b5m3x_a0a2a" />
-      <unit id="301931493267253855" at="100,107,165,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a$1$2" />
-      <unit id="301931493267305855" at="172,107,247,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a$1$4" />
-      <unit id="301931493267682832" at="315,0,396,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a$Inline_Builder_4b5m3x_a2a" />
-      <unit id="5725606875427451560" at="85,31,251,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a$1" />
-      <unit id="5725606875427451560" at="60,0,403,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder_a" />
+      <unit id="301931493266737134" at="88,51,92,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder$1$1" />
+      <unit id="301931493267253855" at="95,67,99,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder$1$3" />
+      <unit id="301931493267305855" at="167,103,171,11" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder$1$5" />
+      <unit id="5725606875427451560" at="397,0,402,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder$LINKS" />
+      <unit id="5725606875427451560" at="253,29,267,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder$2" />
+      <unit id="1122727885938293463" at="289,0,315,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder$Inline_Builder_4b5m3x_a1a" />
+      <unit id="301931493267253855" at="113,52,154,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder$1$2$1" />
+      <unit id="301931493267305855" at="185,52,232,17" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder$1$4$1" />
+      <unit id="301931493267682832" at="344,0,395,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder$Inline_Builder_4b5m3x_a2a$conditionSingleRoleHandler_4b5m3x_a0a2a" />
+      <unit id="301931493267253855" at="100,107,165,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder$1$2" />
+      <unit id="301931493267305855" at="172,107,247,13" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder$1$4" />
+      <unit id="301931493267682832" at="315,0,396,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder$Inline_Builder_4b5m3x_a2a" />
+      <unit id="5725606875427451560" at="85,31,251,7" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder$1" />
+      <unit id="5725606875427451560" at="60,0,403,0" name="de.itemis.mps.editor.diagram.demo.activity.editor.DoWhileStatement_InsideActivityDiagram_EditorBuilder" />
     </file>
   </root>
 </debug-info>

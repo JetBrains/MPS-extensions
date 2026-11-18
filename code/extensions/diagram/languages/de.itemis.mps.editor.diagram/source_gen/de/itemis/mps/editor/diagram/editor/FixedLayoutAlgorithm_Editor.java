@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class FixedLayoutAlgorithm_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new FixedLayoutAlgorithm_EditorBuilder_a(editorContext, node).createCell();
+    return new FixedLayoutAlgorithm_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new FixedLayoutAlgorithm_InspectorBuilder_a(editorContext, node).createCell();
+    return new FixedLayoutAlgorithm_InspectorBuilder(editorContext, node).createCell();
   }
 }

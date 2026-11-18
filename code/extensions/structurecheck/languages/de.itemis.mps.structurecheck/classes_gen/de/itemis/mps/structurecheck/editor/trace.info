@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:fd9e55f8-6b11-420b-98e7-91a8eff4b12e(de.itemis.mps.structurecheck.editor)/380240910834177381">
     <file name="CheckStructureStatement_Editor.java">
-      <node id="380240910834177381" at="11,79,12,89" concept="6" />
+      <node id="380240910834177381" at="11,79,12,87" concept="6" />
       <node id="380240910834177381" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="380240910834177381" at="11,79,12,89" />
+      <scope id="380240910834177381" at="11,79,12,87" />
       <scope id="380240910834177381" at="11,0,14,0">
         <var name="editorContext" id="380240910834177381" />
         <var name="node" id="380240910834177381" />
       </scope>
       <unit id="380240910834177381" at="10,0,15,0" name="de.itemis.mps.structurecheck.editor.CheckStructureStatement_Editor" />
     </file>
-    <file name="CheckStructureStatement_EditorBuilder_a.java">
-      <node id="380240910834177381" at="35,103,36,19" concept="8" />
+    <file name="CheckStructureStatement_EditorBuilder.java">
+      <node id="380240910834177381" at="35,101,36,19" concept="8" />
       <node id="380240910834177381" at="36,19,37,18" concept="1" />
       <node id="380240910834177381" at="42,26,43,18" concept="6" />
       <node id="380240910834177381" at="46,39,47,32" concept="6" />
@@ -143,7 +143,7 @@
       <node id="380240910834177381" at="174,87,177,7" concept="3" />
       <node id="380240910834177381" at="177,7,180,7" concept="3" />
       <node id="380240910834177381" at="199,0,202,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="380240910834177381" at="35,0,39,0" concept="0" trace="CheckStructureStatement_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="380240910834177381" at="35,0,39,0" concept="0" trace="CheckStructureStatement_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="380240910834177381" at="69,0,73,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="380240910834177381" at="77,0,81,0" concept="0" trace="rootElementSingleRoleHandler_uy5x4k_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="380240910834177381" at="145,0,149,0" concept="4" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -178,7 +178,7 @@
       <scope id="380240910834177381" at="178,42,179,49" />
       <scope id="380240910834177381" at="195,17,196,42" />
       <scope id="380240910834177381" at="199,40,200,29" />
-      <scope id="380240910834177381" at="35,103,37,18" />
+      <scope id="380240910834177381" at="35,101,37,18" />
       <scope id="380240910834177381" at="69,40,71,33">
         <var name="provider" id="380240910834177381" />
       </scope>
@@ -278,25 +278,25 @@
       <scope id="544720822885052271" at="203,0,214,0" />
       <scope id="380240910834177381" at="106,0,120,0" />
       <scope id="380240910834177381" at="185,0,199,0" />
-      <unit id="380240910834177381" at="233,0,237,0" name="de.itemis.mps.structurecheck.editor.CheckStructureStatement_EditorBuilder_a$LINKS" />
-      <unit id="380240910834177381" at="73,0,124,0" name="de.itemis.mps.structurecheck.editor.CheckStructureStatement_EditorBuilder_a$rootElementSingleRoleHandler_uy5x4k_b0" />
-      <unit id="380240910834177381" at="149,0,203,0" name="de.itemis.mps.structurecheck.editor.CheckStructureStatement_EditorBuilder_a$checkersSingleRoleHandler_uy5x4k_b2a" />
-      <unit id="380240910834177381" at="31,0,238,0" name="de.itemis.mps.structurecheck.editor.CheckStructureStatement_EditorBuilder_a" />
+      <unit id="380240910834177381" at="233,0,237,0" name="de.itemis.mps.structurecheck.editor.CheckStructureStatement_EditorBuilder$LINKS" />
+      <unit id="380240910834177381" at="73,0,124,0" name="de.itemis.mps.structurecheck.editor.CheckStructureStatement_EditorBuilder$rootElementSingleRoleHandler_uy5x4k_b0" />
+      <unit id="380240910834177381" at="149,0,203,0" name="de.itemis.mps.structurecheck.editor.CheckStructureStatement_EditorBuilder$checkersSingleRoleHandler_uy5x4k_b2a" />
+      <unit id="380240910834177381" at="31,0,238,0" name="de.itemis.mps.structurecheck.editor.CheckStructureStatement_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:fd9e55f8-6b11-420b-98e7-91a8eff4b12e(de.itemis.mps.structurecheck.editor)/380240910834179484">
     <file name="PropertyChecker_Editor.java">
-      <node id="380240910834179484" at="11,79,12,81" concept="6" />
+      <node id="380240910834179484" at="11,79,12,79" concept="6" />
       <node id="380240910834179484" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="380240910834179484" at="11,79,12,81" />
+      <scope id="380240910834179484" at="11,79,12,79" />
       <scope id="380240910834179484" at="11,0,14,0">
         <var name="editorContext" id="380240910834179484" />
         <var name="node" id="380240910834179484" />
       </scope>
       <unit id="380240910834179484" at="10,0,15,0" name="de.itemis.mps.structurecheck.editor.PropertyChecker_Editor" />
     </file>
-    <file name="PropertyChecker_EditorBuilder_a.java">
-      <node id="380240910834179484" at="42,95,43,19" concept="8" />
+    <file name="PropertyChecker_EditorBuilder.java">
+      <node id="380240910834179484" at="42,93,43,19" concept="8" />
       <node id="380240910834179484" at="43,19,44,18" concept="1" />
       <node id="380240910834179484" at="49,26,50,18" concept="6" />
       <node id="380240910834179484" at="53,39,54,32" concept="6" />
@@ -383,7 +383,7 @@
       <node id="380240910834179484" at="182,87,185,7" concept="3" />
       <node id="380240910834179484" at="185,7,188,7" concept="3" />
       <node id="380240910834179484" at="204,0,207,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="380240910834179484" at="42,0,46,0" concept="0" trace="PropertyChecker_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="380240910834179484" at="42,0,46,0" concept="0" trace="PropertyChecker_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="544720822885533453" at="84,0,88,0" concept="4" trace="createEditorMenuDescriptor#(Ljetbrains/mps/nodeEditor/cellMenu/CellContext;Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/menus/EditorMenuDescriptor;" />
       <node id="380240910834179484" at="89,0,93,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="380240910834179484" at="97,0,101,0" concept="0" trace="expectedSingleRoleHandler_sw6ziu_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -418,7 +418,7 @@
       <scope id="380240910834179484" at="186,42,187,47" />
       <scope id="380240910834179484" at="200,17,201,42" />
       <scope id="380240910834179484" at="204,40,205,27" />
-      <scope id="380240910834179484" at="42,95,44,18" />
+      <scope id="380240910834179484" at="42,93,44,18" />
       <scope id="544720822885533453" at="79,0,81,0" />
       <scope id="380240910834179484" at="89,40,91,33">
         <var name="provider" id="380240910834179484" />
@@ -503,27 +503,27 @@
       <scope id="380240910834179484" at="191,44,202,7" />
       <scope id="380240910834179484" at="126,0,140,0" />
       <scope id="380240910834179484" at="190,0,204,0" />
-      <unit id="380240910834179484" at="209,0,212,0" name="de.itemis.mps.structurecheck.editor.PropertyChecker_EditorBuilder_a$CONCEPTS" />
-      <unit id="380240910834179484" at="213,0,217,0" name="de.itemis.mps.structurecheck.editor.PropertyChecker_EditorBuilder_a$LINKS" />
-      <unit id="544720822885533453" at="78,0,89,0" name="de.itemis.mps.structurecheck.editor.PropertyChecker_EditorBuilder_a$ReplaceWith_IChecker_cellMenu_sw6ziu_a0a0" />
-      <unit id="380240910834179484" at="93,0,144,0" name="de.itemis.mps.structurecheck.editor.PropertyChecker_EditorBuilder_a$expectedSingleRoleHandler_sw6ziu_b0" />
-      <unit id="380240910834179484" at="157,0,208,0" name="de.itemis.mps.structurecheck.editor.PropertyChecker_EditorBuilder_a$actualSingleRoleHandler_sw6ziu_d0" />
-      <unit id="380240910834179484" at="38,0,218,0" name="de.itemis.mps.structurecheck.editor.PropertyChecker_EditorBuilder_a" />
+      <unit id="380240910834179484" at="209,0,212,0" name="de.itemis.mps.structurecheck.editor.PropertyChecker_EditorBuilder$CONCEPTS" />
+      <unit id="380240910834179484" at="213,0,217,0" name="de.itemis.mps.structurecheck.editor.PropertyChecker_EditorBuilder$LINKS" />
+      <unit id="544720822885533453" at="78,0,89,0" name="de.itemis.mps.structurecheck.editor.PropertyChecker_EditorBuilder$ReplaceWith_IChecker_cellMenu_sw6ziu_a0a0" />
+      <unit id="380240910834179484" at="93,0,144,0" name="de.itemis.mps.structurecheck.editor.PropertyChecker_EditorBuilder$expectedSingleRoleHandler_sw6ziu_b0" />
+      <unit id="380240910834179484" at="157,0,208,0" name="de.itemis.mps.structurecheck.editor.PropertyChecker_EditorBuilder$actualSingleRoleHandler_sw6ziu_d0" />
+      <unit id="380240910834179484" at="38,0,218,0" name="de.itemis.mps.structurecheck.editor.PropertyChecker_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:fd9e55f8-6b11-420b-98e7-91a8eff4b12e(de.itemis.mps.structurecheck.editor)/380240910834179731">
     <file name="ConditionChecker_Editor.java">
-      <node id="380240910834179731" at="11,79,12,82" concept="6" />
+      <node id="380240910834179731" at="11,79,12,80" concept="6" />
       <node id="380240910834179731" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="380240910834179731" at="11,79,12,82" />
+      <scope id="380240910834179731" at="11,79,12,80" />
       <scope id="380240910834179731" at="11,0,14,0">
         <var name="editorContext" id="380240910834179731" />
         <var name="node" id="380240910834179731" />
       </scope>
       <unit id="380240910834179731" at="10,0,15,0" name="de.itemis.mps.structurecheck.editor.ConditionChecker_Editor" />
     </file>
-    <file name="ConditionChecker_EditorBuilder_a.java">
-      <node id="380240910834179731" at="42,96,43,19" concept="8" />
+    <file name="ConditionChecker_EditorBuilder.java">
+      <node id="380240910834179731" at="42,94,43,19" concept="8" />
       <node id="380240910834179731" at="43,19,44,18" concept="1" />
       <node id="380240910834179731" at="49,26,50,18" concept="6" />
       <node id="380240910834179731" at="53,39,54,32" concept="6" />
@@ -583,7 +583,7 @@
       <node id="380240910834179731" at="117,87,120,7" concept="3" />
       <node id="380240910834179731" at="120,7,123,7" concept="3" />
       <node id="380240910834179731" at="139,0,142,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="380240910834179731" at="42,0,46,0" concept="0" trace="ConditionChecker_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="380240910834179731" at="42,0,46,0" concept="0" trace="ConditionChecker_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="544720822885533341" at="83,0,87,0" concept="4" trace="createEditorMenuDescriptor#(Ljetbrains/mps/nodeEditor/cellMenu/CellContext;Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/menus/EditorMenuDescriptor;" />
       <node id="380240910834179731" at="88,0,92,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="380240910834179731" at="96,0,100,0" concept="0" trace="conditionSingleRoleHandler_5shjmh_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -606,7 +606,7 @@
       <scope id="380240910834179731" at="121,42,122,50" />
       <scope id="380240910834179731" at="135,17,136,42" />
       <scope id="380240910834179731" at="139,40,140,30" />
-      <scope id="380240910834179731" at="42,96,44,18" />
+      <scope id="380240910834179731" at="42,94,44,18" />
       <scope id="544720822885533341" at="78,0,80,0" />
       <scope id="380240910834179731" at="88,40,90,33">
         <var name="provider" id="380240910834179731" />
@@ -662,26 +662,26 @@
       <scope id="380240910834179731" at="67,0,77,0" />
       <scope id="380240910834179731" at="126,44,137,7" />
       <scope id="380240910834179731" at="125,0,139,0" />
-      <unit id="380240910834179731" at="153,0,156,0" name="de.itemis.mps.structurecheck.editor.ConditionChecker_EditorBuilder_a$CONCEPTS" />
-      <unit id="380240910834179731" at="157,0,160,0" name="de.itemis.mps.structurecheck.editor.ConditionChecker_EditorBuilder_a$LINKS" />
-      <unit id="544720822885533341" at="77,0,88,0" name="de.itemis.mps.structurecheck.editor.ConditionChecker_EditorBuilder_a$ReplaceWith_IChecker_cellMenu_5shjmh_a0a0" />
-      <unit id="380240910834179731" at="92,0,143,0" name="de.itemis.mps.structurecheck.editor.ConditionChecker_EditorBuilder_a$conditionSingleRoleHandler_5shjmh_b0" />
-      <unit id="380240910834179731" at="38,0,161,0" name="de.itemis.mps.structurecheck.editor.ConditionChecker_EditorBuilder_a" />
+      <unit id="380240910834179731" at="153,0,156,0" name="de.itemis.mps.structurecheck.editor.ConditionChecker_EditorBuilder$CONCEPTS" />
+      <unit id="380240910834179731" at="157,0,160,0" name="de.itemis.mps.structurecheck.editor.ConditionChecker_EditorBuilder$LINKS" />
+      <unit id="544720822885533341" at="77,0,88,0" name="de.itemis.mps.structurecheck.editor.ConditionChecker_EditorBuilder$ReplaceWith_IChecker_cellMenu_5shjmh_a0a0" />
+      <unit id="380240910834179731" at="92,0,143,0" name="de.itemis.mps.structurecheck.editor.ConditionChecker_EditorBuilder$conditionSingleRoleHandler_5shjmh_b0" />
+      <unit id="380240910834179731" at="38,0,161,0" name="de.itemis.mps.structurecheck.editor.ConditionChecker_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:fd9e55f8-6b11-420b-98e7-91a8eff4b12e(de.itemis.mps.structurecheck.editor)/380240910834179965">
     <file name="SequenceChecker_Editor.java">
-      <node id="380240910834179965" at="11,79,12,81" concept="6" />
+      <node id="380240910834179965" at="11,79,12,79" concept="6" />
       <node id="380240910834179965" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="380240910834179965" at="11,79,12,81" />
+      <scope id="380240910834179965" at="11,79,12,79" />
       <scope id="380240910834179965" at="11,0,14,0">
         <var name="editorContext" id="380240910834179965" />
         <var name="node" id="380240910834179965" />
       </scope>
       <unit id="380240910834179965" at="10,0,15,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_Editor" />
     </file>
-    <file name="SequenceChecker_EditorBuilder_a.java">
-      <node id="380240910834179965" at="63,95,64,19" concept="8" />
+    <file name="SequenceChecker_EditorBuilder.java">
+      <node id="380240910834179965" at="63,93,64,19" concept="8" />
       <node id="380240910834179965" at="64,19,65,18" concept="1" />
       <node id="380240910834179965" at="70,26,71,18" concept="6" />
       <node id="380240910834179965" at="74,39,75,32" concept="6" />
@@ -855,7 +855,7 @@
       <node id="380240910834179965" at="273,0,276,0" concept="4" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="380240910834179965" at="277,0,280,0" concept="4" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="380240910834179965" at="320,96,323,9" concept="3" />
-      <node id="380240910834179965" at="63,0,67,0" concept="0" trace="SequenceChecker_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="380240910834179965" at="63,0,67,0" concept="0" trace="SequenceChecker_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="544720822885519486" at="108,0,112,0" concept="4" trace="createEditorMenuDescriptor#(Ljetbrains/mps/nodeEditor/cellMenu/CellContext;Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/menus/EditorMenuDescriptor;" />
       <node id="380240910834179965" at="113,0,117,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="380240910834179965" at="121,0,125,0" concept="0" trace="sequenceSingleRoleHandler_b9gh58_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -911,7 +911,7 @@
       <scope id="544720822885280265" at="277,73,278,194" />
       <scope id="380240910834179965" at="294,17,295,42" />
       <scope id="380240910834179965" at="321,34,322,91" />
-      <scope id="380240910834179965" at="63,95,65,18" />
+      <scope id="380240910834179965" at="63,93,65,18" />
       <scope id="544720822885519486" at="103,0,105,0" />
       <scope id="380240910834179965" at="113,40,115,33">
         <var name="provider" id="380240910834179965" />
@@ -1058,28 +1058,28 @@
         <var name="elementNode" id="380240910834179965" />
         <var name="isEmptyCell" id="380240910834179965" />
       </scope>
-      <unit id="380240910834179965" at="353,0,357,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder_a$LINKS" />
-      <unit id="380240910834179965" at="358,0,362,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder_a$PROPS" />
-      <unit id="380240910834179965" at="347,0,352,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder_a$CONCEPTS" />
-      <unit id="544720822885519486" at="102,0,113,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder_a$ReplaceWith_IChecker_cellMenu_b9gh58_a0a0" />
-      <unit id="380240910834179965" at="117,0,168,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder_a$sequenceSingleRoleHandler_b9gh58_b0" />
-      <unit id="380240910834179965" at="254,0,327,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder_a$elementsListHandler_b9gh58_b6a" />
-      <unit id="380240910834179965" at="59,0,363,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder_a" />
+      <unit id="380240910834179965" at="353,0,357,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder$LINKS" />
+      <unit id="380240910834179965" at="358,0,362,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder$PROPS" />
+      <unit id="380240910834179965" at="347,0,352,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder$CONCEPTS" />
+      <unit id="544720822885519486" at="102,0,113,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder$ReplaceWith_IChecker_cellMenu_b9gh58_a0a0" />
+      <unit id="380240910834179965" at="117,0,168,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder$sequenceSingleRoleHandler_b9gh58_b0" />
+      <unit id="380240910834179965" at="254,0,327,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder$elementsListHandler_b9gh58_b6a" />
+      <unit id="380240910834179965" at="59,0,363,0" name="de.itemis.mps.structurecheck.editor.SequenceChecker_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:fd9e55f8-6b11-420b-98e7-91a8eff4b12e(de.itemis.mps.structurecheck.editor)/380240910834213009">
     <file name="Element_Editor.java">
-      <node id="380240910834213009" at="11,79,12,73" concept="6" />
+      <node id="380240910834213009" at="11,79,12,71" concept="6" />
       <node id="380240910834213009" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="380240910834213009" at="11,79,12,73" />
+      <scope id="380240910834213009" at="11,79,12,71" />
       <scope id="380240910834213009" at="11,0,14,0">
         <var name="editorContext" id="380240910834213009" />
         <var name="node" id="380240910834213009" />
       </scope>
       <unit id="380240910834213009" at="10,0,15,0" name="de.itemis.mps.structurecheck.editor.Element_Editor" />
     </file>
-    <file name="Element_EditorBuilder_a.java">
-      <node id="380240910834213009" at="46,87,47,19" concept="8" />
+    <file name="Element_EditorBuilder.java">
+      <node id="380240910834213009" at="46,85,47,19" concept="8" />
       <node id="380240910834213009" at="47,19,48,18" concept="1" />
       <node id="380240910834213009" at="53,26,54,18" concept="6" />
       <node id="380240910834213009" at="57,39,58,32" concept="6" />
@@ -1236,7 +1236,7 @@
       <node id="380240910834213009" at="273,87,276,7" concept="3" />
       <node id="380240910834213009" at="276,7,279,7" concept="3" />
       <node id="380240910834213009" at="298,0,301,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="380240910834213009" at="46,0,50,0" concept="0" trace="Element_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="380240910834213009" at="46,0,50,0" concept="0" trace="Element_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="544720822885532816" at="90,0,94,0" concept="4" trace="createEditorMenuDescriptor#(Ljetbrains/mps/nodeEditor/cellMenu/CellContext;Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/menus/EditorMenuDescriptor;" />
       <node id="380240910834213009" at="105,0,109,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="380240910834213009" at="113,0,117,0" concept="0" trace="multiplierSingleRoleHandler_76r4mg_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -1288,7 +1288,7 @@
       <scope id="380240910834213009" at="277,42,278,49" />
       <scope id="380240910834213009" at="294,17,295,42" />
       <scope id="380240910834213009" at="298,40,299,29" />
-      <scope id="380240910834213009" at="46,87,48,18" />
+      <scope id="380240910834213009" at="46,85,48,18" />
       <scope id="544720822885532816" at="85,0,87,0" />
       <scope id="380240910834213009" at="105,40,107,33">
         <var name="provider" id="380240910834213009" />
@@ -1428,28 +1428,28 @@
       <scope id="380240910834213009" at="142,0,156,0" />
       <scope id="380240910834213009" at="206,0,220,0" />
       <scope id="380240910834213009" at="284,0,298,0" />
-      <unit id="380240910834213009" at="322,0,325,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder_a$CONCEPTS" />
-      <unit id="380240910834213009" at="326,0,331,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder_a$LINKS" />
-      <unit id="544720822885532816" at="84,0,95,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder_a$ReplaceWith_IElement_cellMenu_76r4mg_a0a0" />
-      <unit id="380240910834213009" at="109,0,160,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder_a$multiplierSingleRoleHandler_76r4mg_c0" />
-      <unit id="380240910834213009" at="173,0,224,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder_a$subtypeSingleRoleHandler_76r4mg_e0" />
-      <unit id="380240910834213009" at="248,0,302,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder_a$checkersSingleRoleHandler_76r4mg_b5a" />
-      <unit id="380240910834213009" at="42,0,332,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder_a" />
+      <unit id="380240910834213009" at="322,0,325,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder$CONCEPTS" />
+      <unit id="380240910834213009" at="326,0,331,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder$LINKS" />
+      <unit id="544720822885532816" at="84,0,95,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder$ReplaceWith_IElement_cellMenu_76r4mg_a0a0" />
+      <unit id="380240910834213009" at="109,0,160,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder$multiplierSingleRoleHandler_76r4mg_c0" />
+      <unit id="380240910834213009" at="173,0,224,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder$subtypeSingleRoleHandler_76r4mg_e0" />
+      <unit id="380240910834213009" at="248,0,302,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder$checkersSingleRoleHandler_76r4mg_b5a" />
+      <unit id="380240910834213009" at="42,0,332,0" name="de.itemis.mps.structurecheck.editor.Element_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:fd9e55f8-6b11-420b-98e7-91a8eff4b12e(de.itemis.mps.structurecheck.editor)/380240910835034757">
     <file name="CompositeChecker_Editor.java">
-      <node id="380240910835034757" at="11,79,12,82" concept="6" />
+      <node id="380240910835034757" at="11,79,12,80" concept="6" />
       <node id="380240910835034757" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="380240910835034757" at="11,79,12,82" />
+      <scope id="380240910835034757" at="11,79,12,80" />
       <scope id="380240910835034757" at="11,0,14,0">
         <var name="editorContext" id="380240910835034757" />
         <var name="node" id="380240910835034757" />
       </scope>
       <unit id="380240910835034757" at="10,0,15,0" name="de.itemis.mps.structurecheck.editor.CompositeChecker_Editor" />
     </file>
-    <file name="CompositeChecker_EditorBuilder_a.java">
-      <node id="380240910835034757" at="34,96,35,19" concept="8" />
+    <file name="CompositeChecker_EditorBuilder.java">
+      <node id="380240910835034757" at="34,94,35,19" concept="8" />
       <node id="380240910835034757" at="35,19,36,18" concept="1" />
       <node id="380240910835034757" at="41,26,42,18" concept="6" />
       <node id="380240910835034757" at="45,39,46,32" concept="6" />
@@ -1510,7 +1510,7 @@
       <node id="380240910835034757" at="86,0,89,0" concept="4" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="380240910835034757" at="90,0,93,0" concept="4" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="380240910835034757" at="133,96,136,9" concept="3" />
-      <node id="380240910835034757" at="34,0,38,0" concept="0" trace="CompositeChecker_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="380240910835034757" at="34,0,38,0" concept="0" trace="CompositeChecker_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="380240910835034757" at="71,0,75,0" concept="0" trace="checkersListHandler_9m2ggf_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="380240910835034757" at="76,0,80,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="380240910835034757" at="115,97,119,9" concept="3" />
@@ -1537,7 +1537,7 @@
       <scope id="544720822885254464" at="90,73,91,194" />
       <scope id="380240910835034757" at="107,17,108,42" />
       <scope id="380240910835034757" at="134,34,135,91" />
-      <scope id="380240910835034757" at="34,96,36,18" />
+      <scope id="380240910835034757" at="34,94,36,18" />
       <scope id="380240910835034757" at="71,82,73,25" />
       <scope id="380240910835034757" at="116,122,118,146" />
       <scope id="380240910835034757" at="122,34,124,142" />
@@ -1602,25 +1602,25 @@
         <var name="elementNode" id="380240910835034757" />
         <var name="isEmptyCell" id="380240910835034757" />
       </scope>
-      <unit id="380240910835034757" at="150,0,153,0" name="de.itemis.mps.structurecheck.editor.CompositeChecker_EditorBuilder_a$LINKS" />
-      <unit id="380240910835034757" at="154,0,157,0" name="de.itemis.mps.structurecheck.editor.CompositeChecker_EditorBuilder_a$CONCEPTS" />
-      <unit id="380240910835034757" at="67,0,149,0" name="de.itemis.mps.structurecheck.editor.CompositeChecker_EditorBuilder_a$checkersListHandler_9m2ggf_a0" />
-      <unit id="380240910835034757" at="30,0,158,0" name="de.itemis.mps.structurecheck.editor.CompositeChecker_EditorBuilder_a" />
+      <unit id="380240910835034757" at="150,0,153,0" name="de.itemis.mps.structurecheck.editor.CompositeChecker_EditorBuilder$LINKS" />
+      <unit id="380240910835034757" at="154,0,157,0" name="de.itemis.mps.structurecheck.editor.CompositeChecker_EditorBuilder$CONCEPTS" />
+      <unit id="380240910835034757" at="67,0,149,0" name="de.itemis.mps.structurecheck.editor.CompositeChecker_EditorBuilder$checkersListHandler_9m2ggf_a0" />
+      <unit id="380240910835034757" at="30,0,158,0" name="de.itemis.mps.structurecheck.editor.CompositeChecker_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:fd9e55f8-6b11-420b-98e7-91a8eff4b12e(de.itemis.mps.structurecheck.editor)/544720822884982507">
     <file name="ThisElementExpression_Editor.java">
-      <node id="544720822884982507" at="11,79,12,87" concept="6" />
+      <node id="544720822884982507" at="11,79,12,85" concept="6" />
       <node id="544720822884982507" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="544720822884982507" at="11,79,12,87" />
+      <scope id="544720822884982507" at="11,79,12,85" />
       <scope id="544720822884982507" at="11,0,14,0">
         <var name="editorContext" id="544720822884982507" />
         <var name="node" id="544720822884982507" />
       </scope>
       <unit id="544720822884982507" at="10,0,15,0" name="de.itemis.mps.structurecheck.editor.ThisElementExpression_Editor" />
     </file>
-    <file name="ThisElementExpression_EditorBuilder_a.java">
-      <node id="544720822884982507" at="19,101,20,19" concept="8" />
+    <file name="ThisElementExpression_EditorBuilder.java">
+      <node id="544720822884982507" at="19,99,20,19" concept="8" />
       <node id="544720822884982507" at="20,19,21,18" concept="1" />
       <node id="544720822884982507" at="26,26,27,18" concept="6" />
       <node id="544720822884982507" at="30,39,31,31" concept="6" />
@@ -1634,13 +1634,13 @@
       <node id="544720822884982536" at="43,40,44,22" concept="6" />
       <node id="544720822884982507" at="16,0,18,0" concept="2" trace="myNode" />
       <node id="544720822884982507" at="30,0,33,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="544720822884982507" at="19,0,23,0" concept="0" trace="ThisElementExpression_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="544720822884982507" at="19,0,23,0" concept="0" trace="ThisElementExpression_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="544720822884982536" at="36,72,40,5" concept="3" />
       <node id="544720822884982507" at="24,0,29,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="544720822884982536" at="34,0,46,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="544720822884982507" at="26,26,27,18" />
       <scope id="544720822884982507" at="30,39,31,31" />
-      <scope id="544720822884982507" at="19,101,21,18" />
+      <scope id="544720822884982507" at="19,99,21,18" />
       <scope id="544720822884982536" at="37,26,39,30" />
       <scope id="544720822884982507" at="30,0,33,0" />
       <scope id="544720822884982507" at="19,0,23,0">
@@ -1654,22 +1654,22 @@
         <var name="style" id="544720822884982536" />
       </scope>
       <scope id="544720822884982536" at="34,0,46,0" />
-      <unit id="544720822884982507" at="15,0,47,0" name="de.itemis.mps.structurecheck.editor.ThisElementExpression_EditorBuilder_a" />
+      <unit id="544720822884982507" at="15,0,47,0" name="de.itemis.mps.structurecheck.editor.ThisElementExpression_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:fd9e55f8-6b11-420b-98e7-91a8eff4b12e(de.itemis.mps.structurecheck.editor)/544720822885145470">
     <file name="EmptyChecker_Editor.java">
-      <node id="544720822885145470" at="11,79,12,78" concept="6" />
+      <node id="544720822885145470" at="11,79,12,76" concept="6" />
       <node id="544720822885145470" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="544720822885145470" at="11,79,12,78" />
+      <scope id="544720822885145470" at="11,79,12,76" />
       <scope id="544720822885145470" at="11,0,14,0">
         <var name="editorContext" id="544720822885145470" />
         <var name="node" id="544720822885145470" />
       </scope>
       <unit id="544720822885145470" at="10,0,15,0" name="de.itemis.mps.structurecheck.editor.EmptyChecker_Editor" />
     </file>
-    <file name="EmptyChecker_EditorBuilder_a.java">
-      <node id="544720822885145470" at="19,92,20,19" concept="8" />
+    <file name="EmptyChecker_EditorBuilder.java">
+      <node id="544720822885145470" at="19,90,20,19" concept="8" />
       <node id="544720822885145470" at="20,19,21,18" concept="1" />
       <node id="544720822885145470" at="26,26,27,18" concept="6" />
       <node id="544720822885145470" at="30,39,31,30" concept="6" />
@@ -1684,12 +1684,12 @@
       <node id="544720822885145472" at="42,34,43,22" concept="6" />
       <node id="544720822885145470" at="16,0,18,0" concept="2" trace="myNode" />
       <node id="544720822885145470" at="30,0,33,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="544720822885145470" at="19,0,23,0" concept="0" trace="EmptyChecker_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="544720822885145470" at="19,0,23,0" concept="0" trace="EmptyChecker_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="544720822885145470" at="24,0,29,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="544720822885145472" at="34,0,45,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="544720822885145470" at="26,26,27,18" />
       <scope id="544720822885145470" at="30,39,31,30" />
-      <scope id="544720822885145470" at="19,92,21,18" />
+      <scope id="544720822885145470" at="19,90,21,18" />
       <scope id="544720822885145470" at="30,0,33,0" />
       <scope id="544720822885145470" at="19,0,23,0">
         <var name="context" id="544720822885145470" />
@@ -1701,7 +1701,7 @@
         <var name="style" id="544720822885145472" />
       </scope>
       <scope id="544720822885145472" at="34,0,45,0" />
-      <unit id="544720822885145470" at="15,0,46,0" name="de.itemis.mps.structurecheck.editor.EmptyChecker_EditorBuilder_a" />
+      <unit id="544720822885145470" at="15,0,46,0" name="de.itemis.mps.structurecheck.editor.EmptyChecker_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:fd9e55f8-6b11-420b-98e7-91a8eff4b12e(de.itemis.mps.structurecheck.editor)/544720822885254186">
@@ -1715,17 +1715,17 @@
   </root>
   <root nodeRef="r:fd9e55f8-6b11-420b-98e7-91a8eff4b12e(de.itemis.mps.structurecheck.editor)/544720822885280015">
     <file name="EmptyElement_Editor.java">
-      <node id="544720822885280015" at="11,79,12,78" concept="6" />
+      <node id="544720822885280015" at="11,79,12,76" concept="6" />
       <node id="544720822885280015" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="544720822885280015" at="11,79,12,78" />
+      <scope id="544720822885280015" at="11,79,12,76" />
       <scope id="544720822885280015" at="11,0,14,0">
         <var name="editorContext" id="544720822885280015" />
         <var name="node" id="544720822885280015" />
       </scope>
       <unit id="544720822885280015" at="10,0,15,0" name="de.itemis.mps.structurecheck.editor.EmptyElement_Editor" />
     </file>
-    <file name="EmptyElement_EditorBuilder_a.java">
-      <node id="544720822885280015" at="19,92,20,19" concept="8" />
+    <file name="EmptyElement_EditorBuilder.java">
+      <node id="544720822885280015" at="19,90,20,19" concept="8" />
       <node id="544720822885280015" at="20,19,21,18" concept="1" />
       <node id="544720822885280015" at="26,26,27,18" concept="6" />
       <node id="544720822885280015" at="30,39,31,30" concept="6" />
@@ -1740,12 +1740,12 @@
       <node id="544720822885280017" at="42,34,43,22" concept="6" />
       <node id="544720822885280015" at="16,0,18,0" concept="2" trace="myNode" />
       <node id="544720822885280015" at="30,0,33,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="544720822885280015" at="19,0,23,0" concept="0" trace="EmptyElement_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="544720822885280015" at="19,0,23,0" concept="0" trace="EmptyElement_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="544720822885280015" at="24,0,29,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="544720822885280017" at="34,0,45,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="544720822885280015" at="26,26,27,18" />
       <scope id="544720822885280015" at="30,39,31,30" />
-      <scope id="544720822885280015" at="19,92,21,18" />
+      <scope id="544720822885280015" at="19,90,21,18" />
       <scope id="544720822885280015" at="30,0,33,0" />
       <scope id="544720822885280015" at="19,0,23,0">
         <var name="context" id="544720822885280015" />
@@ -1757,7 +1757,7 @@
         <var name="style" id="544720822885280017" />
       </scope>
       <scope id="544720822885280017" at="34,0,45,0" />
-      <unit id="544720822885280015" at="15,0,46,0" name="de.itemis.mps.structurecheck.editor.EmptyElement_EditorBuilder_a" />
+      <unit id="544720822885280015" at="15,0,46,0" name="de.itemis.mps.structurecheck.editor.EmptyElement_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:fd9e55f8-6b11-420b-98e7-91a8eff4b12e(de.itemis.mps.structurecheck.editor)/544720822885387821">

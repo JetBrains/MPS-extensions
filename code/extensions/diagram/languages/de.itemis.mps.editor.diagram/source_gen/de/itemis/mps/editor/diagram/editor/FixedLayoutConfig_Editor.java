@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class FixedLayoutConfig_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new FixedLayoutConfig_EditorBuilder_a(editorContext, node).createCell();
+    return new FixedLayoutConfig_EditorBuilder(editorContext, node).createCell();
   }
 }

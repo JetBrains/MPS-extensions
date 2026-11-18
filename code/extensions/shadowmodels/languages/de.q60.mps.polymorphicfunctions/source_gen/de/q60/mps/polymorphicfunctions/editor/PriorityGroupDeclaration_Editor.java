@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class PriorityGroupDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new PriorityGroupDeclaration_EditorBuilder_a(editorContext, node).createCell();
+    return new PriorityGroupDeclaration_EditorBuilder(editorContext, node).createCell();
   }
 }

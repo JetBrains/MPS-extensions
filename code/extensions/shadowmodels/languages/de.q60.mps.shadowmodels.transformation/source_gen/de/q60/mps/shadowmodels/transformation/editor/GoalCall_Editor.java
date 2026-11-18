@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class GoalCall_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new GoalCall_EditorBuilder_a(editorContext, node).createCell();
+    return new GoalCall_EditorBuilder(editorContext, node).createCell();
   }
 }

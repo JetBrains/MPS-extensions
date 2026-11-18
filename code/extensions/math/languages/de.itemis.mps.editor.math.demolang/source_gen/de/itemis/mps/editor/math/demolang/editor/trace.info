@@ -24,17 +24,17 @@
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/1330709772460739888">
     <file name="Power_Editor.java">
-      <node id="1330709772460739888" at="11,79,12,71" concept="8" />
+      <node id="1330709772460739888" at="11,79,12,69" concept="8" />
       <node id="1330709772460739888" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1330709772460739888" at="11,79,12,71" />
+      <scope id="1330709772460739888" at="11,79,12,69" />
       <scope id="1330709772460739888" at="11,0,14,0">
         <var name="editorContext" id="1330709772460739888" />
         <var name="node" id="1330709772460739888" />
       </scope>
       <unit id="1330709772460739888" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Power_Editor" />
     </file>
-    <file name="Power_EditorBuilder_a.java">
-      <node id="1330709772460739888" at="38,85,39,19" concept="11" />
+    <file name="Power_EditorBuilder.java">
+      <node id="1330709772460739888" at="38,83,39,19" concept="11" />
       <node id="1330709772460739888" at="39,19,40,18" concept="2" />
       <node id="1330709772460739888" at="45,26,46,18" concept="8" />
       <node id="1330709772460739888" at="49,39,50,30" concept="8" />
@@ -136,7 +136,7 @@
       <node id="1330709772460739888" at="207,87,210,7" concept="5" />
       <node id="1330709772460739888" at="210,7,213,7" concept="5" />
       <node id="1330709772460739888" at="229,0,232,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="1330709772460739888" at="38,0,42,0" concept="1" trace="Power_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1330709772460739888" at="38,0,42,0" concept="1" trace="Power_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1330709772460739888" at="62,198,66,9" concept="5" />
       <node id="1330709772460739888" at="69,0,73,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="1330709772460739888" at="123,0,127,0" concept="6" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -177,7 +177,7 @@
       <scope id="1330709772460739888" at="211,42,212,49" />
       <scope id="1330709772460739888" at="225,17,226,42" />
       <scope id="1330709772460739888" at="229,40,230,29" />
-      <scope id="1330709772460739888" at="38,85,40,18" />
+      <scope id="1330709772460739888" at="38,83,40,18" />
       <scope id="1330709772460739888" at="63,73,65,66" />
       <scope id="1330709772460739888" at="123,40,125,33">
         <var name="provider" id="1330709772460739888" />
@@ -293,27 +293,27 @@
         <var name="editorContext" id="1330709772460739888" />
         <var name="node" id="1330709772460739888" />
       </scope>
-      <unit id="1330709772460739888" at="234,0,238,0" name="de.itemis.mps.editor.math.demolang.editor.Power_EditorBuilder_a$LINKS" />
-      <unit id="1330709772460739888" at="56,32,73,5" name="de.itemis.mps.editor.math.demolang.editor.Power_EditorBuilder_a$1" />
-      <unit id="1330709772460739888" at="74,41,111,5" name="de.itemis.mps.editor.math.demolang.editor.Power_EditorBuilder_a$2" />
-      <unit id="1330709772460739888" at="127,0,178,0" name="de.itemis.mps.editor.math.demolang.editor.Power_EditorBuilder_a$baseSingleRoleHandler_dq9zpv_a0a" />
-      <unit id="1330709772460739888" at="182,0,233,0" name="de.itemis.mps.editor.math.demolang.editor.Power_EditorBuilder_a$exponentSingleRoleHandler_dq9zpv_a1a" />
-      <unit id="1330709772460739888" at="34,0,239,0" name="de.itemis.mps.editor.math.demolang.editor.Power_EditorBuilder_a" />
+      <unit id="1330709772460739888" at="234,0,238,0" name="de.itemis.mps.editor.math.demolang.editor.Power_EditorBuilder$LINKS" />
+      <unit id="1330709772460739888" at="56,32,73,5" name="de.itemis.mps.editor.math.demolang.editor.Power_EditorBuilder$1" />
+      <unit id="1330709772460739888" at="74,41,111,5" name="de.itemis.mps.editor.math.demolang.editor.Power_EditorBuilder$2" />
+      <unit id="1330709772460739888" at="127,0,178,0" name="de.itemis.mps.editor.math.demolang.editor.Power_EditorBuilder$baseSingleRoleHandler_dq9zpv_a0a" />
+      <unit id="1330709772460739888" at="182,0,233,0" name="de.itemis.mps.editor.math.demolang.editor.Power_EditorBuilder$exponentSingleRoleHandler_dq9zpv_a1a" />
+      <unit id="1330709772460739888" at="34,0,239,0" name="de.itemis.mps.editor.math.demolang.editor.Power_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/175930839491943185">
     <file name="Sum_Editor.java">
-      <node id="175930839491943185" at="11,79,12,69" concept="8" />
+      <node id="175930839491943185" at="11,79,12,67" concept="8" />
       <node id="175930839491943185" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="175930839491943185" at="11,79,12,69" />
+      <scope id="175930839491943185" at="11,79,12,67" />
       <scope id="175930839491943185" at="11,0,14,0">
         <var name="editorContext" id="175930839491943185" />
         <var name="node" id="175930839491943185" />
       </scope>
       <unit id="175930839491943185" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Sum_Editor" />
     </file>
-    <file name="Sum_EditorBuilder_a.java">
-      <node id="175930839491943185" at="42,83,43,19" concept="11" />
+    <file name="Sum_EditorBuilder.java">
+      <node id="175930839491943185" at="42,81,43,19" concept="11" />
       <node id="175930839491943185" at="43,19,44,18" concept="2" />
       <node id="175930839491943185" at="49,26,50,18" concept="8" />
       <node id="175930839491943185" at="53,39,54,30" concept="8" />
@@ -494,7 +494,7 @@
       <node id="175930839491943185" at="330,87,333,7" concept="5" />
       <node id="175930839491943185" at="333,7,336,7" concept="5" />
       <node id="175930839491943185" at="352,0,355,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="175930839491943185" at="42,0,46,0" concept="1" trace="Sum_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="175930839491943185" at="42,0,46,0" concept="1" trace="Sum_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="175930839491943185" at="124,0,128,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="175930839491943185" at="145,9,149,9" concept="5" />
       <node id="175930839491943185" at="151,0,155,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;)V" />
@@ -554,7 +554,7 @@
       <scope id="175930839491943185" at="334,42,335,45" />
       <scope id="175930839491943185" at="348,17,349,42" />
       <scope id="175930839491943185" at="352,40,353,25" />
-      <scope id="175930839491943185" at="42,83,44,18" />
+      <scope id="175930839491943185" at="42,81,44,18" />
       <scope id="175930839491943185" at="146,40,148,64" />
       <scope id="175930839491943185" at="191,40,193,33">
         <var name="provider" id="175930839491943185" />
@@ -714,13 +714,13 @@
         <var name="editorContext" id="175930839491943185" />
         <var name="node" id="175930839491943185" />
       </scope>
-      <unit id="175930839491943185" at="357,0,362,0" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder_a$LINKS" />
-      <unit id="175930839491943185" at="129,41,178,5" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder_a$2" />
-      <unit id="175930839491943185" at="78,32,128,5" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder_a$1" />
-      <unit id="175930839491943185" at="195,0,246,0" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder_a$lowerSingleRoleHandler_axrk0g_a0a" />
-      <unit id="175930839491943185" at="250,0,301,0" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder_a$upperSingleRoleHandler_axrk0g_a1a" />
-      <unit id="175930839491943185" at="305,0,356,0" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder_a$bodySingleRoleHandler_axrk0g_a2a" />
-      <unit id="175930839491943185" at="38,0,363,0" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder_a" />
+      <unit id="175930839491943185" at="357,0,362,0" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder$LINKS" />
+      <unit id="175930839491943185" at="129,41,178,5" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder$2" />
+      <unit id="175930839491943185" at="78,32,128,5" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder$1" />
+      <unit id="175930839491943185" at="195,0,246,0" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder$lowerSingleRoleHandler_axrk0g_a0a" />
+      <unit id="175930839491943185" at="250,0,301,0" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder$upperSingleRoleHandler_axrk0g_a1a" />
+      <unit id="175930839491943185" at="305,0,356,0" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder$bodySingleRoleHandler_axrk0g_a2a" />
+      <unit id="175930839491943185" at="38,0,363,0" name="de.itemis.mps.editor.math.demolang.editor.Sum_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/4432183239162211966">
@@ -860,17 +860,17 @@
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/476096775484143131">
     <file name="Subscript_Editor.java">
-      <node id="476096775484143131" at="11,79,12,75" concept="8" />
+      <node id="476096775484143131" at="11,79,12,73" concept="8" />
       <node id="476096775484143131" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="476096775484143131" at="11,79,12,75" />
+      <scope id="476096775484143131" at="11,79,12,73" />
       <scope id="476096775484143131" at="11,0,14,0">
         <var name="editorContext" id="476096775484143131" />
         <var name="node" id="476096775484143131" />
       </scope>
       <unit id="476096775484143131" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Subscript_Editor" />
     </file>
-    <file name="Subscript_EditorBuilder_a.java">
-      <node id="476096775484143131" at="38,89,39,19" concept="11" />
+    <file name="Subscript_EditorBuilder.java">
+      <node id="476096775484143131" at="38,87,39,19" concept="11" />
       <node id="476096775484143131" at="39,19,40,18" concept="2" />
       <node id="476096775484143131" at="45,26,46,18" concept="8" />
       <node id="476096775484143131" at="49,39,50,30" concept="8" />
@@ -967,7 +967,7 @@
       <node id="476096775484143131" at="200,87,203,7" concept="5" />
       <node id="476096775484143131" at="203,7,206,7" concept="5" />
       <node id="476096775484143131" at="222,0,225,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="476096775484143131" at="38,0,42,0" concept="1" trace="Subscript_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="476096775484143131" at="38,0,42,0" concept="1" trace="Subscript_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="476096775484143131" at="66,0,70,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="476096775484143131" at="116,0,120,0" concept="6" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="476096775484143131" at="124,0,128,0" concept="1" trace="baseSingleRoleHandler_bwrhrk_a0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -1007,7 +1007,7 @@
       <scope id="476096775484143131" at="204,42,205,44" />
       <scope id="476096775484143131" at="218,17,219,42" />
       <scope id="476096775484143131" at="222,40,223,24" />
-      <scope id="476096775484143131" at="38,89,40,18" />
+      <scope id="476096775484143131" at="38,87,40,18" />
       <scope id="476096775484143131" at="116,40,118,33">
         <var name="provider" id="476096775484143131" />
       </scope>
@@ -1122,27 +1122,27 @@
         <var name="editorContext" id="476096775484143131" />
         <var name="node" id="476096775484143131" />
       </scope>
-      <unit id="476096775484143131" at="227,0,231,0" name="de.itemis.mps.editor.math.demolang.editor.Subscript_EditorBuilder_a$LINKS" />
-      <unit id="476096775484143131" at="56,32,70,5" name="de.itemis.mps.editor.math.demolang.editor.Subscript_EditorBuilder_a$1" />
-      <unit id="476096775484143131" at="71,41,104,5" name="de.itemis.mps.editor.math.demolang.editor.Subscript_EditorBuilder_a$2" />
-      <unit id="476096775484143131" at="120,0,171,0" name="de.itemis.mps.editor.math.demolang.editor.Subscript_EditorBuilder_a$baseSingleRoleHandler_bwrhrk_a0a" />
-      <unit id="476096775484143131" at="175,0,226,0" name="de.itemis.mps.editor.math.demolang.editor.Subscript_EditorBuilder_a$subSingleRoleHandler_bwrhrk_a1a" />
-      <unit id="476096775484143131" at="34,0,232,0" name="de.itemis.mps.editor.math.demolang.editor.Subscript_EditorBuilder_a" />
+      <unit id="476096775484143131" at="227,0,231,0" name="de.itemis.mps.editor.math.demolang.editor.Subscript_EditorBuilder$LINKS" />
+      <unit id="476096775484143131" at="56,32,70,5" name="de.itemis.mps.editor.math.demolang.editor.Subscript_EditorBuilder$1" />
+      <unit id="476096775484143131" at="71,41,104,5" name="de.itemis.mps.editor.math.demolang.editor.Subscript_EditorBuilder$2" />
+      <unit id="476096775484143131" at="120,0,171,0" name="de.itemis.mps.editor.math.demolang.editor.Subscript_EditorBuilder$baseSingleRoleHandler_bwrhrk_a0a" />
+      <unit id="476096775484143131" at="175,0,226,0" name="de.itemis.mps.editor.math.demolang.editor.Subscript_EditorBuilder$subSingleRoleHandler_bwrhrk_a1a" />
+      <unit id="476096775484143131" at="34,0,232,0" name="de.itemis.mps.editor.math.demolang.editor.Subscript_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/5715455775464344138">
     <file name="Integral2_Editor.java">
-      <node id="5715455775464344138" at="11,79,12,75" concept="8" />
+      <node id="5715455775464344138" at="11,79,12,73" concept="8" />
       <node id="5715455775464344138" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5715455775464344138" at="11,79,12,75" />
+      <scope id="5715455775464344138" at="11,79,12,73" />
       <scope id="5715455775464344138" at="11,0,14,0">
         <var name="editorContext" id="5715455775464344138" />
         <var name="node" id="5715455775464344138" />
       </scope>
       <unit id="5715455775464344138" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Integral2_Editor" />
     </file>
-    <file name="Integral2_EditorBuilder_a.java">
-      <node id="5715455775464344138" at="45,89,46,19" concept="11" />
+    <file name="Integral2_EditorBuilder.java">
+      <node id="5715455775464344138" at="45,87,46,19" concept="11" />
       <node id="5715455775464344138" at="46,19,47,18" concept="2" />
       <node id="5715455775464344138" at="52,26,53,18" concept="8" />
       <node id="5715455775464344138" at="56,39,57,30" concept="8" />
@@ -1329,7 +1329,7 @@
       <node id="5715455775464344138" at="333,87,336,7" concept="5" />
       <node id="5715455775464344138" at="336,7,339,7" concept="5" />
       <node id="5715455775464344138" at="355,0,358,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="5715455775464344138" at="45,0,49,0" concept="1" trace="Integral2_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5715455775464344138" at="45,0,49,0" concept="1" trace="Integral2_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5715455775464344138" at="127,0,131,9" concept="5" />
       <node id="5715455775464344138" at="174,0,178,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="5715455775464344138" at="195,9,199,9" concept="5" />
@@ -1390,7 +1390,7 @@
       <scope id="5715455775464344138" at="337,42,338,49" />
       <scope id="5715455775464344138" at="351,17,352,42" />
       <scope id="5715455775464344138" at="355,40,356,29" />
-      <scope id="5715455775464344138" at="45,89,47,18" />
+      <scope id="5715455775464344138" at="45,87,47,18" />
       <scope id="5715455775464344138" at="84,0,86,0">
         <var name="dimension" id="5715455775464344138" />
       </scope>
@@ -1542,28 +1542,28 @@
         <var name="editorContext" id="5715455775464344138" />
         <var name="node" id="5715455775464344138" />
       </scope>
-      <unit id="5715455775464344138" at="360,0,364,0" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder_a$LINKS" />
-      <unit id="5715455775464344138" at="83,19,95,7" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder_a$1" />
-      <unit id="5715455775464344138" at="253,0,304,0" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder_a$bodySingleRoleHandler_ae9vk3_a2a" />
-      <unit id="5715455775464344138" at="308,0,359,0" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder_a$variableSingleRoleHandler_ae9vk3_a3a" />
-      <unit id="5715455775464344138" at="179,41,237,5" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder_a$3" />
-      <unit id="5715455775464344138" at="98,32,178,5" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder_a$2" />
-      <unit id="5715455775464344138" at="41,0,365,0" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder_a" />
+      <unit id="5715455775464344138" at="360,0,364,0" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder$LINKS" />
+      <unit id="5715455775464344138" at="83,19,95,7" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder$1" />
+      <unit id="5715455775464344138" at="253,0,304,0" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder$bodySingleRoleHandler_ae9vk3_a2a" />
+      <unit id="5715455775464344138" at="308,0,359,0" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder$variableSingleRoleHandler_ae9vk3_a3a" />
+      <unit id="5715455775464344138" at="179,41,237,5" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder$3" />
+      <unit id="5715455775464344138" at="98,32,178,5" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder$2" />
+      <unit id="5715455775464344138" at="41,0,365,0" name="de.itemis.mps.editor.math.demolang.editor.Integral2_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/5715455775466585034">
     <file name="Integral3_Editor.java">
-      <node id="5715455775466585034" at="11,79,12,75" concept="8" />
+      <node id="5715455775466585034" at="11,79,12,73" concept="8" />
       <node id="5715455775466585034" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5715455775466585034" at="11,79,12,75" />
+      <scope id="5715455775466585034" at="11,79,12,73" />
       <scope id="5715455775466585034" at="11,0,14,0">
         <var name="editorContext" id="5715455775466585034" />
         <var name="node" id="5715455775466585034" />
       </scope>
       <unit id="5715455775466585034" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Integral3_Editor" />
     </file>
-    <file name="Integral3_EditorBuilder_a.java">
-      <node id="5715455775466585034" at="45,89,46,19" concept="11" />
+    <file name="Integral3_EditorBuilder.java">
+      <node id="5715455775466585034" at="45,87,46,19" concept="11" />
       <node id="5715455775466585034" at="46,19,47,18" concept="2" />
       <node id="5715455775466585034" at="52,26,53,18" concept="8" />
       <node id="5715455775466585034" at="56,39,57,30" concept="8" />
@@ -1750,7 +1750,7 @@
       <node id="5715455775466585034" at="333,87,336,7" concept="5" />
       <node id="5715455775466585034" at="336,7,339,7" concept="5" />
       <node id="5715455775466585034" at="355,0,358,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="5715455775466585034" at="45,0,49,0" concept="1" trace="Integral3_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5715455775466585034" at="45,0,49,0" concept="1" trace="Integral3_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5715455775466585034" at="127,0,131,9" concept="5" />
       <node id="5715455775466585034" at="174,0,178,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="5715455775466585034" at="195,9,199,9" concept="5" />
@@ -1811,7 +1811,7 @@
       <scope id="5715455775466585034" at="337,42,338,45" />
       <scope id="5715455775466585034" at="351,17,352,42" />
       <scope id="5715455775466585034" at="355,40,356,25" />
-      <scope id="5715455775466585034" at="45,89,47,18" />
+      <scope id="5715455775466585034" at="45,87,47,18" />
       <scope id="5715455775466585034" at="84,0,86,0">
         <var name="dimension" id="5715455775466585034" />
       </scope>
@@ -1963,28 +1963,28 @@
         <var name="editorContext" id="5715455775466585034" />
         <var name="node" id="5715455775466585034" />
       </scope>
-      <unit id="5715455775466585034" at="360,0,364,0" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder_a$LINKS" />
-      <unit id="5715455775466585034" at="83,19,95,7" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder_a$1" />
-      <unit id="5715455775466585034" at="253,0,304,0" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder_a$fromSingleRoleHandler_ot3436_a0a" />
-      <unit id="5715455775466585034" at="308,0,359,0" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder_a$bodySingleRoleHandler_ot3436_a2a" />
-      <unit id="5715455775466585034" at="179,41,237,5" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder_a$3" />
-      <unit id="5715455775466585034" at="98,32,178,5" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder_a$2" />
-      <unit id="5715455775466585034" at="41,0,365,0" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder_a" />
+      <unit id="5715455775466585034" at="360,0,364,0" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder$LINKS" />
+      <unit id="5715455775466585034" at="83,19,95,7" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder$1" />
+      <unit id="5715455775466585034" at="253,0,304,0" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder$fromSingleRoleHandler_ot3436_a0a" />
+      <unit id="5715455775466585034" at="308,0,359,0" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder$bodySingleRoleHandler_ot3436_a2a" />
+      <unit id="5715455775466585034" at="179,41,237,5" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder$3" />
+      <unit id="5715455775466585034" at="98,32,178,5" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder$2" />
+      <unit id="5715455775466585034" at="41,0,365,0" name="de.itemis.mps.editor.math.demolang.editor.Integral3_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/5715455775466704921">
     <file name="Integral4_Editor.java">
-      <node id="5715455775466704921" at="11,79,12,75" concept="8" />
+      <node id="5715455775466704921" at="11,79,12,73" concept="8" />
       <node id="5715455775466704921" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5715455775466704921" at="11,79,12,75" />
+      <scope id="5715455775466704921" at="11,79,12,73" />
       <scope id="5715455775466704921" at="11,0,14,0">
         <var name="editorContext" id="5715455775466704921" />
         <var name="node" id="5715455775466704921" />
       </scope>
       <unit id="5715455775466704921" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Integral4_Editor" />
     </file>
-    <file name="Integral4_EditorBuilder_a.java">
-      <node id="5715455775466704921" at="45,89,46,19" concept="11" />
+    <file name="Integral4_EditorBuilder.java">
+      <node id="5715455775466704921" at="45,87,46,19" concept="11" />
       <node id="5715455775466704921" at="46,19,47,18" concept="2" />
       <node id="5715455775466704921" at="52,26,53,18" concept="8" />
       <node id="5715455775466704921" at="56,39,57,30" concept="8" />
@@ -2171,7 +2171,7 @@
       <node id="5715455775466704921" at="333,87,336,7" concept="5" />
       <node id="5715455775466704921" at="336,7,339,7" concept="5" />
       <node id="5715455775466704921" at="355,0,358,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="5715455775466704921" at="45,0,49,0" concept="1" trace="Integral4_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5715455775466704921" at="45,0,49,0" concept="1" trace="Integral4_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5715455775466704921" at="127,0,131,9" concept="5" />
       <node id="5715455775466704921" at="174,0,178,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="5715455775466704921" at="195,9,199,9" concept="5" />
@@ -2232,7 +2232,7 @@
       <scope id="5715455775466704921" at="337,42,338,45" />
       <scope id="5715455775466704921" at="351,17,352,42" />
       <scope id="5715455775466704921" at="355,40,356,25" />
-      <scope id="5715455775466704921" at="45,89,47,18" />
+      <scope id="5715455775466704921" at="45,87,47,18" />
       <scope id="5715455775466704921" at="84,0,86,0">
         <var name="dimension" id="5715455775466704921" />
       </scope>
@@ -2384,13 +2384,13 @@
         <var name="editorContext" id="5715455775466704921" />
         <var name="node" id="5715455775466704921" />
       </scope>
-      <unit id="5715455775466704921" at="360,0,364,0" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder_a$LINKS" />
-      <unit id="5715455775466704921" at="83,19,95,7" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder_a$1" />
-      <unit id="5715455775466704921" at="253,0,304,0" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder_a$toSingleRoleHandler_3pcbmq_a1a" />
-      <unit id="5715455775466704921" at="308,0,359,0" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder_a$bodySingleRoleHandler_3pcbmq_a2a" />
-      <unit id="5715455775466704921" at="179,41,237,5" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder_a$3" />
-      <unit id="5715455775466704921" at="98,32,178,5" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder_a$2" />
-      <unit id="5715455775466704921" at="41,0,365,0" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder_a" />
+      <unit id="5715455775466704921" at="360,0,364,0" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder$LINKS" />
+      <unit id="5715455775466704921" at="83,19,95,7" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder$1" />
+      <unit id="5715455775466704921" at="253,0,304,0" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder$toSingleRoleHandler_3pcbmq_a1a" />
+      <unit id="5715455775466704921" at="308,0,359,0" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder$bodySingleRoleHandler_3pcbmq_a2a" />
+      <unit id="5715455775466704921" at="179,41,237,5" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder$3" />
+      <unit id="5715455775466704921" at="98,32,178,5" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder$2" />
+      <unit id="5715455775466704921" at="41,0,365,0" name="de.itemis.mps.editor.math.demolang.editor.Integral4_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/6744560145348108928">
@@ -2398,17 +2398,17 @@
       <node id="4432183239162270771" at="11,0,12,0" concept="10" trace="PRESENTATION_hd4n8i_a0a0a" />
     </file>
     <file name="SumRef_Editor.java">
-      <node id="6744560145348108928" at="11,79,12,72" concept="8" />
+      <node id="6744560145348108928" at="11,79,12,70" concept="8" />
       <node id="6744560145348108928" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6744560145348108928" at="11,79,12,72" />
+      <scope id="6744560145348108928" at="11,79,12,70" />
       <scope id="6744560145348108928" at="11,0,14,0">
         <var name="editorContext" id="6744560145348108928" />
         <var name="node" id="6744560145348108928" />
       </scope>
       <unit id="6744560145348108928" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.SumRef_Editor" />
     </file>
-    <file name="SumRef_EditorBuilder_a.java">
-      <node id="6744560145348108928" at="47,86,48,19" concept="11" />
+    <file name="SumRef_EditorBuilder.java">
+      <node id="6744560145348108928" at="47,84,48,19" concept="11" />
       <node id="6744560145348108928" at="48,19,49,18" concept="2" />
       <node id="6744560145348108928" at="54,26,55,18" concept="8" />
       <node id="6744560145348108928" at="58,39,59,32" concept="8" />
@@ -2474,7 +2474,7 @@
       <node id="4432183239162270769" at="152,0,154,0" concept="1" trace="SumRef_sum_cellMenu_hd4n8i_a0a0#()V" />
       <node id="6744560145348108928" at="58,0,61,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6744560145348124287" at="116,0,119,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6744560145348108928" at="47,0,51,0" concept="1" trace="SumRef_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6744560145348108928" at="47,0,51,0" concept="1" trace="SumRef_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6744560145348108928" at="91,0,95,5" concept="5" />
       <node id="6744560145348108928" at="52,0,57,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6744560145348108928" at="98,205,103,22" concept="5" />
@@ -2498,7 +2498,7 @@
       <scope id="6744560145348124292" at="146,17,147,42" />
       <scope id="4432183239162270769" at="156,71,157,61" />
       <scope id="4432183239162270769" at="161,78,162,61" />
-      <scope id="6744560145348108928" at="47,86,49,18" />
+      <scope id="6744560145348108928" at="47,84,49,18" />
       <scope id="6744560145348108928" at="92,40,94,42" />
       <scope id="6744560145348108928" at="99,73,101,145">
         <var name="manager" id="6744560145348108928" />
@@ -2556,28 +2556,28 @@
         <var name="referenceLink" id="6744560145348108928" />
       </scope>
       <scope id="6744560145348108928" at="70,0,105,0" />
-      <unit id="6744560145348108928" at="166,0,169,0" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder_a$LINKS" />
-      <unit id="6744560145348108928" at="175,0,178,0" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder_a$PROPS" />
-      <unit id="6744560145348108928" at="170,0,174,0" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder_a$CONCEPTS" />
-      <unit id="4432183239162270769" at="151,0,165,0" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder_a$SumRef_sum_cellMenu_hd4n8i_a0a0" />
-      <unit id="6744560145348108928" at="72,42,87,5" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder_a$1" />
-      <unit id="6744560145348124287" at="105,0,151,0" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder_a$Inline_Builder0" />
-      <unit id="6744560145348108928" at="43,0,179,0" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder_a" />
+      <unit id="6744560145348108928" at="166,0,169,0" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder$LINKS" />
+      <unit id="6744560145348108928" at="175,0,178,0" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder$PROPS" />
+      <unit id="6744560145348108928" at="170,0,174,0" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder$CONCEPTS" />
+      <unit id="4432183239162270769" at="151,0,165,0" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder$SumRef_sum_cellMenu_hd4n8i_a0a0" />
+      <unit id="6744560145348108928" at="72,42,87,5" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder$1" />
+      <unit id="6744560145348124287" at="105,0,151,0" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder$Inline_Builder0" />
+      <unit id="6744560145348108928" at="43,0,179,0" name="de.itemis.mps.editor.math.demolang.editor.SumRef_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/8081971784012759290">
     <file name="NRoot_Editor.java">
-      <node id="8081971784012759290" at="11,79,12,71" concept="8" />
+      <node id="8081971784012759290" at="11,79,12,69" concept="8" />
       <node id="8081971784012759290" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8081971784012759290" at="11,79,12,71" />
+      <scope id="8081971784012759290" at="11,79,12,69" />
       <scope id="8081971784012759290" at="11,0,14,0">
         <var name="editorContext" id="8081971784012759290" />
         <var name="node" id="8081971784012759290" />
       </scope>
       <unit id="8081971784012759290" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.NRoot_Editor" />
     </file>
-    <file name="NRoot_EditorBuilder_a.java">
-      <node id="8081971784012759290" at="40,85,41,19" concept="11" />
+    <file name="NRoot_EditorBuilder.java">
+      <node id="8081971784012759290" at="40,83,41,19" concept="11" />
       <node id="8081971784012759290" at="41,19,42,18" concept="2" />
       <node id="8081971784012759290" at="47,26,48,18" concept="8" />
       <node id="8081971784012759290" at="51,39,52,30" concept="8" />
@@ -2725,7 +2725,7 @@
       <node id="8081971784012759290" at="264,87,267,7" concept="5" />
       <node id="8081971784012759290" at="267,7,270,7" concept="5" />
       <node id="8081971784012759290" at="286,0,289,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8081971784012759290" at="40,0,44,0" concept="1" trace="NRoot_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8081971784012759290" at="40,0,44,0" concept="1" trace="NRoot_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8081971784012759290" at="71,0,75,9" concept="5" />
       <node id="8081971784012759290" at="78,0,82,9" concept="5" />
       <node id="8081971784012759290" at="84,0,88,9" concept="5" />
@@ -2772,7 +2772,7 @@
       <scope id="8081971784012759290" at="268,42,269,45" />
       <scope id="8081971784012759290" at="282,17,283,42" />
       <scope id="8081971784012759290" at="286,40,287,25" />
-      <scope id="8081971784012759290" at="40,85,42,18" />
+      <scope id="8081971784012759290" at="40,83,42,18" />
       <scope id="8081971784012759290" at="64,16,66,97" />
       <scope id="8081971784012759290" at="72,70,74,34" />
       <scope id="8081971784012759290" at="79,73,81,66" />
@@ -2905,27 +2905,27 @@
         <var name="editorContext" id="8081971784012759290" />
         <var name="node" id="8081971784012759290" />
       </scope>
-      <unit id="8081971784012759290" at="291,0,295,0" name="de.itemis.mps.editor.math.demolang.editor.NRoot_EditorBuilder_a$LINKS" />
-      <unit id="8081971784012759290" at="60,32,96,5" name="de.itemis.mps.editor.math.demolang.editor.NRoot_EditorBuilder_a$1" />
-      <unit id="8081971784012759290" at="184,0,235,0" name="de.itemis.mps.editor.math.demolang.editor.NRoot_EditorBuilder_a$nSingleRoleHandler_f8fe3y_a0a" />
-      <unit id="8081971784012759290" at="239,0,290,0" name="de.itemis.mps.editor.math.demolang.editor.NRoot_EditorBuilder_a$bodySingleRoleHandler_f8fe3y_a1a" />
-      <unit id="8081971784012759290" at="97,41,168,5" name="de.itemis.mps.editor.math.demolang.editor.NRoot_EditorBuilder_a$2" />
-      <unit id="8081971784012759290" at="36,0,296,0" name="de.itemis.mps.editor.math.demolang.editor.NRoot_EditorBuilder_a" />
+      <unit id="8081971784012759290" at="291,0,295,0" name="de.itemis.mps.editor.math.demolang.editor.NRoot_EditorBuilder$LINKS" />
+      <unit id="8081971784012759290" at="60,32,96,5" name="de.itemis.mps.editor.math.demolang.editor.NRoot_EditorBuilder$1" />
+      <unit id="8081971784012759290" at="184,0,235,0" name="de.itemis.mps.editor.math.demolang.editor.NRoot_EditorBuilder$nSingleRoleHandler_f8fe3y_a0a" />
+      <unit id="8081971784012759290" at="239,0,290,0" name="de.itemis.mps.editor.math.demolang.editor.NRoot_EditorBuilder$bodySingleRoleHandler_f8fe3y_a1a" />
+      <unit id="8081971784012759290" at="97,41,168,5" name="de.itemis.mps.editor.math.demolang.editor.NRoot_EditorBuilder$2" />
+      <unit id="8081971784012759290" at="36,0,296,0" name="de.itemis.mps.editor.math.demolang.editor.NRoot_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/8081971784017364480">
     <file name="Division_Editor.java">
-      <node id="8081971784017364480" at="11,79,12,74" concept="8" />
+      <node id="8081971784017364480" at="11,79,12,72" concept="8" />
       <node id="8081971784017364480" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8081971784017364480" at="11,79,12,74" />
+      <scope id="8081971784017364480" at="11,79,12,72" />
       <scope id="8081971784017364480" at="11,0,14,0">
         <var name="editorContext" id="8081971784017364480" />
         <var name="node" id="8081971784017364480" />
       </scope>
       <unit id="8081971784017364480" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Division_Editor" />
     </file>
-    <file name="Division_EditorBuilder_a.java">
-      <node id="8081971784017364480" at="39,88,40,19" concept="11" />
+    <file name="Division_EditorBuilder.java">
+      <node id="8081971784017364480" at="39,86,40,19" concept="11" />
       <node id="8081971784017364480" at="40,19,41,18" concept="2" />
       <node id="8081971784017364480" at="46,26,47,18" concept="8" />
       <node id="8081971784017364480" at="50,39,51,30" concept="8" />
@@ -3029,7 +3029,7 @@
       <node id="8081971784017364480" at="208,87,211,7" concept="5" />
       <node id="8081971784017364480" at="211,7,214,7" concept="5" />
       <node id="8081971784017364480" at="230,0,233,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8081971784017364480" at="39,0,43,0" concept="1" trace="Division_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8081971784017364480" at="39,0,43,0" concept="1" trace="Division_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8081971784017364480" at="66,0,70,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="8081971784017364480" at="124,0,128,0" concept="6" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8081971784017364480" at="132,0,136,0" concept="1" trace="upperSingleRoleHandler_pmbden_a0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -3069,7 +3069,7 @@
       <scope id="8081971784017364480" at="212,42,213,46" />
       <scope id="8081971784017364480" at="226,17,227,42" />
       <scope id="8081971784017364480" at="230,40,231,26" />
-      <scope id="8081971784017364480" at="39,88,41,18" />
+      <scope id="8081971784017364480" at="39,86,41,18" />
       <scope id="8081971784017364480" at="124,40,126,33">
         <var name="provider" id="8081971784017364480" />
       </scope>
@@ -3186,27 +3186,27 @@
         <var name="editorContext" id="8081971784017364480" />
         <var name="node" id="8081971784017364480" />
       </scope>
-      <unit id="8081971784017364480" at="235,0,239,0" name="de.itemis.mps.editor.math.demolang.editor.Division_EditorBuilder_a$LINKS" />
-      <unit id="8081971784017364480" at="57,32,70,5" name="de.itemis.mps.editor.math.demolang.editor.Division_EditorBuilder_a$1" />
-      <unit id="8081971784017364480" at="71,41,112,5" name="de.itemis.mps.editor.math.demolang.editor.Division_EditorBuilder_a$2" />
-      <unit id="8081971784017364480" at="128,0,179,0" name="de.itemis.mps.editor.math.demolang.editor.Division_EditorBuilder_a$upperSingleRoleHandler_pmbden_a0a" />
-      <unit id="8081971784017364480" at="183,0,234,0" name="de.itemis.mps.editor.math.demolang.editor.Division_EditorBuilder_a$lowerSingleRoleHandler_pmbden_a1a" />
-      <unit id="8081971784017364480" at="35,0,240,0" name="de.itemis.mps.editor.math.demolang.editor.Division_EditorBuilder_a" />
+      <unit id="8081971784017364480" at="235,0,239,0" name="de.itemis.mps.editor.math.demolang.editor.Division_EditorBuilder$LINKS" />
+      <unit id="8081971784017364480" at="57,32,70,5" name="de.itemis.mps.editor.math.demolang.editor.Division_EditorBuilder$1" />
+      <unit id="8081971784017364480" at="71,41,112,5" name="de.itemis.mps.editor.math.demolang.editor.Division_EditorBuilder$2" />
+      <unit id="8081971784017364480" at="128,0,179,0" name="de.itemis.mps.editor.math.demolang.editor.Division_EditorBuilder$upperSingleRoleHandler_pmbden_a0a" />
+      <unit id="8081971784017364480" at="183,0,234,0" name="de.itemis.mps.editor.math.demolang.editor.Division_EditorBuilder$lowerSingleRoleHandler_pmbden_a1a" />
+      <unit id="8081971784017364480" at="35,0,240,0" name="de.itemis.mps.editor.math.demolang.editor.Division_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/8128745852732080329">
     <file name="Vector_Editor.java">
-      <node id="8128745852732080329" at="11,79,12,72" concept="8" />
+      <node id="8128745852732080329" at="11,79,12,70" concept="8" />
       <node id="8128745852732080329" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8128745852732080329" at="11,79,12,72" />
+      <scope id="8128745852732080329" at="11,79,12,70" />
       <scope id="8128745852732080329" at="11,0,14,0">
         <var name="editorContext" id="8128745852732080329" />
         <var name="node" id="8128745852732080329" />
       </scope>
       <unit id="8128745852732080329" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Vector_Editor" />
     </file>
-    <file name="Vector_EditorBuilder_a.java">
-      <node id="8128745852732080329" at="39,86,40,19" concept="11" />
+    <file name="Vector_EditorBuilder.java">
+      <node id="8128745852732080329" at="39,84,40,19" concept="11" />
       <node id="8128745852732080329" at="40,19,41,18" concept="2" />
       <node id="8128745852732080329" at="46,26,47,18" concept="8" />
       <node id="8128745852732080329" at="50,39,51,30" concept="8" />
@@ -3286,7 +3286,7 @@
       <node id="8128745852732080329" at="157,87,160,7" concept="5" />
       <node id="8128745852732080329" at="160,7,163,7" concept="5" />
       <node id="8128745852732080329" at="179,0,182,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8128745852732080329" at="39,0,43,0" concept="1" trace="Vector_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8128745852732080329" at="39,0,43,0" concept="1" trace="Vector_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8128745852732080329" at="78,0,82,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="8128745852732080329" at="128,0,132,0" concept="6" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8128745852732080329" at="136,0,140,0" concept="1" trace="bodySingleRoleHandler_3a3w8k_a0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -3315,7 +3315,7 @@
       <scope id="8128745852732080329" at="161,42,162,45" />
       <scope id="8128745852732080329" at="175,17,176,42" />
       <scope id="8128745852732080329" at="179,40,180,25" />
-      <scope id="8128745852732080329" at="39,86,41,18" />
+      <scope id="8128745852732080329" at="39,84,41,18" />
       <scope id="8128745852732080329" at="128,40,130,33">
         <var name="provider" id="8128745852732080329" />
       </scope>
@@ -3406,26 +3406,26 @@
         <var name="editorContext" id="8128745852732080329" />
         <var name="node" id="8128745852732080329" />
       </scope>
-      <unit id="8128745852732080329" at="184,0,187,0" name="de.itemis.mps.editor.math.demolang.editor.Vector_EditorBuilder_a$LINKS" />
-      <unit id="8128745852732080329" at="62,32,82,5" name="de.itemis.mps.editor.math.demolang.editor.Vector_EditorBuilder_a$1" />
-      <unit id="8128745852732080329" at="83,41,117,5" name="de.itemis.mps.editor.math.demolang.editor.Vector_EditorBuilder_a$2" />
-      <unit id="8128745852732080329" at="132,0,183,0" name="de.itemis.mps.editor.math.demolang.editor.Vector_EditorBuilder_a$bodySingleRoleHandler_3a3w8k_a0a" />
-      <unit id="8128745852732080329" at="35,0,188,0" name="de.itemis.mps.editor.math.demolang.editor.Vector_EditorBuilder_a" />
+      <unit id="8128745852732080329" at="184,0,187,0" name="de.itemis.mps.editor.math.demolang.editor.Vector_EditorBuilder$LINKS" />
+      <unit id="8128745852732080329" at="62,32,82,5" name="de.itemis.mps.editor.math.demolang.editor.Vector_EditorBuilder$1" />
+      <unit id="8128745852732080329" at="83,41,117,5" name="de.itemis.mps.editor.math.demolang.editor.Vector_EditorBuilder$2" />
+      <unit id="8128745852732080329" at="132,0,183,0" name="de.itemis.mps.editor.math.demolang.editor.Vector_EditorBuilder$bodySingleRoleHandler_3a3w8k_a0a" />
+      <unit id="8128745852732080329" at="35,0,188,0" name="de.itemis.mps.editor.math.demolang.editor.Vector_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/8658283006820820014">
     <file name="Sqrt_Editor.java">
-      <node id="8658283006820820014" at="11,79,12,70" concept="8" />
+      <node id="8658283006820820014" at="11,79,12,68" concept="8" />
       <node id="8658283006820820014" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8658283006820820014" at="11,79,12,70" />
+      <scope id="8658283006820820014" at="11,79,12,68" />
       <scope id="8658283006820820014" at="11,0,14,0">
         <var name="editorContext" id="8658283006820820014" />
         <var name="node" id="8658283006820820014" />
       </scope>
       <unit id="8658283006820820014" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Sqrt_Editor" />
     </file>
-    <file name="Sqrt_EditorBuilder_a.java">
-      <node id="8658283006820820014" at="40,84,41,19" concept="11" />
+    <file name="Sqrt_EditorBuilder.java">
+      <node id="8658283006820820014" at="40,82,41,19" concept="11" />
       <node id="8658283006820820014" at="41,19,42,18" concept="2" />
       <node id="8658283006820820014" at="47,26,48,18" concept="8" />
       <node id="8658283006820820014" at="51,39,52,30" concept="8" />
@@ -3546,7 +3546,7 @@
       <node id="8658283006820820014" at="208,87,211,7" concept="5" />
       <node id="8658283006820820014" at="211,7,214,7" concept="5" />
       <node id="8658283006820820014" at="230,0,233,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8658283006820820014" at="40,0,44,0" concept="1" trace="Sqrt_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8658283006820820014" at="40,0,44,0" concept="1" trace="Sqrt_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8658283006820820014" at="71,0,75,9" concept="5" />
       <node id="8658283006820820014" at="78,0,82,9" concept="5" />
       <node id="8658283006820820014" at="84,0,88,9" concept="5" />
@@ -3581,7 +3581,7 @@
       <scope id="8658283006820820014" at="212,42,213,45" />
       <scope id="8658283006820820014" at="226,17,227,42" />
       <scope id="8658283006820820014" at="230,40,231,25" />
-      <scope id="8658283006820820014" at="40,84,42,18" />
+      <scope id="8658283006820820014" at="40,82,42,18" />
       <scope id="8658283006820820014" at="64,16,66,77" />
       <scope id="8658283006820820014" at="72,50,74,34" />
       <scope id="8658283006820820014" at="79,73,81,66" />
@@ -3685,26 +3685,26 @@
         <var name="editorContext" id="8658283006820820014" />
         <var name="node" id="8658283006820820014" />
       </scope>
-      <unit id="8658283006820820014" at="235,0,238,0" name="de.itemis.mps.editor.math.demolang.editor.Sqrt_EditorBuilder_a$LINKS" />
-      <unit id="8658283006820820014" at="60,32,96,5" name="de.itemis.mps.editor.math.demolang.editor.Sqrt_EditorBuilder_a$1" />
-      <unit id="8658283006820820014" at="183,0,234,0" name="de.itemis.mps.editor.math.demolang.editor.Sqrt_EditorBuilder_a$bodySingleRoleHandler_b3b452_a1a" />
-      <unit id="8658283006820820014" at="97,41,168,5" name="de.itemis.mps.editor.math.demolang.editor.Sqrt_EditorBuilder_a$2" />
-      <unit id="8658283006820820014" at="36,0,239,0" name="de.itemis.mps.editor.math.demolang.editor.Sqrt_EditorBuilder_a" />
+      <unit id="8658283006820820014" at="235,0,238,0" name="de.itemis.mps.editor.math.demolang.editor.Sqrt_EditorBuilder$LINKS" />
+      <unit id="8658283006820820014" at="60,32,96,5" name="de.itemis.mps.editor.math.demolang.editor.Sqrt_EditorBuilder$1" />
+      <unit id="8658283006820820014" at="183,0,234,0" name="de.itemis.mps.editor.math.demolang.editor.Sqrt_EditorBuilder$bodySingleRoleHandler_b3b452_a1a" />
+      <unit id="8658283006820820014" at="97,41,168,5" name="de.itemis.mps.editor.math.demolang.editor.Sqrt_EditorBuilder$2" />
+      <unit id="8658283006820820014" at="36,0,239,0" name="de.itemis.mps.editor.math.demolang.editor.Sqrt_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/8658283006823693502">
     <file name="Abs_Editor.java">
-      <node id="8658283006823693502" at="11,79,12,69" concept="8" />
+      <node id="8658283006823693502" at="11,79,12,67" concept="8" />
       <node id="8658283006823693502" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8658283006823693502" at="11,79,12,69" />
+      <scope id="8658283006823693502" at="11,79,12,67" />
       <scope id="8658283006823693502" at="11,0,14,0">
         <var name="editorContext" id="8658283006823693502" />
         <var name="node" id="8658283006823693502" />
       </scope>
       <unit id="8658283006823693502" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Abs_Editor" />
     </file>
-    <file name="Abs_EditorBuilder_a.java">
-      <node id="8658283006823693502" at="42,83,43,19" concept="11" />
+    <file name="Abs_EditorBuilder.java">
+      <node id="8658283006823693502" at="42,81,43,19" concept="11" />
       <node id="8658283006823693502" at="43,19,44,18" concept="2" />
       <node id="8658283006823693502" at="49,26,50,18" concept="8" />
       <node id="8658283006823693502" at="53,39,54,30" concept="8" />
@@ -3801,7 +3801,7 @@
       <node id="8658283006823693502" at="197,87,200,7" concept="5" />
       <node id="8658283006823693502" at="200,7,203,7" concept="5" />
       <node id="8658283006823693502" at="219,0,222,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8658283006823693502" at="42,0,46,0" concept="1" trace="Abs_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8658283006823693502" at="42,0,46,0" concept="1" trace="Abs_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8658283006823693502" at="66,0,70,0" concept="6" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
       <node id="8658283006823693502" at="85,0,89,0" concept="6" trace="paint#(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V" />
       <node id="8658283006823693502" at="120,0,124,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
@@ -3839,7 +3839,7 @@
       <scope id="8658283006823693502" at="201,42,202,45" />
       <scope id="8658283006823693502" at="215,17,216,42" />
       <scope id="8658283006823693502" at="219,40,220,25" />
-      <scope id="8658283006823693502" at="42,83,44,18" />
+      <scope id="8658283006823693502" at="42,81,44,18" />
       <scope id="8658283006823693502" at="66,64,68,122" />
       <scope id="8658283006823693502" at="72,41,74,42">
         <var name="bounds" id="8658283006823693502" />
@@ -3955,28 +3955,28 @@
         <var name="editorContext" id="8658283006823693502" />
         <var name="node" id="8658283006823693502" />
       </scope>
-      <unit id="8658283006823693502" at="224,0,227,0" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder_a$LINKS" />
-      <unit id="8658283006823693502" at="62,19,76,7" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder_a$1" />
-      <unit id="8658283006823693502" at="81,19,95,7" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder_a$2" />
-      <unit id="8658283006823693502" at="98,32,124,5" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder_a$3" />
-      <unit id="8658283006823693502" at="125,41,157,5" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder_a$4" />
-      <unit id="8658283006823693502" at="172,0,223,0" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder_a$bodySingleRoleHandler_jykky5_a0a" />
-      <unit id="8658283006823693502" at="38,0,228,0" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder_a" />
+      <unit id="8658283006823693502" at="224,0,227,0" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder$LINKS" />
+      <unit id="8658283006823693502" at="62,19,76,7" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder$1" />
+      <unit id="8658283006823693502" at="81,19,95,7" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder$2" />
+      <unit id="8658283006823693502" at="98,32,124,5" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder$3" />
+      <unit id="8658283006823693502" at="125,41,157,5" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder$4" />
+      <unit id="8658283006823693502" at="172,0,223,0" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder$bodySingleRoleHandler_jykky5_a0a" />
+      <unit id="8658283006823693502" at="38,0,228,0" name="de.itemis.mps.editor.math.demolang.editor.Abs_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/8658283006827657504">
     <file name="Integral_Editor.java">
-      <node id="8658283006827657504" at="11,79,12,74" concept="8" />
+      <node id="8658283006827657504" at="11,79,12,72" concept="8" />
       <node id="8658283006827657504" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8658283006827657504" at="11,79,12,74" />
+      <scope id="8658283006827657504" at="11,79,12,72" />
       <scope id="8658283006827657504" at="11,0,14,0">
         <var name="editorContext" id="8658283006827657504" />
         <var name="node" id="8658283006827657504" />
       </scope>
       <unit id="8658283006827657504" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Integral_Editor" />
     </file>
-    <file name="Integral_EditorBuilder_a.java">
-      <node id="8658283006827657504" at="45,88,46,19" concept="11" />
+    <file name="Integral_EditorBuilder.java">
+      <node id="8658283006827657504" at="45,86,46,19" concept="11" />
       <node id="8658283006827657504" at="46,19,47,18" concept="2" />
       <node id="8658283006827657504" at="52,26,53,18" concept="8" />
       <node id="8658283006827657504" at="56,39,57,30" concept="8" />
@@ -4190,7 +4190,7 @@
       <node id="8658283006827657504" at="389,87,392,7" concept="5" />
       <node id="8658283006827657504" at="392,7,395,7" concept="5" />
       <node id="8658283006827657504" at="411,0,414,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8658283006827657504" at="45,0,49,0" concept="1" trace="Integral_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8658283006827657504" at="45,0,49,0" concept="1" trace="Integral_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8658283006827657504" at="127,0,131,9" concept="5" />
       <node id="8658283006827657504" at="174,0,178,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="8658283006827657504" at="195,9,199,9" concept="5" />
@@ -4263,7 +4263,7 @@
       <scope id="8658283006827657504" at="393,42,394,45" />
       <scope id="8658283006827657504" at="407,17,408,42" />
       <scope id="8658283006827657504" at="411,40,412,25" />
-      <scope id="8658283006827657504" at="45,88,47,18" />
+      <scope id="8658283006827657504" at="45,86,47,18" />
       <scope id="8658283006827657504" at="84,0,86,0">
         <var name="dimension" id="8658283006827657504" />
       </scope>
@@ -4444,29 +4444,29 @@
         <var name="editorContext" id="8658283006827657504" />
         <var name="node" id="8658283006827657504" />
       </scope>
-      <unit id="8658283006827657504" at="416,0,421,0" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder_a$LINKS" />
-      <unit id="8658283006827657504" at="83,19,95,7" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder_a$1" />
-      <unit id="8658283006827657504" at="254,0,305,0" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder_a$fromSingleRoleHandler_l2e2eo_a0a" />
-      <unit id="8658283006827657504" at="309,0,360,0" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder_a$toSingleRoleHandler_l2e2eo_a1a" />
-      <unit id="8658283006827657504" at="364,0,415,0" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder_a$bodySingleRoleHandler_l2e2eo_a2a" />
-      <unit id="8658283006827657504" at="179,41,237,5" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder_a$3" />
-      <unit id="8658283006827657504" at="98,32,178,5" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder_a$2" />
-      <unit id="8658283006827657504" at="41,0,422,0" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder_a" />
+      <unit id="8658283006827657504" at="416,0,421,0" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder$LINKS" />
+      <unit id="8658283006827657504" at="83,19,95,7" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder$1" />
+      <unit id="8658283006827657504" at="254,0,305,0" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder$fromSingleRoleHandler_l2e2eo_a0a" />
+      <unit id="8658283006827657504" at="309,0,360,0" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder$toSingleRoleHandler_l2e2eo_a1a" />
+      <unit id="8658283006827657504" at="364,0,415,0" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder$bodySingleRoleHandler_l2e2eo_a2a" />
+      <unit id="8658283006827657504" at="179,41,237,5" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder$3" />
+      <unit id="8658283006827657504" at="98,32,178,5" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder$2" />
+      <unit id="8658283006827657504" at="41,0,422,0" name="de.itemis.mps.editor.math.demolang.editor.Integral_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/8658283006834011305">
     <file name="Parentheses_Editor.java">
-      <node id="8658283006834011305" at="11,79,12,77" concept="8" />
+      <node id="8658283006834011305" at="11,79,12,75" concept="8" />
       <node id="8658283006834011305" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8658283006834011305" at="11,79,12,77" />
+      <scope id="8658283006834011305" at="11,79,12,75" />
       <scope id="8658283006834011305" at="11,0,14,0">
         <var name="editorContext" id="8658283006834011305" />
         <var name="node" id="8658283006834011305" />
       </scope>
       <unit id="8658283006834011305" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Parentheses_Editor" />
     </file>
-    <file name="Parentheses_EditorBuilder_a.java">
-      <node id="8658283006834011305" at="40,91,41,19" concept="11" />
+    <file name="Parentheses_EditorBuilder.java">
+      <node id="8658283006834011305" at="40,89,41,19" concept="11" />
       <node id="8658283006834011305" at="41,19,42,18" concept="2" />
       <node id="8658283006834011305" at="47,26,48,18" concept="8" />
       <node id="8658283006834011305" at="51,39,52,30" concept="8" />
@@ -4553,7 +4553,7 @@
       <node id="8658283006834011305" at="167,87,170,7" concept="5" />
       <node id="8658283006834011305" at="170,7,173,7" concept="5" />
       <node id="8658283006834011305" at="189,0,192,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8658283006834011305" at="40,0,44,0" concept="1" trace="Parentheses_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8658283006834011305" at="40,0,44,0" concept="1" trace="Parentheses_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8658283006834011305" at="90,0,94,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="8658283006834011305" at="138,0,142,0" concept="6" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8658283006834011305" at="146,0,150,0" concept="1" trace="bodySingleRoleHandler_vziv2x_a0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -4583,7 +4583,7 @@
       <scope id="8658283006834011305" at="171,42,172,45" />
       <scope id="8658283006834011305" at="185,17,186,42" />
       <scope id="8658283006834011305" at="189,40,190,25" />
-      <scope id="8658283006834011305" at="40,91,42,18" />
+      <scope id="8658283006834011305" at="40,89,42,18" />
       <scope id="8658283006834011305" at="138,40,140,33">
         <var name="provider" id="8658283006834011305" />
       </scope>
@@ -4675,26 +4675,26 @@
         <var name="editorContext" id="8658283006834011305" />
         <var name="node" id="8658283006834011305" />
       </scope>
-      <unit id="8658283006834011305" at="194,0,197,0" name="de.itemis.mps.editor.math.demolang.editor.Parentheses_EditorBuilder_a$LINKS" />
-      <unit id="8658283006834011305" at="68,32,94,5" name="de.itemis.mps.editor.math.demolang.editor.Parentheses_EditorBuilder_a$1" />
-      <unit id="8658283006834011305" at="95,41,127,5" name="de.itemis.mps.editor.math.demolang.editor.Parentheses_EditorBuilder_a$2" />
-      <unit id="8658283006834011305" at="142,0,193,0" name="de.itemis.mps.editor.math.demolang.editor.Parentheses_EditorBuilder_a$bodySingleRoleHandler_vziv2x_a0a" />
-      <unit id="8658283006834011305" at="36,0,198,0" name="de.itemis.mps.editor.math.demolang.editor.Parentheses_EditorBuilder_a" />
+      <unit id="8658283006834011305" at="194,0,197,0" name="de.itemis.mps.editor.math.demolang.editor.Parentheses_EditorBuilder$LINKS" />
+      <unit id="8658283006834011305" at="68,32,94,5" name="de.itemis.mps.editor.math.demolang.editor.Parentheses_EditorBuilder$1" />
+      <unit id="8658283006834011305" at="95,41,127,5" name="de.itemis.mps.editor.math.demolang.editor.Parentheses_EditorBuilder$2" />
+      <unit id="8658283006834011305" at="142,0,193,0" name="de.itemis.mps.editor.math.demolang.editor.Parentheses_EditorBuilder$bodySingleRoleHandler_vziv2x_a0a" />
+      <unit id="8658283006834011305" at="36,0,198,0" name="de.itemis.mps.editor.math.demolang.editor.Parentheses_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/8658283006836073848">
     <file name="SquareBrackets_Editor.java">
-      <node id="8658283006836073848" at="11,79,12,80" concept="8" />
+      <node id="8658283006836073848" at="11,79,12,78" concept="8" />
       <node id="8658283006836073848" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8658283006836073848" at="11,79,12,80" />
+      <scope id="8658283006836073848" at="11,79,12,78" />
       <scope id="8658283006836073848" at="11,0,14,0">
         <var name="editorContext" id="8658283006836073848" />
         <var name="node" id="8658283006836073848" />
       </scope>
       <unit id="8658283006836073848" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_Editor" />
     </file>
-    <file name="SquareBrackets_EditorBuilder_a.java">
-      <node id="8658283006836073848" at="41,94,42,19" concept="11" />
+    <file name="SquareBrackets_EditorBuilder.java">
+      <node id="8658283006836073848" at="41,92,42,19" concept="11" />
       <node id="8658283006836073848" at="42,19,43,18" concept="2" />
       <node id="8658283006836073848" at="48,26,49,18" concept="8" />
       <node id="8658283006836073848" at="52,39,53,30" concept="8" />
@@ -4797,7 +4797,7 @@
       <node id="8658283006836073848" at="202,87,205,7" concept="5" />
       <node id="8658283006836073848" at="205,7,208,7" concept="5" />
       <node id="8658283006836073848" at="224,0,227,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8658283006836073848" at="41,0,45,0" concept="1" trace="SquareBrackets_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8658283006836073848" at="41,0,45,0" concept="1" trace="SquareBrackets_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8658283006836073848" at="125,0,129,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="8658283006836073848" at="173,0,177,0" concept="6" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8658283006836073848" at="181,0,185,0" concept="1" trace="bodySingleRoleHandler_dtorwi_a0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -4835,7 +4835,7 @@
       <scope id="8658283006836073848" at="206,42,207,45" />
       <scope id="8658283006836073848" at="220,17,221,42" />
       <scope id="8658283006836073848" at="224,40,225,25" />
-      <scope id="8658283006836073848" at="41,94,43,18" />
+      <scope id="8658283006836073848" at="41,92,43,18" />
       <scope id="8658283006836073848" at="74,41,76,42">
         <var name="bounds" id="8658283006836073848" />
       </scope>
@@ -4955,28 +4955,28 @@
         <var name="editorContext" id="8658283006836073848" />
         <var name="node" id="8658283006836073848" />
       </scope>
-      <unit id="8658283006836073848" at="229,0,232,0" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder_a$LINKS" />
-      <unit id="8658283006836073848" at="61,19,78,7" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder_a$1" />
-      <unit id="8658283006836073848" at="83,19,100,7" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder_a$2" />
-      <unit id="8658283006836073848" at="103,32,129,5" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder_a$3" />
-      <unit id="8658283006836073848" at="130,41,162,5" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder_a$4" />
-      <unit id="8658283006836073848" at="177,0,228,0" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder_a$bodySingleRoleHandler_dtorwi_a0a" />
-      <unit id="8658283006836073848" at="37,0,233,0" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder_a" />
+      <unit id="8658283006836073848" at="229,0,232,0" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder$LINKS" />
+      <unit id="8658283006836073848" at="61,19,78,7" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder$1" />
+      <unit id="8658283006836073848" at="83,19,100,7" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder$2" />
+      <unit id="8658283006836073848" at="103,32,129,5" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder$3" />
+      <unit id="8658283006836073848" at="130,41,162,5" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder$4" />
+      <unit id="8658283006836073848" at="177,0,228,0" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder$bodySingleRoleHandler_dtorwi_a0a" />
+      <unit id="8658283006836073848" at="37,0,233,0" name="de.itemis.mps.editor.math.demolang.editor.SquareBrackets_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/8658283006837142952">
     <file name="CurlyBrackets_Editor.java">
-      <node id="8658283006837142952" at="11,79,12,79" concept="8" />
+      <node id="8658283006837142952" at="11,79,12,77" concept="8" />
       <node id="8658283006837142952" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8658283006837142952" at="11,79,12,79" />
+      <scope id="8658283006837142952" at="11,79,12,77" />
       <scope id="8658283006837142952" at="11,0,14,0">
         <var name="editorContext" id="8658283006837142952" />
         <var name="node" id="8658283006837142952" />
       </scope>
       <unit id="8658283006837142952" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_Editor" />
     </file>
-    <file name="CurlyBrackets_EditorBuilder_a.java">
-      <node id="8658283006837142952" at="41,93,42,19" concept="11" />
+    <file name="CurlyBrackets_EditorBuilder.java">
+      <node id="8658283006837142952" at="41,91,42,19" concept="11" />
       <node id="8658283006837142952" at="42,19,43,18" concept="2" />
       <node id="8658283006837142952" at="48,26,49,18" concept="8" />
       <node id="8658283006837142952" at="52,39,53,30" concept="8" />
@@ -5073,7 +5073,7 @@
       <node id="8658283006837142952" at="194,87,197,7" concept="5" />
       <node id="8658283006837142952" at="197,7,200,7" concept="5" />
       <node id="8658283006837142952" at="216,0,219,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8658283006837142952" at="41,0,45,0" concept="1" trace="CurlyBrackets_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8658283006837142952" at="41,0,45,0" concept="1" trace="CurlyBrackets_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8658283006837142952" at="117,0,121,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="8658283006837142952" at="165,0,169,0" concept="6" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8658283006837142952" at="173,0,177,0" concept="1" trace="bodySingleRoleHandler_gnpzpm_a0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -5111,7 +5111,7 @@
       <scope id="8658283006837142952" at="198,42,199,45" />
       <scope id="8658283006837142952" at="212,17,213,42" />
       <scope id="8658283006837142952" at="216,40,217,25" />
-      <scope id="8658283006837142952" at="41,93,43,18" />
+      <scope id="8658283006837142952" at="41,91,43,18" />
       <scope id="8658283006837142952" at="70,41,72,42">
         <var name="bounds" id="8658283006837142952" />
       </scope>
@@ -5225,28 +5225,28 @@
         <var name="editorContext" id="8658283006837142952" />
         <var name="node" id="8658283006837142952" />
       </scope>
-      <unit id="8658283006837142952" at="221,0,224,0" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder_a$LINKS" />
-      <unit id="8658283006837142952" at="61,19,74,7" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder_a$1" />
-      <unit id="8658283006837142952" at="79,19,92,7" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder_a$2" />
-      <unit id="8658283006837142952" at="95,32,121,5" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder_a$3" />
-      <unit id="8658283006837142952" at="122,41,154,5" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder_a$4" />
-      <unit id="8658283006837142952" at="169,0,220,0" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder_a$bodySingleRoleHandler_gnpzpm_a0a" />
-      <unit id="8658283006837142952" at="37,0,225,0" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder_a" />
+      <unit id="8658283006837142952" at="221,0,224,0" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder$LINKS" />
+      <unit id="8658283006837142952" at="61,19,74,7" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder$1" />
+      <unit id="8658283006837142952" at="79,19,92,7" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder$2" />
+      <unit id="8658283006837142952" at="95,32,121,5" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder$3" />
+      <unit id="8658283006837142952" at="122,41,154,5" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder$4" />
+      <unit id="8658283006837142952" at="169,0,220,0" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder$bodySingleRoleHandler_gnpzpm_a0a" />
+      <unit id="8658283006837142952" at="37,0,225,0" name="de.itemis.mps.editor.math.demolang.editor.CurlyBrackets_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/8658283006842147287">
     <file name="Product_Editor.java">
-      <node id="8658283006842147287" at="11,79,12,73" concept="8" />
+      <node id="8658283006842147287" at="11,79,12,71" concept="8" />
       <node id="8658283006842147287" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8658283006842147287" at="11,79,12,73" />
+      <scope id="8658283006842147287" at="11,79,12,71" />
       <scope id="8658283006842147287" at="11,0,14,0">
         <var name="editorContext" id="8658283006842147287" />
         <var name="node" id="8658283006842147287" />
       </scope>
       <unit id="8658283006842147287" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Product_Editor" />
     </file>
-    <file name="Product_EditorBuilder_a.java">
-      <node id="8658283006842147287" at="42,87,43,19" concept="11" />
+    <file name="Product_EditorBuilder.java">
+      <node id="8658283006842147287" at="42,85,43,19" concept="11" />
       <node id="8658283006842147287" at="43,19,44,18" concept="2" />
       <node id="8658283006842147287" at="49,26,50,18" concept="8" />
       <node id="8658283006842147287" at="53,39,54,30" concept="8" />
@@ -5427,7 +5427,7 @@
       <node id="8658283006842147287" at="330,87,333,7" concept="5" />
       <node id="8658283006842147287" at="333,7,336,7" concept="5" />
       <node id="8658283006842147287" at="352,0,355,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8658283006842147287" at="42,0,46,0" concept="1" trace="Product_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8658283006842147287" at="42,0,46,0" concept="1" trace="Product_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8658283006842147287" at="124,0,128,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="8658283006842147287" at="145,9,149,9" concept="5" />
       <node id="8658283006842147287" at="151,0,155,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;)V" />
@@ -5487,7 +5487,7 @@
       <scope id="8658283006842147287" at="334,42,335,45" />
       <scope id="8658283006842147287" at="348,17,349,42" />
       <scope id="8658283006842147287" at="352,40,353,25" />
-      <scope id="8658283006842147287" at="42,87,44,18" />
+      <scope id="8658283006842147287" at="42,85,44,18" />
       <scope id="8658283006842147287" at="146,40,148,64" />
       <scope id="8658283006842147287" at="191,40,193,33">
         <var name="provider" id="8658283006842147287" />
@@ -5647,28 +5647,28 @@
         <var name="editorContext" id="8658283006842147287" />
         <var name="node" id="8658283006842147287" />
       </scope>
-      <unit id="8658283006842147287" at="357,0,362,0" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder_a$LINKS" />
-      <unit id="8658283006842147287" at="129,41,178,5" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder_a$2" />
-      <unit id="8658283006842147287" at="78,32,128,5" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder_a$1" />
-      <unit id="8658283006842147287" at="195,0,246,0" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder_a$lowerSingleRoleHandler_gd4mf2_a0a" />
-      <unit id="8658283006842147287" at="250,0,301,0" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder_a$upperSingleRoleHandler_gd4mf2_a1a" />
-      <unit id="8658283006842147287" at="305,0,356,0" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder_a$bodySingleRoleHandler_gd4mf2_a2a" />
-      <unit id="8658283006842147287" at="38,0,363,0" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder_a" />
+      <unit id="8658283006842147287" at="357,0,362,0" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder$LINKS" />
+      <unit id="8658283006842147287" at="129,41,178,5" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder$2" />
+      <unit id="8658283006842147287" at="78,32,128,5" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder$1" />
+      <unit id="8658283006842147287" at="195,0,246,0" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder$lowerSingleRoleHandler_gd4mf2_a0a" />
+      <unit id="8658283006842147287" at="250,0,301,0" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder$upperSingleRoleHandler_gd4mf2_a1a" />
+      <unit id="8658283006842147287" at="305,0,356,0" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder$bodySingleRoleHandler_gd4mf2_a2a" />
+      <unit id="8658283006842147287" at="38,0,363,0" name="de.itemis.mps.editor.math.demolang.editor.Product_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/9120555111527326544">
     <file name="Sum2_Editor.java">
-      <node id="9120555111527326544" at="11,79,12,70" concept="8" />
+      <node id="9120555111527326544" at="11,79,12,68" concept="8" />
       <node id="9120555111527326544" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9120555111527326544" at="11,79,12,70" />
+      <scope id="9120555111527326544" at="11,79,12,68" />
       <scope id="9120555111527326544" at="11,0,14,0">
         <var name="editorContext" id="9120555111527326544" />
         <var name="node" id="9120555111527326544" />
       </scope>
       <unit id="9120555111527326544" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_Editor" />
     </file>
-    <file name="Sum2_EditorBuilder_a.java">
-      <node id="9120555111527326544" at="61,84,62,19" concept="11" />
+    <file name="Sum2_EditorBuilder.java">
+      <node id="9120555111527326544" at="61,82,62,19" concept="11" />
       <node id="9120555111527326544" at="62,19,63,18" concept="2" />
       <node id="9120555111527326544" at="68,26,69,18" concept="8" />
       <node id="9120555111527326544" at="72,39,73,30" concept="8" />
@@ -5881,7 +5881,7 @@
       <node id="9120555111527326544" at="387,7,390,7" concept="5" />
       <node id="9120555111527326544" at="410,0,413,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="8732109676280698328" at="413,0,416,0" concept="6" trace="_StyleParameter_QueryFunction_g1wa7m_a1a2a#()Ljava/awt/Color;" />
-      <node id="9120555111527326544" at="61,0,65,0" concept="1" trace="Sum2_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9120555111527326544" at="61,0,65,0" concept="1" trace="Sum2_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9120555111527326544" at="143,0,147,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="9120555111527326544" at="164,9,168,9" concept="5" />
       <node id="9120555111527326544" at="170,0,174,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;)V" />
@@ -5948,7 +5948,7 @@
       <scope id="9120555111527326544" at="406,17,407,42" />
       <scope id="9120555111527326544" at="410,40,411,25" />
       <scope id="8732109676280698329" at="413,64,414,34" />
-      <scope id="9120555111527326544" at="61,84,63,18" />
+      <scope id="9120555111527326544" at="61,82,63,18" />
       <scope id="9120555111527326544" at="165,40,167,64" />
       <scope id="9120555111527859196" at="230,74,232,145">
         <var name="manager" id="9120555111527859196" />
@@ -6130,30 +6130,30 @@
         <var name="editorContext" id="9120555111527326544" />
         <var name="node" id="9120555111527326544" />
       </scope>
-      <unit id="9120555111527326544" at="418,0,421,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder_a$PROPS" />
-      <unit id="9120555111527326544" at="422,0,425,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder_a$CONCEPTS" />
-      <unit id="9120555111527326544" at="426,0,431,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder_a$LINKS" />
-      <unit id="9120555111527326544" at="148,41,197,5" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder_a$2" />
-      <unit id="9120555111527326544" at="97,32,147,5" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder_a$1" />
-      <unit id="9120555111527326544" at="249,0,300,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder_a$lowerSingleRoleHandler_g1wa7m_c0a0" />
-      <unit id="9120555111527326544" at="304,0,355,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder_a$upperSingleRoleHandler_g1wa7m_a1a" />
-      <unit id="9120555111527326544" at="359,0,417,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder_a$bodySingleRoleHandler_g1wa7m_a2a" />
-      <unit id="9120555111527326544" at="57,0,432,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder_a" />
+      <unit id="9120555111527326544" at="418,0,421,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder$PROPS" />
+      <unit id="9120555111527326544" at="422,0,425,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder$CONCEPTS" />
+      <unit id="9120555111527326544" at="426,0,431,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder$LINKS" />
+      <unit id="9120555111527326544" at="148,41,197,5" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder$2" />
+      <unit id="9120555111527326544" at="97,32,147,5" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder$1" />
+      <unit id="9120555111527326544" at="249,0,300,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder$lowerSingleRoleHandler_g1wa7m_c0a0" />
+      <unit id="9120555111527326544" at="304,0,355,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder$upperSingleRoleHandler_g1wa7m_a1a" />
+      <unit id="9120555111527326544" at="359,0,417,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder$bodySingleRoleHandler_g1wa7m_a2a" />
+      <unit id="9120555111527326544" at="57,0,432,0" name="de.itemis.mps.editor.math.demolang.editor.Sum2_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ff5e7855-4288-4385-acde-7357b6721d30(de.itemis.mps.editor.math.demolang.editor)/9120555111529625922">
     <file name="Sum3_Editor.java">
-      <node id="9120555111529625922" at="11,79,12,70" concept="8" />
+      <node id="9120555111529625922" at="11,79,12,68" concept="8" />
       <node id="9120555111529625922" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9120555111529625922" at="11,79,12,70" />
+      <scope id="9120555111529625922" at="11,79,12,68" />
       <scope id="9120555111529625922" at="11,0,14,0">
         <var name="editorContext" id="9120555111529625922" />
         <var name="node" id="9120555111529625922" />
       </scope>
       <unit id="9120555111529625922" at="10,0,15,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_Editor" />
     </file>
-    <file name="Sum3_EditorBuilder_a.java">
-      <node id="9120555111529625922" at="60,84,61,19" concept="11" />
+    <file name="Sum3_EditorBuilder.java">
+      <node id="9120555111529625922" at="60,82,61,19" concept="11" />
       <node id="9120555111529625922" at="61,19,62,18" concept="2" />
       <node id="9120555111529625922" at="67,26,68,18" concept="8" />
       <node id="9120555111529625922" at="71,39,72,30" concept="8" />
@@ -6365,7 +6365,7 @@
       <node id="9120555111529625922" at="389,87,392,7" concept="5" />
       <node id="9120555111529625922" at="392,7,395,7" concept="5" />
       <node id="9120555111529625922" at="411,0,414,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="9120555111529625922" at="60,0,64,0" concept="1" trace="Sum3_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9120555111529625922" at="60,0,64,0" concept="1" trace="Sum3_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9120555111529625922" at="142,0,146,0" concept="6" trace="getCenterY#(Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;Ljava/util/List;)I" />
       <node id="9120555111529625922" at="163,9,167,9" concept="5" />
       <node id="9120555111529625922" at="169,0,173,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;Lde/itemis/mps/editor/math/runtime/MathLayoutableCell;Ljava/util/List;)V" />
@@ -6432,7 +6432,7 @@
       <scope id="9120555111529625922" at="393,42,394,45" />
       <scope id="9120555111529625922" at="407,17,408,42" />
       <scope id="9120555111529625922" at="411,40,412,25" />
-      <scope id="9120555111529625922" at="60,84,62,18" />
+      <scope id="9120555111529625922" at="60,82,62,18" />
       <scope id="9120555111529625922" at="164,40,166,64" />
       <scope id="9120555111529633935" at="235,74,237,145">
         <var name="manager" id="9120555111529633935" />
@@ -6613,15 +6613,15 @@
         <var name="editorContext" id="9120555111529625922" />
         <var name="node" id="9120555111529625922" />
       </scope>
-      <unit id="9120555111529625922" at="416,0,419,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder_a$PROPS" />
-      <unit id="9120555111529625922" at="420,0,423,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder_a$CONCEPTS" />
-      <unit id="9120555111529625922" at="424,0,429,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder_a$LINKS" />
-      <unit id="9120555111529625922" at="147,41,196,5" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder_a$2" />
-      <unit id="9120555111529625922" at="96,32,146,5" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder_a$1" />
-      <unit id="9120555111529625922" at="254,0,305,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder_a$lowerSingleRoleHandler_ugpiqq_c0a0" />
-      <unit id="9120555111529625922" at="309,0,360,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder_a$upperSingleRoleHandler_ugpiqq_a1a" />
-      <unit id="9120555111529625922" at="364,0,415,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder_a$bodySingleRoleHandler_ugpiqq_a2a" />
-      <unit id="9120555111529625922" at="56,0,430,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder_a" />
+      <unit id="9120555111529625922" at="416,0,419,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder$PROPS" />
+      <unit id="9120555111529625922" at="420,0,423,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder$CONCEPTS" />
+      <unit id="9120555111529625922" at="424,0,429,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder$LINKS" />
+      <unit id="9120555111529625922" at="147,41,196,5" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder$2" />
+      <unit id="9120555111529625922" at="96,32,146,5" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder$1" />
+      <unit id="9120555111529625922" at="254,0,305,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder$lowerSingleRoleHandler_ugpiqq_c0a0" />
+      <unit id="9120555111529625922" at="309,0,360,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder$upperSingleRoleHandler_ugpiqq_a1a" />
+      <unit id="9120555111529625922" at="364,0,415,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder$bodySingleRoleHandler_ugpiqq_a2a" />
+      <unit id="9120555111529625922" at="56,0,430,0" name="de.itemis.mps.editor.math.demolang.editor.Sum3_EditorBuilder" />
     </file>
   </root>
 </debug-info>

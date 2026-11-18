@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class BoxButtonConfig_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new BoxButtonConfig_EditorBuilder_a(editorContext, node).createCell();
+    return new BoxButtonConfig_EditorBuilder(editorContext, node).createCell();
   }
 }

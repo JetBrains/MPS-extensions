@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class SPOrECompactionLayoutConfig_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SPOrECompactionLayoutConfig_EditorBuilder_a(editorContext, node).createCell();
+    return new SPOrECompactionLayoutConfig_EditorBuilder(editorContext, node).createCell();
   }
 }

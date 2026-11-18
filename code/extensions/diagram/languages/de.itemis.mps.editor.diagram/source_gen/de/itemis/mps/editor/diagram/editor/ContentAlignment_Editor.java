@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ContentAlignment_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ContentAlignment_EditorBuilder_a(editorContext, node).createCell();
+    return new ContentAlignment_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class SharedVariableDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SharedVariableDeclaration_EditorBuilder_a(editorContext, node).createCell();
+    return new SharedVariableDeclaration_EditorBuilder(editorContext, node).createCell();
   }
 }

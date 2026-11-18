@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class VerticalAlignmentStyleItem_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new VerticalAlignmentStyleItem_EditorBuilder_a(editorContext, node).createCell();
+    return new VerticalAlignmentStyleItem_EditorBuilder(editorContext, node).createCell();
   }
 }

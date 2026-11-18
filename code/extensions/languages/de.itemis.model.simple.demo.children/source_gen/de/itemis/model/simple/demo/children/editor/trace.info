@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:96fa16c4-3360-44b1-a542-fccab14bea2d(de.itemis.model.simple.demo.children.editor)/3912520324585634340">
     <file name="ConceptWithChildren_Editor.java">
-      <node id="3912520324585634340" at="11,79,12,85" concept="6" />
+      <node id="3912520324585634340" at="11,79,12,83" concept="6" />
       <node id="3912520324585634340" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3912520324585634340" at="11,79,12,85" />
+      <scope id="3912520324585634340" at="11,79,12,83" />
       <scope id="3912520324585634340" at="11,0,14,0">
         <var name="editorContext" id="3912520324585634340" />
         <var name="node" id="3912520324585634340" />
       </scope>
       <unit id="3912520324585634340" at="10,0,15,0" name="de.itemis.model.simple.demo.children.editor.ConceptWithChildren_Editor" />
     </file>
-    <file name="ConceptWithChildren_EditorBuilder_a.java">
-      <node id="3912520324585634340" at="44,99,45,19" concept="8" />
+    <file name="ConceptWithChildren_EditorBuilder.java">
+      <node id="3912520324585634340" at="44,97,45,19" concept="8" />
       <node id="3912520324585634340" at="45,19,46,18" concept="1" />
       <node id="3912520324585634340" at="51,26,52,18" concept="6" />
       <node id="3912520324585634340" at="55,39,56,32" concept="6" />
@@ -139,7 +139,7 @@
       <node id="3912520324585634340" at="216,87,219,7" concept="3" />
       <node id="3912520324585634340" at="219,7,222,7" concept="3" />
       <node id="3912520324585634340" at="238,0,241,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="3912520324585634340" at="44,0,48,0" concept="0" trace="ConceptWithChildren_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3912520324585634340" at="44,0,48,0" concept="0" trace="ConceptWithChildren_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3912520324585634340" at="116,0,120,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3912520324585634340" at="124,0,128,0" concept="0" trace="childSingletonSingleRoleHandler_k1v2vz_b1a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="3912520324585634340" at="187,0,191,0" concept="4" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -178,7 +178,7 @@
       <scope id="3912520324585634340" at="220,42,221,54" />
       <scope id="3912520324585634340" at="234,17,235,42" />
       <scope id="3912520324585634340" at="238,40,239,34" />
-      <scope id="3912520324585634340" at="44,99,46,18" />
+      <scope id="3912520324585634340" at="44,97,46,18" />
       <scope id="2836457854054995204" at="94,74,96,145">
         <var name="manager" id="2836457854054995204" />
       </scope>
@@ -283,12 +283,12 @@
       <scope id="3912520324585634340" at="224,0,238,0" />
       <scope id="2836457854054995204" at="82,41,101,5" />
       <scope id="2836457854054995204" at="82,0,103,0" />
-      <unit id="3912520324585634340" at="243,0,246,0" name="de.itemis.model.simple.demo.children.editor.ConceptWithChildren_EditorBuilder_a$PROPS" />
-      <unit id="3912520324585634340" at="247,0,250,0" name="de.itemis.model.simple.demo.children.editor.ConceptWithChildren_EditorBuilder_a$CONCEPTS" />
-      <unit id="3912520324585634340" at="251,0,255,0" name="de.itemis.model.simple.demo.children.editor.ConceptWithChildren_EditorBuilder_a$LINKS" />
-      <unit id="3912520324585634340" at="120,0,171,0" name="de.itemis.model.simple.demo.children.editor.ConceptWithChildren_EditorBuilder_a$childSingletonSingleRoleHandler_k1v2vz_b1a" />
-      <unit id="3912520324585634340" at="191,0,242,0" name="de.itemis.model.simple.demo.children.editor.ConceptWithChildren_EditorBuilder_a$optionalChildSingleRoleHandler_k1v2vz_b2a" />
-      <unit id="3912520324585634340" at="40,0,256,0" name="de.itemis.model.simple.demo.children.editor.ConceptWithChildren_EditorBuilder_a" />
+      <unit id="3912520324585634340" at="243,0,246,0" name="de.itemis.model.simple.demo.children.editor.ConceptWithChildren_EditorBuilder$PROPS" />
+      <unit id="3912520324585634340" at="247,0,250,0" name="de.itemis.model.simple.demo.children.editor.ConceptWithChildren_EditorBuilder$CONCEPTS" />
+      <unit id="3912520324585634340" at="251,0,255,0" name="de.itemis.model.simple.demo.children.editor.ConceptWithChildren_EditorBuilder$LINKS" />
+      <unit id="3912520324585634340" at="120,0,171,0" name="de.itemis.model.simple.demo.children.editor.ConceptWithChildren_EditorBuilder$childSingletonSingleRoleHandler_k1v2vz_b1a" />
+      <unit id="3912520324585634340" at="191,0,242,0" name="de.itemis.model.simple.demo.children.editor.ConceptWithChildren_EditorBuilder$optionalChildSingleRoleHandler_k1v2vz_b2a" />
+      <unit id="3912520324585634340" at="40,0,256,0" name="de.itemis.model.simple.demo.children.editor.ConceptWithChildren_EditorBuilder" />
     </file>
   </root>
 </debug-info>

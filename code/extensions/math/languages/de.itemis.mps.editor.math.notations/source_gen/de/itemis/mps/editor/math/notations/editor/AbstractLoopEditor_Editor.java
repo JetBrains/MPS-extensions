@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class AbstractLoopEditor_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new AbstractLoopEditor_EditorBuilder_a(editorContext, node).createCell();
+    return new AbstractLoopEditor_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new AbstractLoopEditor_InspectorBuilder_a(editorContext, node).createCell();
+    return new AbstractLoopEditor_InspectorBuilder(editorContext, node).createCell();
   }
 }

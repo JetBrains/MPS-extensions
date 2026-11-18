@@ -16,6 +16,6 @@ public class IInitPart_EditorComponent implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new IInitPart_EditorComponent_ComponentBuilder_a(editorContext, node).createCell();
+    return new IInitPart_EditorComponent_ComponentBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Paginate_CellModel_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Paginate_CellModel_EditorBuilder_a(editorContext, node).createCell();
+    return new Paginate_CellModel_EditorBuilder(editorContext, node).createCell();
   }
 }

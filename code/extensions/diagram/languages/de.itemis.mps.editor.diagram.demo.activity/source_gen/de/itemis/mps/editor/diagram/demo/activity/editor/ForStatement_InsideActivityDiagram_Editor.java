@@ -18,6 +18,6 @@ public class ForStatement_InsideActivityDiagram_Editor extends DefaultNodeEditor
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ForStatement_InsideActivityDiagram_EditorBuilder_a(editorContext, node).createCell();
+    return new ForStatement_InsideActivityDiagram_EditorBuilder(editorContext, node).createCell();
   }
 }

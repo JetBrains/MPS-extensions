@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class DisptachMatch_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new DisptachMatch_EditorBuilder_a(editorContext, node).createCell();
+    return new DisptachMatch_EditorBuilder(editorContext, node).createCell();
   }
 }

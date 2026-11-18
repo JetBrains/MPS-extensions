@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class OptionalPolicy_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new OptionalPolicy_EditorBuilder_a(editorContext, node).createCell();
+    return new OptionalPolicy_EditorBuilder(editorContext, node).createCell();
   }
 }

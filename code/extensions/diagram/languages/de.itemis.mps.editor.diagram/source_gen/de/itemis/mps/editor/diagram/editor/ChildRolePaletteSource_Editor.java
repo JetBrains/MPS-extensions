@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ChildRolePaletteSource_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ChildRolePaletteSource_EditorBuilder_a(editorContext, node).createCell();
+    return new ChildRolePaletteSource_EditorBuilder(editorContext, node).createCell();
   }
 }

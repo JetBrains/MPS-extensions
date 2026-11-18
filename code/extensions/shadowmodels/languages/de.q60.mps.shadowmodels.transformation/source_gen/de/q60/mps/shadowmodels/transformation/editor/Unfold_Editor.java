@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Unfold_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Unfold_EditorBuilder_a(editorContext, node).createCell();
+    return new Unfold_EditorBuilder(editorContext, node).createCell();
   }
 }

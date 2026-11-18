@@ -17,12 +17,12 @@
   </root>
   <root nodeRef="r:ab664764-0ac7-4a95-9554-436b8431d0d9(de.q60.mps.shadowmodels.util.editor)/2490242408670906132">
     <file name="CellModel_CustomFactory_Editor.java">
-      <node id="2490242408670906132" at="11,79,12,89" concept="6" />
-      <node id="2490242408670906132" at="14,82,15,92" concept="6" />
+      <node id="2490242408670906132" at="11,79,12,87" concept="6" />
+      <node id="2490242408670906132" at="14,82,15,90" concept="6" />
       <node id="2490242408670906132" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2490242408670906132" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2490242408670906132" at="11,79,12,89" />
-      <scope id="2490242408670906132" at="14,82,15,92" />
+      <scope id="2490242408670906132" at="11,79,12,87" />
+      <scope id="2490242408670906132" at="14,82,15,90" />
       <scope id="2490242408670906132" at="11,0,14,0">
         <var name="editorContext" id="2490242408670906132" />
         <var name="node" id="2490242408670906132" />
@@ -33,8 +33,8 @@
       </scope>
       <unit id="2490242408670906132" at="10,0,18,0" name="de.q60.mps.shadowmodels.util.editor.CellModel_CustomFactory_Editor" />
     </file>
-    <file name="CellModel_CustomFactory_EditorBuilder_a.java">
-      <node id="2490242408670906132" at="34,103,35,19" concept="8" />
+    <file name="CellModel_CustomFactory_EditorBuilder.java">
+      <node id="2490242408670906132" at="34,101,35,19" concept="8" />
       <node id="2490242408670906132" at="35,19,36,18" concept="1" />
       <node id="2490242408670906132" at="41,26,42,18" concept="6" />
       <node id="2490242408670906132" at="45,39,46,32" concept="6" />
@@ -100,7 +100,7 @@
       <node id="2490242408670906132" at="126,87,129,7" concept="3" />
       <node id="2490242408670906132" at="129,7,132,7" concept="3" />
       <node id="2490242408670906132" at="148,0,151,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="2490242408670906132" at="34,0,38,0" concept="0" trace="CellModel_CustomFactory_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2490242408670906132" at="34,0,38,0" concept="0" trace="CellModel_CustomFactory_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1176717110252" at="69,0,73,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1176717118113" at="82,0,86,0" concept="4" trace="createComponent_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1355051069417885203" at="93,0,97,0" concept="4" trace="createIndentCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -123,7 +123,7 @@
       <scope id="2490242408670906132" at="130,42,131,55" />
       <scope id="2490242408670906132" at="144,17,145,42" />
       <scope id="2490242408670906132" at="148,40,149,35" />
-      <scope id="2490242408670906132" at="34,103,36,18" />
+      <scope id="2490242408670906132" at="34,101,36,18" />
       <scope id="1176717110252" at="69,42,71,22">
         <var name="editorCell" id="1176717110252" />
       </scope>
@@ -189,12 +189,12 @@
       <scope id="2490242408670906132" at="58,0,69,0" />
       <scope id="2490242408670906132" at="135,44,146,7" />
       <scope id="2490242408670906132" at="134,0,148,0" />
-      <unit id="2490242408670906132" at="153,0,156,0" name="de.q60.mps.shadowmodels.util.editor.CellModel_CustomFactory_EditorBuilder_a$LINKS" />
-      <unit id="2490242408670906132" at="101,0,152,0" name="de.q60.mps.shadowmodels.util.editor.CellModel_CustomFactory_EditorBuilder_a$childCellModelSingleRoleHandler_ix9q3p_b1a" />
-      <unit id="2490242408670906132" at="30,0,157,0" name="de.q60.mps.shadowmodels.util.editor.CellModel_CustomFactory_EditorBuilder_a" />
+      <unit id="2490242408670906132" at="153,0,156,0" name="de.q60.mps.shadowmodels.util.editor.CellModel_CustomFactory_EditorBuilder$LINKS" />
+      <unit id="2490242408670906132" at="101,0,152,0" name="de.q60.mps.shadowmodels.util.editor.CellModel_CustomFactory_EditorBuilder$childCellModelSingleRoleHandler_ix9q3p_b1a" />
+      <unit id="2490242408670906132" at="30,0,157,0" name="de.q60.mps.shadowmodels.util.editor.CellModel_CustomFactory_EditorBuilder" />
     </file>
-    <file name="CellModel_CustomFactory_InspectorBuilder_a.java">
-      <node id="2490242408670906132" at="32,106,33,19" concept="8" />
+    <file name="CellModel_CustomFactory_InspectorBuilder.java">
+      <node id="2490242408670906132" at="32,104,33,19" concept="8" />
       <node id="2490242408670906132" at="33,19,34,18" concept="1" />
       <node id="2490242408670906132" at="39,26,40,18" concept="6" />
       <node id="2490242408670906132" at="43,39,44,32" concept="6" />
@@ -285,7 +285,7 @@
       <node id="2490242408670906132" at="153,87,156,7" concept="3" />
       <node id="2490242408670906132" at="156,7,159,7" concept="3" />
       <node id="2490242408670906132" at="175,0,178,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="2490242408670906132" at="32,0,36,0" concept="0" trace="CellModel_CustomFactory_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2490242408670906132" at="32,0,36,0" concept="0" trace="CellModel_CustomFactory_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1214306512753" at="63,0,67,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="994107119629119042" at="76,0,80,0" concept="4" trace="createComponent_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2490242408670906132" at="124,0,128,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -310,7 +310,7 @@
       <scope id="2490242408670906132" at="157,42,158,54" />
       <scope id="2490242408670906132" at="171,17,172,42" />
       <scope id="2490242408670906132" at="175,40,176,34" />
-      <scope id="2490242408670906132" at="32,106,34,18" />
+      <scope id="2490242408670906132" at="32,104,34,18" />
       <scope id="1214306512753" at="63,42,65,22">
         <var name="editorCell" id="1214306512753" />
       </scope>
@@ -388,9 +388,9 @@
       </scope>
       <scope id="2490242408670906132" at="161,0,175,0" />
       <scope id="2490242408670906132" at="47,0,63,0" />
-      <unit id="2490242408670906132" at="180,0,183,0" name="de.q60.mps.shadowmodels.util.editor.CellModel_CustomFactory_InspectorBuilder_a$LINKS" />
-      <unit id="2490242408670906132" at="128,0,179,0" name="de.q60.mps.shadowmodels.util.editor.CellModel_CustomFactory_InspectorBuilder_a$factoryMethodSingleRoleHandler_ix9q3p_b0f0" />
-      <unit id="2490242408670906132" at="28,0,184,0" name="de.q60.mps.shadowmodels.util.editor.CellModel_CustomFactory_InspectorBuilder_a" />
+      <unit id="2490242408670906132" at="180,0,183,0" name="de.q60.mps.shadowmodels.util.editor.CellModel_CustomFactory_InspectorBuilder$LINKS" />
+      <unit id="2490242408670906132" at="128,0,179,0" name="de.q60.mps.shadowmodels.util.editor.CellModel_CustomFactory_InspectorBuilder$factoryMethodSingleRoleHandler_ix9q3p_b0f0" />
+      <unit id="2490242408670906132" at="28,0,184,0" name="de.q60.mps.shadowmodels.util.editor.CellModel_CustomFactory_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ab664764-0ac7-4a95-9554-436b8431d0d9(de.q60.mps.shadowmodels.util.editor)/4950383594641831136">

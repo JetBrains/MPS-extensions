@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TEST_SetOptionalNextToChild_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TEST_SetOptionalNextToChild_EditorBuilder_a(editorContext, node).createCell();
+    return new TEST_SetOptionalNextToChild_EditorBuilder(editorContext, node).createCell();
   }
 }

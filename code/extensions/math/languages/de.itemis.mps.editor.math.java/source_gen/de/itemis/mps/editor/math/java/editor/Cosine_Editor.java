@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Cosine_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Cosine_EditorBuilder_a(editorContext, node).createCell();
+    return new Cosine_EditorBuilder(editorContext, node).createCell();
   }
 }

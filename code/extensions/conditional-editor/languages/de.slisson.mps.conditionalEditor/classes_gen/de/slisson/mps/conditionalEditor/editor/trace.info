@@ -55,17 +55,17 @@
   </root>
   <root nodeRef="r:26b3c4ec-8e7e-4211-a68c-bc5a7189183e(de.slisson.mps.conditionalEditor.editor)/1452226863089052317">
     <file name="ComponentArgument_Editor.java">
-      <node id="1452226863089052317" at="11,79,12,83" concept="7" />
+      <node id="1452226863089052317" at="11,79,12,81" concept="7" />
       <node id="1452226863089052317" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1452226863089052317" at="11,79,12,83" />
+      <scope id="1452226863089052317" at="11,79,12,81" />
       <scope id="1452226863089052317" at="11,0,14,0">
         <var name="editorContext" id="1452226863089052317" />
         <var name="node" id="1452226863089052317" />
       </scope>
       <unit id="1452226863089052317" at="10,0,15,0" name="de.slisson.mps.conditionalEditor.editor.ComponentArgument_Editor" />
     </file>
-    <file name="ComponentArgument_EditorBuilder_a.java">
-      <node id="1452226863089052317" at="44,97,45,19" concept="11" />
+    <file name="ComponentArgument_EditorBuilder.java">
+      <node id="1452226863089052317" at="44,95,45,19" concept="11" />
       <node id="1452226863089052317" at="45,19,46,18" concept="2" />
       <node id="1452226863089052317" at="51,26,52,18" concept="7" />
       <node id="1452226863089052317" at="55,39,56,32" concept="7" />
@@ -134,7 +134,7 @@
       <node id="1452226863089052733" at="107,0,109,0" concept="3" trace="myNode" />
       <node id="1452226863089052317" at="55,0,58,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1452226863089052733" at="117,0,120,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1452226863089052317" at="44,0,48,0" concept="1" trace="ComponentArgument_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1452226863089052317" at="44,0,48,0" concept="1" trace="ComponentArgument_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1452226863089052317" at="92,0,96,5" concept="4" />
       <node id="1452226863092033195" at="152,43,156,5" concept="0" />
       <node id="1452226863089052317" at="49,0,54,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -155,7 +155,7 @@
       <scope id="1452226863089052733" at="117,41,118,32" />
       <scope id="1452226863089052733" at="123,28,124,20" />
       <scope id="1452226863091907440" at="147,17,148,42" />
-      <scope id="1452226863089052317" at="44,97,46,18" />
+      <scope id="1452226863089052317" at="44,95,46,18" />
       <scope id="1452226863089052317" at="93,40,95,47" />
       <scope id="1452226863089052317" at="100,73,102,145">
         <var name="manager" id="1452226863089052317" />
@@ -216,27 +216,27 @@
         <var name="referenceLink" id="1452226863089052317" />
       </scope>
       <scope id="1452226863089052317" at="71,0,106,0" />
-      <unit id="1452226863089052317" at="159,0,162,0" name="de.slisson.mps.conditionalEditor.editor.ComponentArgument_EditorBuilder_a$LINKS" />
-      <unit id="1452226863089052317" at="168,0,171,0" name="de.slisson.mps.conditionalEditor.editor.ComponentArgument_EditorBuilder_a$PROPS" />
-      <unit id="1452226863089052317" at="163,0,167,0" name="de.slisson.mps.conditionalEditor.editor.ComponentArgument_EditorBuilder_a$CONCEPTS" />
-      <unit id="1452226863089052317" at="73,42,88,5" name="de.slisson.mps.conditionalEditor.editor.ComponentArgument_EditorBuilder_a$1" />
-      <unit id="1452226863089052733" at="106,0,152,0" name="de.slisson.mps.conditionalEditor.editor.ComponentArgument_EditorBuilder_a$Inline_Builder0" />
-      <unit id="1452226863089052317" at="40,0,172,0" name="de.slisson.mps.conditionalEditor.editor.ComponentArgument_EditorBuilder_a" />
+      <unit id="1452226863089052317" at="159,0,162,0" name="de.slisson.mps.conditionalEditor.editor.ComponentArgument_EditorBuilder$LINKS" />
+      <unit id="1452226863089052317" at="168,0,171,0" name="de.slisson.mps.conditionalEditor.editor.ComponentArgument_EditorBuilder$PROPS" />
+      <unit id="1452226863089052317" at="163,0,167,0" name="de.slisson.mps.conditionalEditor.editor.ComponentArgument_EditorBuilder$CONCEPTS" />
+      <unit id="1452226863089052317" at="73,42,88,5" name="de.slisson.mps.conditionalEditor.editor.ComponentArgument_EditorBuilder$1" />
+      <unit id="1452226863089052733" at="106,0,152,0" name="de.slisson.mps.conditionalEditor.editor.ComponentArgument_EditorBuilder$Inline_Builder0" />
+      <unit id="1452226863089052317" at="40,0,172,0" name="de.slisson.mps.conditionalEditor.editor.ComponentArgument_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:26b3c4ec-8e7e-4211-a68c-bc5a7189183e(de.slisson.mps.conditionalEditor.editor)/1885109890161512428">
     <file name="DummyWrapperCell_Editor.java">
-      <node id="1885109890161512428" at="11,79,12,82" concept="7" />
+      <node id="1885109890161512428" at="11,79,12,80" concept="7" />
       <node id="1885109890161512428" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1885109890161512428" at="11,79,12,82" />
+      <scope id="1885109890161512428" at="11,79,12,80" />
       <scope id="1885109890161512428" at="11,0,14,0">
         <var name="editorContext" id="1885109890161512428" />
         <var name="node" id="1885109890161512428" />
       </scope>
       <unit id="1885109890161512428" at="10,0,15,0" name="de.slisson.mps.conditionalEditor.editor.DummyWrapperCell_Editor" />
     </file>
-    <file name="DummyWrapperCell_EditorBuilder_a.java">
-      <node id="1885109890161512428" at="27,96,28,19" concept="11" />
+    <file name="DummyWrapperCell_EditorBuilder.java">
+      <node id="1885109890161512428" at="27,94,28,19" concept="11" />
       <node id="1885109890161512428" at="28,19,29,18" concept="2" />
       <node id="1885109890161512428" at="34,26,35,18" concept="7" />
       <node id="1885109890161512428" at="38,39,39,32" concept="7" />
@@ -279,7 +279,7 @@
       <node id="1885109890161512428" at="86,87,89,7" concept="4" />
       <node id="1885109890161512428" at="89,7,92,7" concept="4" />
       <node id="1885109890161512428" at="108,0,111,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="1885109890161512428" at="27,0,31,0" concept="1" trace="DummyWrapperCell_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1885109890161512428" at="27,0,31,0" concept="1" trace="DummyWrapperCell_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1885109890161512428" at="57,0,61,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1885109890161512428" at="65,0,69,0" concept="1" trace="cellSingleRoleHandler_2go13j_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1885109890161512428" at="32,0,37,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -297,7 +297,7 @@
       <scope id="1885109890161512428" at="90,42,91,45" />
       <scope id="1885109890161512428" at="104,17,105,42" />
       <scope id="1885109890161512428" at="108,40,109,25" />
-      <scope id="1885109890161512428" at="27,96,29,18" />
+      <scope id="1885109890161512428" at="27,94,29,18" />
       <scope id="1885109890161512428" at="57,40,59,33">
         <var name="provider" id="1885109890161512428" />
       </scope>
@@ -341,24 +341,24 @@
       <scope id="1885109890161512428" at="42,0,51,0" />
       <scope id="1885109890161512428" at="95,44,106,7" />
       <scope id="1885109890161512428" at="94,0,108,0" />
-      <unit id="1885109890161512428" at="113,0,116,0" name="de.slisson.mps.conditionalEditor.editor.DummyWrapperCell_EditorBuilder_a$LINKS" />
-      <unit id="1885109890161512428" at="61,0,112,0" name="de.slisson.mps.conditionalEditor.editor.DummyWrapperCell_EditorBuilder_a$cellSingleRoleHandler_2go13j_b0" />
-      <unit id="1885109890161512428" at="23,0,117,0" name="de.slisson.mps.conditionalEditor.editor.DummyWrapperCell_EditorBuilder_a" />
+      <unit id="1885109890161512428" at="113,0,116,0" name="de.slisson.mps.conditionalEditor.editor.DummyWrapperCell_EditorBuilder$LINKS" />
+      <unit id="1885109890161512428" at="61,0,112,0" name="de.slisson.mps.conditionalEditor.editor.DummyWrapperCell_EditorBuilder$cellSingleRoleHandler_2go13j_b0" />
+      <unit id="1885109890161512428" at="23,0,117,0" name="de.slisson.mps.conditionalEditor.editor.DummyWrapperCell_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:26b3c4ec-8e7e-4211-a68c-bc5a7189183e(de.slisson.mps.conditionalEditor.editor)/2877762237606935134">
     <file name="ConditionalConceptEditorDeclaration_Editor.java">
-      <node id="2877762237606935134" at="11,79,12,101" concept="7" />
+      <node id="2877762237606935134" at="11,79,12,99" concept="7" />
       <node id="2877762237606935134" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2877762237606935134" at="11,79,12,101" />
+      <scope id="2877762237606935134" at="11,79,12,99" />
       <scope id="2877762237606935134" at="11,0,14,0">
         <var name="editorContext" id="2877762237606935134" />
         <var name="node" id="2877762237606935134" />
       </scope>
       <unit id="2877762237606935134" at="10,0,15,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_Editor" />
     </file>
-    <file name="ConditionalConceptEditorDeclaration_EditorBuilder_a.java">
-      <node id="2877762237606935134" at="63,115,64,19" concept="11" />
+    <file name="ConditionalConceptEditorDeclaration_EditorBuilder.java">
+      <node id="2877762237606935134" at="63,113,64,19" concept="11" />
       <node id="2877762237606935134" at="64,19,65,18" concept="2" />
       <node id="2877762237606935134" at="70,26,71,18" concept="7" />
       <node id="2877762237606935134" at="74,39,75,32" concept="7" />
@@ -748,7 +748,7 @@
       <node id="2877762237606935134" at="658,87,661,7" concept="4" />
       <node id="2877762237606935134" at="661,7,664,7" concept="4" />
       <node id="2877762237606935134" at="681,0,684,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="2877762237606935134" at="63,0,67,0" concept="1" trace="ConditionalConceptEditorDeclaration_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2877762237606935134" at="63,0,67,0" concept="1" trace="ConditionalConceptEditorDeclaration_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2877762237606935134" at="113,0,117,0" concept="1" trace="contextHintsListHandler_pjsr7k_a0a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="2877762237606935134" at="118,0,122,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2877762237606935134" at="151,97,155,9" concept="4" />
@@ -856,7 +856,7 @@
       <scope id="2877762237606935134" at="662,42,663,59" />
       <scope id="2877762237606935134" at="677,17,678,42" />
       <scope id="2877762237606935134" at="681,40,682,35" />
-      <scope id="2877762237606935134" at="63,115,65,18" />
+      <scope id="2877762237606935134" at="63,113,65,18" />
       <scope id="2877762237606935134" at="113,87,115,25" />
       <scope id="2877762237606935134" at="152,122,154,146" />
       <scope id="2877762237606935134" at="158,34,160,142" />
@@ -1182,31 +1182,31 @@
         <var name="referenceLink" id="2877762237606935134" />
       </scope>
       <scope id="2877762237606935134" at="241,0,269,0" />
-      <unit id="2877762237606935134" at="694,0,699,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder_a$CONCEPTS" />
-      <unit id="2877762237606935134" at="700,0,705,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder_a$PROPS" />
-      <unit id="2877762237606935134" at="686,0,693,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder_a$LINKS" />
-      <unit id="2877762237606935134" at="243,42,251,5" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder_a$1" />
-      <unit id="1106262827948" at="269,0,316,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder_a$Inline_Builder0" />
-      <unit id="2877762237606935134" at="407,0,458,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder_a$conditionSingleRoleHandler_pjsr7k_b2b1a" />
-      <unit id="2877762237606935134" at="518,0,570,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder_a$cellModelSingleRoleHandler_pjsr7k_b2b2a" />
-      <unit id="2877762237606935134" at="633,0,685,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder_a$inspectedCellModelSingleRoleHandler_pjsr7k_b2b3a" />
-      <unit id="2877762237606935134" at="109,0,202,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder_a$contextHintsListHandler_pjsr7k_a0a" />
-      <unit id="2877762237606935134" at="59,0,706,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder_a" />
+      <unit id="2877762237606935134" at="694,0,699,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder$CONCEPTS" />
+      <unit id="2877762237606935134" at="700,0,705,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder$PROPS" />
+      <unit id="2877762237606935134" at="686,0,693,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder$LINKS" />
+      <unit id="2877762237606935134" at="243,42,251,5" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder$1" />
+      <unit id="1106262827948" at="269,0,316,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder$Inline_Builder0" />
+      <unit id="2877762237606935134" at="407,0,458,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder$conditionSingleRoleHandler_pjsr7k_b2b1a" />
+      <unit id="2877762237606935134" at="518,0,570,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder$cellModelSingleRoleHandler_pjsr7k_b2b2a" />
+      <unit id="2877762237606935134" at="633,0,685,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder$inspectedCellModelSingleRoleHandler_pjsr7k_b2b3a" />
+      <unit id="2877762237606935134" at="109,0,202,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder$contextHintsListHandler_pjsr7k_a0a" />
+      <unit id="2877762237606935134" at="59,0,706,0" name="de.slisson.mps.conditionalEditor.editor.ConditionalConceptEditorDeclaration_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:26b3c4ec-8e7e-4211-a68c-bc5a7189183e(de.slisson.mps.conditionalEditor.editor)/2877762237607058218">
     <file name="NextEditor_Editor.java">
-      <node id="2877762237607058218" at="11,79,12,76" concept="7" />
+      <node id="2877762237607058218" at="11,79,12,74" concept="7" />
       <node id="2877762237607058218" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2877762237607058218" at="11,79,12,76" />
+      <scope id="2877762237607058218" at="11,79,12,74" />
       <scope id="2877762237607058218" at="11,0,14,0">
         <var name="editorContext" id="2877762237607058218" />
         <var name="node" id="2877762237607058218" />
       </scope>
       <unit id="2877762237607058218" at="10,0,15,0" name="de.slisson.mps.conditionalEditor.editor.NextEditor_Editor" />
     </file>
-    <file name="NextEditor_EditorBuilder_a.java">
-      <node id="2877762237607058218" at="24,90,25,19" concept="11" />
+    <file name="NextEditor_EditorBuilder.java">
+      <node id="2877762237607058218" at="24,88,25,19" concept="11" />
       <node id="2877762237607058218" at="25,19,26,18" concept="2" />
       <node id="2877762237607058218" at="31,26,32,18" concept="7" />
       <node id="2877762237607058218" at="35,39,36,32" concept="7" />
@@ -1248,7 +1248,7 @@
       <node id="2760415781641265926" at="80,34,81,22" concept="7" />
       <node id="2877762237607058218" at="21,0,23,0" concept="3" trace="myNode" />
       <node id="2877762237607058218" at="35,0,38,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2877762237607058218" at="24,0,28,0" concept="1" trace="NextEditor_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2877762237607058218" at="24,0,28,0" concept="1" trace="NextEditor_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2877762237607058218" at="29,0,34,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2760415781641265925" at="63,0,72,0" concept="5" trace="createConstant_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2760415781641265921" at="52,0,63,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1256,7 +1256,7 @@
       <node id="2877762237607058218" at="39,0,52,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2877762237607058218" at="31,26,32,18" />
       <scope id="2877762237607058218" at="35,39,36,32" />
-      <scope id="2877762237607058218" at="24,90,26,18" />
+      <scope id="2877762237607058218" at="24,88,26,18" />
       <scope id="2877762237607058218" at="35,0,38,0" />
       <scope id="2877762237607058218" at="24,0,28,0">
         <var name="context" id="2877762237607058218" />
@@ -1283,7 +1283,7 @@
       <scope id="2760415781641265921" at="52,0,63,0" />
       <scope id="2760415781641265926" at="72,0,83,0" />
       <scope id="2877762237607058218" at="39,0,52,0" />
-      <unit id="2877762237607058218" at="20,0,84,0" name="de.slisson.mps.conditionalEditor.editor.NextEditor_EditorBuilder_a" />
+      <unit id="2877762237607058218" at="20,0,84,0" name="de.slisson.mps.conditionalEditor.editor.NextEditor_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:26b3c4ec-8e7e-4211-a68c-bc5a7189183e(de.slisson.mps.conditionalEditor.editor)/4950383594641831137">
@@ -1306,17 +1306,17 @@
   </root>
   <root nodeRef="r:26b3c4ec-8e7e-4211-a68c-bc5a7189183e(de.slisson.mps.conditionalEditor.editor)/5944411529051344333">
     <file name="PriorityInfoCell_Editor.java">
-      <node id="5944411529051344333" at="11,79,12,82" concept="7" />
+      <node id="5944411529051344333" at="11,79,12,80" concept="7" />
       <node id="5944411529051344333" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5944411529051344333" at="11,79,12,82" />
+      <scope id="5944411529051344333" at="11,79,12,80" />
       <scope id="5944411529051344333" at="11,0,14,0">
         <var name="editorContext" id="5944411529051344333" />
         <var name="node" id="5944411529051344333" />
       </scope>
       <unit id="5944411529051344333" at="10,0,15,0" name="de.slisson.mps.conditionalEditor.editor.PriorityInfoCell_Editor" />
     </file>
-    <file name="PriorityInfoCell_EditorBuilder_a.java">
-      <node id="5944411529051344333" at="44,96,45,19" concept="11" />
+    <file name="PriorityInfoCell_EditorBuilder.java">
+      <node id="5944411529051344333" at="44,94,45,19" concept="11" />
       <node id="5944411529051344333" at="45,19,46,18" concept="2" />
       <node id="5944411529051344333" at="51,26,52,18" concept="7" />
       <node id="5944411529051344333" at="55,39,56,32" concept="7" />
@@ -1404,7 +1404,7 @@
       <node id="5944411529051344333" at="163,87,166,7" concept="4" />
       <node id="5944411529051344333" at="166,7,169,7" concept="4" />
       <node id="5944411529051344333" at="185,0,188,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="5944411529051344333" at="44,0,48,0" concept="1" trace="PriorityInfoCell_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5944411529051344333" at="44,0,48,0" concept="1" trace="PriorityInfoCell_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5944411529051344333" at="134,0,138,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5944411529051344333" at="142,0,146,0" concept="1" trace="cellSingleRoleHandler_xlx3m4_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5944411529051344333" at="49,0,54,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -1432,7 +1432,7 @@
       <scope id="5944411529051344333" at="167,42,168,45" />
       <scope id="5944411529051344333" at="181,17,182,42" />
       <scope id="5944411529051344333" at="185,40,186,25" />
-      <scope id="5944411529051344333" at="44,96,46,18" />
+      <scope id="5944411529051344333" at="44,94,46,18" />
       <scope id="5944411529051344423" at="98,74,100,145">
         <var name="manager" id="5944411529051344423" />
       </scope>
@@ -1507,26 +1507,26 @@
       <scope id="5944411529051415641" at="113,41,132,5" />
       <scope id="5944411529051344423" at="86,0,107,0" />
       <scope id="5944411529051415641" at="113,0,134,0" />
-      <unit id="5944411529051344333" at="195,0,198,0" name="de.slisson.mps.conditionalEditor.editor.PriorityInfoCell_EditorBuilder_a$CONCEPTS" />
-      <unit id="5944411529051344333" at="199,0,202,0" name="de.slisson.mps.conditionalEditor.editor.PriorityInfoCell_EditorBuilder_a$LINKS" />
-      <unit id="5944411529051344333" at="190,0,194,0" name="de.slisson.mps.conditionalEditor.editor.PriorityInfoCell_EditorBuilder_a$PROPS" />
-      <unit id="5944411529051344333" at="138,0,189,0" name="de.slisson.mps.conditionalEditor.editor.PriorityInfoCell_EditorBuilder_a$cellSingleRoleHandler_xlx3m4_b0" />
-      <unit id="5944411529051344333" at="40,0,203,0" name="de.slisson.mps.conditionalEditor.editor.PriorityInfoCell_EditorBuilder_a" />
+      <unit id="5944411529051344333" at="195,0,198,0" name="de.slisson.mps.conditionalEditor.editor.PriorityInfoCell_EditorBuilder$CONCEPTS" />
+      <unit id="5944411529051344333" at="199,0,202,0" name="de.slisson.mps.conditionalEditor.editor.PriorityInfoCell_EditorBuilder$LINKS" />
+      <unit id="5944411529051344333" at="190,0,194,0" name="de.slisson.mps.conditionalEditor.editor.PriorityInfoCell_EditorBuilder$PROPS" />
+      <unit id="5944411529051344333" at="138,0,189,0" name="de.slisson.mps.conditionalEditor.editor.PriorityInfoCell_EditorBuilder$cellSingleRoleHandler_xlx3m4_b0" />
+      <unit id="5944411529051344333" at="40,0,203,0" name="de.slisson.mps.conditionalEditor.editor.PriorityInfoCell_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:26b3c4ec-8e7e-4211-a68c-bc5a7189183e(de.slisson.mps.conditionalEditor.editor)/5944411529051554615">
     <file name="UniqueNameInfo_Editor.java">
-      <node id="5944411529051554615" at="11,79,12,80" concept="7" />
+      <node id="5944411529051554615" at="11,79,12,78" concept="7" />
       <node id="5944411529051554615" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5944411529051554615" at="11,79,12,80" />
+      <scope id="5944411529051554615" at="11,79,12,78" />
       <scope id="5944411529051554615" at="11,0,14,0">
         <var name="editorContext" id="5944411529051554615" />
         <var name="node" id="5944411529051554615" />
       </scope>
       <unit id="5944411529051554615" at="10,0,15,0" name="de.slisson.mps.conditionalEditor.editor.UniqueNameInfo_Editor" />
     </file>
-    <file name="UniqueNameInfo_EditorBuilder_a.java">
-      <node id="5944411529051554615" at="32,94,33,19" concept="11" />
+    <file name="UniqueNameInfo_EditorBuilder.java">
+      <node id="5944411529051554615" at="32,92,33,19" concept="11" />
       <node id="5944411529051554615" at="33,19,34,18" concept="2" />
       <node id="5944411529051554615" at="39,26,40,18" concept="7" />
       <node id="5944411529051554615" at="43,39,44,32" concept="7" />
@@ -1559,7 +1559,7 @@
       <node id="5944411529051554615" at="89,0,90,0" concept="9" trace="PropertyAttribute$Gb" />
       <node id="5944411529051554615" at="29,0,31,0" concept="3" trace="myNode" />
       <node id="5944411529051554615" at="43,0,46,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5944411529051554615" at="32,0,36,0" concept="1" trace="UniqueNameInfo_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5944411529051554615" at="32,0,36,0" concept="1" trace="UniqueNameInfo_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5944411529051554615" at="37,0,42,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5944411529051554677" at="73,208,78,24" concept="4" />
       <node id="5944411529051554665" at="56,0,62,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1569,7 +1569,7 @@
       <scope id="5944411529051554615" at="39,26,40,18" />
       <scope id="5944411529051554615" at="43,39,44,32" />
       <scope id="5944411529051554677" at="79,15,80,40" />
-      <scope id="5944411529051554615" at="32,94,34,18" />
+      <scope id="5944411529051554615" at="32,92,34,18" />
       <scope id="5944411529051554677" at="74,74,76,145">
         <var name="manager" id="5944411529051554677" />
       </scope>
@@ -1595,24 +1595,24 @@
       </scope>
       <scope id="5944411529051554677" at="62,41,81,5" />
       <scope id="5944411529051554677" at="62,0,83,0" />
-      <unit id="5944411529051554615" at="84,0,87,0" name="de.slisson.mps.conditionalEditor.editor.UniqueNameInfo_EditorBuilder_a$PROPS" />
-      <unit id="5944411529051554615" at="88,0,91,0" name="de.slisson.mps.conditionalEditor.editor.UniqueNameInfo_EditorBuilder_a$CONCEPTS" />
-      <unit id="5944411529051554615" at="28,0,92,0" name="de.slisson.mps.conditionalEditor.editor.UniqueNameInfo_EditorBuilder_a" />
+      <unit id="5944411529051554615" at="84,0,87,0" name="de.slisson.mps.conditionalEditor.editor.UniqueNameInfo_EditorBuilder$PROPS" />
+      <unit id="5944411529051554615" at="88,0,91,0" name="de.slisson.mps.conditionalEditor.editor.UniqueNameInfo_EditorBuilder$CONCEPTS" />
+      <unit id="5944411529051554615" at="28,0,92,0" name="de.slisson.mps.conditionalEditor.editor.UniqueNameInfo_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:26b3c4ec-8e7e-4211-a68c-bc5a7189183e(de.slisson.mps.conditionalEditor.editor)/6733065834252994207">
     <file name="EditorComponentDeclarationWithParameters_Editor.java">
-      <node id="6733065834252994207" at="11,79,12,106" concept="7" />
+      <node id="6733065834252994207" at="11,79,12,104" concept="7" />
       <node id="6733065834252994207" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6733065834252994207" at="11,79,12,106" />
+      <scope id="6733065834252994207" at="11,79,12,104" />
       <scope id="6733065834252994207" at="11,0,14,0">
         <var name="editorContext" id="6733065834252994207" />
         <var name="node" id="6733065834252994207" />
       </scope>
       <unit id="6733065834252994207" at="10,0,15,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_Editor" />
     </file>
-    <file name="EditorComponentDeclarationWithParameters_EditorBuilder_a.java">
-      <node id="6733065834252994207" at="64,120,65,19" concept="11" />
+    <file name="EditorComponentDeclarationWithParameters_EditorBuilder.java">
+      <node id="6733065834252994207" at="64,118,65,19" concept="11" />
       <node id="6733065834252994207" at="65,19,66,18" concept="2" />
       <node id="6733065834252994207" at="71,26,72,18" concept="7" />
       <node id="6733065834252994207" at="75,39,76,32" concept="7" />
@@ -1622,12 +1622,12 @@
       <node id="6733065834252994207" at="82,28,83,31" concept="2" />
       <node id="1079007237545" at="83,31,84,51" concept="2" />
       <node id="2738040892076353427" at="84,51,85,51" concept="2" />
-      <node id="7348800710862457066" at="86,37,87,53" concept="2" />
+      <node id="7348800710862457066" at="86,27,87,53" concept="2" />
       <node id="1079007237550" at="88,5,89,51" concept="2" />
       <node id="1452226863087706980" at="89,51,90,52" concept="2" />
       <node id="1079007237557" at="90,52,91,52" concept="2" />
       <node id="6733065834252994207" at="91,52,92,22" concept="7" />
-      <node id="7348800710864585620" at="94,46,95,90" concept="7" />
+      <node id="7348800710864585620" at="94,36,95,90" concept="7" />
       <node id="6733065834252994207" at="97,43,98,122" concept="6" />
       <node id="6733065834252994207" at="98,122,99,49" concept="2" />
       <node id="6733065834252994207" at="99,49,100,34" concept="6" />
@@ -2026,7 +2026,7 @@
       <node id="6733065834252994207" at="695,0,697,0" concept="3" trace="myNode" />
       <node id="6733065834252994207" at="75,0,78,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7348800710862457066" at="85,51,88,5" concept="4" />
-      <node id="7348800710864584781" at="94,0,97,0" concept="5" trace="nodeCondition_ahoe89_a2a#()Z" />
+      <node id="7348800710864584781" at="94,0,97,0" concept="5" trace="nodeCondition0#()Z" />
       <node id="6733065834252994207" at="211,87,214,7" concept="4" />
       <node id="6733065834252994207" at="214,7,217,7" concept="4" />
       <node id="6733065834252994207" at="233,0,236,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
@@ -2039,7 +2039,7 @@
       <node id="6733065834252994207" at="719,87,722,7" concept="4" />
       <node id="6733065834252994207" at="722,7,725,7" concept="4" />
       <node id="6733065834252994207" at="742,0,745,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="6733065834252994207" at="64,0,68,0" concept="1" trace="EditorComponentDeclarationWithParameters_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6733065834252994207" at="64,0,68,0" concept="1" trace="EditorComponentDeclarationWithParameters_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2738040892076353506" at="144,0,148,0" concept="5" trace="createIndentCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="608335627131231887" at="178,0,182,0" concept="5" trace="createIndentCell_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6733065834252994207" at="182,0,186,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -2135,8 +2135,8 @@
       <node id="6733065834252994207" at="434,0,462,0" concept="5" trace="createRefCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6733065834252994207" at="71,26,72,18" />
       <scope id="6733065834252994207" at="75,39,76,32" />
-      <scope id="7348800710862457066" at="86,37,87,53" />
-      <scope id="7348800710864584782" at="94,46,95,90" />
+      <scope id="7348800710862457066" at="86,27,87,53" />
+      <scope id="7348800710864584782" at="94,36,95,90" />
       <scope id="1136931226248" at="130,15,131,40" />
       <scope id="6733065834252994207" at="197,28,198,20" />
       <scope id="6733065834252994207" at="212,118,213,137" />
@@ -2160,7 +2160,7 @@
       <scope id="6733065834252994207" at="723,42,724,50" />
       <scope id="6733065834252994207" at="738,17,739,42" />
       <scope id="6733065834252994207" at="742,40,743,30" />
-      <scope id="6733065834252994207" at="64,120,66,18" />
+      <scope id="6733065834252994207" at="64,118,66,18" />
       <scope id="1136931226248" at="125,74,127,145">
         <var name="manager" id="1136931226248" />
       </scope>
@@ -2521,31 +2521,31 @@
         <var name="referenceLink" id="6733065834252994207" />
       </scope>
       <scope id="6733065834252994207" at="434,0,462,0" />
-      <unit id="6733065834252994207" at="755,0,758,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder_a$PROPS" />
-      <unit id="6733065834252994207" at="759,0,765,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder_a$CONCEPTS" />
-      <unit id="6733065834252994207" at="747,0,754,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder_a$LINKS" />
-      <unit id="6733065834252994207" at="436,42,444,5" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder_a$1" />
-      <unit id="1106261017482" at="462,0,508,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder_a$Inline_Builder0" />
-      <unit id="6733065834252994207" at="186,0,237,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder_a$overridenEditorComponentSingleRoleHandler_ahoe89_b1b1a" />
-      <unit id="6733065834252994207" at="694,0,746,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder_a$cellModelSingleRoleHandler_ahoe89_b2b5a" />
-      <unit id="6733065834252994207" at="564,0,631,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder_a$parametersListHandler_ahoe89_b1b4a" />
-      <unit id="6733065834252994207" at="292,0,385,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder_a$contextHintsListHandler_ahoe89_b1b2a" />
-      <unit id="6733065834252994207" at="60,0,766,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder_a" />
+      <unit id="6733065834252994207" at="755,0,758,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder$PROPS" />
+      <unit id="6733065834252994207" at="759,0,765,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder$CONCEPTS" />
+      <unit id="6733065834252994207" at="747,0,754,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder$LINKS" />
+      <unit id="6733065834252994207" at="436,42,444,5" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder$1" />
+      <unit id="1106261017482" at="462,0,508,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder$Inline_Builder0" />
+      <unit id="6733065834252994207" at="186,0,237,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder$overridenEditorComponentSingleRoleHandler_ahoe89_b1b1a" />
+      <unit id="6733065834252994207" at="694,0,746,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder$cellModelSingleRoleHandler_ahoe89_b2b5a" />
+      <unit id="6733065834252994207" at="564,0,631,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder$parametersListHandler_ahoe89_b1b4a" />
+      <unit id="6733065834252994207" at="292,0,385,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder$contextHintsListHandler_ahoe89_b1b2a" />
+      <unit id="6733065834252994207" at="60,0,766,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentDeclarationWithParameters_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:26b3c4ec-8e7e-4211-a68c-bc5a7189183e(de.slisson.mps.conditionalEditor.editor)/6733065834258977609">
     <file name="EditorComponentParameterReference_Editor.java">
-      <node id="6733065834258977609" at="11,79,12,99" concept="7" />
+      <node id="6733065834258977609" at="11,79,12,97" concept="7" />
       <node id="6733065834258977609" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6733065834258977609" at="11,79,12,99" />
+      <scope id="6733065834258977609" at="11,79,12,97" />
       <scope id="6733065834258977609" at="11,0,14,0">
         <var name="editorContext" id="6733065834258977609" />
         <var name="node" id="6733065834258977609" />
       </scope>
       <unit id="6733065834258977609" at="10,0,15,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentParameterReference_Editor" />
     </file>
-    <file name="EditorComponentParameterReference_EditorBuilder_a.java">
-      <node id="6733065834258977609" at="43,113,44,19" concept="11" />
+    <file name="EditorComponentParameterReference_EditorBuilder.java">
+      <node id="6733065834258977609" at="43,111,44,19" concept="11" />
       <node id="6733065834258977609" at="44,19,45,18" concept="2" />
       <node id="6733065834258977609" at="50,26,51,18" concept="7" />
       <node id="6733065834258977609" at="54,39,55,32" concept="7" />
@@ -2608,7 +2608,7 @@
       <node id="6733065834258977613" at="102,0,104,0" concept="3" trace="myNode" />
       <node id="6733065834258977609" at="54,0,57,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6733065834258977613" at="112,0,115,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6733065834258977609" at="43,0,47,0" concept="1" trace="EditorComponentParameterReference_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6733065834258977609" at="43,0,47,0" concept="1" trace="EditorComponentParameterReference_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6733065834258977609" at="87,0,91,5" concept="4" />
       <node id="6733065834258977609" at="48,0,53,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6733065834258977609" at="94,205,99,22" concept="4" />
@@ -2627,7 +2627,7 @@
       <scope id="6733065834258977613" at="112,41,113,32" />
       <scope id="6733065834258977613" at="118,28,119,20" />
       <scope id="6733065834258977620" at="142,17,143,42" />
-      <scope id="6733065834258977609" at="43,113,45,18" />
+      <scope id="6733065834258977609" at="43,111,45,18" />
       <scope id="6733065834258977609" at="88,40,90,48" />
       <scope id="6733065834258977609" at="95,73,97,145">
         <var name="manager" id="6733065834258977609" />
@@ -2682,27 +2682,27 @@
         <var name="referenceLink" id="6733065834258977609" />
       </scope>
       <scope id="6733065834258977609" at="66,0,101,0" />
-      <unit id="6733065834258977609" at="148,0,151,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentParameterReference_EditorBuilder_a$LINKS" />
-      <unit id="6733065834258977609" at="157,0,160,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentParameterReference_EditorBuilder_a$PROPS" />
-      <unit id="6733065834258977609" at="152,0,156,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentParameterReference_EditorBuilder_a$CONCEPTS" />
-      <unit id="6733065834258977609" at="68,42,83,5" name="de.slisson.mps.conditionalEditor.editor.EditorComponentParameterReference_EditorBuilder_a$1" />
-      <unit id="6733065834258977613" at="101,0,147,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentParameterReference_EditorBuilder_a$Inline_Builder0" />
-      <unit id="6733065834258977609" at="39,0,161,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentParameterReference_EditorBuilder_a" />
+      <unit id="6733065834258977609" at="148,0,151,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentParameterReference_EditorBuilder$LINKS" />
+      <unit id="6733065834258977609" at="157,0,160,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentParameterReference_EditorBuilder$PROPS" />
+      <unit id="6733065834258977609" at="152,0,156,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentParameterReference_EditorBuilder$CONCEPTS" />
+      <unit id="6733065834258977609" at="68,42,83,5" name="de.slisson.mps.conditionalEditor.editor.EditorComponentParameterReference_EditorBuilder$1" />
+      <unit id="6733065834258977613" at="101,0,147,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentParameterReference_EditorBuilder$Inline_Builder0" />
+      <unit id="6733065834258977609" at="39,0,161,0" name="de.slisson.mps.conditionalEditor.editor.EditorComponentParameterReference_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:26b3c4ec-8e7e-4211-a68c-bc5a7189183e(de.slisson.mps.conditionalEditor.editor)/6733065834259138552">
     <file name="StubCellModel_ComponentWithParameters_Editor.java">
-      <node id="6733065834259138552" at="11,79,12,103" concept="7" />
+      <node id="6733065834259138552" at="11,79,12,101" concept="7" />
       <node id="6733065834259138552" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6733065834259138552" at="11,79,12,103" />
+      <scope id="6733065834259138552" at="11,79,12,101" />
       <scope id="6733065834259138552" at="11,0,14,0">
         <var name="editorContext" id="6733065834259138552" />
         <var name="node" id="6733065834259138552" />
       </scope>
       <unit id="6733065834259138552" at="10,0,15,0" name="de.slisson.mps.conditionalEditor.editor.StubCellModel_ComponentWithParameters_Editor" />
     </file>
-    <file name="StubCellModel_ComponentWithParameters_EditorBuilder_a.java">
-      <node id="6733065834259138552" at="16,117,17,19" concept="11" />
+    <file name="StubCellModel_ComponentWithParameters_EditorBuilder.java">
+      <node id="6733065834259138552" at="16,115,17,19" concept="11" />
       <node id="6733065834259138552" at="17,19,18,18" concept="2" />
       <node id="6733065834259138552" at="23,26,24,18" concept="7" />
       <node id="6733065834259138552" at="27,39,28,31" concept="7" />
@@ -2713,13 +2713,13 @@
       <node id="6733065834259138553" at="37,5,38,22" concept="7" />
       <node id="6733065834259138552" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="6733065834259138552" at="27,0,30,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6733065834259138552" at="16,0,20,0" concept="1" trace="StubCellModel_ComponentWithParameters_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6733065834259138552" at="16,0,20,0" concept="1" trace="StubCellModel_ComponentWithParameters_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6733065834259138553" at="33,72,37,5" concept="4" />
       <node id="6733065834259138552" at="21,0,26,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6733065834259138553" at="31,0,40,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6733065834259138552" at="23,26,24,18" />
       <scope id="6733065834259138552" at="27,39,28,31" />
-      <scope id="6733065834259138552" at="16,117,18,18" />
+      <scope id="6733065834259138552" at="16,115,18,18" />
       <scope id="6733065834259138553" at="34,26,36,30" />
       <scope id="6733065834259138552" at="27,0,30,0" />
       <scope id="6733065834259138552" at="16,0,20,0">
@@ -2732,7 +2732,7 @@
         <var name="editorCell" id="6733065834259138553" />
       </scope>
       <scope id="6733065834259138553" at="31,0,40,0" />
-      <unit id="6733065834259138552" at="12,0,41,0" name="de.slisson.mps.conditionalEditor.editor.StubCellModel_ComponentWithParameters_EditorBuilder_a" />
+      <unit id="6733065834259138552" at="12,0,41,0" name="de.slisson.mps.conditionalEditor.editor.StubCellModel_ComponentWithParameters_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:26b3c4ec-8e7e-4211-a68c-bc5a7189183e(de.slisson.mps.conditionalEditor.editor)/6733065834259138554">
@@ -2746,12 +2746,12 @@
   </root>
   <root nodeRef="r:26b3c4ec-8e7e-4211-a68c-bc5a7189183e(de.slisson.mps.conditionalEditor.editor)/6733065834259230781">
     <file name="CellModel_ComponentWithParameters_Editor.java">
-      <node id="6733065834259230781" at="11,79,12,99" concept="7" />
-      <node id="6733065834259230781" at="14,82,15,102" concept="7" />
+      <node id="6733065834259230781" at="11,79,12,97" concept="7" />
+      <node id="6733065834259230781" at="14,82,15,100" concept="7" />
       <node id="6733065834259230781" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6733065834259230781" at="14,0,17,0" concept="5" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6733065834259230781" at="11,79,12,99" />
-      <scope id="6733065834259230781" at="14,82,15,102" />
+      <scope id="6733065834259230781" at="11,79,12,97" />
+      <scope id="6733065834259230781" at="14,82,15,100" />
       <scope id="6733065834259230781" at="11,0,14,0">
         <var name="editorContext" id="6733065834259230781" />
         <var name="node" id="6733065834259230781" />
@@ -2762,8 +2762,8 @@
       </scope>
       <unit id="6733065834259230781" at="10,0,18,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_Editor" />
     </file>
-    <file name="CellModel_ComponentWithParameters_EditorBuilder_a.java">
-      <node id="6733065834259230781" at="42,113,43,19" concept="11" />
+    <file name="CellModel_ComponentWithParameters_EditorBuilder.java">
+      <node id="6733065834259230781" at="42,111,43,19" concept="11" />
       <node id="6733065834259230781" at="43,19,44,18" concept="2" />
       <node id="6733065834259230781" at="49,26,50,18" concept="7" />
       <node id="6733065834259230781" at="53,39,54,32" concept="7" />
@@ -2842,7 +2842,7 @@
       <node id="1140222839465" at="114,0,116,0" concept="3" trace="myNode" />
       <node id="6733065834259230781" at="53,0,56,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1140222839465" at="124,0,127,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6733065834259230781" at="42,0,46,0" concept="1" trace="CellModel_ComponentWithParameters_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6733065834259230781" at="42,0,46,0" concept="1" trace="CellModel_ComponentWithParameters_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1176717023528" at="71,0,75,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6733065834259230781" at="99,0,103,5" concept="4" />
       <node id="6733065834259230781" at="47,0,52,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2863,7 +2863,7 @@
       <scope id="1140222839465" at="124,41,125,32" />
       <scope id="1140222839465" at="130,28,131,20" />
       <scope id="1140222845140" at="151,17,152,42" />
-      <scope id="6733065834259230781" at="42,113,44,18" />
+      <scope id="6733065834259230781" at="42,111,44,18" />
       <scope id="1176717023528" at="71,42,73,22">
         <var name="editorCell" id="1176717023528" />
       </scope>
@@ -2926,15 +2926,15 @@
         <var name="referenceLink" id="6733065834259230781" />
       </scope>
       <scope id="6733065834259230781" at="84,0,113,0" />
-      <unit id="6733065834259230781" at="175,0,178,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_EditorBuilder_a$PROPS" />
-      <unit id="6733065834259230781" at="164,0,168,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_EditorBuilder_a$LINKS" />
-      <unit id="6733065834259230781" at="169,0,174,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_EditorBuilder_a$CONCEPTS" />
-      <unit id="6733065834259230781" at="86,42,94,5" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_EditorBuilder_a$1" />
-      <unit id="1140222839465" at="113,0,156,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_EditorBuilder_a$Inline_Builder0" />
-      <unit id="6733065834259230781" at="38,0,179,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_EditorBuilder_a" />
+      <unit id="6733065834259230781" at="175,0,178,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_EditorBuilder$PROPS" />
+      <unit id="6733065834259230781" at="164,0,168,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_EditorBuilder$LINKS" />
+      <unit id="6733065834259230781" at="169,0,174,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_EditorBuilder$CONCEPTS" />
+      <unit id="6733065834259230781" at="86,42,94,5" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_EditorBuilder$1" />
+      <unit id="1140222839465" at="113,0,156,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_EditorBuilder$Inline_Builder0" />
+      <unit id="6733065834259230781" at="38,0,179,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_EditorBuilder" />
     </file>
-    <file name="CellModel_ComponentWithParameters_InspectorBuilder_a.java">
-      <node id="6733065834259230781" at="38,116,39,19" concept="11" />
+    <file name="CellModel_ComponentWithParameters_InspectorBuilder.java">
+      <node id="6733065834259230781" at="38,114,39,19" concept="11" />
       <node id="6733065834259230781" at="39,19,40,18" concept="2" />
       <node id="6733065834259230781" at="45,26,46,18" concept="7" />
       <node id="6733065834259230781" at="49,39,50,32" concept="7" />
@@ -3021,7 +3021,7 @@
       <node id="6733065834259230781" at="119,0,122,0" concept="5" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1452226863091106209" at="123,73,126,7" concept="4" />
       <node id="6733065834259230781" at="169,96,172,9" concept="4" />
-      <node id="6733065834259230781" at="38,0,42,0" concept="1" trace="CellModel_ComponentWithParameters_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6733065834259230781" at="38,0,42,0" concept="1" trace="CellModel_ComponentWithParameters_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1452226863087784474" at="64,43,68,5" concept="0" />
       <node id="6733065834259230781" at="104,0,108,0" concept="1" trace="argumentsListHandler_5o0j23_b2a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6733065834259230781" at="109,0,113,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -3055,7 +3055,7 @@
       <scope id="1452226863091106211" at="124,165,125,212" />
       <scope id="6733065834259230781" at="143,17,144,42" />
       <scope id="6733065834259230781" at="170,34,171,91" />
-      <scope id="6733065834259230781" at="38,116,40,18" />
+      <scope id="6733065834259230781" at="38,114,40,18" />
       <scope id="1452226863087784474" at="65,5,67,24">
         <var name="editorCell" id="1452226863087784474" />
       </scope>
@@ -3143,10 +3143,10 @@
         <var name="elementNode" id="6733065834259230781" />
         <var name="isEmptyCell" id="6733065834259230781" />
       </scope>
-      <unit id="6733065834259230781" at="197,0,201,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_InspectorBuilder_a$CONCEPTS" />
-      <unit id="6733065834259230781" at="189,0,196,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_InspectorBuilder_a$LINKS" />
-      <unit id="6733065834259230781" at="100,0,182,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_InspectorBuilder_a$argumentsListHandler_5o0j23_b2a" />
-      <unit id="6733065834259230781" at="34,0,202,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_InspectorBuilder_a" />
+      <unit id="6733065834259230781" at="197,0,201,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_InspectorBuilder$CONCEPTS" />
+      <unit id="6733065834259230781" at="189,0,196,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_InspectorBuilder$LINKS" />
+      <unit id="6733065834259230781" at="100,0,182,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_InspectorBuilder$argumentsListHandler_5o0j23_b2a" />
+      <unit id="6733065834259230781" at="34,0,202,0" name="de.slisson.mps.conditionalEditor.editor.CellModel_ComponentWithParameters_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:26b3c4ec-8e7e-4211-a68c-bc5a7189183e(de.slisson.mps.conditionalEditor.editor)/6733065834259610524">

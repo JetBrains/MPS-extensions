@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class SingletonPolicy_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SingletonPolicy_EditorBuilder_a(editorContext, node).createCell();
+    return new SingletonPolicy_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class CurlyBrackets_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new CurlyBrackets_EditorBuilder_a(editorContext, node).createCell();
+    return new CurlyBrackets_EditorBuilder(editorContext, node).createCell();
   }
 }

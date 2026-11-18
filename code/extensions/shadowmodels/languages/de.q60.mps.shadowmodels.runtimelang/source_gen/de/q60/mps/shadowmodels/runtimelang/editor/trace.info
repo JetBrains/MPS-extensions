@@ -20,17 +20,17 @@
   </root>
   <root nodeRef="r:cac4dbd2-18c0-4e2a-9dfb-18878a9838a1(de.q60.mps.shadowmodels.runtimelang.editor)/8529768024843144690">
     <file name="ErrorPlaceholder_Editor.java">
-      <node id="8529768024843144690" at="11,79,12,82" concept="6" />
+      <node id="8529768024843144690" at="11,79,12,80" concept="6" />
       <node id="8529768024843144690" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8529768024843144690" at="11,79,12,82" />
+      <scope id="8529768024843144690" at="11,79,12,80" />
       <scope id="8529768024843144690" at="11,0,14,0">
         <var name="editorContext" id="8529768024843144690" />
         <var name="node" id="8529768024843144690" />
       </scope>
       <unit id="8529768024843144690" at="10,0,15,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ErrorPlaceholder_Editor" />
     </file>
-    <file name="ErrorPlaceholder_EditorBuilder_a.java">
-      <node id="8529768024843144690" at="33,96,34,19" concept="11" />
+    <file name="ErrorPlaceholder_EditorBuilder.java">
+      <node id="8529768024843144690" at="33,94,34,19" concept="11" />
       <node id="8529768024843144690" at="34,19,35,18" concept="1" />
       <node id="8529768024843144690" at="40,26,41,18" concept="6" />
       <node id="8529768024843144690" at="44,39,45,30" concept="6" />
@@ -59,7 +59,7 @@
       <node id="8529768024843144690" at="82,0,83,0" concept="9" trace="PropertyAttribute$Gb" />
       <node id="8529768024843144690" at="30,0,32,0" concept="2" trace="myNode" />
       <node id="8529768024843144690" at="44,0,47,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8529768024843144690" at="33,0,37,0" concept="0" trace="ErrorPlaceholder_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8529768024843144690" at="33,0,37,0" concept="0" trace="ErrorPlaceholder_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8529768024843144690" at="38,0,43,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8529768024843144692" at="66,208,71,24" concept="3" />
       <node id="8529768024843144692" at="49,39,74,5" concept="12" />
@@ -67,7 +67,7 @@
       <scope id="8529768024843144690" at="40,26,41,18" />
       <scope id="8529768024843144690" at="44,39,45,30" />
       <scope id="8529768024843144692" at="72,15,73,40" />
-      <scope id="8529768024843144690" at="33,96,35,18" />
+      <scope id="8529768024843144690" at="33,94,35,18" />
       <scope id="8529768024843144692" at="67,74,69,145">
         <var name="manager" id="8529768024843144692" />
       </scope>
@@ -86,9 +86,9 @@
       </scope>
       <scope id="8529768024843144692" at="48,41,74,5" />
       <scope id="8529768024843144692" at="48,0,76,0" />
-      <unit id="8529768024843144690" at="77,0,80,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ErrorPlaceholder_EditorBuilder_a$PROPS" />
-      <unit id="8529768024843144690" at="81,0,84,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ErrorPlaceholder_EditorBuilder_a$CONCEPTS" />
-      <unit id="8529768024843144690" at="29,0,85,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ErrorPlaceholder_EditorBuilder_a" />
+      <unit id="8529768024843144690" at="77,0,80,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ErrorPlaceholder_EditorBuilder$PROPS" />
+      <unit id="8529768024843144690" at="81,0,84,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ErrorPlaceholder_EditorBuilder$CONCEPTS" />
+      <unit id="8529768024843144690" at="29,0,85,0" name="de.q60.mps.shadowmodels.runtimelang.editor.ErrorPlaceholder_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:cac4dbd2-18c0-4e2a-9dfb-18878a9838a1(de.q60.mps.shadowmodels.runtimelang.editor)/8529768024843584780">

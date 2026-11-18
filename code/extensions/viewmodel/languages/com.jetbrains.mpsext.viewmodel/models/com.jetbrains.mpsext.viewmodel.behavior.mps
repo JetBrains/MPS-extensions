@@ -196,11 +196,5 @@
       </node>
     </node>
   </node>
-  <node concept="13h7C7" id="55VuGTOgGLm">
-    <ref role="13h7C2" to="j5gv:55VuGTNRh4T" resolve="ViewModelExpression" />
-    <node concept="13hLZK" id="55VuGTOgGLp" role="13h7CW">
-      <node concept="3clFbS" id="55VuGTOgGLr" role="2VODD2" />
-    </node>
-  </node>
 </model>
 

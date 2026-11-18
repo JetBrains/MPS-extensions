@@ -124167,6 +124167,129 @@
               <ref role="37wK5l" to="bd8o:~Application.invokeAndWait(java.lang.Runnable)" resolve="invokeAndWait" />
               <node concept="1bVj0M" id="3yVAjIGylpq" role="37wK5m">
                 <node concept="3clFbS" id="3yVAjIGylpr" role="1bW5cS">
+                  <node concept="3SKdUt" id="24tWAZNwAVG" role="3cqZAp">
+                    <node concept="1PaTwC" id="24tWAZNwAVH" role="1aUNEU">
+                      <node concept="3oM_SD" id="24tWAZNwAVJ" role="1PaTwD">
+                        <property role="3oM_SC" value="The" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVK" role="1PaTwD">
+                        <property role="3oM_SC" value="layout" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVL" role="1PaTwD">
+                        <property role="3oM_SC" value="runs" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVM" role="1PaTwD">
+                        <property role="3oM_SC" value="in" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVN" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVO" role="1PaTwD">
+                        <property role="3oM_SC" value="background," />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVP" role="1PaTwD">
+                        <property role="3oM_SC" value="and" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVQ" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVR" role="1PaTwD">
+                        <property role="3oM_SC" value="editor" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVS" role="1PaTwD">
+                        <property role="3oM_SC" value="can" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVT" role="1PaTwD">
+                        <property role="3oM_SC" value="be" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVU" role="1PaTwD">
+                        <property role="3oM_SC" value="disposed" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVV" role="1PaTwD">
+                        <property role="3oM_SC" value="in" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVW" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAVX" role="1PaTwD">
+                        <property role="3oM_SC" value="meantime." />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="24tWAZNwAVY" role="3cqZAp">
+                    <node concept="1PaTwC" id="24tWAZNwAVZ" role="1aUNEU">
+                      <node concept="3oM_SD" id="24tWAZNwAW1" role="1PaTwD">
+                        <property role="3oM_SC" value="Without" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAW2" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAW3" role="1PaTwD">
+                        <property role="3oM_SC" value="editor" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAW4" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAW5" role="1PaTwD">
+                        <property role="3oM_SC" value="graph" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAW6" role="1PaTwD">
+                        <property role="3oM_SC" value="view" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAW7" role="1PaTwD">
+                        <property role="3oM_SC" value="cannot" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAW8" role="1PaTwD">
+                        <property role="3oM_SC" value="be" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAW9" role="1PaTwD">
+                        <property role="3oM_SC" value="updated," />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAWa" role="1PaTwD">
+                        <property role="3oM_SC" value="so" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAWb" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAWc" role="1PaTwD">
+                        <property role="3oM_SC" value="layout" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAWd" role="1PaTwD">
+                        <property role="3oM_SC" value="stops" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAWe" role="1PaTwD">
+                        <property role="3oM_SC" value="here." />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="24tWAZNwAVv" role="3cqZAp">
+                    <node concept="1rXfSq" id="24tWAZNwAVw" role="3clFbw">
+                      <ref role="37wK5l" node="24tWAZNv6Op" resolve="isEditorGone" />
+                    </node>
+                    <node concept="3clFbS" id="24tWAZNwAVy" role="3clFbx">
+                      <node concept="3clFbJ" id="24tWAZNwAVz" role="3cqZAp">
+                        <node concept="3y3z36" id="24tWAZNwAV$" role="3clFbw">
+                          <node concept="37vLTw" id="24tWAZNwAV_" role="3uHU7B">
+                            <ref role="3cqZAo" node="6zEA86rz17w" resolve="progress" />
+                          </node>
+                          <node concept="10Nm6u" id="24tWAZNwAVA" role="3uHU7w" />
+                        </node>
+                        <node concept="3clFbS" id="24tWAZNwAVC" role="3clFbx">
+                          <node concept="3clFbF" id="24tWAZNwAVD" role="3cqZAp">
+                            <node concept="2OqwBi" id="24tWAZNwAWD" role="3clFbG">
+                              <node concept="37vLTw" id="24tWAZNwAWu" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6zEA86rz17w" resolve="progress" />
+                              </node>
+                              <node concept="liA8E" id="24tWAZNwAWE" role="2OqNvi">
+                                <ref role="37wK5l" to="xygl:~ProgressIndicator.cancel()" resolve="cancel" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs6" id="24tWAZNwAVF" role="3cqZAp" />
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="3yVAjIGylps" role="3cqZAp">
                     <node concept="2OqwBi" id="3yVAjIGylpt" role="3clFbG">
                       <node concept="2OqwBi" id="3yVAjIGylpu" role="2Oq$k0">
@@ -124332,6 +124455,129 @@
               <ref role="37wK5l" to="bd8o:~Application.invokeAndWait(java.lang.Runnable)" resolve="invokeAndWait" />
               <node concept="1bVj0M" id="6zEA86r_Vhj" role="37wK5m">
                 <node concept="3clFbS" id="6zEA86r_Vhk" role="1bW5cS">
+                  <node concept="3SKdUt" id="24tWAZNwAXf" role="3cqZAp">
+                    <node concept="1PaTwC" id="24tWAZNwAXg" role="1aUNEU">
+                      <node concept="3oM_SD" id="24tWAZNwAXi" role="1PaTwD">
+                        <property role="3oM_SC" value="The" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXj" role="1PaTwD">
+                        <property role="3oM_SC" value="layout" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXk" role="1PaTwD">
+                        <property role="3oM_SC" value="runs" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXl" role="1PaTwD">
+                        <property role="3oM_SC" value="in" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXm" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXn" role="1PaTwD">
+                        <property role="3oM_SC" value="background," />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXo" role="1PaTwD">
+                        <property role="3oM_SC" value="and" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXp" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXq" role="1PaTwD">
+                        <property role="3oM_SC" value="editor" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXr" role="1PaTwD">
+                        <property role="3oM_SC" value="can" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXs" role="1PaTwD">
+                        <property role="3oM_SC" value="be" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXt" role="1PaTwD">
+                        <property role="3oM_SC" value="disposed" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXu" role="1PaTwD">
+                        <property role="3oM_SC" value="in" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXv" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXw" role="1PaTwD">
+                        <property role="3oM_SC" value="meantime." />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="24tWAZNwAXx" role="3cqZAp">
+                    <node concept="1PaTwC" id="24tWAZNwAXy" role="1aUNEU">
+                      <node concept="3oM_SD" id="24tWAZNwAX$" role="1PaTwD">
+                        <property role="3oM_SC" value="Without" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAX_" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXA" role="1PaTwD">
+                        <property role="3oM_SC" value="editor" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXB" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXC" role="1PaTwD">
+                        <property role="3oM_SC" value="graph" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXD" role="1PaTwD">
+                        <property role="3oM_SC" value="view" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXE" role="1PaTwD">
+                        <property role="3oM_SC" value="cannot" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXF" role="1PaTwD">
+                        <property role="3oM_SC" value="be" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXG" role="1PaTwD">
+                        <property role="3oM_SC" value="updated," />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXH" role="1PaTwD">
+                        <property role="3oM_SC" value="so" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXI" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXJ" role="1PaTwD">
+                        <property role="3oM_SC" value="layout" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXK" role="1PaTwD">
+                        <property role="3oM_SC" value="stops" />
+                      </node>
+                      <node concept="3oM_SD" id="24tWAZNwAXL" role="1PaTwD">
+                        <property role="3oM_SC" value="here." />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="24tWAZNwAX2" role="3cqZAp">
+                    <node concept="1rXfSq" id="24tWAZNwAX3" role="3clFbw">
+                      <ref role="37wK5l" node="24tWAZNv6Op" resolve="isEditorGone" />
+                    </node>
+                    <node concept="3clFbS" id="24tWAZNwAX5" role="3clFbx">
+                      <node concept="3clFbJ" id="24tWAZNwAX6" role="3cqZAp">
+                        <node concept="3y3z36" id="24tWAZNwAX7" role="3clFbw">
+                          <node concept="37vLTw" id="24tWAZNwAX8" role="3uHU7B">
+                            <ref role="3cqZAo" node="6zEA86rz17w" resolve="progress" />
+                          </node>
+                          <node concept="10Nm6u" id="24tWAZNwAX9" role="3uHU7w" />
+                        </node>
+                        <node concept="3clFbS" id="24tWAZNwAXb" role="3clFbx">
+                          <node concept="3clFbF" id="24tWAZNwAXc" role="3cqZAp">
+                            <node concept="2OqwBi" id="24tWAZNwAYc" role="3clFbG">
+                              <node concept="37vLTw" id="24tWAZNwAY1" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6zEA86rz17w" resolve="progress" />
+                              </node>
+                              <node concept="liA8E" id="24tWAZNwAYd" role="2OqNvi">
+                                <ref role="37wK5l" to="xygl:~ProgressIndicator.cancel()" resolve="cancel" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs6" id="24tWAZNwAXe" role="3cqZAp" />
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="6zEA86r_Vhl" role="3cqZAp">
                     <node concept="2OqwBi" id="6zEA86r_Vhm" role="3clFbG">
                       <node concept="2OqwBi" id="6zEA86r_Vhn" role="2Oq$k0">
@@ -124454,6 +124700,76 @@
         </node>
         <node concept="2AHcQZ" id="6zEA86rz17y" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="24tWAZNv6Op" role="jymVt">
+      <property role="TrG5h" value="isEditorGone" />
+      <node concept="3clFbS" id="24tWAZNv6Oq" role="3clF47">
+        <node concept="3cpWs8" id="24tWAZNv6Os" role="3cqZAp">
+          <node concept="3cpWsn" id="24tWAZNv6Or" role="3cpWs9">
+            <property role="TrG5h" value="editorComponent" />
+            <node concept="3uibUv" id="24tWAZNv6Ot" role="1tU5fm">
+              <ref role="3uigEE" to="cj4x:~EditorComponent" resolve="EditorComponent" />
+            </node>
+            <node concept="2OqwBi" id="24tWAZNwASR" role="33vP2m">
+              <node concept="2OqwBi" id="24tWAZNwASm" role="2Oq$k0">
+                <node concept="1eOMI4" id="24tWAZNv6Oz" role="2Oq$k0">
+                  <node concept="10QFUN" id="24tWAZNv6Ow" role="1eOMHV">
+                    <node concept="2OqwBi" id="24tWAZNwATD" role="10QFUP">
+                      <node concept="37vLTw" id="24tWAZNwATb" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5ubAKwglr_5" resolve="myGraph" />
+                      </node>
+                      <node concept="liA8E" id="24tWAZNwATE" role="2OqNvi">
+                        <ref role="37wK5l" to="1njx:~mxGraph.getView()" resolve="getView" />
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="24tWAZNv6Oy" role="10QFUM">
+                      <ref role="3uigEE" node="lG49FjpkfZ" resolve="MyGraphView" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="24tWAZNwASn" role="2OqNvi">
+                  <ref role="37wK5l" node="6yUTIunc4pG" resolve="getGraph" />
+                </node>
+              </node>
+              <node concept="liA8E" id="24tWAZNwASS" role="2OqNvi">
+                <ref role="37wK5l" node="3WLEw4oCyY6" resolve="getEditorComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="24tWAZNv6O$" role="3cqZAp">
+          <node concept="22lmx$" id="24tWAZNv6O_" role="3cqZAk">
+            <node concept="3clFbC" id="24tWAZNv6OA" role="3uHU7B">
+              <node concept="37vLTw" id="24tWAZNv6OB" role="3uHU7B">
+                <ref role="3cqZAo" node="24tWAZNv6Or" resolve="editorComponent" />
+              </node>
+              <node concept="10Nm6u" id="24tWAZNv6OC" role="3uHU7w" />
+            </node>
+            <node concept="2OqwBi" id="24tWAZNwAT3" role="3uHU7w">
+              <node concept="37vLTw" id="24tWAZNwASu" role="2Oq$k0">
+                <ref role="3cqZAo" node="24tWAZNv6Or" resolve="editorComponent" />
+              </node>
+              <node concept="liA8E" id="24tWAZNwAT4" role="2OqNvi">
+                <ref role="37wK5l" to="cj4x:~EditorComponent.isDisposed()" resolve="isDisposed" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="24tWAZNv6OE" role="1B3o_S" />
+      <node concept="10P_77" id="24tWAZNv6OF" role="3clF45" />
+      <node concept="P$JXv" id="24tWAZNv6OG" role="lGtFl">
+        <node concept="TZ5HA" id="24tWAZNv6OH" role="TZ5H$">
+          <node concept="1dT_AC" id="24tWAZNv6OI" role="1dT_Ay">
+            <property role="1dT_AB" value="Tells whether the editor that shows the graph is missing or disposed. The graph view cannot be updated then." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="24tWAZNv6OJ" role="TZ5H$">
+          <node concept="1dT_AC" id="24tWAZNv6OK" role="1dT_Ay">
+            <property role="1dT_AB" value="Use only on the EDT, where the editor is disposed." />
+          </node>
         </node>
       </node>
     </node>

@@ -261,8 +261,9 @@ event the editor needs.
   repository it knows: the plugin's, or that of the first key node read or written. Readers that ask
   while the lookup runs wait for it, so that none of them goes on without the store (the editors
   rebuilt after the reload and a background check can read at the same time). This needs no
-  IntelliJ `Application`. The first write access (plugin init or first store update) clears the view models of the previous
-  instance: their values are gone with it, and the removal updates the editors that showed them.
+  IntelliJ `Application`. The first write access (plugin init or first store update) clears the view
+  models of the previous instance: their values are gone with it, and the removal updates the editors
+  that showed them.
 * Without the plugin (headless runs without plugins) the first store update creates the store, in the
   repository of the first key node written. A run without an IDE updates the store only when a write
   is made inside a command, which generation never does, so there it usually never exists.

@@ -83,11 +83,19 @@ A value is removed when:
 * a model it was computed from is reloaded from disk, or removed from the repository;
 * the node it belongs to is deleted.
 
-Only reads made inside `compute` are recorded. Dependencies passed explicitly to `write` are used as they are. A stored
-object whose class was unloaded by a class reload reads as `null`.
+Only reads made inside `compute` are recorded. Dependencies passed explicitly to `write` are used as they are; the
+dependencies of several computations can be merged into one set. A stored object whose class was unloaded by a class
+reload reads as `null`.
+
+A computation that reads more than 100 nodes of one model doesn't depend on each of them: it depends on the roots that
+contain them, together with a filter of the nodes it read (`RootDependency`). A change below such a root removes the
+value when the changed node may be one of those nodes. The filter lets through about one change in a hundred of a node
+that wasn't read, so such a change occasionally removes a value too. The limit is set with the system property
+`mpsext.viewmodel.nodeDependencyLimit` (for example `-Dmpsext.viewmodel.nodeDependencyLimit=500`).
 
 ## View Models tool window
 
 The *View Models* tool window shows the content of all view models: the keys, the values, and the nodes each value was
 computed from. *Remove* deletes the selected entry. *Show View Model Entries* in the *Language Debug* context menu of the
-editor shows the entries of the selected node.
+editor shows the entries of the selected node. The rows below a row are added when it is first expanded, and the rows
+are dropped while the tool window is hidden.

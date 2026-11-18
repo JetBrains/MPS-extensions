@@ -13,6 +13,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import java.util.List;
 import jetbrains.mps.util.IterableUtil;
+import de.slisson.mps.tables.runtime.cells.TableUtils;
 import de.slisson.mps.tables.runtime.cells.ChildsTracker;
 import jetbrains.mps.openapi.editor.cells.EditorCell_Label;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -43,6 +44,16 @@ public class HeaderGridFactory {
   }
 
   public HeaderGrid createFromObject(@Nullable Object object, @Nullable HeaderReference key, IHeaderNodeInsertAction insertAction, IHeaderNodeDeleteAction deleteAction, int index, ITableStyleFactory styleFactory, String name) {
+    // The key passed by generated code identifies the header *declaration*, which is the same for every
+    // instance of a partial table. Headers with equal references are merged into one spanning header when
+    // partial tables are flattened into their parent table, so the identity of a single header (a string or
+    // a node) has to be derived from its content: several rows showing different texts stay separate headers
+    // (each with its own insert/delete actions), rows showing the same text align.
+    // The items of a list keep the indexed keys created by createFromObjectList instead, so that equal items
+    // of one list (e.g. two columns with the same name) stay separate headers with their own actions.
+    return createFromObjectImpl(object, key, true, insertAction, deleteAction, index, styleFactory, name);
+  }
+  private HeaderGrid createFromObjectImpl(@Nullable Object object, @Nullable HeaderReference key, boolean deriveKeyFromContent, IHeaderNodeInsertAction insertAction, IHeaderNodeDeleteAction deleteAction, int index, ITableStyleFactory styleFactory, String name) {
     if (object == null) {
       EditorCell_Constant nullCell = new EditorCell_Constant(myContext, mySNode, "");
       nullCell.setDefaultText("<null>");
@@ -53,9 +64,9 @@ public class HeaderGridFactory {
     } else if (object instanceof EditorCell) {
       return createFromEditorCell((EditorCell) object, key, insertAction, deleteAction, index, styleFactory.createStyle(0, 0));
     } else if (object instanceof SNode) {
-      return createFromSNode((SNode) object, key, insertAction, deleteAction, index, styleFactory.createStyle(0, 0));
+      return createFromSNode((SNode) object, (deriveKeyFromContent ? null : key), insertAction, deleteAction, index, styleFactory.createStyle(0, 0));
     } else if (object instanceof String) {
-      return createFromString((String) object, key, insertAction, deleteAction, index, styleFactory.createStyle(0, 0));
+      return createFromString((String) object, (deriveKeyFromContent ? null : key), insertAction, deleteAction, index, styleFactory.createStyle(0, 0));
     } else if (object instanceof List) {
       return createFromObjectList((List) object, key, insertAction, deleteAction, styleFactory, name);
     } else if (object instanceof Iterable) {
@@ -66,6 +77,7 @@ public class HeaderGridFactory {
   }
 
   public HeaderGrid createFromString(String text, @Nullable HeaderReference key, IHeaderNodeInsertAction insertAction, IHeaderNodeDeleteAction deleteAction, int index, Style style) {
+    // without a key the identity of the header is its content, see createFromObject
     if (key == null) {
       key = new StringHeaderReference(text);
     }
@@ -78,10 +90,11 @@ public class HeaderGridFactory {
   }
 
   public HeaderGrid createFromSNode(SNode snode, @Nullable HeaderReference key, IHeaderNodeInsertAction insertAction, IHeaderNodeDeleteAction deleteAction, int index, Style style) {
+    // without a key the identity of the header is its content, see createFromObject
     if (key == null) {
       key = StringHeaderReference.fromSNode(snode);
     }
-    EditorCell cell = myContext.getEditorComponent().getUpdater().getCurrentUpdateSession().updateChildNodeCell(snode);
+    EditorCell cell = TableUtils.createNodeCell(myContext, snode);
     ChildsTracker.getInstance().registerChild(cell);
     return createFromEditorCell(cell, key, insertAction, deleteAction, index, style);
   }
@@ -137,7 +150,7 @@ public class HeaderGridFactory {
       } else {
         currentKey = StringHeaderReference.fromObject(object);
       }
-      grids.add(createFromObject(object, (object == null ? null : currentKey), insertAction, deleteAction, index, style.createStyle(index, index), name + index));
+      ListSequence.fromList(grids).addElement(createFromObjectImpl(object, (object == null ? null : currentKey), false, insertAction, deleteAction, index, new CloningTableStyleFactory(style.createStyle(index, index)), name + index));
       index++;
     }
     return createFromHeaderGridList(grids);

@@ -26,7 +26,7 @@ public class LayoutableExtensions {
   }
   private static boolean check_awqir0_a0a1(AbstractLayoutableAdapter checkedDotOperand) {
     if (null != checkedDotOperand) {
-      return checkedDotOperand.hasBorder(true);
+      return checkedDotOperand.hasBorder(false);
     }
     return false;
   }

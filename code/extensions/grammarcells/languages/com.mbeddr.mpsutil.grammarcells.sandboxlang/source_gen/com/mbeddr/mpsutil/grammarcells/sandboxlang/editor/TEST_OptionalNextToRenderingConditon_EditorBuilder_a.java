@@ -11,6 +11,8 @@ import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
 import com.mbeddr.mpsutil.grammarcells.runtime.SideTransformationHolderCell;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.baseLanguage.logging.rt.LogContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -33,7 +35,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import com.mbeddr.mpsutil.grammarcells.runtime.CellActionWithReadAccess;
 import com.mbeddr.mpsutil.grammarcells.runtime.SavedCaretPosition;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import com.mbeddr.mpsutil.grammarcells.runtime.DelegateToParentCellAction;
 import java.util.List;
@@ -45,7 +46,6 @@ import java.util.ArrayList;
 import com.mbeddr.mpsutil.grammarcells.runtime.StringOrSequenceQuery;
 import com.mbeddr.mpsutil.grammarcells.runtime.MultiTextActionItem;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
-import jetbrains.mps.baseLanguage.logging.rt.LogContext;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
@@ -88,11 +88,18 @@ import org.jetbrains.mps.openapi.language.SConcept;
     if (nodeCondition_84ih13_a2a0()) {
       editorCell.addEditorCell(createCollection_1());
     }
-    editorCell.addEditorCell(createAlternation_0());
+    if (nodeCondition_84ih13_a3a0()) {
+      editorCell.addEditorCell(createAlternation_0());
+    }
     return editorCell;
   }
   private boolean nodeCondition_84ih13_a2a0() {
     return SPropertyOperations.getBoolean(myNode, PROPS.condition$sAK4);
+  }
+  private boolean nodeCondition_84ih13_a3a0() {
+    LogContext.with(TEST_OptionalNextToRenderingConditon_EditorBuilder_a.class, null, null, null).debug("EditorContext" + getEditorContext());
+    LogContext.with(TEST_OptionalNextToRenderingConditon_EditorBuilder_a.class, null, null, null).debug("Node:" + SNodeOperations.present(myNode));
+    return true;
   }
   private EditorCell createConstant_0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "TEST_OptionalNextToRenderingConditon");
@@ -267,7 +274,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
   private EditorCell createAlternation_0() {
     boolean alternationCondition = true;
-    alternationCondition = nodeCondition_84ih13_a3a0();
+    alternationCondition = nodeCondition_84ih13_a3a0_0();
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = createCustomFactory_1();
@@ -276,7 +283,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     return editorCell;
   }
-  private boolean nodeCondition_84ih13_a3a0() {
+  private boolean nodeCondition_84ih13_a3a0_0() {
     return Sequence.fromIterable(AttributeOperations.getChildNodesAndAttributes(myNode, LINKS.expr2$awEm)).isNotEmpty();
   }
   private EditorCell createCustomFactory_0(final EditorContext editorContext, final SNode node) {
@@ -411,13 +418,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
     SideTransformationHolderCell editorCell = new SideTransformationHolderCell(getEditorContext(), myNode, null, "grammar.optional for TEST_OptionalNextToRenderingConditon.expr2") {
       @Override
       public List<MenuPart<TransformationMenuItem, TransformationMenuContext>> createMenuParts() {
-        return ListSequence.fromListAndArray(new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>(), new GenericMenuPart_a0a3a0_0());
+        return ListSequence.fromListAndArray(new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>(), new GenericMenuPart_a0a3a0());
       }
     };
     editorCell.setCellId("SideTransformationSectionCell_84ih13_a3a0");
     return editorCell;
   }
-  private class GenericMenuPart_a0a3a0_0 implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
+  private class GenericMenuPart_a0a3a0 implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
 
     @NotNull
     @Override

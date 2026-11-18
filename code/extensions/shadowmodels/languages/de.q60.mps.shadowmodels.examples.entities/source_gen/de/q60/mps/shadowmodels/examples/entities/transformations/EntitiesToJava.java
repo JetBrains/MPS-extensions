@@ -50,7 +50,7 @@ public class EntitiesToJava extends PFModule {
     }
   }).invoke();
   private EntitiesToJava() {
-    myImplementations.put("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -77,7 +77,7 @@ public class EntitiesToJava extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava.toJava", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava.toJava", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Entity$dF)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -157,7 +157,7 @@ public class EntitiesToJava extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava.propertyToFieldSetterGetter", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava.propertyToFieldSetterGetter", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.Property$ea)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -450,7 +450,7 @@ public class EntitiesToJava extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava.typeToJava", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava.typeToJava", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.StringType$fB)), new ParameterType_Classifier(String.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -499,7 +499,7 @@ public class EntitiesToJava extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava.typeToJava", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava.typeToJava", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.IntType$g6)), new ParameterType_Classifier(String.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -548,7 +548,7 @@ public class EntitiesToJava extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava.typeToJava", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.entities.transformations.EntitiesToJava.typeToJava", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.EntityType$eD)), new ParameterType_Classifier(String.class));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

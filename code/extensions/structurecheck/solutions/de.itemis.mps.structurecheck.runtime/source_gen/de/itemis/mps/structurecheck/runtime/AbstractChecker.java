@@ -13,6 +13,6 @@ public class AbstractChecker<E> implements IElementChecker<E> {
     return null;
   }
   public void report(Message message) {
-    throw new StructureCheckerException(message.getText());
+    throw new StructureCheckerException(message.getText(), message.getTrace());
   }
 }

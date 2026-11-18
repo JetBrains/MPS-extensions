@@ -26,7 +26,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorComponent;
 import jetbrains.mps.nodeEditor.EditorSettings;
 import java.awt.Color;
-import jetbrains.mps.openapi.editor.style.StyleRegistry;
 import org.apache.batik.svggen.SVGGraphics2D;
 import java.awt.Dimension;
 import de.itemis.mps.editor.celllayout.runtime.BorderPainter;
@@ -146,7 +145,7 @@ public class ImageExportUtil {
   public static void paintCell(final Graphics2D g, EditorCell cell) {
     EditorComponent.turnOnAliasingIfPossible(g);
     g.setFont(EditorSettings.getInstance().getDefaultEditorFont());
-    Color backgroundColor = StyleRegistry.getInstance().getEditorBackground();
+    Color backgroundColor = cell.getEditorComponent().getStyleRegistry().getEditorBackground();
     g.setColor(backgroundColor);
     int width = cell.getX() + cell.getWidth();
     int height = cell.getY() + cell.getHeight();

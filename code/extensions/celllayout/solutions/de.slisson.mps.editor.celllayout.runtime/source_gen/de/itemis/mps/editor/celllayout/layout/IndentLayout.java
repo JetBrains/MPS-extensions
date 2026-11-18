@@ -621,8 +621,25 @@ public class IndentLayout extends AbstractLayout implements ILayouter {
     }
 
     public void applyLayout(int x, int y) {
-      myLayoutable.setBounds(x, y, getWidth(), getHeight());
-      myLayoutable.relayout(mySize);
+      Size size = mySize;
+      if (myLayoutable.isOverflowX() || myLayoutable.isOverflowY()) {
+        Size constraint = Size.UNLIMITED_SIZE;
+        if (!(myLayoutable.isOverflowX())) {
+          constraint = Size.limitedWidth(size.getWidth());
+        }
+        if (!(myLayoutable.isOverflowY())) {
+          constraint = Size.limitedHeight(size.getHeight());
+        }
+        Size preferredSize = myLayoutable.getPreferredSize(constraint);
+        if (myLayoutable.isOverflowX()) {
+          size = size.deriveWidth(preferredSize.getWidth());
+        }
+        if (myLayoutable.isOverflowY()) {
+          size = size.deriveHeight(preferredSize.getHeight());
+        }
+      }
+      myLayoutable.setBounds(x, y, size.getWidth(), size.getHeight());
+      myLayoutable.relayout(size);
     }
 
     public int getTreeDepth() {

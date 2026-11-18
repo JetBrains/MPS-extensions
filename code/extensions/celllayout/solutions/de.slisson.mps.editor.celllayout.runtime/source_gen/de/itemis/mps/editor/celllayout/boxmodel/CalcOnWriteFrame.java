@@ -214,7 +214,7 @@ public class CalcOnWriteFrame implements LayoutBoxFrame, Cloneable {
   public CalcOnWriteFrame clone() {
     try {
       CalcOnWriteFrame clone = ((CalcOnWriteFrame) super.clone());
-      clone.myResultBox.clone();
+      clone.myResultBox = myResultBox.clone();
       clone.setInnerBox(myInnerBox.clone());
       return clone;
     } catch (CloneNotSupportedException ex) {

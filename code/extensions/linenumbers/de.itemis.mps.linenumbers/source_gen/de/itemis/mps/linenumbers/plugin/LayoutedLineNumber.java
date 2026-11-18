@@ -15,7 +15,8 @@ public class LayoutedLineNumber {
     this.y = y;
   }
 
-  public void draw(Graphics graphics) {
-    graphics.drawString(String.valueOf(line.getNumber()), x, y);
+  public void draw(Graphics graphics, int columnX) {
+    // x is relative to the column; columnX is where the column starts inside the LeftEditorHighlighter, whose graphics this is
+    graphics.drawString(String.valueOf(line.getNumber()), columnX + x, y);
   }
 }

@@ -12,6 +12,7 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
+  /*package*/ final ConceptDescriptor myConceptEditorTestLifecycleMethods = createDescriptorForEditorTestLifecycleMethods();
   /*package*/ final ConceptDescriptor myConceptFileNodeEditorExpression = createDescriptorForFileNodeEditorExpression();
   private final LanguageConceptSwitch myIndexSwitch;
 
@@ -22,18 +23,22 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public void reportDependencies(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.Dependencies deps) {
+    deps.extendedLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core");
     deps.extendedLanguage(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, "jetbrains.mps.baseLanguage");
+    deps.aggregatedLanguage(0x8585453e6bfb4d80L, 0x98deb16074f1d86cL, "jetbrains.mps.lang.test");
   }
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptFileNodeEditorExpression);
+    return Arrays.asList(myConceptEditorTestLifecycleMethods, myConceptFileNodeEditorExpression);
   }
 
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(SConceptId id) {
     switch (myIndexSwitch.index(id)) {
+      case LanguageConceptSwitch.EditorTestLifecycleMethods:
+        return myConceptEditorTestLifecycleMethods;
       case LanguageConceptSwitch.FileNodeEditorExpression:
         return myConceptFileNodeEditorExpression;
       default:
@@ -46,6 +51,17 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return myIndexSwitch.index(c);
   }
 
+  private static ConceptDescriptor createDescriptorForEditorTestLifecycleMethods() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("nl.f1re.testing", "EditorTestLifecycleMethods", 0x953e4089c643455bL, 0x8629636de7085d1cL, 0x1c7d44aa128f6ec2L);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.lang.core.structure.NodeAttribute
+    b.super_(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da54L);
+    b.origin("r:8dfc935f-f6d1-4e4d-bfff-80832f08c4eb(nl.f1re.testing.structure)/2052872502397333186");
+    b.version(3);
+    b.aggregate("beforeTests", 0x2045125020efb661L).target(0x8585453e6bfb4d80L, 0x98deb16074f1d86cL, 0x2045125020ec2847L).optional(true).ordered(true).multiple(false).origin("2325284917965993569").done();
+    b.aggregate("afterTests", 0x2045125020efb66cL).target(0x8585453e6bfb4d80L, 0x98deb16074f1d86cL, 0x2045125020ec2848L).optional(true).ordered(true).multiple(false).origin("2325284917965993580").done();
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForFileNodeEditorExpression() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("nl.f1re.testing", "FileNodeEditorExpression", 0x953e4089c643455bL, 0x8629636de7085d1cL, 0x2923b546f4764a73L);
     b.class_(false, false, false);

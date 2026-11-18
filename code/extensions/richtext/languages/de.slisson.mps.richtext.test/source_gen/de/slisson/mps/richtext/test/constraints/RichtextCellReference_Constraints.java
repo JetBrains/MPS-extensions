@@ -41,7 +41,7 @@ public class RichtextCellReference_Constraints extends BaseConstraintsDescriptor
         boolean result = staticCanBeAnAncestor(context.getNode(), context.getChildNode(), context.getChildConcept(), context.getParentNode(), context.getLink());
 
         if (!(result) && checkingNodeContext != null) {
-          checkingNodeContext.setBreakingNode(canBeRootBreakingPoint);
+          checkingNodeContext.setBreakingNode(canBeAncestorBreakingPoint);
         }
 
         return result;
@@ -73,7 +73,7 @@ public class RichtextCellReference_Constraints extends BaseConstraintsDescriptor
   private static boolean staticCanBeAnAncestor(SNode node, SNode childNode, SAbstractConcept childConcept, SNode parentNode, SContainmentLink link) {
     return (SNodeOperations.getNodeAncestor(parentNode, CONCEPTS.EditorTestCase$DN, true, false) != null);
   }
-  private static final SNodePointer canBeRootBreakingPoint = new SNodePointer("r:7c89a46f-f171-4bc9-bf90-e868661c9b9b(de.slisson.mps.richtext.test.constraints)", "6193633844718726146");
+  private static final SNodePointer canBeAncestorBreakingPoint = new SNodePointer("r:7c89a46f-f171-4bc9-bf90-e868661c9b9b(de.slisson.mps.richtext.test.constraints)", "6193633844718726146");
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept RichtextCellReference$Ye = MetaAdapterFactory.getConcept(0x72aaeb1cfe8a4e47L, 0x87d1ddb7621d2773L, 0x55f4352a9f4bd295L, "de.slisson.mps.richtext.test.structure.RichtextCellReference");

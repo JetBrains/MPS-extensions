@@ -35,4 +35,13 @@ public interface CopyPasteSupport {
     support.setTableNode(table);
     return support;
   }
+
+  static CopyPasteSupport forNodeIfExists(SNode table, EditorContext editorContext) {
+    CopyPasteSupport support = CopyPasteManager.createIfSupported(table, editorContext);
+    if (support == null) {
+      return null;
+    }
+    support.setTableNode(table);
+    return support;
+  }
 }

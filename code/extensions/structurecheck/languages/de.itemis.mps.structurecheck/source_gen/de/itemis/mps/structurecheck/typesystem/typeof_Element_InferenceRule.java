@@ -19,10 +19,12 @@ public class typeof_Element_InferenceRule extends AbstractInferenceRule_Runtime 
   public typeof_Element_InferenceRule() {
   }
   public void applyRule(final SNode element, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    {
-      SNode _nodeToCheck_1029348928467 = element;
-      EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)", "380240910834639928", 0, null);
-      typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)", "380240910834639938", true), (SNode) typeCheckingContext.typeOf(SNodeOperations.getNodeAncestor(element, CONCEPTS.SequenceChecker$fY, false, false), "r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)", "380240910834639931", true), false, true, _info_12389875345);
+    if (!(typeCheckingContext.isSingleTypeComputation())) {
+      {
+        SNode _nodeToCheck_1029348928467 = element;
+        EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)", "380240910834639928", 0, null);
+        typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)", "380240910834639938", true), (SNode) typeCheckingContext.typeOf(SNodeOperations.getNodeAncestor(element, CONCEPTS.SequenceChecker$fY, false, false), "r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)", "380240910834639931", true), true, true, _info_12389875345);
+      }
     }
     if ((SLinkOperations.getTarget(element, LINKS.subtype$BKk$) != null)) {
       {

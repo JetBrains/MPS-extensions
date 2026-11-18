@@ -131,22 +131,18 @@ public class Grid {
     // compensate possible rounding error
     int roundingError = newWidth - getWidth();
     if (roundingError != 0) {
-      int bestIndex = 0;
-      int widthOfBest = myColumnWidths[0];
+      int bestIndex = -1;
+      int widthOfBest = 0;
       for (int i = 0; i < getSizeX(); i++) {
         if (weights[i] != 0.0f) {
-          if (roundingError < 0) {
-            if (myColumnWidths[i] > widthOfBest) {
-              bestIndex = i;
-              widthOfBest = myColumnWidths[i];
-            }
-          } else {
-            if (myColumnWidths[i] < widthOfBest) {
-              bestIndex = i;
-              widthOfBest = myColumnWidths[i];
-            }
+          if (bestIndex == -1 || ((roundingError < 0 ? myColumnWidths[i] > widthOfBest : myColumnWidths[i] < widthOfBest))) {
+            bestIndex = i;
+            widthOfBest = myColumnWidths[i];
           }
         }
+      }
+      if (bestIndex == -1) {
+        bestIndex = 0;
       }
       myColumnWidths[bestIndex] += roundingError;
     }
@@ -176,19 +172,36 @@ public class Grid {
 
     for (int y = 0; y < getSizeY(); y++) {
       int height = myRowAscents[y] + myRowDescents[y];
-      myRowAscents[y] += Math.round(targetChange * weights[y] * (((float) myRowAscents[y]) / height));
-      myRowDescents[y] += Math.round(targetChange * weights[y] * (((float) myRowDescents[y]) / height));
+      int change = Math.round(targetChange * weights[y]);
+      int ascentChange = ((height == 0 ? change / 2 : Math.round(change * (((float) myRowAscents[y]) / height))));
+      myRowAscents[y] += ascentChange;
+      myRowDescents[y] += change - ascentChange;
     }
 
     myRowPositions = null;
 
-    // possible rounding error
-    int heightError = newHeight - getHeight();
-    int ascentError = heightError / 2;
-    int descentError = heightError - ascentError;
-    myRowAscents[getSizeY() - 1] += ascentError;
-    myRowDescents[getSizeY() - 1] += descentError;
-    myRowPositions[getSizeY()] += heightError;
+    // compensate possible rounding error
+    int roundingError = newHeight - getHeight();
+    if (roundingError != 0) {
+      int bestIndex = -1;
+      int heightOfBest = 0;
+      for (int i = 0; i < getSizeY(); i++) {
+        if (weights[i] != 0.0f) {
+          if (bestIndex == -1 || ((roundingError < 0 ? getRowHeight(i) > heightOfBest : getRowHeight(i) < heightOfBest))) {
+            bestIndex = i;
+            heightOfBest = getRowHeight(i);
+          }
+        }
+      }
+      if (bestIndex == -1) {
+        bestIndex = getSizeY() - 1;
+      }
+      int ascentError = roundingError / 2;
+      myRowAscents[bestIndex] += ascentError;
+      myRowDescents[bestIndex] += roundingError - ascentError;
+    }
+
+    myRowPositions = null;
 
     for (int i = 0; i < myRowAscents.length; i++) {
       int rowHeight = myRowAscents[i] + myRowDescents[i];

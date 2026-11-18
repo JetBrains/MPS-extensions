@@ -31,7 +31,7 @@ public class EditorComponentDeclarationWithParameters_Constraints extends BaseCo
         boolean result = staticCanBeAnAncestor(context.getNode(), context.getChildNode(), context.getChildConcept(), context.getParentNode(), context.getLink());
 
         if (!(result) && checkingNodeContext != null) {
-          checkingNodeContext.setBreakingNode(canBeRootBreakingPoint);
+          checkingNodeContext.setBreakingNode(canBeAncestorBreakingPoint);
         }
 
         return result;
@@ -45,7 +45,7 @@ public class EditorComponentDeclarationWithParameters_Constraints extends BaseCo
 
     return true;
   }
-  private static final SNodePointer canBeRootBreakingPoint = new SNodePointer("r:cd6e0a2e-a649-41b3-a471-8f1dbb94ff2e(de.slisson.mps.conditionalEditor.constraints)", "1452226863087683084");
+  private static final SNodePointer canBeAncestorBreakingPoint = new SNodePointer("r:cd6e0a2e-a649-41b3-a471-8f1dbb94ff2e(de.slisson.mps.conditionalEditor.constraints)", "1452226863087683084");
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept EditorComponentDeclarationWithParameters$jH = MetaAdapterFactory.getConcept(0xb8bb702e43ed4090L, 0xa902d180d3e5f292L, 0x5d70a7b3f3f77ab3L, "de.slisson.mps.conditionalEditor.structure.EditorComponentDeclarationWithParameters");

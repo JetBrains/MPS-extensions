@@ -221,10 +221,10 @@
       <node id="1206675692254365332" at="168,50,169,35" concept="6" />
       <node id="1206675692254280397" at="169,35,170,52" concept="6" />
       <node id="1206675692260165082" at="171,25,172,55" concept="6" />
-      <node id="1206675692260133844" at="172,55,173,93" concept="1" />
-      <node id="8034681417261261335" at="177,36,178,47" concept="7" />
-      <node id="8034681417261261335" at="179,5,180,16" concept="7" />
-      <node id="8034681417261261336" at="182,71,183,47" concept="7" />
+      <node id="1206675692253300762" at="174,41,175,34" concept="1" />
+      <node id="8034681417261261335" at="181,36,182,47" concept="7" />
+      <node id="8034681417261261335" at="183,5,184,16" concept="7" />
+      <node id="8034681417261261336" at="186,71,187,47" concept="7" />
       <node id="1534219577530305173" at="52,27,55,5" concept="4" />
       <node id="399625975977824618" at="56,106,59,5" concept="4" />
       <node id="8034681417261096706" at="67,0,70,0" concept="5" trace="init#()V" />
@@ -242,17 +242,19 @@
       <node id="6971699915904221816" at="150,0,153,0" concept="5" trace="getEndColumn#()I" />
       <node id="6971699915904221822" at="154,0,157,0" concept="5" trace="getTable#()Lde/slisson/mps/tables/runtime/cells/TableEditor;" />
       <node id="1206675692254165492" at="160,51,163,5" concept="4" />
-      <node id="8034681417261261335" at="176,90,179,5" concept="4" />
-      <node id="8034681417261261336" at="182,0,185,0" concept="10" trace="as_tr8opa_a0a0a0a0c0t#(Ljava/lang/Object;Ljava/lang/Class;)null" />
-      <node id="1206675692254303487" at="170,52,174,5" concept="4" />
+      <node id="2172364427331930890" at="173,69,176,9" concept="4" />
+      <node id="8034681417261261335" at="180,90,183,5" concept="4" />
+      <node id="8034681417261261336" at="186,0,189,0" concept="10" trace="as_tr8opa_a0a0a0a0c0t#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="1206675692260133844" at="172,55,177,9" concept="1" />
       <node id="8034681417261244048" at="74,116,80,7" concept="3" />
-      <node id="8034681417261261335" at="176,0,182,0" concept="10" trace="check_tr8opa_a0a0a0c0t#(Lde/slisson/mps/tables/runtime/gridmodel/EditorCellGridLeaf;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8034681417261261335" at="180,0,186,0" concept="10" trace="check_tr8opa_a0a0a0c0t#(Lde/slisson/mps/tables/runtime/gridmodel/EditorCellGridLeaf;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="995858445633777340" at="158,0,166,0" concept="5" trace="canExecuteAction#(Ljetbrains/mps/openapi/editor/cells/CellActionType;)Z" />
+      <node id="1206675692254303487" at="170,52,178,5" concept="4" />
       <node id="8034681417261074589" at="41,0,50,0" concept="0" trace="TableRangeSelection#(Ljetbrains/mps/openapi/editor/EditorComponent;Lde/slisson/mps/tables/runtime/cells/TableEditor;Lde/slisson/mps/tables/runtime/simplegrid/GridPosition;Lde/slisson/mps/tables/runtime/simplegrid/GridPosition;)V" />
       <node id="8034681417261237023" at="73,34,82,5" concept="3" />
-      <node id="995858445633777351" at="167,0,176,0" concept="5" trace="executeAction#(Ljetbrains/mps/openapi/editor/cells/CellActionType;)V" />
       <node id="2983918873756936887" at="86,0,96,0" concept="5" trace="getSelectionInfo#()Ljetbrains/mps/openapi/editor/selection/SelectionInfo;" />
       <node id="1206675692271092675" at="97,0,108,0" concept="5" trace="toUndirectedRange#()Lde/slisson/mps/tables/runtime/selection/UndirectedTableRange;" />
+      <node id="995858445633777351" at="167,0,180,0" concept="5" trace="executeAction#(Ljetbrains/mps/openapi/editor/cells/CellActionType;)V" />
       <node id="8034681417261278259" at="71,0,85,0" concept="5" trace="getSelectedGridCells#()Ljava/util/List;" />
       <node id="2983918873756937849" at="51,0,66,0" concept="0" trace="TableRangeSelection#(Ljetbrains/mps/openapi/editor/EditorComponent;Ljava/util/Map;Ljetbrains/mps/openapi/editor/cells/CellInfo;)V" />
       <node id="8034681417260819296" at="109,0,137,0" concept="5" trace="isSame#(Ljetbrains/mps/openapi/editor/selection/Selection;)Z" />
@@ -273,36 +275,34 @@
       <scope id="6971699915904221819" at="150,29,151,23" />
       <scope id="6971699915904221825" at="154,33,155,19" />
       <scope id="1206675692254165494" at="161,25,162,56" />
-      <scope id="8034681417261261335" at="177,36,178,47" />
-      <scope id="8034681417261261336" at="182,71,183,47" />
-      <scope id="1206675692254303489" at="171,25,173,93">
-        <var name="context" id="1206675692260165083" />
-      </scope>
+      <scope id="2172364427331930892" at="174,41,175,34" />
+      <scope id="8034681417261261335" at="181,36,182,47" />
+      <scope id="8034681417261261336" at="186,71,187,47" />
       <scope id="8034681417261096706" at="67,0,70,0" />
       <scope id="6971699915904221798" at="138,0,141,0" />
       <scope id="6971699915904221804" at="142,0,145,0" />
       <scope id="6971699915904221810" at="146,0,149,0" />
       <scope id="6971699915904221816" at="150,0,153,0" />
       <scope id="6971699915904221822" at="154,0,157,0" />
-      <scope id="8034681417261261336" at="182,0,185,0">
+      <scope id="1206675692260133848" at="173,69,176,9" />
+      <scope id="8034681417261261336" at="186,0,189,0">
         <var name="o" id="8034681417261261336" />
         <var name="type" id="8034681417261261336" />
       </scope>
       <scope id="8034681417261244049" at="75,106,79,9">
         <var name="cell" id="8034681417261261334" />
       </scope>
-      <scope id="8034681417261261335" at="176,90,180,16" />
+      <scope id="8034681417261261335" at="180,90,184,16" />
       <scope id="995858445633777346" at="159,56,164,40">
         <var name="action" id="1206675692254142501" />
       </scope>
       <scope id="8034681417261244048" at="74,116,80,7">
         <var name="y" id="8034681417261244051" />
       </scope>
-      <scope id="995858445633777357" at="168,50,174,5">
-        <var name="action" id="1206675692254280398" />
-        <var name="table" id="1206675692254365333" />
+      <scope id="1206675692254303489" at="171,25,177,9">
+        <var name="context" id="1206675692260165083" />
       </scope>
-      <scope id="8034681417261261335" at="176,0,182,0">
+      <scope id="8034681417261261335" at="180,0,186,0">
         <var name="checkedDotOperand" id="8034681417261261335" />
       </scope>
       <scope id="8034681417261074593" at="41,120,48,11" />
@@ -330,16 +330,20 @@
         <var name="startRow" id="1206675692271092689" />
         <var name="topToBottom" id="1206675692271092712" />
       </scope>
-      <scope id="995858445633777351" at="167,0,176,0">
-        <var name="type" id="995858445633777355" />
-      </scope>
       <scope id="2983918873756936887" at="86,0,96,0" />
+      <scope id="995858445633777357" at="168,50,178,5">
+        <var name="action" id="1206675692254280398" />
+        <var name="table" id="1206675692254365333" />
+      </scope>
       <scope id="1206675692271092675" at="97,0,108,0" />
       <scope id="8034681417261278263" at="71,50,83,25">
         <var name="grid" id="8034681417261252521" />
         <var name="selectedCells" id="8034681417261261798" />
       </scope>
       <scope id="2983918873756937851" at="51,172,64,11" />
+      <scope id="995858445633777351" at="167,0,180,0">
+        <var name="type" id="995858445633777355" />
+      </scope>
       <scope id="8034681417261278259" at="71,0,85,0" />
       <scope id="2983918873756937849" at="51,0,66,0">
         <var name="cellInfo" id="1534219577530305158" />
@@ -352,7 +356,7 @@
       <scope id="8034681417260819296" at="109,0,137,0">
         <var name="other" id="8034681417260819300" />
       </scope>
-      <unit id="8034681417260815117" at="27,0,186,0" name="de.slisson.mps.tables.runtime.selection.TableRangeSelection" />
+      <unit id="8034681417260815117" at="27,0,190,0" name="de.slisson.mps.tables.runtime.selection.TableRangeSelection" />
     </file>
   </root>
 </debug-info>

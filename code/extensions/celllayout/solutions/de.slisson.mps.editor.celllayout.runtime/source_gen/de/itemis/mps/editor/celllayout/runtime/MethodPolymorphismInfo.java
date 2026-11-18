@@ -29,14 +29,14 @@ public class MethodPolymorphismInfo {
 
   protected boolean calcOverridesLayoutMethod(Class cellClass) {
     for (Class superClass = cellClass; superClass != null; superClass = superClass.getSuperclass()) {
-      if (cellClass == EditorCell_Collection.class) {
+      if (superClass == EditorCell_Collection.class) {
         break;
       }
-      if (cellClass == EditorCell_Basic.class) {
+      if (superClass == EditorCell_Basic.class) {
         break;
       }
       try {
-        if (cellClass.getDeclaredMethod("relayoutImpl") != null) {
+        if (superClass.getDeclaredMethod("relayoutImpl") != null) {
           return true;
         }
       } catch (NoSuchMethodException e) {

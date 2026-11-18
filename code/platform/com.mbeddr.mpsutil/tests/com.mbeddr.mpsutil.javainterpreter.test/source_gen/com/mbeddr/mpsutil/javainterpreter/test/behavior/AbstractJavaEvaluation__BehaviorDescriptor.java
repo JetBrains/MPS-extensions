@@ -18,7 +18,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import com.mbeddr.mpsutil.interpreter.test.behavior.AbstractInterpreterEvaluation__BehaviorDescriptor;
 import com.mbeddr.mpsutil.interpreter.rt.CombinedInterpreter;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import com.mbeddr.mpsutil.interpreter.rt.CachedInterpreterFinder;
 import com.mbeddr.mpsutil.interpreter.rt.InterpreterRegistry;
 import jetbrains.mps.lang.core.behavior.BaseConcept__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -61,7 +60,7 @@ public final class AbstractJavaEvaluation__BehaviorDescriptor extends BaseBHDesc
     return AbstractInterpreterEvaluation__BehaviorDescriptor.getNodeRendering_id65E6xpGVdh9.invoke(__thisNode__) + ": expected: " + expected + expectedType + " actual: " + actual + actualType;
   }
   /*package*/ static IInterpreter getInterpreter_id65E6xpGShbD(@NotNull SNode __thisNode__) {
-    return new CombinedInterpreter(Sequence.fromIterable(CachedInterpreterFinder.getInstance().findInterpretersForCategory("java")).select((it) -> InterpreterRegistry.getInterpreterExecutable(it)).toGenericArray(IInterpreter.class));
+    return new CombinedInterpreter(Sequence.fromIterable(InterpreterRegistry.findAllInterpreterExecutablesForCategory("java")).toGenericArray(IInterpreter.class));
   }
   /*package*/ static String getNodeRendering_id65E6xpGVdh9(@NotNull SNode __thisNode__) {
     return BaseConcept__BehaviorDescriptor.getPresentation_idhEwIMiw.invoke(SNodeOperations.getParent(__thisNode__));

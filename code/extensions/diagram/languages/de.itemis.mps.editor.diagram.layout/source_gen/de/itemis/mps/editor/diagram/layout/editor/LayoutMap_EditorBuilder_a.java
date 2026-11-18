@@ -10,6 +10,7 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import jetbrains.mps.openapi.editor.update.AttributeKind;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.editor.runtime.cells.BigCellUtil;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 
 /*package*/ class LayoutMap_EditorBuilder_a extends AbstractEditorBuilder {
@@ -36,8 +37,11 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 
     final EditorCell cell = createConstant_0();
     EditorCell editorCell = ((_FunctionTypes._return_P0_E0<EditorCell>) () -> getEditorContext().getEditorComponent().getUpdater().getCurrentUpdateSession().getAttributedCell(AttributeKind.NODE, SNodeOperations.getParent(myNode))).invoke();
-    editorCell.setBig(true);
-    setCellContext(editorCell);
+    EditorCell bigCell = BigCellUtil.findBigCell(editorCell, getNode());
+    if (bigCell != null) {
+      bigCell.setBig(true);
+      setCellContext(bigCell);
+    }
     return editorCell;
   }
   private EditorCell createCustomFactory_1() {

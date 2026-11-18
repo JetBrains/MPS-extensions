@@ -5694,20 +5694,7 @@
             </node>
             <node concept="2YIFZM" id="7wXnfGE2VP$" role="33vP2m">
               <ref role="1Pybhc" to="dp1x:5tGs5KqKfGH" resolve="CopyPasteUtil" />
-              <ref role="37wK5l" to="dp1x:5tGs5KqKiK3" resolve="getNodesFromClipboard" />
-              <node concept="2OqwBi" id="7wXnfGE2VP_" role="37wK5m">
-                <node concept="2OqwBi" id="7wXnfGE2VPA" role="2Oq$k0">
-                  <node concept="37vLTw" id="7wXnfGE2VPB" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2_D0AvWRqTu" resolve="myStartCell" />
-                  </node>
-                  <node concept="liA8E" id="7wXnfGE2VPC" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell.getSNode()" resolve="getSNode" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="7wXnfGE2VPD" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
-                </node>
-              </node>
+              <ref role="37wK5l" to="dp1x:oR0qGlMF5V" resolve="getNodesFromClipboard" />
             </node>
           </node>
         </node>
@@ -10147,26 +10134,8 @@
             <property role="TrG5h" value="nodes" />
             <node concept="2I9FWS" id="4WdkpBdiNKt" role="1tU5fm" />
             <node concept="2YIFZM" id="4WdkpBdiNKp" role="33vP2m">
-              <ref role="37wK5l" to="dp1x:5tGs5KqKiK3" resolve="getNodesFromClipboard" />
+              <ref role="37wK5l" to="dp1x:oR0qGlMF5V" resolve="getNodesFromClipboard" />
               <ref role="1Pybhc" to="dp1x:5tGs5KqKfGH" resolve="CopyPasteUtil" />
-              <node concept="2OqwBi" id="4WdkpBdiPNF" role="37wK5m">
-                <node concept="2OqwBi" id="4WdkpBdiNLl" role="2Oq$k0">
-                  <node concept="2OqwBi" id="4WdkpBdiNKS" role="2Oq$k0">
-                    <node concept="37vLTw" id="4WdkpBdiNKx" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4WdkpBdiNJI" resolve="context" />
-                    </node>
-                    <node concept="liA8E" id="4WdkpBdiNKY" role="2OqNvi">
-                      <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="4WdkpBdiPNk" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorComponent.getEditedNode()" resolve="getEditedNode" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="4WdkpBdiPNL" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
-                </node>
-              </node>
             </node>
           </node>
         </node>

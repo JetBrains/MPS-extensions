@@ -12,11 +12,8 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.openapi.editor.style.Style;
-import com.intellij.openapi.actionSystem.DataContext;
-import com.intellij.ide.DataManager;
-import jetbrains.mps.nodeEditor.EditorComponent;
 import com.intellij.openapi.project.Project;
-import com.intellij.openapi.actionSystem.CommonDataKeys;
+import jetbrains.mps.ide.project.ProjectHelper;
 import de.slisson.mps.editor.multiline.runtime.plugin.MultilineSettingsPage;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -129,8 +126,7 @@ public class EditorCell_Word extends EditorCell_Property {
 
     });
     Style style = this.getStyle();
-    DataContext dataContext = DataManager.getInstance().getDataContext((EditorComponent) context.getEditorComponent());
-    Project ideaProject = dataContext.getData(CommonDataKeys.PROJECT);
+    Project ideaProject = ProjectHelper.toIdeaProject(ProjectHelper.getProject(context.getRepository()));
     if (ideaProject != null) {
       boolean isSpellCheckerEnabled = MultilineSettingsPage.isSpellCheckingEnabledInPreferences(ideaProject);
       style.set(StyleAttributes.SPELLCHECK, isSpellCheckerEnabled);

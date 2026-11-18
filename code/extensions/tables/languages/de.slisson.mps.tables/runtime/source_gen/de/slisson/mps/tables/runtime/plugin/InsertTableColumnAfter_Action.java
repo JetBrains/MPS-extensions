@@ -14,7 +14,7 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 
 public class InsertTableColumnAfter_Action extends BaseAction {
-  private static final Icon ICON = IconContainer.ICON_a0_1;
+  private static final Icon ICON = IconContainer.ICON2;
 
   public InsertTableColumnAfter_Action() {
     super("Insert a New Column After This Column", "", ICON);

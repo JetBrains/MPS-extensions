@@ -10,7 +10,7 @@
       <unit at="8,0,13,0" name="de.q60.mps.shadowmodels.transformation.plugin.ExtensionDescriptor" />
     </file>
     <file name="IconContainer.java">
-      <unit at="7,0,10,0" name="de.q60.mps.shadowmodels.transformation.plugin.IconContainer" />
+      <unit at="8,0,12,0" name="de.q60.mps.shadowmodels.transformation.plugin.IconContainer" />
     </file>
   </root>
   <root nodeRef="r:9386410a-9bfc-4734-bd77-6b4623a0ab93(de.q60.mps.shadowmodels.transformation.plugin)/7335687028107127683">
@@ -18,7 +18,7 @@
       <node id="7335687028107127683" at="20,40,21,57" concept="4" />
       <node id="7335687028107127683" at="26,50,27,140" concept="3" />
       <node id="7335687028107127683" at="31,55,32,173" concept="3" />
-      <node id="7335687028107127683" at="35,45,36,49" concept="3" />
+      <node id="7335687028107127683" at="35,45,36,40" concept="3" />
       <node id="7335687028107127683" at="20,0,23,0" concept="1" trace="LanguageAspectsEP_extension#()V" />
       <node id="7335687028107127683" at="26,0,29,0" concept="2" trace="getDefaultDevkit#()Lorg/jetbrains/mps/openapi/module/SModuleReference;" />
       <node id="7335687028107127683" at="34,0,38,0" concept="2" trace="getIconResource#()Ljetbrains/mps/smodel/runtime/IconResource;" />
@@ -28,7 +28,7 @@
       <scope id="7335687028107127683" at="20,40,21,57" />
       <scope id="7335687028107127683" at="26,50,27,140" />
       <scope id="7335687028107127683" at="31,55,32,173" />
-      <scope id="7335687028107127683" at="35,45,36,49" />
+      <scope id="7335687028107127683" at="35,45,36,40" />
       <scope id="7335687028107127683" at="20,0,23,0" />
       <scope id="7335687028107127683" at="26,0,29,0" />
       <scope id="7335687028107127683" at="34,0,38,0" />

@@ -36,7 +36,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
         if (props_Dictionary == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.presentationByName();
-          cpb.icon(IconContainer.RESOURCE_a0a2a0a1b0k);
+          cpb.icon(IconContainer.RESOURCE_0);
           props_Dictionary = cpb.create();
         }
         return props_Dictionary;
@@ -83,7 +83,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
         if (props_PredefinedDictionary == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.presentationByName();
-          cpb.icon(IconContainer.RESOURCE_a0a2a0a8b0k);
+          cpb.icon(IconContainer.RESOURCE_1);
           props_PredefinedDictionary = cpb.create();
         }
         return props_PredefinedDictionary;

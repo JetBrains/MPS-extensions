@@ -73,7 +73,7 @@ public class PaginationSearchPanel extends JPanel {
     searchField = new PaginationSearchField(myUserObject, this, context);
     add(searchField);
 
-    previousBtn = new JButton(AllIcons.Chooser.Left);
+    previousBtn = new JButton(AllIcons.Actions.PreviousOccurence);
     previousBtn.setToolTipText("Previous result");
     previousBtn.setPreferredSize(new Dimension(iconButtonWidth, previousBtn.getPreferredSize().height));
     previousBtn.setOpaque(false);
@@ -85,7 +85,7 @@ public class PaginationSearchPanel extends JPanel {
     });
     add(previousBtn);
 
-    nextBtn = new JButton(AllIcons.Chooser.Right);
+    nextBtn = new JButton(AllIcons.Actions.NextOccurence);
     nextBtn.setToolTipText("Next result");
     nextBtn.setPreferredSize(new Dimension(iconButtonWidth, nextBtn.getPreferredSize().height));
 
@@ -189,5 +189,9 @@ public class PaginationSearchPanel extends JPanel {
   @Override
   public String toString() {
     return "[search panel]";
+  }
+
+  protected PaginationSearchField getPaginationSearchField() {
+    return this.searchField;
   }
 }

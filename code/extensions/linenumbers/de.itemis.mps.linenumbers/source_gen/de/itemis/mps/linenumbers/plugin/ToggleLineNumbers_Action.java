@@ -12,10 +12,6 @@ import jetbrains.mps.ide.editor.MPSEditorDataKeys;
 import com.intellij.openapi.actionSystem.CommonDataKeys;
 import com.intellij.openapi.project.Project;
 import jetbrains.mps.nodeEditor.EditorComponent;
-import com.intellij.openapi.fileEditor.FileEditor;
-import com.intellij.openapi.fileEditor.FileEditorManager;
-import jetbrains.mps.ide.editor.MPSFileNodeEditor;
-import jetbrains.mps.openapi.editor.Editor;
 
 public class ToggleLineNumbers_Action extends BaseAction {
   private static final Icon ICON = null;
@@ -72,32 +68,6 @@ public class ToggleLineNumbers_Action extends BaseAction {
     LineNumberPreferences.setLineNumbersEnabled(event.getData(CommonDataKeys.PROJECT), !(flag));
 
     LineNumberComponent.uninstallAll();
-    for (FileEditor editor : FileEditorManager.getInstance(event.getData(CommonDataKeys.PROJECT)).getAllEditors()) {
-      if (editor instanceof MPSFileNodeEditor) {
-        MPSFileNodeEditor mpsEditor = ((MPSFileNodeEditor) editor);
-        if (!(mpsEditor.isDisposed())) {
-          EditorComponent currentEditorComponent = as_z0bpah_a0a0a1a0a4a6(check_yk4csx_a0a0a1a0a4a0(check_yk4csx_a0a0a0b0a0e0a(mpsEditor)), EditorComponent.class);
-          LineNumberComponent.getOrCreateInstance(currentEditorComponent).install();
-          if (currentEditorComponent != null && currentEditorComponent.isVisible()) {
-            currentEditorComponent.getLeftEditorHighlighter().relayout(true);
-          }
-        }
-      }
-    }
-  }
-  private static jetbrains.mps.openapi.editor.EditorComponent check_yk4csx_a0a0a1a0a4a0(Editor checkedDotOperand) {
-    if (null != checkedDotOperand) {
-      return checkedDotOperand.getCurrentEditorComponent();
-    }
-    return null;
-  }
-  private static Editor check_yk4csx_a0a0a0b0a0e0a(MPSFileNodeEditor checkedDotOperand) {
-    if (null != checkedDotOperand) {
-      return checkedDotOperand.getNodeEditor();
-    }
-    return null;
-  }
-  private static <T> T as_z0bpah_a0a0a1a0a4a6(Object o, Class<T> type) {
-    return (type.isInstance(o) ? (T) o : null);
+    LineNumberComponent.installAll(event.getData(CommonDataKeys.PROJECT));
   }
 }

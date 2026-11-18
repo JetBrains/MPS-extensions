@@ -41,9 +41,15 @@
       <node id="1206675692275637368" at="33,77,34,77" concept="9" />
       <node id="1206675692275639029" at="34,77,35,32" concept="3" />
       <node id="1206675692275645527" at="35,32,36,19" concept="10" />
+      <node id="2172364427331869461" at="39,85,40,88" concept="9" />
+      <node id="2172364427331882864" at="41,26,42,18" concept="10" />
+      <node id="2172364427331869467" at="43,5,44,32" concept="3" />
+      <node id="2172364427331869472" at="44,32,45,19" concept="10" />
       <node id="1206675692267921803" at="29,0,32,0" concept="14" trace="existsFor#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="2172364427331878492" at="40,88,43,5" concept="7" />
       <node id="1206675692267915633" at="23,0,28,0" concept="8" trace="cut#(Lde/slisson/mps/tables/runtime/selection/TableRangeSelection;Ljetbrains/mps/openapi/editor/EditorContext;)Lde/slisson/mps/tables/runtime/plugin/TableData;" />
       <node id="1206675692268004481" at="33,0,38,0" concept="14" trace="forNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Lde/slisson/mps/tables/runtime/plugin/CopyPasteSupport;" />
+      <node id="2172364427331869459" at="39,0,47,0" concept="14" trace="forNodeIfExists#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Lde/slisson/mps/tables/runtime/plugin/CopyPasteSupport;" />
       <scope id="1206675692267976057" at="11,0,12,0" />
       <scope id="1206675692268011850" at="13,0,14,0">
         <var name="editorContext" id="7230129618821149807" />
@@ -66,6 +72,7 @@
         <var name="selection" id="1206675692267915451" />
       </scope>
       <scope id="1206675692267921806" at="29,69,30,61" />
+      <scope id="2172364427331878494" at="41,26,42,18" />
       <scope id="1206675692267915636" at="23,92,26,16">
         <var name="copy" id="5734735567044058564" />
       </scope>
@@ -84,7 +91,14 @@
         <var name="editorContext" id="7230129618821271701" />
         <var name="table" id="1206675692268005636" />
       </scope>
-      <unit id="1206675692264612781" at="9,0,39,0" name="de.slisson.mps.tables.runtime.plugin.CopyPasteSupport" />
+      <scope id="2172364427331869460" at="39,85,45,19">
+        <var name="support" id="2172364427331869462" />
+      </scope>
+      <scope id="2172364427331869459" at="39,0,47,0">
+        <var name="editorContext" id="2172364427331869478" />
+        <var name="table" id="2172364427331869476" />
+      </scope>
+      <unit id="1206675692264612781" at="9,0,48,0" name="de.slisson.mps.tables.runtime.plugin.CopyPasteSupport" />
     </file>
   </root>
   <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/1206675692264612890">
@@ -712,7 +726,7 @@
       <unit id="3041672038272188327" at="11,0,30,0" name="de.slisson.mps.tables.runtime.plugin.ClipboardListener_AppPluginPart" />
     </file>
     <file name="Runtime_ApplicationPlugin.java">
-      <node id="3041672038272188327" at="37,66,38,53" concept="3" />
+      <node id="3041672038272188327" at="40,66,41,53" concept="3" />
     </file>
   </root>
   <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/5766368519609678261">
@@ -778,7 +792,7 @@
       <unit id="5766368519609678261" at="16,0,60,0" name="de.slisson.mps.tables.runtime.plugin.InsertTableColumnAfter_Action" />
     </file>
     <file name="Runtime_ApplicationPlugin.java">
-      <node id="5766368519609678261" at="25,43,26,51" concept="3" />
+      <node id="5766368519609678261" at="26,43,27,51" concept="3" />
     </file>
   </root>
   <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/5766368519609678295">
@@ -844,7 +858,7 @@
       <unit id="5766368519609678295" at="16,0,60,0" name="de.slisson.mps.tables.runtime.plugin.InsertTableColumnBefore_Action" />
     </file>
     <file name="Runtime_ApplicationPlugin.java">
-      <node id="5766368519609678295" at="26,51,27,52" concept="3" />
+      <node id="5766368519609678295" at="27,51,28,52" concept="3" />
     </file>
   </root>
   <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/7908435319565520658">
@@ -910,33 +924,36 @@
       <unit id="7908435319565520658" at="17,0,61,0" name="de.slisson.mps.tables.runtime.plugin.DeleteTableColumn_Action" />
     </file>
     <file name="Runtime_ApplicationPlugin.java">
-      <node id="7908435319565520658" at="23,29,24,46" concept="3" />
+      <node id="7908435319565520658" at="24,29,25,46" concept="3" />
     </file>
   </root>
   <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/8034681417260764858">
     <file name="Runtime_ApplicationPlugin.java">
-      <node id="8034681417260764858" at="12,0,13,0" concept="4" trace="myId" />
-      <node id="8034681417260764858" at="18,27,19,16" concept="10" />
-      <node id="8034681417260764858" at="22,30,23,29" concept="11" />
-      <node id="8034681417260764858" at="29,49,30,13" concept="11" />
-      <node id="8034681417260764858" at="14,0,16,0" concept="2" trace="Runtime_ApplicationPlugin#()V" />
-      <node id="8034681417260764858" at="33,0,36,0" concept="8" trace="adjustRegularGroups#()V" />
-      <node id="8034681417260764858" at="17,0,21,0" concept="8" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
-      <node id="8034681417260764858" at="36,0,40,0" concept="8" trace="fillCustomParts#(Ljava/util/List;)V" />
-      <node id="8034681417260764858" at="22,0,33,0" concept="8" trace="createGroups#()V" />
-      <scope id="8034681417260764858" at="14,38,14,38" />
-      <scope id="8034681417260764858" at="18,27,19,16" />
-      <scope id="8034681417260764858" at="33,37,34,84" />
-      <scope id="8034681417260764858" at="37,66,38,53" />
-      <scope id="8034681417260764858" at="14,0,16,0" />
-      <scope id="8034681417260764858" at="33,0,36,0" />
-      <scope id="8034681417260764858" at="17,0,21,0" />
-      <scope id="8034681417260764858" at="36,0,40,0">
+      <node id="8034681417260764858" at="13,0,14,0" concept="4" trace="myId" />
+      <node id="8034681417260764858" at="19,27,20,16" concept="10" />
+      <node id="8034681417260764858" at="23,30,24,29" concept="11" />
+      <node id="8034681417260764858" at="30,49,31,13" concept="11" />
+      <node id="8034681417260764858" at="15,0,17,0" concept="2" trace="Runtime_ApplicationPlugin#()V" />
+      <node id="8034681417260764858" at="34,0,36,0" concept="8" trace="adjustInterfaceGroups#()V" />
+      <node id="8034681417260764858" at="36,0,39,0" concept="8" trace="adjustRegularGroups#()V" />
+      <node id="8034681417260764858" at="18,0,22,0" concept="8" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="8034681417260764858" at="39,0,43,0" concept="8" trace="fillCustomParts#(Ljava/util/List;)V" />
+      <node id="8034681417260764858" at="23,0,34,0" concept="8" trace="createGroups#()V" />
+      <scope id="8034681417260764858" at="15,38,15,38" />
+      <scope id="8034681417260764858" at="34,39,34,39" />
+      <scope id="8034681417260764858" at="19,27,20,16" />
+      <scope id="8034681417260764858" at="36,37,37,100" />
+      <scope id="8034681417260764858" at="40,66,41,53" />
+      <scope id="8034681417260764858" at="15,0,17,0" />
+      <scope id="8034681417260764858" at="34,0,36,0" />
+      <scope id="8034681417260764858" at="36,0,39,0" />
+      <scope id="8034681417260764858" at="18,0,22,0" />
+      <scope id="8034681417260764858" at="39,0,43,0">
         <var name="parts" id="8034681417260764858" />
       </scope>
-      <scope id="8034681417260764858" at="22,30,31,49" />
-      <scope id="8034681417260764858" at="22,0,33,0" />
-      <unit id="8034681417260764858" at="11,0,41,0" name="de.slisson.mps.tables.runtime.plugin.Runtime_ApplicationPlugin" />
+      <scope id="8034681417260764858" at="23,30,32,49" />
+      <scope id="8034681417260764858" at="23,0,34,0" />
+      <unit id="8034681417260764858" at="12,0,44,0" name="de.slisson.mps.tables.runtime.plugin.Runtime_ApplicationPlugin" />
     </file>
   </root>
   <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/8034681417260770640">
@@ -1069,13 +1086,13 @@
       <unit id="8915588640828114661" at="17,0,61,0" name="de.slisson.mps.tables.runtime.plugin.DeleteTableRow_Action" />
     </file>
     <file name="Runtime_ApplicationPlugin.java">
-      <node id="8915588640828114661" at="24,46,25,43" concept="3" />
+      <node id="8915588640828114661" at="25,46,26,43" concept="3" />
     </file>
   </root>
   <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/8915588640830459775">
     <file name="Runtime_ApplicationPlugin.java">
-      <node id="8915588640830459775" at="30,13,31,49" concept="3" />
-      <node id="8915588640830459782" at="33,37,34,84" concept="3" />
+      <node id="8915588640830459775" at="31,13,32,49" concept="3" />
+      <node id="8915588640830459782" at="36,37,37,100" concept="3" />
     </file>
     <file name="TableActions_ActionGroup.java">
       <node id="8915588640830459775" at="10,0,11,0" concept="13" trace="ID" />
@@ -1162,7 +1179,7 @@
       <unit id="8915588640831077844" at="16,0,60,0" name="de.slisson.mps.tables.runtime.plugin.InsertTableRowBefore_Action" />
     </file>
     <file name="Runtime_ApplicationPlugin.java">
-      <node id="8915588640831077844" at="28,48,29,49" concept="3" />
+      <node id="8915588640831077844" at="29,48,30,49" concept="3" />
     </file>
   </root>
   <root nodeRef="r:c386283f-4bfc-42ea-a1b4-65abe196bd30(de.slisson.mps.tables.runtime.plugin)/8915588640832071109">
@@ -1228,7 +1245,7 @@
       <unit id="8915588640832071109" at="16,0,60,0" name="de.slisson.mps.tables.runtime.plugin.InsertTableRowAfter_Action" />
     </file>
     <file name="Runtime_ApplicationPlugin.java">
-      <node id="8915588640832071109" at="27,52,28,48" concept="3" />
+      <node id="8915588640832071109" at="28,52,29,48" concept="3" />
     </file>
   </root>
 </debug-info>

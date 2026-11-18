@@ -424,7 +424,7 @@ public class LayoutableCollectionAdapter extends AbstractLayoutableAdapter imple
 
   @Override
   public boolean calcHasBorder(boolean left) {
-    if (super.hasBorder(left)) {
+    if (super.calcHasBorder(left)) {
       return true;
     }
     if (ListSequence.fromList(getChildren()).count() > 0) {

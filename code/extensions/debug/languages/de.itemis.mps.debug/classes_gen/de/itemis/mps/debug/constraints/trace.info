@@ -20,11 +20,11 @@
       <node id="8745606771045591613" at="20,49,21,48" concept="9" />
       <node id="8745606771045591613" at="28,130,29,161" concept="4" />
       <node id="8745606771045591613" at="29,161,30,0" concept="6" />
-      <node id="8745606771045591613" at="31,55,32,70" concept="1" />
+      <node id="8745606771045591613" at="31,55,32,74" concept="1" />
       <node id="8745606771045591613" at="33,9,34,0" concept="6" />
       <node id="8745606771045591613" at="34,0,35,22" concept="5" />
       <node id="8745606771045593610" at="39,149,40,99" concept="5" />
-      <node id="8745606771045591613" at="42,0,43,0" concept="7" trace="canBeRootBreakingPoint" />
+      <node id="8745606771045591613" at="42,0,43,0" concept="7" trace="canBeAncestorBreakingPoint" />
       <node id="8745606771045591613" at="45,0,46,0" concept="7" trace="EditorComponentReference$uw" />
       <node id="8745606771045591613" at="46,0,47,0" concept="7" trace="Command$6M" />
       <node id="8745606771045591613" at="20,0,23,0" concept="0" trace="EditorComponentReference_Constraints#()V" />
@@ -34,7 +34,7 @@
       <node id="8745606771045591613" at="25,109,37,6" concept="5" />
       <node id="8745606771045591613" at="24,0,39,0" concept="3" trace="calculateCanBeAncestorConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
       <scope id="8745606771045591613" at="20,49,21,48" />
-      <scope id="8745606771045591613" at="31,55,32,70" />
+      <scope id="8745606771045591613" at="31,55,32,74" />
       <scope id="8745606771045591719" at="39,149,40,99" />
       <scope id="8745606771045591613" at="20,0,23,0" />
       <scope id="8745606771045591613" at="39,0,42,0">
@@ -63,11 +63,11 @@
       <node id="8745606771045600583" at="20,38,21,37" concept="9" />
       <node id="8745606771045600583" at="28,130,29,161" concept="4" />
       <node id="8745606771045600583" at="29,161,30,0" concept="6" />
-      <node id="8745606771045600583" at="31,55,32,70" concept="1" />
+      <node id="8745606771045600583" at="31,55,32,74" concept="1" />
       <node id="8745606771045600583" at="33,9,34,0" concept="6" />
       <node id="8745606771045600583" at="34,0,35,22" concept="5" />
       <node id="8745606771045600771" at="39,149,40,99" concept="5" />
-      <node id="8745606771045600583" at="42,0,43,0" concept="7" trace="canBeRootBreakingPoint" />
+      <node id="8745606771045600583" at="42,0,43,0" concept="7" trace="canBeAncestorBreakingPoint" />
       <node id="8745606771045600583" at="45,0,46,0" concept="7" trace="CellReference$M7" />
       <node id="8745606771045600583" at="46,0,47,0" concept="7" trace="Command$6M" />
       <node id="8745606771045600583" at="20,0,23,0" concept="0" trace="CellReference_Constraints#()V" />
@@ -77,7 +77,7 @@
       <node id="8745606771045600583" at="25,109,37,6" concept="5" />
       <node id="8745606771045600583" at="24,0,39,0" concept="3" trace="calculateCanBeAncestorConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
       <scope id="8745606771045600583" at="20,38,21,37" />
-      <scope id="8745606771045600583" at="31,55,32,70" />
+      <scope id="8745606771045600583" at="31,55,32,74" />
       <scope id="8745606771045600689" at="39,149,40,99" />
       <scope id="8745606771045600583" at="20,0,23,0" />
       <scope id="8745606771045600583" at="39,0,42,0">

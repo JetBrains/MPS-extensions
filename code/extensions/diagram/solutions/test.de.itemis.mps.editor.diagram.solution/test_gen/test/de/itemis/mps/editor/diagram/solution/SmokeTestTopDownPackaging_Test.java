@@ -21,6 +21,7 @@ import de.itemis.mps.structurecheck.runtime.Element;
 import de.itemis.mps.editor.diagram.runtime.jgraph.BoxDCell;
 import de.itemis.mps.structurecheck.runtime.TypeChecker;
 import de.itemis.mps.structurecheck.runtime.Message;
+import org.jetbrains.annotations.Nullable;
 import de.itemis.mps.editor.diagram.runtime.jgraph.TopDownPackingLayouter;
 import org.junit.Assert;
 import org.eclipse.elk.alg.topdownpacking.NodeArrangementStrategy;
@@ -68,6 +69,12 @@ public class SmokeTestTopDownPackaging_Test extends BaseTransformationTest {
         }) {
           public Iterable<mxCell> getSequence(mxCell thisElement) {
             return ExtensionMethods.getChildren(thisElement);
+          }
+          @Nullable
+          @Override
+          public Message getMessage(mxCell thisElement) {
+            // Overridden just for being included in the stack trace
+            return super.getMessage(thisElement);
           }
         });
         Message message = checker.getMessage(thisElement);

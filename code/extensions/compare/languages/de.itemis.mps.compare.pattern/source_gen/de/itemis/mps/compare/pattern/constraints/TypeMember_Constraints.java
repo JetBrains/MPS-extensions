@@ -46,7 +46,7 @@ public class TypeMember_Constraints extends BaseConstraintsDescriptor {
         boolean result = staticCanBeAnAncestor(context.getNode(), context.getChildNode(), context.getChildConcept(), context.getParentNode(), context.getLink());
 
         if (!(result) && checkingNodeContext != null) {
-          checkingNodeContext.setBreakingNode(canBeRootBreakingPoint);
+          checkingNodeContext.setBreakingNode(canBeAncestorBreakingPoint);
         }
 
         return result;
@@ -60,7 +60,7 @@ public class TypeMember_Constraints extends BaseConstraintsDescriptor {
     return !(SConceptOperations.isExactly(SNodeOperations.asSConcept(childConcept), CONCEPTS.AncestorMember$R5)) && !(SConceptOperations.isExactly(SNodeOperations.asSConcept(childConcept), CONCEPTS.ParentMember$kC)) && !(SConceptOperations.isExactly(SNodeOperations.asSConcept(childConcept), CONCEPTS.TypeMember$jE));
   }
   private static final SNodePointer canBeParentBreakingPoint = new SNodePointer("r:4c1042ac-caa8-4069-87b6-b203297a333f(de.itemis.mps.compare.pattern.constraints)", "6768392667014055833");
-  private static final SNodePointer canBeRootBreakingPoint = new SNodePointer("r:4c1042ac-caa8-4069-87b6-b203297a333f(de.itemis.mps.compare.pattern.constraints)", "6768392667014055810");
+  private static final SNodePointer canBeAncestorBreakingPoint = new SNodePointer("r:4c1042ac-caa8-4069-87b6-b203297a333f(de.itemis.mps.compare.pattern.constraints)", "6768392667014055810");
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept TypeMember$jE = MetaAdapterFactory.getConcept(0x17566462d8374552L, 0x874c64e45c10778aL, 0x316a248a9a0b119cL, "de.itemis.mps.compare.pattern.structure.TypeMember");

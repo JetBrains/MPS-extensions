@@ -14,14 +14,14 @@
       <unit at="8,0,13,0" name="com.mbeddr.mpsutil.modellisteners.runtime.plugin.ExtensionDescriptor" />
     </file>
     <file name="IconContainer.java">
-      <unit at="7,0,10,0" name="com.mbeddr.mpsutil.modellisteners.runtime.plugin.IconContainer" />
+      <unit at="8,0,12,0" name="com.mbeddr.mpsutil.modellisteners.runtime.plugin.IconContainer" />
     </file>
   </root>
   <root nodeRef="r:36aeb616-f561-40d2-aedb-9476bc0a6442(com.mbeddr.mpsutil.modellisteners.runtime.plugin)/172345109540663945">
     <file name="LanguageAspectsEP_extension.java">
       <node id="172345109540663945" at="18,40,19,57" concept="8" />
       <node id="172345109540663945" at="26,55,27,184" concept="6" />
-      <node id="172345109540663945" at="30,45,31,49" concept="6" />
+      <node id="172345109540663945" at="30,45,31,40" concept="6" />
       <node id="172345109540663945" at="18,0,21,0" concept="1" trace="LanguageAspectsEP_extension#()V" />
       <node id="172345109540663945" at="29,0,33,0" concept="4" trace="getIconResource#()Ljetbrains/mps/smodel/runtime/IconResource;" />
       <node id="172345109540663945" at="24,0,29,0" concept="4" trace="getMainLanguages#()Ljava/util/Collection;" />
@@ -29,7 +29,7 @@
       <node id="172345109540663945" at="21,0,35,0" concept="0" trace="get#()Ljetbrains/mps/smodel/language/LanguageAspectDescriptor;" />
       <scope id="172345109540663945" at="18,40,19,57" />
       <scope id="172345109540663945" at="26,55,27,184" />
-      <scope id="172345109540663945" at="30,45,31,49" />
+      <scope id="172345109540663945" at="30,45,31,40" />
       <scope id="172345109540663945" at="18,0,21,0" />
       <scope id="172345109540663945" at="29,0,33,0" />
       <scope id="172345109540663945" at="24,0,29,0" />

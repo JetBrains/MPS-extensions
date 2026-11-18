@@ -9,9 +9,11 @@
   <imports>
     <import index="hdil" ref="r:61f3a034-6f5c-43d5-a74f-5ddd196fba91(de.itemis.mps.editor.bool.runtime)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
+    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
+      <concept id="1225467090849" name="jetbrains.mps.lang.test.structure.ProjectExpression" flags="nn" index="1jxXqW" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
@@ -27,6 +29,11 @@
       <concept id="1225978065297" name="jetbrains.mps.lang.test.structure.SimpleNodeTest" flags="ng" index="1LZb2c" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
+        <child id="1197027771414" name="operand" index="2Oq$k0" />
+        <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -108,13 +115,19 @@
             <node concept="3uibUv" id="7_hVqhyE5Jz" role="1tU5fm">
               <ref role="3uigEE" to="z60i:~Image" resolve="Image" />
             </node>
-            <node concept="2YIFZM" id="7_hVqhyE5M0" role="33vP2m">
-              <ref role="37wK5l" to="hdil:20OtND1EkN0" resolve="loadImage" />
+            <node concept="2YIFZM" id="1gaGt1klueM" role="33vP2m">
+              <ref role="37wK5l" to="hdil:1gaGt1kiIho" resolve="loadImage" />
               <ref role="1Pybhc" to="hdil:7_hVqhyE0pS" resolve="ImageLoading" />
-              <node concept="Xl_RD" id="7_hVqhyE5M1" role="37wK5m">
+              <node concept="2OqwBi" id="1gaGt1klueN" role="37wK5m">
+                <node concept="1jxXqW" id="1gaGt1klueO" role="2Oq$k0" />
+                <node concept="liA8E" id="1gaGt1klueP" role="2OqNvi">
+                  <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="1gaGt1klueQ" role="37wK5m">
                 <property role="Xl_RC" value="${module}/icons/build.png" />
               </node>
-              <node concept="3xONca" id="3xul4PUMvMd" role="37wK5m">
+              <node concept="3xONca" id="1gaGt1klueR" role="37wK5m">
                 <ref role="3xOPvv" node="7_hVqhyEpKE" resolve="buildProject" />
               </node>
             </node>
@@ -133,37 +146,55 @@
       <node concept="3cqZAl" id="3xul4PUMAhC" role="3clF45" />
       <node concept="3clFbS" id="3xul4PUMAhD" role="3clF47">
         <node concept="3ykFI1" id="3xul4PUMAjV" role="3cqZAp">
-          <node concept="2YIFZM" id="3xul4PUMAhH" role="3ykU8v">
-            <ref role="37wK5l" to="hdil:20OtND1EkN0" resolve="loadImage" />
+          <node concept="2YIFZM" id="1gaGt1klu5Q" role="3ykU8v">
+            <ref role="37wK5l" to="hdil:1gaGt1kiIho" resolve="loadImage" />
             <ref role="1Pybhc" to="hdil:7_hVqhyE0pS" resolve="ImageLoading" />
-            <node concept="Xl_RD" id="3xul4PUMAhI" role="37wK5m">
+            <node concept="2OqwBi" id="1gaGt1klu5R" role="37wK5m">
+              <node concept="1jxXqW" id="1gaGt1klu5S" role="2Oq$k0" />
+              <node concept="liA8E" id="1gaGt1klu5T" role="2OqNvi">
+                <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="1gaGt1klu5U" role="37wK5m">
               <property role="Xl_RC" value="${module}" />
             </node>
-            <node concept="3xONca" id="3xul4PUMAhJ" role="37wK5m">
+            <node concept="3xONca" id="1gaGt1klu5V" role="37wK5m">
               <ref role="3xOPvv" node="7_hVqhyEpKE" resolve="buildProject" />
             </node>
           </node>
         </node>
         <node concept="3ykFI1" id="3xul4PUMPo$" role="3cqZAp">
-          <node concept="2YIFZM" id="3xul4PUMPo_" role="3ykU8v">
-            <ref role="37wK5l" to="hdil:20OtND1EkN0" resolve="loadImage" />
+          <node concept="2YIFZM" id="1gaGt1klu8o" role="3ykU8v">
+            <ref role="37wK5l" to="hdil:1gaGt1kiIho" resolve="loadImage" />
             <ref role="1Pybhc" to="hdil:7_hVqhyE0pS" resolve="ImageLoading" />
-            <node concept="Xl_RD" id="3xul4PUMPoA" role="37wK5m">
+            <node concept="2OqwBi" id="1gaGt1klu8p" role="37wK5m">
+              <node concept="1jxXqW" id="1gaGt1klu8q" role="2Oq$k0" />
+              <node concept="liA8E" id="1gaGt1klu8r" role="2OqNvi">
+                <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="1gaGt1klu8s" role="37wK5m">
               <property role="Xl_RC" value="${module}/" />
             </node>
-            <node concept="3xONca" id="3xul4PUMPoB" role="37wK5m">
+            <node concept="3xONca" id="1gaGt1klu8t" role="37wK5m">
               <ref role="3xOPvv" node="7_hVqhyEpKE" resolve="buildProject" />
             </node>
           </node>
         </node>
         <node concept="3ykFI1" id="3xul4PUN2T3" role="3cqZAp">
-          <node concept="2YIFZM" id="3xul4PUN2T4" role="3ykU8v">
-            <ref role="37wK5l" to="hdil:20OtND1EkN0" resolve="loadImage" />
+          <node concept="2YIFZM" id="1gaGt1kluaZ" role="3ykU8v">
+            <ref role="37wK5l" to="hdil:1gaGt1kiIho" resolve="loadImage" />
             <ref role="1Pybhc" to="hdil:7_hVqhyE0pS" resolve="ImageLoading" />
-            <node concept="Xl_RD" id="3xul4PUN2T5" role="37wK5m">
+            <node concept="2OqwBi" id="1gaGt1klub0" role="37wK5m">
+              <node concept="1jxXqW" id="1gaGt1klub1" role="2Oq$k0" />
+              <node concept="liA8E" id="1gaGt1klub2" role="2OqNvi">
+                <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="1gaGt1klub3" role="37wK5m">
               <property role="Xl_RC" value="${module}/x" />
             </node>
-            <node concept="3xONca" id="3xul4PUN2T6" role="37wK5m">
+            <node concept="3xONca" id="1gaGt1klub4" role="37wK5m">
               <ref role="3xOPvv" node="7_hVqhyEpKE" resolve="buildProject" />
             </node>
           </node>

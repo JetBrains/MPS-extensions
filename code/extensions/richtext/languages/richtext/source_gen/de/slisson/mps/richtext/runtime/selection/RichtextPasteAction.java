@@ -27,7 +27,7 @@ public class RichtextPasteAction extends AbstractCellAction {
     myWordCell = wordCell;
   }
   public void execute(final EditorContext context) {
-    final List<SNode> nodes = CopyPasteUtil.getNodesFromClipboard(context.getEditorComponent().getEditedNode().getModel());
+    final List<SNode> nodes = CopyPasteUtil.getNodesFromClipboard();
     final SNode wordNode = (SNode) myWordCell.getSNode();
     boolean allAreIWords = ListSequence.fromList(nodes).foldLeft(true, (Boolean s, SNode it) -> s && SNodeOperations.isInstanceOf(it, CONCEPTS.IWord$8d));
 

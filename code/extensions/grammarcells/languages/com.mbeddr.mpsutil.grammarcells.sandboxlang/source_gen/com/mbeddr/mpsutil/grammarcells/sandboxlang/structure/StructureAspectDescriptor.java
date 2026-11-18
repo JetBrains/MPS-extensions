@@ -58,6 +58,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptStmtContainerParentWhitelisting = createDescriptorForStmtContainerParentWhitelisting();
   /*package*/ final ConceptDescriptor myConceptStringLiteral = createDescriptorForStringLiteral();
   /*package*/ final ConceptDescriptor myConceptStringType = createDescriptorForStringType();
+  /*package*/ final ConceptDescriptor myConceptTEST_AnnotationOnRootProperty_Annotation = createDescriptorForTEST_AnnotationOnRootProperty_Annotation();
+  /*package*/ final ConceptDescriptor myConceptTEST_AnnotationOnRootProperty_Property = createDescriptorForTEST_AnnotationOnRootProperty_Property();
   /*package*/ final ConceptDescriptor myConceptTEST_CellModelTraversal = createDescriptorForTEST_CellModelTraversal();
   /*package*/ final ConceptDescriptor myConceptTEST_EnumWrapper = createDescriptorForTEST_EnumWrapper();
   /*package*/ final ConceptDescriptor myConceptTEST_FlagAndTooltip = createDescriptorForTEST_FlagAndTooltip();
@@ -98,7 +100,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAType, myConceptArrayType, myConceptBType, myConceptBinaryExpression, myConceptBlockExpression, myConceptBracketsExpression, myConceptDemoOptionalCellsCapability, myConceptDemoRoot, myConceptDivExpression, myConceptEmpty, myConceptEmptyModuleContent, myConceptEmptyStatement, myConceptFloatLiteral, myConceptFractionExpression, myConceptFunction, myConceptIDemoContent, myConceptIExpression, myConceptIModuleContent, myConceptIStatement, myConceptIntLiteral, myConceptIntType, myConceptLocalVariableDeclaration, myConceptMinusExpression, myConceptModule, myConceptMulExpression, myConceptOptionalProperty, myConceptOptionalType, myConceptParenthesesExpression, myConceptPlusExpression, myConceptPostIncrement, myConceptPreIncrementExpression, myConceptPrivateVisibility, myConceptPublicVisibility, myConceptStatementList, myConceptStmtContainerAncestor, myConceptStmtContainerAncestorWhitelisting, myConceptStmtContainerParent, myConceptStmtContainerParentWhitelisting, myConceptStringLiteral, myConceptStringType, myConceptTEST_CellModelTraversal, myConceptTEST_EnumWrapper, myConceptTEST_FlagAndTooltip, myConceptTEST_FlagNextToChild, myConceptTEST_LayoutOfChildInOptional, myConceptTEST_OptionalNextToRenderingConditon, myConceptTEST_OptionalReadOnlyModelAccessorCell_Single, myConceptTEST_OptionalWithoutText_Multiple, myConceptTEST_OptionalWithoutText_Reference, myConceptTEST_OptionalWithoutText_Single, myConceptTEST_SetOptionalNextToChild, myConceptTEST_optionalInComponent, myConceptTernaryExpression, myConceptType, myConceptUnaryExpression, myConceptUnitExpression, myConceptVariableDeclaration, myConceptVisibility, myConceptWrapStmtAncestor, myConceptWrapStmtAncestorWhitelisting, myConceptWrapStmtParent, myConceptWrapStmtParentWhitelisting, myConceptWrapType);
+    return Arrays.asList(myConceptAType, myConceptArrayType, myConceptBType, myConceptBinaryExpression, myConceptBlockExpression, myConceptBracketsExpression, myConceptDemoOptionalCellsCapability, myConceptDemoRoot, myConceptDivExpression, myConceptEmpty, myConceptEmptyModuleContent, myConceptEmptyStatement, myConceptFloatLiteral, myConceptFractionExpression, myConceptFunction, myConceptIDemoContent, myConceptIExpression, myConceptIModuleContent, myConceptIStatement, myConceptIntLiteral, myConceptIntType, myConceptLocalVariableDeclaration, myConceptMinusExpression, myConceptModule, myConceptMulExpression, myConceptOptionalProperty, myConceptOptionalType, myConceptParenthesesExpression, myConceptPlusExpression, myConceptPostIncrement, myConceptPreIncrementExpression, myConceptPrivateVisibility, myConceptPublicVisibility, myConceptStatementList, myConceptStmtContainerAncestor, myConceptStmtContainerAncestorWhitelisting, myConceptStmtContainerParent, myConceptStmtContainerParentWhitelisting, myConceptStringLiteral, myConceptStringType, myConceptTEST_AnnotationOnRootProperty_Annotation, myConceptTEST_AnnotationOnRootProperty_Property, myConceptTEST_CellModelTraversal, myConceptTEST_EnumWrapper, myConceptTEST_FlagAndTooltip, myConceptTEST_FlagNextToChild, myConceptTEST_LayoutOfChildInOptional, myConceptTEST_OptionalNextToRenderingConditon, myConceptTEST_OptionalReadOnlyModelAccessorCell_Single, myConceptTEST_OptionalWithoutText_Multiple, myConceptTEST_OptionalWithoutText_Reference, myConceptTEST_OptionalWithoutText_Single, myConceptTEST_SetOptionalNextToChild, myConceptTEST_optionalInComponent, myConceptTernaryExpression, myConceptType, myConceptUnaryExpression, myConceptUnitExpression, myConceptVariableDeclaration, myConceptVisibility, myConceptWrapStmtAncestor, myConceptWrapStmtAncestorWhitelisting, myConceptWrapStmtParent, myConceptWrapStmtParentWhitelisting, myConceptWrapType);
   }
 
   @Override
@@ -185,6 +187,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptStringLiteral;
       case LanguageConceptSwitch.StringType:
         return myConceptStringType;
+      case LanguageConceptSwitch.TEST_AnnotationOnRootProperty_Annotation:
+        return myConceptTEST_AnnotationOnRootProperty_Annotation;
+      case LanguageConceptSwitch.TEST_AnnotationOnRootProperty_Property:
+        return myConceptTEST_AnnotationOnRootProperty_Property;
       case LanguageConceptSwitch.TEST_CellModelTraversal:
         return myConceptTEST_CellModelTraversal;
       case LanguageConceptSwitch.TEST_EnumWrapper:
@@ -631,6 +637,23 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:ad27d4b4-fc2c-4b6d-9e22-455eb0ccf354(com.mbeddr.mpsutil.grammarcells.sandboxlang.structure)/7363578995839144929");
     b.version(3);
     b.alias("string");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTEST_AnnotationOnRootProperty_Annotation() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.grammarcells.sandboxlang", "TEST_AnnotationOnRootProperty_Annotation", 0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x228b94d7e84f8cf3L);
+    b.class_(false, false, false);
+    // extends: jetbrains.mps.lang.core.structure.PropertyAttribute
+    b.super_(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L);
+    b.origin("r:ad27d4b4-fc2c-4b6d-9e22-455eb0ccf354(com.mbeddr.mpsutil.grammarcells.sandboxlang.structure)/2489246874088738035");
+    b.version(3);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTEST_AnnotationOnRootProperty_Property() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.mbeddr.mpsutil.grammarcells.sandboxlang", "TEST_AnnotationOnRootProperty_Property", 0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x228b94d7e84f9667L);
+    b.class_(false, false, false);
+    b.origin("r:ad27d4b4-fc2c-4b6d-9e22-455eb0ccf354(com.mbeddr.mpsutil.grammarcells.sandboxlang.structure)/2489246874088740455");
+    b.version(3);
+    b.property("propertyA", 0x228b94d7e84f9d28L).type(PrimitiveTypeId.STRING).origin("2489246874088742184").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForTEST_CellModelTraversal() {

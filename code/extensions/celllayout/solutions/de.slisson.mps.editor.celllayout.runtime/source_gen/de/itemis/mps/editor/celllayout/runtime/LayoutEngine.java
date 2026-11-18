@@ -227,7 +227,7 @@ public class LayoutEngine {
             gapL = 0;
           }
         }
-        ILayoutable lastChild = ListSequence.fromList(((ILayoutableContainer) layoutable).getChildren()).first();
+        ILayoutable lastChild = ListSequence.fromList(((ILayoutableContainer) layoutable).getChildren()).last();
         if (lastChild != null) {
           if (LayoutStylesUtil.getRightBorderSize(((IEditorCellBasedLayoutable) lastChild).getEditorCell()) > 0) {
             gapR = 0;

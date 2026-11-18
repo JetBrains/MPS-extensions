@@ -42,6 +42,7 @@ public class PartialTableExtractor {
     if (currentCell instanceof TableEditor) {
       return null;
     } else if (currentCell instanceof PartialTableEditor && !(SetSequence.fromSet(extracted).contains(((PartialTableEditor) currentCell))) && !(currentCell.getParent() instanceof PartialTableEditor)) {
+      CellCaching.disableCaching();
       Grid result = new Grid();
       Grid annotatedGrid = ((PartialTableEditor) currentCell).getGrid().clone();
       result.setElement(0, 0, annotatedGrid);

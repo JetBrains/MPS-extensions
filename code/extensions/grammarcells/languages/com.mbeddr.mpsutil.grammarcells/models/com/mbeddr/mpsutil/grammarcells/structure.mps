@@ -15,9 +15,6 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
-        <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
-      </concept>
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
         <property id="1225118933224" name="comment" index="YLQ7P" />
       </concept>
@@ -449,13 +446,6 @@
       <property role="TrG5h" value="actionId" />
       <property role="IQ2nx" value="1139535298778" />
       <ref role="AX2Wp" to="tpc2:3Ftr4R6BFaB" resolve="CellActionId" />
-      <node concept="3l_iC" id="7WTFIQIcYwd" role="lGtFl">
-        <node concept="1TJgyi" id="g_hAc3q" role="3l_iP">
-          <property role="TrG5h" value="actionId" />
-          <property role="IQ2nx" value="1139535298778" />
-          <ref role="AX2Wp" to="tpc2:g_hAjpB" resolve="CellActionId" />
-        </node>
-      </node>
     </node>
     <node concept="1TJgyj" id="5WBKiSs9$Zt" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -613,13 +603,6 @@
       <property role="TrG5h" value="side" />
       <property role="IQ2nx" value="7272510943425988883" />
       <ref role="AX2Wp" to="tpdg:3Ftr4R6BF3f" resolve="Side" />
-      <node concept="3l_iC" id="7WTFIQIcYwf" role="lGtFl">
-        <node concept="1TJgyi" id="6jH9yJK30$j" role="3l_iP">
-          <property role="TrG5h" value="side" />
-          <property role="IQ2nx" value="7272510943425988883" />
-          <ref role="AX2Wp" to="tpdg:3Ftr4R6BF3f" resolve="Side" />
-        </node>
-      </node>
     </node>
     <node concept="PrWs8" id="6jH9yJK30Bp" role="PzmwI">
       <ref role="PrY4T" node="3O7ZvCZLPYU" resolve="ICellWrapper" />

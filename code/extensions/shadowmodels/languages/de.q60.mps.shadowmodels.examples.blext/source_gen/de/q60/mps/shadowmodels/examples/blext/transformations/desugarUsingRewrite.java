@@ -56,7 +56,7 @@ public class desugarUsingRewrite extends PFModule {
     }
   }).invoke();
   private desugarUsingRewrite() {
-    myImplementations.put("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.transformation.polyfun.TransformationModuleMetaFunctions.getOutputLanguages", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -83,7 +83,7 @@ public class desugarUsingRewrite extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.classFork", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.classFork", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ClassConcept$bK)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -113,7 +113,7 @@ public class desugarUsingRewrite extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.classFork/rewriter", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.classFork/rewriter", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromList(new ArrayList<IParameterType>());
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -142,7 +142,7 @@ public class desugarUsingRewrite extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.reduce", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.reduce", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.UntilStatement$XV)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -224,7 +224,7 @@ public class desugarUsingRewrite extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.reduce", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.reduce", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.NullAlternativeExpression$3A)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -304,7 +304,7 @@ public class desugarUsingRewrite extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.reduce", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.reduce", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ErrorStatement$jb)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -349,7 +349,7 @@ public class desugarUsingRewrite extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.reduce", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.reduce", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ErrorStatement$jb)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -423,7 +423,7 @@ public class desugarUsingRewrite extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.throwError", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.throwError", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.ErrorStatement$jb)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());
@@ -511,7 +511,7 @@ public class desugarUsingRewrite extends PFModule {
         return groupIds;
       }
     });
-    myImplementations.put("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.naMethod", new IFunctionImplementation() {
+    addImplementation("de.q60.mps.shadowmodels.examples.blext.transformations.desugarUsingRewrite.naMethod", new IFunctionImplementation() {
       private List<IParameterType> myParameterTypes = ListSequence.fromListAndArray(new ArrayList<IParameterType>(), new ParameterType_INode(SConceptAdapter.wrap(CONCEPTS.NullAlternativeExpression$3A)));
       private List<String> contextIds = ListSequence.fromList(new ArrayList<String>());
       private List<String> groupIds = ListSequence.fromList(new ArrayList<String>());

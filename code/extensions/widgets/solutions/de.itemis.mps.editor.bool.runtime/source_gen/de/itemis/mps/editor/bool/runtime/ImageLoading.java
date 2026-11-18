@@ -10,8 +10,11 @@ import java.net.URL;
 import java.util.HashMap;
 import java.awt.Image;
 import org.jetbrains.mps.openapi.model.SNode;
-import org.jetbrains.mps.openapi.module.SModule;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.mps.openapi.module.SRepository;
+import org.jetbrains.annotations.Nullable;
+import org.jetbrains.mps.openapi.module.SModule;
 import jetbrains.mps.util.MacrosFactory;
 import java.awt.Toolkit;
 import jetbrains.mps.vfs.IFile;
@@ -27,7 +30,16 @@ public class ImageLoading {
 
   private static Map<Pair<SModuleReference, String>, URL> urlCache = new HashMap<>();
 
-  public static Image loadImage(String fileName, final SNode sourceNode) {
+  /**
+   * 
+   * @deprecated use the overload with the repository parameter. Left for compatibility with existing generated code.
+   */
+  @Deprecated(since = "2025-10", forRemoval = true)
+  public static Image loadImage(String fileName, SNode sourceNode) {
+    return loadImage(SNodeOperations.getModel(sourceNode).getRepository(), fileName, sourceNode);
+  }
+
+  public static Image loadImage(@NotNull final SRepository repository, @Nullable String fileName, @NotNull SNode sourceNode) {
     if (fileName == null) {
       return null;
     }
@@ -49,7 +61,7 @@ public class ImageLoading {
       // that the code in retrieveURL is quite expensive. So we are caching the results.
       // NOTE: The same approach is done in EnumerationCheckboxImage.
       SModuleReference moduleRef = module.getModuleReference();
-      URL resourceURL = urlCache.computeIfAbsent(new Pair(moduleRef, filePathInModule), (key) -> retrieveURL(sourceNode, key.o1, key.o2));
+      URL resourceURL = ImageLoading.urlCache.computeIfAbsent(new Pair(moduleRef, filePathInModule), (key) -> retrieveURL(repository, key.o1, key.o2));
       if (resourceURL != null) {
         return Toolkit.getDefaultToolkit().getImage(resourceURL);
       }
@@ -67,26 +79,27 @@ public class ImageLoading {
       }
     }
     return null;
+
   }
 
   /**
    * Note: This method is a duplicate of EnumerationCheckboxImage.retrieveURL.
    */
-  private static URL retrieveURL(SNode node, SModuleReference moduleRef, final String path) {
+  private static URL retrieveURL(@NotNull SRepository repository, SModuleReference moduleRef, final String path) {
     final Wrappers._T<URL> url = new Wrappers._T<URL>(null);
-    LanguageRegistry.getInstance(SNodeOperations.getModel(node).getRepository()).withModuleRuntime(Stream.of(moduleRef), (moduleRuntime) -> {
+    LanguageRegistry.getInstance(repository).withModuleRuntime(Stream.of(moduleRef), (moduleRuntime) -> {
       ClassLoader mcl = moduleRuntime.getModuleClassLoader();
       if (mcl instanceof ModuleClassLoader) {
         // For MPS, this is the usual case. It will search only inside the MPS module.
         // Note: This is slightly less expensive as using ClassLoader.getResource.
-        url.value = as_9386v4_a0a0c0b0b0a1a6(mcl, ModuleClassLoader.class).getOwnResource(path);
+        url.value = as_9386v4_a0a0c0b0b0a1a8(mcl, ModuleClassLoader.class).getOwnResource(path);
       } else {
         url.value = mcl.getResource(path);
       }
     });
     return url.value;
   }
-  private static <T> T as_9386v4_a0a0c0b0b0a1a6(Object o, Class<T> type) {
+  private static <T> T as_9386v4_a0a0c0b0b0a1a8(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
 }

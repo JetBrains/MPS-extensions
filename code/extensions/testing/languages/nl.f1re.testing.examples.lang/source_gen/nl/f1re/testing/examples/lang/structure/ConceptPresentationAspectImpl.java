@@ -13,6 +13,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_CompletionStyling;
   private ConceptPresentation props_CompletionStylingExample;
   private ConceptPresentation props_ConditionalEditor;
+  private ConceptPresentation props_LifecycleTesting;
   private ConceptPresentation props_NodeWithToolTip;
   private ConceptPresentation props_Readme;
   private ConceptPresentation props_SlowEditor;
@@ -51,6 +52,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ConditionalEditor = cpb.create();
         }
         return props_ConditionalEditor;
+      case LanguageConceptSwitch.LifecycleTesting:
+        if (props_LifecycleTesting == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("LifecycleTesting");
+          props_LifecycleTesting = cpb.create();
+        }
+        return props_LifecycleTesting;
       case LanguageConceptSwitch.NodeWithToolTip:
         if (props_NodeWithToolTip == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

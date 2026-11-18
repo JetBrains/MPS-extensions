@@ -54,7 +54,7 @@ public abstract class AbstractTableEditor extends EditorCell_Collection {
 
   public void sortChildren() {
     List<jetbrains.mps.nodeEditor.cells.EditorCell> unsorted = Sequence.fromIterable(Sequence.fromArray(getCells())).toList();
-    List<jetbrains.mps.nodeEditor.cells.EditorCell> sorted = ListSequence.fromList(unsorted).sort((it) -> getRow(it), true).toList();
+    List<jetbrains.mps.nodeEditor.cells.EditorCell> sorted = ListSequence.fromList(unsorted).sort((it) -> getRow(it), true).alsoSort((it) -> getColumn(it), true).toList();
     if (!(Objects.equals(unsorted, sorted))) {
       ListSequence.fromList(unsorted).visitAll((it) -> removeCell(it));
       ListSequence.fromList(sorted).visitAll((it) -> addEditorCell(it));
@@ -74,6 +74,19 @@ public abstract class AbstractTableEditor extends EditorCell_Collection {
     return row;
   }
 
+  private int getColumn(EditorCell cell) {
+    if (cell instanceof EditorCell_GridCell) {
+      return ((EditorCell_GridCell) cell).getGridPosition().getX();
+    }
+    int column = -1;
+    if (cell instanceof jetbrains.mps.openapi.editor.cells.EditorCell_Collection) {
+      for (EditorCell child : Sequence.fromIterable((jetbrains.mps.openapi.editor.cells.EditorCell_Collection) cell)) {
+        column = Math.max(column, getColumn(child));
+      }
+    }
+    return column;
+  }
+
   protected void addRegisteredGridCellsToThis(Grid grid, ChildsTracker childsTracker) {
     for (IGridElement element : Sequence.fromIterable(grid)) {
       if (element instanceof Grid) {
@@ -83,7 +96,7 @@ public abstract class AbstractTableEditor extends EditorCell_Collection {
         }
         addRegisteredGridCellsToThis(childGrid, childsTracker);
       } else if (element instanceof EditorCellGridLeaf) {
-        EditorCell cell = check_kwxx98_a0a0a0a0a31(as_kwxx98_a0a0a0a0a0a31(element, EditorCellGridLeaf.class));
+        EditorCell cell = check_kwxx98_a0a0a0a0a51(as_kwxx98_a0a0a0a0a0a51(element, EditorCellGridLeaf.class));
         if (cell != null && allowAddGridCell(cell, childsTracker)) {
           if (!(CellTraversalUtil.isAncestor(this, cell))) {
             if (cell.getParent() != null) {
@@ -106,15 +119,29 @@ public abstract class AbstractTableEditor extends EditorCell_Collection {
         Grid childGrid = ((Grid) element);
         addGridCellsWithoutParentToThis(childGrid);
       } else if (element instanceof EditorCellGridLeaf) {
-        EditorCell cell = check_kwxx98_a0a0a0a0a71(as_kwxx98_a0a0a0a0a0a71(element, EditorCellGridLeaf.class));
+        EditorCell cell = check_kwxx98_a0a0a0a0a91(as_kwxx98_a0a0a0a0a0a91(element, EditorCellGridLeaf.class));
         if (cell != null) {
-          if (cell.getParent() == null || (cell.getParent().getSNode() == getSNode() && Objects.equals(cell.getParent().getCellId(), this.getCellId()) && cell.getParent() != this)) {
+          if (cell.getParent() == null || isPreviousIncarnation(getOwningCollection(cell))) {
+            if (cell.getParent() != null) {
+              cell.getParent().removeCell(cell);
+            }
             addEditorCell(cell);
           }
         }
       }
     }
   }
+
+  private jetbrains.mps.openapi.editor.cells.EditorCell_Collection getOwningCollection(EditorCell cell) {
+    jetbrains.mps.openapi.editor.cells.EditorCell_Collection parent = cell.getParent();
+    return ((parent instanceof EditorCell_GridCell ? parent.getParent() : parent));
+  }
+
+  private boolean isPreviousIncarnation(jetbrains.mps.openapi.editor.cells.EditorCell_Collection candidate) {
+    return candidate != null && candidate != this && candidate.getSNode() == getSNode() && Objects.equals(candidate.getCellId(), this.getCellId());
+  }
+
+
   @Override
   public void setCellId(String string) {
     super.setCellId(string);
@@ -124,31 +151,31 @@ public abstract class AbstractTableEditor extends EditorCell_Collection {
   @Override
   public void requestRelayout() {
     super.requestRelayout();
-    check_kwxx98_a1a02(getParent(), this);
+    check_kwxx98_a1a82(getParent(), this);
   }
 
-  private static EditorCell check_kwxx98_a0a0a0a0a31(EditorCellGridLeaf checkedDotOperand) {
+  private static EditorCell check_kwxx98_a0a0a0a0a51(EditorCellGridLeaf checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getEditorCell();
     }
     return null;
   }
-  private static EditorCell check_kwxx98_a0a0a0a0a71(EditorCellGridLeaf checkedDotOperand) {
+  private static EditorCell check_kwxx98_a0a0a0a0a91(EditorCellGridLeaf checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getEditorCell();
     }
     return null;
   }
-  private static void check_kwxx98_a1a02(EditorCell_Collection checkedDotOperand, AbstractTableEditor checkedDotThisExpression) {
+  private static void check_kwxx98_a1a82(EditorCell_Collection checkedDotOperand, AbstractTableEditor checkedDotThisExpression) {
     if (null != checkedDotOperand) {
       checkedDotOperand.requestRelayout();
     }
 
   }
-  private static <T> T as_kwxx98_a0a0a0a0a0a31(Object o, Class<T> type) {
+  private static <T> T as_kwxx98_a0a0a0a0a0a51(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
-  private static <T> T as_kwxx98_a0a0a0a0a0a71(Object o, Class<T> type) {
+  private static <T> T as_kwxx98_a0a0a0a0a0a91(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
 }

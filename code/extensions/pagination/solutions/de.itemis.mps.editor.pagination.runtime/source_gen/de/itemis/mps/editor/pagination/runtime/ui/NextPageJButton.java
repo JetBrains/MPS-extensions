@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
 public class NextPageJButton extends ChangePageJButton {
 
   public NextPageJButton(PagesUserObject userObj, EditorContext editorContext) {
-    super(AllIcons.Actions.PreviousOccurence, "Next page", userObj, editorContext);
+    super(AllIcons.Actions.NextOccurence, "Next page", userObj, editorContext);
   }
 
   @Override

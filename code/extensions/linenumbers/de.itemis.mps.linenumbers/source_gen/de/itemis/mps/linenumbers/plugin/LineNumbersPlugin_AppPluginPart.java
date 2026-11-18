@@ -30,7 +30,7 @@ public class LineNumbersPlugin_AppPluginPart extends ApplicationPluginPart {
       if (!(isApplicable(editorComponent))) {
         return;
       }
-      check_cwj41g_a1a4a0a0(LineNumberComponent.getOrCreateInstance(((jetbrains.mps.nodeEditor.EditorComponent) editorComponent)));
+      check_cwj41g_a1a4a0a0(LineNumberComponent.getInstance(((jetbrains.mps.nodeEditor.EditorComponent) editorComponent)));
     }
   };
   public LineNumbersPlugin_AppPluginPart() {

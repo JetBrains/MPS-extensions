@@ -40,9 +40,6 @@ import jetbrains.mps.ide.MPSCoreComponents;
 import jetbrains.mps.smodel.SNodePointer;
 import de.itemis.mps.comparator.code.DiffView;
 import org.junit.Assert;
-import de.slisson.mps.tables.runtime.cells.TableEditor;
-import jetbrains.mps.openapi.editor.EditorComponent;
-import jetbrains.mps.nodeEditor.cells.CellFinderUtil;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -94,7 +91,7 @@ public class StateMachineCopyPaste_Test extends BaseTransformationTest {
 
         HeadlessEditorComponent component = new HeadlessEditorComponent(myProject.getRepository());
         component.editNode(getAnnotatedNode("table1"));
-        TableRangeSelection selection = new TableRangeSelection(component, TestBody.this.getTableEditor(component), new GridPosition(2, 1), new GridPosition(3, 2));
+        TableRangeSelection selection = new TableRangeSelection(component, FindTableEditor.getTableEditor(component), new GridPosition(2, 1), new GridPosition(3, 2));
         StateMachineCopyPasteImpl copyPaste = new StateMachineCopyPasteImpl();
         copyPaste.setTableNode(getAnnotatedNode("table1"));
         copyPaste.delete(selection, component.getEditorContext());
@@ -116,7 +113,7 @@ public class StateMachineCopyPaste_Test extends BaseTransformationTest {
         HeadlessEditorComponent component = new HeadlessEditorComponent(myProject.getRepository());
         component.editNode(getAnnotatedNode("table2"));
 
-        TableRangeSelection selection = new TableRangeSelection(component, TestBody.this.getTableEditor(component), new GridPosition(2, 1), new GridPosition(3, 2));
+        TableRangeSelection selection = new TableRangeSelection(component, FindTableEditor.getTableEditor(component), new GridPosition(2, 1), new GridPosition(3, 2));
         StateMachineCopyPasteImpl copyPaste = new StateMachineCopyPasteImpl();
         copyPaste.setTableNode(getAnnotatedNode("table2"));
         TableData<SNode> data = copyPaste.cut(selection, component.getEditorContext());
@@ -127,7 +124,7 @@ public class StateMachineCopyPaste_Test extends BaseTransformationTest {
         TestBody.this.assertTransitionIsNull(getAnnotatedNode("table2"), getAnnotatedNode("tb2Event1"), getAnnotatedNode("tb2State2"));
         TestBody.this.assertTransitionIsNull(getAnnotatedNode("table2"), getAnnotatedNode("tb2Event2"), getAnnotatedNode("tb2State2"));
 
-        TableRangeSelection selectionNew = new TableRangeSelection(component, TestBody.this.getTableEditor(component), new GridPosition(4, 1), new GridPosition(5, 2));
+        TableRangeSelection selectionNew = new TableRangeSelection(component, FindTableEditor.getTableEditor(component), new GridPosition(4, 1), new GridPosition(5, 2));
         copyPaste.paste(selectionNew, TableCopyStorage.getInstance().get(), component.getEditorContext());
 
         TestBody.this.assertTransition(getAnnotatedNode("table2"), getAnnotatedNode("tb2Event3"), getAnnotatedNode("tb2State1"), getAnnotatedNode("tb2State1"));
@@ -147,7 +144,7 @@ public class StateMachineCopyPaste_Test extends BaseTransformationTest {
         HeadlessEditorComponent component = new HeadlessEditorComponent(myProject.getRepository());
         component.editNode(getAnnotatedNode("table2"));
 
-        TableRangeSelection selection = new TableRangeSelection(component, TestBody.this.getTableEditor(component), new GridPosition(2, 1), new GridPosition(3, 2));
+        TableRangeSelection selection = new TableRangeSelection(component, FindTableEditor.getTableEditor(component), new GridPosition(2, 1), new GridPosition(3, 2));
         StateMachineCopyPasteImpl copyPaste = new StateMachineCopyPasteImpl();
         copyPaste.setTableNode(getAnnotatedNode("table2"));
         TableData<SNode> data = copyPaste.copy(selection, component.getEditorContext());
@@ -158,7 +155,7 @@ public class StateMachineCopyPaste_Test extends BaseTransformationTest {
         TestBody.this.assertTransition(getAnnotatedNode("table2"), getAnnotatedNode("tb2Event1"), getAnnotatedNode("tb2State2"), getAnnotatedNode("tb2State2"));
         TestBody.this.assertTransition(getAnnotatedNode("table2"), getAnnotatedNode("tb2Event2"), getAnnotatedNode("tb2State2"), getAnnotatedNode("tb2State1"));
 
-        TableRangeSelection selectionNew = new TableRangeSelection(component, TestBody.this.getTableEditor(component), new GridPosition(4, 1), new GridPosition(5, 2));
+        TableRangeSelection selectionNew = new TableRangeSelection(component, FindTableEditor.getTableEditor(component), new GridPosition(4, 1), new GridPosition(5, 2));
         copyPaste.paste(selectionNew, TableCopyStorage.getInstance().get(), component.getEditorContext());
 
         TestBody.this.assertTransition(getAnnotatedNode("table2"), getAnnotatedNode("tb2Event3"), getAnnotatedNode("tb2State1"), getAnnotatedNode("tb2State1"));
@@ -178,7 +175,7 @@ public class StateMachineCopyPaste_Test extends BaseTransformationTest {
         HeadlessEditorComponent component = new HeadlessEditorComponent(myProject.getRepository());
         component.editNode(getAnnotatedNode("table2"));
 
-        TableRangeSelection selection = new TableRangeSelection(component, TestBody.this.getTableEditor(component), new GridPosition(4, 1), new GridPosition(5, 2));
+        TableRangeSelection selection = new TableRangeSelection(component, FindTableEditor.getTableEditor(component), new GridPosition(4, 1), new GridPosition(5, 2));
         TableData<SNode> data = ClipboardTableUtils.fromClipboard(getAnnotatedNode("table2"), TableDataSeparator.SPACE, component.getEditorContext());
         CopyPasteSupport handler = CopyPasteSupport.forNode(getAnnotatedNode("table2"), component.getEditorContext());
         handler.paste(selection, data, component.getEditorContext());
@@ -220,9 +217,6 @@ public class StateMachineCopyPaste_Test extends BaseTransformationTest {
     }
     public void assertTransitionIsNull(SNode stateMachine, SNode event, SNode state) {
       Assert.assertNull(SLinkOperations.getTarget(StateMachine__BehaviorDescriptor.getTransition_id2P8zLSgfHs1.invoke(stateMachine, event, state), LINKS.to$zeIz));
-    }
-    public TableEditor getTableEditor(EditorComponent editorComponent) {
-      return CellFinderUtil.findChildByClass(editorComponent.getRootCell(), TableEditor.class, true);
     }
   }
 

@@ -10,11 +10,12 @@ import jetbrains.mps.editor.runtime.TextBuilderImpl;
 import java.awt.event.KeyListener;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.EmptyCellAction;
+import com.intellij.ui.components.JBTextField;
 
 public class PaginationSearchEditorCell extends EditorCell_IntelliJComponent {
   public PaginationSearchEditorCell(PagesUserObject userObj, EditorContext editorContext) {
     super(editorContext, userObj.getNodeWithPagination(), new PaginationSearchPanel(userObj, editorContext), (JComponent component) -> new TextBuilderImpl(""));
-    ((PaginationSearchPanel) getComponent()).syncWithEditorCell(this);
+    getSearchPanel().syncWithEditorCell(this);
     for (KeyListener keyListener : this.getComponent().getKeyListeners()) {
       getComponent().removeKeyListener(keyListener);
     }
@@ -24,7 +25,19 @@ public class PaginationSearchEditorCell extends EditorCell_IntelliJComponent {
 
   @Override
   public int getAscent() {
-    // Hardcode horizontal position of search bar since automatic computation does not work
-    return 22;
+    PaginationSearchField paginationSearchField = getSearchPanel().getPaginationSearchField();
+    JBTextField searchTF = paginationSearchField.getTextEditor();
+    int baseline = searchTF.getBaseline(searchTF.getWidth(), searchTF.getHeight());
+    if (baseline < 0) {
+      if (myHeight != 0) {
+        return myHeight;
+      }
+      return super.getAscent();
+    }
+    return paginationSearchField.getY() + baseline;
+  }
+
+  private PaginationSearchPanel getSearchPanel() {
+    return (PaginationSearchPanel) getComponent();
   }
 }

@@ -128,7 +128,7 @@ public class GridLayout extends AbstractGridLayout implements ILayouter {
   }
 
   public void layoutIntermediateCollections(ILayoutableContainer gridRoot) {
-    for (ILayoutableContainer intermediateCollection : ListSequence.fromList(gridRoot.getChildren()).ofType(ILayoutableContainer.class)) {
+    for (ILayoutableContainer intermediateCollection : ListSequence.fromList(gridRoot.getChildren()).ofType(ILayoutableContainer.class).where((it) -> isIntermediate(it))) {
       layoutIntermediateCollection(intermediateCollection);
     }
   }

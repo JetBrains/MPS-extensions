@@ -126,7 +126,8 @@ public class EditorCellBoxModel extends DefaultBoxModel implements BoxModel {
     clone.myMarginBox = myMarginBox.clone();
     clone.myBorderBox = ((LayoutBoxFrame) clone.myMarginBox.getInnerBox());
     clone.myBracketsBox = ((LayoutBoxFrame) clone.myBorderBox.getInnerBox());
-    clone.myPaddingBox = ((LayoutBoxFrame) clone.myBracketsBox.getInnerBox());
+    clone.myAdditionalPadding = ((LayoutBoxFrame) clone.myBracketsBox.getInnerBox());
+    clone.myPaddingBox = ((LayoutBoxFrame) clone.myAdditionalPadding.getInnerBox());
     clone.myContentBox = clone.myPaddingBox.getInnerBox();
     return clone;
   }

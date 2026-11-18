@@ -15,6 +15,7 @@ import de.slisson.mps.tables.runtime.simplegrid.SimpleGrid;
 import de.slisson.mps.tables.runtime.simplegrid.GridPosition;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import de.slisson.mps.tables.runtime.cells.ChildsTracker;
 import de.slisson.mps.tables.runtime.simplegrid.ElementFactory;
 import de.slisson.mps.tables.runtime.cells.RowEndCell;
 
@@ -161,6 +162,7 @@ public class GridFinalizer {
       } else {
         myUsedHeaderCells.add(cell);
       }
+      ChildsTracker.getInstance().registerHeader(cell);
       element = new EditorCellGridLeaf(cell);
       element.setOrAddStyle(header.getStyle());
 

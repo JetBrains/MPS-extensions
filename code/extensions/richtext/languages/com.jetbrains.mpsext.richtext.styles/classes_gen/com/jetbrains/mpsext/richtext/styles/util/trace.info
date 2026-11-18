@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:e4f6414d-ed67-4bb6-a0c0-93451c50a0c2(com.jetbrains.mpsext.richtext.styles.util)/4630602346744131699">
+    <file name="StyleSelectionUtils.java">
+      <node id="7853989419282665070" at="20,33,21,48" concept="7" />
+      <node id="7853989419281163939" at="33,80,34,48" concept="5" />
+      <node id="7853989419281127094" at="34,48,35,61" concept="5" />
+      <node id="7853989419281127102" at="36,57,37,20" concept="6" />
+      <node id="7853989419281180002" at="38,5,39,0" concept="8" />
+      <node id="7853989419281682920" at="40,69,41,51" concept="5" />
+      <node id="7853989419281735450" at="42,73,43,17" concept="1" />
+      <node id="7853989419281735978" at="44,7,45,0" concept="8" />
+      <node id="7853989419281749413" at="46,64,47,55" concept="2" />
+      <node id="7853989419281790227" at="49,5,50,18" concept="6" />
+      <node id="7853989419281191617" at="60,31,61,18" concept="6" />
+      <node id="7853989419281191850" at="62,5,63,0" concept="8" />
+      <node id="7853989419281200885" at="64,71,65,66" concept="6" />
+      <node id="7853989419281201881" at="66,5,67,0" concept="8" />
+      <node id="7853989419281204204" at="68,71,69,131" concept="6" />
+      <node id="7853989419281216606" at="70,5,71,16" concept="6" />
+      <node id="7853989419281274672" at="83,62,84,18" concept="6" />
+      <node id="7853989419281274981" at="85,5,86,0" concept="8" />
+      <node id="7853989419281299000" at="87,95,88,19" concept="6" />
+      <node id="7853989419281299352" at="89,5,90,0" concept="8" />
+      <node id="7853989419281332101" at="92,67,93,21" concept="6" />
+      <node id="7853989419281342877" at="95,5,96,35" concept="5" />
+      <node id="7853989419281344052" at="96,35,97,34" concept="5" />
+      <node id="7853989419281353779" at="97,34,98,0" concept="8" />
+      <node id="7853989419281356237" at="100,73,101,74" concept="5" />
+      <node id="7853989419281362289" at="102,40,103,35" concept="2" />
+      <node id="7853989419281372532" at="104,9,105,32" concept="2" />
+      <node id="7853989419281373950" at="107,5,108,0" concept="8" />
+      <node id="7853989419281395046" at="109,64,110,19" concept="6" />
+      <node id="7853989419281403230" at="111,5,112,0" concept="8" />
+      <node id="7853989419281403864" at="112,0,113,44" concept="5" />
+      <node id="7853989419281412197" at="113,44,114,40" concept="5" />
+      <node id="7853989419281420079" at="114,40,115,46" concept="5" />
+      <node id="7853989419281429448" at="115,46,116,44" concept="5" />
+      <node id="7853989419281354002" at="116,44,117,0" concept="8" />
+      <node id="7853989419281503172" at="119,32,120,21" concept="6" />
+      <node id="7853989419281530527" at="122,5,123,0" concept="8" />
+      <node id="7853989419281562223" at="124,112,125,143" concept="5" />
+      <node id="7853989419281640854" at="126,124,127,21" concept="6" />
+      <node id="7853989419281647241" at="129,5,130,16" concept="6" />
+      <node id="7853989419282178475" at="139,23,140,13" concept="6" />
+      <node id="7853989419282187071" at="141,5,142,0" concept="8" />
+      <node id="7853989419282187532" at="142,0,143,47" concept="5" />
+      <node id="7853989419282191926" at="143,47,144,0" concept="8" />
+      <node id="7853989419282210170" at="146,65,147,94" concept="2" />
+      <node id="7853989419282262706" at="150,53,151,65" concept="2" />
+      <node id="6447423759325591695" at="163,82,164,16" concept="6" />
+      <node id="6447423759325591697" at="165,5,166,115" concept="5" />
+      <node id="6447423759325591705" at="166,115,167,59" concept="5" />
+      <node id="6447423759325591713" at="168,53,169,18" concept="6" />
+      <node id="6447423759325591718" at="170,5,171,52" concept="6" />
+      <node id="6447423759325613282" at="181,82,182,16" concept="6" />
+      <node id="6447423759325613284" at="183,5,184,115" concept="5" />
+      <node id="6447423759325613292" at="184,115,185,59" concept="5" />
+      <node id="6447423759325613300" at="186,53,187,16" concept="6" />
+      <node id="6447423759325613305" at="188,5,189,68" concept="6" />
+      <node id="4630602346744131699" at="193,0,194,0" concept="9" trace="Span$ye" />
+      <node id="4630602346744131699" at="194,0,195,0" concept="9" trace="Word$5r" />
+      <node id="4630602346744131699" at="198,0,199,0" concept="9" trace="words$ba3H" />
+      <node id="4630602346744131699" at="199,0,200,0" concept="9" trace="words$C8QZ" />
+      <node id="7853989419282664472" at="20,0,23,0" concept="0" trace="StyleSelectionUtils#()V" />
+      <node id="7853989419281127100" at="35,61,38,5" concept="4" />
+      <node id="7853989419281685600" at="41,51,44,7" concept="4" />
+      <node id="7853989419281744401" at="45,0,48,7" concept="4" />
+      <node id="7853989419281190274" at="59,62,62,5" concept="4" />
+      <node id="7853989419281192020" at="63,0,66,5" concept="4" />
+      <node id="7853989419281202091" at="67,0,70,5" concept="4" />
+      <node id="7853989419281247026" at="82,114,85,5" concept="4" />
+      <node id="7853989419281275428" at="86,0,89,5" concept="4" />
+      <node id="7853989419281310838" at="91,99,94,7" concept="4" />
+      <node id="7853989419281359834" at="101,74,104,9" concept="4" />
+      <node id="7853989419281374533" at="108,0,111,5" concept="4" />
+      <node id="7853989419281496838" at="118,114,121,7" concept="4" />
+      <node id="7853989419281622852" at="125,143,128,7" concept="4" />
+      <node id="7853989419282167397" at="138,49,141,5" concept="4" />
+      <node id="7853989419282204691" at="145,99,148,7" concept="4" />
+      <node id="7853989419282261342" at="149,5,152,5" concept="3" />
+      <node id="6447423759325591684" at="162,67,165,5" concept="4" />
+      <node id="6447423759325591711" at="167,59,170,5" concept="4" />
+      <node id="6447423759325613271" at="180,58,183,5" concept="4" />
+      <node id="6447423759325613298" at="185,59,188,5" concept="4" />
+      <node id="7853989419281299880" at="90,0,95,5" concept="3" />
+      <node id="7853989419281445883" at="117,0,122,5" concept="4" />
+      <node id="7853989419282200730" at="144,0,149,5" concept="3" />
+      <node id="7853989419281531944" at="123,0,129,5" concept="4" />
+      <node id="7853989419281354229" at="99,69,106,7" concept="4" />
+      <node id="7853989419281354225" at="98,0,107,5" concept="3" />
+      <node id="7853989419281680701" at="39,0,49,5" concept="3" />
+      <node id="6447423759325591681" at="162,0,173,0" concept="10" trace="getLeadingWhitespace#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="6447423759325613268" at="180,0,191,0" concept="10" trace="getTrailingWhitespace#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7853989419281189838" at="59,0,73,0" concept="10" trace="getContainingSpan#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7853989419282157319" at="138,0,154,0" concept="10" trace="clearAllStyles#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7853989419281127088" at="33,0,52,0" concept="10" trace="getSelectedWholeSpans#(Lde/slisson/mps/richtext/runtime/selection/RichtextSelection;)Ljava/util/List;" />
+      <node id="7853989419281231913" at="82,0,132,0" concept="10" trace="isWholeSpanSelected#(Lde/slisson/mps/richtext/runtime/selection/RichtextSelection;Lorg/jetbrains/mps/openapi/model/SNode;Ljava/util/List;)Z" />
+      <scope id="7853989419282664475" at="20,33,21,48" />
+      <scope id="7853989419281127101" at="36,57,37,20" />
+      <scope id="7853989419281685602" at="42,73,43,17" />
+      <scope id="7853989419281744403" at="46,64,47,55" />
+      <scope id="7853989419281190276" at="60,31,61,18" />
+      <scope id="7853989419281192022" at="64,71,65,66" />
+      <scope id="7853989419281202093" at="68,71,69,131" />
+      <scope id="7853989419281247028" at="83,62,84,18" />
+      <scope id="7853989419281275430" at="87,95,88,19" />
+      <scope id="7853989419281310840" at="92,67,93,21" />
+      <scope id="7853989419281359836" at="102,40,103,35" />
+      <scope id="7853989419281374535" at="109,64,110,19" />
+      <scope id="7853989419281496840" at="119,32,120,21" />
+      <scope id="7853989419281622854" at="126,124,127,21" />
+      <scope id="7853989419282167399" at="139,23,140,13" />
+      <scope id="7853989419282204693" at="146,65,147,94" />
+      <scope id="7853989419282261348" at="150,53,151,65" />
+      <scope id="6447423759325591694" at="163,82,164,16" />
+      <scope id="6447423759325591712" at="168,53,169,18" />
+      <scope id="6447423759325613281" at="181,82,182,16" />
+      <scope id="6447423759325613299" at="186,53,187,16" />
+      <scope id="7853989419282664472" at="20,0,23,0" />
+      <scope id="7853989419281299886" at="91,99,94,7" />
+      <scope id="7853989419281445885" at="118,114,121,7" />
+      <scope id="7853989419282200736" at="145,99,148,7" />
+      <scope id="7853989419282261342" at="149,5,152,5">
+        <var name="span" id="7853989419282261344" />
+      </scope>
+      <scope id="7853989419281531946" at="124,112,128,7">
+        <var name="lastWord" id="7853989419281562226" />
+      </scope>
+      <scope id="7853989419281299880" at="90,0,95,5">
+        <var name="word" id="7853989419281299882" />
+      </scope>
+      <scope id="7853989419281354230" at="100,73,105,32">
+        <var name="word" id="7853989419281356240" />
+      </scope>
+      <scope id="7853989419282200730" at="144,0,149,5">
+        <var name="word" id="7853989419282200732" />
+      </scope>
+      <scope id="7853989419281354228" at="99,69,106,7" />
+      <scope id="7853989419281680707" at="40,69,48,7">
+        <var name="span" id="7853989419281682923" />
+      </scope>
+      <scope id="7853989419281354225" at="98,0,107,5">
+        <var name="selectedNode" id="7853989419281354226" />
+      </scope>
+      <scope id="6447423759325591683" at="162,67,171,52">
+        <var name="text" id="6447423759325591698" />
+        <var name="trimmed" id="6447423759325591706" />
+      </scope>
+      <scope id="6447423759325613270" at="180,58,189,68">
+        <var name="text" id="6447423759325613285" />
+        <var name="trimmed" id="6447423759325613293" />
+      </scope>
+      <scope id="7853989419281680701" at="39,0,49,5">
+        <var name="selectedNode" id="7853989419281680703" />
+      </scope>
+      <scope id="6447423759325591681" at="162,0,173,0">
+        <var name="word" id="6447423759325591728" />
+      </scope>
+      <scope id="6447423759325613268" at="180,0,191,0">
+        <var name="word" id="6447423759325613318" />
+      </scope>
+      <scope id="7853989419281189841" at="59,62,71,16" />
+      <scope id="7853989419281189838" at="59,0,73,0">
+        <var name="selectedNode" id="7853989419281190079" />
+      </scope>
+      <scope id="7853989419282157322" at="138,49,152,5">
+        <var name="spans" id="7853989419282187535" />
+      </scope>
+      <scope id="7853989419282157319" at="138,0,154,0">
+        <var name="text" id="7853989419282157760" />
+      </scope>
+      <scope id="7853989419281127093" at="33,80,50,18">
+        <var name="result" id="7853989419281163942" />
+        <var name="selectedNodes" id="7853989419281127095" />
+      </scope>
+      <scope id="7853989419281127088" at="33,0,52,0">
+        <var name="selection" id="7853989419281127090" />
+      </scope>
+      <scope id="7853989419281231916" at="82,114,130,16">
+        <var name="end" id="7853989419281412200" />
+        <var name="firstSelectedWord" id="7853989419281342880" />
+        <var name="lastSelectedWord" id="7853989419281344055" />
+        <var name="selectionEnd" id="7853989419281429451" />
+        <var name="selectionStart" id="7853989419281420082" />
+        <var name="start" id="7853989419281403867" />
+      </scope>
+      <scope id="7853989419281231913" at="82,0,132,0">
+        <var name="selectedNodes" id="7853989419281239668" />
+        <var name="selection" id="7853989419281239118" />
+        <var name="span" id="7853989419281239390" />
+      </scope>
+      <unit id="4630602346744131699" at="192,0,196,0" name="com.jetbrains.mpsext.richtext.styles.util.StyleSelectionUtils$CONCEPTS" />
+      <unit id="4630602346744131699" at="197,0,201,0" name="com.jetbrains.mpsext.richtext.styles.util.StyleSelectionUtils$LINKS" />
+      <unit id="4630602346744131699" at="19,0,202,0" name="com.jetbrains.mpsext.richtext.styles.util.StyleSelectionUtils" />
+    </file>
+  </root>
+  <root nodeRef="r:e4f6414d-ed67-4bb6-a0c0-93451c50a0c2(com.jetbrains.mpsext.richtext.styles.util)/6345989286613279261">
+    <file name="RichtextColorUtil.java">
+      <node id="7853989419282666882" at="16,31,17,49" concept="7" />
+      <node id="7853989419296097743" at="27,49,28,18" concept="6" />
+      <node id="7853989419296098920" at="29,5,30,70" concept="5" />
+      <node id="7853989419296153117" at="32,30,33,44" concept="6" />
+      <node id="7853989419296188525" at="35,30,36,65" concept="5" />
+      <node id="7853989419296203767" at="37,26,38,22" concept="6" />
+      <node id="7853989419296206055" at="39,9,40,59" concept="5" />
+      <node id="7853989419296221443" at="40,59,41,45" concept="6" />
+      <node id="7853989419296141114" at="43,48,44,18" concept="6" />
+      <node id="7853989419296231728" at="45,5,46,16" concept="6" />
+      <node id="7853989419296254960" at="57,59,58,65" concept="6" />
+      <node id="7853989419282666837" at="16,0,19,0" concept="0" trace="RichtextColorUtil#()V" />
+      <node id="7853989419296086496" at="26,58,29,5" concept="4" />
+      <node id="7853989419296116985" at="31,9,34,7" concept="4" />
+      <node id="7853989419296198726" at="36,65,39,9" concept="4" />
+      <node id="7853989419296250334" at="57,0,60,0" concept="10" trace="toModelValue#(Ljava/awt/Color;)Ljava/lang/String;" />
+      <node id="7853989419296172470" at="34,7,42,7" concept="4" />
+      <node id="7853989419296116157" at="30,70,45,5" concept="11" />
+      <node id="7853989419282667211" at="25,0,48,0" concept="10" trace="toAwtColor#(Ljava/lang/String;)Ljava/awt/Color;" />
+      <scope id="7853989419282666840" at="16,31,17,49" />
+      <scope id="7853989419296086498" at="27,49,28,18" />
+      <scope id="7853989419296116987" at="32,30,33,44" />
+      <scope id="7853989419296198728" at="37,26,38,22" />
+      <scope id="7853989419296129424" at="43,48,44,18" />
+      <scope id="7853989419296250337" at="57,59,58,65" />
+      <scope id="7853989419296129421" at="43,5,45,5">
+        <var name="ignored" id="7853989419296129422" />
+      </scope>
+      <scope id="7853989419282666837" at="16,0,19,0" />
+      <scope id="7853989419296250334" at="57,0,60,0">
+        <var name="color" id="7853989419296250876" />
+      </scope>
+      <scope id="7853989419296172472" at="35,30,41,45">
+        <var name="alpha" id="7853989419296206058" />
+        <var name="rgb" id="7853989419296188526" />
+      </scope>
+      <scope id="7853989419296116159" at="31,9,42,7" />
+      <scope id="7853989419282667213" at="26,58,46,16">
+        <var name="hex" id="7853989419296098923" />
+      </scope>
+      <scope id="7853989419282667211" at="25,0,48,0">
+        <var name="value" id="7853989419282900984" />
+      </scope>
+      <unit id="6345989286613279261" at="15,0,62,0" name="com.jetbrains.mpsext.richtext.styles.util.RichtextColorUtil" />
+    </file>
+  </root>
+</debug-info>
+

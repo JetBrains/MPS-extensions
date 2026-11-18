@@ -4,11 +4,13 @@ package de.itemis.mps.editor.diagram.runtime.jgraph;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import com.mxgraph.view.mxCellState;
+import org.jetbrains.annotations.NotNull;
 import java.awt.Graphics2D;
 import java.awt.BasicStroke;
 import de.itemis.mps.editor.diagram.runtime.model.Bounds;
 import de.itemis.mps.editor.diagram.runtime.model.Point;
 import java.awt.geom.Line2D;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.lang.core.behavior.BaseConcept__BehaviorDescriptor;
 
@@ -16,7 +18,7 @@ public class OpenNodeButton extends ContextButton {
 
   private SNode myTarget;
 
-  public OpenNodeButton(double size, mxCellState state, SNode target) {
+  public OpenNodeButton(double size, mxCellState state, @NotNull SNode target) {
     super(size, state);
     myTarget = target;
   }
@@ -52,7 +54,7 @@ public class OpenNodeButton extends ContextButton {
 
   @Override
   protected void execute() {
-    DiagramActionsUtil.openNode(getGraph(), myTarget);
+    DiagramActionsUtil.openNode(getGraph(), SNodeOperations.getPointer(myTarget));
   }
 
   @Override

@@ -10,14 +10,14 @@
       <unit at="8,0,13,0" name="de.q60.mps.virtualinterfaces.plugin.ExtensionDescriptor" />
     </file>
     <file name="IconContainer.java">
-      <unit at="7,0,10,0" name="de.q60.mps.virtualinterfaces.plugin.IconContainer" />
+      <unit at="8,0,12,0" name="de.q60.mps.virtualinterfaces.plugin.IconContainer" />
     </file>
   </root>
   <root nodeRef="r:bea87b10-91ab-4e60-8dd3-efe0c4c17113(de.q60.mps.virtualinterfaces.plugin)/6594016813168335467">
     <file name="LanguageAspectsEP_extension.java">
       <node id="6594016813168335467" at="18,40,19,57" concept="4" />
       <node id="6594016813168335467" at="26,55,27,179" concept="3" />
-      <node id="6594016813168335467" at="30,45,31,49" concept="3" />
+      <node id="6594016813168335467" at="30,45,31,40" concept="3" />
       <node id="6594016813168335467" at="18,0,21,0" concept="1" trace="LanguageAspectsEP_extension#()V" />
       <node id="6594016813168335467" at="29,0,33,0" concept="2" trace="getIconResource#()Ljetbrains/mps/smodel/runtime/IconResource;" />
       <node id="6594016813168335467" at="24,0,29,0" concept="2" trace="getMainLanguages#()Ljava/util/Collection;" />
@@ -25,7 +25,7 @@
       <node id="6594016813168335467" at="21,0,35,0" concept="0" trace="get#()Ljetbrains/mps/smodel/language/LanguageAspectDescriptor;" />
       <scope id="6594016813168335467" at="18,40,19,57" />
       <scope id="6594016813168335467" at="26,55,27,179" />
-      <scope id="6594016813168335467" at="30,45,31,49" />
+      <scope id="6594016813168335467" at="30,45,31,40" />
       <scope id="6594016813168335467" at="18,0,21,0" />
       <scope id="6594016813168335467" at="29,0,33,0" />
       <scope id="6594016813168335467" at="24,0,29,0" />

@@ -13,7 +13,7 @@
       <unit at="11,0,71,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="IconContainer.java">
-      <unit at="7,0,10,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.structure.IconContainer" />
+      <unit at="8,0,12,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.structure.IconContainer" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <unit at="10,0,38,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.structure.LanguageConceptSwitch" />
@@ -205,8 +205,8 @@
       <node id="8348035970510806568" at="17,0,18,0" concept="1" trace="props_TreeNode2" />
       <node id="8348035970510806568" at="60,38,61,76" concept="3" />
       <node id="8348035970510806568" at="61,76,62,35" concept="0" />
-      <node id="8348035970510806568" at="62,35,63,55" concept="0" />
-      <node id="8348035970510806568" at="63,55,64,41" concept="0" />
+      <node id="8348035970510806568" at="62,35,63,45" concept="0" />
+      <node id="8348035970510806568" at="63,45,64,41" concept="0" />
       <node id="8348035970510806568" at="65,9,66,31" concept="4" />
       <node id="8348035970510806568" at="59,43,65,9" concept="2" />
       <scope id="8348035970510806568" at="60,38,64,41">

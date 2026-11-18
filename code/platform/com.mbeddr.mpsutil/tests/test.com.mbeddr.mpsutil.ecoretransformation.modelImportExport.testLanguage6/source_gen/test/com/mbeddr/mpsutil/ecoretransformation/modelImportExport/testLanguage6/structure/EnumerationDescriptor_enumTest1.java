@@ -19,7 +19,7 @@ public class EnumerationDescriptor_enumTest1 extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_val2_0 = new EnumerationDescriptor.MemberDescriptor("val2", "val2", 0x2da4f57062b18611L, "r:c6945cc5-0fc8-4f34-ac60-e0b47fe7039c(test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage6.structure)/1286599818956595611");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x36dc674050ca47a8L, 0xb44f4cf0c584b822L, 0x2da4f57062b18612L, 0x2da4f57062b18610L, 0x2da4f57062b18611L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_val1_0, myMember_val2_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_val1_0, myMember_val2_0);
 
   @Nullable
   @Override

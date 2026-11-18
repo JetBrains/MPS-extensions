@@ -20,7 +20,7 @@ public class EnumerationDescriptor_SynchronizationType extends EnumerationDescri
   private final EnumerationDescriptor.MemberDescriptor myMember_Response_0 = new EnumerationDescriptor.MemberDescriptor("Response", "Response", 0x49b4676c219a1eL, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595382");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219a1fL, 0x49b4676c219a1cL, 0x49b4676c219a1dL, 0x49b4676c219a1eL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_Stimulus_0, myMember_Response_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_Stimulus_0, myMember_Response_0);
 
   @Nullable
   @Override

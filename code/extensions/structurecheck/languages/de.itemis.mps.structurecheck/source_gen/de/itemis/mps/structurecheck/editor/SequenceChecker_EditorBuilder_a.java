@@ -83,7 +83,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createConstant_0());
     editorCell.addEditorCell(createRefNode_0());
     editorCell.addEditorCell(createConstant_1());
-    editorCell.addEditorCell(createBooleanText_1());
+    editorCell.addEditorCell(createBooleanText_0());
     editorCell.addEditorCell(createConstant_2());
     editorCell.addEditorCell(createProperty_0());
     editorCell.addEditorCell(createCollection_1());
@@ -174,14 +174,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createBooleanText_0(EditorContext editorContext, SNode node) {
+  private EditorCell createBooleanText_0() {
     SProperty property = PROPS.ordered$GQaf;
-    BooleanTextCellProvider provider = new BooleanTextCellProvider(node, property, editorContext);
+    BooleanTextCellProvider provider = new BooleanTextCellProvider(getNode(), property, getEditorContext());
     provider.setTrueText("ordered");
     provider.setFalseText("unordered");
     provider.setNoTargetText("<no ordered>");
     EditorCell editorCell;
-    editorCell = provider.createEditorCell(editorContext);
+    editorCell = provider.createEditorCell(getEditorContext());
     editorCell.setCellId("property_ordered");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -189,9 +189,6 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return getUpdateSession().updateAttributeCell(provider.getRoleAttributeKind(), editorCell, attributeConcept);
     } else
     return editorCell;
-  }
-  private EditorCell createBooleanText_1() {
-    return createBooleanText_0(getEditorContext(), myNode);
   }
   private EditorCell createConstant_2() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "and");

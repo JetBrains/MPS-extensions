@@ -28,23 +28,23 @@ public class LazyInitWithCheck_Test {
 
     // execute first get(), should return 77, and expensive code should be executed exactly once
     int v1 = supplier.get();
-    Assert.assertEquals(Objects.hash(77), v1);
-    Assert.assertEquals(1, (int) expensiveCount.getValue());
+    Assert.assertEquals(Integer.valueOf(Objects.hash(77)), Integer.valueOf(v1));
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf((int) expensiveCount.getValue()));
 
     // when executing get() again, it still should return 77, but without executing expensive code again
     int v2 = supplier.get();
-    Assert.assertEquals(Objects.hash(77), v2);
-    Assert.assertEquals(1, (int) expensiveCount.getValue());
+    Assert.assertEquals(Integer.valueOf(Objects.hash(77)), Integer.valueOf(v2));
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf((int) expensiveCount.getValue()));
 
     // let's change the expensive value, will lead to a re-computation because the hashcode doesn't match anymore
     m.increment();
     int v3 = supplier.get();
-    Assert.assertEquals(Objects.hash(78), v3);
-    Assert.assertEquals(2, (int) expensiveCount.getValue());
+    Assert.assertEquals(Integer.valueOf(Objects.hash(78)), Integer.valueOf(v3));
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf((int) expensiveCount.getValue()));
 
     // when getting the value again it is provided without another expensive re-computation
     int v4 = supplier.get();
-    Assert.assertEquals(Objects.hash(78), v4);
-    Assert.assertEquals(2, (int) expensiveCount.getValue());
+    Assert.assertEquals(Integer.valueOf(Objects.hash(78)), Integer.valueOf(v4));
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf((int) expensiveCount.getValue()));
   }
 }

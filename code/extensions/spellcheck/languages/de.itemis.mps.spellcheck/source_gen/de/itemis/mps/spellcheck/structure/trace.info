@@ -15,7 +15,7 @@
       <unit at="8,0,13,0" name="de.itemis.mps.spellcheck.structure.IconContainer" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,44,0" name="de.itemis.mps.spellcheck.structure.LanguageConceptSwitch" />
+      <unit at="12,0,52,0" name="de.itemis.mps.spellcheck.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,156,0" name="de.itemis.mps.spellcheck.structure.StructureAspectDescriptor" />
@@ -34,8 +34,8 @@
       <scope id="2477161125053807319" at="64,45,69,33" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2477161125053807319" at="17,0,18,0" concept="5" trace="IDictionary" />
-      <node id="2477161125053807319" at="28,48,29,50" concept="0" />
+      <node id="2477161125053807319" at="19,0,20,0" concept="5" trace="IDictionary" />
+      <node id="2477161125053807319" at="30,48,31,50" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2477161125053807319" at="21,0,22,0" concept="1" trace="myConceptIDictionary" />
@@ -70,8 +70,8 @@
       <scope id="2477161125053807464" at="35,44,42,32" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2477161125053807464" at="13,0,14,0" concept="5" trace="Dictionary" />
-      <node id="2477161125053807464" at="24,50,25,49" concept="0" />
+      <node id="2477161125053807464" at="15,0,16,0" concept="5" trace="Dictionary" />
+      <node id="2477161125053807464" at="26,50,27,49" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2477161125053807464" at="17,0,18,0" concept="1" trace="myConceptDictionary" />
@@ -104,8 +104,8 @@
       <scope id="2477161125053807466" at="43,49,49,37" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2477161125053807466" at="14,0,15,0" concept="5" trace="DictionaryEntry" />
-      <node id="2477161125053807466" at="25,49,26,54" concept="0" />
+      <node id="2477161125053807466" at="16,0,17,0" concept="5" trace="DictionaryEntry" />
+      <node id="2477161125053807466" at="27,49,28,54" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2477161125053807466" at="18,0,19,0" concept="1" trace="myConceptDictionaryEntry" />
@@ -138,8 +138,8 @@
       <scope id="2477161125053824526" at="70,50,75,38" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="2477161125053824526" at="18,0,19,0" concept="5" trace="IDictionaryEntry" />
-      <node id="2477161125053824526" at="29,50,30,55" concept="0" />
+      <node id="2477161125053824526" at="20,0,21,0" concept="5" trace="IDictionaryEntry" />
+      <node id="2477161125053824526" at="31,50,32,55" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="2477161125053824526" at="22,0,23,0" concept="1" trace="myConceptIDictionaryEntry" />
@@ -174,8 +174,8 @@
       <scope id="6620047724380183198" at="76,55,81,43" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6620047724380183198" at="19,0,20,0" concept="5" trace="IPredefinedDictionary" />
-      <node id="6620047724380183198" at="30,55,31,60" concept="0" />
+      <node id="6620047724380183198" at="21,0,22,0" concept="5" trace="IPredefinedDictionary" />
+      <node id="6620047724380183198" at="32,55,33,60" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6620047724380183198" at="23,0,24,0" concept="1" trace="myConceptIPredefinedDictionary" />
@@ -210,8 +210,8 @@
       <scope id="6620047724380183325" at="82,54,89,42" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6620047724380183325" at="20,0,21,0" concept="5" trace="PredefinedDictionary" />
-      <node id="6620047724380183325" at="31,60,32,59" concept="0" />
+      <node id="6620047724380183325" at="22,0,23,0" concept="5" trace="PredefinedDictionary" />
+      <node id="6620047724380183325" at="33,60,34,59" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6620047724380183325" at="24,0,25,0" concept="1" trace="myConceptPredefinedDictionary" />
@@ -244,8 +244,8 @@
       <scope id="801165755129212265" at="50,43,56,31" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="801165755129212265" at="15,0,16,0" concept="5" trace="EmpyEntry" />
-      <node id="801165755129212265" at="26,54,27,47" concept="0" />
+      <node id="801165755129212265" at="17,0,18,0" concept="5" trace="EmpyEntry" />
+      <node id="801165755129212265" at="28,54,29,47" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="801165755129212265" at="19,0,20,0" concept="1" trace="myConceptEmpyEntry" />
@@ -277,8 +277,8 @@
       <scope id="801165755129252164" at="57,44,63,32" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="801165755129252164" at="16,0,17,0" concept="5" trace="GroupEntry" />
-      <node id="801165755129252164" at="27,47,28,48" concept="0" />
+      <node id="801165755129252164" at="18,0,19,0" concept="5" trace="GroupEntry" />
+      <node id="801165755129252164" at="29,47,30,48" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="801165755129252164" at="20,0,21,0" concept="1" trace="myConceptGroupEntry" />
@@ -314,8 +314,8 @@
       <scope id="801165755129825679" at="27,46,34,34" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="801165755129825679" at="12,0,13,0" concept="5" trace="CommentEntry" />
-      <node id="801165755129825679" at="23,116,24,50" concept="0" />
+      <node id="801165755129825679" at="14,0,15,0" concept="5" trace="CommentEntry" />
+      <node id="801165755129825679" at="25,116,26,50" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="801165755129825679" at="16,0,17,0" concept="1" trace="myConceptCommentEntry" />

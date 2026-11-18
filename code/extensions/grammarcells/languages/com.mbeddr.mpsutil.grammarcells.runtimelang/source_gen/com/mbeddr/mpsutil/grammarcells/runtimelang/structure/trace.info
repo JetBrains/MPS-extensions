@@ -13,7 +13,7 @@
       <unit at="11,0,37,0" name="com.mbeddr.mpsutil.grammarcells.runtimelang.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,30,0" name="com.mbeddr.mpsutil.grammarcells.runtimelang.structure.LanguageConceptSwitch" />
+      <unit at="12,0,38,0" name="com.mbeddr.mpsutil.grammarcells.runtimelang.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,73,0" name="com.mbeddr.mpsutil.grammarcells.runtimelang.structure.StructureAspectDescriptor" />
@@ -33,8 +33,8 @@
       <scope id="5083944728301309881" at="20,57,26,45" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5083944728301309881" at="12,0,13,0" concept="6" trace="ArbitraryTextAnnotation" />
-      <node id="5083944728301309881" at="16,116,17,62" concept="0" />
+      <node id="5083944728301309881" at="14,0,15,0" concept="6" trace="ArbitraryTextAnnotation" />
+      <node id="5083944728301309881" at="18,116,19,62" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5083944728301309881" at="16,0,17,0" concept="1" trace="myConceptArbitraryTextAnnotation" />
@@ -70,8 +70,8 @@
       <scope id="6709378149504662456" at="27,53,32,41" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6709378149504662456" at="13,0,14,0" concept="6" trace="ICollectionLikeCell" />
-      <node id="6709378149504662456" at="17,62,18,58" concept="0" />
+      <node id="6709378149504662456" at="15,0,16,0" concept="6" trace="ICollectionLikeCell" />
+      <node id="6709378149504662456" at="19,62,20,58" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="6709378149504662456" at="17,0,18,0" concept="1" trace="myConceptICollectionLikeCell" />

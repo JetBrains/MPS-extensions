@@ -27,6 +27,7 @@
       <concept id="481983775135178819" name="jetbrains.mps.lang.plugin.standalone.structure.ProjectPluginDisposeBlock" flags="in" index="2uRRBN" />
       <concept id="481983775135178825" name="jetbrains.mps.lang.plugin.standalone.structure.ProjectPluginInitBlock" flags="in" index="2uRRBT" />
       <concept id="7520713872864775836" name="jetbrains.mps.lang.plugin.standalone.structure.StandalonePluginDescriptor" flags="ng" index="2DaZZR" />
+      <concept id="3418954410726344423" name="jetbrains.mps.lang.plugin.standalone.structure.PlatformAccessExpression" flags="ng" index="XUXob" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
@@ -105,6 +106,7 @@
             </node>
             <node concept="liA8E" id="VPgi8egDwD" role="2OqNvi">
               <ref role="37wK5l" to="imq3:VPgi8egh2$" resolve="install" />
+              <node concept="XUXob" id="76V6N7UrM0T" role="37wK5m" />
             </node>
           </node>
         </node>
@@ -120,6 +122,7 @@
             </node>
             <node concept="liA8E" id="VPgi8egDxI" role="2OqNvi">
               <ref role="37wK5l" to="imq3:VPgi8egh6x" resolve="dispose" />
+              <node concept="XUXob" id="76V6N7UrM4Y" role="37wK5m" />
             </node>
           </node>
         </node>

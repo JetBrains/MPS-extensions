@@ -22,7 +22,7 @@ public class EnumerationDescriptor_NodePlacementStrategy extends EnumerationDesc
   private final EnumerationDescriptor.MemberDescriptor myMember_NETWORK_SIMPLEX_0 = new EnumerationDescriptor.MemberDescriptor("NETWORK_SIMPLEX", "NETWORK_SIMPLEX", 0x32d28aa5f4570348L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379214664");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f4570334L, 0x32d28aa5f4570335L, 0x32d28aa5f4570338L, 0x32d28aa5f457033dL, 0x32d28aa5f4570342L, 0x32d28aa5f4570348L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_SIMPLE_0, myMember_INTERACTIVE_0, myMember_LINEAR_SEGMENTS_0, myMember_BRANDES_KOEPF_0, myMember_NETWORK_SIMPLEX_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_SIMPLE_0, myMember_INTERACTIVE_0, myMember_LINEAR_SEGMENTS_0, myMember_BRANDES_KOEPF_0, myMember_NETWORK_SIMPLEX_0);
 
   @Nullable
   @Override

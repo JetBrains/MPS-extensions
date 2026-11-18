@@ -26,7 +26,7 @@ public class EnumerationDescriptor_PolyominoTraversalStrategy extends Enumeratio
   private final EnumerationDescriptor.MemberDescriptor myMember_COMBINE_JITTER_MANHATTAN_0 = new EnumerationDescriptor.MemberDescriptor("COMBINE_JITTER_MANHATTAN", "COMBINE_JITTER_MANHATTAN", 0x6a0cd762a3d6c20L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/477607467899776032");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x6a0cd762a3d6b7eL, 0x6a0cd762a3d6b7fL, 0x6a0cd762a3d6beeL, 0x6a0cd762a3d6bf3L, 0x6a0cd762a3d6bf8L, 0x6a0cd762a3d6bfeL, 0x6a0cd762a3d6c05L, 0x6a0cd762a3d6c0dL, 0x6a0cd762a3d6c16L, 0x6a0cd762a3d6c20L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_SPIRAL_0, myMember_LINE_BY_LINE_0, myMember_MANHATTAN_0, myMember_JITTER_0, myMember_QUADRANTS_LINE_BY_LINE_0, myMember_QUADRANTS_MANHATTAN_0, myMember_QUADRANTS_JITTER_0, myMember_COMBINE_LINE_BY_LINE_MANHATTAN_0, myMember_COMBINE_JITTER_MANHATTAN_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_SPIRAL_0, myMember_LINE_BY_LINE_0, myMember_MANHATTAN_0, myMember_JITTER_0, myMember_QUADRANTS_LINE_BY_LINE_0, myMember_QUADRANTS_MANHATTAN_0, myMember_QUADRANTS_JITTER_0, myMember_COMBINE_LINE_BY_LINE_MANHATTAN_0, myMember_COMBINE_JITTER_MANHATTAN_0);
 
   @Nullable
   @Override

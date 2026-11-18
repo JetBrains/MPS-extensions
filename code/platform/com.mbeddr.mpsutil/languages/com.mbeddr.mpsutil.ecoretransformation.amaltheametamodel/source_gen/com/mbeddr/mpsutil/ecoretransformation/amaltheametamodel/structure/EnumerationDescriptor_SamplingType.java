@@ -23,7 +23,7 @@ public class EnumerationDescriptor_SamplingType extends EnumerationDescriptorBas
   private final EnumerationDescriptor.MemberDescriptor myMember_Uniform_0 = new EnumerationDescriptor.MemberDescriptor("Uniform", "Uniform", 0x49b4676c2199b1L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595365");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c2199b2L, 0x49b4676c2199acL, 0x49b4676c2199adL, 0x49b4676c2199aeL, 0x49b4676c2199afL, 0x49b4676c2199b0L, 0x49b4676c2199b1L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_default_0, myMember_BestCase_0, myMember_WorstCase_0, myMember_AverageCase_0, myMember_CornerCase_0, myMember_Uniform_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_default_0, myMember_BestCase_0, myMember_WorstCase_0, myMember_AverageCase_0, myMember_CornerCase_0, myMember_Uniform_0);
 
   @Nullable
   @Override

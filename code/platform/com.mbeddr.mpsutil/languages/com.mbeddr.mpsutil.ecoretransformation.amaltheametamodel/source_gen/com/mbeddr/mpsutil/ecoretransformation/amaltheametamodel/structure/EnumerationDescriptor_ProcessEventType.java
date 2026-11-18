@@ -31,7 +31,7 @@ public class EnumerationDescriptor_ProcessEventType extends EnumerationDescripto
   private final EnumerationDescriptor.MemberDescriptor myMember_terminate_0 = new EnumerationDescriptor.MemberDescriptor("terminate", "terminate", 0x49b4676c219ab6L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595487");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219ab7L, 0x49b4676c219aa9L, 0x49b4676c219aaaL, 0x49b4676c219aabL, 0x49b4676c219aacL, 0x49b4676c219aadL, 0x49b4676c219aaeL, 0x49b4676c219aafL, 0x49b4676c219ab0L, 0x49b4676c219ab1L, 0x49b4676c219ab2L, 0x49b4676c219ab3L, 0x49b4676c219ab4L, 0x49b4676c219ab5L, 0x49b4676c219ab6L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__all__0, myMember_activate_0, myMember_deadline_0, myMember_start_0, myMember_resume_0, myMember_preempt_0, myMember_poll_0, myMember_run_0, myMember_wait_0, myMember_poll_parking_0, myMember_park_0, myMember_release_parking_0, myMember_release_0, myMember_terminate_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__all__0, myMember_activate_0, myMember_deadline_0, myMember_start_0, myMember_resume_0, myMember_preempt_0, myMember_poll_0, myMember_run_0, myMember_wait_0, myMember_poll_parking_0, myMember_park_0, myMember_release_parking_0, myMember_release_0, myMember_terminate_0);
 
   @Nullable
   @Override

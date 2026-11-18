@@ -28,7 +28,7 @@ public class LayoutRuntimeRegressions_Test {
     LayoutBox[] originalBoxes = new LayoutBox[]{content, inner, original};
     LayoutBoxFrame[] originalFrames = new LayoutBoxFrame[]{inner, original};
     String[] layers = new String[]{"content", "inner", "outer"};
-    Assert.assertEquals("layers does not have one name per box", originalBoxes.length, layers.length);
+    Assert.assertEquals("layers does not have one name per box", Integer.valueOf(originalBoxes.length), Integer.valueOf(layers.length));
     CloneContractFixture.configure(content, originalFrames);
     int[][] originalGeometry = CloneContractFixture.geometry(originalBoxes);
     int[][] originalSizes = CloneContractFixture.frameSizes(originalFrames);
@@ -39,7 +39,7 @@ public class LayoutRuntimeRegressions_Test {
     Assert.assertFalse("clone shares the original object", clone == original);
     Assert.assertTrue("clone differs from the original value", original.equals(clone));
     Assert.assertTrue("clone equality is asymmetric", clone.equals(original));
-    Assert.assertEquals("equal clone has a different hash code", original.hashCode(), clone.hashCode());
+    Assert.assertEquals("equal clone has a different hash code", Integer.valueOf(original.hashCode()), Integer.valueOf(clone.hashCode()));
     int[][] unchangedGeometry = CloneContractFixture.geometry(originalBoxes);
     int[][] unchangedSizes = CloneContractFixture.frameSizes(originalFrames);
     int[][] clonedGeometry = CloneContractFixture.geometry(clonedBoxes);
@@ -47,15 +47,15 @@ public class LayoutRuntimeRegressions_Test {
     for (int i = 0; i < originalBoxes.length; i++) {
       Assert.assertFalse("clone shares a geometry layer: " + layers[i], originalBoxes[i] == clonedBoxes[i]);
       for (int j = 0; j < originalGeometry[i].length; j++) {
-        Assert.assertEquals("cloning changed original geometry: " + CloneContractFixture.geometryValue(layers[i], j), originalGeometry[i][j], unchangedGeometry[i][j]);
-        Assert.assertEquals("clone changed a geometry value: " + CloneContractFixture.geometryValue(layers[i], j), originalGeometry[i][j], clonedGeometry[i][j]);
+        Assert.assertEquals("cloning changed original geometry: " + CloneContractFixture.geometryValue(layers[i], j), Integer.valueOf(originalGeometry[i][j]), Integer.valueOf(unchangedGeometry[i][j]));
+        Assert.assertEquals("clone changed a geometry value: " + CloneContractFixture.geometryValue(layers[i], j), Integer.valueOf(originalGeometry[i][j]), Integer.valueOf(clonedGeometry[i][j]));
       }
     }
     for (int i = 0; i < originalFrames.length; i++) {
       Assert.assertSame("clone frame points to the wrong inner layer: " + layers[i + 1], clonedBoxes[i], clonedFrames[i].getInnerBox());
       for (int j = 0; j < originalSizes[i].length; j++) {
-        Assert.assertEquals("cloning changed original frame sizes: " + CloneContractFixture.frameSide(layers[i + 1], j), originalSizes[i][j], unchangedSizes[i][j]);
-        Assert.assertEquals("clone changed a frame side: " + CloneContractFixture.frameSide(layers[i + 1], j), originalSizes[i][j], clonedSizes[i][j]);
+        Assert.assertEquals("cloning changed original frame sizes: " + CloneContractFixture.frameSide(layers[i + 1], j), Integer.valueOf(originalSizes[i][j]), Integer.valueOf(unchangedSizes[i][j]));
+        Assert.assertEquals("clone changed a frame side: " + CloneContractFixture.frameSide(layers[i + 1], j), Integer.valueOf(originalSizes[i][j]), Integer.valueOf(clonedSizes[i][j]));
       }
     }
     CloneContractFixture.mutate(clonedBoxes, clonedFrames);
@@ -63,12 +63,12 @@ public class LayoutRuntimeRegressions_Test {
     int[][] originalSizesAfterCloneMutation = CloneContractFixture.frameSizes(originalFrames);
     for (int i = 0; i < originalBoxes.length; i++) {
       for (int j = 0; j < originalGeometry[i].length; j++) {
-        Assert.assertEquals("clone mutation changed original geometry: " + CloneContractFixture.geometryValue(layers[i], j), originalGeometry[i][j], originalAfterCloneMutation[i][j]);
+        Assert.assertEquals("clone mutation changed original geometry: " + CloneContractFixture.geometryValue(layers[i], j), Integer.valueOf(originalGeometry[i][j]), Integer.valueOf(originalAfterCloneMutation[i][j]));
       }
     }
     for (int i = 0; i < originalFrames.length; i++) {
       for (int j = 0; j < originalSizes[i].length; j++) {
-        Assert.assertEquals("clone mutation changed original frame sizes: " + CloneContractFixture.frameSide(layers[i + 1], j), originalSizes[i][j], originalSizesAfterCloneMutation[i][j]);
+        Assert.assertEquals("clone mutation changed original frame sizes: " + CloneContractFixture.frameSide(layers[i + 1], j), Integer.valueOf(originalSizes[i][j]), Integer.valueOf(originalSizesAfterCloneMutation[i][j]));
       }
     }
     int[][] cloneBeforeOriginalMutation = CloneContractFixture.geometry(clonedBoxes);
@@ -78,12 +78,12 @@ public class LayoutRuntimeRegressions_Test {
     int[][] cloneSizesAfterOriginalMutation = CloneContractFixture.frameSizes(clonedFrames);
     for (int i = 0; i < clonedBoxes.length; i++) {
       for (int j = 0; j < cloneBeforeOriginalMutation[i].length; j++) {
-        Assert.assertEquals("original mutation changed clone geometry: " + CloneContractFixture.geometryValue(layers[i], j), cloneBeforeOriginalMutation[i][j], cloneAfterOriginalMutation[i][j]);
+        Assert.assertEquals("original mutation changed clone geometry: " + CloneContractFixture.geometryValue(layers[i], j), Integer.valueOf(cloneBeforeOriginalMutation[i][j]), Integer.valueOf(cloneAfterOriginalMutation[i][j]));
       }
     }
     for (int i = 0; i < clonedFrames.length; i++) {
       for (int j = 0; j < cloneSizesBeforeOriginalMutation[i].length; j++) {
-        Assert.assertEquals("original mutation changed clone frame sizes: " + CloneContractFixture.frameSide(layers[i + 1], j), cloneSizesBeforeOriginalMutation[i][j], cloneSizesAfterOriginalMutation[i][j]);
+        Assert.assertEquals("original mutation changed clone frame sizes: " + CloneContractFixture.frameSide(layers[i + 1], j), Integer.valueOf(cloneSizesBeforeOriginalMutation[i][j]), Integer.valueOf(cloneSizesAfterOriginalMutation[i][j]));
       }
     }
   }
@@ -91,7 +91,7 @@ public class LayoutRuntimeRegressions_Test {
   public void test_nestedWatchdogRunsCallback() throws Exception {
     WatchdogCounter counter = new WatchdogCounter();
     LayoutWatchdog.enter(100, counter);
-    Assert.assertEquals("nested watchdog skipped callback", 2, counter.calls);
+    Assert.assertEquals("nested watchdog skipped callback", Integer.valueOf(2), Integer.valueOf(counter.calls));
   }
   @Test
   public void test_gridRoundingPreservesFixedColumn() throws Exception {
@@ -103,14 +103,14 @@ public class LayoutRuntimeRegressions_Test {
       weights[i] = 1;
     }
     grid.scaleWidth(290, weights);
-    Assert.assertEquals("exact flexible shrink changed fixed column 0", 200, grid.getColumnWidth(0));
-    Assert.assertEquals("exact flexible shrink did not reach the target width 290", 290, grid.getWidth());
+    Assert.assertEquals("exact flexible shrink changed fixed column 0", Integer.valueOf(200), Integer.valueOf(grid.getColumnWidth(0)));
+    Assert.assertEquals("exact flexible shrink did not reach the target width 290", Integer.valueOf(290), Integer.valueOf(grid.getWidth()));
     for (int i = 1; i < 11; i++) {
       grid.setColumnWidth(i, 10);
     }
     grid.scaleWidth(295, weights);
-    Assert.assertEquals("rounding changed fixed column 0", 200, grid.getColumnWidth(0));
-    Assert.assertEquals("grid width differs from the target 295 after rounding", 295, grid.getWidth());
+    Assert.assertEquals("rounding changed fixed column 0", Integer.valueOf(200), Integer.valueOf(grid.getColumnWidth(0)));
+    Assert.assertEquals("grid width differs from the target 295 after rounding", Integer.valueOf(295), Integer.valueOf(grid.getWidth()));
   }
   @Test
   public void test_inheritedRelayoutOverrideIsDetected() throws Exception {
@@ -127,8 +127,8 @@ public class LayoutRuntimeRegressions_Test {
     normal.width = -1;
     normal.height = -1;
     layout.layout(control, Size.limitedWidth(100));
-    Assert.assertEquals("normal word lost its preferred width", 70, normal.width);
-    Assert.assertEquals("normal word lost its preferred height", 10, normal.height);
+    Assert.assertEquals("normal word lost its preferred width", Integer.valueOf(70), Integer.valueOf(normal.width));
+    Assert.assertEquals("normal word lost its preferred height", Integer.valueOf(10), Integer.valueOf(normal.height));
     LayoutProbeLeaf overX = new LayoutProbeLeaf(150, 10);
     overX.overflowX = true;
     LayoutProbeContainer horizontal = new LayoutProbeContainer(layout);
@@ -136,8 +136,8 @@ public class LayoutRuntimeRegressions_Test {
     overX.width = -1;
     overX.height = -1;
     layout.layout(horizontal, Size.limitedWidth(100));
-    Assert.assertEquals("overflow-x word collapsed", 150, overX.width);
-    Assert.assertEquals("overflow-x word lost its line height", 10, overX.height);
+    Assert.assertEquals("overflow-x word collapsed", Integer.valueOf(150), Integer.valueOf(overX.width));
+    Assert.assertEquals("overflow-x word lost its line height", Integer.valueOf(10), Integer.valueOf(overX.height));
     Assert.assertEquals("overflow-x word measured without its height limit", Size.limitedHeight(10), overX.lastLimit);
   }
   @Test
@@ -149,7 +149,7 @@ public class LayoutRuntimeRegressions_Test {
     normal.width = -1;
     normal.height = -1;
     layout.layout(control, Size.limitedWidth(100));
-    Assert.assertEquals("normal word lost its preferred height", 10, normal.height);
+    Assert.assertEquals("normal word lost its preferred height", Integer.valueOf(10), Integer.valueOf(normal.height));
     LayoutProbeLeaf overY = new LayoutProbeLeaf(70, 30);
     overY.overflowY = true;
     LayoutProbeContainer vertical = new LayoutProbeContainer(layout);
@@ -157,8 +157,8 @@ public class LayoutRuntimeRegressions_Test {
     overY.width = -1;
     overY.height = -1;
     layout.layout(vertical, Size.limitedWidth(100));
-    Assert.assertEquals("overflow-y word collapsed", 30, overY.height);
-    Assert.assertEquals("overflow-y word lost its width", 70, overY.width);
+    Assert.assertEquals("overflow-y word collapsed", Integer.valueOf(30), Integer.valueOf(overY.height));
+    Assert.assertEquals("overflow-y word lost its width", Integer.valueOf(70), Integer.valueOf(overY.width));
     Assert.assertEquals("overflow-y word measured without its width limit", Size.limitedWidth(70), overY.lastLimit);
   }
   @Test
@@ -183,21 +183,21 @@ public class LayoutRuntimeRegressions_Test {
       grid.setRowHeight(i, 10, 5);
     }
     grid.scaleHeight(50, new float[]{1.0f, 1.0f, 0.0f});
-    Assert.assertEquals("rounding changed fixed row", 15, grid.getRowHeight(2));
-    Assert.assertEquals("grid height differs from the target", 50, grid.getHeight());
+    Assert.assertEquals("rounding changed fixed row", Integer.valueOf(15), Integer.valueOf(grid.getRowHeight(2)));
+    Assert.assertEquals("grid height differs from the target", Integer.valueOf(50), Integer.valueOf(grid.getHeight()));
     Grid emptyRow = new Grid(1, 2);
     emptyRow.setRowHeight(1, 10, 5);
     emptyRow.scaleHeight(35, new float[]{1.0f, 0.0f});
-    Assert.assertEquals("weighted empty row did not grow", 20, emptyRow.getRowHeight(0));
-    Assert.assertEquals("growth went to a fixed row", 15, emptyRow.getRowHeight(1));
-    Assert.assertEquals("row positions not updated", 20, emptyRow.getRowPosY(1));
+    Assert.assertEquals("weighted empty row did not grow", Integer.valueOf(20), Integer.valueOf(emptyRow.getRowHeight(0)));
+    Assert.assertEquals("growth went to a fixed row", Integer.valueOf(15), Integer.valueOf(emptyRow.getRowHeight(1)));
+    Assert.assertEquals("row positions not updated", Integer.valueOf(20), Integer.valueOf(emptyRow.getRowPosY(1)));
   }
   @Test
   public void test_closeGapsSplitsGapBetweenNeighbours() throws Exception {
     List<Rectangle> bounds = ListSequence.fromListAndArray(new ArrayList<Rectangle>(), new Rectangle(0, 0, 10, 10), new Rectangle(15, 0, 10, 10));
     CellLayoutUtil.closeGaps(bounds);
-    Assert.assertEquals("selection bounds overlap or leave a gap", ListSequence.fromList(bounds).getElement(0).x + ListSequence.fromList(bounds).getElement(0).width, ListSequence.fromList(bounds).getElement(1).x);
-    Assert.assertEquals("outer left edge moved", 0, ListSequence.fromList(bounds).getElement(0).x);
-    Assert.assertEquals("outer right edge moved", 25, ListSequence.fromList(bounds).getElement(1).x + ListSequence.fromList(bounds).getElement(1).width);
+    Assert.assertEquals("selection bounds overlap or leave a gap", Integer.valueOf(ListSequence.fromList(bounds).getElement(0).x + ListSequence.fromList(bounds).getElement(0).width), Integer.valueOf(ListSequence.fromList(bounds).getElement(1).x));
+    Assert.assertEquals("outer left edge moved", Integer.valueOf(0), Integer.valueOf(ListSequence.fromList(bounds).getElement(0).x));
+    Assert.assertEquals("outer right edge moved", Integer.valueOf(25), Integer.valueOf(ListSequence.fromList(bounds).getElement(1).x + ListSequence.fromList(bounds).getElement(1).width));
   }
 }

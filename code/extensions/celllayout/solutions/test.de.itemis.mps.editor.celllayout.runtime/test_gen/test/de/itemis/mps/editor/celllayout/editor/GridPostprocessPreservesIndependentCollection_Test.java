@@ -61,13 +61,13 @@ public class GridPostprocessPreservesIndependentCollection_Test extends BaseTran
       int preparedPadding = ((EditorCellBoxModel) independent.getBoxModel()).getPaddingBox().getLeftSize();
       Assert.assertFalse("independent collection did not grow to the allocated width", preparedWidth < allocatedWidth);
       Assert.assertFalse("independent collection did not grow to the allocated height", preparedHeight < allocatedHeight);
-      Assert.assertEquals("left padding of the independent collection was not set to 7", 7, preparedPadding);
+      Assert.assertEquals("left padding of the independent collection was not set to 7", Integer.valueOf(7), Integer.valueOf(preparedPadding));
       flattened.setSize(flattened.getWidth() + 60, flattened.getHeight() + 20);
       GridLayout layout = new GridLayout();
       layout.layoutIntermediateCollections(gridRoot);
-      Assert.assertEquals("grid postprocess changed the width of the independent collection", preparedWidth, independent.getWidth());
-      Assert.assertEquals("grid postprocess changed the height of the independent collection", preparedHeight, independent.getHeight());
-      Assert.assertEquals("grid postprocess changed the left padding of the independent collection", preparedPadding, ((EditorCellBoxModel) independent.getBoxModel()).getPaddingBox().getLeftSize());
+      Assert.assertEquals("grid postprocess changed the width of the independent collection", Integer.valueOf(preparedWidth), Integer.valueOf(independent.getWidth()));
+      Assert.assertEquals("grid postprocess changed the height of the independent collection", Integer.valueOf(preparedHeight), Integer.valueOf(independent.getHeight()));
+      Assert.assertEquals("grid postprocess changed the left padding of the independent collection", Integer.valueOf(preparedPadding), Integer.valueOf(((EditorCellBoxModel) independent.getBoxModel()).getPaddingBox().getLeftSize()));
       int minX = Integer.MAX_VALUE;
       int maxX = Integer.MIN_VALUE;
       int minY = Integer.MAX_VALUE;
@@ -78,10 +78,10 @@ public class GridPostprocessPreservesIndependentCollection_Test extends BaseTran
         minY = Math.min(minY, child.getY());
         maxY = Math.max(maxY, child.getY() + child.getHeight());
       }
-      Assert.assertEquals("inner x of the flattened collection is not the left edge of its children", minX, flattened.getInnerX());
-      Assert.assertEquals("inner width of the flattened collection does not span its children", maxX - minX, flattened.getInnerWidth());
-      Assert.assertEquals("inner y of the flattened collection is not the top edge of its children", minY, flattened.getInnerY());
-      Assert.assertEquals("inner height of the flattened collection does not span its children", maxY - minY, flattened.getInnerHeight());
+      Assert.assertEquals("inner x of the flattened collection is not the left edge of its children", Integer.valueOf(minX), Integer.valueOf(flattened.getInnerX()));
+      Assert.assertEquals("inner width of the flattened collection does not span its children", Integer.valueOf(maxX - minX), Integer.valueOf(flattened.getInnerWidth()));
+      Assert.assertEquals("inner y of the flattened collection is not the top edge of its children", Integer.valueOf(minY), Integer.valueOf(flattened.getInnerY()));
+      Assert.assertEquals("inner height of the flattened collection does not span its children", Integer.valueOf(maxY - minY), Integer.valueOf(flattened.getInnerHeight()));
     }
   }
 }

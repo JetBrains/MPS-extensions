@@ -4,26 +4,21 @@ package de.itemis.mps.selection.runtime.intentions;
 
 import jetbrains.mps.logging.Logger;
 import java.util.Map;
-import org.jetbrains.mps.openapi.module.SModule;
+import org.jetbrains.mps.openapi.module.SModuleReference;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import jetbrains.mps.classloading.DeployListener;
+import jetbrains.mps.smodel.language.LanguageRegistry;
+import jetbrains.mps.smodel.runtime.ModuleDeploymentListener;
 import org.jetbrains.annotations.NotNull;
-import java.util.Set;
-import jetbrains.mps.module.ReloadableModule;
-import org.jetbrains.mps.openapi.util.ProgressMonitor;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
-import java.util.Objects;
-import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
-import jetbrains.mps.ide.MPSCoreComponents;
-import jetbrains.mps.classloading.ClassLoaderManager;
-import jetbrains.mps.smodel.MPSModuleRepository;
-import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.smodel.runtime.ModuleDeploymentChange;
+import org.jetbrains.mps.openapi.language.SLanguage;
+import jetbrains.mps.smodel.runtime.ModuleRuntime;
 import jetbrains.mps.smodel.LanguageAspect;
 import jetbrains.mps.openapi.editor.selection.Selection;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 
@@ -37,70 +32,54 @@ public class SelectionIntentionsManager {
     return INSTANCE;
   }
 
-  private Map<SModule, List<ISelectionIntentionFactory>> myFactories = MapSequence.fromMap(new HashMap<SModule, List<ISelectionIntentionFactory>>());
-  private DeployListener myClasseslistener = new DeployListener() {
-    @Override
-    public void onLoaded(@NotNull Set<ReloadableModule> modules, @NotNull ProgressMonitor monitor) {
-      try {
-        for (ReloadableModule module : SetSequence.fromSet(modules)) {
-          loadModule(module);
-        }
-      } catch (Exception ex) {
-        if (LOG.isErrorLevel()) {
-          LOG.error("", ex);
-        }
-      }
-    }
+  private final Map<SModuleReference, List<ISelectionIntentionFactory>> myFactories = MapSequence.fromMap(new HashMap<>());
 
+  private LanguageRegistry myLanguageRegistry;
+  private final ModuleDeploymentListener myClasseslistener = new ModuleDeploymentListener() {
     @Override
-    public void onUnloaded(@NotNull Set<ReloadableModule> modules, @NotNull ProgressMonitor monitor) {
-      try {
-        for (ReloadableModule module : SetSequence.fromSet(modules)) {
-          if (Objects.equals(module.getModuleReference(), PersistenceFacade.getInstance().createModuleReference("cce85e64-7b37-4ad5-b0e6-9d18324cdfb3(de.itemis.mps.selection.runtime)"))) {
-            dispose();
-            return;
-          }
-          unloadModule(module);
-        }
-      } catch (Exception ex) {
-        if (LOG.isErrorLevel()) {
-          LOG.error("", ex);
-        }
-      }
+    public void deploymentStateChanged(@NotNull ModuleDeploymentChange change) {
+      change.forEachRemoved(SelectionIntentionsManager.this::unloadModule);
+      change.forEachReloaded(SelectionIntentionsManager.this::unloadModule);
+      change.forEachReloaded(SelectionIntentionsManager.this::loadModule);
+      change.forEachAdded(SelectionIntentionsManager.this::loadModule);
     }
   };
 
-  public void init() {
-    MPSCoreComponents.getInstance().getPlatform().findComponent(ClassLoaderManager.class).addListener(myClasseslistener);
+  public void init(@NotNull LanguageRegistry languageRegistry) {
+    if (myLanguageRegistry != null) {
+      throw new IllegalStateException("SelectionIntentionsManager already initialized");
+    }
 
-    MPSModuleRepository.getInstance().getModelAccess().runReadAction(() -> {
-      for (SModule module : Sequence.fromIterable(MPSCoreComponents.getInstance().getPlatform().findComponent(MPSModuleRepository.class).getModules())) {
-        if (module instanceof ReloadableModule) {
-          loadModule((ReloadableModule) module);
-        }
-      }
-    });
+    myLanguageRegistry = languageRegistry;
+    languageRegistry.addRegistryListener(myClasseslistener);
+    languageRegistry.withModuleRuntime(languageRegistry.getAllLanguages().stream().map(SLanguage::getSourceModuleReference), this::loadModule);
   }
 
   public void dispose() {
-    ClassLoaderManager.getInstance().removeListener(myClasseslistener);
-    MapSequence.fromMap(myFactories).clear();
+    if (myLanguageRegistry != null) {
+      myLanguageRegistry.removeRegistryListener(myClasseslistener);
+      myLanguageRegistry = null;
+      MapSequence.fromMap(myFactories).clear();
+    }
   }
 
-  public void unloadModule(SModule module) {
-    MapSequence.fromMap(myFactories).removeKey(module);
+  /*package*/ void unloadModule(ModuleRuntime module) {
+    MapSequence.fromMap(myFactories).removeKey(module.getSourceModule());
   }
 
-  protected void loadModule(ReloadableModule module) {
-    String className = module.getModuleName() + "." + LanguageAspect.INTENTIONS.getName() + "." + DESCRIPTOR_CLASS_NAME;
+  /*package*/ void loadModule(ModuleRuntime module) {
+    String className = module.getSourceModule().getModuleName() + "." + LanguageAspect.INTENTIONS.getName() + "." + DESCRIPTOR_CLASS_NAME;
     try {
-      Class descriptorClass = module.getOwnClass(className);
-      if (descriptorClass == null) {
-        return;
+      Class<?> descriptorClass = module.getOwnClass(className);
+      ISelectionIntentionsDescriptor descriptor = (ISelectionIntentionsDescriptor) descriptorClass.getDeclaredConstructor().newInstance();
+      MapSequence.fromMap(myFactories).put(module.getSourceModule(), descriptor.getFactories());
+    } catch (ClassNotFoundException ex) {
+      // Module does not have a selection intentions descriptor, this is normal
+    } catch (Exception e) {
+      // Module has a descriptor but it could not be loaded, report and continue
+      if (LOG.isErrorLevel()) {
+        LOG.error("Could not load class " + className + " from module " + module.getSourceModule(), e);
       }
-      ISelectionIntentionsDescriptor desciptor = (ISelectionIntentionsDescriptor) descriptorClass.newInstance();
-      MapSequence.fromMap(myFactories).put(module, desciptor.getFactories());
-    } catch (Exception ex) {
     }
   }
 

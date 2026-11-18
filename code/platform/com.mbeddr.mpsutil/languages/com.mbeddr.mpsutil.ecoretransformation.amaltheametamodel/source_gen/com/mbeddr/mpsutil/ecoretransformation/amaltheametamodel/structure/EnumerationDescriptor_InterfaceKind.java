@@ -20,7 +20,7 @@ public class EnumerationDescriptor_InterfaceKind extends EnumerationDescriptorBa
   private final EnumerationDescriptor.MemberDescriptor myMember_requires_0 = new EnumerationDescriptor.MemberDescriptor("requires", "requires", 0x49b4676c2199e8L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595370");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c2199e9L, 0x49b4676c2199e6L, 0x49b4676c2199e7L, 0x49b4676c2199e8L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_provides_0, myMember_requires_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_provides_0, myMember_requires_0);
 
   @Nullable
   @Override

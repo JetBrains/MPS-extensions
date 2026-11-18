@@ -48,14 +48,14 @@ public class TestDefaults_Test extends BaseTransformationTest {
 
     public void test_defaultValue() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> Assert.assertEquals(42, SPropertyOperations.getInteger(SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x2720ea68b58e4435L, 0xaab04659362f72b6L, 0x15843e21f0cf0139L, "test.ts.propertydefault.structure.TestPropertyDefault")), PROPS.int$gG_r)));
+      runWithinCommand(() -> Assert.assertEquals(Integer.valueOf(42), Integer.valueOf(SPropertyOperations.getInteger(SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x2720ea68b58e4435L, 0xaab04659362f72b6L, 0x15843e21f0cf0139L, "test.ts.propertydefault.structure.TestPropertyDefault")), PROPS.int$gG_r))));
     }
     public void test_setValue() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
         SNode node = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x2720ea68b58e4435L, 0xaab04659362f72b6L, 0x15843e21f0cf0139L, "test.ts.propertydefault.structure.TestPropertyDefault"));
         SPropertyOperations.assign(node, PROPS.int$gG_r, 23);
-        Assert.assertEquals(23, SPropertyOperations.getInteger(node, PROPS.int$gG_r));
+        Assert.assertEquals(Integer.valueOf(23), Integer.valueOf(SPropertyOperations.getInteger(node, PROPS.int$gG_r)));
       });
     }
 

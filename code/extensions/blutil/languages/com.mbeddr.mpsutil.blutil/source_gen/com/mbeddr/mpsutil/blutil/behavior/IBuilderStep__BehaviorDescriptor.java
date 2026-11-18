@@ -7,34 +7,26 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class IBuilderStep__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x3e329772626e753bL, "com.mbeddr.mpsutil.blutil.structure.IBuilderStep");
 
-  public static final SMethod<Void> linearizedList_id223bK6mduU5 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("linearizedList").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2342767915024379525L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), ""));
+  public static final SMethod<Void> linearizedList_id223bK6mduU5 = new SMethodBuilder<>(Void.TYPE).name("linearizedList").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2342767915024379525L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), "res"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(linearizedList_id223bK6mduU5);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(linearizedList_id223bK6mduU5);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
 
   /*package*/ IBuilderStep__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -22,7 +22,7 @@ public class EnumerationDescriptor_RunnableOrderType extends EnumerationDescript
   private final EnumerationDescriptor.MemberDescriptor myMember_immediateSuccessorEndSequence_0 = new EnumerationDescriptor.MemberDescriptor("immediateSuccessorEndSequence", "immediateSuccessorEndSequence", 0x49b4676c2199f4L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595377");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c2199f5L, 0x49b4676c2199f0L, 0x49b4676c2199f1L, 0x49b4676c2199f2L, 0x49b4676c2199f3L, 0x49b4676c2199f4L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_successor_0, myMember_immediateSuccessorStartSequence_0, myMember_immediateSuccessorAnySequence_0, myMember_immediateSuccessorEndSequence_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_successor_0, myMember_immediateSuccessorStartSequence_0, myMember_immediateSuccessorAnySequence_0, myMember_immediateSuccessorEndSequence_0);
 
   @Nullable
   @Override

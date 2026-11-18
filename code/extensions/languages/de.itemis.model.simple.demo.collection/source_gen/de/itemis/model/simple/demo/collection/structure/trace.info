@@ -12,7 +12,7 @@
       <unit at="11,0,30,0" name="de.itemis.model.simple.demo.collection.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,28,0" name="de.itemis.model.simple.demo.collection.structure.LanguageConceptSwitch" />
+      <unit at="12,0,36,0" name="de.itemis.model.simple.demo.collection.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,61,0" name="de.itemis.model.simple.demo.collection.structure.StructureAspectDescriptor" />
@@ -32,8 +32,8 @@
       <scope id="7808531358831107071" at="19,59,25,47" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="7808531358831107071" at="12,0,13,0" concept="5" trace="ConceptWithListOfChildren" />
-      <node id="7808531358831107071" at="15,116,16,64" concept="0" />
+      <node id="7808531358831107071" at="14,0,15,0" concept="5" trace="ConceptWithListOfChildren" />
+      <node id="7808531358831107071" at="17,116,18,64" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7808531358831107071" at="16,0,17,0" concept="1" trace="myConceptConceptWithListOfChildren" />

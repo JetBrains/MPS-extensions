@@ -22,7 +22,7 @@ public class EnumerationDescriptor_CycleBreakingStrategy extends EnumerationDesc
   private final EnumerationDescriptor.MemberDescriptor myMember_GREEDY_MODEL_ORDER_0 = new EnumerationDescriptor.MemberDescriptor("GREEDY_MODEL_ORDER", "GREEDY_MODEL_ORDER", 0x2a08865283433410L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3028818438354318352");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x2a088652834333cbL, 0x2a088652834333ccL, 0x2a08865283433409L, 0x32d28aa5f4562ef6L, 0x2a0886528343340cL, 0x2a08865283433410L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_GREEDY_0, myMember_DEPTH_FIRST_0, myMember_INTERACTIVE_0, myMember_MODEL_ORDER_0, myMember_GREEDY_MODEL_ORDER_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_GREEDY_0, myMember_DEPTH_FIRST_0, myMember_INTERACTIVE_0, myMember_MODEL_ORDER_0, myMember_GREEDY_MODEL_ORDER_0);
 
   @Nullable
   @Override

@@ -250,7 +250,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
           if (i % 2 == 0) {
             Assert.assertNull(vm.getPath(path));
           } else {
-            Assert.assertEquals(i, vm.getPath(path));
+            Assert.assertEquals(Integer.valueOf(i), vm.getPath(path));
           }
         }
         vm.remove(item);
@@ -498,7 +498,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         vm.write(item, source, null);
         Assert.assertSame(stored, vm.getNode(item));
         List<SNode> items = ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).toList();
-        Assert.assertEquals(3, ListSequence.fromList(items).count());
+        Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(ListSequence.fromList(items).count()));
         Assert.assertEquals("w", SPropertyOperations.getString(ListSequence.fromList(items).getElement(0), PROPS.name$MnvL));
         Assert.assertSame(x, ListSequence.fromList(items).getElement(1));
         Assert.assertSame(y, ListSequence.fromList(items).getElement(2));
@@ -509,7 +509,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         SNodeOperations.deleteNode(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).first());
         vm.write(item, source, null);
         items = ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).toList();
-        Assert.assertEquals(2, ListSequence.fromList(items).count());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(ListSequence.fromList(items).count()));
         Assert.assertSame(x, ListSequence.fromList(items).getElement(0));
       });
     }
@@ -544,7 +544,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         // an equal tree built anew changes no node of the view model, so no editor is updated
         vm.write(item, TestBody.this.tree(item), null);
         stored.getModel().removeChangeListener(listener);
-        Assert.assertEquals(0, events[0]);
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(events[0]));
         Assert.assertSame(stored, vm.getNode(item));
       });
     }

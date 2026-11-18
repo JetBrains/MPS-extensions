@@ -44,7 +44,7 @@ public class EditorCellBoxModelClonePreservesIndependentFrames_Test extends Base
       LayoutBox[] originalBoxes = new LayoutBox[]{original.getContentBox(), original.getPaddingBox(), original.getAdditionalPadding(), original.getBracketsBox(), original.getBorderBox(), original.getMarginBox()};
       LayoutBoxFrame[] originalFrames = new LayoutBoxFrame[]{original.getPaddingBox(), original.getAdditionalPadding(), original.getBracketsBox(), original.getBorderBox(), original.getMarginBox()};
       String[] layers = new String[]{"content", "padding", "additional padding", "brackets", "border", "margin"};
-      Assert.assertEquals("layers does not have one name per box", originalBoxes.length, layers.length);
+      Assert.assertEquals("layers does not have one name per box", Integer.valueOf(originalBoxes.length), Integer.valueOf(layers.length));
       CloneContractFixture.configure(original.getContentBox(), originalFrames);
       int[][] originalGeometry = CloneContractFixture.geometry(originalBoxes);
       int[][] originalSizes = CloneContractFixture.frameSizes(originalFrames);
@@ -54,7 +54,7 @@ public class EditorCellBoxModelClonePreservesIndependentFrames_Test extends Base
       Assert.assertFalse("clone shares the original object", clone == original);
       Assert.assertTrue("clone differs from the original value", original.equals(clone));
       Assert.assertTrue("clone equality is asymmetric", clone.equals(original));
-      Assert.assertEquals("equal clone has a different hash code", original.hashCode(), clone.hashCode());
+      Assert.assertEquals("equal clone has a different hash code", Integer.valueOf(original.hashCode()), Integer.valueOf(clone.hashCode()));
       int[][] unchangedGeometry = CloneContractFixture.geometry(originalBoxes);
       int[][] unchangedSizes = CloneContractFixture.frameSizes(originalFrames);
       int[][] clonedGeometry = CloneContractFixture.geometry(clonedBoxes);
@@ -62,15 +62,15 @@ public class EditorCellBoxModelClonePreservesIndependentFrames_Test extends Base
       for (int i = 0; i < originalBoxes.length; i++) {
         Assert.assertFalse("clone shares a geometry layer: " + layers[i], originalBoxes[i] == clonedBoxes[i]);
         for (int j = 0; j < originalGeometry[i].length; j++) {
-          Assert.assertEquals("cloning changed original geometry: " + CloneContractFixture.geometryValue(layers[i], j), originalGeometry[i][j], unchangedGeometry[i][j]);
-          Assert.assertEquals("clone changed a geometry value: " + CloneContractFixture.geometryValue(layers[i], j), originalGeometry[i][j], clonedGeometry[i][j]);
+          Assert.assertEquals("cloning changed original geometry: " + CloneContractFixture.geometryValue(layers[i], j), Integer.valueOf(originalGeometry[i][j]), Integer.valueOf(unchangedGeometry[i][j]));
+          Assert.assertEquals("clone changed a geometry value: " + CloneContractFixture.geometryValue(layers[i], j), Integer.valueOf(originalGeometry[i][j]), Integer.valueOf(clonedGeometry[i][j]));
         }
       }
       for (int i = 0; i < originalFrames.length; i++) {
         Assert.assertSame("clone frame points to the wrong inner layer: " + layers[i + 1], clonedBoxes[i], clonedFrames[i].getInnerBox());
         for (int j = 0; j < originalSizes[i].length; j++) {
-          Assert.assertEquals("cloning changed original frame sizes: " + CloneContractFixture.frameSide(layers[i + 1], j), originalSizes[i][j], unchangedSizes[i][j]);
-          Assert.assertEquals("clone changed a frame side: " + CloneContractFixture.frameSide(layers[i + 1], j), originalSizes[i][j], clonedSizes[i][j]);
+          Assert.assertEquals("cloning changed original frame sizes: " + CloneContractFixture.frameSide(layers[i + 1], j), Integer.valueOf(originalSizes[i][j]), Integer.valueOf(unchangedSizes[i][j]));
+          Assert.assertEquals("clone changed a frame side: " + CloneContractFixture.frameSide(layers[i + 1], j), Integer.valueOf(originalSizes[i][j]), Integer.valueOf(clonedSizes[i][j]));
         }
       }
       CloneContractFixture.mutate(clonedBoxes, clonedFrames);
@@ -78,12 +78,12 @@ public class EditorCellBoxModelClonePreservesIndependentFrames_Test extends Base
       int[][] originalSizesAfterCloneMutation = CloneContractFixture.frameSizes(originalFrames);
       for (int i = 0; i < originalBoxes.length; i++) {
         for (int j = 0; j < originalGeometry[i].length; j++) {
-          Assert.assertEquals("clone mutation changed original geometry: " + CloneContractFixture.geometryValue(layers[i], j), originalGeometry[i][j], originalAfterCloneMutation[i][j]);
+          Assert.assertEquals("clone mutation changed original geometry: " + CloneContractFixture.geometryValue(layers[i], j), Integer.valueOf(originalGeometry[i][j]), Integer.valueOf(originalAfterCloneMutation[i][j]));
         }
       }
       for (int i = 0; i < originalFrames.length; i++) {
         for (int j = 0; j < originalSizes[i].length; j++) {
-          Assert.assertEquals("clone mutation changed original frame sizes: " + CloneContractFixture.frameSide(layers[i + 1], j), originalSizes[i][j], originalSizesAfterCloneMutation[i][j]);
+          Assert.assertEquals("clone mutation changed original frame sizes: " + CloneContractFixture.frameSide(layers[i + 1], j), Integer.valueOf(originalSizes[i][j]), Integer.valueOf(originalSizesAfterCloneMutation[i][j]));
         }
       }
       int[][] cloneBeforeOriginalMutation = CloneContractFixture.geometry(clonedBoxes);
@@ -93,12 +93,12 @@ public class EditorCellBoxModelClonePreservesIndependentFrames_Test extends Base
       int[][] cloneSizesAfterOriginalMutation = CloneContractFixture.frameSizes(clonedFrames);
       for (int i = 0; i < clonedBoxes.length; i++) {
         for (int j = 0; j < cloneBeforeOriginalMutation[i].length; j++) {
-          Assert.assertEquals("original mutation changed clone geometry: " + CloneContractFixture.geometryValue(layers[i], j), cloneBeforeOriginalMutation[i][j], cloneAfterOriginalMutation[i][j]);
+          Assert.assertEquals("original mutation changed clone geometry: " + CloneContractFixture.geometryValue(layers[i], j), Integer.valueOf(cloneBeforeOriginalMutation[i][j]), Integer.valueOf(cloneAfterOriginalMutation[i][j]));
         }
       }
       for (int i = 0; i < clonedFrames.length; i++) {
         for (int j = 0; j < cloneSizesBeforeOriginalMutation[i].length; j++) {
-          Assert.assertEquals("original mutation changed clone frame sizes: " + CloneContractFixture.frameSide(layers[i + 1], j), cloneSizesBeforeOriginalMutation[i][j], cloneSizesAfterOriginalMutation[i][j]);
+          Assert.assertEquals("original mutation changed clone frame sizes: " + CloneContractFixture.frameSide(layers[i + 1], j), Integer.valueOf(cloneSizesBeforeOriginalMutation[i][j]), Integer.valueOf(cloneSizesAfterOriginalMutation[i][j]));
         }
       }
     }

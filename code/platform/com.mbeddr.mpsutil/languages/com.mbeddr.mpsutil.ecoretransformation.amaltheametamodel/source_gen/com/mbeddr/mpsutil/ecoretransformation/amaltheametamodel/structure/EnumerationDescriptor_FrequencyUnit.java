@@ -22,7 +22,7 @@ public class EnumerationDescriptor_FrequencyUnit extends EnumerationDescriptorBa
   private final EnumerationDescriptor.MemberDescriptor myMember_GHz_0 = new EnumerationDescriptor.MemberDescriptor("GHz", "GHz", 0x49b4676c219956L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595315");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219957L, 0x49b4676c219952L, 0x49b4676c219953L, 0x49b4676c219954L, 0x49b4676c219955L, 0x49b4676c219956L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_Hz_0, myMember_kHz_0, myMember_MHz_0, myMember_GHz_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_Hz_0, myMember_kHz_0, myMember_MHz_0, myMember_GHz_0);
 
   @Nullable
   @Override

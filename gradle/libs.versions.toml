@@ -1,5 +1,5 @@
 [versions]
-mps = "2025.1.5"
+mps = "2026.1.2"
 
 [libraries]
 mps = { module = "com.jetbrains:mps", version.ref = "mps" }

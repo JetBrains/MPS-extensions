@@ -161,7 +161,7 @@ public class KeyCreation_Test extends BaseTransformationTest {
         SNode resourceBundle = MultilingualCommonUtil.findResourceBundleNode(myModel);
         Assert.assertNotNull(resourceBundle);
         SNode key = MultilingualCommonUtil.findOrCreateKey("my special key", myModel);
-        Assert.assertEquals(0, SNodeOperations.getIndexInParent(key));
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SNodeOperations.getIndexInParent(key)));
 
       });
     }
@@ -171,7 +171,7 @@ public class KeyCreation_Test extends BaseTransformationTest {
         SNode resourceBundle = MultilingualCommonUtil.findResourceBundleNode(myModel);
         Assert.assertNotNull(resourceBundle);
         SNode key = MultilingualCommonUtil.findOrCreateKey("test string", myModel);
-        Assert.assertEquals(3, SNodeOperations.getIndexInParent(key));
+        Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(SNodeOperations.getIndexInParent(key)));
       });
     }
 

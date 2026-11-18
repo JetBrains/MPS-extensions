@@ -27,7 +27,7 @@ public class EnumerationDescriptor_NodePromotionStrategy extends EnumerationDesc
   private final EnumerationDescriptor.MemberDescriptor myMember_MODEL_ORDER_RIGHT_TO_LEFT_0 = new EnumerationDescriptor.MemberDescriptor("MODEL_ORDER_RIGHT_TO_LEFT", "MODEL_ORDER_RIGHT_TO_LEFT", 0x32d28aa5f4570779L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379215737");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f4570739L, 0x32d28aa5f457073aL, 0x32d28aa5f457073cL, 0x32d28aa5f4570741L, 0x32d28aa5f4570746L, 0x32d28aa5f457074cL, 0x32d28aa5f4570753L, 0x32d28aa5f457075bL, 0x32d28aa5f4570764L, 0x32d28aa5f457076eL, 0x32d28aa5f4570779L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_NONE_0, myMember_NIKOLOV_0, myMember_NIKOLOV_PIXEL_0, myMember_NIKOLOV_IMPROVED_0, myMember_NIKOLOV_IMPROVED_PIXEL_0, myMember_DUMMYNODE_PERCENTAGE_0, myMember_NODECOUNT_PERCENTAGE_0, myMember_NO_BOUNDARY_0, myMember_MODEL_ORDER_LEFT_TO_RIGHT_0, myMember_MODEL_ORDER_RIGHT_TO_LEFT_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_NONE_0, myMember_NIKOLOV_0, myMember_NIKOLOV_PIXEL_0, myMember_NIKOLOV_IMPROVED_0, myMember_NIKOLOV_IMPROVED_PIXEL_0, myMember_DUMMYNODE_PERCENTAGE_0, myMember_NODECOUNT_PERCENTAGE_0, myMember_NO_BOUNDARY_0, myMember_MODEL_ORDER_LEFT_TO_RIGHT_0, myMember_MODEL_ORDER_RIGHT_TO_LEFT_0);
 
   @Nullable
   @Override

@@ -21,7 +21,7 @@ public class EnumerationDescriptor_MappingType extends EnumerationDescriptorBase
   private final EnumerationDescriptor.MemberDescriptor myMember_UniqueReaction_0 = new EnumerationDescriptor.MemberDescriptor("UniqueReaction", "UniqueReaction", 0x49b4676c219a25L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595393");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219a26L, 0x49b4676c219a22L, 0x49b4676c219a23L, 0x49b4676c219a24L, 0x49b4676c219a25L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_OneToOne_0, myMember_Reaction_0, myMember_UniqueReaction_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_OneToOne_0, myMember_Reaction_0, myMember_UniqueReaction_0);
 
   @Nullable
   @Override

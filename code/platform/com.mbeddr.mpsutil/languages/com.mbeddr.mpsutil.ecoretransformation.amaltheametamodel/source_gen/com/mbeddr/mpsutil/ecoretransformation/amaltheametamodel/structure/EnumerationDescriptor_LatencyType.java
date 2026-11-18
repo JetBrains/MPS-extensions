@@ -20,7 +20,7 @@ public class EnumerationDescriptor_LatencyType extends EnumerationDescriptorBase
   private final EnumerationDescriptor.MemberDescriptor myMember_Reaction_0 = new EnumerationDescriptor.MemberDescriptor("Reaction", "Reaction", 0x49b4676c219a2bL, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595387");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219a2cL, 0x49b4676c219a29L, 0x49b4676c219a2aL, 0x49b4676c219a2bL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_Age_0, myMember_Reaction_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_Age_0, myMember_Reaction_0);
 
   @Nullable
   @Override

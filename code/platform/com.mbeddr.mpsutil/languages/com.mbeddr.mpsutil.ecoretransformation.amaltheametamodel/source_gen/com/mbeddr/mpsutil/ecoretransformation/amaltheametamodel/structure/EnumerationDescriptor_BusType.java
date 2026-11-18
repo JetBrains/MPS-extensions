@@ -25,7 +25,7 @@ public class EnumerationDescriptor_BusType extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_NA_0 = new EnumerationDescriptor.MemberDescriptor("NA", "NA", 0x49b4676c219b10L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595535");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219b11L, 0x49b4676c219b09L, 0x49b4676c219b0aL, 0x49b4676c219b0bL, 0x49b4676c219b0cL, 0x49b4676c219b0dL, 0x49b4676c219b0eL, 0x49b4676c219b0fL, 0x49b4676c219b10L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_CAN_0, myMember_TTCAN_0, myMember_LIN_0, myMember_FLEXRAY_0, myMember_ETHERNET_0, myMember_SPI_0, myMember_NA_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_CAN_0, myMember_TTCAN_0, myMember_LIN_0, myMember_FLEXRAY_0, myMember_ETHERNET_0, myMember_SPI_0, myMember_NA_0);
 
   @Nullable
   @Override

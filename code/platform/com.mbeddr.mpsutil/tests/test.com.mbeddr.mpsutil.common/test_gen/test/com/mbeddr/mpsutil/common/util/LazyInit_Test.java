@@ -20,12 +20,12 @@ public class LazyInit_Test {
 
     // execute first get(), should return 777, and expensive code should be executed exactly once
     int v1 = supplier.get();
-    Assert.assertEquals(777, v1);
-    Assert.assertEquals(1, (int) expensiveCount.getValue());
+    Assert.assertEquals(Integer.valueOf(777), Integer.valueOf(v1));
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf((int) expensiveCount.getValue()));
 
     // when executing get() again, it still should return 777, but without executing expensive code again
     int v2 = supplier.get();
-    Assert.assertEquals(777, v2);
-    Assert.assertEquals(1, (int) expensiveCount.getValue());
+    Assert.assertEquals(Integer.valueOf(777), Integer.valueOf(v2));
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf((int) expensiveCount.getValue()));
   }
 }

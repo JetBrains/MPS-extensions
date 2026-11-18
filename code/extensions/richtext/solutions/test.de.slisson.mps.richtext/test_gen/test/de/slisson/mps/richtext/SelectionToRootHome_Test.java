@@ -40,8 +40,8 @@ public class SelectionToRootHome_Test extends BaseTransformationTest {
       invokeAction("de.slisson.mps.richtext.plugin.RichtextSelectionRootHome_Action");
       RichtextSelection selection = as_cmnjd0_a0a2a3g(getEditorComponent().getSelectionManager().getSelection(), RichtextSelection.class);
       Assert.assertNotNull(selection);
-      Assert.assertEquals(new CellAnnotation(159, 26, 0, false).getTextStartPos(), selection.getStartTextPos());
-      Assert.assertEquals(new CellAnnotation(159, 26, 0, false).getTextEndPos(), selection.getEndTextPos());
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(159, 26, 0, false).getTextStartPos()), Integer.valueOf(selection.getStartTextPos()));
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(159, 26, 0, false).getTextEndPos()), Integer.valueOf(selection.getEndTextPos()));
 
     }
     private static <T> T as_cmnjd0_a0a2a3g(Object o, Class<T> type) {

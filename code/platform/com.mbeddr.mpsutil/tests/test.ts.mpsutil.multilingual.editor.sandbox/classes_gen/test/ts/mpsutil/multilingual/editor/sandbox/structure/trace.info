@@ -12,7 +12,7 @@
       <unit at="11,0,30,0" name="test.ts.mpsutil.multilingual.editor.sandbox.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,28,0" name="test.ts.mpsutil.multilingual.editor.sandbox.structure.LanguageConceptSwitch" />
+      <unit at="12,0,36,0" name="test.ts.mpsutil.multilingual.editor.sandbox.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="14,0,58,0" name="test.ts.mpsutil.multilingual.editor.sandbox.structure.StructureAspectDescriptor" />
@@ -32,8 +32,8 @@
       <scope id="4912572611775891186" at="19,63,25,51" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="4912572611775891186" at="12,0,13,0" concept="5" trace="TestMultilingualEditorConcept" />
-      <node id="4912572611775891186" at="15,115,16,68" concept="0" />
+      <node id="4912572611775891186" at="14,0,15,0" concept="5" trace="TestMultilingualEditorConcept" />
+      <node id="4912572611775891186" at="17,115,18,68" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="4912572611775891186" at="15,0,16,0" concept="1" trace="myConceptTestMultilingualEditorConcept" />

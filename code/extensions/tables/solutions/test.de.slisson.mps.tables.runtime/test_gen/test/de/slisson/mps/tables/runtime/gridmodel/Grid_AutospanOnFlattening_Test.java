@@ -27,7 +27,7 @@ public class Grid_AutospanOnFlattening_Test {
   }
   @Test
   public void test_auto_spanned_element() throws Exception {
-    Assert.assertEquals(2, leafD.getSpanX());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(leafD.getSpanX()));
     Assert.assertEquals(SpannedPosition.class, gridMain.getElement(2, 1).getClass());
     Assert.assertSame(leafD, ((SpannedPosition) gridMain.getElement(2, 1)).getSpanningElement());
   }

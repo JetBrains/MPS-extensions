@@ -26,11 +26,11 @@ public class Column_RightAnnotatedRow_Test {
   private HeaderReference annotationHeader;
   @Test
   public void test_sizeX() throws Exception {
-    Assert.assertEquals(3, main.getSizeX());
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(main.getSizeX()));
   }
   @Test
   public void test_sizeY() throws Exception {
-    Assert.assertEquals(2, main.getSizeY());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(main.getSizeY()));
   }
   @Test
   public void test_annotation_position() throws Exception {
@@ -52,11 +52,11 @@ public class Column_RightAnnotatedRow_Test {
   }
   @Test
   public void test_headerSizeX() throws Exception {
-    Assert.assertEquals(3, main.getColumnHeadersSizeX());
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(main.getColumnHeadersSizeX()));
   }
   @Test
   public void test_headerSizeY() throws Exception {
-    Assert.assertEquals(1, main.getColumnHeadersSizeY());
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(main.getColumnHeadersSizeY()));
   }
   @Test
   public void test_annotation_header() throws Exception {

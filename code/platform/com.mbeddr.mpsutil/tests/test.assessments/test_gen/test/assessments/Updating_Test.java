@@ -63,7 +63,7 @@ public class Updating_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         Assessment__BehaviorDescriptor.update_id4WjNWxKKBRM.invoke(getAnnotatedNode("empty"), myProject);
 
-        Assert.assertEquals(1, ListSequence.fromList(SLinkOperations.getChildren(getAnnotatedNode("empty"), LINKS.results$os$a)).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(getAnnotatedNode("empty"), LINKS.results$os$a)).count()));
         SNode result = SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(getAnnotatedNode("empty"), LINKS.results$os$a)).first(), LINKS.result$YRDN);
         Assert.assertTrue(SNodeOperations.isInstanceOf(result, CONCEPTS.TestAssessmentResult$dx));
         Assert.assertEquals("100", AssessmentResult__BehaviorDescriptor.uniqueIdentifier_idK292flwHwe.invoke(result));

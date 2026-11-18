@@ -22,7 +22,7 @@ public class EnumerationDescriptor_OrderType extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_endSequence_0 = new EnumerationDescriptor.MemberDescriptor("endSequence", "endSequence", 0x49b4676c219c05L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595258");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219c06L, 0x49b4676c219c01L, 0x49b4676c219c02L, 0x49b4676c219c03L, 0x49b4676c219c04L, 0x49b4676c219c05L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_order_0, myMember_directOrder_0, myMember_startSequence_0, myMember_endSequence_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_order_0, myMember_directOrder_0, myMember_startSequence_0, myMember_endSequence_0);
 
   @Nullable
   @Override

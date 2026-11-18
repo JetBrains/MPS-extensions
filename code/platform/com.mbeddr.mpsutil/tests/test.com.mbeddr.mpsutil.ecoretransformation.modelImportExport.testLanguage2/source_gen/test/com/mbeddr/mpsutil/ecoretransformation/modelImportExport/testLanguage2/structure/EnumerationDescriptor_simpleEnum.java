@@ -20,7 +20,7 @@ public class EnumerationDescriptor_simpleEnum extends EnumerationDescriptorBase 
   private final EnumerationDescriptor.MemberDescriptor myMember_val3_0 = new EnumerationDescriptor.MemberDescriptor("val3", "val3", 0x2da4f57062b185a1L, "r:9f4fe936-9a84-4faf-afe9-9c15141d78dc(test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage2.structure)/1286599818956595607");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x8cff051b53c34e5fL, 0xbf0a6688f069e505L, 0x2da4f57062b185a2L, 0x2da4f57062b1859fL, 0x2da4f57062b185a0L, 0x2da4f57062b185a1L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_val1_0, myMember_val2_0, myMember_val3_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_val1_0, myMember_val2_0, myMember_val3_0);
 
   @Nullable
   @Override

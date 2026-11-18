@@ -59,7 +59,7 @@ public class SModelAsNode_Test extends BaseTransformationTest {
             ListSequence.fromList(children).addElement(it.next());
           }
 
-          Assert.assertEquals(3, ListSequence.fromList(children).count());
+          Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(ListSequence.fromList(children).count()));
 
           INode langTest = ListSequence.fromList(children).findFirst(new _FunctionTypes._return_P1_E0<Boolean, INode>() {
             public Boolean invoke(INode it) {

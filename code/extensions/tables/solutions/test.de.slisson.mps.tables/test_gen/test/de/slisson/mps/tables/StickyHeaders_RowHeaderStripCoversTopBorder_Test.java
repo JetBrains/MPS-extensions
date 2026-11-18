@@ -79,7 +79,7 @@ public class StickyHeaders_RowHeaderStripCoversTopBorder_Test extends BaseTransf
           }
         }
       }
-      Assert.assertEquals(0, notPainted);
+      Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(notPainted));
     }
   }
 }

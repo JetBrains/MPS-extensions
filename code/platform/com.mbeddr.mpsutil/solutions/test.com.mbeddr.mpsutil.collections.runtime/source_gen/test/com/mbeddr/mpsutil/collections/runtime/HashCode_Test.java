@@ -66,7 +66,7 @@ public class HashCode_Test extends BaseTransformationTest {
       initTestNodes();
       runWithinCommand(() -> {
         NodeEquivalence equivalence = new NodeEquivalence();
-        Assert.assertEquals(0, equivalence.hash(null));
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(equivalence.hash(null)));
       });
     }
     public void test_sameStructure() throws Exception {
@@ -75,7 +75,7 @@ public class HashCode_Test extends BaseTransformationTest {
         NodeEquivalence equivalence = new NodeEquivalence();
         SNode cl1 = createClassConcept_bn9btn_a0b0a0b0g01();
         SNode cl2 = createClassConcept_bn9btn_a0c0a0b0g01();
-        Assert.assertEquals(equivalence.hash(cl1), equivalence.hash(cl2));
+        Assert.assertEquals(Integer.valueOf(equivalence.hash(cl1)), Integer.valueOf(equivalence.hash(cl2)));
       });
     }
     public void test_sameStructure2() throws Exception {
@@ -83,7 +83,7 @@ public class HashCode_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         NodeEquivalence equivalence = new NodeEquivalence();
         SNode cls = SPointerOperations.resolveNode(new SNodePointer("r:240d60dc-7568-46d8-a080-a0889db7fd44(com.mbeddr.mpsutil.collections.runtime)", "6355510489490361370"), myModel.getRepository());
-        Assert.assertEquals(equivalence.hash(cls), equivalence.hash(SNodeOperations.copyNode(cls)));
+        Assert.assertEquals(Integer.valueOf(equivalence.hash(cls)), Integer.valueOf(equivalence.hash(SNodeOperations.copyNode(cls))));
       });
     }
     public void test_sameStructure3() throws Exception {
@@ -91,7 +91,7 @@ public class HashCode_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         NodeEquivalence equivalence = new NodeEquivalence();
         SNode cls = SPointerOperations.resolveNode(new SNodePointer("r:6fb7db1c-1859-474b-8d33-1e840624caa8(test.com.mbeddr.mpsutil.collections.runtime)", "1213972344440399980"), myModel.getRepository());
-        Assert.assertEquals(equivalence.hash(cls), equivalence.hash(SNodeOperations.copyNode(cls)));
+        Assert.assertEquals(Integer.valueOf(equivalence.hash(cls)), Integer.valueOf(equivalence.hash(SNodeOperations.copyNode(cls))));
       });
     }
     public void test_differentStructure() throws Exception {

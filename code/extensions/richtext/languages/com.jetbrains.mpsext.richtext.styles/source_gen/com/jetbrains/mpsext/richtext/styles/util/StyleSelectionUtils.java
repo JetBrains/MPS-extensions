@@ -25,7 +25,7 @@ public class StyleSelectionUtils {
    * Returns the complete Spans covered by the current rich-text selection.
    * 
    * A Span is returned when all of its contained Words are selected and the selection does not cut
-   * through the first or last Word of that Span.
+   * through the first or last Word of that Span. 
    * 
    * @param selection selection the current rich-text selection.
    * @return the completely selected Spans
@@ -152,8 +152,8 @@ public class StyleSelectionUtils {
     }
   }
   /**
-   * Returns the whitespace in front of the first non-whitespace character of the text of the given Word. Whitespace is defined 
-   * by trim(both). Together with getTrailingWhitespace() the text splits into leading whitespace, trimmed text and trailing 
+   * Returns the whitespace in front of the first non-whitespace character of the text of the given Word. Whitespace is defined
+   * by trim(both). Together with getTrailingWhitespace() the text splits into leading whitespace, trimmed text and trailing
    * whitespace and a text that consists of whitespace only counts completely as leading whitespace.
    * 
    * @param word the word to inspect, may be null
@@ -171,7 +171,7 @@ public class StyleSelectionUtils {
     return text.substring(0, text.indexOf(trimmed));
   }
   /**
-   * Returns the whitespace after the last non-whitespace character of the text of the given Word. 
+   * Returns the whitespace after the last non-whitespace character of the text of the given Word.
    * Whitespace is defined by trim(both). See getLeadingWhitespace() for how the text is split.
    * 
    * @param word the word to inspect, may be null

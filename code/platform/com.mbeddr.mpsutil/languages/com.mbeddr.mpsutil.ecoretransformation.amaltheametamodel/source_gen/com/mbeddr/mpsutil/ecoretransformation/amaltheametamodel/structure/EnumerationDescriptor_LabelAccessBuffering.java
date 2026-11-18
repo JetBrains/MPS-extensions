@@ -21,7 +21,7 @@ public class EnumerationDescriptor_LabelAccessBuffering extends EnumerationDescr
   private final EnumerationDescriptor.MemberDescriptor myMember_notBuffered_0 = new EnumerationDescriptor.MemberDescriptor("notBuffered", "notBuffered", 0x49b4676c219c1fL, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595280");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219c20L, 0x49b4676c219c1cL, 0x49b4676c219c1dL, 0x49b4676c219c1eL, 0x49b4676c219c1fL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_inherited_0, myMember_buffered_0, myMember_notBuffered_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_inherited_0, myMember_buffered_0, myMember_notBuffered_0);
 
   @Nullable
   @Override

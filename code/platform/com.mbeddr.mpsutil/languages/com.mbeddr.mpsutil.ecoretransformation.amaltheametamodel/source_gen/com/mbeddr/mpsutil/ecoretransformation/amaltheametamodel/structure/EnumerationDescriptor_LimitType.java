@@ -20,7 +20,7 @@ public class EnumerationDescriptor_LimitType extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_LowerLimit_0 = new EnumerationDescriptor.MemberDescriptor("LowerLimit", "LowerLimit", 0x49b4676c219a59L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595398");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219a5aL, 0x49b4676c219a57L, 0x49b4676c219a58L, 0x49b4676c219a59L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_UpperLimit_0, myMember_LowerLimit_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_UpperLimit_0, myMember_LowerLimit_0);
 
   @Nullable
   @Override

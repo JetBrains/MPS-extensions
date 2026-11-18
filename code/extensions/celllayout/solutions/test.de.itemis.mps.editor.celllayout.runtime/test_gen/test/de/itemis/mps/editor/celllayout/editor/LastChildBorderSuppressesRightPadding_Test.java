@@ -47,10 +47,10 @@ public class LastChildBorderSuppressesRightPadding_Test extends BaseTransformati
       cell.lastCell().getStyle().set(StyleAttributes.DRAW_BORDER, true);
       Assert.assertFalse("root collection has no right border", LayoutStylesUtil.getRightBorderSize(editorComponent.getRootCell()) == 0);
       Assert.assertFalse("last child has no right border", LayoutStylesUtil.getRightBorderSize(cell.lastCell()) == 0);
-      Assert.assertEquals("first child has a right border", 0, (int) LayoutStylesUtil.getRightBorderSize(cell.firstCell()));
+      Assert.assertEquals("first child has a right border", Integer.valueOf(0), Integer.valueOf((int) LayoutStylesUtil.getRightBorderSize(cell.firstCell())));
       LayoutableCollectionAdapter adapter = (LayoutableCollectionAdapter) LayoutableAdapters.getAdapter(editorComponent.getRootCell());
       new PaddingProbeEngine().initializePadding(adapter);
-      Assert.assertEquals("last border left right padding", 0, adapter.getBoxModel().getPaddingBox().getRightSize());
+      Assert.assertEquals("last border left right padding", Integer.valueOf(0), Integer.valueOf(adapter.getBoxModel().getPaddingBox().getRightSize()));
     }
   }
 }

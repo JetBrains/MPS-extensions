@@ -78,7 +78,7 @@ public class NestedMemberPathTest_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         NestedMemberPath path = new NestedMemberPath(getAnnotatedNode("defA"));
         TestBody.this.checkCommon(path, "A");
-        Assert.assertEquals(0, path.segmentsSize());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(path.segmentsSize()));
         Assert.assertTrue(Sequence.fromIterable(path.segments()).isEmpty());
         Assert.assertEquals(getAnnotatedNode("defA"), path.getLeaf());
         Assert.assertFalse(path.visits(getAnnotatedNode("defB")));
@@ -90,7 +90,7 @@ public class NestedMemberPathTest_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         NestedMemberPath path = new NestedMemberPath(getAnnotatedNode("defA"), Sequence.singleton(getAnnotatedNode("b2")));
         TestBody.this.checkCommon(path, "A/b2");
-        Assert.assertEquals(1, path.segmentsSize());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(path.segmentsSize()));
         Assert.assertEquals(getAnnotatedNode("b2"), Sequence.fromIterable(path.segments()).first());
         Assert.assertEquals(getAnnotatedNode("defB"), path.getLeaf());
         Assert.assertTrue(path.visits(getAnnotatedNode("defB")));
@@ -102,7 +102,7 @@ public class NestedMemberPathTest_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         NestedMemberPath path = new NestedMemberPath(getAnnotatedNode("defA"), ListSequence.fromListAndArray(new ArrayList<>(), getAnnotatedNode("b2"), getAnnotatedNode("c1")));
         TestBody.this.checkCommon(path, "A/b2/c1");
-        Assert.assertEquals(2, path.segmentsSize());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(path.segmentsSize()));
         Assert.assertEquals(getAnnotatedNode("b2"), Sequence.fromIterable(path.segments()).first());
         Assert.assertEquals(getAnnotatedNode("c1"), Sequence.fromIterable(path.segments()).last());
         Assert.assertEquals(getAnnotatedNode("defC"), path.getLeaf());
@@ -115,7 +115,7 @@ public class NestedMemberPathTest_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         NestedMemberPath path = new NestedMemberPath(getAnnotatedNode("defA"), ListSequence.fromListAndArray(new ArrayList<>(), getAnnotatedNode("b2"), getAnnotatedNode("c1"), getAnnotatedNode("i2")));
         TestBody.this.checkCommon(path, "A/b2/c1/i2");
-        Assert.assertEquals(3, path.segmentsSize());
+        Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(path.segmentsSize()));
         Assert.assertEquals(getAnnotatedNode("b2"), Sequence.fromIterable(path.segments()).first());
         Assert.assertEquals(getAnnotatedNode("i2"), Sequence.fromIterable(path.segments()).last());
         Assert.assertEquals(getAnnotatedNode("i2"), Sequence.fromIterable(path.segmentsReversed()).first());
@@ -131,7 +131,7 @@ public class NestedMemberPathTest_Test extends BaseTransformationTest {
         NestedMemberPath p2a = p1.append(getAnnotatedNode("c1"));
         NestedMemberPath p2b = new NestedMemberPath(getAnnotatedNode("defA"), ListSequence.fromListAndArray(new ArrayList<>(), getAnnotatedNode("b2"), getAnnotatedNode("c1")));
         Assert.assertEquals(p2b, p2a);
-        Assert.assertEquals(p2a.hashCode(), p2b.hashCode());
+        Assert.assertEquals(Integer.valueOf(p2a.hashCode()), Integer.valueOf(p2b.hashCode()));
       });
     }
     public void test_appendSegments() throws Exception {
@@ -141,7 +141,7 @@ public class NestedMemberPathTest_Test extends BaseTransformationTest {
         NestedMemberPath p2a = p1.append(ListSequence.fromListAndArray(new ArrayList<>(), getAnnotatedNode("c1"), getAnnotatedNode("i2")));
         NestedMemberPath p2b = new NestedMemberPath(getAnnotatedNode("defA"), ListSequence.fromListAndArray(new ArrayList<>(), getAnnotatedNode("b2"), getAnnotatedNode("c1"), getAnnotatedNode("i2")));
         Assert.assertEquals(p2b, p2a);
-        Assert.assertEquals(p2a.hashCode(), p2b.hashCode());
+        Assert.assertEquals(Integer.valueOf(p2a.hashCode()), Integer.valueOf(p2b.hashCode()));
       });
     }
     public void test_concatPathsCorrect() throws Exception {
@@ -154,7 +154,7 @@ public class NestedMemberPathTest_Test extends BaseTransformationTest {
 
         NestedMemberPath p3 = new NestedMemberPath(getAnnotatedNode("defA"), ListSequence.fromListAndArray(new ArrayList<>(), getAnnotatedNode("b2"), getAnnotatedNode("c1")));
         Assert.assertEquals(p3, result.get());
-        Assert.assertEquals(p3.hashCode(), result.hashCode());
+        Assert.assertEquals(Integer.valueOf(p3.hashCode()), Integer.valueOf(result.hashCode()));
       });
     }
     public void test_concatPathsWrong() throws Exception {

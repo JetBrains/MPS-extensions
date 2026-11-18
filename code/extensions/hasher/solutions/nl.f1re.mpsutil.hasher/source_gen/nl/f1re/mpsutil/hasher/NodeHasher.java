@@ -42,16 +42,16 @@ import java.nio.charset.StandardCharsets;
 import java.util.Comparator;
 
 /**
- * Hashes all passed nodes by their concept, property+value, (deep) containments+node, and references+target. 
+ * Hashes all passed nodes by their concept, property+value, (deep) containments+node, and references+target.
  *  
- * Can ignore {{@link nl.f1re.mpsutil.hasher.NodeHasher#setIncludeNodeIds(boolean) node ids},
- * {@link nl.f1re.mpsutil.hasher.NodeHasher#setIncludeBaseConceptProperties(boolean) BaseConcept properties},
- * {@link nl.f1re.mpsutil.hasher.NodeHasher#setIncludeAnnotations(boolean) annotations/node attributes},
- * and {@link nl.f1re.mpsutil.hasher.NodeHasher#ignore(SConceptFeature) arbitrary features}.
- * By default, everything is included. 
+ * Can ignore { {@link nl.f1re.mpsutil.hasher.NodeHasher#setIncludeNodeIds(boolean) node ids} ,
+ *  {@link nl.f1re.mpsutil.hasher.NodeHasher#setIncludeBaseConceptProperties(boolean) BaseConcept properties} ,
+ *  {@link nl.f1re.mpsutil.hasher.NodeHasher#setIncludeAnnotations(boolean) annotations/node attributes} ,
+ * and {@link nl.f1re.mpsutil.hasher.NodeHasher#ignore(SConceptFeature) arbitrary features} .
+ * By default, everything is included.
  *  
  * If we consider node ids, we compare reference targets by node id;
- * otherwise by the target node's {@link jetbrains.mps.smodel.SNode#getPresentation() }.
+ * otherwise by the target node's {@link jetbrains.mps.smodel.SNode#getPresentation()} .
  */
 public class NodeHasher {
   private static final String UNSET_PROPERTY_VALUE = "false";
@@ -67,7 +67,7 @@ public class NodeHasher {
   private boolean normalizeBooleanProperties = true;
 
   /**
-   * Hashes all nodes. 
+   * Hashes all nodes.
    * 
    * @param nodes Nodes to hash. The order of nodes, and (in)direct children of the same containment, matters.
    */
@@ -77,7 +77,7 @@ public class NodeHasher {
   }
 
   /**
-   * Convenience factory to hash nodes with default seed, including node ids and all features. 
+   * Convenience factory to hash nodes with default seed, including node ids and all features.
    * 
    * @param nodes Nodes to hash. The order of nodes, and (in)direct children of the same containment, matters.
    */
@@ -86,7 +86,7 @@ public class NodeHasher {
   }
 
   /**
-   * Whether we consider <tt>BaseConcept.shortDescription</tt> and <tt>BaseConcept.virtualPackage</tt> properties while hashing. 
+   * Whether we consider <tt>BaseConcept.shortDescription</tt> and <tt>BaseConcept.virtualPackage</tt> properties while hashing.
    */
   public NodeHasher setIncludeBaseConceptProperties(boolean includeBaseConceptProperties) {
     if (includeBaseConceptProperties) {
@@ -100,7 +100,7 @@ public class NodeHasher {
   }
 
   /**
-   * Whether we consider <tt>BaseConcept.smodelAttribute</tt> containment while hashing. 
+   * Whether we consider <tt>BaseConcept.smodelAttribute</tt> containment while hashing.
    */
   public NodeHasher setIncludeAnnotations(boolean includeAnnotations) {
     if (includeAnnotations) {
@@ -112,7 +112,7 @@ public class NodeHasher {
   }
 
   /**
-   * Whether we consider node ids while hashing. 
+   * Whether we consider node ids while hashing.
    */
   public NodeHasher setIncludeNodeIds(boolean includeNodeIds) {
     this.includeNodeIds = includeNodeIds;
@@ -120,7 +120,7 @@ public class NodeHasher {
   }
 
   /**
-   * Whether we enforce boolean properties with value "false" to be present. 
+   * Whether we enforce boolean properties with value "false" to be present.
    */
   public NodeHasher setNormalizeBooleanProperties(boolean normalizeBooleanProperties) {
     this.normalizeBooleanProperties = normalizeBooleanProperties;
@@ -128,7 +128,7 @@ public class NodeHasher {
   }
 
   /**
-   * Excludes given feature from hashing 
+   * Excludes given feature from hashing
    */
   public NodeHasher ignore(SConceptFeature feature) {
     if (feature instanceof SProperty) {
@@ -144,9 +144,9 @@ public class NodeHasher {
   }
 
   /**
-   * Returns the calculated hash of all nodes and their descendants with all configured includes/ignores. 
+   * Returns the calculated hash of all nodes and their descendants with all configured includes/ignores.
    *  
-   * @return The calculated hash. 
+   * @return The calculated hash.
    */
   public int hash() {
     for (SNode node : ListSequence.fromList(nodes)) {
@@ -304,8 +304,8 @@ public class NodeHasher {
   }
 
   /**
-   * We need to normalize the order of features (<i>not</i> feature values), 
-   * as the order depends on insertion order but doesn't carry meaning. 
+   * We need to normalize the order of features (<i>not</i> feature values),
+   * as the order depends on insertion order but doesn't carry meaning.
    */
   private static abstract class FeatureComparator<T extends SConceptFeatureId> {
     protected int compareFeature(T a, T b) {

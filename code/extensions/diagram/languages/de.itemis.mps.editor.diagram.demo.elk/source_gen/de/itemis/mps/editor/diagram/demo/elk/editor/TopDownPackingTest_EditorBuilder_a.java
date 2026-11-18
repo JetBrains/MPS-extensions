@@ -324,7 +324,7 @@ import org.jetbrains.mps.openapi.language.SProperty;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   private NodeArrangementStrategy _StyleParameter_QueryFunction_d1f59g_a0c0() {
     return NodeArrangementStrategy.valueOf(SPropertyOperations.getEnum(SLinkOperations.getTarget(getNode(), LINKS.config$G6cD), PROPS.nodeArrangementStrategy$_4qF).getName());

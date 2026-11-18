@@ -22,8 +22,8 @@ import org.jetbrains.mps.openapi.language.SProperty;
  * 
  * This is just an example how to use the InstancePath abstract class.
  * 
- * It could be helpful to implement some base-language code analyser. But as this is a theoretical option only, 
- * we keep the class here in the test solution until someone actually wants to use it. 
+ * It could be helpful to implement some base-language code analyser. But as this is a theoretical option only,
+ * we keep the class here in the test solution until someone actually wants to use it.
  */
 public class NestedMemberPath extends InstancePath<SNode, SNode, NestedMemberPath> {
 

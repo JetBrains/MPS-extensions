@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -18,7 +17,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
@@ -27,12 +25,10 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class ContextDeclaration__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xbc963c22d41949b6L, 0x8543ea411eb9d3a1L, 0x2ee2064132e13c6dL, "de.q60.mps.polymorphicfunctions.structure.ContextDeclaration");
 
-  public static final SMethod<String> getContextId_id2Vy1$4N2l38 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getContextId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3378269547580182728L).languageId(0x8543ea411eb9d3a1L, 0xbc963c22d41949b6L).build2();
+  public static final SMethod<String> getContextId_id2Vy1$4N2l38 = new SMethodBuilder<>(String.class).name("getContextId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3378269547580182728L).languageId(0x8543ea411eb9d3a1L, 0xbc963c22d41949b6L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getContextId_id2Vy1$4N2l38);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getContextId_id2Vy1$4N2l38);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getContextId_id2Vy1$4N2l38(@NotNull SNode __thisNode__) {
     return SModelOperations.getModelName(SNodeOperations.getModel(__thisNode__)) + "." + IterableUtils.join(ListSequence.fromList(SNodeOperations.getNodeAncestors(__thisNode__, CONCEPTS.INamedConcept$Kd, true)).reversedList().select((it) -> SPropertyOperations.getString(it, PROPS.name$MnvL)), ".");
@@ -41,10 +37,6 @@ public final class ContextDeclaration__BehaviorDescriptor extends BaseBHDescript
   /*package*/ ContextDeclaration__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

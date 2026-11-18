@@ -82,7 +82,7 @@ public class ParameterizedMenuManualTest_TransformationMenu extends Transformati
 
       /**
        * The "myParameterObject" has to be named exactly so, because otherwise,
-       * QueryFunctionParameter_parameterObject will not find it.
+       * QueryFunctionParameter_parameterObject will not find it. 
        */
       private final Integer myParameterObject;
 

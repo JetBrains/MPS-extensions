@@ -111,10 +111,10 @@ public class ILogicalChildResolvingMultipleThreads_Test extends BaseTransformati
       } catch (InterruptedException e) {
         Assert.fail(e.getMessage());
       }
-      Assert.assertEquals(threadNumber, ListSequence.fromList(results).count());
+      Assert.assertEquals(Integer.valueOf(threadNumber), Integer.valueOf(ListSequence.fromList(results).count()));
 
       for (int number : results) {
-        Assert.assertEquals(2, number);
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(number));
       }
     }
 

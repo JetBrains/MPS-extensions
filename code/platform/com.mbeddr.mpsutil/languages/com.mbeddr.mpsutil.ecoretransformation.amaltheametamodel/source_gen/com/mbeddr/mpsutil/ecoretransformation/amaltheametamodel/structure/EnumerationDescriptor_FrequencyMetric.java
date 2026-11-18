@@ -20,7 +20,7 @@ public class EnumerationDescriptor_FrequencyMetric extends EnumerationDescriptor
   private final EnumerationDescriptor.MemberDescriptor myMember_CacheMissFrequency_0 = new EnumerationDescriptor.MemberDescriptor("CacheMissFrequency", "CacheMissFrequency", 0x49b4676c219a8aL, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595449");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219a8bL, 0x49b4676c219a88L, 0x49b4676c219a89L, 0x49b4676c219a8aL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_CacheHitFrequency_0, myMember_CacheMissFrequency_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_CacheHitFrequency_0, myMember_CacheMissFrequency_0);
 
   @Nullable
   @Override

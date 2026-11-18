@@ -21,7 +21,7 @@ public class EnumerationDescriptor_EdgeRouting extends EnumerationDescriptorBase
   private final EnumerationDescriptor.MemberDescriptor myMember_SPLINES_0 = new EnumerationDescriptor.MemberDescriptor("SPLINES", "SPLINES", 0x2e440a78c2259f2fL, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3333801137930608431");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x2e440a78c2259e84L, 0x2e440a78c2259e85L, 0x2e440a78c2259ef2L, 0x2e440a78c2259f2bL, 0x2e440a78c2259f2fL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_UNDEFINED_0, myMember_POLYLINE_0, myMember_ORTHOGONAL_0, myMember_SPLINES_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_UNDEFINED_0, myMember_POLYLINE_0, myMember_ORTHOGONAL_0, myMember_SPLINES_0);
 
   @Nullable
   @Override

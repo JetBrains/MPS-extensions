@@ -76,7 +76,7 @@ public class PathToExpressionTest_Test extends BaseTransformationTest {
       initTestNodes();
       runWithinCommand(() -> {
         NestedMemberPath path = new NestedMemberPath(getAnnotatedNode("root"));
-        Assert.assertEquals(0, path.segmentsSize());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(path.segmentsSize()));
 
         Optional<SNode> result = path.toExpression();
         Assert.assertTrue(result.isEmpty());
@@ -86,7 +86,7 @@ public class PathToExpressionTest_Test extends BaseTransformationTest {
       initTestNodes();
       runWithinCommand(() -> {
         NestedMemberPath path = new NestedMemberPath(getAnnotatedNode("root"), ListSequence.fromListAndArray(new ArrayList<>(), getAnnotatedNode("bStatic")));
-        Assert.assertEquals(1, path.segmentsSize());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(path.segmentsSize()));
 
         Optional<SNode> result = path.toExpression();
         Assert.assertTrue(result.isPresent());
@@ -120,7 +120,7 @@ public class PathToExpressionTest_Test extends BaseTransformationTest {
       initTestNodes();
       runWithinCommand(() -> {
         NestedMemberPath path = new NestedMemberPath(getAnnotatedNode("root"), ListSequence.fromListAndArray(new ArrayList<>(), getAnnotatedNode("bStatic"), getAnnotatedNode("cStatic")));
-        Assert.assertEquals(2, path.segmentsSize());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(path.segmentsSize()));
 
         Optional<SNode> result = path.toExpression();
         Assert.assertTrue(result.isPresent());
@@ -154,7 +154,7 @@ public class PathToExpressionTest_Test extends BaseTransformationTest {
       initTestNodes();
       runWithinCommand(() -> {
         NestedMemberPath path = new NestedMemberPath(getAnnotatedNode("root"), ListSequence.fromListAndArray(new ArrayList<>(), getAnnotatedNode("bStatic"), getAnnotatedNode("cNonStatic")));
-        Assert.assertEquals(2, path.segmentsSize());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(path.segmentsSize()));
 
         Optional<SNode> result = path.toExpression();
         Assert.assertTrue(result.isPresent());
@@ -188,7 +188,7 @@ public class PathToExpressionTest_Test extends BaseTransformationTest {
       initTestNodes();
       runWithinCommand(() -> {
         NestedMemberPath path = new NestedMemberPath(getAnnotatedNode("root"), ListSequence.fromListAndArray(new ArrayList<>(), getAnnotatedNode("bStatic"), getAnnotatedNode("cNonStatic"), getAnnotatedNode("i1")));
-        Assert.assertEquals(3, path.segmentsSize());
+        Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(path.segmentsSize()));
 
         Optional<SNode> result = path.toExpression();
         Assert.assertTrue(result.isPresent());

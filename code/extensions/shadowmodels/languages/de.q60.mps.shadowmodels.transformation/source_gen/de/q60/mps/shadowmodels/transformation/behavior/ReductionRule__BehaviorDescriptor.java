@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -17,7 +16,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -28,19 +26,17 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class ReductionRule__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x94b64715a2634c36L, 0xa1388da14705ffa7L, 0x4890893fd2d7f1c8L, "de.q60.mps.shadowmodels.transformation.structure.ReductionRule");
 
-  public static final SMethod<SNode> getInputConcept_id4ygyjZjb$vD = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getInputConcept").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5228830074596116457L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<String> getInputName_id4ygyjZjb$0P = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getInputName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5228830074596114485L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<String> getTransformationId_id6EAoUhFGeo_ = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getTransformationId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7684939371986871845L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<String> getTransformationName_id6$M6y1e$2UA = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getTransformationName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7580149848877313702L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<String> getMCLocalName_id6$M6y1e$2UQ = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getMCLocalName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7580149848877313718L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<SNode> getContextNodeType_id7X4ppfYluif = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getContextNodeType").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9170566427534812303L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<Iterable<SNode>> getValueDeclarations_id2rBW8JErG8I = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getValueDeclarations").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2803473776785670702L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<Boolean> resolveByName_id6TaAXKMHEDS = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("resolveByName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7947335862494603896L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
+  public static final SMethod<SNode> getInputConcept_id4ygyjZjb$vD = new SMethodBuilder<>(SNode.class).name("getInputConcept").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5228830074596116457L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<String> getInputName_id4ygyjZjb$0P = new SMethodBuilder<>(String.class).name("getInputName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5228830074596114485L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<String> getTransformationId_id6EAoUhFGeo_ = new SMethodBuilder<>(String.class).name("getTransformationId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7684939371986871845L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<String> getTransformationName_id6$M6y1e$2UA = new SMethodBuilder<>(String.class).name("getTransformationName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7580149848877313702L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<String> getMCLocalName_id6$M6y1e$2UQ = new SMethodBuilder<>(String.class).name("getMCLocalName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7580149848877313718L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<SNode> getContextNodeType_id7X4ppfYluif = new SMethodBuilder<>(SNode.class).name("getContextNodeType").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(9170566427534812303L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<Iterable<SNode>> getValueDeclarations_id2rBW8JErG8I = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("getValueDeclarations").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2803473776785670702L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<Boolean> resolveByName_id6TaAXKMHEDS = new SMethodBuilder<>(Boolean.TYPE).name("resolveByName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7947335862494603896L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2(SMethodBuilder.createJavaParameter(SNode.class, "ref"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInputConcept_id4ygyjZjb$vD, getInputName_id4ygyjZjb$0P, getTransformationId_id6EAoUhFGeo_, getTransformationName_id6$M6y1e$2UA, getMCLocalName_id6$M6y1e$2UQ, getContextNodeType_id7X4ppfYluif, getValueDeclarations_id2rBW8JErG8I, resolveByName_id6TaAXKMHEDS);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInputConcept_id4ygyjZjb$vD, getInputName_id4ygyjZjb$0P, getTransformationId_id6EAoUhFGeo_, getTransformationName_id6$M6y1e$2UA, getMCLocalName_id6$M6y1e$2UQ, getContextNodeType_id7X4ppfYluif, getValueDeclarations_id2rBW8JErG8I, resolveByName_id6TaAXKMHEDS);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode getInputConcept_id4ygyjZjb$vD(@NotNull SNode __thisNode__) {
     return SLinkOperations.getTarget(__thisNode__, LINKS.inputConcept$pU$x);
@@ -70,10 +66,6 @@ public final class ReductionRule__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ ReductionRule__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

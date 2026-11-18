@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -15,7 +14,6 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -23,12 +21,10 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class ViewModelDeclaration__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xd0329e8a2ba94fd1L, 0x82a5fa43a426965dL, 0x6d601934c5533abeL, "com.jetbrains.mpsext.viewmodel.structure.ViewModelDeclaration");
 
-  public static final SMethod<String> getRuntimeName_id55VuGTNRv56 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getRuntimeName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5871421566333350214L).languageId(0x82a5fa43a426965dL, 0xd0329e8a2ba94fd1L).build2();
+  public static final SMethod<String> getRuntimeName_id55VuGTNRv56 = new SMethodBuilder<>(String.class).name("getRuntimeName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5871421566333350214L).languageId(0x82a5fa43a426965dL, 0xd0329e8a2ba94fd1L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getRuntimeName_id55VuGTNRv56);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getRuntimeName_id55VuGTNRv56);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getRuntimeName_id55VuGTNRv56(@NotNull SNode __thisNode__) {
     // the name the view model has at runtime; qualified by the model, so view models of different models
@@ -39,10 +35,6 @@ public final class ViewModelDeclaration__BehaviorDescriptor extends BaseBHDescri
   /*package*/ ViewModelDeclaration__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

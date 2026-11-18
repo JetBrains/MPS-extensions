@@ -17,7 +17,7 @@ public class PTree_deleteNodes_Test {
   private SM_PTree tree2;
   @Test
   public void test_size_before() throws Exception {
-    Assert.assertEquals(10, Sequence.fromIterable(tree1.getChildren(SM_PTree.ROOT_ID, "a")).count());
+    Assert.assertEquals(Integer.valueOf(10), Integer.valueOf(Sequence.fromIterable(tree1.getChildren(SM_PTree.ROOT_ID, "a")).count()));
   }
   @Test
   public void test_values_before() throws Exception {
@@ -25,7 +25,7 @@ public class PTree_deleteNodes_Test {
   }
   @Test
   public void test_size_after() throws Exception {
-    Assert.assertEquals(7, Sequence.fromIterable(tree2.getChildren(SM_PTree.ROOT_ID, "a")).count());
+    Assert.assertEquals(Integer.valueOf(7), Integer.valueOf(Sequence.fromIterable(tree2.getChildren(SM_PTree.ROOT_ID, "a")).count()));
   }
   @Test
   public void test_values_after() throws Exception {

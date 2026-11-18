@@ -41,8 +41,8 @@ public class SelectionFromStartRight_Test extends BaseTransformationTest {
       MultilineSelection selection = as_j8jxww_a0a2a3g(getEditorComponent().getSelectionManager().getSelection(), MultilineSelection.class);
       Assert.assertNotNull(selection);
 
-      Assert.assertEquals(new CellAnnotation(34, 33, 34, false).getSelectionStart(), selection.getSelectionStart());
-      Assert.assertEquals(new CellAnnotation(34, 33, 34, false).getSelectionEnd(), selection.getSelectionEnd());
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(34, 33, 34, false).getSelectionStart()), Integer.valueOf(selection.getSelectionStart()));
+      Assert.assertEquals(Integer.valueOf(new CellAnnotation(34, 33, 34, false).getSelectionEnd()), Integer.valueOf(selection.getSelectionEnd()));
 
 
     }

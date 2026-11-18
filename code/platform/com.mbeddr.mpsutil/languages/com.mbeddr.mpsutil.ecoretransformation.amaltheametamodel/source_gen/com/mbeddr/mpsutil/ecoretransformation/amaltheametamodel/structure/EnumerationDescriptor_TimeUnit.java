@@ -23,7 +23,7 @@ public class EnumerationDescriptor_TimeUnit extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_ps_0 = new EnumerationDescriptor.MemberDescriptor("ps", "ps", 0x49b4676c21994bL, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595308");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c21994cL, 0x49b4676c219946L, 0x49b4676c219947L, 0x49b4676c219948L, 0x49b4676c219949L, 0x49b4676c21994aL, 0x49b4676c21994bL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_s_0, myMember_ms_0, myMember_us_0, myMember_ns_0, myMember_ps_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_s_0, myMember_ms_0, myMember_us_0, myMember_ns_0, myMember_ps_0);
 
   @Nullable
   @Override

@@ -455,7 +455,7 @@
       <node id="551453226825222089" at="31,35,32,55" concept="3" />
       <node id="1241673434631004016" at="35,73,36,153" concept="3" />
       <node id="3094641088663194297" at="38,48,39,67" concept="8" />
-      <node id="3094641088663199682" at="40,40,41,101" concept="3" />
+      <node id="3094641088663199682" at="40,40,41,98" concept="3" />
       <node id="551453226825222089" at="47,35,48,53" concept="3" />
       <node id="551453226825222089" at="49,5,50,28" concept="9" />
       <node id="1241673434631026272" at="52,80,53,161" concept="9" />
@@ -479,24 +479,24 @@
       <node id="551453226825222089" at="55,0,58,0" concept="7" trace="disposeUIResources#()V" />
       <node id="551453226825222089" at="58,23,61,5" concept="6" />
       <node id="551453226825222089" at="63,0,66,0" concept="7" trace="reset#(Lcom/intellij/openapi/project/Project;Lde/slisson/mps/editor/multiline/runtime/plugin/MultilineSettingsPage;)V" />
-      <node id="3094641088663246576" at="70,83,73,5" concept="6" />
-      <node id="3094641088663245914" at="76,86,79,5" concept="6" />
-      <node id="3094641088663245328" at="82,89,85,5" concept="6" />
+      <node id="3094641088663246576" at="70,82,73,5" concept="6" />
+      <node id="3094641088663245914" at="76,85,79,5" concept="6" />
+      <node id="3094641088663245328" at="82,88,85,5" concept="6" />
       <node id="551453226825222089" at="66,0,70,0" concept="7" trace="getHelpTopic#()Ljava/lang/String;" />
       <node id="551453226825222089" at="30,0,35,0" concept="7" trace="apply#()V" />
       <node id="551453226825222089" at="58,0,63,0" concept="7" trace="reset#()V" />
       <node id="3094641088663192668" at="37,86,43,7" concept="6" />
       <node id="551453226825222089" at="46,0,52,0" concept="7" trace="createComponent#()Ljavax/swing/JComponent;" />
-      <node id="3094641088663246576" at="70,0,76,0" concept="13" trace="check_6lh1s6_a0a1a0a1a0a#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
-      <node id="3094641088663245914" at="76,0,82,0" concept="13" trace="check_6lh1s6_a0a0b0a0b0a0#(Ljetbrains/mps/openapi/editor/Editor;)Ljetbrains/mps/openapi/editor/EditorComponent;" />
-      <node id="3094641088663245328" at="82,0,88,0" concept="13" trace="check_6lh1s6_a0a0a1a0a1a0a#(Ljetbrains/mps/ide/editor/MPSFileNodeEditor;)Ljetbrains/mps/openapi/editor/Editor;" />
+      <node id="3094641088663246576" at="70,0,76,0" concept="13" trace="check_ck2tfn_a0a1a0a1a7#(Ljetbrains/mps/openapi/editor/EditorComponent;)V" />
+      <node id="3094641088663245914" at="76,0,82,0" concept="13" trace="check_ck2tfn_a0a0b0a0b0h#(Ljetbrains/mps/openapi/editor/Editor;)Ljetbrains/mps/openapi/editor/EditorComponent;" />
+      <node id="3094641088663245328" at="82,0,88,0" concept="13" trace="check_ck2tfn_a0a0a1a0a1a7#(Ljetbrains/mps/ide/editor/MPSFileNodeEditor;)Ljetbrains/mps/openapi/editor/Editor;" />
       <node id="3094641088663180071" at="36,153,44,5" concept="5" />
       <node id="551453226825222089" at="35,0,46,0" concept="7" trace="commit#(Lcom/intellij/openapi/project/Project;Lde/slisson/mps/editor/multiline/runtime/plugin/MultilineSettingsPage;)V" />
       <scope id="551453226825222089" at="21,83,22,34" />
       <scope id="551453226825222089" at="24,25,25,16" />
       <scope id="551453226825222089" at="27,31,28,64" />
       <scope id="551453226825222089" at="31,35,32,55" />
-      <scope id="3094641088663194863" at="40,40,41,101" />
+      <scope id="3094641088663194863" at="40,40,41,98" />
       <scope id="551453226825222089" at="47,35,48,53" />
       <scope id="551453226825222092" at="52,80,53,161" />
       <scope id="551453226825222089" at="55,36,56,28" />
@@ -527,9 +527,9 @@
       </scope>
       <scope id="551453226825222089" at="46,39,50,28" />
       <scope id="551453226825222089" at="66,0,70,0" />
-      <scope id="3094641088663246576" at="70,83,74,0" />
-      <scope id="3094641088663245914" at="76,86,80,16" />
-      <scope id="3094641088663245328" at="82,89,86,16" />
+      <scope id="3094641088663246576" at="70,82,74,0" />
+      <scope id="3094641088663245914" at="76,85,80,16" />
+      <scope id="3094641088663245328" at="82,88,86,16" />
       <scope id="551453226825222089" at="30,0,35,0" />
       <scope id="551453226825222089" at="58,0,63,0" />
       <scope id="3094641088663180073" at="37,86,43,7" />

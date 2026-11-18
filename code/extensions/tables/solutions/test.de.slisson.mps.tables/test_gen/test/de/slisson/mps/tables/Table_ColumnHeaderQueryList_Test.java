@@ -76,7 +76,7 @@ public class Table_ColumnHeaderQueryList_Test extends BaseTransformationTest {
         HeadlessEditorComponent editorComponent = new HeadlessEditorComponent(myProject.getRepository());
         editorComponent.editNode(getAnnotatedNode("table"));
         List<EditorCell_Constant> headers = TestBody.this.columnHeaderCells(editorComponent);
-        Assert.assertEquals(4, ListSequence.fromList(headers).count());
+        Assert.assertEquals(Integer.valueOf(4), Integer.valueOf(ListSequence.fromList(headers).count()));
         // the second "A", adjacent to the first one
         CellAction deleteAction = ListSequence.fromList(headers).getElement(1).getAction(CellActionType.DELETE);
         Assert.assertNotNull(deleteAction);
@@ -91,7 +91,7 @@ public class Table_ColumnHeaderQueryList_Test extends BaseTransformationTest {
         HeadlessEditorComponent editorComponent = new HeadlessEditorComponent(myProject.getRepository());
         editorComponent.editNode(getAnnotatedNode("table"));
         List<EditorCell_Constant> headers = TestBody.this.columnHeaderCells(editorComponent);
-        Assert.assertEquals(4, ListSequence.fromList(headers).count());
+        Assert.assertEquals(Integer.valueOf(4), Integer.valueOf(ListSequence.fromList(headers).count()));
         // the third "A", separated from the others by "B"
         CellAction deleteAction = ListSequence.fromList(headers).getElement(3).getAction(CellActionType.DELETE);
         Assert.assertNotNull(deleteAction);

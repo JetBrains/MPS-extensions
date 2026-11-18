@@ -20,7 +20,7 @@ public class EnumerationDescriptor_PinType extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_DIGITAL_0 = new EnumerationDescriptor.MemberDescriptor("DIGITAL", "DIGITAL", 0x49b4676c219b1dL, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595514");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219b1eL, 0x49b4676c219b1bL, 0x49b4676c219b1cL, 0x49b4676c219b1dL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_ANALOG_0, myMember_DIGITAL_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_ANALOG_0, myMember_DIGITAL_0);
 
   @Nullable
   @Override

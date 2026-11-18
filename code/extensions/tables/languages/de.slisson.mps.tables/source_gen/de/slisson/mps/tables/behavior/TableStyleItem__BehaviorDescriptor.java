@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
@@ -18,7 +17,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -28,13 +26,11 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class TableStyleItem__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x348a598ce563f5d5L, "de.slisson.mps.tables.structure.TableStyleItem");
 
-  public static final SMethod<String> getStyleAttributeFieldName_id3iamoN_I99b = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getStyleAttributeFieldName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3785936898442695243L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
-  public static final SMethod<SNode> getStyleAttributeDeclaration_id7gJCdy_Ukx_ = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getStyleAttributeDeclaration").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8372087084661950565L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
+  public static final SMethod<String> getStyleAttributeFieldName_id3iamoN_I99b = new SMethodBuilder<>(String.class).name("getStyleAttributeFieldName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(3785936898442695243L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
+  public static final SMethod<SNode> getStyleAttributeDeclaration_id7gJCdy_Ukx_ = new SMethodBuilder<>(SNode.class).name("getStyleAttributeDeclaration").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(8372087084661950565L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStyleAttributeFieldName_id3iamoN_I99b, getStyleAttributeDeclaration_id7gJCdy_Ukx_);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getStyleAttributeFieldName_id3iamoN_I99b, getStyleAttributeDeclaration_id7gJCdy_Ukx_);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String getStyleAttributeFieldName_id3iamoN_I99b(@NotNull SNode __thisNode__) {
     return SConceptOperations.conceptAlias(SNodeOperations.getConcept(__thisNode__));
@@ -63,10 +59,6 @@ public final class TableStyleItem__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ TableStyleItem__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

@@ -50,7 +50,7 @@ public class TestingMergingRunner {
 
   public static SNode rootOf(SNode me) {
     List<SNode> roots = rootsOfMergedModel(me);
-    Assert.assertEquals("Found more than one root: " + ListSequence.fromList(roots).select((it) -> it.getPresentation()), 1, ListSequence.fromList(roots).count());
+    Assert.assertEquals("Found more than one root: " + ListSequence.fromList(roots).select((it) -> it.getPresentation()), Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(roots).count()));
     return ListSequence.fromList(roots).getElement(0);
   }
 

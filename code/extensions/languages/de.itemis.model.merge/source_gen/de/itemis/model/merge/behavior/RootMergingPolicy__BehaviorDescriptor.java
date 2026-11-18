@@ -26,7 +26,7 @@ public final class RootMergingPolicy__BehaviorDescriptor extends BaseBHDescripto
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x539e893908ef497cL, 0xa5fd25dd10137a55L, 0x732319fb4b32eae2L, "de.itemis.model.merge.structure.RootMergingPolicy");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SLinkOperations.setTarget(__thisNode__, LINKS.existingInBothSides$HAOr, createSubPolicyContainer_du53za_a0a0a(SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x539e893908ef497cL, 0xa5fd25dd10137a55L, 0x1ed6b4fde1bea6deL, "de.itemis.model.merge.structure.SubPolicy"), 0x1ed6b4fde1bea6e3L, "ElementOnBoth")));

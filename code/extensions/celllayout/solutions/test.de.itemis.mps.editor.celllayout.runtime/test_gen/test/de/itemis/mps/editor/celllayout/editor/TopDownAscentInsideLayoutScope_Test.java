@@ -54,7 +54,7 @@ public class TopDownAscentInsideLayoutScope_Test extends BaseTransformationTest 
       Assert.assertTrue("ascent fixture control failed", ascentOutside > 0);
       final int[] ascentInside = new int[1];
       LayoutWatchdog.enter(LayoutWatchdog.DEFAULT_MAX_LAYOUTING_OPERATIONS, () -> ascentInside[0] = layout.getAscent(cell));
-      Assert.assertEquals("ascent queried during a layout differs", ascentOutside, ascentInside[0]);
+      Assert.assertEquals("ascent queried during a layout differs", Integer.valueOf(ascentOutside), Integer.valueOf(ascentInside[0]));
     }
   }
 }

@@ -58,7 +58,7 @@ public class TestMissingReference_Test extends BaseTransformationTest {
 
         Iterable<MissingReferenceDifference> missingReferenceDifferences = ListSequence.fromList(differences).ofType(MissingReferenceDifference.class);
 
-        Assert.assertEquals(1, Sequence.fromIterable(missingReferenceDifferences).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(Sequence.fromIterable(missingReferenceDifferences).count()));
         MissingReferenceDifference difference = Sequence.fromIterable(missingReferenceDifferences).first();
         Assert.assertEquals("variableDeclaration", difference.getLink());
         Assert.assertFalse(difference.isMissingInExpected());
@@ -73,7 +73,7 @@ public class TestMissingReference_Test extends BaseTransformationTest {
 
         Iterable<MissingReferenceDifference> missingReferenceDifferences = ListSequence.fromList(differences).ofType(MissingReferenceDifference.class);
 
-        Assert.assertEquals(1, Sequence.fromIterable(missingReferenceDifferences).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(Sequence.fromIterable(missingReferenceDifferences).count()));
         MissingReferenceDifference difference = Sequence.fromIterable(missingReferenceDifferences).first();
         Assert.assertEquals("variableDeclaration", difference.getLink());
         Assert.assertTrue(difference.isMissingInExpected());

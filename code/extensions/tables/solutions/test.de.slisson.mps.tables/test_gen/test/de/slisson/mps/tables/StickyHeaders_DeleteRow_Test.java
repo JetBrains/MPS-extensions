@@ -40,14 +40,14 @@ public class StickyHeaders_DeleteRow_Test extends BaseTransformationTest {
       initEditorComponent("6525704942445736400", "6525704942445736411");
       // the table registers one painter for all of its sticky cells
       List<StickyHeaderPainter> painters = StickyHeadersTestUtil.getPainters(getEditorComponent());
-      Assert.assertEquals(1, ListSequence.fromList(painters).count());
+      Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(painters).count()));
       Assert.assertEquals(FindTableEditor.getTableEditor(getEditorComponent()), ListSequence.fromList(painters).first().getItem());
 
       invokeAction("de.slisson.mps.tables.runtime.plugin.DeleteTableRow_Action");
 
       // the painter of the old table (which still knows the deleted row) is gone, the new table has its own
       painters = StickyHeadersTestUtil.getPainters(getEditorComponent());
-      Assert.assertEquals(1, ListSequence.fromList(painters).count());
+      Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(painters).count()));
       Assert.assertEquals(FindTableEditor.getTableEditor(getEditorComponent()), ListSequence.fromList(painters).first().getItem());
       Assert.assertTrue(ListSequence.fromList(painters).first().getItem().isInTree());
     }

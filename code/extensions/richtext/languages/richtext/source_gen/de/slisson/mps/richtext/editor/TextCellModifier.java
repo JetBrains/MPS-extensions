@@ -47,7 +47,7 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public class TextCellModifier {
   /**
-   * Wires up the editor behaviour of a Text like copy/paste of the whole text, the per-word actions, the wrapping layout, 
+   * Wires up the editor behaviour of a Text like copy/paste of the whole text, the per-word actions, the wrapping layout,
    * shift selection and the line/text navigation actions. The per-word part lives in modifyWordList() so that other concepts that contain words
    * can reuse it without repeating the Text-level actions.
    * 
@@ -69,9 +69,9 @@ public class TextCellModifier {
   }
 
   /**
-   * Wires up a list of word cells i.e the cell that renders a 'words' link. This is used by Text and by any concept that holds IWords in 
-   * its own link (for example a styled Span that wraps words) so that those words behave like words in a Text like per-word selection, 
-   * delete, paste and substitute actions. It deliberately contains nothing that applies to a whole Text (copy/paste of all text, Home/End, 
+   * Wires up a list of word cells i.e the cell that renders a 'words' link. This is used by Text and by any concept that holds IWords in
+   * its own link (for example a styled Span that wraps words) so that those words behave like words in a Text like per-word selection,
+   * delete, paste and substitute actions. It deliberately contains nothing that applies to a whole Text (copy/paste of all text, Home/End,
    * select all, ...). Also, modify() installs those once on the Text cell so that they are found by walking up from the word cells.
    * 
    * @param cell the collection cell that holds one cell per IWord

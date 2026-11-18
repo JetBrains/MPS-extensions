@@ -48,8 +48,8 @@ public class OneSidedBorderIsDetectedOnItsSide_Test extends BaseTransformationTe
       EditorCell leaf = editorComponent.findCellWithId(editorComponent.getEditedNode(), "Constant_lb074b_a0a");
       StyleAttribute<Integer> rightBorderSize = StyleAttributes.getInstance().getAttribute("de.itemis.mps.editor.celllayout.styles", "_border-right-size");
       leaf.getStyle().set(rightBorderSize, 2);
-      Assert.assertEquals("right border size of the leaf is not 2", 2, (int) LayoutStylesUtil.getRightBorderSize(leaf));
-      Assert.assertEquals("leaf has a left border", 0, (int) LayoutStylesUtil.getLeftBorderSize(leaf));
+      Assert.assertEquals("right border size of the leaf is not 2", Integer.valueOf(2), Integer.valueOf((int) LayoutStylesUtil.getRightBorderSize(leaf)));
+      Assert.assertEquals("leaf has a left border", Integer.valueOf(0), Integer.valueOf((int) LayoutStylesUtil.getLeftBorderSize(leaf)));
       final AbstractLayoutableAdapter adapter = (AbstractLayoutableAdapter) LayoutableAdapters.getAdapter(leaf);
       ThreadUtils.runInUIThreadAndWait(() -> adapter.readSyncAll());
       Assert.assertTrue("right border control failed", adapter.hasBorder(false));

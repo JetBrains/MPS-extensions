@@ -49,12 +49,12 @@ public class LayoutableAdapterVerticalGrowThenShrink_Test extends BaseTransforma
       int originalTopPadding = boxModel.getAdditionalPadding().getTopSize();
       int originalBottomPadding = boxModel.getAdditionalPadding().getBottomSize();
       adapter.setSize(originalWidth, originalHeight + 20);
-      Assert.assertEquals("vertical growth control failed", originalHeight + 20, adapter.getHeight());
+      Assert.assertEquals("vertical growth control failed", Integer.valueOf(originalHeight + 20), Integer.valueOf(adapter.getHeight()));
       adapter.setSize(originalWidth, originalHeight);
-      Assert.assertEquals("vertical shrink did not restore height", originalHeight, adapter.getHeight());
-      Assert.assertEquals("vertical shrink left top padding", originalTopPadding, boxModel.getAdditionalPadding().getTopSize());
-      Assert.assertEquals("vertical shrink left bottom padding", originalBottomPadding, boxModel.getAdditionalPadding().getBottomSize());
-      Assert.assertEquals("vertical shrink moved the content", originalContentY, boxModel.getContentBox().getY());
+      Assert.assertEquals("vertical shrink did not restore height", Integer.valueOf(originalHeight), Integer.valueOf(adapter.getHeight()));
+      Assert.assertEquals("vertical shrink left top padding", Integer.valueOf(originalTopPadding), Integer.valueOf(boxModel.getAdditionalPadding().getTopSize()));
+      Assert.assertEquals("vertical shrink left bottom padding", Integer.valueOf(originalBottomPadding), Integer.valueOf(boxModel.getAdditionalPadding().getBottomSize()));
+      Assert.assertEquals("vertical shrink moved the content", Integer.valueOf(originalContentY), Integer.valueOf(boxModel.getContentBox().getY()));
     }
   }
 }

@@ -25,7 +25,7 @@ public class EnumerationDescriptor_CountMetric extends EnumerationDescriptorBase
   private final EnumerationDescriptor.MemberDescriptor myMember_Preemptions_0 = new EnumerationDescriptor.MemberDescriptor("Preemptions", "Preemptions", 0x49b4676c219a74L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595444");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219a75L, 0x49b4676c219a6dL, 0x49b4676c219a6eL, 0x49b4676c219a6fL, 0x49b4676c219a70L, 0x49b4676c219a71L, 0x49b4676c219a72L, 0x49b4676c219a73L, 0x49b4676c219a74L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_Activations_0, myMember_BoundedMigrations_0, myMember_CacheHit_0, myMember_CacheMiss_0, myMember_FullMigrations_0, myMember_MtaLimitExceeding_0, myMember_Preemptions_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_Activations_0, myMember_BoundedMigrations_0, myMember_CacheHit_0, myMember_CacheMiss_0, myMember_FullMigrations_0, myMember_MtaLimitExceeding_0, myMember_Preemptions_0);
 
   @Nullable
   @Override

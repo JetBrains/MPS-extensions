@@ -28,7 +28,7 @@ public final class ForceLayoutConfig__BehaviorDescriptor extends BaseBHDescripto
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f3e507ddL, "de.itemis.mps.editor.diagram.structure.ForceLayoutConfig");
 
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.aspectRatio$nXOC, new BigDecimal(ForceOptions.ASPECT_RATIO.getDefault()).setScale(1, RoundingMode.HALF_UP).toString());

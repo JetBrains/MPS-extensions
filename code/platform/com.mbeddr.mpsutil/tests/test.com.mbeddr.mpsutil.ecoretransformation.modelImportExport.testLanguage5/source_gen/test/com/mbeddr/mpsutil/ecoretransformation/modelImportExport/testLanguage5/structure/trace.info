@@ -12,7 +12,7 @@
       <unit at="11,0,37,0" name="test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage5.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,30,0" name="test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage5.structure.LanguageConceptSwitch" />
+      <unit at="12,0,38,0" name="test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage5.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="15,0,70,0" name="test.com.mbeddr.mpsutil.ecoretransformation.modelImportExport.testLanguage5.structure.StructureAspectDescriptor" />
@@ -32,8 +32,8 @@
       <scope id="3289023490928248245" at="20,44,26,32" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="3289023490928248245" at="12,0,13,0" concept="5" trace="testClass1" />
-      <node id="3289023490928248245" at="16,116,17,49" concept="0" />
+      <node id="3289023490928248245" at="14,0,15,0" concept="5" trace="testClass1" />
+      <node id="3289023490928248245" at="18,116,19,49" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="3289023490928248245" at="16,0,17,0" concept="1" trace="myConcepttestClass1" />
@@ -65,8 +65,8 @@
       <scope id="3289023490928248247" at="27,48,32,36" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="3289023490928248247" at="13,0,14,0" concept="5" trace="testInterface1" />
-      <node id="3289023490928248247" at="17,49,18,53" concept="0" />
+      <node id="3289023490928248247" at="15,0,16,0" concept="5" trace="testInterface1" />
+      <node id="3289023490928248247" at="19,49,20,53" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="3289023490928248247" at="17,0,18,0" concept="1" trace="myConcepttestInterface1" />

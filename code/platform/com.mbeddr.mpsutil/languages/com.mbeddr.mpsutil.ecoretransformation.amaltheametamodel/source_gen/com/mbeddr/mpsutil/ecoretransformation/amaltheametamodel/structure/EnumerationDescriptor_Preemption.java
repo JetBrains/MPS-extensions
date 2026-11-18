@@ -21,7 +21,7 @@ public class EnumerationDescriptor_Preemption extends EnumerationDescriptorBase 
   private final EnumerationDescriptor.MemberDescriptor myMember_unknown_0 = new EnumerationDescriptor.MemberDescriptor("unknown", "unknown", 0x49b4676c219c45L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595292");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219c46L, 0x49b4676c219c42L, 0x49b4676c219c43L, 0x49b4676c219c44L, 0x49b4676c219c45L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_cooperative_0, myMember_preemptive_0, myMember_unknown_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_cooperative_0, myMember_preemptive_0, myMember_unknown_0);
 
   @Nullable
   @Override

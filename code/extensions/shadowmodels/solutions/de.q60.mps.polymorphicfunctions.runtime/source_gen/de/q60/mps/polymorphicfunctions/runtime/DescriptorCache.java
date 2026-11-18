@@ -5,22 +5,19 @@ package de.q60.mps.polymorphicfunctions.runtime;
 import jetbrains.mps.logging.Logger;
 import java.util.Map;
 import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
-import org.jetbrains.mps.openapi.module.SModule;
+import org.jetbrains.mps.openapi.module.SModuleReference;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import jetbrains.mps.classloading.DeployListener;
-import jetbrains.mps.classloading.ClassLoaderManager;
-import com.intellij.openapi.application.ApplicationManager;
-import jetbrains.mps.ide.MPSCoreComponents;
-import org.jetbrains.annotations.Nullable;
-import java.util.Set;
-import jetbrains.mps.module.ReloadableModule;
+import jetbrains.mps.smodel.runtime.ModuleDeploymentListener;
+import jetbrains.mps.smodel.language.LanguageRegistry;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.mps.openapi.util.ProgressMonitor;
+import org.jetbrains.annotations.Nullable;
+import org.jetbrains.mps.openapi.module.SModule;
+import jetbrains.mps.smodel.runtime.ModuleDeploymentChange;
 import jetbrains.mps.baseLanguage.tuples.runtime.MultiTuple;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.stream.Stream;
 import java.lang.reflect.Field;
-import jetbrains.mps.classloading.ModuleClassNotFoundException;
-import jetbrains.mps.module.ModuleClassLoaderIsNullException;
 
 public class DescriptorCache {
   private static final Logger LOG = Logger.getLogger(DescriptorCache.class);
@@ -31,9 +28,17 @@ public class DescriptorCache {
     return INSTANCE;
   }
 
-  private Map<Tuples._2<SModule, String>, PFDescriptor> loadedDescriptors = MapSequence.fromMap(new HashMap<Tuples._2<SModule, String>, PFDescriptor>());
+  private Map<Tuples._2<SModuleReference, String>, PFDescriptor> loadedDescriptors = MapSequence.fromMap(new HashMap<>());
 
-  private DeployListener deployListener = null;
+  private ModuleDeploymentListener deployListener = null;
+  private LanguageRegistry languageRegistry;
+
+  public void init(@NotNull LanguageRegistry languageRegistry) {
+    if (this.languageRegistry != null) {
+      throw new IllegalStateException("Already initialized");
+    }
+    this.languageRegistry = languageRegistry;
+  }
 
   public void invalidate() {
     if (LOG.isDebugLevel()) {
@@ -44,82 +49,75 @@ public class DescriptorCache {
 
   public void dispose() {
     if (deployListener != null) {
-      ClassLoaderManager classLoaderManager = ApplicationManager.getApplication().getComponent(MPSCoreComponents.class).getClassLoaderManager();
-      classLoaderManager.removeListener(deployListener);
+      languageRegistry.removeRegistryListener(deployListener);
+      deployListener = null;
     }
     loadedDescriptors = null;
+    languageRegistry = null;
   }
 
   @Nullable
   public PFDescriptor getDescriptor(@Nullable SModule module, String modelName) {
     PFDescriptor descriptor = getDescriptor_(module, modelName);
     if (descriptor != null) {
-      if (deployListener == null) {
-        deployListener = new DeployListener() {
-          public void onUnloaded(Set<ReloadableModule> modules, @NotNull ProgressMonitor p1) {
-            invalidate();
-          }
-          public void onLoaded(Set<ReloadableModule> modules, @NotNull ProgressMonitor p1) {
+      if (deployListener == null && languageRegistry != null) {
+        deployListener = new ModuleDeploymentListener() {
+          @Override
+          public void deploymentStateChanged(@NotNull ModuleDeploymentChange change) {
             invalidate();
           }
         };
-        // The non deprecated API doesn't work when executing tests from the command line, because getApplication returns NULL.
-        ClassLoaderManager classLoaderManager = ClassLoaderManager.getInstance();
-        classLoaderManager.addListener(deployListener);
+        languageRegistry.addRegistryListener(deployListener);
       }
     }
     return descriptor;
   }
 
   protected PFDescriptor getDescriptor_(@Nullable SModule module, String modelName) {
-    if (module == null) {
+    if (module == null || languageRegistry == null) {
       return null;
     }
-    if (!(module instanceof ReloadableModule)) {
-      return null;
+    final SModuleReference mref = module.getModuleReference();
+    if (MapSequence.fromMap(loadedDescriptors).containsKey(MultiTuple.<SModuleReference,String>from(mref, modelName))) {
+      return MapSequence.fromMap(loadedDescriptors).get(MultiTuple.<SModuleReference,String>from(mref, modelName));
     }
-    if (MapSequence.fromMap(loadedDescriptors).containsKey(MultiTuple.<SModule,String>from(module, modelName))) {
-      return MapSequence.fromMap(loadedDescriptors).get(MultiTuple.<SModule,String>from(module, modelName));
-    }
-    PFDescriptor descriptor = getDescriptor__((ReloadableModule) module, modelName);
-    MapSequence.fromMap(loadedDescriptors).put(MultiTuple.<SModule,String>from(module, modelName), descriptor);
+    PFDescriptor descriptor = getDescriptor__(mref, modelName);
+    MapSequence.fromMap(loadedDescriptors).put(MultiTuple.<SModuleReference,String>from(mref, modelName), descriptor);
     return descriptor;
   }
 
-  protected PFDescriptor getDescriptor__(ReloadableModule module, String modelName) {
-    String modelFQName = module.getModuleName() + "." + modelName;
-    String className = modelFQName + ".PolymorphicFunctionsDescriptor";
-    try {
-      Class cls = module.getOwnClass(className);
-      Field instanceField = cls.getDeclaredField("INSTANCE");
-      PFDescriptor descriptor = as_8t64d5_a0a2a2a81(instanceField.get(null), PFDescriptor.class);
-      if (LOG.isDebugLevel()) {
-        LOG.debug("Loaded descriptor from " + modelFQName);
+  protected PFDescriptor getDescriptor__(SModuleReference module, String modelName) {
+    final String modelFQName = module.getModuleName() + "." + modelName;
+    final String className = modelFQName + ".PolymorphicFunctionsDescriptor";
+    final AtomicReference<PFDescriptor> rv = new AtomicReference<>();
+    languageRegistry.withModuleRuntime(Stream.of(module), (mr) -> {
+      try {
+        Class<?> cls = mr.getOwnClass(className);
+        Field instanceField = (cls == null ? null : cls.getDeclaredField("INSTANCE"));
+        if (instanceField != null) {
+          PFDescriptor descriptor = as_8t64d5_a0a0a2a0a1a0d0v(instanceField.get(null), PFDescriptor.class);
+          if (LOG.isDebugLevel()) {
+            LOG.debug("Loaded descriptor from " + modelFQName);
+          }
+          rv.set(descriptor);
+        }
+        return;
+      } catch (ClassNotFoundException e) {
+        // ignore, it's fine
+        return;
+      } catch (NoClassDefFoundError e) {
+        if (LOG.isErrorLevel()) {
+          LOG.error("Failed to load class " + className, e);
+        }
+      } catch (Exception e) {
+        if (LOG.isErrorLevel()) {
+          LOG.error("", e);
+        }
       }
-      return descriptor;
-    } catch (ModuleClassNotFoundException e) {
-      return null;
-    } catch (IllegalStateException ex) {
-      // Module is not part of the repository anymore
-      return null;
-    } catch (ModuleClassLoaderIsNullException e) {
-      return null;
-    } catch (ClassNotFoundException e) {
-      return null;
-    } catch (NoClassDefFoundError e) {
-      if (LOG.isErrorLevel()) {
-        LOG.error("Failed to load class " + className, e);
-      }
-      return null;
-    } catch (Exception e) {
-      if (LOG.isErrorLevel()) {
-        LOG.error("", e);
-      }
-      return null;
-    }
+    });
+    return rv.get();
   }
-
-  private static <T> T as_8t64d5_a0a2a2a81(Object o, Class<T> type) {
+  private static <T> T as_8t64d5_a0a0a2a0a1a0d0v(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
 }

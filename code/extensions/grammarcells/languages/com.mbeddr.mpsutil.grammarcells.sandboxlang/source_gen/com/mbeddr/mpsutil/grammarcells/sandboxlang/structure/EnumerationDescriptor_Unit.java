@@ -20,7 +20,7 @@ public class EnumerationDescriptor_Unit extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_kg_0 = new EnumerationDescriptor.MemberDescriptor("kg", "kg", 0x3c189f5500d02ab2L, "r:ad27d4b4-fc2c-4b6d-9e22-455eb0ccf354(com.mbeddr.mpsutil.grammarcells.sandboxlang.structure)/9167550852342474502");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xa257f68c93a347b0L, 0x838b6905dd9c20f6L, 0x3c189f5500d02aabL, 0x3c189f5500d02aacL, 0x3c189f5500d02aadL, 0x3c189f5500d02ab2L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_m_0, myMember_s_0, myMember_kg_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_m_0, myMember_s_0, myMember_kg_0);
 
   @Nullable
   @Override

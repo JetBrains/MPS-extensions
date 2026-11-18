@@ -7,27 +7,23 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class ISingleInputRule__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0x94b64715a2634c36L, 0xa1388da14705ffa7L, 0x4890893fd32e2f74L, "de.q60.mps.shadowmodels.transformation.structure.ISingleInputRule");
 
-  public static final SMethod<String> getInputName_id4ygyjZjb$0P = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getInputName").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5228830074596114485L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<SNode> getInputConcept_id4ygyjZjb$vD = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getInputConcept").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5228830074596116457L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
-  public static final SMethod<Boolean> resolveByName_id6TaAXKMHEDS = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("resolveByName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7947335862494603896L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
+  public static final SMethod<String> getInputName_id4ygyjZjb$0P = new SMethodBuilder<>(String.class).name("getInputName").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5228830074596114485L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<SNode> getInputConcept_id4ygyjZjb$vD = new SMethodBuilder<>(SNode.class).name("getInputConcept").modifiers(12, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5228830074596116457L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<Boolean> resolveByName_id6TaAXKMHEDS = new SMethodBuilder<>(Boolean.TYPE).name("resolveByName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(7947335862494603896L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2(SMethodBuilder.createJavaParameter(SNode.class, "ref"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInputName_id4ygyjZjb$0P, getInputConcept_id4ygyjZjb$vD, resolveByName_id6TaAXKMHEDS);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getInputName_id4ygyjZjb$0P, getInputConcept_id4ygyjZjb$vD, resolveByName_id6TaAXKMHEDS);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static boolean resolveByName_id6TaAXKMHEDS(@NotNull SNode __thisNode__, SNode ref) {
     return true;
@@ -36,10 +32,6 @@ public final class ISingleInputRule__BehaviorDescriptor extends BaseBHDescriptor
   /*package*/ ISingleInputRule__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

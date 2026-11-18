@@ -20,7 +20,7 @@ public class EnumerationDescriptor_EdgeRoutingMode extends EnumerationDescriptor
   private final EnumerationDescriptor.MemberDescriptor myMember_AVOID_OVERLAP_0 = new EnumerationDescriptor.MemberDescriptor("AVOID_OVERLAP", "AVOID_OVERLAP", 0x6a0cd762ababb60L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/477607467907988320");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x6a0cd762ababb4eL, 0x6a0cd762ababb4fL, 0x6a0cd762ababb5cL, 0x6a0cd762ababb60L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_NONE_0, myMember_MIDDLE_TO_MIDDLE_0, myMember_AVOID_OVERLAP_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_NONE_0, myMember_MIDDLE_TO_MIDDLE_0, myMember_AVOID_OVERLAP_0);
 
   @Nullable
   @Override

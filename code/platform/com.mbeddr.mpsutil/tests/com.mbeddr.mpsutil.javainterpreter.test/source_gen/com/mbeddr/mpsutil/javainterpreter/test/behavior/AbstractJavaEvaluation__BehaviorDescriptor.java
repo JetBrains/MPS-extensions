@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import com.mbeddr.mpsutil.interpreter.rt.IInterpreter;
 import java.util.List;
@@ -21,7 +20,6 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import com.mbeddr.mpsutil.interpreter.rt.InterpreterRegistry;
 import jetbrains.mps.lang.core.behavior.BaseConcept__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -29,15 +27,13 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class AbstractJavaEvaluation__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x2a99790ca7e4470fL, 0x9488b37851ebf826L, 0x1ec25d0cd19d6470L, "com.mbeddr.mpsutil.javainterpreter.test.structure.AbstractJavaEvaluation");
 
-  public static final SMethod<Object> getExpected_id65E6xpGSh8P = new SMethodBuilder<Object>(new SJavaCompoundTypeImpl(Object.class)).name("getExpected").modifiers(8, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(7019451652828631605L).languageId(0xac7f0306495743acL, 0x1c897ba59d434035L).build2();
-  public static final SMethod<String> getInvalidMessage_id5Gh6GqGJOLf = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getInvalidMessage").modifiers(8, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(6562055572659588175L).languageId(0xac7f0306495743acL, 0x1c897ba59d434035L).build2(SMethodBuilder.createJavaParameter(Object.class, ""), SMethodBuilder.createJavaParameter(Object.class, ""));
-  public static final SMethod<IInterpreter> getInterpreter_id65E6xpGShbD = new SMethodBuilder<IInterpreter>(new SJavaCompoundTypeImpl(IInterpreter.class)).name("getInterpreter").modifiers(8, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(7019451652828631785L).languageId(0xac7f0306495743acL, 0x1c897ba59d434035L).build2();
-  public static final SMethod<String> getNodeRendering_id65E6xpGVdh9 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getNodeRendering").modifiers(8, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(7019451652829402185L).languageId(0xac7f0306495743acL, 0x1c897ba59d434035L).build2();
+  public static final SMethod<Object> getExpected_id65E6xpGSh8P = new SMethodBuilder<>(Object.class).name("getExpected").modifiers(8, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(7019451652828631605L).languageId(0xac7f0306495743acL, 0x1c897ba59d434035L).build2();
+  public static final SMethod<String> getInvalidMessage_id5Gh6GqGJOLf = new SMethodBuilder<>(String.class).name("getInvalidMessage").modifiers(8, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(6562055572659588175L).languageId(0xac7f0306495743acL, 0x1c897ba59d434035L).build2(SMethodBuilder.createJavaParameter(Object.class, "expected"), SMethodBuilder.createJavaParameter(Object.class, "actual"));
+  public static final SMethod<IInterpreter> getInterpreter_id65E6xpGShbD = new SMethodBuilder<>(IInterpreter.class).name("getInterpreter").modifiers(8, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(7019451652828631785L).languageId(0xac7f0306495743acL, 0x1c897ba59d434035L).build2();
+  public static final SMethod<String> getNodeRendering_id65E6xpGVdh9 = new SMethodBuilder<>(String.class).name("getNodeRendering").modifiers(8, AccessPrivileges.PROTECTED).concept(CONCEPT).baseMethodId(7019451652829402185L).languageId(0xac7f0306495743acL, 0x1c897ba59d434035L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getExpected_id65E6xpGSh8P, getInvalidMessage_id5Gh6GqGJOLf, getInterpreter_id65E6xpGShbD, getNodeRendering_id65E6xpGVdh9);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getExpected_id65E6xpGSh8P, getInvalidMessage_id5Gh6GqGJOLf, getInterpreter_id65E6xpGShbD, getNodeRendering_id65E6xpGVdh9);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static Object getExpected_id65E6xpGSh8P(@NotNull SNode __thisNode__) {
     if ((SLinkOperations.getTarget(__thisNode__, LINKS.expression$Kz2E) != null)) {
@@ -69,10 +65,6 @@ public final class AbstractJavaEvaluation__BehaviorDescriptor extends BaseBHDesc
   /*package*/ AbstractJavaEvaluation__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

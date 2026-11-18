@@ -29,7 +29,7 @@ public class EnumerationDescriptor_Month extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_December_0 = new EnumerationDescriptor.MemberDescriptor("December", "December", 0xd5813f148b909e1L, "r:86cc19c0-126f-473b-92c6-29dba75c1e89(de.itemis.mps.changelog.structure)/961540447471733217");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x638c9345261349dcL, 0xb2ae8ceadef24141L, 0xd5813f148b90994L, 0xd5813f148b90995L, 0xd5813f148b90996L, 0xd5813f148b90999L, 0xd5813f148b9099dL, 0xd5813f148b909a2L, 0xd5813f148b909a8L, 0xd5813f148b909afL, 0xd5813f148b909b7L, 0xd5813f148b909c0L, 0xd5813f148b909caL, 0xd5813f148b909d5L, 0xd5813f148b909e1L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_January_0, myMember_February_0, myMember_March_0, myMember_April_0, myMember_May_0, myMember_June_0, myMember_July_0, myMember_August_0, myMember_September_0, myMember_October_0, myMember_November_0, myMember_December_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_January_0, myMember_February_0, myMember_March_0, myMember_April_0, myMember_May_0, myMember_June_0, myMember_July_0, myMember_August_0, myMember_September_0, myMember_October_0, myMember_November_0, myMember_December_0);
 
   @Nullable
   @Override

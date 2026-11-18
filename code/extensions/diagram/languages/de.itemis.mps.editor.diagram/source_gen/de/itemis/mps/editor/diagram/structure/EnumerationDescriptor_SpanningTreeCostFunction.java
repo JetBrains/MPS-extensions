@@ -22,7 +22,7 @@ public class EnumerationDescriptor_SpanningTreeCostFunction extends EnumerationD
   private final EnumerationDescriptor.MemberDescriptor myMember_MINIMUM_ROOT_DISTANCE_0 = new EnumerationDescriptor.MemberDescriptor("MINIMUM_ROOT_DISTANCE", "MINIMUM_ROOT_DISTANCE", 0x32d28aa5f363dc20L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892363279392");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f363dc0dL, 0x32d28aa5f363dc0eL, 0x32d28aa5f363dc10L, 0x32d28aa5f363dc15L, 0x32d28aa5f363dc1aL, 0x32d28aa5f363dc20L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_CENTER_DISTANCE_0, myMember_CIRCLE_UNDERLAP_0, myMember_RECTANGLE_UNDERLAP_0, myMember_INVERTED_OVERLAP_0, myMember_MINIMUM_ROOT_DISTANCE_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_CENTER_DISTANCE_0, myMember_CIRCLE_UNDERLAP_0, myMember_RECTANGLE_UNDERLAP_0, myMember_INVERTED_OVERLAP_0, myMember_MINIMUM_ROOT_DISTANCE_0);
 
   @Nullable
   @Override

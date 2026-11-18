@@ -7,14 +7,12 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -22,12 +20,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class DispatchExpression__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x63e0e5665131447eL, 0x90e312ea330e1a00L, 0x531bc1585b6ba16L, "com.mbeddr.mpsutil.blutil.structure.DispatchExpression");
 
-  public static final SMethod<String> methodName_idkLJ1m5HQoK = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("methodName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(374287044672185904L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
+  public static final SMethod<String> methodName_idkLJ1m5HQoK = new SMethodBuilder<>(String.class).name("methodName").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(374287044672185904L).languageId(0x90e312ea330e1a00L, 0x63e0e5665131447eL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(methodName_idkLJ1m5HQoK);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(methodName_idkLJ1m5HQoK);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static String methodName_idkLJ1m5HQoK(@NotNull SNode __thisNode__) {
     return "dispatch" + SNodeOperations.getNodeDescendants(SNodeOperations.getNodeAncestor(__thisNode__, CONCEPTS.ClassConcept$bK, false, false), CONCEPTS.DispatchExpression$ls, false, new SAbstractConcept[]{}).indexOf(__thisNode__);
@@ -36,10 +32,6 @@ public final class DispatchExpression__BehaviorDescriptor extends BaseBHDescript
   /*package*/ DispatchExpression__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

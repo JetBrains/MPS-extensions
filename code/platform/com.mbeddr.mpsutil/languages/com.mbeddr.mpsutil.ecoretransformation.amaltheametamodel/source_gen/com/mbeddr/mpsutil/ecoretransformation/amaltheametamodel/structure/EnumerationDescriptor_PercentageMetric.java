@@ -25,7 +25,7 @@ public class EnumerationDescriptor_PercentageMetric extends EnumerationDescripto
   private final EnumerationDescriptor.MemberDescriptor myMember_OsOverheadRelative_0 = new EnumerationDescriptor.MemberDescriptor("OsOverheadRelative", "OsOverheadRelative", 0x49b4676c219a7dL, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595434");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219a7eL, 0x49b4676c219a76L, 0x49b4676c219a77L, 0x49b4676c219a78L, 0x49b4676c219a79L, 0x49b4676c219a7aL, 0x49b4676c219a7bL, 0x49b4676c219a7cL, 0x49b4676c219a7dL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_CacheHitRatio_0, myMember_CacheMissRatio_0, myMember_CoreExecutionTimeRelative_0, myMember_MemoryAccessTimeRelative_0, myMember_NormalizedLateness_0, myMember_NormalizedResponseTime_0, myMember_OsOverheadRelative_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_CacheHitRatio_0, myMember_CacheMissRatio_0, myMember_CoreExecutionTimeRelative_0, myMember_MemoryAccessTimeRelative_0, myMember_NormalizedLateness_0, myMember_NormalizedResponseTime_0, myMember_OsOverheadRelative_0);
 
   @Nullable
   @Override

@@ -4,25 +4,26 @@ package test.ts.propertydefault.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.logging.Logger;
+import jetbrains.mps.smodel.runtime.ConstraintsDescriptorInitContext;
 import jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor;
 import jetbrains.mps.smodel.runtime.ConstraintsDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import java.util.Map;
-import org.jetbrains.mps.openapi.language.SProperty;
-import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
-import java.util.HashMap;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SProperty;
 
 public class TestPropertyDefault_Constraints extends BaseConstraintsDescriptor {
   private static final Logger LOG = Logger.getLogger(TestPropertyDefault_Constraints.class);
-  public TestPropertyDefault_Constraints() {
-    super(CONCEPTS.TestPropertyDefault$JE);
+  /*package*/ TestPropertyDefault_Constraints(ConstraintsDescriptorInitContext initContext) {
+    super(CONCEPTS.TestPropertyDefault$JE, initContext);
+    record(new Bool_PD(this));
+    record(new Int_PD(this));
+    record(new String_PD(this));
   }
 
-  public static class Bool_Property extends BasePropertyConstraintsDescriptor {
-    public Bool_Property(ConstraintsDescriptor container) {
+  /*package*/ static final class Bool_PD extends BasePropertyConstraintsDescriptor {
+    public Bool_PD(ConstraintsDescriptor container) {
       super(PROPS.bool$gHKw, container, true, true, false);
     }
     @Override
@@ -46,8 +47,8 @@ public class TestPropertyDefault_Constraints extends BaseConstraintsDescriptor {
       node.setProperty("bool", (((Object) propertyValue) != null ? ((Object) propertyValue).toString() : null));
     }
   }
-  public static class Int_Property extends BasePropertyConstraintsDescriptor {
-    public Int_Property(ConstraintsDescriptor container) {
+  /*package*/ static final class Int_PD extends BasePropertyConstraintsDescriptor {
+    public Int_PD(ConstraintsDescriptor container) {
       super(PROPS.int$gG_r, container, true, true, false);
     }
     @Override
@@ -71,8 +72,8 @@ public class TestPropertyDefault_Constraints extends BaseConstraintsDescriptor {
       node.setProperty("int", (((Object) propertyValue) != null ? ((Object) propertyValue).toString() : null));
     }
   }
-  public static class String_Property extends BasePropertyConstraintsDescriptor {
-    public String_Property(ConstraintsDescriptor container) {
+  /*package*/ static final class String_PD extends BasePropertyConstraintsDescriptor {
+    public String_PD(ConstraintsDescriptor container) {
       super(PROPS.string$gAX3, container, true, true, false);
     }
     @Override
@@ -95,14 +96,6 @@ public class TestPropertyDefault_Constraints extends BaseConstraintsDescriptor {
     private static void staticSetPropertyValue(SNode node, String propertyValue) {
       node.setProperty("string", (((Object) propertyValue) != null ? ((Object) propertyValue).toString() : null));
     }
-  }
-  @Override
-  protected Map<SProperty, PropertyConstraintsDescriptor> getSpecifiedProperties() {
-    Map<SProperty, PropertyConstraintsDescriptor> properties = new HashMap<SProperty, PropertyConstraintsDescriptor>();
-    properties.put(PROPS.bool$gHKw, new Bool_Property(this));
-    properties.put(PROPS.int$gG_r, new Int_Property(this));
-    properties.put(PROPS.string$gAX3, new String_Property(this));
-    return properties;
   }
 
   private static final class CONCEPTS {

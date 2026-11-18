@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SModel;
 import org.jetbrains.mps.openapi.module.SModuleReference;
@@ -18,7 +17,6 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -27,13 +25,11 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class LanguageReference__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x94b64715a2634c36L, 0xa1388da14705ffa7L, 0x4890893fd2d038e9L, "de.q60.mps.shadowmodels.transformation.structure.LanguageReference");
 
-  public static final SMethod<SNode> create_id1Bs_61$mIAC = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("create").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1863527487545993640L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2(SMethodBuilder.createJavaParameter((Class<SModel>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter(SModuleReference.class, ""));
-  public static final SMethod<SModuleReference> toModuleReference_id1Bs_61$n9i8 = new SMethodBuilder<SModuleReference>(new SJavaCompoundTypeImpl(SModuleReference.class)).name("toModuleReference").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1863527487546102920L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
+  public static final SMethod<SNode> create_id1Bs_61$mIAC = new SMethodBuilder<>(SNode.class).name("create").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1863527487545993640L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2(SMethodBuilder.createJavaParameter(SModel.class, "where"), SMethodBuilder.createJavaParameter(SModuleReference.class, "moduleRef"));
+  public static final SMethod<SModuleReference> toModuleReference_id1Bs_61$n9i8 = new SMethodBuilder<>(SModuleReference.class).name("toModuleReference").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1863527487546102920L).languageId(0xa1388da14705ffa7L, 0x94b64715a2634c36L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(create_id1Bs_61$mIAC, toModuleReference_id1Bs_61$n9i8);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(create_id1Bs_61$mIAC, toModuleReference_id1Bs_61$n9i8);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static SNode create_id1Bs_61$mIAC(@NotNull SAbstractConcept __thisConcept__, SModel where, SModuleReference moduleRef) {
     SNode ref = SModelOperations.createNewNode(where, null, CONCEPTS.LanguageReference$BD);
@@ -49,10 +45,6 @@ public final class LanguageReference__BehaviorDescriptor extends BaseBHDescripto
   /*package*/ LanguageReference__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

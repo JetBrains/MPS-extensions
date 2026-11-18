@@ -51,7 +51,7 @@ public class SelectionCellsForgetRemovedChild_Test extends BaseTransformationTes
       List<? extends EditorCell> before = layout.getSelectionCells(cell);
       Assert.assertTrue("selection fixture omitted last child", SelectionCellsFixture.includesUnder(before, removed));
       cell.removeCell(removed);
-      Assert.assertEquals("child count after removal is not 1", 1, cell.getCellsCount());
+      Assert.assertEquals("child count after removal is not 1", Integer.valueOf(1), Integer.valueOf(cell.getCellsCount()));
       Assert.assertFalse("removed child is still the last cell", cell.lastCell() == removed);
       ThreadUtils.runInUIThreadAndWait(() -> {
         cell.requestRelayout();

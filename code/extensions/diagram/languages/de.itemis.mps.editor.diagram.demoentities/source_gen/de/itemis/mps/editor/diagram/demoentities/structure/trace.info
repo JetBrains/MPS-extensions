@@ -16,7 +16,7 @@
       <unit at="11,0,70,0" name="de.itemis.mps.editor.diagram.demoentities.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,38,0" name="de.itemis.mps.editor.diagram.demoentities.structure.LanguageConceptSwitch" />
+      <unit at="12,0,46,0" name="de.itemis.mps.editor.diagram.demoentities.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="17,0,130,0" name="de.itemis.mps.editor.diagram.demoentities.structure.StructureAspectDescriptor" />
@@ -36,8 +36,8 @@
       <scope id="5285801562344837716" at="31,40,37,28" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5285801562344837716" at="13,0,14,0" concept="7" trace="Entity" />
-      <node id="5285801562344837716" at="21,48,22,45" concept="1" />
+      <node id="5285801562344837716" at="15,0,16,0" concept="7" trace="Entity" />
+      <node id="5285801562344837716" at="23,48,24,45" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5285801562344837716" at="19,0,20,0" concept="2" trace="myConceptEntity" />
@@ -74,8 +74,8 @@
       <scope id="5285801562344842018" at="24,43,30,31" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5285801562344842018" at="12,0,13,0" concept="7" trace="Attribute" />
-      <node id="5285801562344842018" at="20,116,21,48" concept="1" />
+      <node id="5285801562344842018" at="14,0,15,0" concept="7" trace="Attribute" />
+      <node id="5285801562344842018" at="22,116,23,48" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5285801562344842018" at="18,0,19,0" concept="2" trace="myConceptAttribute" />
@@ -108,8 +108,8 @@
       <scope id="5285801562344842019" at="59,43,65,31" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5285801562344842019" at="17,0,18,0" concept="7" trace="Reference" />
-      <node id="5285801562344842019" at="25,46,26,48" concept="1" />
+      <node id="5285801562344842019" at="19,0,20,0" concept="7" trace="Reference" />
+      <node id="5285801562344842019" at="27,46,28,48" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5285801562344842019" at="23,0,24,0" concept="2" trace="myConceptReference" />
@@ -144,8 +144,8 @@
       <scope id="5285801562344842746" at="52,41,58,29" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5285801562344842746" at="16,0,17,0" concept="7" trace="Package" />
-      <node id="5285801562344842746" at="24,56,25,46" concept="1" />
+      <node id="5285801562344842746" at="18,0,19,0" concept="7" trace="Package" />
+      <node id="5285801562344842746" at="26,56,27,46" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5285801562344842746" at="22,0,23,0" concept="2" trace="myConceptPackage" />
@@ -180,8 +180,8 @@
       <scope id="5285801562344992701" at="38,47,44,35" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5285801562344992701" at="14,0,15,0" concept="7" trace="EntityDiagram" />
-      <node id="5285801562344992701" at="22,45,23,52" concept="1" />
+      <node id="5285801562344992701" at="16,0,17,0" concept="7" trace="EntityDiagram" />
+      <node id="5285801562344992701" at="24,45,25,52" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5285801562344992701" at="20,0,21,0" concept="2" trace="myConceptEntityDiagram" />
@@ -213,8 +213,8 @@
       <scope id="5285801562346322923" at="45,51,51,39" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5285801562346322923" at="15,0,16,0" concept="7" trace="ExtendsConnection" />
-      <node id="5285801562346322923" at="23,52,24,56" concept="1" />
+      <node id="5285801562346322923" at="17,0,18,0" concept="7" trace="ExtendsConnection" />
+      <node id="5285801562346322923" at="25,52,26,56" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5285801562346322923" at="21,0,22,0" concept="2" trace="myConceptExtendsConnection" />

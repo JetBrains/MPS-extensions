@@ -33,8 +33,8 @@ public class Grid_Flatten2Levels_Test {
   }
   @Test
   public void test_is_3x3() throws Exception {
-    Assert.assertEquals(3, gMain.getSizeX());
-    Assert.assertEquals(3, gMain.getSizeY());
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(gMain.getSizeX()));
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(gMain.getSizeY()));
   }
   @Test
   public void test_correct_order() throws Exception {

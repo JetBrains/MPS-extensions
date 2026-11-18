@@ -43,7 +43,7 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.addEditorCell(createConstant_0());
-    editorCell.addEditorCell(createVerticalLineCell_1());
+    editorCell.addEditorCell(createVerticalLineCell_0());
     editorCell.addEditorCell(createCollection_1());
     return editorCell;
   }
@@ -53,17 +53,14 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createVerticalLineCell_0(EditorContext editorContext, SNode node) {
-    VerticalLineCell editorCell = new VerticalLineCell(editorContext, node);
+  private EditorCell createVerticalLineCell_0() {
+    VerticalLineCell editorCell = new VerticalLineCell(getEditorContext(), getNode());
     editorCell.setCellId("VerticalLineCell_ohe3vb_b0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.getInstance().<Integer>getAttribute("de.itemis.mps.editor.celllayout.styles", "_vertical-line-width"), 7);
     style.set(StyleAttributes.getInstance().<Color>getAttribute("de.itemis.mps.editor.celllayout.styles", "_vertical-line-color"), getStyleRegistry().getSimpleColor(MPSColors.magenta));
     editorCell.getStyle().putAll(style);
     return editorCell;
-  }
-  private EditorCell createVerticalLineCell_1() {
-    return createVerticalLineCell_0(getEditorContext(), myNode);
   }
   private EditorCell createCollection_1() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Vertical());

@@ -25,7 +25,7 @@ public class TraversalCompactAPI_NoCycles_Test {
   public void test_traverse_Full_OneStart() throws Exception {
     nVisited = 0;
     Traversal.<Integer>doBreadthFirst(1, successorFunc1);
-    Assert.assertEquals(5, nVisited);
+    Assert.assertEquals(Integer.valueOf(5), Integer.valueOf(nVisited));
   }
   @Test
   public void test_traverse_Full_OneStart_Collect() throws Exception {
@@ -43,7 +43,7 @@ public class TraversalCompactAPI_NoCycles_Test {
     Traversal.<Integer>doBreadthFirst(Arrays.asList(2, 3), successorFunc1);
 
     // traversal does not visit "1"
-    Assert.assertEquals(4, nVisited);
+    Assert.assertEquals(Integer.valueOf(4), Integer.valueOf(nVisited));
   }
   @Test
   public void test_traverse_Search_OneStart_Success() throws Exception {
@@ -51,13 +51,13 @@ public class TraversalCompactAPI_NoCycles_Test {
     Assert.assertTrue(Traversal.<Integer>doBreadthFirst(1, (Integer n) -> n == 4, successorFunc1));
 
     // the node "4" is not counted by the successor() function anymore
-    Assert.assertEquals(3, nVisited);
+    Assert.assertEquals(Integer.valueOf(3), Integer.valueOf(nVisited));
   }
   @Test
   public void test_traverse_Search_OneStart_NotFound() throws Exception {
     nVisited = 0;
     Assert.assertFalse(Traversal.<Integer>doBreadthFirst(1, (Integer n) -> n == 77, successorFunc1));
-    Assert.assertEquals(5, nVisited);
+    Assert.assertEquals(Integer.valueOf(5), Integer.valueOf(nVisited));
   }
   @Test
   public void test_traverse_Search_TwoStarts_Success() throws Exception {
@@ -65,7 +65,7 @@ public class TraversalCompactAPI_NoCycles_Test {
     Assert.assertTrue(Traversal.<Integer>doBreadthFirst(Sequence.fromArray(new Integer[]{2, 3}), (Integer n) -> n == 4, successorFunc1));
 
     // traversal does not visit "1", and also does not count "4"
-    Assert.assertEquals(2, nVisited);
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(nVisited));
   }
   @Test
   public void test_traverse_Search_TwoStarts_NotFound() throws Exception {
@@ -73,7 +73,7 @@ public class TraversalCompactAPI_NoCycles_Test {
     Assert.assertFalse(Traversal.<Integer>doBreadthFirst(Sequence.fromArray(new Integer[]{2, 3}), (Integer n) -> n == 1, successorFunc1));
 
     // traversal does not visit "1"
-    Assert.assertEquals(4, nVisited);
+    Assert.assertEquals(Integer.valueOf(4), Integer.valueOf(nVisited));
   }
 
 }

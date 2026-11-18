@@ -10,8 +10,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import com.mbeddr.mpsutil.grammarcells.runtime.Parser;
-import com.intellij.openapi.application.ApplicationManager;
-import jetbrains.mps.ide.MPSCoreComponents;
 import org.jetbrains.annotations.NotNull;
 import java.util.Set;
 import jetbrains.mps.module.ReloadableModule;
@@ -22,8 +20,8 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.Objects;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import com.mbeddr.mpsutil.grammarcells.runtimelang.editor.ArbitraryTextDeleteAction;
-import com.mbeddr.mpsutil.grammarcells.runtime.VisibleLanguagesCache;
 import com.mbeddr.mpsutil.grammarcells.runtime.DescriptorCache;
+import com.mbeddr.mpsutil.grammarcells.runtime.VisibleLanguagesCache;
 
 public class ApplicationPlugin_AppPluginPart extends ApplicationPluginPart {
   private IArbitraryTextDeleteHandler deleteHandler;
@@ -46,7 +44,7 @@ public class ApplicationPlugin_AppPluginPart extends ApplicationPluginPart {
     };
 
 
-    ApplicationPlugin_AppPluginPart.this.classLoaderManager = ApplicationManager.getApplication().getComponent(MPSCoreComponents.class).getClassLoaderManager();
+    ApplicationPlugin_AppPluginPart.this.classLoaderManager = getPlatform().findComponent(ClassLoaderManager.class);
 
     ApplicationPlugin_AppPluginPart.this.classesListener = new DeployListener() {
 
@@ -64,21 +62,13 @@ public class ApplicationPlugin_AppPluginPart extends ApplicationPluginPart {
       }
       @Override
       public void onUnloaded(@NotNull Set<ReloadableModule> modules, @NotNull ProgressMonitor monitor) {
-        for (ReloadableModule module : SetSequence.fromSet(modules)) {
-          if (Objects.equals(module.getModuleReference(), PersistenceFacade.getInstance().createModuleReference("7ac49bcb-77fb-4f0f-9036-e31b86b854b2(com.mbeddr.mpsutil.grammarcells.runtime)"))) {
-            ApplicationPlugin_AppPluginPart.this.myIsDisposed = true;
-            ArbitraryTextDeleteAction.setHandler(null);
-            ApplicationPlugin_AppPluginPart.this.classLoaderManager.removeListener(ApplicationPlugin_AppPluginPart.this.classesListener);
-            VisibleLanguagesCache.getInstance().dispose();
-            break;
-          }
-        }
-
         RulesCache.invalidateAll();
         EditorHierachyCache.getInstance().invalidate();
       }
     };
     ApplicationPlugin_AppPluginPart.this.classLoaderManager.addListener(ApplicationPlugin_AppPluginPart.this.classesListener);
+
+    DescriptorCache.getInstance().init(getPlatform());
 
     ArbitraryTextDeleteAction.setHandler(ApplicationPlugin_AppPluginPart.this.deleteHandler);
   }

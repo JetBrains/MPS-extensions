@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
@@ -28,10 +27,10 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 public final class ProjectView__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x1f1b4a81113d4b88L, 0x9b672bae3e4f8128L, 0x7352bdb93779565eL, "com.mbeddr.mpsutil.projectview.structure.ProjectView");
 
-  public static final SMethod<String> getId_id3ZnFyBjv4V2 = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4600337039047282370L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
-  public static final SMethod<Iterable<SNode>> getVisibleElements_id1CDgnklGEeJ = new SMethodBuilder<Iterable<SNode>>(new SJavaCompoundTypeImpl((Class<Iterable<SNode>>) ((Class) Object.class))).name("getVisibleElements").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1885109890162271151L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
+  public static final SMethod<String> getId_id3ZnFyBjv4V2 = new SMethodBuilder<>(String.class).name("getId").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4600337039047282370L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
+  public static final SMethod<Iterable<SNode>> getVisibleElements_id1CDgnklGEeJ = new SMethodBuilder<>((Class<Iterable<SNode>>) ((Class) Object.class)).name("getVisibleElements").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(1885109890162271151L).languageId(0x9b672bae3e4f8128L, 0x1f1b4a81113d4b88L).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getId_id3ZnFyBjv4V2, getVisibleElements_id1CDgnklGEeJ);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getId_id3ZnFyBjv4V2, getVisibleElements_id1CDgnklGEeJ);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.rebuildOnClassLoad$qEYB, true);

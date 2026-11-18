@@ -18,6 +18,9 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1402906326896143883" name="jetbrains.mps.lang.editor.structure.CellKeyMap_FunctionParm_selectedNode" flags="nn" index="0GJ7k" />
       <concept id="5991739802479784073" name="jetbrains.mps.lang.editor.structure.MenuTypeDefault" flags="ng" index="22hDWj" />
@@ -305,7 +308,6 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143224066846" name="jetbrains.mps.lang.smodel.structure.Node_InsertNextSiblingOperation" flags="nn" index="HtI8k">
         <child id="1143224066849" name="insertedNode" index="HtI8F" />
       </concept>
@@ -373,7 +375,7 @@
                 <node concept="3clFbF" id="2jBmyzyHocd" role="3cqZAp">
                   <node concept="2OqwBi" id="2jBmyzyHofS" role="3clFbG">
                     <node concept="pncrf" id="2jBmyzyHoc5" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="2jBmyzyHoqB" role="2OqNvi">
+                    <node concept="3zqWPK" id="WEZADybpZ9" role="2OqNvi">
                       <ref role="37wK5l" to="3rmn:2jBmyzyHnDO" resolve="isPhrase" />
                     </node>
                   </node>
@@ -868,9 +870,9 @@
                       <node concept="3cpWsd" id="2jBmyzyGC$T" role="37vLTx">
                         <node concept="2OqwBi" id="2jBmyzyAUFL" role="3uHU7B">
                           <node concept="pncrf" id="2jBmyzyAUAe" role="2Oq$k0" />
-                          <node concept="2qgKlT" id="2jBmyzyEFh6" role="2OqNvi">
+                          <node concept="3zqWPK" id="WEZADybpZb" role="2OqNvi">
                             <ref role="37wK5l" to="3rmn:2jBmyzyEzhY" resolve="getEditorViewWidth" />
-                            <node concept="3clFbT" id="2jBmyzyGo8h" role="37wK5m">
+                            <node concept="3clFbT" id="WEZADybpZd" role="37wK5m">
                               <property role="3clFbU" value="true" />
                             </node>
                           </node>
@@ -910,9 +912,9 @@
                               </node>
                               <node concept="2OqwBi" id="2jBmyzyB3iz" role="3uHU7B">
                                 <node concept="pncrf" id="2jBmyzyB3b$" role="2Oq$k0" />
-                                <node concept="2qgKlT" id="2jBmyzyEFwb" role="2OqNvi">
+                                <node concept="3zqWPK" id="WEZADybpZe" role="2OqNvi">
                                   <ref role="37wK5l" to="3rmn:2jBmyzyEzhY" resolve="getEditorViewWidth" />
-                                  <node concept="3clFbT" id="2jBmyzyGogp" role="37wK5m">
+                                  <node concept="3clFbT" id="WEZADybpZg" role="37wK5m">
                                     <property role="3clFbU" value="true" />
                                   </node>
                                 </node>
@@ -1762,9 +1764,9 @@
                 <node concept="35c_gC" id="3xkJrZKaZYx" role="2Oq$k0">
                   <ref role="35c_gD" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
                 </node>
-                <node concept="2qgKlT" id="3xkJrZKb2Ec" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybpZh" role="2OqNvi">
                   <ref role="37wK5l" to="3rmn:3xkJrZKaXl3" resolve="surroundWith" />
-                  <node concept="7Obwk" id="3xkJrZKb38Y" role="37wK5m" />
+                  <node concept="7Obwk" id="WEZADybpZj" role="37wK5m" />
                 </node>
               </node>
             </node>

@@ -21,7 +21,7 @@ public class EnumerationDescriptor_MemoryAddressMappingType extends EnumerationD
   private final EnumerationDescriptor.MemberDescriptor myMember_offset_0 = new EnumerationDescriptor.MemberDescriptor("offset", "offset", 0x49b4676c219b42L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595541");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219b43L, 0x49b4676c219b3fL, 0x49b4676c219b40L, 0x49b4676c219b41L, 0x49b4676c219b42L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_none_0, myMember_address_0, myMember_offset_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_none_0, myMember_address_0, myMember_offset_0);
 
   @Nullable
   @Override

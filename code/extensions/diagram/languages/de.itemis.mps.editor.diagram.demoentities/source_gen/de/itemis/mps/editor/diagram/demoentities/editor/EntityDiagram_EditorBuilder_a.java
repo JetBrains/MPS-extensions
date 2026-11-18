@@ -526,7 +526,7 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
     return editorCell.value;
   }
   private EditorCell createDiagram_1() {
-    return createDiagram_0(getEditorContext(), myNode);
+    return createDiagram_0(getEditorContext(), getNode());
   }
   private boolean _StyleParameter_QueryFunction_l21f3i_a0b0() {
     return true;

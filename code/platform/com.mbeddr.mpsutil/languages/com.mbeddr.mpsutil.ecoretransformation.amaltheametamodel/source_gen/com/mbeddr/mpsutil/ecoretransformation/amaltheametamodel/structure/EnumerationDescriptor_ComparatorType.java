@@ -22,7 +22,7 @@ public class EnumerationDescriptor_ComparatorType extends EnumerationDescriptorB
   private final EnumerationDescriptor.MemberDescriptor myMember_lower_0 = new EnumerationDescriptor.MemberDescriptor("lower", "lower", 0x49b4676c219b83L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595553");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219b84L, 0x49b4676c219b7fL, 0x49b4676c219b80L, 0x49b4676c219b81L, 0x49b4676c219b82L, 0x49b4676c219b83L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_equal_0, myMember_unequal_0, myMember_greater_0, myMember_lower_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_equal_0, myMember_unequal_0, myMember_greater_0, myMember_lower_0);
 
   @Nullable
   @Override

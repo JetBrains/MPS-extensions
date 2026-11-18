@@ -54,9 +54,8 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="px75" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.leftHighlighter(MPS.Editor/)" />
     <import index="6lvu" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellMenu(MPS.Editor/)" />
-    <import index="fnpx" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.intellij.notification(MPS.ThirdParty/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
-    <import index="fnpy" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.notification(MPS.IDEA/)" />
+    <import index="fnpx" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.notification(MPS.IDEA/)" />
     <import index="tp5g" ref="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" />
     <import index="kz9k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.navigation(MPS.Editor/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
@@ -246,6 +245,9 @@
         <reference id="856705193941281765" name="parameterDeclaration" index="2LYoGK" />
         <child id="856705193941281766" name="value" index="2LYoGN" />
       </concept>
+    </language>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
     </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
@@ -637,7 +639,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7400021826771268254" name="jetbrains.mps.lang.smodel.structure.SNodePointerType" flags="ig" index="2sp9CU">
         <reference id="7400021826771268269" name="concept" index="2sp9C9" />
       </concept>
@@ -1669,7 +1670,7 @@
                             <node concept="37vLTw" id="4k0nQshp2u2" role="2Oq$k0">
                               <ref role="3cqZAo" node="4k0nQshoYJS" resolve="intention" />
                             </node>
-                            <node concept="2qgKlT" id="4k0nQshp2u3" role="2OqNvi">
+                            <node concept="3zqWPK" id="WEZADybpBO" role="2OqNvi">
                               <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
                             </node>
                           </node>
@@ -2057,7 +2058,7 @@
                         <ref role="3cqZAo" node="6HRhZeXLKT7" resolve="notification" />
                       </node>
                       <node concept="liA8E" id="6HRhZeXLNH8" role="2OqNvi">
-                        <ref role="37wK5l" to="fnpy:~Notification.getTitle()" resolve="getTitle" />
+                        <ref role="37wK5l" to="fnpx:~Notification.getTitle()" resolve="getTitle" />
                       </node>
                     </node>
                   </node>
@@ -2070,7 +2071,7 @@
                         <ref role="3cqZAo" node="6HRhZeXLKT7" resolve="notification" />
                       </node>
                       <node concept="liA8E" id="6HRhZeXLNHd" role="2OqNvi">
-                        <ref role="37wK5l" to="fnpy:~Notification.getContent()" resolve="getContent" />
+                        <ref role="37wK5l" to="fnpx:~Notification.getContent()" resolve="getContent" />
                       </node>
                     </node>
                   </node>
@@ -2080,12 +2081,12 @@
                         <ref role="3cqZAo" node="6HRhZeXLKT7" resolve="notification" />
                       </node>
                       <node concept="liA8E" id="6HRhZeXLNHh" role="2OqNvi">
-                        <ref role="37wK5l" to="fnpy:~Notification.getType()" resolve="getType" />
+                        <ref role="37wK5l" to="fnpx:~Notification.getType()" resolve="getType" />
                       </node>
                     </node>
                     <node concept="Rm8GO" id="6HRhZeXLNHi" role="3tpDZB">
-                      <ref role="Rm8GQ" to="fnpy:~NotificationType.INFORMATION" resolve="INFORMATION" />
-                      <ref role="1Px2BO" to="fnpy:~NotificationType" resolve="NotificationType" />
+                      <ref role="Rm8GQ" to="fnpx:~NotificationType.INFORMATION" resolve="INFORMATION" />
+                      <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
                     </node>
                   </node>
                 </node>
@@ -3216,9 +3217,13 @@
             <node concept="2ShNRf" id="4GRmlJ03lBk" role="33vP2m">
               <node concept="1pGfFk" id="4GRmlJ03lBl" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="tomq:~WordPrefixMatcher.&lt;init&gt;(java.lang.String)" resolve="WordPrefixMatcher" />
+                <ref role="37wK5l" to="tomq:~WordPrefixMatcher.&lt;init&gt;(java.lang.String,com.intellij.util.text.matching.KeyboardLayoutConverter)" resolve="WordPrefixMatcher" />
                 <node concept="37vLTw" id="4GRmlJ03lBm" role="37wK5m">
                   <ref role="3cqZAo" node="4GRmlJ0337Y" resolve="pattern" />
+                </node>
+                <node concept="10M0yZ" id="2qNfcrmbEUM" role="37wK5m">
+                  <ref role="3cqZAo" to="tomq:~PlatformKeyboardLayoutConverter.INSTANCE" resolve="INSTANCE" />
+                  <ref role="1PxDUh" to="tomq:~PlatformKeyboardLayoutConverter" resolve="PlatformKeyboardLayoutConverter" />
                 </node>
               </node>
             </node>

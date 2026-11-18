@@ -93,10 +93,10 @@ public class NSetOperations_Test extends BaseTransformationTest {
         Assert.assertTrue(SetSequence.fromSet(set).isEmpty());
 
         TestBody.this.addMultipleTimes(set, cls);
-        Assert.assertEquals(1, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, other);
-        Assert.assertEquals(2, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(SetSequence.fromSet(set).count()));
       });
     }
     public void test_sameNodeCopyAndDifferentNode() throws Exception {
@@ -112,13 +112,13 @@ public class NSetOperations_Test extends BaseTransformationTest {
         Assert.assertTrue(SetSequence.fromSet(set).isEmpty());
 
         TestBody.this.addMultipleTimes(set, cls);
-        Assert.assertEquals(1, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, SNodeOperations.copyNode(cls));
-        Assert.assertEquals(1, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, other);
-        Assert.assertEquals(2, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(SetSequence.fromSet(set).count()));
       });
     }
     public void test_index() throws Exception {
@@ -136,10 +136,10 @@ public class NSetOperations_Test extends BaseTransformationTest {
         TestBody.this.addMultipleTimes(set, cls);
         TestBody.this.addMultipleTimes(set, other);
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).indexOf(cls));
-        Assert.assertEquals(1, SetSequence.fromSet(set).indexOf(other));
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).indexOf(cls)));
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(SetSequence.fromSet(set).indexOf(other)));
 
-        Assert.assertEquals(-1, SetSequence.fromSet(set).indexOf(null));
+        Assert.assertEquals(Integer.valueOf(-1), Integer.valueOf(SetSequence.fromSet(set).indexOf(null)));
       });
     }
     public void test_remove() throws Exception {
@@ -152,18 +152,18 @@ public class NSetOperations_Test extends BaseTransformationTest {
         SNode cls = SPointerOperations.resolveNode(new SNodePointer("r:240d60dc-7568-46d8-a080-a0889db7fd44(com.mbeddr.mpsutil.collections.runtime)", "6355510489490361370"), repository);
         SNode other = SPointerOperations.resolveNode(new SNodePointer("r:240d60dc-7568-46d8-a080-a0889db7fd44(com.mbeddr.mpsutil.collections.runtime)", "7073751248896175881"), repository);
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, cls);
         TestBody.this.addMultipleTimes(set, other);
 
-        Assert.assertEquals(2, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         SetSequence.fromSet(set).removeElement(cls);
         SetSequence.fromSet(set).removeElement(other);
         SetSequence.fromSet(set).removeElement(null);
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
       });
     }
     public void test_removeAll() throws Exception {
@@ -176,12 +176,12 @@ public class NSetOperations_Test extends BaseTransformationTest {
         SNode cls = SPointerOperations.resolveNode(new SNodePointer("r:240d60dc-7568-46d8-a080-a0889db7fd44(com.mbeddr.mpsutil.collections.runtime)", "6355510489490361370"), repository);
         SNode other = SPointerOperations.resolveNode(new SNodePointer("r:240d60dc-7568-46d8-a080-a0889db7fd44(com.mbeddr.mpsutil.collections.runtime)", "7073751248896175881"), repository);
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, cls);
         TestBody.this.addMultipleTimes(set, other);
 
-        Assert.assertEquals(2, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         List<SNode> list = new ArrayList<SNode>();
         ListSequence.fromList(list).addElement(cls);
@@ -190,7 +190,7 @@ public class NSetOperations_Test extends BaseTransformationTest {
 
         SetSequence.fromSet(set).removeSequence(ListSequence.fromList(list));
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
       });
     }
     public void test_contains() throws Exception {
@@ -203,7 +203,7 @@ public class NSetOperations_Test extends BaseTransformationTest {
         SNode cls = SPointerOperations.resolveNode(new SNodePointer("r:240d60dc-7568-46d8-a080-a0889db7fd44(com.mbeddr.mpsutil.collections.runtime)", "6355510489490361370"), repository);
         SNode other = SPointerOperations.resolveNode(new SNodePointer("r:240d60dc-7568-46d8-a080-a0889db7fd44(com.mbeddr.mpsutil.collections.runtime)", "7073751248896175881"), repository);
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, cls);
         TestBody.this.addMultipleTimes(set, other);
@@ -224,7 +224,7 @@ public class NSetOperations_Test extends BaseTransformationTest {
         SNode cls = SPointerOperations.resolveNode(new SNodePointer("r:240d60dc-7568-46d8-a080-a0889db7fd44(com.mbeddr.mpsutil.collections.runtime)", "6355510489490361370"), repository);
         SNode other = SPointerOperations.resolveNode(new SNodePointer("r:240d60dc-7568-46d8-a080-a0889db7fd44(com.mbeddr.mpsutil.collections.runtime)", "7073751248896175881"), repository);
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, cls);
         TestBody.this.addMultipleTimes(set, other);
@@ -243,7 +243,7 @@ public class NSetOperations_Test extends BaseTransformationTest {
         SNode cls = SPointerOperations.resolveNode(new SNodePointer("r:240d60dc-7568-46d8-a080-a0889db7fd44(com.mbeddr.mpsutil.collections.runtime)", "6355510489490361370"), repository);
         SNode other = SPointerOperations.resolveNode(new SNodePointer("r:240d60dc-7568-46d8-a080-a0889db7fd44(com.mbeddr.mpsutil.collections.runtime)", "7073751248896175881"), repository);
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, cls);
         TestBody.this.addMultipleTimes(set, other);
@@ -251,7 +251,7 @@ public class NSetOperations_Test extends BaseTransformationTest {
         TestBody.this.addMultipleTimes(set, cls);
         TestBody.this.addMultipleTimes(set, other);
 
-        Assert.assertEquals(2, set.toArray().length);
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(set.toArray().length));
       });
     }
 

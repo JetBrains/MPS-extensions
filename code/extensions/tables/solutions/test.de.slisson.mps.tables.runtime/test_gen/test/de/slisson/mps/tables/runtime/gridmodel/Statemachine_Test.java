@@ -26,11 +26,11 @@ public class Statemachine_Test {
   private GridLeaf transition11;
   @Test
   public void test_sizeX() throws Exception {
-    Assert.assertEquals(2, main.getSizeX());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(main.getSizeX()));
   }
   @Test
   public void test_sizeY() throws Exception {
-    Assert.assertEquals(2, main.getSizeY());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(main.getSizeY()));
   }
   @Test
   public void test_transitions() throws Exception {
@@ -41,19 +41,19 @@ public class Statemachine_Test {
   }
   @Test
   public void test_column_headers_sizeX() throws Exception {
-    Assert.assertEquals(2, main.getColumnHeadersSizeX());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(main.getColumnHeadersSizeX()));
   }
   @Test
   public void test_column_headers_sizeY() throws Exception {
-    Assert.assertEquals(1, main.getColumnHeadersSizeY());
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(main.getColumnHeadersSizeY()));
   }
   @Test
   public void test_row_headers_sizeX() throws Exception {
-    Assert.assertEquals(1, main.getRowHeadersSizeX());
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(main.getRowHeadersSizeX()));
   }
   @Test
   public void test_row_headers_sizeY() throws Exception {
-    Assert.assertEquals(2, main.getRowHeadersSizeY());
+    Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(main.getRowHeadersSizeY()));
   }
   @Test
   public void test_column_headers() throws Exception {

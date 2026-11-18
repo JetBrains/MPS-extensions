@@ -23,7 +23,7 @@ public class EnumerationDescriptor_EdgeLabelSideSelection extends EnumerationDes
   private final EnumerationDescriptor.MemberDescriptor myMember_SMART_DOWN_0 = new EnumerationDescriptor.MemberDescriptor("SMART_DOWN", "SMART_DOWN", 0x32d28aa5f4564778L, "r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)/3662141892379166584");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xfa13cc63c4764d46L, 0x9c96d53670abe7bcL, 0x32d28aa5f456475dL, 0x32d28aa5f456475eL, 0x32d28aa5f4564761L, 0x32d28aa5f4564766L, 0x32d28aa5f456476bL, 0x32d28aa5f4564771L, 0x32d28aa5f4564778L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_ALWAYS_UP_0, myMember_ALWAYS_DOWN_0, myMember_DIRECTION_UP_0, myMember_DIRECTION_DOWN_0, myMember_SMART_UP_0, myMember_SMART_DOWN_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_ALWAYS_UP_0, myMember_ALWAYS_DOWN_0, myMember_DIRECTION_UP_0, myMember_DIRECTION_DOWN_0, myMember_SMART_UP_0, myMember_SMART_DOWN_0);
 
   @Nullable
   @Override

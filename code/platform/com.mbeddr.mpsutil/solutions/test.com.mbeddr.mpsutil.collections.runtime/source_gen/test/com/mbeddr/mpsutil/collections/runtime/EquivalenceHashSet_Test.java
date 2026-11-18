@@ -77,10 +77,10 @@ public class EquivalenceHashSet_Test extends BaseTransformationTest {
         Assert.assertTrue(SetSequence.fromSet(set).isEmpty());
 
         TestBody.this.addMultipleTimes(set, "hello");
-        Assert.assertEquals(1, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, "world");
-        Assert.assertEquals(2, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(SetSequence.fromSet(set).count()));
       });
     }
     public void test_index() throws Exception {
@@ -94,8 +94,8 @@ public class EquivalenceHashSet_Test extends BaseTransformationTest {
         TestBody.this.addMultipleTimes(set, "hello");
         TestBody.this.addMultipleTimes(set, "world");
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).indexOf("hello"));
-        Assert.assertEquals(1, SetSequence.fromSet(set).indexOf("world"));
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).indexOf("hello")));
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(SetSequence.fromSet(set).indexOf("world")));
       });
     }
     public void test_remove() throws Exception {
@@ -103,18 +103,18 @@ public class EquivalenceHashSet_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         Set<String> set = new EquivalenceHashSet<>();
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, "hello");
         TestBody.this.addMultipleTimes(set, "world");
 
         SetSequence.fromSet(set).removeElement("hello");
 
-        Assert.assertEquals(1, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         SetSequence.fromSet(set).removeElement("world");
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
       });
     }
     public void test_removeAll() throws Exception {
@@ -122,12 +122,12 @@ public class EquivalenceHashSet_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         Set<String> set = new EquivalenceHashSet<>();
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, "hello");
         TestBody.this.addMultipleTimes(set, "world");
 
-        Assert.assertEquals(2, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         List<String> list = ListSequence.fromList(new ArrayList<String>());
         ListSequence.fromList(list).addElement("hello");
@@ -135,7 +135,7 @@ public class EquivalenceHashSet_Test extends BaseTransformationTest {
 
         SetSequence.fromSet(set).removeSequence(ListSequence.fromList(list));
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
       });
     }
     public void test_contains() throws Exception {
@@ -143,7 +143,7 @@ public class EquivalenceHashSet_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         Set<String> set = new EquivalenceHashSet<>();
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, "hello");
         TestBody.this.addMultipleTimes(set, "world");
@@ -158,7 +158,7 @@ public class EquivalenceHashSet_Test extends BaseTransformationTest {
         Set<String> set = new EquivalenceHashSet<>();
         Set<String> set2 = new EquivalenceHashSet<>();
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, "hello");
         TestBody.this.addMultipleTimes(set, "world");
@@ -172,12 +172,12 @@ public class EquivalenceHashSet_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         Set<String> set = new EquivalenceHashSet<>();
 
-        Assert.assertEquals(0, SetSequence.fromSet(set).count());
+        Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(SetSequence.fromSet(set).count()));
 
         TestBody.this.addMultipleTimes(set, "hello");
         TestBody.this.addMultipleTimes(set, "world");
 
-        Assert.assertEquals(2, set.toArray().length);
+        Assert.assertEquals(Integer.valueOf(2), Integer.valueOf(set.toArray().length));
       });
     }
 

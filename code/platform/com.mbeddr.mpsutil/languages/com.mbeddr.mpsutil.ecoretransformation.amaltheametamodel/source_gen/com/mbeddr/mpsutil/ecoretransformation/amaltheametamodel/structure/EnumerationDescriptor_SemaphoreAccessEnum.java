@@ -21,7 +21,7 @@ public class EnumerationDescriptor_SemaphoreAccessEnum extends EnumerationDescri
   private final EnumerationDescriptor.MemberDescriptor myMember_release_0 = new EnumerationDescriptor.MemberDescriptor("release", "release", 0x49b4676c219c2aL, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595269");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219c2bL, 0x49b4676c219c27L, 0x49b4676c219c28L, 0x49b4676c219c29L, 0x49b4676c219c2aL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_request_0, myMember_exclusive_0, myMember_release_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_request_0, myMember_exclusive_0, myMember_release_0);
 
   @Nullable
   @Override

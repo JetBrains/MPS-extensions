@@ -92,7 +92,7 @@ public class ILogicalChildResolving_Test extends BaseTransformationTest {
 
             List<SNode> logicalChildren = Sequence.fromIterable(ILogicalChildOwner__BehaviorDescriptor.findLogicalChildren_id7c93VeVMIYV.invoke(ilco)).toList();
             // the existing two children must be found. Side effect: cache was built in background
-            Assert.assertEquals("children was " + ListSequence.fromList(logicalChildren).count(), 2, ListSequence.fromList(logicalChildren).count());
+            Assert.assertEquals("children was " + ListSequence.fromList(logicalChildren).count(), Integer.valueOf(2), Integer.valueOf(ListSequence.fromList(logicalChildren).count()));
 
             // Add a new child to a model in the same solution
             SModelReference bufferPTR = PersistenceFacade.getInstance().createModelReference("r:54ae00bf-b229-40d8-a444-f76ddb35f598(com.mbeddr.mpsutil.logicalChild.sandbox.sandbox.testbuffer)");
@@ -103,14 +103,14 @@ public class ILogicalChildResolving_Test extends BaseTransformationTest {
 
             List<SNode> logicalChildren2 = Sequence.fromIterable(ILogicalChildOwner__BehaviorDescriptor.findLogicalChildren_id7c93VeVMIYV.invoke(ilco)).toList();
             // The new child is not found as still the Cache is used
-            Assert.assertEquals("children was " + ListSequence.fromList(logicalChildren2).count(), 2, ListSequence.fromList(logicalChildren2).count());
+            Assert.assertEquals("children was " + ListSequence.fromList(logicalChildren2).count(), Integer.valueOf(2), Integer.valueOf(ListSequence.fromList(logicalChildren2).count()));
             return null;
           });
           Assert.assertFalse(LogicalChildOwnerUtil.shouldUseCache());
 
           List<SNode> logicalChildren3 = Sequence.fromIterable(ILogicalChildOwner__BehaviorDescriptor.findLogicalChildren_id7c93VeVMIYV.invoke(ilco)).toList();
           // Now the 3rd child is found resolving does not use the cache.
-          Assert.assertEquals("children was " + ListSequence.fromList(logicalChildren3).count(), 3, ListSequence.fromList(logicalChildren3).count());
+          Assert.assertEquals("children was " + ListSequence.fromList(logicalChildren3).count(), Integer.valueOf(3), Integer.valueOf(ListSequence.fromList(logicalChildren3).count()));
 
         } finally {
           if (bufferModel.value != null) {

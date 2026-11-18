@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import java.awt.Point;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import com.dslfoundry.plaintextgen.plugin.CharacterMatrix;
 import java.util.List;
@@ -19,7 +18,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
@@ -28,12 +26,10 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class IVerticalGroup__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0x990507d335274c54L, 0xbfe90ca3c9c6247aL, 0x64208511ac2f6788L, "com.dslfoundry.plaintextgen.structure.IVerticalGroup");
 
-  public static final SMethod<Point> getMaxPosition_id4GbnmmUaX7G = new SMethodBuilder<Point>(new SJavaCompoundTypeImpl(Point.class)).name("getMaxPosition").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084926444L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(CharacterMatrix.class, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""));
+  public static final SMethod<Point> getMaxPosition_id4GbnmmUaX7G = new SMethodBuilder<>(Point.class).name("getMaxPosition").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5407518469084926444L).languageId(0xbfe90ca3c9c6247aL, 0x990507d335274c54L).build2(SMethodBuilder.createJavaParameter(Integer.TYPE, "row"), SMethodBuilder.createJavaParameter(Integer.TYPE, "column"), SMethodBuilder.createJavaParameter(CharacterMatrix.class, "output"), SMethodBuilder.createJavaParameter(Integer.TYPE, "indent"));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getMaxPosition_id4GbnmmUaX7G);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getMaxPosition_id4GbnmmUaX7G);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static Point getMaxPosition_id4GbnmmUaX7G(@NotNull SNode __thisNode__, int row, int column, CharacterMatrix output, int indent) {
     Point max = new Point(row - 1, column);
@@ -57,10 +53,6 @@ public final class IVerticalGroup__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ IVerticalGroup__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

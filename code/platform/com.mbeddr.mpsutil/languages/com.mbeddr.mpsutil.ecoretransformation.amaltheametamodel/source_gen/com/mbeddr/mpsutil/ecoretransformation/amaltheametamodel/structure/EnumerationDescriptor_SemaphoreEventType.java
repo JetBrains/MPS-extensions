@@ -20,7 +20,7 @@ public class EnumerationDescriptor_SemaphoreEventType extends EnumerationDescrip
   private final EnumerationDescriptor.MemberDescriptor myMember_unlock_0 = new EnumerationDescriptor.MemberDescriptor("unlock", "unlock", 0x49b4676c219ac4L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595492");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219ac5L, 0x49b4676c219ac2L, 0x49b4676c219ac3L, 0x49b4676c219ac4L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__all__0, myMember_lock_0, myMember_unlock_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__all__0, myMember_lock_0, myMember_unlock_0);
 
   @Nullable
   @Override

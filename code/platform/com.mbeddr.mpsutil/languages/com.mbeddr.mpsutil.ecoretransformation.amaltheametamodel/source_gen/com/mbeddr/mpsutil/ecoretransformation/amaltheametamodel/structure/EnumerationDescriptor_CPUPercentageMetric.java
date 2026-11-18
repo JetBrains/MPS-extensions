@@ -25,7 +25,7 @@ public class EnumerationDescriptor_CPUPercentageMetric extends EnumerationDescri
   private final EnumerationDescriptor.MemberDescriptor myMember_CPUWaiting_0 = new EnumerationDescriptor.MemberDescriptor("CPUWaiting", "CPUWaiting", 0x49b4676c219a86L, "r:98aed671-98ba-4a47-9d18-1994944bc38d(com.mbeddr.mpsutil.ecoretransformation.amaltheametamodel.structure)/1286599818956595459");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xad8b59931cc249c0L, 0xb7a00283da231703L, 0x49b4676c219a87L, 0x49b4676c219a7fL, 0x49b4676c219a80L, 0x49b4676c219a81L, 0x49b4676c219a82L, 0x49b4676c219a83L, 0x49b4676c219a84L, 0x49b4676c219a85L, 0x49b4676c219a86L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember__undefined__0, myMember_CPUBuffering_0, myMember_CPULoad_0, myMember_CPUParking_0, myMember_CPUPolling_0, myMember_CPUReady_0, myMember_CPURunning_0, myMember_CPUWaiting_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember__undefined__0, myMember_CPUBuffering_0, myMember_CPULoad_0, myMember_CPUParking_0, myMember_CPUPolling_0, myMember_CPUReady_0, myMember_CPURunning_0, myMember_CPUWaiting_0);
 
   @Nullable
   @Override

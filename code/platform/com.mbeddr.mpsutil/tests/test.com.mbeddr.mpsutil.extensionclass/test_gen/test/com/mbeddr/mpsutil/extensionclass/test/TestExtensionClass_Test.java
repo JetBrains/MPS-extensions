@@ -76,11 +76,11 @@ public class TestExtensionClass_Test extends BaseTransformationTest {
 
     public void test_stringUtils() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> Assert.assertEquals(5, StringUtils.lastIndexOf("aaBaaBaaBaa", "Ba", 7)));
+      runWithinCommand(() -> Assert.assertEquals(Integer.valueOf(5), Integer.valueOf(StringUtils.lastIndexOf("aaBaaBaaBaa", "Ba", 7))));
     }
     public void test_arrayUtils() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> Assert.assertEquals(4, ArrayUtils.lastIndexOf(new int[]{1, 2, 1, 1, 2, 1, 1, 2, 1, 1}, 2, 6)));
+      runWithinCommand(() -> Assert.assertEquals(Integer.valueOf(4), Integer.valueOf(ArrayUtils.lastIndexOf(new int[]{1, 2, 1, 1, 2, 1, 1, 2, 1, 1}, 2, 6))));
     }
     public void test_ErrorMessagesCheck5712676642261306835() throws Exception {
       initTestNodes();

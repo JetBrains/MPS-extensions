@@ -111,7 +111,7 @@ public class SimpleChecks_Test extends BaseTransformationTest {
         List<NodeVersionCheckResult> result = VersioningHelper.checkNodeVersion(getAnnotatedNode("dependencyAdded"), null);
         Assert.assertNotNull(result);
         Assert.assertFalse(ListSequence.fromList(result).isEmpty());
-        Assert.assertEquals("unexpexted change count", ListSequence.fromList(result).count(), 2);
+        Assert.assertEquals("unexpexted change count", Integer.valueOf(ListSequence.fromList(result).count()), Integer.valueOf(2));
         Assert.assertTrue("No NodeChange detected", ListSequence.fromList(result).where((it) -> Objects.equals(it.getChange(), NodeVersionCheckResult.ChangeType.NodeChanged)).count() == 1);
         Assert.assertTrue("No DependencyAdded detected", ListSequence.fromList(result).where((it) -> Objects.equals(it.getChange(), NodeVersionCheckResult.ChangeType.DependencyAdded)).count() == 1);
       });
@@ -122,7 +122,7 @@ public class SimpleChecks_Test extends BaseTransformationTest {
         List<NodeVersionCheckResult> result = VersioningHelper.checkNodeVersion(getAnnotatedNode("dependencyRemoved"), null);
         Assert.assertNotNull(result);
         Assert.assertFalse(ListSequence.fromList(result).isEmpty());
-        Assert.assertEquals("unexpexted change count", ListSequence.fromList(result).count(), 2);
+        Assert.assertEquals("unexpexted change count", Integer.valueOf(ListSequence.fromList(result).count()), Integer.valueOf(2));
         Assert.assertTrue("No NodeChange detected", ListSequence.fromList(result).where((it) -> Objects.equals(it.getChange(), NodeVersionCheckResult.ChangeType.NodeChanged)).count() == 1);
         Assert.assertTrue("No DependencyRemoved detected", ListSequence.fromList(result).where((it) -> Objects.equals(it.getChange(), NodeVersionCheckResult.ChangeType.DependencyRemoved)).count() == 1);
       });
@@ -133,7 +133,7 @@ public class SimpleChecks_Test extends BaseTransformationTest {
         List<NodeVersionCheckResult> result = VersioningHelper.checkNodeVersion(getAnnotatedNode("dependencyWithChanges"), null);
         Assert.assertNotNull(result);
         Assert.assertFalse(ListSequence.fromList(result).isEmpty());
-        Assert.assertEquals("unexpexted change count", ListSequence.fromList(result).count(), 2);
+        Assert.assertEquals("unexpexted change count", Integer.valueOf(ListSequence.fromList(result).count()), Integer.valueOf(2));
         Assert.assertTrue("No NodeChange detected", ListSequence.fromList(result).where((it) -> Objects.equals(it.getChange(), NodeVersionCheckResult.ChangeType.NodeChanged)).count() == 1);
         Assert.assertTrue("No DependencyChange detected", ListSequence.fromList(result).where((it) -> Objects.equals(it.getChange(), NodeVersionCheckResult.ChangeType.DependencyChanged)).count() == 1);
       });
@@ -144,7 +144,7 @@ public class SimpleChecks_Test extends BaseTransformationTest {
         List<NodeVersionCheckResult> result = VersioningHelper.checkNodeVersion(getAnnotatedNode("dependencyWithNewerVersion"), null);
         Assert.assertNotNull(result);
         Assert.assertFalse(ListSequence.fromList(result).isEmpty());
-        Assert.assertEquals("unexpexted change count", ListSequence.fromList(result).count(), 2);
+        Assert.assertEquals("unexpexted change count", Integer.valueOf(ListSequence.fromList(result).count()), Integer.valueOf(2));
         Assert.assertTrue("No NodeChange detected", ListSequence.fromList(result).where((it) -> Objects.equals(it.getChange(), NodeVersionCheckResult.ChangeType.NodeChanged)).count() == 1);
         Assert.assertTrue("No DependencyChange detected", ListSequence.fromList(result).where((it) -> Objects.equals(it.getChange(), NodeVersionCheckResult.ChangeType.DependencyChanged)).count() == 1);
       });

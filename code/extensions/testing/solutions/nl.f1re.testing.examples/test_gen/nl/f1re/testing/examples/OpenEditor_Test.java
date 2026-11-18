@@ -59,7 +59,7 @@ public class OpenEditor_Test extends BaseTransformationTest {
 
         List<MPSFileNodeEditor> openEditors = helper.getOpenEditors();
 
-        Assert.assertEquals(1, ListSequence.fromList(openEditors).count());
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(openEditors).count()));
         Assert.assertEquals(currentTestCase, ListSequence.fromList(openEditors).first().getNodeEditor().getCurrentlyEditedNode());
       });
     }

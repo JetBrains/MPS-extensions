@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.List;
 import java.util.Arrays;
@@ -29,10 +28,10 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 public final class Changelog__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x638c9345261349dcL, 0xb2ae8ceadef24141L, 0xd5813f148741fccL, "de.itemis.mps.changelog.structure.Changelog");
 
-  public static final SMethod<SNode> createNewRelease_id2r0ijgcUUGS = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("createNewRelease").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2792312256873605944L).languageId(0xb2ae8ceadef24141L, 0x638c9345261349dcL).build2();
-  public static final SMethod<SNode> createReleaseHeader_id43oF0KsRddw = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("createReleaseHeader").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4672673781420708704L).languageId(0xb2ae8ceadef24141L, 0x638c9345261349dcL).build2();
+  public static final SMethod<SNode> createNewRelease_id2r0ijgcUUGS = new SMethodBuilder<>(SNode.class).name("createNewRelease").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2792312256873605944L).languageId(0xb2ae8ceadef24141L, 0x638c9345261349dcL).build2();
+  public static final SMethod<SNode> createReleaseHeader_id43oF0KsRddw = new SMethodBuilder<>(SNode.class).name("createReleaseHeader").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(4672673781420708704L).languageId(0xb2ae8ceadef24141L, 0x638c9345261349dcL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(createNewRelease_id2r0ijgcUUGS, createReleaseHeader_id43oF0KsRddw);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(createNewRelease_id2r0ijgcUUGS, createReleaseHeader_id43oF0KsRddw);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SLinkOperations.setTarget(__thisNode__, LINKS.header$RMcR, _quotation_createNode_qq1zla_a0a0a());

@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
@@ -27,13 +26,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public final class Port__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xaff569ad098d414aL, 0xaa2396963959392cL, 0x21236ffd758cc9beL, "test.de.itemis.mps.editor.diagram.lang.structure.Port");
 
-  public static final SMethod<Double> getPositionX_id24zrZPPzdZv = new SMethodBuilder<Double>(new SJavaCompoundTypeImpl(Double.class)).name("getPositionX").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2387875361826070495L).languageId(0xaa2396963959392cL, 0xaff569ad098d414aL).build2();
-  public static final SMethod<Double> getPositionY_id24zrZPPzzOs = new SMethodBuilder<Double>(new SJavaCompoundTypeImpl(Double.class)).name("getPositionY").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2387875361826159900L).languageId(0xaa2396963959392cL, 0xaff569ad098d414aL).build2();
-  public static final SMethod<Double> toDouble_id24zrZPPA80F = new SMethodBuilder<Double>(new SJavaCompoundTypeImpl(Double.class)).name("toDouble").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2387875361826832427L).languageId(0xaa2396963959392cL, 0xaff569ad098d414aL).build2(SMethodBuilder.createJavaParameter(Object.class, ""));
-  public static final SMethod<SNode> getBox_id24zrZPPB6$C = new SMethodBuilder<SNode>(new SJavaCompoundTypeImpl((Class<SNode>) ((Class) Object.class))).name("getBox").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2387875361827088680L).languageId(0xaa2396963959392cL, 0xaff569ad098d414aL).build2();
-  public static final SMethod<String> getPortName_id24zrZPPB6_c = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getPortName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2387875361827088716L).languageId(0xaa2396963959392cL, 0xaff569ad098d414aL).build2();
+  public static final SMethod<Double> getPositionX_id24zrZPPzdZv = new SMethodBuilder<>(Double.class).name("getPositionX").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2387875361826070495L).languageId(0xaa2396963959392cL, 0xaff569ad098d414aL).build2();
+  public static final SMethod<Double> getPositionY_id24zrZPPzzOs = new SMethodBuilder<>(Double.class).name("getPositionY").modifiers(0, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2387875361826159900L).languageId(0xaa2396963959392cL, 0xaff569ad098d414aL).build2();
+  public static final SMethod<Double> toDouble_id24zrZPPA80F = new SMethodBuilder<>(Double.class).name("toDouble").modifiers(1, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2387875361826832427L).languageId(0xaa2396963959392cL, 0xaff569ad098d414aL).build2(SMethodBuilder.createJavaParameter(Object.class, "obj"));
+  public static final SMethod<SNode> getBox_id24zrZPPB6$C = new SMethodBuilder<>(SNode.class).name("getBox").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2387875361827088680L).languageId(0xaa2396963959392cL, 0xaff569ad098d414aL).build2();
+  public static final SMethod<String> getPortName_id24zrZPPB6_c = new SMethodBuilder<>(String.class).name("getPortName").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(2387875361827088716L).languageId(0xaa2396963959392cL, 0xaff569ad098d414aL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getPositionX_id24zrZPPzdZv, getPositionY_id24zrZPPzzOs, toDouble_id24zrZPPA80F, getBox_id24zrZPPB6$C, getPortName_id24zrZPPB6_c);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getPositionX_id24zrZPPzdZv, getPositionY_id24zrZPPzzOs, toDouble_id24zrZPPA80F, getBox_id24zrZPPB6$C, getPortName_id24zrZPPB6_c);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
     SPropertyOperations.assign(__thisNode__, PROPS.name$MnvL, "Port" + Math.random());

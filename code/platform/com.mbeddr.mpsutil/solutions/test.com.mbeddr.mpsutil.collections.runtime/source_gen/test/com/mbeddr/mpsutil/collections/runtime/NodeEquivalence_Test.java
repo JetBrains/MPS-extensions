@@ -66,7 +66,7 @@ public class NodeEquivalence_Test extends BaseTransformationTest {
         SNode cl2 = null;
         Assert.assertTrue(equivalence.wrap(cl1).equals(equivalence.wrap(cl2)));
 
-        Assert.assertEquals(equivalence.hash(cl1), equivalence.hash(cl2));
+        Assert.assertEquals(Integer.valueOf(equivalence.hash(cl1)), Integer.valueOf(equivalence.hash(cl2)));
       });
     }
     public void test_sameStructure() throws Exception {
@@ -77,7 +77,7 @@ public class NodeEquivalence_Test extends BaseTransformationTest {
         SNode cl2 = createClassConcept_6g9rf7_a0c0a0b0g9();
         Assert.assertTrue(equivalence.wrap(cl1).equals(equivalence.wrap(cl2)));
 
-        Assert.assertEquals(equivalence.hash(cl1), equivalence.hash(cl2));
+        Assert.assertEquals(Integer.valueOf(equivalence.hash(cl1)), Integer.valueOf(equivalence.hash(cl2)));
       });
     }
     public void test_sameStructure2() throws Exception {
@@ -87,7 +87,7 @@ public class NodeEquivalence_Test extends BaseTransformationTest {
         SNode cls = SPointerOperations.resolveNode(new SNodePointer("r:240d60dc-7568-46d8-a080-a0889db7fd44(com.mbeddr.mpsutil.collections.runtime)", "6355510489490361370"), myModel.getRepository());
         Assert.assertTrue(equivalence.wrap(cls).equals(equivalence.wrap(SNodeOperations.copyNode(cls))));
 
-        Assert.assertEquals(equivalence.hash(cls), equivalence.hash(SNodeOperations.copyNode(cls)));
+        Assert.assertEquals(Integer.valueOf(equivalence.hash(cls)), Integer.valueOf(equivalence.hash(SNodeOperations.copyNode(cls))));
 
       });
     }

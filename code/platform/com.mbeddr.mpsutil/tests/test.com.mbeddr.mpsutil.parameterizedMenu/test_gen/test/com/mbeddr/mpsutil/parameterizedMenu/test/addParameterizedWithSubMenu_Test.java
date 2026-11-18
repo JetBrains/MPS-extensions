@@ -40,7 +40,7 @@ public class addParameterizedWithSubMenu_Test extends BaseTransformationTest {
       invokeAction("jetbrains.mps.ide.editor.actions.Complete_Action");
       typeString("param");
       Assert.assertTrue(getEditorComponent().getNodeSubstituteChooser().isVisible());
-      Assert.assertEquals(1, getEditorComponent().getNodeSubstituteChooser().getNumberOfActions());
+      Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(getEditorComponent().getNodeSubstituteChooser().getNumberOfActions()));
       pressKeys(ListSequence.fromListAndArray(new ArrayList<String>(), " ENTER"));
       typeString("string");
       pressKeys(ListSequence.fromListAndArray(new ArrayList<String>(), " TAB", " TAB"));

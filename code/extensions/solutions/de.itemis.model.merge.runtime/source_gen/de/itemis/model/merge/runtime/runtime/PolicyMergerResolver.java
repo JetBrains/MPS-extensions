@@ -67,12 +67,12 @@ public class PolicyMergerResolver {
 
   /**
    * Traverses the graph from a root to the leaf (for all roots ony by one).
-   * During this traversal for each concept of 'graph' it is determined what kind of merger-objects are 
+   * During this traversal for each concept of 'graph' it is determined what kind of merger-objects are
    * valid for its properties, children and references. During the traversal merger-objects of parent-concepts are
    * propagated to their descendants. This way an inheritance hierarchy is implemented.
    * 
    * @param graph graph of concept hierarchy
-   * @param sconceptToMergePolicy concepts mapped to MergePolicies 
+   * @param sconceptToMergePolicy concepts mapped to MergePolicies
    * @param contentHolderFactory  
    * @return  
    */

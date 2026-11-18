@@ -64,8 +64,8 @@ public class AnnotatioMergeExecution_Test extends BaseTransformationTest {
         SNodeId leftNodeId = ListSequence.fromList(SModelOperations.nodes(leftModel, CONCEPTS.Annotatable$gt)).first().getNodeId();
 
 
-        Assert.assertEquals(4, SPropertyOperations.getInteger(observed, PROPS.value$Iwma));
-        Assert.assertEquals(1, ListSequence.fromList(SLinkOperations.getChildren(observed, LINKS.smodelAttribute$KJ43)).count());
+        Assert.assertEquals(Integer.valueOf(4), Integer.valueOf(SPropertyOperations.getInteger(observed, PROPS.value$Iwma)));
+        Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(ListSequence.fromList(SLinkOperations.getChildren(observed, LINKS.smodelAttribute$KJ43)).count()));
 
         {
           List<SNode> nodesBefore = ListSequence.fromListAndArray(new ArrayList<SNode>(), getAnnotatedNode("expected"));

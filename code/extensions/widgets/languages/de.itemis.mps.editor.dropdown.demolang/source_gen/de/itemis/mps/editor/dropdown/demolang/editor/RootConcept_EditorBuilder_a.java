@@ -84,7 +84,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createDropDown_1() {
-    return createDropDown_0(getEditorContext(), myNode);
+    return createDropDown_0(getEditorContext(), getNode());
   }
   private EditorCell createProperty_0() {
     getCellFactory().pushCellContext();
@@ -126,7 +126,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createDropDown_3() {
-    return createDropDown_2(getEditorContext(), myNode);
+    return createDropDown_2(getEditorContext(), getNode());
   }
   private EditorCell createRefNode_0() {
     SingleRoleCellProvider provider = new expressionSingleRoleHandler_aw3qer_a1b0(myNode, LINKS.expression$KEgx, getEditorContext());

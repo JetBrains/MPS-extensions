@@ -169,7 +169,7 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
     return diagramCell.value;
   }
   private EditorCell createDiagramConnector_1() {
-    return createDiagramConnector_0(getEditorContext(), myNode);
+    return createDiagramConnector_0(getEditorContext(), getNode());
   }
   private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;

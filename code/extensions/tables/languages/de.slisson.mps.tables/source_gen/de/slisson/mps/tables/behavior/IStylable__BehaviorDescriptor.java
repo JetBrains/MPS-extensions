@@ -9,25 +9,21 @@ import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
-import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 
 public final class IStylable__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getInterfaceConcept(0x7e450f4e1ac341efL, 0xa8514598161bdb94L, 0x4e9430da1e96d2dbL, "de.slisson.mps.tables.structure.IStylable");
 
-  public static final SMethod<List<SNode>> getAdditionalStyleQueryParameters_id4UkcdCuFJHc = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getAdditionalStyleQueryParameters").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5662204344887343948L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
+  public static final SMethod<List<SNode>> getAdditionalStyleQueryParameters_id4UkcdCuFJHc = new SMethodBuilder<>((Class<List<SNode>>) ((Class) Object.class)).name("getAdditionalStyleQueryParameters").modifiers(8, AccessPrivileges.PUBLIC).concept(CONCEPT).baseMethodId(5662204344887343948L).languageId(0xa8514598161bdb94L, 0x7e450f4e1ac341efL).build2();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getAdditionalStyleQueryParameters_id4UkcdCuFJHc);
+  private final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getAdditionalStyleQueryParameters_id4UkcdCuFJHc);
 
-  private static void ___init___(@NotNull SNode __thisNode__) {
-  }
 
   /*package*/ static List<SNode> getAdditionalStyleQueryParameters_id4UkcdCuFJHc(@NotNull SNode __thisNode__) {
     return ListSequence.fromList(new ArrayList<SNode>());
@@ -36,10 +32,6 @@ public final class IStylable__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ IStylable__BehaviorDescriptor() {
   }
 
-  @Override
-  protected void initNode(@NotNull SNode node, @NotNull SConstructor constructor, @Nullable Object[] parameters) {
-    ___init___(node);
-  }
 
   @Override
   protected <T> T invokeSpecial0(@NotNull SNode node, @NotNull SMethod<T> method, @Nullable Object[] parameters) {

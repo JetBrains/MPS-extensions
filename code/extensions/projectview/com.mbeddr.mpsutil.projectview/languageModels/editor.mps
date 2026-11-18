@@ -12,6 +12,9 @@
     <import index="os9e" ref="r:97eb5271-8e83-4b12-a8f1-f764eae13815(com.mbeddr.mpsutil.projectview.behavior)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
@@ -103,7 +106,6 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -660,7 +662,7 @@
             <node concept="3clFbF" id="7JKaZZvChrP" role="3cqZAp">
               <node concept="2OqwBi" id="7JKaZZvChrQ" role="3clFbG">
                 <node concept="pncrf" id="7JKaZZvChrR" role="2Oq$k0" />
-                <node concept="2qgKlT" id="7JKaZZvChrS" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybpCa" role="2OqNvi">
                   <ref role="37wK5l" to="os9e:75_oBQVYfcU" resolve="isAbstract" />
                 </node>
               </node>
@@ -681,7 +683,7 @@
             <node concept="3clFbF" id="7JKaZZvChrY" role="3cqZAp">
               <node concept="2OqwBi" id="7JKaZZvChrZ" role="3clFbG">
                 <node concept="pncrf" id="7JKaZZvChs0" role="2Oq$k0" />
-                <node concept="2qgKlT" id="7JKaZZvChs1" role="2OqNvi">
+                <node concept="3zqWPK" id="WEZADybpCc" role="2OqNvi">
                   <ref role="37wK5l" to="os9e:75_oBQVYcbH" resolve="isOverride" />
                 </node>
               </node>

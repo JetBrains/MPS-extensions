@@ -13,6 +13,9 @@
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1161622981231" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_editorContext" flags="nn" index="1Q80Hx" />
       <concept id="1176717841777" name="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Getter" flags="in" index="3TQlhw" />
@@ -69,7 +72,7 @@
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
-      <concept id="1114706874351" name="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" flags="ln" index="29HgVG">
+      <concept id="1114706874351" name="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" flags="lg" index="29HgVG">
         <child id="1168024447342" name="sourceNodeQuery" index="3NFExx" />
       </concept>
       <concept id="1219952072943" name="jetbrains.mps.lang.generator.structure.DropRootRule" flags="lg" index="aNPBN">
@@ -97,17 +100,16 @@
         <reference id="1168285871518" name="applicableConcept" index="3gUMe" />
         <child id="1092060348987" name="contentNode" index="13RCb5" />
       </concept>
-      <concept id="1087833241328" name="jetbrains.mps.lang.generator.structure.PropertyMacro" flags="ln" index="17Uvod">
+      <concept id="1087833241328" name="jetbrains.mps.lang.generator.structure.PropertyMacro" flags="lg" index="17Uvod">
         <child id="1167756362303" name="propertyValueFunction" index="3zH0cK" />
       </concept>
       <concept id="1167327847730" name="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" flags="lg" index="3aamgX">
         <child id="1169672767469" name="ruleConsequence" index="1lVwrX" />
       </concept>
       <concept id="1167756080639" name="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" flags="in" index="3zFVjK" />
-      <concept id="1168024337012" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" flags="in" index="3NFfHV" />
+      <concept id="1168024337012" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" flags="ig" index="3NFfHV" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -157,7 +159,7 @@
                             <ref role="3Tt5mk" to="j5gv:55VuGTNRh4U" resolve="viewModel" />
                           </node>
                         </node>
-                        <node concept="2qgKlT" id="55VuGTOnJX3" role="2OqNvi">
+                        <node concept="3zqWPK" id="2TC2zKbCQXk" role="2OqNvi">
                           <ref role="37wK5l" to="qno0:55VuGTNRv56" resolve="getRuntimeName" />
                         </node>
                       </node>
@@ -214,7 +216,7 @@
           <node concept="3clFbF" id="55VuGTOlS1z" role="3cqZAp">
             <node concept="2OqwBi" id="55VuGTOlS1_" role="3clFbG">
               <node concept="30H73N" id="55VuGTOlS1C" role="2Oq$k0" />
-              <node concept="2qgKlT" id="55VuGTOlS1D" role="2OqNvi">
+              <node concept="3zqWPK" id="2TC2zKbCQXm" role="2OqNvi">
                 <ref role="37wK5l" to="qno0:55VuGTOgGLs" resolve="isEditorContextAvailable" />
               </node>
             </node>
@@ -246,7 +248,7 @@
                           <ref role="3Tt5mk" to="j5gv:55VuGTNRh4U" resolve="viewModel" />
                         </node>
                       </node>
-                      <node concept="2qgKlT" id="55VuGTOBbG6" role="2OqNvi">
+                      <node concept="3zqWPK" id="2TC2zKbCQXo" role="2OqNvi">
                         <ref role="37wK5l" to="qno0:55VuGTNRv56" resolve="getRuntimeName" />
                       </node>
                     </node>
@@ -326,7 +328,7 @@
                                 <ref role="3Tt5mk" to="j5gv:55VuGTNRh4U" resolve="viewModel" />
                               </node>
                             </node>
-                            <node concept="2qgKlT" id="55VuGTOnM$N" role="2OqNvi">
+                            <node concept="3zqWPK" id="2TC2zKbCQXq" role="2OqNvi">
                               <ref role="37wK5l" to="qno0:55VuGTNRv56" resolve="getRuntimeName" />
                             </node>
                           </node>

@@ -26,6 +26,9 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
@@ -431,7 +434,6 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
@@ -840,9 +842,9 @@
             <ref role="2xQOue" node="3FRjz$vfy7O" resolve="PortShape" />
             <node concept="2OqwBi" id="1HYYbxFYkzW" role="1xbcaF">
               <node concept="1Pxb5l" id="1HYYbxFYkE2" role="2Oq$k0" />
-              <node concept="2qgKlT" id="1HYYbxFYkzY" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpwi" role="2OqNvi">
                 <ref role="37wK5l" to="r2fl:3FRjz$vg0S0" resolve="isConnected" />
-                <node concept="15kUEO" id="1HYYbxFYkBV" role="37wK5m" />
+                <node concept="15kUEO" id="WEZADybpwk" role="37wK5m" />
               </node>
             </node>
             <node concept="3clFbT" id="1HYYbxFYk$0" role="1xbcaF">
@@ -894,9 +896,9 @@
             <ref role="2xQOue" node="3FRjz$vfy7O" resolve="PortShape" />
             <node concept="2OqwBi" id="1HYYbxG04gO" role="1xbcaF">
               <node concept="1Pxb5l" id="1HYYbxG04gP" role="2Oq$k0" />
-              <node concept="2qgKlT" id="1HYYbxG04gQ" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpwl" role="2OqNvi">
                 <ref role="37wK5l" to="r2fl:3FRjz$vg0S0" resolve="isConnected" />
-                <node concept="15kUEO" id="1HYYbxG04gR" role="37wK5m" />
+                <node concept="15kUEO" id="WEZADybpwn" role="37wK5m" />
               </node>
             </node>
             <node concept="3clFbT" id="1HYYbxG04gS" role="1xbcaF">
@@ -929,9 +931,9 @@
             <ref role="2xQOue" node="3FRjz$vfy7O" resolve="PortShape" />
             <node concept="2OqwBi" id="1HYYbxG05lM" role="1xbcaF">
               <node concept="1Pxb5l" id="1HYYbxG05lN" role="2Oq$k0" />
-              <node concept="2qgKlT" id="1HYYbxG05lO" role="2OqNvi">
+              <node concept="3zqWPK" id="WEZADybpwo" role="2OqNvi">
                 <ref role="37wK5l" to="r2fl:3FRjz$vg0S0" resolve="isConnected" />
-                <node concept="15kUEO" id="1HYYbxG05lP" role="37wK5m" />
+                <node concept="15kUEO" id="WEZADybpwq" role="37wK5m" />
               </node>
             </node>
             <node concept="3clFbT" id="1HYYbxG05lQ" role="1xbcaF" />

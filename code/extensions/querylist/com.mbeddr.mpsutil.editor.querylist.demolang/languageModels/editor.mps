@@ -20,6 +20,9 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
@@ -273,7 +276,6 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
@@ -776,7 +778,7 @@
                         </node>
                         <node concept="1uHKPH" id="puVMIbxOrQ" role="2OqNvi" />
                       </node>
-                      <node concept="2qgKlT" id="puVMIbxYls" role="2OqNvi">
+                      <node concept="3zqWPK" id="WEZADybq71" role="2OqNvi">
                         <ref role="37wK5l" to="tpek:4_LVZ3pBKCn" resolve="methods" />
                       </node>
                     </node>
@@ -833,7 +835,7 @@
                       </node>
                       <node concept="1uHKPH" id="lPJxik65bH" role="2OqNvi" />
                     </node>
-                    <node concept="2qgKlT" id="lPJxik65bI" role="2OqNvi">
+                    <node concept="3zqWPK" id="WEZADybq73" role="2OqNvi">
                       <ref role="37wK5l" to="tpek:4_LVZ3pBKCn" resolve="methods" />
                     </node>
                   </node>
@@ -940,7 +942,7 @@
                         </node>
                         <node concept="1uHKPH" id="lPJxik8umz" role="2OqNvi" />
                       </node>
-                      <node concept="2qgKlT" id="lPJxik8um$" role="2OqNvi">
+                      <node concept="3zqWPK" id="WEZADybq75" role="2OqNvi">
                         <ref role="37wK5l" to="tpek:4_LVZ3pBKCn" resolve="methods" />
                       </node>
                     </node>
@@ -1031,7 +1033,7 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="2qgKlT" id="T_6DrmGCsl" role="2OqNvi">
+                      <node concept="3zqWPK" id="WEZADybq77" role="2OqNvi">
                         <ref role="37wK5l" to="tpek:4_LVZ3pBKCn" resolve="methods" />
                       </node>
                     </node>
@@ -1088,7 +1090,7 @@
                       </node>
                       <node concept="1uHKPH" id="T_6DrmGCsI" role="2OqNvi" />
                     </node>
-                    <node concept="2qgKlT" id="T_6DrmGCsJ" role="2OqNvi">
+                    <node concept="3zqWPK" id="WEZADybq79" role="2OqNvi">
                       <ref role="37wK5l" to="tpek:4_LVZ3pBKCn" resolve="methods" />
                     </node>
                   </node>
@@ -1186,7 +1188,7 @@
                         </node>
                         <node concept="1uHKPH" id="T_6DrmGCtv" role="2OqNvi" />
                       </node>
-                      <node concept="2qgKlT" id="T_6DrmGCtw" role="2OqNvi">
+                      <node concept="3zqWPK" id="WEZADybq7b" role="2OqNvi">
                         <ref role="37wK5l" to="tpek:4_LVZ3pBKCn" resolve="methods" />
                       </node>
                     </node>

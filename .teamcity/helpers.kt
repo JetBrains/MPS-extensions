@@ -1,4 +1,5 @@
 import jetbrains.buildServer.configs.kotlin.BuildFeatures
+import jetbrains.buildServer.configs.kotlin.BuildType
 import jetbrains.buildServer.configs.kotlin.buildFeatures.XmlReport
 import jetbrains.buildServer.configs.kotlin.buildFeatures.commitStatusPublisher
 import jetbrains.buildServer.configs.kotlin.buildFeatures.xmlReport
@@ -24,4 +25,17 @@ fun BuildFeatures.publishCommitStatusToGitHub() {
             }
         }
     }
+}
+
+fun BuildType.collectBuildArtifacts() {
+    artifactRules = """
+        code/extensions/build/distributions/*.zip => artifacts/extensions
+        code/platform/build/distributions/*.zip => artifacts/platform
+        code/platform/build/github-release/*.zip => artifacts/releases
+        code/extensions/build/reports/sbom.json => artifacts/extensions
+        code/platform/build/reports/sbom.json => artifacts/platform
+        code/extensions/build/publications/** => metadata/extensions
+        code/platform/build/publications/** => metadata/platform
+        code/extensions/build/junitreport/** => reports/extensions
+    """.trimIndent()
 }

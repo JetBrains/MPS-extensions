@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:1e59dd77-5410-415b-bc1a-c8c0f4a71fd1(test.com.mbeddr.mpsutil.iconchar.test.test@tests)/4307543426656179098">
+    <file name="IconCharTest_Test.java">
+      <node id="4307543426656179098" at="24,30,25,60" concept="5" />
+      <node id="4307543426656199793" at="29,61,30,52" concept="1" />
+      <node id="4307543426656179098" at="35,52,36,19" concept="5" />
+      <node id="4307543426656179098" at="40,36,41,46" concept="1" />
+      <node id="4307543426656199793" at="44,63,45,22" concept="1" />
+      <node id="6649457892914794075" at="46,30,47,96" concept="3" />
+      <node id="6649457892913627814" at="47,96,48,98" concept="1" />
+      <node id="4307543426656179098" at="21,0,23,0" concept="4" trace="ourParametersCacheExtension" />
+      <node id="4307543426656179098" at="24,0,27,0" concept="0" trace="IconCharTest_Test#()V" />
+      <node id="4307543426656179098" at="35,0,38,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4307543426656199793" at="28,0,32,0" concept="2" trace="test_checkIconWasGenerated#()V" />
+      <node id="4307543426656179098" at="39,0,43,0" concept="2" trace="initTestNodes#()V" />
+      <node id="4307543426656199793" at="45,22,49,9" concept="1" />
+      <node id="4307543426656199793" at="44,0,51,0" concept="2" trace="test_checkIconWasGenerated#()V" />
+      <scope id="4307543426656179098" at="24,30,25,60" />
+      <scope id="4307543426656199793" at="29,61,30,52" />
+      <scope id="4307543426656179098" at="35,52,36,19" />
+      <scope id="4307543426656179098" at="40,36,41,46" />
+      <scope id="4307543426656199793" at="46,30,48,98">
+        <var name="icon" id="6649457892914794076" />
+      </scope>
+      <scope id="4307543426656179098" at="24,0,27,0" />
+      <scope id="4307543426656179098" at="35,0,38,0">
+        <var name="owner" id="4307543426656179098" />
+      </scope>
+      <scope id="4307543426656199793" at="28,0,32,0" />
+      <scope id="4307543426656179098" at="39,0,43,0" />
+      <scope id="4307543426656199793" at="44,63,49,9" />
+      <scope id="4307543426656199793" at="44,0,51,0" />
+      <unit id="4307543426656179098" at="33,0,53,0" name="test.com.mbeddr.mpsutil.iconchar.test.test.IconCharTest_Test$TestBody" />
+      <unit id="4307543426656179098" at="19,0,54,0" name="test.com.mbeddr.mpsutil.iconchar.test.test.IconCharTest_Test" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1160998861373:jetbrains.mps.baseLanguage.structure.AssertStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:b1ac0874-61eb-418e-9fae-496749ebe212(test.com.mbeddr.mpsutil.ecoreimporter.testingframework@tests)/7314696043195524984">
+    <file name="BasicTest_Test.java">
+      <node id="7314696043195524984" at="26,27,27,60" concept="7" />
+      <node id="494571880817575964" at="31,66,32,57" concept="2" />
+      <node id="8842914193120253321" at="35,69,36,60" concept="2" />
+      <node id="8842914193120253485" at="39,67,40,58" concept="2" />
+      <node id="7314696043195524984" at="45,52,46,19" concept="7" />
+      <node id="7314696043195524984" at="50,36,51,25" concept="2" />
+      <node id="494571880817575964" at="54,68,55,22" concept="2" />
+      <node id="8842914193120252880" at="56,30,57,208" concept="5" />
+      <node id="8842914193120252880" at="57,208,58,75" concept="5" />
+      <node id="8842914193120252880" at="58,75,59,317" concept="5" />
+      <node id="8842914193120252880" at="60,62,61,38" concept="2" />
+      <node id="8842914193120252880" at="61,38,62,95" concept="0" />
+      <node id="8842914193120253321" at="66,71,67,22" concept="2" />
+      <node id="8858976468115579234" at="68,30,69,37" concept="5" />
+      <node id="8842914193120252902" at="70,13,71,210" concept="5" />
+      <node id="8842914193120252902" at="71,210,72,77" concept="5" />
+      <node id="8842914193120252902" at="72,77,73,317" concept="5" />
+      <node id="8842914193120252902" at="74,64,75,40" concept="2" />
+      <node id="8842914193120252902" at="75,40,76,97" concept="0" />
+      <node id="8858976468115579835" at="78,38,79,30" concept="2" />
+      <node id="8858976468115300479" at="79,30,80,47" concept="2" />
+      <node id="8858976468115581215" at="82,30,83,23" concept="0" />
+      <node id="8842914193120253485" at="87,69,88,22" concept="2" />
+      <node id="8858976468115577485" at="89,30,90,37" concept="5" />
+      <node id="494571880822839438" at="91,13,92,210" concept="5" />
+      <node id="494571880822839438" at="92,210,93,77" concept="5" />
+      <node id="494571880822839438" at="93,77,94,313" concept="5" />
+      <node id="494571880822839438" at="95,64,96,40" concept="2" />
+      <node id="494571880822839438" at="96,40,97,97" concept="0" />
+      <node id="8858976468115577737" at="99,38,100,30" concept="2" />
+      <node id="8858976468115305148" at="100,30,101,47" concept="2" />
+      <node id="8858976468115579093" at="103,30,104,23" concept="0" />
+      <node id="7314696043195524984" at="23,0,25,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="7314696043195524984" at="26,0,29,0" concept="1" trace="BasicTest_Test#()V" />
+      <node id="7314696043195524984" at="45,0,48,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="8858976468115580969" at="81,9,84,9" concept="3" />
+      <node id="8858976468115578855" at="102,9,105,9" concept="3" />
+      <node id="494571880817575964" at="30,0,34,0" concept="4" trace="test_testingFrameWorkBasicMatch#()V" />
+      <node id="8842914193120253321" at="34,0,38,0" concept="4" trace="test_testDifferentNumberOfChildren#()V" />
+      <node id="8842914193120253485" at="38,0,42,0" concept="4" trace="test_noDifferentNumberofChildren#()V" />
+      <node id="7314696043195524984" at="49,0,53,0" concept="4" trace="initTestNodes#()V" />
+      <node id="8842914193120252880" at="59,317,63,9" concept="3" />
+      <node id="8842914193120252902" at="73,317,77,11" concept="3" />
+      <node id="494571880822839438" at="94,313,98,11" concept="3" />
+      <node id="494571880817575964" at="55,22,64,9" concept="2" />
+      <node id="494571880817575964" at="54,0,66,0" concept="4" trace="test_testingFrameWorkBasicMatch#()V" />
+      <node id="8858976468115299960" at="69,37,81,9" concept="8" />
+      <node id="8858976468115305139" at="90,37,102,9" concept="8" />
+      <node id="8842914193120253321" at="67,22,85,9" concept="2" />
+      <node id="8842914193120253485" at="88,22,106,9" concept="2" />
+      <node id="8842914193120253321" at="66,0,87,0" concept="4" trace="test_testDifferentNumberOfChildren#()V" />
+      <node id="8842914193120253485" at="87,0,108,0" concept="4" trace="test_noDifferentNumberofChildren#()V" />
+      <scope id="7314696043195524984" at="26,27,27,60" />
+      <scope id="494571880817575964" at="31,66,32,57" />
+      <scope id="8842914193120253321" at="35,69,36,60" />
+      <scope id="8842914193120253485" at="39,67,40,58" />
+      <scope id="7314696043195524984" at="45,52,46,19" />
+      <scope id="7314696043195524984" at="50,36,51,25" />
+      <scope id="8858976468115580971" at="82,30,83,23" />
+      <scope id="8858976468115578857" at="103,30,104,23" />
+      <scope id="8842914193120252880" at="60,62,62,95" />
+      <scope id="8842914193120252902" at="74,64,76,97" />
+      <scope id="8858976468115299969" at="78,38,80,47" />
+      <scope id="494571880822839438" at="95,64,97,97" />
+      <scope id="8858976468115305147" at="99,38,101,47" />
+      <scope id="7314696043195524984" at="26,0,29,0" />
+      <scope id="7314696043195524984" at="45,0,48,0">
+        <var name="owner" id="7314696043195524984" />
+      </scope>
+      <scope id="8858976468115299963" at="78,9,81,9">
+        <var name="err" id="8858976468115299965" />
+      </scope>
+      <scope id="8858976468115305144" at="99,9,102,9">
+        <var name="err" id="8858976468115305145" />
+      </scope>
+      <scope id="494571880817575964" at="30,0,34,0" />
+      <scope id="8842914193120253321" at="34,0,38,0" />
+      <scope id="8842914193120253485" at="38,0,42,0" />
+      <scope id="7314696043195524984" at="49,0,53,0" />
+      <scope id="494571880817575964" at="56,30,63,9" />
+      <scope id="8842914193120252880" at="56,30,63,9">
+        <var name="differences" id="8842914193120252880" />
+        <var name="ecoreFile" id="8842914193120252880" />
+        <var name="testUtil" id="8842914193120252880" />
+      </scope>
+      <scope id="8842914193120252902" at="70,13,77,11">
+        <var name="differences" id="8842914193120252902" />
+        <var name="ecoreFile" id="8842914193120252902" />
+        <var name="testUtil" id="8842914193120252902" />
+      </scope>
+      <scope id="8858976468115299962" at="70,13,77,11" />
+      <scope id="494571880822839438" at="91,13,98,11">
+        <var name="differences" id="494571880822839438" />
+        <var name="ecoreFile" id="494571880822839438" />
+        <var name="testUtil" id="494571880822839438" />
+      </scope>
+      <scope id="8858976468115305140" at="91,13,98,11" />
+      <scope id="494571880817575964" at="54,68,64,9" />
+      <scope id="494571880817575964" at="54,0,66,0" />
+      <scope id="8842914193120253321" at="68,30,84,9">
+        <var name="assertThrown" id="8858976468115579237" />
+      </scope>
+      <scope id="8842914193120253485" at="89,30,105,9">
+        <var name="assertThrown" id="8858976468115577488" />
+      </scope>
+      <scope id="8842914193120253321" at="66,71,85,9" />
+      <scope id="8842914193120253485" at="87,69,106,9" />
+      <scope id="8842914193120253321" at="66,0,87,0" />
+      <scope id="8842914193120253485" at="87,0,108,0" />
+      <unit id="7314696043195524984" at="43,0,110,0" name="test.com.mbeddr.mpsutil.ecoreimporter.testingframework.BasicTest_Test$TestBody" />
+      <unit id="7314696043195524984" at="21,0,111,0" name="test.com.mbeddr.mpsutil.ecoreimporter.testingframework.BasicTest_Test" />
+    </file>
+  </root>
+</debug-info>
+

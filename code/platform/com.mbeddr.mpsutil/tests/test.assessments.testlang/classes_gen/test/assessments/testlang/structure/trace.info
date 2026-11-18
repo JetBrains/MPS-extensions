@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,46,0" name="test.assessments.testlang.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,32,0" name="test.assessments.testlang.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="15,0,92,0" name="test.assessments.testlang.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:08e46f36-ad08-4837-aae6-df5fffab661d(test.assessments.testlang.structure)/7476027418010357954">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="7476027418010357954" at="12,0,13,0" concept="1" trace="props_TestAssessmentQuery" />
+      <node id="7476027418010357954" at="22,48,23,76" concept="3" />
+      <node id="7476027418010357954" at="23,76,24,55" concept="0" />
+      <node id="7476027418010357954" at="24,55,25,51" concept="0" />
+      <node id="7476027418010357954" at="26,9,27,41" concept="4" />
+      <node id="7476027418010357954" at="21,53,26,9" concept="2" />
+      <scope id="7476027418010357954" at="22,48,25,51">
+        <var name="cpb" id="7476027418010357954" />
+      </scope>
+      <scope id="7476027418010357954" at="21,53,27,41" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="7476027418010357954" at="12,0,13,0" concept="6" trace="TestAssessmentQuery" />
+      <node id="7476027418010357954" at="17,116,18,58" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="7476027418010357954" at="16,0,17,0" concept="1" trace="myConceptTestAssessmentQuery" />
+      <node id="7476027418010357954" at="40,53,41,44" concept="4" />
+      <node id="7476027418010357954" at="56,77,57,179" concept="3" />
+      <node id="7476027418010357954" at="57,179,58,34" concept="0" />
+      <node id="7476027418010357954" at="58,34,59,62" concept="5" />
+      <node id="7476027418010357954" at="59,62,60,75" concept="0" />
+      <node id="7476027418010357954" at="60,75,61,112" concept="0" />
+      <node id="7476027418010357954" at="61,112,62,17" concept="0" />
+      <node id="7476027418010420406" at="62,17,63,207" concept="0" />
+      <node id="7476027418010509408" at="63,207,64,209" concept="0" />
+      <node id="7476027418010357954" at="64,209,65,37" concept="0" />
+      <node id="7476027418010357954" at="65,37,66,22" concept="4" />
+      <node id="7476027418010357954" at="56,0,68,0" concept="7" trace="createDescriptorForTestAssessmentQuery#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7476027418010357954" at="40,53,41,44" />
+      <scope id="7476027418010357954" at="56,77,66,22">
+        <var name="b" id="7476027418010357954" />
+      </scope>
+      <scope id="7476027418010357954" at="56,0,68,0" />
+    </file>
+  </root>
+  <root nodeRef="r:08e46f36-ad08-4837-aae6-df5fffab661d(test.assessments.testlang.structure)/7476027418010358010">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="7476027418010358010" at="13,0,14,0" concept="1" trace="props_TestAssessmentResult" />
+      <node id="7476027418010358010" at="29,49,30,76" concept="3" />
+      <node id="7476027418010358010" at="30,76,31,45" concept="0" />
+      <node id="7476027418010358010" at="31,45,32,52" concept="0" />
+      <node id="7476027418010358010" at="33,9,34,42" concept="4" />
+      <node id="7476027418010358010" at="28,54,33,9" concept="2" />
+      <scope id="7476027418010358010" at="29,49,32,52">
+        <var name="cpb" id="7476027418010358010" />
+      </scope>
+      <scope id="7476027418010358010" at="28,54,34,42" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="7476027418010358010" at="13,0,14,0" concept="6" trace="TestAssessmentResult" />
+      <node id="7476027418010358010" at="18,58,19,59" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="7476027418010358010" at="17,0,18,0" concept="1" trace="myConceptTestAssessmentResult" />
+      <node id="7476027418010358010" at="42,54,43,45" concept="4" />
+      <node id="7476027418010358010" at="68,78,69,180" concept="3" />
+      <node id="7476027418010358010" at="69,180,70,34" concept="0" />
+      <node id="7476027418010358010" at="70,34,71,63" concept="5" />
+      <node id="7476027418010358010" at="71,63,72,75" concept="0" />
+      <node id="7476027418010358010" at="72,75,73,112" concept="0" />
+      <node id="7476027418010358010" at="73,112,74,17" concept="0" />
+      <node id="7476027418010405669" at="74,17,75,108" concept="0" />
+      <node id="7476027418010358011" at="75,108,76,110" concept="0" />
+      <node id="7476027418010358010" at="76,110,77,27" concept="0" />
+      <node id="7476027418010358010" at="77,27,78,22" concept="4" />
+      <node id="7476027418010358010" at="68,0,80,0" concept="7" trace="createDescriptorForTestAssessmentResult#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7476027418010358010" at="42,54,43,45" />
+      <scope id="7476027418010358010" at="68,78,78,22">
+        <var name="b" id="7476027418010358010" />
+      </scope>
+      <scope id="7476027418010358010" at="68,0,80,0" />
+    </file>
+  </root>
+  <root nodeRef="r:08e46f36-ad08-4837-aae6-df5fffab661d(test.assessments.testlang.structure)/7476027418010509348">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="7476027418010509348" at="14,0,15,0" concept="1" trace="props_TestAssessmentSummary" />
+      <node id="7476027418010509348" at="36,50,37,76" concept="3" />
+      <node id="7476027418010509348" at="37,76,38,57" concept="0" />
+      <node id="7476027418010509348" at="38,57,39,53" concept="0" />
+      <node id="7476027418010509348" at="40,9,41,43" concept="4" />
+      <node id="7476027418010509348" at="35,55,40,9" concept="2" />
+      <scope id="7476027418010509348" at="36,50,39,53">
+        <var name="cpb" id="7476027418010509348" />
+      </scope>
+      <scope id="7476027418010509348" at="35,55,41,43" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="7476027418010509348" at="14,0,15,0" concept="6" trace="TestAssessmentSummary" />
+      <node id="7476027418010509348" at="19,59,20,60" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="7476027418010509348" at="18,0,19,0" concept="1" trace="myConceptTestAssessmentSummary" />
+      <node id="7476027418010509348" at="44,55,45,46" concept="4" />
+      <node id="7476027418010509348" at="80,79,81,181" concept="3" />
+      <node id="7476027418010509348" at="81,181,82,34" concept="0" />
+      <node id="7476027418010509348" at="82,34,83,64" concept="5" />
+      <node id="7476027418010509348" at="83,64,84,75" concept="0" />
+      <node id="7476027418010509348" at="84,75,85,112" concept="0" />
+      <node id="7476027418010509348" at="85,112,86,17" concept="0" />
+      <node id="7476027418010509349" at="86,17,87,110" concept="0" />
+      <node id="7476027418010509348" at="87,110,88,39" concept="0" />
+      <node id="7476027418010509348" at="88,39,89,22" concept="4" />
+      <node id="7476027418010509348" at="80,0,91,0" concept="7" trace="createDescriptorForTestAssessmentSummary#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7476027418010509348" at="44,55,45,46" />
+      <scope id="7476027418010509348" at="80,79,89,22">
+        <var name="b" id="7476027418010509348" />
+      </scope>
+      <scope id="7476027418010509348" at="80,0,91,0" />
+    </file>
+  </root>
+</debug-info>
+

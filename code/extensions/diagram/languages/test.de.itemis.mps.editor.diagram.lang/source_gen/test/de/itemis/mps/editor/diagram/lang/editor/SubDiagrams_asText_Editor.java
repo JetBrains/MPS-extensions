@@ -18,6 +18,6 @@ public class SubDiagrams_asText_Editor extends DefaultNodeEditor {
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SubDiagrams_asText_EditorBuilder_a(editorContext, node).createCell();
+    return new SubDiagrams_asText_EditorBuilder(editorContext, node).createCell();
   }
 }

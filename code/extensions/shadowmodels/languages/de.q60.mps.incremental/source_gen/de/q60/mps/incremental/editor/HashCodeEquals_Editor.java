@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class HashCodeEquals_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new HashCodeEquals_EditorBuilder_a(editorContext, node).createCell();
+    return new HashCodeEquals_EditorBuilder(editorContext, node).createCell();
   }
 }

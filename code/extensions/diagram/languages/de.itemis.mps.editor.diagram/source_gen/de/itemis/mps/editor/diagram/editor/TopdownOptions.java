@@ -16,6 +16,6 @@ public class TopdownOptions implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TopdownOptions_ComponentBuilder_a(editorContext, node).createCell();
+    return new TopdownOptions_ComponentBuilder(editorContext, node).createCell();
   }
 }

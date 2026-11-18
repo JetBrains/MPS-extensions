@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TStringType_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TStringType_EditorBuilder_a(editorContext, node).createCell();
+    return new TStringType_EditorBuilder(editorContext, node).createCell();
   }
 }

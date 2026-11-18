@@ -18,6 +18,6 @@ public class Box_asText_Editor extends DefaultNodeEditor {
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Box_asText_EditorBuilder_a(editorContext, node).createCell();
+    return new Box_asText_EditorBuilder(editorContext, node).createCell();
   }
 }

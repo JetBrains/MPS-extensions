@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Diamonds_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Diamonds_EditorBuilder_a(editorContext, node).createCell();
+    return new Diamonds_EditorBuilder(editorContext, node).createCell();
   }
 }

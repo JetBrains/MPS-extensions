@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class AssertGeneratedModelEquals_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new AssertGeneratedModelEquals_EditorBuilder_a(editorContext, node).createCell();
+    return new AssertGeneratedModelEquals_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new AssertGeneratedModelEquals_InspectorBuilder_a(editorContext, node).createCell();
+    return new AssertGeneratedModelEquals_InspectorBuilder(editorContext, node).createCell();
   }
 }

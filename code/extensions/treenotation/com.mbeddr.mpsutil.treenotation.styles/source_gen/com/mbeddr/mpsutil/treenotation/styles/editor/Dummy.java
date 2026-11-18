@@ -16,6 +16,6 @@ public class Dummy implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Dummy_ComponentBuilder_a(editorContext, node).createCell();
+    return new Dummy_ComponentBuilder(editorContext, node).createCell();
   }
 }

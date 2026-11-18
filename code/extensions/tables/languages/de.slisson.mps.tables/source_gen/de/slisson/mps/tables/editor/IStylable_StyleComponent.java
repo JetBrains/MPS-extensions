@@ -16,6 +16,6 @@ public class IStylable_StyleComponent implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new IStylable_StyleComponent_ComponentBuilder_a(editorContext, node).createCell();
+    return new IStylable_StyleComponent_ComponentBuilder(editorContext, node).createCell();
   }
 }

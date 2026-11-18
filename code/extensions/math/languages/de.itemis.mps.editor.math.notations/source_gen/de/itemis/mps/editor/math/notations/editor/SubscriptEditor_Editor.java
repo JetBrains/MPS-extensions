@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class SubscriptEditor_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SubscriptEditor_EditorBuilder_a(editorContext, node).createCell();
+    return new SubscriptEditor_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new SubscriptEditor_InspectorBuilder_a(editorContext, node).createCell();
+    return new SubscriptEditor_InspectorBuilder(editorContext, node).createCell();
   }
 }

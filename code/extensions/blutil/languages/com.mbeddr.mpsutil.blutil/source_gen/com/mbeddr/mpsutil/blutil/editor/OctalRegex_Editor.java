@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class OctalRegex_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new OctalRegex_EditorBuilder_a(editorContext, node).createCell();
+    return new OctalRegex_EditorBuilder(editorContext, node).createCell();
   }
 }

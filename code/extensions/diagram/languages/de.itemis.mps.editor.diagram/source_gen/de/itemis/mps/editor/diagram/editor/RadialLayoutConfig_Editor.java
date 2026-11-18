@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class RadialLayoutConfig_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new RadialLayoutConfig_EditorBuilder_a(editorContext, node).createCell();
+    return new RadialLayoutConfig_EditorBuilder(editorContext, node).createCell();
   }
 }

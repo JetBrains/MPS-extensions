@@ -32,17 +32,17 @@
   </root>
   <root nodeRef="r:a852f19c-d4d5-4720-b716-f1cbc6193025(de.q60.mps.incremental.editor)/1072055285051534681">
     <file name="IncrementalExpression_Editor.java">
-      <node id="1072055285051534681" at="11,79,12,87" concept="6" />
+      <node id="1072055285051534681" at="11,79,12,85" concept="6" />
       <node id="1072055285051534681" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1072055285051534681" at="11,79,12,87" />
+      <scope id="1072055285051534681" at="11,79,12,85" />
       <scope id="1072055285051534681" at="11,0,14,0">
         <var name="editorContext" id="1072055285051534681" />
         <var name="node" id="1072055285051534681" />
       </scope>
       <unit id="1072055285051534681" at="10,0,15,0" name="de.q60.mps.incremental.editor.IncrementalExpression_Editor" />
     </file>
-    <file name="IncrementalExpression_EditorBuilder_a.java">
-      <node id="1072055285051534681" at="36,101,37,19" concept="9" />
+    <file name="IncrementalExpression_EditorBuilder.java">
+      <node id="1072055285051534681" at="36,99,37,19" concept="9" />
       <node id="1072055285051534681" at="37,19,38,18" concept="1" />
       <node id="1072055285051534681" at="43,26,44,18" concept="6" />
       <node id="1072055285051534681" at="47,39,48,32" concept="6" />
@@ -196,7 +196,7 @@
       <node id="1072055285051534681" at="276,87,279,7" concept="3" />
       <node id="1072055285051534681" at="279,7,282,7" concept="3" />
       <node id="1072055285051534681" at="301,0,304,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="1072055285051534681" at="36,0,40,0" concept="0" trace="IncrementalExpression_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1072055285051534681" at="36,0,40,0" concept="0" trace="IncrementalExpression_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1072055285051534690" at="67,0,71,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1072055285051534681" at="92,0,96,0" concept="0" trace="cacheKeysListHandler_8hrrct_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1072055285051534681" at="97,0,101,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -251,7 +251,7 @@
       <scope id="1072055285051534681" at="280,42,281,45" />
       <scope id="1072055285051534681" at="297,17,298,42" />
       <scope id="1072055285051534681" at="301,40,302,25" />
-      <scope id="1072055285051534681" at="36,101,38,18" />
+      <scope id="1072055285051534681" at="36,99,38,18" />
       <scope id="1072055285051534690" at="67,42,69,22">
         <var name="editorCell" id="1072055285051534690" />
       </scope>
@@ -396,27 +396,27 @@
         <var name="elementNode" id="1072055285051534681" />
         <var name="isEmptyCell" id="1072055285051534681" />
       </scope>
-      <unit id="1072055285051534681" at="321,0,324,0" name="de.q60.mps.incremental.editor.IncrementalExpression_EditorBuilder_a$CONCEPTS" />
-      <unit id="1072055285051534681" at="315,0,320,0" name="de.q60.mps.incremental.editor.IncrementalExpression_EditorBuilder_a$LINKS" />
-      <unit id="1072055285051534681" at="187,0,238,0" name="de.q60.mps.incremental.editor.IncrementalExpression_EditorBuilder_a$engineSingleRoleHandler_8hrrct_f0" />
-      <unit id="1072055285051534681" at="251,0,305,0" name="de.q60.mps.incremental.editor.IncrementalExpression_EditorBuilder_a$bodySingleRoleHandler_8hrrct_h0" />
-      <unit id="1072055285051534681" at="88,0,168,0" name="de.q60.mps.incremental.editor.IncrementalExpression_EditorBuilder_a$cacheKeysListHandler_8hrrct_c0" />
-      <unit id="1072055285051534681" at="32,0,325,0" name="de.q60.mps.incremental.editor.IncrementalExpression_EditorBuilder_a" />
+      <unit id="1072055285051534681" at="321,0,324,0" name="de.q60.mps.incremental.editor.IncrementalExpression_EditorBuilder$CONCEPTS" />
+      <unit id="1072055285051534681" at="315,0,320,0" name="de.q60.mps.incremental.editor.IncrementalExpression_EditorBuilder$LINKS" />
+      <unit id="1072055285051534681" at="187,0,238,0" name="de.q60.mps.incremental.editor.IncrementalExpression_EditorBuilder$engineSingleRoleHandler_8hrrct_f0" />
+      <unit id="1072055285051534681" at="251,0,305,0" name="de.q60.mps.incremental.editor.IncrementalExpression_EditorBuilder$bodySingleRoleHandler_8hrrct_h0" />
+      <unit id="1072055285051534681" at="88,0,168,0" name="de.q60.mps.incremental.editor.IncrementalExpression_EditorBuilder$cacheKeysListHandler_8hrrct_c0" />
+      <unit id="1072055285051534681" at="32,0,325,0" name="de.q60.mps.incremental.editor.IncrementalExpression_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:a852f19c-d4d5-4720-b716-f1cbc6193025(de.q60.mps.incremental.editor)/5053250164214322614">
     <file name="EmptyLine_Editor.java">
-      <node id="5053250164214322614" at="11,79,12,75" concept="6" />
+      <node id="5053250164214322614" at="11,79,12,73" concept="6" />
       <node id="5053250164214322614" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5053250164214322614" at="11,79,12,75" />
+      <scope id="5053250164214322614" at="11,79,12,73" />
       <scope id="5053250164214322614" at="11,0,14,0">
         <var name="editorContext" id="5053250164214322614" />
         <var name="node" id="5053250164214322614" />
       </scope>
       <unit id="5053250164214322614" at="10,0,15,0" name="de.q60.mps.incremental.editor.EmptyLine_Editor" />
     </file>
-    <file name="EmptyLine_EditorBuilder_a.java">
-      <node id="5053250164214322614" at="19,89,20,19" concept="9" />
+    <file name="EmptyLine_EditorBuilder.java">
+      <node id="5053250164214322614" at="19,87,20,19" concept="9" />
       <node id="5053250164214322614" at="20,19,21,18" concept="1" />
       <node id="5053250164214322614" at="26,26,27,18" concept="6" />
       <node id="5053250164214322614" at="30,39,31,30" concept="6" />
@@ -431,12 +431,12 @@
       <node id="5053250164214322616" at="42,34,43,22" concept="6" />
       <node id="5053250164214322614" at="16,0,18,0" concept="2" trace="myNode" />
       <node id="5053250164214322614" at="30,0,33,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5053250164214322614" at="19,0,23,0" concept="0" trace="EmptyLine_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5053250164214322614" at="19,0,23,0" concept="0" trace="EmptyLine_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5053250164214322614" at="24,0,29,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5053250164214322616" at="34,0,45,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="5053250164214322614" at="26,26,27,18" />
       <scope id="5053250164214322614" at="30,39,31,30" />
-      <scope id="5053250164214322614" at="19,89,21,18" />
+      <scope id="5053250164214322614" at="19,87,21,18" />
       <scope id="5053250164214322614" at="30,0,33,0" />
       <scope id="5053250164214322614" at="19,0,23,0">
         <var name="context" id="5053250164214322614" />
@@ -448,22 +448,22 @@
         <var name="style" id="5053250164214322616" />
       </scope>
       <scope id="5053250164214322616" at="34,0,45,0" />
-      <unit id="5053250164214322614" at="15,0,46,0" name="de.q60.mps.incremental.editor.EmptyLine_EditorBuilder_a" />
+      <unit id="5053250164214322614" at="15,0,46,0" name="de.q60.mps.incremental.editor.EmptyLine_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:a852f19c-d4d5-4720-b716-f1cbc6193025(de.q60.mps.incremental.editor)/5053250164214322629">
     <file name="IncrementalModule_Editor.java">
-      <node id="5053250164214322629" at="11,79,12,83" concept="6" />
+      <node id="5053250164214322629" at="11,79,12,81" concept="6" />
       <node id="5053250164214322629" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5053250164214322629" at="11,79,12,83" />
+      <scope id="5053250164214322629" at="11,79,12,81" />
       <scope id="5053250164214322629" at="11,0,14,0">
         <var name="editorContext" id="5053250164214322629" />
         <var name="node" id="5053250164214322629" />
       </scope>
       <unit id="5053250164214322629" at="10,0,15,0" name="de.q60.mps.incremental.editor.IncrementalModule_Editor" />
     </file>
-    <file name="IncrementalModule_EditorBuilder_a.java">
-      <node id="5053250164214322629" at="48,97,49,19" concept="9" />
+    <file name="IncrementalModule_EditorBuilder.java">
+      <node id="5053250164214322629" at="48,95,49,19" concept="9" />
       <node id="5053250164214322629" at="49,19,50,18" concept="1" />
       <node id="5053250164214322629" at="55,26,56,18" concept="6" />
       <node id="5053250164214322629" at="59,39,60,32" concept="6" />
@@ -555,7 +555,7 @@
       <node id="5053250164214322629" at="140,0,143,0" concept="4" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5053250164214322629" at="144,0,147,0" concept="4" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5053250164214322629" at="187,96,190,9" concept="3" />
-      <node id="5053250164214322629" at="48,0,52,0" concept="0" trace="IncrementalModule_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5053250164214322629" at="48,0,52,0" concept="0" trace="IncrementalModule_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5053250164214322629" at="125,0,129,0" concept="0" trace="contentListHandler_lyd85v_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5053250164214322629" at="130,0,134,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5053250164214322629" at="169,97,173,9" concept="3" />
@@ -588,7 +588,7 @@
       <scope id="5053250164214356227" at="144,73,145,186" />
       <scope id="5053250164214322629" at="161,17,162,42" />
       <scope id="5053250164214322629" at="188,34,189,91" />
-      <scope id="5053250164214322629" at="48,97,50,18" />
+      <scope id="5053250164214322629" at="48,95,50,18" />
       <scope id="5053250164214322644" at="93,74,95,145">
         <var name="manager" id="5053250164214322644" />
       </scope>
@@ -673,26 +673,26 @@
         <var name="elementNode" id="5053250164214322629" />
         <var name="isEmptyCell" id="5053250164214322629" />
       </scope>
-      <unit id="5053250164214322629" at="204,0,207,0" name="de.q60.mps.incremental.editor.IncrementalModule_EditorBuilder_a$PROPS" />
-      <unit id="5053250164214322629" at="213,0,216,0" name="de.q60.mps.incremental.editor.IncrementalModule_EditorBuilder_a$LINKS" />
-      <unit id="5053250164214322629" at="208,0,212,0" name="de.q60.mps.incremental.editor.IncrementalModule_EditorBuilder_a$CONCEPTS" />
-      <unit id="5053250164214322629" at="121,0,194,0" name="de.q60.mps.incremental.editor.IncrementalModule_EditorBuilder_a$contentListHandler_lyd85v_d0" />
-      <unit id="5053250164214322629" at="44,0,217,0" name="de.q60.mps.incremental.editor.IncrementalModule_EditorBuilder_a" />
+      <unit id="5053250164214322629" at="204,0,207,0" name="de.q60.mps.incremental.editor.IncrementalModule_EditorBuilder$PROPS" />
+      <unit id="5053250164214322629" at="213,0,216,0" name="de.q60.mps.incremental.editor.IncrementalModule_EditorBuilder$LINKS" />
+      <unit id="5053250164214322629" at="208,0,212,0" name="de.q60.mps.incremental.editor.IncrementalModule_EditorBuilder$CONCEPTS" />
+      <unit id="5053250164214322629" at="121,0,194,0" name="de.q60.mps.incremental.editor.IncrementalModule_EditorBuilder$contentListHandler_lyd85v_d0" />
+      <unit id="5053250164214322629" at="44,0,217,0" name="de.q60.mps.incremental.editor.IncrementalModule_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:a852f19c-d4d5-4720-b716-f1cbc6193025(de.q60.mps.incremental.editor)/5053250164214322782">
     <file name="IncrementalFunctionParameter_Editor.java">
-      <node id="5053250164214322782" at="11,79,12,94" concept="6" />
+      <node id="5053250164214322782" at="11,79,12,92" concept="6" />
       <node id="5053250164214322782" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5053250164214322782" at="11,79,12,94" />
+      <scope id="5053250164214322782" at="11,79,12,92" />
       <scope id="5053250164214322782" at="11,0,14,0">
         <var name="editorContext" id="5053250164214322782" />
         <var name="node" id="5053250164214322782" />
       </scope>
       <unit id="5053250164214322782" at="10,0,15,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameter_Editor" />
     </file>
-    <file name="IncrementalFunctionParameter_EditorBuilder_a.java">
-      <node id="5053250164214322782" at="43,108,44,19" concept="9" />
+    <file name="IncrementalFunctionParameter_EditorBuilder.java">
+      <node id="5053250164214322782" at="43,106,44,19" concept="9" />
       <node id="5053250164214322782" at="44,19,45,18" concept="1" />
       <node id="5053250164214322782" at="50,26,51,18" concept="6" />
       <node id="5053250164214322782" at="54,39,55,32" concept="6" />
@@ -755,7 +755,7 @@
       <node id="5053250164214322782" at="127,87,130,7" concept="3" />
       <node id="5053250164214322782" at="130,7,133,7" concept="3" />
       <node id="5053250164214322782" at="149,0,152,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="5053250164214322782" at="43,0,47,0" concept="0" trace="IncrementalFunctionParameter_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5053250164214322782" at="43,0,47,0" concept="0" trace="IncrementalFunctionParameter_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5053250164214322782" at="98,0,102,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5053250164214322782" at="106,0,110,0" concept="0" trace="typeSingleRoleHandler_ezzq6y_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5053250164214322782" at="48,0,53,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -777,7 +777,7 @@
       <scope id="5053250164214322782" at="131,42,132,45" />
       <scope id="5053250164214322782" at="145,17,146,42" />
       <scope id="5053250164214322782" at="149,40,150,25" />
-      <scope id="5053250164214322782" at="43,108,45,18" />
+      <scope id="5053250164214322782" at="43,106,45,18" />
       <scope id="5053250164214322794" at="80,74,82,145">
         <var name="manager" id="5053250164214322794" />
       </scope>
@@ -833,26 +833,26 @@
       <scope id="5053250164214322782" at="135,0,149,0" />
       <scope id="5053250164214322794" at="68,41,87,5" />
       <scope id="5053250164214322794" at="68,0,89,0" />
-      <unit id="5053250164214322782" at="154,0,157,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameter_EditorBuilder_a$PROPS" />
-      <unit id="5053250164214322782" at="158,0,161,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameter_EditorBuilder_a$CONCEPTS" />
-      <unit id="5053250164214322782" at="162,0,165,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameter_EditorBuilder_a$LINKS" />
-      <unit id="5053250164214322782" at="102,0,153,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameter_EditorBuilder_a$typeSingleRoleHandler_ezzq6y_c0" />
-      <unit id="5053250164214322782" at="39,0,166,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameter_EditorBuilder_a" />
+      <unit id="5053250164214322782" at="154,0,157,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameter_EditorBuilder$PROPS" />
+      <unit id="5053250164214322782" at="158,0,161,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameter_EditorBuilder$CONCEPTS" />
+      <unit id="5053250164214322782" at="162,0,165,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameter_EditorBuilder$LINKS" />
+      <unit id="5053250164214322782" at="102,0,153,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameter_EditorBuilder$typeSingleRoleHandler_ezzq6y_c0" />
+      <unit id="5053250164214322782" at="39,0,166,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameter_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:a852f19c-d4d5-4720-b716-f1cbc6193025(de.q60.mps.incremental.editor)/5053250164214322884">
     <file name="IncrementalFunction_Editor.java">
-      <node id="5053250164214322884" at="11,79,12,85" concept="6" />
+      <node id="5053250164214322884" at="11,79,12,83" concept="6" />
       <node id="5053250164214322884" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5053250164214322884" at="11,79,12,85" />
+      <scope id="5053250164214322884" at="11,79,12,83" />
       <scope id="5053250164214322884" at="11,0,14,0">
         <var name="editorContext" id="5053250164214322884" />
         <var name="node" id="5053250164214322884" />
       </scope>
       <unit id="5053250164214322884" at="10,0,15,0" name="de.q60.mps.incremental.editor.IncrementalFunction_Editor" />
     </file>
-    <file name="IncrementalFunction_EditorBuilder_a.java">
-      <node id="5053250164214322884" at="59,99,60,19" concept="9" />
+    <file name="IncrementalFunction_EditorBuilder.java">
+      <node id="5053250164214322884" at="59,97,60,19" concept="9" />
       <node id="5053250164214322884" at="60,19,61,18" concept="1" />
       <node id="5053250164214322884" at="66,26,67,18" concept="6" />
       <node id="5053250164214322884" at="70,39,71,32" concept="6" />
@@ -1124,7 +1124,7 @@
       <node id="5053250164214322884" at="486,87,489,7" concept="3" />
       <node id="5053250164214322884" at="489,7,492,7" concept="3" />
       <node id="5053250164214322884" at="508,0,511,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="5053250164214322884" at="59,0,63,0" concept="0" trace="IncrementalFunction_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5053250164214322884" at="59,0,63,0" concept="0" trace="IncrementalFunction_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5053250164214322893" at="97,0,101,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5053250164214322884" at="143,0,147,0" concept="0" trace="parametersListHandler_rft6cd_d0a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5053250164214322884" at="148,0,152,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -1213,7 +1213,7 @@
       <scope id="5053250164214322884" at="490,42,491,45" />
       <scope id="5053250164214322884" at="504,17,505,42" />
       <scope id="5053250164214322884" at="508,40,509,25" />
-      <scope id="5053250164214322884" at="59,99,61,18" />
+      <scope id="5053250164214322884" at="59,97,61,18" />
       <scope id="5053250164214322893" at="97,42,99,22">
         <var name="editorCell" id="5053250164214322893" />
       </scope>
@@ -1456,29 +1456,29 @@
         <var name="elementNode" id="5053250164214322884" />
         <var name="isEmptyCell" id="5053250164214322884" />
       </scope>
-      <unit id="5053250164214322884" at="522,0,525,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder_a$PROPS" />
-      <unit id="5053250164214322884" at="526,0,531,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder_a$CONCEPTS" />
-      <unit id="5053250164214322884" at="532,0,538,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder_a$LINKS" />
-      <unit id="5053250164214322884" at="250,0,301,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder_a$returnTypeSingleRoleHandler_rft6cd_g0a" />
-      <unit id="5053250164214322884" at="461,0,512,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder_a$bodySingleRoleHandler_rft6cd_b2a" />
-      <unit id="5053250164214322884" at="139,0,228,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder_a$parametersListHandler_rft6cd_d0a" />
-      <unit id="5053250164214322884" at="353,0,457,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder_a$cacheKeysListHandler_rft6cd_b0c0" />
-      <unit id="5053250164214322884" at="55,0,539,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder_a" />
+      <unit id="5053250164214322884" at="522,0,525,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder$PROPS" />
+      <unit id="5053250164214322884" at="526,0,531,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder$CONCEPTS" />
+      <unit id="5053250164214322884" at="532,0,538,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder$LINKS" />
+      <unit id="5053250164214322884" at="250,0,301,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder$returnTypeSingleRoleHandler_rft6cd_g0a" />
+      <unit id="5053250164214322884" at="461,0,512,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder$bodySingleRoleHandler_rft6cd_b2a" />
+      <unit id="5053250164214322884" at="139,0,228,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder$parametersListHandler_rft6cd_d0a" />
+      <unit id="5053250164214322884" at="353,0,457,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder$cacheKeysListHandler_rft6cd_b0c0" />
+      <unit id="5053250164214322884" at="55,0,539,0" name="de.q60.mps.incremental.editor.IncrementalFunction_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:a852f19c-d4d5-4720-b716-f1cbc6193025(de.q60.mps.incremental.editor)/5053250164214340838">
     <file name="IncrementalFunctionCall_Editor.java">
-      <node id="5053250164214340838" at="11,79,12,89" concept="6" />
+      <node id="5053250164214340838" at="11,79,12,87" concept="6" />
       <node id="5053250164214340838" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5053250164214340838" at="11,79,12,89" />
+      <scope id="5053250164214340838" at="11,79,12,87" />
       <scope id="5053250164214340838" at="11,0,14,0">
         <var name="editorContext" id="5053250164214340838" />
         <var name="node" id="5053250164214340838" />
       </scope>
       <unit id="5053250164214340838" at="10,0,15,0" name="de.q60.mps.incremental.editor.IncrementalFunctionCall_Editor" />
     </file>
-    <file name="IncrementalFunctionCall_EditorBuilder_a.java">
-      <node id="5053250164214340838" at="50,103,51,19" concept="9" />
+    <file name="IncrementalFunctionCall_EditorBuilder.java">
+      <node id="5053250164214340838" at="50,101,51,19" concept="9" />
       <node id="5053250164214340838" at="51,19,52,18" concept="1" />
       <node id="5053250164214340838" at="57,26,58,18" concept="6" />
       <node id="5053250164214340838" at="61,39,62,32" concept="6" />
@@ -1594,7 +1594,7 @@
       <node id="5053250164214340849" at="122,0,125,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5053250164214340838" at="168,0,171,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="5053250164214340838" at="171,0,174,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="5053250164214340838" at="50,0,54,0" concept="0" trace="IncrementalFunctionCall_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5053250164214340838" at="50,0,54,0" concept="0" trace="IncrementalFunctionCall_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5053250164214340838" at="97,0,101,5" concept="3" />
       <node id="5053250164214340838" at="159,0,163,0" concept="0" trace="parameterValuesListHandler_f5bd8e_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5053250164214340838" at="164,0,168,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -1633,7 +1633,7 @@
       <scope id="5053250164214340838" at="168,40,169,40" />
       <scope id="5053250164214340838" at="171,48,172,36" />
       <scope id="5053250164214340838" at="189,17,190,42" />
-      <scope id="5053250164214340838" at="50,103,52,18" />
+      <scope id="5053250164214340838" at="50,101,52,18" />
       <scope id="5053250164214340838" at="98,40,100,47" />
       <scope id="5053250164214340838" at="105,73,107,145">
         <var name="manager" id="5053250164214340838" />
@@ -1741,12 +1741,12 @@
         <var name="referenceLink" id="5053250164214340838" />
       </scope>
       <scope id="5053250164214340838" at="76,0,111,0" />
-      <unit id="5053250164214340838" at="254,0,258,0" name="de.q60.mps.incremental.editor.IncrementalFunctionCall_EditorBuilder_a$LINKS" />
-      <unit id="5053250164214340838" at="259,0,263,0" name="de.q60.mps.incremental.editor.IncrementalFunctionCall_EditorBuilder_a$CONCEPTS" />
-      <unit id="5053250164214340838" at="78,42,93,5" name="de.q60.mps.incremental.editor.IncrementalFunctionCall_EditorBuilder_a$1" />
-      <unit id="5053250164214340849" at="111,0,138,0" name="de.q60.mps.incremental.editor.IncrementalFunctionCall_EditorBuilder_a$Inline_Builder0" />
-      <unit id="5053250164214340838" at="155,0,244,0" name="de.q60.mps.incremental.editor.IncrementalFunctionCall_EditorBuilder_a$parameterValuesListHandler_f5bd8e_c0" />
-      <unit id="5053250164214340838" at="46,0,264,0" name="de.q60.mps.incremental.editor.IncrementalFunctionCall_EditorBuilder_a" />
+      <unit id="5053250164214340838" at="254,0,258,0" name="de.q60.mps.incremental.editor.IncrementalFunctionCall_EditorBuilder$LINKS" />
+      <unit id="5053250164214340838" at="259,0,263,0" name="de.q60.mps.incremental.editor.IncrementalFunctionCall_EditorBuilder$CONCEPTS" />
+      <unit id="5053250164214340838" at="78,42,93,5" name="de.q60.mps.incremental.editor.IncrementalFunctionCall_EditorBuilder$1" />
+      <unit id="5053250164214340849" at="111,0,138,0" name="de.q60.mps.incremental.editor.IncrementalFunctionCall_EditorBuilder$Inline_Builder0" />
+      <unit id="5053250164214340838" at="155,0,244,0" name="de.q60.mps.incremental.editor.IncrementalFunctionCall_EditorBuilder$parameterValuesListHandler_f5bd8e_c0" />
+      <unit id="5053250164214340838" at="46,0,264,0" name="de.q60.mps.incremental.editor.IncrementalFunctionCall_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:a852f19c-d4d5-4720-b716-f1cbc6193025(de.q60.mps.incremental.editor)/5053250164214391678">
@@ -1760,17 +1760,17 @@
   </root>
   <root nodeRef="r:a852f19c-d4d5-4720-b716-f1cbc6193025(de.q60.mps.incremental.editor)/5053250164214412460">
     <file name="IncrementalFunctionParameterRef_Editor.java">
-      <node id="5053250164214412460" at="11,79,12,97" concept="6" />
+      <node id="5053250164214412460" at="11,79,12,95" concept="6" />
       <node id="5053250164214412460" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5053250164214412460" at="11,79,12,97" />
+      <scope id="5053250164214412460" at="11,79,12,95" />
       <scope id="5053250164214412460" at="11,0,14,0">
         <var name="editorContext" id="5053250164214412460" />
         <var name="node" id="5053250164214412460" />
       </scope>
       <unit id="5053250164214412460" at="10,0,15,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameterRef_Editor" />
     </file>
-    <file name="IncrementalFunctionParameterRef_EditorBuilder_a.java">
-      <node id="5053250164214412460" at="43,111,44,19" concept="9" />
+    <file name="IncrementalFunctionParameterRef_EditorBuilder.java">
+      <node id="5053250164214412460" at="43,109,44,19" concept="9" />
       <node id="5053250164214412460" at="44,19,45,18" concept="1" />
       <node id="5053250164214412460" at="50,26,51,18" concept="6" />
       <node id="5053250164214412460" at="54,39,55,32" concept="6" />
@@ -1833,7 +1833,7 @@
       <node id="5053250164214412464" at="102,0,104,0" concept="2" trace="myNode" />
       <node id="5053250164214412460" at="54,0,57,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5053250164214412464" at="112,0,115,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5053250164214412460" at="43,0,47,0" concept="0" trace="IncrementalFunctionParameterRef_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5053250164214412460" at="43,0,47,0" concept="0" trace="IncrementalFunctionParameterRef_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5053250164214412460" at="87,0,91,5" concept="3" />
       <node id="5053250164214412460" at="48,0,53,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5053250164214412460" at="94,205,99,22" concept="3" />
@@ -1852,7 +1852,7 @@
       <scope id="5053250164214412464" at="112,41,113,32" />
       <scope id="5053250164214412464" at="118,28,119,20" />
       <scope id="5053250164214412474" at="142,17,143,42" />
-      <scope id="5053250164214412460" at="43,111,45,18" />
+      <scope id="5053250164214412460" at="43,109,45,18" />
       <scope id="5053250164214412460" at="88,40,90,43" />
       <scope id="5053250164214412460" at="95,73,97,145">
         <var name="manager" id="5053250164214412460" />
@@ -1907,27 +1907,27 @@
         <var name="referenceLink" id="5053250164214412460" />
       </scope>
       <scope id="5053250164214412460" at="66,0,101,0" />
-      <unit id="5053250164214412460" at="148,0,151,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameterRef_EditorBuilder_a$LINKS" />
-      <unit id="5053250164214412460" at="157,0,160,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameterRef_EditorBuilder_a$PROPS" />
-      <unit id="5053250164214412460" at="152,0,156,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameterRef_EditorBuilder_a$CONCEPTS" />
-      <unit id="5053250164214412460" at="68,42,83,5" name="de.q60.mps.incremental.editor.IncrementalFunctionParameterRef_EditorBuilder_a$1" />
-      <unit id="5053250164214412464" at="101,0,147,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameterRef_EditorBuilder_a$Inline_Builder0" />
-      <unit id="5053250164214412460" at="39,0,161,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameterRef_EditorBuilder_a" />
+      <unit id="5053250164214412460" at="148,0,151,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameterRef_EditorBuilder$LINKS" />
+      <unit id="5053250164214412460" at="157,0,160,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameterRef_EditorBuilder$PROPS" />
+      <unit id="5053250164214412460" at="152,0,156,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameterRef_EditorBuilder$CONCEPTS" />
+      <unit id="5053250164214412460" at="68,42,83,5" name="de.q60.mps.incremental.editor.IncrementalFunctionParameterRef_EditorBuilder$1" />
+      <unit id="5053250164214412464" at="101,0,147,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameterRef_EditorBuilder$Inline_Builder0" />
+      <unit id="5053250164214412460" at="39,0,161,0" name="de.q60.mps.incremental.editor.IncrementalFunctionParameterRef_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:a852f19c-d4d5-4720-b716-f1cbc6193025(de.q60.mps.incremental.editor)/8535300072460317714">
     <file name="HashCodeEquals_Editor.java">
-      <node id="8535300072460317714" at="11,79,12,80" concept="6" />
+      <node id="8535300072460317714" at="11,79,12,78" concept="6" />
       <node id="8535300072460317714" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8535300072460317714" at="11,79,12,80" />
+      <scope id="8535300072460317714" at="11,79,12,78" />
       <scope id="8535300072460317714" at="11,0,14,0">
         <var name="editorContext" id="8535300072460317714" />
         <var name="node" id="8535300072460317714" />
       </scope>
       <unit id="8535300072460317714" at="10,0,15,0" name="de.q60.mps.incremental.editor.HashCodeEquals_Editor" />
     </file>
-    <file name="HashCodeEquals_EditorBuilder_a.java">
-      <node id="8535300072460317714" at="34,94,35,19" concept="9" />
+    <file name="HashCodeEquals_EditorBuilder.java">
+      <node id="8535300072460317714" at="34,92,35,19" concept="9" />
       <node id="8535300072460317714" at="35,19,36,18" concept="1" />
       <node id="8535300072460317714" at="41,26,42,18" concept="6" />
       <node id="8535300072460317714" at="45,39,46,32" concept="6" />
@@ -1985,7 +1985,7 @@
       <node id="8535300072460317714" at="86,0,89,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="8535300072460317714" at="89,0,92,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="8535300072460317714" at="133,96,136,9" concept="3" />
-      <node id="8535300072460317714" at="34,0,38,0" concept="0" trace="HashCodeEquals_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8535300072460317714" at="34,0,38,0" concept="0" trace="HashCodeEquals_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8535300072460317723" at="59,0,63,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8535300072460317714" at="77,0,81,0" concept="0" trace="elementsListHandler_atrphl_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="8535300072460317714" at="82,0,86,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2011,7 +2011,7 @@
       <scope id="8535300072460317714" at="89,48,90,36" />
       <scope id="8535300072460317714" at="107,17,108,42" />
       <scope id="8535300072460317714" at="134,34,135,91" />
-      <scope id="8535300072460317714" at="34,94,36,18" />
+      <scope id="8535300072460317714" at="34,92,36,18" />
       <scope id="8535300072460317723" at="59,42,61,22">
         <var name="editorCell" id="8535300072460317723" />
       </scope>
@@ -2068,25 +2068,25 @@
         <var name="elementNode" id="8535300072460317714" />
         <var name="isEmptyCell" id="8535300072460317714" />
       </scope>
-      <unit id="8535300072460317714" at="147,0,150,0" name="de.q60.mps.incremental.editor.HashCodeEquals_EditorBuilder_a$LINKS" />
-      <unit id="8535300072460317714" at="151,0,154,0" name="de.q60.mps.incremental.editor.HashCodeEquals_EditorBuilder_a$CONCEPTS" />
-      <unit id="8535300072460317714" at="73,0,140,0" name="de.q60.mps.incremental.editor.HashCodeEquals_EditorBuilder_a$elementsListHandler_atrphl_b0" />
-      <unit id="8535300072460317714" at="30,0,155,0" name="de.q60.mps.incremental.editor.HashCodeEquals_EditorBuilder_a" />
+      <unit id="8535300072460317714" at="147,0,150,0" name="de.q60.mps.incremental.editor.HashCodeEquals_EditorBuilder$LINKS" />
+      <unit id="8535300072460317714" at="151,0,154,0" name="de.q60.mps.incremental.editor.HashCodeEquals_EditorBuilder$CONCEPTS" />
+      <unit id="8535300072460317714" at="73,0,140,0" name="de.q60.mps.incremental.editor.HashCodeEquals_EditorBuilder$elementsListHandler_atrphl_b0" />
+      <unit id="8535300072460317714" at="30,0,155,0" name="de.q60.mps.incremental.editor.HashCodeEquals_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:a852f19c-d4d5-4720-b716-f1cbc6193025(de.q60.mps.incremental.editor)/8551406714923066560">
     <file name="IncrementalFunctionLiteral_Editor.java">
-      <node id="8551406714923066560" at="11,79,12,92" concept="6" />
+      <node id="8551406714923066560" at="11,79,12,90" concept="6" />
       <node id="8551406714923066560" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8551406714923066560" at="11,79,12,92" />
+      <scope id="8551406714923066560" at="11,79,12,90" />
       <scope id="8551406714923066560" at="11,0,14,0">
         <var name="editorContext" id="8551406714923066560" />
         <var name="node" id="8551406714923066560" />
       </scope>
       <unit id="8551406714923066560" at="10,0,15,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_Editor" />
     </file>
-    <file name="IncrementalFunctionLiteral_EditorBuilder_a.java">
-      <node id="8551406714923066560" at="48,106,49,19" concept="9" />
+    <file name="IncrementalFunctionLiteral_EditorBuilder.java">
+      <node id="8551406714923066560" at="48,104,49,19" concept="9" />
       <node id="8551406714923066560" at="49,19,50,18" concept="1" />
       <node id="8551406714923066560" at="55,26,56,18" concept="6" />
       <node id="8551406714923066560" at="59,39,60,32" concept="6" />
@@ -2339,7 +2339,7 @@
       <node id="8551406714923066560" at="450,87,453,7" concept="3" />
       <node id="8551406714923066560" at="453,7,456,7" concept="3" />
       <node id="8551406714923066560" at="472,0,475,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8551406714923066560" at="48,0,52,0" concept="0" trace="IncrementalFunctionLiteral_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8551406714923066560" at="48,0,52,0" concept="0" trace="IncrementalFunctionLiteral_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8551406714923066565" at="85,0,89,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8551406714923066560" at="110,0,114,0" concept="0" trace="parametersListHandler_w426d3_c0a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="8551406714923066560" at="115,0,119,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2424,7 +2424,7 @@
       <scope id="8551406714923066560" at="454,42,455,45" />
       <scope id="8551406714923066560" at="468,17,469,42" />
       <scope id="8551406714923066560" at="472,40,473,25" />
-      <scope id="8551406714923066560" at="48,106,50,18" />
+      <scope id="8551406714923066560" at="48,104,50,18" />
       <scope id="8551406714923066565" at="85,42,87,22">
         <var name="editorCell" id="8551406714923066565" />
       </scope>
@@ -2655,29 +2655,29 @@
         <var name="elementNode" id="8551406714923066560" />
         <var name="isEmptyCell" id="8551406714923066560" />
       </scope>
-      <unit id="8551406714923066560" at="498,0,501,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder_a$PROPS" />
-      <unit id="8551406714923066560" at="493,0,497,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder_a$CONCEPTS" />
-      <unit id="8551406714923066560" at="486,0,492,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder_a$LINKS" />
-      <unit id="8551406714923066560" at="214,0,265,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder_a$returnTypeSingleRoleHandler_w426d3_f0a" />
-      <unit id="8551406714923066560" at="425,0,476,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder_a$bodySingleRoleHandler_w426d3_b2a" />
-      <unit id="8551406714923066560" at="106,0,192,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder_a$parametersListHandler_w426d3_c0a" />
-      <unit id="8551406714923066560" at="317,0,421,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder_a$cacheKeysListHandler_w426d3_b0c0" />
-      <unit id="8551406714923066560" at="44,0,502,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder_a" />
+      <unit id="8551406714923066560" at="498,0,501,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder$PROPS" />
+      <unit id="8551406714923066560" at="493,0,497,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder$CONCEPTS" />
+      <unit id="8551406714923066560" at="486,0,492,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder$LINKS" />
+      <unit id="8551406714923066560" at="214,0,265,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder$returnTypeSingleRoleHandler_w426d3_f0a" />
+      <unit id="8551406714923066560" at="425,0,476,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder$bodySingleRoleHandler_w426d3_b2a" />
+      <unit id="8551406714923066560" at="106,0,192,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder$parametersListHandler_w426d3_c0a" />
+      <unit id="8551406714923066560" at="317,0,421,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder$cacheKeysListHandler_w426d3_b0c0" />
+      <unit id="8551406714923066560" at="44,0,502,0" name="de.q60.mps.incremental.editor.IncrementalFunctionLiteral_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:a852f19c-d4d5-4720-b716-f1cbc6193025(de.q60.mps.incremental.editor)/8551406714924728216">
     <file name="WithEngineStatement_Editor.java">
-      <node id="8551406714924728216" at="11,79,12,85" concept="6" />
+      <node id="8551406714924728216" at="11,79,12,83" concept="6" />
       <node id="8551406714924728216" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8551406714924728216" at="11,79,12,85" />
+      <scope id="8551406714924728216" at="11,79,12,83" />
       <scope id="8551406714924728216" at="11,0,14,0">
         <var name="editorContext" id="8551406714924728216" />
         <var name="node" id="8551406714924728216" />
       </scope>
       <unit id="8551406714924728216" at="10,0,15,0" name="de.q60.mps.incremental.editor.WithEngineStatement_Editor" />
     </file>
-    <file name="WithEngineStatement_EditorBuilder_a.java">
-      <node id="8551406714924728216" at="31,99,32,19" concept="9" />
+    <file name="WithEngineStatement_EditorBuilder.java">
+      <node id="8551406714924728216" at="31,97,32,19" concept="9" />
       <node id="8551406714924728216" at="32,19,33,18" concept="1" />
       <node id="8551406714924728216" at="38,26,39,18" concept="6" />
       <node id="8551406714924728216" at="42,39,43,32" concept="6" />
@@ -2768,7 +2768,7 @@
       <node id="8551406714924728216" at="157,87,160,7" concept="3" />
       <node id="8551406714924728216" at="160,7,163,7" concept="3" />
       <node id="8551406714924728216" at="182,0,185,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8551406714924728216" at="31,0,35,0" concept="0" trace="WithEngineStatement_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8551406714924728216" at="31,0,35,0" concept="0" trace="WithEngineStatement_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8551406714924728228" at="58,0,62,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8551406714924728216" at="62,0,66,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8551406714924728216" at="70,0,74,0" concept="0" trace="engineSingleRoleHandler_vw1k82_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -2800,7 +2800,7 @@
       <scope id="8551406714924728216" at="161,42,162,45" />
       <scope id="8551406714924728216" at="178,17,179,42" />
       <scope id="8551406714924728216" at="182,40,183,25" />
-      <scope id="8551406714924728216" at="31,99,33,18" />
+      <scope id="8551406714924728216" at="31,97,33,18" />
       <scope id="8551406714924728228" at="58,42,60,22">
         <var name="editorCell" id="8551406714924728228" />
       </scope>
@@ -2885,10 +2885,10 @@
       <scope id="8551406714924728216" at="46,0,58,0" />
       <scope id="8551406714924728216" at="99,0,113,0" />
       <scope id="8551406714924728216" at="168,0,182,0" />
-      <unit id="8551406714924728216" at="198,0,202,0" name="de.q60.mps.incremental.editor.WithEngineStatement_EditorBuilder_a$LINKS" />
-      <unit id="8551406714924728216" at="66,0,117,0" name="de.q60.mps.incremental.editor.WithEngineStatement_EditorBuilder_a$engineSingleRoleHandler_vw1k82_b0" />
-      <unit id="8551406714924728216" at="132,0,186,0" name="de.q60.mps.incremental.editor.WithEngineStatement_EditorBuilder_a$bodySingleRoleHandler_vw1k82_d0" />
-      <unit id="8551406714924728216" at="27,0,203,0" name="de.q60.mps.incremental.editor.WithEngineStatement_EditorBuilder_a" />
+      <unit id="8551406714924728216" at="198,0,202,0" name="de.q60.mps.incremental.editor.WithEngineStatement_EditorBuilder$LINKS" />
+      <unit id="8551406714924728216" at="66,0,117,0" name="de.q60.mps.incremental.editor.WithEngineStatement_EditorBuilder$engineSingleRoleHandler_vw1k82_b0" />
+      <unit id="8551406714924728216" at="132,0,186,0" name="de.q60.mps.incremental.editor.WithEngineStatement_EditorBuilder$bodySingleRoleHandler_vw1k82_d0" />
+      <unit id="8551406714924728216" at="27,0,203,0" name="de.q60.mps.incremental.editor.WithEngineStatement_EditorBuilder" />
     </file>
   </root>
 </debug-info>

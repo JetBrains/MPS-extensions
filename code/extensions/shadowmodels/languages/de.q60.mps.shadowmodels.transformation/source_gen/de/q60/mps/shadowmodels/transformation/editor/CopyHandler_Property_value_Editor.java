@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class CopyHandler_Property_value_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new CopyHandler_Property_value_EditorBuilder_a(editorContext, node).createCell();
+    return new CopyHandler_Property_value_EditorBuilder(editorContext, node).createCell();
   }
 }

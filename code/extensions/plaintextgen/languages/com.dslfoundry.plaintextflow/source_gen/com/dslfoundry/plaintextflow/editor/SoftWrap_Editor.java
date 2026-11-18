@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class SoftWrap_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SoftWrap_EditorBuilder_a(editorContext, node).createCell();
+    return new SoftWrap_EditorBuilder(editorContext, node).createCell();
   }
 }

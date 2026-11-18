@@ -37,11 +37,11 @@
     <file name="Diagram_graphical_Editor.java">
       <node id="3411988043656348466" at="14,0,15,0" concept="3" trace="myContextHints" />
       <node id="3411988043656348466" at="17,47,18,26" concept="8" />
-      <node id="3411988043656348466" at="20,79,21,83" concept="8" />
+      <node id="3411988043656348466" at="20,79,21,81" concept="8" />
       <node id="3411988043656348466" at="20,0,23,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3411988043656348466" at="15,0,20,0" concept="6" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="3411988043656348466" at="17,47,18,26" />
-      <scope id="3411988043656348466" at="20,79,21,83" />
+      <scope id="3411988043656348466" at="20,79,21,81" />
       <scope id="3411988043656348466" at="20,0,23,0">
         <var name="editorContext" id="3411988043656348466" />
         <var name="node" id="3411988043656348466" />
@@ -49,8 +49,8 @@
       <scope id="3411988043656348466" at="15,0,20,0" />
       <unit id="3411988043656348466" at="13,0,24,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_Editor" />
     </file>
-    <file name="Diagram_graphical_EditorBuilder_a.java">
-      <node id="3411988043656348466" at="71,97,72,19" concept="12" />
+    <file name="Diagram_graphical_EditorBuilder.java">
+      <node id="3411988043656348466" at="71,95,72,19" concept="12" />
       <node id="3411988043656348466" at="72,19,73,18" concept="2" />
       <node id="3411988043656348466" at="78,26,79,18" concept="8" />
       <node id="3411988043656348466" at="82,39,83,32" concept="8" />
@@ -192,7 +192,7 @@
       <node id="3411988043656348466" at="369,0,372,5" concept="5" />
       <node id="3411988043656348466" at="375,0,378,0" concept="6" trace="createDiagram_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3004780509166858253" at="378,0,381,0" concept="6" trace="_StyleParameter_QueryFunction_lbjjfm_a0a0#()Lorg/eclipse/elk/core/options/Direction;" />
-      <node id="3411988043656348466" at="71,0,75,0" concept="1" trace="Diagram_graphical_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3411988043656348466" at="71,0,75,0" concept="1" trace="Diagram_graphical_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3411988043656348481" at="135,0,139,0" concept="6" trace="writeFrom#(Lde/itemis/mps/editor/diagram/runtime/model/IConnectionEndpoint_Internal;)V" />
       <node id="3411988043656348481" at="141,0,145,0" concept="6" trace="writeTo#(Lde/itemis/mps/editor/diagram/runtime/model/IConnectionEndpoint_Internal;)V" />
       <node id="3411988043656348481" at="147,0,151,0" concept="6" trace="readFrom#()Lde/itemis/mps/editor/diagram/runtime/model/IConnectionEndpointReference;" />
@@ -263,7 +263,7 @@
       <scope id="3411988043656348466" at="370,40,371,35" />
       <scope id="3411988043656348466" at="375,40,376,58" />
       <scope id="3004780509166858255" at="378,65,379,26" />
-      <scope id="3411988043656348466" at="71,97,73,18" />
+      <scope id="3411988043656348466" at="71,95,73,18" />
       <scope id="3411988043656348481" at="139,0,141,0">
         <var name="port" id="3411988043656348481" />
         <var name="targetDNode" id="3411988043656348481" />
@@ -434,26 +434,26 @@
         <var name="editorContext" id="3411988043656348466" />
         <var name="node" id="3411988043656348466" />
       </scope>
-      <unit id="3411988043656348466" at="397,0,400,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder_a$PROPS" />
-      <unit id="3411988043656348481" at="120,55,124,17" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder_a$1$2" />
-      <unit id="3411988043656348466" at="392,0,396,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder_a$CONCEPTS" />
-      <unit id="3411988043656348466" at="382,0,391,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder_a$LINKS" />
-      <unit id="3411988043656348466" at="327,53,341,17" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder_a$2" />
-      <unit id="3411988043656348481" at="134,58,171,23" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder_a$1$1$1" />
-      <unit id="3411988043656348481" at="125,113,182,19" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder_a$1$1" />
-      <unit id="3411988043656348466" at="114,44,312,13" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder_a$1" />
-      <unit id="3411988043656348466" at="67,0,401,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder_a" />
+      <unit id="3411988043656348466" at="397,0,400,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder$PROPS" />
+      <unit id="3411988043656348481" at="120,55,124,17" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder$1$2" />
+      <unit id="3411988043656348466" at="392,0,396,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder$CONCEPTS" />
+      <unit id="3411988043656348466" at="382,0,391,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder$LINKS" />
+      <unit id="3411988043656348466" at="327,53,341,17" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder$2" />
+      <unit id="3411988043656348481" at="134,58,171,23" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder$1$1$1" />
+      <unit id="3411988043656348481" at="125,113,182,19" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder$1$1" />
+      <unit id="3411988043656348466" at="114,44,312,13" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder$1" />
+      <unit id="3411988043656348466" at="67,0,401,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_graphical_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:b3a062b4-cf84-45ba-802e-cb220baac42d(de.itemis.mps.editor.diagram.demo.ports.editor)/3411988043656416781">
     <file name="BoxInstance_graphical_Editor.java">
       <node id="3411988043656416781" at="14,0,15,0" concept="3" trace="myContextHints" />
       <node id="3411988043656416781" at="17,47,18,26" concept="8" />
-      <node id="3411988043656416781" at="20,79,21,87" concept="8" />
+      <node id="3411988043656416781" at="20,79,21,85" concept="8" />
       <node id="3411988043656416781" at="20,0,23,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3411988043656416781" at="15,0,20,0" concept="6" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="3411988043656416781" at="17,47,18,26" />
-      <scope id="3411988043656416781" at="20,79,21,87" />
+      <scope id="3411988043656416781" at="20,79,21,85" />
       <scope id="3411988043656416781" at="20,0,23,0">
         <var name="editorContext" id="3411988043656416781" />
         <var name="node" id="3411988043656416781" />
@@ -461,8 +461,8 @@
       <scope id="3411988043656416781" at="15,0,20,0" />
       <unit id="3411988043656416781" at="13,0,24,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.BoxInstance_graphical_Editor" />
     </file>
-    <file name="BoxInstance_graphical_EditorBuilder_a.java">
-      <node id="3411988043656416781" at="48,101,49,19" concept="12" />
+    <file name="BoxInstance_graphical_EditorBuilder.java">
+      <node id="3411988043656416781" at="48,99,49,19" concept="12" />
       <node id="3411988043656416781" at="49,19,50,18" concept="2" />
       <node id="3411988043656416781" at="55,26,56,18" concept="8" />
       <node id="3411988043656416781" at="59,39,60,35" concept="8" />
@@ -526,7 +526,7 @@
       <node id="3411988043656416781" at="59,0,62,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3411988043656416781" at="105,51,108,11" concept="5" />
       <node id="3411988043656416781" at="138,0,141,0" concept="6" trace="_cell_factory_method_#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3411988043656416781" at="48,0,52,0" concept="1" trace="BoxInstance_graphical_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3411988043656416781" at="48,0,52,0" concept="1" trace="BoxInstance_graphical_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3411988043656416816" at="78,72,82,15" concept="5" />
       <node id="3411988043656416781" at="95,0,99,0" concept="6" trace="getPorts#()Ljava/util/List;" />
       <node id="3411988043656416781" at="99,0,103,0" concept="6" trace="isPreservePortOrder#()Z" />
@@ -551,7 +551,7 @@
       <scope id="3411988043656416781" at="106,39,107,50" />
       <scope id="3411988043656416781" at="138,46,139,62" />
       <scope id="3411988043656416795" at="158,15,159,40" />
-      <scope id="3411988043656416781" at="48,101,50,18" />
+      <scope id="3411988043656416781" at="48,99,50,18" />
       <scope id="3411988043656416816" at="79,63,81,83">
         <var name="layouter" id="3411988043656416816" />
       </scope>
@@ -614,27 +614,27 @@
         <var name="editorContext" id="3411988043656416781" />
         <var name="node" id="3411988043656416781" />
       </scope>
-      <unit id="3411988043656416781" at="163,0,166,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.BoxInstance_graphical_EditorBuilder_a$PROPS" />
-      <unit id="3411988043656416781" at="172,0,175,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.BoxInstance_graphical_EditorBuilder_a$CONCEPTS" />
-      <unit id="3411988043656416781" at="167,0,171,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.BoxInstance_graphical_EditorBuilder_a$LINKS" />
-      <unit id="3411988043656416812" at="71,93,86,9" name="de.itemis.mps.editor.diagram.demo.ports.editor.BoxInstance_graphical_EditorBuilder_a$1" />
-      <unit id="3411988043656416781" at="94,38,121,7" name="de.itemis.mps.editor.diagram.demo.ports.editor.BoxInstance_graphical_EditorBuilder_a$2" />
-      <unit id="3411988043656416781" at="44,0,176,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.BoxInstance_graphical_EditorBuilder_a" />
+      <unit id="3411988043656416781" at="163,0,166,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.BoxInstance_graphical_EditorBuilder$PROPS" />
+      <unit id="3411988043656416781" at="172,0,175,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.BoxInstance_graphical_EditorBuilder$CONCEPTS" />
+      <unit id="3411988043656416781" at="167,0,171,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.BoxInstance_graphical_EditorBuilder$LINKS" />
+      <unit id="3411988043656416812" at="71,93,86,9" name="de.itemis.mps.editor.diagram.demo.ports.editor.BoxInstance_graphical_EditorBuilder$1" />
+      <unit id="3411988043656416781" at="94,38,121,7" name="de.itemis.mps.editor.diagram.demo.ports.editor.BoxInstance_graphical_EditorBuilder$2" />
+      <unit id="3411988043656416781" at="44,0,176,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.BoxInstance_graphical_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:b3a062b4-cf84-45ba-802e-cb220baac42d(de.itemis.mps.editor.diagram.demo.ports.editor)/3411988043656456741">
     <file name="Diagram_Editor.java">
-      <node id="3411988043656456741" at="11,79,12,73" concept="8" />
+      <node id="3411988043656456741" at="11,79,12,71" concept="8" />
       <node id="3411988043656456741" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3411988043656456741" at="11,79,12,73" />
+      <scope id="3411988043656456741" at="11,79,12,71" />
       <scope id="3411988043656456741" at="11,0,14,0">
         <var name="editorContext" id="3411988043656456741" />
         <var name="node" id="3411988043656456741" />
       </scope>
       <unit id="3411988043656456741" at="10,0,15,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_Editor" />
     </file>
-    <file name="Diagram_EditorBuilder_a.java">
-      <node id="3411988043656456741" at="30,87,31,19" concept="12" />
+    <file name="Diagram_EditorBuilder.java">
+      <node id="3411988043656456741" at="30,85,31,19" concept="12" />
       <node id="3411988043656456741" at="31,19,32,18" concept="2" />
       <node id="3411988043656456741" at="37,26,38,18" concept="8" />
       <node id="3411988043656456741" at="41,39,42,32" concept="8" />
@@ -757,7 +757,7 @@
       <node id="3411988043656456741" at="229,0,232,0" concept="6" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="3411988043656456741" at="232,0,235,0" concept="6" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="3411988043656456741" at="276,96,279,9" concept="5" />
-      <node id="3411988043656456741" at="30,0,34,0" concept="1" trace="Diagram_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3411988043656456741" at="30,0,34,0" concept="1" trace="Diagram_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3411988043656456741" at="67,0,71,0" concept="1" trace="boxesListHandler_xrgyfg_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="3411988043656456741" at="72,0,76,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3411988043656456741" at="105,97,109,9" concept="5" />
@@ -820,7 +820,7 @@
       <scope id="3411988043656456741" at="232,48,233,35" />
       <scope id="3411988043656456741" at="250,17,251,42" />
       <scope id="3411988043656456741" at="277,34,278,91" />
-      <scope id="3411988043656456741" at="30,87,32,18" />
+      <scope id="3411988043656456741" at="30,85,32,18" />
       <scope id="3411988043656456741" at="67,79,69,25" />
       <scope id="3411988043656456741" at="106,122,108,146" />
       <scope id="3411988043656456741" at="112,34,114,142" />
@@ -946,12 +946,12 @@
         <var name="elementNode" id="3411988043656456741" />
         <var name="isEmptyCell" id="3411988043656456741" />
       </scope>
-      <unit id="3411988043656456741" at="284,0,289,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_EditorBuilder_a$LINKS" />
-      <unit id="3411988043656456741" at="290,0,295,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_EditorBuilder_a$CONCEPTS" />
-      <unit id="3411988043656456741" at="63,0,130,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_EditorBuilder_a$boxesListHandler_xrgyfg_a0" />
-      <unit id="3411988043656456741" at="142,0,209,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_EditorBuilder_a$instancesListHandler_xrgyfg_c0" />
-      <unit id="3411988043656456741" at="216,0,283,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_EditorBuilder_a$connectorsListHandler_xrgyfg_d0" />
-      <unit id="3411988043656456741" at="26,0,296,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_EditorBuilder_a" />
+      <unit id="3411988043656456741" at="284,0,289,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_EditorBuilder$LINKS" />
+      <unit id="3411988043656456741" at="290,0,295,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_EditorBuilder$CONCEPTS" />
+      <unit id="3411988043656456741" at="63,0,130,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_EditorBuilder$boxesListHandler_xrgyfg_a0" />
+      <unit id="3411988043656456741" at="142,0,209,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_EditorBuilder$instancesListHandler_xrgyfg_c0" />
+      <unit id="3411988043656456741" at="216,0,283,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_EditorBuilder$connectorsListHandler_xrgyfg_d0" />
+      <unit id="3411988043656456741" at="26,0,296,0" name="de.itemis.mps.editor.diagram.demo.ports.editor.Diagram_EditorBuilder" />
     </file>
   </root>
 </debug-info>

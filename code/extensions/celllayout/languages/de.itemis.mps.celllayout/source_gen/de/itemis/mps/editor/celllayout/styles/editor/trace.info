@@ -461,11 +461,11 @@
   <root nodeRef="r:0b928dd6-dd7e-45a8-b309-a2e315b7877a(de.itemis.mps.editor.celllayout.styles.editor)/7943214583599587452">
     <file name="Dummy.java">
       <node id="7943214583599587452" at="15,47,16,35" concept="8" />
-      <node id="7943214583599587452" at="18,79,19,74" concept="8" />
+      <node id="7943214583599587452" at="18,79,19,72" concept="8" />
       <node id="7943214583599587452" at="18,0,21,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7943214583599587452" at="14,0,18,0" concept="6" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="7943214583599587452" at="15,47,16,35" />
-      <scope id="7943214583599587452" at="18,79,19,74" />
+      <scope id="7943214583599587452" at="18,79,19,72" />
       <scope id="7943214583599587452" at="18,0,21,0">
         <var name="editorContext" id="7943214583599587452" />
         <var name="node" id="7943214583599587452" />
@@ -473,8 +473,8 @@
       <scope id="7943214583599587452" at="14,0,18,0" />
       <unit id="7943214583599587452" at="13,0,22,0" name="de.itemis.mps.editor.celllayout.styles.editor.Dummy" />
     </file>
-    <file name="Dummy_ComponentBuilder_a.java">
-      <node id="7943214583599587452" at="16,88,17,19" concept="11" />
+    <file name="Dummy_ComponentBuilder.java">
+      <node id="7943214583599587452" at="16,86,17,19" concept="11" />
       <node id="7943214583599587452" at="17,19,18,18" concept="2" />
       <node id="7943214583599587452" at="23,26,24,18" concept="8" />
       <node id="7943214583599587452" at="27,39,28,30" concept="8" />
@@ -484,12 +484,12 @@
       <node id="7943214583599587454" at="34,34,35,22" concept="8" />
       <node id="7943214583599587452" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="7943214583599587452" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="7943214583599587452" at="16,0,20,0" concept="0" trace="Dummy_ComponentBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7943214583599587452" at="16,0,20,0" concept="0" trace="Dummy_ComponentBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7943214583599587452" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7943214583599587454" at="31,0,37,0" concept="6" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="7943214583599587452" at="23,26,24,18" />
       <scope id="7943214583599587452" at="27,39,28,30" />
-      <scope id="7943214583599587452" at="16,88,18,18" />
+      <scope id="7943214583599587452" at="16,86,18,18" />
       <scope id="7943214583599587452" at="27,0,30,0" />
       <scope id="7943214583599587452" at="16,0,20,0">
         <var name="context" id="7943214583599587452" />
@@ -500,7 +500,7 @@
       </scope>
       <scope id="7943214583599587452" at="21,0,26,0" />
       <scope id="7943214583599587454" at="31,0,37,0" />
-      <unit id="7943214583599587452" at="12,0,38,0" name="de.itemis.mps.editor.celllayout.styles.editor.Dummy_ComponentBuilder_a" />
+      <unit id="7943214583599587452" at="12,0,38,0" name="de.itemis.mps.editor.celllayout.styles.editor.Dummy_ComponentBuilder" />
     </file>
   </root>
 </debug-info>

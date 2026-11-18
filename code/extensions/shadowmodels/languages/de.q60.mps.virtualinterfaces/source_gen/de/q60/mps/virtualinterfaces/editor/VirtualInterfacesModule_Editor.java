@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class VirtualInterfacesModule_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new VirtualInterfacesModule_EditorBuilder_a(editorContext, node).createCell();
+    return new VirtualInterfacesModule_EditorBuilder(editorContext, node).createCell();
   }
 }

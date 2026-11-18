@@ -20,17 +20,17 @@
   </root>
   <root nodeRef="r:76a93383-9b61-40bb-b854-224a85e29067(com.jetbrains.mpsext.viewmodel.editor)/5871421566340150714">
     <file name="ViewModelDeclaration_Editor.java">
-      <node id="5871421566340150714" at="11,79,12,86" concept="7" />
+      <node id="5871421566340150714" at="11,79,12,84" concept="7" />
       <node id="5871421566340150714" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5871421566340150714" at="11,79,12,86" />
+      <scope id="5871421566340150714" at="11,79,12,84" />
       <scope id="5871421566340150714" at="11,0,14,0">
         <var name="editorContext" id="5871421566340150714" />
         <var name="node" id="5871421566340150714" />
       </scope>
       <unit id="5871421566340150714" at="10,0,15,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelDeclaration_Editor" />
     </file>
-    <file name="ViewModelDeclaration_EditorBuilder_a.java">
-      <node id="5871421566340150714" at="32,100,33,19" concept="11" />
+    <file name="ViewModelDeclaration_EditorBuilder.java">
+      <node id="5871421566340150714" at="32,98,33,19" concept="11" />
       <node id="5871421566340150714" at="33,19,34,18" concept="1" />
       <node id="5871421566340150714" at="39,26,40,18" concept="7" />
       <node id="5871421566340150714" at="43,39,44,32" concept="7" />
@@ -63,7 +63,7 @@
       <node id="5871421566340150714" at="89,0,90,0" concept="10" trace="PropertyAttribute$Gb" />
       <node id="5871421566340150714" at="29,0,31,0" concept="2" trace="myNode" />
       <node id="5871421566340150714" at="43,0,46,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5871421566340150714" at="32,0,36,0" concept="0" trace="ViewModelDeclaration_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5871421566340150714" at="32,0,36,0" concept="0" trace="ViewModelDeclaration_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5871421566340150714" at="37,0,42,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5871421566340150719" at="73,208,78,24" concept="4" />
       <node id="5871421566340150718" at="56,0,62,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -73,7 +73,7 @@
       <scope id="5871421566340150714" at="39,26,40,18" />
       <scope id="5871421566340150714" at="43,39,44,32" />
       <scope id="5871421566340150719" at="79,15,80,40" />
-      <scope id="5871421566340150714" at="32,100,34,18" />
+      <scope id="5871421566340150714" at="32,98,34,18" />
       <scope id="5871421566340150719" at="74,74,76,145">
         <var name="manager" id="5871421566340150719" />
       </scope>
@@ -99,24 +99,24 @@
       </scope>
       <scope id="5871421566340150719" at="62,41,81,5" />
       <scope id="5871421566340150719" at="62,0,83,0" />
-      <unit id="5871421566340150714" at="84,0,87,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelDeclaration_EditorBuilder_a$PROPS" />
-      <unit id="5871421566340150714" at="88,0,91,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelDeclaration_EditorBuilder_a$CONCEPTS" />
-      <unit id="5871421566340150714" at="28,0,92,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelDeclaration_EditorBuilder_a" />
+      <unit id="5871421566340150714" at="84,0,87,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelDeclaration_EditorBuilder$PROPS" />
+      <unit id="5871421566340150714" at="88,0,91,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelDeclaration_EditorBuilder$CONCEPTS" />
+      <unit id="5871421566340150714" at="28,0,92,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelDeclaration_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:76a93383-9b61-40bb-b854-224a85e29067(com.jetbrains.mpsext.viewmodel.editor)/5871421566340153310">
     <file name="ViewModelExpression_Editor.java">
-      <node id="5871421566340153310" at="11,79,12,85" concept="7" />
+      <node id="5871421566340153310" at="11,79,12,83" concept="7" />
       <node id="5871421566340153310" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5871421566340153310" at="11,79,12,85" />
+      <scope id="5871421566340153310" at="11,79,12,83" />
       <scope id="5871421566340153310" at="11,0,14,0">
         <var name="editorContext" id="5871421566340153310" />
         <var name="node" id="5871421566340153310" />
       </scope>
       <unit id="5871421566340153310" at="10,0,15,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_Editor" />
     </file>
-    <file name="ViewModelExpression_EditorBuilder_a.java">
-      <node id="5871421566340153310" at="49,99,50,19" concept="11" />
+    <file name="ViewModelExpression_EditorBuilder.java">
+      <node id="5871421566340153310" at="49,97,50,19" concept="11" />
       <node id="5871421566340153310" at="50,19,51,18" concept="1" />
       <node id="5871421566340153310" at="56,26,57,18" concept="7" />
       <node id="5871421566340153310" at="60,39,61,32" concept="7" />
@@ -127,9 +127,9 @@
       <node id="5871421566340153314" at="68,31,69,49" concept="1" />
       <node id="5871421566340153316" at="69,49,70,48" concept="1" />
       <node id="5871421566340153322" at="70,48,71,49" concept="1" />
-      <node id="5871421566340153324" at="72,37,73,53" concept="1" />
+      <node id="5871421566340153324" at="72,27,73,53" concept="1" />
       <node id="5871421566340153310" at="74,5,75,22" concept="7" />
-      <node id="5871421566340153351" at="77,46,78,73" concept="7" />
+      <node id="5871421566340153351" at="77,36,78,73" concept="7" />
       <node id="5871421566340153314" at="80,41,81,103" concept="6" />
       <node id="5871421566340153314" at="81,103,82,47" concept="1" />
       <node id="5871421566340153314" at="82,47,83,34" concept="6" />
@@ -234,12 +234,12 @@
       <node id="5871421566340153310" at="192,0,194,0" concept="2" trace="myNode" />
       <node id="5871421566340153310" at="60,0,63,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5871421566340153324" at="71,49,74,5" concept="4" />
-      <node id="5871421566340153326" at="77,0,80,0" concept="5" trace="nodeCondition_9nl3pk_a3a#()Z" />
+      <node id="5871421566340153326" at="77,0,80,0" concept="5" trace="nodeCondition0#()Z" />
       <node id="5871421566340153319" at="128,0,131,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5871421566340153310" at="216,87,219,7" concept="4" />
       <node id="5871421566340153310" at="219,7,222,7" concept="4" />
       <node id="5871421566340153310" at="238,0,241,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="5871421566340153310" at="49,0,53,0" concept="0" trace="ViewModelExpression_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5871421566340153310" at="49,0,53,0" concept="0" trace="ViewModelExpression_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5871421566340153310" at="103,0,107,5" concept="4" />
       <node id="5871421566340153310" at="187,0,191,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5871421566340153310" at="195,0,199,0" concept="0" trace="projectSingleRoleHandler_9nl3pk_b3a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -266,8 +266,8 @@
       <node id="5871421566340153310" at="89,0,117,0" concept="5" trace="createRefCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="5871421566340153310" at="56,26,57,18" />
       <scope id="5871421566340153310" at="60,39,61,32" />
-      <scope id="5871421566340153324" at="72,37,73,53" />
-      <scope id="5871421566340153328" at="77,46,78,73" />
+      <scope id="5871421566340153324" at="72,27,73,53" />
+      <scope id="5871421566340153328" at="77,36,78,73" />
       <scope id="5871421566340153319" at="128,41,129,32" />
       <scope id="5871421566340153319" at="134,28,135,20" />
       <scope id="5871421566340153321" at="155,17,156,42" />
@@ -276,7 +276,7 @@
       <scope id="5871421566340153310" at="220,42,221,48" />
       <scope id="5871421566340153310" at="234,17,235,42" />
       <scope id="5871421566340153310" at="238,40,239,28" />
-      <scope id="5871421566340153310" at="49,99,51,18" />
+      <scope id="5871421566340153310" at="49,97,51,18" />
       <scope id="5871421566340153310" at="104,40,106,48" />
       <scope id="5871421566340153310" at="111,73,113,145">
         <var name="manager" id="5871421566340153310" />
@@ -378,13 +378,13 @@
         <var name="referenceLink" id="5871421566340153310" />
       </scope>
       <scope id="5871421566340153310" at="89,0,117,0" />
-      <unit id="5871421566340153310" at="262,0,265,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder_a$PROPS" />
-      <unit id="5871421566340153310" at="252,0,256,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder_a$LINKS" />
-      <unit id="5871421566340153310" at="257,0,261,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder_a$CONCEPTS" />
-      <unit id="5871421566340153310" at="91,42,99,5" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder_a$1" />
-      <unit id="5871421566340153319" at="117,0,160,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder_a$Inline_Builder0" />
-      <unit id="5871421566340153310" at="191,0,242,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder_a$projectSingleRoleHandler_9nl3pk_b3a" />
-      <unit id="5871421566340153310" at="45,0,266,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder_a" />
+      <unit id="5871421566340153310" at="262,0,265,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder$PROPS" />
+      <unit id="5871421566340153310" at="252,0,256,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder$LINKS" />
+      <unit id="5871421566340153310" at="257,0,261,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder$CONCEPTS" />
+      <unit id="5871421566340153310" at="91,42,99,5" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder$1" />
+      <unit id="5871421566340153319" at="117,0,160,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder$Inline_Builder0" />
+      <unit id="5871421566340153310" at="191,0,242,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder$projectSingleRoleHandler_9nl3pk_b3a" />
+      <unit id="5871421566340153310" at="45,0,266,0" name="com.jetbrains.mpsext.viewmodel.editor.ViewModelExpression_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:76a93383-9b61-40bb-b854-224a85e29067(com.jetbrains.mpsext.viewmodel.editor)/5871421566343091728">

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TEST_FlagAndTooltip_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TEST_FlagAndTooltip_EditorBuilder_a(editorContext, node).createCell();
+    return new TEST_FlagAndTooltip_EditorBuilder(editorContext, node).createCell();
   }
 }

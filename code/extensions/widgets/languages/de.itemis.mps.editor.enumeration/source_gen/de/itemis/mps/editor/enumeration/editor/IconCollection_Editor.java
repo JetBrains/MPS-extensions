@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class IconCollection_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new IconCollection_EditorBuilder_a(editorContext, node).createCell();
+    return new IconCollection_EditorBuilder(editorContext, node).createCell();
   }
 }

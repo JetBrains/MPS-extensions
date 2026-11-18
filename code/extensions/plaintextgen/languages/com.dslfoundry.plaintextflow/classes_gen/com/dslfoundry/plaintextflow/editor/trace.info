@@ -48,17 +48,17 @@
   </root>
   <root nodeRef="r:ed48e985-c70d-4bb2-8bda-34d0f9bfeea8(com.dslfoundry.plaintextflow.editor)/7578858899714679102">
     <file name="FlowWord_Editor.java">
-      <node id="7578858899714679102" at="11,79,12,74" concept="7" />
+      <node id="7578858899714679102" at="11,79,12,72" concept="7" />
       <node id="7578858899714679102" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7578858899714679102" at="11,79,12,74" />
+      <scope id="7578858899714679102" at="11,79,12,72" />
       <scope id="7578858899714679102" at="11,0,14,0">
         <var name="editorContext" id="7578858899714679102" />
         <var name="node" id="7578858899714679102" />
       </scope>
       <unit id="7578858899714679102" at="10,0,15,0" name="com.dslfoundry.plaintextflow.editor.FlowWord_Editor" />
     </file>
-    <file name="FlowWord_EditorBuilder_a.java">
-      <node id="7578858899714679102" at="34,88,35,19" concept="10" />
+    <file name="FlowWord_EditorBuilder.java">
+      <node id="7578858899714679102" at="34,86,35,19" concept="10" />
       <node id="7578858899714679102" at="35,19,36,18" concept="2" />
       <node id="7578858899714679102" at="41,26,42,18" concept="7" />
       <node id="7578858899714679102" at="45,39,46,30" concept="7" />
@@ -89,7 +89,7 @@
       <node id="7578858899714679102" at="31,0,33,0" concept="3" trace="myNode" />
       <node id="4283698638126387629" at="79,10,81,5" concept="0" />
       <node id="7578858899714679102" at="45,0,48,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="7578858899714679102" at="34,0,38,0" concept="1" trace="FlowWord_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7578858899714679102" at="34,0,38,0" concept="1" trace="FlowWord_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7578858899714679102" at="39,0,44,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7578858899714679102" at="66,208,71,24" concept="4" />
       <node id="4283698638126387613" at="76,60,81,5" concept="4" />
@@ -101,7 +101,7 @@
       <scope id="7578858899714679102" at="72,15,73,40" />
       <scope id="4283698638126387621" at="77,63,78,35" />
       <scope id="4283698638126387630" at="79,12,80,37" />
-      <scope id="7578858899714679102" at="34,88,36,18" />
+      <scope id="7578858899714679102" at="34,86,36,18" />
       <scope id="7578858899714679102" at="67,74,69,145">
         <var name="manager" id="7578858899714679102" />
       </scope>
@@ -122,24 +122,24 @@
       </scope>
       <scope id="7578858899714679102" at="49,41,74,5" />
       <scope id="7578858899714679102" at="49,0,76,0" />
-      <unit id="7578858899714679102" at="84,0,87,0" name="com.dslfoundry.plaintextflow.editor.FlowWord_EditorBuilder_a$PROPS" />
-      <unit id="7578858899714679102" at="88,0,91,0" name="com.dslfoundry.plaintextflow.editor.FlowWord_EditorBuilder_a$CONCEPTS" />
-      <unit id="7578858899714679102" at="30,0,92,0" name="com.dslfoundry.plaintextflow.editor.FlowWord_EditorBuilder_a" />
+      <unit id="7578858899714679102" at="84,0,87,0" name="com.dslfoundry.plaintextflow.editor.FlowWord_EditorBuilder$PROPS" />
+      <unit id="7578858899714679102" at="88,0,91,0" name="com.dslfoundry.plaintextflow.editor.FlowWord_EditorBuilder$CONCEPTS" />
+      <unit id="7578858899714679102" at="30,0,92,0" name="com.dslfoundry.plaintextflow.editor.FlowWord_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ed48e985-c70d-4bb2-8bda-34d0f9bfeea8(com.dslfoundry.plaintextflow.editor)/7578858899714691068">
     <file name="Flow_Editor.java">
-      <node id="7578858899714691068" at="11,79,12,70" concept="7" />
+      <node id="7578858899714691068" at="11,79,12,68" concept="7" />
       <node id="7578858899714691068" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7578858899714691068" at="11,79,12,70" />
+      <scope id="7578858899714691068" at="11,79,12,68" />
       <scope id="7578858899714691068" at="11,0,14,0">
         <var name="editorContext" id="7578858899714691068" />
         <var name="node" id="7578858899714691068" />
       </scope>
       <unit id="7578858899714691068" at="10,0,15,0" name="com.dslfoundry.plaintextflow.editor.Flow_Editor" />
     </file>
-    <file name="Flow_EditorBuilder_a.java">
-      <node id="7578858899714691068" at="48,84,49,19" concept="10" />
+    <file name="Flow_EditorBuilder.java">
+      <node id="7578858899714691068" at="48,82,49,19" concept="10" />
       <node id="7578858899714691068" at="49,19,50,18" concept="2" />
       <node id="7578858899714691068" at="55,26,56,18" concept="7" />
       <node id="7578858899714691068" at="59,39,60,32" concept="7" />
@@ -222,7 +222,7 @@
       <node id="7578858899714691068" at="129,0,132,0" concept="5" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7578858899714691068" at="133,0,136,0" concept="5" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7578858899714691068" at="176,96,179,9" concept="4" />
-      <node id="7578858899714691068" at="48,0,52,0" concept="1" trace="Flow_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7578858899714691068" at="48,0,52,0" concept="1" trace="Flow_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7578858899714691068" at="114,0,118,0" concept="1" trace="contentListHandler_gc1fin_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="7578858899714691068" at="119,0,123,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7578858899714691068" at="158,97,162,9" concept="4" />
@@ -253,7 +253,7 @@
       <scope id="7707982922429373923" at="133,73,134,44" />
       <scope id="7578858899714691068" at="150,17,151,42" />
       <scope id="7578858899714691068" at="177,34,178,91" />
-      <scope id="7578858899714691068" at="48,84,50,18" />
+      <scope id="7578858899714691068" at="48,82,50,18" />
       <scope id="7578858899715394642" at="91,74,93,145">
         <var name="manager" id="7578858899715394642" />
       </scope>
@@ -330,26 +330,26 @@
         <var name="elementNode" id="7578858899714691068" />
         <var name="isEmptyCell" id="7578858899714691068" />
       </scope>
-      <unit id="7578858899714691068" at="200,0,203,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder_a$LINKS" />
-      <unit id="7578858899714691068" at="189,0,193,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder_a$PROPS" />
-      <unit id="7578858899714691068" at="194,0,199,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder_a$CONCEPTS" />
-      <unit id="7578858899714691068" at="110,0,188,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder_a$contentListHandler_gc1fin_b0" />
-      <unit id="7578858899714691068" at="44,0,204,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder_a" />
+      <unit id="7578858899714691068" at="200,0,203,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder$LINKS" />
+      <unit id="7578858899714691068" at="189,0,193,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder$PROPS" />
+      <unit id="7578858899714691068" at="194,0,199,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder$CONCEPTS" />
+      <unit id="7578858899714691068" at="110,0,188,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder$contentListHandler_gc1fin_b0" />
+      <unit id="7578858899714691068" at="44,0,204,0" name="com.dslfoundry.plaintextflow.editor.Flow_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ed48e985-c70d-4bb2-8bda-34d0f9bfeea8(com.dslfoundry.plaintextflow.editor)/7578858899715525230">
     <file name="SoftWrap_Editor.java">
-      <node id="7578858899715525230" at="11,79,12,74" concept="7" />
+      <node id="7578858899715525230" at="11,79,12,72" concept="7" />
       <node id="7578858899715525230" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7578858899715525230" at="11,79,12,74" />
+      <scope id="7578858899715525230" at="11,79,12,72" />
       <scope id="7578858899715525230" at="11,0,14,0">
         <var name="editorContext" id="7578858899715525230" />
         <var name="node" id="7578858899715525230" />
       </scope>
       <unit id="7578858899715525230" at="10,0,15,0" name="com.dslfoundry.plaintextflow.editor.SoftWrap_Editor" />
     </file>
-    <file name="SoftWrap_EditorBuilder_a.java">
-      <node id="7578858899715525230" at="28,88,29,19" concept="10" />
+    <file name="SoftWrap_EditorBuilder.java">
+      <node id="7578858899715525230" at="28,86,29,19" concept="10" />
       <node id="7578858899715525230" at="29,19,30,18" concept="2" />
       <node id="7578858899715525230" at="35,26,36,18" concept="7" />
       <node id="7578858899715525230" at="39,39,40,32" concept="7" />
@@ -358,9 +358,9 @@
       <node id="7578858899715525230" at="45,48,46,28" concept="2" />
       <node id="7578858899715525230" at="46,28,47,31" concept="2" />
       <node id="7578858899715525232" at="47,31,48,49" concept="2" />
-      <node id="7578858899715525244" at="49,37,50,64" concept="2" />
+      <node id="7578858899715525244" at="49,27,50,64" concept="2" />
       <node id="7578858899715525230" at="51,5,52,22" concept="7" />
-      <node id="4283698638126359142" at="54,46,55,109" concept="7" />
+      <node id="4283698638126359142" at="54,36,55,109" concept="7" />
       <node id="7578858899715525232" at="57,41,58,94" concept="6" />
       <node id="7578858899715525232" at="58,94,59,47" concept="2" />
       <node id="7578858899715525232" at="59,47,60,34" concept="6" />
@@ -384,10 +384,10 @@
       <node id="7578858899715525230" at="25,0,27,0" concept="3" trace="myNode" />
       <node id="7578858899715525230" at="39,0,42,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7578858899715525244" at="48,49,51,5" concept="4" />
-      <node id="4283698638126357840" at="54,0,57,0" concept="5" trace="nodeCondition_p7qzb0_a1a#()Z" />
+      <node id="4283698638126357840" at="54,0,57,0" concept="5" trace="nodeCondition0#()Z" />
       <node id="7578858899715525244" at="70,0,73,0" concept="5" trace="getText#()Ljava/lang/String;" />
       <node id="4283698638126364584" at="84,0,87,0" concept="9" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
-      <node id="7578858899715525230" at="28,0,32,0" concept="1" trace="SoftWrap_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7578858899715525230" at="28,0,32,0" concept="1" trace="SoftWrap_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7578858899715525230" at="33,0,38,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7578858899715525244" at="68,54,73,15" concept="6" />
       <node id="7578858899715525230" at="43,0,54,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -395,11 +395,11 @@
       <node id="7578858899715525244" at="68,0,84,0" concept="5" trace="createReadOnlyModelAccessor_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="7578858899715525230" at="35,26,36,18" />
       <scope id="7578858899715525230" at="39,39,40,32" />
-      <scope id="7578858899715525244" at="49,37,50,64" />
-      <scope id="4283698638126357841" at="54,46,55,109" />
+      <scope id="7578858899715525244" at="49,27,50,64" />
+      <scope id="4283698638126357841" at="54,36,55,109" />
       <scope id="7578858899715525250" at="70,31,71,104" />
       <scope id="4283698638126364584" at="84,55,85,43" />
-      <scope id="7578858899715525230" at="28,88,30,18" />
+      <scope id="7578858899715525230" at="28,86,30,18" />
       <scope id="7578858899715525230" at="39,0,42,0" />
       <scope id="4283698638126357840" at="54,0,57,0" />
       <scope id="7578858899715525244" at="70,0,73,0" />
@@ -425,23 +425,23 @@
         <var name="style" id="7578858899715525244" />
       </scope>
       <scope id="7578858899715525244" at="68,0,84,0" />
-      <unit id="7578858899715525244" at="69,88,73,5" name="com.dslfoundry.plaintextflow.editor.SoftWrap_EditorBuilder_a$1" />
-      <unit id="7578858899715525230" at="24,0,88,0" name="com.dslfoundry.plaintextflow.editor.SoftWrap_EditorBuilder_a" />
+      <unit id="7578858899715525244" at="69,88,73,5" name="com.dslfoundry.plaintextflow.editor.SoftWrap_EditorBuilder$1" />
+      <unit id="7578858899715525230" at="24,0,88,0" name="com.dslfoundry.plaintextflow.editor.SoftWrap_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ed48e985-c70d-4bb2-8bda-34d0f9bfeea8(com.dslfoundry.plaintextflow.editor)/7578858899716023455">
     <file name="HardWrap_Editor.java">
-      <node id="7578858899716023455" at="11,79,12,74" concept="7" />
+      <node id="7578858899716023455" at="11,79,12,72" concept="7" />
       <node id="7578858899716023455" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7578858899716023455" at="11,79,12,74" />
+      <scope id="7578858899716023455" at="11,79,12,72" />
       <scope id="7578858899716023455" at="11,0,14,0">
         <var name="editorContext" id="7578858899716023455" />
         <var name="node" id="7578858899716023455" />
       </scope>
       <unit id="7578858899716023455" at="10,0,15,0" name="com.dslfoundry.plaintextflow.editor.HardWrap_Editor" />
     </file>
-    <file name="HardWrap_EditorBuilder_a.java">
-      <node id="7578858899716023455" at="23,88,24,19" concept="10" />
+    <file name="HardWrap_EditorBuilder.java">
+      <node id="7578858899716023455" at="23,86,24,19" concept="10" />
       <node id="7578858899716023455" at="24,19,25,18" concept="2" />
       <node id="7578858899716023455" at="30,26,31,18" concept="7" />
       <node id="7578858899716023455" at="34,39,35,32" concept="7" />
@@ -462,13 +462,13 @@
       <node id="7578858899716023457" at="54,34,55,22" concept="7" />
       <node id="7578858899716023455" at="20,0,22,0" concept="3" trace="myNode" />
       <node id="7578858899716023455" at="34,0,37,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="7578858899716023455" at="23,0,27,0" concept="1" trace="HardWrap_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7578858899716023455" at="23,0,27,0" concept="1" trace="HardWrap_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7578858899716023455" at="28,0,33,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7578858899716023455" at="38,0,46,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7578858899716023457" at="46,0,57,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="7578858899716023455" at="30,26,31,18" />
       <scope id="7578858899716023455" at="34,39,35,32" />
-      <scope id="7578858899716023455" at="23,88,25,18" />
+      <scope id="7578858899716023455" at="23,86,25,18" />
       <scope id="7578858899716023455" at="34,0,37,0" />
       <scope id="7578858899716023455" at="23,0,27,0">
         <var name="context" id="7578858899716023455" />
@@ -484,7 +484,7 @@
         <var name="style" id="7578858899716023457" />
       </scope>
       <scope id="7578858899716023457" at="46,0,57,0" />
-      <unit id="7578858899716023455" at="19,0,58,0" name="com.dslfoundry.plaintextflow.editor.HardWrap_EditorBuilder_a" />
+      <unit id="7578858899716023455" at="19,0,58,0" name="com.dslfoundry.plaintextflow.editor.HardWrap_EditorBuilder" />
     </file>
   </root>
 </debug-info>

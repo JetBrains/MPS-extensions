@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class SymbolLayoutElement_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SymbolLayoutElement_EditorBuilder_a(editorContext, node).createCell();
+    return new SymbolLayoutElement_EditorBuilder(editorContext, node).createCell();
   }
 }

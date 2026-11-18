@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class VersionDateReleaseHeader_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new VersionDateReleaseHeader_EditorBuilder_a(editorContext, node).createCell();
+    return new VersionDateReleaseHeader_EditorBuilder(editorContext, node).createCell();
   }
 }

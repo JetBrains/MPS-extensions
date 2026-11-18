@@ -18,6 +18,6 @@ public class Test_paginate_Editor extends DefaultNodeEditor {
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Test_paginate_EditorBuilder_a(editorContext, node).createCell();
+    return new Test_paginate_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ModelMergerExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ModelMergerExpression_EditorBuilder_a(editorContext, node).createCell();
+    return new ModelMergerExpression_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class WrapperCell_RemoveSideTransform_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new WrapperCell_RemoveSideTransform_EditorBuilder_a(editorContext, node).createCell();
+    return new WrapperCell_RemoveSideTransform_EditorBuilder(editorContext, node).createCell();
   }
 }

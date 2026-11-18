@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:5819b598-ac0c-4b39-a980-588d169220da(de.itemis.model.simple.demo.property.editor)/3370123198533971802">
     <file name="ConceptWithProperty_Editor.java">
-      <node id="3370123198533971802" at="11,79,12,85" concept="6" />
+      <node id="3370123198533971802" at="11,79,12,83" concept="6" />
       <node id="3370123198533971802" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3370123198533971802" at="11,79,12,85" />
+      <scope id="3370123198533971802" at="11,79,12,83" />
       <scope id="3370123198533971802" at="11,0,14,0">
         <var name="editorContext" id="3370123198533971802" />
         <var name="node" id="3370123198533971802" />
       </scope>
       <unit id="3370123198533971802" at="10,0,15,0" name="de.itemis.model.simple.demo.property.editor.ConceptWithProperty_Editor" />
     </file>
-    <file name="ConceptWithProperty_EditorBuilder_a.java">
-      <node id="3370123198533971802" at="33,99,34,19" concept="8" />
+    <file name="ConceptWithProperty_EditorBuilder.java">
+      <node id="3370123198533971802" at="33,97,34,19" concept="8" />
       <node id="3370123198533971802" at="34,19,35,18" concept="1" />
       <node id="3370123198533971802" at="40,26,41,18" concept="6" />
       <node id="3370123198533971802" at="44,39,45,32" concept="6" />
@@ -89,7 +89,7 @@
       <node id="3370123198533971802" at="132,0,133,0" concept="7" trace="PropertyAttribute$Gb" />
       <node id="3370123198533971802" at="30,0,32,0" concept="2" trace="myNode" />
       <node id="3370123198533971802" at="44,0,47,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3370123198533971802" at="33,0,37,0" concept="0" trace="ConceptWithProperty_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3370123198533971802" at="33,0,37,0" concept="0" trace="ConceptWithProperty_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3370123198533971802" at="38,0,43,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8799385891894164488" at="81,208,86,24" concept="3" />
       <node id="3370123198533971817" at="115,208,120,24" concept="3" />
@@ -106,7 +106,7 @@
       <scope id="3370123198533971802" at="44,39,45,32" />
       <scope id="8799385891894164488" at="87,15,88,40" />
       <scope id="3370123198533971817" at="121,15,122,40" />
-      <scope id="3370123198533971802" at="33,99,35,18" />
+      <scope id="3370123198533971802" at="33,97,35,18" />
       <scope id="8799385891894164488" at="82,74,84,145">
         <var name="manager" id="8799385891894164488" />
       </scope>
@@ -155,9 +155,9 @@
       <scope id="3370123198533971817" at="104,41,123,5" />
       <scope id="8799385891894164488" at="70,0,91,0" />
       <scope id="3370123198533971817" at="104,0,125,0" />
-      <unit id="3370123198533971802" at="131,0,134,0" name="de.itemis.model.simple.demo.property.editor.ConceptWithProperty_EditorBuilder_a$CONCEPTS" />
-      <unit id="3370123198533971802" at="126,0,130,0" name="de.itemis.model.simple.demo.property.editor.ConceptWithProperty_EditorBuilder_a$PROPS" />
-      <unit id="3370123198533971802" at="29,0,135,0" name="de.itemis.model.simple.demo.property.editor.ConceptWithProperty_EditorBuilder_a" />
+      <unit id="3370123198533971802" at="131,0,134,0" name="de.itemis.model.simple.demo.property.editor.ConceptWithProperty_EditorBuilder$CONCEPTS" />
+      <unit id="3370123198533971802" at="126,0,130,0" name="de.itemis.model.simple.demo.property.editor.ConceptWithProperty_EditorBuilder$PROPS" />
+      <unit id="3370123198533971802" at="29,0,135,0" name="de.itemis.model.simple.demo.property.editor.ConceptWithProperty_EditorBuilder" />
     </file>
   </root>
 </debug-info>

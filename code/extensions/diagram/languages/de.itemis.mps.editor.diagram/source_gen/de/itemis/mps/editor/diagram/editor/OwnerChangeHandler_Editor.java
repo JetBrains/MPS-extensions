@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class OwnerChangeHandler_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new OwnerChangeHandler_EditorBuilder_a(editorContext, node).createCell();
+    return new OwnerChangeHandler_EditorBuilder(editorContext, node).createCell();
   }
 }

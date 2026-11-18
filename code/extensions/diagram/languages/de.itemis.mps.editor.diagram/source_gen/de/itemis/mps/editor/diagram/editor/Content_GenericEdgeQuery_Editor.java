@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Content_GenericEdgeQuery_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Content_GenericEdgeQuery_EditorBuilder_a(editorContext, node).createCell();
+    return new Content_GenericEdgeQuery_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new Content_GenericEdgeQuery_InspectorBuilder_a(editorContext, node).createCell();
+    return new Content_GenericEdgeQuery_InspectorBuilder(editorContext, node).createCell();
   }
 }

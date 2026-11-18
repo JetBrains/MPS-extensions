@@ -16,6 +16,6 @@ public class HeaderInspector implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new HeaderInspector_ComponentBuilder_a(editorContext, node).createCell();
+    return new HeaderInspector_ComponentBuilder(editorContext, node).createCell();
   }
 }

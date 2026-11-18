@@ -16,6 +16,6 @@ public class DiagramInspector implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new DiagramInspector_ComponentBuilder_a(editorContext, node).createCell();
+    return new DiagramInspector_ComponentBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ExternalForkParameterRef_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ExternalForkParameterRef_EditorBuilder_a(editorContext, node).createCell();
+    return new ExternalForkParameterRef_EditorBuilder(editorContext, node).createCell();
   }
 }

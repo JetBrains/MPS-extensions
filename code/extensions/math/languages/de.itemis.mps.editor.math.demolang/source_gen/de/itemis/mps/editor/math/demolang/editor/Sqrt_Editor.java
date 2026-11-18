@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Sqrt_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Sqrt_EditorBuilder_a(editorContext, node).createCell();
+    return new Sqrt_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ConditionalShape_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ConditionalShape_EditorBuilder_a(editorContext, node).createCell();
+    return new ConditionalShape_EditorBuilder(editorContext, node).createCell();
   }
 }

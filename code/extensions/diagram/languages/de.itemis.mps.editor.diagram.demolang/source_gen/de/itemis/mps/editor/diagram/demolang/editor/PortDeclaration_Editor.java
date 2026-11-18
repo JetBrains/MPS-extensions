@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class PortDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new PortDeclaration_EditorBuilder_a(editorContext, node).createCell();
+    return new PortDeclaration_EditorBuilder(editorContext, node).createCell();
   }
 }

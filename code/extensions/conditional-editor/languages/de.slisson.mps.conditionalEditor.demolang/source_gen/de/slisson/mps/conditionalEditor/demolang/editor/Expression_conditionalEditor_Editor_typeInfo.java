@@ -19,10 +19,10 @@ public class Expression_conditionalEditor_Editor_typeInfo extends DefaultNodeEdi
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Expression_conditionalEditor_EditorBuilder_a(editorContext, node).createCell();
+    return new Expression_conditionalEditor_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new Expression_conditionalEditor_InspectorBuilder_a(editorContext, node).createCell();
+    return new Expression_conditionalEditor_InspectorBuilder(editorContext, node).createCell();
   }
   public int getPriority() {
     return 200;

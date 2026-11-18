@@ -18,6 +18,6 @@ public class NodeWithToolTip_tooltipHint_vfxqrs_a_Editor extends DefaultNodeEdit
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new NodeWithToolTip_tooltipHint_vfxqrs_a_EditorBuilder_a(editorContext, node).createCell();
+    return new NodeWithToolTip_tooltipHint_vfxqrs_a_EditorBuilder(editorContext, node).createCell();
   }
 }

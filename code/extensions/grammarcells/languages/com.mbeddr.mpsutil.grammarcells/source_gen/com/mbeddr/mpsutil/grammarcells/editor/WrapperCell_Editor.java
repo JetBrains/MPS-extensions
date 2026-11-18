@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class WrapperCell_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new WrapperCell_EditorBuilder_a(editorContext, node).createCell();
+    return new WrapperCell_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new WrapperCell_InspectorBuilder_a(editorContext, node).createCell();
+    return new WrapperCell_InspectorBuilder(editorContext, node).createCell();
   }
 }

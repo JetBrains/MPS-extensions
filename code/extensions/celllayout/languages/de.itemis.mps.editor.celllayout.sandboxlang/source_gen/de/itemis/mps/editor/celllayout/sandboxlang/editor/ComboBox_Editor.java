@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ComboBox_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ComboBox_EditorBuilder_a(editorContext, node).createCell();
+    return new ComboBox_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:b34afbb0-553b-4e3b-8562-859e6864b1d6(de.slisson.mps.editor.multiline.editor)/2197626119621156063">
     <file name="StubCellModel_Multiline_Constant_Editor.java">
-      <node id="2197626119621156063" at="11,79,12,98" concept="6" />
+      <node id="2197626119621156063" at="11,79,12,96" concept="6" />
       <node id="2197626119621156063" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2197626119621156063" at="11,79,12,98" />
+      <scope id="2197626119621156063" at="11,79,12,96" />
       <scope id="2197626119621156063" at="11,0,14,0">
         <var name="editorContext" id="2197626119621156063" />
         <var name="node" id="2197626119621156063" />
       </scope>
       <unit id="2197626119621156063" at="10,0,15,0" name="de.slisson.mps.editor.multiline.editor.StubCellModel_Multiline_Constant_Editor" />
     </file>
-    <file name="StubCellModel_Multiline_Constant_EditorBuilder_a.java">
-      <node id="2197626119621156063" at="16,112,17,19" concept="8" />
+    <file name="StubCellModel_Multiline_Constant_EditorBuilder.java">
+      <node id="2197626119621156063" at="16,110,17,19" concept="8" />
       <node id="2197626119621156063" at="17,19,18,18" concept="1" />
       <node id="2197626119621156063" at="23,26,24,18" concept="6" />
       <node id="2197626119621156063" at="27,39,28,31" concept="6" />
@@ -38,13 +38,13 @@
       <node id="2197626119621156064" at="37,5,38,22" concept="6" />
       <node id="2197626119621156063" at="13,0,15,0" concept="2" trace="myNode" />
       <node id="2197626119621156063" at="27,0,30,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2197626119621156063" at="16,0,20,0" concept="0" trace="StubCellModel_Multiline_Constant_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2197626119621156063" at="16,0,20,0" concept="0" trace="StubCellModel_Multiline_Constant_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2197626119621156064" at="33,72,37,5" concept="3" />
       <node id="2197626119621156063" at="21,0,26,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2197626119621156064" at="31,0,40,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2197626119621156063" at="23,26,24,18" />
       <scope id="2197626119621156063" at="27,39,28,31" />
-      <scope id="2197626119621156063" at="16,112,18,18" />
+      <scope id="2197626119621156063" at="16,110,18,18" />
       <scope id="2197626119621156064" at="34,26,36,30" />
       <scope id="2197626119621156063" at="27,0,30,0" />
       <scope id="2197626119621156063" at="16,0,20,0">
@@ -57,7 +57,7 @@
         <var name="editorCell" id="2197626119621156064" />
       </scope>
       <scope id="2197626119621156064" at="31,0,40,0" />
-      <unit id="2197626119621156063" at="12,0,41,0" name="de.slisson.mps.editor.multiline.editor.StubCellModel_Multiline_Constant_EditorBuilder_a" />
+      <unit id="2197626119621156063" at="12,0,41,0" name="de.slisson.mps.editor.multiline.editor.StubCellModel_Multiline_Constant_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:b34afbb0-553b-4e3b-8562-859e6864b1d6(de.slisson.mps.editor.multiline.editor)/2197626119621156065">
@@ -71,12 +71,12 @@
   </root>
   <root nodeRef="r:b34afbb0-553b-4e3b-8562-859e6864b1d6(de.slisson.mps.editor.multiline.editor)/2197626119621236040">
     <file name="CellModel_Multiline_Constant_Editor.java">
-      <node id="2197626119621236040" at="11,79,12,94" concept="6" />
-      <node id="2197626119621236040" at="14,82,15,97" concept="6" />
+      <node id="2197626119621236040" at="11,79,12,92" concept="6" />
+      <node id="2197626119621236040" at="14,82,15,95" concept="6" />
       <node id="2197626119621236040" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2197626119621236040" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2197626119621236040" at="11,79,12,94" />
-      <scope id="2197626119621236040" at="14,82,15,97" />
+      <scope id="2197626119621236040" at="11,79,12,92" />
+      <scope id="2197626119621236040" at="14,82,15,95" />
       <scope id="2197626119621236040" at="11,0,14,0">
         <var name="editorContext" id="2197626119621236040" />
         <var name="node" id="2197626119621236040" />
@@ -87,8 +87,8 @@
       </scope>
       <unit id="2197626119621236040" at="10,0,18,0" name="de.slisson.mps.editor.multiline.editor.CellModel_Multiline_Constant_Editor" />
     </file>
-    <file name="CellModel_Multiline_Constant_EditorBuilder_a.java">
-      <node id="2197626119621236040" at="21,108,22,19" concept="8" />
+    <file name="CellModel_Multiline_Constant_EditorBuilder.java">
+      <node id="2197626119621236040" at="21,106,22,19" concept="8" />
       <node id="2197626119621236040" at="22,19,23,18" concept="1" />
       <node id="2197626119621236040" at="28,26,29,18" concept="6" />
       <node id="2197626119621236040" at="32,39,33,32" concept="6" />
@@ -114,14 +114,14 @@
       <node id="1355051069417766357" at="59,40,60,22" concept="6" />
       <node id="2197626119621236040" at="18,0,20,0" concept="2" trace="myNode" />
       <node id="2197626119621236040" at="32,0,35,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2197626119621236040" at="21,0,25,0" concept="0" trace="CellModel_Multiline_Constant_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2197626119621236040" at="21,0,25,0" concept="0" trace="CellModel_Multiline_Constant_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2197626119621236040" at="26,0,31,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1355051069417766354" at="48,0,55,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1355051069417766357" at="55,0,62,0" concept="4" trace="createComponent_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2197626119621236040" at="36,0,48,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2197626119621236040" at="28,26,29,18" />
       <scope id="2197626119621236040" at="32,39,33,32" />
-      <scope id="2197626119621236040" at="21,108,23,18" />
+      <scope id="2197626119621236040" at="21,106,23,18" />
       <scope id="2197626119621236040" at="32,0,35,0" />
       <scope id="2197626119621236040" at="21,0,25,0">
         <var name="context" id="2197626119621236040" />
@@ -143,10 +143,10 @@
         <var name="style" id="2197626119621236040" />
       </scope>
       <scope id="2197626119621236040" at="36,0,48,0" />
-      <unit id="2197626119621236040" at="17,0,63,0" name="de.slisson.mps.editor.multiline.editor.CellModel_Multiline_Constant_EditorBuilder_a" />
+      <unit id="2197626119621236040" at="17,0,63,0" name="de.slisson.mps.editor.multiline.editor.CellModel_Multiline_Constant_EditorBuilder" />
     </file>
-    <file name="CellModel_Multiline_Constant_InspectorBuilder_a.java">
-      <node id="2197626119621236040" at="34,111,35,19" concept="8" />
+    <file name="CellModel_Multiline_Constant_InspectorBuilder.java">
+      <node id="2197626119621236040" at="34,109,35,19" concept="8" />
       <node id="2197626119621236040" at="35,19,36,18" concept="1" />
       <node id="2197626119621236040" at="41,26,42,18" concept="6" />
       <node id="2197626119621236040" at="45,39,46,32" concept="6" />
@@ -234,7 +234,7 @@
       <node id="2197626119621236040" at="145,87,148,7" concept="3" />
       <node id="2197626119621236040" at="148,7,151,7" concept="3" />
       <node id="2197626119621236040" at="170,0,173,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="2197626119621236040" at="34,0,38,0" concept="0" trace="CellModel_Multiline_Constant_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2197626119621236040" at="34,0,38,0" concept="0" trace="CellModel_Multiline_Constant_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1214480562374" at="63,0,67,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2197626119621236040" at="116,0,120,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2197626119621236040" at="124,0,128,0" concept="0" trace="contentProviderSingleRoleHandler_wgmxlr_b0d0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -257,7 +257,7 @@
       <scope id="2197626119621236040" at="149,42,150,56" />
       <scope id="2197626119621236040" at="166,17,167,42" />
       <scope id="2197626119621236040" at="170,40,171,36" />
-      <scope id="2197626119621236040" at="34,111,36,18" />
+      <scope id="2197626119621236040" at="34,109,36,18" />
       <scope id="1214480562374" at="63,42,65,22">
         <var name="editorCell" id="1214480562374" />
       </scope>
@@ -329,9 +329,9 @@
       </scope>
       <scope id="2197626119621236040" at="49,0,63,0" />
       <scope id="2197626119621236040" at="156,0,170,0" />
-      <unit id="2197626119621236040" at="175,0,178,0" name="de.slisson.mps.editor.multiline.editor.CellModel_Multiline_Constant_InspectorBuilder_a$LINKS" />
-      <unit id="2197626119621236040" at="120,0,174,0" name="de.slisson.mps.editor.multiline.editor.CellModel_Multiline_Constant_InspectorBuilder_a$contentProviderSingleRoleHandler_wgmxlr_b0d0" />
-      <unit id="2197626119621236040" at="30,0,179,0" name="de.slisson.mps.editor.multiline.editor.CellModel_Multiline_Constant_InspectorBuilder_a" />
+      <unit id="2197626119621236040" at="175,0,178,0" name="de.slisson.mps.editor.multiline.editor.CellModel_Multiline_Constant_InspectorBuilder$LINKS" />
+      <unit id="2197626119621236040" at="120,0,174,0" name="de.slisson.mps.editor.multiline.editor.CellModel_Multiline_Constant_InspectorBuilder$contentProviderSingleRoleHandler_wgmxlr_b0d0" />
+      <unit id="2197626119621236040" at="30,0,179,0" name="de.slisson.mps.editor.multiline.editor.CellModel_Multiline_Constant_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:b34afbb0-553b-4e3b-8562-859e6864b1d6(de.slisson.mps.editor.multiline.editor)/4950383594641831986">
@@ -345,17 +345,17 @@
   </root>
   <root nodeRef="r:b34afbb0-553b-4e3b-8562-859e6864b1d6(de.slisson.mps.editor.multiline.editor)/8664183491941389659">
     <file name="StubCellModel_Multiline_Editor.java">
-      <node id="8664183491941389659" at="11,79,12,89" concept="6" />
+      <node id="8664183491941389659" at="11,79,12,87" concept="6" />
       <node id="8664183491941389659" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8664183491941389659" at="11,79,12,89" />
+      <scope id="8664183491941389659" at="11,79,12,87" />
       <scope id="8664183491941389659" at="11,0,14,0">
         <var name="editorContext" id="8664183491941389659" />
         <var name="node" id="8664183491941389659" />
       </scope>
       <unit id="8664183491941389659" at="10,0,15,0" name="de.slisson.mps.editor.multiline.editor.StubCellModel_Multiline_Editor" />
     </file>
-    <file name="StubCellModel_Multiline_EditorBuilder_a.java">
-      <node id="8664183491941389659" at="16,103,17,19" concept="8" />
+    <file name="StubCellModel_Multiline_EditorBuilder.java">
+      <node id="8664183491941389659" at="16,101,17,19" concept="8" />
       <node id="8664183491941389659" at="17,19,18,18" concept="1" />
       <node id="8664183491941389659" at="23,26,24,18" concept="6" />
       <node id="8664183491941389659" at="27,39,28,31" concept="6" />
@@ -366,13 +366,13 @@
       <node id="8664183491941389660" at="37,5,38,22" concept="6" />
       <node id="8664183491941389659" at="13,0,15,0" concept="2" trace="myNode" />
       <node id="8664183491941389659" at="27,0,30,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8664183491941389659" at="16,0,20,0" concept="0" trace="StubCellModel_Multiline_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8664183491941389659" at="16,0,20,0" concept="0" trace="StubCellModel_Multiline_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8664183491941389660" at="33,72,37,5" concept="3" />
       <node id="8664183491941389659" at="21,0,26,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8664183491941389660" at="31,0,40,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="8664183491941389659" at="23,26,24,18" />
       <scope id="8664183491941389659" at="27,39,28,31" />
-      <scope id="8664183491941389659" at="16,103,18,18" />
+      <scope id="8664183491941389659" at="16,101,18,18" />
       <scope id="8664183491941389660" at="34,26,36,30" />
       <scope id="8664183491941389659" at="27,0,30,0" />
       <scope id="8664183491941389659" at="16,0,20,0">
@@ -385,7 +385,7 @@
         <var name="editorCell" id="8664183491941389660" />
       </scope>
       <scope id="8664183491941389660" at="31,0,40,0" />
-      <unit id="8664183491941389659" at="12,0,41,0" name="de.slisson.mps.editor.multiline.editor.StubCellModel_Multiline_EditorBuilder_a" />
+      <unit id="8664183491941389659" at="12,0,41,0" name="de.slisson.mps.editor.multiline.editor.StubCellModel_Multiline_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:b34afbb0-553b-4e3b-8562-859e6864b1d6(de.slisson.mps.editor.multiline.editor)/9033403679732632031">

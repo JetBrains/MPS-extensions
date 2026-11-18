@@ -18,6 +18,6 @@ public class DiagramWithoutLayoutStore_asText_Editor extends DefaultNodeEditor {
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new DiagramWithoutLayoutStore_asText_EditorBuilder_a(editorContext, node).createCell();
+    return new DiagramWithoutLayoutStore_asText_EditorBuilder(editorContext, node).createCell();
   }
 }

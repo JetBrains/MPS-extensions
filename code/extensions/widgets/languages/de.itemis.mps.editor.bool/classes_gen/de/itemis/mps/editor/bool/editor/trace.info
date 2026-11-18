@@ -42,17 +42,17 @@
   </root>
   <root nodeRef="r:8b4aef96-deea-4694-b06b-6302db4df73d(de.itemis.mps.editor.bool.editor)/416014060004381454">
     <file name="StubCellModel_Checkbox_Editor.java">
-      <node id="416014060004381454" at="11,79,12,88" concept="6" />
+      <node id="416014060004381454" at="11,79,12,86" concept="6" />
       <node id="416014060004381454" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="416014060004381454" at="11,79,12,88" />
+      <scope id="416014060004381454" at="11,79,12,86" />
       <scope id="416014060004381454" at="11,0,14,0">
         <var name="editorContext" id="416014060004381454" />
         <var name="node" id="416014060004381454" />
       </scope>
       <unit id="416014060004381454" at="10,0,15,0" name="de.itemis.mps.editor.bool.editor.StubCellModel_Checkbox_Editor" />
     </file>
-    <file name="StubCellModel_Checkbox_EditorBuilder_a.java">
-      <node id="416014060004381454" at="16,102,17,19" concept="10" />
+    <file name="StubCellModel_Checkbox_EditorBuilder.java">
+      <node id="416014060004381454" at="16,100,17,19" concept="10" />
       <node id="416014060004381454" at="17,19,18,18" concept="1" />
       <node id="416014060004381454" at="23,26,24,18" concept="6" />
       <node id="416014060004381454" at="27,39,28,31" concept="6" />
@@ -63,13 +63,13 @@
       <node id="416014060004381455" at="37,5,38,22" concept="6" />
       <node id="416014060004381454" at="13,0,15,0" concept="2" trace="myNode" />
       <node id="416014060004381454" at="27,0,30,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="416014060004381454" at="16,0,20,0" concept="0" trace="StubCellModel_Checkbox_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="416014060004381454" at="16,0,20,0" concept="0" trace="StubCellModel_Checkbox_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="416014060004381455" at="33,72,37,5" concept="3" />
       <node id="416014060004381454" at="21,0,26,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="416014060004381455" at="31,0,40,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="416014060004381454" at="23,26,24,18" />
       <scope id="416014060004381454" at="27,39,28,31" />
-      <scope id="416014060004381454" at="16,102,18,18" />
+      <scope id="416014060004381454" at="16,100,18,18" />
       <scope id="416014060004381455" at="34,26,36,30" />
       <scope id="416014060004381454" at="27,0,30,0" />
       <scope id="416014060004381454" at="16,0,20,0">
@@ -82,22 +82,22 @@
         <var name="editorCell" id="416014060004381455" />
       </scope>
       <scope id="416014060004381455" at="31,0,40,0" />
-      <unit id="416014060004381454" at="12,0,41,0" name="de.itemis.mps.editor.bool.editor.StubCellModel_Checkbox_EditorBuilder_a" />
+      <unit id="416014060004381454" at="12,0,41,0" name="de.itemis.mps.editor.bool.editor.StubCellModel_Checkbox_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:8b4aef96-deea-4694-b06b-6302db4df73d(de.itemis.mps.editor.bool.editor)/416014060004530857">
     <file name="StubCellModel_BooleanText_Editor.java">
-      <node id="416014060004530857" at="11,79,12,91" concept="6" />
+      <node id="416014060004530857" at="11,79,12,89" concept="6" />
       <node id="416014060004530857" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="416014060004530857" at="11,79,12,91" />
+      <scope id="416014060004530857" at="11,79,12,89" />
       <scope id="416014060004530857" at="11,0,14,0">
         <var name="editorContext" id="416014060004530857" />
         <var name="node" id="416014060004530857" />
       </scope>
       <unit id="416014060004530857" at="10,0,15,0" name="de.itemis.mps.editor.bool.editor.StubCellModel_BooleanText_Editor" />
     </file>
-    <file name="StubCellModel_BooleanText_EditorBuilder_a.java">
-      <node id="416014060004530857" at="16,105,17,19" concept="10" />
+    <file name="StubCellModel_BooleanText_EditorBuilder.java">
+      <node id="416014060004530857" at="16,103,17,19" concept="10" />
       <node id="416014060004530857" at="17,19,18,18" concept="1" />
       <node id="416014060004530857" at="23,26,24,18" concept="6" />
       <node id="416014060004530857" at="27,39,28,31" concept="6" />
@@ -108,13 +108,13 @@
       <node id="416014060004530858" at="37,5,38,22" concept="6" />
       <node id="416014060004530857" at="13,0,15,0" concept="2" trace="myNode" />
       <node id="416014060004530857" at="27,0,30,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="416014060004530857" at="16,0,20,0" concept="0" trace="StubCellModel_BooleanText_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="416014060004530857" at="16,0,20,0" concept="0" trace="StubCellModel_BooleanText_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="416014060004530858" at="33,72,37,5" concept="3" />
       <node id="416014060004530857" at="21,0,26,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="416014060004530858" at="31,0,40,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="416014060004530857" at="23,26,24,18" />
       <scope id="416014060004530857" at="27,39,28,31" />
-      <scope id="416014060004530857" at="16,105,18,18" />
+      <scope id="416014060004530857" at="16,103,18,18" />
       <scope id="416014060004530858" at="34,26,36,30" />
       <scope id="416014060004530857" at="27,0,30,0" />
       <scope id="416014060004530857" at="16,0,20,0">
@@ -127,17 +127,17 @@
         <var name="editorCell" id="416014060004530858" />
       </scope>
       <scope id="416014060004530858" at="31,0,40,0" />
-      <unit id="416014060004530857" at="12,0,41,0" name="de.itemis.mps.editor.bool.editor.StubCellModel_BooleanText_EditorBuilder_a" />
+      <unit id="416014060004530857" at="12,0,41,0" name="de.itemis.mps.editor.bool.editor.StubCellModel_BooleanText_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:8b4aef96-deea-4694-b06b-6302db4df73d(de.itemis.mps.editor.bool.editor)/4900677560559975325">
     <file name="CellModel_Checkbox_Editor.java">
-      <node id="4900677560559975325" at="11,79,12,84" concept="6" />
-      <node id="4900677560559975325" at="14,82,15,87" concept="6" />
+      <node id="4900677560559975325" at="11,79,12,82" concept="6" />
+      <node id="4900677560559975325" at="14,82,15,85" concept="6" />
       <node id="4900677560559975325" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4900677560559975325" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4900677560559975325" at="11,79,12,84" />
-      <scope id="4900677560559975325" at="14,82,15,87" />
+      <scope id="4900677560559975325" at="11,79,12,82" />
+      <scope id="4900677560559975325" at="14,82,15,85" />
       <scope id="4900677560559975325" at="11,0,14,0">
         <var name="editorContext" id="4900677560559975325" />
         <var name="node" id="4900677560559975325" />
@@ -148,8 +148,8 @@
       </scope>
       <unit id="4900677560559975325" at="10,0,18,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_Editor" />
     </file>
-    <file name="CellModel_Checkbox_EditorBuilder_a.java">
-      <node id="4900677560559975325" at="44,98,45,19" concept="10" />
+    <file name="CellModel_Checkbox_EditorBuilder.java">
+      <node id="4900677560559975325" at="44,96,45,19" concept="10" />
       <node id="4900677560559975325" at="45,19,46,18" concept="1" />
       <node id="4900677560559975325" at="51,26,52,18" concept="6" />
       <node id="4900677560559975325" at="55,39,56,32" concept="6" />
@@ -252,7 +252,7 @@
       <node id="1221239223958" at="179,0,182,0" concept="4" trace="_StyleParameter_QueryFunction_47umt4_a3c0#()I" />
       <node id="1221239223965" at="182,0,185,0" concept="4" trace="_StyleParameter_QueryFunction_47umt4_a4c0#()Z" />
       <node id="1223482349120" at="185,0,188,0" concept="4" trace="_StyleParameter_QueryFunction_47umt4_a5c0#()Z" />
-      <node id="4900677560559975325" at="44,0,48,0" concept="0" trace="CellModel_Checkbox_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4900677560559975325" at="44,0,48,0" concept="0" trace="CellModel_Checkbox_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4900677560559975325" at="101,0,105,5" concept="3" />
       <node id="4900677560559975325" at="49,0,54,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="4900677560559975325" at="117,205,122,22" concept="3" />
@@ -279,7 +279,7 @@
       <scope id="1221239223959" at="179,59,180,94" />
       <scope id="1221239223966" at="182,63,183,98" />
       <scope id="1223482349121" at="185,63,186,97" />
-      <scope id="4900677560559975325" at="44,98,46,18" />
+      <scope id="4900677560559975325" at="44,96,46,18" />
       <scope id="4900677560559975325" at="102,40,104,58" />
       <scope id="4900677560559975325" at="118,73,120,145">
         <var name="manager" id="4900677560559975325" />
@@ -350,15 +350,15 @@
         <var name="style" id="4900677560559975325" />
       </scope>
       <scope id="4900677560559975325" at="86,0,124,0" />
-      <unit id="4900677560559975325" at="207,0,210,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_EditorBuilder_a$PROPS" />
-      <unit id="4900677560559975325" at="196,0,200,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_EditorBuilder_a$LINKS" />
-      <unit id="4900677560559975325" at="201,0,206,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_EditorBuilder_a$CONCEPTS" />
-      <unit id="4900677560559975325" at="88,42,96,5" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_EditorBuilder_a$1" />
-      <unit id="1140223082034" at="124,0,170,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_EditorBuilder_a$Inline_Builder0" />
-      <unit id="4900677560559975325" at="40,0,211,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_EditorBuilder_a" />
+      <unit id="4900677560559975325" at="207,0,210,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_EditorBuilder$PROPS" />
+      <unit id="4900677560559975325" at="196,0,200,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_EditorBuilder$LINKS" />
+      <unit id="4900677560559975325" at="201,0,206,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_EditorBuilder$CONCEPTS" />
+      <unit id="4900677560559975325" at="88,42,96,5" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_EditorBuilder$1" />
+      <unit id="1140223082034" at="124,0,170,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_EditorBuilder$Inline_Builder0" />
+      <unit id="4900677560559975325" at="40,0,211,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_EditorBuilder" />
     </file>
-    <file name="CellModel_Checkbox_InspectorBuilder_a.java">
-      <node id="4900677560559975325" at="48,101,49,19" concept="10" />
+    <file name="CellModel_Checkbox_InspectorBuilder.java">
+      <node id="4900677560559975325" at="48,99,49,19" concept="10" />
       <node id="4900677560559975325" at="49,19,50,18" concept="1" />
       <node id="4900677560559975325" at="55,26,56,18" concept="6" />
       <node id="4900677560559975325" at="59,39,60,32" concept="6" />
@@ -379,15 +379,15 @@
       <node id="4900677560559975325" at="79,49,80,40" concept="1" />
       <node id="2320610800095756697" at="80,40,81,49" concept="1" />
       <node id="2320610800095791356" at="81,49,82,49" concept="1" />
-      <node id="5474165673716255765" at="83,38,84,64" concept="1" />
+      <node id="5474165673716255765" at="83,27,84,64" concept="1" />
       <node id="8659612544248055280" at="85,5,86,57" concept="1" />
       <node id="2320610800105015508" at="86,57,87,49" concept="1" />
       <node id="2320610800105000981" at="87,49,88,49" concept="1" />
       <node id="2320610800103705583" at="88,49,89,49" concept="1" />
-      <node id="5474165673716697757" at="90,38,91,64" concept="1" />
+      <node id="5474165673716697757" at="90,27,91,64" concept="1" />
       <node id="4900677560559975325" at="92,5,93,22" concept="6" />
-      <node id="5474165673716263148" at="95,47,96,194" concept="6" />
-      <node id="5474165673716697771" at="98,47,99,184" concept="6" />
+      <node id="5474165673716263148" at="95,36,96,194" concept="6" />
+      <node id="5474165673716697771" at="98,36,99,184" concept="6" />
       <node id="2320610800095756697" at="101,41,102,103" concept="5" />
       <node id="2320610800095756697" at="102,103,103,46" concept="1" />
       <node id="2320610800095756697" at="103,46,104,34" concept="1" />
@@ -462,15 +462,15 @@
       <node id="4900677560559975325" at="210,49,211,40" concept="1" />
       <node id="2320610800095756710" at="211,40,212,49" concept="1" />
       <node id="2320610800095794760" at="212,49,213,49" concept="1" />
-      <node id="5474165673716341178" at="214,38,215,64" concept="1" />
+      <node id="5474165673716341178" at="214,27,215,64" concept="1" />
       <node id="8659612544248072925" at="216,5,217,57" concept="1" />
       <node id="2320610800105022610" at="217,57,218,49" concept="1" />
       <node id="2320610800105008081" at="218,49,219,49" concept="1" />
       <node id="2320610800103712654" at="219,49,220,49" concept="1" />
-      <node id="5474165673716732891" at="221,38,222,64" concept="1" />
+      <node id="5474165673716732891" at="221,27,222,64" concept="1" />
       <node id="4900677560559975325" at="223,5,224,22" concept="6" />
-      <node id="5474165673716341192" at="226,47,227,196" concept="6" />
-      <node id="5474165673716732905" at="229,47,230,186" concept="6" />
+      <node id="5474165673716341192" at="226,36,227,196" concept="6" />
+      <node id="5474165673716732905" at="229,36,230,186" concept="6" />
       <node id="2320610800095756710" at="232,41,233,104" concept="5" />
       <node id="2320610800095756710" at="233,104,234,46" concept="1" />
       <node id="2320610800095756710" at="234,46,235,34" concept="1" />
@@ -555,21 +555,21 @@
       <node id="4900677560559975325" at="59,0,62,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5474165673716255765" at="82,49,85,5" concept="3" />
       <node id="5474165673716697757" at="89,49,92,5" concept="3" />
-      <node id="5474165673716261723" at="95,0,98,0" concept="4" trace="nodeCondition_47umt4_a2a0#()Z" />
-      <node id="5474165673716697769" at="98,0,101,0" concept="4" trace="nodeCondition_47umt4_a7a0#()Z" />
+      <node id="5474165673716261723" at="95,0,98,0" concept="4" trace="nodeCondition0#()Z" />
+      <node id="5474165673716697769" at="98,0,101,0" concept="4" trace="nodeCondition1#()Z" />
       <node id="5474165673716255765" at="130,0,133,0" concept="4" trace="getText#()Ljava/lang/String;" />
       <node id="8659612544248055282" at="154,0,157,0" concept="4" trace="_QueryFunction_JComponent_47umt4_a3a0#()Ljavax/swing/JComponent;" />
       <node id="5474165673716697757" at="192,0,195,0" concept="4" trace="getText#()Ljava/lang/String;" />
       <node id="5474165673716341178" at="213,49,216,5" concept="3" />
       <node id="5474165673716732891" at="220,49,223,5" concept="3" />
-      <node id="5474165673716341190" at="226,0,229,0" concept="4" trace="nodeCondition_47umt4_a2b0#()Z" />
-      <node id="5474165673716732903" at="229,0,232,0" concept="4" trace="nodeCondition_47umt4_a7b0#()Z" />
+      <node id="5474165673716341190" at="226,0,229,0" concept="4" trace="nodeCondition2#()Z" />
+      <node id="5474165673716732903" at="229,0,232,0" concept="4" trace="nodeCondition3#()Z" />
       <node id="5474165673716341178" at="261,0,264,0" concept="4" trace="getText#()Ljava/lang/String;" />
       <node id="8659612544248072927" at="285,0,288,0" concept="4" trace="_QueryFunction_JComponent_47umt4_a3b0#()Ljavax/swing/JComponent;" />
       <node id="5474165673716732891" at="323,0,326,0" concept="4" trace="getText#()Ljava/lang/String;" />
       <node id="5474165673716406310" at="347,0,350,0" concept="9" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
       <node id="5474165673716273251" at="350,0,353,0" concept="9" trace="isEmptyString#(Ljava/lang/String;)Z" />
-      <node id="4900677560559975325" at="48,0,52,0" concept="0" trace="CellModel_Checkbox_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4900677560559975325" at="48,0,52,0" concept="0" trace="CellModel_Checkbox_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="416014060004401685" at="343,0,347,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4900677560559975325" at="53,0,58,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2320610800095791356" at="118,208,123,24" concept="3" />
@@ -608,19 +608,19 @@
       <node id="2320610800103712654" at="300,0,321,0" concept="4" trace="createProperty_3#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="4900677560559975325" at="55,26,56,18" />
       <scope id="4900677560559975325" at="59,39,60,32" />
-      <scope id="5474165673716255765" at="83,38,84,64" />
-      <scope id="5474165673716697757" at="90,38,91,64" />
-      <scope id="5474165673716261724" at="95,47,96,194" />
-      <scope id="5474165673716697770" at="98,47,99,184" />
+      <scope id="5474165673716255765" at="83,27,84,64" />
+      <scope id="5474165673716697757" at="90,27,91,64" />
+      <scope id="5474165673716261724" at="95,36,96,194" />
+      <scope id="5474165673716697770" at="98,36,99,184" />
       <scope id="2320610800095791356" at="124,15,125,40" />
       <scope id="5474165673716255771" at="130,31,131,111" />
       <scope id="8659612544248055284" at="154,62,155,105" />
       <scope id="2320610800103705583" at="186,15,187,40" />
       <scope id="5474165673716697760" at="192,31,193,112" />
-      <scope id="5474165673716341178" at="214,38,215,64" />
-      <scope id="5474165673716732891" at="221,38,222,64" />
-      <scope id="5474165673716341191" at="226,47,227,196" />
-      <scope id="5474165673716732904" at="229,47,230,186" />
+      <scope id="5474165673716341178" at="214,27,215,64" />
+      <scope id="5474165673716732891" at="221,27,222,64" />
+      <scope id="5474165673716341191" at="226,36,227,196" />
+      <scope id="5474165673716732904" at="229,36,230,186" />
       <scope id="2320610800095794760" at="255,15,256,40" />
       <scope id="5474165673716341181" at="261,31,262,112" />
       <scope id="8659612544248072929" at="285,62,286,106" />
@@ -628,7 +628,7 @@
       <scope id="5474165673716732894" at="323,31,324,113" />
       <scope id="5474165673716406310" at="347,55,348,43" />
       <scope id="5474165673716273251" at="350,52,351,40" />
-      <scope id="4900677560559975325" at="48,101,50,18" />
+      <scope id="4900677560559975325" at="48,99,50,18" />
       <scope id="2320610800095791356" at="119,74,121,145">
         <var name="manager" id="2320610800095791356" />
       </scope>
@@ -779,13 +779,13 @@
       <scope id="2320610800103705583" at="169,0,190,0" />
       <scope id="2320610800095794760" at="238,0,259,0" />
       <scope id="2320610800103712654" at="300,0,321,0" />
-      <unit id="4900677560559975325" at="361,0,364,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder_a$CONCEPTS" />
-      <unit id="5474165673716255765" at="129,88,133,5" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder_a$1" />
-      <unit id="5474165673716697757" at="191,88,195,5" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder_a$2" />
-      <unit id="5474165673716341178" at="260,88,264,5" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder_a$3" />
-      <unit id="5474165673716732891" at="322,88,326,5" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder_a$4" />
-      <unit id="4900677560559975325" at="354,0,360,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder_a$PROPS" />
-      <unit id="4900677560559975325" at="44,0,365,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder_a" />
+      <unit id="4900677560559975325" at="361,0,364,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder$CONCEPTS" />
+      <unit id="5474165673716255765" at="129,88,133,5" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder$1" />
+      <unit id="5474165673716697757" at="191,88,195,5" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder$2" />
+      <unit id="5474165673716341178" at="260,88,264,5" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder$3" />
+      <unit id="5474165673716732891" at="322,88,326,5" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder$4" />
+      <unit id="4900677560559975325" at="354,0,360,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder$PROPS" />
+      <unit id="4900677560559975325" at="44,0,365,0" name="de.itemis.mps.editor.bool.editor.CellModel_Checkbox_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:8b4aef96-deea-4694-b06b-6302db4df73d(de.itemis.mps.editor.bool.editor)/4950383594641831953">
@@ -808,17 +808,17 @@
   </root>
   <root nodeRef="r:8b4aef96-deea-4694-b06b-6302db4df73d(de.itemis.mps.editor.bool.editor)/5474165673714469060">
     <file name="CheckboxDefaultIcons_Editor.java">
-      <node id="5474165673714469060" at="11,79,12,86" concept="6" />
+      <node id="5474165673714469060" at="11,79,12,84" concept="6" />
       <node id="5474165673714469060" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5474165673714469060" at="11,79,12,86" />
+      <scope id="5474165673714469060" at="11,79,12,84" />
       <scope id="5474165673714469060" at="11,0,14,0">
         <var name="editorContext" id="5474165673714469060" />
         <var name="node" id="5474165673714469060" />
       </scope>
       <unit id="5474165673714469060" at="10,0,15,0" name="de.itemis.mps.editor.bool.editor.CheckboxDefaultIcons_Editor" />
     </file>
-    <file name="CheckboxDefaultIcons_EditorBuilder_a.java">
-      <node id="5474165673714469060" at="42,100,43,19" concept="10" />
+    <file name="CheckboxDefaultIcons_EditorBuilder.java">
+      <node id="5474165673714469060" at="42,98,43,19" concept="10" />
       <node id="5474165673714469060" at="43,19,44,18" concept="1" />
       <node id="5474165673714469060" at="49,26,50,18" concept="6" />
       <node id="5474165673714469060" at="53,39,54,32" concept="6" />
@@ -971,7 +971,7 @@
       <node id="5474165673714469060" at="53,0,56,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8659612544248076700" at="138,0,141,0" concept="4" trace="_QueryFunction_JComponent_b1pjc8_a2a2a#()Ljavax/swing/JComponent;" />
       <node id="8659612544248077879" at="225,0,228,0" concept="4" trace="_QueryFunction_JComponent_b1pjc8_a2b2a#()Ljavax/swing/JComponent;" />
-      <node id="5474165673714469060" at="42,0,46,0" concept="0" trace="CheckboxDefaultIcons_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5474165673714469060" at="42,0,46,0" concept="0" trace="CheckboxDefaultIcons_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5474165673714469060" at="47,0,52,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5474165673714736015" at="118,208,123,24" concept="3" />
       <node id="5474165673714469060" at="129,53,134,7" concept="5" />
@@ -1009,7 +1009,7 @@
       <scope id="5474165673714736031" at="211,15,212,40" />
       <scope id="8659612544248077881" at="225,63,226,106" />
       <scope id="5474165673714736043" at="257,15,258,40" />
-      <scope id="5474165673714469060" at="42,100,44,18" />
+      <scope id="5474165673714469060" at="42,98,44,18" />
       <scope id="5474165673714736015" at="119,74,121,145">
         <var name="manager" id="5474165673714736015" />
       </scope>
@@ -1130,19 +1130,19 @@
       <scope id="5474165673714736027" at="153,0,174,0" />
       <scope id="5474165673714736031" at="194,0,215,0" />
       <scope id="5474165673714736043" at="240,0,261,0" />
-      <unit id="5474165673714469060" at="269,0,272,0" name="de.itemis.mps.editor.bool.editor.CheckboxDefaultIcons_EditorBuilder_a$CONCEPTS" />
-      <unit id="5474165673714469060" at="262,0,268,0" name="de.itemis.mps.editor.bool.editor.CheckboxDefaultIcons_EditorBuilder_a$PROPS" />
-      <unit id="5474165673714469060" at="38,0,273,0" name="de.itemis.mps.editor.bool.editor.CheckboxDefaultIcons_EditorBuilder_a" />
+      <unit id="5474165673714469060" at="269,0,272,0" name="de.itemis.mps.editor.bool.editor.CheckboxDefaultIcons_EditorBuilder$CONCEPTS" />
+      <unit id="5474165673714469060" at="262,0,268,0" name="de.itemis.mps.editor.bool.editor.CheckboxDefaultIcons_EditorBuilder$PROPS" />
+      <unit id="5474165673714469060" at="38,0,273,0" name="de.itemis.mps.editor.bool.editor.CheckboxDefaultIcons_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:8b4aef96-deea-4694-b06b-6302db4df73d(de.itemis.mps.editor.bool.editor)/7122083600695867727">
     <file name="CellModel_BooleanText_Editor.java">
-      <node id="7122083600695867727" at="11,79,12,87" concept="6" />
-      <node id="7122083600695867727" at="14,82,15,90" concept="6" />
+      <node id="7122083600695867727" at="11,79,12,85" concept="6" />
+      <node id="7122083600695867727" at="14,82,15,88" concept="6" />
       <node id="7122083600695867727" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7122083600695867727" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7122083600695867727" at="11,79,12,87" />
-      <scope id="7122083600695867727" at="14,82,15,90" />
+      <scope id="7122083600695867727" at="11,79,12,85" />
+      <scope id="7122083600695867727" at="14,82,15,88" />
       <scope id="7122083600695867727" at="11,0,14,0">
         <var name="editorContext" id="7122083600695867727" />
         <var name="node" id="7122083600695867727" />
@@ -1153,8 +1153,8 @@
       </scope>
       <unit id="7122083600695867727" at="10,0,18,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_Editor" />
     </file>
-    <file name="CellModel_BooleanText_EditorBuilder_a.java">
-      <node id="7122083600695867727" at="44,101,45,19" concept="10" />
+    <file name="CellModel_BooleanText_EditorBuilder.java">
+      <node id="7122083600695867727" at="44,99,45,19" concept="10" />
       <node id="7122083600695867727" at="45,19,46,18" concept="1" />
       <node id="7122083600695867727" at="51,26,52,18" concept="6" />
       <node id="7122083600695867727" at="55,39,56,32" concept="6" />
@@ -1252,7 +1252,7 @@
       <node id="7122083600695868008" at="177,0,180,0" concept="4" trace="_StyleParameter_QueryFunction_s2qn87_a3c0#()I" />
       <node id="7122083600695868015" at="180,0,183,0" concept="4" trace="_StyleParameter_QueryFunction_s2qn87_a4c0#()Z" />
       <node id="7122083600695868022" at="183,0,186,0" concept="4" trace="_StyleParameter_QueryFunction_s2qn87_a5c0#()Z" />
-      <node id="7122083600695867727" at="44,0,48,0" concept="0" trace="CellModel_BooleanText_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7122083600695867727" at="44,0,48,0" concept="0" trace="CellModel_BooleanText_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7122083600695867980" at="80,0,84,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7122083600695867727" at="99,0,103,5" concept="3" />
       <node id="7122083600695868028" at="186,0,190,0" concept="4" trace="createComponent_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1279,7 +1279,7 @@
       <scope id="7122083600695868009" at="177,59,178,94" />
       <scope id="7122083600695868016" at="180,63,181,98" />
       <scope id="7122083600695868023" at="183,63,184,97" />
-      <scope id="7122083600695867727" at="44,101,46,18" />
+      <scope id="7122083600695867727" at="44,99,46,18" />
       <scope id="7122083600695867980" at="80,42,82,22">
         <var name="editorCell" id="7122083600695867980" />
       </scope>
@@ -1348,15 +1348,15 @@
         <var name="style" id="7122083600695867727" />
       </scope>
       <scope id="7122083600695867727" at="84,0,122,0" />
-      <unit id="7122083600695867727" at="202,0,205,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_EditorBuilder_a$PROPS" />
-      <unit id="7122083600695867727" at="191,0,195,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_EditorBuilder_a$LINKS" />
-      <unit id="7122083600695867727" at="196,0,201,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_EditorBuilder_a$CONCEPTS" />
-      <unit id="7122083600695867727" at="86,42,94,5" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_EditorBuilder_a$1" />
-      <unit id="7122083600695867983" at="122,0,168,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_EditorBuilder_a$Inline_Builder0" />
-      <unit id="7122083600695867727" at="40,0,206,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_EditorBuilder_a" />
+      <unit id="7122083600695867727" at="202,0,205,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_EditorBuilder$PROPS" />
+      <unit id="7122083600695867727" at="191,0,195,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_EditorBuilder$LINKS" />
+      <unit id="7122083600695867727" at="196,0,201,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_EditorBuilder$CONCEPTS" />
+      <unit id="7122083600695867727" at="86,42,94,5" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_EditorBuilder$1" />
+      <unit id="7122083600695867983" at="122,0,168,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_EditorBuilder$Inline_Builder0" />
+      <unit id="7122083600695867727" at="40,0,206,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_EditorBuilder" />
     </file>
-    <file name="CellModel_BooleanText_InspectorBuilder_a.java">
-      <node id="7122083600695867727" at="46,104,47,19" concept="10" />
+    <file name="CellModel_BooleanText_InspectorBuilder.java">
+      <node id="7122083600695867727" at="46,102,47,19" concept="10" />
       <node id="7122083600695867727" at="47,19,48,18" concept="1" />
       <node id="7122083600695867727" at="53,26,54,18" concept="6" />
       <node id="7122083600695867727" at="57,39,58,32" concept="6" />
@@ -1460,12 +1460,12 @@
       <node id="7122083600695867727" at="192,49,193,40" concept="1" />
       <node id="7122083600695867727" at="193,40,194,35" concept="1" />
       <node id="1080757525341" at="194,35,195,51" concept="1" />
-      <node id="1082641826609" at="196,39,197,53" concept="1" />
-      <node id="1214560560907" at="199,39,200,53" concept="1" />
+      <node id="1082641826609" at="196,27,197,53" concept="1" />
+      <node id="1214560560907" at="199,27,200,53" concept="1" />
       <node id="1214477517063" at="201,5,202,51" concept="1" />
       <node id="7122083600695867727" at="202,51,203,22" concept="6" />
-      <node id="1214930403386" at="205,48,206,83" concept="6" />
-      <node id="1214560560917" at="208,48,209,82" concept="6" />
+      <node id="1214930403386" at="205,36,206,83" concept="6" />
+      <node id="1214560560917" at="208,36,209,82" concept="6" />
       <node id="7122083600695867727" at="211,43,212,122" concept="5" />
       <node id="7122083600695867727" at="212,122,213,48" concept="1" />
       <node id="7122083600695867727" at="213,48,214,34" concept="5" />
@@ -1650,10 +1650,10 @@
       <node id="7122083600695867727" at="57,0,60,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1082641826609" at="195,51,198,5" concept="3" />
       <node id="1214560560907" at="198,5,201,5" concept="3" />
-      <node id="1214930378301" at="205,0,208,0" concept="4" trace="nodeCondition_s2qn87_a1d3a#()Z" />
-      <node id="1214560560915" at="208,0,211,0" concept="4" trace="nodeCondition_s2qn87_a2d3a#()Z" />
+      <node id="1214930378301" at="205,0,208,0" concept="4" trace="nodeCondition0#()Z" />
+      <node id="1214560560915" at="208,0,211,0" concept="4" trace="nodeCondition1#()Z" />
       <node id="1140223255595" at="274,0,277,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="7122083600695867727" at="46,0,50,0" concept="0" trace="CellModel_BooleanText_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7122083600695867727" at="46,0,50,0" concept="0" trace="CellModel_BooleanText_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1214480562374" at="165,0,169,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7122083600695867727" at="246,0,250,5" concept="3" />
       <node id="7122083600695867727" at="51,0,56,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -1704,17 +1704,17 @@
       <scope id="7122083600695867727" at="57,39,58,32" />
       <scope id="7122083600697042767" at="106,15,107,40" />
       <scope id="7122083600697049634" at="143,15,144,40" />
-      <scope id="1082641826609" at="196,39,197,53" />
-      <scope id="1214560560907" at="199,39,200,53" />
-      <scope id="1214930378302" at="205,48,206,83" />
-      <scope id="1214560560916" at="208,48,209,82" />
+      <scope id="1082641826609" at="196,27,197,53" />
+      <scope id="1214560560907" at="199,27,200,53" />
+      <scope id="1214930378302" at="205,36,206,83" />
+      <scope id="1214560560916" at="208,36,209,82" />
       <scope id="1140223255595" at="274,41,275,32" />
       <scope id="1140223255595" at="280,28,281,20" />
       <scope id="1140223255596" at="304,17,305,42" />
       <scope id="1082641826611" at="351,15,352,40" />
       <scope id="1214560560909" at="397,15,398,40" />
       <scope id="1214477517067" at="441,15,442,40" />
-      <scope id="7122083600695867727" at="46,104,48,18" />
+      <scope id="7122083600695867727" at="46,102,48,18" />
       <scope id="7122083600697042767" at="101,74,103,145">
         <var name="manager" id="7122083600697042767" />
       </scope>
@@ -1914,12 +1914,12 @@
         <var name="style" id="7122083600695867727" />
       </scope>
       <scope id="7122083600695867727" at="231,0,263,0" />
-      <unit id="7122083600695867727" at="467,0,471,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_InspectorBuilder_a$LINKS" />
-      <unit id="7122083600695867727" at="461,0,466,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_InspectorBuilder_a$CONCEPTS" />
-      <unit id="7122083600695867727" at="233,42,241,5" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_InspectorBuilder_a$1" />
-      <unit id="7122083600695867727" at="452,0,460,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_InspectorBuilder_a$PROPS" />
-      <unit id="1140223255595" at="263,0,309,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_InspectorBuilder_a$Inline_Builder0" />
-      <unit id="7122083600695867727" at="42,0,472,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_InspectorBuilder_a" />
+      <unit id="7122083600695867727" at="467,0,471,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_InspectorBuilder$LINKS" />
+      <unit id="7122083600695867727" at="461,0,466,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_InspectorBuilder$CONCEPTS" />
+      <unit id="7122083600695867727" at="233,42,241,5" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_InspectorBuilder$1" />
+      <unit id="7122083600695867727" at="452,0,460,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_InspectorBuilder$PROPS" />
+      <unit id="1140223255595" at="263,0,309,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_InspectorBuilder$Inline_Builder0" />
+      <unit id="7122083600695867727" at="42,0,472,0" name="de.itemis.mps.editor.bool.editor.CellModel_BooleanText_InspectorBuilder" />
     </file>
   </root>
 </debug-info>

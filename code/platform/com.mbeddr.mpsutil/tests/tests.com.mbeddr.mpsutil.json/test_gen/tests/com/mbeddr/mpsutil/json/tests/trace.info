@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:69b7dd01-22f9-4aaa-a78b-e251e7d1ae4e(tests.com.mbeddr.mpsutil.json.tests@tests)/3164180844137353899">
+    <file name="GenerationTest_Test.java">
+      <node id="3164180844137353899" at="36,32,37,60" concept="11" />
+      <node id="3164180844137358192" at="41,57,42,48" concept="2" />
+      <node id="3164180844137353899" at="47,52,48,19" concept="11" />
+      <node id="3164180844137353899" at="52,36,53,46" concept="2" />
+      <node id="3164180844137358192" at="56,59,57,22" concept="2" />
+      <node id="3164180844137358232" at="58,30,59,770" concept="5" />
+      <node id="3164180844145880304" at="59,770,60,53" concept="2" />
+      <node id="3164180844137358556" at="60,53,61,65" concept="5" />
+      <node id="3164180844137359213" at="62,9,63,79" concept="5" />
+      <node id="3164180844137359213" at="63,79,64,55" concept="5" />
+      <node id="3164180844137359213" at="65,183,66,70" concept="5" />
+      <node id="3164180844137359213" at="66,70,67,43" concept="2" />
+      <node id="3164180844137359213" at="67,43,68,46" concept="2" />
+      <node id="3164180844137359213" at="68,46,69,36" concept="2" />
+      <node id="3164180844137359213" at="69,36,70,79" concept="2" />
+      <node id="3164180844137359213" at="70,79,71,148" concept="2" />
+      <node id="3164180844137359213" at="71,148,72,154" concept="2" />
+      <node id="3164180844137359213" at="72,154,73,27" concept="6" />
+      <node id="3164180844137359213" at="77,15,78,136" concept="5" />
+      <node id="3164180844137359213" at="78,136,79,197" concept="5" />
+      <node id="3164180844137359213" at="79,197,80,134" concept="2" />
+      <node id="3164180844137359213" at="82,13,83,71" concept="2" />
+      <node id="3164180844144805953" at="85,9,86,84" concept="2" />
+      <node id="3164180844137353899" at="33,0,35,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="3164180844137353899" at="36,0,39,0" concept="1" trace="GenerationTest_Test#()V" />
+      <node id="3164180844137353899" at="47,0,50,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3164180844137358192" at="40,0,44,0" concept="4" trace="test_importAndGenerate#()V" />
+      <node id="3164180844137353899" at="51,0,55,0" concept="4" trace="initTestNodes#()V" />
+      <node id="3164180844137359213" at="76,81,81,15" concept="0" />
+      <node id="3164180844137359213" at="75,47,82,13" concept="3" />
+      <node id="3164180844137359213" at="64,55,74,23" concept="5" />
+      <node id="3164180844137359213" at="74,23,84,11" concept="3" />
+      <node id="3164180844137359213" at="61,65,85,9" concept="0" />
+      <node id="3164180844137358192" at="57,22,87,9" concept="2" />
+      <node id="3164180844137358192" at="56,0,89,0" concept="4" trace="test_importAndGenerate#()V" />
+      <scope id="3164180844137353899" at="36,32,37,60" />
+      <scope id="3164180844137358192" at="41,57,42,48" />
+      <scope id="3164180844137353899" at="47,52,48,19" />
+      <scope id="3164180844137353899" at="52,36,53,46" />
+      <scope id="3164180844137353899" at="36,0,39,0" />
+      <scope id="3164180844137353899" at="47,0,50,0">
+        <var name="owner" id="3164180844137353899" />
+      </scope>
+      <scope id="3164180844137359213" at="77,15,80,134">
+        <var name="input_d0a0b0f6" id="3164180844137359213" />
+        <var name="repository" id="3164180844137359213" />
+      </scope>
+      <scope id="3164180844137358192" at="40,0,44,0" />
+      <scope id="3164180844137353899" at="51,0,55,0" />
+      <scope id="3164180844137359213" at="76,81,81,15" />
+      <scope id="3164180844137359213" at="65,183,73,27">
+        <var name="options" id="3164180844137359213" />
+      </scope>
+      <scope id="3164180844137359213" at="75,47,83,71" />
+      <scope id="3164180844137359213" at="62,9,84,11">
+        <var name="actualNode_d0a0b0f6" id="3164180844137359213" />
+        <var name="expectedNode_d0a0b0f6" id="3164180844137359213" />
+        <var name="result_d0a0b0f6" id="3164180844137359213" />
+      </scope>
+      <scope id="3164180844137358192" at="58,30,86,84">
+        <var name="expected" id="3164180844137358235" />
+        <var name="parsedNode" id="3164180844137358557" />
+      </scope>
+      <scope id="3164180844137358192" at="56,59,87,9" />
+      <scope id="3164180844137358192" at="56,0,89,0" />
+      <unit id="3164180844137353899" at="45,0,91,0" name="tests.com.mbeddr.mpsutil.json.tests.GenerationTest_Test$TestBody" />
+      <unit id="3164180844137353899" at="31,0,92,0" name="tests.com.mbeddr.mpsutil.json.tests.GenerationTest_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:69b7dd01-22f9-4aaa-a78b-e251e7d1ae4e(tests.com.mbeddr.mpsutil.json.tests@tests)/3164180844151139352">
+    <file name="DontQuoteFieldNamesExtension_Test.java">
+      <node id="3164180844151139352" at="23,46,24,60" concept="11" />
+      <node id="3164180844151139397" at="28,45,29,36" concept="2" />
+      <node id="3164180844151649652" at="32,49,33,40" concept="2" />
+      <node id="3164180844151139352" at="42,52,43,19" concept="11" />
+      <node id="3164180844151139352" at="47,36,48,46" concept="2" />
+      <node id="3164180844151139397" at="51,47,52,22" concept="2" />
+      <node id="3164180844151139397" at="52,22,53,144" concept="2" />
+      <node id="3164180844151649652" at="55,51,56,22" concept="2" />
+      <node id="3164180844151679797" at="57,30,58,57" concept="2" />
+      <node id="3164180844152857599" at="58,57,59,84" concept="5" />
+      <node id="3164180844151689411" at="59,84,60,42" concept="2" />
+      <node id="3164180844151649655" at="60,42,61,65" concept="2" />
+      <node id="3164180844151139352" at="20,0,22,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="3164180844151139352" at="23,0,26,0" concept="1" trace="DontQuoteFieldNamesExtension_Test#()V" />
+      <node id="3164180844151139352" at="36,0,39,0" concept="10" trace="beforeTests#()V" />
+      <node id="3164180844151139352" at="42,0,45,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3164180844151139397" at="27,0,31,0" concept="4" trace="test_Quote#()V" />
+      <node id="3164180844151649652" at="31,0,35,0" concept="4" trace="test_DontQuote#()V" />
+      <node id="3164180844151139352" at="46,0,50,0" concept="4" trace="initTestNodes#()V" />
+      <node id="3164180844151139397" at="51,0,55,0" concept="4" trace="test_Quote#()V" />
+      <node id="3164180844151649652" at="56,22,62,9" concept="2" />
+      <node id="3164180844151649652" at="55,0,64,0" concept="4" trace="test_DontQuote#()V" />
+      <scope id="3164180844151139352" at="37,36,37,36" />
+      <scope id="3164180844151139352" at="23,46,24,60" />
+      <scope id="3164180844151139397" at="28,45,29,36" />
+      <scope id="3164180844151649652" at="32,49,33,40" />
+      <scope id="3164180844151139352" at="42,52,43,19" />
+      <scope id="3164180844151139352" at="47,36,48,46" />
+      <scope id="3164180844151139397" at="51,47,53,144" />
+      <scope id="3164180844151139352" at="23,0,26,0" />
+      <scope id="3164180844151139352" at="36,0,39,0" />
+      <scope id="3164180844151139352" at="42,0,45,0">
+        <var name="owner" id="3164180844151139352" />
+      </scope>
+      <scope id="3164180844151139397" at="27,0,31,0" />
+      <scope id="3164180844151649652" at="31,0,35,0" />
+      <scope id="3164180844151139352" at="46,0,50,0" />
+      <scope id="3164180844151139397" at="51,0,55,0" />
+      <scope id="3164180844151649652" at="57,30,61,65">
+        <var name="output" id="3164180844152857600" />
+      </scope>
+      <scope id="3164180844151649652" at="55,51,62,9" />
+      <scope id="3164180844151649652" at="55,0,64,0" />
+      <unit id="3164180844151139352" at="40,0,66,0" name="tests.com.mbeddr.mpsutil.json.tests.DontQuoteFieldNamesExtension_Test$TestBody" />
+      <unit id="3164180844151139352" at="18,0,67,0" name="tests.com.mbeddr.mpsutil.json.tests.DontQuoteFieldNamesExtension_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:69b7dd01-22f9-4aaa-a78b-e251e7d1ae4e(tests.com.mbeddr.mpsutil.json.tests@tests)/8168031818839620518">
+    <file name="ImportJsonRegression_Test.java">
+      <node id="8168031818839620518" at="39,38,40,60" concept="11" />
+      <node id="8168031818839620649" at="44,56,45,47" concept="2" />
+      <node id="8168031818839830063" at="48,67,49,58" concept="2" />
+      <node id="3164180844150827808" at="53,36,54,63" concept="2" />
+      <node id="3164180844150982738" at="58,35,59,48" concept="2" />
+      <node id="8168031818839620518" at="64,52,65,19" concept="11" />
+      <node id="8168031818839620518" at="69,36,70,46" concept="2" />
+      <node id="8168031818839620649" at="73,58,74,22" concept="2" />
+      <node id="8168031818839758792" at="75,30,76,46" concept="7" />
+      <node id="3164180844150057352" at="76,46,77,0" concept="8" />
+      <node id="8168031818839620729" at="77,0,78,105" concept="5" />
+      <node id="8168031818839761272" at="78,105,79,28" concept="7" />
+      <node id="8168031818839647330" at="79,28,80,67" concept="5" />
+      <node id="8168031818839647865" at="81,9,82,86" concept="5" />
+      <node id="8168031818839647865" at="82,86,83,52" concept="5" />
+      <node id="8168031818839647865" at="84,186,85,70" concept="5" />
+      <node id="8168031818839647865" at="85,70,86,43" concept="2" />
+      <node id="8168031818839647865" at="86,43,87,46" concept="2" />
+      <node id="8168031818839647865" at="87,46,88,36" concept="2" />
+      <node id="8168031818839647865" at="88,36,89,79" concept="2" />
+      <node id="8168031818839647865" at="89,79,90,148" concept="2" />
+      <node id="8168031818839647865" at="90,148,91,154" concept="2" />
+      <node id="8168031818839647865" at="91,154,92,27" concept="6" />
+      <node id="8168031818839647865" at="96,15,97,136" concept="5" />
+      <node id="8168031818839647865" at="97,136,98,198" concept="5" />
+      <node id="8168031818839647865" at="98,198,99,138" concept="2" />
+      <node id="8168031818839647865" at="101,13,102,72" concept="2" />
+      <node id="8168031818839830063" at="107,69,108,22" concept="2" />
+      <node id="8168031818839830063" at="108,22,109,137" concept="2" />
+      <node id="8168031818839620518" at="36,0,38,0" concept="9" trace="ourParametersCacheExtension" />
+      <node id="8168031818839620518" at="39,0,42,0" concept="1" trace="ImportJsonRegression_Test#()V" />
+      <node id="8168031818839620518" at="64,0,67,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="8168031818839620649" at="43,0,47,0" concept="4" trace="test_importJsonAction#()V" />
+      <node id="8168031818839830063" at="47,0,51,0" concept="4" trace="test_customFileNameSuffixRemoval#()V" />
+      <node id="8168031818839620518" at="52,0,56,0" concept="10" trace="beforeTests#()V" />
+      <node id="8168031818839620518" at="57,0,61,0" concept="10" trace="afterTests#()V" />
+      <node id="8168031818839620518" at="68,0,72,0" concept="4" trace="initTestNodes#()V" />
+      <node id="8168031818839830063" at="107,0,111,0" concept="4" trace="test_customFileNameSuffixRemoval#()V" />
+      <node id="8168031818839647865" at="95,81,100,15" concept="0" />
+      <node id="8168031818839647865" at="94,48,101,13" concept="3" />
+      <node id="8168031818839647865" at="83,52,93,23" concept="5" />
+      <node id="8168031818839647865" at="93,23,103,11" concept="3" />
+      <node id="8168031818839647865" at="80,67,104,9" concept="0" />
+      <node id="8168031818839620649" at="74,22,105,9" concept="2" />
+      <node id="8168031818839620649" at="73,0,107,0" concept="4" trace="test_importJsonAction#()V" />
+      <scope id="8168031818839620518" at="39,38,40,60" />
+      <scope id="8168031818839620649" at="44,56,45,47" />
+      <scope id="8168031818839830063" at="48,67,49,58" />
+      <scope id="8168031818839620518" at="53,36,54,63" />
+      <scope id="8168031818839620518" at="58,35,59,48" />
+      <scope id="8168031818839620518" at="64,52,65,19" />
+      <scope id="8168031818839620518" at="69,36,70,46" />
+      <scope id="8168031818839830063" at="107,69,109,137" />
+      <scope id="8168031818839620518" at="39,0,42,0" />
+      <scope id="8168031818839620518" at="64,0,67,0">
+        <var name="owner" id="8168031818839620518" />
+      </scope>
+      <scope id="8168031818839647865" at="96,15,99,138">
+        <var name="input_f0a0b0f11" id="8168031818839647865" />
+        <var name="repository" id="8168031818839647865" />
+      </scope>
+      <scope id="8168031818839620649" at="43,0,47,0" />
+      <scope id="8168031818839830063" at="47,0,51,0" />
+      <scope id="8168031818839620518" at="52,0,56,0" />
+      <scope id="8168031818839620518" at="57,0,61,0" />
+      <scope id="8168031818839620518" at="68,0,72,0" />
+      <scope id="8168031818839830063" at="107,0,111,0" />
+      <scope id="8168031818839647865" at="95,81,100,15" />
+      <scope id="8168031818839647865" at="84,186,92,27">
+        <var name="options" id="8168031818839647865" />
+      </scope>
+      <scope id="8168031818839647865" at="94,48,102,72" />
+      <scope id="8168031818839647865" at="81,9,103,11">
+        <var name="actualNode_f0a0b0f11" id="8168031818839647865" />
+        <var name="expectedNode_f0a0b0f11" id="8168031818839647865" />
+        <var name="result_f0a0b0f11" id="8168031818839647865" />
+      </scope>
+      <scope id="8168031818839620649" at="75,30,104,9">
+        <var name="actual" id="8168031818839647331" />
+        <var name="expectedString" id="8168031818839620730" />
+      </scope>
+      <scope id="8168031818839620649" at="73,58,105,9" />
+      <scope id="8168031818839620649" at="73,0,107,0" />
+      <unit id="8168031818839620518" at="62,0,113,0" name="tests.com.mbeddr.mpsutil.json.tests.ImportJsonRegression_Test$TestBody" />
+      <unit id="8168031818839620518" at="34,0,114,0" name="tests.com.mbeddr.mpsutil.json.tests.ImportJsonRegression_Test" />
+    </file>
+  </root>
+</debug-info>
+

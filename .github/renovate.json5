@@ -82,6 +82,18 @@
     },
 
     {
+      // Disable EMF and Xtext updates for 2024.1. They need a newer Java than what 2024.1 runs on.
+      "matchPackageNames": ["org.eclipse.emf:*", "org.eclipse.xtext:*"],
+      "matchBaseBranches": ["maintenance/mps20241"],
+      "enabled": false
+    },
+
+    {
+      "matchPackageNames": ["net.sourceforge.plantuml:plantuml"],
+      "allowedVersions": "< 2000"
+    },
+
+    {
       "matchPackageNames": ["com.miglayout*"],
       "groupName": "miglayout"
     },

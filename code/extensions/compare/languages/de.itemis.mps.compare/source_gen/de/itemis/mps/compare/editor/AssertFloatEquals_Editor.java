@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class AssertFloatEquals_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new AssertFloatEquals_EditorBuilder_a(editorContext, node).createCell();
+    return new AssertFloatEquals_EditorBuilder(editorContext, node).createCell();
   }
 }

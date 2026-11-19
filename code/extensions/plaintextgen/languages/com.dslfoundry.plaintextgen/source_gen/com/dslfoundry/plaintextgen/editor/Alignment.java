@@ -16,6 +16,6 @@ public class Alignment implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Alignment_ComponentBuilder_a(editorContext, node).createCell();
+    return new Alignment_ComponentBuilder(editorContext, node).createCell();
   }
 }

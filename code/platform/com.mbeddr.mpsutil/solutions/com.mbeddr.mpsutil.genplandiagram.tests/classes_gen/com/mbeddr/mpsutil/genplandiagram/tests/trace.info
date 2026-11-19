@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:e2c08cb1-26ce-4ba6-9312-6e8b4005c172(com.mbeddr.mpsutil.genplandiagram.tests@tests)/3461070851566654898">
+    <file name="RenderDiagrams_Test.java">
+      <node id="3461070851566654898" at="40,32,41,60" concept="9" />
+      <node id="3461070851566659764" at="45,61,46,52" concept="2" />
+      <node id="3461070851567120011" at="49,61,50,52" concept="2" />
+      <node id="3461070851567146200" at="53,55,54,46" concept="2" />
+      <node id="3461070851570259868" at="57,56,58,47" concept="2" />
+      <node id="3461070851566654898" at="63,52,64,19" concept="9" />
+      <node id="3461070851566654898" at="68,36,69,299" concept="2" />
+      <node id="3461070851566659764" at="72,63,73,22" concept="2" />
+      <node id="3461070851566693206" at="74,30,75,40" concept="6" />
+      <node id="3461070851566695034" at="75,40,76,136" concept="2" />
+      <node id="3461070851566893741" at="76,136,77,198" concept="6" />
+      <node id="3461070851567012737" at="78,58,79,196" concept="6" />
+      <node id="3461070851567059715" at="79,196,80,59" concept="2" />
+      <node id="3461070851567017114" at="80,59,81,94" concept="2" />
+      <node id="3461070851567102627" at="83,9,84,92" concept="6" />
+      <node id="3461070851567102627" at="84,92,85,57" concept="6" />
+      <node id="3461070851567102627" at="86,183,87,70" concept="6" />
+      <node id="3461070851567102627" at="87,70,88,43" concept="2" />
+      <node id="3461070851567102627" at="88,43,89,46" concept="2" />
+      <node id="3461070851567102627" at="89,46,90,36" concept="2" />
+      <node id="3461070851567102627" at="90,36,91,79" concept="2" />
+      <node id="3461070851567102627" at="91,79,92,148" concept="2" />
+      <node id="3461070851567102627" at="92,148,93,154" concept="2" />
+      <node id="3461070851567102627" at="93,154,94,27" concept="7" />
+      <node id="3461070851567102627" at="98,15,99,136" concept="6" />
+      <node id="3461070851567102627" at="99,136,100,201" concept="6" />
+      <node id="3461070851567102627" at="100,201,101,134" concept="2" />
+      <node id="3461070851567102627" at="103,13,104,71" concept="2" />
+      <node id="3461070851567120011" at="109,63,110,22" concept="2" />
+      <node id="3461070851567120014" at="111,30,112,40" concept="6" />
+      <node id="3461070851567120019" at="112,40,113,136" concept="2" />
+      <node id="3461070851567120025" at="113,136,114,198" concept="6" />
+      <node id="3461070851567120040" at="115,58,116,196" concept="6" />
+      <node id="3461070851567120046" at="116,196,117,59" concept="2" />
+      <node id="3461070851567120050" at="117,59,118,94" concept="2" />
+      <node id="3461070851567120055" at="120,9,121,92" concept="6" />
+      <node id="3461070851567120055" at="121,92,122,57" concept="6" />
+      <node id="3461070851567120055" at="123,183,124,70" concept="6" />
+      <node id="3461070851567120055" at="124,70,125,43" concept="2" />
+      <node id="3461070851567120055" at="125,43,126,46" concept="2" />
+      <node id="3461070851567120055" at="126,46,127,36" concept="2" />
+      <node id="3461070851567120055" at="127,36,128,79" concept="2" />
+      <node id="3461070851567120055" at="128,79,129,148" concept="2" />
+      <node id="3461070851567120055" at="129,148,130,154" concept="2" />
+      <node id="3461070851567120055" at="130,154,131,27" concept="7" />
+      <node id="3461070851567120055" at="135,15,136,136" concept="6" />
+      <node id="3461070851567120055" at="136,136,137,201" concept="6" />
+      <node id="3461070851567120055" at="137,201,138,134" concept="2" />
+      <node id="3461070851567120055" at="140,13,141,71" concept="2" />
+      <node id="3461070851567146200" at="146,57,147,22" concept="2" />
+      <node id="3461070851567146203" at="148,30,149,40" concept="6" />
+      <node id="3461070851567146208" at="149,40,150,130" concept="2" />
+      <node id="3461070851567147914" at="150,130,151,68" concept="2" />
+      <node id="3461070851570259868" at="154,58,155,22" concept="2" />
+      <node id="3461070851570259871" at="156,30,157,40" concept="6" />
+      <node id="3461070851570259876" at="157,40,158,131" concept="2" />
+      <node id="3461070851570259882" at="158,131,159,152" concept="2" />
+      <node id="3461070851566654898" at="37,0,39,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="3461070851566654898" at="40,0,43,0" concept="1" trace="RenderDiagrams_Test#()V" />
+      <node id="3461070851566654898" at="63,0,66,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="3461070851566659764" at="44,0,48,0" concept="5" trace="test_visualizerTopToBottom#()V" />
+      <node id="3461070851567120011" at="48,0,52,0" concept="5" trace="test_visualizerLeftToRight#()V" />
+      <node id="3461070851567146200" at="52,0,56,0" concept="5" trace="test_visualizerEmpty#()V" />
+      <node id="3461070851570259868" at="56,0,60,0" concept="5" trace="test_visualizerCyclic#()V" />
+      <node id="3461070851566654898" at="67,0,71,0" concept="5" trace="initTestNodes#()V" />
+      <node id="3461070851566896172" at="77,198,82,9" concept="3" />
+      <node id="3461070851567102627" at="97,81,102,15" concept="0" />
+      <node id="3461070851567120031" at="114,198,119,9" concept="3" />
+      <node id="3461070851567120055" at="134,81,139,15" concept="0" />
+      <node id="3461070851567146200" at="147,22,152,9" concept="2" />
+      <node id="3461070851570259868" at="155,22,160,9" concept="2" />
+      <node id="3461070851567102627" at="96,47,103,13" concept="4" />
+      <node id="3461070851567120055" at="133,47,140,13" concept="4" />
+      <node id="3461070851567146200" at="146,0,154,0" concept="5" trace="test_visualizerEmpty#()V" />
+      <node id="3461070851570259868" at="154,0,162,0" concept="5" trace="test_visualizerCyclic#()V" />
+      <node id="3461070851567102627" at="85,57,95,23" concept="6" />
+      <node id="3461070851567102627" at="95,23,105,11" concept="4" />
+      <node id="3461070851567120055" at="122,57,132,23" concept="6" />
+      <node id="3461070851567120055" at="132,23,142,11" concept="4" />
+      <node id="3461070851567102627" at="82,9,106,9" concept="0" />
+      <node id="3461070851567120055" at="119,9,143,9" concept="0" />
+      <node id="3461070851566659764" at="73,22,107,9" concept="2" />
+      <node id="3461070851567120011" at="110,22,144,9" concept="2" />
+      <node id="3461070851566659764" at="72,0,109,0" concept="5" trace="test_visualizerTopToBottom#()V" />
+      <node id="3461070851567120011" at="109,0,146,0" concept="5" trace="test_visualizerLeftToRight#()V" />
+      <scope id="3461070851566654898" at="40,32,41,60" />
+      <scope id="3461070851566659764" at="45,61,46,52" />
+      <scope id="3461070851567120011" at="49,61,50,52" />
+      <scope id="3461070851567146200" at="53,55,54,46" />
+      <scope id="3461070851570259868" at="57,56,58,47" />
+      <scope id="3461070851566654898" at="63,52,64,19" />
+      <scope id="3461070851566654898" at="68,36,69,299" />
+      <scope id="3461070851566654898" at="40,0,43,0" />
+      <scope id="3461070851566654898" at="63,0,66,0">
+        <var name="owner" id="3461070851566654898" />
+      </scope>
+      <scope id="3461070851566896178" at="78,58,81,94">
+        <var name="textLine" id="3461070851567012740" />
+      </scope>
+      <scope id="3461070851567102627" at="98,15,101,134">
+        <var name="input_e0a0b0f9" id="3461070851567102627" />
+        <var name="repository" id="3461070851567102627" />
+      </scope>
+      <scope id="3461070851567120039" at="115,58,118,94">
+        <var name="textLine" id="3461070851567120041" />
+      </scope>
+      <scope id="3461070851567120055" at="135,15,138,134">
+        <var name="input_e0a0b0g9" id="3461070851567120055" />
+        <var name="repository" id="3461070851567120055" />
+      </scope>
+      <scope id="3461070851567146200" at="148,30,151,68">
+        <var name="graph" id="3461070851567146204" />
+      </scope>
+      <scope id="3461070851570259868" at="156,30,159,152">
+        <var name="graph" id="3461070851570259872" />
+      </scope>
+      <scope id="3461070851566659764" at="44,0,48,0" />
+      <scope id="3461070851567120011" at="48,0,52,0" />
+      <scope id="3461070851567146200" at="52,0,56,0" />
+      <scope id="3461070851570259868" at="56,0,60,0" />
+      <scope id="3461070851566654898" at="67,0,71,0" />
+      <scope id="3461070851566896172" at="77,198,82,9">
+        <var name="line" id="3461070851566896174" />
+      </scope>
+      <scope id="3461070851567102627" at="97,81,102,15" />
+      <scope id="3461070851567120031" at="114,198,119,9">
+        <var name="line" id="3461070851567120032" />
+      </scope>
+      <scope id="3461070851567120055" at="134,81,139,15" />
+      <scope id="3461070851567146200" at="146,57,152,9" />
+      <scope id="3461070851570259868" at="154,58,160,9" />
+      <scope id="3461070851567102627" at="86,183,94,27">
+        <var name="options" id="3461070851567102627" />
+      </scope>
+      <scope id="3461070851567102627" at="96,47,104,71" />
+      <scope id="3461070851567120055" at="123,183,131,27">
+        <var name="options" id="3461070851567120055" />
+      </scope>
+      <scope id="3461070851567120055" at="133,47,141,71" />
+      <scope id="3461070851567146200" at="146,0,154,0" />
+      <scope id="3461070851570259868" at="154,0,162,0" />
+      <scope id="3461070851567102627" at="83,9,105,11">
+        <var name="actualNode_e0a0b0f9" id="3461070851567102627" />
+        <var name="expectedNode_e0a0b0f9" id="3461070851567102627" />
+        <var name="result_e0a0b0f9" id="3461070851567102627" />
+      </scope>
+      <scope id="3461070851567120055" at="120,9,142,11">
+        <var name="actualNode_e0a0b0g9" id="3461070851567120055" />
+        <var name="expectedNode_e0a0b0g9" id="3461070851567120055" />
+        <var name="result_e0a0b0g9" id="3461070851567120055" />
+      </scope>
+      <scope id="3461070851566659764" at="74,30,106,9">
+        <var name="actualOutput" id="3461070851566893744" />
+        <var name="graph" id="3461070851566693207" />
+      </scope>
+      <scope id="3461070851567120011" at="111,30,143,9">
+        <var name="actualOutput" id="3461070851567120026" />
+        <var name="graph" id="3461070851567120015" />
+      </scope>
+      <scope id="3461070851566659764" at="72,63,107,9" />
+      <scope id="3461070851567120011" at="109,63,144,9" />
+      <scope id="3461070851566659764" at="72,0,109,0" />
+      <scope id="3461070851567120011" at="109,0,146,0" />
+      <unit id="3461070851566654898" at="61,0,164,0" name="com.mbeddr.mpsutil.genplandiagram.tests.RenderDiagrams_Test$TestBody" />
+      <unit id="3461070851566654898" at="35,0,165,0" name="com.mbeddr.mpsutil.genplandiagram.tests.RenderDiagrams_Test" />
+    </file>
+  </root>
+</debug-info>
+

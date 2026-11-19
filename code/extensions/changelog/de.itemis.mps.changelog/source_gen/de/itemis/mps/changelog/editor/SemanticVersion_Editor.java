@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class SemanticVersion_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SemanticVersion_EditorBuilder_a(editorContext, node).createCell();
+    return new SemanticVersion_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -16,6 +16,6 @@ public class Header implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Header_ComponentBuilder_a(editorContext, node).createCell();
+    return new Header_ComponentBuilder(editorContext, node).createCell();
   }
 }

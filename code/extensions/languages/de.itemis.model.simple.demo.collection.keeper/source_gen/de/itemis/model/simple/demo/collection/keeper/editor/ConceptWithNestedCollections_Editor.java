@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ConceptWithNestedCollections_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ConceptWithNestedCollections_EditorBuilder_a(editorContext, node).createCell();
+    return new ConceptWithNestedCollections_EditorBuilder(editorContext, node).createCell();
   }
 }

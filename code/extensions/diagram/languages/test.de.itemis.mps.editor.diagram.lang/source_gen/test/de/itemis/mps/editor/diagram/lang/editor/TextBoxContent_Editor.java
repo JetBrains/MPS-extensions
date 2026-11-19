@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TextBoxContent_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TextBoxContent_EditorBuilder_a(editorContext, node).createCell();
+    return new TextBoxContent_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class RandomTest_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new RandomTest_EditorBuilder_a(editorContext, node).createCell();
+    return new RandomTest_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new RandomTest_InspectorBuilder_a(editorContext, node).createCell();
+    return new RandomTest_InspectorBuilder(editorContext, node).createCell();
   }
 }

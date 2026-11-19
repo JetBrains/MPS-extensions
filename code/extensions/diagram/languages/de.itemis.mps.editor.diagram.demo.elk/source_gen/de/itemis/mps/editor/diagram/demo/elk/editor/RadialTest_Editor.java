@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class RadialTest_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new RadialTest_EditorBuilder_a(editorContext, node).createCell();
+    return new RadialTest_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new RadialTest_InspectorBuilder_a(editorContext, node).createCell();
+    return new RadialTest_InspectorBuilder(editorContext, node).createCell();
   }
 }

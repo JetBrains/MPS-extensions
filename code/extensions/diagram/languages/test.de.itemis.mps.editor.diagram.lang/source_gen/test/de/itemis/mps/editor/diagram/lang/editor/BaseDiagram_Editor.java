@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class BaseDiagram_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new BaseDiagram_EditorBuilder_a(editorContext, node).createCell();
+    return new BaseDiagram_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new BaseDiagram_InspectorBuilder_a(editorContext, node).createCell();
+    return new BaseDiagram_InspectorBuilder(editorContext, node).createCell();
   }
 }

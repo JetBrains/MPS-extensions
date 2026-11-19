@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class StressTest_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new StressTest_EditorBuilder_a(editorContext, node).createCell();
+    return new StressTest_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new StressTest_InspectorBuilder_a(editorContext, node).createCell();
+    return new StressTest_InspectorBuilder(editorContext, node).createCell();
   }
 }

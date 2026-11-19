@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class EntityDiagram_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new EntityDiagram_EditorBuilder_a(editorContext, node).createCell();
+    return new EntityDiagram_EditorBuilder(editorContext, node).createCell();
   }
 }

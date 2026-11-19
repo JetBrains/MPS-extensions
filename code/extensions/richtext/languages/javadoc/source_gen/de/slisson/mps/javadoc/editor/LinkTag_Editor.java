@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class LinkTag_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new LinkTag_EditorBuilder_a(editorContext, node).createCell();
+    return new LinkTag_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new LinkTag_InspectorBuilder_a(editorContext, node).createCell();
+    return new LinkTag_InspectorBuilder(editorContext, node).createCell();
   }
 }

@@ -19,17 +19,17 @@
   </root>
   <root nodeRef="r:5caac466-86de-494a-938e-3f9798f71064(de.itemis.mps.editor.enumeration.demolang.editor)/2135528801629920507">
     <file name="TestRoot_Editor.java">
-      <node id="2135528801629920507" at="11,79,12,74" concept="7" />
+      <node id="2135528801629920507" at="11,79,12,72" concept="7" />
       <node id="2135528801629920507" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2135528801629920507" at="11,79,12,74" />
+      <scope id="2135528801629920507" at="11,79,12,72" />
       <scope id="2135528801629920507" at="11,0,14,0">
         <var name="editorContext" id="2135528801629920507" />
         <var name="node" id="2135528801629920507" />
       </scope>
       <unit id="2135528801629920507" at="10,0,15,0" name="de.itemis.mps.editor.enumeration.demolang.editor.TestRoot_Editor" />
     </file>
-    <file name="TestRoot_EditorBuilder_a.java">
-      <node id="2135528801629920507" at="40,88,41,19" concept="10" />
+    <file name="TestRoot_EditorBuilder.java">
+      <node id="2135528801629920507" at="40,86,41,19" concept="10" />
       <node id="2135528801629920507" at="41,19,42,18" concept="2" />
       <node id="2135528801629920507" at="47,26,48,18" concept="7" />
       <node id="2135528801629920507" at="51,39,52,32" concept="7" />
@@ -106,7 +106,7 @@
       <node id="2135528801629920507" at="104,10,106,5" concept="0" />
       <node id="2135528801629920507" at="51,0,54,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2135528801629920507" at="108,0,111,0" concept="5" trace="createEnumCheckbox_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2135528801629920507" at="40,0,44,0" concept="1" trace="TestRoot_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2135528801629920507" at="40,0,44,0" concept="1" trace="TestRoot_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="809988832433191420" at="81,0,85,0" concept="5" trace="createIndentCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2135528801629920507" at="45,0,50,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2135528801629920507" at="101,57,106,5" concept="4" />
@@ -125,7 +125,7 @@
       <scope id="2135528801629920507" at="104,12,105,24" />
       <scope id="2135528801629920507" at="108,45,109,63" />
       <scope id="809988832433189791" at="144,15,145,40" />
-      <scope id="2135528801629920507" at="40,88,42,18" />
+      <scope id="2135528801629920507" at="40,86,42,18" />
       <scope id="809988832433191420" at="81,43,83,22">
         <var name="editorCell" id="809988832433191420" />
       </scope>
@@ -180,9 +180,9 @@
         <var name="editorContext" id="2135528801629920507" />
         <var name="node" id="2135528801629920507" />
       </scope>
-      <unit id="2135528801629920507" at="149,0,152,0" name="de.itemis.mps.editor.enumeration.demolang.editor.TestRoot_EditorBuilder_a$PROPS" />
-      <unit id="2135528801629920507" at="153,0,156,0" name="de.itemis.mps.editor.enumeration.demolang.editor.TestRoot_EditorBuilder_a$CONCEPTS" />
-      <unit id="2135528801629920507" at="36,0,157,0" name="de.itemis.mps.editor.enumeration.demolang.editor.TestRoot_EditorBuilder_a" />
+      <unit id="2135528801629920507" at="149,0,152,0" name="de.itemis.mps.editor.enumeration.demolang.editor.TestRoot_EditorBuilder$PROPS" />
+      <unit id="2135528801629920507" at="153,0,156,0" name="de.itemis.mps.editor.enumeration.demolang.editor.TestRoot_EditorBuilder$CONCEPTS" />
+      <unit id="2135528801629920507" at="36,0,157,0" name="de.itemis.mps.editor.enumeration.demolang.editor.TestRoot_EditorBuilder" />
     </file>
   </root>
 </debug-info>

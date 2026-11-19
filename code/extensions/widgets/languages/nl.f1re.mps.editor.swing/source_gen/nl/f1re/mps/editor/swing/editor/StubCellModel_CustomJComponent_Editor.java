@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class StubCellModel_CustomJComponent_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new StubCellModel_CustomJComponent_EditorBuilder_a(editorContext, node).createCell();
+    return new StubCellModel_CustomJComponent_EditorBuilder(editorContext, node).createCell();
   }
 }

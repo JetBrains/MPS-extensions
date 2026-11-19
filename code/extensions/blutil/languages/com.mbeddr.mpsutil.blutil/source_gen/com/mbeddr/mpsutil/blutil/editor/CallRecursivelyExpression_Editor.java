@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class CallRecursivelyExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new CallRecursivelyExpression_EditorBuilder_a(editorContext, node).createCell();
+    return new CallRecursivelyExpression_EditorBuilder(editorContext, node).createCell();
   }
 }

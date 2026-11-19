@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class PredefinedEdgeStyle_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new PredefinedEdgeStyle_EditorBuilder_a(editorContext, node).createCell();
+    return new PredefinedEdgeStyle_EditorBuilder(editorContext, node).createCell();
   }
 }

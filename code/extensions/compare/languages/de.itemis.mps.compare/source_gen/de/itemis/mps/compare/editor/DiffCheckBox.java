@@ -16,6 +16,6 @@ public class DiffCheckBox implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new DiffCheckBox_ComponentBuilder_a(editorContext, node).createCell();
+    return new DiffCheckBox_ComponentBuilder(editorContext, node).createCell();
   }
 }

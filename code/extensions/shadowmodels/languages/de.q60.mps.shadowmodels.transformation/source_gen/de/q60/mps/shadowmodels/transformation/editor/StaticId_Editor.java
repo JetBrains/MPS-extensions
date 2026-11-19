@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class StaticId_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new StaticId_EditorBuilder_a(editorContext, node).createCell();
+    return new StaticId_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new StaticId_InspectorBuilder_a(editorContext, node).createCell();
+    return new StaticId_InspectorBuilder(editorContext, node).createCell();
   }
 }

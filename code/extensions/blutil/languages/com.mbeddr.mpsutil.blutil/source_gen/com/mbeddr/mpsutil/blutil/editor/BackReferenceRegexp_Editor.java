@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class BackReferenceRegexp_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new BackReferenceRegexp_EditorBuilder_a(editorContext, node).createCell();
+    return new BackReferenceRegexp_EditorBuilder(editorContext, node).createCell();
   }
 }

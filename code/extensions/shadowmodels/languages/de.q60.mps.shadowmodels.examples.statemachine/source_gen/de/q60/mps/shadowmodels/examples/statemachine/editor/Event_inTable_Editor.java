@@ -18,6 +18,6 @@ public class Event_inTable_Editor extends DefaultNodeEditor {
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Event_inTable_EditorBuilder_a(editorContext, node).createCell();
+    return new Event_inTable_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class DisconnectedGraphTest_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new DisconnectedGraphTest_EditorBuilder_a(editorContext, node).createCell();
+    return new DisconnectedGraphTest_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new DisconnectedGraphTest_InspectorBuilder_a(editorContext, node).createCell();
+    return new DisconnectedGraphTest_InspectorBuilder(editorContext, node).createCell();
   }
 }

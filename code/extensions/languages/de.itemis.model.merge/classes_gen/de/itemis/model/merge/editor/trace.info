@@ -91,17 +91,17 @@
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/1912777765298266436">
     <file name="ModelMergingPolicy_Editor.java">
-      <node id="1912777765298266436" at="11,79,12,84" concept="7" />
+      <node id="1912777765298266436" at="11,79,12,82" concept="7" />
       <node id="1912777765298266436" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1912777765298266436" at="11,79,12,84" />
+      <scope id="1912777765298266436" at="11,79,12,82" />
       <scope id="1912777765298266436" at="11,0,14,0">
         <var name="editorContext" id="1912777765298266436" />
         <var name="node" id="1912777765298266436" />
       </scope>
       <unit id="1912777765298266436" at="10,0,15,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_Editor" />
     </file>
-    <file name="ModelMergingPolicy_EditorBuilder_a.java">
-      <node id="1912777765298266436" at="52,98,53,19" concept="12" />
+    <file name="ModelMergingPolicy_EditorBuilder.java">
+      <node id="1912777765298266436" at="52,96,53,19" concept="12" />
       <node id="1912777765298266436" at="53,19,54,18" concept="2" />
       <node id="1912777765298266436" at="59,26,60,18" concept="7" />
       <node id="1912777765298266436" at="63,39,64,32" concept="7" />
@@ -387,7 +387,7 @@
       <node id="1912777765298266436" at="477,0,480,0" concept="5" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1912777765298266436" at="481,0,484,0" concept="5" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1912777765298266436" at="524,96,527,9" concept="4" />
-      <node id="1912777765298266436" at="52,0,56,0" concept="1" trace="ModelMergingPolicy_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1912777765298266436" at="52,0,56,0" concept="1" trace="ModelMergingPolicy_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1912777765298266436" at="134,0,138,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1912777765298266436" at="142,0,146,0" concept="1" trace="langSingleRoleHandler_mkxabb_b1a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1912777765298266436" at="216,0,220,0" concept="1" trace="additonalLangsListHandler_mkxabb_b2a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -485,7 +485,7 @@
       <scope id="1912777765298293501" at="481,73,482,54" />
       <scope id="1912777765298266436" at="498,17,499,42" />
       <scope id="1912777765298266436" at="525,34,526,91" />
-      <scope id="1912777765298266436" at="52,98,54,18" />
+      <scope id="1912777765298266436" at="52,96,54,18" />
       <scope id="1912777765298304489" at="109,74,111,145">
         <var name="manager" id="1912777765298304489" />
       </scope>
@@ -742,29 +742,29 @@
         <var name="elementNode" id="1912777765298266436" />
         <var name="isEmptyCell" id="1912777765298266436" />
       </scope>
-      <unit id="1912777765298266436" at="536,0,541,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder_a$PROPS" />
-      <unit id="1912777765298266436" at="542,0,548,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder_a$CONCEPTS" />
-      <unit id="1912777765298266436" at="549,0,555,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder_a$LINKS" />
-      <unit id="1912777765298266436" at="138,0,189,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder_a$langSingleRoleHandler_mkxabb_b1a" />
-      <unit id="1912777765298266436" at="400,0,451,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder_a$rootPoliciesSingleRoleHandler_mkxabb_b5a" />
-      <unit id="1912777765298266436" at="212,0,279,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder_a$additonalLangsListHandler_mkxabb_b2a" />
-      <unit id="1912777765298266436" at="458,0,535,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder_a$policiesListHandler_mkxabb_g0" />
-      <unit id="1912777765298266436" at="48,0,556,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder_a" />
+      <unit id="1912777765298266436" at="536,0,541,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder$PROPS" />
+      <unit id="1912777765298266436" at="542,0,548,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder$CONCEPTS" />
+      <unit id="1912777765298266436" at="549,0,555,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder$LINKS" />
+      <unit id="1912777765298266436" at="138,0,189,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder$langSingleRoleHandler_mkxabb_b1a" />
+      <unit id="1912777765298266436" at="400,0,451,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder$rootPoliciesSingleRoleHandler_mkxabb_b5a" />
+      <unit id="1912777765298266436" at="212,0,279,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder$additonalLangsListHandler_mkxabb_b2a" />
+      <unit id="1912777765298266436" at="458,0,535,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder$policiesListHandler_mkxabb_g0" />
+      <unit id="1912777765298266436" at="48,0,556,0" name="de.itemis.model.merge.editor.ModelMergingPolicy_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/1912777765298266503">
     <file name="EmptyMergingPolicy_Editor.java">
-      <node id="1912777765298266503" at="11,79,12,84" concept="7" />
+      <node id="1912777765298266503" at="11,79,12,82" concept="7" />
       <node id="1912777765298266503" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1912777765298266503" at="11,79,12,84" />
+      <scope id="1912777765298266503" at="11,79,12,82" />
       <scope id="1912777765298266503" at="11,0,14,0">
         <var name="editorContext" id="1912777765298266503" />
         <var name="node" id="1912777765298266503" />
       </scope>
       <unit id="1912777765298266503" at="10,0,15,0" name="de.itemis.model.merge.editor.EmptyMergingPolicy_Editor" />
     </file>
-    <file name="EmptyMergingPolicy_EditorBuilder_a.java">
-      <node id="1912777765298266503" at="16,98,17,19" concept="12" />
+    <file name="EmptyMergingPolicy_EditorBuilder.java">
+      <node id="1912777765298266503" at="16,96,17,19" concept="12" />
       <node id="1912777765298266503" at="17,19,18,18" concept="2" />
       <node id="1912777765298266503" at="23,26,24,18" concept="7" />
       <node id="1912777765298266503" at="27,39,28,30" concept="7" />
@@ -776,12 +776,12 @@
       <node id="1912777765298266505" at="36,34,37,22" concept="7" />
       <node id="1912777765298266503" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="1912777765298266503" at="27,0,30,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1912777765298266503" at="16,0,20,0" concept="1" trace="EmptyMergingPolicy_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1912777765298266503" at="16,0,20,0" concept="1" trace="EmptyMergingPolicy_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1912777765298266503" at="21,0,26,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1912777765298266505" at="31,0,39,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="1912777765298266503" at="23,26,24,18" />
       <scope id="1912777765298266503" at="27,39,28,30" />
-      <scope id="1912777765298266503" at="16,98,18,18" />
+      <scope id="1912777765298266503" at="16,96,18,18" />
       <scope id="1912777765298266503" at="27,0,30,0" />
       <scope id="1912777765298266503" at="16,0,20,0">
         <var name="context" id="1912777765298266503" />
@@ -792,22 +792,22 @@
         <var name="editorCell" id="1912777765298266505" />
       </scope>
       <scope id="1912777765298266505" at="31,0,39,0" />
-      <unit id="1912777765298266503" at="12,0,40,0" name="de.itemis.model.merge.editor.EmptyMergingPolicy_EditorBuilder_a" />
+      <unit id="1912777765298266503" at="12,0,40,0" name="de.itemis.model.merge.editor.EmptyMergingPolicy_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/1912777765298299412">
     <file name="ConceptMergingPolicy_Editor.java">
-      <node id="1912777765298299412" at="11,79,12,86" concept="7" />
+      <node id="1912777765298299412" at="11,79,12,84" concept="7" />
       <node id="1912777765298299412" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1912777765298299412" at="11,79,12,86" />
+      <scope id="1912777765298299412" at="11,79,12,84" />
       <scope id="1912777765298299412" at="11,0,14,0">
         <var name="editorContext" id="1912777765298299412" />
         <var name="node" id="1912777765298299412" />
       </scope>
       <unit id="1912777765298299412" at="10,0,15,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_Editor" />
     </file>
-    <file name="ConceptMergingPolicy_EditorBuilder_a.java">
-      <node id="1912777765298299412" at="60,100,61,19" concept="12" />
+    <file name="ConceptMergingPolicy_EditorBuilder.java">
+      <node id="1912777765298299412" at="60,98,61,19" concept="12" />
       <node id="1912777765298299412" at="61,19,62,18" concept="2" />
       <node id="1912777765298299412" at="67,26,68,18" concept="7" />
       <node id="1912777765298299412" at="71,39,72,32" concept="7" />
@@ -817,14 +817,14 @@
       <node id="1912777765298299412" at="78,28,79,31" concept="2" />
       <node id="1912777765298332234" at="79,31,80,51" concept="2" />
       <node id="7137735640372753002" at="80,51,81,51" concept="2" />
-      <node id="7555554651740414990" at="82,37,83,53" concept="2" />
-      <node id="8422540920006578028" at="85,37,86,53" concept="2" />
-      <node id="4427572733333513893" at="88,37,89,53" concept="2" />
+      <node id="7555554651740414990" at="82,27,83,53" concept="2" />
+      <node id="8422540920006578028" at="85,27,86,53" concept="2" />
+      <node id="4427572733333513893" at="88,27,89,53" concept="2" />
       <node id="8422540920006578013" at="90,5,91,49" concept="2" />
       <node id="1912777765298299412" at="91,49,92,22" concept="7" />
-      <node id="2549723419575170519" at="94,46,95,140" concept="7" />
-      <node id="2549723419575284424" at="97,46,98,138" concept="7" />
-      <node id="4427572733333513907" at="100,46,101,140" concept="7" />
+      <node id="2549723419575170519" at="94,36,95,140" concept="7" />
+      <node id="2549723419575284424" at="97,36,98,138" concept="7" />
+      <node id="4427572733333513907" at="100,36,101,140" concept="7" />
       <node id="1912777765298299412" at="103,43,104,122" concept="6" />
       <node id="1912777765298299412" at="104,122,105,49" concept="2" />
       <node id="1912777765298299412" at="105,49,106,34" concept="6" />
@@ -1117,9 +1117,9 @@
       <node id="7555554651740414990" at="81,51,84,5" concept="4" />
       <node id="8422540920006578028" at="84,5,87,5" concept="4" />
       <node id="4427572733333513893" at="87,5,90,5" concept="4" />
-      <node id="2549723419575282389" at="94,0,97,0" concept="5" trace="nodeCondition_4l98ba_a2a#()Z" />
-      <node id="2549723419575284401" at="97,0,100,0" concept="5" trace="nodeCondition_4l98ba_a3a#()Z" />
-      <node id="4427572733333513905" at="100,0,103,0" concept="5" trace="nodeCondition_4l98ba_a4a#()Z" />
+      <node id="2549723419575282389" at="94,0,97,0" concept="5" trace="nodeCondition0#()Z" />
+      <node id="2549723419575284401" at="97,0,100,0" concept="5" trace="nodeCondition1#()Z" />
+      <node id="4427572733333513905" at="100,0,103,0" concept="5" trace="nodeCondition2#()Z" />
       <node id="6402745832168510700" at="122,0,125,0" concept="5" trace="_StyleParameter_QueryFunction_4l98ba_a0a0a#()I" />
       <node id="2549723419574217212" at="171,0,174,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6402745832168859685" at="207,0,210,0" concept="5" trace="_StyleParameter_QueryFunction_4l98ba_a2a0b0a#()I" />
@@ -1135,7 +1135,7 @@
       <node id="1912777765298299412" at="553,0,556,0" concept="5" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="1912777765298299412" at="556,0,559,0" concept="5" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="1912777765298299412" at="600,96,603,9" concept="4" />
-      <node id="1912777765298299412" at="60,0,64,0" concept="1" trace="ConceptMergingPolicy_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1912777765298299412" at="60,0,64,0" concept="1" trace="ConceptMergingPolicy_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1912777765298299412" at="146,0,150,5" concept="4" />
       <node id="1912777765298299412" at="234,0,238,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1912777765298299412" at="242,0,246,0" concept="1" trace="idFunctionSingleRoleHandler_4l98ba_b0b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -1215,12 +1215,12 @@
       <node id="1912777765298299412" at="125,0,160,0" concept="5" trace="createRefCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="1912777765298299412" at="67,26,68,18" />
       <scope id="1912777765298299412" at="71,39,72,32" />
-      <scope id="7555554651740414990" at="82,37,83,53" />
-      <scope id="8422540920006578028" at="85,37,86,53" />
-      <scope id="4427572733333513893" at="88,37,89,53" />
-      <scope id="2549723419575282390" at="94,46,95,140" />
-      <scope id="2549723419575284402" at="97,46,98,138" />
-      <scope id="4427572733333513906" at="100,46,101,140" />
+      <scope id="7555554651740414990" at="82,27,83,53" />
+      <scope id="8422540920006578028" at="85,27,86,53" />
+      <scope id="4427572733333513893" at="88,27,89,53" />
+      <scope id="2549723419575282390" at="94,36,95,140" />
+      <scope id="2549723419575284402" at="97,36,98,138" />
+      <scope id="4427572733333513906" at="100,36,101,140" />
       <scope id="6402745832168510701" at="122,60,123,14" />
       <scope id="2549723419574217212" at="171,41,172,32" />
       <scope id="2549723419574217212" at="177,28,178,20" />
@@ -1246,7 +1246,7 @@
       <scope id="1912777765298299412" at="556,48,557,41" />
       <scope id="1912777765298299412" at="574,17,575,42" />
       <scope id="1912777765298299412" at="601,34,602,91" />
-      <scope id="1912777765298299412" at="60,100,62,18" />
+      <scope id="1912777765298299412" at="60,98,62,18" />
       <scope id="1912777765298299412" at="147,40,149,49" />
       <scope id="1912777765298299412" at="154,73,156,145">
         <var name="manager" id="1912777765298299412" />
@@ -1521,31 +1521,31 @@
         <var name="referenceLink" id="1912777765298299412" />
       </scope>
       <scope id="1912777765298299412" at="125,0,160,0" />
-      <unit id="1912777765298299412" at="630,0,633,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder_a$PROPS" />
-      <unit id="1912777765298299412" at="614,0,621,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder_a$LINKS" />
-      <unit id="1912777765298299412" at="622,0,629,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder_a$CONCEPTS" />
-      <unit id="1912777765298299412" at="127,42,142,5" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder_a$1" />
-      <unit id="2549723419574217212" at="160,0,211,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder_a$Inline_Builder0" />
-      <unit id="1912777765298299412" at="238,0,289,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder_a$idFunctionSingleRoleHandler_4l98ba_b0b0" />
-      <unit id="1912777765298299412" at="328,0,395,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder_a$propertyPoliciesListHandler_4l98ba_a1c0" />
-      <unit id="1912777765298299412" at="434,0,501,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder_a$childPoliciesListHandler_4l98ba_a1d0" />
-      <unit id="1912777765298299412" at="540,0,607,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder_a$referencePoliciesListHandler_4l98ba_a1e0" />
-      <unit id="1912777765298299412" at="56,0,634,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder_a" />
+      <unit id="1912777765298299412" at="630,0,633,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder$PROPS" />
+      <unit id="1912777765298299412" at="614,0,621,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder$LINKS" />
+      <unit id="1912777765298299412" at="622,0,629,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder$CONCEPTS" />
+      <unit id="1912777765298299412" at="127,42,142,5" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder$1" />
+      <unit id="2549723419574217212" at="160,0,211,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder$Inline_Builder0" />
+      <unit id="1912777765298299412" at="238,0,289,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder$idFunctionSingleRoleHandler_4l98ba_b0b0" />
+      <unit id="1912777765298299412" at="328,0,395,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder$propertyPoliciesListHandler_4l98ba_a1c0" />
+      <unit id="1912777765298299412" at="434,0,501,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder$childPoliciesListHandler_4l98ba_a1d0" />
+      <unit id="1912777765298299412" at="540,0,607,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder$referencePoliciesListHandler_4l98ba_a1e0" />
+      <unit id="1912777765298299412" at="56,0,634,0" name="de.itemis.model.merge.editor.ConceptMergingPolicy_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/1912777765298654186">
     <file name="PropertyPolicy_Editor.java">
-      <node id="1912777765298654186" at="11,79,12,80" concept="7" />
+      <node id="1912777765298654186" at="11,79,12,78" concept="7" />
       <node id="1912777765298654186" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1912777765298654186" at="11,79,12,80" />
+      <scope id="1912777765298654186" at="11,79,12,78" />
       <scope id="1912777765298654186" at="11,0,14,0">
         <var name="editorContext" id="1912777765298654186" />
         <var name="node" id="1912777765298654186" />
       </scope>
       <unit id="1912777765298654186" at="10,0,15,0" name="de.itemis.model.merge.editor.PropertyPolicy_Editor" />
     </file>
-    <file name="PropertyPolicy_EditorBuilder_a.java">
-      <node id="1912777765298654186" at="48,94,49,19" concept="12" />
+    <file name="PropertyPolicy_EditorBuilder.java">
+      <node id="1912777765298654186" at="48,92,49,19" concept="12" />
       <node id="1912777765298654186" at="49,19,50,18" concept="2" />
       <node id="1912777765298654186" at="55,26,56,18" concept="7" />
       <node id="1912777765298654186" at="59,39,60,32" concept="7" />
@@ -1637,7 +1637,7 @@
       <node id="1912777765298654186" at="186,87,189,7" concept="4" />
       <node id="1912777765298654186" at="189,7,192,7" concept="4" />
       <node id="1912777765298654186" at="208,0,211,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="1912777765298654186" at="48,0,52,0" concept="1" trace="PropertyPolicy_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1912777765298654186" at="48,0,52,0" concept="1" trace="PropertyPolicy_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1912777765298654186" at="94,0,98,5" concept="4" />
       <node id="1912777765298654186" at="157,0,161,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1912777765298654186" at="165,0,169,0" concept="1" trace="actionSingleRoleHandler_fk3a8y_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -1669,7 +1669,7 @@
       <scope id="1912777765298654186" at="190,42,191,47" />
       <scope id="1912777765298654186" at="204,17,205,42" />
       <scope id="1912777765298654186" at="208,40,209,27" />
-      <scope id="1912777765298654186" at="48,94,50,18" />
+      <scope id="1912777765298654186" at="48,92,50,18" />
       <scope id="1912777765298654186" at="95,40,97,47" />
       <scope id="1912777765298654186" at="102,73,104,145">
         <var name="manager" id="1912777765298654186" />
@@ -1756,23 +1756,23 @@
         <var name="referenceLink" id="1912777765298654186" />
       </scope>
       <scope id="1912777765298654186" at="73,0,108,0" />
-      <unit id="1912777765298654186" at="223,0,226,0" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder_a$PROPS" />
-      <unit id="1912777765298654186" at="213,0,217,0" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder_a$LINKS" />
-      <unit id="1912777765298654186" at="218,0,222,0" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder_a$CONCEPTS" />
-      <unit id="1912777765298654186" at="75,42,90,5" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder_a$1" />
-      <unit id="7555554651740478255" at="108,0,151,0" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder_a$Inline_Builder0" />
-      <unit id="1912777765298654186" at="161,0,212,0" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder_a$actionSingleRoleHandler_fk3a8y_c0" />
-      <unit id="1912777765298654186" at="44,0,227,0" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder_a" />
+      <unit id="1912777765298654186" at="223,0,226,0" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder$PROPS" />
+      <unit id="1912777765298654186" at="213,0,217,0" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder$LINKS" />
+      <unit id="1912777765298654186" at="218,0,222,0" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder$CONCEPTS" />
+      <unit id="1912777765298654186" at="75,42,90,5" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder$1" />
+      <unit id="7555554651740478255" at="108,0,151,0" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder$Inline_Builder0" />
+      <unit id="1912777765298654186" at="161,0,212,0" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder$actionSingleRoleHandler_fk3a8y_c0" />
+      <unit id="1912777765298654186" at="44,0,227,0" name="de.itemis.model.merge.editor.PropertyPolicy_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/2076377354677061548">
     <file name="ManualAction_Editor.java">
-      <node id="2076377354677061548" at="11,79,12,78" concept="7" />
-      <node id="2076377354677061548" at="14,82,15,81" concept="7" />
+      <node id="2076377354677061548" at="11,79,12,76" concept="7" />
+      <node id="2076377354677061548" at="14,82,15,79" concept="7" />
       <node id="2076377354677061548" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2076377354677061548" at="14,0,17,0" concept="5" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2076377354677061548" at="11,79,12,78" />
-      <scope id="2076377354677061548" at="14,82,15,81" />
+      <scope id="2076377354677061548" at="11,79,12,76" />
+      <scope id="2076377354677061548" at="14,82,15,79" />
       <scope id="2076377354677061548" at="11,0,14,0">
         <var name="editorContext" id="2076377354677061548" />
         <var name="node" id="2076377354677061548" />
@@ -1783,8 +1783,8 @@
       </scope>
       <unit id="2076377354677061548" at="10,0,18,0" name="de.itemis.model.merge.editor.ManualAction_Editor" />
     </file>
-    <file name="ManualAction_EditorBuilder_a.java">
-      <node id="2076377354677061548" at="22,92,23,19" concept="12" />
+    <file name="ManualAction_EditorBuilder.java">
+      <node id="2076377354677061548" at="22,90,23,19" concept="12" />
       <node id="2076377354677061548" at="23,19,24,18" concept="2" />
       <node id="2076377354677061548" at="29,26,30,18" concept="7" />
       <node id="2076377354677061548" at="33,39,34,32" concept="7" />
@@ -1806,14 +1806,14 @@
       <node id="1196975582231" at="56,142,57,22" concept="7" />
       <node id="2076377354677061548" at="19,0,21,0" concept="3" trace="myNode" />
       <node id="2076377354677061548" at="33,0,36,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2076377354677061548" at="22,0,26,0" concept="1" trace="ManualAction_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2076377354677061548" at="22,0,26,0" concept="1" trace="ManualAction_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1196975582231" at="55,0,59,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2076377354677061548" at="27,0,32,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2076377354677061548" at="37,0,46,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2076377354677076160" at="46,0,55,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2076377354677061548" at="29,26,30,18" />
       <scope id="2076377354677061548" at="33,39,34,32" />
-      <scope id="2076377354677061548" at="22,92,24,18" />
+      <scope id="2076377354677061548" at="22,90,24,18" />
       <scope id="1196975582231" at="55,42,57,22">
         <var name="editorCell" id="1196975582231" />
       </scope>
@@ -1833,10 +1833,10 @@
       </scope>
       <scope id="2076377354677061548" at="37,0,46,0" />
       <scope id="2076377354677076160" at="46,0,55,0" />
-      <unit id="2076377354677061548" at="18,0,60,0" name="de.itemis.model.merge.editor.ManualAction_EditorBuilder_a" />
+      <unit id="2076377354677061548" at="18,0,60,0" name="de.itemis.model.merge.editor.ManualAction_EditorBuilder" />
     </file>
-    <file name="ManualAction_InspectorBuilder_a.java">
-      <node id="2076377354677061548" at="15,95,16,19" concept="12" />
+    <file name="ManualAction_InspectorBuilder.java">
+      <node id="2076377354677061548" at="15,93,16,19" concept="12" />
       <node id="2076377354677061548" at="16,19,17,18" concept="2" />
       <node id="2076377354677061548" at="22,26,23,18" concept="7" />
       <node id="2076377354677061548" at="26,39,27,32" concept="7" />
@@ -1846,13 +1846,13 @@
       <node id="2076377354677323473" at="34,33,35,24" concept="7" />
       <node id="2076377354677061548" at="12,0,14,0" concept="3" trace="myNode" />
       <node id="2076377354677061548" at="26,0,29,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2076377354677061548" at="15,0,19,0" concept="1" trace="ManualAction_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2076377354677061548" at="15,0,19,0" concept="1" trace="ManualAction_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2076377354677061548" at="20,0,25,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2076377354677323473" at="30,43,36,5" concept="0" />
       <node id="2076377354677323473" at="30,0,38,0" concept="5" trace="createNextEditor_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2076377354677061548" at="22,26,23,18" />
       <scope id="2076377354677061548" at="26,39,27,32" />
-      <scope id="2076377354677061548" at="15,95,17,18" />
+      <scope id="2076377354677061548" at="15,93,17,18" />
       <scope id="2076377354677061548" at="26,0,29,0" />
       <scope id="2076377354677061548" at="15,0,19,0">
         <var name="context" id="2076377354677061548" />
@@ -1864,17 +1864,17 @@
       <scope id="2076377354677061548" at="20,0,25,0" />
       <scope id="2076377354677323473" at="30,43,36,5" />
       <scope id="2076377354677323473" at="30,0,38,0" />
-      <unit id="2076377354677061548" at="11,0,39,0" name="de.itemis.model.merge.editor.ManualAction_InspectorBuilder_a" />
+      <unit id="2076377354677061548" at="11,0,39,0" name="de.itemis.model.merge.editor.ManualAction_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/2120062183195260416">
     <file name="ManualCollectionAction_Editor.java">
-      <node id="2120062183195260416" at="11,79,12,88" concept="7" />
-      <node id="2120062183195260416" at="14,82,15,91" concept="7" />
+      <node id="2120062183195260416" at="11,79,12,86" concept="7" />
+      <node id="2120062183195260416" at="14,82,15,89" concept="7" />
       <node id="2120062183195260416" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2120062183195260416" at="14,0,17,0" concept="5" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2120062183195260416" at="11,79,12,88" />
-      <scope id="2120062183195260416" at="14,82,15,91" />
+      <scope id="2120062183195260416" at="11,79,12,86" />
+      <scope id="2120062183195260416" at="14,82,15,89" />
       <scope id="2120062183195260416" at="11,0,14,0">
         <var name="editorContext" id="2120062183195260416" />
         <var name="node" id="2120062183195260416" />
@@ -1885,8 +1885,8 @@
       </scope>
       <unit id="2120062183195260416" at="10,0,18,0" name="de.itemis.model.merge.editor.ManualCollectionAction_Editor" />
     </file>
-    <file name="ManualCollectionAction_EditorBuilder_a.java">
-      <node id="2120062183195260416" at="22,102,23,19" concept="12" />
+    <file name="ManualCollectionAction_EditorBuilder.java">
+      <node id="2120062183195260416" at="22,100,23,19" concept="12" />
       <node id="2120062183195260416" at="23,19,24,18" concept="2" />
       <node id="2120062183195260416" at="29,26,30,18" concept="7" />
       <node id="2120062183195260416" at="33,39,34,32" concept="7" />
@@ -1908,14 +1908,14 @@
       <node id="2120062183195260422" at="56,142,57,22" concept="7" />
       <node id="2120062183195260416" at="19,0,21,0" concept="3" trace="myNode" />
       <node id="2120062183195260416" at="33,0,36,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2120062183195260416" at="22,0,26,0" concept="1" trace="ManualCollectionAction_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2120062183195260416" at="22,0,26,0" concept="1" trace="ManualCollectionAction_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2120062183195260422" at="55,0,59,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2120062183195260416" at="27,0,32,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2120062183195260416" at="37,0,46,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2120062183195260420" at="46,0,55,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2120062183195260416" at="29,26,30,18" />
       <scope id="2120062183195260416" at="33,39,34,32" />
-      <scope id="2120062183195260416" at="22,102,24,18" />
+      <scope id="2120062183195260416" at="22,100,24,18" />
       <scope id="2120062183195260422" at="55,42,57,22">
         <var name="editorCell" id="2120062183195260422" />
       </scope>
@@ -1935,10 +1935,10 @@
       </scope>
       <scope id="2120062183195260416" at="37,0,46,0" />
       <scope id="2120062183195260420" at="46,0,55,0" />
-      <unit id="2120062183195260416" at="18,0,60,0" name="de.itemis.model.merge.editor.ManualCollectionAction_EditorBuilder_a" />
+      <unit id="2120062183195260416" at="18,0,60,0" name="de.itemis.model.merge.editor.ManualCollectionAction_EditorBuilder" />
     </file>
-    <file name="ManualCollectionAction_InspectorBuilder_a.java">
-      <node id="2120062183195260416" at="15,105,16,19" concept="12" />
+    <file name="ManualCollectionAction_InspectorBuilder.java">
+      <node id="2120062183195260416" at="15,103,16,19" concept="12" />
       <node id="2120062183195260416" at="16,19,17,18" concept="2" />
       <node id="2120062183195260416" at="22,26,23,18" concept="7" />
       <node id="2120062183195260416" at="26,39,27,32" concept="7" />
@@ -1948,13 +1948,13 @@
       <node id="2120062183195260428" at="34,33,35,24" concept="7" />
       <node id="2120062183195260416" at="12,0,14,0" concept="3" trace="myNode" />
       <node id="2120062183195260416" at="26,0,29,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2120062183195260416" at="15,0,19,0" concept="1" trace="ManualCollectionAction_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2120062183195260416" at="15,0,19,0" concept="1" trace="ManualCollectionAction_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2120062183195260416" at="20,0,25,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2120062183195260428" at="30,43,36,5" concept="0" />
       <node id="2120062183195260428" at="30,0,38,0" concept="5" trace="createNextEditor_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2120062183195260416" at="22,26,23,18" />
       <scope id="2120062183195260416" at="26,39,27,32" />
-      <scope id="2120062183195260416" at="15,105,17,18" />
+      <scope id="2120062183195260416" at="15,103,17,18" />
       <scope id="2120062183195260416" at="26,0,29,0" />
       <scope id="2120062183195260416" at="15,0,19,0">
         <var name="context" id="2120062183195260416" />
@@ -1966,22 +1966,22 @@
       <scope id="2120062183195260416" at="20,0,25,0" />
       <scope id="2120062183195260428" at="30,43,36,5" />
       <scope id="2120062183195260428" at="30,0,38,0" />
-      <unit id="2120062183195260416" at="11,0,39,0" name="de.itemis.model.merge.editor.ManualCollectionAction_InspectorBuilder_a" />
+      <unit id="2120062183195260416" at="11,0,39,0" name="de.itemis.model.merge.editor.ManualCollectionAction_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/2222162468661306455">
     <file name="SubPolicyContainer_Editor.java">
-      <node id="2222162468661306455" at="11,79,12,84" concept="7" />
+      <node id="2222162468661306455" at="11,79,12,82" concept="7" />
       <node id="2222162468661306455" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2222162468661306455" at="11,79,12,84" />
+      <scope id="2222162468661306455" at="11,79,12,82" />
       <scope id="2222162468661306455" at="11,0,14,0">
         <var name="editorContext" id="2222162468661306455" />
         <var name="node" id="2222162468661306455" />
       </scope>
       <unit id="2222162468661306455" at="10,0,15,0" name="de.itemis.model.merge.editor.SubPolicyContainer_Editor" />
     </file>
-    <file name="SubPolicyContainer_EditorBuilder_a.java">
-      <node id="2222162468661306455" at="40,98,41,19" concept="12" />
+    <file name="SubPolicyContainer_EditorBuilder.java">
+      <node id="2222162468661306455" at="40,96,41,19" concept="12" />
       <node id="2222162468661306455" at="41,19,42,18" concept="2" />
       <node id="2222162468661306455" at="47,26,48,18" concept="7" />
       <node id="2222162468661306455" at="51,39,52,32" concept="7" />
@@ -2041,7 +2041,7 @@
       <node id="2222162468661306455" at="121,87,124,7" concept="4" />
       <node id="2222162468661306455" at="124,7,127,7" concept="4" />
       <node id="2222162468661306455" at="143,0,146,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="2222162468661306455" at="40,0,44,0" concept="1" trace="SubPolicyContainer_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2222162468661306455" at="40,0,44,0" concept="1" trace="SubPolicyContainer_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2222162468661306455" at="92,0,96,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2222162468661306455" at="100,0,104,0" concept="1" trace="actionSingleRoleHandler_3hk0ni_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="2222162468661306455" at="45,0,50,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2063,7 +2063,7 @@
       <scope id="2222162468661306455" at="125,42,126,47" />
       <scope id="2222162468661306455" at="139,17,140,42" />
       <scope id="2222162468661306455" at="143,40,144,27" />
-      <scope id="2222162468661306455" at="40,98,42,18" />
+      <scope id="2222162468661306455" at="40,96,42,18" />
       <scope id="2549723419576091926" at="77,74,79,145">
         <var name="manager" id="2549723419576091926" />
       </scope>
@@ -2118,26 +2118,26 @@
       <scope id="2222162468661306455" at="129,0,143,0" />
       <scope id="2549723419576091926" at="65,41,84,5" />
       <scope id="2549723419576091926" at="65,0,86,0" />
-      <unit id="2222162468661306455" at="148,0,151,0" name="de.itemis.model.merge.editor.SubPolicyContainer_EditorBuilder_a$PROPS" />
-      <unit id="2222162468661306455" at="152,0,155,0" name="de.itemis.model.merge.editor.SubPolicyContainer_EditorBuilder_a$CONCEPTS" />
-      <unit id="2222162468661306455" at="156,0,159,0" name="de.itemis.model.merge.editor.SubPolicyContainer_EditorBuilder_a$LINKS" />
-      <unit id="2222162468661306455" at="96,0,147,0" name="de.itemis.model.merge.editor.SubPolicyContainer_EditorBuilder_a$actionSingleRoleHandler_3hk0ni_c0" />
-      <unit id="2222162468661306455" at="36,0,160,0" name="de.itemis.model.merge.editor.SubPolicyContainer_EditorBuilder_a" />
+      <unit id="2222162468661306455" at="148,0,151,0" name="de.itemis.model.merge.editor.SubPolicyContainer_EditorBuilder$PROPS" />
+      <unit id="2222162468661306455" at="152,0,155,0" name="de.itemis.model.merge.editor.SubPolicyContainer_EditorBuilder$CONCEPTS" />
+      <unit id="2222162468661306455" at="156,0,159,0" name="de.itemis.model.merge.editor.SubPolicyContainer_EditorBuilder$LINKS" />
+      <unit id="2222162468661306455" at="96,0,147,0" name="de.itemis.model.merge.editor.SubPolicyContainer_EditorBuilder$actionSingleRoleHandler_3hk0ni_c0" />
+      <unit id="2222162468661306455" at="36,0,160,0" name="de.itemis.model.merge.editor.SubPolicyContainer_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/2222162468664752648">
     <file name="AbstractPolicy_Editor.java">
-      <node id="2222162468664752648" at="11,79,12,80" concept="7" />
+      <node id="2222162468664752648" at="11,79,12,78" concept="7" />
       <node id="2222162468664752648" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2222162468664752648" at="11,79,12,80" />
+      <scope id="2222162468664752648" at="11,79,12,78" />
       <scope id="2222162468664752648" at="11,0,14,0">
         <var name="editorContext" id="2222162468664752648" />
         <var name="node" id="2222162468664752648" />
       </scope>
       <unit id="2222162468664752648" at="10,0,15,0" name="de.itemis.model.merge.editor.AbstractPolicy_Editor" />
     </file>
-    <file name="AbstractPolicy_EditorBuilder_a.java">
-      <node id="2222162468664752648" at="15,94,16,19" concept="12" />
+    <file name="AbstractPolicy_EditorBuilder.java">
+      <node id="2222162468664752648" at="15,92,16,19" concept="12" />
       <node id="2222162468664752648" at="16,19,17,18" concept="2" />
       <node id="2222162468664752648" at="22,26,23,18" concept="7" />
       <node id="2222162468664752648" at="26,39,27,32" concept="7" />
@@ -2147,13 +2147,13 @@
       <node id="2222162468664752650" at="34,33,35,24" concept="7" />
       <node id="2222162468664752648" at="12,0,14,0" concept="3" trace="myNode" />
       <node id="2222162468664752648" at="26,0,29,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2222162468664752648" at="15,0,19,0" concept="1" trace="AbstractPolicy_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2222162468664752648" at="15,0,19,0" concept="1" trace="AbstractPolicy_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2222162468664752648" at="20,0,25,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2222162468664752650" at="30,43,36,5" concept="0" />
       <node id="2222162468664752650" at="30,0,38,0" concept="5" trace="createNextEditor_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2222162468664752648" at="22,26,23,18" />
       <scope id="2222162468664752648" at="26,39,27,32" />
-      <scope id="2222162468664752648" at="15,94,17,18" />
+      <scope id="2222162468664752648" at="15,92,17,18" />
       <scope id="2222162468664752648" at="26,0,29,0" />
       <scope id="2222162468664752648" at="15,0,19,0">
         <var name="context" id="2222162468664752648" />
@@ -2165,7 +2165,7 @@
       <scope id="2222162468664752648" at="20,0,25,0" />
       <scope id="2222162468664752650" at="30,43,36,5" />
       <scope id="2222162468664752650" at="30,0,38,0" />
-      <unit id="2222162468664752648" at="11,0,39,0" name="de.itemis.model.merge.editor.AbstractPolicy_EditorBuilder_a" />
+      <unit id="2222162468664752648" at="11,0,39,0" name="de.itemis.model.merge.editor.AbstractPolicy_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/2549723419574091411">
@@ -2349,17 +2349,17 @@
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/2549723419575446295">
     <file name="Auto_Editor.java">
-      <node id="2549723419575446295" at="11,79,12,70" concept="7" />
+      <node id="2549723419575446295" at="11,79,12,68" concept="7" />
       <node id="2549723419575446295" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2549723419575446295" at="11,79,12,70" />
+      <scope id="2549723419575446295" at="11,79,12,68" />
       <scope id="2549723419575446295" at="11,0,14,0">
         <var name="editorContext" id="2549723419575446295" />
         <var name="node" id="2549723419575446295" />
       </scope>
       <unit id="2549723419575446295" at="10,0,15,0" name="de.itemis.model.merge.editor.Auto_Editor" />
     </file>
-    <file name="Auto_EditorBuilder_a.java">
-      <node id="2549723419575446295" at="20,84,21,19" concept="12" />
+    <file name="Auto_EditorBuilder.java">
+      <node id="2549723419575446295" at="20,82,21,19" concept="12" />
       <node id="2549723419575446295" at="21,19,22,18" concept="2" />
       <node id="2549723419575446295" at="27,26,28,18" concept="7" />
       <node id="2549723419575446295" at="31,39,32,31" concept="7" />
@@ -2373,13 +2373,13 @@
       <node id="2549723419575446297" at="44,40,45,22" concept="7" />
       <node id="2549723419575446295" at="17,0,19,0" concept="3" trace="myNode" />
       <node id="2549723419575446295" at="31,0,34,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2549723419575446295" at="20,0,24,0" concept="1" trace="Auto_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2549723419575446295" at="20,0,24,0" concept="1" trace="Auto_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2549723419575446297" at="37,72,41,5" concept="4" />
       <node id="2549723419575446295" at="25,0,30,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2549723419575446297" at="35,0,47,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2549723419575446295" at="27,26,28,18" />
       <scope id="2549723419575446295" at="31,39,32,31" />
-      <scope id="2549723419575446295" at="20,84,22,18" />
+      <scope id="2549723419575446295" at="20,82,22,18" />
       <scope id="2549723419575446297" at="38,26,40,30" />
       <scope id="2549723419575446295" at="31,0,34,0" />
       <scope id="2549723419575446295" at="20,0,24,0">
@@ -2393,22 +2393,22 @@
         <var name="style" id="2549723419575446297" />
       </scope>
       <scope id="2549723419575446297" at="35,0,47,0" />
-      <unit id="2549723419575446295" at="16,0,48,0" name="de.itemis.model.merge.editor.Auto_EditorBuilder_a" />
+      <unit id="2549723419575446295" at="16,0,48,0" name="de.itemis.model.merge.editor.Auto_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/2549723419575504377">
     <file name="Left_Editor.java">
-      <node id="2549723419575504377" at="11,79,12,70" concept="7" />
+      <node id="2549723419575504377" at="11,79,12,68" concept="7" />
       <node id="2549723419575504377" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2549723419575504377" at="11,79,12,70" />
+      <scope id="2549723419575504377" at="11,79,12,68" />
       <scope id="2549723419575504377" at="11,0,14,0">
         <var name="editorContext" id="2549723419575504377" />
         <var name="node" id="2549723419575504377" />
       </scope>
       <unit id="2549723419575504377" at="10,0,15,0" name="de.itemis.model.merge.editor.Left_Editor" />
     </file>
-    <file name="Left_EditorBuilder_a.java">
-      <node id="2549723419575504377" at="20,84,21,19" concept="12" />
+    <file name="Left_EditorBuilder.java">
+      <node id="2549723419575504377" at="20,82,21,19" concept="12" />
       <node id="2549723419575504377" at="21,19,22,18" concept="2" />
       <node id="2549723419575504377" at="27,26,28,18" concept="7" />
       <node id="2549723419575504377" at="31,39,32,31" concept="7" />
@@ -2422,13 +2422,13 @@
       <node id="2549723419575504379" at="44,40,45,22" concept="7" />
       <node id="2549723419575504377" at="17,0,19,0" concept="3" trace="myNode" />
       <node id="2549723419575504377" at="31,0,34,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2549723419575504377" at="20,0,24,0" concept="1" trace="Left_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2549723419575504377" at="20,0,24,0" concept="1" trace="Left_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2549723419575504379" at="37,72,41,5" concept="4" />
       <node id="2549723419575504377" at="25,0,30,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2549723419575504379" at="35,0,47,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2549723419575504377" at="27,26,28,18" />
       <scope id="2549723419575504377" at="31,39,32,31" />
-      <scope id="2549723419575504377" at="20,84,22,18" />
+      <scope id="2549723419575504377" at="20,82,22,18" />
       <scope id="2549723419575504379" at="38,26,40,30" />
       <scope id="2549723419575504377" at="31,0,34,0" />
       <scope id="2549723419575504377" at="20,0,24,0">
@@ -2442,22 +2442,22 @@
         <var name="style" id="2549723419575504379" />
       </scope>
       <scope id="2549723419575504379" at="35,0,47,0" />
-      <unit id="2549723419575504377" at="16,0,48,0" name="de.itemis.model.merge.editor.Left_EditorBuilder_a" />
+      <unit id="2549723419575504377" at="16,0,48,0" name="de.itemis.model.merge.editor.Left_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/2549723419575562610">
     <file name="Right_Editor.java">
-      <node id="2549723419575562610" at="11,79,12,71" concept="7" />
+      <node id="2549723419575562610" at="11,79,12,69" concept="7" />
       <node id="2549723419575562610" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2549723419575562610" at="11,79,12,71" />
+      <scope id="2549723419575562610" at="11,79,12,69" />
       <scope id="2549723419575562610" at="11,0,14,0">
         <var name="editorContext" id="2549723419575562610" />
         <var name="node" id="2549723419575562610" />
       </scope>
       <unit id="2549723419575562610" at="10,0,15,0" name="de.itemis.model.merge.editor.Right_Editor" />
     </file>
-    <file name="Right_EditorBuilder_a.java">
-      <node id="2549723419575562610" at="20,85,21,19" concept="12" />
+    <file name="Right_EditorBuilder.java">
+      <node id="2549723419575562610" at="20,83,21,19" concept="12" />
       <node id="2549723419575562610" at="21,19,22,18" concept="2" />
       <node id="2549723419575562610" at="27,26,28,18" concept="7" />
       <node id="2549723419575562610" at="31,39,32,31" concept="7" />
@@ -2471,13 +2471,13 @@
       <node id="2549723419575562612" at="44,40,45,22" concept="7" />
       <node id="2549723419575562610" at="17,0,19,0" concept="3" trace="myNode" />
       <node id="2549723419575562610" at="31,0,34,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2549723419575562610" at="20,0,24,0" concept="1" trace="Right_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2549723419575562610" at="20,0,24,0" concept="1" trace="Right_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2549723419575562612" at="37,72,41,5" concept="4" />
       <node id="2549723419575562610" at="25,0,30,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2549723419575562612" at="35,0,47,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2549723419575562610" at="27,26,28,18" />
       <scope id="2549723419575562610" at="31,39,32,31" />
-      <scope id="2549723419575562610" at="20,85,22,18" />
+      <scope id="2549723419575562610" at="20,83,22,18" />
       <scope id="2549723419575562612" at="38,26,40,30" />
       <scope id="2549723419575562610" at="31,0,34,0" />
       <scope id="2549723419575562610" at="20,0,24,0">
@@ -2491,22 +2491,22 @@
         <var name="style" id="2549723419575562612" />
       </scope>
       <scope id="2549723419575562612" at="35,0,47,0" />
-      <unit id="2549723419575562610" at="16,0,48,0" name="de.itemis.model.merge.editor.Right_EditorBuilder_a" />
+      <unit id="2549723419575562610" at="16,0,48,0" name="de.itemis.model.merge.editor.Right_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/2549723419575679307">
     <file name="Add_Editor.java">
-      <node id="2549723419575679307" at="11,79,12,69" concept="7" />
+      <node id="2549723419575679307" at="11,79,12,67" concept="7" />
       <node id="2549723419575679307" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2549723419575679307" at="11,79,12,69" />
+      <scope id="2549723419575679307" at="11,79,12,67" />
       <scope id="2549723419575679307" at="11,0,14,0">
         <var name="editorContext" id="2549723419575679307" />
         <var name="node" id="2549723419575679307" />
       </scope>
       <unit id="2549723419575679307" at="10,0,15,0" name="de.itemis.model.merge.editor.Add_Editor" />
     </file>
-    <file name="Add_EditorBuilder_a.java">
-      <node id="2549723419575679307" at="20,83,21,19" concept="12" />
+    <file name="Add_EditorBuilder.java">
+      <node id="2549723419575679307" at="20,81,21,19" concept="12" />
       <node id="2549723419575679307" at="21,19,22,18" concept="2" />
       <node id="2549723419575679307" at="27,26,28,18" concept="7" />
       <node id="2549723419575679307" at="31,39,32,31" concept="7" />
@@ -2520,13 +2520,13 @@
       <node id="2549723419575679314" at="44,40,45,22" concept="7" />
       <node id="2549723419575679307" at="17,0,19,0" concept="3" trace="myNode" />
       <node id="2549723419575679307" at="31,0,34,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2549723419575679307" at="20,0,24,0" concept="1" trace="Add_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2549723419575679307" at="20,0,24,0" concept="1" trace="Add_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2549723419575679314" at="37,72,41,5" concept="4" />
       <node id="2549723419575679307" at="25,0,30,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2549723419575679314" at="35,0,47,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2549723419575679307" at="27,26,28,18" />
       <scope id="2549723419575679307" at="31,39,32,31" />
-      <scope id="2549723419575679307" at="20,83,22,18" />
+      <scope id="2549723419575679307" at="20,81,22,18" />
       <scope id="2549723419575679314" at="38,26,40,30" />
       <scope id="2549723419575679307" at="31,0,34,0" />
       <scope id="2549723419575679307" at="20,0,24,0">
@@ -2540,22 +2540,22 @@
         <var name="style" id="2549723419575679314" />
       </scope>
       <scope id="2549723419575679314" at="35,0,47,0" />
-      <unit id="2549723419575679307" at="16,0,48,0" name="de.itemis.model.merge.editor.Add_EditorBuilder_a" />
+      <unit id="2549723419575679307" at="16,0,48,0" name="de.itemis.model.merge.editor.Add_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/2549723419575796310">
     <file name="Drop_Editor.java">
-      <node id="2549723419575796310" at="11,79,12,70" concept="7" />
+      <node id="2549723419575796310" at="11,79,12,68" concept="7" />
       <node id="2549723419575796310" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2549723419575796310" at="11,79,12,70" />
+      <scope id="2549723419575796310" at="11,79,12,68" />
       <scope id="2549723419575796310" at="11,0,14,0">
         <var name="editorContext" id="2549723419575796310" />
         <var name="node" id="2549723419575796310" />
       </scope>
       <unit id="2549723419575796310" at="10,0,15,0" name="de.itemis.model.merge.editor.Drop_Editor" />
     </file>
-    <file name="Drop_EditorBuilder_a.java">
-      <node id="2549723419575796310" at="20,84,21,19" concept="12" />
+    <file name="Drop_EditorBuilder.java">
+      <node id="2549723419575796310" at="20,82,21,19" concept="12" />
       <node id="2549723419575796310" at="21,19,22,18" concept="2" />
       <node id="2549723419575796310" at="27,26,28,18" concept="7" />
       <node id="2549723419575796310" at="31,39,32,31" concept="7" />
@@ -2569,13 +2569,13 @@
       <node id="2549723419575796312" at="44,40,45,22" concept="7" />
       <node id="2549723419575796310" at="17,0,19,0" concept="3" trace="myNode" />
       <node id="2549723419575796310" at="31,0,34,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2549723419575796310" at="20,0,24,0" concept="1" trace="Drop_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2549723419575796310" at="20,0,24,0" concept="1" trace="Drop_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2549723419575796312" at="37,72,41,5" concept="4" />
       <node id="2549723419575796310" at="25,0,30,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2549723419575796312" at="35,0,47,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2549723419575796310" at="27,26,28,18" />
       <scope id="2549723419575796310" at="31,39,32,31" />
-      <scope id="2549723419575796310" at="20,84,22,18" />
+      <scope id="2549723419575796310" at="20,82,22,18" />
       <scope id="2549723419575796312" at="38,26,40,30" />
       <scope id="2549723419575796310" at="31,0,34,0" />
       <scope id="2549723419575796310" at="20,0,24,0">
@@ -2589,22 +2589,22 @@
         <var name="style" id="2549723419575796312" />
       </scope>
       <scope id="2549723419575796312" at="35,0,47,0" />
-      <unit id="2549723419575796310" at="16,0,48,0" name="de.itemis.model.merge.editor.Drop_EditorBuilder_a" />
+      <unit id="2549723419575796310" at="16,0,48,0" name="de.itemis.model.merge.editor.Drop_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/2549723419575913585">
     <file name="Keep_Editor.java">
-      <node id="2549723419575913585" at="11,79,12,70" concept="7" />
+      <node id="2549723419575913585" at="11,79,12,68" concept="7" />
       <node id="2549723419575913585" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2549723419575913585" at="11,79,12,70" />
+      <scope id="2549723419575913585" at="11,79,12,68" />
       <scope id="2549723419575913585" at="11,0,14,0">
         <var name="editorContext" id="2549723419575913585" />
         <var name="node" id="2549723419575913585" />
       </scope>
       <unit id="2549723419575913585" at="10,0,15,0" name="de.itemis.model.merge.editor.Keep_Editor" />
     </file>
-    <file name="Keep_EditorBuilder_a.java">
-      <node id="2549723419575913585" at="20,84,21,19" concept="12" />
+    <file name="Keep_EditorBuilder.java">
+      <node id="2549723419575913585" at="20,82,21,19" concept="12" />
       <node id="2549723419575913585" at="21,19,22,18" concept="2" />
       <node id="2549723419575913585" at="27,26,28,18" concept="7" />
       <node id="2549723419575913585" at="31,39,32,31" concept="7" />
@@ -2618,13 +2618,13 @@
       <node id="2549723419575913592" at="44,40,45,22" concept="7" />
       <node id="2549723419575913585" at="17,0,19,0" concept="3" trace="myNode" />
       <node id="2549723419575913585" at="31,0,34,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2549723419575913585" at="20,0,24,0" concept="1" trace="Keep_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2549723419575913585" at="20,0,24,0" concept="1" trace="Keep_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2549723419575913592" at="37,72,41,5" concept="4" />
       <node id="2549723419575913585" at="25,0,30,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2549723419575913592" at="35,0,47,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2549723419575913585" at="27,26,28,18" />
       <scope id="2549723419575913585" at="31,39,32,31" />
-      <scope id="2549723419575913585" at="20,84,22,18" />
+      <scope id="2549723419575913585" at="20,82,22,18" />
       <scope id="2549723419575913592" at="38,26,40,30" />
       <scope id="2549723419575913585" at="31,0,34,0" />
       <scope id="2549723419575913585" at="20,0,24,0">
@@ -2638,7 +2638,7 @@
         <var name="style" id="2549723419575913592" />
       </scope>
       <scope id="2549723419575913592" at="35,0,47,0" />
-      <unit id="2549723419575913585" at="16,0,48,0" name="de.itemis.model.merge.editor.Keep_EditorBuilder_a" />
+      <unit id="2549723419575913585" at="16,0,48,0" name="de.itemis.model.merge.editor.Keep_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/2549723419576219968">
@@ -2766,12 +2766,12 @@
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/34191549137279353">
     <file name="ManualRefAction_Editor.java">
-      <node id="34191549137279353" at="11,79,12,81" concept="7" />
-      <node id="34191549137279353" at="14,82,15,84" concept="7" />
+      <node id="34191549137279353" at="11,79,12,79" concept="7" />
+      <node id="34191549137279353" at="14,82,15,82" concept="7" />
       <node id="34191549137279353" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="34191549137279353" at="14,0,17,0" concept="5" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="34191549137279353" at="11,79,12,81" />
-      <scope id="34191549137279353" at="14,82,15,84" />
+      <scope id="34191549137279353" at="11,79,12,79" />
+      <scope id="34191549137279353" at="14,82,15,82" />
       <scope id="34191549137279353" at="11,0,14,0">
         <var name="editorContext" id="34191549137279353" />
         <var name="node" id="34191549137279353" />
@@ -2782,8 +2782,8 @@
       </scope>
       <unit id="34191549137279353" at="10,0,18,0" name="de.itemis.model.merge.editor.ManualRefAction_Editor" />
     </file>
-    <file name="ManualRefAction_EditorBuilder_a.java">
-      <node id="34191549137279353" at="22,95,23,19" concept="12" />
+    <file name="ManualRefAction_EditorBuilder.java">
+      <node id="34191549137279353" at="22,93,23,19" concept="12" />
       <node id="34191549137279353" at="23,19,24,18" concept="2" />
       <node id="34191549137279353" at="29,26,30,18" concept="7" />
       <node id="34191549137279353" at="33,39,34,32" concept="7" />
@@ -2805,14 +2805,14 @@
       <node id="34191549137279370" at="56,142,57,22" concept="7" />
       <node id="34191549137279353" at="19,0,21,0" concept="3" trace="myNode" />
       <node id="34191549137279353" at="33,0,36,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="34191549137279353" at="22,0,26,0" concept="1" trace="ManualRefAction_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="34191549137279353" at="22,0,26,0" concept="1" trace="ManualRefAction_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="34191549137279370" at="55,0,59,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="34191549137279353" at="27,0,32,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="34191549137279353" at="37,0,46,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="34191549137279368" at="46,0,55,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="34191549137279353" at="29,26,30,18" />
       <scope id="34191549137279353" at="33,39,34,32" />
-      <scope id="34191549137279353" at="22,95,24,18" />
+      <scope id="34191549137279353" at="22,93,24,18" />
       <scope id="34191549137279370" at="55,42,57,22">
         <var name="editorCell" id="34191549137279370" />
       </scope>
@@ -2832,10 +2832,10 @@
       </scope>
       <scope id="34191549137279353" at="37,0,46,0" />
       <scope id="34191549137279368" at="46,0,55,0" />
-      <unit id="34191549137279353" at="18,0,60,0" name="de.itemis.model.merge.editor.ManualRefAction_EditorBuilder_a" />
+      <unit id="34191549137279353" at="18,0,60,0" name="de.itemis.model.merge.editor.ManualRefAction_EditorBuilder" />
     </file>
-    <file name="ManualRefAction_InspectorBuilder_a.java">
-      <node id="34191549137279353" at="15,98,16,19" concept="12" />
+    <file name="ManualRefAction_InspectorBuilder.java">
+      <node id="34191549137279353" at="15,96,16,19" concept="12" />
       <node id="34191549137279353" at="16,19,17,18" concept="2" />
       <node id="34191549137279353" at="22,26,23,18" concept="7" />
       <node id="34191549137279353" at="26,39,27,32" concept="7" />
@@ -2845,13 +2845,13 @@
       <node id="34191549137279376" at="34,33,35,24" concept="7" />
       <node id="34191549137279353" at="12,0,14,0" concept="3" trace="myNode" />
       <node id="34191549137279353" at="26,0,29,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="34191549137279353" at="15,0,19,0" concept="1" trace="ManualRefAction_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="34191549137279353" at="15,0,19,0" concept="1" trace="ManualRefAction_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="34191549137279353" at="20,0,25,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="34191549137279376" at="30,43,36,5" concept="0" />
       <node id="34191549137279376" at="30,0,38,0" concept="5" trace="createNextEditor_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="34191549137279353" at="22,26,23,18" />
       <scope id="34191549137279353" at="26,39,27,32" />
-      <scope id="34191549137279353" at="15,98,17,18" />
+      <scope id="34191549137279353" at="15,96,17,18" />
       <scope id="34191549137279353" at="26,0,29,0" />
       <scope id="34191549137279353" at="15,0,19,0">
         <var name="context" id="34191549137279353" />
@@ -2863,7 +2863,7 @@
       <scope id="34191549137279353" at="20,0,25,0" />
       <scope id="34191549137279376" at="30,43,36,5" />
       <scope id="34191549137279376" at="30,0,38,0" />
-      <unit id="34191549137279353" at="11,0,39,0" name="de.itemis.model.merge.editor.ManualRefAction_InspectorBuilder_a" />
+      <unit id="34191549137279353" at="11,0,39,0" name="de.itemis.model.merge.editor.ManualRefAction_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/3634082258346717380">
@@ -3494,17 +3494,17 @@
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/6402745832171994443">
     <file name="ModelMergingConfiguration_Editor.java">
-      <node id="6402745832171994443" at="11,79,12,91" concept="7" />
+      <node id="6402745832171994443" at="11,79,12,89" concept="7" />
       <node id="6402745832171994443" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6402745832171994443" at="11,79,12,91" />
+      <scope id="6402745832171994443" at="11,79,12,89" />
       <scope id="6402745832171994443" at="11,0,14,0">
         <var name="editorContext" id="6402745832171994443" />
         <var name="node" id="6402745832171994443" />
       </scope>
       <unit id="6402745832171994443" at="10,0,15,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_Editor" />
     </file>
-    <file name="ModelMergingConfiguration_EditorBuilder_a.java">
-      <node id="6402745832171994443" at="52,105,53,19" concept="12" />
+    <file name="ModelMergingConfiguration_EditorBuilder.java">
+      <node id="6402745832171994443" at="52,103,53,19" concept="12" />
       <node id="6402745832171994443" at="53,19,54,18" concept="2" />
       <node id="6402745832171994443" at="59,26,60,18" concept="7" />
       <node id="6402745832171994443" at="63,39,64,32" concept="7" />
@@ -3720,7 +3720,7 @@
       <node id="6402745832171994443" at="306,7,309,7" concept="4" />
       <node id="6402745832171994443" at="325,0,328,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="7393715464543066326" at="391,0,394,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6402745832171994443" at="52,0,56,0" concept="1" trace="ModelMergingConfiguration_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6402745832171994443" at="52,0,56,0" concept="1" trace="ModelMergingConfiguration_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6402745832171994443" at="132,0,136,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6402745832171994443" at="140,0,144,0" concept="1" trace="leftSingleRoleHandler_tyqvdt_b1a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6402745832171994443" at="203,0,207,0" concept="5" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -3789,7 +3789,7 @@
       <scope id="7393715464543066326" at="391,41,392,32" />
       <scope id="7393715464543066326" at="397,28,398,20" />
       <scope id="7393715464543066327" at="418,17,419,42" />
-      <scope id="6402745832171994443" at="52,105,54,18" />
+      <scope id="6402745832171994443" at="52,103,54,18" />
       <scope id="6402745832172171479" at="107,74,109,145">
         <var name="manager" id="6402745832172171479" />
       </scope>
@@ -3986,30 +3986,30 @@
         <var name="referenceLink" id="6402745832171994443" />
       </scope>
       <scope id="6402745832171994443" at="345,0,380,0" />
-      <unit id="6402745832171994443" at="424,0,427,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder_a$PROPS" />
-      <unit id="6402745832171994443" at="428,0,432,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder_a$CONCEPTS" />
-      <unit id="6402745832171994443" at="433,0,439,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder_a$LINKS" />
-      <unit id="6402745832171994443" at="347,42,362,5" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder_a$1" />
-      <unit id="7393715464543066326" at="380,0,423,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder_a$Inline_Builder0" />
-      <unit id="6402745832171994443" at="136,0,187,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder_a$leftSingleRoleHandler_tyqvdt_b1a" />
-      <unit id="6402745832171994443" at="207,0,258,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder_a$rightSingleRoleHandler_tyqvdt_b2a" />
-      <unit id="6402745832171994443" at="278,0,329,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder_a$resultSingleRoleHandler_tyqvdt_b3a" />
-      <unit id="6402745832171994443" at="48,0,440,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder_a" />
+      <unit id="6402745832171994443" at="424,0,427,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder$PROPS" />
+      <unit id="6402745832171994443" at="428,0,432,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder$CONCEPTS" />
+      <unit id="6402745832171994443" at="433,0,439,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder$LINKS" />
+      <unit id="6402745832171994443" at="347,42,362,5" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder$1" />
+      <unit id="7393715464543066326" at="380,0,423,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder$Inline_Builder0" />
+      <unit id="6402745832171994443" at="136,0,187,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder$leftSingleRoleHandler_tyqvdt_b1a" />
+      <unit id="6402745832171994443" at="207,0,258,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder$rightSingleRoleHandler_tyqvdt_b2a" />
+      <unit id="6402745832171994443" at="278,0,329,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder$resultSingleRoleHandler_tyqvdt_b3a" />
+      <unit id="6402745832171994443" at="48,0,440,0" name="de.itemis.model.merge.editor.ModelMergingConfiguration_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/7555554651740536659">
     <file name="AbstractMergeAction_Editor.java">
-      <node id="7555554651740536659" at="11,79,12,85" concept="7" />
+      <node id="7555554651740536659" at="11,79,12,83" concept="7" />
       <node id="7555554651740536659" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7555554651740536659" at="11,79,12,85" />
+      <scope id="7555554651740536659" at="11,79,12,83" />
       <scope id="7555554651740536659" at="11,0,14,0">
         <var name="editorContext" id="7555554651740536659" />
         <var name="node" id="7555554651740536659" />
       </scope>
       <unit id="7555554651740536659" at="10,0,15,0" name="de.itemis.model.merge.editor.AbstractMergeAction_Editor" />
     </file>
-    <file name="AbstractMergeAction_EditorBuilder_a.java">
-      <node id="7555554651740536659" at="16,99,17,19" concept="12" />
+    <file name="AbstractMergeAction_EditorBuilder.java">
+      <node id="7555554651740536659" at="16,97,17,19" concept="12" />
       <node id="7555554651740536659" at="17,19,18,18" concept="2" />
       <node id="7555554651740536659" at="23,26,24,18" concept="7" />
       <node id="7555554651740536659" at="27,39,28,31" concept="7" />
@@ -4020,13 +4020,13 @@
       <node id="7555554651740536661" at="37,5,38,22" concept="7" />
       <node id="7555554651740536659" at="13,0,15,0" concept="3" trace="myNode" />
       <node id="7555554651740536659" at="27,0,30,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="7555554651740536659" at="16,0,20,0" concept="1" trace="AbstractMergeAction_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7555554651740536659" at="16,0,20,0" concept="1" trace="AbstractMergeAction_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7555554651740536661" at="33,72,37,5" concept="4" />
       <node id="7555554651740536659" at="21,0,26,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7555554651740536661" at="31,0,40,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="7555554651740536659" at="23,26,24,18" />
       <scope id="7555554651740536659" at="27,39,28,31" />
-      <scope id="7555554651740536659" at="16,99,18,18" />
+      <scope id="7555554651740536659" at="16,97,18,18" />
       <scope id="7555554651740536661" at="34,26,36,30" />
       <scope id="7555554651740536659" at="27,0,30,0" />
       <scope id="7555554651740536659" at="16,0,20,0">
@@ -4039,22 +4039,22 @@
         <var name="editorCell" id="7555554651740536661" />
       </scope>
       <scope id="7555554651740536661" at="31,0,40,0" />
-      <unit id="7555554651740536659" at="12,0,41,0" name="de.itemis.model.merge.editor.AbstractMergeAction_EditorBuilder_a" />
+      <unit id="7555554651740536659" at="12,0,41,0" name="de.itemis.model.merge.editor.AbstractMergeAction_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/8283875217850658011">
     <file name="RootMergingPolicy_Editor.java">
-      <node id="8283875217850658011" at="11,79,12,83" concept="7" />
+      <node id="8283875217850658011" at="11,79,12,81" concept="7" />
       <node id="8283875217850658011" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8283875217850658011" at="11,79,12,83" />
+      <scope id="8283875217850658011" at="11,79,12,81" />
       <scope id="8283875217850658011" at="11,0,14,0">
         <var name="editorContext" id="8283875217850658011" />
         <var name="node" id="8283875217850658011" />
       </scope>
       <unit id="8283875217850658011" at="10,0,15,0" name="de.itemis.model.merge.editor.RootMergingPolicy_Editor" />
     </file>
-    <file name="RootMergingPolicy_EditorBuilder_a.java">
-      <node id="8283875217850658011" at="31,97,32,19" concept="12" />
+    <file name="RootMergingPolicy_EditorBuilder.java">
+      <node id="8283875217850658011" at="31,95,32,19" concept="12" />
       <node id="8283875217850658011" at="32,19,33,18" concept="2" />
       <node id="8283875217850658011" at="38,26,39,18" concept="7" />
       <node id="8283875217850658011" at="42,39,43,32" concept="7" />
@@ -4192,7 +4192,7 @@
       <node id="8283875217850658011" at="255,87,258,7" concept="4" />
       <node id="8283875217850658011" at="258,7,261,7" concept="4" />
       <node id="8283875217850658011" at="277,0,280,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8283875217850658011" at="31,0,35,0" concept="1" trace="RootMergingPolicy_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8283875217850658011" at="31,0,35,0" concept="1" trace="RootMergingPolicy_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8283875217850658011" at="84,0,88,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8283875217850658011" at="92,0,96,0" concept="1" trace="existingInBothSidesSingleRoleHandler_5ur8z7_b0a0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="8283875217850658011" at="155,0,159,0" concept="5" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -4240,7 +4240,7 @@
       <scope id="8283875217850658011" at="259,42,260,58" />
       <scope id="8283875217850658011" at="273,17,274,42" />
       <scope id="8283875217850658011" at="277,40,278,38" />
-      <scope id="8283875217850658011" at="31,97,33,18" />
+      <scope id="8283875217850658011" at="31,95,33,18" />
       <scope id="8283875217850658011" at="84,40,86,33">
         <var name="provider" id="8283875217850658011" />
       </scope>
@@ -4371,26 +4371,26 @@
       <scope id="8283875217850658011" at="121,0,135,0" />
       <scope id="8283875217850658011" at="192,0,206,0" />
       <scope id="8283875217850658011" at="263,0,277,0" />
-      <unit id="8283875217850658011" at="282,0,287,0" name="de.itemis.model.merge.editor.RootMergingPolicy_EditorBuilder_a$LINKS" />
-      <unit id="8283875217850658011" at="88,0,139,0" name="de.itemis.model.merge.editor.RootMergingPolicy_EditorBuilder_a$existingInBothSidesSingleRoleHandler_5ur8z7_b0a0" />
-      <unit id="8283875217850658011" at="159,0,210,0" name="de.itemis.model.merge.editor.RootMergingPolicy_EditorBuilder_a$existingOnlyLeftSingleRoleHandler_5ur8z7_b1a0" />
-      <unit id="8283875217850658011" at="230,0,281,0" name="de.itemis.model.merge.editor.RootMergingPolicy_EditorBuilder_a$existingOnlyRightSingleRoleHandler_5ur8z7_b2a0" />
-      <unit id="8283875217850658011" at="27,0,288,0" name="de.itemis.model.merge.editor.RootMergingPolicy_EditorBuilder_a" />
+      <unit id="8283875217850658011" at="282,0,287,0" name="de.itemis.model.merge.editor.RootMergingPolicy_EditorBuilder$LINKS" />
+      <unit id="8283875217850658011" at="88,0,139,0" name="de.itemis.model.merge.editor.RootMergingPolicy_EditorBuilder$existingInBothSidesSingleRoleHandler_5ur8z7_b0a0" />
+      <unit id="8283875217850658011" at="159,0,210,0" name="de.itemis.model.merge.editor.RootMergingPolicy_EditorBuilder$existingOnlyLeftSingleRoleHandler_5ur8z7_b1a0" />
+      <unit id="8283875217850658011" at="230,0,281,0" name="de.itemis.model.merge.editor.RootMergingPolicy_EditorBuilder$existingOnlyRightSingleRoleHandler_5ur8z7_b2a0" />
+      <unit id="8283875217850658011" at="27,0,288,0" name="de.itemis.model.merge.editor.RootMergingPolicy_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/8422540920006555167">
     <file name="OptionalPolicy_Editor.java">
-      <node id="8422540920006555167" at="11,79,12,80" concept="7" />
+      <node id="8422540920006555167" at="11,79,12,78" concept="7" />
       <node id="8422540920006555167" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8422540920006555167" at="11,79,12,80" />
+      <scope id="8422540920006555167" at="11,79,12,78" />
       <scope id="8422540920006555167" at="11,0,14,0">
         <var name="editorContext" id="8422540920006555167" />
         <var name="node" id="8422540920006555167" />
       </scope>
       <unit id="8422540920006555167" at="10,0,15,0" name="de.itemis.model.merge.editor.OptionalPolicy_Editor" />
     </file>
-    <file name="OptionalPolicy_EditorBuilder_a.java">
-      <node id="8422540920006555167" at="48,94,49,19" concept="12" />
+    <file name="OptionalPolicy_EditorBuilder.java">
+      <node id="8422540920006555167" at="48,92,49,19" concept="12" />
       <node id="8422540920006555167" at="49,19,50,18" concept="2" />
       <node id="8422540920006555167" at="55,26,56,18" concept="7" />
       <node id="8422540920006555167" at="59,39,60,32" concept="7" />
@@ -4482,7 +4482,7 @@
       <node id="8422540920006555167" at="186,87,189,7" concept="4" />
       <node id="8422540920006555167" at="189,7,192,7" concept="4" />
       <node id="8422540920006555167" at="208,0,211,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8422540920006555167" at="48,0,52,0" concept="1" trace="OptionalPolicy_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8422540920006555167" at="48,0,52,0" concept="1" trace="OptionalPolicy_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8422540920006555167" at="94,0,98,5" concept="4" />
       <node id="8422540920006555167" at="157,0,161,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8422540920006555167" at="165,0,169,0" concept="1" trace="actionSingleRoleHandler_p64o25_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -4514,7 +4514,7 @@
       <scope id="8422540920006555167" at="190,42,191,47" />
       <scope id="8422540920006555167" at="204,17,205,42" />
       <scope id="8422540920006555167" at="208,40,209,27" />
-      <scope id="8422540920006555167" at="48,94,50,18" />
+      <scope id="8422540920006555167" at="48,92,50,18" />
       <scope id="8422540920006555167" at="95,40,97,44" />
       <scope id="8422540920006555167" at="102,73,104,145">
         <var name="manager" id="8422540920006555167" />
@@ -4601,28 +4601,28 @@
         <var name="referenceLink" id="8422540920006555167" />
       </scope>
       <scope id="8422540920006555167" at="73,0,108,0" />
-      <unit id="8422540920006555167" at="223,0,226,0" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder_a$PROPS" />
-      <unit id="8422540920006555167" at="213,0,217,0" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder_a$LINKS" />
-      <unit id="8422540920006555167" at="218,0,222,0" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder_a$CONCEPTS" />
-      <unit id="8422540920006555167" at="75,42,90,5" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder_a$1" />
-      <unit id="8422540920006555178" at="108,0,151,0" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder_a$Inline_Builder0" />
-      <unit id="8422540920006555167" at="161,0,212,0" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder_a$actionSingleRoleHandler_p64o25_c0" />
-      <unit id="8422540920006555167" at="44,0,227,0" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder_a" />
+      <unit id="8422540920006555167" at="223,0,226,0" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder$PROPS" />
+      <unit id="8422540920006555167" at="213,0,217,0" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder$LINKS" />
+      <unit id="8422540920006555167" at="218,0,222,0" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder$CONCEPTS" />
+      <unit id="8422540920006555167" at="75,42,90,5" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder$1" />
+      <unit id="8422540920006555178" at="108,0,151,0" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder$Inline_Builder0" />
+      <unit id="8422540920006555167" at="161,0,212,0" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder$actionSingleRoleHandler_p64o25_c0" />
+      <unit id="8422540920006555167" at="44,0,227,0" name="de.itemis.model.merge.editor.OptionalPolicy_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/8422540920006612604">
     <file name="MultiChildPolicy_Editor.java">
-      <node id="8422540920006612604" at="11,79,12,82" concept="7" />
+      <node id="8422540920006612604" at="11,79,12,80" concept="7" />
       <node id="8422540920006612604" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8422540920006612604" at="11,79,12,82" />
+      <scope id="8422540920006612604" at="11,79,12,80" />
       <scope id="8422540920006612604" at="11,0,14,0">
         <var name="editorContext" id="8422540920006612604" />
         <var name="node" id="8422540920006612604" />
       </scope>
       <unit id="8422540920006612604" at="10,0,15,0" name="de.itemis.model.merge.editor.MultiChildPolicy_Editor" />
     </file>
-    <file name="MultiChildPolicy_EditorBuilder_a.java">
-      <node id="8422540920006612604" at="53,96,54,19" concept="12" />
+    <file name="MultiChildPolicy_EditorBuilder.java">
+      <node id="8422540920006612604" at="53,94,54,19" concept="12" />
       <node id="8422540920006612604" at="54,19,55,18" concept="2" />
       <node id="8422540920006612604" at="60,26,61,18" concept="7" />
       <node id="8422540920006612604" at="64,39,65,32" concept="7" />
@@ -4726,7 +4726,7 @@
       <node id="8422540920006612604" at="185,0,188,0" concept="5" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="8422540920006612604" at="188,0,191,0" concept="5" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="8422540920006612604" at="232,96,235,9" concept="4" />
-      <node id="8422540920006612604" at="53,0,57,0" concept="1" trace="MultiChildPolicy_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8422540920006612604" at="53,0,57,0" concept="1" trace="MultiChildPolicy_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8422540920006612604" at="99,0,103,5" concept="4" />
       <node id="8422540920006612604" at="176,0,180,0" concept="1" trace="subPolicyListHandler_pupcu3_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="8422540920006612604" at="181,0,185,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -4765,7 +4765,7 @@
       <scope id="8422540920006612604" at="188,48,189,44" />
       <scope id="8422540920006612604" at="206,17,207,42" />
       <scope id="8422540920006612604" at="233,34,234,91" />
-      <scope id="8422540920006612604" at="53,96,55,18" />
+      <scope id="8422540920006612604" at="53,94,55,18" />
       <scope id="8422540920006612604" at="100,40,102,44" />
       <scope id="8422540920006612604" at="107,73,109,145">
         <var name="manager" id="8422540920006612604" />
@@ -4861,28 +4861,28 @@
         <var name="referenceLink" id="8422540920006612604" />
       </scope>
       <scope id="8422540920006612604" at="78,0,113,0" />
-      <unit id="8422540920006612604" at="251,0,254,0" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder_a$PROPS" />
-      <unit id="8422540920006612604" at="240,0,244,0" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder_a$LINKS" />
-      <unit id="8422540920006612604" at="245,0,250,0" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder_a$CONCEPTS" />
-      <unit id="8422540920006612604" at="80,42,95,5" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder_a$1" />
-      <unit id="8422540920006612632" at="113,0,156,0" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder_a$Inline_Builder0" />
-      <unit id="8422540920006612604" at="172,0,239,0" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder_a$subPolicyListHandler_pupcu3_c0" />
-      <unit id="8422540920006612604" at="49,0,255,0" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder_a" />
+      <unit id="8422540920006612604" at="251,0,254,0" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder$PROPS" />
+      <unit id="8422540920006612604" at="240,0,244,0" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder$LINKS" />
+      <unit id="8422540920006612604" at="245,0,250,0" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder$CONCEPTS" />
+      <unit id="8422540920006612604" at="80,42,95,5" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder$1" />
+      <unit id="8422540920006612632" at="113,0,156,0" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder$Inline_Builder0" />
+      <unit id="8422540920006612604" at="172,0,239,0" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder$subPolicyListHandler_pupcu3_c0" />
+      <unit id="8422540920006612604" at="49,0,255,0" name="de.itemis.model.merge.editor.MultiChildPolicy_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7ce58762-07f2-48dd-b02a-bba992bbcb09(de.itemis.model.merge.editor)/8422540920006699906">
     <file name="SingletonPolicy_Editor.java">
-      <node id="8422540920006699906" at="11,79,12,81" concept="7" />
+      <node id="8422540920006699906" at="11,79,12,79" concept="7" />
       <node id="8422540920006699906" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8422540920006699906" at="11,79,12,81" />
+      <scope id="8422540920006699906" at="11,79,12,79" />
       <scope id="8422540920006699906" at="11,0,14,0">
         <var name="editorContext" id="8422540920006699906" />
         <var name="node" id="8422540920006699906" />
       </scope>
       <unit id="8422540920006699906" at="10,0,15,0" name="de.itemis.model.merge.editor.SingletonPolicy_Editor" />
     </file>
-    <file name="SingletonPolicy_EditorBuilder_a.java">
-      <node id="8422540920006699906" at="48,95,49,19" concept="12" />
+    <file name="SingletonPolicy_EditorBuilder.java">
+      <node id="8422540920006699906" at="48,93,49,19" concept="12" />
       <node id="8422540920006699906" at="49,19,50,18" concept="2" />
       <node id="8422540920006699906" at="55,26,56,18" concept="7" />
       <node id="8422540920006699906" at="59,39,60,32" concept="7" />
@@ -4974,7 +4974,7 @@
       <node id="8422540920006699906" at="186,87,189,7" concept="4" />
       <node id="8422540920006699906" at="189,7,192,7" concept="4" />
       <node id="8422540920006699906" at="208,0,211,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8422540920006699906" at="48,0,52,0" concept="1" trace="SingletonPolicy_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8422540920006699906" at="48,0,52,0" concept="1" trace="SingletonPolicy_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8422540920006699906" at="94,0,98,5" concept="4" />
       <node id="8422540920006699906" at="157,0,161,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8422540920006699906" at="165,0,169,0" concept="1" trace="actionSingleRoleHandler_glhbwn_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -5006,7 +5006,7 @@
       <scope id="8422540920006699906" at="190,42,191,47" />
       <scope id="8422540920006699906" at="204,17,205,42" />
       <scope id="8422540920006699906" at="208,40,209,27" />
-      <scope id="8422540920006699906" at="48,95,50,18" />
+      <scope id="8422540920006699906" at="48,93,50,18" />
       <scope id="8422540920006699906" at="95,40,97,44" />
       <scope id="8422540920006699906" at="102,73,104,145">
         <var name="manager" id="8422540920006699906" />
@@ -5093,13 +5093,13 @@
         <var name="referenceLink" id="8422540920006699906" />
       </scope>
       <scope id="8422540920006699906" at="73,0,108,0" />
-      <unit id="8422540920006699906" at="223,0,226,0" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder_a$PROPS" />
-      <unit id="8422540920006699906" at="213,0,217,0" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder_a$LINKS" />
-      <unit id="8422540920006699906" at="218,0,222,0" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder_a$CONCEPTS" />
-      <unit id="8422540920006699906" at="75,42,90,5" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder_a$1" />
-      <unit id="8422540920006699917" at="108,0,151,0" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder_a$Inline_Builder0" />
-      <unit id="8422540920006699906" at="161,0,212,0" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder_a$actionSingleRoleHandler_glhbwn_c0" />
-      <unit id="8422540920006699906" at="44,0,227,0" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder_a" />
+      <unit id="8422540920006699906" at="223,0,226,0" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder$PROPS" />
+      <unit id="8422540920006699906" at="213,0,217,0" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder$LINKS" />
+      <unit id="8422540920006699906" at="218,0,222,0" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder$CONCEPTS" />
+      <unit id="8422540920006699906" at="75,42,90,5" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder$1" />
+      <unit id="8422540920006699917" at="108,0,151,0" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder$Inline_Builder0" />
+      <unit id="8422540920006699906" at="161,0,212,0" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder$actionSingleRoleHandler_glhbwn_c0" />
+      <unit id="8422540920006699906" at="44,0,227,0" name="de.itemis.model.merge.editor.SingletonPolicy_EditorBuilder" />
     </file>
   </root>
 </debug-info>

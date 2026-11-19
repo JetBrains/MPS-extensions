@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class LogExpr_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new LogExpr_EditorBuilder_a(editorContext, node).createCell();
+    return new LogExpr_EditorBuilder(editorContext, node).createCell();
   }
 }

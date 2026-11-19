@@ -18,6 +18,6 @@ public class DoWhileStatement_InsideActivityDiagram_Editor extends DefaultNodeEd
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new DoWhileStatement_InsideActivityDiagram_EditorBuilder_a(editorContext, node).createCell();
+    return new DoWhileStatement_InsideActivityDiagram_EditorBuilder(editorContext, node).createCell();
   }
 }

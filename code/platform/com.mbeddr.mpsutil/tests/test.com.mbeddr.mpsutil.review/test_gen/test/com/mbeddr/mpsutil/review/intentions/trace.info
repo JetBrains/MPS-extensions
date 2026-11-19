@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:a17bba3e-c6c6-457d-9c32-3a8ecaaceca6(test.com.mbeddr.mpsutil.review.intentions@tests)/4588352725438786860">
+    <file name="ReviewTestUtil.java">
+      <node id="4588352725438828177" at="37,198,38,71" concept="1" />
+      <node id="4588352725438828183" at="38,71,39,71" concept="1" />
+      <node id="4588352725438786860" at="44,0,45,0" concept="3" trace="ReviewNote$Wo" />
+      <node id="4588352725438786860" at="48,0,49,0" concept="3" trace="created$HbXz" />
+      <node id="4588352725438786860" at="49,0,50,0" concept="3" trace="creator$E_ot" />
+      <node id="4588352725438828164" at="36,102,40,8" concept="1" />
+      <node id="4588352725438786862" at="36,0,42,0" concept="4" trace="normalizeVolatileNoteProperties#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/module/SRepository;)V" />
+      <scope id="4588352725438828171" at="37,198,39,71" />
+      <scope id="4588352725438828163" at="36,102,40,8" />
+      <scope id="4588352725438786862" at="36,0,42,0">
+        <var name="editedNode" id="4588352725438828159" />
+        <var name="repository" id="4588352725438828161" />
+      </scope>
+      <unit id="4588352725438786860" at="43,0,46,0" name="test.com.mbeddr.mpsutil.review.intentions.ReviewTestUtil$CONCEPTS" />
+      <unit id="4588352725438786860" at="47,0,51,0" name="test.com.mbeddr.mpsutil.review.intentions.ReviewTestUtil$PROPS" />
+      <unit id="4588352725438786860" at="20,0,52,0" name="test.com.mbeddr.mpsutil.review.intentions.ReviewTestUtil" />
+    </file>
+  </root>
+  <root nodeRef="r:a17bba3e-c6c6-457d-9c32-3a8ecaaceca6(test.com.mbeddr.mpsutil.review.intentions@tests)/4851349514255605725">
+    <file name="RemoveComments_notApplicableOnUncommentedNode_Test.java">
+      <node id="4851349514255605725" at="20,63,21,60" concept="5" />
+      <node id="4851349514255605725" at="25,85,26,36" concept="1" />
+      <node id="4851349514255605725" at="31,52,32,19" concept="5" />
+      <node id="4851349514255605725" at="36,51,37,53" concept="1" />
+      <node id="4851349514255605752" at="37,53,38,234" concept="1" />
+      <node id="4851349514255605725" at="17,0,19,0" concept="3" trace="ourParametersCacheExtension" />
+      <node id="4851349514255605725" at="20,0,23,0" concept="0" trace="RemoveComments_notApplicableOnUncommentedNode_Test#()V" />
+      <node id="4851349514255605725" at="31,0,34,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4851349514255605725" at="24,0,28,0" concept="2" trace="test_RemoveComments_notApplicableOnUncommentedNode#()V" />
+      <node id="4851349514255605725" at="35,0,40,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="4851349514255605725" at="20,63,21,60" />
+      <scope id="4851349514255605725" at="25,85,26,36" />
+      <scope id="4851349514255605725" at="31,52,32,19" />
+      <scope id="4851349514255605725" at="36,51,38,234" />
+      <scope id="4851349514255605725" at="20,0,23,0" />
+      <scope id="4851349514255605725" at="31,0,34,0">
+        <var name="owner" id="4851349514255605725" />
+      </scope>
+      <scope id="4851349514255605725" at="24,0,28,0" />
+      <scope id="4851349514255605725" at="35,0,40,0" />
+      <unit id="4851349514255605725" at="29,0,41,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_notApplicableOnUncommentedNode_Test$TestBody" />
+      <unit id="4851349514255605725" at="15,0,42,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_notApplicableOnUncommentedNode_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:a17bba3e-c6c6-457d-9c32-3a8ecaaceca6(test.com.mbeddr.mpsutil.review.intentions@tests)/4851349514255605756">
+    <file name="RemoveComments_onNote_removesRepliesToo_Test.java">
+      <node id="4851349514255605756" at="19,57,20,60" concept="5" />
+      <node id="4851349514255605756" at="24,79,25,36" concept="1" />
+      <node id="4851349514255605756" at="30,52,31,19" concept="5" />
+      <node id="4851349514255605756" at="35,51,36,72" concept="1" />
+      <node id="4851349514255605782" at="36,72,37,106" concept="1" />
+      <node id="4851349514255605756" at="16,0,18,0" concept="3" trace="ourParametersCacheExtension" />
+      <node id="4851349514255605756" at="19,0,22,0" concept="0" trace="RemoveComments_onNote_removesRepliesToo_Test#()V" />
+      <node id="4851349514255605756" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="4851349514255605756" at="23,0,27,0" concept="2" trace="test_RemoveComments_onNote_removesRepliesToo#()V" />
+      <node id="4851349514255605756" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="4851349514255605756" at="19,57,20,60" />
+      <scope id="4851349514255605756" at="24,79,25,36" />
+      <scope id="4851349514255605756" at="30,52,31,19" />
+      <scope id="4851349514255605756" at="35,51,37,106" />
+      <scope id="4851349514255605756" at="19,0,22,0" />
+      <scope id="4851349514255605756" at="30,0,33,0">
+        <var name="owner" id="4851349514255605756" />
+      </scope>
+      <scope id="4851349514255605756" at="23,0,27,0" />
+      <scope id="4851349514255605756" at="34,0,39,0" />
+      <unit id="4851349514255605756" at="28,0,40,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_onNote_removesRepliesToo_Test$TestBody" />
+      <unit id="4851349514255605756" at="14,0,41,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_onNote_removesRepliesToo_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:a17bba3e-c6c6-457d-9c32-3a8ecaaceca6(test.com.mbeddr.mpsutil.review.intentions@tests)/7898186768059677997">
+    <file name="RemoveComments_notApplicableWithoutComments_Test.java">
+      <node id="7898186768059677997" at="20,61,21,60" concept="5" />
+      <node id="7898186768059677997" at="25,83,26,36" concept="1" />
+      <node id="7898186768059677997" at="31,52,32,19" concept="5" />
+      <node id="7898186768059677997" at="36,51,37,53" concept="1" />
+      <node id="7898186768059678002" at="37,53,38,208" concept="1" />
+      <node id="7898186768059677997" at="17,0,19,0" concept="3" trace="ourParametersCacheExtension" />
+      <node id="7898186768059677997" at="20,0,23,0" concept="0" trace="RemoveComments_notApplicableWithoutComments_Test#()V" />
+      <node id="7898186768059677997" at="31,0,34,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7898186768059677997" at="24,0,28,0" concept="2" trace="test_RemoveComments_notApplicableWithoutComments#()V" />
+      <node id="7898186768059677997" at="35,0,40,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="7898186768059677997" at="20,61,21,60" />
+      <scope id="7898186768059677997" at="25,83,26,36" />
+      <scope id="7898186768059677997" at="31,52,32,19" />
+      <scope id="7898186768059677997" at="36,51,38,208" />
+      <scope id="7898186768059677997" at="20,0,23,0" />
+      <scope id="7898186768059677997" at="31,0,34,0">
+        <var name="owner" id="7898186768059677997" />
+      </scope>
+      <scope id="7898186768059677997" at="24,0,28,0" />
+      <scope id="7898186768059677997" at="35,0,40,0" />
+      <unit id="7898186768059677997" at="29,0,41,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_notApplicableWithoutComments_Test$TestBody" />
+      <unit id="7898186768059677997" at="15,0,42,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_notApplicableWithoutComments_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:a17bba3e-c6c6-457d-9c32-3a8ecaaceca6(test.com.mbeddr.mpsutil.review.intentions@tests)/7898186768059678004">
+    <file name="RemoveComments_applicableWithComment_Test.java">
+      <node id="7898186768059678004" at="20,54,21,60" concept="5" />
+      <node id="7898186768059678004" at="25,76,26,36" concept="1" />
+      <node id="7898186768059678004" at="31,52,32,19" concept="5" />
+      <node id="7898186768059678004" at="36,51,37,53" concept="1" />
+      <node id="7898186768059678013" at="37,53,38,215" concept="1" />
+      <node id="7898186768059678004" at="17,0,19,0" concept="3" trace="ourParametersCacheExtension" />
+      <node id="7898186768059678004" at="20,0,23,0" concept="0" trace="RemoveComments_applicableWithComment_Test#()V" />
+      <node id="7898186768059678004" at="31,0,34,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7898186768059678004" at="24,0,28,0" concept="2" trace="test_RemoveComments_applicableWithComment#()V" />
+      <node id="7898186768059678004" at="35,0,40,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="7898186768059678004" at="20,54,21,60" />
+      <scope id="7898186768059678004" at="25,76,26,36" />
+      <scope id="7898186768059678004" at="31,52,32,19" />
+      <scope id="7898186768059678004" at="36,51,38,215" />
+      <scope id="7898186768059678004" at="20,0,23,0" />
+      <scope id="7898186768059678004" at="31,0,34,0">
+        <var name="owner" id="7898186768059678004" />
+      </scope>
+      <scope id="7898186768059678004" at="24,0,28,0" />
+      <scope id="7898186768059678004" at="35,0,40,0" />
+      <unit id="7898186768059678004" at="29,0,41,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_applicableWithComment_Test$TestBody" />
+      <unit id="7898186768059678004" at="15,0,42,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_applicableWithComment_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:a17bba3e-c6c6-457d-9c32-3a8ecaaceca6(test.com.mbeddr.mpsutil.review.intentions@tests)/7898186768059944989">
+    <file name="AddComment_createsNoteAttachedToNodeAndCell_Test.java">
+      <node id="7898186768059944989" at="19,61,20,60" concept="5" />
+      <node id="7898186768059944989" at="24,83,25,36" concept="1" />
+      <node id="7898186768059944989" at="30,52,31,19" concept="5" />
+      <node id="7898186768059944989" at="35,51,36,72" concept="1" />
+      <node id="7898186768059945000" at="36,72,37,102" concept="1" />
+      <node id="4588352725438790189" at="37,102,38,148" concept="1" />
+      <node id="7898186768059944989" at="16,0,18,0" concept="3" trace="ourParametersCacheExtension" />
+      <node id="7898186768059944989" at="19,0,22,0" concept="0" trace="AddComment_createsNoteAttachedToNodeAndCell_Test#()V" />
+      <node id="7898186768059944989" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7898186768059944989" at="23,0,27,0" concept="2" trace="test_AddComment_createsNoteAttachedToNodeAndCell#()V" />
+      <node id="7898186768059944989" at="34,0,40,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="7898186768059944989" at="19,61,20,60" />
+      <scope id="7898186768059944989" at="24,83,25,36" />
+      <scope id="7898186768059944989" at="30,52,31,19" />
+      <scope id="7898186768059944989" at="19,0,22,0" />
+      <scope id="7898186768059944989" at="30,0,33,0">
+        <var name="owner" id="7898186768059944989" />
+      </scope>
+      <scope id="7898186768059944989" at="35,51,38,148" />
+      <scope id="7898186768059944989" at="23,0,27,0" />
+      <scope id="7898186768059944989" at="34,0,40,0" />
+      <unit id="7898186768059944989" at="28,0,41,0" name="test.com.mbeddr.mpsutil.review.intentions.AddComment_createsNoteAttachedToNodeAndCell_Test$TestBody" />
+      <unit id="7898186768059944989" at="14,0,42,0" name="test.com.mbeddr.mpsutil.review.intentions.AddComment_createsNoteAttachedToNodeAndCell_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:a17bba3e-c6c6-457d-9c32-3a8ecaaceca6(test.com.mbeddr.mpsutil.review.intentions@tests)/7898186768059945027">
+    <file name="AddComment_reusesExistingContainer_Test.java">
+      <node id="7898186768059945027" at="19,52,20,60" concept="5" />
+      <node id="7898186768059945027" at="24,74,25,36" concept="1" />
+      <node id="7898186768059945027" at="30,52,31,19" concept="5" />
+      <node id="7898186768059945027" at="35,51,36,72" concept="1" />
+      <node id="7898186768059945045" at="36,72,37,102" concept="1" />
+      <node id="4588352725438791374" at="37,102,38,148" concept="1" />
+      <node id="7898186768059945027" at="16,0,18,0" concept="3" trace="ourParametersCacheExtension" />
+      <node id="7898186768059945027" at="19,0,22,0" concept="0" trace="AddComment_reusesExistingContainer_Test#()V" />
+      <node id="7898186768059945027" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7898186768059945027" at="23,0,27,0" concept="2" trace="test_AddComment_reusesExistingContainer#()V" />
+      <node id="7898186768059945027" at="34,0,40,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="7898186768059945027" at="19,52,20,60" />
+      <scope id="7898186768059945027" at="24,74,25,36" />
+      <scope id="7898186768059945027" at="30,52,31,19" />
+      <scope id="7898186768059945027" at="19,0,22,0" />
+      <scope id="7898186768059945027" at="30,0,33,0">
+        <var name="owner" id="7898186768059945027" />
+      </scope>
+      <scope id="7898186768059945027" at="35,51,38,148" />
+      <scope id="7898186768059945027" at="23,0,27,0" />
+      <scope id="7898186768059945027" at="34,0,40,0" />
+      <unit id="7898186768059945027" at="28,0,41,0" name="test.com.mbeddr.mpsutil.review.intentions.AddComment_reusesExistingContainer_Test$TestBody" />
+      <unit id="7898186768059945027" at="14,0,42,0" name="test.com.mbeddr.mpsutil.review.intentions.AddComment_reusesExistingContainer_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:a17bba3e-c6c6-457d-9c32-3a8ecaaceca6(test.com.mbeddr.mpsutil.review.intentions@tests)/7898186768059945072">
+    <file name="RemoveComments_removesNotesOfNode_Test.java">
+      <node id="7898186768059945072" at="19,51,20,60" concept="5" />
+      <node id="7898186768059945072" at="24,73,25,36" concept="1" />
+      <node id="7898186768059945072" at="30,52,31,19" concept="5" />
+      <node id="7898186768059945072" at="35,51,36,72" concept="1" />
+      <node id="7898186768059945084" at="36,72,37,106" concept="1" />
+      <node id="7898186768059945072" at="16,0,18,0" concept="3" trace="ourParametersCacheExtension" />
+      <node id="7898186768059945072" at="19,0,22,0" concept="0" trace="RemoveComments_removesNotesOfNode_Test#()V" />
+      <node id="7898186768059945072" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7898186768059945072" at="23,0,27,0" concept="2" trace="test_RemoveComments_removesNotesOfNode#()V" />
+      <node id="7898186768059945072" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="7898186768059945072" at="19,51,20,60" />
+      <scope id="7898186768059945072" at="24,73,25,36" />
+      <scope id="7898186768059945072" at="30,52,31,19" />
+      <scope id="7898186768059945072" at="35,51,37,106" />
+      <scope id="7898186768059945072" at="19,0,22,0" />
+      <scope id="7898186768059945072" at="30,0,33,0">
+        <var name="owner" id="7898186768059945072" />
+      </scope>
+      <scope id="7898186768059945072" at="23,0,27,0" />
+      <scope id="7898186768059945072" at="34,0,39,0" />
+      <unit id="7898186768059945072" at="28,0,40,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_removesNotesOfNode_Test$TestBody" />
+      <unit id="7898186768059945072" at="14,0,41,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_removesNotesOfNode_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:a17bba3e-c6c6-457d-9c32-3a8ecaaceca6(test.com.mbeddr.mpsutil.review.intentions@tests)/7898186768059945085">
+    <file name="RemoveComments_keepsNotesOfOtherNodes_Test.java">
+      <node id="7898186768059945085" at="19,55,20,60" concept="5" />
+      <node id="7898186768059945085" at="24,77,25,36" concept="1" />
+      <node id="7898186768059945085" at="30,52,31,19" concept="5" />
+      <node id="7898186768059945085" at="35,51,36,72" concept="1" />
+      <node id="7898186768059945111" at="36,72,37,106" concept="1" />
+      <node id="7898186768059945085" at="16,0,18,0" concept="3" trace="ourParametersCacheExtension" />
+      <node id="7898186768059945085" at="19,0,22,0" concept="0" trace="RemoveComments_keepsNotesOfOtherNodes_Test#()V" />
+      <node id="7898186768059945085" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7898186768059945085" at="23,0,27,0" concept="2" trace="test_RemoveComments_keepsNotesOfOtherNodes#()V" />
+      <node id="7898186768059945085" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="7898186768059945085" at="19,55,20,60" />
+      <scope id="7898186768059945085" at="24,77,25,36" />
+      <scope id="7898186768059945085" at="30,52,31,19" />
+      <scope id="7898186768059945085" at="35,51,37,106" />
+      <scope id="7898186768059945085" at="19,0,22,0" />
+      <scope id="7898186768059945085" at="30,0,33,0">
+        <var name="owner" id="7898186768059945085" />
+      </scope>
+      <scope id="7898186768059945085" at="23,0,27,0" />
+      <scope id="7898186768059945085" at="34,0,39,0" />
+      <unit id="7898186768059945085" at="28,0,40,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_keepsNotesOfOtherNodes_Test$TestBody" />
+      <unit id="7898186768059945085" at="14,0,41,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_keepsNotesOfOtherNodes_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:a17bba3e-c6c6-457d-9c32-3a8ecaaceca6(test.com.mbeddr.mpsutil.review.intentions@tests)/7898186768060106338">
+    <file name="RemoveComments_onNote_removesNoteAndContainer_Test.java">
+      <node id="7898186768060106338" at="19,63,20,60" concept="5" />
+      <node id="7898186768060106338" at="24,85,25,36" concept="1" />
+      <node id="7898186768060106338" at="30,52,31,19" concept="5" />
+      <node id="7898186768060106338" at="35,51,36,72" concept="1" />
+      <node id="7898186768060106348" at="36,72,37,106" concept="1" />
+      <node id="7898186768060106338" at="16,0,18,0" concept="3" trace="ourParametersCacheExtension" />
+      <node id="7898186768060106338" at="19,0,22,0" concept="0" trace="RemoveComments_onNote_removesNoteAndContainer_Test#()V" />
+      <node id="7898186768060106338" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7898186768060106338" at="23,0,27,0" concept="2" trace="test_RemoveComments_onNote_removesNoteAndContainer#()V" />
+      <node id="7898186768060106338" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="7898186768060106338" at="19,63,20,60" />
+      <scope id="7898186768060106338" at="24,85,25,36" />
+      <scope id="7898186768060106338" at="30,52,31,19" />
+      <scope id="7898186768060106338" at="35,51,37,106" />
+      <scope id="7898186768060106338" at="19,0,22,0" />
+      <scope id="7898186768060106338" at="30,0,33,0">
+        <var name="owner" id="7898186768060106338" />
+      </scope>
+      <scope id="7898186768060106338" at="23,0,27,0" />
+      <scope id="7898186768060106338" at="34,0,39,0" />
+      <unit id="7898186768060106338" at="28,0,40,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_onNote_removesNoteAndContainer_Test$TestBody" />
+      <unit id="7898186768060106338" at="14,0,41,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_onNote_removesNoteAndContainer_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:a17bba3e-c6c6-457d-9c32-3a8ecaaceca6(test.com.mbeddr.mpsutil.review.intentions@tests)/7898186768060106350">
+    <file name="RemoveComments_onNote_keepsOtherNotes_Test.java">
+      <node id="7898186768060106350" at="19,55,20,60" concept="5" />
+      <node id="7898186768060106350" at="24,77,25,36" concept="1" />
+      <node id="7898186768060106350" at="30,52,31,19" concept="5" />
+      <node id="7898186768060106350" at="35,51,36,72" concept="1" />
+      <node id="7898186768060106376" at="36,72,37,106" concept="1" />
+      <node id="7898186768060106350" at="16,0,18,0" concept="3" trace="ourParametersCacheExtension" />
+      <node id="7898186768060106350" at="19,0,22,0" concept="0" trace="RemoveComments_onNote_keepsOtherNotes_Test#()V" />
+      <node id="7898186768060106350" at="30,0,33,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7898186768060106350" at="23,0,27,0" concept="2" trace="test_RemoveComments_onNote_keepsOtherNotes#()V" />
+      <node id="7898186768060106350" at="34,0,39,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="7898186768060106350" at="19,55,20,60" />
+      <scope id="7898186768060106350" at="24,77,25,36" />
+      <scope id="7898186768060106350" at="30,52,31,19" />
+      <scope id="7898186768060106350" at="35,51,37,106" />
+      <scope id="7898186768060106350" at="19,0,22,0" />
+      <scope id="7898186768060106350" at="30,0,33,0">
+        <var name="owner" id="7898186768060106350" />
+      </scope>
+      <scope id="7898186768060106350" at="23,0,27,0" />
+      <scope id="7898186768060106350" at="34,0,39,0" />
+      <unit id="7898186768060106350" at="28,0,40,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_onNote_keepsOtherNotes_Test$TestBody" />
+      <unit id="7898186768060106350" at="14,0,41,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_onNote_keepsOtherNotes_Test" />
+    </file>
+  </root>
+  <root nodeRef="r:a17bba3e-c6c6-457d-9c32-3a8ecaaceca6(test.com.mbeddr.mpsutil.review.intentions@tests)/7898186768060106377">
+    <file name="RemoveComments_applicableOnNote_Test.java">
+      <node id="7898186768060106377" at="20,49,21,60" concept="5" />
+      <node id="7898186768060106377" at="25,71,26,36" concept="1" />
+      <node id="7898186768060106377" at="31,52,32,19" concept="5" />
+      <node id="7898186768060106377" at="36,51,37,53" concept="1" />
+      <node id="7898186768060106386" at="37,53,38,202" concept="1" />
+      <node id="7898186768060106377" at="17,0,19,0" concept="3" trace="ourParametersCacheExtension" />
+      <node id="7898186768060106377" at="20,0,23,0" concept="0" trace="RemoveComments_applicableOnNote_Test#()V" />
+      <node id="7898186768060106377" at="31,0,34,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="7898186768060106377" at="24,0,28,0" concept="2" trace="test_RemoveComments_applicableOnNote#()V" />
+      <node id="7898186768060106377" at="35,0,40,0" concept="2" trace="testMethodImpl#()V" />
+      <scope id="7898186768060106377" at="20,49,21,60" />
+      <scope id="7898186768060106377" at="25,71,26,36" />
+      <scope id="7898186768060106377" at="31,52,32,19" />
+      <scope id="7898186768060106377" at="36,51,38,202" />
+      <scope id="7898186768060106377" at="20,0,23,0" />
+      <scope id="7898186768060106377" at="31,0,34,0">
+        <var name="owner" id="7898186768060106377" />
+      </scope>
+      <scope id="7898186768060106377" at="24,0,28,0" />
+      <scope id="7898186768060106377" at="35,0,40,0" />
+      <unit id="7898186768060106377" at="29,0,41,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_applicableOnNote_Test$TestBody" />
+      <unit id="7898186768060106377" at="15,0,42,0" name="test.com.mbeddr.mpsutil.review.intentions.RemoveComments_applicableOnNote_Test" />
+    </file>
+  </root>
+</debug-info>
+

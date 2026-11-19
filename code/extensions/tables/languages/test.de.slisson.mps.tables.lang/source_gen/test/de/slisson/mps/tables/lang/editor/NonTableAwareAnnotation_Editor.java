@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class NonTableAwareAnnotation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new NonTableAwareAnnotation_EditorBuilder_a(editorContext, node).createCell();
+    return new NonTableAwareAnnotation_EditorBuilder(editorContext, node).createCell();
   }
 }

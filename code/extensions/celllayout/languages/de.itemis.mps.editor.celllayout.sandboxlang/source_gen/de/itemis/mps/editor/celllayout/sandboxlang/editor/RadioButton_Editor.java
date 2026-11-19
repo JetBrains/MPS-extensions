@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class RadioButton_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new RadioButton_EditorBuilder_a(editorContext, node).createCell();
+    return new RadioButton_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class CanCreate_Columns_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new CanCreate_Columns_EditorBuilder_a(editorContext, node).createCell();
+    return new CanCreate_Columns_EditorBuilder(editorContext, node).createCell();
   }
 }

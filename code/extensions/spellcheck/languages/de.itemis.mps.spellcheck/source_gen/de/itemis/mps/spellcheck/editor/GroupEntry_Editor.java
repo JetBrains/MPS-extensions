@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class GroupEntry_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new GroupEntry_EditorBuilder_a(editorContext, node).createCell();
+    return new GroupEntry_EditorBuilder(editorContext, node).createCell();
   }
 }

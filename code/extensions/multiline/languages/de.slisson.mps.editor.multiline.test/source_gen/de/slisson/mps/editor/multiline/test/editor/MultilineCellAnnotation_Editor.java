@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class MultilineCellAnnotation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new MultilineCellAnnotation_EditorBuilder_a(editorContext, node).createCell();
+    return new MultilineCellAnnotation_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new MultilineCellAnnotation_InspectorBuilder_a(editorContext, node).createCell();
+    return new MultilineCellAnnotation_InspectorBuilder(editorContext, node).createCell();
   }
 }

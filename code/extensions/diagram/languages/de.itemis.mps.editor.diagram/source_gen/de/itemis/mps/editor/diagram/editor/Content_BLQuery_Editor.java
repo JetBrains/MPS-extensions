@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Content_BLQuery_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Content_BLQuery_EditorBuilder_a(editorContext, node).createCell();
+    return new Content_BLQuery_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new Content_BLQuery_InspectorBuilder_a(editorContext, node).createCell();
+    return new Content_BLQuery_InspectorBuilder(editorContext, node).createCell();
   }
 }

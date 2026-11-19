@@ -16,6 +16,6 @@ public class GeneratorNodeProcessingOptions implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new GeneratorNodeProcessingOptions_ComponentBuilder_a(editorContext, node).createCell();
+    return new GeneratorNodeProcessingOptions_ComponentBuilder(editorContext, node).createCell();
   }
 }

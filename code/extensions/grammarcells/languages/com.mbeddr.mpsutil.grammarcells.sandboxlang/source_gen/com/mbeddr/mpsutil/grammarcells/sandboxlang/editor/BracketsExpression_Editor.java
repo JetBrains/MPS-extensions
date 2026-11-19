@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class BracketsExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new BracketsExpression_EditorBuilder_a(editorContext, node).createCell();
+    return new BracketsExpression_EditorBuilder(editorContext, node).createCell();
   }
 }

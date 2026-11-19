@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class SimpleMultilineTextPart_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SimpleMultilineTextPart_EditorBuilder_a(editorContext, node).createCell();
+    return new SimpleMultilineTextPart_EditorBuilder(editorContext, node).createCell();
   }
 }

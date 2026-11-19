@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class StubCellModel_Multiline_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new StubCellModel_Multiline_EditorBuilder_a(editorContext, node).createCell();
+    return new StubCellModel_Multiline_EditorBuilder(editorContext, node).createCell();
   }
 }

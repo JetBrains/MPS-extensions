@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:467d391d-5b6c-4981-a927-4b6ba35bab4c(test.com.mbeddr.mpsutil.extensionclass.source)/5712676642259607162">
+    <file name="TestClass.java">
+      <node id="5712676642259607221" at="9,23,10,34" concept="0" />
+      <node id="5712676642260557986" at="10,34,11,33" concept="0" />
+      <node id="5712676642262394804" at="14,31,15,43" concept="0" />
+      <node id="5712676642259620580" at="14,0,17,0" concept="2" trace="meth2#()V" />
+      <node id="5712676642259607197" at="9,0,13,0" concept="1" trace="meth#()V" />
+      <scope id="5712676642259620583" at="14,31,15,43" />
+      <scope id="5712676642259607200" at="9,23,11,33" />
+      <scope id="5712676642259620580" at="14,0,17,0" />
+      <scope id="5712676642259607197" at="9,0,13,0" />
+      <unit id="5712676642259607162" at="8,0,18,0" name="test.com.mbeddr.mpsutil.extensionclass.source.TestClass" />
+    </file>
+  </root>
+</debug-info>
+

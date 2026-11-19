@@ -40,6 +40,18 @@ This module contains the following libraries:
 - [Apache™ Batik SVG Toolkit](https://xmlgraphics.apache.org/batik/) library for working with SVG files
 - [Apache™ XML Graphics](https://xmlgraphics.apache.org/) library for conversion of XML formats to graphical output
 
+## JCEF
+
+This module (`com.jetbrains.mpsext.stubs.jcef`) contains stubs for the JCEF classes of the IntelliJ Platform
+(`com.intellij.ui.jcef`, for example `JBCefBrowser`), for which MPS has no stubs of its own
+([MPS-40100](https://youtrack.jetbrains.com/issue/MPS-40100/com.intellij.ui.jcef-stubs-missing)).
+The stubs are read from `plugins/jcef-plugin/lib/modules/intellij.platform.ui.jcef.jar` of the MPS installation, so the
+`jcef-plugin` must be present there. The module ships no JAR of its own.
+
+A build script of a project whose modules depend on this module needs a dependency on the external layout `jcef-plugin`
+(declared in `de.itemis.mps.extensions.build`) with the artifacts location `$mps.home`, similar to the usual `IDEA`
+layout dependency. Without it, generating the build script fails with `path ... was not found in the layout`.
+
 # Xerces
 
 - [xerces](https://xerces.apache.org/xerces2-j/) XML parsers

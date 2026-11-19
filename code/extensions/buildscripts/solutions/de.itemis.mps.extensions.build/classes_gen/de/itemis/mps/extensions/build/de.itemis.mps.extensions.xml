@@ -12,6 +12,7 @@
   <property name="artifacts.mps" location="${mps.home}" />
   <property name="artifacts.mpsBootstrapCore" location="${mps.home}" />
   <property name="artifacts.IDEA" location="${mps.home}" />
+  <property name="artifacts.jcef-plugin" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
   <property name="mps.date" value="${import.mps.mps.date}" />
@@ -10835,6 +10836,33 @@
     <copy todir="${build.layout}/de.itemis.stubs.batik/lib">
       <fileset file="${extensions.code}/batik/solutions/lib/xmlgraphics-commons.jar" />
     </copy>
+    <mkdir dir="${build.layout}/com.jetbrains.mpsext.stubs.jcef" />
+    <mkdir dir="${build.layout}/com.jetbrains.mpsext.stubs.jcef/lib" />
+    <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.stubs.jcef.jar" />
+    <mkdir dir="${build.tmp}/default/com.jetbrains.mpsext.stubs.jcef.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/com.jetbrains.mpsext.stubs.jcef.jar/META-INF/plugin.xml">
+      <idea-plugin>
+        <id>com.jetbrains.mpsext.stubs.jcef</id>
+        <name>MPS JCEF (Stubs)</name>
+        <description>Stubs for the JCEF classes (com.intellij.ui.jcef) of the JCEF plugin in the MPS installation. Ships no JAR of its own.</description>
+        <version>${version}</version>
+        <vendor url="https://www.itemis.com/en/it-services/methods-and-tools/mps">itemis AG</vendor>
+        <depends>com.intellij.modules.mps</depends>
+        <depends>jetbrains.mps.core</depends>
+        <depends>com.intellij.modules.jcef</depends>
+        
+        <extensions defaultExtensionNs="com.intellij">
+          <mps.LanguageLibrary dir="/languages" />
+        </extensions>
+      </idea-plugin>
+    </echoxml>
+    <jar destfile="${build.layout}/com.jetbrains.mpsext.stubs.jcef/lib/com.jetbrains.mpsext.stubs.jcef.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/default/com.jetbrains.mpsext.stubs.jcef.jar" />
+    </jar>
+    <mkdir dir="${build.layout}/com.jetbrains.mpsext.stubs.jcef/languages" />
+    <jar destfile="${build.layout}/com.jetbrains.mpsext.stubs.jcef/languages/com.jetbrains.mpsext.stubs.jcef.jar" duplicate="preserve">
+      <zipfileset dir="${extensions.code}/jcef/solutions" prefix="modules/com.jetbrains.mpsext.stubs.jcef" />
+    </jar>
     <mkdir dir="${build.layout}/de.itemis.stubs.xml" />
     <mkdir dir="${build.layout}/de.itemis.stubs.xml/lib" />
     <mkdir dir="${build.tmp}/default/de.itemis.stubs.xml.jar" />
@@ -15378,6 +15406,7 @@
         <module file="${extensions.code}/kotlin/solutions/MPS.Kotlin/MPS.Kotlin.msd" />
         <module file="${extensions.code}/langvis/solutions/com.dslfoundry.langvis.plugin/com.dslfoundry.langvis.plugin.msd" />
         <module file="${extensions.code}/langvis/solutions/com.jetbrains.mpsext.langvis.plantuml/com.jetbrains.mpsext.langvis.plantuml.msd" />
+        <module file="${extensions.code}/jcef/solutions/com.jetbrains.mpsext.stubs.jcef.msd" />
         <module file="${extensions.code}/viewmodel/languages/com.jetbrains.mpsext.viewmodel.storage/com.jetbrains.mpsext.viewmodel.storage.mpl" />
         <module file="${extensions.code}/blutil/languages/com.mbeddr.mpsutil.blutil/solutions/com.mbeddr.mpsutil.blutil.rt.msd" />
         <module file="${extensions.code}/modellisteners/com.mbeddr.mpsutil.modellisteners/com.mbeddr.mpsutil.modellisteners.mpl" />

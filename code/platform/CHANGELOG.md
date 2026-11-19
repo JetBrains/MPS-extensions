@@ -11,7 +11,11 @@ Semantic Versioning and the changes are simply documented in reverse chronologic
 
 - The mbeddr platform is now developed and published in [MPS-extensions](https://github.com/JetBrains/MPS-extensions), under `code/platform`. Report platform issues in [MPS-extensions issues](https://github.com/JetBrains/MPS-extensions/issues).
 - `com.mbeddr.mpsutil.review`: The `RemoveComments` intention is now also available on the commented node, not only inside a note.
-- `com.mbeddr.mpsutil.interpreter`: several performance improvements
+- `com.mbeddr.mpsutil.interpreter`: Evaluation is faster. An interpreter picks the evaluators per concept once, remembers the subtype checks of type-guarded evaluators, and computes the presentation of a computation trace only when the trace is shown.
+- `com.mbeddr.mpsutil.interpreter`: `IEvaluator.getConcept()` is now binding: an interpreter calls `matchesEvaluator` only for nodes of that concept and its subconcepts. A hand-written evaluator that matches nodes of other concepts must return null from `getConcept()`.
+- `com.mbeddr.mpsutil.interpreter`: `InterpreterBase.listEvaluators()` returns a shared list instead of a copy. Callers must not modify it.
+- `com.mbeddr.mpsutil.interpreter`: `ComputationTrace.getSyntax()` shows the node as it is when the syntax is first read with model access. Without read access it returns the concept name.
+- `com.mbeddr.mpsutil.interpreter`: Nothing is traced below a `DummyComputationTrace`, so `IReveal` annotations are not evaluated there. Value inspectors still collect values.
 
 ## Fixed
 

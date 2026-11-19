@@ -86,22 +86,22 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="3133179214568824809" name="jetbrains.mps.lang.text.structure.NodeWrapperElement" flags="nn" index="tu5oc">
+      <concept id="3133179214568824809" name="jetbrains.mps.lang.text.structure.NodeWrapperElement" flags="ng" index="tu5oc">
         <child id="3133179214568824810" name="node" index="tu5of" />
       </concept>
       <concept id="1094247804558289146" name="jetbrains.mps.lang.text.structure.BulletLine" flags="ng" index="2DRihI" />
       <concept id="5106752179536586436" name="jetbrains.mps.lang.text.structure.IndentedPoint" flags="ngI" index="2RT3b8">
         <property id="5106752179536586491" name="indentation" index="2RT3bR" />
       </concept>
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
         <property id="6328114375520539781" name="url" index="1X82VU" />
         <property id="6328114375520539777" name="italic" index="1X82VY" />
       </concept>
-      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="nn" index="1Pa9Pv">
+      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="ng" index="1Pa9Pv">
         <child id="2535923850359210936" name="lines" index="1PaQFQ" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -235,6 +235,72 @@
         </node>
         <node concept="3oM_SD" id="1$KnWE8iTo8" role="1PaTwD">
           <property role="3oM_SC" value="month." />
+        </node>
+      </node>
+    </node>
+    <node concept="15bmVD" id="itfOcEu8bO" role="15bmVC">
+      <node concept="15ShDW" id="itfOcEu8bP" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgBl/November" />
+        <property role="15ShDw" value="2026" />
+      </node>
+      <node concept="15bAme" id="itfOcEu8bQ" role="15bAlL">
+        <node concept="2DRihI" id="itfOcEu8bR" role="15bAlk">
+          <node concept="15Ami3" id="itfOcEu8bS" role="1PaTwD">
+            <node concept="37shsh" id="itfOcEu8bT" role="15Aodc">
+              <node concept="1dCxOk" id="itfOcEu8bU" role="37shsm">
+                <property role="1XweGW" value="1144260c-e9a5-49a2-9add-39a1a1a7077e" />
+                <property role="1XxBO9" value="de.itemis.mps.editor.diagram.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8bV" role="1PaTwD">
+            <property role="3oM_SC" value="Fix" />
+          </node>
+          <node concept="1RqHR4" id="itfOcEu8bW" role="1PaTwD">
+            <property role="3oM_SC" value="IllegalStateException: Editor is already disposed" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8bX" role="1PaTwD">
+            <property role="3oM_SC" value="logged" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8bY" role="1PaTwD">
+            <property role="3oM_SC" value="when" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8bZ" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c0" role="1PaTwD">
+            <property role="3oM_SC" value="diagram" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c1" role="1PaTwD">
+            <property role="3oM_SC" value="editor" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c2" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c3" role="1PaTwD">
+            <property role="3oM_SC" value="closed" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c4" role="1PaTwD">
+            <property role="3oM_SC" value="while" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c5" role="1PaTwD">
+            <property role="3oM_SC" value="its" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c6" role="1PaTwD">
+            <property role="3oM_SC" value="automatic" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c7" role="1PaTwD">
+            <property role="3oM_SC" value="layout" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c8" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c9" role="1PaTwD">
+            <property role="3oM_SC" value="still" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8ca" role="1PaTwD">
+            <property role="3oM_SC" value="running." />
+          </node>
         </node>
       </node>
     </node>

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class MultilineCellReference_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new MultilineCellReference_EditorBuilder_a(editorContext, node).createCell();
+    return new MultilineCellReference_EditorBuilder(editorContext, node).createCell();
   }
 }

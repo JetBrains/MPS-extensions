@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class RootMergingPolicy_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new RootMergingPolicy_EditorBuilder_a(editorContext, node).createCell();
+    return new RootMergingPolicy_EditorBuilder(editorContext, node).createCell();
   }
 }

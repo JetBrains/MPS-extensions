@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:4b7ef364-837c-4f3f-8495-b3c8a919c077(de.itemis.mps.spellcheck.editor)/2477161125053807468">
     <file name="DictionaryEntry_Editor.java">
-      <node id="2477161125053807468" at="11,79,12,81" concept="6" />
+      <node id="2477161125053807468" at="11,79,12,79" concept="6" />
       <node id="2477161125053807468" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2477161125053807468" at="11,79,12,81" />
+      <scope id="2477161125053807468" at="11,79,12,79" />
       <scope id="2477161125053807468" at="11,0,14,0">
         <var name="editorContext" id="2477161125053807468" />
         <var name="node" id="2477161125053807468" />
       </scope>
       <unit id="2477161125053807468" at="10,0,15,0" name="de.itemis.mps.spellcheck.editor.DictionaryEntry_Editor" />
     </file>
-    <file name="DictionaryEntry_EditorBuilder_a.java">
-      <node id="2477161125053807468" at="35,95,36,19" concept="8" />
+    <file name="DictionaryEntry_EditorBuilder.java">
+      <node id="2477161125053807468" at="35,93,36,19" concept="8" />
       <node id="2477161125053807468" at="36,19,37,18" concept="1" />
       <node id="2477161125053807468" at="42,26,43,18" concept="6" />
       <node id="2477161125053807468" at="46,39,47,32" concept="6" />
@@ -64,7 +64,7 @@
       <node id="2477161125053807468" at="96,0,97,0" concept="7" trace="PropertyAttribute$Gb" />
       <node id="2477161125053807468" at="32,0,34,0" concept="2" trace="myNode" />
       <node id="2477161125053807468" at="46,0,49,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2477161125053807468" at="35,0,39,0" concept="0" trace="DictionaryEntry_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2477161125053807468" at="35,0,39,0" concept="0" trace="DictionaryEntry_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2477161125053807468" at="40,0,45,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2477161125053807470" at="80,208,85,24" concept="3" />
       <node id="801165755129274591" at="59,0,65,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -74,7 +74,7 @@
       <scope id="2477161125053807468" at="42,26,43,18" />
       <scope id="2477161125053807468" at="46,39,47,32" />
       <scope id="2477161125053807470" at="86,15,87,40" />
-      <scope id="2477161125053807468" at="35,95,37,18" />
+      <scope id="2477161125053807468" at="35,93,37,18" />
       <scope id="2477161125053807470" at="81,74,83,145">
         <var name="manager" id="2477161125053807470" />
       </scope>
@@ -101,24 +101,24 @@
       </scope>
       <scope id="2477161125053807470" at="65,41,88,5" />
       <scope id="2477161125053807470" at="65,0,90,0" />
-      <unit id="2477161125053807468" at="91,0,94,0" name="de.itemis.mps.spellcheck.editor.DictionaryEntry_EditorBuilder_a$PROPS" />
-      <unit id="2477161125053807468" at="95,0,98,0" name="de.itemis.mps.spellcheck.editor.DictionaryEntry_EditorBuilder_a$CONCEPTS" />
-      <unit id="2477161125053807468" at="31,0,99,0" name="de.itemis.mps.spellcheck.editor.DictionaryEntry_EditorBuilder_a" />
+      <unit id="2477161125053807468" at="91,0,94,0" name="de.itemis.mps.spellcheck.editor.DictionaryEntry_EditorBuilder$PROPS" />
+      <unit id="2477161125053807468" at="95,0,98,0" name="de.itemis.mps.spellcheck.editor.DictionaryEntry_EditorBuilder$CONCEPTS" />
+      <unit id="2477161125053807468" at="31,0,99,0" name="de.itemis.mps.spellcheck.editor.DictionaryEntry_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4b7ef364-837c-4f3f-8495-b3c8a919c077(de.itemis.mps.spellcheck.editor)/2477161125053862754">
     <file name="Dictionary_Editor.java">
-      <node id="2477161125053862754" at="11,79,12,76" concept="6" />
+      <node id="2477161125053862754" at="11,79,12,74" concept="6" />
       <node id="2477161125053862754" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2477161125053862754" at="11,79,12,76" />
+      <scope id="2477161125053862754" at="11,79,12,74" />
       <scope id="2477161125053862754" at="11,0,14,0">
         <var name="editorContext" id="2477161125053862754" />
         <var name="node" id="2477161125053862754" />
       </scope>
       <unit id="2477161125053862754" at="10,0,15,0" name="de.itemis.mps.spellcheck.editor.Dictionary_Editor" />
     </file>
-    <file name="Dictionary_EditorBuilder_a.java">
-      <node id="2477161125053862754" at="48,90,49,19" concept="8" />
+    <file name="Dictionary_EditorBuilder.java">
+      <node id="2477161125053862754" at="48,88,49,19" concept="8" />
       <node id="2477161125053862754" at="49,19,50,18" concept="1" />
       <node id="2477161125053862754" at="55,26,56,18" concept="6" />
       <node id="2477161125053862754" at="59,39,60,32" concept="6" />
@@ -203,7 +203,7 @@
       <node id="2477161125053862754" at="142,0,145,0" concept="4" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2477161125053862754" at="146,0,149,0" concept="4" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2477161125053862754" at="189,96,192,9" concept="3" />
-      <node id="2477161125053862754" at="48,0,52,0" concept="0" trace="Dictionary_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2477161125053862754" at="48,0,52,0" concept="0" trace="Dictionary_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2477161125053862754" at="127,0,131,0" concept="0" trace="entriesListHandler_ytbb8b_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="2477161125053862754" at="132,0,136,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2477161125053862754" at="171,97,175,9" concept="3" />
@@ -236,7 +236,7 @@
       <scope id="2477161125053871257" at="146,73,147,187" />
       <scope id="2477161125053862754" at="163,17,164,42" />
       <scope id="2477161125053862754" at="190,34,191,91" />
-      <scope id="2477161125053862754" at="48,90,50,18" />
+      <scope id="2477161125053862754" at="48,88,50,18" />
       <scope id="2477161125053862762" at="98,74,100,145">
         <var name="manager" id="2477161125053862762" />
       </scope>
@@ -319,26 +319,26 @@
         <var name="elementNode" id="2477161125053862754" />
         <var name="isEmptyCell" id="2477161125053862754" />
       </scope>
-      <unit id="2477161125053862754" at="197,0,200,0" name="de.itemis.mps.spellcheck.editor.Dictionary_EditorBuilder_a$PROPS" />
-      <unit id="2477161125053862754" at="206,0,209,0" name="de.itemis.mps.spellcheck.editor.Dictionary_EditorBuilder_a$LINKS" />
-      <unit id="2477161125053862754" at="201,0,205,0" name="de.itemis.mps.spellcheck.editor.Dictionary_EditorBuilder_a$CONCEPTS" />
-      <unit id="2477161125053862754" at="123,0,196,0" name="de.itemis.mps.spellcheck.editor.Dictionary_EditorBuilder_a$entriesListHandler_ytbb8b_c0" />
-      <unit id="2477161125053862754" at="44,0,210,0" name="de.itemis.mps.spellcheck.editor.Dictionary_EditorBuilder_a" />
+      <unit id="2477161125053862754" at="197,0,200,0" name="de.itemis.mps.spellcheck.editor.Dictionary_EditorBuilder$PROPS" />
+      <unit id="2477161125053862754" at="206,0,209,0" name="de.itemis.mps.spellcheck.editor.Dictionary_EditorBuilder$LINKS" />
+      <unit id="2477161125053862754" at="201,0,205,0" name="de.itemis.mps.spellcheck.editor.Dictionary_EditorBuilder$CONCEPTS" />
+      <unit id="2477161125053862754" at="123,0,196,0" name="de.itemis.mps.spellcheck.editor.Dictionary_EditorBuilder$entriesListHandler_ytbb8b_c0" />
+      <unit id="2477161125053862754" at="44,0,210,0" name="de.itemis.mps.spellcheck.editor.Dictionary_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4b7ef364-837c-4f3f-8495-b3c8a919c077(de.itemis.mps.spellcheck.editor)/6620047724380183329">
     <file name="PredefinedDictionary_Editor.java">
-      <node id="6620047724380183329" at="11,79,12,86" concept="6" />
+      <node id="6620047724380183329" at="11,79,12,84" concept="6" />
       <node id="6620047724380183329" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6620047724380183329" at="11,79,12,86" />
+      <scope id="6620047724380183329" at="11,79,12,84" />
       <scope id="6620047724380183329" at="11,0,14,0">
         <var name="editorContext" id="6620047724380183329" />
         <var name="node" id="6620047724380183329" />
       </scope>
       <unit id="6620047724380183329" at="10,0,15,0" name="de.itemis.mps.spellcheck.editor.PredefinedDictionary_Editor" />
     </file>
-    <file name="PredefinedDictionary_EditorBuilder_a.java">
-      <node id="6620047724380183329" at="33,100,34,19" concept="8" />
+    <file name="PredefinedDictionary_EditorBuilder.java">
+      <node id="6620047724380183329" at="33,98,34,19" concept="8" />
       <node id="6620047724380183329" at="34,19,35,18" concept="1" />
       <node id="6620047724380183329" at="40,26,41,18" concept="6" />
       <node id="6620047724380183329" at="44,39,45,32" concept="6" />
@@ -405,7 +405,7 @@
       <node id="6620047724380183329" at="139,0,140,0" concept="7" trace="PropertyAttribute$Gb" />
       <node id="6620047724380183329" at="30,0,32,0" concept="2" trace="myNode" />
       <node id="6620047724380183329" at="44,0,47,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6620047724380183329" at="33,0,37,0" concept="0" trace="PredefinedDictionary_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6620047724380183329" at="33,0,37,0" concept="0" trace="PredefinedDictionary_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6620047724380183329" at="38,0,43,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6620047724380186270" at="82,208,87,24" concept="3" />
       <node id="6620047724380186430" at="122,208,127,24" concept="3" />
@@ -423,7 +423,7 @@
       <scope id="6620047724380183329" at="44,39,45,32" />
       <scope id="6620047724380186270" at="88,15,89,40" />
       <scope id="6620047724380186430" at="128,15,129,40" />
-      <scope id="6620047724380183329" at="33,100,35,18" />
+      <scope id="6620047724380183329" at="33,98,35,18" />
       <scope id="6620047724380186270" at="83,74,85,145">
         <var name="manager" id="6620047724380186270" />
       </scope>
@@ -476,24 +476,24 @@
       <scope id="6620047724380186430" at="111,41,130,5" />
       <scope id="6620047724380186270" at="71,0,92,0" />
       <scope id="6620047724380186430" at="111,0,132,0" />
-      <unit id="6620047724380183329" at="138,0,141,0" name="de.itemis.mps.spellcheck.editor.PredefinedDictionary_EditorBuilder_a$CONCEPTS" />
-      <unit id="6620047724380183329" at="133,0,137,0" name="de.itemis.mps.spellcheck.editor.PredefinedDictionary_EditorBuilder_a$PROPS" />
-      <unit id="6620047724380183329" at="29,0,142,0" name="de.itemis.mps.spellcheck.editor.PredefinedDictionary_EditorBuilder_a" />
+      <unit id="6620047724380183329" at="138,0,141,0" name="de.itemis.mps.spellcheck.editor.PredefinedDictionary_EditorBuilder$CONCEPTS" />
+      <unit id="6620047724380183329" at="133,0,137,0" name="de.itemis.mps.spellcheck.editor.PredefinedDictionary_EditorBuilder$PROPS" />
+      <unit id="6620047724380183329" at="29,0,142,0" name="de.itemis.mps.spellcheck.editor.PredefinedDictionary_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4b7ef364-837c-4f3f-8495-b3c8a919c077(de.itemis.mps.spellcheck.editor)/801165755129216902">
     <file name="EmpyEntry_Editor.java">
-      <node id="801165755129216902" at="11,79,12,75" concept="6" />
+      <node id="801165755129216902" at="11,79,12,73" concept="6" />
       <node id="801165755129216902" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="801165755129216902" at="11,79,12,75" />
+      <scope id="801165755129216902" at="11,79,12,73" />
       <scope id="801165755129216902" at="11,0,14,0">
         <var name="editorContext" id="801165755129216902" />
         <var name="node" id="801165755129216902" />
       </scope>
       <unit id="801165755129216902" at="10,0,15,0" name="de.itemis.mps.spellcheck.editor.EmpyEntry_Editor" />
     </file>
-    <file name="EmpyEntry_EditorBuilder_a.java">
-      <node id="801165755129216902" at="31,89,32,19" concept="8" />
+    <file name="EmpyEntry_EditorBuilder.java">
+      <node id="801165755129216902" at="31,87,32,19" concept="8" />
       <node id="801165755129216902" at="32,19,33,18" concept="1" />
       <node id="801165755129216902" at="38,26,39,18" concept="6" />
       <node id="801165755129216902" at="42,39,43,30" concept="6" />
@@ -514,7 +514,7 @@
       <node id="801165755129216908" at="59,0,61,0" concept="0" trace="ReplaceWith_IDictionaryEntry_cellMenu_kxpn79_a0a#()V" />
       <node id="801165755129216902" at="42,0,45,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="801165755129216908" at="61,0,64,0" concept="4" trace="getReplacementConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="801165755129216902" at="31,0,35,0" concept="0" trace="EmpyEntry_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="801165755129216902" at="31,0,35,0" concept="0" trace="EmpyEntry_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="801165755129216908" at="64,0,68,0" concept="4" trace="createEditorMenuDescriptor#(Ljetbrains/mps/nodeEditor/cellMenu/CellContext;Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/menus/EditorMenuDescriptor;" />
       <node id="801165755129216902" at="36,0,41,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="801165755129216902" at="46,0,58,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -523,7 +523,7 @@
       <scope id="801165755129216902" at="42,39,43,30" />
       <scope id="801165755129216908" at="61,53,62,42" />
       <scope id="801165755129216908" at="65,117,66,223" />
-      <scope id="801165755129216902" at="31,89,33,18" />
+      <scope id="801165755129216902" at="31,87,33,18" />
       <scope id="801165755129216908" at="59,0,61,0" />
       <scope id="801165755129216902" at="42,0,45,0" />
       <scope id="801165755129216908" at="61,0,64,0" />
@@ -541,24 +541,24 @@
         <var name="style" id="801165755129216902" />
       </scope>
       <scope id="801165755129216902" at="46,0,58,0" />
-      <unit id="801165755129216902" at="70,0,73,0" name="de.itemis.mps.spellcheck.editor.EmpyEntry_EditorBuilder_a$CONCEPTS" />
-      <unit id="801165755129216908" at="58,0,69,0" name="de.itemis.mps.spellcheck.editor.EmpyEntry_EditorBuilder_a$ReplaceWith_IDictionaryEntry_cellMenu_kxpn79_a0a" />
-      <unit id="801165755129216902" at="27,0,74,0" name="de.itemis.mps.spellcheck.editor.EmpyEntry_EditorBuilder_a" />
+      <unit id="801165755129216902" at="70,0,73,0" name="de.itemis.mps.spellcheck.editor.EmpyEntry_EditorBuilder$CONCEPTS" />
+      <unit id="801165755129216908" at="58,0,69,0" name="de.itemis.mps.spellcheck.editor.EmpyEntry_EditorBuilder$ReplaceWith_IDictionaryEntry_cellMenu_kxpn79_a0a" />
+      <unit id="801165755129216902" at="27,0,74,0" name="de.itemis.mps.spellcheck.editor.EmpyEntry_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4b7ef364-837c-4f3f-8495-b3c8a919c077(de.itemis.mps.spellcheck.editor)/801165755129252168">
     <file name="GroupEntry_Editor.java">
-      <node id="801165755129252168" at="11,79,12,76" concept="6" />
+      <node id="801165755129252168" at="11,79,12,74" concept="6" />
       <node id="801165755129252168" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="801165755129252168" at="11,79,12,76" />
+      <scope id="801165755129252168" at="11,79,12,74" />
       <scope id="801165755129252168" at="11,0,14,0">
         <var name="editorContext" id="801165755129252168" />
         <var name="node" id="801165755129252168" />
       </scope>
       <unit id="801165755129252168" at="10,0,15,0" name="de.itemis.mps.spellcheck.editor.GroupEntry_Editor" />
     </file>
-    <file name="GroupEntry_EditorBuilder_a.java">
-      <node id="801165755129252168" at="51,90,52,19" concept="8" />
+    <file name="GroupEntry_EditorBuilder.java">
+      <node id="801165755129252168" at="51,88,52,19" concept="8" />
       <node id="801165755129252168" at="52,19,53,18" concept="1" />
       <node id="801165755129252168" at="58,26,59,18" concept="6" />
       <node id="801165755129252168" at="62,39,63,32" concept="6" />
@@ -691,7 +691,7 @@
       <node id="801165755129252168" at="159,0,162,0" concept="4" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="801165755129252168" at="163,0,166,0" concept="4" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="801165755129252168" at="206,96,209,9" concept="3" />
-      <node id="801165755129252168" at="51,0,55,0" concept="0" trace="GroupEntry_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="801165755129252168" at="51,0,55,0" concept="0" trace="GroupEntry_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="801165755129252184" at="129,0,133,0" concept="4" trace="createIndentCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="801165755129252168" at="144,0,148,0" concept="0" trace="entriesListHandler_c314os_b1a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="801165755129252168" at="149,0,153,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -734,7 +734,7 @@
       <scope id="801165755129252168" at="180,17,181,42" />
       <scope id="801165755129252168" at="207,34,208,91" />
       <scope id="801165755129252199" at="253,15,254,40" />
-      <scope id="801165755129252168" at="51,90,53,18" />
+      <scope id="801165755129252168" at="51,88,53,18" />
       <scope id="801165755129252175" at="104,74,106,145">
         <var name="manager" id="801165755129252175" />
       </scope>
@@ -854,11 +854,11 @@
         <var name="elementNode" id="801165755129252168" />
         <var name="isEmptyCell" id="801165755129252168" />
       </scope>
-      <unit id="801165755129252168" at="267,0,270,0" name="de.itemis.mps.spellcheck.editor.GroupEntry_EditorBuilder_a$PROPS" />
-      <unit id="801165755129252168" at="276,0,279,0" name="de.itemis.mps.spellcheck.editor.GroupEntry_EditorBuilder_a$LINKS" />
-      <unit id="801165755129252168" at="271,0,275,0" name="de.itemis.mps.spellcheck.editor.GroupEntry_EditorBuilder_a$CONCEPTS" />
-      <unit id="801165755129252168" at="140,0,213,0" name="de.itemis.mps.spellcheck.editor.GroupEntry_EditorBuilder_a$entriesListHandler_c314os_b1a" />
-      <unit id="801165755129252168" at="47,0,280,0" name="de.itemis.mps.spellcheck.editor.GroupEntry_EditorBuilder_a" />
+      <unit id="801165755129252168" at="267,0,270,0" name="de.itemis.mps.spellcheck.editor.GroupEntry_EditorBuilder$PROPS" />
+      <unit id="801165755129252168" at="276,0,279,0" name="de.itemis.mps.spellcheck.editor.GroupEntry_EditorBuilder$LINKS" />
+      <unit id="801165755129252168" at="271,0,275,0" name="de.itemis.mps.spellcheck.editor.GroupEntry_EditorBuilder$CONCEPTS" />
+      <unit id="801165755129252168" at="140,0,213,0" name="de.itemis.mps.spellcheck.editor.GroupEntry_EditorBuilder$entriesListHandler_c314os_b1a" />
+      <unit id="801165755129252168" at="47,0,280,0" name="de.itemis.mps.spellcheck.editor.GroupEntry_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4b7ef364-837c-4f3f-8495-b3c8a919c077(de.itemis.mps.spellcheck.editor)/801165755129762945">
@@ -872,17 +872,17 @@
   </root>
   <root nodeRef="r:4b7ef364-837c-4f3f-8495-b3c8a919c077(de.itemis.mps.spellcheck.editor)/801165755129825684">
     <file name="CommentEntry_Editor.java">
-      <node id="801165755129825684" at="11,79,12,78" concept="6" />
+      <node id="801165755129825684" at="11,79,12,76" concept="6" />
       <node id="801165755129825684" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="801165755129825684" at="11,79,12,78" />
+      <scope id="801165755129825684" at="11,79,12,76" />
       <scope id="801165755129825684" at="11,0,14,0">
         <var name="editorContext" id="801165755129825684" />
         <var name="node" id="801165755129825684" />
       </scope>
       <unit id="801165755129825684" at="10,0,15,0" name="de.itemis.mps.spellcheck.editor.CommentEntry_Editor" />
     </file>
-    <file name="CommentEntry_EditorBuilder_a.java">
-      <node id="801165755129825684" at="31,92,32,19" concept="8" />
+    <file name="CommentEntry_EditorBuilder.java">
+      <node id="801165755129825684" at="31,90,32,19" concept="8" />
       <node id="801165755129825684" at="32,19,33,18" concept="1" />
       <node id="801165755129825684" at="38,26,39,18" concept="6" />
       <node id="801165755129825684" at="42,39,43,32" concept="6" />
@@ -929,7 +929,7 @@
       <node id="801165755129825684" at="94,87,97,7" concept="3" />
       <node id="801165755129825684" at="97,7,100,7" concept="3" />
       <node id="801165755129825684" at="116,0,119,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="801165755129825684" at="31,0,35,0" concept="0" trace="CommentEntry_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="801165755129825684" at="31,0,35,0" concept="0" trace="CommentEntry_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="801165755129825684" at="65,0,69,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="801165755129825684" at="73,0,77,0" concept="0" trace="commentSingleRoleHandler_8mqr0_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="801165755129825684" at="36,0,41,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -947,7 +947,7 @@
       <scope id="801165755129825684" at="98,42,99,48" />
       <scope id="801165755129825684" at="112,17,113,42" />
       <scope id="801165755129825684" at="116,40,117,28" />
-      <scope id="801165755129825684" at="31,92,33,18" />
+      <scope id="801165755129825684" at="31,90,33,18" />
       <scope id="801165755129825684" at="65,40,67,33">
         <var name="provider" id="801165755129825684" />
       </scope>
@@ -992,9 +992,9 @@
       <scope id="801165755129825833" at="55,0,65,0" />
       <scope id="801165755129825684" at="103,44,114,7" />
       <scope id="801165755129825684" at="102,0,116,0" />
-      <unit id="801165755129825684" at="121,0,124,0" name="de.itemis.mps.spellcheck.editor.CommentEntry_EditorBuilder_a$LINKS" />
-      <unit id="801165755129825684" at="69,0,120,0" name="de.itemis.mps.spellcheck.editor.CommentEntry_EditorBuilder_a$commentSingleRoleHandler_8mqr0_b0" />
-      <unit id="801165755129825684" at="27,0,125,0" name="de.itemis.mps.spellcheck.editor.CommentEntry_EditorBuilder_a" />
+      <unit id="801165755129825684" at="121,0,124,0" name="de.itemis.mps.spellcheck.editor.CommentEntry_EditorBuilder$LINKS" />
+      <unit id="801165755129825684" at="69,0,120,0" name="de.itemis.mps.spellcheck.editor.CommentEntry_EditorBuilder$commentSingleRoleHandler_8mqr0_b0" />
+      <unit id="801165755129825684" at="27,0,125,0" name="de.itemis.mps.spellcheck.editor.CommentEntry_EditorBuilder" />
     </file>
   </root>
 </debug-info>

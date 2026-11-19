@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TypeSwitchCaseMappingMethodCall_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TypeSwitchCaseMappingMethodCall_EditorBuilder_a(editorContext, node).createCell();
+    return new TypeSwitchCaseMappingMethodCall_EditorBuilder(editorContext, node).createCell();
   }
 }

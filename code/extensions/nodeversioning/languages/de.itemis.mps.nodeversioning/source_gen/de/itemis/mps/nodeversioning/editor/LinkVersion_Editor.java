@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class LinkVersion_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new LinkVersion_EditorBuilder_a(editorContext, node).createCell();
+    return new LinkVersion_EditorBuilder(editorContext, node).createCell();
   }
 }

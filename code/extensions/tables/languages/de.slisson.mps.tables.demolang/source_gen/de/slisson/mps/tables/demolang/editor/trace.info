@@ -327,17 +327,17 @@
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/1397920687865224257">
     <file name="RootConcept_Editor.java">
-      <node id="1397920687865224257" at="11,79,12,77" concept="9" />
+      <node id="1397920687865224257" at="11,79,12,75" concept="9" />
       <node id="1397920687865224257" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1397920687865224257" at="11,79,12,77" />
+      <scope id="1397920687865224257" at="11,79,12,75" />
       <scope id="1397920687865224257" at="11,0,14,0">
         <var name="editorContext" id="1397920687865224257" />
         <var name="node" id="1397920687865224257" />
       </scope>
       <unit id="1397920687865224257" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_Editor" />
     </file>
-    <file name="RootConcept_EditorBuilder_a.java">
-      <node id="1397920687865224257" at="47,91,48,19" concept="14" />
+    <file name="RootConcept_EditorBuilder.java">
+      <node id="1397920687865224257" at="47,89,48,19" concept="14" />
       <node id="1397920687865224257" at="48,19,49,18" concept="2" />
       <node id="1397920687865224257" at="54,26,55,18" concept="9" />
       <node id="1397920687865224257" at="58,39,59,32" concept="9" />
@@ -349,11 +349,11 @@
       <node id="2199447184387935808" at="67,49,68,51" concept="2" />
       <node id="330987653139910183" at="68,51,69,59" concept="2" />
       <node id="2199447184387933525" at="69,59,70,49" concept="2" />
-      <node id="2199447184387290404" at="71,37,72,53" concept="2" />
-      <node id="6736940976446943384" at="74,37,75,53" concept="2" />
-      <node id="2199447184387289738" at="77,37,78,53" concept="2" />
-      <node id="2199447184387289985" at="80,37,81,53" concept="2" />
-      <node id="2199447184387290184" at="83,37,84,53" concept="2" />
+      <node id="2199447184387290404" at="71,27,72,53" concept="2" />
+      <node id="6736940976446943384" at="74,27,75,53" concept="2" />
+      <node id="2199447184387289738" at="77,27,78,53" concept="2" />
+      <node id="2199447184387289985" at="80,27,81,53" concept="2" />
+      <node id="2199447184387290184" at="83,27,84,53" concept="2" />
       <node id="2522915415607151959" at="85,5,86,50" concept="2" />
       <node id="2522915415607155756" at="86,50,87,50" concept="2" />
       <node id="477038604676699005" at="87,50,88,50" concept="2" />
@@ -400,11 +400,11 @@
       <node id="477038604676916761" at="128,50,129,50" concept="2" />
       <node id="477038604676916763" at="129,50,130,50" concept="2" />
       <node id="1397920687865224257" at="130,50,131,22" concept="9" />
-      <node id="2199447184387919027" at="133,46,134,142" concept="9" />
-      <node id="4265025203578811545" at="136,46,137,142" concept="9" />
-      <node id="4265025203578813568" at="139,46,140,142" concept="9" />
-      <node id="4265025203578815591" at="142,46,143,142" concept="9" />
-      <node id="4265025203578817614" at="145,46,146,142" concept="9" />
+      <node id="2199447184387919027" at="133,36,134,142" concept="9" />
+      <node id="4265025203578811545" at="136,36,137,142" concept="9" />
+      <node id="4265025203578813568" at="139,36,140,142" concept="9" />
+      <node id="4265025203578815591" at="142,36,143,142" concept="9" />
+      <node id="4265025203578817614" at="145,36,146,142" concept="9" />
       <node id="477038604689336969" at="148,41,149,39" concept="2" />
       <node id="477038604689336969" at="150,9,151,49" concept="8" />
       <node id="477038604689336969" at="151,49,152,76" concept="2" />
@@ -1107,11 +1107,11 @@
       <node id="2199447184387289738" at="76,5,79,5" concept="6" />
       <node id="2199447184387289985" at="79,5,82,5" concept="6" />
       <node id="2199447184387290184" at="82,5,85,5" concept="6" />
-      <node id="2199447184387293546" at="133,0,136,0" concept="7" trace="nodeCondition_aw3qer_a4a#()Z" />
-      <node id="6736940976446943580" at="136,0,139,0" concept="7" trace="nodeCondition_aw3qer_a5a#()Z" />
-      <node id="2199447184387290517" at="139,0,142,0" concept="7" trace="nodeCondition_aw3qer_a6a#()Z" />
-      <node id="2199447184387291526" at="142,0,145,0" concept="7" trace="nodeCondition_aw3qer_a7a#()Z" />
-      <node id="2199447184387292535" at="145,0,148,0" concept="7" trace="nodeCondition_aw3qer_a8a#()Z" />
+      <node id="2199447184387293546" at="133,0,136,0" concept="7" trace="nodeCondition0#()Z" />
+      <node id="6736940976446943580" at="136,0,139,0" concept="7" trace="nodeCondition1#()Z" />
+      <node id="2199447184387290517" at="139,0,142,0" concept="7" trace="nodeCondition2#()Z" />
+      <node id="2199447184387291526" at="142,0,145,0" concept="7" trace="nodeCondition3#()Z" />
+      <node id="2199447184387292535" at="145,0,148,0" concept="7" trace="nodeCondition4#()Z" />
       <node id="1397920687865224257" at="288,87,291,7" concept="6" />
       <node id="1397920687865224257" at="291,7,294,7" concept="6" />
       <node id="1397920687865224257" at="320,0,323,0" concept="7" trace="getNoTargetText#()Ljava/lang/String;" />
@@ -1130,7 +1130,7 @@
       <node id="1397920687865224257" at="762,87,765,7" concept="6" />
       <node id="1397920687865224257" at="765,7,768,7" concept="6" />
       <node id="1397920687865224257" at="784,0,787,0" concept="7" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="1397920687865224257" at="47,0,51,0" concept="1" trace="RootConcept_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687865224257" at="47,0,51,0" concept="1" trace="RootConcept_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687865224257" at="259,0,263,0" concept="7" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1397920687865224257" at="267,0,271,0" concept="1" trace="requirementsCollectionSingleRoleHandler_aw3qer_c4a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1397920687865224257" at="375,0,379,0" concept="7" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1256,16 +1256,16 @@
       <node id="1397920687865224257" at="62,0,133,0" concept="7" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="1397920687865224257" at="54,26,55,18" />
       <scope id="1397920687865224257" at="58,39,59,32" />
-      <scope id="2199447184387290404" at="71,37,72,53" />
-      <scope id="6736940976446943384" at="74,37,75,53" />
-      <scope id="2199447184387289738" at="77,37,78,53" />
-      <scope id="2199447184387289985" at="80,37,81,53" />
-      <scope id="2199447184387290184" at="83,37,84,53" />
-      <scope id="2199447184387293547" at="133,46,134,142" />
-      <scope id="6736940976446943581" at="136,46,137,142" />
-      <scope id="2199447184387290518" at="139,46,140,142" />
-      <scope id="2199447184387291527" at="142,46,143,142" />
-      <scope id="2199447184387292536" at="145,46,146,142" />
+      <scope id="2199447184387290404" at="71,27,72,53" />
+      <scope id="6736940976446943384" at="74,27,75,53" />
+      <scope id="2199447184387289738" at="77,27,78,53" />
+      <scope id="2199447184387289985" at="80,27,81,53" />
+      <scope id="2199447184387290184" at="83,27,84,53" />
+      <scope id="2199447184387293547" at="133,36,134,142" />
+      <scope id="6736940976446943581" at="136,36,137,142" />
+      <scope id="2199447184387290518" at="139,36,140,142" />
+      <scope id="2199447184387291527" at="142,36,143,142" />
+      <scope id="2199447184387292536" at="145,36,146,142" />
       <scope id="477038604689336969" at="168,15,169,40" />
       <scope id="2199447184387937488" at="206,15,207,40" />
       <scope id="1397920687865224257" at="274,28,275,20" />
@@ -1299,7 +1299,7 @@
       <scope id="1397920687865224257" at="766,42,767,54" />
       <scope id="1397920687865224257" at="780,17,781,42" />
       <scope id="1397920687865224257" at="784,40,785,34" />
-      <scope id="1397920687865224257" at="47,91,49,18" />
+      <scope id="1397920687865224257" at="47,89,49,18" />
       <scope id="477038604689336969" at="163,74,165,145">
         <var name="manager" id="477038604689336969" />
       </scope>
@@ -1867,31 +1867,31 @@
         <var name="editorCell" id="1397920687865224257" />
       </scope>
       <scope id="1397920687865224257" at="62,0,133,0" />
-      <unit id="1397920687865224257" at="1200,0,1203,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder_a$CONCEPTS" />
-      <unit id="1397920687865224257" at="1195,0,1199,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder_a$PROPS" />
-      <unit id="1397920687865224257" at="1204,0,1212,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder_a$LINKS" />
-      <unit id="1397920687865224257" at="379,0,430,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder_a$ruleSingleRoleHandler_aw3qer_d5a" />
-      <unit id="1397920687865224257" at="444,0,495,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder_a$testSuiteSingleRoleHandler_aw3qer_f5a" />
-      <unit id="1397920687865224257" at="546,0,597,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder_a$stateMachineSingleRoleHandler_aw3qer_c6a" />
-      <unit id="1397920687865224257" at="642,0,693,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder_a$stateMachine2SingleRoleHandler_aw3qer_c7a" />
-      <unit id="1397920687865224257" at="737,0,788,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder_a$decisionTableSingleRoleHandler_aw3qer_c8a" />
-      <unit id="1397920687865224257" at="263,0,324,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder_a$requirementsCollectionSingleRoleHandler_aw3qer_c4a" />
-      <unit id="1397920687865224257" at="43,0,1213,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder_a" />
+      <unit id="1397920687865224257" at="1200,0,1203,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder$CONCEPTS" />
+      <unit id="1397920687865224257" at="1195,0,1199,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder$PROPS" />
+      <unit id="1397920687865224257" at="1204,0,1212,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder$LINKS" />
+      <unit id="1397920687865224257" at="379,0,430,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder$ruleSingleRoleHandler_aw3qer_d5a" />
+      <unit id="1397920687865224257" at="444,0,495,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder$testSuiteSingleRoleHandler_aw3qer_f5a" />
+      <unit id="1397920687865224257" at="546,0,597,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder$stateMachineSingleRoleHandler_aw3qer_c6a" />
+      <unit id="1397920687865224257" at="642,0,693,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder$stateMachine2SingleRoleHandler_aw3qer_c7a" />
+      <unit id="1397920687865224257" at="737,0,788,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder$decisionTableSingleRoleHandler_aw3qer_c8a" />
+      <unit id="1397920687865224257" at="263,0,324,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder$requirementsCollectionSingleRoleHandler_aw3qer_c4a" />
+      <unit id="1397920687865224257" at="43,0,1213,0" name="de.slisson.mps.tables.demolang.editor.RootConcept_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/1397920687865457024">
     <file name="RefinesRel_Editor.java">
-      <node id="1397920687865457024" at="11,79,12,76" concept="9" />
+      <node id="1397920687865457024" at="11,79,12,74" concept="9" />
       <node id="1397920687865457024" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1397920687865457024" at="11,79,12,76" />
+      <scope id="1397920687865457024" at="11,79,12,74" />
       <scope id="1397920687865457024" at="11,0,14,0">
         <var name="editorContext" id="1397920687865457024" />
         <var name="node" id="1397920687865457024" />
       </scope>
       <unit id="1397920687865457024" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.RefinesRel_Editor" />
     </file>
-    <file name="RefinesRel_EditorBuilder_a.java">
-      <node id="1397920687865457024" at="41,90,42,19" concept="14" />
+    <file name="RefinesRel_EditorBuilder.java">
+      <node id="1397920687865457024" at="41,88,42,19" concept="14" />
       <node id="1397920687865457024" at="42,19,43,18" concept="2" />
       <node id="1397920687865457024" at="48,26,49,18" concept="9" />
       <node id="1397920687865457024" at="52,39,53,32" concept="9" />
@@ -1956,7 +1956,7 @@
       <node id="1397920687865457097" at="107,0,109,0" concept="3" trace="myNode" />
       <node id="1397920687865457024" at="52,0,55,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1397920687865457097" at="117,0,120,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1397920687865457024" at="41,0,45,0" concept="1" trace="RefinesRel_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687865457024" at="41,0,45,0" concept="1" trace="RefinesRel_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687865457024" at="92,0,96,5" concept="6" />
       <node id="1397920687865457024" at="46,0,51,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1397920687865457024" at="99,205,104,22" concept="6" />
@@ -1976,7 +1976,7 @@
       <scope id="1397920687865457097" at="117,41,118,32" />
       <scope id="1397920687865457097" at="123,28,124,20" />
       <scope id="1397920687865457107" at="144,17,145,42" />
-      <scope id="1397920687865457024" at="41,90,43,18" />
+      <scope id="1397920687865457024" at="41,88,43,18" />
       <scope id="1397920687865457024" at="93,40,95,42" />
       <scope id="1397920687865457024" at="100,73,102,145">
         <var name="manager" id="1397920687865457024" />
@@ -2034,22 +2034,22 @@
         <var name="referenceLink" id="1397920687865457024" />
       </scope>
       <scope id="1397920687865457024" at="71,0,106,0" />
-      <unit id="1397920687865457024" at="150,0,153,0" name="de.slisson.mps.tables.demolang.editor.RefinesRel_EditorBuilder_a$LINKS" />
-      <unit id="1397920687865457024" at="159,0,162,0" name="de.slisson.mps.tables.demolang.editor.RefinesRel_EditorBuilder_a$PROPS" />
-      <unit id="1397920687865457024" at="154,0,158,0" name="de.slisson.mps.tables.demolang.editor.RefinesRel_EditorBuilder_a$CONCEPTS" />
-      <unit id="1397920687865457024" at="73,42,88,5" name="de.slisson.mps.tables.demolang.editor.RefinesRel_EditorBuilder_a$1" />
-      <unit id="1397920687865457097" at="106,0,149,0" name="de.slisson.mps.tables.demolang.editor.RefinesRel_EditorBuilder_a$Inline_Builder0" />
-      <unit id="1397920687865457024" at="37,0,163,0" name="de.slisson.mps.tables.demolang.editor.RefinesRel_EditorBuilder_a" />
+      <unit id="1397920687865457024" at="150,0,153,0" name="de.slisson.mps.tables.demolang.editor.RefinesRel_EditorBuilder$LINKS" />
+      <unit id="1397920687865457024" at="159,0,162,0" name="de.slisson.mps.tables.demolang.editor.RefinesRel_EditorBuilder$PROPS" />
+      <unit id="1397920687865457024" at="154,0,158,0" name="de.slisson.mps.tables.demolang.editor.RefinesRel_EditorBuilder$CONCEPTS" />
+      <unit id="1397920687865457024" at="73,42,88,5" name="de.slisson.mps.tables.demolang.editor.RefinesRel_EditorBuilder$1" />
+      <unit id="1397920687865457097" at="106,0,149,0" name="de.slisson.mps.tables.demolang.editor.RefinesRel_EditorBuilder$Inline_Builder0" />
+      <unit id="1397920687865457024" at="37,0,163,0" name="de.slisson.mps.tables.demolang.editor.RefinesRel_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/1397920687865457206">
     <file name="Requirement_Editor.java">
-      <node id="1397920687865457206" at="11,79,12,77" concept="9" />
-      <node id="1397920687865457206" at="14,82,15,80" concept="9" />
+      <node id="1397920687865457206" at="11,79,12,75" concept="9" />
+      <node id="1397920687865457206" at="14,82,15,78" concept="9" />
       <node id="1397920687865457206" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1397920687865457206" at="14,0,17,0" concept="7" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1397920687865457206" at="11,79,12,77" />
-      <scope id="1397920687865457206" at="14,82,15,80" />
+      <scope id="1397920687865457206" at="11,79,12,75" />
+      <scope id="1397920687865457206" at="14,82,15,78" />
       <scope id="1397920687865457206" at="11,0,14,0">
         <var name="editorContext" id="1397920687865457206" />
         <var name="node" id="1397920687865457206" />
@@ -2060,8 +2060,8 @@
       </scope>
       <unit id="1397920687865457206" at="10,0,18,0" name="de.slisson.mps.tables.demolang.editor.Requirement_Editor" />
     </file>
-    <file name="Requirement_EditorBuilder_a.java">
-      <node id="1397920687865457206" at="63,91,64,19" concept="14" />
+    <file name="Requirement_EditorBuilder.java">
+      <node id="1397920687865457206" at="63,89,64,19" concept="14" />
       <node id="1397920687865457206" at="64,19,65,18" concept="2" />
       <node id="1397920687865457206" at="70,26,71,18" concept="9" />
       <node id="1397920687865457206" at="74,39,75,34" concept="9" />
@@ -2273,7 +2273,7 @@
       <node id="1397920687865457206" at="358,0,361,0" concept="7" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="1397920687865457206" at="402,96,405,9" concept="6" />
       <node id="4290301510640622233" at="426,0,429,0" concept="7" trace="_StyleParameter_QueryFunction_yqzqtw_a0a0c0a#()Z" />
-      <node id="1397920687865457206" at="63,0,67,0" concept="1" trace="Requirement_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687865457206" at="63,0,67,0" concept="1" trace="Requirement_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687865457206" at="236,0,240,0" concept="7" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1397920687865457206" at="244,0,248,0" concept="1" trace="multilineDescriptionSingleRoleHandler_yqzqtw_a1a0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1397920687865457206" at="346,0,350,0" concept="1" trace="RelationshipsListHandler_yqzqtw_a2a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -2357,7 +2357,7 @@
       <scope id="1397920687865457206" at="376,17,377,42" />
       <scope id="1397920687865457206" at="403,34,404,91" />
       <scope id="4290301510640622234" at="426,66,427,16" />
-      <scope id="1397920687865457206" at="63,91,65,18" />
+      <scope id="1397920687865457206" at="63,89,65,18" />
       <scope id="1397920687865838226" at="187,74,189,145">
         <var name="manager" id="1397920687865838226" />
       </scope>
@@ -2607,23 +2607,23 @@
         <var name="editorContext" id="1397920687865457206" />
         <var name="node" id="1397920687865457206" />
       </scope>
-      <unit id="1397920687865457206" at="430,0,433,0" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a$PROPS" />
-      <unit id="1397920687865457206" at="434,0,438,0" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a$CONCEPTS" />
-      <unit id="1397920687865457206" at="439,0,443,0" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a$LINKS" />
-      <unit id="1397920687865457206" at="84,30,90,7" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a$1" />
-      <unit id="2522915415597555664" at="197,28,203,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a$4" />
-      <unit id="1397920687865457206" at="215,28,221,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a$5" />
-      <unit id="1397920687865457206" at="314,28,320,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a$7" />
-      <unit id="1397920687865457206" at="139,28,146,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a$2" />
-      <unit id="1397920687865457206" at="153,28,160,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a$3" />
-      <unit id="1397920687865457206" at="292,28,299,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a$6" />
-      <unit id="1397920687865457206" at="410,28,417,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a$8" />
-      <unit id="1397920687865457206" at="240,0,291,0" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a$multilineDescriptionSingleRoleHandler_yqzqtw_a1a0" />
-      <unit id="1397920687865457206" at="342,0,409,0" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a$RelationshipsListHandler_yqzqtw_a2a0" />
-      <unit id="1397920687865457206" at="59,0,444,0" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder_a" />
+      <unit id="1397920687865457206" at="430,0,433,0" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder$PROPS" />
+      <unit id="1397920687865457206" at="434,0,438,0" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder$CONCEPTS" />
+      <unit id="1397920687865457206" at="439,0,443,0" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder$LINKS" />
+      <unit id="1397920687865457206" at="84,30,90,7" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder$1" />
+      <unit id="2522915415597555664" at="197,28,203,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder$4" />
+      <unit id="1397920687865457206" at="215,28,221,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder$5" />
+      <unit id="1397920687865457206" at="314,28,320,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder$7" />
+      <unit id="1397920687865457206" at="139,28,146,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder$2" />
+      <unit id="1397920687865457206" at="153,28,160,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder$3" />
+      <unit id="1397920687865457206" at="292,28,299,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder$6" />
+      <unit id="1397920687865457206" at="410,28,417,5" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder$8" />
+      <unit id="1397920687865457206" at="240,0,291,0" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder$multilineDescriptionSingleRoleHandler_yqzqtw_a1a0" />
+      <unit id="1397920687865457206" at="342,0,409,0" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder$RelationshipsListHandler_yqzqtw_a2a0" />
+      <unit id="1397920687865457206" at="59,0,444,0" name="de.slisson.mps.tables.demolang.editor.Requirement_EditorBuilder" />
     </file>
-    <file name="Requirement_InspectorBuilder_a.java">
-      <node id="1397920687865457206" at="32,94,33,19" concept="14" />
+    <file name="Requirement_InspectorBuilder.java">
+      <node id="1397920687865457206" at="32,92,33,19" concept="14" />
       <node id="1397920687865457206" at="33,19,34,18" concept="2" />
       <node id="1397920687865457206" at="39,26,40,18" concept="9" />
       <node id="1397920687865457206" at="43,39,44,32" concept="9" />
@@ -2656,7 +2656,7 @@
       <node id="1397920687865457206" at="89,0,90,0" concept="12" trace="PropertyAttribute$Gb" />
       <node id="1397920687865457206" at="29,0,31,0" concept="3" trace="myNode" />
       <node id="1397920687865457206" at="43,0,46,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1397920687865457206" at="32,0,36,0" concept="1" trace="Requirement_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687865457206" at="32,0,36,0" concept="1" trace="Requirement_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687865457206" at="37,0,42,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2518382499585726751" at="73,208,78,24" concept="6" />
       <node id="2518382499585726746" at="56,0,62,0" concept="7" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -2666,7 +2666,7 @@
       <scope id="1397920687865457206" at="39,26,40,18" />
       <scope id="1397920687865457206" at="43,39,44,32" />
       <scope id="2518382499585726751" at="79,15,80,40" />
-      <scope id="1397920687865457206" at="32,94,34,18" />
+      <scope id="1397920687865457206" at="32,92,34,18" />
       <scope id="2518382499585726751" at="74,74,76,145">
         <var name="manager" id="2518382499585726751" />
       </scope>
@@ -2692,24 +2692,24 @@
       </scope>
       <scope id="2518382499585726751" at="62,41,81,5" />
       <scope id="2518382499585726751" at="62,0,83,0" />
-      <unit id="1397920687865457206" at="84,0,87,0" name="de.slisson.mps.tables.demolang.editor.Requirement_InspectorBuilder_a$PROPS" />
-      <unit id="1397920687865457206" at="88,0,91,0" name="de.slisson.mps.tables.demolang.editor.Requirement_InspectorBuilder_a$CONCEPTS" />
-      <unit id="1397920687865457206" at="28,0,92,0" name="de.slisson.mps.tables.demolang.editor.Requirement_InspectorBuilder_a" />
+      <unit id="1397920687865457206" at="84,0,87,0" name="de.slisson.mps.tables.demolang.editor.Requirement_InspectorBuilder$PROPS" />
+      <unit id="1397920687865457206" at="88,0,91,0" name="de.slisson.mps.tables.demolang.editor.Requirement_InspectorBuilder$CONCEPTS" />
+      <unit id="1397920687865457206" at="28,0,92,0" name="de.slisson.mps.tables.demolang.editor.Requirement_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/1397920687865457213">
     <file name="RequirementsCollection_Editor.java">
-      <node id="1397920687865457213" at="11,79,12,88" concept="9" />
+      <node id="1397920687865457213" at="11,79,12,86" concept="9" />
       <node id="1397920687865457213" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1397920687865457213" at="11,79,12,88" />
+      <scope id="1397920687865457213" at="11,79,12,86" />
       <scope id="1397920687865457213" at="11,0,14,0">
         <var name="editorContext" id="1397920687865457213" />
         <var name="node" id="1397920687865457213" />
       </scope>
       <unit id="1397920687865457213" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_Editor" />
     </file>
-    <file name="RequirementsCollection_EditorBuilder_a.java">
-      <node id="1397920687865457213" at="52,102,53,19" concept="14" />
+    <file name="RequirementsCollection_EditorBuilder.java">
+      <node id="1397920687865457213" at="52,100,53,19" concept="14" />
       <node id="1397920687865457213" at="53,19,54,18" concept="2" />
       <node id="1397920687865457213" at="59,26,60,18" concept="9" />
       <node id="1397920687865457213" at="63,39,64,27" concept="9" />
@@ -2827,7 +2827,7 @@
       <node id="1397920687865457213" at="182,0,185,0" concept="7" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1397920687865457213" at="190,0,193,0" concept="7" trace="create#()V" />
       <node id="4290301510640845054" at="219,0,222,0" concept="7" trace="_StyleParameter_QueryFunction_962ri7_a0a0a0#()Z" />
-      <node id="1397920687865457213" at="52,0,56,0" concept="1" trace="RequirementsCollection_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687865457213" at="52,0,56,0" concept="1" trace="RequirementsCollection_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687865457213" at="78,27,82,11" concept="0" />
       <node id="1397920687865457213" at="84,24,88,11" concept="0" />
       <node id="1397920687865457213" at="57,0,62,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2855,7 +2855,7 @@
       <scope id="1397920687865457213" at="182,47,183,36" />
       <scope id="1397920687865457213" at="190,30,191,36" />
       <scope id="4290301510640845055" at="219,65,220,16" />
-      <scope id="1397920687865457213" at="52,102,54,18" />
+      <scope id="1397920687865457213" at="52,100,54,18" />
       <scope id="1397920687865457213" at="79,11,81,47">
         <var name="headerGrids" id="1397920687865457213" />
       </scope>
@@ -2952,29 +2952,29 @@
         <var name="editorContext" id="1397920687865457213" />
         <var name="node" id="1397920687865457213" />
       </scope>
-      <unit id="1397920687865457213" at="133,53,133,146" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder_a$2" />
-      <unit id="1397920687865457213" at="223,0,226,0" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder_a$LINKS" />
-      <unit id="1397920687865457213" at="181,55,185,7" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder_a$4" />
-      <unit id="1397920687865457213" at="189,47,193,7" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder_a$5" />
-      <unit id="1397920687865457213" at="99,43,105,11" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder_a$1" />
-      <unit id="1397920687865457213" at="157,38,163,9" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder_a$3" />
-      <unit id="1397920687865457213" at="203,28,210,5" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder_a$6" />
-      <unit id="1397920687865457213" at="48,0,227,0" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder_a" />
+      <unit id="1397920687865457213" at="133,53,133,146" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder$2" />
+      <unit id="1397920687865457213" at="223,0,226,0" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder$LINKS" />
+      <unit id="1397920687865457213" at="181,55,185,7" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder$4" />
+      <unit id="1397920687865457213" at="189,47,193,7" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder$5" />
+      <unit id="1397920687865457213" at="99,43,105,11" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder$1" />
+      <unit id="1397920687865457213" at="157,38,163,9" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder$3" />
+      <unit id="1397920687865457213" at="203,28,210,5" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder$6" />
+      <unit id="1397920687865457213" at="48,0,227,0" name="de.slisson.mps.tables.demolang.editor.RequirementsCollection_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/1397920687865838482">
     <file name="Rule_Editor.java">
-      <node id="1397920687865838482" at="11,79,12,70" concept="9" />
+      <node id="1397920687865838482" at="11,79,12,68" concept="9" />
       <node id="1397920687865838482" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1397920687865838482" at="11,79,12,70" />
+      <scope id="1397920687865838482" at="11,79,12,68" />
       <scope id="1397920687865838482" at="11,0,14,0">
         <var name="editorContext" id="1397920687865838482" />
         <var name="node" id="1397920687865838482" />
       </scope>
       <unit id="1397920687865838482" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.Rule_Editor" />
     </file>
-    <file name="Rule_EditorBuilder_a.java">
-      <node id="1397920687865838482" at="46,84,47,19" concept="14" />
+    <file name="Rule_EditorBuilder.java">
+      <node id="1397920687865838482" at="46,82,47,19" concept="14" />
       <node id="1397920687865838482" at="47,19,48,18" concept="2" />
       <node id="1397920687865838482" at="53,26,54,18" concept="9" />
       <node id="1397920687865838482" at="57,39,58,32" concept="9" />
@@ -3057,7 +3057,7 @@
       <node id="1397920687865838482" at="57,0,60,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1397920687865838482" at="119,0,122,0" concept="7" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="1397920687865838482" at="122,0,125,0" concept="7" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="1397920687865838482" at="46,0,50,0" concept="1" trace="Rule_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687865838482" at="46,0,50,0" concept="1" trace="Rule_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687865838482" at="110,0,114,0" concept="1" trace="variablesListHandler_z0m96w_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1397920687865838482" at="115,0,119,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1397920687865838482" at="148,97,152,9" concept="6" />
@@ -3088,7 +3088,7 @@
       <scope id="1397920687865838482" at="119,40,120,34" />
       <scope id="1397920687865838482" at="122,48,123,34" />
       <scope id="1397920687865838482" at="140,17,141,42" />
-      <scope id="1397920687865838482" at="46,84,48,18" />
+      <scope id="1397920687865838482" at="46,82,48,18" />
       <scope id="1397920687865838494" at="84,74,86,145">
         <var name="manager" id="1397920687865838494" />
       </scope>
@@ -3164,26 +3164,26 @@
         <var name="elementNode" id="1397920687865838482" />
         <var name="isEmptyCell" id="1397920687865838482" />
       </scope>
-      <unit id="1397920687865838482" at="193,0,196,0" name="de.slisson.mps.tables.demolang.editor.Rule_EditorBuilder_a$PROPS" />
-      <unit id="1397920687865838482" at="202,0,205,0" name="de.slisson.mps.tables.demolang.editor.Rule_EditorBuilder_a$LINKS" />
-      <unit id="1397920687865838482" at="197,0,201,0" name="de.slisson.mps.tables.demolang.editor.Rule_EditorBuilder_a$CONCEPTS" />
-      <unit id="1397920687865838482" at="106,0,186,0" name="de.slisson.mps.tables.demolang.editor.Rule_EditorBuilder_a$variablesListHandler_z0m96w_c0" />
-      <unit id="1397920687865838482" at="42,0,206,0" name="de.slisson.mps.tables.demolang.editor.Rule_EditorBuilder_a" />
+      <unit id="1397920687865838482" at="193,0,196,0" name="de.slisson.mps.tables.demolang.editor.Rule_EditorBuilder$PROPS" />
+      <unit id="1397920687865838482" at="202,0,205,0" name="de.slisson.mps.tables.demolang.editor.Rule_EditorBuilder$LINKS" />
+      <unit id="1397920687865838482" at="197,0,201,0" name="de.slisson.mps.tables.demolang.editor.Rule_EditorBuilder$CONCEPTS" />
+      <unit id="1397920687865838482" at="106,0,186,0" name="de.slisson.mps.tables.demolang.editor.Rule_EditorBuilder$variablesListHandler_z0m96w_c0" />
+      <unit id="1397920687865838482" at="42,0,206,0" name="de.slisson.mps.tables.demolang.editor.Rule_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/1397920687865838641">
     <file name="Variable_Editor.java">
-      <node id="1397920687865838641" at="11,79,12,74" concept="9" />
+      <node id="1397920687865838641" at="11,79,12,72" concept="9" />
       <node id="1397920687865838641" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1397920687865838641" at="11,79,12,74" />
+      <scope id="1397920687865838641" at="11,79,12,72" />
       <scope id="1397920687865838641" at="11,0,14,0">
         <var name="editorContext" id="1397920687865838641" />
         <var name="node" id="1397920687865838641" />
       </scope>
       <unit id="1397920687865838641" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.Variable_Editor" />
     </file>
-    <file name="Variable_EditorBuilder_a.java">
-      <node id="1397920687865838641" at="29,88,30,19" concept="14" />
+    <file name="Variable_EditorBuilder.java">
+      <node id="1397920687865838641" at="29,86,30,19" concept="14" />
       <node id="1397920687865838641" at="30,19,31,18" concept="2" />
       <node id="1397920687865838641" at="36,26,37,18" concept="9" />
       <node id="1397920687865838641" at="40,39,41,30" concept="9" />
@@ -3207,7 +3207,7 @@
       <node id="1397920687865838641" at="73,0,74,0" concept="12" trace="PropertyAttribute$Gb" />
       <node id="1397920687865838641" at="26,0,28,0" concept="3" trace="myNode" />
       <node id="1397920687865838641" at="40,0,43,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1397920687865838641" at="29,0,33,0" concept="1" trace="Variable_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687865838641" at="29,0,33,0" concept="1" trace="Variable_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687865838641" at="34,0,39,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1397920687865838643" at="57,208,62,24" concept="6" />
       <node id="1397920687865838643" at="45,39,65,5" concept="16" />
@@ -3215,7 +3215,7 @@
       <scope id="1397920687865838641" at="36,26,37,18" />
       <scope id="1397920687865838641" at="40,39,41,30" />
       <scope id="1397920687865838643" at="63,15,64,40" />
-      <scope id="1397920687865838641" at="29,88,31,18" />
+      <scope id="1397920687865838641" at="29,86,31,18" />
       <scope id="1397920687865838643" at="58,74,60,145">
         <var name="manager" id="1397920687865838643" />
       </scope>
@@ -3233,24 +3233,24 @@
       </scope>
       <scope id="1397920687865838643" at="44,41,65,5" />
       <scope id="1397920687865838643" at="44,0,67,0" />
-      <unit id="1397920687865838641" at="68,0,71,0" name="de.slisson.mps.tables.demolang.editor.Variable_EditorBuilder_a$PROPS" />
-      <unit id="1397920687865838641" at="72,0,75,0" name="de.slisson.mps.tables.demolang.editor.Variable_EditorBuilder_a$CONCEPTS" />
-      <unit id="1397920687865838641" at="25,0,76,0" name="de.slisson.mps.tables.demolang.editor.Variable_EditorBuilder_a" />
+      <unit id="1397920687865838641" at="68,0,71,0" name="de.slisson.mps.tables.demolang.editor.Variable_EditorBuilder$PROPS" />
+      <unit id="1397920687865838641" at="72,0,75,0" name="de.slisson.mps.tables.demolang.editor.Variable_EditorBuilder$CONCEPTS" />
+      <unit id="1397920687865838641" at="25,0,76,0" name="de.slisson.mps.tables.demolang.editor.Variable_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/1397920687865838833">
     <file name="TestSuite_Editor.java">
-      <node id="1397920687865838833" at="11,79,12,75" concept="9" />
+      <node id="1397920687865838833" at="11,79,12,73" concept="9" />
       <node id="1397920687865838833" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1397920687865838833" at="11,79,12,75" />
+      <scope id="1397920687865838833" at="11,79,12,73" />
       <scope id="1397920687865838833" at="11,0,14,0">
         <var name="editorContext" id="1397920687865838833" />
         <var name="node" id="1397920687865838833" />
       </scope>
       <unit id="1397920687865838833" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.TestSuite_Editor" />
     </file>
-    <file name="TestSuite_EditorBuilder_a.java">
-      <node id="1397920687865838833" at="70,89,71,19" concept="14" />
+    <file name="TestSuite_EditorBuilder.java">
+      <node id="1397920687865838833" at="70,87,71,19" concept="14" />
       <node id="1397920687865838833" at="71,19,72,18" concept="2" />
       <node id="1397920687865838833" at="77,26,78,18" concept="9" />
       <node id="1397920687865838833" at="81,39,82,32" concept="9" />
@@ -3415,7 +3415,7 @@
       <node id="1397920687865838833" at="237,0,240,0" concept="7" trace="createTable_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1397920687870997136" at="294,0,297,0" concept="7" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1397920687870997136" at="302,0,305,0" concept="7" trace="create#()V" />
-      <node id="1397920687865838833" at="70,0,74,0" concept="1" trace="TestSuite_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687865838833" at="70,0,74,0" concept="1" trace="TestSuite_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687865838833" at="122,0,126,5" concept="6" />
       <node id="1397920687865838833" at="193,27,197,11" concept="0" />
       <node id="1397920687865838833" at="199,24,203,11" concept="0" />
@@ -3455,7 +3455,7 @@
       <scope id="1397920687870997136" at="282,15,283,40" />
       <scope id="1397920687870997136" at="294,47,295,36" />
       <scope id="1397920687870997136" at="302,30,303,36" />
-      <scope id="1397920687865838833" at="70,89,72,18" />
+      <scope id="1397920687865838833" at="70,87,72,18" />
       <scope id="1397920687865838833" at="123,40,125,43" />
       <scope id="1397920687865838833" at="133,73,135,145">
         <var name="manager" id="1397920687865838833" />
@@ -3585,32 +3585,32 @@
         <var name="editorContext" id="1397920687870997136" />
         <var name="node" id="1397920687870997136" />
       </scope>
-      <unit id="1397920687870997136" at="245,53,245,139" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder_a$3" />
-      <unit id="1397920687865838833" at="325,0,328,0" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder_a$PROPS" />
-      <unit id="1397920687870997136" at="293,55,297,7" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder_a$5" />
-      <unit id="1397920687870997136" at="301,47,305,7" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder_a$6" />
-      <unit id="1397920687865838833" at="315,0,319,0" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder_a$LINKS" />
-      <unit id="1397920687865838833" at="320,0,324,0" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder_a$CONCEPTS" />
-      <unit id="1397920687865838833" at="212,43,218,11" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder_a$2" />
-      <unit id="1397920687870997136" at="269,38,275,9" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder_a$4" />
-      <unit id="1397920687865838833" at="103,42,118,5" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder_a$1" />
-      <unit id="1397920687865838855" at="139,0,182,0" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder_a$Inline_Builder0" />
-      <unit id="1397920687865838833" at="66,0,329,0" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder_a" />
+      <unit id="1397920687870997136" at="245,53,245,139" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder$3" />
+      <unit id="1397920687865838833" at="325,0,328,0" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder$PROPS" />
+      <unit id="1397920687870997136" at="293,55,297,7" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder$5" />
+      <unit id="1397920687870997136" at="301,47,305,7" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder$6" />
+      <unit id="1397920687865838833" at="315,0,319,0" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder$LINKS" />
+      <unit id="1397920687865838833" at="320,0,324,0" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder$CONCEPTS" />
+      <unit id="1397920687865838833" at="212,43,218,11" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder$2" />
+      <unit id="1397920687870997136" at="269,38,275,9" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder$4" />
+      <unit id="1397920687865838833" at="103,42,118,5" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder$1" />
+      <unit id="1397920687865838855" at="139,0,182,0" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder$Inline_Builder0" />
+      <unit id="1397920687865838833" at="66,0,329,0" name="de.slisson.mps.tables.demolang.editor.TestSuite_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/1397920687866278975">
     <file name="TestCase_Editor.java">
-      <node id="1397920687866278975" at="11,79,12,74" concept="9" />
+      <node id="1397920687866278975" at="11,79,12,72" concept="9" />
       <node id="1397920687866278975" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1397920687866278975" at="11,79,12,74" />
+      <scope id="1397920687866278975" at="11,79,12,72" />
       <scope id="1397920687866278975" at="11,0,14,0">
         <var name="editorContext" id="1397920687866278975" />
         <var name="node" id="1397920687866278975" />
       </scope>
       <unit id="1397920687866278975" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.TestCase_Editor" />
     </file>
-    <file name="TestCase_EditorBuilder_a.java">
-      <node id="1397920687866278975" at="67,88,68,19" concept="14" />
+    <file name="TestCase_EditorBuilder.java">
+      <node id="1397920687866278975" at="67,86,68,19" concept="14" />
       <node id="1397920687866278975" at="68,19,69,18" concept="2" />
       <node id="1397920687866278975" at="74,26,75,18" concept="9" />
       <node id="1397920687866278975" at="78,39,79,34" concept="9" />
@@ -3893,7 +3893,7 @@
       <node id="1397920687866278975" at="473,7,476,7" concept="6" />
       <node id="1397920687866278975" at="492,0,495,0" concept="7" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="477038604693239288" at="515,0,518,0" concept="7" trace="_StyleParameter_QueryFunction_g8b7hx_a2a0d0a#()Z" />
-      <node id="1397920687866278975" at="67,0,71,0" concept="1" trace="TestCase_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687866278975" at="67,0,71,0" concept="1" trace="TestCase_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8791219374192223362" at="287,35,291,15" concept="6" />
       <node id="1397920687866278975" at="334,0,338,0" concept="7" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1397920687866278975" at="342,0,346,0" concept="1" trace="expectedSingleRoleHandler_g8b7hx_a2a0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -3988,7 +3988,7 @@
       <scope id="1397920687866278975" at="488,17,489,42" />
       <scope id="1397920687866278975" at="492,40,493,27" />
       <scope id="477038604693239289" at="515,66,516,16" />
-      <scope id="1397920687866278975" at="67,88,69,18" />
+      <scope id="1397920687866278975" at="67,86,69,18" />
       <scope id="1397920687866279049" at="209,74,211,145">
         <var name="manager" id="1397920687866279049" />
       </scope>
@@ -4289,34 +4289,34 @@
         <var name="editorContext" id="1450914667649096246" />
         <var name="node" id="1450914667649096246" />
       </scope>
-      <unit id="1397920687866278975" at="519,0,522,0" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$PROPS" />
-      <unit id="1925286362815728621" at="92,119,96,11" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$1$1" />
-      <unit id="1397920687866278975" at="523,0,527,0" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$CONCEPTS" />
-      <unit id="1397920687866278975" at="159,28,165,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$2" />
-      <unit id="1450914667649096246" at="260,28,266,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$5" />
-      <unit id="1397920687866278975" at="418,28,426,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$9" />
-      <unit id="1397920687866278975" at="172,28,181,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$3" />
-      <unit id="1397920687866278975" at="220,28,229,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$4" />
-      <unit id="8791219374192222520" at="285,189,294,11" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$6$1" />
-      <unit id="1397920687866278975" at="310,28,319,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$7" />
-      <unit id="1397920687866278975" at="394,28,403,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$8" />
-      <unit id="1397920687866278975" at="497,28,506,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$10" />
-      <unit id="1397920687866278975" at="528,0,537,0" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$LINKS" />
-      <unit id="1397920687866278975" at="88,30,107,7" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$1" />
-      <unit id="1450914667649096246" at="271,8,298,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$6" />
-      <unit id="1397920687866278975" at="445,0,496,0" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$actualSingleRoleHandler_g8b7hx_a3a0" />
-      <unit id="1397920687866278975" at="338,0,393,0" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a$expectedSingleRoleHandler_g8b7hx_a2a0" />
-      <unit id="1397920687866278975" at="63,0,538,0" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder_a" />
+      <unit id="1397920687866278975" at="519,0,522,0" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$PROPS" />
+      <unit id="1925286362815728621" at="92,119,96,11" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$1$1" />
+      <unit id="1397920687866278975" at="523,0,527,0" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$CONCEPTS" />
+      <unit id="1397920687866278975" at="159,28,165,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$2" />
+      <unit id="1450914667649096246" at="260,28,266,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$5" />
+      <unit id="1397920687866278975" at="418,28,426,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$9" />
+      <unit id="1397920687866278975" at="172,28,181,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$3" />
+      <unit id="1397920687866278975" at="220,28,229,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$4" />
+      <unit id="8791219374192222520" at="285,189,294,11" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$6$1" />
+      <unit id="1397920687866278975" at="310,28,319,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$7" />
+      <unit id="1397920687866278975" at="394,28,403,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$8" />
+      <unit id="1397920687866278975" at="497,28,506,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$10" />
+      <unit id="1397920687866278975" at="528,0,537,0" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$LINKS" />
+      <unit id="1397920687866278975" at="88,30,107,7" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$1" />
+      <unit id="1450914667649096246" at="271,8,298,5" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$6" />
+      <unit id="1397920687866278975" at="445,0,496,0" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$actualSingleRoleHandler_g8b7hx_a3a0" />
+      <unit id="1397920687866278975" at="338,0,393,0" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder$expectedSingleRoleHandler_g8b7hx_a2a0" />
+      <unit id="1397920687866278975" at="63,0,538,0" name="de.slisson.mps.tables.demolang.editor.TestCase_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/1397920687866915113">
     <file name="Transition_Editor.java">
-      <node id="1397920687866915113" at="11,79,12,76" concept="9" />
-      <node id="1397920687866915113" at="14,82,15,79" concept="9" />
+      <node id="1397920687866915113" at="11,79,12,74" concept="9" />
+      <node id="1397920687866915113" at="14,82,15,77" concept="9" />
       <node id="1397920687866915113" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1397920687866915113" at="14,0,17,0" concept="7" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1397920687866915113" at="11,79,12,76" />
-      <scope id="1397920687866915113" at="14,82,15,79" />
+      <scope id="1397920687866915113" at="11,79,12,74" />
+      <scope id="1397920687866915113" at="14,82,15,77" />
       <scope id="1397920687866915113" at="11,0,14,0">
         <var name="editorContext" id="1397920687866915113" />
         <var name="node" id="1397920687866915113" />
@@ -4327,8 +4327,8 @@
       </scope>
       <unit id="1397920687866915113" at="10,0,18,0" name="de.slisson.mps.tables.demolang.editor.Transition_Editor" />
     </file>
-    <file name="Transition_EditorBuilder_a.java">
-      <node id="1397920687866915113" at="55,90,56,19" concept="14" />
+    <file name="Transition_EditorBuilder.java">
+      <node id="1397920687866915113" at="55,88,56,19" concept="14" />
       <node id="1397920687866915113" at="56,19,57,18" concept="2" />
       <node id="1397920687866915113" at="62,26,63,18" concept="9" />
       <node id="1397920687866915113" at="66,39,67,34" concept="9" />
@@ -4372,11 +4372,11 @@
       <node id="1397920687866915113" at="131,43,132,122" concept="8" />
       <node id="1397920687866915113" at="132,122,133,49" concept="2" />
       <node id="1397920687866915113" at="133,49,134,79" concept="2" />
-      <node id="1652594944454390475" at="135,38,136,53" concept="2" />
+      <node id="1652594944454390475" at="135,27,136,53" concept="2" />
       <node id="1652594944454390453" at="137,5,138,49" concept="2" />
       <node id="1397920687866915304" at="138,49,139,48" concept="2" />
       <node id="1397920687866915113" at="139,48,140,22" concept="9" />
-      <node id="1652594944454391318" at="142,47,143,120" concept="9" />
+      <node id="1652594944454391318" at="142,36,143,120" concept="9" />
       <node id="1397920687866915113" at="145,43,146,122" concept="8" />
       <node id="1397920687866915113" at="146,122,147,50" concept="2" />
       <node id="1397920687866915113" at="147,50,148,34" concept="8" />
@@ -4470,12 +4470,12 @@
       <node id="1397920687866915113" at="98,35,101,7" concept="6" />
       <node id="1397920687866915113" at="105,0,108,0" concept="7" trace="createPartialTable_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1652594944454390475" at="134,79,137,5" concept="6" />
-      <node id="1652594944454390503" at="142,0,145,0" concept="7" trace="nodeCondition_jj4qz_a0a0a#()Z" />
+      <node id="1652594944454390503" at="142,0,145,0" concept="7" trace="nodeCondition0#()Z" />
       <node id="1397920687866915113" at="191,87,194,7" concept="6" />
       <node id="1397920687866915113" at="194,7,197,7" concept="6" />
       <node id="1397920687866915113" at="213,0,216,0" concept="7" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="1397920687866915305" at="268,0,271,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1397920687866915113" at="55,0,59,0" concept="1" trace="Transition_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687866915113" at="55,0,59,0" concept="1" trace="Transition_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687866915113" at="162,0,166,0" concept="7" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1397920687866915113" at="170,0,174,0" concept="1" trace="guardSingleRoleHandler_jj4qz_b0a0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1397920687866915113" at="243,0,247,5" concept="6" />
@@ -4514,8 +4514,8 @@
       <scope id="1397920687866915113" at="99,34,100,36" />
       <scope id="1397920687866915113" at="105,45,106,63" />
       <scope id="1397920687866915113" at="120,45,121,59" />
-      <scope id="1652594944454390475" at="135,38,136,53" />
-      <scope id="1652594944454390504" at="142,47,143,120" />
+      <scope id="1652594944454390475" at="135,27,136,53" />
+      <scope id="1652594944454390504" at="142,36,143,120" />
       <scope id="1397920687866915113" at="177,28,178,20" />
       <scope id="1397920687866915113" at="192,118,193,137" />
       <scope id="1397920687866915113" at="195,42,196,46" />
@@ -4524,7 +4524,7 @@
       <scope id="1397920687866915305" at="268,41,269,32" />
       <scope id="1397920687866915305" at="274,28,275,20" />
       <scope id="1397920687866915319" at="295,17,296,42" />
-      <scope id="1397920687866915113" at="55,90,57,18" />
+      <scope id="1397920687866915113" at="55,88,57,18" />
       <scope id="1397920687866915113" at="162,40,164,33">
         <var name="provider" id="1397920687866915113" />
       </scope>
@@ -4664,18 +4664,18 @@
         <var name="editorContext" id="1397920687866915113" />
         <var name="node" id="1397920687866915113" />
       </scope>
-      <unit id="1397920687866915113" at="311,0,314,0" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder_a$PROPS" />
-      <unit id="1397920687866915113" at="301,0,305,0" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder_a$LINKS" />
-      <unit id="1397920687866915113" at="306,0,310,0" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder_a$CONCEPTS" />
-      <unit id="1397920687866915113" at="76,30,82,7" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder_a$1" />
-      <unit id="1397920687866915113" at="111,28,117,5" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder_a$2" />
-      <unit id="1397920687866915113" at="231,42,239,5" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder_a$3" />
-      <unit id="1397920687866915305" at="257,0,300,0" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder_a$Inline_Builder0" />
-      <unit id="1397920687866915113" at="166,0,217,0" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder_a$guardSingleRoleHandler_jj4qz_b0a0a" />
-      <unit id="1397920687866915113" at="51,0,315,0" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder_a" />
+      <unit id="1397920687866915113" at="311,0,314,0" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder$PROPS" />
+      <unit id="1397920687866915113" at="301,0,305,0" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder$LINKS" />
+      <unit id="1397920687866915113" at="306,0,310,0" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder$CONCEPTS" />
+      <unit id="1397920687866915113" at="76,30,82,7" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder$1" />
+      <unit id="1397920687866915113" at="111,28,117,5" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder$2" />
+      <unit id="1397920687866915113" at="231,42,239,5" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder$3" />
+      <unit id="1397920687866915305" at="257,0,300,0" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder$Inline_Builder0" />
+      <unit id="1397920687866915113" at="166,0,217,0" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder$guardSingleRoleHandler_jj4qz_b0a0a" />
+      <unit id="1397920687866915113" at="51,0,315,0" name="de.slisson.mps.tables.demolang.editor.Transition_EditorBuilder" />
     </file>
-    <file name="Transition_InspectorBuilder_a.java">
-      <node id="1397920687866915113" at="48,93,49,19" concept="14" />
+    <file name="Transition_InspectorBuilder.java">
+      <node id="1397920687866915113" at="48,91,49,19" concept="14" />
       <node id="1397920687866915113" at="49,19,50,18" concept="2" />
       <node id="1397920687866915113" at="55,26,56,18" concept="9" />
       <node id="1397920687866915113" at="59,39,60,32" concept="9" />
@@ -4871,7 +4871,7 @@
       <node id="1397920687866915113" at="276,7,279,7" concept="6" />
       <node id="1397920687866915113" at="295,0,298,0" concept="7" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="1652594944454279123" at="347,0,350,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1397920687866915113" at="48,0,52,0" concept="1" trace="Transition_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687866915113" at="48,0,52,0" concept="1" trace="Transition_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687866915113" at="98,0,102,5" concept="6" />
       <node id="1397920687866915113" at="178,0,182,5" concept="6" />
       <node id="1397920687866915113" at="244,0,248,0" concept="7" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -4931,7 +4931,7 @@
       <scope id="1652594944454279123" at="347,41,348,32" />
       <scope id="1652594944454279123" at="353,28,354,20" />
       <scope id="1652594944454279141" at="374,17,375,42" />
-      <scope id="1397920687866915113" at="48,93,50,18" />
+      <scope id="1397920687866915113" at="48,91,50,18" />
       <scope id="1397920687866915113" at="99,40,101,43" />
       <scope id="1397920687866915113" at="106,73,108,145">
         <var name="manager" id="1397920687866915113" />
@@ -5101,32 +5101,32 @@
       <scope id="1397920687866915113" at="84,0,112,0" />
       <scope id="1397920687866915113" at="164,0,192,0" />
       <scope id="1397920687866915113" at="308,0,336,0" />
-      <unit id="1397920687866915113" at="392,0,395,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder_a$PROPS" />
-      <unit id="1397920687866915113" at="387,0,391,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder_a$CONCEPTS" />
-      <unit id="1397920687866915113" at="380,0,386,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder_a$LINKS" />
-      <unit id="1397920687866915113" at="86,42,94,5" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder_a$1" />
-      <unit id="1397920687866915113" at="166,42,174,5" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder_a$2" />
-      <unit id="1397920687866915113" at="310,42,318,5" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder_a$3" />
-      <unit id="1652594944454174787" at="112,0,155,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder_a$Inline_Builder0" />
-      <unit id="1652594944454174816" at="192,0,235,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder_a$Inline_Builder1" />
-      <unit id="1652594944454279123" at="336,0,379,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder_a$Inline_Builder2" />
-      <unit id="1397920687866915113" at="248,0,299,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder_a$guardSingleRoleHandler_jj4qz_f0" />
-      <unit id="1397920687866915113" at="44,0,396,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder_a" />
+      <unit id="1397920687866915113" at="392,0,395,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder$PROPS" />
+      <unit id="1397920687866915113" at="387,0,391,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder$CONCEPTS" />
+      <unit id="1397920687866915113" at="380,0,386,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder$LINKS" />
+      <unit id="1397920687866915113" at="86,42,94,5" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder$1" />
+      <unit id="1397920687866915113" at="166,42,174,5" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder$2" />
+      <unit id="1397920687866915113" at="310,42,318,5" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder$3" />
+      <unit id="1652594944454174787" at="112,0,155,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder$Inline_Builder0" />
+      <unit id="1652594944454174816" at="192,0,235,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder$Inline_Builder1" />
+      <unit id="1652594944454279123" at="336,0,379,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder$Inline_Builder2" />
+      <unit id="1397920687866915113" at="248,0,299,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder$guardSingleRoleHandler_jj4qz_f0" />
+      <unit id="1397920687866915113" at="44,0,396,0" name="de.slisson.mps.tables.demolang.editor.Transition_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/1397920687866915327">
     <file name="StateMachine_Editor.java">
-      <node id="1397920687866915327" at="11,79,12,78" concept="9" />
+      <node id="1397920687866915327" at="11,79,12,76" concept="9" />
       <node id="1397920687866915327" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1397920687866915327" at="11,79,12,78" />
+      <scope id="1397920687866915327" at="11,79,12,76" />
       <scope id="1397920687866915327" at="11,0,14,0">
         <var name="editorContext" id="1397920687866915327" />
         <var name="node" id="1397920687866915327" />
       </scope>
       <unit id="1397920687866915327" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.StateMachine_Editor" />
     </file>
-    <file name="StateMachine_EditorBuilder_a.java">
-      <node id="1397920687866915327" at="66,92,67,19" concept="14" />
+    <file name="StateMachine_EditorBuilder.java">
+      <node id="1397920687866915327" at="66,90,67,19" concept="14" />
       <node id="1397920687866915327" at="67,19,68,18" concept="2" />
       <node id="1397920687866915327" at="73,26,74,18" concept="9" />
       <node id="1397920687866915327" at="77,39,78,32" concept="9" />
@@ -5404,7 +5404,7 @@
       <node id="6097863121588308894" at="522,0,525,0" concept="7" trace="create#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4290301510646091332" at="535,0,538,0" concept="7" trace="_StyleParameter_QueryFunction_qpt50r_a0a0a2a0a0a1a#()Z" />
       <node id="4290301510645605287" at="538,0,541,0" concept="7" trace="_StyleParameter_QueryFunction_qpt50r_a1a0a2a0a0a1a#()Z" />
-      <node id="1397920687866915327" at="66,0,70,0" concept="1" trace="StateMachine_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687866915327" at="66,0,70,0" concept="1" trace="StateMachine_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687866915327" at="110,27,114,11" concept="0" />
       <node id="1397920687866915327" at="116,24,120,11" concept="0" />
       <node id="1397920687866915327" at="220,7,224,7" concept="6" />
@@ -5528,7 +5528,7 @@
       <scope id="6097863121588308894" at="522,32,523,32" />
       <scope id="4290301510646091333" at="535,74,536,81" />
       <scope id="4290301510645605288" at="538,74,539,81" />
-      <scope id="1397920687866915327" at="66,92,68,18" />
+      <scope id="1397920687866915327" at="66,90,68,18" />
       <scope id="1397920687866915327" at="111,11,113,47">
         <var name="headerGrids" id="1397920687866915327" />
       </scope>
@@ -5850,44 +5850,44 @@
         <var name="editorContext" id="1397920687867141065" />
         <var name="node" id="1397920687867141065" />
       </scope>
-      <unit id="1397920687866915327" at="551,0,554,0" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$PROPS" />
-      <unit id="1397920687866915327" at="555,0,558,0" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$CONCEPTS" />
-      <unit id="1397920687866915327" at="126,76,130,11" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$1" />
-      <unit id="1397920687866915327" at="188,29,192,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$4" />
-      <unit id="1397920687866915327" at="193,53,197,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$5" />
-      <unit id="1397920687866915327" at="263,29,267,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$8" />
-      <unit id="1397920687866915327" at="268,53,272,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$9" />
-      <unit id="1397920687867141065" at="350,54,354,21" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$11$1" />
-      <unit id="1397920687867141065" at="357,60,361,23" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$11$2" />
-      <unit id="1397920687867141065" at="364,54,368,23" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$11$3" />
-      <unit id="1397920687867141065" at="374,56,378,17" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$11$4" />
-      <unit id="1397920687867141065" at="382,48,386,19" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$11$5" />
-      <unit id="1397920687866915327" at="133,43,139,11" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$2" />
-      <unit id="1397920687866915327" at="177,28,183,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$3" />
-      <unit id="1397920687866915327" at="252,28,258,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$7" />
-      <unit id="1397920687867141065" at="429,49,435,15" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$11$7" />
-      <unit id="1397920687866915327" at="543,0,550,0" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$LINKS" />
-      <unit id="1397920687866915327" at="200,153,208,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$6" />
-      <unit id="1397920687866915327" at="275,154,283,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$10" />
-      <unit id="1397920687867141065" at="389,56,422,19" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$11$6" />
-      <unit id="6097863121588308894" at="508,0,542,0" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$CellCreateOperation_c0a0a0b0" />
-      <unit id="1397920687867141065" at="317,10,499,7" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a$11" />
-      <unit id="1397920687866915327" at="62,0,559,0" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder_a" />
+      <unit id="1397920687866915327" at="551,0,554,0" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$PROPS" />
+      <unit id="1397920687866915327" at="555,0,558,0" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$CONCEPTS" />
+      <unit id="1397920687866915327" at="126,76,130,11" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$1" />
+      <unit id="1397920687866915327" at="188,29,192,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$4" />
+      <unit id="1397920687866915327" at="193,53,197,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$5" />
+      <unit id="1397920687866915327" at="263,29,267,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$8" />
+      <unit id="1397920687866915327" at="268,53,272,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$9" />
+      <unit id="1397920687867141065" at="350,54,354,21" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$11$1" />
+      <unit id="1397920687867141065" at="357,60,361,23" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$11$2" />
+      <unit id="1397920687867141065" at="364,54,368,23" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$11$3" />
+      <unit id="1397920687867141065" at="374,56,378,17" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$11$4" />
+      <unit id="1397920687867141065" at="382,48,386,19" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$11$5" />
+      <unit id="1397920687866915327" at="133,43,139,11" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$2" />
+      <unit id="1397920687866915327" at="177,28,183,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$3" />
+      <unit id="1397920687866915327" at="252,28,258,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$7" />
+      <unit id="1397920687867141065" at="429,49,435,15" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$11$7" />
+      <unit id="1397920687866915327" at="543,0,550,0" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$LINKS" />
+      <unit id="1397920687866915327" at="200,153,208,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$6" />
+      <unit id="1397920687866915327" at="275,154,283,5" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$10" />
+      <unit id="1397920687867141065" at="389,56,422,19" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$11$6" />
+      <unit id="6097863121588308894" at="508,0,542,0" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$CellCreateOperation_c0a0a0b0" />
+      <unit id="1397920687867141065" at="317,10,499,7" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder$11" />
+      <unit id="1397920687866915327" at="62,0,559,0" name="de.slisson.mps.tables.demolang.editor.StateMachine_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/1397920687868135423">
     <file name="Event_Editor.java">
-      <node id="1397920687868135423" at="11,79,12,71" concept="9" />
+      <node id="1397920687868135423" at="11,79,12,69" concept="9" />
       <node id="1397920687868135423" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1397920687868135423" at="11,79,12,71" />
+      <scope id="1397920687868135423" at="11,79,12,69" />
       <scope id="1397920687868135423" at="11,0,14,0">
         <var name="editorContext" id="1397920687868135423" />
         <var name="node" id="1397920687868135423" />
       </scope>
       <unit id="1397920687868135423" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.Event_Editor" />
     </file>
-    <file name="Event_EditorBuilder_a.java">
-      <node id="1397920687868135423" at="29,85,30,19" concept="14" />
+    <file name="Event_EditorBuilder.java">
+      <node id="1397920687868135423" at="29,83,30,19" concept="14" />
       <node id="1397920687868135423" at="30,19,31,18" concept="2" />
       <node id="1397920687868135423" at="36,26,37,18" concept="9" />
       <node id="1397920687868135423" at="40,39,41,30" concept="9" />
@@ -5911,7 +5911,7 @@
       <node id="1397920687868135423" at="73,0,74,0" concept="12" trace="PropertyAttribute$Gb" />
       <node id="1397920687868135423" at="26,0,28,0" concept="3" trace="myNode" />
       <node id="1397920687868135423" at="40,0,43,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1397920687868135423" at="29,0,33,0" concept="1" trace="Event_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687868135423" at="29,0,33,0" concept="1" trace="Event_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687868135423" at="34,0,39,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1397920687868135425" at="57,208,62,24" concept="6" />
       <node id="1397920687868135425" at="45,39,65,5" concept="16" />
@@ -5919,7 +5919,7 @@
       <scope id="1397920687868135423" at="36,26,37,18" />
       <scope id="1397920687868135423" at="40,39,41,30" />
       <scope id="1397920687868135425" at="63,15,64,40" />
-      <scope id="1397920687868135423" at="29,85,31,18" />
+      <scope id="1397920687868135423" at="29,83,31,18" />
       <scope id="1397920687868135425" at="58,74,60,145">
         <var name="manager" id="1397920687868135425" />
       </scope>
@@ -5937,24 +5937,24 @@
       </scope>
       <scope id="1397920687868135425" at="44,41,65,5" />
       <scope id="1397920687868135425" at="44,0,67,0" />
-      <unit id="1397920687868135423" at="68,0,71,0" name="de.slisson.mps.tables.demolang.editor.Event_EditorBuilder_a$PROPS" />
-      <unit id="1397920687868135423" at="72,0,75,0" name="de.slisson.mps.tables.demolang.editor.Event_EditorBuilder_a$CONCEPTS" />
-      <unit id="1397920687868135423" at="25,0,76,0" name="de.slisson.mps.tables.demolang.editor.Event_EditorBuilder_a" />
+      <unit id="1397920687868135423" at="68,0,71,0" name="de.slisson.mps.tables.demolang.editor.Event_EditorBuilder$PROPS" />
+      <unit id="1397920687868135423" at="72,0,75,0" name="de.slisson.mps.tables.demolang.editor.Event_EditorBuilder$CONCEPTS" />
+      <unit id="1397920687868135423" at="25,0,76,0" name="de.slisson.mps.tables.demolang.editor.Event_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/1397920687868135433">
     <file name="State_Editor.java">
-      <node id="1397920687868135433" at="11,79,12,71" concept="9" />
+      <node id="1397920687868135433" at="11,79,12,69" concept="9" />
       <node id="1397920687868135433" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1397920687868135433" at="11,79,12,71" />
+      <scope id="1397920687868135433" at="11,79,12,69" />
       <scope id="1397920687868135433" at="11,0,14,0">
         <var name="editorContext" id="1397920687868135433" />
         <var name="node" id="1397920687868135433" />
       </scope>
       <unit id="1397920687868135433" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.State_Editor" />
     </file>
-    <file name="State_EditorBuilder_a.java">
-      <node id="1397920687868135433" at="29,85,30,19" concept="14" />
+    <file name="State_EditorBuilder.java">
+      <node id="1397920687868135433" at="29,83,30,19" concept="14" />
       <node id="1397920687868135433" at="30,19,31,18" concept="2" />
       <node id="1397920687868135433" at="36,26,37,18" concept="9" />
       <node id="1397920687868135433" at="40,39,41,30" concept="9" />
@@ -5978,7 +5978,7 @@
       <node id="1397920687868135433" at="73,0,74,0" concept="12" trace="PropertyAttribute$Gb" />
       <node id="1397920687868135433" at="26,0,28,0" concept="3" trace="myNode" />
       <node id="1397920687868135433" at="40,0,43,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1397920687868135433" at="29,0,33,0" concept="1" trace="State_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687868135433" at="29,0,33,0" concept="1" trace="State_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687868135433" at="34,0,39,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1397920687868135435" at="57,208,62,24" concept="6" />
       <node id="1397920687868135435" at="45,39,65,5" concept="16" />
@@ -5986,7 +5986,7 @@
       <scope id="1397920687868135433" at="36,26,37,18" />
       <scope id="1397920687868135433" at="40,39,41,30" />
       <scope id="1397920687868135435" at="63,15,64,40" />
-      <scope id="1397920687868135433" at="29,85,31,18" />
+      <scope id="1397920687868135433" at="29,83,31,18" />
       <scope id="1397920687868135435" at="58,74,60,145">
         <var name="manager" id="1397920687868135435" />
       </scope>
@@ -6004,24 +6004,24 @@
       </scope>
       <scope id="1397920687868135435" at="44,41,65,5" />
       <scope id="1397920687868135435" at="44,0,67,0" />
-      <unit id="1397920687868135433" at="68,0,71,0" name="de.slisson.mps.tables.demolang.editor.State_EditorBuilder_a$PROPS" />
-      <unit id="1397920687868135433" at="72,0,75,0" name="de.slisson.mps.tables.demolang.editor.State_EditorBuilder_a$CONCEPTS" />
-      <unit id="1397920687868135433" at="25,0,76,0" name="de.slisson.mps.tables.demolang.editor.State_EditorBuilder_a" />
+      <unit id="1397920687868135433" at="68,0,71,0" name="de.slisson.mps.tables.demolang.editor.State_EditorBuilder$PROPS" />
+      <unit id="1397920687868135433" at="72,0,75,0" name="de.slisson.mps.tables.demolang.editor.State_EditorBuilder$CONCEPTS" />
+      <unit id="1397920687868135433" at="25,0,76,0" name="de.slisson.mps.tables.demolang.editor.State_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/1397920687871100379">
     <file name="TestCaseComment_Editor.java">
-      <node id="1397920687871100379" at="11,79,12,81" concept="9" />
+      <node id="1397920687871100379" at="11,79,12,79" concept="9" />
       <node id="1397920687871100379" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1397920687871100379" at="11,79,12,81" />
+      <scope id="1397920687871100379" at="11,79,12,79" />
       <scope id="1397920687871100379" at="11,0,14,0">
         <var name="editorContext" id="1397920687871100379" />
         <var name="node" id="1397920687871100379" />
       </scope>
       <unit id="1397920687871100379" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_Editor" />
     </file>
-    <file name="TestCaseComment_EditorBuilder_a.java">
-      <node id="1397920687871100379" at="50,95,51,19" concept="14" />
+    <file name="TestCaseComment_EditorBuilder.java">
+      <node id="1397920687871100379" at="50,93,51,19" concept="14" />
       <node id="1397920687871100379" at="51,19,52,18" concept="2" />
       <node id="1397920687871100379" at="57,26,58,18" concept="9" />
       <node id="1397920687871100379" at="61,39,62,34" concept="9" />
@@ -6136,7 +6136,7 @@
       <node id="1397920687871100434" at="109,5,112,5" concept="6" />
       <node id="1397920687871100379" at="113,48,116,5" concept="5" />
       <node id="1397920687871100379" at="117,47,120,7" concept="6" />
-      <node id="1397920687871100379" at="50,0,54,0" concept="1" trace="TestCaseComment_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1397920687871100379" at="50,0,54,0" concept="1" trace="TestCaseComment_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1397920687871100379" at="55,0,60,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1397920687871100379" at="72,0,77,0" concept="7" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
       <node id="1397920687871100379" at="124,0,129,0" concept="7" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
@@ -6176,7 +6176,7 @@
       <scope id="1397920687871100379" at="148,45,149,59" />
       <scope id="1397920687871100416" at="183,15,184,40" />
       <scope id="1397920687871100379" at="215,45,216,59" />
-      <scope id="1397920687871100379" at="50,95,52,18" />
+      <scope id="1397920687871100379" at="50,93,52,18" />
       <scope id="1397920687871100416" at="178,74,180,145">
         <var name="manager" id="1397920687871100416" />
       </scope>
@@ -6311,29 +6311,29 @@
         <var name="editorContext" id="1397920687871100379" />
         <var name="node" id="1397920687871100379" />
       </scope>
-      <unit id="1397920687871100379" at="232,0,235,0" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder_a$PROPS" />
-      <unit id="1397920687871100379" at="236,0,239,0" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder_a$CONCEPTS" />
-      <unit id="1397920687871100379" at="71,30,77,7" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder_a$1" />
-      <unit id="1397920687871100379" at="123,28,129,5" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder_a$2" />
-      <unit id="1652594944446615479" at="188,28,194,5" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder_a$4" />
-      <unit id="1397920687871100379" at="206,28,212,5" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder_a$5" />
-      <unit id="1397920687871100379" at="136,28,145,5" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder_a$3" />
-      <unit id="1397920687871100379" at="46,0,240,0" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder_a" />
+      <unit id="1397920687871100379" at="232,0,235,0" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder$PROPS" />
+      <unit id="1397920687871100379" at="236,0,239,0" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder$CONCEPTS" />
+      <unit id="1397920687871100379" at="71,30,77,7" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder$1" />
+      <unit id="1397920687871100379" at="123,28,129,5" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder$2" />
+      <unit id="1652594944446615479" at="188,28,194,5" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder$4" />
+      <unit id="1397920687871100379" at="206,28,212,5" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder$5" />
+      <unit id="1397920687871100379" at="136,28,145,5" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder$3" />
+      <unit id="1397920687871100379" at="46,0,240,0" name="de.slisson.mps.tables.demolang.editor.TestCaseComment_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/2518382499585722103">
     <file name="SimpleMultilineTextPart_Editor.java">
-      <node id="2518382499585722103" at="11,79,12,89" concept="9" />
+      <node id="2518382499585722103" at="11,79,12,87" concept="9" />
       <node id="2518382499585722103" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2518382499585722103" at="11,79,12,89" />
+      <scope id="2518382499585722103" at="11,79,12,87" />
       <scope id="2518382499585722103" at="11,0,14,0">
         <var name="editorContext" id="2518382499585722103" />
         <var name="node" id="2518382499585722103" />
       </scope>
       <unit id="2518382499585722103" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineTextPart_Editor" />
     </file>
-    <file name="SimpleMultilineTextPart_EditorBuilder_a.java">
-      <node id="2518382499585722103" at="29,103,30,19" concept="14" />
+    <file name="SimpleMultilineTextPart_EditorBuilder.java">
+      <node id="2518382499585722103" at="29,101,30,19" concept="14" />
       <node id="2518382499585722103" at="30,19,31,18" concept="2" />
       <node id="2518382499585722103" at="36,26,37,18" concept="9" />
       <node id="2518382499585722103" at="40,39,41,30" concept="9" />
@@ -6357,7 +6357,7 @@
       <node id="2518382499585722103" at="73,0,74,0" concept="12" trace="PropertyAttribute$Gb" />
       <node id="2518382499585722103" at="26,0,28,0" concept="3" trace="myNode" />
       <node id="2518382499585722103" at="40,0,43,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2518382499585722103" at="29,0,33,0" concept="1" trace="SimpleMultilineTextPart_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2518382499585722103" at="29,0,33,0" concept="1" trace="SimpleMultilineTextPart_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2518382499585722103" at="34,0,39,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2518382499585726724" at="57,208,62,24" concept="6" />
       <node id="2518382499585726724" at="45,39,65,5" concept="16" />
@@ -6365,7 +6365,7 @@
       <scope id="2518382499585722103" at="36,26,37,18" />
       <scope id="2518382499585722103" at="40,39,41,30" />
       <scope id="2518382499585726724" at="63,15,64,40" />
-      <scope id="2518382499585722103" at="29,103,31,18" />
+      <scope id="2518382499585722103" at="29,101,31,18" />
       <scope id="2518382499585726724" at="58,74,60,145">
         <var name="manager" id="2518382499585726724" />
       </scope>
@@ -6383,24 +6383,24 @@
       </scope>
       <scope id="2518382499585726724" at="44,41,65,5" />
       <scope id="2518382499585726724" at="44,0,67,0" />
-      <unit id="2518382499585722103" at="68,0,71,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineTextPart_EditorBuilder_a$PROPS" />
-      <unit id="2518382499585722103" at="72,0,75,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineTextPart_EditorBuilder_a$CONCEPTS" />
-      <unit id="2518382499585722103" at="25,0,76,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineTextPart_EditorBuilder_a" />
+      <unit id="2518382499585722103" at="68,0,71,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineTextPart_EditorBuilder$PROPS" />
+      <unit id="2518382499585722103" at="72,0,75,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineTextPart_EditorBuilder$CONCEPTS" />
+      <unit id="2518382499585722103" at="25,0,76,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineTextPart_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/2518382499585726731">
     <file name="SimpleMultilineText_Editor.java">
-      <node id="2518382499585726731" at="11,79,12,85" concept="9" />
+      <node id="2518382499585726731" at="11,79,12,83" concept="9" />
       <node id="2518382499585726731" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2518382499585726731" at="11,79,12,85" />
+      <scope id="2518382499585726731" at="11,79,12,83" />
       <scope id="2518382499585726731" at="11,0,14,0">
         <var name="editorContext" id="2518382499585726731" />
         <var name="node" id="2518382499585726731" />
       </scope>
       <unit id="2518382499585726731" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineText_Editor" />
     </file>
-    <file name="SimpleMultilineText_EditorBuilder_a.java">
-      <node id="2518382499585726731" at="29,99,30,19" concept="14" />
+    <file name="SimpleMultilineText_EditorBuilder.java">
+      <node id="2518382499585726731" at="29,97,30,19" concept="14" />
       <node id="2518382499585726731" at="30,19,31,18" concept="2" />
       <node id="2518382499585726731" at="36,26,37,18" concept="9" />
       <node id="2518382499585726731" at="40,39,41,32" concept="9" />
@@ -6447,7 +6447,7 @@
       <node id="2518382499585726731" at="72,0,75,0" concept="7" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="2518382499585726731" at="75,0,78,0" concept="7" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="2518382499585726731" at="119,96,122,9" concept="6" />
-      <node id="2518382499585726731" at="29,0,33,0" concept="1" trace="SimpleMultilineText_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2518382499585726731" at="29,0,33,0" concept="1" trace="SimpleMultilineText_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2518382499585726731" at="63,0,67,0" concept="1" trace="partsListHandler_xqpks2_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="2518382499585726731" at="68,0,72,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2518382499585726731" at="101,97,105,9" concept="6" />
@@ -6471,7 +6471,7 @@
       <scope id="2518382499585726731" at="75,48,76,49" />
       <scope id="2518382499585726731" at="93,17,94,42" />
       <scope id="2518382499585726731" at="120,34,121,91" />
-      <scope id="2518382499585726731" at="29,99,31,18" />
+      <scope id="2518382499585726731" at="29,97,31,18" />
       <scope id="2518382499585726731" at="63,79,65,25" />
       <scope id="2518382499585726731" at="102,122,104,146" />
       <scope id="2518382499585726731" at="108,34,110,142" />
@@ -6519,10 +6519,10 @@
         <var name="elementNode" id="2518382499585726731" />
         <var name="isEmptyCell" id="2518382499585726731" />
       </scope>
-      <unit id="2518382499585726731" at="127,0,130,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineText_EditorBuilder_a$LINKS" />
-      <unit id="2518382499585726731" at="131,0,134,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineText_EditorBuilder_a$CONCEPTS" />
-      <unit id="2518382499585726731" at="59,0,126,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineText_EditorBuilder_a$partsListHandler_xqpks2_a0" />
-      <unit id="2518382499585726731" at="25,0,135,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineText_EditorBuilder_a" />
+      <unit id="2518382499585726731" at="127,0,130,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineText_EditorBuilder$LINKS" />
+      <unit id="2518382499585726731" at="131,0,134,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineText_EditorBuilder$CONCEPTS" />
+      <unit id="2518382499585726731" at="59,0,126,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineText_EditorBuilder$partsListHandler_xqpks2_a0" />
+      <unit id="2518382499585726731" at="25,0,135,0" name="de.slisson.mps.tables.demolang.editor.SimpleMultilineText_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/3160705326894380904">
@@ -6634,17 +6634,17 @@
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/3208761769267604743">
     <file name="StateMachine2_Editor.java">
-      <node id="3208761769267604743" at="11,79,12,79" concept="9" />
+      <node id="3208761769267604743" at="11,79,12,77" concept="9" />
       <node id="3208761769267604743" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3208761769267604743" at="11,79,12,79" />
+      <scope id="3208761769267604743" at="11,79,12,77" />
       <scope id="3208761769267604743" at="11,0,14,0">
         <var name="editorContext" id="3208761769267604743" />
         <var name="node" id="3208761769267604743" />
       </scope>
       <unit id="3208761769267604743" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.StateMachine2_Editor" />
     </file>
-    <file name="StateMachine2_EditorBuilder_a.java">
-      <node id="3208761769267604743" at="62,93,63,19" concept="14" />
+    <file name="StateMachine2_EditorBuilder.java">
+      <node id="3208761769267604743" at="62,91,63,19" concept="14" />
       <node id="3208761769267604743" at="63,19,64,18" concept="2" />
       <node id="3208761769267604743" at="69,26,70,18" concept="9" />
       <node id="3208761769267604743" at="73,39,74,27" concept="9" />
@@ -6888,7 +6888,7 @@
       <node id="3208761769267605479" at="438,0,441,0" concept="7" trace="canCreate#(III)Z" />
       <node id="3208761769267605479" at="441,0,444,0" concept="7" trace="createNode#(III)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3208761769268588046" at="475,13,478,13" concept="6" />
-      <node id="3208761769267604743" at="62,0,66,0" concept="1" trace="StateMachine2_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3208761769267604743" at="62,0,66,0" concept="1" trace="StateMachine2_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3208761769267604743" at="88,27,92,11" concept="0" />
       <node id="3208761769267604743" at="94,24,98,11" concept="0" />
       <node id="3208761769267604743" at="203,7,207,7" concept="6" />
@@ -7006,7 +7006,7 @@
       <scope id="3208761769268588047" at="476,37,477,81" />
       <scope id="3208761769268588089" at="480,18,481,24" />
       <scope id="3208761769267605479" at="486,15,487,40" />
-      <scope id="3208761769267604743" at="62,93,64,18" />
+      <scope id="3208761769267604743" at="62,91,64,18" />
       <scope id="3208761769267604743" at="89,11,91,47">
         <var name="headerGrids" id="3208761769267604743" />
       </scope>
@@ -7310,40 +7310,40 @@
         <var name="editorContext" id="3208761769267605479" />
         <var name="node" id="3208761769267605479" />
       </scope>
-      <unit id="3208761769267604743" at="501,0,504,0" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$PROPS" />
-      <unit id="3208761769267604743" at="505,0,508,0" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$CONCEPTS" />
-      <unit id="3208761769267604743" at="166,29,170,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$3" />
-      <unit id="3208761769267604743" at="171,53,175,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$4" />
-      <unit id="3208761769267604743" at="246,29,250,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$8" />
-      <unit id="3208761769267604743" at="251,53,255,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$9" />
-      <unit id="3208761769267604743" at="256,53,260,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$10" />
-      <unit id="3208761769267605479" at="349,54,353,21" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$12$2" />
-      <unit id="3208761769267605479" at="356,60,360,23" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$12$3" />
-      <unit id="3208761769267605479" at="363,54,367,23" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$12$4" />
-      <unit id="3208761769267605479" at="373,56,377,17" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$12$5" />
-      <unit id="3208761769267605479" at="381,48,385,19" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$12$6" />
-      <unit id="3208761769267604743" at="109,43,115,11" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$1" />
-      <unit id="3208761769267604743" at="155,28,161,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$2" />
-      <unit id="3208761769267604743" at="176,53,182,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$5" />
-      <unit id="3208761769267604743" at="235,28,241,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$7" />
-      <unit id="3208761769267605479" at="428,49,434,15" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$12$8" />
-      <unit id="3208761769267604743" at="494,0,500,0" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$LINKS" />
-      <unit id="3208761769267604743" at="184,153,191,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$6" />
-      <unit id="3208761769267604743" at="262,154,269,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$11" />
-      <unit id="3208761769267605479" at="323,52,332,17" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$12$1" />
-      <unit id="3208761769267605479" at="388,56,421,19" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$12$7" />
-      <unit id="3208761769267605479" at="303,10,484,7" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a$12" />
-      <unit id="3208761769267604743" at="58,0,509,0" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder_a" />
+      <unit id="3208761769267604743" at="501,0,504,0" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$PROPS" />
+      <unit id="3208761769267604743" at="505,0,508,0" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$CONCEPTS" />
+      <unit id="3208761769267604743" at="166,29,170,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$3" />
+      <unit id="3208761769267604743" at="171,53,175,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$4" />
+      <unit id="3208761769267604743" at="246,29,250,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$8" />
+      <unit id="3208761769267604743" at="251,53,255,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$9" />
+      <unit id="3208761769267604743" at="256,53,260,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$10" />
+      <unit id="3208761769267605479" at="349,54,353,21" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$12$2" />
+      <unit id="3208761769267605479" at="356,60,360,23" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$12$3" />
+      <unit id="3208761769267605479" at="363,54,367,23" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$12$4" />
+      <unit id="3208761769267605479" at="373,56,377,17" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$12$5" />
+      <unit id="3208761769267605479" at="381,48,385,19" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$12$6" />
+      <unit id="3208761769267604743" at="109,43,115,11" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$1" />
+      <unit id="3208761769267604743" at="155,28,161,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$2" />
+      <unit id="3208761769267604743" at="176,53,182,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$5" />
+      <unit id="3208761769267604743" at="235,28,241,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$7" />
+      <unit id="3208761769267605479" at="428,49,434,15" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$12$8" />
+      <unit id="3208761769267604743" at="494,0,500,0" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$LINKS" />
+      <unit id="3208761769267604743" at="184,153,191,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$6" />
+      <unit id="3208761769267604743" at="262,154,269,5" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$11" />
+      <unit id="3208761769267605479" at="323,52,332,17" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$12$1" />
+      <unit id="3208761769267605479" at="388,56,421,19" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$12$7" />
+      <unit id="3208761769267605479" at="303,10,484,7" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder$12" />
+      <unit id="3208761769267604743" at="58,0,509,0" name="de.slisson.mps.tables.demolang.editor.StateMachine2_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/3208761769269068570">
     <file name="Transition2_Editor.java">
-      <node id="3208761769269068570" at="11,79,12,77" concept="9" />
-      <node id="3208761769269068570" at="14,82,15,80" concept="9" />
+      <node id="3208761769269068570" at="11,79,12,75" concept="9" />
+      <node id="3208761769269068570" at="14,82,15,78" concept="9" />
       <node id="3208761769269068570" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3208761769269068570" at="14,0,17,0" concept="7" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3208761769269068570" at="11,79,12,77" />
-      <scope id="3208761769269068570" at="14,82,15,80" />
+      <scope id="3208761769269068570" at="11,79,12,75" />
+      <scope id="3208761769269068570" at="14,82,15,78" />
       <scope id="3208761769269068570" at="11,0,14,0">
         <var name="editorContext" id="3208761769269068570" />
         <var name="node" id="3208761769269068570" />
@@ -7354,8 +7354,8 @@
       </scope>
       <unit id="3208761769269068570" at="10,0,18,0" name="de.slisson.mps.tables.demolang.editor.Transition2_Editor" />
     </file>
-    <file name="Transition2_EditorBuilder_a.java">
-      <node id="3208761769269068570" at="37,91,38,19" concept="14" />
+    <file name="Transition2_EditorBuilder.java">
+      <node id="3208761769269068570" at="37,89,38,19" concept="14" />
       <node id="3208761769269068570" at="38,19,39,18" concept="2" />
       <node id="3208761769269068570" at="44,26,45,18" concept="9" />
       <node id="3208761769269068570" at="48,39,49,32" concept="9" />
@@ -7416,7 +7416,7 @@
       <node id="3208761769269068586" at="96,0,98,0" concept="3" trace="myNode" />
       <node id="3208761769269068570" at="48,0,51,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3208761769269068586" at="106,0,109,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3208761769269068570" at="37,0,41,0" concept="1" trace="Transition2_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3208761769269068570" at="37,0,41,0" concept="1" trace="Transition2_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3208761769269068570" at="81,0,85,5" concept="6" />
       <node id="3208761769269068570" at="42,0,47,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3208761769269068570" at="88,205,93,22" concept="6" />
@@ -7435,7 +7435,7 @@
       <scope id="3208761769269068586" at="106,41,107,32" />
       <scope id="3208761769269068586" at="112,28,113,20" />
       <scope id="3208761769269068614" at="133,17,134,42" />
-      <scope id="3208761769269068570" at="37,91,39,18" />
+      <scope id="3208761769269068570" at="37,89,39,18" />
       <scope id="3208761769269068570" at="82,40,84,41" />
       <scope id="3208761769269068570" at="89,73,91,145">
         <var name="manager" id="3208761769269068570" />
@@ -7487,15 +7487,15 @@
         <var name="referenceLink" id="3208761769269068570" />
       </scope>
       <scope id="3208761769269068570" at="67,0,95,0" />
-      <unit id="3208761769269068570" at="139,0,142,0" name="de.slisson.mps.tables.demolang.editor.Transition2_EditorBuilder_a$LINKS" />
-      <unit id="3208761769269068570" at="148,0,151,0" name="de.slisson.mps.tables.demolang.editor.Transition2_EditorBuilder_a$PROPS" />
-      <unit id="3208761769269068570" at="143,0,147,0" name="de.slisson.mps.tables.demolang.editor.Transition2_EditorBuilder_a$CONCEPTS" />
-      <unit id="3208761769269068570" at="69,42,77,5" name="de.slisson.mps.tables.demolang.editor.Transition2_EditorBuilder_a$1" />
-      <unit id="3208761769269068586" at="95,0,138,0" name="de.slisson.mps.tables.demolang.editor.Transition2_EditorBuilder_a$Inline_Builder0" />
-      <unit id="3208761769269068570" at="33,0,152,0" name="de.slisson.mps.tables.demolang.editor.Transition2_EditorBuilder_a" />
+      <unit id="3208761769269068570" at="139,0,142,0" name="de.slisson.mps.tables.demolang.editor.Transition2_EditorBuilder$LINKS" />
+      <unit id="3208761769269068570" at="148,0,151,0" name="de.slisson.mps.tables.demolang.editor.Transition2_EditorBuilder$PROPS" />
+      <unit id="3208761769269068570" at="143,0,147,0" name="de.slisson.mps.tables.demolang.editor.Transition2_EditorBuilder$CONCEPTS" />
+      <unit id="3208761769269068570" at="69,42,77,5" name="de.slisson.mps.tables.demolang.editor.Transition2_EditorBuilder$1" />
+      <unit id="3208761769269068586" at="95,0,138,0" name="de.slisson.mps.tables.demolang.editor.Transition2_EditorBuilder$Inline_Builder0" />
+      <unit id="3208761769269068570" at="33,0,152,0" name="de.slisson.mps.tables.demolang.editor.Transition2_EditorBuilder" />
     </file>
-    <file name="Transition2_InspectorBuilder_a.java">
-      <node id="3208761769269068570" at="44,94,45,19" concept="14" />
+    <file name="Transition2_InspectorBuilder.java">
+      <node id="3208761769269068570" at="44,92,45,19" concept="14" />
       <node id="3208761769269068570" at="45,19,46,18" concept="2" />
       <node id="3208761769269068570" at="51,26,52,18" concept="9" />
       <node id="3208761769269068570" at="55,39,56,32" concept="9" />
@@ -7625,7 +7625,7 @@
       <node id="3208761769269124398" at="80,0,83,0" concept="7" trace="getText#()Ljava/lang/String;" />
       <node id="3208761769269141776" at="140,0,143,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3208761769269146203" at="220,0,223,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3208761769269068570" at="44,0,48,0" concept="1" trace="Transition2_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3208761769269068570" at="44,0,48,0" concept="1" trace="Transition2_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3208761769269068570" at="115,0,119,5" concept="6" />
       <node id="3208761769269068570" at="195,0,199,5" concept="6" />
       <node id="3208761769269068570" at="49,0,54,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -7662,7 +7662,7 @@
       <scope id="3208761769269146203" at="220,41,221,32" />
       <scope id="3208761769269146203" at="226,28,227,20" />
       <scope id="3208761769269147196" at="247,17,248,42" />
-      <scope id="3208761769269068570" at="44,94,46,18" />
+      <scope id="3208761769269068570" at="44,92,46,18" />
       <scope id="3208761769269068570" at="116,40,118,41" />
       <scope id="3208761769269068570" at="123,73,125,145">
         <var name="manager" id="3208761769269068570" />
@@ -7767,30 +7767,30 @@
       </scope>
       <scope id="3208761769269068570" at="101,0,129,0" />
       <scope id="3208761769269068570" at="181,0,209,0" />
-      <unit id="3208761769269068570" at="259,0,262,0" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder_a$PROPS" />
-      <unit id="3208761769269124398" at="79,88,83,5" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder_a$1" />
-      <unit id="3208761769269068570" at="263,0,267,0" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder_a$LINKS" />
-      <unit id="3208761769269068570" at="253,0,258,0" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder_a$CONCEPTS" />
-      <unit id="3208761769269068570" at="103,42,111,5" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder_a$2" />
-      <unit id="3208761769269068570" at="183,42,191,5" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder_a$3" />
-      <unit id="3208761769269141776" at="129,0,172,0" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder_a$Inline_Builder0" />
-      <unit id="3208761769269146203" at="209,0,252,0" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder_a$Inline_Builder1" />
-      <unit id="3208761769269068570" at="40,0,268,0" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder_a" />
+      <unit id="3208761769269068570" at="259,0,262,0" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder$PROPS" />
+      <unit id="3208761769269124398" at="79,88,83,5" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder$1" />
+      <unit id="3208761769269068570" at="263,0,267,0" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder$LINKS" />
+      <unit id="3208761769269068570" at="253,0,258,0" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder$CONCEPTS" />
+      <unit id="3208761769269068570" at="103,42,111,5" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder$2" />
+      <unit id="3208761769269068570" at="183,42,191,5" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder$3" />
+      <unit id="3208761769269141776" at="129,0,172,0" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder$Inline_Builder0" />
+      <unit id="3208761769269146203" at="209,0,252,0" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder$Inline_Builder1" />
+      <unit id="3208761769269068570" at="40,0,268,0" name="de.slisson.mps.tables.demolang.editor.Transition2_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/3208761769269124376">
     <file name="Event2_Editor.java">
-      <node id="3208761769269124376" at="11,79,12,72" concept="9" />
+      <node id="3208761769269124376" at="11,79,12,70" concept="9" />
       <node id="3208761769269124376" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3208761769269124376" at="11,79,12,72" />
+      <scope id="3208761769269124376" at="11,79,12,70" />
       <scope id="3208761769269124376" at="11,0,14,0">
         <var name="editorContext" id="3208761769269124376" />
         <var name="node" id="3208761769269124376" />
       </scope>
       <unit id="3208761769269124376" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.Event2_Editor" />
     </file>
-    <file name="Event2_EditorBuilder_a.java">
-      <node id="3208761769269124376" at="31,86,32,19" concept="14" />
+    <file name="Event2_EditorBuilder.java">
+      <node id="3208761769269124376" at="31,84,32,19" concept="14" />
       <node id="3208761769269124376" at="32,19,33,18" concept="2" />
       <node id="3208761769269124376" at="38,26,39,18" concept="9" />
       <node id="3208761769269124376" at="42,39,43,32" concept="9" />
@@ -7818,7 +7818,7 @@
       <node id="3208761769269124376" at="81,0,82,0" concept="12" trace="PropertyAttribute$Gb" />
       <node id="3208761769269124376" at="28,0,30,0" concept="3" trace="myNode" />
       <node id="3208761769269124376" at="42,0,45,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3208761769269124376" at="31,0,35,0" concept="1" trace="Event2_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3208761769269124376" at="31,0,35,0" concept="1" trace="Event2_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3208761769269124376" at="36,0,41,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3208761769269124378" at="65,208,70,24" concept="6" />
       <node id="3208761769269124376" at="46,0,54,0" concept="7" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -7827,7 +7827,7 @@
       <scope id="3208761769269124376" at="38,26,39,18" />
       <scope id="3208761769269124376" at="42,39,43,32" />
       <scope id="3208761769269124378" at="71,15,72,40" />
-      <scope id="3208761769269124376" at="31,86,33,18" />
+      <scope id="3208761769269124376" at="31,84,33,18" />
       <scope id="3208761769269124378" at="66,74,68,145">
         <var name="manager" id="3208761769269124378" />
       </scope>
@@ -7849,24 +7849,24 @@
       </scope>
       <scope id="3208761769269124378" at="54,41,73,5" />
       <scope id="3208761769269124378" at="54,0,75,0" />
-      <unit id="3208761769269124376" at="76,0,79,0" name="de.slisson.mps.tables.demolang.editor.Event2_EditorBuilder_a$PROPS" />
-      <unit id="3208761769269124376" at="80,0,83,0" name="de.slisson.mps.tables.demolang.editor.Event2_EditorBuilder_a$CONCEPTS" />
-      <unit id="3208761769269124376" at="27,0,84,0" name="de.slisson.mps.tables.demolang.editor.Event2_EditorBuilder_a" />
+      <unit id="3208761769269124376" at="76,0,79,0" name="de.slisson.mps.tables.demolang.editor.Event2_EditorBuilder$PROPS" />
+      <unit id="3208761769269124376" at="80,0,83,0" name="de.slisson.mps.tables.demolang.editor.Event2_EditorBuilder$CONCEPTS" />
+      <unit id="3208761769269124376" at="27,0,84,0" name="de.slisson.mps.tables.demolang.editor.Event2_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/3208761769269124385">
     <file name="State2_Editor.java">
-      <node id="3208761769269124385" at="11,79,12,72" concept="9" />
+      <node id="3208761769269124385" at="11,79,12,70" concept="9" />
       <node id="3208761769269124385" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3208761769269124385" at="11,79,12,72" />
+      <scope id="3208761769269124385" at="11,79,12,70" />
       <scope id="3208761769269124385" at="11,0,14,0">
         <var name="editorContext" id="3208761769269124385" />
         <var name="node" id="3208761769269124385" />
       </scope>
       <unit id="3208761769269124385" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.State2_Editor" />
     </file>
-    <file name="State2_EditorBuilder_a.java">
-      <node id="3208761769269124385" at="31,86,32,19" concept="14" />
+    <file name="State2_EditorBuilder.java">
+      <node id="3208761769269124385" at="31,84,32,19" concept="14" />
       <node id="3208761769269124385" at="32,19,33,18" concept="2" />
       <node id="3208761769269124385" at="38,26,39,18" concept="9" />
       <node id="3208761769269124385" at="42,39,43,32" concept="9" />
@@ -7894,7 +7894,7 @@
       <node id="3208761769269124385" at="81,0,82,0" concept="12" trace="PropertyAttribute$Gb" />
       <node id="3208761769269124385" at="28,0,30,0" concept="3" trace="myNode" />
       <node id="3208761769269124385" at="42,0,45,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3208761769269124385" at="31,0,35,0" concept="1" trace="State2_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3208761769269124385" at="31,0,35,0" concept="1" trace="State2_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3208761769269124385" at="36,0,41,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3208761769269124387" at="65,208,70,24" concept="6" />
       <node id="3208761769269124385" at="46,0,54,0" concept="7" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -7903,7 +7903,7 @@
       <scope id="3208761769269124385" at="38,26,39,18" />
       <scope id="3208761769269124385" at="42,39,43,32" />
       <scope id="3208761769269124387" at="71,15,72,40" />
-      <scope id="3208761769269124385" at="31,86,33,18" />
+      <scope id="3208761769269124385" at="31,84,33,18" />
       <scope id="3208761769269124387" at="66,74,68,145">
         <var name="manager" id="3208761769269124387" />
       </scope>
@@ -7925,24 +7925,24 @@
       </scope>
       <scope id="3208761769269124387" at="54,41,73,5" />
       <scope id="3208761769269124387" at="54,0,75,0" />
-      <unit id="3208761769269124385" at="76,0,79,0" name="de.slisson.mps.tables.demolang.editor.State2_EditorBuilder_a$PROPS" />
-      <unit id="3208761769269124385" at="80,0,83,0" name="de.slisson.mps.tables.demolang.editor.State2_EditorBuilder_a$CONCEPTS" />
-      <unit id="3208761769269124385" at="27,0,84,0" name="de.slisson.mps.tables.demolang.editor.State2_EditorBuilder_a" />
+      <unit id="3208761769269124385" at="76,0,79,0" name="de.slisson.mps.tables.demolang.editor.State2_EditorBuilder$PROPS" />
+      <unit id="3208761769269124385" at="80,0,83,0" name="de.slisson.mps.tables.demolang.editor.State2_EditorBuilder$CONCEPTS" />
+      <unit id="3208761769269124385" at="27,0,84,0" name="de.slisson.mps.tables.demolang.editor.State2_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/4618647476138240660">
     <file name="DecisionTable_Editor.java">
-      <node id="4618647476138240660" at="11,79,12,79" concept="9" />
+      <node id="4618647476138240660" at="11,79,12,77" concept="9" />
       <node id="4618647476138240660" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4618647476138240660" at="11,79,12,79" />
+      <scope id="4618647476138240660" at="11,79,12,77" />
       <scope id="4618647476138240660" at="11,0,14,0">
         <var name="editorContext" id="4618647476138240660" />
         <var name="node" id="4618647476138240660" />
       </scope>
       <unit id="4618647476138240660" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.DecisionTable_Editor" />
     </file>
-    <file name="DecisionTable_EditorBuilder_a.java">
-      <node id="4618647476138240660" at="62,93,63,19" concept="14" />
+    <file name="DecisionTable_EditorBuilder.java">
+      <node id="4618647476138240660" at="62,91,63,19" concept="14" />
       <node id="4618647476138240660" at="63,19,64,18" concept="2" />
       <node id="4618647476138240660" at="69,26,70,18" concept="9" />
       <node id="4618647476138240660" at="73,39,74,27" concept="9" />
@@ -8191,7 +8191,7 @@
       <node id="4618647476138465478" at="431,0,434,0" concept="7" trace="createNode#(III)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="4618647476139100777" at="453,187,456,11" concept="6" />
       <node id="4618647476139453506" at="460,43,463,11" concept="6" />
-      <node id="4618647476138240660" at="62,0,66,0" concept="1" trace="DecisionTable_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4618647476138240660" at="62,0,66,0" concept="1" trace="DecisionTable_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4618647476138240660" at="88,27,92,11" concept="0" />
       <node id="4618647476138240660" at="94,24,98,11" concept="0" />
       <node id="4618647476138240660" at="202,7,206,7" concept="6" />
@@ -8300,7 +8300,7 @@
       <scope id="4618647476139453509" at="461,36,462,87" />
       <scope id="4618647476139699307" at="467,18,468,81" />
       <scope id="4618647476138465478" at="477,15,478,40" />
-      <scope id="4618647476138240660" at="62,93,64,18" />
+      <scope id="4618647476138240660" at="62,91,64,18" />
       <scope id="4618647476138240660" at="89,11,91,47">
         <var name="headerGrids" id="4618647476138240660" />
       </scope>
@@ -8600,44 +8600,44 @@
         <var name="editorContext" id="4618647476138465478" />
         <var name="node" id="4618647476138465478" />
       </scope>
-      <unit id="4618647476138240660" at="494,0,497,0" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$PROPS" />
-      <unit id="4618647476138240660" at="164,29,168,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$3" />
-      <unit id="4618647476138240660" at="169,53,173,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$4" />
-      <unit id="4618647476138240660" at="245,29,249,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$8" />
-      <unit id="4618647476138240660" at="250,53,254,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$9" />
-      <unit id="4618647476138465478" at="338,54,342,21" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$12$1" />
-      <unit id="4618647476138465478" at="345,60,349,23" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$12$2" />
-      <unit id="4618647476138465478" at="352,54,356,23" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$12$3" />
-      <unit id="4618647476138465478" at="362,56,366,17" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$12$4" />
-      <unit id="4618647476138465478" at="370,48,374,19" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$12$5" />
-      <unit id="4618647476138240660" at="498,0,502,0" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$CONCEPTS" />
-      <unit id="4618647476138240660" at="109,43,115,11" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$1" />
-      <unit id="4618647476138240660" at="153,28,159,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$2" />
-      <unit id="4618647476138240660" at="174,53,180,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$5" />
-      <unit id="4618647476138240660" at="234,28,240,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$7" />
-      <unit id="4618647476138240660" at="255,53,261,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$10" />
-      <unit id="4618647476138465478" at="417,49,424,15" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$12$7" />
-      <unit id="4618647476138240660" at="182,153,190,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$6" />
-      <unit id="4618647476138240660" at="263,154,271,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$11" />
-      <unit id="4618647476138240660" at="485,0,493,0" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$LINKS" />
-      <unit id="4618647476138465478" at="377,56,410,19" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$12$6" />
-      <unit id="4618647476138465478" at="305,10,475,7" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a$12" />
-      <unit id="4618647476138240660" at="58,0,503,0" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder_a" />
+      <unit id="4618647476138240660" at="494,0,497,0" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$PROPS" />
+      <unit id="4618647476138240660" at="164,29,168,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$3" />
+      <unit id="4618647476138240660" at="169,53,173,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$4" />
+      <unit id="4618647476138240660" at="245,29,249,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$8" />
+      <unit id="4618647476138240660" at="250,53,254,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$9" />
+      <unit id="4618647476138465478" at="338,54,342,21" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$12$1" />
+      <unit id="4618647476138465478" at="345,60,349,23" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$12$2" />
+      <unit id="4618647476138465478" at="352,54,356,23" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$12$3" />
+      <unit id="4618647476138465478" at="362,56,366,17" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$12$4" />
+      <unit id="4618647476138465478" at="370,48,374,19" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$12$5" />
+      <unit id="4618647476138240660" at="498,0,502,0" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$CONCEPTS" />
+      <unit id="4618647476138240660" at="109,43,115,11" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$1" />
+      <unit id="4618647476138240660" at="153,28,159,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$2" />
+      <unit id="4618647476138240660" at="174,53,180,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$5" />
+      <unit id="4618647476138240660" at="234,28,240,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$7" />
+      <unit id="4618647476138240660" at="255,53,261,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$10" />
+      <unit id="4618647476138465478" at="417,49,424,15" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$12$7" />
+      <unit id="4618647476138240660" at="182,153,190,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$6" />
+      <unit id="4618647476138240660" at="263,154,271,5" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$11" />
+      <unit id="4618647476138240660" at="485,0,493,0" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$LINKS" />
+      <unit id="4618647476138465478" at="377,56,410,19" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$12$6" />
+      <unit id="4618647476138465478" at="305,10,475,7" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder$12" />
+      <unit id="4618647476138240660" at="58,0,503,0" name="de.slisson.mps.tables.demolang.editor.DecisionTable_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/4618647476138240718">
     <file name="DecisionTableResult_Editor.java">
-      <node id="4618647476138240718" at="11,79,12,85" concept="9" />
+      <node id="4618647476138240718" at="11,79,12,83" concept="9" />
       <node id="4618647476138240718" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4618647476138240718" at="11,79,12,85" />
+      <scope id="4618647476138240718" at="11,79,12,83" />
       <scope id="4618647476138240718" at="11,0,14,0">
         <var name="editorContext" id="4618647476138240718" />
         <var name="node" id="4618647476138240718" />
       </scope>
       <unit id="4618647476138240718" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.DecisionTableResult_Editor" />
     </file>
-    <file name="DecisionTableResult_EditorBuilder_a.java">
-      <node id="4618647476138240718" at="26,99,27,19" concept="14" />
+    <file name="DecisionTableResult_EditorBuilder.java">
+      <node id="4618647476138240718" at="26,97,27,19" concept="14" />
       <node id="4618647476138240718" at="27,19,28,18" concept="2" />
       <node id="4618647476138240718" at="33,26,34,18" concept="9" />
       <node id="4618647476138240718" at="37,39,38,32" concept="9" />
@@ -8675,7 +8675,7 @@
       <node id="4618647476138240718" at="78,87,81,7" concept="6" />
       <node id="4618647476138240718" at="81,7,84,7" concept="6" />
       <node id="4618647476138240718" at="100,0,103,0" concept="7" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="4618647476138240718" at="26,0,30,0" concept="1" trace="DecisionTableResult_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4618647476138240718" at="26,0,30,0" concept="1" trace="DecisionTableResult_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4618647476138240718" at="49,0,53,0" concept="7" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4618647476138240718" at="57,0,61,0" concept="1" trace="resultSingleRoleHandler_2dwicu_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="4618647476138240718" at="31,0,36,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -8692,7 +8692,7 @@
       <scope id="4618647476138240718" at="82,42,83,47" />
       <scope id="4618647476138240718" at="96,17,97,42" />
       <scope id="4618647476138240718" at="100,40,101,27" />
-      <scope id="4618647476138240718" at="26,99,28,18" />
+      <scope id="4618647476138240718" at="26,97,28,18" />
       <scope id="4618647476138240718" at="49,40,51,33">
         <var name="provider" id="4618647476138240718" />
       </scope>
@@ -8732,9 +8732,9 @@
       </scope>
       <scope id="4618647476138240718" at="87,44,98,7" />
       <scope id="4618647476138240718" at="86,0,100,0" />
-      <unit id="4618647476138240718" at="105,0,108,0" name="de.slisson.mps.tables.demolang.editor.DecisionTableResult_EditorBuilder_a$LINKS" />
-      <unit id="4618647476138240718" at="53,0,104,0" name="de.slisson.mps.tables.demolang.editor.DecisionTableResult_EditorBuilder_a$resultSingleRoleHandler_2dwicu_a0" />
-      <unit id="4618647476138240718" at="22,0,109,0" name="de.slisson.mps.tables.demolang.editor.DecisionTableResult_EditorBuilder_a" />
+      <unit id="4618647476138240718" at="105,0,108,0" name="de.slisson.mps.tables.demolang.editor.DecisionTableResult_EditorBuilder$LINKS" />
+      <unit id="4618647476138240718" at="53,0,104,0" name="de.slisson.mps.tables.demolang.editor.DecisionTableResult_EditorBuilder$resultSingleRoleHandler_2dwicu_a0" />
+      <unit id="4618647476138240718" at="22,0,109,0" name="de.slisson.mps.tables.demolang.editor.DecisionTableResult_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/4848978248059886331">
@@ -8822,17 +8822,17 @@
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/7869003205684084945">
     <file name="BaseConceptComment_Editor.java">
-      <node id="7869003205684084945" at="11,79,12,84" concept="9" />
+      <node id="7869003205684084945" at="11,79,12,82" concept="9" />
       <node id="7869003205684084945" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7869003205684084945" at="11,79,12,84" />
+      <scope id="7869003205684084945" at="11,79,12,82" />
       <scope id="7869003205684084945" at="11,0,14,0">
         <var name="editorContext" id="7869003205684084945" />
         <var name="node" id="7869003205684084945" />
       </scope>
       <unit id="7869003205684084945" at="10,0,15,0" name="de.slisson.mps.tables.demolang.editor.BaseConceptComment_Editor" />
     </file>
-    <file name="BaseConceptComment_EditorBuilder_a.java">
-      <node id="7869003205684084945" at="36,98,37,19" concept="14" />
+    <file name="BaseConceptComment_EditorBuilder.java">
+      <node id="7869003205684084945" at="36,96,37,19" concept="14" />
       <node id="7869003205684084945" at="37,19,38,18" concept="2" />
       <node id="7869003205684084945" at="43,26,44,18" concept="9" />
       <node id="7869003205684084945" at="47,39,48,32" concept="9" />
@@ -8881,7 +8881,7 @@
       <node id="7869003205684084945" at="115,0,116,0" concept="12" trace="PropertyAttribute$Gb" />
       <node id="7869003205684084945" at="33,0,35,0" concept="3" trace="myNode" />
       <node id="7869003205684084945" at="47,0,50,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="7869003205684084945" at="36,0,40,0" concept="1" trace="BaseConceptComment_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7869003205684084945" at="36,0,40,0" concept="1" trace="BaseConceptComment_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7869003205684084945" at="41,0,46,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7869003205684092932" at="88,208,93,24" concept="6" />
       <node id="7869003205684092955" at="104,0,109,0" concept="7" trace="createAttributedNodeCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -8894,7 +8894,7 @@
       <scope id="7869003205684084945" at="43,26,44,18" />
       <scope id="7869003205684084945" at="47,39,48,32" />
       <scope id="7869003205684092932" at="94,15,95,40" />
-      <scope id="7869003205684084945" at="36,98,38,18" />
+      <scope id="7869003205684084945" at="36,96,38,18" />
       <scope id="7869003205684092932" at="89,74,91,145">
         <var name="manager" id="7869003205684092932" />
       </scope>
@@ -8934,23 +8934,23 @@
       </scope>
       <scope id="7869003205684092932" at="77,41,96,5" />
       <scope id="7869003205684092932" at="77,0,98,0" />
-      <unit id="7869003205684084945" at="110,0,113,0" name="de.slisson.mps.tables.demolang.editor.BaseConceptComment_EditorBuilder_a$PROPS" />
-      <unit id="7869003205684084945" at="114,0,117,0" name="de.slisson.mps.tables.demolang.editor.BaseConceptComment_EditorBuilder_a$CONCEPTS" />
-      <unit id="7869003205684084945" at="32,0,118,0" name="de.slisson.mps.tables.demolang.editor.BaseConceptComment_EditorBuilder_a" />
+      <unit id="7869003205684084945" at="110,0,113,0" name="de.slisson.mps.tables.demolang.editor.BaseConceptComment_EditorBuilder$PROPS" />
+      <unit id="7869003205684084945" at="114,0,117,0" name="de.slisson.mps.tables.demolang.editor.BaseConceptComment_EditorBuilder$CONCEPTS" />
+      <unit id="7869003205684084945" at="32,0,118,0" name="de.slisson.mps.tables.demolang.editor.BaseConceptComment_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/9143045335057237123">
     <file name="Requirement_TestHint1_Editor.java">
       <node id="9143045335057237123" at="14,0,15,0" concept="3" trace="myContextHints" />
       <node id="9143045335057237123" at="17,47,18,26" concept="9" />
-      <node id="9143045335057237123" at="20,79,21,87" concept="9" />
-      <node id="9143045335057237123" at="23,82,24,90" concept="9" />
+      <node id="9143045335057237123" at="20,79,21,85" concept="9" />
+      <node id="9143045335057237123" at="23,82,24,88" concept="9" />
       <node id="9143045335057237123" at="20,0,23,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9143045335057237123" at="23,0,26,0" concept="7" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9143045335057237123" at="15,0,20,0" concept="7" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="9143045335057237123" at="17,47,18,26" />
-      <scope id="9143045335057237123" at="20,79,21,87" />
-      <scope id="9143045335057237123" at="23,82,24,90" />
+      <scope id="9143045335057237123" at="20,79,21,85" />
+      <scope id="9143045335057237123" at="23,82,24,88" />
       <scope id="9143045335057237123" at="20,0,23,0">
         <var name="editorContext" id="9143045335057237123" />
         <var name="node" id="9143045335057237123" />
@@ -8962,8 +8962,8 @@
       <scope id="9143045335057237123" at="15,0,20,0" />
       <unit id="9143045335057237123" at="13,0,27,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_Editor" />
     </file>
-    <file name="Requirement_TestHint1_EditorBuilder_a.java">
-      <node id="9143045335057237123" at="63,101,64,19" concept="14" />
+    <file name="Requirement_TestHint1_EditorBuilder.java">
+      <node id="9143045335057237123" at="63,99,64,19" concept="14" />
       <node id="9143045335057237123" at="64,19,65,18" concept="2" />
       <node id="9143045335057237123" at="70,26,71,18" concept="9" />
       <node id="9143045335057237123" at="74,39,75,34" concept="9" />
@@ -9204,7 +9204,7 @@
       <node id="9143045335057237123" at="358,0,361,0" concept="7" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="9143045335057237123" at="361,0,364,0" concept="7" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="9143045335057237123" at="405,96,408,9" concept="6" />
-      <node id="9143045335057237123" at="63,0,67,0" concept="1" trace="Requirement_TestHint1_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9143045335057237123" at="63,0,67,0" concept="1" trace="Requirement_TestHint1_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9143045335057237123" at="243,0,247,0" concept="7" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9143045335057237123" at="251,0,255,0" concept="1" trace="multilineDescriptionSingleRoleHandler_yc2yzs_a1a0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="9143045335057237123" at="349,0,353,0" concept="1" trace="RelationshipsListHandler_yc2yzs_a2a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -9297,7 +9297,7 @@
       <scope id="9143045335057237123" at="379,17,380,42" />
       <scope id="9143045335057237123" at="406,34,407,91" />
       <scope id="9143045335057237123" at="440,45,441,59" />
-      <scope id="9143045335057237123" at="63,101,65,18" />
+      <scope id="9143045335057237123" at="63,99,65,18" />
       <scope id="9143045335057237127" at="194,74,196,145">
         <var name="manager" id="9143045335057237127" />
       </scope>
@@ -9587,25 +9587,25 @@
         <var name="editorContext" id="9143045335057237123" />
         <var name="node" id="9143045335057237123" />
       </scope>
-      <unit id="9143045335057237123" at="475,0,478,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$PROPS" />
-      <unit id="9143045335057237123" at="479,0,483,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$CONCEPTS" />
-      <unit id="9143045335057237123" at="484,0,488,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$LINKS" />
-      <unit id="9143045335057237123" at="144,28,150,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$2" />
-      <unit id="2522915415598587661" at="204,28,210,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$4" />
-      <unit id="9143045335057237123" at="222,28,228,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$5" />
-      <unit id="2522915415598587663" at="299,28,305,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$6" />
-      <unit id="9143045335057237123" at="317,28,323,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$7" />
-      <unit id="2522915415598587665" at="413,28,419,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$8" />
-      <unit id="9143045335057237123" at="431,28,437,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$9" />
-      <unit id="9143045335057237260" at="459,28,465,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$10" />
-      <unit id="9143045335057237123" at="84,30,92,7" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$1" />
-      <unit id="9143045335057237123" at="157,28,167,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$3" />
-      <unit id="9143045335057237123" at="247,0,298,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$multilineDescriptionSingleRoleHandler_yc2yzs_a1a0" />
-      <unit id="9143045335057237123" at="345,0,412,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a$RelationshipsListHandler_yc2yzs_a2a0" />
-      <unit id="9143045335057237123" at="59,0,489,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder_a" />
+      <unit id="9143045335057237123" at="475,0,478,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$PROPS" />
+      <unit id="9143045335057237123" at="479,0,483,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$CONCEPTS" />
+      <unit id="9143045335057237123" at="484,0,488,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$LINKS" />
+      <unit id="9143045335057237123" at="144,28,150,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$2" />
+      <unit id="2522915415598587661" at="204,28,210,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$4" />
+      <unit id="9143045335057237123" at="222,28,228,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$5" />
+      <unit id="2522915415598587663" at="299,28,305,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$6" />
+      <unit id="9143045335057237123" at="317,28,323,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$7" />
+      <unit id="2522915415598587665" at="413,28,419,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$8" />
+      <unit id="9143045335057237123" at="431,28,437,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$9" />
+      <unit id="9143045335057237260" at="459,28,465,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$10" />
+      <unit id="9143045335057237123" at="84,30,92,7" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$1" />
+      <unit id="9143045335057237123" at="157,28,167,5" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$3" />
+      <unit id="9143045335057237123" at="247,0,298,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$multilineDescriptionSingleRoleHandler_yc2yzs_a1a0" />
+      <unit id="9143045335057237123" at="345,0,412,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder$RelationshipsListHandler_yc2yzs_a2a0" />
+      <unit id="9143045335057237123" at="59,0,489,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_EditorBuilder" />
     </file>
-    <file name="Requirement_TestHint1_InspectorBuilder_a.java">
-      <node id="9143045335057237123" at="32,104,33,19" concept="14" />
+    <file name="Requirement_TestHint1_InspectorBuilder.java">
+      <node id="9143045335057237123" at="32,102,33,19" concept="14" />
       <node id="9143045335057237123" at="33,19,34,18" concept="2" />
       <node id="9143045335057237123" at="39,26,40,18" concept="9" />
       <node id="9143045335057237123" at="43,39,44,32" concept="9" />
@@ -9638,7 +9638,7 @@
       <node id="9143045335057237123" at="89,0,90,0" concept="12" trace="PropertyAttribute$Gb" />
       <node id="9143045335057237123" at="29,0,31,0" concept="3" trace="myNode" />
       <node id="9143045335057237123" at="43,0,46,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="9143045335057237123" at="32,0,36,0" concept="1" trace="Requirement_TestHint1_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9143045335057237123" at="32,0,36,0" concept="1" trace="Requirement_TestHint1_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9143045335057237123" at="37,0,42,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9143045335057237147" at="73,208,78,24" concept="6" />
       <node id="9143045335057237146" at="56,0,62,0" concept="7" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -9648,7 +9648,7 @@
       <scope id="9143045335057237123" at="39,26,40,18" />
       <scope id="9143045335057237123" at="43,39,44,32" />
       <scope id="9143045335057237147" at="79,15,80,40" />
-      <scope id="9143045335057237123" at="32,104,34,18" />
+      <scope id="9143045335057237123" at="32,102,34,18" />
       <scope id="9143045335057237147" at="74,74,76,145">
         <var name="manager" id="9143045335057237147" />
       </scope>
@@ -9674,19 +9674,19 @@
       </scope>
       <scope id="9143045335057237147" at="62,41,81,5" />
       <scope id="9143045335057237147" at="62,0,83,0" />
-      <unit id="9143045335057237123" at="84,0,87,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_InspectorBuilder_a$PROPS" />
-      <unit id="9143045335057237123" at="88,0,91,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_InspectorBuilder_a$CONCEPTS" />
-      <unit id="9143045335057237123" at="28,0,92,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_InspectorBuilder_a" />
+      <unit id="9143045335057237123" at="84,0,87,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_InspectorBuilder$PROPS" />
+      <unit id="9143045335057237123" at="88,0,91,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_InspectorBuilder$CONCEPTS" />
+      <unit id="9143045335057237123" at="28,0,92,0" name="de.slisson.mps.tables.demolang.editor.Requirement_TestHint1_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ad2d15f5-a50a-447f-9147-3d81056dc384(de.slisson.mps.tables.demolang.editor)/934534792594006933">
     <file name="VariableValue_Editor.java">
-      <node id="934534792594006933" at="11,79,12,79" concept="9" />
-      <node id="934534792594006933" at="14,82,15,82" concept="9" />
+      <node id="934534792594006933" at="11,79,12,77" concept="9" />
+      <node id="934534792594006933" at="14,82,15,80" concept="9" />
       <node id="934534792594006933" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="934534792594006933" at="14,0,17,0" concept="7" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="934534792594006933" at="11,79,12,79" />
-      <scope id="934534792594006933" at="14,82,15,82" />
+      <scope id="934534792594006933" at="11,79,12,77" />
+      <scope id="934534792594006933" at="14,82,15,80" />
       <scope id="934534792594006933" at="11,0,14,0">
         <var name="editorContext" id="934534792594006933" />
         <var name="node" id="934534792594006933" />
@@ -9697,8 +9697,8 @@
       </scope>
       <unit id="934534792594006933" at="10,0,18,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_Editor" />
     </file>
-    <file name="VariableValue_EditorBuilder_a.java">
-      <node id="934534792594006933" at="45,93,46,19" concept="14" />
+    <file name="VariableValue_EditorBuilder.java">
+      <node id="934534792594006933" at="45,91,46,19" concept="14" />
       <node id="934534792594006933" at="46,19,47,18" concept="2" />
       <node id="934534792594006933" at="52,26,53,18" concept="9" />
       <node id="934534792594006933" at="56,39,57,34" concept="9" />
@@ -9794,7 +9794,7 @@
       <node id="934534792594313567" at="198,20,201,7" concept="6" />
       <node id="934534792594313567" at="201,7,204,7" concept="6" />
       <node id="934534792594313567" at="208,7,211,7" concept="6" />
-      <node id="934534792594006933" at="45,0,49,0" concept="1" trace="VariableValue_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="934534792594006933" at="45,0,49,0" concept="1" trace="VariableValue_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="934534792594006933" at="122,0,126,0" concept="7" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="934534792594006933" at="130,0,134,0" concept="1" trace="valueSingleRoleHandler_j27l2j_a0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="934534792594313567" at="204,7,208,7" concept="6" />
@@ -9834,7 +9834,7 @@
       <scope id="934534792594313567" at="199,67,200,37" />
       <scope id="934534792594313567" at="202,67,203,37" />
       <scope id="934534792594313567" at="209,33,210,84" />
-      <scope id="934534792594006933" at="45,93,47,18" />
+      <scope id="934534792594006933" at="45,91,47,18" />
       <scope id="934534792594006933" at="122,40,124,33">
         <var name="provider" id="934534792594006933" />
       </scope>
@@ -9940,17 +9940,17 @@
         <var name="editorContext" id="934534792594313567" />
         <var name="node" id="934534792594313567" />
       </scope>
-      <unit id="934534792594006933" at="221,0,224,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder_a$PROPS" />
-      <unit id="934534792594313567" at="178,29,182,5" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder_a$3" />
-      <unit id="934534792594006933" at="216,0,220,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder_a$LINKS" />
-      <unit id="934534792594006933" at="66,30,72,7" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder_a$1" />
-      <unit id="934534792594006933" at="101,28,107,5" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder_a$2" />
-      <unit id="934534792594313567" at="186,153,192,5" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder_a$4" />
-      <unit id="934534792594006933" at="126,0,177,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder_a$valueSingleRoleHandler_j27l2j_a0a" />
-      <unit id="934534792594006933" at="41,0,225,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder_a" />
+      <unit id="934534792594006933" at="221,0,224,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder$PROPS" />
+      <unit id="934534792594313567" at="178,29,182,5" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder$3" />
+      <unit id="934534792594006933" at="216,0,220,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder$LINKS" />
+      <unit id="934534792594006933" at="66,30,72,7" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder$1" />
+      <unit id="934534792594006933" at="101,28,107,5" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder$2" />
+      <unit id="934534792594313567" at="186,153,192,5" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder$4" />
+      <unit id="934534792594006933" at="126,0,177,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder$valueSingleRoleHandler_j27l2j_a0a" />
+      <unit id="934534792594006933" at="41,0,225,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_EditorBuilder" />
     </file>
-    <file name="VariableValue_InspectorBuilder_a.java">
-      <node id="934534792594006933" at="41,96,42,19" concept="14" />
+    <file name="VariableValue_InspectorBuilder.java">
+      <node id="934534792594006933" at="41,94,42,19" concept="14" />
       <node id="934534792594006933" at="42,19,43,18" concept="2" />
       <node id="934534792594006933" at="48,26,49,18" concept="9" />
       <node id="934534792594006933" at="52,39,53,32" concept="9" />
@@ -10015,7 +10015,7 @@
       <node id="934534792594025987" at="107,0,109,0" concept="3" trace="myNode" />
       <node id="934534792594006933" at="52,0,55,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="934534792594025987" at="117,0,120,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="934534792594006933" at="41,0,45,0" concept="1" trace="VariableValue_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="934534792594006933" at="41,0,45,0" concept="1" trace="VariableValue_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="934534792594006933" at="92,0,96,5" concept="6" />
       <node id="934534792594006933" at="46,0,51,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="934534792594006933" at="99,205,104,22" concept="6" />
@@ -10035,7 +10035,7 @@
       <scope id="934534792594025987" at="117,41,118,32" />
       <scope id="934534792594025987" at="123,28,124,20" />
       <scope id="934534792594025993" at="144,17,145,42" />
-      <scope id="934534792594006933" at="41,96,43,18" />
+      <scope id="934534792594006933" at="41,94,43,18" />
       <scope id="934534792594006933" at="93,40,95,47" />
       <scope id="934534792594006933" at="100,73,102,145">
         <var name="manager" id="934534792594006933" />
@@ -10093,12 +10093,12 @@
         <var name="referenceLink" id="934534792594006933" />
       </scope>
       <scope id="934534792594006933" at="71,0,106,0" />
-      <unit id="934534792594006933" at="150,0,153,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_InspectorBuilder_a$LINKS" />
-      <unit id="934534792594006933" at="159,0,162,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_InspectorBuilder_a$PROPS" />
-      <unit id="934534792594006933" at="154,0,158,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_InspectorBuilder_a$CONCEPTS" />
-      <unit id="934534792594006933" at="73,42,88,5" name="de.slisson.mps.tables.demolang.editor.VariableValue_InspectorBuilder_a$1" />
-      <unit id="934534792594025987" at="106,0,149,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_InspectorBuilder_a$Inline_Builder0" />
-      <unit id="934534792594006933" at="37,0,163,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_InspectorBuilder_a" />
+      <unit id="934534792594006933" at="150,0,153,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_InspectorBuilder$LINKS" />
+      <unit id="934534792594006933" at="159,0,162,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_InspectorBuilder$PROPS" />
+      <unit id="934534792594006933" at="154,0,158,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_InspectorBuilder$CONCEPTS" />
+      <unit id="934534792594006933" at="73,42,88,5" name="de.slisson.mps.tables.demolang.editor.VariableValue_InspectorBuilder$1" />
+      <unit id="934534792594025987" at="106,0,149,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_InspectorBuilder$Inline_Builder0" />
+      <unit id="934534792594006933" at="37,0,163,0" name="de.slisson.mps.tables.demolang.editor.VariableValue_InspectorBuilder" />
     </file>
   </root>
 </debug-info>

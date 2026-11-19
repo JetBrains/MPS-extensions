@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class UnicodeByNameRegex_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new UnicodeByNameRegex_EditorBuilder_a(editorContext, node).createCell();
+    return new UnicodeByNameRegex_EditorBuilder(editorContext, node).createCell();
   }
 }

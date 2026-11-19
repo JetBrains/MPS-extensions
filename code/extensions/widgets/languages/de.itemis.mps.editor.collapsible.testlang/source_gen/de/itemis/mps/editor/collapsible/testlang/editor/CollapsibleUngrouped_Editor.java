@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class CollapsibleUngrouped_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new CollapsibleUngrouped_EditorBuilder_a(editorContext, node).createCell();
+    return new CollapsibleUngrouped_EditorBuilder(editorContext, node).createCell();
   }
 }

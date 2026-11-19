@@ -19,12 +19,12 @@
   </root>
   <root nodeRef="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:b64b11b6-7734-4b5f-812e-47396d726968(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.editor)/147976780035502419">
     <file name="CellModel_QueryLinkList_Editor.java">
-      <node id="147976780035502419" at="11,79,12,89" concept="7" />
-      <node id="147976780035502419" at="14,82,15,92" concept="7" />
+      <node id="147976780035502419" at="11,79,12,87" concept="7" />
+      <node id="147976780035502419" at="14,82,15,90" concept="7" />
       <node id="147976780035502419" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="147976780035502419" at="14,0,17,0" concept="5" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="147976780035502419" at="11,79,12,89" />
-      <scope id="147976780035502419" at="14,82,15,92" />
+      <scope id="147976780035502419" at="11,79,12,87" />
+      <scope id="147976780035502419" at="14,82,15,90" />
       <scope id="147976780035502419" at="11,0,14,0">
         <var name="editorContext" id="147976780035502419" />
         <var name="node" id="147976780035502419" />
@@ -35,8 +35,8 @@
       </scope>
       <unit id="147976780035502419" at="10,0,18,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_Editor" />
     </file>
-    <file name="CellModel_QueryLinkList_EditorBuilder_a.java">
-      <node id="147976780035502419" at="33,103,34,19" concept="10" />
+    <file name="CellModel_QueryLinkList_EditorBuilder.java">
+      <node id="147976780035502419" at="33,101,34,19" concept="10" />
       <node id="147976780035502419" at="34,19,35,18" concept="2" />
       <node id="147976780035502419" at="40,26,41,18" concept="7" />
       <node id="147976780035502419" at="44,39,45,32" concept="7" />
@@ -142,7 +142,7 @@
       <node id="147976780035502419" at="182,87,185,7" concept="4" />
       <node id="147976780035502419" at="185,7,188,7" concept="4" />
       <node id="147976780035502419" at="207,0,210,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="147976780035502419" at="33,0,37,0" concept="1" trace="CellModel_QueryLinkList_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="147976780035502419" at="33,0,37,0" concept="1" trace="CellModel_QueryLinkList_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="147976780035502419" at="76,0,80,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="147976780035502419" at="84,0,88,0" concept="1" trace="editorComponentSingleRoleHandler_tvbvbm_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="147976780035502419" at="153,0,157,0" concept="5" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -176,7 +176,7 @@
       <scope id="147976780035502419" at="186,42,187,55" />
       <scope id="147976780035502419" at="203,17,204,42" />
       <scope id="147976780035502419" at="207,40,208,25" />
-      <scope id="147976780035502419" at="33,103,35,18" />
+      <scope id="147976780035502419" at="33,101,35,18" />
       <scope id="147976780035502419" at="76,40,78,33">
         <var name="provider" id="147976780035502419" />
       </scope>
@@ -274,13 +274,13 @@
       <scope id="147976780035502419" at="48,0,60,0" />
       <scope id="147976780035502419" at="116,0,130,0" />
       <scope id="147976780035502419" at="193,0,207,0" />
-      <unit id="147976780035502419" at="219,0,223,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_EditorBuilder_a$LINKS" />
-      <unit id="147976780035502419" at="80,0,134,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_EditorBuilder_a$editorComponentSingleRoleHandler_tvbvbm_c0" />
-      <unit id="147976780035502419" at="157,0,211,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_EditorBuilder_a$emptyCellModelSingleRoleHandler_tvbvbm_b3a" />
-      <unit id="147976780035502419" at="29,0,224,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_EditorBuilder_a" />
+      <unit id="147976780035502419" at="219,0,223,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_EditorBuilder$LINKS" />
+      <unit id="147976780035502419" at="80,0,134,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_EditorBuilder$editorComponentSingleRoleHandler_tvbvbm_c0" />
+      <unit id="147976780035502419" at="157,0,211,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_EditorBuilder$emptyCellModelSingleRoleHandler_tvbvbm_b3a" />
+      <unit id="147976780035502419" at="29,0,224,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_EditorBuilder" />
     </file>
-    <file name="CellModel_QueryLinkList_InspectorBuilder_a.java">
-      <node id="147976780035502419" at="78,106,79,19" concept="10" />
+    <file name="CellModel_QueryLinkList_InspectorBuilder.java">
+      <node id="147976780035502419" at="78,104,79,19" concept="10" />
       <node id="147976780035502419" at="79,19,80,18" concept="2" />
       <node id="147976780035502419" at="85,26,86,18" concept="7" />
       <node id="147976780035502419" at="89,39,90,32" concept="7" />
@@ -551,15 +551,15 @@
       <node id="147976780035524801" at="531,40,532,34" concept="2" />
       <node id="147976780035524801" at="532,34,533,22" concept="7" />
       <node id="147976780035502419" at="535,44,536,40" concept="6" />
-      <node id="147976780035502419" at="536,40,537,56" concept="2" />
-      <node id="147976780035502419" at="537,56,538,33" concept="6" />
+      <node id="147976780035502419" at="536,40,537,44" concept="2" />
+      <node id="147976780035502419" at="537,44,538,33" concept="6" />
       <node id="147976780035502419" at="539,31,540,38" concept="2" />
       <node id="147976780035502419" at="541,12,542,37" concept="2" />
       <node id="147976780035502419" at="543,5,544,34" concept="6" />
       <node id="147976780035524811" at="544,34,545,49" concept="2" />
       <node id="147976780035502419" at="545,49,546,40" concept="2" />
       <node id="147976780035502419" at="546,40,547,22" concept="7" />
-      <node id="147976780035524805" at="549,48,550,88" concept="7" />
+      <node id="147976780035524805" at="549,36,550,88" concept="7" />
       <node id="147976780035502419" at="552,41,553,39" concept="2" />
       <node id="147976780035502419" at="554,9,555,56" concept="6" />
       <node id="147976780035502419" at="555,56,556,76" concept="2" />
@@ -618,10 +618,10 @@
       <node id="147976780035524882" at="686,49,687,49" concept="2" />
       <node id="147976780035502419" at="687,49,688,40" concept="2" />
       <node id="147976780035524836" at="688,40,689,49" concept="2" />
-      <node id="147976780035524837" at="690,39,691,51" concept="2" />
+      <node id="147976780035524837" at="690,27,691,51" concept="2" />
       <node id="147976780035524884" at="692,5,693,48" concept="2" />
       <node id="147976780035502419" at="693,48,694,22" concept="7" />
-      <node id="147976780035524843" at="696,48,697,84" concept="7" />
+      <node id="147976780035524843" at="696,36,697,84" concept="7" />
       <node id="147976780035524836" at="699,41,700,102" concept="6" />
       <node id="147976780035524836" at="700,102,701,46" concept="2" />
       <node id="147976780035524836" at="701,46,702,34" concept="6" />
@@ -1055,7 +1055,7 @@
       <node id="147976780035502419" at="448,87,451,7" concept="4" />
       <node id="147976780035502419" at="451,7,454,7" concept="4" />
       <node id="147976780035502419" at="470,0,473,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="147976780035524803" at="549,0,552,0" concept="5" trace="nodeCondition_tvbvbm_a1f3a#()Z" />
+      <node id="147976780035524803" at="549,0,552,0" concept="5" trace="nodeCondition0#()Z" />
       <node id="147976780035524814" at="590,0,593,0" concept="5" trace="getPropertyValues#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/List;" />
       <node id="147976780035524823" at="611,0,614,0" concept="5" trace="handleAction#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="147976780035524823" at="614,0,617,0" concept="5" trace="getMatchingText#()Ljava/lang/String;" />
@@ -1063,7 +1063,7 @@
       <node id="147976780035502419" at="650,7,653,7" concept="4" />
       <node id="147976780035502419" at="669,0,672,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="147976780035524837" at="689,49,692,5" concept="4" />
-      <node id="147976780035524841" at="696,0,699,0" concept="5" trace="nodeCondition_tvbvbm_a1h3a#()Z" />
+      <node id="147976780035524841" at="696,0,699,0" concept="5" trace="nodeCondition1#()Z" />
       <node id="147976780035524849" at="744,0,747,0" concept="5" trace="handleAction#(Ljava/lang/Object;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="147976780035524849" at="747,0,750,0" concept="5" trace="handleAction_impl#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="147976780035524849" at="750,0,753,0" concept="5" trace="isReferentPresentation#()Z" />
@@ -1088,7 +1088,7 @@
       <node id="147976780035502419" at="1387,87,1390,7" concept="4" />
       <node id="147976780035502419" at="1390,7,1393,7" concept="4" />
       <node id="147976780035502419" at="1410,0,1413,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="147976780035502419" at="78,0,82,0" concept="1" trace="CellModel_QueryLinkList_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="147976780035502419" at="78,0,82,0" concept="1" trace="CellModel_QueryLinkList_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="147976780035524783" at="107,0,111,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="147976780035502419" at="175,0,179,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="147976780035502419" at="183,0,187,0" concept="1" trace="querySingleRoleHandler_tvbvbm_b0d0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -1276,7 +1276,7 @@
       <scope id="147976780035524796" at="511,15,512,40" />
       <scope id="147976780035502419" at="539,31,540,38" />
       <scope id="147976780035502419" at="541,12,542,37" />
-      <scope id="147976780035524804" at="549,48,550,88" />
+      <scope id="147976780035524804" at="549,36,550,88" />
       <scope id="147976780035502419" at="569,15,570,40" />
       <scope id="147976780035524814" at="590,87,591,85" />
       <scope id="147976780035524823" at="611,88,612,86" />
@@ -1286,8 +1286,8 @@
       <scope id="147976780035502419" at="651,42,652,61" />
       <scope id="147976780035502419" at="665,17,666,42" />
       <scope id="147976780035502419" at="669,40,670,41" />
-      <scope id="147976780035524837" at="690,39,691,51" />
-      <scope id="147976780035524842" at="696,48,697,84" />
+      <scope id="147976780035524837" at="690,27,691,51" />
+      <scope id="147976780035524842" at="696,36,697,84" />
       <scope id="147976780035502419" at="730,15,731,40" />
       <scope id="147976780035524849" at="744,112,745,82" />
       <scope id="147976780035524849" at="747,114,748,86" />
@@ -1331,7 +1331,7 @@
       <scope id="147976780035502419" at="1391,42,1392,52" />
       <scope id="147976780035502419" at="1406,17,1407,42" />
       <scope id="147976780035502419" at="1410,40,1411,32" />
-      <scope id="147976780035502419" at="78,106,80,18" />
+      <scope id="147976780035502419" at="78,104,80,18" />
       <scope id="147976780035524783" at="107,42,109,22">
         <var name="editorCell" id="147976780035524783" />
       </scope>
@@ -2055,30 +2055,30 @@
         <var name="style" id="147976780035502419" />
       </scope>
       <scope id="147976780035502419" at="1110,0,1141,0" />
-      <unit id="147976780035502419" at="1430,0,1435,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$CONCEPTS" />
-      <unit id="147976780035524814" at="579,38,586,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$CellModel_QueryLinkList_usesFolding_cellMenu_tvbvbm_a0a1f3a$1" />
-      <unit id="147976780035524823" at="600,38,607,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$CellModel_QueryLinkList_generic_cellMenu_tvbvbm_b0a1f3a$1" />
-      <unit id="147976780035502419" at="255,42,263,5" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$1" />
-      <unit id="147976780035502419" at="1112,42,1120,5" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$2" />
-      <unit id="147976780035502419" at="1436,0,1444,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$PROPS" />
-      <unit id="147976780035502419" at="1415,0,1429,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$LINKS" />
-      <unit id="147976780035524814" at="573,0,594,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$CellModel_QueryLinkList_usesFolding_cellMenu_tvbvbm_a0a1f3a" />
-      <unit id="147976780035524823" at="594,0,618,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$CellModel_QueryLinkList_generic_cellMenu_tvbvbm_b0a1f3a" />
-      <unit id="147976780035524849" at="734,0,763,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$CellModel_QueryLinkList_generic_cellMenu_tvbvbm_a0b7d0" />
-      <unit id="147976780035524893" at="821,0,854,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$separatorTextQuerySingleRoleHandler_tvbvbm_c7d0$CellModel_QueryLinkList_generic_cellMenu_tvbvbm_a0c7d0" />
-      <unit id="147976780035583567" at="281,0,324,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$Inline_Builder0" />
-      <unit id="147976780035524944" at="1141,0,1184,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$Inline_Builder1" />
-      <unit id="147976780035502419" at="348,0,399,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$filterSingleRoleHandler_tvbvbm_b2d0" />
-      <unit id="147976780035502419" at="423,0,474,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$cellLayoutSingleRoleHandler_tvbvbm_b3d0" />
-      <unit id="147976780035502419" at="622,0,673,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$usesFoldingConditionSingleRoleHandler_tvbvbm_a1f3a" />
-      <unit id="147976780035502419" at="1040,0,1091,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$nodeFactorySingleRoleHandler_tvbvbm_b11d0" />
-      <unit id="147976780035502419" at="1286,0,1338,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$addHintsSingleRoleHandler_tvbvbm_b41d0" />
-      <unit id="147976780035502419" at="1362,0,1414,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$removeHintsSingleRoleHandler_tvbvbm_b51d0" />
-      <unit id="147976780035502419" at="179,0,233,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$querySingleRoleHandler_tvbvbm_b0d0" />
-      <unit id="147976780035502419" at="922,0,976,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$separatorStyleSingleRoleHandler_tvbvbm_b9d0" />
-      <unit id="147976780035502419" at="1208,0,1262,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$elementMenuDescriptorSingleRoleHandler_tvbvbm_b31d0" />
-      <unit id="147976780035502419" at="767,0,855,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a$separatorTextQuerySingleRoleHandler_tvbvbm_c7d0" />
-      <unit id="147976780035502419" at="74,0,1445,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder_a" />
+      <unit id="147976780035502419" at="1430,0,1435,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$CONCEPTS" />
+      <unit id="147976780035524814" at="579,38,586,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$CellModel_QueryLinkList_usesFolding_cellMenu_tvbvbm_a0a1f3a$1" />
+      <unit id="147976780035524823" at="600,38,607,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$CellModel_QueryLinkList_generic_cellMenu_tvbvbm_b0a1f3a$1" />
+      <unit id="147976780035502419" at="255,42,263,5" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$1" />
+      <unit id="147976780035502419" at="1112,42,1120,5" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$2" />
+      <unit id="147976780035502419" at="1436,0,1444,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$PROPS" />
+      <unit id="147976780035502419" at="1415,0,1429,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$LINKS" />
+      <unit id="147976780035524814" at="573,0,594,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$CellModel_QueryLinkList_usesFolding_cellMenu_tvbvbm_a0a1f3a" />
+      <unit id="147976780035524823" at="594,0,618,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$CellModel_QueryLinkList_generic_cellMenu_tvbvbm_b0a1f3a" />
+      <unit id="147976780035524849" at="734,0,763,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$CellModel_QueryLinkList_generic_cellMenu_tvbvbm_a0b7d0" />
+      <unit id="147976780035524893" at="821,0,854,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$separatorTextQuerySingleRoleHandler_tvbvbm_c7d0$CellModel_QueryLinkList_generic_cellMenu_tvbvbm_a0c7d0" />
+      <unit id="147976780035583567" at="281,0,324,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$Inline_Builder0" />
+      <unit id="147976780035524944" at="1141,0,1184,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$Inline_Builder1" />
+      <unit id="147976780035502419" at="348,0,399,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$filterSingleRoleHandler_tvbvbm_b2d0" />
+      <unit id="147976780035502419" at="423,0,474,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$cellLayoutSingleRoleHandler_tvbvbm_b3d0" />
+      <unit id="147976780035502419" at="622,0,673,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$usesFoldingConditionSingleRoleHandler_tvbvbm_a1f3a" />
+      <unit id="147976780035502419" at="1040,0,1091,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$nodeFactorySingleRoleHandler_tvbvbm_b11d0" />
+      <unit id="147976780035502419" at="1286,0,1338,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$addHintsSingleRoleHandler_tvbvbm_b41d0" />
+      <unit id="147976780035502419" at="1362,0,1414,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$removeHintsSingleRoleHandler_tvbvbm_b51d0" />
+      <unit id="147976780035502419" at="179,0,233,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$querySingleRoleHandler_tvbvbm_b0d0" />
+      <unit id="147976780035502419" at="922,0,976,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$separatorStyleSingleRoleHandler_tvbvbm_b9d0" />
+      <unit id="147976780035502419" at="1208,0,1262,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$elementMenuDescriptorSingleRoleHandler_tvbvbm_b31d0" />
+      <unit id="147976780035502419" at="767,0,855,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder$separatorTextQuerySingleRoleHandler_tvbvbm_c7d0" />
+      <unit id="147976780035502419" at="74,0,1445,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLinkList_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:b64b11b6-7734-4b5f-812e-47396d726968(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.editor)/147976780035550105">
@@ -2152,12 +2152,12 @@
   </root>
   <root nodeRef="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:b64b11b6-7734-4b5f-812e-47396d726968(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.editor)/4299801941278904212">
     <file name="CellModel_QueryProperty_Editor.java">
-      <node id="4299801941278904212" at="11,79,12,89" concept="7" />
-      <node id="4299801941278904212" at="14,82,15,92" concept="7" />
+      <node id="4299801941278904212" at="11,79,12,87" concept="7" />
+      <node id="4299801941278904212" at="14,82,15,90" concept="7" />
       <node id="4299801941278904212" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4299801941278904212" at="14,0,17,0" concept="5" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4299801941278904212" at="11,79,12,89" />
-      <scope id="4299801941278904212" at="14,82,15,92" />
+      <scope id="4299801941278904212" at="11,79,12,87" />
+      <scope id="4299801941278904212" at="14,82,15,90" />
       <scope id="4299801941278904212" at="11,0,14,0">
         <var name="editorContext" id="4299801941278904212" />
         <var name="node" id="4299801941278904212" />
@@ -2168,8 +2168,8 @@
       </scope>
       <unit id="4299801941278904212" at="10,0,18,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryProperty_Editor" />
     </file>
-    <file name="CellModel_QueryProperty_EditorBuilder_a.java">
-      <node id="4299801941278904212" at="22,103,23,19" concept="10" />
+    <file name="CellModel_QueryProperty_EditorBuilder.java">
+      <node id="4299801941278904212" at="22,101,23,19" concept="10" />
       <node id="4299801941278904212" at="23,19,24,18" concept="2" />
       <node id="4299801941278904212" at="29,26,30,18" concept="7" />
       <node id="4299801941278904212" at="33,39,34,32" concept="7" />
@@ -2200,7 +2200,7 @@
       <node id="4299801941278904253" at="67,40,68,22" concept="7" />
       <node id="4299801941278904212" at="19,0,21,0" concept="3" trace="myNode" />
       <node id="4299801941278904212" at="33,0,36,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="4299801941278904212" at="22,0,26,0" concept="1" trace="CellModel_QueryProperty_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4299801941278904212" at="22,0,26,0" concept="1" trace="CellModel_QueryProperty_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4299801941278904212" at="27,0,32,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="4299801941278904247" at="47,0,54,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4299801941278904253" at="63,0,70,0" concept="5" trace="createComponent_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -2208,7 +2208,7 @@
       <node id="4299801941278904212" at="37,0,47,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="4299801941278904212" at="29,26,30,18" />
       <scope id="4299801941278904212" at="33,39,34,32" />
-      <scope id="4299801941278904212" at="22,103,24,18" />
+      <scope id="4299801941278904212" at="22,101,24,18" />
       <scope id="4299801941278904212" at="33,0,36,0" />
       <scope id="4299801941278904212" at="22,0,26,0">
         <var name="context" id="4299801941278904212" />
@@ -2234,10 +2234,10 @@
       </scope>
       <scope id="4299801941278904249" at="54,0,63,0" />
       <scope id="4299801941278904212" at="37,0,47,0" />
-      <unit id="4299801941278904212" at="18,0,71,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryProperty_EditorBuilder_a" />
+      <unit id="4299801941278904212" at="18,0,71,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryProperty_EditorBuilder" />
     </file>
-    <file name="CellModel_QueryProperty_InspectorBuilder_a.java">
-      <node id="4299801941278904212" at="33,106,34,19" concept="10" />
+    <file name="CellModel_QueryProperty_InspectorBuilder.java">
+      <node id="4299801941278904212" at="33,104,34,19" concept="10" />
       <node id="4299801941278904212" at="34,19,35,18" concept="2" />
       <node id="4299801941278904212" at="40,26,41,18" concept="7" />
       <node id="4299801941278904212" at="44,39,45,32" concept="7" />
@@ -2325,7 +2325,7 @@
       <node id="4299801941278904212" at="144,87,147,7" concept="4" />
       <node id="4299801941278904212" at="147,7,150,7" concept="4" />
       <node id="4299801941278904212" at="169,0,172,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="4299801941278904212" at="33,0,37,0" concept="1" trace="CellModel_QueryProperty_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4299801941278904212" at="33,0,37,0" concept="1" trace="CellModel_QueryProperty_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4299801941278906243" at="62,0,66,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4299801941278904212" at="115,0,119,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4299801941278904212" at="123,0,127,0" concept="1" trace="querySingleRoleHandler_5h7n7_b0d0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -2348,7 +2348,7 @@
       <scope id="4299801941278904212" at="148,42,149,46" />
       <scope id="4299801941278904212" at="165,17,166,42" />
       <scope id="4299801941278904212" at="169,40,170,26" />
-      <scope id="4299801941278904212" at="33,106,35,18" />
+      <scope id="4299801941278904212" at="33,104,35,18" />
       <scope id="4299801941278906243" at="62,42,64,22">
         <var name="editorCell" id="4299801941278906243" />
       </scope>
@@ -2420,9 +2420,9 @@
       </scope>
       <scope id="4299801941278904212" at="48,0,62,0" />
       <scope id="4299801941278904212" at="155,0,169,0" />
-      <unit id="4299801941278904212" at="174,0,177,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryProperty_InspectorBuilder_a$LINKS" />
-      <unit id="4299801941278904212" at="119,0,173,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryProperty_InspectorBuilder_a$querySingleRoleHandler_5h7n7_b0d0" />
-      <unit id="4299801941278904212" at="29,0,178,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryProperty_InspectorBuilder_a" />
+      <unit id="4299801941278904212" at="174,0,177,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryProperty_InspectorBuilder$LINKS" />
+      <unit id="4299801941278904212" at="119,0,173,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryProperty_InspectorBuilder$querySingleRoleHandler_5h7n7_b0d0" />
+      <unit id="4299801941278904212" at="29,0,178,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryProperty_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:b64b11b6-7734-4b5f-812e-47396d726968(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.editor)/4299801941278908485">
@@ -2557,17 +2557,17 @@
   </root>
   <root nodeRef="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:b64b11b6-7734-4b5f-812e-47396d726968(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.editor)/5380867182533013844">
     <file name="AbstractQueryListInlineEditorExpression_Editor.java">
-      <node id="5380867182533013844" at="11,79,12,105" concept="7" />
+      <node id="5380867182533013844" at="11,79,12,103" concept="7" />
       <node id="5380867182533013844" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5380867182533013844" at="11,79,12,105" />
+      <scope id="5380867182533013844" at="11,79,12,103" />
       <scope id="5380867182533013844" at="11,0,14,0">
         <var name="editorContext" id="5380867182533013844" />
         <var name="node" id="5380867182533013844" />
       </scope>
       <unit id="5380867182533013844" at="10,0,15,0" name="com.mbeddr.mpsutil.editor.querylist.editor.AbstractQueryListInlineEditorExpression_Editor" />
     </file>
-    <file name="AbstractQueryListInlineEditorExpression_EditorBuilder_a.java">
-      <node id="5380867182533013844" at="21,119,22,19" concept="10" />
+    <file name="AbstractQueryListInlineEditorExpression_EditorBuilder.java">
+      <node id="5380867182533013844" at="21,117,22,19" concept="10" />
       <node id="5380867182533013844" at="22,19,23,18" concept="2" />
       <node id="5380867182533013844" at="28,26,29,18" concept="7" />
       <node id="5380867182533013844" at="32,39,33,31" concept="7" />
@@ -2583,13 +2583,13 @@
       <node id="4591252177378839902" at="47,40,48,22" concept="7" />
       <node id="5380867182533013844" at="18,0,20,0" concept="3" trace="myNode" />
       <node id="5380867182533013844" at="32,0,35,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5380867182533013844" at="21,0,25,0" concept="1" trace="AbstractQueryListInlineEditorExpression_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5380867182533013844" at="21,0,25,0" concept="1" trace="AbstractQueryListInlineEditorExpression_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4591252177378839902" at="38,72,42,5" concept="4" />
       <node id="5380867182533013844" at="26,0,31,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="4591252177378839902" at="36,0,50,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="5380867182533013844" at="28,26,29,18" />
       <scope id="5380867182533013844" at="32,39,33,31" />
-      <scope id="5380867182533013844" at="21,119,23,18" />
+      <scope id="5380867182533013844" at="21,117,23,18" />
       <scope id="4591252177378839902" at="39,26,41,30" />
       <scope id="5380867182533013844" at="32,0,35,0" />
       <scope id="5380867182533013844" at="21,0,25,0">
@@ -2603,7 +2603,7 @@
         <var name="style" id="4591252177378839902" />
       </scope>
       <scope id="4591252177378839902" at="36,0,50,0" />
-      <unit id="5380867182533013844" at="17,0,51,0" name="com.mbeddr.mpsutil.editor.querylist.editor.AbstractQueryListInlineEditorExpression_EditorBuilder_a" />
+      <unit id="5380867182533013844" at="17,0,51,0" name="com.mbeddr.mpsutil.editor.querylist.editor.AbstractQueryListInlineEditorExpression_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:b64b11b6-7734-4b5f-812e-47396d726968(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.editor)/5380867182536362436">
@@ -2651,11 +2651,11 @@
   <root nodeRef="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:b64b11b6-7734-4b5f-812e-47396d726968(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.editor)/5899822706487856610">
     <file name="CellModelQueryList_FoldedCellComponent.java">
       <node id="5899822706487856610" at="15,47,16,35" concept="7" />
-      <node id="5899822706487856610" at="18,79,19,107" concept="7" />
+      <node id="5899822706487856610" at="18,79,19,105" concept="7" />
       <node id="5899822706487856610" at="18,0,21,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5899822706487856610" at="14,0,18,0" concept="5" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="5899822706487856610" at="15,47,16,35" />
-      <scope id="5899822706487856610" at="18,79,19,107" />
+      <scope id="5899822706487856610" at="18,79,19,105" />
       <scope id="5899822706487856610" at="18,0,21,0">
         <var name="editorContext" id="5899822706487856610" />
         <var name="node" id="5899822706487856610" />
@@ -2663,8 +2663,8 @@
       <scope id="5899822706487856610" at="14,0,18,0" />
       <unit id="5899822706487856610" at="13,0,22,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModelQueryList_FoldedCellComponent" />
     </file>
-    <file name="CellModelQueryList_FoldedCellComponent_ComponentBuilder_a.java">
-      <node id="5899822706487856610" at="31,121,32,19" concept="10" />
+    <file name="CellModelQueryList_FoldedCellComponent_ComponentBuilder.java">
+      <node id="5899822706487856610" at="31,119,32,19" concept="10" />
       <node id="5899822706487856610" at="32,19,33,18" concept="2" />
       <node id="5899822706487856610" at="38,26,39,18" concept="7" />
       <node id="5899822706487856610" at="42,39,43,32" concept="7" />
@@ -2714,7 +2714,7 @@
       <node id="5899822706487856610" at="94,87,97,7" concept="4" />
       <node id="5899822706487856610" at="97,7,100,7" concept="4" />
       <node id="5899822706487856610" at="119,0,122,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="5899822706487856610" at="31,0,35,0" concept="1" trace="CellModelQueryList_FoldedCellComponent_ComponentBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5899822706487856610" at="31,0,35,0" concept="1" trace="CellModelQueryList_FoldedCellComponent_ComponentBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5899822706487856610" at="65,0,69,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5899822706487856610" at="73,0,77,0" concept="1" trace="foldedCellModelSingleRoleHandler_hg2n59_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5899822706487856610" at="36,0,41,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2732,7 +2732,7 @@
       <scope id="5899822706487856610" at="98,42,99,56" />
       <scope id="5899822706487856610" at="115,17,116,42" />
       <scope id="5899822706487856610" at="119,40,120,25" />
-      <scope id="5899822706487856610" at="31,121,33,18" />
+      <scope id="5899822706487856610" at="31,119,33,18" />
       <scope id="5899822706487856610" at="65,40,67,33">
         <var name="provider" id="5899822706487856610" />
       </scope>
@@ -2780,19 +2780,19 @@
       </scope>
       <scope id="5899822706487856610" at="106,44,117,7" />
       <scope id="5899822706487856610" at="105,0,119,0" />
-      <unit id="5899822706487856610" at="124,0,127,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModelQueryList_FoldedCellComponent_ComponentBuilder_a$LINKS" />
-      <unit id="5899822706487856610" at="69,0,123,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModelQueryList_FoldedCellComponent_ComponentBuilder_a$foldedCellModelSingleRoleHandler_hg2n59_b0" />
-      <unit id="5899822706487856610" at="27,0,128,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModelQueryList_FoldedCellComponent_ComponentBuilder_a" />
+      <unit id="5899822706487856610" at="124,0,127,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModelQueryList_FoldedCellComponent_ComponentBuilder$LINKS" />
+      <unit id="5899822706487856610" at="69,0,123,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModelQueryList_FoldedCellComponent_ComponentBuilder$foldedCellModelSingleRoleHandler_hg2n59_b0" />
+      <unit id="5899822706487856610" at="27,0,128,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModelQueryList_FoldedCellComponent_ComponentBuilder" />
     </file>
   </root>
   <root nodeRef="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:b64b11b6-7734-4b5f-812e-47396d726968(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.editor)/6202678563380234235">
     <file name="CellModel_QueryList_Editor.java">
-      <node id="6202678563380234235" at="11,79,12,85" concept="7" />
-      <node id="6202678563380234235" at="14,82,15,88" concept="7" />
+      <node id="6202678563380234235" at="11,79,12,83" concept="7" />
+      <node id="6202678563380234235" at="14,82,15,86" concept="7" />
       <node id="6202678563380234235" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6202678563380234235" at="14,0,17,0" concept="5" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6202678563380234235" at="11,79,12,85" />
-      <scope id="6202678563380234235" at="14,82,15,88" />
+      <scope id="6202678563380234235" at="11,79,12,83" />
+      <scope id="6202678563380234235" at="14,82,15,86" />
       <scope id="6202678563380234235" at="11,0,14,0">
         <var name="editorContext" id="6202678563380234235" />
         <var name="node" id="6202678563380234235" />
@@ -2803,28 +2803,28 @@
       </scope>
       <unit id="6202678563380234235" at="10,0,18,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_Editor" />
     </file>
-    <file name="CellModel_QueryList_EditorBuilder_a.java">
-      <node id="6202678563380234235" at="45,99,46,19" concept="10" />
+    <file name="CellModel_QueryList_EditorBuilder.java">
+      <node id="6202678563380234235" at="45,97,46,19" concept="10" />
       <node id="6202678563380234235" at="46,19,47,18" concept="2" />
       <node id="6202678563380234235" at="52,26,53,18" concept="7" />
       <node id="6202678563380234235" at="56,39,57,33" concept="7" />
       <node id="6202678563380234235" at="60,44,61,40" concept="6" />
-      <node id="6202678563380234235" at="61,40,62,53" concept="2" />
-      <node id="6202678563380234235" at="62,53,63,33" concept="6" />
+      <node id="6202678563380234235" at="61,40,62,44" concept="2" />
+      <node id="6202678563380234235" at="62,44,63,33" concept="6" />
       <node id="6202678563380234235" at="64,31,65,41" concept="2" />
       <node id="6202678563380234235" at="66,12,67,40" concept="2" />
       <node id="6202678563380234235" at="68,5,69,72" concept="6" />
       <node id="6202678563380234235" at="70,26,71,27" concept="2" />
       <node id="6202678563380234235" at="71,27,72,30" concept="2" />
       <node id="6202678563380234235" at="73,5,74,22" concept="7" />
-      <node id="1237474042599" at="76,45,77,104" concept="7" />
+      <node id="1237474042599" at="76,36,77,104" concept="7" />
       <node id="6202678563380234235" at="79,44,80,40" concept="6" />
-      <node id="6202678563380234235" at="80,40,81,54" concept="2" />
-      <node id="6202678563380234235" at="81,54,82,33" concept="6" />
+      <node id="6202678563380234235" at="80,40,81,44" concept="2" />
+      <node id="6202678563380234235" at="81,44,82,33" concept="6" />
       <node id="6202678563380234235" at="83,31,84,40" concept="2" />
       <node id="6202678563380234235" at="85,12,86,40" concept="2" />
       <node id="6202678563380234235" at="87,5,88,22" concept="7" />
-      <node id="4534414946272015338" at="90,46,91,97" concept="7" />
+      <node id="4534414946272015338" at="90,36,91,97" concept="7" />
       <node id="6202678563380234235" at="93,43,94,120" concept="6" />
       <node id="6202678563380234235" at="94,120,95,50" concept="2" />
       <node id="6202678563380234235" at="95,50,96,34" concept="6" />
@@ -2833,10 +2833,10 @@
       <node id="6202678563380234235" at="98,40,99,35" concept="2" />
       <node id="1237473996292" at="99,35,100,51" concept="2" />
       <node id="1237473996295" at="100,51,101,51" concept="2" />
-      <node id="7723470090030238502" at="102,39,103,53" concept="2" />
+      <node id="7723470090030238502" at="102,27,103,53" concept="2" />
       <node id="1237473996301" at="104,5,105,51" concept="2" />
       <node id="6202678563380234235" at="105,51,106,22" concept="7" />
-      <node id="7723470090030249339" at="108,48,109,107" concept="7" />
+      <node id="7723470090030249339" at="108,36,109,107" concept="7" />
       <node id="6202678563380234235" at="111,43,112,122" concept="6" />
       <node id="6202678563380234235" at="112,122,113,51" concept="2" />
       <node id="6202678563380234235" at="113,51,114,34" concept="6" />
@@ -2969,10 +2969,10 @@
       <node id="4534414946272013729" at="332,40,333,50" concept="2" />
       <node id="5899822706487910170" at="333,50,334,48" concept="2" />
       <node id="5899822706487910225" at="334,48,335,51" concept="2" />
-      <node id="4534414946272013734" at="336,39,337,52" concept="2" />
+      <node id="4534414946272013734" at="336,27,337,52" concept="2" />
       <node id="4534414946272013741" at="338,5,339,50" concept="2" />
       <node id="6202678563380234235" at="339,50,340,22" concept="7" />
-      <node id="4534414946272013737" at="342,48,343,107" concept="7" />
+      <node id="4534414946272013737" at="342,36,343,107" concept="7" />
       <node id="4534414946272013729" at="345,42,346,124" concept="6" />
       <node id="4534414946272013729" at="346,124,347,34" concept="6" />
       <node id="4534414946272013729" at="347,34,348,53" concept="2" />
@@ -3059,10 +3059,10 @@
       <node id="5899822706488396883" at="506,185,507,50" concept="2" />
       <node id="5899822706487911225" at="507,50,508,48" concept="2" />
       <node id="5899822706487911421" at="508,48,509,49" concept="2" />
-      <node id="7723470090030872901" at="510,38,511,52" concept="2" />
+      <node id="7723470090030872901" at="510,27,511,52" concept="2" />
       <node id="1237474002641" at="512,5,513,50" concept="2" />
       <node id="6202678563380234235" at="513,50,514,22" concept="7" />
-      <node id="7723470090030966953" at="516,47,517,107" concept="7" />
+      <node id="7723470090030966953" at="516,36,517,107" concept="7" />
       <node id="6202678563380234235" at="519,42,520,124" concept="6" />
       <node id="6202678563380234235" at="520,124,521,34" concept="6" />
       <node id="6202678563380234235" at="521,34,522,53" concept="2" />
@@ -3125,10 +3125,10 @@
       <node id="6202678563380234235" at="435,0,437,0" concept="3" trace="myNode" />
       <node id="6202678563380234235" at="536,0,538,0" concept="3" trace="myNode" />
       <node id="6202678563380234235" at="56,0,59,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1237473994194" at="76,0,79,0" concept="5" trace="nodeCondition_8qn2in_a0#()Z" />
-      <node id="4534414946272011782" at="90,0,93,0" concept="5" trace="nodeCondition_8qn2in_a0a#()Z" />
+      <node id="1237473994194" at="76,0,79,0" concept="5" trace="nodeCondition0#()Z" />
+      <node id="4534414946272011782" at="90,0,93,0" concept="5" trace="nodeCondition1#()Z" />
       <node id="7723470090030238502" at="101,51,104,5" concept="4" />
-      <node id="7723470090030238506" at="108,0,111,0" concept="5" trace="nodeCondition_8qn2in_a2a0a#()Z" />
+      <node id="7723470090030238506" at="108,0,111,0" concept="5" trace="nodeCondition2#()Z" />
       <node id="6202678563380234235" at="177,87,180,7" concept="4" />
       <node id="6202678563380234235" at="180,7,183,7" concept="4" />
       <node id="6202678563380234235" at="202,0,205,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
@@ -3137,7 +3137,7 @@
       <node id="6202678563380234235" at="279,0,282,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="1237473996305" at="316,0,319,0" concept="5" trace="_StyleParameter_QueryFunction_8qn2in_a0d0a0#()Ljava/awt/Color;" />
       <node id="4534414946272013734" at="335,51,338,5" concept="4" />
-      <node id="4534414946272013735" at="342,0,345,0" concept="5" trace="nodeCondition_8qn2in_a3a0a#()Z" />
+      <node id="4534414946272013735" at="342,0,345,0" concept="5" trace="nodeCondition3#()Z" />
       <node id="6202678563380234235" at="382,87,385,7" concept="4" />
       <node id="6202678563380234235" at="385,7,388,7" concept="4" />
       <node id="6202678563380234235" at="407,0,410,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
@@ -3145,14 +3145,14 @@
       <node id="6202678563380234235" at="462,7,465,7" concept="4" />
       <node id="6202678563380234235" at="484,0,487,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="7723470090030872901" at="509,49,512,5" concept="4" />
-      <node id="7723470090030966951" at="516,0,519,0" concept="5" trace="nodeCondition_8qn2in_a3a0#()Z" />
+      <node id="7723470090030966951" at="516,0,519,0" concept="5" trace="nodeCondition4#()Z" />
       <node id="5899822706488396885" at="528,0,531,0" concept="5" trace="_StyleParameter_QueryFunction_8qn2in_a0a0a#()Z" />
       <node id="6202678563380234235" at="560,87,563,7" concept="4" />
       <node id="6202678563380234235" at="563,7,566,7" concept="4" />
       <node id="6202678563380234235" at="585,0,588,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="1237474002644" at="612,0,615,0" concept="5" trace="_StyleParameter_QueryFunction_8qn2in_a0e0a#()Z" />
       <node id="1237474002651" at="615,0,618,0" concept="5" trace="_StyleParameter_QueryFunction_8qn2in_a1e0a#()Z" />
-      <node id="6202678563380234235" at="45,0,49,0" concept="1" trace="CellModel_QueryList_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6202678563380234235" at="45,0,49,0" concept="1" trace="CellModel_QueryList_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6202678563380234235" at="69,72,73,5" concept="4" />
       <node id="6202678563380234235" at="148,0,152,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6202678563380234235" at="156,0,160,0" concept="1" trace="editorComponentSingleRoleHandler_8qn2in_b1a0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -3221,12 +3221,12 @@
       <scope id="6202678563380234235" at="56,39,57,33" />
       <scope id="6202678563380234235" at="64,31,65,41" />
       <scope id="6202678563380234235" at="66,12,67,40" />
-      <scope id="1237473994195" at="76,45,77,104" />
+      <scope id="1237473994195" at="76,36,77,104" />
       <scope id="6202678563380234235" at="83,31,84,40" />
       <scope id="6202678563380234235" at="85,12,86,40" />
-      <scope id="4534414946272011783" at="90,46,91,97" />
-      <scope id="7723470090030238502" at="102,39,103,53" />
-      <scope id="7723470090030238507" at="108,48,109,107" />
+      <scope id="4534414946272011783" at="90,36,91,97" />
+      <scope id="7723470090030238502" at="102,27,103,53" />
+      <scope id="7723470090030238507" at="108,36,109,107" />
       <scope id="6202678563380234235" at="163,28,164,20" />
       <scope id="6202678563380234235" at="178,118,179,137" />
       <scope id="6202678563380234235" at="181,42,182,56" />
@@ -3238,8 +3238,8 @@
       <scope id="6202678563380234235" at="275,17,276,42" />
       <scope id="6202678563380234235" at="279,40,280,25" />
       <scope id="1237473996306" at="316,63,317,54" />
-      <scope id="4534414946272013734" at="336,39,337,52" />
-      <scope id="4534414946272013736" at="342,48,343,107" />
+      <scope id="4534414946272013734" at="336,27,337,52" />
+      <scope id="4534414946272013736" at="342,36,343,107" />
       <scope id="6202678563380234235" at="368,28,369,20" />
       <scope id="6202678563380234235" at="383,118,384,137" />
       <scope id="6202678563380234235" at="386,42,387,56" />
@@ -3250,8 +3250,8 @@
       <scope id="6202678563380234235" at="463,42,464,55" />
       <scope id="6202678563380234235" at="480,17,481,42" />
       <scope id="6202678563380234235" at="484,40,485,25" />
-      <scope id="7723470090030872901" at="510,38,511,52" />
-      <scope id="7723470090030966952" at="516,47,517,107" />
+      <scope id="7723470090030872901" at="510,27,511,52" />
+      <scope id="7723470090030966952" at="516,36,517,107" />
       <scope id="5899822706488396886" at="528,64,529,106" />
       <scope id="6202678563380234235" at="546,28,547,20" />
       <scope id="6202678563380234235" at="561,118,562,137" />
@@ -3260,7 +3260,7 @@
       <scope id="6202678563380234235" at="585,40,586,22" />
       <scope id="1237474002645" at="612,64,613,106" />
       <scope id="1237474002652" at="615,64,616,106" />
-      <scope id="6202678563380234235" at="45,99,47,18" />
+      <scope id="6202678563380234235" at="45,97,47,18" />
       <scope id="6202678563380234235" at="70,26,72,30" />
       <scope id="6202678563380234235" at="148,40,150,33">
         <var name="provider" id="6202678563380234235" />
@@ -3555,16 +3555,16 @@
       <scope id="6202678563380234235" at="327,0,342,0" />
       <scope id="6202678563380234235" at="60,0,76,0" />
       <scope id="6202678563380234235" at="500,0,516,0" />
-      <unit id="6202678563380234235" at="619,0,623,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder_a$LINKS" />
-      <unit id="6202678563380234235" at="152,0,206,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder_a$editorComponentSingleRoleHandler_8qn2in_b1a0a" />
-      <unit id="6202678563380234235" at="229,0,283,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder_a$emptyCellModelSingleRoleHandler_8qn2in_b2b0a0" />
-      <unit id="6202678563380234235" at="357,0,411,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder_a$editorComponentSingleRoleHandler_8qn2in_b0a0" />
-      <unit id="6202678563380234235" at="434,0,488,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder_a$emptyCellModelSingleRoleHandler_8qn2in_b2a0a" />
-      <unit id="6202678563380234235" at="535,0,589,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder_a$editorComponentSingleRoleHandler_8qn2in_b0a" />
-      <unit id="6202678563380234235" at="41,0,624,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder_a" />
+      <unit id="6202678563380234235" at="619,0,623,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder$LINKS" />
+      <unit id="6202678563380234235" at="152,0,206,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder$editorComponentSingleRoleHandler_8qn2in_b1a0a" />
+      <unit id="6202678563380234235" at="229,0,283,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder$emptyCellModelSingleRoleHandler_8qn2in_b2b0a0" />
+      <unit id="6202678563380234235" at="357,0,411,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder$editorComponentSingleRoleHandler_8qn2in_b0a0" />
+      <unit id="6202678563380234235" at="434,0,488,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder$emptyCellModelSingleRoleHandler_8qn2in_b2a0a" />
+      <unit id="6202678563380234235" at="535,0,589,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder$editorComponentSingleRoleHandler_8qn2in_b0a" />
+      <unit id="6202678563380234235" at="41,0,624,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_EditorBuilder" />
     </file>
-    <file name="CellModel_QueryList_InspectorBuilder_a.java">
-      <node id="6202678563380234235" at="83,102,84,19" concept="10" />
+    <file name="CellModel_QueryList_InspectorBuilder.java">
+      <node id="6202678563380234235" at="83,100,84,19" concept="10" />
       <node id="6202678563380234235" at="84,19,85,18" concept="2" />
       <node id="6202678563380234235" at="90,26,91,18" concept="7" />
       <node id="6202678563380234235" at="94,39,95,32" concept="7" />
@@ -4060,15 +4060,15 @@
       <node id="1214477638562" at="884,40,885,34" concept="2" />
       <node id="1214477638562" at="885,34,886,22" concept="7" />
       <node id="6202678563380234235" at="888,44,889,40" concept="6" />
-      <node id="6202678563380234235" at="889,40,890,56" concept="2" />
-      <node id="6202678563380234235" at="890,56,891,33" concept="6" />
+      <node id="6202678563380234235" at="889,40,890,44" concept="2" />
+      <node id="6202678563380234235" at="890,44,891,33" concept="6" />
       <node id="6202678563380234235" at="892,31,893,38" concept="2" />
       <node id="6202678563380234235" at="894,12,895,37" concept="2" />
       <node id="6202678563380234235" at="896,5,897,34" concept="6" />
       <node id="4601216887035995274" at="897,34,898,49" concept="2" />
       <node id="6202678563380234235" at="898,49,899,40" concept="2" />
       <node id="6202678563380234235" at="899,40,900,22" concept="7" />
-      <node id="4601216887035995275" at="902,48,903,88" concept="7" />
+      <node id="4601216887035995275" at="902,36,903,88" concept="7" />
       <node id="6202678563380234235" at="905,41,906,39" concept="2" />
       <node id="6202678563380234235" at="907,9,908,56" concept="6" />
       <node id="6202678563380234235" at="908,56,909,76" concept="2" />
@@ -4130,12 +4130,12 @@
       <node id="6240706158490161777" at="1042,40,1043,34" concept="2" />
       <node id="6240706158490161777" at="1043,34,1044,22" concept="7" />
       <node id="6202678563380234235" at="1046,44,1047,40" concept="6" />
-      <node id="6202678563380234235" at="1047,40,1048,56" concept="2" />
-      <node id="6202678563380234235" at="1048,56,1049,33" concept="6" />
+      <node id="6202678563380234235" at="1047,40,1048,44" concept="2" />
+      <node id="6202678563380234235" at="1048,44,1049,33" concept="6" />
       <node id="6202678563380234235" at="1050,31,1051,38" concept="2" />
       <node id="6202678563380234235" at="1052,12,1053,37" concept="2" />
       <node id="6202678563380234235" at="1054,5,1055,22" concept="7" />
-      <node id="6240706158490161781" at="1057,48,1058,94" concept="7" />
+      <node id="6240706158490161781" at="1057,36,1058,94" concept="7" />
       <node id="6202678563380234235" at="1060,41,1061,39" concept="2" />
       <node id="6202678563380234235" at="1062,9,1063,62" concept="6" />
       <node id="6202678563380234235" at="1063,62,1064,76" concept="2" />
@@ -4197,12 +4197,12 @@
       <node id="1037264524327241130" at="1197,40,1198,34" concept="2" />
       <node id="1037264524327241130" at="1198,34,1199,22" concept="7" />
       <node id="6202678563380234235" at="1201,44,1202,40" concept="6" />
-      <node id="6202678563380234235" at="1202,40,1203,56" concept="2" />
-      <node id="6202678563380234235" at="1203,56,1204,33" concept="6" />
+      <node id="6202678563380234235" at="1202,40,1203,44" concept="2" />
+      <node id="6202678563380234235" at="1203,44,1204,33" concept="6" />
       <node id="6202678563380234235" at="1205,31,1206,38" concept="2" />
       <node id="6202678563380234235" at="1207,12,1208,37" concept="2" />
       <node id="6202678563380234235" at="1209,5,1210,22" concept="7" />
-      <node id="1037264524327241134" at="1212,48,1213,97" concept="7" />
+      <node id="1037264524327241134" at="1212,36,1213,97" concept="7" />
       <node id="6202678563380234235" at="1215,41,1216,39" concept="2" />
       <node id="6202678563380234235" at="1217,9,1218,65" concept="6" />
       <node id="6202678563380234235" at="1218,65,1219,76" concept="2" />
@@ -4265,10 +4265,10 @@
       <node id="1214477655577" at="1355,49,1356,49" concept="2" />
       <node id="6202678563380234235" at="1356,49,1357,40" concept="2" />
       <node id="1214477655569" at="1357,40,1358,50" concept="2" />
-      <node id="1214477655572" at="1359,39,1360,51" concept="2" />
+      <node id="1214477655572" at="1359,27,1360,51" concept="2" />
       <node id="928328222692015529" at="1361,5,1362,48" concept="2" />
       <node id="6202678563380234235" at="1362,48,1363,22" concept="7" />
-      <node id="928328222692015058" at="1365,48,1366,84" concept="7" />
+      <node id="928328222692015058" at="1365,36,1366,84" concept="7" />
       <node id="1214477655569" at="1368,42,1369,102" concept="6" />
       <node id="1214477655569" at="1369,102,1370,47" concept="2" />
       <node id="1214477655569" at="1370,47,1371,34" concept="6" />
@@ -4576,21 +4576,21 @@
       <node id="6202678563380234235" at="801,87,804,7" concept="4" />
       <node id="6202678563380234235" at="804,7,807,7" concept="4" />
       <node id="6202678563380234235" at="823,0,826,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="4601216887035995271" at="902,0,905,0" concept="5" trace="nodeCondition_8qn2in_a1i8a#()Z" />
+      <node id="4601216887035995271" at="902,0,905,0" concept="5" trace="nodeCondition0#()Z" />
       <node id="4601216887035995290" at="943,0,946,0" concept="5" trace="getPropertyValues#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/List;" />
       <node id="4601216887035995299" at="964,0,967,0" concept="5" trace="handleAction#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="4601216887035995299" at="967,0,970,0" concept="5" trace="getMatchingText#()Ljava/lang/String;" />
       <node id="6202678563380234235" at="1000,87,1003,7" concept="4" />
       <node id="6202678563380234235" at="1003,7,1006,7" concept="4" />
       <node id="6202678563380234235" at="1022,0,1025,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="6240706158490161779" at="1057,0,1060,0" concept="5" trace="nodeCondition_8qn2in_a1j8a#()Z" />
+      <node id="6240706158490161779" at="1057,0,1060,0" concept="5" trace="nodeCondition1#()Z" />
       <node id="6240706158490161789" at="1098,0,1101,0" concept="5" trace="getPropertyValues#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/List;" />
       <node id="6240706158490161798" at="1119,0,1122,0" concept="5" trace="handleAction#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6240706158490161798" at="1122,0,1125,0" concept="5" trace="getMatchingText#()Ljava/lang/String;" />
       <node id="6202678563380234235" at="1155,87,1158,7" concept="4" />
       <node id="6202678563380234235" at="1158,7,1161,7" concept="4" />
       <node id="6202678563380234235" at="1177,0,1180,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="1037264524327241132" at="1212,0,1215,0" concept="5" trace="nodeCondition_8qn2in_a1k8a#()Z" />
+      <node id="1037264524327241132" at="1212,0,1215,0" concept="5" trace="nodeCondition2#()Z" />
       <node id="1037264524327241142" at="1253,0,1256,0" concept="5" trace="getPropertyValues#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/List;" />
       <node id="1037264524327241151" at="1274,0,1277,0" concept="5" trace="handleAction#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1037264524327241151" at="1277,0,1280,0" concept="5" trace="getMatchingText#()Ljava/lang/String;" />
@@ -4598,7 +4598,7 @@
       <node id="6202678563380234235" at="1313,7,1316,7" concept="4" />
       <node id="6202678563380234235" at="1332,0,1335,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="1214477655572" at="1358,50,1361,5" concept="4" />
-      <node id="928328222691997953" at="1365,0,1368,0" concept="5" trace="nodeCondition_8qn2in_a1n8a#()Z" />
+      <node id="928328222691997953" at="1365,0,1368,0" concept="5" trace="nodeCondition3#()Z" />
       <node id="4231890441199624608" at="1413,0,1416,0" concept="5" trace="handleAction#(Ljava/lang/Object;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="4231890441199624608" at="1416,0,1419,0" concept="5" trace="handleAction_impl#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="4231890441199624608" at="1419,0,1422,0" concept="5" trace="isReferentPresentation#()Z" />
@@ -4614,7 +4614,7 @@
       <node id="6202678563380234235" at="1787,87,1790,7" concept="4" />
       <node id="6202678563380234235" at="1790,7,1793,7" concept="4" />
       <node id="6202678563380234235" at="1812,0,1815,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="6202678563380234235" at="83,0,87,0" concept="1" trace="CellModel_QueryList_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6202678563380234235" at="83,0,87,0" concept="1" trace="CellModel_QueryList_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1214306591383" at="117,0,121,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6202678563380234235" at="340,0,344,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6202678563380234235" at="348,0,352,0" concept="1" trace="querySingleRoleHandler_8qn2in_b0i0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -4871,7 +4871,7 @@
       <scope id="1214477638557" at="864,15,865,40" />
       <scope id="6202678563380234235" at="892,31,893,38" />
       <scope id="6202678563380234235" at="894,12,895,37" />
-      <scope id="4601216887035995272" at="902,48,903,88" />
+      <scope id="4601216887035995272" at="902,36,903,88" />
       <scope id="6202678563380234235" at="922,15,923,40" />
       <scope id="4601216887035995290" at="943,87,944,85" />
       <scope id="4601216887035995299" at="964,88,965,86" />
@@ -4883,7 +4883,7 @@
       <scope id="6202678563380234235" at="1022,40,1023,41" />
       <scope id="6202678563380234235" at="1050,31,1051,38" />
       <scope id="6202678563380234235" at="1052,12,1053,37" />
-      <scope id="6240706158490161780" at="1057,48,1058,94" />
+      <scope id="6240706158490161780" at="1057,36,1058,94" />
       <scope id="6202678563380234235" at="1077,15,1078,40" />
       <scope id="6240706158490161789" at="1098,87,1099,85" />
       <scope id="6240706158490161798" at="1119,88,1120,92" />
@@ -4895,7 +4895,7 @@
       <scope id="6202678563380234235" at="1177,40,1178,47" />
       <scope id="6202678563380234235" at="1205,31,1206,38" />
       <scope id="6202678563380234235" at="1207,12,1208,37" />
-      <scope id="1037264524327241133" at="1212,48,1213,97" />
+      <scope id="1037264524327241133" at="1212,36,1213,97" />
       <scope id="6202678563380234235" at="1232,15,1233,40" />
       <scope id="1037264524327241142" at="1253,87,1254,85" />
       <scope id="1037264524327241151" at="1274,88,1275,95" />
@@ -4905,8 +4905,8 @@
       <scope id="6202678563380234235" at="1314,42,1315,70" />
       <scope id="6202678563380234235" at="1328,17,1329,42" />
       <scope id="6202678563380234235" at="1332,40,1333,50" />
-      <scope id="1214477655572" at="1359,39,1360,51" />
-      <scope id="928328222691997954" at="1365,48,1366,84" />
+      <scope id="1214477655572" at="1359,27,1360,51" />
+      <scope id="928328222691997954" at="1365,36,1366,84" />
       <scope id="6202678563380234235" at="1399,15,1400,40" />
       <scope id="4231890441199624608" at="1413,112,1414,82" />
       <scope id="4231890441199624608" at="1416,114,1417,86" />
@@ -4934,7 +4934,7 @@
       <scope id="6202678563380234235" at="1791,42,1792,62" />
       <scope id="6202678563380234235" at="1808,17,1809,42" />
       <scope id="6202678563380234235" at="1812,40,1813,25" />
-      <scope id="6202678563380234235" at="83,102,85,18" />
+      <scope id="6202678563380234235" at="83,100,85,18" />
       <scope id="1214306591383" at="117,42,119,22">
         <var name="editorCell" id="1214306591383" />
       </scope>
@@ -5880,49 +5880,49 @@
         <var name="style" id="6202678563380234235" />
       </scope>
       <scope id="6202678563380234235" at="1664,0,1695,0" />
-      <unit id="6202678563380234235" at="1833,0,1838,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CONCEPTS" />
-      <unit id="4601216887035995290" at="932,38,939,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CellModel_QueryList_usesFolding_cellMenu_8qn2in_a0a1i8a$1" />
-      <unit id="4601216887035995299" at="953,38,960,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CellModel_QueryList_generic_cellMenu_8qn2in_b0a1i8a$1" />
-      <unit id="6240706158490161789" at="1087,38,1094,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CellModel_QueryList_collapseByDefault_cellMenu_8qn2in_a0a1j8a$1" />
-      <unit id="6240706158490161798" at="1108,38,1115,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CellModel_QueryList_generic_cellMenu_8qn2in_b0a1j8a$1" />
-      <unit id="1037264524327241142" at="1242,38,1249,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CellModel_QueryList_disableModelChecking_cellMenu_8qn2in_a0a1k8a$1" />
-      <unit id="1037264524327241151" at="1263,38,1270,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CellModel_QueryList_generic_cellMenu_8qn2in_b0a1k8a$1" />
-      <unit id="6202678563380234235" at="417,42,425,5" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$1" />
-      <unit id="6202678563380234235" at="1666,42,1674,5" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$2" />
-      <unit id="6202678563380234235" at="1839,0,1849,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$PROPS" />
-      <unit id="6202678563380234235" at="1817,0,1832,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$LINKS" />
-      <unit id="4601216887035995290" at="926,0,947,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CellModel_QueryList_usesFolding_cellMenu_8qn2in_a0a1i8a" />
-      <unit id="6240706158490161789" at="1081,0,1102,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CellModel_QueryList_collapseByDefault_cellMenu_8qn2in_a0a1j8a" />
-      <unit id="1037264524327241142" at="1236,0,1257,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CellModel_QueryList_disableModelChecking_cellMenu_8qn2in_a0a1k8a" />
-      <unit id="4601216887035995299" at="947,0,971,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CellModel_QueryList_generic_cellMenu_8qn2in_b0a1i8a" />
-      <unit id="6240706158490161798" at="1102,0,1126,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CellModel_QueryList_generic_cellMenu_8qn2in_b0a1j8a" />
-      <unit id="1037264524327241151" at="1257,0,1281,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CellModel_QueryList_generic_cellMenu_8qn2in_b0a1k8a" />
-      <unit id="4231890441199624608" at="1403,0,1432,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$CellModel_QueryList_generic_cellMenu_8qn2in_a0b31i0" />
-      <unit id="4231890441200471058" at="1490,0,1523,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$separatorTextQuerySingleRoleHandler_8qn2in_c31i0$CellModel_QueryList_generic_cellMenu_8qn2in_a0c31i0" />
-      <unit id="730823979350774579" at="443,0,486,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$Inline_Builder0" />
-      <unit id="1214477655600" at="1695,0,1738,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$Inline_Builder1" />
-      <unit id="6202678563380234235" at="344,0,395,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$querySingleRoleHandler_8qn2in_b0i0" />
-      <unit id="6202678563380234235" at="551,0,602,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$insertNewNodeSingleRoleHandler_8qn2in_b3i0" />
-      <unit id="6202678563380234235" at="626,0,677,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$deleteNodeSingleRoleHandler_8qn2in_b4i0" />
-      <unit id="6202678563380234235" at="701,0,752,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$getSubstituteInfoSingleRoleHandler_8qn2in_b5i0" />
-      <unit id="6202678563380234235" at="776,0,827,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$cellLayoutSingleRoleHandler_8qn2in_b6i0" />
-      <unit id="6202678563380234235" at="975,0,1026,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$usesFoldingConditionSingleRoleHandler_8qn2in_a1i8a" />
-      <unit id="6202678563380234235" at="1130,0,1181,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$collapseByDefaultConditionSingleRoleHandler_8qn2in_a1j8a" />
-      <unit id="6202678563380234235" at="1285,0,1336,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$disableModelCheckingConditionSingleRoleHandler_8qn2in_a1k8a" />
-      <unit id="6202678563380234235" at="1591,0,1645,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$separatorStyleSingleRoleHandler_8qn2in_b51i0" />
-      <unit id="6202678563380234235" at="1762,0,1816,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$elementMenuDescriptorSingleRoleHandler_8qn2in_b71i0" />
-      <unit id="6202678563380234235" at="1436,0,1524,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a$separatorTextQuerySingleRoleHandler_8qn2in_c31i0" />
-      <unit id="6202678563380234235" at="79,0,1850,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder_a" />
+      <unit id="6202678563380234235" at="1833,0,1838,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CONCEPTS" />
+      <unit id="4601216887035995290" at="932,38,939,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CellModel_QueryList_usesFolding_cellMenu_8qn2in_a0a1i8a$1" />
+      <unit id="4601216887035995299" at="953,38,960,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CellModel_QueryList_generic_cellMenu_8qn2in_b0a1i8a$1" />
+      <unit id="6240706158490161789" at="1087,38,1094,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CellModel_QueryList_collapseByDefault_cellMenu_8qn2in_a0a1j8a$1" />
+      <unit id="6240706158490161798" at="1108,38,1115,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CellModel_QueryList_generic_cellMenu_8qn2in_b0a1j8a$1" />
+      <unit id="1037264524327241142" at="1242,38,1249,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CellModel_QueryList_disableModelChecking_cellMenu_8qn2in_a0a1k8a$1" />
+      <unit id="1037264524327241151" at="1263,38,1270,9" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CellModel_QueryList_generic_cellMenu_8qn2in_b0a1k8a$1" />
+      <unit id="6202678563380234235" at="417,42,425,5" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$1" />
+      <unit id="6202678563380234235" at="1666,42,1674,5" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$2" />
+      <unit id="6202678563380234235" at="1839,0,1849,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$PROPS" />
+      <unit id="6202678563380234235" at="1817,0,1832,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$LINKS" />
+      <unit id="4601216887035995290" at="926,0,947,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CellModel_QueryList_usesFolding_cellMenu_8qn2in_a0a1i8a" />
+      <unit id="6240706158490161789" at="1081,0,1102,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CellModel_QueryList_collapseByDefault_cellMenu_8qn2in_a0a1j8a" />
+      <unit id="1037264524327241142" at="1236,0,1257,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CellModel_QueryList_disableModelChecking_cellMenu_8qn2in_a0a1k8a" />
+      <unit id="4601216887035995299" at="947,0,971,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CellModel_QueryList_generic_cellMenu_8qn2in_b0a1i8a" />
+      <unit id="6240706158490161798" at="1102,0,1126,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CellModel_QueryList_generic_cellMenu_8qn2in_b0a1j8a" />
+      <unit id="1037264524327241151" at="1257,0,1281,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CellModel_QueryList_generic_cellMenu_8qn2in_b0a1k8a" />
+      <unit id="4231890441199624608" at="1403,0,1432,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$CellModel_QueryList_generic_cellMenu_8qn2in_a0b31i0" />
+      <unit id="4231890441200471058" at="1490,0,1523,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$separatorTextQuerySingleRoleHandler_8qn2in_c31i0$CellModel_QueryList_generic_cellMenu_8qn2in_a0c31i0" />
+      <unit id="730823979350774579" at="443,0,486,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$Inline_Builder0" />
+      <unit id="1214477655600" at="1695,0,1738,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$Inline_Builder1" />
+      <unit id="6202678563380234235" at="344,0,395,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$querySingleRoleHandler_8qn2in_b0i0" />
+      <unit id="6202678563380234235" at="551,0,602,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$insertNewNodeSingleRoleHandler_8qn2in_b3i0" />
+      <unit id="6202678563380234235" at="626,0,677,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$deleteNodeSingleRoleHandler_8qn2in_b4i0" />
+      <unit id="6202678563380234235" at="701,0,752,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$getSubstituteInfoSingleRoleHandler_8qn2in_b5i0" />
+      <unit id="6202678563380234235" at="776,0,827,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$cellLayoutSingleRoleHandler_8qn2in_b6i0" />
+      <unit id="6202678563380234235" at="975,0,1026,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$usesFoldingConditionSingleRoleHandler_8qn2in_a1i8a" />
+      <unit id="6202678563380234235" at="1130,0,1181,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$collapseByDefaultConditionSingleRoleHandler_8qn2in_a1j8a" />
+      <unit id="6202678563380234235" at="1285,0,1336,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$disableModelCheckingConditionSingleRoleHandler_8qn2in_a1k8a" />
+      <unit id="6202678563380234235" at="1591,0,1645,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$separatorStyleSingleRoleHandler_8qn2in_b51i0" />
+      <unit id="6202678563380234235" at="1762,0,1816,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$elementMenuDescriptorSingleRoleHandler_8qn2in_b71i0" />
+      <unit id="6202678563380234235" at="1436,0,1524,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder$separatorTextQuerySingleRoleHandler_8qn2in_c31i0" />
+      <unit id="6202678563380234235" at="79,0,1850,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryList_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:b64b11b6-7734-4b5f-812e-47396d726968(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.editor)/7908147594175697844">
     <file name="CellModel_DefaultEditor_Editor.java">
-      <node id="7908147594175697844" at="11,79,12,89" concept="7" />
-      <node id="7908147594175697844" at="14,82,15,92" concept="7" />
+      <node id="7908147594175697844" at="11,79,12,87" concept="7" />
+      <node id="7908147594175697844" at="14,82,15,90" concept="7" />
       <node id="7908147594175697844" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7908147594175697844" at="14,0,17,0" concept="5" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7908147594175697844" at="11,79,12,89" />
-      <scope id="7908147594175697844" at="14,82,15,92" />
+      <scope id="7908147594175697844" at="11,79,12,87" />
+      <scope id="7908147594175697844" at="14,82,15,90" />
       <scope id="7908147594175697844" at="11,0,14,0">
         <var name="editorContext" id="7908147594175697844" />
         <var name="node" id="7908147594175697844" />
@@ -5933,8 +5933,8 @@
       </scope>
       <unit id="7908147594175697844" at="10,0,18,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_DefaultEditor_Editor" />
     </file>
-    <file name="CellModel_DefaultEditor_EditorBuilder_a.java">
-      <node id="7908147594175697844" at="24,103,25,19" concept="10" />
+    <file name="CellModel_DefaultEditor_EditorBuilder.java">
+      <node id="7908147594175697844" at="24,101,25,19" concept="10" />
       <node id="7908147594175697844" at="25,19,26,18" concept="2" />
       <node id="7908147594175697844" at="31,26,32,18" concept="7" />
       <node id="7908147594175697844" at="35,39,36,32" concept="7" />
@@ -5976,7 +5976,7 @@
       <node id="1149850835049" at="80,34,81,22" concept="7" />
       <node id="7908147594175697844" at="21,0,23,0" concept="3" trace="myNode" />
       <node id="7908147594175697844" at="35,0,38,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="7908147594175697844" at="24,0,28,0" concept="1" trace="CellModel_DefaultEditor_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7908147594175697844" at="24,0,28,0" concept="1" trace="CellModel_DefaultEditor_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7908147594175697844" at="29,0,34,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1149850835048" at="63,0,72,0" concept="5" trace="createConstant_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1149850835047" at="52,0,63,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -5984,7 +5984,7 @@
       <node id="7908147594175697844" at="39,0,52,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="7908147594175697844" at="31,26,32,18" />
       <scope id="7908147594175697844" at="35,39,36,32" />
-      <scope id="7908147594175697844" at="24,103,26,18" />
+      <scope id="7908147594175697844" at="24,101,26,18" />
       <scope id="7908147594175697844" at="35,0,38,0" />
       <scope id="7908147594175697844" at="24,0,28,0">
         <var name="context" id="7908147594175697844" />
@@ -6011,10 +6011,10 @@
       <scope id="1149850835047" at="52,0,63,0" />
       <scope id="1149850835049" at="72,0,83,0" />
       <scope id="7908147594175697844" at="39,0,52,0" />
-      <unit id="7908147594175697844" at="20,0,84,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_DefaultEditor_EditorBuilder_a" />
+      <unit id="7908147594175697844" at="20,0,84,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_DefaultEditor_EditorBuilder" />
     </file>
-    <file name="CellModel_DefaultEditor_InspectorBuilder_a.java">
-      <node id="7908147594175697844" at="20,106,21,19" concept="10" />
+    <file name="CellModel_DefaultEditor_InspectorBuilder.java">
+      <node id="7908147594175697844" at="20,104,21,19" concept="10" />
       <node id="7908147594175697844" at="21,19,22,18" concept="2" />
       <node id="7908147594175697844" at="27,26,28,18" concept="7" />
       <node id="7908147594175697844" at="31,39,32,32" concept="7" />
@@ -6031,13 +6031,13 @@
       <node id="1214478723481" at="47,133,48,22" concept="7" />
       <node id="7908147594175697844" at="17,0,19,0" concept="3" trace="myNode" />
       <node id="7908147594175697844" at="31,0,34,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="7908147594175697844" at="20,0,24,0" concept="1" trace="CellModel_DefaultEditor_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7908147594175697844" at="20,0,24,0" concept="1" trace="CellModel_DefaultEditor_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1214478723481" at="46,0,50,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7908147594175697844" at="25,0,30,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7908147594175697844" at="35,0,46,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="7908147594175697844" at="27,26,28,18" />
       <scope id="7908147594175697844" at="31,39,32,32" />
-      <scope id="7908147594175697844" at="20,106,22,18" />
+      <scope id="7908147594175697844" at="20,104,22,18" />
       <scope id="1214478723481" at="46,42,48,22">
         <var name="editorCell" id="1214478723481" />
       </scope>
@@ -6053,7 +6053,7 @@
         <var name="style" id="7908147594175697844" />
       </scope>
       <scope id="7908147594175697844" at="35,0,46,0" />
-      <unit id="7908147594175697844" at="16,0,51,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_DefaultEditor_InspectorBuilder_a" />
+      <unit id="7908147594175697844" at="16,0,51,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_DefaultEditor_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:b64b11b6-7734-4b5f-812e-47396d726968(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.editor)/943947710603125422">
@@ -6127,12 +6127,12 @@
   </root>
   <root nodeRef="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:b64b11b6-7734-4b5f-812e-47396d726968(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.editor)/943947710603591592">
     <file name="CellModel_QueryLink_Editor.java">
-      <node id="943947710603591592" at="11,79,12,85" concept="7" />
-      <node id="943947710603591592" at="14,82,15,88" concept="7" />
+      <node id="943947710603591592" at="11,79,12,83" concept="7" />
+      <node id="943947710603591592" at="14,82,15,86" concept="7" />
       <node id="943947710603591592" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="943947710603591592" at="14,0,17,0" concept="5" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="943947710603591592" at="11,79,12,85" />
-      <scope id="943947710603591592" at="14,82,15,88" />
+      <scope id="943947710603591592" at="11,79,12,83" />
+      <scope id="943947710603591592" at="14,82,15,86" />
       <scope id="943947710603591592" at="11,0,14,0">
         <var name="editorContext" id="943947710603591592" />
         <var name="node" id="943947710603591592" />
@@ -6143,8 +6143,8 @@
       </scope>
       <unit id="943947710603591592" at="10,0,18,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_Editor" />
     </file>
-    <file name="CellModel_QueryLink_EditorBuilder_a.java">
-      <node id="943947710603591592" at="31,99,32,19" concept="10" />
+    <file name="CellModel_QueryLink_EditorBuilder.java">
+      <node id="943947710603591592" at="31,97,32,19" concept="10" />
       <node id="943947710603591592" at="32,19,33,18" concept="2" />
       <node id="943947710603591592" at="38,26,39,18" concept="7" />
       <node id="943947710603591592" at="42,39,43,32" concept="7" />
@@ -6205,7 +6205,7 @@
       <node id="943947710603591592" at="102,87,105,7" concept="4" />
       <node id="943947710603591592" at="105,7,108,7" concept="4" />
       <node id="943947710603591592" at="127,0,130,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="943947710603591592" at="31,0,35,0" concept="1" trace="CellModel_QueryLink_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="943947710603591592" at="31,0,35,0" concept="1" trace="CellModel_QueryLink_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="943947710603591592" at="73,0,77,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="943947710603591592" at="81,0,85,0" concept="1" trace="editorComponentSingleRoleHandler_osq1ox_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="943947710603591592" at="36,0,41,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -6225,7 +6225,7 @@
       <scope id="943947710603591592" at="106,42,107,56" />
       <scope id="943947710603591592" at="123,17,124,42" />
       <scope id="943947710603591592" at="127,40,128,22" />
-      <scope id="943947710603591592" at="31,99,33,18" />
+      <scope id="943947710603591592" at="31,97,33,18" />
       <scope id="943947710603591592" at="73,40,75,33">
         <var name="provider" id="943947710603591592" />
       </scope>
@@ -6282,12 +6282,12 @@
       </scope>
       <scope id="943947710603591592" at="114,44,125,7" />
       <scope id="943947710603591592" at="113,0,127,0" />
-      <unit id="943947710603591592" at="139,0,142,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_EditorBuilder_a$LINKS" />
-      <unit id="943947710603591592" at="77,0,131,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_EditorBuilder_a$editorComponentSingleRoleHandler_osq1ox_c0" />
-      <unit id="943947710603591592" at="27,0,143,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_EditorBuilder_a" />
+      <unit id="943947710603591592" at="139,0,142,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_EditorBuilder$LINKS" />
+      <unit id="943947710603591592" at="77,0,131,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_EditorBuilder$editorComponentSingleRoleHandler_osq1ox_c0" />
+      <unit id="943947710603591592" at="27,0,143,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_EditorBuilder" />
     </file>
-    <file name="CellModel_QueryLink_InspectorBuilder_a.java">
-      <node id="943947710603591592" at="51,102,52,19" concept="10" />
+    <file name="CellModel_QueryLink_InspectorBuilder.java">
+      <node id="943947710603591592" at="51,100,52,19" concept="10" />
       <node id="943947710603591592" at="52,19,53,18" concept="2" />
       <node id="943947710603591592" at="58,26,59,18" concept="7" />
       <node id="943947710603591592" at="62,39,63,32" concept="7" />
@@ -6436,7 +6436,7 @@
       <node id="943947710603591592" at="166,7,169,7" concept="4" />
       <node id="943947710603591592" at="188,0,191,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="943947710603683524" at="251,0,254,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="943947710603591592" at="51,0,55,0" concept="1" trace="CellModel_QueryLink_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="943947710603591592" at="51,0,55,0" concept="1" trace="CellModel_QueryLink_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="943947710603653840" at="80,0,84,0" concept="5" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="943947710603591592" at="134,0,138,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="943947710603591592" at="142,0,146,0" concept="1" trace="querySingleRoleHandler_osq1ox_b0d0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -6474,7 +6474,7 @@
       <scope id="943947710603683524" at="251,41,252,32" />
       <scope id="943947710603683524" at="257,28,258,20" />
       <scope id="943947710603683530" at="278,17,279,42" />
-      <scope id="943947710603591592" at="51,102,53,18" />
+      <scope id="943947710603591592" at="51,100,53,18" />
       <scope id="943947710603653840" at="80,42,82,22">
         <var name="editorCell" id="943947710603653840" />
       </scope>
@@ -6593,13 +6593,13 @@
         <var name="referenceLink" id="943947710603591592" />
       </scope>
       <scope id="943947710603591592" at="212,0,240,0" />
-      <unit id="943947710603591592" at="294,0,297,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder_a$PROPS" />
-      <unit id="943947710603591592" at="284,0,288,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder_a$LINKS" />
-      <unit id="943947710603591592" at="289,0,293,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder_a$CONCEPTS" />
-      <unit id="943947710603591592" at="214,42,222,5" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder_a$1" />
-      <unit id="943947710603683524" at="240,0,283,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder_a$Inline_Builder0" />
-      <unit id="943947710603591592" at="138,0,192,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder_a$querySingleRoleHandler_osq1ox_b0d0" />
-      <unit id="943947710603591592" at="47,0,298,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder_a" />
+      <unit id="943947710603591592" at="294,0,297,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder$PROPS" />
+      <unit id="943947710603591592" at="284,0,288,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder$LINKS" />
+      <unit id="943947710603591592" at="289,0,293,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder$CONCEPTS" />
+      <unit id="943947710603591592" at="214,42,222,5" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder$1" />
+      <unit id="943947710603683524" at="240,0,283,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder$Inline_Builder0" />
+      <unit id="943947710603591592" at="138,0,192,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder$querySingleRoleHandler_osq1ox_b0d0" />
+      <unit id="943947710603591592" at="47,0,298,0" name="com.mbeddr.mpsutil.editor.querylist.editor.CellModel_QueryLink_InspectorBuilder" />
     </file>
   </root>
 </debug-info>

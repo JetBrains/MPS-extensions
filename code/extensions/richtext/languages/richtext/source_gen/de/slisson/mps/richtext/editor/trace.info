@@ -910,17 +910,17 @@
   </root>
   <root nodeRef="r:7141fd54-a831-41ba-8753-74008b0b9af4(de.slisson.mps.richtext.editor)/2557074442922392304">
     <file name="Text_Editor.java">
-      <node id="2557074442922392304" at="11,79,12,70" concept="8" />
+      <node id="2557074442922392304" at="11,79,12,68" concept="8" />
       <node id="2557074442922392304" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2557074442922392304" at="11,79,12,70" />
+      <scope id="2557074442922392304" at="11,79,12,68" />
       <scope id="2557074442922392304" at="11,0,14,0">
         <var name="editorContext" id="2557074442922392304" />
         <var name="node" id="2557074442922392304" />
       </scope>
       <unit id="2557074442922392304" at="10,0,15,0" name="de.slisson.mps.richtext.editor.Text_Editor" />
     </file>
-    <file name="Text_EditorBuilder_a.java">
-      <node id="2557074442922392304" at="31,84,32,19" concept="13" />
+    <file name="Text_EditorBuilder.java">
+      <node id="2557074442922392304" at="31,82,32,19" concept="13" />
       <node id="2557074442922392304" at="32,19,33,18" concept="2" />
       <node id="2557074442922392304" at="38,26,39,18" concept="8" />
       <node id="2557074442922392304" at="42,39,43,35" concept="8" />
@@ -972,7 +972,7 @@
       <node id="2557074442922392304" at="84,0,87,0" concept="6" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="2557074442922392304" at="87,0,90,0" concept="6" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="2557074442922392304" at="131,96,134,9" concept="5" />
-      <node id="2557074442922392304" at="31,0,35,0" concept="1" trace="Text_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2557074442922392304" at="31,0,35,0" concept="1" trace="Text_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2557074442922392304" at="49,50,53,16" concept="7" />
       <node id="2557074442922392304" at="54,72,58,5" concept="5" />
       <node id="2557074442922392304" at="75,0,79,0" concept="1" trace="wordsListHandler_wlph7j_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -999,7 +999,7 @@
       <scope id="2557074442922392304" at="87,48,88,31" />
       <scope id="2557074442922392304" at="105,17,106,42" />
       <scope id="2557074442922392304" at="132,34,133,91" />
-      <scope id="2557074442922392304" at="31,84,33,18" />
+      <scope id="2557074442922392304" at="31,82,33,18" />
       <scope id="917258312815016996" at="50,79,52,18" />
       <scope id="2557074442922392304" at="55,26,57,30" />
       <scope id="2557074442922392304" at="75,79,77,25" />
@@ -1055,25 +1055,25 @@
         <var name="elementNode" id="2557074442922392304" />
         <var name="isEmptyCell" id="2557074442922392304" />
       </scope>
-      <unit id="2557074442922392304" at="139,0,142,0" name="de.slisson.mps.richtext.editor.Text_EditorBuilder_a$LINKS" />
-      <unit id="2557074442922392304" at="143,0,146,0" name="de.slisson.mps.richtext.editor.Text_EditorBuilder_a$CONCEPTS" />
-      <unit id="2557074442922392304" at="71,0,138,0" name="de.slisson.mps.richtext.editor.Text_EditorBuilder_a$wordsListHandler_wlph7j_a0" />
-      <unit id="2557074442922392304" at="27,0,147,0" name="de.slisson.mps.richtext.editor.Text_EditorBuilder_a" />
+      <unit id="2557074442922392304" at="139,0,142,0" name="de.slisson.mps.richtext.editor.Text_EditorBuilder$LINKS" />
+      <unit id="2557074442922392304" at="143,0,146,0" name="de.slisson.mps.richtext.editor.Text_EditorBuilder$CONCEPTS" />
+      <unit id="2557074442922392304" at="71,0,138,0" name="de.slisson.mps.richtext.editor.Text_EditorBuilder$wordsListHandler_wlph7j_a0" />
+      <unit id="2557074442922392304" at="27,0,147,0" name="de.slisson.mps.richtext.editor.Text_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7141fd54-a831-41ba-8753-74008b0b9af4(de.slisson.mps.richtext.editor)/2557074442922438159">
     <file name="Word_Editor.java">
-      <node id="2557074442922438159" at="11,79,12,70" concept="8" />
+      <node id="2557074442922438159" at="11,79,12,68" concept="8" />
       <node id="2557074442922438159" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2557074442922438159" at="11,79,12,70" />
+      <scope id="2557074442922438159" at="11,79,12,68" />
       <scope id="2557074442922438159" at="11,0,14,0">
         <var name="editorContext" id="2557074442922438159" />
         <var name="node" id="2557074442922438159" />
       </scope>
       <unit id="2557074442922438159" at="10,0,15,0" name="de.slisson.mps.richtext.editor.Word_Editor" />
     </file>
-    <file name="Word_EditorBuilder_a.java">
-      <node id="2557074442922438159" at="20,84,21,19" concept="13" />
+    <file name="Word_EditorBuilder.java">
+      <node id="2557074442922438159" at="20,82,21,19" concept="13" />
       <node id="2557074442922438159" at="21,19,22,18" concept="2" />
       <node id="2557074442922438159" at="27,26,28,18" concept="8" />
       <node id="2557074442922438159" at="31,39,32,31" concept="8" />
@@ -1098,7 +1098,7 @@
       <node id="2557074442922438159" at="62,0,63,0" concept="11" trace="escapedValue$2Lqz" />
       <node id="2557074442922438159" at="17,0,19,0" concept="3" trace="myNode" />
       <node id="2557074442922438159" at="31,0,34,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2557074442922438159" at="20,0,24,0" concept="1" trace="Word_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2557074442922438159" at="20,0,24,0" concept="1" trace="Word_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3695793781940225660" at="51,59,55,24" concept="5" />
       <node id="2557074442922438159" at="25,0,30,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3695793781940225660" at="36,39,58,5" concept="15" />
@@ -1107,7 +1107,7 @@
       <scope id="2557074442922438159" at="31,39,32,31" />
       <scope id="3695793781940225660" at="52,37,53,117" />
       <scope id="3695793781940225660" at="56,15,57,40" />
-      <scope id="2557074442922438159" at="20,84,22,18" />
+      <scope id="2557074442922438159" at="20,82,22,18" />
       <scope id="2557074442922438159" at="31,0,34,0" />
       <scope id="2557074442922438159" at="20,0,24,0">
         <var name="context" id="2557074442922438159" />
@@ -1122,8 +1122,8 @@
       </scope>
       <scope id="3695793781940225660" at="35,42,58,5" />
       <scope id="3695793781940225660" at="35,0,60,0" />
-      <unit id="2557074442922438159" at="61,0,64,0" name="de.slisson.mps.richtext.editor.Word_EditorBuilder_a$PROPS" />
-      <unit id="2557074442922438159" at="16,0,65,0" name="de.slisson.mps.richtext.editor.Word_EditorBuilder_a" />
+      <unit id="2557074442922438159" at="61,0,64,0" name="de.slisson.mps.richtext.editor.Word_EditorBuilder$PROPS" />
+      <unit id="2557074442922438159" at="16,0,65,0" name="de.slisson.mps.richtext.editor.Word_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:7141fd54-a831-41ba-8753-74008b0b9af4(de.slisson.mps.richtext.editor)/3619610929658677665">

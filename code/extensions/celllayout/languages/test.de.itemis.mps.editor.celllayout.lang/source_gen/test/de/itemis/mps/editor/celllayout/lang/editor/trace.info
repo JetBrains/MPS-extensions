@@ -18,17 +18,17 @@
   </root>
   <root nodeRef="r:00793c8c-9db0-484b-b375-d6bd4d4a4566(test.de.itemis.mps.editor.celllayout.lang.editor)/1609776727060595393">
     <file name="TestCase_ShrinkHorizontalLine_Editor.java">
-      <node id="1609776727060595393" at="11,79,12,95" concept="6" />
+      <node id="1609776727060595393" at="11,79,12,93" concept="6" />
       <node id="1609776727060595393" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1609776727060595393" at="11,79,12,95" />
+      <scope id="1609776727060595393" at="11,79,12,93" />
       <scope id="1609776727060595393" at="11,0,14,0">
         <var name="editorContext" id="1609776727060595393" />
         <var name="node" id="1609776727060595393" />
       </scope>
       <unit id="1609776727060595393" at="10,0,15,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_ShrinkHorizontalLine_Editor" />
     </file>
-    <file name="TestCase_ShrinkHorizontalLine_EditorBuilder_a.java">
-      <node id="1609776727060595393" at="32,109,33,19" concept="9" />
+    <file name="TestCase_ShrinkHorizontalLine_EditorBuilder.java">
+      <node id="1609776727060595393" at="32,107,33,19" concept="9" />
       <node id="1609776727060595393" at="33,19,34,18" concept="1" />
       <node id="1609776727060595393" at="39,26,40,18" concept="6" />
       <node id="1609776727060595393" at="43,39,44,32" concept="6" />
@@ -60,7 +60,7 @@
       <node id="1609776727060595393" at="88,0,89,0" concept="8" trace="PropertyAttribute$Gb" />
       <node id="1609776727060595393" at="29,0,31,0" concept="2" trace="myNode" />
       <node id="1609776727060595393" at="43,0,46,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1609776727060595393" at="32,0,36,0" concept="0" trace="TestCase_ShrinkHorizontalLine_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1609776727060595393" at="32,0,36,0" concept="0" trace="TestCase_ShrinkHorizontalLine_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1609776727060595393" at="37,0,42,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1609776727060595408" at="56,0,61,0" concept="4" trace="createHorizontalLineCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1609776727060595424" at="72,208,77,24" concept="3" />
@@ -70,7 +70,7 @@
       <scope id="1609776727060595393" at="39,26,40,18" />
       <scope id="1609776727060595393" at="43,39,44,32" />
       <scope id="1609776727060595424" at="78,15,79,40" />
-      <scope id="1609776727060595393" at="32,109,34,18" />
+      <scope id="1609776727060595393" at="32,107,34,18" />
       <scope id="1609776727060595424" at="73,74,75,145">
         <var name="manager" id="1609776727060595424" />
       </scope>
@@ -96,24 +96,24 @@
       </scope>
       <scope id="1609776727060595424" at="61,41,80,5" />
       <scope id="1609776727060595424" at="61,0,82,0" />
-      <unit id="1609776727060595393" at="83,0,86,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_ShrinkHorizontalLine_EditorBuilder_a$PROPS" />
-      <unit id="1609776727060595393" at="87,0,90,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_ShrinkHorizontalLine_EditorBuilder_a$CONCEPTS" />
-      <unit id="1609776727060595393" at="28,0,91,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_ShrinkHorizontalLine_EditorBuilder_a" />
+      <unit id="1609776727060595393" at="83,0,86,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_ShrinkHorizontalLine_EditorBuilder$PROPS" />
+      <unit id="1609776727060595393" at="87,0,90,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_ShrinkHorizontalLine_EditorBuilder$CONCEPTS" />
+      <unit id="1609776727060595393" at="28,0,91,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_ShrinkHorizontalLine_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:00793c8c-9db0-484b-b375-d6bd4d4a4566(test.de.itemis.mps.editor.celllayout.lang.editor)/2397858322422944214">
     <file name="TestCase_GridLayoutFlatten_Editor.java">
-      <node id="2397858322422944214" at="11,79,12,92" concept="6" />
+      <node id="2397858322422944214" at="11,79,12,90" concept="6" />
       <node id="2397858322422944214" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2397858322422944214" at="11,79,12,92" />
+      <scope id="2397858322422944214" at="11,79,12,90" />
       <scope id="2397858322422944214" at="11,0,14,0">
         <var name="editorContext" id="2397858322422944214" />
         <var name="node" id="2397858322422944214" />
       </scope>
       <unit id="2397858322422944214" at="10,0,15,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_GridLayoutFlatten_Editor" />
     </file>
-    <file name="TestCase_GridLayoutFlatten_EditorBuilder_a.java">
-      <node id="2397858322422944214" at="23,106,24,19" concept="9" />
+    <file name="TestCase_GridLayoutFlatten_EditorBuilder.java">
+      <node id="2397858322422944214" at="23,104,24,19" concept="9" />
       <node id="2397858322422944214" at="24,19,25,18" concept="1" />
       <node id="2397858322422944214" at="30,26,31,18" concept="6" />
       <node id="2397858322422944214" at="34,39,35,32" concept="6" />
@@ -342,7 +342,7 @@
       <node id="2397858322422993669" at="322,34,323,22" concept="6" />
       <node id="2397858322422944214" at="20,0,22,0" concept="2" trace="myNode" />
       <node id="2397858322422944214" at="34,0,37,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2397858322422944214" at="23,0,27,0" concept="0" trace="TestCase_GridLayoutFlatten_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2397858322422944214" at="23,0,27,0" concept="0" trace="TestCase_GridLayoutFlatten_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2397858322422944214" at="28,0,33,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2397858322422944498" at="116,0,122,0" concept="4" trace="createConstant_3#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2397858322422944516" at="122,0,128,0" concept="4" trace="createConstant_4#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -378,7 +378,7 @@
       <node id="2397858322422944214" at="224,0,236,0" concept="4" trace="createCollection_9#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2397858322422944214" at="30,26,31,18" />
       <scope id="2397858322422944214" at="34,39,35,32" />
-      <scope id="2397858322422944214" at="23,106,25,18" />
+      <scope id="2397858322422944214" at="23,104,25,18" />
       <scope id="2397858322422944214" at="34,0,37,0" />
       <scope id="2397858322422944214" at="23,0,27,0">
         <var name="context" id="2397858322422944214" />
@@ -535,22 +535,22 @@
       <scope id="2397858322422944214" at="236,0,247,0" />
       <scope id="2397858322422944214" at="296,0,307,0" />
       <scope id="2397858322422944214" at="224,0,236,0" />
-      <unit id="2397858322422944214" at="19,0,326,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_GridLayoutFlatten_EditorBuilder_a" />
+      <unit id="2397858322422944214" at="19,0,326,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_GridLayoutFlatten_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:00793c8c-9db0-484b-b375-d6bd4d4a4566(test.de.itemis.mps.editor.celllayout.lang.editor)/4434722703675265050">
     <file name="TestCase_MixedVerticalAndIndent_Editor.java">
-      <node id="4434722703675265050" at="11,79,12,97" concept="6" />
+      <node id="4434722703675265050" at="11,79,12,95" concept="6" />
       <node id="4434722703675265050" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4434722703675265050" at="11,79,12,97" />
+      <scope id="4434722703675265050" at="11,79,12,95" />
       <scope id="4434722703675265050" at="11,0,14,0">
         <var name="editorContext" id="4434722703675265050" />
         <var name="node" id="4434722703675265050" />
       </scope>
       <unit id="4434722703675265050" at="10,0,15,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_MixedVerticalAndIndent_Editor" />
     </file>
-    <file name="TestCase_MixedVerticalAndIndent_EditorBuilder_a.java">
-      <node id="4434722703675265050" at="24,111,25,19" concept="9" />
+    <file name="TestCase_MixedVerticalAndIndent_EditorBuilder.java">
+      <node id="4434722703675265050" at="24,109,25,19" concept="9" />
       <node id="4434722703675265050" at="25,19,26,18" concept="1" />
       <node id="4434722703675265050" at="31,26,32,18" concept="6" />
       <node id="4434722703675265050" at="35,39,36,39" concept="6" />
@@ -1488,7 +1488,7 @@
       <node id="4434722703675265050" at="21,0,23,0" concept="2" trace="myNode" />
       <node id="4434722703675265050" at="35,0,38,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4434722703675265050" at="48,0,51,0" concept="4" trace="createTopDownLayoutCell_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="4434722703675265050" at="24,0,28,0" concept="0" trace="TestCase_MixedVerticalAndIndent_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4434722703675265050" at="24,0,28,0" concept="0" trace="TestCase_MixedVerticalAndIndent_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4434722703675265050" at="29,0,34,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="4434722703675350441" at="81,0,87,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4434722703675350447" at="87,0,93,0" concept="4" trace="createConstant_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1629,7 +1629,7 @@
       <scope id="4434722703675265050" at="31,26,32,18" />
       <scope id="4434722703675265050" at="35,39,36,39" />
       <scope id="4434722703675265050" at="48,50,49,68" />
-      <scope id="4434722703675265050" at="24,111,26,18" />
+      <scope id="4434722703675265050" at="24,109,26,18" />
       <scope id="4434722703675265050" at="35,0,38,0" />
       <scope id="4434722703675265050" at="48,0,51,0" />
       <scope id="4434722703675265050" at="24,0,28,0">
@@ -2279,22 +2279,22 @@
       <scope id="4434722703675265050" at="677,0,688,0" />
       <scope id="4434722703675265050" at="697,0,708,0" />
       <scope id="4434722703675265050" at="68,0,81,0" />
-      <unit id="4434722703675265050" at="20,0,1245,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_MixedVerticalAndIndent_EditorBuilder_a" />
+      <unit id="4434722703675265050" at="20,0,1245,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_MixedVerticalAndIndent_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:00793c8c-9db0-484b-b375-d6bd4d4a4566(test.de.itemis.mps.editor.celllayout.lang.editor)/492440529733466815">
     <file name="TestCase_DoNotGrow_orizontalInGrid_Editor.java">
-      <node id="492440529733466815" at="11,79,12,100" concept="6" />
+      <node id="492440529733466815" at="11,79,12,98" concept="6" />
       <node id="492440529733466815" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="492440529733466815" at="11,79,12,100" />
+      <scope id="492440529733466815" at="11,79,12,98" />
       <scope id="492440529733466815" at="11,0,14,0">
         <var name="editorContext" id="492440529733466815" />
         <var name="node" id="492440529733466815" />
       </scope>
       <unit id="492440529733466815" at="10,0,15,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_DoNotGrow_orizontalInGrid_Editor" />
     </file>
-    <file name="TestCase_DoNotGrow_orizontalInGrid_EditorBuilder_a.java">
-      <node id="492440529733466815" at="22,114,23,19" concept="9" />
+    <file name="TestCase_DoNotGrow_orizontalInGrid_EditorBuilder.java">
+      <node id="492440529733466815" at="22,112,23,19" concept="9" />
       <node id="492440529733466815" at="23,19,24,18" concept="1" />
       <node id="492440529733466815" at="29,26,30,18" concept="6" />
       <node id="492440529733466815" at="33,39,34,32" concept="6" />
@@ -2352,7 +2352,7 @@
       <node id="492440529733467503" at="104,34,105,22" concept="6" />
       <node id="492440529733466815" at="19,0,21,0" concept="2" trace="myNode" />
       <node id="492440529733466815" at="33,0,36,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="492440529733466815" at="22,0,26,0" concept="0" trace="TestCase_DoNotGrow_orizontalInGrid_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="492440529733466815" at="22,0,26,0" concept="0" trace="TestCase_DoNotGrow_orizontalInGrid_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="492440529733466815" at="27,0,32,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="492440529733467360" at="57,0,63,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="492440529733467417" at="63,0,69,0" concept="4" trace="createConstant_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -2365,7 +2365,7 @@
       <node id="492440529733466815" at="79,0,89,0" concept="4" trace="createCollection_3#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="492440529733466815" at="29,26,30,18" />
       <scope id="492440529733466815" at="33,39,34,32" />
-      <scope id="492440529733466815" at="22,114,24,18" />
+      <scope id="492440529733466815" at="22,112,24,18" />
       <scope id="492440529733466815" at="33,0,36,0" />
       <scope id="492440529733466815" at="22,0,26,0">
         <var name="context" id="492440529733466815" />
@@ -2411,22 +2411,22 @@
       <scope id="492440529733466815" at="47,0,57,0" />
       <scope id="492440529733466815" at="69,0,79,0" />
       <scope id="492440529733466815" at="79,0,89,0" />
-      <unit id="492440529733466815" at="18,0,108,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_DoNotGrow_orizontalInGrid_EditorBuilder_a" />
+      <unit id="492440529733466815" at="18,0,108,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_DoNotGrow_orizontalInGrid_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:00793c8c-9db0-484b-b375-d6bd4d4a4566(test.de.itemis.mps.editor.celllayout.lang.editor)/492440529734872540">
     <file name="TestCase_BordersInGrid_Editor.java">
-      <node id="492440529734872540" at="11,79,12,88" concept="6" />
+      <node id="492440529734872540" at="11,79,12,86" concept="6" />
       <node id="492440529734872540" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="492440529734872540" at="11,79,12,88" />
+      <scope id="492440529734872540" at="11,79,12,86" />
       <scope id="492440529734872540" at="11,0,14,0">
         <var name="editorContext" id="492440529734872540" />
         <var name="node" id="492440529734872540" />
       </scope>
       <unit id="492440529734872540" at="10,0,15,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_BordersInGrid_Editor" />
     </file>
-    <file name="TestCase_BordersInGrid_EditorBuilder_a.java">
-      <node id="492440529734872540" at="23,102,24,19" concept="9" />
+    <file name="TestCase_BordersInGrid_EditorBuilder.java">
+      <node id="492440529734872540" at="23,100,24,19" concept="9" />
       <node id="492440529734872540" at="24,19,25,18" concept="1" />
       <node id="492440529734872540" at="30,26,31,18" concept="6" />
       <node id="492440529734872540" at="34,39,35,32" concept="6" />
@@ -2542,7 +2542,7 @@
       <node id="492440529734872732" at="179,34,180,22" concept="6" />
       <node id="492440529734872540" at="20,0,22,0" concept="2" trace="myNode" />
       <node id="492440529734872540" at="34,0,37,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="492440529734872540" at="23,0,27,0" concept="0" trace="TestCase_BordersInGrid_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="492440529734872540" at="23,0,27,0" concept="0" trace="TestCase_BordersInGrid_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="492440529734872540" at="28,0,33,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="492440529734872578" at="80,0,86,0" concept="4" trace="createConstant_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="492440529734872592" at="86,0,92,0" concept="4" trace="createConstant_2#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -2563,7 +2563,7 @@
       <node id="492440529734872540" at="68,0,80,0" concept="4" trace="createCollection_2#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="492440529734872540" at="30,26,31,18" />
       <scope id="492440529734872540" at="34,39,35,32" />
-      <scope id="492440529734872540" at="23,102,25,18" />
+      <scope id="492440529734872540" at="23,100,25,18" />
       <scope id="492440529734872540" at="34,0,37,0" />
       <scope id="492440529734872540" at="23,0,27,0">
         <var name="context" id="492440529734872540" />
@@ -2647,22 +2647,22 @@
       <scope id="492440529734872540" at="108,0,119,0" />
       <scope id="492440529734872540" at="131,0,142,0" />
       <scope id="492440529734872540" at="68,0,80,0" />
-      <unit id="492440529734872540" at="19,0,183,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_BordersInGrid_EditorBuilder_a" />
+      <unit id="492440529734872540" at="19,0,183,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.TestCase_BordersInGrid_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:00793c8c-9db0-484b-b375-d6bd4d4a4566(test.de.itemis.mps.editor.celllayout.lang.editor)/492440529738339442">
     <file name="HorizontalWrapper_Editor.java">
-      <node id="492440529738339442" at="11,79,12,83" concept="6" />
+      <node id="492440529738339442" at="11,79,12,81" concept="6" />
       <node id="492440529738339442" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="492440529738339442" at="11,79,12,83" />
+      <scope id="492440529738339442" at="11,79,12,81" />
       <scope id="492440529738339442" at="11,0,14,0">
         <var name="editorContext" id="492440529738339442" />
         <var name="node" id="492440529738339442" />
       </scope>
       <unit id="492440529738339442" at="10,0,15,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.HorizontalWrapper_Editor" />
     </file>
-    <file name="HorizontalWrapper_EditorBuilder_a.java">
-      <node id="492440529738339442" at="27,97,28,19" concept="9" />
+    <file name="HorizontalWrapper_EditorBuilder.java">
+      <node id="492440529738339442" at="27,95,28,19" concept="9" />
       <node id="492440529738339442" at="28,19,29,18" concept="1" />
       <node id="492440529738339442" at="34,26,35,18" concept="6" />
       <node id="492440529738339442" at="38,39,39,32" concept="6" />
@@ -2710,7 +2710,7 @@
       <node id="492440529738339442" at="87,87,90,7" concept="3" />
       <node id="492440529738339442" at="90,7,93,7" concept="3" />
       <node id="492440529738339442" at="109,0,112,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="492440529738339442" at="27,0,31,0" concept="0" trace="HorizontalWrapper_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="492440529738339442" at="27,0,31,0" concept="0" trace="HorizontalWrapper_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="492440529738339442" at="58,0,62,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="492440529738339442" at="66,0,70,0" concept="0" trace="childSingleRoleHandler_tz95ou_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="492440529738339442" at="32,0,37,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2729,7 +2729,7 @@
       <scope id="492440529738339442" at="91,42,92,46" />
       <scope id="492440529738339442" at="105,17,106,42" />
       <scope id="492440529738339442" at="109,40,110,26" />
-      <scope id="492440529738339442" at="27,97,29,18" />
+      <scope id="492440529738339442" at="27,95,29,18" />
       <scope id="492440529738339442" at="58,40,60,33">
         <var name="provider" id="492440529738339442" />
       </scope>
@@ -2777,9 +2777,9 @@
       <scope id="492440529738339442" at="42,0,52,0" />
       <scope id="492440529738339442" at="96,44,107,7" />
       <scope id="492440529738339442" at="95,0,109,0" />
-      <unit id="492440529738339442" at="120,0,123,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.HorizontalWrapper_EditorBuilder_a$LINKS" />
-      <unit id="492440529738339442" at="62,0,113,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.HorizontalWrapper_EditorBuilder_a$childSingleRoleHandler_tz95ou_b0" />
-      <unit id="492440529738339442" at="23,0,124,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.HorizontalWrapper_EditorBuilder_a" />
+      <unit id="492440529738339442" at="120,0,123,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.HorizontalWrapper_EditorBuilder$LINKS" />
+      <unit id="492440529738339442" at="62,0,113,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.HorizontalWrapper_EditorBuilder$childSingleRoleHandler_tz95ou_b0" />
+      <unit id="492440529738339442" at="23,0,124,0" name="test.de.itemis.mps.editor.celllayout.lang.editor.HorizontalWrapper_EditorBuilder" />
     </file>
   </root>
 </debug-info>

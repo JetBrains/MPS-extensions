@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:e6d07988-20a6-4e38-a191-84f9a6e75de5(nl.f1re.mps.editor.swing.editor)/8659612544238937885">
     <file name="StubCellModel_CustomJComponent_Editor.java">
-      <node id="8659612544238937885" at="11,79,12,96" concept="6" />
+      <node id="8659612544238937885" at="11,79,12,94" concept="6" />
       <node id="8659612544238937885" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8659612544238937885" at="11,79,12,96" />
+      <scope id="8659612544238937885" at="11,79,12,94" />
       <scope id="8659612544238937885" at="11,0,14,0">
         <var name="editorContext" id="8659612544238937885" />
         <var name="node" id="8659612544238937885" />
       </scope>
       <unit id="8659612544238937885" at="10,0,15,0" name="nl.f1re.mps.editor.swing.editor.StubCellModel_CustomJComponent_Editor" />
     </file>
-    <file name="StubCellModel_CustomJComponent_EditorBuilder_a.java">
-      <node id="8659612544238937885" at="16,110,17,19" concept="8" />
+    <file name="StubCellModel_CustomJComponent_EditorBuilder.java">
+      <node id="8659612544238937885" at="16,108,17,19" concept="8" />
       <node id="8659612544238937885" at="17,19,18,18" concept="1" />
       <node id="8659612544238937885" at="23,26,24,18" concept="6" />
       <node id="8659612544238937885" at="27,39,28,31" concept="6" />
@@ -38,13 +38,13 @@
       <node id="8659612544238937886" at="37,5,38,22" concept="6" />
       <node id="8659612544238937885" at="13,0,15,0" concept="2" trace="myNode" />
       <node id="8659612544238937885" at="27,0,30,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8659612544238937885" at="16,0,20,0" concept="0" trace="StubCellModel_CustomJComponent_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8659612544238937885" at="16,0,20,0" concept="0" trace="StubCellModel_CustomJComponent_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8659612544238937886" at="33,72,37,5" concept="3" />
       <node id="8659612544238937885" at="21,0,26,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8659612544238937886" at="31,0,40,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="8659612544238937885" at="23,26,24,18" />
       <scope id="8659612544238937885" at="27,39,28,31" />
-      <scope id="8659612544238937885" at="16,110,18,18" />
+      <scope id="8659612544238937885" at="16,108,18,18" />
       <scope id="8659612544238937886" at="34,26,36,30" />
       <scope id="8659612544238937885" at="27,0,30,0" />
       <scope id="8659612544238937885" at="16,0,20,0">
@@ -57,7 +57,7 @@
         <var name="editorCell" id="8659612544238937886" />
       </scope>
       <scope id="8659612544238937886" at="31,0,40,0" />
-      <unit id="8659612544238937885" at="12,0,41,0" name="nl.f1re.mps.editor.swing.editor.StubCellModel_CustomJComponent_EditorBuilder_a" />
+      <unit id="8659612544238937885" at="12,0,41,0" name="nl.f1re.mps.editor.swing.editor.StubCellModel_CustomJComponent_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e6d07988-20a6-4e38-a191-84f9a6e75de5(nl.f1re.mps.editor.swing.editor)/8659612544238937887">
@@ -71,12 +71,12 @@
   </root>
   <root nodeRef="r:e6d07988-20a6-4e38-a191-84f9a6e75de5(nl.f1re.mps.editor.swing.editor)/8659612544238938787">
     <file name="CellModel_CustomJComponent_Editor.java">
-      <node id="8659612544238938787" at="11,79,12,92" concept="6" />
-      <node id="8659612544238938787" at="14,82,15,95" concept="6" />
+      <node id="8659612544238938787" at="11,79,12,90" concept="6" />
+      <node id="8659612544238938787" at="14,82,15,93" concept="6" />
       <node id="8659612544238938787" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8659612544238938787" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8659612544238938787" at="11,79,12,92" />
-      <scope id="8659612544238938787" at="14,82,15,95" />
+      <scope id="8659612544238938787" at="11,79,12,90" />
+      <scope id="8659612544238938787" at="14,82,15,93" />
       <scope id="8659612544238938787" at="11,0,14,0">
         <var name="editorContext" id="8659612544238938787" />
         <var name="node" id="8659612544238938787" />
@@ -87,8 +87,8 @@
       </scope>
       <unit id="8659612544238938787" at="10,0,18,0" name="nl.f1re.mps.editor.swing.editor.CellModel_CustomJComponent_Editor" />
     </file>
-    <file name="CellModel_CustomJComponent_EditorBuilder_a.java">
-      <node id="8659612544238938787" at="24,106,25,19" concept="8" />
+    <file name="CellModel_CustomJComponent_EditorBuilder.java">
+      <node id="8659612544238938787" at="24,104,25,19" concept="8" />
       <node id="8659612544238938787" at="25,19,26,18" concept="1" />
       <node id="8659612544238938787" at="31,26,32,18" concept="6" />
       <node id="8659612544238938787" at="35,39,36,32" concept="6" />
@@ -122,7 +122,7 @@
       <node id="1355051069417735592" at="72,40,73,22" concept="6" />
       <node id="8659612544238938787" at="21,0,23,0" concept="2" trace="myNode" />
       <node id="8659612544238938787" at="35,0,38,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8659612544238938787" at="24,0,28,0" concept="0" trace="CellModel_CustomJComponent_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8659612544238938787" at="24,0,28,0" concept="0" trace="CellModel_CustomJComponent_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8659612544238938787" at="29,0,34,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1355051069417735589" at="52,0,59,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1355051069417735592" at="68,0,75,0" concept="4" trace="createComponent_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -130,7 +130,7 @@
       <node id="8659612544238938787" at="39,0,52,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="8659612544238938787" at="31,26,32,18" />
       <scope id="8659612544238938787" at="35,39,36,32" />
-      <scope id="8659612544238938787" at="24,106,26,18" />
+      <scope id="8659612544238938787" at="24,104,26,18" />
       <scope id="8659612544238938787" at="35,0,38,0" />
       <scope id="8659612544238938787" at="24,0,28,0">
         <var name="context" id="8659612544238938787" />
@@ -157,10 +157,10 @@
         <var name="style" id="8659612544238938787" />
       </scope>
       <scope id="8659612544238938787" at="39,0,52,0" />
-      <unit id="8659612544238938787" at="20,0,76,0" name="nl.f1re.mps.editor.swing.editor.CellModel_CustomJComponent_EditorBuilder_a" />
+      <unit id="8659612544238938787" at="20,0,76,0" name="nl.f1re.mps.editor.swing.editor.CellModel_CustomJComponent_EditorBuilder" />
     </file>
-    <file name="CellModel_CustomJComponent_InspectorBuilder_a.java">
-      <node id="8659612544238938787" at="34,109,35,19" concept="8" />
+    <file name="CellModel_CustomJComponent_InspectorBuilder.java">
+      <node id="8659612544238938787" at="34,107,35,19" concept="8" />
       <node id="8659612544238938787" at="35,19,36,18" concept="1" />
       <node id="8659612544238938787" at="41,26,42,18" concept="6" />
       <node id="8659612544238938787" at="45,39,46,32" concept="6" />
@@ -345,7 +345,7 @@
       <node id="8659612544238938787" at="311,87,314,7" concept="3" />
       <node id="8659612544238938787" at="314,7,317,7" concept="3" />
       <node id="8659612544238938787" at="333,0,336,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8659612544238938787" at="34,0,38,0" concept="0" trace="CellModel_CustomJComponent_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8659612544238938787" at="34,0,38,0" concept="0" trace="CellModel_CustomJComponent_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1214480562374" at="77,0,81,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8659612544238938787" at="132,0,136,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8659612544238938787" at="140,0,144,0" concept="0" trace="componentProviderSingleRoleHandler_t75h6w_b0d1a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -399,7 +399,7 @@
       <scope id="8659612544238938787" at="315,42,316,57" />
       <scope id="8659612544238938787" at="329,17,330,42" />
       <scope id="8659612544238938787" at="333,40,334,37" />
-      <scope id="8659612544238938787" at="34,109,36,18" />
+      <scope id="8659612544238938787" at="34,107,36,18" />
       <scope id="1214480562374" at="77,42,79,22">
         <var name="editorCell" id="1214480562374" />
       </scope>
@@ -559,11 +559,11 @@
       <scope id="8659612544238938787" at="169,0,183,0" />
       <scope id="8659612544238938787" at="244,0,258,0" />
       <scope id="8659612544238938787" at="319,0,333,0" />
-      <unit id="8659612544238938787" at="344,0,349,0" name="nl.f1re.mps.editor.swing.editor.CellModel_CustomJComponent_InspectorBuilder_a$LINKS" />
-      <unit id="8659612544238938787" at="136,0,187,0" name="nl.f1re.mps.editor.swing.editor.CellModel_CustomJComponent_InspectorBuilder_a$componentProviderSingleRoleHandler_t75h6w_b0d1a" />
-      <unit id="8659612544238938787" at="211,0,262,0" name="nl.f1re.mps.editor.swing.editor.CellModel_CustomJComponent_InspectorBuilder_a$fontFunctionSingleRoleHandler_t75h6w_b1d1a" />
-      <unit id="8659612544238938787" at="286,0,337,0" name="nl.f1re.mps.editor.swing.editor.CellModel_CustomJComponent_InspectorBuilder_a$toStringFunctionSingleRoleHandler_t75h6w_b2d1a" />
-      <unit id="8659612544238938787" at="30,0,350,0" name="nl.f1re.mps.editor.swing.editor.CellModel_CustomJComponent_InspectorBuilder_a" />
+      <unit id="8659612544238938787" at="344,0,349,0" name="nl.f1re.mps.editor.swing.editor.CellModel_CustomJComponent_InspectorBuilder$LINKS" />
+      <unit id="8659612544238938787" at="136,0,187,0" name="nl.f1re.mps.editor.swing.editor.CellModel_CustomJComponent_InspectorBuilder$componentProviderSingleRoleHandler_t75h6w_b0d1a" />
+      <unit id="8659612544238938787" at="211,0,262,0" name="nl.f1re.mps.editor.swing.editor.CellModel_CustomJComponent_InspectorBuilder$fontFunctionSingleRoleHandler_t75h6w_b1d1a" />
+      <unit id="8659612544238938787" at="286,0,337,0" name="nl.f1re.mps.editor.swing.editor.CellModel_CustomJComponent_InspectorBuilder$toStringFunctionSingleRoleHandler_t75h6w_b2d1a" />
+      <unit id="8659612544238938787" at="30,0,350,0" name="nl.f1re.mps.editor.swing.editor.CellModel_CustomJComponent_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:e6d07988-20a6-4e38-a191-84f9a6e75de5(nl.f1re.mps.editor.swing.editor)/8659612544247534053">

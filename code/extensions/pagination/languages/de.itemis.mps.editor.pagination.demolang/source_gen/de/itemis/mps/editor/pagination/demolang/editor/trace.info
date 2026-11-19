@@ -23,11 +23,11 @@
     <file name="Test_paginate_Editor.java">
       <node id="2646108724982184780" at="14,0,15,0" concept="3" trace="myContextHints" />
       <node id="2646108724982184780" at="17,47,18,26" concept="7" />
-      <node id="2646108724982184780" at="20,79,21,79" concept="7" />
+      <node id="2646108724982184780" at="20,79,21,77" concept="7" />
       <node id="2646108724982184780" at="20,0,23,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2646108724982184780" at="15,0,20,0" concept="5" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="2646108724982184780" at="17,47,18,26" />
-      <scope id="2646108724982184780" at="20,79,21,79" />
+      <scope id="2646108724982184780" at="20,79,21,77" />
       <scope id="2646108724982184780" at="20,0,23,0">
         <var name="editorContext" id="2646108724982184780" />
         <var name="node" id="2646108724982184780" />
@@ -35,8 +35,8 @@
       <scope id="2646108724982184780" at="15,0,20,0" />
       <unit id="2646108724982184780" at="13,0,24,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_Editor" />
     </file>
-    <file name="Test_paginate_EditorBuilder_a.java">
-      <node id="2646108724982184780" at="67,93,68,19" concept="12" />
+    <file name="Test_paginate_EditorBuilder.java">
+      <node id="2646108724982184780" at="67,91,68,19" concept="12" />
       <node id="2646108724982184780" at="68,19,69,18" concept="2" />
       <node id="2646108724982184780" at="74,26,75,18" concept="7" />
       <node id="2646108724982184780" at="78,39,79,32" concept="7" />
@@ -70,12 +70,12 @@
       <node id="8814848848455272987" at="118,47,119,34" concept="2" />
       <node id="8814848848455272987" at="119,34,120,22" concept="7" />
       <node id="2646108724982184780" at="122,44,123,40" concept="6" />
-      <node id="2646108724982184780" at="123,40,124,54" concept="2" />
-      <node id="2646108724982184780" at="124,54,125,33" concept="6" />
+      <node id="2646108724982184780" at="123,40,124,44" concept="2" />
+      <node id="2646108724982184780" at="124,44,125,33" concept="6" />
       <node id="2646108724982184780" at="126,31,127,41" concept="2" />
       <node id="2646108724982184780" at="128,12,129,40" concept="2" />
       <node id="2646108724982184780" at="130,5,131,22" concept="7" />
-      <node id="2646108724982184780" at="133,46,134,257" concept="6" />
+      <node id="2646108724982184780" at="133,36,134,257" concept="6" />
       <node id="2646108724982184780" at="134,257,135,84" concept="6" />
       <node id="2646108724982184780" at="135,84,136,63" concept="6" />
       <node id="2646108724982184780" at="136,63,137,78" concept="7" />
@@ -281,9 +281,9 @@
       <node id="2646108724982184780" at="452,0,455,0" concept="1" trace="RangeSelectionFilter_j76jc4_b0c0#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="2646108724982184780" at="463,0,466,0" concept="5" trace="getModuleReference#()Ljava/lang/String;" />
       <node id="2646108724982184780" at="467,0,470,0" concept="5" trace="_StyleParameter_QueryFunction_j76jc4_a0b0c0#()Z" />
-      <node id="2646108724982184780" at="470,0,473,0" concept="11" trace="as_5xc19m_a0a0a5a81#(Ljava/lang/Object;Ljava/lang/Class;)null" />
-      <node id="2646108724982184780" at="473,0,476,0" concept="11" trace="as_5xc19m_a0a0a5a32#(Ljava/lang/Object;Ljava/lang/Class;)null" />
-      <node id="2646108724982184780" at="67,0,71,0" concept="1" trace="Test_paginate_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2646108724982184780" at="470,0,473,0" concept="11" trace="as_d375y1_a0a0a5a81#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="2646108724982184780" at="473,0,476,0" concept="11" trace="as_d375y1_a0a0a5a32#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="2646108724982184780" at="67,0,71,0" concept="1" trace="Test_paginate_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2646108724982184780" at="150,0,154,0" concept="1" trace="collectionOfNodesListHandler_j76jc4_a2a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="2646108724982184780" at="155,0,159,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2646108724982184780" at="188,97,192,9" concept="4" />
@@ -303,7 +303,7 @@
       <node id="2646108724982184780" at="326,53,331,7" concept="6" />
       <node id="2646108724982184780" at="433,7,438,7" concept="4" />
       <node id="8814848848455272987" at="116,0,122,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2646108724982184780" at="133,0,139,0" concept="5" trace="nodeCondition_j76jc4_a2a#()Z" />
+      <node id="2646108724982184780" at="133,0,139,0" concept="5" trace="nodeCondition0#()Z" />
       <node id="2646108724982184780" at="187,107,193,7" concept="4" />
       <node id="2646108724982184780" at="193,7,199,7" concept="4" />
       <node id="2646108724982184780" at="199,7,205,7" concept="4" />
@@ -366,7 +366,7 @@
       <scope id="2646108724982184780" at="467,65,468,16" />
       <scope id="2646108724982184780" at="470,69,471,47" />
       <scope id="2646108724982184780" at="473,69,474,47" />
-      <scope id="2646108724982184780" at="67,93,69,18" />
+      <scope id="2646108724982184780" at="67,91,69,18" />
       <scope id="8814848848455272993" at="107,74,109,145">
         <var name="manager" id="8814848848455272993" />
       </scope>
@@ -416,7 +416,7 @@
       <scope id="8814848848455272987" at="116,41,120,22">
         <var name="editorCell" id="8814848848455272987" />
       </scope>
-      <scope id="2646108724982184780" at="133,46,137,78">
+      <scope id="2646108724982184780" at="133,36,137,78">
         <var name="link" id="2646108724982184780" />
         <var name="pageSize" id="2646108724982184780" />
         <var name="pageSizeFn" id="2646108724982184780" />
@@ -618,31 +618,31 @@
         <var name="modelAccessor" id="2646108724982184780" />
       </scope>
       <scope id="2646108724982184780" at="253,0,299,0" />
-      <unit id="2646108724982184780" at="477,0,480,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder_a$PROPS" />
-      <unit id="2646108724982184780" at="486,0,489,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder_a$LINKS" />
-      <unit id="2646108724982184780" at="481,0,485,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder_a$CONCEPTS" />
-      <unit id="2646108724982184780" at="309,88,316,5" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder_a$2" />
-      <unit id="2646108724982184780" at="346,17,356,7" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder_a$3" />
-      <unit id="2646108724982184780" at="449,0,467,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder_a$RangeSelectionFilter_j76jc4_b0c0" />
-      <unit id="2646108724982184780" at="254,38,291,5" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder_a$1" />
-      <unit id="2646108724982184780" at="146,0,213,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder_a$collectionOfNodesListHandler_j76jc4_a2a" />
-      <unit id="2646108724982184780" at="372,0,449,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder_a$collectionOfNodesListHandler_j76jc4_b0c0" />
-      <unit id="2646108724982184780" at="63,0,490,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder_a" />
+      <unit id="2646108724982184780" at="477,0,480,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder$PROPS" />
+      <unit id="2646108724982184780" at="486,0,489,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder$LINKS" />
+      <unit id="2646108724982184780" at="481,0,485,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder$CONCEPTS" />
+      <unit id="2646108724982184780" at="309,88,316,5" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder$2" />
+      <unit id="2646108724982184780" at="346,17,356,7" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder$3" />
+      <unit id="2646108724982184780" at="449,0,467,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder$RangeSelectionFilter_j76jc4_b0c0" />
+      <unit id="2646108724982184780" at="254,38,291,5" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder$1" />
+      <unit id="2646108724982184780" at="146,0,213,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder$collectionOfNodesListHandler_j76jc4_a2a" />
+      <unit id="2646108724982184780" at="372,0,449,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder$collectionOfNodesListHandler_j76jc4_b0c0" />
+      <unit id="2646108724982184780" at="63,0,490,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_paginate_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:1dd30ead-66d0-4853-83d7-723bb3ef3bbe(de.itemis.mps.editor.pagination.demolang.editor)/2646108724982559799">
     <file name="ChildTest_Editor.java">
-      <node id="2646108724982559799" at="11,79,12,75" concept="7" />
+      <node id="2646108724982559799" at="11,79,12,73" concept="7" />
       <node id="2646108724982559799" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2646108724982559799" at="11,79,12,75" />
+      <scope id="2646108724982559799" at="11,79,12,73" />
       <scope id="2646108724982559799" at="11,0,14,0">
         <var name="editorContext" id="2646108724982559799" />
         <var name="node" id="2646108724982559799" />
       </scope>
       <unit id="2646108724982559799" at="10,0,15,0" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_Editor" />
     </file>
-    <file name="ChildTest_EditorBuilder_a.java">
-      <node id="2646108724982559799" at="44,89,45,19" concept="12" />
+    <file name="ChildTest_EditorBuilder.java">
+      <node id="2646108724982559799" at="44,87,45,19" concept="12" />
       <node id="2646108724982559799" at="45,19,46,18" concept="2" />
       <node id="2646108724982559799" at="51,26,52,18" concept="7" />
       <node id="2646108724982559799" at="55,39,56,32" concept="7" />
@@ -719,7 +719,7 @@
       <node id="2646108724982559799" at="55,0,58,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4421291014788375690" at="78,0,81,0" concept="5" trace="getText#()Ljava/lang/String;" />
       <node id="1571013049655790934" at="135,0,138,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2646108724982559799" at="44,0,48,0" concept="1" trace="ChildTest_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2646108724982559799" at="44,0,48,0" concept="1" trace="ChildTest_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2646108724982559799" at="110,0,114,5" concept="4" />
       <node id="2646108724982559799" at="49,0,54,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="4421291014788375690" at="76,54,81,15" concept="6" />
@@ -742,7 +742,7 @@
       <scope id="1571013049655790934" at="135,41,136,32" />
       <scope id="1571013049655790934" at="141,28,142,20" />
       <scope id="1571013049655858328" at="162,17,163,42" />
-      <scope id="2646108724982559799" at="44,89,46,18" />
+      <scope id="2646108724982559799" at="44,87,46,18" />
       <scope id="2646108724982559799" at="111,40,113,40" />
       <scope id="2646108724982559799" at="118,73,120,145">
         <var name="manager" id="2646108724982559799" />
@@ -804,28 +804,28 @@
         <var name="referenceLink" id="2646108724982559799" />
       </scope>
       <scope id="2646108724982559799" at="96,0,124,0" />
-      <unit id="2646108724982559799" at="173,0,176,0" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder_a$LINKS" />
-      <unit id="4421291014788375690" at="77,88,81,5" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder_a$1" />
-      <unit id="2646108724982559799" at="168,0,172,0" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder_a$PROPS" />
-      <unit id="2646108724982559799" at="177,0,181,0" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder_a$CONCEPTS" />
-      <unit id="2646108724982559799" at="98,42,106,5" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder_a$2" />
-      <unit id="1571013049655790934" at="124,0,167,0" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder_a$Inline_Builder0" />
-      <unit id="2646108724982559799" at="40,0,182,0" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder_a" />
+      <unit id="2646108724982559799" at="173,0,176,0" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder$LINKS" />
+      <unit id="4421291014788375690" at="77,88,81,5" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder$1" />
+      <unit id="2646108724982559799" at="168,0,172,0" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder$PROPS" />
+      <unit id="2646108724982559799" at="177,0,181,0" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder$CONCEPTS" />
+      <unit id="2646108724982559799" at="98,42,106,5" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder$2" />
+      <unit id="1571013049655790934" at="124,0,167,0" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder$Inline_Builder0" />
+      <unit id="2646108724982559799" at="40,0,182,0" name="de.itemis.mps.editor.pagination.demolang.editor.ChildTest_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:1dd30ead-66d0-4853-83d7-723bb3ef3bbe(de.itemis.mps.editor.pagination.demolang.editor)/8814848848455680663">
     <file name="Test_Editor.java">
-      <node id="8814848848455680663" at="11,79,12,70" concept="7" />
+      <node id="8814848848455680663" at="11,79,12,68" concept="7" />
       <node id="8814848848455680663" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8814848848455680663" at="11,79,12,70" />
+      <scope id="8814848848455680663" at="11,79,12,68" />
       <scope id="8814848848455680663" at="11,0,14,0">
         <var name="editorContext" id="8814848848455680663" />
         <var name="node" id="8814848848455680663" />
       </scope>
       <unit id="8814848848455680663" at="10,0,15,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_Editor" />
     </file>
-    <file name="Test_EditorBuilder_a.java">
-      <node id="8814848848455680663" at="46,84,47,19" concept="12" />
+    <file name="Test_EditorBuilder.java">
+      <node id="8814848848455680663" at="46,82,47,19" concept="12" />
       <node id="8814848848455680663" at="47,19,48,18" concept="2" />
       <node id="8814848848455680663" at="53,26,54,18" concept="7" />
       <node id="8814848848455680663" at="57,39,58,32" concept="7" />
@@ -902,7 +902,7 @@
       <node id="8814848848455680663" at="122,0,125,0" concept="5" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="8814848848455680663" at="125,0,128,0" concept="5" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="8814848848455680663" at="169,96,172,9" concept="4" />
-      <node id="8814848848455680663" at="46,0,50,0" concept="1" trace="Test_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8814848848455680663" at="46,0,50,0" concept="1" trace="Test_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8814848848455680663" at="113,0,117,0" concept="1" trace="collectionOfNodesListHandler_sbg7x_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="8814848848455680663" at="118,0,122,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8814848848455680663" at="151,97,155,9" concept="4" />
@@ -932,7 +932,7 @@
       <scope id="8814848848455680663" at="125,48,126,35" />
       <scope id="8814848848455680663" at="143,17,144,42" />
       <scope id="8814848848455680663" at="170,34,171,91" />
-      <scope id="8814848848455680663" at="46,84,48,18" />
+      <scope id="8814848848455680663" at="46,82,48,18" />
       <scope id="8814848848455680763" at="87,74,89,145">
         <var name="manager" id="8814848848455680763" />
       </scope>
@@ -1000,11 +1000,11 @@
         <var name="elementNode" id="8814848848455680663" />
         <var name="isEmptyCell" id="8814848848455680663" />
       </scope>
-      <unit id="8814848848455680663" at="183,0,186,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_EditorBuilder_a$PROPS" />
-      <unit id="8814848848455680663" at="192,0,195,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_EditorBuilder_a$LINKS" />
-      <unit id="8814848848455680663" at="187,0,191,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_EditorBuilder_a$CONCEPTS" />
-      <unit id="8814848848455680663" at="109,0,176,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_EditorBuilder_a$collectionOfNodesListHandler_sbg7x_c0" />
-      <unit id="8814848848455680663" at="42,0,196,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_EditorBuilder_a" />
+      <unit id="8814848848455680663" at="183,0,186,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_EditorBuilder$PROPS" />
+      <unit id="8814848848455680663" at="192,0,195,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_EditorBuilder$LINKS" />
+      <unit id="8814848848455680663" at="187,0,191,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_EditorBuilder$CONCEPTS" />
+      <unit id="8814848848455680663" at="109,0,176,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_EditorBuilder$collectionOfNodesListHandler_sbg7x_c0" />
+      <unit id="8814848848455680663" at="42,0,196,0" name="de.itemis.mps.editor.pagination.demolang.editor.Test_EditorBuilder" />
     </file>
   </root>
 </debug-info>

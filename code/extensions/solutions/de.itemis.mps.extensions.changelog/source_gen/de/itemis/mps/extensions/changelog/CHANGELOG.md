@@ -10,6 +10,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *com.jetbrains.mpsext.stubs.jcef* added due to missing stubs in current MPS version. The stubs are read from the MPS installation's jcef-plugin. See https://youtrack.jetbrains.com/issue/MPS-40100/com.intellij.ui.jcef-stubs-missing for more information.
 
+### Fixed
+
+- *de.itemis.mps.editor.diagram.runtime* Fix `IllegalStateException: Editor is already disposed` logged when a diagram editor is closed while its automatic layout is still running.
+
 ## October 2026
 
 ### Added

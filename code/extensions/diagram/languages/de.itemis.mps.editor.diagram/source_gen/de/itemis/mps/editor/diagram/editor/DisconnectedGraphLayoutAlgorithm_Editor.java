@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class DisconnectedGraphLayoutAlgorithm_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new DisconnectedGraphLayoutAlgorithm_EditorBuilder_a(editorContext, node).createCell();
+    return new DisconnectedGraphLayoutAlgorithm_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new DisconnectedGraphLayoutAlgorithm_InspectorBuilder_a(editorContext, node).createCell();
+    return new DisconnectedGraphLayoutAlgorithm_InspectorBuilder(editorContext, node).createCell();
   }
 }

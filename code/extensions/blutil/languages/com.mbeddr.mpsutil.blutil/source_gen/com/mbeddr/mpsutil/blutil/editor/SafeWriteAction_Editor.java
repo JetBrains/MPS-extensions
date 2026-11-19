@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class SafeWriteAction_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new SafeWriteAction_EditorBuilder_a(editorContext, node).createCell();
+    return new SafeWriteAction_EditorBuilder(editorContext, node).createCell();
   }
 }

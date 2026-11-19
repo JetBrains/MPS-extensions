@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Sine_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Sine_EditorBuilder_a(editorContext, node).createCell();
+    return new Sine_EditorBuilder(editorContext, node).createCell();
   }
 }

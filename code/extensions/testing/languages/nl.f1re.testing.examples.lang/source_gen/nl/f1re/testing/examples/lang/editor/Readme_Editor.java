@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Readme_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Readme_EditorBuilder_a(editorContext, node).createCell();
+    return new Readme_EditorBuilder(editorContext, node).createCell();
   }
 }

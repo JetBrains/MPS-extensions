@@ -18,17 +18,17 @@
   </root>
   <root nodeRef="r:0873c8cc-058c-434d-a138-33cb24019394(com.mbeddr.mpsutil.modellisteners.sandboxlang.editor)/6105788070831797759">
     <file name="RootConcept_Editor.java">
-      <node id="6105788070831797759" at="11,79,12,77" concept="6" />
+      <node id="6105788070831797759" at="11,79,12,75" concept="6" />
       <node id="6105788070831797759" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6105788070831797759" at="11,79,12,77" />
+      <scope id="6105788070831797759" at="11,79,12,75" />
       <scope id="6105788070831797759" at="11,0,14,0">
         <var name="editorContext" id="6105788070831797759" />
         <var name="node" id="6105788070831797759" />
       </scope>
       <unit id="6105788070831797759" at="10,0,15,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_Editor" />
     </file>
-    <file name="RootConcept_EditorBuilder_a.java">
-      <node id="6105788070831797759" at="50,91,51,19" concept="9" />
+    <file name="RootConcept_EditorBuilder.java">
+      <node id="6105788070831797759" at="50,89,51,19" concept="9" />
       <node id="6105788070831797759" at="51,19,52,18" concept="1" />
       <node id="6105788070831797759" at="57,26,58,18" concept="6" />
       <node id="6105788070831797759" at="61,39,62,32" concept="6" />
@@ -375,7 +375,7 @@
       <node id="6105788070831797759" at="325,96,328,9" concept="3" />
       <node id="6105788070831798662" at="407,0,410,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6105788070831799610" at="504,0,507,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6105788070831797759" at="50,0,54,0" concept="0" trace="RootConcept_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6105788070831797759" at="50,0,54,0" concept="0" trace="RootConcept_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6105788070831797759" at="165,0,169,0" concept="0" trace="originalListHandler_aw3qer_c3a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6105788070831797759" at="170,0,174,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6105788070831797759" at="203,97,207,9" concept="3" />
@@ -471,7 +471,7 @@
       <scope id="6105788070831799610" at="510,28,511,20" />
       <scope id="6105788070831799611" at="531,17,532,42" />
       <scope id="6105788070833513975" at="581,15,582,40" />
-      <scope id="6105788070831797759" at="50,91,52,18" />
+      <scope id="6105788070831797759" at="50,89,52,18" />
       <scope id="6105788070831797961" at="95,74,97,145">
         <var name="manager" id="6105788070831797961" />
       </scope>
@@ -743,31 +743,31 @@
       </scope>
       <scope id="6105788070831797759" at="368,0,396,0" />
       <scope id="6105788070831797759" at="465,0,493,0" />
-      <unit id="6105788070831797759" at="596,0,600,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder_a$PROPS" />
-      <unit id="6105788070831797759" at="601,0,606,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder_a$CONCEPTS" />
-      <unit id="6105788070831797759" at="607,0,613,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder_a$LINKS" />
-      <unit id="6105788070831797759" at="370,42,378,5" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder_a$1" />
-      <unit id="6105788070831797759" at="467,42,475,5" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder_a$2" />
-      <unit id="6105788070831798662" at="396,0,439,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder_a$Inline_Builder0" />
-      <unit id="6105788070831799610" at="493,0,536,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder_a$Inline_Builder1" />
-      <unit id="6105788070831797759" at="161,0,228,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder_a$originalListHandler_aw3qer_c3a" />
-      <unit id="6105788070831797759" at="265,0,332,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder_a$mirrorListHandler_aw3qer_g3a" />
-      <unit id="6105788070831797759" at="46,0,614,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder_a" />
+      <unit id="6105788070831797759" at="596,0,600,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder$PROPS" />
+      <unit id="6105788070831797759" at="601,0,606,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder$CONCEPTS" />
+      <unit id="6105788070831797759" at="607,0,613,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder$LINKS" />
+      <unit id="6105788070831797759" at="370,42,378,5" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder$1" />
+      <unit id="6105788070831797759" at="467,42,475,5" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder$2" />
+      <unit id="6105788070831798662" at="396,0,439,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder$Inline_Builder0" />
+      <unit id="6105788070831799610" at="493,0,536,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder$Inline_Builder1" />
+      <unit id="6105788070831797759" at="161,0,228,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder$originalListHandler_aw3qer_c3a" />
+      <unit id="6105788070831797759" at="265,0,332,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder$mirrorListHandler_aw3qer_g3a" />
+      <unit id="6105788070831797759" at="46,0,614,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.RootConcept_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0873c8cc-058c-434d-a138-33cb24019394(com.mbeddr.mpsutil.modellisteners.sandboxlang.editor)/6105788070831798823">
     <file name="ChildConceptA_Editor.java">
-      <node id="6105788070831798823" at="11,79,12,79" concept="6" />
+      <node id="6105788070831798823" at="11,79,12,77" concept="6" />
       <node id="6105788070831798823" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6105788070831798823" at="11,79,12,79" />
+      <scope id="6105788070831798823" at="11,79,12,77" />
       <scope id="6105788070831798823" at="11,0,14,0">
         <var name="editorContext" id="6105788070831798823" />
         <var name="node" id="6105788070831798823" />
       </scope>
       <unit id="6105788070831798823" at="10,0,15,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.ChildConceptA_Editor" />
     </file>
-    <file name="ChildConceptA_EditorBuilder_a.java">
-      <node id="6105788070831798823" at="35,93,36,19" concept="9" />
+    <file name="ChildConceptA_EditorBuilder.java">
+      <node id="6105788070831798823" at="35,91,36,19" concept="9" />
       <node id="6105788070831798823" at="36,19,37,18" concept="1" />
       <node id="6105788070831798823" at="42,26,43,18" concept="6" />
       <node id="6105788070831798823" at="46,39,47,32" concept="6" />
@@ -808,7 +808,7 @@
       <node id="6105788070831798823" at="102,0,103,0" concept="8" trace="PropertyAttribute$Gb" />
       <node id="6105788070831798823" at="32,0,34,0" concept="2" trace="myNode" />
       <node id="6105788070831798823" at="46,0,49,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6105788070831798823" at="35,0,39,0" concept="0" trace="ChildConceptA_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6105788070831798823" at="35,0,39,0" concept="0" trace="ChildConceptA_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6105788070831798823" at="40,0,45,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6105788070831799025" at="77,208,82,24" concept="3" />
       <node id="6105788070831799024" at="60,0,66,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -819,7 +819,7 @@
       <scope id="6105788070831798823" at="42,26,43,18" />
       <scope id="6105788070831798823" at="46,39,47,32" />
       <scope id="6105788070831799025" at="83,15,84,40" />
-      <scope id="6105788070831798823" at="35,93,37,18" />
+      <scope id="6105788070831798823" at="35,91,37,18" />
       <scope id="6105788070831799025" at="78,74,80,145">
         <var name="manager" id="6105788070831799025" />
       </scope>
@@ -850,9 +850,9 @@
       </scope>
       <scope id="6105788070831799025" at="66,41,85,5" />
       <scope id="6105788070831799025" at="66,0,87,0" />
-      <unit id="6105788070831798823" at="97,0,100,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.ChildConceptA_EditorBuilder_a$PROPS" />
-      <unit id="6105788070831798823" at="101,0,104,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.ChildConceptA_EditorBuilder_a$CONCEPTS" />
-      <unit id="6105788070831798823" at="31,0,105,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.ChildConceptA_EditorBuilder_a" />
+      <unit id="6105788070831798823" at="97,0,100,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.ChildConceptA_EditorBuilder$PROPS" />
+      <unit id="6105788070831798823" at="101,0,104,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.ChildConceptA_EditorBuilder$CONCEPTS" />
+      <unit id="6105788070831798823" at="31,0,105,0" name="com.mbeddr.mpsutil.modellisteners.sandboxlang.editor.ChildConceptA_EditorBuilder" />
     </file>
   </root>
 </debug-info>

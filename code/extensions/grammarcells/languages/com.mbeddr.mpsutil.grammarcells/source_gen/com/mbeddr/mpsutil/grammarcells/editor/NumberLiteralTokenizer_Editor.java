@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class NumberLiteralTokenizer_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new NumberLiteralTokenizer_EditorBuilder_a(editorContext, node).createCell();
+    return new NumberLiteralTokenizer_EditorBuilder(editorContext, node).createCell();
   }
 }

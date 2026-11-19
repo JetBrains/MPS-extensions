@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root nodeRef="r:5de29430-c053-484a-9826-87e7556eee3e(com.mbeddr.doc.test.documents.code)/5075049671772234472">
+    <file name="myClass.java">
+      <node id="5075049671772234652" at="13,32,14,17" concept="1" />
+      <node id="5075049671772234524" at="13,0,16,0" concept="0" trace="foo#(II)I" />
+      <scope id="5075049671772234527" at="13,32,14,17" />
+      <scope id="5075049671772234524" at="13,0,16,0">
+        <var name="a" id="5075049671772234547" />
+        <var name="b" id="5075049671772234578" />
+      </scope>
+      <unit id="5075049671772234472" at="9,0,17,0" name="com.mbeddr.doc.test.documents.code.myClass" />
+    </file>
+  </root>
+</debug-info>
+

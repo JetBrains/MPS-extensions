@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class FoldAccumulator_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new FoldAccumulator_EditorBuilder_a(editorContext, node).createCell();
+    return new FoldAccumulator_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class NegationAttribute_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new NegationAttribute_EditorBuilder_a(editorContext, node).createCell();
+    return new NegationAttribute_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -88,17 +88,17 @@
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/1660993416176099448">
     <file name="PriorityRule_Editor.java">
-      <node id="1660993416176099448" at="11,79,12,78" concept="6" />
+      <node id="1660993416176099448" at="11,79,12,76" concept="6" />
       <node id="1660993416176099448" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1660993416176099448" at="11,79,12,78" />
+      <scope id="1660993416176099448" at="11,79,12,76" />
       <scope id="1660993416176099448" at="11,0,14,0">
         <var name="editorContext" id="1660993416176099448" />
         <var name="node" id="1660993416176099448" />
       </scope>
       <unit id="1660993416176099448" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_Editor" />
     </file>
-    <file name="PriorityRule_EditorBuilder_a.java">
-      <node id="1660993416176099448" at="47,92,48,19" concept="9" />
+    <file name="PriorityRule_EditorBuilder.java">
+      <node id="1660993416176099448" at="47,90,48,19" concept="9" />
       <node id="1660993416176099448" at="48,19,49,18" concept="1" />
       <node id="1660993416176099448" at="54,26,55,18" concept="6" />
       <node id="1660993416176099448" at="58,39,59,32" concept="6" />
@@ -108,13 +108,13 @@
       <node id="1660993416176099448" at="65,28,66,31" concept="1" />
       <node id="1660993416176099457" at="66,31,67,49" concept="1" />
       <node id="7678600301243143195" at="67,49,68,48" concept="1" />
-      <node id="1660993416176099496" at="69,37,70,50" concept="1" />
+      <node id="1660993416176099496" at="69,27,70,50" concept="1" />
       <node id="5395534041252395419" at="71,5,72,49" concept="1" />
       <node id="7678600301243143221" at="72,49,73,48" concept="1" />
-      <node id="1660993416176099463" at="74,37,75,50" concept="1" />
+      <node id="1660993416176099463" at="74,27,75,50" concept="1" />
       <node id="1660993416176099448" at="76,5,77,22" concept="6" />
-      <node id="7678600301243143488" at="79,46,80,73" concept="6" />
-      <node id="7678600301243148884" at="82,46,83,72" concept="6" />
+      <node id="7678600301243143488" at="79,36,80,73" concept="6" />
+      <node id="7678600301243148884" at="82,36,83,72" concept="6" />
       <node id="1660993416176099457" at="85,41,86,102" concept="5" />
       <node id="1660993416176099457" at="86,102,87,47" concept="1" />
       <node id="1660993416176099457" at="87,47,88,34" concept="1" />
@@ -238,8 +238,8 @@
       <node id="1660993416176099448" at="58,0,61,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1660993416176099496" at="68,48,71,5" concept="3" />
       <node id="1660993416176099463" at="73,48,76,5" concept="3" />
-      <node id="7678600301243143235" at="79,0,82,0" concept="4" trace="nodeCondition_1qnzza_a2a#()Z" />
-      <node id="7678600301243148631" at="82,0,85,0" concept="4" trace="nodeCondition_1qnzza_a5a#()Z" />
+      <node id="7678600301243143235" at="79,0,82,0" concept="4" trace="nodeCondition0#()Z" />
+      <node id="7678600301243148631" at="82,0,85,0" concept="4" trace="nodeCondition1#()Z" />
       <node id="1660993416176099448" at="120,87,123,7" concept="3" />
       <node id="1660993416176099448" at="123,7,126,7" concept="3" />
       <node id="1660993416176099448" at="142,0,145,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
@@ -248,7 +248,7 @@
       <node id="1660993416176099448" at="242,7,245,7" concept="3" />
       <node id="1660993416176099448" at="261,0,264,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="1660993416176099465" at="304,0,307,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1660993416176099448" at="47,0,51,0" concept="0" trace="PriorityRule_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1660993416176099448" at="47,0,51,0" concept="0" trace="PriorityRule_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1660993416176099448" at="91,0,95,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1660993416176099448" at="99,0,103,0" concept="0" trace="highSingleRoleHandler_1qnzza_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1660993416176099448" at="160,0,164,5" concept="3" />
@@ -285,10 +285,10 @@
       <node id="1660993416176099448" at="265,0,293,0" concept="4" trace="createRefCell_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="1660993416176099448" at="54,26,55,18" />
       <scope id="1660993416176099448" at="58,39,59,32" />
-      <scope id="1660993416176099496" at="69,37,70,50" />
-      <scope id="1660993416176099463" at="74,37,75,50" />
-      <scope id="7678600301243143236" at="79,46,80,73" />
-      <scope id="7678600301243148632" at="82,46,83,72" />
+      <scope id="1660993416176099496" at="69,27,70,50" />
+      <scope id="1660993416176099463" at="74,27,75,50" />
+      <scope id="7678600301243143236" at="79,36,80,73" />
+      <scope id="7678600301243148632" at="82,36,83,72" />
       <scope id="1660993416176099448" at="106,28,107,20" />
       <scope id="1660993416176099448" at="121,118,122,137" />
       <scope id="1660993416176099448" at="124,42,125,45" />
@@ -303,7 +303,7 @@
       <scope id="1660993416176099448" at="261,40,262,19" />
       <scope id="1660993416176099465" at="304,41,305,45" />
       <scope id="1660993416176099465" at="310,28,311,20" />
-      <scope id="1660993416176099448" at="47,92,49,18" />
+      <scope id="1660993416176099448" at="47,90,49,18" />
       <scope id="1660993416176099448" at="91,40,93,33">
         <var name="provider" id="1660993416176099448" />
       </scope>
@@ -444,30 +444,30 @@
       </scope>
       <scope id="1660993416176099448" at="146,0,174,0" />
       <scope id="1660993416176099448" at="265,0,293,0" />
-      <unit id="1660993416176099448" at="331,0,334,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder_a$CONCEPTS" />
-      <unit id="1660993416176099448" at="324,0,330,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder_a$LINKS" />
-      <unit id="1660993416176099448" at="148,42,156,5" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder_a$1" />
-      <unit id="1660993416176099448" at="267,42,275,5" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder_a$2" />
-      <unit id="1660993416176099498" at="174,0,204,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder_a$Inline_Builder0" />
-      <unit id="1660993416176099465" at="293,0,323,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder_a$Inline_Builder1" />
-      <unit id="1660993416176099448" at="95,0,146,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder_a$highSingleRoleHandler_1qnzza_b0" />
-      <unit id="1660993416176099448" at="214,0,265,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder_a$lowSingleRoleHandler_1qnzza_e0" />
-      <unit id="1660993416176099448" at="43,0,335,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder_a" />
+      <unit id="1660993416176099448" at="331,0,334,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder$CONCEPTS" />
+      <unit id="1660993416176099448" at="324,0,330,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder$LINKS" />
+      <unit id="1660993416176099448" at="148,42,156,5" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder$1" />
+      <unit id="1660993416176099448" at="267,42,275,5" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder$2" />
+      <unit id="1660993416176099498" at="174,0,204,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder$Inline_Builder0" />
+      <unit id="1660993416176099465" at="293,0,323,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder$Inline_Builder1" />
+      <unit id="1660993416176099448" at="95,0,146,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder$highSingleRoleHandler_1qnzza_b0" />
+      <unit id="1660993416176099448" at="214,0,265,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder$lowSingleRoleHandler_1qnzza_e0" />
+      <unit id="1660993416176099448" at="43,0,335,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityRule_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/1700528364959225813">
     <file name="EmptyLine_Editor.java">
-      <node id="1700528364959225813" at="11,79,12,75" concept="6" />
+      <node id="1700528364959225813" at="11,79,12,73" concept="6" />
       <node id="1700528364959225813" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1700528364959225813" at="11,79,12,75" />
+      <scope id="1700528364959225813" at="11,79,12,73" />
       <scope id="1700528364959225813" at="11,0,14,0">
         <var name="editorContext" id="1700528364959225813" />
         <var name="node" id="1700528364959225813" />
       </scope>
       <unit id="1700528364959225813" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.EmptyLine_Editor" />
     </file>
-    <file name="EmptyLine_EditorBuilder_a.java">
-      <node id="1700528364959225813" at="19,89,20,19" concept="9" />
+    <file name="EmptyLine_EditorBuilder.java">
+      <node id="1700528364959225813" at="19,87,20,19" concept="9" />
       <node id="1700528364959225813" at="20,19,21,18" concept="1" />
       <node id="1700528364959225813" at="26,26,27,18" concept="6" />
       <node id="1700528364959225813" at="30,39,31,30" concept="6" />
@@ -482,12 +482,12 @@
       <node id="1700528364959225937" at="42,34,43,22" concept="6" />
       <node id="1700528364959225813" at="16,0,18,0" concept="2" trace="myNode" />
       <node id="1700528364959225813" at="30,0,33,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1700528364959225813" at="19,0,23,0" concept="0" trace="EmptyLine_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1700528364959225813" at="19,0,23,0" concept="0" trace="EmptyLine_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1700528364959225813" at="24,0,29,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1700528364959225937" at="34,0,45,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="1700528364959225813" at="26,26,27,18" />
       <scope id="1700528364959225813" at="30,39,31,30" />
-      <scope id="1700528364959225813" at="19,89,21,18" />
+      <scope id="1700528364959225813" at="19,87,21,18" />
       <scope id="1700528364959225813" at="30,0,33,0" />
       <scope id="1700528364959225813" at="19,0,23,0">
         <var name="context" id="1700528364959225813" />
@@ -499,22 +499,22 @@
         <var name="style" id="1700528364959225937" />
       </scope>
       <scope id="1700528364959225937" at="34,0,45,0" />
-      <unit id="1700528364959225813" at="15,0,46,0" name="de.q60.mps.polymorphicfunctions.editor.EmptyLine_EditorBuilder_a" />
+      <unit id="1700528364959225813" at="15,0,46,0" name="de.q60.mps.polymorphicfunctions.editor.EmptyLine_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/1700528364959225958">
     <file name="PolymorphicFunctionsModule_Editor.java">
-      <node id="1700528364959225958" at="11,79,12,92" concept="6" />
+      <node id="1700528364959225958" at="11,79,12,90" concept="6" />
       <node id="1700528364959225958" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1700528364959225958" at="11,79,12,92" />
+      <scope id="1700528364959225958" at="11,79,12,90" />
       <scope id="1700528364959225958" at="11,0,14,0">
         <var name="editorContext" id="1700528364959225958" />
         <var name="node" id="1700528364959225958" />
       </scope>
       <unit id="1700528364959225958" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionsModule_Editor" />
     </file>
-    <file name="PolymorphicFunctionsModule_EditorBuilder_a.java">
-      <node id="1700528364959225958" at="48,106,49,19" concept="9" />
+    <file name="PolymorphicFunctionsModule_EditorBuilder.java">
+      <node id="1700528364959225958" at="48,104,49,19" concept="9" />
       <node id="1700528364959225958" at="49,19,50,18" concept="1" />
       <node id="1700528364959225958" at="55,26,56,18" concept="6" />
       <node id="1700528364959225958" at="59,39,60,32" concept="6" />
@@ -606,7 +606,7 @@
       <node id="1700528364959225958" at="140,0,143,0" concept="4" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1700528364959225958" at="144,0,147,0" concept="4" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1700528364959225958" at="187,96,190,9" concept="3" />
-      <node id="1700528364959225958" at="48,0,52,0" concept="0" trace="PolymorphicFunctionsModule_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1700528364959225958" at="48,0,52,0" concept="0" trace="PolymorphicFunctionsModule_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1700528364959225958" at="125,0,129,0" concept="0" trace="contentListHandler_rrtd3x_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1700528364959225958" at="130,0,134,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1700528364959225958" at="169,97,173,9" concept="3" />
@@ -639,7 +639,7 @@
       <scope id="1700528364959262578" at="144,73,145,195" />
       <scope id="1700528364959225958" at="161,17,162,42" />
       <scope id="1700528364959225958" at="188,34,189,91" />
-      <scope id="1700528364959225958" at="48,106,50,18" />
+      <scope id="1700528364959225958" at="48,104,50,18" />
       <scope id="3814377006350674064" at="93,74,95,145">
         <var name="manager" id="3814377006350674064" />
       </scope>
@@ -724,11 +724,11 @@
         <var name="elementNode" id="1700528364959225958" />
         <var name="isEmptyCell" id="1700528364959225958" />
       </scope>
-      <unit id="1700528364959225958" at="204,0,207,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionsModule_EditorBuilder_a$PROPS" />
-      <unit id="1700528364959225958" at="213,0,216,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionsModule_EditorBuilder_a$LINKS" />
-      <unit id="1700528364959225958" at="208,0,212,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionsModule_EditorBuilder_a$CONCEPTS" />
-      <unit id="1700528364959225958" at="121,0,194,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionsModule_EditorBuilder_a$contentListHandler_rrtd3x_d0" />
-      <unit id="1700528364959225958" at="44,0,217,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionsModule_EditorBuilder_a" />
+      <unit id="1700528364959225958" at="204,0,207,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionsModule_EditorBuilder$PROPS" />
+      <unit id="1700528364959225958" at="213,0,216,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionsModule_EditorBuilder$LINKS" />
+      <unit id="1700528364959225958" at="208,0,212,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionsModule_EditorBuilder$CONCEPTS" />
+      <unit id="1700528364959225958" at="121,0,194,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionsModule_EditorBuilder$contentListHandler_rrtd3x_d0" />
+      <unit id="1700528364959225958" at="44,0,217,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionsModule_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/1700528364959264035">
@@ -742,12 +742,12 @@
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/1700528364959285098">
     <file name="PolymorphicFunctionDeclaration_Editor.java">
-      <node id="1700528364959285098" at="11,79,12,96" concept="6" />
-      <node id="1700528364959285098" at="14,82,15,99" concept="6" />
+      <node id="1700528364959285098" at="11,79,12,94" concept="6" />
+      <node id="1700528364959285098" at="14,82,15,97" concept="6" />
       <node id="1700528364959285098" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1700528364959285098" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1700528364959285098" at="11,79,12,96" />
-      <scope id="1700528364959285098" at="14,82,15,99" />
+      <scope id="1700528364959285098" at="11,79,12,94" />
+      <scope id="1700528364959285098" at="14,82,15,97" />
       <scope id="1700528364959285098" at="11,0,14,0">
         <var name="editorContext" id="1700528364959285098" />
         <var name="node" id="1700528364959285098" />
@@ -758,8 +758,8 @@
       </scope>
       <unit id="1700528364959285098" at="10,0,18,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_Editor" />
     </file>
-    <file name="PolymorphicFunctionDeclaration_EditorBuilder_a.java">
-      <node id="1700528364959285098" at="50,110,51,19" concept="9" />
+    <file name="PolymorphicFunctionDeclaration_EditorBuilder.java">
+      <node id="1700528364959285098" at="50,108,51,19" concept="9" />
       <node id="1700528364959285098" at="51,19,52,18" concept="1" />
       <node id="1700528364959285098" at="57,26,58,18" concept="6" />
       <node id="1700528364959285098" at="61,39,62,32" concept="6" />
@@ -773,13 +773,13 @@
       <node id="1700528364959325823" at="72,49,73,52" concept="1" />
       <node id="1700528364959285359" at="73,52,74,49" concept="1" />
       <node id="1700528364959690334" at="74,49,75,49" concept="1" />
-      <node id="6393752169615663041" at="76,37,77,51" concept="1" />
+      <node id="6393752169615663041" at="76,27,77,51" concept="1" />
       <node id="1700528364959690462" at="78,5,79,48" concept="1" />
-      <node id="6393752169615663168" at="80,37,81,51" concept="1" />
+      <node id="6393752169615663168" at="80,27,81,51" concept="1" />
       <node id="1700528364959285407" at="82,5,83,49" concept="1" />
       <node id="1700528364959285098" at="83,49,84,22" concept="6" />
-      <node id="6393752169615742950" at="86,46,87,71" concept="6" />
-      <node id="6393752169615747197" at="89,46,90,71" concept="6" />
+      <node id="6393752169615742950" at="86,36,87,71" concept="6" />
+      <node id="6393752169615747197" at="89,36,90,71" concept="6" />
       <node id="1700528364959285241" at="92,42,93,119" concept="5" />
       <node id="1700528364959285241" at="93,119,94,22" concept="6" />
       <node id="1700528364959285293" at="96,41,97,39" concept="1" />
@@ -917,14 +917,14 @@
       <node id="1700528364959285098" at="61,0,64,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6393752169615663041" at="75,49,78,5" concept="3" />
       <node id="6393752169615663168" at="79,48,82,5" concept="3" />
-      <node id="6393752169615742301" at="86,0,89,0" concept="4" trace="nodeCondition_6zp0o0_a6a#()Z" />
-      <node id="6393752169615746723" at="89,0,92,0" concept="4" trace="nodeCondition_6zp0o0_a8a#()Z" />
+      <node id="6393752169615742301" at="86,0,89,0" concept="4" trace="nodeCondition0#()Z" />
+      <node id="6393752169615746723" at="89,0,92,0" concept="4" trace="nodeCondition1#()Z" />
       <node id="1700528364959285098" at="147,0,150,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="1700528364959285098" at="150,0,153,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="1700528364959285098" at="273,87,276,7" concept="3" />
       <node id="1700528364959285098" at="276,7,279,7" concept="3" />
       <node id="1700528364959285098" at="295,0,298,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="1700528364959285098" at="50,0,54,0" concept="0" trace="PolymorphicFunctionDeclaration_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1700528364959285098" at="50,0,54,0" concept="0" trace="PolymorphicFunctionDeclaration_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1700528364959285241" at="92,0,96,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1700528364959285098" at="138,0,142,0" concept="0" trace="parametersListHandler_6zp0o0_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1700528364959285098" at="143,0,147,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -962,10 +962,10 @@
       <node id="1700528364959285098" at="175,0,201,0" concept="4" trace="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Z)V" />
       <scope id="1700528364959285098" at="57,26,58,18" />
       <scope id="1700528364959285098" at="61,39,62,32" />
-      <scope id="6393752169615663041" at="76,37,77,51" />
-      <scope id="6393752169615663168" at="80,37,81,51" />
-      <scope id="6393752169615742302" at="86,46,87,71" />
-      <scope id="6393752169615746724" at="89,46,90,71" />
+      <scope id="6393752169615663041" at="76,27,77,51" />
+      <scope id="6393752169615663168" at="80,27,81,51" />
+      <scope id="6393752169615742302" at="86,36,87,71" />
+      <scope id="6393752169615746724" at="89,36,90,71" />
       <scope id="1700528364959285293" at="113,15,114,40" />
       <scope id="1700528364959285098" at="144,28,145,20" />
       <scope id="1700528364959285098" at="147,40,148,35" />
@@ -976,7 +976,7 @@
       <scope id="1700528364959285098" at="277,42,278,55" />
       <scope id="1700528364959285098" at="291,17,292,42" />
       <scope id="1700528364959285098" at="295,40,296,35" />
-      <scope id="1700528364959285098" at="50,110,52,18" />
+      <scope id="1700528364959285098" at="50,108,52,18" />
       <scope id="1700528364959285241" at="92,42,94,22">
         <var name="editorCell" id="1700528364959285241" />
       </scope>
@@ -1109,15 +1109,15 @@
         <var name="elementNode" id="1700528364959285098" />
         <var name="isEmptyCell" id="1700528364959285098" />
       </scope>
-      <unit id="1700528364959285098" at="321,0,325,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_EditorBuilder_a$PROPS" />
-      <unit id="1700528364959285098" at="326,0,330,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_EditorBuilder_a$CONCEPTS" />
-      <unit id="1700528364959285098" at="331,0,335,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_EditorBuilder_a$LINKS" />
-      <unit id="1700528364959285098" at="248,0,299,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_EditorBuilder_a$returnBaseTypeSingleRoleHandler_6zp0o0_h0" />
-      <unit id="1700528364959285098" at="134,0,214,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_EditorBuilder_a$parametersListHandler_6zp0o0_d0" />
-      <unit id="1700528364959285098" at="46,0,336,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_EditorBuilder_a" />
+      <unit id="1700528364959285098" at="321,0,325,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_EditorBuilder$PROPS" />
+      <unit id="1700528364959285098" at="326,0,330,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_EditorBuilder$CONCEPTS" />
+      <unit id="1700528364959285098" at="331,0,335,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_EditorBuilder$LINKS" />
+      <unit id="1700528364959285098" at="248,0,299,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_EditorBuilder$returnBaseTypeSingleRoleHandler_6zp0o0_h0" />
+      <unit id="1700528364959285098" at="134,0,214,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_EditorBuilder$parametersListHandler_6zp0o0_d0" />
+      <unit id="1700528364959285098" at="46,0,336,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_EditorBuilder" />
     </file>
-    <file name="PolymorphicFunctionDeclaration_InspectorBuilder_a.java">
-      <node id="1700528364959285098" at="32,113,33,19" concept="9" />
+    <file name="PolymorphicFunctionDeclaration_InspectorBuilder.java">
+      <node id="1700528364959285098" at="32,111,33,19" concept="9" />
       <node id="1700528364959285098" at="33,19,34,18" concept="1" />
       <node id="1700528364959285098" at="39,26,40,18" concept="6" />
       <node id="1700528364959285098" at="43,39,44,32" concept="6" />
@@ -1150,7 +1150,7 @@
       <node id="1700528364959285098" at="89,0,90,0" concept="8" trace="PropertyAttribute$Gb" />
       <node id="1700528364959285098" at="29,0,31,0" concept="2" trace="myNode" />
       <node id="1700528364959285098" at="43,0,46,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1700528364959285098" at="32,0,36,0" concept="0" trace="PolymorphicFunctionDeclaration_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1700528364959285098" at="32,0,36,0" concept="0" trace="PolymorphicFunctionDeclaration_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1700528364959285098" at="37,0,42,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6393752169615662791" at="73,208,78,24" concept="3" />
       <node id="6393752169615662777" at="56,0,62,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1160,7 +1160,7 @@
       <scope id="1700528364959285098" at="39,26,40,18" />
       <scope id="1700528364959285098" at="43,39,44,32" />
       <scope id="6393752169615662791" at="79,15,80,40" />
-      <scope id="1700528364959285098" at="32,113,34,18" />
+      <scope id="1700528364959285098" at="32,111,34,18" />
       <scope id="6393752169615662791" at="74,74,76,145">
         <var name="manager" id="6393752169615662791" />
       </scope>
@@ -1186,24 +1186,24 @@
       </scope>
       <scope id="6393752169615662791" at="62,41,81,5" />
       <scope id="6393752169615662791" at="62,0,83,0" />
-      <unit id="1700528364959285098" at="84,0,87,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_InspectorBuilder_a$PROPS" />
-      <unit id="1700528364959285098" at="88,0,91,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_InspectorBuilder_a$CONCEPTS" />
-      <unit id="1700528364959285098" at="28,0,92,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_InspectorBuilder_a" />
+      <unit id="1700528364959285098" at="84,0,87,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_InspectorBuilder$PROPS" />
+      <unit id="1700528364959285098" at="88,0,91,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_InspectorBuilder$CONCEPTS" />
+      <unit id="1700528364959285098" at="28,0,92,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionDeclaration_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/1700528364959302275">
     <file name="PFParameterDeclaration_Editor.java">
-      <node id="1700528364959302275" at="11,79,12,88" concept="6" />
+      <node id="1700528364959302275" at="11,79,12,86" concept="6" />
       <node id="1700528364959302275" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1700528364959302275" at="11,79,12,88" />
+      <scope id="1700528364959302275" at="11,79,12,86" />
       <scope id="1700528364959302275" at="11,0,14,0">
         <var name="editorContext" id="1700528364959302275" />
         <var name="node" id="1700528364959302275" />
       </scope>
       <unit id="1700528364959302275" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterDeclaration_Editor" />
     </file>
-    <file name="PFParameterDeclaration_EditorBuilder_a.java">
-      <node id="1700528364959302275" at="39,102,40,19" concept="9" />
+    <file name="PFParameterDeclaration_EditorBuilder.java">
+      <node id="1700528364959302275" at="39,100,40,19" concept="9" />
       <node id="1700528364959302275" at="40,19,41,18" concept="1" />
       <node id="1700528364959302275" at="46,26,47,18" concept="6" />
       <node id="1700528364959302275" at="50,39,51,32" concept="6" />
@@ -1258,7 +1258,7 @@
       <node id="1700528364959302275" at="92,87,95,7" concept="3" />
       <node id="1700528364959302275" at="95,7,98,7" concept="3" />
       <node id="1700528364959302275" at="114,0,117,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="1700528364959302275" at="39,0,43,0" concept="0" trace="PFParameterDeclaration_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1700528364959302275" at="39,0,43,0" concept="0" trace="PFParameterDeclaration_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1700528364959302275" at="63,0,67,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1700528364959302275" at="71,0,75,0" concept="0" trace="typeSingleRoleHandler_n7li36_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1700528364959302275" at="44,0,49,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -1279,7 +1279,7 @@
       <scope id="1700528364959302275" at="110,17,111,42" />
       <scope id="1700528364959302275" at="114,40,115,25" />
       <scope id="1700528364959302425" at="135,15,136,40" />
-      <scope id="1700528364959302275" at="39,102,41,18" />
+      <scope id="1700528364959302275" at="39,100,41,18" />
       <scope id="1700528364959302275" at="63,40,65,33">
         <var name="provider" id="1700528364959302275" />
       </scope>
@@ -1330,21 +1330,21 @@
       </scope>
       <scope id="1700528364959302425" at="118,41,137,5" />
       <scope id="1700528364959302425" at="118,0,139,0" />
-      <unit id="1700528364959302275" at="140,0,143,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterDeclaration_EditorBuilder_a$LINKS" />
-      <unit id="1700528364959302275" at="144,0,147,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterDeclaration_EditorBuilder_a$PROPS" />
-      <unit id="1700528364959302275" at="148,0,151,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterDeclaration_EditorBuilder_a$CONCEPTS" />
-      <unit id="1700528364959302275" at="67,0,118,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterDeclaration_EditorBuilder_a$typeSingleRoleHandler_n7li36_a0" />
-      <unit id="1700528364959302275" at="35,0,152,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterDeclaration_EditorBuilder_a" />
+      <unit id="1700528364959302275" at="140,0,143,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterDeclaration_EditorBuilder$LINKS" />
+      <unit id="1700528364959302275" at="144,0,147,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterDeclaration_EditorBuilder$PROPS" />
+      <unit id="1700528364959302275" at="148,0,151,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterDeclaration_EditorBuilder$CONCEPTS" />
+      <unit id="1700528364959302275" at="67,0,118,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterDeclaration_EditorBuilder$typeSingleRoleHandler_n7li36_a0" />
+      <unit id="1700528364959302275" at="35,0,152,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterDeclaration_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/1700528364959392224">
     <file name="PolymorphicFunctionImplementation_Editor.java">
-      <node id="1700528364959392224" at="11,79,12,99" concept="6" />
-      <node id="1700528364959392224" at="14,82,15,102" concept="6" />
+      <node id="1700528364959392224" at="11,79,12,97" concept="6" />
+      <node id="1700528364959392224" at="14,82,15,100" concept="6" />
       <node id="1700528364959392224" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1700528364959392224" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1700528364959392224" at="11,79,12,99" />
-      <scope id="1700528364959392224" at="14,82,15,102" />
+      <scope id="1700528364959392224" at="11,79,12,97" />
+      <scope id="1700528364959392224" at="14,82,15,100" />
       <scope id="1700528364959392224" at="11,0,14,0">
         <var name="editorContext" id="1700528364959392224" />
         <var name="node" id="1700528364959392224" />
@@ -1355,8 +1355,8 @@
       </scope>
       <unit id="1700528364959392224" at="10,0,18,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_Editor" />
     </file>
-    <file name="PolymorphicFunctionImplementation_EditorBuilder_a.java">
-      <node id="1700528364959392224" at="57,113,58,19" concept="9" />
+    <file name="PolymorphicFunctionImplementation_EditorBuilder.java">
+      <node id="1700528364959392224" at="57,111,58,19" concept="9" />
       <node id="1700528364959392224" at="58,19,59,18" concept="1" />
       <node id="1700528364959392224" at="64,26,65,18" concept="6" />
       <node id="1700528364959392224" at="68,39,69,32" concept="6" />
@@ -1376,9 +1376,9 @@
       <node id="1700528364959392450" at="85,48,86,49" concept="1" />
       <node id="1700528364959392576" at="86,49,87,48" concept="1" />
       <node id="1700528364959392508" at="87,48,88,49" concept="1" />
-      <node id="1660993416175339720" at="89,38,90,53" concept="1" />
+      <node id="1660993416175339720" at="89,27,90,53" concept="1" />
       <node id="1700528364959392224" at="91,5,92,22" concept="6" />
-      <node id="1660993416175386387" at="94,47,95,77" concept="6" />
+      <node id="1660993416175386387" at="94,36,95,77" concept="6" />
       <node id="1700528364959392367" at="97,42,98,119" concept="5" />
       <node id="1700528364959392367" at="98,119,99,22" concept="6" />
       <node id="1700528364959392224" at="101,40,102,57" concept="5" />
@@ -1645,7 +1645,7 @@
       <node id="1700528364959392224" at="530,0,532,0" concept="2" trace="myNode" />
       <node id="1700528364959392224" at="68,0,71,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1660993416175339720" at="88,49,91,5" concept="3" />
-      <node id="1660993416175385919" at="94,0,97,0" concept="4" trace="nodeCondition_d82onq_a21a#()Z" />
+      <node id="1660993416175385919" at="94,0,97,0" concept="4" trace="nodeCondition0#()Z" />
       <node id="1700528364959392386" at="140,0,143,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1660993416176257585" at="186,0,189,0" concept="4" trace="getText#()Ljava/lang/String;" />
       <node id="1700528364959392224" at="231,0,234,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
@@ -1660,7 +1660,7 @@
       <node id="1700528364959392224" at="554,87,557,7" concept="3" />
       <node id="1700528364959392224" at="557,7,560,7" concept="3" />
       <node id="1700528364959392224" at="576,0,579,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="1700528364959392224" at="57,0,61,0" concept="0" trace="PolymorphicFunctionImplementation_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1700528364959392224" at="57,0,61,0" concept="0" trace="PolymorphicFunctionImplementation_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1700528364959392367" at="97,0,101,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1700528364959392224" at="115,0,119,5" concept="3" />
       <node id="1700528364959392224" at="222,0,226,0" concept="0" trace="parametersListHandler_d82onq_f0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -1731,8 +1731,8 @@
       <node id="1700528364959392224" at="316,0,347,0" concept="4" trace="createRefCell_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="1700528364959392224" at="64,26,65,18" />
       <scope id="1700528364959392224" at="68,39,69,32" />
-      <scope id="1660993416175339720" at="89,38,90,53" />
-      <scope id="1660993416175385920" at="94,47,95,77" />
+      <scope id="1660993416175339720" at="89,27,90,53" />
+      <scope id="1660993416175385920" at="94,36,95,77" />
       <scope id="1700528364959392386" at="140,41,141,32" />
       <scope id="1700528364959392386" at="146,28,147,20" />
       <scope id="1700528364959392417" at="167,17,168,42" />
@@ -1758,7 +1758,7 @@
       <scope id="1700528364959392224" at="558,42,559,50" />
       <scope id="1700528364959392224" at="572,17,573,42" />
       <scope id="1700528364959392224" at="576,40,577,30" />
-      <scope id="1700528364959392224" at="57,113,59,18" />
+      <scope id="1700528364959392224" at="57,111,59,18" />
       <scope id="1700528364959392367" at="97,42,99,22">
         <var name="editorCell" id="1700528364959392367" />
       </scope>
@@ -2023,22 +2023,22 @@
         <var name="style" id="1700528364959392224" />
       </scope>
       <scope id="1700528364959392224" at="316,0,347,0" />
-      <unit id="1700528364959392224" at="595,0,598,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder_a$PROPS" />
-      <unit id="1660993416176257585" at="185,88,189,5" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder_a$2" />
-      <unit id="1700528364959392224" at="589,0,594,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder_a$CONCEPTS" />
-      <unit id="1700528364959392224" at="581,0,588,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder_a$LINKS" />
-      <unit id="1700528364959392224" at="103,42,111,5" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder_a$1" />
-      <unit id="1700528364959392224" at="318,42,326,5" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder_a$3" />
-      <unit id="1700528364959392386" at="129,0,172,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder_a$Inline_Builder0" />
-      <unit id="3814377006350723913" at="378,0,429,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder_a$Inline_Builder1$returnBaseTypeSingleRoleHandler_d82onq_a0a8a" />
-      <unit id="1700528364959392224" at="529,0,580,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder_a$conditionSingleRoleHandler_d82onq_b21a" />
-      <unit id="1700528364959392224" at="443,0,497,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder_a$bodySingleRoleHandler_d82onq_k0" />
-      <unit id="1700528364959392224" at="218,0,298,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder_a$parametersListHandler_d82onq_f0" />
-      <unit id="3814377006350723913" at="347,0,430,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder_a$Inline_Builder1" />
-      <unit id="1700528364959392224" at="53,0,599,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder_a" />
+      <unit id="1700528364959392224" at="595,0,598,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder$PROPS" />
+      <unit id="1660993416176257585" at="185,88,189,5" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder$2" />
+      <unit id="1700528364959392224" at="589,0,594,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder$CONCEPTS" />
+      <unit id="1700528364959392224" at="581,0,588,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder$LINKS" />
+      <unit id="1700528364959392224" at="103,42,111,5" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder$1" />
+      <unit id="1700528364959392224" at="318,42,326,5" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder$3" />
+      <unit id="1700528364959392386" at="129,0,172,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder$Inline_Builder0" />
+      <unit id="3814377006350723913" at="378,0,429,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder$Inline_Builder1$returnBaseTypeSingleRoleHandler_d82onq_a0a8a" />
+      <unit id="1700528364959392224" at="529,0,580,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder$conditionSingleRoleHandler_d82onq_b21a" />
+      <unit id="1700528364959392224" at="443,0,497,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder$bodySingleRoleHandler_d82onq_k0" />
+      <unit id="1700528364959392224" at="218,0,298,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder$parametersListHandler_d82onq_f0" />
+      <unit id="3814377006350723913" at="347,0,430,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder$Inline_Builder1" />
+      <unit id="1700528364959392224" at="53,0,599,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_EditorBuilder" />
     </file>
-    <file name="PolymorphicFunctionImplementation_InspectorBuilder_a.java">
-      <node id="1700528364959392224" at="40,116,41,19" concept="9" />
+    <file name="PolymorphicFunctionImplementation_InspectorBuilder.java">
+      <node id="1700528364959392224" at="40,114,41,19" concept="9" />
       <node id="1700528364959392224" at="41,19,42,18" concept="1" />
       <node id="1700528364959392224" at="47,26,48,18" concept="6" />
       <node id="1700528364959392224" at="51,39,52,32" concept="6" />
@@ -2106,7 +2106,7 @@
       <node id="1700528364959392224" at="109,7,112,7" concept="3" />
       <node id="1700528364959392224" at="128,0,131,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="3378269547578184323" at="147,0,150,0" concept="4" trace="getText#()Ljava/lang/String;" />
-      <node id="1700528364959392224" at="40,0,44,0" concept="0" trace="PolymorphicFunctionImplementation_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1700528364959392224" at="40,0,44,0" concept="0" trace="PolymorphicFunctionImplementation_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1700528364959392224" at="77,0,81,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1700528364959392224" at="85,0,89,0" concept="0" trace="conditionSingleRoleHandler_d82onq_b0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1700528364959392224" at="45,0,50,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2130,7 +2130,7 @@
       <scope id="1700528364959392224" at="124,17,125,42" />
       <scope id="1700528364959392224" at="128,40,129,30" />
       <scope id="3378269547578184329" at="147,31,148,203" />
-      <scope id="1700528364959392224" at="40,116,42,18" />
+      <scope id="1700528364959392224" at="40,114,42,18" />
       <scope id="1700528364959392224" at="77,40,79,33">
         <var name="provider" id="1700528364959392224" />
       </scope>
@@ -2192,26 +2192,26 @@
       </scope>
       <scope id="1700528364959392224" at="114,0,128,0" />
       <scope id="3378269547578184323" at="145,0,160,0" />
-      <unit id="1700528364959392224" at="161,0,164,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_InspectorBuilder_a$LINKS" />
-      <unit id="1700528364959392224" at="165,0,168,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_InspectorBuilder_a$PROPS" />
-      <unit id="3378269547578184323" at="146,88,150,5" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_InspectorBuilder_a$1" />
-      <unit id="1700528364959392224" at="81,0,132,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_InspectorBuilder_a$conditionSingleRoleHandler_d82onq_b0a" />
-      <unit id="1700528364959392224" at="36,0,169,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_InspectorBuilder_a" />
+      <unit id="1700528364959392224" at="161,0,164,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_InspectorBuilder$LINKS" />
+      <unit id="1700528364959392224" at="165,0,168,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_InspectorBuilder$PROPS" />
+      <unit id="3378269547578184323" at="146,88,150,5" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_InspectorBuilder$1" />
+      <unit id="1700528364959392224" at="81,0,132,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_InspectorBuilder$conditionSingleRoleHandler_d82onq_b0a" />
+      <unit id="1700528364959392224" at="36,0,169,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionImplementation_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/1700528364959781206">
     <file name="PFParameterReference_Editor.java">
-      <node id="1700528364959781206" at="11,79,12,86" concept="6" />
+      <node id="1700528364959781206" at="11,79,12,84" concept="6" />
       <node id="1700528364959781206" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1700528364959781206" at="11,79,12,86" />
+      <scope id="1700528364959781206" at="11,79,12,84" />
       <scope id="1700528364959781206" at="11,0,14,0">
         <var name="editorContext" id="1700528364959781206" />
         <var name="node" id="1700528364959781206" />
       </scope>
       <unit id="1700528364959781206" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterReference_Editor" />
     </file>
-    <file name="PFParameterReference_EditorBuilder_a.java">
-      <node id="1700528364959781206" at="43,100,44,19" concept="9" />
+    <file name="PFParameterReference_EditorBuilder.java">
+      <node id="1700528364959781206" at="43,98,44,19" concept="9" />
       <node id="1700528364959781206" at="44,19,45,18" concept="1" />
       <node id="1700528364959781206" at="50,26,51,18" concept="6" />
       <node id="1700528364959781206" at="54,39,55,32" concept="6" />
@@ -2274,7 +2274,7 @@
       <node id="1700528364959781332" at="102,0,104,0" concept="2" trace="myNode" />
       <node id="1700528364959781206" at="54,0,57,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1700528364959781332" at="112,0,115,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1700528364959781206" at="43,0,47,0" concept="0" trace="PFParameterReference_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1700528364959781206" at="43,0,47,0" concept="0" trace="PFParameterReference_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1700528364959781206" at="87,0,91,5" concept="3" />
       <node id="1700528364959781206" at="48,0,53,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1700528364959781206" at="94,205,99,22" concept="3" />
@@ -2293,7 +2293,7 @@
       <scope id="1700528364959781332" at="112,41,113,32" />
       <scope id="1700528364959781332" at="118,28,119,20" />
       <scope id="1700528364959781358" at="142,17,143,42" />
-      <scope id="1700528364959781206" at="43,100,45,18" />
+      <scope id="1700528364959781206" at="43,98,45,18" />
       <scope id="1700528364959781206" at="88,40,90,43" />
       <scope id="1700528364959781206" at="95,73,97,145">
         <var name="manager" id="1700528364959781206" />
@@ -2348,27 +2348,27 @@
         <var name="referenceLink" id="1700528364959781206" />
       </scope>
       <scope id="1700528364959781206" at="66,0,101,0" />
-      <unit id="1700528364959781206" at="148,0,151,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterReference_EditorBuilder_a$LINKS" />
-      <unit id="1700528364959781206" at="157,0,160,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterReference_EditorBuilder_a$PROPS" />
-      <unit id="1700528364959781206" at="152,0,156,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterReference_EditorBuilder_a$CONCEPTS" />
-      <unit id="1700528364959781206" at="68,42,83,5" name="de.q60.mps.polymorphicfunctions.editor.PFParameterReference_EditorBuilder_a$1" />
-      <unit id="1700528364959781332" at="101,0,147,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterReference_EditorBuilder_a$Inline_Builder0" />
-      <unit id="1700528364959781206" at="39,0,161,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterReference_EditorBuilder_a" />
+      <unit id="1700528364959781206" at="148,0,151,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterReference_EditorBuilder$LINKS" />
+      <unit id="1700528364959781206" at="157,0,160,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterReference_EditorBuilder$PROPS" />
+      <unit id="1700528364959781206" at="152,0,156,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterReference_EditorBuilder$CONCEPTS" />
+      <unit id="1700528364959781206" at="68,42,83,5" name="de.q60.mps.polymorphicfunctions.editor.PFParameterReference_EditorBuilder$1" />
+      <unit id="1700528364959781332" at="101,0,147,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterReference_EditorBuilder$Inline_Builder0" />
+      <unit id="1700528364959781206" at="39,0,161,0" name="de.q60.mps.polymorphicfunctions.editor.PFParameterReference_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/1785934427385011271">
     <file name="WithPFContext_Editor.java">
-      <node id="1785934427385011271" at="11,79,12,79" concept="6" />
+      <node id="1785934427385011271" at="11,79,12,77" concept="6" />
       <node id="1785934427385011271" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1785934427385011271" at="11,79,12,79" />
+      <scope id="1785934427385011271" at="11,79,12,77" />
       <scope id="1785934427385011271" at="11,0,14,0">
         <var name="editorContext" id="1785934427385011271" />
         <var name="node" id="1785934427385011271" />
       </scope>
       <unit id="1785934427385011271" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.WithPFContext_Editor" />
     </file>
-    <file name="WithPFContext_EditorBuilder_a.java">
-      <node id="1785934427385011271" at="30,93,31,19" concept="9" />
+    <file name="WithPFContext_EditorBuilder.java">
+      <node id="1785934427385011271" at="30,91,31,19" concept="9" />
       <node id="1785934427385011271" at="31,19,32,18" concept="1" />
       <node id="1785934427385011271" at="37,26,38,18" concept="6" />
       <node id="1785934427385011271" at="41,39,42,32" concept="6" />
@@ -2457,7 +2457,7 @@
       <node id="1785934427385011271" at="155,87,158,7" concept="3" />
       <node id="1785934427385011271" at="158,7,161,7" concept="3" />
       <node id="1785934427385011271" at="180,0,183,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="1785934427385011271" at="30,0,34,0" concept="0" trace="WithPFContext_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1785934427385011271" at="30,0,34,0" concept="0" trace="WithPFContext_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1785934427385011283" at="57,0,61,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1785934427385011271" at="61,0,65,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1785934427385011271" at="69,0,73,0" concept="0" trace="contextSingleRoleHandler_c4apu4_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -2489,7 +2489,7 @@
       <scope id="1785934427385011271" at="159,42,160,45" />
       <scope id="1785934427385011271" at="176,17,177,42" />
       <scope id="1785934427385011271" at="180,40,181,25" />
-      <scope id="1785934427385011271" at="30,93,32,18" />
+      <scope id="1785934427385011271" at="30,91,32,18" />
       <scope id="1785934427385011283" at="57,42,59,22">
         <var name="editorCell" id="1785934427385011283" />
       </scope>
@@ -2574,25 +2574,25 @@
       <scope id="1785934427385011271" at="45,0,57,0" />
       <scope id="1785934427385011271" at="98,0,112,0" />
       <scope id="1785934427385011271" at="166,0,180,0" />
-      <unit id="1785934427385011271" at="195,0,199,0" name="de.q60.mps.polymorphicfunctions.editor.WithPFContext_EditorBuilder_a$LINKS" />
-      <unit id="1785934427385011271" at="65,0,116,0" name="de.q60.mps.polymorphicfunctions.editor.WithPFContext_EditorBuilder_a$contextSingleRoleHandler_c4apu4_b0" />
-      <unit id="1785934427385011271" at="130,0,184,0" name="de.q60.mps.polymorphicfunctions.editor.WithPFContext_EditorBuilder_a$bodySingleRoleHandler_c4apu4_d0" />
-      <unit id="1785934427385011271" at="26,0,200,0" name="de.q60.mps.polymorphicfunctions.editor.WithPFContext_EditorBuilder_a" />
+      <unit id="1785934427385011271" at="195,0,199,0" name="de.q60.mps.polymorphicfunctions.editor.WithPFContext_EditorBuilder$LINKS" />
+      <unit id="1785934427385011271" at="65,0,116,0" name="de.q60.mps.polymorphicfunctions.editor.WithPFContext_EditorBuilder$contextSingleRoleHandler_c4apu4_b0" />
+      <unit id="1785934427385011271" at="130,0,184,0" name="de.q60.mps.polymorphicfunctions.editor.WithPFContext_EditorBuilder$bodySingleRoleHandler_c4apu4_d0" />
+      <unit id="1785934427385011271" at="26,0,200,0" name="de.q60.mps.polymorphicfunctions.editor.WithPFContext_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/3378269547577556548">
     <file name="ContextDeclaration_Editor.java">
-      <node id="3378269547577556548" at="11,79,12,84" concept="6" />
+      <node id="3378269547577556548" at="11,79,12,82" concept="6" />
       <node id="3378269547577556548" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3378269547577556548" at="11,79,12,84" />
+      <scope id="3378269547577556548" at="11,79,12,82" />
       <scope id="3378269547577556548" at="11,0,14,0">
         <var name="editorContext" id="3378269547577556548" />
         <var name="node" id="3378269547577556548" />
       </scope>
       <unit id="3378269547577556548" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.ContextDeclaration_Editor" />
     </file>
-    <file name="ContextDeclaration_EditorBuilder_a.java">
-      <node id="3378269547577556548" at="46,98,47,19" concept="9" />
+    <file name="ContextDeclaration_EditorBuilder.java">
+      <node id="3378269547577556548" at="46,96,47,19" concept="9" />
       <node id="3378269547577556548" at="47,19,48,18" concept="1" />
       <node id="3378269547577556548" at="53,26,54,18" concept="6" />
       <node id="3378269547577556548" at="57,39,58,32" concept="6" />
@@ -2692,7 +2692,7 @@
       <node id="3378269547577556548" at="57,0,60,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3378269547577556548" at="128,0,131,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="3378269547577556548" at="131,0,134,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="3378269547577556548" at="46,0,50,0" concept="0" trace="ContextDeclaration_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3378269547577556548" at="46,0,50,0" concept="0" trace="ContextDeclaration_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3378269547577556551" at="73,0,77,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3378269547577556548" at="119,0,123,0" concept="0" trace="parametersListHandler_zmmeo_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="3378269547577556548" at="124,0,128,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2725,7 +2725,7 @@
       <scope id="3378269547577556548" at="128,40,129,35" />
       <scope id="3378269547577556548" at="131,48,132,53" />
       <scope id="3378269547577556548" at="149,17,150,42" />
-      <scope id="3378269547577556548" at="46,98,48,18" />
+      <scope id="3378269547577556548" at="46,96,48,18" />
       <scope id="3378269547577556551" at="73,42,75,22">
         <var name="editorCell" id="3378269547577556551" />
       </scope>
@@ -2812,26 +2812,26 @@
         <var name="elementNode" id="3378269547577556548" />
         <var name="isEmptyCell" id="3378269547577556548" />
       </scope>
-      <unit id="3378269547577556548" at="214,0,217,0" name="de.q60.mps.polymorphicfunctions.editor.ContextDeclaration_EditorBuilder_a$PROPS" />
-      <unit id="3378269547577556548" at="223,0,226,0" name="de.q60.mps.polymorphicfunctions.editor.ContextDeclaration_EditorBuilder_a$LINKS" />
-      <unit id="3378269547577556548" at="218,0,222,0" name="de.q60.mps.polymorphicfunctions.editor.ContextDeclaration_EditorBuilder_a$CONCEPTS" />
-      <unit id="3378269547577556548" at="115,0,204,0" name="de.q60.mps.polymorphicfunctions.editor.ContextDeclaration_EditorBuilder_a$parametersListHandler_zmmeo_d0" />
-      <unit id="3378269547577556548" at="42,0,227,0" name="de.q60.mps.polymorphicfunctions.editor.ContextDeclaration_EditorBuilder_a" />
+      <unit id="3378269547577556548" at="214,0,217,0" name="de.q60.mps.polymorphicfunctions.editor.ContextDeclaration_EditorBuilder$PROPS" />
+      <unit id="3378269547577556548" at="223,0,226,0" name="de.q60.mps.polymorphicfunctions.editor.ContextDeclaration_EditorBuilder$LINKS" />
+      <unit id="3378269547577556548" at="218,0,222,0" name="de.q60.mps.polymorphicfunctions.editor.ContextDeclaration_EditorBuilder$CONCEPTS" />
+      <unit id="3378269547577556548" at="115,0,204,0" name="de.q60.mps.polymorphicfunctions.editor.ContextDeclaration_EditorBuilder$parametersListHandler_zmmeo_d0" />
+      <unit id="3378269547577556548" at="42,0,227,0" name="de.q60.mps.polymorphicfunctions.editor.ContextDeclaration_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/3378269547577557942">
     <file name="ContextParameterDeclaration_Editor.java">
-      <node id="3378269547577557942" at="11,79,12,93" concept="6" />
+      <node id="3378269547577557942" at="11,79,12,91" concept="6" />
       <node id="3378269547577557942" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3378269547577557942" at="11,79,12,93" />
+      <scope id="3378269547577557942" at="11,79,12,91" />
       <scope id="3378269547577557942" at="11,0,14,0">
         <var name="editorContext" id="3378269547577557942" />
         <var name="node" id="3378269547577557942" />
       </scope>
       <unit id="3378269547577557942" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterDeclaration_Editor" />
     </file>
-    <file name="ContextParameterDeclaration_EditorBuilder_a.java">
-      <node id="3378269547577557942" at="43,107,44,19" concept="9" />
+    <file name="ContextParameterDeclaration_EditorBuilder.java">
+      <node id="3378269547577557942" at="43,105,44,19" concept="9" />
       <node id="3378269547577557942" at="44,19,45,18" concept="1" />
       <node id="3378269547577557942" at="50,26,51,18" concept="6" />
       <node id="3378269547577557942" at="54,39,55,32" concept="6" />
@@ -2894,7 +2894,7 @@
       <node id="3378269547577557942" at="127,87,130,7" concept="3" />
       <node id="3378269547577557942" at="130,7,133,7" concept="3" />
       <node id="3378269547577557942" at="149,0,152,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="3378269547577557942" at="43,0,47,0" concept="0" trace="ContextParameterDeclaration_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3378269547577557942" at="43,0,47,0" concept="0" trace="ContextParameterDeclaration_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3378269547577557942" at="98,0,102,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3378269547577557942" at="106,0,110,0" concept="0" trace="typeSingleRoleHandler_75f12u_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="3378269547577557942" at="48,0,53,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2916,7 +2916,7 @@
       <scope id="3378269547577557942" at="131,42,132,45" />
       <scope id="3378269547577557942" at="145,17,146,42" />
       <scope id="3378269547577557942" at="149,40,150,25" />
-      <scope id="3378269547577557942" at="43,107,45,18" />
+      <scope id="3378269547577557942" at="43,105,45,18" />
       <scope id="3378269547577557946" at="80,74,82,145">
         <var name="manager" id="3378269547577557946" />
       </scope>
@@ -2972,26 +2972,26 @@
       <scope id="3378269547577557942" at="135,0,149,0" />
       <scope id="3378269547577557946" at="68,41,87,5" />
       <scope id="3378269547577557946" at="68,0,89,0" />
-      <unit id="3378269547577557942" at="154,0,157,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterDeclaration_EditorBuilder_a$PROPS" />
-      <unit id="3378269547577557942" at="158,0,161,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterDeclaration_EditorBuilder_a$CONCEPTS" />
-      <unit id="3378269547577557942" at="162,0,165,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterDeclaration_EditorBuilder_a$LINKS" />
-      <unit id="3378269547577557942" at="102,0,153,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterDeclaration_EditorBuilder_a$typeSingleRoleHandler_75f12u_c0" />
-      <unit id="3378269547577557942" at="39,0,166,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterDeclaration_EditorBuilder_a" />
+      <unit id="3378269547577557942" at="154,0,157,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterDeclaration_EditorBuilder$PROPS" />
+      <unit id="3378269547577557942" at="158,0,161,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterDeclaration_EditorBuilder$CONCEPTS" />
+      <unit id="3378269547577557942" at="162,0,165,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterDeclaration_EditorBuilder$LINKS" />
+      <unit id="3378269547577557942" at="102,0,153,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterDeclaration_EditorBuilder$typeSingleRoleHandler_75f12u_c0" />
+      <unit id="3378269547577557942" at="39,0,166,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterDeclaration_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/3378269547577558140">
     <file name="ContextContainer_Editor.java">
-      <node id="3378269547577558140" at="11,79,12,82" concept="6" />
+      <node id="3378269547577558140" at="11,79,12,80" concept="6" />
       <node id="3378269547577558140" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3378269547577558140" at="11,79,12,82" />
+      <scope id="3378269547577558140" at="11,79,12,80" />
       <scope id="3378269547577558140" at="11,0,14,0">
         <var name="editorContext" id="3378269547577558140" />
         <var name="node" id="3378269547577558140" />
       </scope>
       <unit id="3378269547577558140" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_Editor" />
     </file>
-    <file name="ContextContainer_EditorBuilder_a.java">
-      <node id="3378269547577558140" at="61,96,62,19" concept="9" />
+    <file name="ContextContainer_EditorBuilder.java">
+      <node id="3378269547577558140" at="61,94,62,19" concept="9" />
       <node id="3378269547577558140" at="62,19,63,18" concept="1" />
       <node id="3378269547577558140" at="68,26,69,18" concept="6" />
       <node id="3378269547577558140" at="72,39,73,32" concept="6" />
@@ -3000,12 +3000,12 @@
       <node id="3378269547577558140" at="78,48,79,28" concept="1" />
       <node id="3378269547577558140" at="79,28,80,31" concept="1" />
       <node id="3378269547577559108" at="80,31,81,48" concept="1" />
-      <node id="3378269547577935562" at="82,37,83,53" concept="1" />
+      <node id="3378269547577935562" at="82,27,83,53" concept="1" />
       <node id="3378269547577616654" at="84,5,85,49" concept="1" />
       <node id="3378269547577618914" at="85,49,86,52" concept="1" />
       <node id="3378269547577618258" at="86,52,87,49" concept="1" />
       <node id="3378269547577558140" at="87,49,88,22" concept="6" />
-      <node id="3378269547577939267" at="90,46,91,164" concept="6" />
+      <node id="3378269547577939267" at="90,36,91,164" concept="6" />
       <node id="3378269547577558140" at="93,40,94,71" concept="5" />
       <node id="3378269547577558140" at="96,72,97,196" concept="5" />
       <node id="3378269547577558140" at="97,196,98,60" concept="1" />
@@ -3130,7 +3130,7 @@
       <node id="3378269547577558140" at="220,0,222,0" concept="2" trace="myNode" />
       <node id="3378269547577558140" at="72,0,75,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3378269547577935562" at="81,48,84,5" concept="3" />
-      <node id="3378269547577938755" at="90,0,93,0" concept="4" trace="nodeCondition_vtpsv1_a1a#()Z" />
+      <node id="3378269547577938755" at="90,0,93,0" concept="4" trace="nodeCondition0#()Z" />
       <node id="3378269547577559110" at="139,0,142,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3378269547577559125" at="178,0,181,0" concept="4" trace="getText#()Ljava/lang/String;" />
       <node id="3378269547577558140" at="232,0,235,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
@@ -3138,7 +3138,7 @@
       <node id="3378269547577558140" at="238,0,241,0" concept="4" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3378269547577558140" at="242,0,245,0" concept="4" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3378269547577558140" at="285,96,288,9" concept="3" />
-      <node id="3378269547577558140" at="61,0,65,0" concept="0" trace="ContextContainer_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3378269547577558140" at="61,0,65,0" concept="0" trace="ContextContainer_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3378269547577558140" at="114,0,118,5" concept="3" />
       <node id="3378269547577558140" at="223,0,227,0" concept="0" trace="contentListHandler_vtpsv1_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="3378269547577558140" at="228,0,232,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -3173,8 +3173,8 @@
       <node id="3378269547577558140" at="93,0,128,0" concept="4" trace="createRefCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="3378269547577558140" at="68,26,69,18" />
       <scope id="3378269547577558140" at="72,39,73,32" />
-      <scope id="3378269547577935562" at="82,37,83,53" />
-      <scope id="3378269547577938756" at="90,46,91,164" />
+      <scope id="3378269547577935562" at="82,27,83,53" />
+      <scope id="3378269547577938756" at="90,36,91,164" />
       <scope id="3378269547577559110" at="139,41,140,45" />
       <scope id="3378269547577559110" at="145,28,146,20" />
       <scope id="3378269547577559131" at="178,31,179,370" />
@@ -3185,7 +3185,7 @@
       <scope id="3378269547577619255" at="242,73,243,195" />
       <scope id="3378269547577558140" at="259,17,260,42" />
       <scope id="3378269547577558140" at="286,34,287,91" />
-      <scope id="3378269547577558140" at="61,96,63,18" />
+      <scope id="3378269547577558140" at="61,94,63,18" />
       <scope id="3378269547577558140" at="115,40,117,57" />
       <scope id="3378269547577558140" at="122,73,124,145">
         <var name="manager" id="3378269547577558140" />
@@ -3313,29 +3313,29 @@
         <var name="referenceLink" id="3378269547577558140" />
       </scope>
       <scope id="3378269547577558140" at="93,0,128,0" />
-      <unit id="3378269547577558140" at="314,0,317,0" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder_a$PROPS" />
-      <unit id="3378269547577559125" at="177,88,181,5" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder_a$2" />
-      <unit id="3378269547577558140" at="309,0,313,0" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder_a$CONCEPTS" />
-      <unit id="3378269547577558140" at="302,0,308,0" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder_a$LINKS" />
-      <unit id="3378269547577558140" at="95,42,110,5" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder_a$1" />
-      <unit id="3378269547577559110" at="128,0,155,0" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder_a$Inline_Builder0" />
-      <unit id="3378269547577558140" at="219,0,292,0" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder_a$contentListHandler_vtpsv1_d0" />
-      <unit id="3378269547577558140" at="57,0,318,0" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder_a" />
+      <unit id="3378269547577558140" at="314,0,317,0" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder$PROPS" />
+      <unit id="3378269547577559125" at="177,88,181,5" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder$2" />
+      <unit id="3378269547577558140" at="309,0,313,0" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder$CONCEPTS" />
+      <unit id="3378269547577558140" at="302,0,308,0" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder$LINKS" />
+      <unit id="3378269547577558140" at="95,42,110,5" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder$1" />
+      <unit id="3378269547577559110" at="128,0,155,0" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder$Inline_Builder0" />
+      <unit id="3378269547577558140" at="219,0,292,0" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder$contentListHandler_vtpsv1_d0" />
+      <unit id="3378269547577558140" at="57,0,318,0" name="de.q60.mps.polymorphicfunctions.editor.ContextContainer_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/3378269547578341346">
     <file name="ContextParameterReference_Editor.java">
-      <node id="3378269547578341346" at="11,79,12,91" concept="6" />
+      <node id="3378269547578341346" at="11,79,12,89" concept="6" />
       <node id="3378269547578341346" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3378269547578341346" at="11,79,12,91" />
+      <scope id="3378269547578341346" at="11,79,12,89" />
       <scope id="3378269547578341346" at="11,0,14,0">
         <var name="editorContext" id="3378269547578341346" />
         <var name="node" id="3378269547578341346" />
       </scope>
       <unit id="3378269547578341346" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterReference_Editor" />
     </file>
-    <file name="ContextParameterReference_EditorBuilder_a.java">
-      <node id="3378269547578341346" at="40,105,41,19" concept="9" />
+    <file name="ContextParameterReference_EditorBuilder.java">
+      <node id="3378269547578341346" at="40,103,41,19" concept="9" />
       <node id="3378269547578341346" at="41,19,42,18" concept="1" />
       <node id="3378269547578341346" at="47,26,48,18" concept="6" />
       <node id="3378269547578341346" at="51,39,52,32" concept="6" />
@@ -3385,7 +3385,7 @@
       <node id="3378269547578341351" at="99,0,101,0" concept="2" trace="myNode" />
       <node id="3378269547578341346" at="51,0,54,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3378269547578341351" at="109,0,112,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="3378269547578341346" at="40,0,44,0" concept="0" trace="ContextParameterReference_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3378269547578341346" at="40,0,44,0" concept="0" trace="ContextParameterReference_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3378269547578341346" at="84,0,88,5" concept="3" />
       <node id="3378269547578341346" at="45,0,50,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3378269547578341346" at="91,205,96,22" concept="3" />
@@ -3401,7 +3401,7 @@
       <scope id="3378269547578341346" at="51,39,52,32" />
       <scope id="3378269547578341351" at="109,41,110,45" />
       <scope id="3378269547578341351" at="115,28,116,20" />
-      <scope id="3378269547578341346" at="40,105,42,18" />
+      <scope id="3378269547578341346" at="40,103,42,18" />
       <scope id="3378269547578341346" at="85,40,87,43" />
       <scope id="3378269547578341346" at="92,73,94,145">
         <var name="manager" id="3378269547578341346" />
@@ -3449,26 +3449,26 @@
         <var name="referenceLink" id="3378269547578341346" />
       </scope>
       <scope id="3378269547578341346" at="63,0,98,0" />
-      <unit id="3378269547578341346" at="129,0,132,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterReference_EditorBuilder_a$LINKS" />
-      <unit id="3378269547578341346" at="133,0,136,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterReference_EditorBuilder_a$CONCEPTS" />
-      <unit id="3378269547578341346" at="65,42,80,5" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterReference_EditorBuilder_a$1" />
-      <unit id="3378269547578341351" at="98,0,128,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterReference_EditorBuilder_a$Inline_Builder0" />
-      <unit id="3378269547578341346" at="36,0,137,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterReference_EditorBuilder_a" />
+      <unit id="3378269547578341346" at="129,0,132,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterReference_EditorBuilder$LINKS" />
+      <unit id="3378269547578341346" at="133,0,136,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterReference_EditorBuilder$CONCEPTS" />
+      <unit id="3378269547578341346" at="65,42,80,5" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterReference_EditorBuilder$1" />
+      <unit id="3378269547578341351" at="98,0,128,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterReference_EditorBuilder$Inline_Builder0" />
+      <unit id="3378269547578341346" at="36,0,137,0" name="de.q60.mps.polymorphicfunctions.editor.ContextParameterReference_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/3378269547578515888">
     <file name="ContextCall_Editor.java">
-      <node id="3378269547578515888" at="11,79,12,77" concept="6" />
+      <node id="3378269547578515888" at="11,79,12,75" concept="6" />
       <node id="3378269547578515888" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3378269547578515888" at="11,79,12,77" />
+      <scope id="3378269547578515888" at="11,79,12,75" />
       <scope id="3378269547578515888" at="11,0,14,0">
         <var name="editorContext" id="3378269547578515888" />
         <var name="node" id="3378269547578515888" />
       </scope>
       <unit id="3378269547578515888" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_Editor" />
     </file>
-    <file name="ContextCall_EditorBuilder_a.java">
-      <node id="3378269547578515888" at="52,91,53,19" concept="9" />
+    <file name="ContextCall_EditorBuilder.java">
+      <node id="3378269547578515888" at="52,89,53,19" concept="9" />
       <node id="3378269547578515888" at="53,19,54,18" concept="1" />
       <node id="3378269547578515888" at="59,26,60,18" concept="6" />
       <node id="3378269547578515888" at="63,39,64,32" concept="6" />
@@ -3620,7 +3620,7 @@
       <node id="3378269547578515888" at="296,87,299,7" concept="3" />
       <node id="3378269547578515888" at="299,7,302,7" concept="3" />
       <node id="3378269547578515888" at="318,0,321,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="3378269547578515888" at="52,0,56,0" concept="0" trace="ContextCall_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3378269547578515888" at="52,0,56,0" concept="0" trace="ContextCall_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3378269547578515888" at="101,0,105,5" concept="3" />
       <node id="3378269547578515888" at="163,0,167,0" concept="0" trace="contextParameterValuesListHandler_h16x8f_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="3378269547578515888" at="168,0,172,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -3672,7 +3672,7 @@
       <scope id="3378269547578515888" at="300,42,301,45" />
       <scope id="3378269547578515888" at="314,17,315,42" />
       <scope id="3378269547578515888" at="318,40,319,25" />
-      <scope id="3378269547578515888" at="52,91,54,18" />
+      <scope id="3378269547578515888" at="52,89,54,18" />
       <scope id="3378269547578515888" at="102,40,104,50" />
       <scope id="3378269547578515888" at="109,73,111,145">
         <var name="manager" id="3378269547578515888" />
@@ -3814,23 +3814,23 @@
         <var name="referenceLink" id="3378269547578515888" />
       </scope>
       <scope id="3378269547578515888" at="80,0,115,0" />
-      <unit id="3378269547578515888" at="329,0,333,0" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder_a$CONCEPTS" />
-      <unit id="3378269547578515888" at="323,0,328,0" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder_a$LINKS" />
-      <unit id="3378269547578515888" at="82,42,97,5" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder_a$1" />
-      <unit id="3378269547578515900" at="115,0,142,0" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder_a$Inline_Builder0" />
-      <unit id="3378269547578515888" at="271,0,322,0" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder_a$bodySingleRoleHandler_h16x8f_f0" />
-      <unit id="3378269547578515888" at="159,0,248,0" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder_a$contextParameterValuesListHandler_h16x8f_c0" />
-      <unit id="3378269547578515888" at="48,0,334,0" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder_a" />
+      <unit id="3378269547578515888" at="329,0,333,0" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder$CONCEPTS" />
+      <unit id="3378269547578515888" at="323,0,328,0" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder$LINKS" />
+      <unit id="3378269547578515888" at="82,42,97,5" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder$1" />
+      <unit id="3378269547578515900" at="115,0,142,0" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder$Inline_Builder0" />
+      <unit id="3378269547578515888" at="271,0,322,0" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder$bodySingleRoleHandler_h16x8f_f0" />
+      <unit id="3378269547578515888" at="159,0,248,0" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder$contextParameterValuesListHandler_h16x8f_c0" />
+      <unit id="3378269547578515888" at="48,0,334,0" name="de.q60.mps.polymorphicfunctions.editor.ContextCall_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/3814377006350445218">
     <file name="PolymorphicFunctionCall_Editor.java">
-      <node id="3814377006350445218" at="11,79,12,89" concept="6" />
-      <node id="3814377006350445218" at="14,82,15,92" concept="6" />
+      <node id="3814377006350445218" at="11,79,12,87" concept="6" />
+      <node id="3814377006350445218" at="14,82,15,90" concept="6" />
       <node id="3814377006350445218" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3814377006350445218" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="3814377006350445218" at="11,79,12,89" />
-      <scope id="3814377006350445218" at="14,82,15,92" />
+      <scope id="3814377006350445218" at="11,79,12,87" />
+      <scope id="3814377006350445218" at="14,82,15,90" />
       <scope id="3814377006350445218" at="11,0,14,0">
         <var name="editorContext" id="3814377006350445218" />
         <var name="node" id="3814377006350445218" />
@@ -3841,8 +3841,8 @@
       </scope>
       <unit id="3814377006350445218" at="10,0,18,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_Editor" />
     </file>
-    <file name="PolymorphicFunctionCall_EditorBuilder_a.java">
-      <node id="3814377006350445218" at="51,103,52,19" concept="9" />
+    <file name="PolymorphicFunctionCall_EditorBuilder.java">
+      <node id="3814377006350445218" at="51,101,52,19" concept="9" />
       <node id="3814377006350445218" at="52,19,53,18" concept="1" />
       <node id="3814377006350445218" at="58,26,59,18" concept="6" />
       <node id="3814377006350445218" at="62,39,63,32" concept="6" />
@@ -3851,12 +3851,12 @@
       <node id="3814377006350445218" at="68,48,69,28" concept="1" />
       <node id="3814377006350445218" at="69,28,70,31" concept="1" />
       <node id="3814377006350445342" at="70,31,71,48" concept="1" />
-      <node id="4130484832568216094" at="72,37,73,51" concept="1" />
+      <node id="4130484832568216094" at="72,27,73,51" concept="1" />
       <node id="3814377006350445440" at="74,5,75,49" concept="1" />
       <node id="3814377006350445546" at="75,49,76,52" concept="1" />
       <node id="3814377006350445488" at="76,52,77,49" concept="1" />
       <node id="3814377006350445218" at="77,49,78,22" concept="6" />
-      <node id="4130484832568216371" at="80,46,81,77" concept="6" />
+      <node id="4130484832568216371" at="80,36,81,77" concept="6" />
       <node id="3814377006350445218" at="83,40,84,57" concept="5" />
       <node id="3814377006350445218" at="86,72,87,182" concept="5" />
       <node id="3814377006350445218" at="87,182,88,60" concept="1" />
@@ -3967,11 +3967,11 @@
       <node id="3814377006350445218" at="173,0,175,0" concept="2" trace="myNode" />
       <node id="3814377006350445218" at="62,0,65,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4130484832568216094" at="71,48,74,5" concept="3" />
-      <node id="4130484832568216118" at="80,0,83,0" concept="4" trace="nodeCondition_1u4xhc_a1a#()Z" />
+      <node id="4130484832568216118" at="80,0,83,0" concept="4" trace="nodeCondition0#()Z" />
       <node id="3814377006350445344" at="129,0,132,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3814377006350445218" at="185,0,188,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="3814377006350445218" at="188,0,191,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="3814377006350445218" at="51,0,55,0" concept="0" trace="PolymorphicFunctionCall_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3814377006350445218" at="51,0,55,0" concept="0" trace="PolymorphicFunctionCall_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3814377006350445218" at="104,0,108,5" concept="3" />
       <node id="3814377006350445218" at="176,0,180,0" concept="0" trace="parameterValuesListHandler_1u4xhc_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="3814377006350445218" at="181,0,185,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -4005,15 +4005,15 @@
       <node id="3814377006350445218" at="83,0,118,0" concept="4" trace="createRefCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="3814377006350445218" at="58,26,59,18" />
       <scope id="3814377006350445218" at="62,39,63,32" />
-      <scope id="4130484832568216094" at="72,37,73,51" />
-      <scope id="4130484832568216119" at="80,46,81,77" />
+      <scope id="4130484832568216094" at="72,27,73,51" />
+      <scope id="4130484832568216119" at="80,36,81,77" />
       <scope id="3814377006350445344" at="129,41,130,45" />
       <scope id="3814377006350445344" at="135,28,136,20" />
       <scope id="3814377006350445218" at="182,28,183,20" />
       <scope id="3814377006350445218" at="185,40,186,40" />
       <scope id="3814377006350445218" at="188,48,189,36" />
       <scope id="3814377006350445218" at="206,17,207,42" />
-      <scope id="3814377006350445218" at="51,103,53,18" />
+      <scope id="3814377006350445218" at="51,101,53,18" />
       <scope id="3814377006350445218" at="105,40,107,43" />
       <scope id="3814377006350445218" at="112,73,114,145">
         <var name="manager" id="3814377006350445218" />
@@ -4127,15 +4127,15 @@
         <var name="referenceLink" id="3814377006350445218" />
       </scope>
       <scope id="3814377006350445218" at="83,0,118,0" />
-      <unit id="3814377006350445218" at="277,0,281,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_EditorBuilder_a$CONCEPTS" />
-      <unit id="3814377006350445218" at="271,0,276,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_EditorBuilder_a$LINKS" />
-      <unit id="3814377006350445218" at="85,42,100,5" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_EditorBuilder_a$1" />
-      <unit id="3814377006350445344" at="118,0,145,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_EditorBuilder_a$Inline_Builder0" />
-      <unit id="3814377006350445218" at="172,0,261,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_EditorBuilder_a$parameterValuesListHandler_1u4xhc_d0" />
-      <unit id="3814377006350445218" at="47,0,282,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_EditorBuilder_a" />
+      <unit id="3814377006350445218" at="277,0,281,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_EditorBuilder$CONCEPTS" />
+      <unit id="3814377006350445218" at="271,0,276,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_EditorBuilder$LINKS" />
+      <unit id="3814377006350445218" at="85,42,100,5" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_EditorBuilder$1" />
+      <unit id="3814377006350445344" at="118,0,145,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_EditorBuilder$Inline_Builder0" />
+      <unit id="3814377006350445218" at="172,0,261,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_EditorBuilder$parameterValuesListHandler_1u4xhc_d0" />
+      <unit id="3814377006350445218" at="47,0,282,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_EditorBuilder" />
     </file>
-    <file name="PolymorphicFunctionCall_InspectorBuilder_a.java">
-      <node id="3814377006350445218" at="27,106,28,19" concept="9" />
+    <file name="PolymorphicFunctionCall_InspectorBuilder.java">
+      <node id="3814377006350445218" at="27,104,28,19" concept="9" />
       <node id="3814377006350445218" at="28,19,29,18" concept="1" />
       <node id="3814377006350445218" at="34,26,35,18" concept="6" />
       <node id="3814377006350445218" at="38,39,39,32" concept="6" />
@@ -4178,7 +4178,7 @@
       <node id="3814377006350445218" at="86,87,89,7" concept="3" />
       <node id="3814377006350445218" at="89,7,92,7" concept="3" />
       <node id="3814377006350445218" at="108,0,111,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="3814377006350445218" at="27,0,31,0" concept="0" trace="PolymorphicFunctionCall_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3814377006350445218" at="27,0,31,0" concept="0" trace="PolymorphicFunctionCall_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3814377006350445218" at="57,0,61,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3814377006350445218" at="65,0,69,0" concept="0" trace="pfcontextSingleRoleHandler_1u4xhc_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="3814377006350445218" at="32,0,37,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -4196,7 +4196,7 @@
       <scope id="3814377006350445218" at="90,42,91,50" />
       <scope id="3814377006350445218" at="104,17,105,42" />
       <scope id="3814377006350445218" at="108,40,109,30" />
-      <scope id="3814377006350445218" at="27,106,29,18" />
+      <scope id="3814377006350445218" at="27,104,29,18" />
       <scope id="3814377006350445218" at="57,40,59,33">
         <var name="provider" id="3814377006350445218" />
       </scope>
@@ -4240,24 +4240,24 @@
       <scope id="3814377006350445218" at="42,0,51,0" />
       <scope id="3814377006350445218" at="95,44,106,7" />
       <scope id="3814377006350445218" at="94,0,108,0" />
-      <unit id="3814377006350445218" at="113,0,116,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_InspectorBuilder_a$LINKS" />
-      <unit id="3814377006350445218" at="61,0,112,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_InspectorBuilder_a$pfcontextSingleRoleHandler_1u4xhc_b0" />
-      <unit id="3814377006350445218" at="23,0,117,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_InspectorBuilder_a" />
+      <unit id="3814377006350445218" at="113,0,116,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_InspectorBuilder$LINKS" />
+      <unit id="3814377006350445218" at="61,0,112,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_InspectorBuilder$pfcontextSingleRoleHandler_1u4xhc_b0" />
+      <unit id="3814377006350445218" at="23,0,117,0" name="de.q60.mps.polymorphicfunctions.editor.PolymorphicFunctionCall_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/4739596383734465960">
     <file name="PriorityGroupCall_Editor.java">
-      <node id="4739596383734465960" at="11,79,12,83" concept="6" />
+      <node id="4739596383734465960" at="11,79,12,81" concept="6" />
       <node id="4739596383734465960" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4739596383734465960" at="11,79,12,83" />
+      <scope id="4739596383734465960" at="11,79,12,81" />
       <scope id="4739596383734465960" at="11,0,14,0">
         <var name="editorContext" id="4739596383734465960" />
         <var name="node" id="4739596383734465960" />
       </scope>
       <unit id="4739596383734465960" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupCall_Editor" />
     </file>
-    <file name="PriorityGroupCall_EditorBuilder_a.java">
-      <node id="4739596383734465960" at="48,97,49,19" concept="9" />
+    <file name="PriorityGroupCall_EditorBuilder.java">
+      <node id="4739596383734465960" at="48,95,49,19" concept="9" />
       <node id="4739596383734465960" at="49,19,50,18" concept="1" />
       <node id="4739596383734465960" at="55,26,56,18" concept="6" />
       <node id="4739596383734465960" at="59,39,60,32" concept="6" />
@@ -4340,7 +4340,7 @@
       <node id="4739596383734465960" at="174,87,177,7" concept="3" />
       <node id="4739596383734465960" at="177,7,180,7" concept="3" />
       <node id="4739596383734465960" at="196,0,199,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="4739596383734465960" at="48,0,52,0" concept="0" trace="PriorityGroupCall_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4739596383734465960" at="48,0,52,0" concept="0" trace="PriorityGroupCall_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4739596383734465960" at="94,0,98,5" concept="3" />
       <node id="4739596383734465960" at="145,0,149,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4739596383734465960" at="153,0,157,0" concept="0" trace="bodySingleRoleHandler_1179dl_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -4369,7 +4369,7 @@
       <scope id="4739596383734465960" at="178,42,179,45" />
       <scope id="4739596383734465960" at="192,17,193,42" />
       <scope id="4739596383734465960" at="196,40,197,25" />
-      <scope id="4739596383734465960" at="48,97,50,18" />
+      <scope id="4739596383734465960" at="48,95,50,18" />
       <scope id="4739596383734465960" at="95,40,97,48" />
       <scope id="4739596383734465960" at="102,73,104,145">
         <var name="manager" id="4739596383734465960" />
@@ -4450,27 +4450,27 @@
         <var name="referenceLink" id="4739596383734465960" />
       </scope>
       <scope id="4739596383734465960" at="73,0,108,0" />
-      <unit id="4739596383734465960" at="206,0,209,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupCall_EditorBuilder_a$CONCEPTS" />
-      <unit id="4739596383734465960" at="201,0,205,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupCall_EditorBuilder_a$LINKS" />
-      <unit id="4739596383734465960" at="75,42,90,5" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupCall_EditorBuilder_a$1" />
-      <unit id="4739596383734466247" at="108,0,135,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupCall_EditorBuilder_a$Inline_Builder0" />
-      <unit id="4739596383734465960" at="149,0,200,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupCall_EditorBuilder_a$bodySingleRoleHandler_1179dl_c0" />
-      <unit id="4739596383734465960" at="44,0,210,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupCall_EditorBuilder_a" />
+      <unit id="4739596383734465960" at="206,0,209,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupCall_EditorBuilder$CONCEPTS" />
+      <unit id="4739596383734465960" at="201,0,205,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupCall_EditorBuilder$LINKS" />
+      <unit id="4739596383734465960" at="75,42,90,5" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupCall_EditorBuilder$1" />
+      <unit id="4739596383734466247" at="108,0,135,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupCall_EditorBuilder$Inline_Builder0" />
+      <unit id="4739596383734465960" at="149,0,200,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupCall_EditorBuilder$bodySingleRoleHandler_1179dl_c0" />
+      <unit id="4739596383734465960" at="44,0,210,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupCall_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/7678600301243143153">
     <file name="ImplementationRef_Editor.java">
-      <node id="7678600301243143153" at="11,79,12,83" concept="6" />
+      <node id="7678600301243143153" at="11,79,12,81" concept="6" />
       <node id="7678600301243143153" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7678600301243143153" at="11,79,12,83" />
+      <scope id="7678600301243143153" at="11,79,12,81" />
       <scope id="7678600301243143153" at="11,0,14,0">
         <var name="editorContext" id="7678600301243143153" />
         <var name="node" id="7678600301243143153" />
       </scope>
       <unit id="7678600301243143153" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.ImplementationRef_Editor" />
     </file>
-    <file name="ImplementationRef_EditorBuilder_a.java">
-      <node id="7678600301243143153" at="40,97,41,19" concept="9" />
+    <file name="ImplementationRef_EditorBuilder.java">
+      <node id="7678600301243143153" at="40,95,41,19" concept="9" />
       <node id="7678600301243143153" at="41,19,42,18" concept="1" />
       <node id="7678600301243143153" at="47,26,48,18" concept="6" />
       <node id="7678600301243143153" at="51,39,52,32" concept="6" />
@@ -4520,7 +4520,7 @@
       <node id="7678600301243143157" at="99,0,101,0" concept="2" trace="myNode" />
       <node id="7678600301243143153" at="51,0,54,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7678600301243143157" at="109,0,112,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="7678600301243143153" at="40,0,44,0" concept="0" trace="ImplementationRef_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7678600301243143153" at="40,0,44,0" concept="0" trace="ImplementationRef_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7678600301243143153" at="84,0,88,5" concept="3" />
       <node id="7678600301243143153" at="45,0,50,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7678600301243143153" at="91,205,96,22" concept="3" />
@@ -4536,7 +4536,7 @@
       <scope id="7678600301243143153" at="51,39,52,32" />
       <scope id="7678600301243143157" at="109,41,110,45" />
       <scope id="7678600301243143157" at="115,28,116,20" />
-      <scope id="7678600301243143153" at="40,97,42,18" />
+      <scope id="7678600301243143153" at="40,95,42,18" />
       <scope id="7678600301243143153" at="85,40,87,43" />
       <scope id="7678600301243143153" at="92,73,94,145">
         <var name="manager" id="7678600301243143153" />
@@ -4584,26 +4584,26 @@
         <var name="referenceLink" id="7678600301243143153" />
       </scope>
       <scope id="7678600301243143153" at="63,0,98,0" />
-      <unit id="7678600301243143153" at="129,0,132,0" name="de.q60.mps.polymorphicfunctions.editor.ImplementationRef_EditorBuilder_a$LINKS" />
-      <unit id="7678600301243143153" at="133,0,136,0" name="de.q60.mps.polymorphicfunctions.editor.ImplementationRef_EditorBuilder_a$CONCEPTS" />
-      <unit id="7678600301243143153" at="65,42,80,5" name="de.q60.mps.polymorphicfunctions.editor.ImplementationRef_EditorBuilder_a$1" />
-      <unit id="7678600301243143157" at="98,0,128,0" name="de.q60.mps.polymorphicfunctions.editor.ImplementationRef_EditorBuilder_a$Inline_Builder0" />
-      <unit id="7678600301243143153" at="36,0,137,0" name="de.q60.mps.polymorphicfunctions.editor.ImplementationRef_EditorBuilder_a" />
+      <unit id="7678600301243143153" at="129,0,132,0" name="de.q60.mps.polymorphicfunctions.editor.ImplementationRef_EditorBuilder$LINKS" />
+      <unit id="7678600301243143153" at="133,0,136,0" name="de.q60.mps.polymorphicfunctions.editor.ImplementationRef_EditorBuilder$CONCEPTS" />
+      <unit id="7678600301243143153" at="65,42,80,5" name="de.q60.mps.polymorphicfunctions.editor.ImplementationRef_EditorBuilder$1" />
+      <unit id="7678600301243143157" at="98,0,128,0" name="de.q60.mps.polymorphicfunctions.editor.ImplementationRef_EditorBuilder$Inline_Builder0" />
+      <unit id="7678600301243143153" at="36,0,137,0" name="de.q60.mps.polymorphicfunctions.editor.ImplementationRef_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/7678600301243249660">
     <file name="ContextRef_Editor.java">
-      <node id="7678600301243249660" at="11,79,12,76" concept="6" />
+      <node id="7678600301243249660" at="11,79,12,74" concept="6" />
       <node id="7678600301243249660" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7678600301243249660" at="11,79,12,76" />
+      <scope id="7678600301243249660" at="11,79,12,74" />
       <scope id="7678600301243249660" at="11,0,14,0">
         <var name="editorContext" id="7678600301243249660" />
         <var name="node" id="7678600301243249660" />
       </scope>
       <unit id="7678600301243249660" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.ContextRef_Editor" />
     </file>
-    <file name="ContextRef_EditorBuilder_a.java">
-      <node id="7678600301243249660" at="40,90,41,19" concept="9" />
+    <file name="ContextRef_EditorBuilder.java">
+      <node id="7678600301243249660" at="40,88,41,19" concept="9" />
       <node id="7678600301243249660" at="41,19,42,18" concept="1" />
       <node id="7678600301243249660" at="47,26,48,18" concept="6" />
       <node id="7678600301243249660" at="51,39,52,32" concept="6" />
@@ -4653,7 +4653,7 @@
       <node id="7678600301243249664" at="99,0,101,0" concept="2" trace="myNode" />
       <node id="7678600301243249660" at="51,0,54,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7678600301243249664" at="109,0,112,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="7678600301243249660" at="40,0,44,0" concept="0" trace="ContextRef_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7678600301243249660" at="40,0,44,0" concept="0" trace="ContextRef_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7678600301243249660" at="84,0,88,5" concept="3" />
       <node id="7678600301243249660" at="45,0,50,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7678600301243249660" at="91,205,96,22" concept="3" />
@@ -4669,7 +4669,7 @@
       <scope id="7678600301243249660" at="51,39,52,32" />
       <scope id="7678600301243249664" at="109,41,110,45" />
       <scope id="7678600301243249664" at="115,28,116,20" />
-      <scope id="7678600301243249660" at="40,90,42,18" />
+      <scope id="7678600301243249660" at="40,88,42,18" />
       <scope id="7678600301243249660" at="85,40,87,43" />
       <scope id="7678600301243249660" at="92,73,94,145">
         <var name="manager" id="7678600301243249660" />
@@ -4717,26 +4717,26 @@
         <var name="referenceLink" id="7678600301243249660" />
       </scope>
       <scope id="7678600301243249660" at="63,0,98,0" />
-      <unit id="7678600301243249660" at="129,0,132,0" name="de.q60.mps.polymorphicfunctions.editor.ContextRef_EditorBuilder_a$LINKS" />
-      <unit id="7678600301243249660" at="133,0,136,0" name="de.q60.mps.polymorphicfunctions.editor.ContextRef_EditorBuilder_a$CONCEPTS" />
-      <unit id="7678600301243249660" at="65,42,80,5" name="de.q60.mps.polymorphicfunctions.editor.ContextRef_EditorBuilder_a$1" />
-      <unit id="7678600301243249664" at="98,0,128,0" name="de.q60.mps.polymorphicfunctions.editor.ContextRef_EditorBuilder_a$Inline_Builder0" />
-      <unit id="7678600301243249660" at="36,0,137,0" name="de.q60.mps.polymorphicfunctions.editor.ContextRef_EditorBuilder_a" />
+      <unit id="7678600301243249660" at="129,0,132,0" name="de.q60.mps.polymorphicfunctions.editor.ContextRef_EditorBuilder$LINKS" />
+      <unit id="7678600301243249660" at="133,0,136,0" name="de.q60.mps.polymorphicfunctions.editor.ContextRef_EditorBuilder$CONCEPTS" />
+      <unit id="7678600301243249660" at="65,42,80,5" name="de.q60.mps.polymorphicfunctions.editor.ContextRef_EditorBuilder$1" />
+      <unit id="7678600301243249664" at="98,0,128,0" name="de.q60.mps.polymorphicfunctions.editor.ContextRef_EditorBuilder$Inline_Builder0" />
+      <unit id="7678600301243249660" at="36,0,137,0" name="de.q60.mps.polymorphicfunctions.editor.ContextRef_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/7678600301243356144">
     <file name="PriorityGroupDeclaration_Editor.java">
-      <node id="7678600301243356144" at="11,79,12,90" concept="6" />
+      <node id="7678600301243356144" at="11,79,12,88" concept="6" />
       <node id="7678600301243356144" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7678600301243356144" at="11,79,12,90" />
+      <scope id="7678600301243356144" at="11,79,12,88" />
       <scope id="7678600301243356144" at="11,0,14,0">
         <var name="editorContext" id="7678600301243356144" />
         <var name="node" id="7678600301243356144" />
       </scope>
       <unit id="7678600301243356144" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupDeclaration_Editor" />
     </file>
-    <file name="PriorityGroupDeclaration_EditorBuilder_a.java">
-      <node id="7678600301243356144" at="31,104,32,19" concept="9" />
+    <file name="PriorityGroupDeclaration_EditorBuilder.java">
+      <node id="7678600301243356144" at="31,102,32,19" concept="9" />
       <node id="7678600301243356144" at="32,19,33,18" concept="1" />
       <node id="7678600301243356144" at="38,26,39,18" concept="6" />
       <node id="7678600301243356144" at="42,39,43,32" concept="6" />
@@ -4767,7 +4767,7 @@
       <node id="7678600301243356144" at="86,0,87,0" concept="8" trace="PropertyAttribute$Gb" />
       <node id="7678600301243356144" at="28,0,30,0" concept="2" trace="myNode" />
       <node id="7678600301243356144" at="42,0,45,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="7678600301243356144" at="31,0,35,0" concept="0" trace="PriorityGroupDeclaration_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7678600301243356144" at="31,0,35,0" concept="0" trace="PriorityGroupDeclaration_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7678600301243356156" at="55,0,59,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7678600301243356144" at="36,0,41,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7678600301243356170" at="70,208,75,24" concept="3" />
@@ -4777,7 +4777,7 @@
       <scope id="7678600301243356144" at="38,26,39,18" />
       <scope id="7678600301243356144" at="42,39,43,32" />
       <scope id="7678600301243356170" at="76,15,77,40" />
-      <scope id="7678600301243356144" at="31,104,33,18" />
+      <scope id="7678600301243356144" at="31,102,33,18" />
       <scope id="7678600301243356156" at="55,42,57,22">
         <var name="editorCell" id="7678600301243356156" />
       </scope>
@@ -4803,24 +4803,24 @@
       </scope>
       <scope id="7678600301243356170" at="59,41,78,5" />
       <scope id="7678600301243356170" at="59,0,80,0" />
-      <unit id="7678600301243356144" at="81,0,84,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupDeclaration_EditorBuilder_a$PROPS" />
-      <unit id="7678600301243356144" at="85,0,88,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupDeclaration_EditorBuilder_a$CONCEPTS" />
-      <unit id="7678600301243356144" at="27,0,89,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupDeclaration_EditorBuilder_a" />
+      <unit id="7678600301243356144" at="81,0,84,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupDeclaration_EditorBuilder$PROPS" />
+      <unit id="7678600301243356144" at="85,0,88,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupDeclaration_EditorBuilder$CONCEPTS" />
+      <unit id="7678600301243356144" at="27,0,89,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupDeclaration_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/7678600301243356207">
     <file name="PriorityGroupContainer_Editor.java">
-      <node id="7678600301243356207" at="11,79,12,88" concept="6" />
+      <node id="7678600301243356207" at="11,79,12,86" concept="6" />
       <node id="7678600301243356207" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7678600301243356207" at="11,79,12,88" />
+      <scope id="7678600301243356207" at="11,79,12,86" />
       <scope id="7678600301243356207" at="11,0,14,0">
         <var name="editorContext" id="7678600301243356207" />
         <var name="node" id="7678600301243356207" />
       </scope>
       <unit id="7678600301243356207" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupContainer_Editor" />
     </file>
-    <file name="PriorityGroupContainer_EditorBuilder_a.java">
-      <node id="7678600301243356207" at="52,102,53,19" concept="9" />
+    <file name="PriorityGroupContainer_EditorBuilder.java">
+      <node id="7678600301243356207" at="52,100,53,19" concept="9" />
       <node id="7678600301243356207" at="53,19,54,18" concept="1" />
       <node id="7678600301243356207" at="59,26,60,18" concept="6" />
       <node id="7678600301243356207" at="63,39,64,32" concept="6" />
@@ -4926,7 +4926,7 @@
       <node id="7678600301243356207" at="178,0,181,0" concept="4" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7678600301243356207" at="182,0,185,0" concept="4" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7678600301243356207" at="225,96,228,9" concept="3" />
-      <node id="7678600301243356207" at="52,0,56,0" concept="0" trace="PriorityGroupContainer_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7678600301243356207" at="52,0,56,0" concept="0" trace="PriorityGroupContainer_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7678600301243356207" at="99,0,103,5" concept="3" />
       <node id="7678600301243356207" at="163,0,167,0" concept="0" trace="contentListHandler_rohhcz_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="7678600301243356207" at="168,0,172,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -4965,7 +4965,7 @@
       <scope id="7678600301243358013" at="182,73,183,195" />
       <scope id="7678600301243356207" at="199,17,200,42" />
       <scope id="7678600301243356207" at="226,34,227,91" />
-      <scope id="7678600301243356207" at="52,102,54,18" />
+      <scope id="7678600301243356207" at="52,100,54,18" />
       <scope id="7678600301243356207" at="100,40,102,48" />
       <scope id="7678600301243356207" at="107,73,109,145">
         <var name="manager" id="7678600301243356207" />
@@ -5071,27 +5071,27 @@
         <var name="referenceLink" id="7678600301243356207" />
       </scope>
       <scope id="7678600301243356207" at="78,0,113,0" />
-      <unit id="7678600301243356207" at="242,0,246,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupContainer_EditorBuilder_a$LINKS" />
-      <unit id="7678600301243356207" at="247,0,251,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupContainer_EditorBuilder_a$CONCEPTS" />
-      <unit id="7678600301243356207" at="80,42,95,5" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupContainer_EditorBuilder_a$1" />
-      <unit id="7678600301243357954" at="113,0,140,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupContainer_EditorBuilder_a$Inline_Builder0" />
-      <unit id="7678600301243356207" at="159,0,232,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupContainer_EditorBuilder_a$contentListHandler_rohhcz_c0" />
-      <unit id="7678600301243356207" at="48,0,252,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupContainer_EditorBuilder_a" />
+      <unit id="7678600301243356207" at="242,0,246,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupContainer_EditorBuilder$LINKS" />
+      <unit id="7678600301243356207" at="247,0,251,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupContainer_EditorBuilder$CONCEPTS" />
+      <unit id="7678600301243356207" at="80,42,95,5" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupContainer_EditorBuilder$1" />
+      <unit id="7678600301243357954" at="113,0,140,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupContainer_EditorBuilder$Inline_Builder0" />
+      <unit id="7678600301243356207" at="159,0,232,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupContainer_EditorBuilder$contentListHandler_rohhcz_c0" />
+      <unit id="7678600301243356207" at="48,0,252,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupContainer_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)/7678600301243887077">
     <file name="PriorityGroupReference_Editor.java">
-      <node id="7678600301243887077" at="11,79,12,88" concept="6" />
+      <node id="7678600301243887077" at="11,79,12,86" concept="6" />
       <node id="7678600301243887077" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7678600301243887077" at="11,79,12,88" />
+      <scope id="7678600301243887077" at="11,79,12,86" />
       <scope id="7678600301243887077" at="11,0,14,0">
         <var name="editorContext" id="7678600301243887077" />
         <var name="node" id="7678600301243887077" />
       </scope>
       <unit id="7678600301243887077" at="10,0,15,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupReference_Editor" />
     </file>
-    <file name="PriorityGroupReference_EditorBuilder_a.java">
-      <node id="7678600301243887077" at="40,102,41,19" concept="9" />
+    <file name="PriorityGroupReference_EditorBuilder.java">
+      <node id="7678600301243887077" at="40,100,41,19" concept="9" />
       <node id="7678600301243887077" at="41,19,42,18" concept="1" />
       <node id="7678600301243887077" at="47,26,48,18" concept="6" />
       <node id="7678600301243887077" at="51,39,52,32" concept="6" />
@@ -5141,7 +5141,7 @@
       <node id="7678600301243887081" at="99,0,101,0" concept="2" trace="myNode" />
       <node id="7678600301243887077" at="51,0,54,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="7678600301243887081" at="109,0,112,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="7678600301243887077" at="40,0,44,0" concept="0" trace="PriorityGroupReference_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7678600301243887077" at="40,0,44,0" concept="0" trace="PriorityGroupReference_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7678600301243887077" at="84,0,88,5" concept="3" />
       <node id="7678600301243887077" at="45,0,50,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7678600301243887077" at="91,205,96,22" concept="3" />
@@ -5157,7 +5157,7 @@
       <scope id="7678600301243887077" at="51,39,52,32" />
       <scope id="7678600301243887081" at="109,41,110,45" />
       <scope id="7678600301243887081" at="115,28,116,20" />
-      <scope id="7678600301243887077" at="40,102,42,18" />
+      <scope id="7678600301243887077" at="40,100,42,18" />
       <scope id="7678600301243887077" at="85,40,87,43" />
       <scope id="7678600301243887077" at="92,73,94,145">
         <var name="manager" id="7678600301243887077" />
@@ -5205,11 +5205,11 @@
         <var name="referenceLink" id="7678600301243887077" />
       </scope>
       <scope id="7678600301243887077" at="63,0,98,0" />
-      <unit id="7678600301243887077" at="129,0,132,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupReference_EditorBuilder_a$LINKS" />
-      <unit id="7678600301243887077" at="133,0,136,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupReference_EditorBuilder_a$CONCEPTS" />
-      <unit id="7678600301243887077" at="65,42,80,5" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupReference_EditorBuilder_a$1" />
-      <unit id="7678600301243887081" at="98,0,128,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupReference_EditorBuilder_a$Inline_Builder0" />
-      <unit id="7678600301243887077" at="36,0,137,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupReference_EditorBuilder_a" />
+      <unit id="7678600301243887077" at="129,0,132,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupReference_EditorBuilder$LINKS" />
+      <unit id="7678600301243887077" at="133,0,136,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupReference_EditorBuilder$CONCEPTS" />
+      <unit id="7678600301243887077" at="65,42,80,5" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupReference_EditorBuilder$1" />
+      <unit id="7678600301243887081" at="98,0,128,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupReference_EditorBuilder$Inline_Builder0" />
+      <unit id="7678600301243887077" at="36,0,137,0" name="de.q60.mps.polymorphicfunctions.editor.PriorityGroupReference_EditorBuilder" />
     </file>
   </root>
 </debug-info>

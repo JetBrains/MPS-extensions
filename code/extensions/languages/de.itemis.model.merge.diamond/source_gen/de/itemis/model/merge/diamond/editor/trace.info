@@ -20,17 +20,17 @@
   </root>
   <root nodeRef="r:ca9ed2f3-5408-4d3d-af4f-b3405fc13400(de.itemis.model.merge.diamond.editor)/1846227925975042241">
     <file name="OtherData_Editor.java">
-      <node id="1846227925975042241" at="11,79,12,75" concept="7" />
+      <node id="1846227925975042241" at="11,79,12,73" concept="7" />
       <node id="1846227925975042241" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1846227925975042241" at="11,79,12,75" />
+      <scope id="1846227925975042241" at="11,79,12,73" />
       <scope id="1846227925975042241" at="11,0,14,0">
         <var name="editorContext" id="1846227925975042241" />
         <var name="node" id="1846227925975042241" />
       </scope>
       <unit id="1846227925975042241" at="10,0,15,0" name="de.itemis.model.merge.diamond.editor.OtherData_Editor" />
     </file>
-    <file name="OtherData_EditorBuilder_a.java">
-      <node id="1846227925975042241" at="32,89,33,19" concept="11" />
+    <file name="OtherData_EditorBuilder.java">
+      <node id="1846227925975042241" at="32,87,33,19" concept="11" />
       <node id="1846227925975042241" at="33,19,34,18" concept="2" />
       <node id="1846227925975042241" at="39,26,40,18" concept="7" />
       <node id="1846227925975042241" at="43,39,44,32" concept="7" />
@@ -63,7 +63,7 @@
       <node id="1846227925975042241" at="89,0,90,0" concept="9" trace="PropertyAttribute$Gb" />
       <node id="1846227925975042241" at="29,0,31,0" concept="3" trace="myNode" />
       <node id="1846227925975042241" at="43,0,46,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1846227925975042241" at="32,0,36,0" concept="1" trace="OtherData_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1846227925975042241" at="32,0,36,0" concept="1" trace="OtherData_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1846227925975042241" at="37,0,42,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1846227925975042243" at="73,208,78,24" concept="4" />
       <node id="1846227925975048143" at="56,0,62,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -73,7 +73,7 @@
       <scope id="1846227925975042241" at="39,26,40,18" />
       <scope id="1846227925975042241" at="43,39,44,32" />
       <scope id="1846227925975042243" at="79,15,80,40" />
-      <scope id="1846227925975042241" at="32,89,34,18" />
+      <scope id="1846227925975042241" at="32,87,34,18" />
       <scope id="1846227925975042243" at="74,74,76,145">
         <var name="manager" id="1846227925975042243" />
       </scope>
@@ -99,24 +99,24 @@
       </scope>
       <scope id="1846227925975042243" at="62,41,81,5" />
       <scope id="1846227925975042243" at="62,0,83,0" />
-      <unit id="1846227925975042241" at="84,0,87,0" name="de.itemis.model.merge.diamond.editor.OtherData_EditorBuilder_a$PROPS" />
-      <unit id="1846227925975042241" at="88,0,91,0" name="de.itemis.model.merge.diamond.editor.OtherData_EditorBuilder_a$CONCEPTS" />
-      <unit id="1846227925975042241" at="28,0,92,0" name="de.itemis.model.merge.diamond.editor.OtherData_EditorBuilder_a" />
+      <unit id="1846227925975042241" at="84,0,87,0" name="de.itemis.model.merge.diamond.editor.OtherData_EditorBuilder$PROPS" />
+      <unit id="1846227925975042241" at="88,0,91,0" name="de.itemis.model.merge.diamond.editor.OtherData_EditorBuilder$CONCEPTS" />
+      <unit id="1846227925975042241" at="28,0,92,0" name="de.itemis.model.merge.diamond.editor.OtherData_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ca9ed2f3-5408-4d3d-af4f-b3405fc13400(de.itemis.model.merge.diamond.editor)/1846227925975059115">
     <file name="Data_Editor.java">
-      <node id="1846227925975059115" at="11,79,12,70" concept="7" />
+      <node id="1846227925975059115" at="11,79,12,68" concept="7" />
       <node id="1846227925975059115" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1846227925975059115" at="11,79,12,70" />
+      <scope id="1846227925975059115" at="11,79,12,68" />
       <scope id="1846227925975059115" at="11,0,14,0">
         <var name="editorContext" id="1846227925975059115" />
         <var name="node" id="1846227925975059115" />
       </scope>
       <unit id="1846227925975059115" at="10,0,15,0" name="de.itemis.model.merge.diamond.editor.Data_Editor" />
     </file>
-    <file name="Data_EditorBuilder_a.java">
-      <node id="1846227925975059115" at="53,84,54,19" concept="11" />
+    <file name="Data_EditorBuilder.java">
+      <node id="1846227925975059115" at="53,82,54,19" concept="11" />
       <node id="1846227925975059115" at="54,19,55,18" concept="2" />
       <node id="1846227925975059115" at="60,26,61,18" concept="7" />
       <node id="1846227925975059115" at="64,39,65,32" concept="7" />
@@ -420,7 +420,7 @@
       <node id="1846227925975059115" at="381,96,384,9" concept="4" />
       <node id="1846227925975059168" at="443,0,446,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6323061221354691360" at="530,0,533,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1846227925975059115" at="53,0,57,0" concept="1" trace="Data_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1846227925975059115" at="53,0,57,0" concept="1" trace="Data_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1846227925975059115" at="172,0,176,0" concept="5" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1846227925975059115" at="180,0,184,0" concept="1" trace="myDateSingleRoleHandler_rat5n5_b2a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1846227925975059115" at="243,0,247,0" concept="5" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -516,7 +516,7 @@
       <scope id="6323061221354691360" at="530,41,531,32" />
       <scope id="6323061221354691360" at="536,28,537,20" />
       <scope id="6323061221354691368" at="557,17,558,42" />
-      <scope id="1846227925975059115" at="53,84,55,18" />
+      <scope id="1846227925975059115" at="53,82,55,18" />
       <scope id="1846227925975059152" at="110,74,112,145">
         <var name="manager" id="1846227925975059152" />
       </scope>
@@ -781,32 +781,32 @@
       </scope>
       <scope id="1846227925975059115" at="404,0,432,0" />
       <scope id="1846227925975059115" at="491,0,519,0" />
-      <unit id="1846227925975059115" at="563,0,568,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder_a$PROPS" />
-      <unit id="1846227925975059115" at="569,0,574,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder_a$CONCEPTS" />
-      <unit id="1846227925975059115" at="575,0,582,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder_a$LINKS" />
-      <unit id="1846227925975059115" at="406,42,414,5" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder_a$1" />
-      <unit id="1846227925975059115" at="493,42,501,5" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder_a$2" />
-      <unit id="1846227925975059168" at="432,0,475,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder_a$Inline_Builder0" />
-      <unit id="6323061221354691360" at="519,0,562,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder_a$Inline_Builder1" />
-      <unit id="1846227925975059115" at="176,0,227,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder_a$myDateSingleRoleHandler_rat5n5_b2a" />
-      <unit id="1846227925975059115" at="247,0,298,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder_a$myDate2SingleRoleHandler_rat5n5_b3a" />
-      <unit id="1846227925975059115" at="321,0,388,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder_a$myDate3ListHandler_rat5n5_b4a" />
-      <unit id="1846227925975059115" at="49,0,583,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder_a" />
+      <unit id="1846227925975059115" at="563,0,568,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder$PROPS" />
+      <unit id="1846227925975059115" at="569,0,574,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder$CONCEPTS" />
+      <unit id="1846227925975059115" at="575,0,582,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder$LINKS" />
+      <unit id="1846227925975059115" at="406,42,414,5" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder$1" />
+      <unit id="1846227925975059115" at="493,42,501,5" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder$2" />
+      <unit id="1846227925975059168" at="432,0,475,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder$Inline_Builder0" />
+      <unit id="6323061221354691360" at="519,0,562,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder$Inline_Builder1" />
+      <unit id="1846227925975059115" at="176,0,227,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder$myDateSingleRoleHandler_rat5n5_b2a" />
+      <unit id="1846227925975059115" at="247,0,298,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder$myDate2SingleRoleHandler_rat5n5_b3a" />
+      <unit id="1846227925975059115" at="321,0,388,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder$myDate3ListHandler_rat5n5_b4a" />
+      <unit id="1846227925975059115" at="49,0,583,0" name="de.itemis.model.merge.diamond.editor.Data_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ca9ed2f3-5408-4d3d-af4f-b3405fc13400(de.itemis.model.merge.diamond.editor)/9044903113969688845">
     <file name="Diamonds_Editor.java">
-      <node id="9044903113969688845" at="11,79,12,74" concept="7" />
+      <node id="9044903113969688845" at="11,79,12,72" concept="7" />
       <node id="9044903113969688845" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9044903113969688845" at="11,79,12,74" />
+      <scope id="9044903113969688845" at="11,79,12,72" />
       <scope id="9044903113969688845" at="11,0,14,0">
         <var name="editorContext" id="9044903113969688845" />
         <var name="node" id="9044903113969688845" />
       </scope>
       <unit id="9044903113969688845" at="10,0,15,0" name="de.itemis.model.merge.diamond.editor.Diamonds_Editor" />
     </file>
-    <file name="Diamonds_EditorBuilder_a.java">
-      <node id="9044903113969688845" at="31,88,32,19" concept="11" />
+    <file name="Diamonds_EditorBuilder.java">
+      <node id="9044903113969688845" at="31,86,32,19" concept="11" />
       <node id="9044903113969688845" at="32,19,33,18" concept="2" />
       <node id="9044903113969688845" at="38,26,39,18" concept="7" />
       <node id="9044903113969688845" at="42,39,43,32" concept="7" />
@@ -860,7 +860,7 @@
       <node id="9044903113969688845" at="80,0,83,0" concept="5" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9044903113969688845" at="84,0,87,0" concept="5" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9044903113969688845" at="127,96,130,9" concept="4" />
-      <node id="9044903113969688845" at="31,0,35,0" concept="1" trace="Diamonds_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9044903113969688845" at="31,0,35,0" concept="1" trace="Diamonds_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9044903113969688845" at="65,0,69,0" concept="1" trace="statementListHandler_dgjg1y_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="9044903113969688845" at="70,0,74,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9044903113969688845" at="109,97,113,9" concept="4" />
@@ -887,7 +887,7 @@
       <scope id="9044903113969824144" at="84,73,85,50" />
       <scope id="9044903113969688845" at="101,17,102,42" />
       <scope id="9044903113969688845" at="128,34,129,91" />
-      <scope id="9044903113969688845" at="31,88,33,18" />
+      <scope id="9044903113969688845" at="31,86,33,18" />
       <scope id="9044903113969688845" at="65,83,67,25" />
       <scope id="9044903113969688845" at="110,122,112,146" />
       <scope id="9044903113969688845" at="116,34,118,142" />
@@ -950,25 +950,25 @@
         <var name="elementNode" id="9044903113969688845" />
         <var name="isEmptyCell" id="9044903113969688845" />
       </scope>
-      <unit id="9044903113969688845" at="139,0,142,0" name="de.itemis.model.merge.diamond.editor.Diamonds_EditorBuilder_a$LINKS" />
-      <unit id="9044903113969688845" at="143,0,147,0" name="de.itemis.model.merge.diamond.editor.Diamonds_EditorBuilder_a$CONCEPTS" />
-      <unit id="9044903113969688845" at="61,0,138,0" name="de.itemis.model.merge.diamond.editor.Diamonds_EditorBuilder_a$statementListHandler_dgjg1y_a0" />
-      <unit id="9044903113969688845" at="27,0,148,0" name="de.itemis.model.merge.diamond.editor.Diamonds_EditorBuilder_a" />
+      <unit id="9044903113969688845" at="139,0,142,0" name="de.itemis.model.merge.diamond.editor.Diamonds_EditorBuilder$LINKS" />
+      <unit id="9044903113969688845" at="143,0,147,0" name="de.itemis.model.merge.diamond.editor.Diamonds_EditorBuilder$CONCEPTS" />
+      <unit id="9044903113969688845" at="61,0,138,0" name="de.itemis.model.merge.diamond.editor.Diamonds_EditorBuilder$statementListHandler_dgjg1y_a0" />
+      <unit id="9044903113969688845" at="27,0,148,0" name="de.itemis.model.merge.diamond.editor.Diamonds_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ca9ed2f3-5408-4d3d-af4f-b3405fc13400(de.itemis.model.merge.diamond.editor)/9044903113969741773">
     <file name="Payload_Editor.java">
-      <node id="9044903113969741773" at="11,79,12,73" concept="7" />
+      <node id="9044903113969741773" at="11,79,12,71" concept="7" />
       <node id="9044903113969741773" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9044903113969741773" at="11,79,12,73" />
+      <scope id="9044903113969741773" at="11,79,12,71" />
       <scope id="9044903113969741773" at="11,0,14,0">
         <var name="editorContext" id="9044903113969741773" />
         <var name="node" id="9044903113969741773" />
       </scope>
       <unit id="9044903113969741773" at="10,0,15,0" name="de.itemis.model.merge.diamond.editor.Payload_Editor" />
     </file>
-    <file name="Payload_EditorBuilder_a.java">
-      <node id="9044903113969741773" at="32,87,33,19" concept="11" />
+    <file name="Payload_EditorBuilder.java">
+      <node id="9044903113969741773" at="32,85,33,19" concept="11" />
       <node id="9044903113969741773" at="33,19,34,18" concept="2" />
       <node id="9044903113969741773" at="39,26,40,18" concept="7" />
       <node id="9044903113969741773" at="43,39,44,32" concept="7" />
@@ -1001,7 +1001,7 @@
       <node id="9044903113969741773" at="89,0,90,0" concept="9" trace="PropertyAttribute$Gb" />
       <node id="9044903113969741773" at="29,0,31,0" concept="3" trace="myNode" />
       <node id="9044903113969741773" at="43,0,46,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="9044903113969741773" at="32,0,36,0" concept="1" trace="Payload_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9044903113969741773" at="32,0,36,0" concept="1" trace="Payload_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9044903113969741773" at="37,0,42,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9044903113969741792" at="73,208,78,24" concept="4" />
       <node id="9044903113969741782" at="56,0,62,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1011,7 +1011,7 @@
       <scope id="9044903113969741773" at="39,26,40,18" />
       <scope id="9044903113969741773" at="43,39,44,32" />
       <scope id="9044903113969741792" at="79,15,80,40" />
-      <scope id="9044903113969741773" at="32,87,34,18" />
+      <scope id="9044903113969741773" at="32,85,34,18" />
       <scope id="9044903113969741792" at="74,74,76,145">
         <var name="manager" id="9044903113969741792" />
       </scope>
@@ -1037,24 +1037,24 @@
       </scope>
       <scope id="9044903113969741792" at="62,41,81,5" />
       <scope id="9044903113969741792" at="62,0,83,0" />
-      <unit id="9044903113969741773" at="84,0,87,0" name="de.itemis.model.merge.diamond.editor.Payload_EditorBuilder_a$PROPS" />
-      <unit id="9044903113969741773" at="88,0,91,0" name="de.itemis.model.merge.diamond.editor.Payload_EditorBuilder_a$CONCEPTS" />
-      <unit id="9044903113969741773" at="28,0,92,0" name="de.itemis.model.merge.diamond.editor.Payload_EditorBuilder_a" />
+      <unit id="9044903113969741773" at="84,0,87,0" name="de.itemis.model.merge.diamond.editor.Payload_EditorBuilder$PROPS" />
+      <unit id="9044903113969741773" at="88,0,91,0" name="de.itemis.model.merge.diamond.editor.Payload_EditorBuilder$CONCEPTS" />
+      <unit id="9044903113969741773" at="28,0,92,0" name="de.itemis.model.merge.diamond.editor.Payload_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ca9ed2f3-5408-4d3d-af4f-b3405fc13400(de.itemis.model.merge.diamond.editor)/9044903113969741822">
     <file name="Payload1_Editor.java">
-      <node id="9044903113969741822" at="11,79,12,74" concept="7" />
+      <node id="9044903113969741822" at="11,79,12,72" concept="7" />
       <node id="9044903113969741822" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9044903113969741822" at="11,79,12,74" />
+      <scope id="9044903113969741822" at="11,79,12,72" />
       <scope id="9044903113969741822" at="11,0,14,0">
         <var name="editorContext" id="9044903113969741822" />
         <var name="node" id="9044903113969741822" />
       </scope>
       <unit id="9044903113969741822" at="10,0,15,0" name="de.itemis.model.merge.diamond.editor.Payload1_Editor" />
     </file>
-    <file name="Payload1_EditorBuilder_a.java">
-      <node id="9044903113969741822" at="32,88,33,19" concept="11" />
+    <file name="Payload1_EditorBuilder.java">
+      <node id="9044903113969741822" at="32,86,33,19" concept="11" />
       <node id="9044903113969741822" at="33,19,34,18" concept="2" />
       <node id="9044903113969741822" at="39,26,40,18" concept="7" />
       <node id="9044903113969741822" at="43,39,44,32" concept="7" />
@@ -1087,7 +1087,7 @@
       <node id="9044903113969741822" at="89,0,90,0" concept="9" trace="PropertyAttribute$Gb" />
       <node id="9044903113969741822" at="29,0,31,0" concept="3" trace="myNode" />
       <node id="9044903113969741822" at="43,0,46,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="9044903113969741822" at="32,0,36,0" concept="1" trace="Payload1_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9044903113969741822" at="32,0,36,0" concept="1" trace="Payload1_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9044903113969741822" at="37,0,42,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9044903113969741837" at="73,208,78,24" concept="4" />
       <node id="9044903113969741831" at="56,0,62,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1097,7 +1097,7 @@
       <scope id="9044903113969741822" at="39,26,40,18" />
       <scope id="9044903113969741822" at="43,39,44,32" />
       <scope id="9044903113969741837" at="79,15,80,40" />
-      <scope id="9044903113969741822" at="32,88,34,18" />
+      <scope id="9044903113969741822" at="32,86,34,18" />
       <scope id="9044903113969741837" at="74,74,76,145">
         <var name="manager" id="9044903113969741837" />
       </scope>
@@ -1123,24 +1123,24 @@
       </scope>
       <scope id="9044903113969741837" at="62,41,81,5" />
       <scope id="9044903113969741837" at="62,0,83,0" />
-      <unit id="9044903113969741822" at="84,0,87,0" name="de.itemis.model.merge.diamond.editor.Payload1_EditorBuilder_a$PROPS" />
-      <unit id="9044903113969741822" at="88,0,91,0" name="de.itemis.model.merge.diamond.editor.Payload1_EditorBuilder_a$CONCEPTS" />
-      <unit id="9044903113969741822" at="28,0,92,0" name="de.itemis.model.merge.diamond.editor.Payload1_EditorBuilder_a" />
+      <unit id="9044903113969741822" at="84,0,87,0" name="de.itemis.model.merge.diamond.editor.Payload1_EditorBuilder$PROPS" />
+      <unit id="9044903113969741822" at="88,0,91,0" name="de.itemis.model.merge.diamond.editor.Payload1_EditorBuilder$CONCEPTS" />
+      <unit id="9044903113969741822" at="28,0,92,0" name="de.itemis.model.merge.diamond.editor.Payload1_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ca9ed2f3-5408-4d3d-af4f-b3405fc13400(de.itemis.model.merge.diamond.editor)/9044903113969741867">
     <file name="Payload2_Editor.java">
-      <node id="9044903113969741867" at="11,79,12,74" concept="7" />
+      <node id="9044903113969741867" at="11,79,12,72" concept="7" />
       <node id="9044903113969741867" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9044903113969741867" at="11,79,12,74" />
+      <scope id="9044903113969741867" at="11,79,12,72" />
       <scope id="9044903113969741867" at="11,0,14,0">
         <var name="editorContext" id="9044903113969741867" />
         <var name="node" id="9044903113969741867" />
       </scope>
       <unit id="9044903113969741867" at="10,0,15,0" name="de.itemis.model.merge.diamond.editor.Payload2_Editor" />
     </file>
-    <file name="Payload2_EditorBuilder_a.java">
-      <node id="9044903113969741867" at="32,88,33,19" concept="11" />
+    <file name="Payload2_EditorBuilder.java">
+      <node id="9044903113969741867" at="32,86,33,19" concept="11" />
       <node id="9044903113969741867" at="33,19,34,18" concept="2" />
       <node id="9044903113969741867" at="39,26,40,18" concept="7" />
       <node id="9044903113969741867" at="43,39,44,32" concept="7" />
@@ -1173,7 +1173,7 @@
       <node id="9044903113969741867" at="89,0,90,0" concept="9" trace="PropertyAttribute$Gb" />
       <node id="9044903113969741867" at="29,0,31,0" concept="3" trace="myNode" />
       <node id="9044903113969741867" at="43,0,46,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="9044903113969741867" at="32,0,36,0" concept="1" trace="Payload2_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9044903113969741867" at="32,0,36,0" concept="1" trace="Payload2_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9044903113969741867" at="37,0,42,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9044903113969741882" at="73,208,78,24" concept="4" />
       <node id="9044903113969741876" at="56,0,62,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1183,7 +1183,7 @@
       <scope id="9044903113969741867" at="39,26,40,18" />
       <scope id="9044903113969741867" at="43,39,44,32" />
       <scope id="9044903113969741882" at="79,15,80,40" />
-      <scope id="9044903113969741867" at="32,88,34,18" />
+      <scope id="9044903113969741867" at="32,86,34,18" />
       <scope id="9044903113969741882" at="74,74,76,145">
         <var name="manager" id="9044903113969741882" />
       </scope>
@@ -1209,24 +1209,24 @@
       </scope>
       <scope id="9044903113969741882" at="62,41,81,5" />
       <scope id="9044903113969741882" at="62,0,83,0" />
-      <unit id="9044903113969741867" at="84,0,87,0" name="de.itemis.model.merge.diamond.editor.Payload2_EditorBuilder_a$PROPS" />
-      <unit id="9044903113969741867" at="88,0,91,0" name="de.itemis.model.merge.diamond.editor.Payload2_EditorBuilder_a$CONCEPTS" />
-      <unit id="9044903113969741867" at="28,0,92,0" name="de.itemis.model.merge.diamond.editor.Payload2_EditorBuilder_a" />
+      <unit id="9044903113969741867" at="84,0,87,0" name="de.itemis.model.merge.diamond.editor.Payload2_EditorBuilder$PROPS" />
+      <unit id="9044903113969741867" at="88,0,91,0" name="de.itemis.model.merge.diamond.editor.Payload2_EditorBuilder$CONCEPTS" />
+      <unit id="9044903113969741867" at="28,0,92,0" name="de.itemis.model.merge.diamond.editor.Payload2_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ca9ed2f3-5408-4d3d-af4f-b3405fc13400(de.itemis.model.merge.diamond.editor)/9044903113969758886">
     <file name="Bottom_Editor.java">
-      <node id="9044903113969758886" at="11,79,12,72" concept="7" />
+      <node id="9044903113969758886" at="11,79,12,70" concept="7" />
       <node id="9044903113969758886" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9044903113969758886" at="11,79,12,72" />
+      <scope id="9044903113969758886" at="11,79,12,70" />
       <scope id="9044903113969758886" at="11,0,14,0">
         <var name="editorContext" id="9044903113969758886" />
         <var name="node" id="9044903113969758886" />
       </scope>
       <unit id="9044903113969758886" at="10,0,15,0" name="de.itemis.model.merge.diamond.editor.Bottom_Editor" />
     </file>
-    <file name="Bottom_EditorBuilder_a.java">
-      <node id="9044903113969758886" at="15,86,16,19" concept="11" />
+    <file name="Bottom_EditorBuilder.java">
+      <node id="9044903113969758886" at="15,84,16,19" concept="11" />
       <node id="9044903113969758886" at="16,19,17,18" concept="2" />
       <node id="9044903113969758886" at="22,26,23,18" concept="7" />
       <node id="9044903113969758886" at="26,39,27,32" concept="7" />
@@ -1236,13 +1236,13 @@
       <node id="9044903113969758888" at="34,33,35,24" concept="7" />
       <node id="9044903113969758886" at="12,0,14,0" concept="3" trace="myNode" />
       <node id="9044903113969758886" at="26,0,29,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="9044903113969758886" at="15,0,19,0" concept="1" trace="Bottom_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9044903113969758886" at="15,0,19,0" concept="1" trace="Bottom_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9044903113969758886" at="20,0,25,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9044903113969758888" at="30,43,36,5" concept="0" />
       <node id="9044903113969758888" at="30,0,38,0" concept="5" trace="createNextEditor_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="9044903113969758886" at="22,26,23,18" />
       <scope id="9044903113969758886" at="26,39,27,32" />
-      <scope id="9044903113969758886" at="15,86,17,18" />
+      <scope id="9044903113969758886" at="15,84,17,18" />
       <scope id="9044903113969758886" at="26,0,29,0" />
       <scope id="9044903113969758886" at="15,0,19,0">
         <var name="context" id="9044903113969758886" />
@@ -1254,22 +1254,22 @@
       <scope id="9044903113969758886" at="20,0,25,0" />
       <scope id="9044903113969758888" at="30,43,36,5" />
       <scope id="9044903113969758888" at="30,0,38,0" />
-      <unit id="9044903113969758886" at="11,0,39,0" name="de.itemis.model.merge.diamond.editor.Bottom_EditorBuilder_a" />
+      <unit id="9044903113969758886" at="11,0,39,0" name="de.itemis.model.merge.diamond.editor.Bottom_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ca9ed2f3-5408-4d3d-af4f-b3405fc13400(de.itemis.model.merge.diamond.editor)/9044903113969758917">
     <file name="Top_Editor.java">
-      <node id="9044903113969758917" at="11,79,12,69" concept="7" />
+      <node id="9044903113969758917" at="11,79,12,67" concept="7" />
       <node id="9044903113969758917" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9044903113969758917" at="11,79,12,69" />
+      <scope id="9044903113969758917" at="11,79,12,67" />
       <scope id="9044903113969758917" at="11,0,14,0">
         <var name="editorContext" id="9044903113969758917" />
         <var name="node" id="9044903113969758917" />
       </scope>
       <unit id="9044903113969758917" at="10,0,15,0" name="de.itemis.model.merge.diamond.editor.Top_Editor" />
     </file>
-    <file name="Top_EditorBuilder_a.java">
-      <node id="9044903113969758917" at="48,83,49,19" concept="11" />
+    <file name="Top_EditorBuilder.java">
+      <node id="9044903113969758917" at="48,81,49,19" concept="11" />
       <node id="9044903113969758917" at="49,19,50,18" concept="2" />
       <node id="9044903113969758917" at="55,26,56,18" concept="7" />
       <node id="9044903113969758917" at="59,39,60,32" concept="7" />
@@ -1463,7 +1463,7 @@
       <node id="9044903113969758917" at="355,87,358,7" concept="4" />
       <node id="9044903113969758917" at="358,7,361,7" concept="4" />
       <node id="9044903113969758917" at="377,0,380,0" concept="5" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="9044903113969758917" at="48,0,52,0" concept="1" trace="Top_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9044903113969758917" at="48,0,52,0" concept="1" trace="Top_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9044903113969758917" at="176,0,180,0" concept="1" trace="childrenListHandler_5t8mj_b2a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="9044903113969758917" at="181,0,185,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9044903113969758917" at="214,97,218,9" concept="4" />
@@ -1529,7 +1529,7 @@
       <scope id="9044903113969758917" at="359,42,360,52" />
       <scope id="9044903113969758917" at="373,17,374,42" />
       <scope id="9044903113969758917" at="377,40,378,32" />
-      <scope id="9044903113969758917" at="48,83,50,18" />
+      <scope id="9044903113969758917" at="48,81,50,18" />
       <scope id="9044903113969758939" at="103,74,105,145">
         <var name="manager" id="9044903113969758939" />
       </scope>
@@ -1702,28 +1702,28 @@
         <var name="elementNode" id="9044903113969758917" />
         <var name="isEmptyCell" id="9044903113969758917" />
       </scope>
-      <unit id="9044903113969758917" at="382,0,386,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder_a$PROPS" />
-      <unit id="9044903113969758917" at="387,0,391,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder_a$CONCEPTS" />
-      <unit id="9044903113969758917" at="392,0,397,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder_a$LINKS" />
-      <unit id="9044903113969758917" at="259,0,310,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder_a$optChildSingleRoleHandler_5t8mj_b3a" />
-      <unit id="9044903113969758917" at="330,0,381,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder_a$singleChildSingleRoleHandler_5t8mj_b4a" />
-      <unit id="9044903113969758917" at="172,0,239,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder_a$childrenListHandler_5t8mj_b2a" />
-      <unit id="9044903113969758917" at="44,0,398,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder_a" />
+      <unit id="9044903113969758917" at="382,0,386,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder$PROPS" />
+      <unit id="9044903113969758917" at="387,0,391,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder$CONCEPTS" />
+      <unit id="9044903113969758917" at="392,0,397,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder$LINKS" />
+      <unit id="9044903113969758917" at="259,0,310,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder$optChildSingleRoleHandler_5t8mj_b3a" />
+      <unit id="9044903113969758917" at="330,0,381,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder$singleChildSingleRoleHandler_5t8mj_b4a" />
+      <unit id="9044903113969758917" at="172,0,239,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder$childrenListHandler_5t8mj_b2a" />
+      <unit id="9044903113969758917" at="44,0,398,0" name="de.itemis.model.merge.diamond.editor.Top_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:ca9ed2f3-5408-4d3d-af4f-b3405fc13400(de.itemis.model.merge.diamond.editor)/9044903113969847521">
     <file name="EmptyStatement_Editor.java">
-      <node id="9044903113969847521" at="11,79,12,80" concept="7" />
+      <node id="9044903113969847521" at="11,79,12,78" concept="7" />
       <node id="9044903113969847521" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="9044903113969847521" at="11,79,12,80" />
+      <scope id="9044903113969847521" at="11,79,12,78" />
       <scope id="9044903113969847521" at="11,0,14,0">
         <var name="editorContext" id="9044903113969847521" />
         <var name="node" id="9044903113969847521" />
       </scope>
       <unit id="9044903113969847521" at="10,0,15,0" name="de.itemis.model.merge.diamond.editor.EmptyStatement_Editor" />
     </file>
-    <file name="EmptyStatement_EditorBuilder_a.java">
-      <node id="9044903113969847521" at="18,94,19,19" concept="11" />
+    <file name="EmptyStatement_EditorBuilder.java">
+      <node id="9044903113969847521" at="18,92,19,19" concept="11" />
       <node id="9044903113969847521" at="19,19,20,18" concept="2" />
       <node id="9044903113969847521" at="25,26,26,18" concept="7" />
       <node id="9044903113969847521" at="29,39,30,27" concept="7" />
@@ -1736,12 +1736,12 @@
       <node id="9044903113969847523" at="39,31,40,22" concept="7" />
       <node id="9044903113969847521" at="15,0,17,0" concept="3" trace="myNode" />
       <node id="9044903113969847521" at="29,0,32,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="9044903113969847521" at="18,0,22,0" concept="1" trace="EmptyStatement_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9044903113969847521" at="18,0,22,0" concept="1" trace="EmptyStatement_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9044903113969847521" at="23,0,28,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9044903113969847523" at="33,0,42,0" concept="5" trace="createEmpty_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="9044903113969847521" at="25,26,26,18" />
       <scope id="9044903113969847521" at="29,39,30,27" />
-      <scope id="9044903113969847521" at="18,94,20,18" />
+      <scope id="9044903113969847521" at="18,92,20,18" />
       <scope id="9044903113969847521" at="29,0,32,0" />
       <scope id="9044903113969847521" at="18,0,22,0">
         <var name="context" id="9044903113969847521" />
@@ -1752,7 +1752,7 @@
         <var name="editorCell" id="9044903113969847523" />
       </scope>
       <scope id="9044903113969847523" at="33,0,42,0" />
-      <unit id="9044903113969847521" at="14,0,43,0" name="de.itemis.model.merge.diamond.editor.EmptyStatement_EditorBuilder_a" />
+      <unit id="9044903113969847521" at="14,0,43,0" name="de.itemis.model.merge.diamond.editor.EmptyStatement_EditorBuilder" />
     </file>
   </root>
 </debug-info>

@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class RichtextCellAnnotation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new RichtextCellAnnotation_EditorBuilder_a(editorContext, node).createCell();
+    return new RichtextCellAnnotation_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new RichtextCellAnnotation_InspectorBuilder_a(editorContext, node).createCell();
+    return new RichtextCellAnnotation_InspectorBuilder(editorContext, node).createCell();
   }
 }

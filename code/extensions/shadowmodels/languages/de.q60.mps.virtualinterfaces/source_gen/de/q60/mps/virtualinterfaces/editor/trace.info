@@ -39,17 +39,17 @@
   </root>
   <root nodeRef="r:4f63c6b6-b076-460d-bb12-3a773fb193b2(de.q60.mps.virtualinterfaces.editor)/2031504182168904665">
     <file name="ImplementsOperation_Editor.java">
-      <node id="2031504182168904665" at="11,79,12,85" concept="6" />
+      <node id="2031504182168904665" at="11,79,12,83" concept="6" />
       <node id="2031504182168904665" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2031504182168904665" at="11,79,12,85" />
+      <scope id="2031504182168904665" at="11,79,12,83" />
       <scope id="2031504182168904665" at="11,0,14,0">
         <var name="editorContext" id="2031504182168904665" />
         <var name="node" id="2031504182168904665" />
       </scope>
       <unit id="2031504182168904665" at="10,0,15,0" name="de.q60.mps.virtualinterfaces.editor.ImplementsOperation_Editor" />
     </file>
-    <file name="ImplementsOperation_EditorBuilder_a.java">
-      <node id="2031504182168904665" at="40,99,41,19" concept="9" />
+    <file name="ImplementsOperation_EditorBuilder.java">
+      <node id="2031504182168904665" at="40,97,41,19" concept="9" />
       <node id="2031504182168904665" at="41,19,42,18" concept="1" />
       <node id="2031504182168904665" at="47,26,48,18" concept="6" />
       <node id="2031504182168904665" at="51,39,52,32" concept="6" />
@@ -125,7 +125,7 @@
       <node id="2031504182168904669" at="109,0,111,0" concept="2" trace="myNode" />
       <node id="2031504182168904665" at="51,0,54,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2031504182168904669" at="119,0,122,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2031504182168904665" at="40,0,44,0" concept="0" trace="ImplementsOperation_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2031504182168904665" at="40,0,44,0" concept="0" trace="ImplementsOperation_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2031504182168946581" at="66,0,70,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2031504182168904665" at="94,0,98,5" concept="3" />
       <node id="2031504182168904665" at="45,0,50,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -146,7 +146,7 @@
       <scope id="2031504182168904669" at="119,41,120,32" />
       <scope id="2031504182168904669" at="125,28,126,20" />
       <scope id="2031504182168904683" at="146,17,147,42" />
-      <scope id="2031504182168904665" at="40,99,42,18" />
+      <scope id="2031504182168904665" at="40,97,42,18" />
       <scope id="2031504182168946581" at="66,42,68,22">
         <var name="editorCell" id="2031504182168946581" />
       </scope>
@@ -208,27 +208,27 @@
         <var name="referenceLink" id="2031504182168904665" />
       </scope>
       <scope id="2031504182168904665" at="80,0,108,0" />
-      <unit id="2031504182168904665" at="161,0,164,0" name="de.q60.mps.virtualinterfaces.editor.ImplementsOperation_EditorBuilder_a$LINKS" />
-      <unit id="2031504182168904665" at="170,0,173,0" name="de.q60.mps.virtualinterfaces.editor.ImplementsOperation_EditorBuilder_a$PROPS" />
-      <unit id="2031504182168904665" at="165,0,169,0" name="de.q60.mps.virtualinterfaces.editor.ImplementsOperation_EditorBuilder_a$CONCEPTS" />
-      <unit id="2031504182168904665" at="82,42,90,5" name="de.q60.mps.virtualinterfaces.editor.ImplementsOperation_EditorBuilder_a$1" />
-      <unit id="2031504182168904669" at="108,0,151,0" name="de.q60.mps.virtualinterfaces.editor.ImplementsOperation_EditorBuilder_a$Inline_Builder0" />
-      <unit id="2031504182168904665" at="36,0,174,0" name="de.q60.mps.virtualinterfaces.editor.ImplementsOperation_EditorBuilder_a" />
+      <unit id="2031504182168904665" at="161,0,164,0" name="de.q60.mps.virtualinterfaces.editor.ImplementsOperation_EditorBuilder$LINKS" />
+      <unit id="2031504182168904665" at="170,0,173,0" name="de.q60.mps.virtualinterfaces.editor.ImplementsOperation_EditorBuilder$PROPS" />
+      <unit id="2031504182168904665" at="165,0,169,0" name="de.q60.mps.virtualinterfaces.editor.ImplementsOperation_EditorBuilder$CONCEPTS" />
+      <unit id="2031504182168904665" at="82,42,90,5" name="de.q60.mps.virtualinterfaces.editor.ImplementsOperation_EditorBuilder$1" />
+      <unit id="2031504182168904669" at="108,0,151,0" name="de.q60.mps.virtualinterfaces.editor.ImplementsOperation_EditorBuilder$Inline_Builder0" />
+      <unit id="2031504182168904665" at="36,0,174,0" name="de.q60.mps.virtualinterfaces.editor.ImplementsOperation_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4f63c6b6-b076-460d-bb12-3a773fb193b2(de.q60.mps.virtualinterfaces.editor)/2031504182168975219">
     <file name="VirtualMethodCallOperation_Editor.java">
-      <node id="2031504182168975219" at="11,79,12,92" concept="6" />
+      <node id="2031504182168975219" at="11,79,12,90" concept="6" />
       <node id="2031504182168975219" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2031504182168975219" at="11,79,12,92" />
+      <scope id="2031504182168975219" at="11,79,12,90" />
       <scope id="2031504182168975219" at="11,0,14,0">
         <var name="editorContext" id="2031504182168975219" />
         <var name="node" id="2031504182168975219" />
       </scope>
       <unit id="2031504182168975219" at="10,0,15,0" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_Editor" />
     </file>
-    <file name="VirtualMethodCallOperation_EditorBuilder_a.java">
-      <node id="2031504182168975219" at="53,106,54,19" concept="9" />
+    <file name="VirtualMethodCallOperation_EditorBuilder.java">
+      <node id="2031504182168975219" at="53,104,54,19" concept="9" />
       <node id="2031504182168975219" at="54,19,55,18" concept="1" />
       <node id="2031504182168975219" at="60,26,61,18" concept="6" />
       <node id="2031504182168975219" at="64,39,65,32" concept="6" />
@@ -357,7 +357,7 @@
       <node id="2031504182168975233" at="125,0,128,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2031504182168975219" at="187,0,190,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="2031504182168975219" at="190,0,193,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="2031504182168975219" at="53,0,57,0" concept="0" trace="VirtualMethodCallOperation_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2031504182168975219" at="53,0,57,0" concept="0" trace="VirtualMethodCallOperation_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2031504182168975219" at="100,0,104,5" concept="3" />
       <node id="2031504182168975219" at="178,0,182,0" concept="0" trace="parameterValuesListHandler_pg64t3_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="2031504182168975219" at="183,0,187,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -399,7 +399,7 @@
       <scope id="2031504182168975219" at="187,40,188,40" />
       <scope id="2031504182168975219" at="190,48,191,36" />
       <scope id="2031504182168975219" at="208,17,209,42" />
-      <scope id="2031504182168975219" at="53,106,55,18" />
+      <scope id="2031504182168975219" at="53,104,55,18" />
       <scope id="2031504182168975219" at="101,40,103,45" />
       <scope id="2031504182168975219" at="108,73,110,145">
         <var name="manager" id="2031504182168975219" />
@@ -514,28 +514,28 @@
         <var name="referenceLink" id="2031504182168975219" />
       </scope>
       <scope id="2031504182168975219" at="79,0,114,0" />
-      <unit id="2031504182168975219" at="284,0,287,0" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder_a$PROPS" />
-      <unit id="2031504182168975219" at="273,0,277,0" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder_a$LINKS" />
-      <unit id="2031504182168975219" at="278,0,283,0" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder_a$CONCEPTS" />
-      <unit id="2031504182168975219" at="81,42,96,5" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder_a$1" />
-      <unit id="2031504182168975233" at="114,0,157,0" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder_a$Inline_Builder0" />
-      <unit id="2031504182168975219" at="174,0,263,0" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder_a$parameterValuesListHandler_pg64t3_c0" />
-      <unit id="2031504182168975219" at="49,0,288,0" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder_a" />
+      <unit id="2031504182168975219" at="284,0,287,0" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder$PROPS" />
+      <unit id="2031504182168975219" at="273,0,277,0" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder$LINKS" />
+      <unit id="2031504182168975219" at="278,0,283,0" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder$CONCEPTS" />
+      <unit id="2031504182168975219" at="81,42,96,5" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder$1" />
+      <unit id="2031504182168975233" at="114,0,157,0" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder$Inline_Builder0" />
+      <unit id="2031504182168975219" at="174,0,263,0" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder$parameterValuesListHandler_pg64t3_c0" />
+      <unit id="2031504182168975219" at="49,0,288,0" name="de.q60.mps.virtualinterfaces.editor.VirtualMethodCallOperation_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4f63c6b6-b076-460d-bb12-3a773fb193b2(de.q60.mps.virtualinterfaces.editor)/6594016813168367835">
     <file name="EmptyLine_Editor.java">
-      <node id="6594016813168367835" at="11,79,12,75" concept="6" />
+      <node id="6594016813168367835" at="11,79,12,73" concept="6" />
       <node id="6594016813168367835" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6594016813168367835" at="11,79,12,75" />
+      <scope id="6594016813168367835" at="11,79,12,73" />
       <scope id="6594016813168367835" at="11,0,14,0">
         <var name="editorContext" id="6594016813168367835" />
         <var name="node" id="6594016813168367835" />
       </scope>
       <unit id="6594016813168367835" at="10,0,15,0" name="de.q60.mps.virtualinterfaces.editor.EmptyLine_Editor" />
     </file>
-    <file name="EmptyLine_EditorBuilder_a.java">
-      <node id="6594016813168367835" at="19,89,20,19" concept="9" />
+    <file name="EmptyLine_EditorBuilder.java">
+      <node id="6594016813168367835" at="19,87,20,19" concept="9" />
       <node id="6594016813168367835" at="20,19,21,18" concept="1" />
       <node id="6594016813168367835" at="26,26,27,18" concept="6" />
       <node id="6594016813168367835" at="30,39,31,30" concept="6" />
@@ -550,12 +550,12 @@
       <node id="6594016813168367837" at="42,34,43,22" concept="6" />
       <node id="6594016813168367835" at="16,0,18,0" concept="2" trace="myNode" />
       <node id="6594016813168367835" at="30,0,33,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6594016813168367835" at="19,0,23,0" concept="0" trace="EmptyLine_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6594016813168367835" at="19,0,23,0" concept="0" trace="EmptyLine_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6594016813168367835" at="24,0,29,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6594016813168367837" at="34,0,45,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6594016813168367835" at="26,26,27,18" />
       <scope id="6594016813168367835" at="30,39,31,30" />
-      <scope id="6594016813168367835" at="19,89,21,18" />
+      <scope id="6594016813168367835" at="19,87,21,18" />
       <scope id="6594016813168367835" at="30,0,33,0" />
       <scope id="6594016813168367835" at="19,0,23,0">
         <var name="context" id="6594016813168367835" />
@@ -567,22 +567,22 @@
         <var name="style" id="6594016813168367837" />
       </scope>
       <scope id="6594016813168367837" at="34,0,45,0" />
-      <unit id="6594016813168367835" at="15,0,46,0" name="de.q60.mps.virtualinterfaces.editor.EmptyLine_EditorBuilder_a" />
+      <unit id="6594016813168367835" at="15,0,46,0" name="de.q60.mps.virtualinterfaces.editor.EmptyLine_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4f63c6b6-b076-460d-bb12-3a773fb193b2(de.q60.mps.virtualinterfaces.editor)/6594016813168389594">
     <file name="VirtualInterfacesModule_Editor.java">
-      <node id="6594016813168389594" at="11,79,12,89" concept="6" />
+      <node id="6594016813168389594" at="11,79,12,87" concept="6" />
       <node id="6594016813168389594" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6594016813168389594" at="11,79,12,89" />
+      <scope id="6594016813168389594" at="11,79,12,87" />
       <scope id="6594016813168389594" at="11,0,14,0">
         <var name="editorContext" id="6594016813168389594" />
         <var name="node" id="6594016813168389594" />
       </scope>
       <unit id="6594016813168389594" at="10,0,15,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfacesModule_Editor" />
     </file>
-    <file name="VirtualInterfacesModule_EditorBuilder_a.java">
-      <node id="6594016813168389594" at="49,103,50,19" concept="9" />
+    <file name="VirtualInterfacesModule_EditorBuilder.java">
+      <node id="6594016813168389594" at="49,101,50,19" concept="9" />
       <node id="6594016813168389594" at="50,19,51,18" concept="1" />
       <node id="6594016813168389594" at="56,26,57,18" concept="6" />
       <node id="6594016813168389594" at="60,39,61,32" concept="6" />
@@ -689,7 +689,7 @@
       <node id="6594016813168389594" at="158,0,161,0" concept="4" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6594016813168389594" at="162,0,165,0" concept="4" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6594016813168389594" at="205,96,208,9" concept="3" />
-      <node id="6594016813168389594" at="49,0,53,0" concept="0" trace="VirtualInterfacesModule_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6594016813168389594" at="49,0,53,0" concept="0" trace="VirtualInterfacesModule_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6594016813168389712" at="128,0,132,0" concept="4" trace="createIndentCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6594016813168389594" at="143,0,147,0" concept="0" trace="contentListHandler_thgm8d_b1a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6594016813168389594" at="148,0,152,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -726,7 +726,7 @@
       <scope id="6594016813168404299" at="162,73,163,192" />
       <scope id="6594016813168389594" at="179,17,180,42" />
       <scope id="6594016813168389594" at="206,34,207,91" />
-      <scope id="6594016813168389594" at="49,103,51,18" />
+      <scope id="6594016813168389594" at="49,101,51,18" />
       <scope id="6594016813168389632" at="103,74,105,145">
         <var name="manager" id="6594016813168389632" />
       </scope>
@@ -827,11 +827,11 @@
         <var name="elementNode" id="6594016813168389594" />
         <var name="isEmptyCell" id="6594016813168389594" />
       </scope>
-      <unit id="6594016813168389594" at="228,0,231,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfacesModule_EditorBuilder_a$PROPS" />
-      <unit id="6594016813168389594" at="237,0,240,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfacesModule_EditorBuilder_a$LINKS" />
-      <unit id="6594016813168389594" at="232,0,236,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfacesModule_EditorBuilder_a$CONCEPTS" />
-      <unit id="6594016813168389594" at="139,0,212,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfacesModule_EditorBuilder_a$contentListHandler_thgm8d_b1a" />
-      <unit id="6594016813168389594" at="45,0,241,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfacesModule_EditorBuilder_a" />
+      <unit id="6594016813168389594" at="228,0,231,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfacesModule_EditorBuilder$PROPS" />
+      <unit id="6594016813168389594" at="237,0,240,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfacesModule_EditorBuilder$LINKS" />
+      <unit id="6594016813168389594" at="232,0,236,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfacesModule_EditorBuilder$CONCEPTS" />
+      <unit id="6594016813168389594" at="139,0,212,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfacesModule_EditorBuilder$contentListHandler_thgm8d_b1a" />
+      <unit id="6594016813168389594" at="45,0,241,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfacesModule_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4f63c6b6-b076-460d-bb12-3a773fb193b2(de.q60.mps.virtualinterfaces.editor)/6594016813168428004">
@@ -845,17 +845,17 @@
   </root>
   <root nodeRef="r:4f63c6b6-b076-460d-bb12-3a773fb193b2(de.q60.mps.virtualinterfaces.editor)/6594016813168439151">
     <file name="InterfaceMethod_Editor.java">
-      <node id="6594016813168439151" at="11,79,12,81" concept="6" />
+      <node id="6594016813168439151" at="11,79,12,79" concept="6" />
       <node id="6594016813168439151" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6594016813168439151" at="11,79,12,81" />
+      <scope id="6594016813168439151" at="11,79,12,79" />
       <scope id="6594016813168439151" at="11,0,14,0">
         <var name="editorContext" id="6594016813168439151" />
         <var name="node" id="6594016813168439151" />
       </scope>
       <unit id="6594016813168439151" at="10,0,15,0" name="de.q60.mps.virtualinterfaces.editor.InterfaceMethod_Editor" />
     </file>
-    <file name="InterfaceMethod_EditorBuilder_a.java">
-      <node id="6594016813168439151" at="48,95,49,19" concept="9" />
+    <file name="InterfaceMethod_EditorBuilder.java">
+      <node id="6594016813168439151" at="48,93,49,19" concept="9" />
       <node id="6594016813168439151" at="49,19,50,18" concept="1" />
       <node id="6594016813168439151" at="55,26,56,18" concept="6" />
       <node id="6594016813168439151" at="59,39,60,32" concept="6" />
@@ -990,7 +990,7 @@
       <node id="6594016813168439151" at="255,87,258,7" concept="3" />
       <node id="6594016813168439151" at="258,7,261,7" concept="3" />
       <node id="6594016813168439151" at="277,0,280,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="6594016813168439151" at="48,0,52,0" concept="0" trace="InterfaceMethod_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6594016813168439151" at="48,0,52,0" concept="0" trace="InterfaceMethod_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6594016813168439160" at="77,0,81,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6594016813168439151" at="123,0,127,0" concept="0" trace="parametersListHandler_c39t6x_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6594016813168439151" at="128,0,132,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -1036,7 +1036,7 @@
       <scope id="6594016813168439151" at="259,42,260,51" />
       <scope id="6594016813168439151" at="273,17,274,42" />
       <scope id="6594016813168439151" at="277,40,278,31" />
-      <scope id="6594016813168439151" at="48,95,50,18" />
+      <scope id="6594016813168439151" at="48,93,50,18" />
       <scope id="6594016813168439160" at="77,42,79,22">
         <var name="editorCell" id="6594016813168439160" />
       </scope>
@@ -1157,27 +1157,27 @@
         <var name="elementNode" id="6594016813168439151" />
         <var name="isEmptyCell" id="6594016813168439151" />
       </scope>
-      <unit id="6594016813168439151" at="282,0,285,0" name="de.q60.mps.virtualinterfaces.editor.InterfaceMethod_EditorBuilder_a$PROPS" />
-      <unit id="6594016813168439151" at="286,0,290,0" name="de.q60.mps.virtualinterfaces.editor.InterfaceMethod_EditorBuilder_a$CONCEPTS" />
-      <unit id="6594016813168439151" at="291,0,295,0" name="de.q60.mps.virtualinterfaces.editor.InterfaceMethod_EditorBuilder_a$LINKS" />
-      <unit id="6594016813168439151" at="230,0,281,0" name="de.q60.mps.virtualinterfaces.editor.InterfaceMethod_EditorBuilder_a$returnTypeSingleRoleHandler_c39t6x_g0" />
-      <unit id="6594016813168439151" at="119,0,208,0" name="de.q60.mps.virtualinterfaces.editor.InterfaceMethod_EditorBuilder_a$parametersListHandler_c39t6x_d0" />
-      <unit id="6594016813168439151" at="44,0,296,0" name="de.q60.mps.virtualinterfaces.editor.InterfaceMethod_EditorBuilder_a" />
+      <unit id="6594016813168439151" at="282,0,285,0" name="de.q60.mps.virtualinterfaces.editor.InterfaceMethod_EditorBuilder$PROPS" />
+      <unit id="6594016813168439151" at="286,0,290,0" name="de.q60.mps.virtualinterfaces.editor.InterfaceMethod_EditorBuilder$CONCEPTS" />
+      <unit id="6594016813168439151" at="291,0,295,0" name="de.q60.mps.virtualinterfaces.editor.InterfaceMethod_EditorBuilder$LINKS" />
+      <unit id="6594016813168439151" at="230,0,281,0" name="de.q60.mps.virtualinterfaces.editor.InterfaceMethod_EditorBuilder$returnTypeSingleRoleHandler_c39t6x_g0" />
+      <unit id="6594016813168439151" at="119,0,208,0" name="de.q60.mps.virtualinterfaces.editor.InterfaceMethod_EditorBuilder$parametersListHandler_c39t6x_d0" />
+      <unit id="6594016813168439151" at="44,0,296,0" name="de.q60.mps.virtualinterfaces.editor.InterfaceMethod_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4f63c6b6-b076-460d-bb12-3a773fb193b2(de.q60.mps.virtualinterfaces.editor)/6594016813168439183">
     <file name="VirtualInterfaceDeclaration_Editor.java">
-      <node id="6594016813168439183" at="11,79,12,93" concept="6" />
+      <node id="6594016813168439183" at="11,79,12,91" concept="6" />
       <node id="6594016813168439183" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6594016813168439183" at="11,79,12,93" />
+      <scope id="6594016813168439183" at="11,79,12,91" />
       <scope id="6594016813168439183" at="11,0,14,0">
         <var name="editorContext" id="6594016813168439183" />
         <var name="node" id="6594016813168439183" />
       </scope>
       <unit id="6594016813168439183" at="10,0,15,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceDeclaration_Editor" />
     </file>
-    <file name="VirtualInterfaceDeclaration_EditorBuilder_a.java">
-      <node id="6594016813168439183" at="47,107,48,19" concept="9" />
+    <file name="VirtualInterfaceDeclaration_EditorBuilder.java">
+      <node id="6594016813168439183" at="47,105,48,19" concept="9" />
       <node id="6594016813168439183" at="48,19,49,18" concept="1" />
       <node id="6594016813168439183" at="54,26,55,18" concept="6" />
       <node id="6594016813168439183" at="58,39,59,32" concept="6" />
@@ -1263,7 +1263,7 @@
       <node id="6594016813168439183" at="131,0,134,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="6594016813168439183" at="134,0,137,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="6594016813168439183" at="178,96,181,9" concept="3" />
-      <node id="6594016813168439183" at="47,0,51,0" concept="0" trace="VirtualInterfaceDeclaration_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6594016813168439183" at="47,0,51,0" concept="0" trace="VirtualInterfaceDeclaration_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6594016813168439192" at="74,0,78,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6594016813168439183" at="122,0,126,0" concept="0" trace="contentListHandler_5lqc0_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6594016813168439183" at="127,0,131,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -1294,7 +1294,7 @@
       <scope id="6594016813168439183" at="134,48,135,43" />
       <scope id="6594016813168439183" at="152,17,153,42" />
       <scope id="6594016813168439183" at="179,34,180,91" />
-      <scope id="6594016813168439183" at="47,107,49,18" />
+      <scope id="6594016813168439183" at="47,105,49,18" />
       <scope id="6594016813168439192" at="74,42,76,22">
         <var name="editorCell" id="6594016813168439192" />
       </scope>
@@ -1368,26 +1368,26 @@
         <var name="elementNode" id="6594016813168439183" />
         <var name="isEmptyCell" id="6594016813168439183" />
       </scope>
-      <unit id="6594016813168439183" at="195,0,198,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceDeclaration_EditorBuilder_a$PROPS" />
-      <unit id="6594016813168439183" at="204,0,207,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceDeclaration_EditorBuilder_a$LINKS" />
-      <unit id="6594016813168439183" at="199,0,203,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceDeclaration_EditorBuilder_a$CONCEPTS" />
-      <unit id="6594016813168439183" at="118,0,185,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceDeclaration_EditorBuilder_a$contentListHandler_5lqc0_d0" />
-      <unit id="6594016813168439183" at="43,0,208,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceDeclaration_EditorBuilder_a" />
+      <unit id="6594016813168439183" at="195,0,198,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceDeclaration_EditorBuilder$PROPS" />
+      <unit id="6594016813168439183" at="204,0,207,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceDeclaration_EditorBuilder$LINKS" />
+      <unit id="6594016813168439183" at="199,0,203,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceDeclaration_EditorBuilder$CONCEPTS" />
+      <unit id="6594016813168439183" at="118,0,185,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceDeclaration_EditorBuilder$contentListHandler_5lqc0_d0" />
+      <unit id="6594016813168439183" at="43,0,208,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceDeclaration_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4f63c6b6-b076-460d-bb12-3a773fb193b2(de.q60.mps.virtualinterfaces.editor)/6594016813168577113">
     <file name="ParameterDeclaration_Editor.java">
-      <node id="6594016813168577113" at="11,79,12,86" concept="6" />
+      <node id="6594016813168577113" at="11,79,12,84" concept="6" />
       <node id="6594016813168577113" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6594016813168577113" at="11,79,12,86" />
+      <scope id="6594016813168577113" at="11,79,12,84" />
       <scope id="6594016813168577113" at="11,0,14,0">
         <var name="editorContext" id="6594016813168577113" />
         <var name="node" id="6594016813168577113" />
       </scope>
       <unit id="6594016813168577113" at="10,0,15,0" name="de.q60.mps.virtualinterfaces.editor.ParameterDeclaration_Editor" />
     </file>
-    <file name="ParameterDeclaration_EditorBuilder_a.java">
-      <node id="6594016813168577113" at="43,100,44,19" concept="9" />
+    <file name="ParameterDeclaration_EditorBuilder.java">
+      <node id="6594016813168577113" at="43,98,44,19" concept="9" />
       <node id="6594016813168577113" at="44,19,45,18" concept="1" />
       <node id="6594016813168577113" at="50,26,51,18" concept="6" />
       <node id="6594016813168577113" at="54,39,55,32" concept="6" />
@@ -1450,7 +1450,7 @@
       <node id="6594016813168577113" at="127,87,130,7" concept="3" />
       <node id="6594016813168577113" at="130,7,133,7" concept="3" />
       <node id="6594016813168577113" at="149,0,152,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="6594016813168577113" at="43,0,47,0" concept="0" trace="ParameterDeclaration_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6594016813168577113" at="43,0,47,0" concept="0" trace="ParameterDeclaration_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6594016813168577113" at="98,0,102,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6594016813168577113" at="106,0,110,0" concept="0" trace="typeSingleRoleHandler_vsmugd_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6594016813168577113" at="48,0,53,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -1472,7 +1472,7 @@
       <scope id="6594016813168577113" at="131,42,132,45" />
       <scope id="6594016813168577113" at="145,17,146,42" />
       <scope id="6594016813168577113" at="149,40,150,25" />
-      <scope id="6594016813168577113" at="43,100,45,18" />
+      <scope id="6594016813168577113" at="43,98,45,18" />
       <scope id="6594016813168577125" at="80,74,82,145">
         <var name="manager" id="6594016813168577125" />
       </scope>
@@ -1528,26 +1528,26 @@
       <scope id="6594016813168577113" at="135,0,149,0" />
       <scope id="6594016813168577125" at="68,41,87,5" />
       <scope id="6594016813168577125" at="68,0,89,0" />
-      <unit id="6594016813168577113" at="154,0,157,0" name="de.q60.mps.virtualinterfaces.editor.ParameterDeclaration_EditorBuilder_a$PROPS" />
-      <unit id="6594016813168577113" at="158,0,161,0" name="de.q60.mps.virtualinterfaces.editor.ParameterDeclaration_EditorBuilder_a$CONCEPTS" />
-      <unit id="6594016813168577113" at="162,0,165,0" name="de.q60.mps.virtualinterfaces.editor.ParameterDeclaration_EditorBuilder_a$LINKS" />
-      <unit id="6594016813168577113" at="102,0,153,0" name="de.q60.mps.virtualinterfaces.editor.ParameterDeclaration_EditorBuilder_a$typeSingleRoleHandler_vsmugd_c0" />
-      <unit id="6594016813168577113" at="39,0,166,0" name="de.q60.mps.virtualinterfaces.editor.ParameterDeclaration_EditorBuilder_a" />
+      <unit id="6594016813168577113" at="154,0,157,0" name="de.q60.mps.virtualinterfaces.editor.ParameterDeclaration_EditorBuilder$PROPS" />
+      <unit id="6594016813168577113" at="158,0,161,0" name="de.q60.mps.virtualinterfaces.editor.ParameterDeclaration_EditorBuilder$CONCEPTS" />
+      <unit id="6594016813168577113" at="162,0,165,0" name="de.q60.mps.virtualinterfaces.editor.ParameterDeclaration_EditorBuilder$LINKS" />
+      <unit id="6594016813168577113" at="102,0,153,0" name="de.q60.mps.virtualinterfaces.editor.ParameterDeclaration_EditorBuilder$typeSingleRoleHandler_vsmugd_c0" />
+      <unit id="6594016813168577113" at="39,0,166,0" name="de.q60.mps.virtualinterfaces.editor.ParameterDeclaration_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4f63c6b6-b076-460d-bb12-3a773fb193b2(de.q60.mps.virtualinterfaces.editor)/6594016813168597694">
     <file name="VirtualInterfaceImplementation_Editor.java">
-      <node id="6594016813168597694" at="11,79,12,96" concept="6" />
+      <node id="6594016813168597694" at="11,79,12,94" concept="6" />
       <node id="6594016813168597694" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6594016813168597694" at="11,79,12,96" />
+      <scope id="6594016813168597694" at="11,79,12,94" />
       <scope id="6594016813168597694" at="11,0,14,0">
         <var name="editorContext" id="6594016813168597694" />
         <var name="node" id="6594016813168597694" />
       </scope>
       <unit id="6594016813168597694" at="10,0,15,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_Editor" />
     </file>
-    <file name="VirtualInterfaceImplementation_EditorBuilder_a.java">
-      <node id="6594016813168597694" at="53,110,54,19" concept="9" />
+    <file name="VirtualInterfaceImplementation_EditorBuilder.java">
+      <node id="6594016813168597694" at="53,108,54,19" concept="9" />
       <node id="6594016813168597694" at="54,19,55,18" concept="1" />
       <node id="6594016813168597694" at="60,26,61,18" concept="6" />
       <node id="6594016813168597694" at="64,39,65,32" concept="6" />
@@ -1712,7 +1712,7 @@
       <node id="6594016813168597694" at="272,0,275,0" concept="4" trace="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6594016813168597694" at="276,0,279,0" concept="4" trace="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;I)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6594016813168597694" at="319,96,322,9" concept="3" />
-      <node id="6594016813168597694" at="53,0,57,0" concept="0" trace="VirtualInterfaceImplementation_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6594016813168597694" at="53,0,57,0" concept="0" trace="VirtualInterfaceImplementation_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6594016813168597703" at="82,0,86,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6594016813168597694" at="100,0,104,5" concept="3" />
       <node id="6594016813168597694" at="177,0,181,5" concept="3" />
@@ -1768,7 +1768,7 @@
       <scope id="6594016813168628117" at="276,73,277,192" />
       <scope id="6594016813168597694" at="293,17,294,42" />
       <scope id="6594016813168597694" at="320,34,321,91" />
-      <scope id="6594016813168597694" at="53,110,55,18" />
+      <scope id="6594016813168597694" at="53,108,55,18" />
       <scope id="6594016813168597703" at="82,42,84,22">
         <var name="editorCell" id="6594016813168597703" />
       </scope>
@@ -1920,30 +1920,30 @@
       </scope>
       <scope id="6594016813168597694" at="86,0,114,0" />
       <scope id="6594016813168597694" at="163,0,191,0" />
-      <unit id="6594016813168597694" at="348,0,351,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder_a$PROPS" />
-      <unit id="6594016813168597694" at="336,0,341,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder_a$LINKS" />
-      <unit id="6594016813168597694" at="342,0,347,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder_a$CONCEPTS" />
-      <unit id="6594016813168597694" at="88,42,96,5" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder_a$1" />
-      <unit id="6594016813168597694" at="165,42,173,5" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder_a$2" />
-      <unit id="6594016813168597710" at="114,0,157,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder_a$Inline_Builder0" />
-      <unit id="6594016813168597743" at="191,0,234,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder_a$Inline_Builder1" />
-      <unit id="6594016813168597694" at="253,0,326,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder_a$contentListHandler_bfvvja_f0" />
-      <unit id="6594016813168597694" at="49,0,352,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder_a" />
+      <unit id="6594016813168597694" at="348,0,351,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder$PROPS" />
+      <unit id="6594016813168597694" at="336,0,341,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder$LINKS" />
+      <unit id="6594016813168597694" at="342,0,347,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder$CONCEPTS" />
+      <unit id="6594016813168597694" at="88,42,96,5" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder$1" />
+      <unit id="6594016813168597694" at="165,42,173,5" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder$2" />
+      <unit id="6594016813168597710" at="114,0,157,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder$Inline_Builder0" />
+      <unit id="6594016813168597743" at="191,0,234,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder$Inline_Builder1" />
+      <unit id="6594016813168597694" at="253,0,326,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder$contentListHandler_bfvvja_f0" />
+      <unit id="6594016813168597694" at="49,0,352,0" name="de.q60.mps.virtualinterfaces.editor.VirtualInterfaceImplementation_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4f63c6b6-b076-460d-bb12-3a773fb193b2(de.q60.mps.virtualinterfaces.editor)/6594016813168658130">
     <file name="MethodImplementation_Editor.java">
-      <node id="6594016813168658130" at="11,79,12,86" concept="6" />
+      <node id="6594016813168658130" at="11,79,12,84" concept="6" />
       <node id="6594016813168658130" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6594016813168658130" at="11,79,12,86" />
+      <scope id="6594016813168658130" at="11,79,12,84" />
       <scope id="6594016813168658130" at="11,0,14,0">
         <var name="editorContext" id="6594016813168658130" />
         <var name="node" id="6594016813168658130" />
       </scope>
       <unit id="6594016813168658130" at="10,0,15,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_Editor" />
     </file>
-    <file name="MethodImplementation_EditorBuilder_a.java">
-      <node id="6594016813168658130" at="60,100,61,19" concept="9" />
+    <file name="MethodImplementation_EditorBuilder.java">
+      <node id="6594016813168658130" at="60,98,61,19" concept="9" />
       <node id="6594016813168658130" at="61,19,62,18" concept="1" />
       <node id="6594016813168658130" at="67,26,68,18" concept="6" />
       <node id="6594016813168658130" at="71,39,72,32" concept="6" />
@@ -2139,7 +2139,7 @@
       <node id="6594016813168658130" at="347,87,350,7" concept="3" />
       <node id="6594016813168658130" at="350,7,353,7" concept="3" />
       <node id="6594016813168658130" at="372,0,375,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="6594016813168658130" at="60,0,64,0" concept="0" trace="MethodImplementation_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6594016813168658130" at="60,0,64,0" concept="0" trace="MethodImplementation_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6594016813168658130" at="112,0,116,5" concept="3" />
       <node id="6594016813168658130" at="190,0,194,0" concept="0" trace="parametersListHandler_58fk7w_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6594016813168658130" at="195,0,199,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2199,7 +2199,7 @@
       <scope id="6594016813168658130" at="351,42,352,45" />
       <scope id="6594016813168658130" at="368,17,369,42" />
       <scope id="6594016813168658130" at="372,40,373,25" />
-      <scope id="6594016813168658130" at="60,100,62,18" />
+      <scope id="6594016813168658130" at="60,98,62,18" />
       <scope id="6594016813168658130" at="113,40,115,50" />
       <scope id="6594016813168658130" at="120,73,122,145">
         <var name="manager" id="6594016813168658130" />
@@ -2366,30 +2366,30 @@
         <var name="referenceLink" id="6594016813168658130" />
       </scope>
       <scope id="6594016813168658130" at="91,0,126,0" />
-      <unit id="6594016813168658130" at="399,0,402,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder_a$PROPS" />
-      <unit id="6594016813168689451" at="294,88,298,5" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder_a$2" />
-      <unit id="6594016813168658130" at="393,0,398,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder_a$CONCEPTS" />
-      <unit id="6594016813168658130" at="386,0,392,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder_a$LINKS" />
-      <unit id="6594016813168658130" at="93,42,108,5" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder_a$1" />
-      <unit id="6594016813168658144" at="126,0,169,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder_a$Inline_Builder0" />
-      <unit id="6594016813168658130" at="322,0,376,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder_a$bodySingleRoleHandler_58fk7w_h0" />
-      <unit id="6594016813168658130" at="186,0,275,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder_a$parametersListHandler_58fk7w_c0" />
-      <unit id="6594016813168658130" at="56,0,403,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder_a" />
+      <unit id="6594016813168658130" at="399,0,402,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder$PROPS" />
+      <unit id="6594016813168689451" at="294,88,298,5" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder$2" />
+      <unit id="6594016813168658130" at="393,0,398,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder$CONCEPTS" />
+      <unit id="6594016813168658130" at="386,0,392,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder$LINKS" />
+      <unit id="6594016813168658130" at="93,42,108,5" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder$1" />
+      <unit id="6594016813168658144" at="126,0,169,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder$Inline_Builder0" />
+      <unit id="6594016813168658130" at="322,0,376,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder$bodySingleRoleHandler_58fk7w_h0" />
+      <unit id="6594016813168658130" at="186,0,275,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder$parametersListHandler_58fk7w_c0" />
+      <unit id="6594016813168658130" at="56,0,403,0" name="de.q60.mps.virtualinterfaces.editor.MethodImplementation_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:4f63c6b6-b076-460d-bb12-3a773fb193b2(de.q60.mps.virtualinterfaces.editor)/6594016813169080772">
     <file name="ParameterReference_Editor.java">
-      <node id="6594016813169080772" at="11,79,12,84" concept="6" />
+      <node id="6594016813169080772" at="11,79,12,82" concept="6" />
       <node id="6594016813169080772" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6594016813169080772" at="11,79,12,84" />
+      <scope id="6594016813169080772" at="11,79,12,82" />
       <scope id="6594016813169080772" at="11,0,14,0">
         <var name="editorContext" id="6594016813169080772" />
         <var name="node" id="6594016813169080772" />
       </scope>
       <unit id="6594016813169080772" at="10,0,15,0" name="de.q60.mps.virtualinterfaces.editor.ParameterReference_Editor" />
     </file>
-    <file name="ParameterReference_EditorBuilder_a.java">
-      <node id="6594016813169080772" at="43,98,44,19" concept="9" />
+    <file name="ParameterReference_EditorBuilder.java">
+      <node id="6594016813169080772" at="43,96,44,19" concept="9" />
       <node id="6594016813169080772" at="44,19,45,18" concept="1" />
       <node id="6594016813169080772" at="50,26,51,18" concept="6" />
       <node id="6594016813169080772" at="54,39,55,32" concept="6" />
@@ -2452,7 +2452,7 @@
       <node id="6594016813169080776" at="102,0,104,0" concept="2" trace="myNode" />
       <node id="6594016813169080772" at="54,0,57,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6594016813169080776" at="112,0,115,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6594016813169080772" at="43,0,47,0" concept="0" trace="ParameterReference_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6594016813169080772" at="43,0,47,0" concept="0" trace="ParameterReference_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6594016813169080772" at="87,0,91,5" concept="3" />
       <node id="6594016813169080772" at="48,0,53,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6594016813169080772" at="94,205,99,22" concept="3" />
@@ -2471,7 +2471,7 @@
       <scope id="6594016813169080776" at="112,41,113,32" />
       <scope id="6594016813169080776" at="118,28,119,20" />
       <scope id="6594016813169080786" at="142,17,143,42" />
-      <scope id="6594016813169080772" at="43,98,45,18" />
+      <scope id="6594016813169080772" at="43,96,45,18" />
       <scope id="6594016813169080772" at="88,40,90,43" />
       <scope id="6594016813169080772" at="95,73,97,145">
         <var name="manager" id="6594016813169080772" />
@@ -2526,12 +2526,12 @@
         <var name="referenceLink" id="6594016813169080772" />
       </scope>
       <scope id="6594016813169080772" at="66,0,101,0" />
-      <unit id="6594016813169080772" at="148,0,151,0" name="de.q60.mps.virtualinterfaces.editor.ParameterReference_EditorBuilder_a$LINKS" />
-      <unit id="6594016813169080772" at="157,0,160,0" name="de.q60.mps.virtualinterfaces.editor.ParameterReference_EditorBuilder_a$PROPS" />
-      <unit id="6594016813169080772" at="152,0,156,0" name="de.q60.mps.virtualinterfaces.editor.ParameterReference_EditorBuilder_a$CONCEPTS" />
-      <unit id="6594016813169080772" at="68,42,83,5" name="de.q60.mps.virtualinterfaces.editor.ParameterReference_EditorBuilder_a$1" />
-      <unit id="6594016813169080776" at="101,0,147,0" name="de.q60.mps.virtualinterfaces.editor.ParameterReference_EditorBuilder_a$Inline_Builder0" />
-      <unit id="6594016813169080772" at="39,0,161,0" name="de.q60.mps.virtualinterfaces.editor.ParameterReference_EditorBuilder_a" />
+      <unit id="6594016813169080772" at="148,0,151,0" name="de.q60.mps.virtualinterfaces.editor.ParameterReference_EditorBuilder$LINKS" />
+      <unit id="6594016813169080772" at="157,0,160,0" name="de.q60.mps.virtualinterfaces.editor.ParameterReference_EditorBuilder$PROPS" />
+      <unit id="6594016813169080772" at="152,0,156,0" name="de.q60.mps.virtualinterfaces.editor.ParameterReference_EditorBuilder$CONCEPTS" />
+      <unit id="6594016813169080772" at="68,42,83,5" name="de.q60.mps.virtualinterfaces.editor.ParameterReference_EditorBuilder$1" />
+      <unit id="6594016813169080776" at="101,0,147,0" name="de.q60.mps.virtualinterfaces.editor.ParameterReference_EditorBuilder$Inline_Builder0" />
+      <unit id="6594016813169080772" at="39,0,161,0" name="de.q60.mps.virtualinterfaces.editor.ParameterReference_EditorBuilder" />
     </file>
   </root>
 </debug-info>

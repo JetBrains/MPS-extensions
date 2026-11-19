@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class IsInTestsExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new IsInTestsExpression_EditorBuilder_a(editorContext, node).createCell();
+    return new IsInTestsExpression_EditorBuilder(editorContext, node).createCell();
   }
 }

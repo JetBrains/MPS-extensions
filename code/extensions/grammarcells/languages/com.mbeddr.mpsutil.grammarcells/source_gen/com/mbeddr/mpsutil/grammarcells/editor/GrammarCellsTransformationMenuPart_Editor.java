@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class GrammarCellsTransformationMenuPart_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new GrammarCellsTransformationMenuPart_EditorBuilder_a(editorContext, node).createCell();
+    return new GrammarCellsTransformationMenuPart_EditorBuilder(editorContext, node).createCell();
   }
 }

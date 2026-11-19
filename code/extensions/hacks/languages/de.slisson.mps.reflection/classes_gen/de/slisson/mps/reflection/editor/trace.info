@@ -111,17 +111,17 @@
   </root>
   <root nodeRef="r:d5036b12-43fb-495f-9a2f-0fec80cd4a69(de.slisson.mps.reflection.editor)/8473566765275637148">
     <file name="ReflectionFieldAccess_Editor.java">
-      <node id="8473566765275637148" at="11,79,12,87" concept="6" />
+      <node id="8473566765275637148" at="11,79,12,85" concept="6" />
       <node id="8473566765275637148" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8473566765275637148" at="11,79,12,87" />
+      <scope id="8473566765275637148" at="11,79,12,85" />
       <scope id="8473566765275637148" at="11,0,14,0">
         <var name="editorContext" id="8473566765275637148" />
         <var name="node" id="8473566765275637148" />
       </scope>
       <unit id="8473566765275637148" at="10,0,15,0" name="de.slisson.mps.reflection.editor.ReflectionFieldAccess_Editor" />
     </file>
-    <file name="ReflectionFieldAccess_EditorBuilder_a.java">
-      <node id="8473566765275637148" at="44,101,45,19" concept="9" />
+    <file name="ReflectionFieldAccess_EditorBuilder.java">
+      <node id="8473566765275637148" at="44,99,45,19" concept="9" />
       <node id="8473566765275637148" at="45,19,46,18" concept="1" />
       <node id="8473566765275637148" at="51,26,52,18" concept="6" />
       <node id="8473566765275637148" at="55,39,56,32" concept="6" />
@@ -188,7 +188,7 @@
       <node id="8473566765275639188" at="107,0,109,0" concept="2" trace="myNode" />
       <node id="8473566765275637148" at="55,0,58,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8473566765275639188" at="117,0,120,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8473566765275637148" at="44,0,48,0" concept="0" trace="ReflectionFieldAccess_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8473566765275637148" at="44,0,48,0" concept="0" trace="ReflectionFieldAccess_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8473566765275637148" at="88,0,92,5" concept="3" />
       <node id="8473566765275637148" at="49,0,54,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8473566765275637148" at="99,205,104,22" concept="3" />
@@ -207,7 +207,7 @@
       <scope id="8473566765275639188" at="117,41,118,32" />
       <scope id="8473566765275639188" at="123,28,124,20" />
       <scope id="8473566765275639193" at="147,17,148,42" />
-      <scope id="8473566765275637148" at="44,101,46,18" />
+      <scope id="8473566765275637148" at="44,99,46,18" />
       <scope id="8473566765275637148" at="89,40,91,55" />
       <scope id="8473566765275637148" at="100,73,102,145">
         <var name="manager" id="8473566765275637148" />
@@ -263,27 +263,27 @@
         <var name="style" id="8473566765275637148" />
       </scope>
       <scope id="8473566765275637148" at="67,0,106,0" />
-      <unit id="8473566765275637148" at="153,0,156,0" name="de.slisson.mps.reflection.editor.ReflectionFieldAccess_EditorBuilder_a$LINKS" />
-      <unit id="8473566765275637148" at="162,0,165,0" name="de.slisson.mps.reflection.editor.ReflectionFieldAccess_EditorBuilder_a$PROPS" />
-      <unit id="8473566765275637148" at="157,0,161,0" name="de.slisson.mps.reflection.editor.ReflectionFieldAccess_EditorBuilder_a$CONCEPTS" />
-      <unit id="8473566765275637148" at="69,42,84,5" name="de.slisson.mps.reflection.editor.ReflectionFieldAccess_EditorBuilder_a$1" />
-      <unit id="8473566765275639188" at="106,0,152,0" name="de.slisson.mps.reflection.editor.ReflectionFieldAccess_EditorBuilder_a$Inline_Builder0" />
-      <unit id="8473566765275637148" at="40,0,166,0" name="de.slisson.mps.reflection.editor.ReflectionFieldAccess_EditorBuilder_a" />
+      <unit id="8473566765275637148" at="153,0,156,0" name="de.slisson.mps.reflection.editor.ReflectionFieldAccess_EditorBuilder$LINKS" />
+      <unit id="8473566765275637148" at="162,0,165,0" name="de.slisson.mps.reflection.editor.ReflectionFieldAccess_EditorBuilder$PROPS" />
+      <unit id="8473566765275637148" at="157,0,161,0" name="de.slisson.mps.reflection.editor.ReflectionFieldAccess_EditorBuilder$CONCEPTS" />
+      <unit id="8473566765275637148" at="69,42,84,5" name="de.slisson.mps.reflection.editor.ReflectionFieldAccess_EditorBuilder$1" />
+      <unit id="8473566765275639188" at="106,0,152,0" name="de.slisson.mps.reflection.editor.ReflectionFieldAccess_EditorBuilder$Inline_Builder0" />
+      <unit id="8473566765275637148" at="40,0,166,0" name="de.slisson.mps.reflection.editor.ReflectionFieldAccess_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:d5036b12-43fb-495f-9a2f-0fec80cd4a69(de.slisson.mps.reflection.editor)/8473566765277245648">
     <file name="ReflectionMethodCall_Editor.java">
-      <node id="8473566765277245648" at="11,79,12,86" concept="6" />
+      <node id="8473566765277245648" at="11,79,12,84" concept="6" />
       <node id="8473566765277245648" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8473566765277245648" at="11,79,12,86" />
+      <scope id="8473566765277245648" at="11,79,12,84" />
       <scope id="8473566765277245648" at="11,0,14,0">
         <var name="editorContext" id="8473566765277245648" />
         <var name="node" id="8473566765277245648" />
       </scope>
       <unit id="8473566765277245648" at="10,0,15,0" name="de.slisson.mps.reflection.editor.ReflectionMethodCall_Editor" />
     </file>
-    <file name="ReflectionMethodCall_EditorBuilder_a.java">
-      <node id="8473566765277245648" at="48,100,49,19" concept="9" />
+    <file name="ReflectionMethodCall_EditorBuilder.java">
+      <node id="8473566765277245648" at="48,98,49,19" concept="9" />
       <node id="8473566765277245648" at="49,19,50,18" concept="1" />
       <node id="8473566765277245648" at="55,26,56,18" concept="6" />
       <node id="8473566765277245648" at="59,39,60,32" concept="6" />
@@ -370,7 +370,7 @@
       <node id="1202948938318" at="125,0,127,0" concept="2" trace="myNode" />
       <node id="8473566765277245648" at="59,0,62,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1202948938318" at="135,0,138,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8473566765277245648" at="48,0,52,0" concept="0" trace="ReflectionMethodCall_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8473566765277245648" at="48,0,52,0" concept="0" trace="ReflectionMethodCall_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8473566765277245648" at="106,0,110,5" concept="3" />
       <node id="8473566765277245648" at="53,0,58,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8473566765277245648" at="117,205,122,22" concept="3" />
@@ -391,7 +391,7 @@
       <scope id="1202948938318" at="135,41,136,32" />
       <scope id="1202948938318" at="141,28,142,20" />
       <scope id="1202948938319" at="165,17,166,42" />
-      <scope id="8473566765277245648" at="48,100,50,18" />
+      <scope id="8473566765277245648" at="48,98,50,18" />
       <scope id="8473566765277245648" at="107,40,109,60" />
       <scope id="8473566765277245648" at="118,73,120,145">
         <var name="manager" id="8473566765277245648" />
@@ -458,27 +458,27 @@
         <var name="style" id="8473566765277245648" />
       </scope>
       <scope id="8473566765277245648" at="84,0,124,0" />
-      <unit id="8473566765277245648" at="190,0,193,0" name="de.slisson.mps.reflection.editor.ReflectionMethodCall_EditorBuilder_a$PROPS" />
-      <unit id="8473566765277245648" at="178,0,182,0" name="de.slisson.mps.reflection.editor.ReflectionMethodCall_EditorBuilder_a$LINKS" />
-      <unit id="8473566765277245648" at="183,0,189,0" name="de.slisson.mps.reflection.editor.ReflectionMethodCall_EditorBuilder_a$CONCEPTS" />
-      <unit id="8473566765277245648" at="86,42,101,5" name="de.slisson.mps.reflection.editor.ReflectionMethodCall_EditorBuilder_a$1" />
-      <unit id="1202948938318" at="124,0,170,0" name="de.slisson.mps.reflection.editor.ReflectionMethodCall_EditorBuilder_a$Inline_Builder0" />
-      <unit id="8473566765277245648" at="44,0,194,0" name="de.slisson.mps.reflection.editor.ReflectionMethodCall_EditorBuilder_a" />
+      <unit id="8473566765277245648" at="190,0,193,0" name="de.slisson.mps.reflection.editor.ReflectionMethodCall_EditorBuilder$PROPS" />
+      <unit id="8473566765277245648" at="178,0,182,0" name="de.slisson.mps.reflection.editor.ReflectionMethodCall_EditorBuilder$LINKS" />
+      <unit id="8473566765277245648" at="183,0,189,0" name="de.slisson.mps.reflection.editor.ReflectionMethodCall_EditorBuilder$CONCEPTS" />
+      <unit id="8473566765277245648" at="86,42,101,5" name="de.slisson.mps.reflection.editor.ReflectionMethodCall_EditorBuilder$1" />
+      <unit id="1202948938318" at="124,0,170,0" name="de.slisson.mps.reflection.editor.ReflectionMethodCall_EditorBuilder$Inline_Builder0" />
+      <unit id="8473566765277245648" at="44,0,194,0" name="de.slisson.mps.reflection.editor.ReflectionMethodCall_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:d5036b12-43fb-495f-9a2f-0fec80cd4a69(de.slisson.mps.reflection.editor)/8520162698482816595">
     <file name="ReflectionStaticMethodCall_Editor.java">
-      <node id="8520162698482816595" at="11,79,12,92" concept="6" />
+      <node id="8520162698482816595" at="11,79,12,90" concept="6" />
       <node id="8520162698482816595" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8520162698482816595" at="11,79,12,92" />
+      <scope id="8520162698482816595" at="11,79,12,90" />
       <scope id="8520162698482816595" at="11,0,14,0">
         <var name="editorContext" id="8520162698482816595" />
         <var name="node" id="8520162698482816595" />
       </scope>
       <unit id="8520162698482816595" at="10,0,15,0" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_Editor" />
     </file>
-    <file name="ReflectionStaticMethodCall_EditorBuilder_a.java">
-      <node id="8520162698482816595" at="50,106,51,19" concept="9" />
+    <file name="ReflectionStaticMethodCall_EditorBuilder.java">
+      <node id="8520162698482816595" at="50,104,51,19" concept="9" />
       <node id="8520162698482816595" at="51,19,52,18" concept="1" />
       <node id="8520162698482816595" at="57,26,58,18" concept="6" />
       <node id="8520162698482816595" at="61,39,62,32" concept="6" />
@@ -624,7 +624,7 @@
       <node id="8520162698482816595" at="61,0,64,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1144433246064" at="119,0,122,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1088427863671" at="226,0,229,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8520162698482816595" at="50,0,54,0" concept="0" trace="ReflectionStaticMethodCall_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8520162698482816595" at="50,0,54,0" concept="0" trace="ReflectionStaticMethodCall_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8520162698482816595" at="93,0,97,5" concept="3" />
       <node id="8520162698482816595" at="197,0,201,5" concept="3" />
       <node id="8520162698482816595" at="55,0,60,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -659,7 +659,7 @@
       <scope id="1088427863671" at="226,41,227,32" />
       <scope id="1088427863671" at="232,28,233,20" />
       <scope id="1088427863672" at="257,17,258,42" />
-      <scope id="8520162698482816595" at="50,106,52,18" />
+      <scope id="8520162698482816595" at="50,104,52,18" />
       <scope id="8520162698482816595" at="94,40,96,51" />
       <scope id="8520162698482816595" at="102,73,104,145">
         <var name="manager" id="8520162698482816595" />
@@ -767,29 +767,29 @@
         <var name="style" id="8520162698482816595" />
       </scope>
       <scope id="8520162698482816595" at="182,0,215,0" />
-      <unit id="8520162698482816595" at="283,0,286,0" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder_a$PROPS" />
-      <unit id="8520162698482816595" at="270,0,275,0" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder_a$LINKS" />
-      <unit id="8520162698482816595" at="276,0,282,0" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder_a$CONCEPTS" />
-      <unit id="8520162698482816595" at="81,42,89,5" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder_a$1" />
-      <unit id="8520162698482816595" at="184,42,192,5" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder_a$2" />
-      <unit id="1144433246064" at="108,0,151,0" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder_a$Inline_Builder0" />
-      <unit id="1088427863671" at="215,0,262,0" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder_a$Inline_Builder1" />
-      <unit id="8520162698482816595" at="46,0,287,0" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder_a" />
+      <unit id="8520162698482816595" at="283,0,286,0" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder$PROPS" />
+      <unit id="8520162698482816595" at="270,0,275,0" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder$LINKS" />
+      <unit id="8520162698482816595" at="276,0,282,0" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder$CONCEPTS" />
+      <unit id="8520162698482816595" at="81,42,89,5" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder$1" />
+      <unit id="8520162698482816595" at="184,42,192,5" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder$2" />
+      <unit id="1144433246064" at="108,0,151,0" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder$Inline_Builder0" />
+      <unit id="1088427863671" at="215,0,262,0" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder$Inline_Builder1" />
+      <unit id="8520162698482816595" at="46,0,287,0" name="de.slisson.mps.reflection.editor.ReflectionStaticMethodCall_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:d5036b12-43fb-495f-9a2f-0fec80cd4a69(de.slisson.mps.reflection.editor)/8520162698483658574">
     <file name="ReflectionStaticFieldReference_Editor.java">
-      <node id="8520162698483658574" at="11,79,12,96" concept="6" />
+      <node id="8520162698483658574" at="11,79,12,94" concept="6" />
       <node id="8520162698483658574" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8520162698483658574" at="11,79,12,96" />
+      <scope id="8520162698483658574" at="11,79,12,94" />
       <scope id="8520162698483658574" at="11,0,14,0">
         <var name="editorContext" id="8520162698483658574" />
         <var name="node" id="8520162698483658574" />
       </scope>
       <unit id="8520162698483658574" at="10,0,15,0" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_Editor" />
     </file>
-    <file name="ReflectionStaticFieldReference_EditorBuilder_a.java">
-      <node id="8520162698483658574" at="48,110,49,19" concept="9" />
+    <file name="ReflectionStaticFieldReference_EditorBuilder.java">
+      <node id="8520162698483658574" at="48,108,49,19" concept="9" />
       <node id="8520162698483658574" at="49,19,50,18" concept="1" />
       <node id="8520162698483658574" at="55,26,56,18" concept="6" />
       <node id="8520162698483658574" at="59,39,60,32" concept="6" />
@@ -912,7 +912,7 @@
       <node id="1144433124323" at="113,0,116,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1088427644684" at="201,0,204,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1088427644685" at="221,44,224,9" concept="3" />
-      <node id="8520162698483658574" at="48,0,52,0" concept="0" trace="ReflectionStaticFieldReference_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8520162698483658574" at="48,0,52,0" concept="0" trace="ReflectionStaticFieldReference_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8520162698483658574" at="87,0,91,5" concept="3" />
       <node id="8520162698483658574" at="170,0,174,5" concept="3" />
       <node id="8520162698483658574" at="53,0,58,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -945,7 +945,7 @@
       <scope id="1088427644684" at="207,28,208,20" />
       <scope id="1088427644685" at="222,19,223,94" />
       <scope id="1088427644685" at="234,17,235,42" />
-      <scope id="8520162698483658574" at="48,110,50,18" />
+      <scope id="8520162698483658574" at="48,108,50,18" />
       <scope id="8520162698483658574" at="88,40,90,49" />
       <scope id="8520162698483658574" at="96,73,98,145">
         <var name="manager" id="8520162698483658574" />
@@ -1037,14 +1037,14 @@
         <var name="style" id="8520162698483658574" />
       </scope>
       <scope id="8520162698483658574" at="155,0,190,0" />
-      <unit id="8520162698483658574" at="253,0,256,0" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder_a$PROPS" />
-      <unit id="8520162698483658574" at="240,0,245,0" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder_a$LINKS" />
-      <unit id="8520162698483658574" at="246,0,252,0" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder_a$CONCEPTS" />
-      <unit id="8520162698483658574" at="75,42,83,5" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder_a$1" />
-      <unit id="8520162698483658574" at="157,42,165,5" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder_a$2" />
-      <unit id="1144433124323" at="102,0,145,0" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder_a$Inline_Builder0" />
-      <unit id="1088427644684" at="190,0,239,0" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder_a$Inline_Builder1" />
-      <unit id="8520162698483658574" at="44,0,257,0" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder_a" />
+      <unit id="8520162698483658574" at="253,0,256,0" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder$PROPS" />
+      <unit id="8520162698483658574" at="240,0,245,0" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder$LINKS" />
+      <unit id="8520162698483658574" at="246,0,252,0" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder$CONCEPTS" />
+      <unit id="8520162698483658574" at="75,42,83,5" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder$1" />
+      <unit id="8520162698483658574" at="157,42,165,5" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder$2" />
+      <unit id="1144433124323" at="102,0,145,0" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder$Inline_Builder0" />
+      <unit id="1088427644684" at="190,0,239,0" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder$Inline_Builder1" />
+      <unit id="8520162698483658574" at="44,0,257,0" name="de.slisson.mps.reflection.editor.ReflectionStaticFieldReference_EditorBuilder" />
     </file>
   </root>
 </debug-info>

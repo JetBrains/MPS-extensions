@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:b9023a52-c610-4775-b1b2-99db56874c17(de.itemis.model.merge.baselang.editor)/5951366741878928076">
     <file name="ModelMergerExpression_Editor.java">
-      <node id="5951366741878928076" at="11,79,12,87" concept="6" />
+      <node id="5951366741878928076" at="11,79,12,85" concept="6" />
       <node id="5951366741878928076" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5951366741878928076" at="11,79,12,87" />
+      <scope id="5951366741878928076" at="11,79,12,85" />
       <scope id="5951366741878928076" at="11,0,14,0">
         <var name="editorContext" id="5951366741878928076" />
         <var name="node" id="5951366741878928076" />
       </scope>
       <unit id="5951366741878928076" at="10,0,15,0" name="de.itemis.model.merge.baselang.editor.ModelMergerExpression_Editor" />
     </file>
-    <file name="ModelMergerExpression_EditorBuilder_a.java">
-      <node id="5951366741878928076" at="34,101,35,19" concept="8" />
+    <file name="ModelMergerExpression_EditorBuilder.java">
+      <node id="5951366741878928076" at="34,99,35,19" concept="8" />
       <node id="5951366741878928076" at="35,19,36,18" concept="1" />
       <node id="5951366741878928076" at="41,26,42,18" concept="6" />
       <node id="5951366741878928076" at="45,39,46,32" concept="6" />
@@ -169,7 +169,7 @@
       <node id="5951366741878928076" at="250,87,253,7" concept="3" />
       <node id="5951366741878928076" at="253,7,256,7" concept="3" />
       <node id="5951366741878928076" at="272,0,275,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="5951366741878928076" at="34,0,38,0" concept="0" trace="ModelMergerExpression_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5951366741878928076" at="34,0,38,0" concept="0" trace="ModelMergerExpression_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5951366741878928076" at="91,0,95,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5951366741878928076" at="99,0,103,0" concept="0" trace="modelMergeSingleRoleHandler_dwx9so_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5951366741878928076" at="156,0,160,0" concept="4" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -216,7 +216,7 @@
       <scope id="5951366741878928076" at="254,42,255,46" />
       <scope id="5951366741878928076" at="268,17,269,42" />
       <scope id="5951366741878928076" at="272,40,273,26" />
-      <scope id="5951366741878928076" at="34,101,36,18" />
+      <scope id="5951366741878928076" at="34,99,36,18" />
       <scope id="5951366741878928076" at="91,40,93,33">
         <var name="provider" id="5951366741878928076" />
       </scope>
@@ -343,11 +343,11 @@
       <scope id="5951366741878928076" at="193,0,207,0" />
       <scope id="5951366741878928076" at="258,0,272,0" />
       <scope id="5951366741878928076" at="49,0,65,0" />
-      <unit id="5951366741878928076" at="287,0,292,0" name="de.itemis.model.merge.baselang.editor.ModelMergerExpression_EditorBuilder_a$LINKS" />
-      <unit id="5951366741878928076" at="95,0,146,0" name="de.itemis.model.merge.baselang.editor.ModelMergerExpression_EditorBuilder_a$modelMergeSingleRoleHandler_dwx9so_d0" />
-      <unit id="5951366741878928076" at="160,0,211,0" name="de.itemis.model.merge.baselang.editor.ModelMergerExpression_EditorBuilder_a$leftSingleRoleHandler_dwx9so_f0" />
-      <unit id="5951366741878928076" at="225,0,276,0" name="de.itemis.model.merge.baselang.editor.ModelMergerExpression_EditorBuilder_a$rightSingleRoleHandler_dwx9so_h0" />
-      <unit id="5951366741878928076" at="30,0,293,0" name="de.itemis.model.merge.baselang.editor.ModelMergerExpression_EditorBuilder_a" />
+      <unit id="5951366741878928076" at="287,0,292,0" name="de.itemis.model.merge.baselang.editor.ModelMergerExpression_EditorBuilder$LINKS" />
+      <unit id="5951366741878928076" at="95,0,146,0" name="de.itemis.model.merge.baselang.editor.ModelMergerExpression_EditorBuilder$modelMergeSingleRoleHandler_dwx9so_d0" />
+      <unit id="5951366741878928076" at="160,0,211,0" name="de.itemis.model.merge.baselang.editor.ModelMergerExpression_EditorBuilder$leftSingleRoleHandler_dwx9so_f0" />
+      <unit id="5951366741878928076" at="225,0,276,0" name="de.itemis.model.merge.baselang.editor.ModelMergerExpression_EditorBuilder$rightSingleRoleHandler_dwx9so_h0" />
+      <unit id="5951366741878928076" at="30,0,293,0" name="de.itemis.model.merge.baselang.editor.ModelMergerExpression_EditorBuilder" />
     </file>
   </root>
 </debug-info>

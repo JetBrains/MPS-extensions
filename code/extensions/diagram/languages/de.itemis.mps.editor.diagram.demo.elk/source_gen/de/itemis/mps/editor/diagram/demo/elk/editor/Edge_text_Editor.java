@@ -18,6 +18,6 @@ public class Edge_text_Editor extends DefaultNodeEditor {
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Edge_text_EditorBuilder_a(editorContext, node).createCell();
+    return new Edge_text_EditorBuilder(editorContext, node).createCell();
   }
 }

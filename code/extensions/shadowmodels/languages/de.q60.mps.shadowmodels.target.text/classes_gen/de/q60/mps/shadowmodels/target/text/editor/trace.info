@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:0edb2d58-def9-4507-9ae9-6c40014ba740(de.q60.mps.shadowmodels.target.text.editor)/1038241485677393713">
     <file name="Folder_Editor.java">
-      <node id="1038241485677393713" at="11,79,12,72" concept="6" />
+      <node id="1038241485677393713" at="11,79,12,70" concept="6" />
       <node id="1038241485677393713" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1038241485677393713" at="11,79,12,72" />
+      <scope id="1038241485677393713" at="11,79,12,70" />
       <scope id="1038241485677393713" at="11,0,14,0">
         <var name="editorContext" id="1038241485677393713" />
         <var name="node" id="1038241485677393713" />
       </scope>
       <unit id="1038241485677393713" at="10,0,15,0" name="de.q60.mps.shadowmodels.target.text.editor.Folder_Editor" />
     </file>
-    <file name="Folder_EditorBuilder_a.java">
-      <node id="1038241485677393713" at="46,86,47,19" concept="8" />
+    <file name="Folder_EditorBuilder.java">
+      <node id="1038241485677393713" at="46,84,47,19" concept="8" />
       <node id="1038241485677393713" at="47,19,48,18" concept="1" />
       <node id="1038241485677393713" at="53,26,54,18" concept="6" />
       <node id="1038241485677393713" at="57,39,58,32" concept="6" />
@@ -118,7 +118,7 @@
       <node id="1038241485677393713" at="135,0,138,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="1038241485677393713" at="138,0,141,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="1038241485677393713" at="182,96,185,9" concept="3" />
-      <node id="1038241485677393713" at="46,0,50,0" concept="0" trace="Folder_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1038241485677393713" at="46,0,50,0" concept="0" trace="Folder_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1038241485677393713" at="126,0,130,0" concept="0" trace="contentListHandler_ngx833_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1038241485677393713" at="131,0,135,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1038241485677393713" at="164,97,168,9" concept="3" />
@@ -149,7 +149,7 @@
       <scope id="1038241485677393713" at="138,48,139,40" />
       <scope id="1038241485677393713" at="156,17,157,42" />
       <scope id="1038241485677393713" at="183,34,184,91" />
-      <scope id="1038241485677393713" at="46,86,48,18" />
+      <scope id="1038241485677393713" at="46,84,48,18" />
       <scope id="1038241485677393718" at="91,74,93,145">
         <var name="manager" id="1038241485677393718" />
       </scope>
@@ -223,26 +223,26 @@
         <var name="elementNode" id="1038241485677393713" />
         <var name="isEmptyCell" id="1038241485677393713" />
       </scope>
-      <unit id="1038241485677393713" at="199,0,202,0" name="de.q60.mps.shadowmodels.target.text.editor.Folder_EditorBuilder_a$PROPS" />
-      <unit id="1038241485677393713" at="208,0,211,0" name="de.q60.mps.shadowmodels.target.text.editor.Folder_EditorBuilder_a$LINKS" />
-      <unit id="1038241485677393713" at="203,0,207,0" name="de.q60.mps.shadowmodels.target.text.editor.Folder_EditorBuilder_a$CONCEPTS" />
-      <unit id="1038241485677393713" at="122,0,189,0" name="de.q60.mps.shadowmodels.target.text.editor.Folder_EditorBuilder_a$contentListHandler_ngx833_d0" />
-      <unit id="1038241485677393713" at="42,0,212,0" name="de.q60.mps.shadowmodels.target.text.editor.Folder_EditorBuilder_a" />
+      <unit id="1038241485677393713" at="199,0,202,0" name="de.q60.mps.shadowmodels.target.text.editor.Folder_EditorBuilder$PROPS" />
+      <unit id="1038241485677393713" at="208,0,211,0" name="de.q60.mps.shadowmodels.target.text.editor.Folder_EditorBuilder$LINKS" />
+      <unit id="1038241485677393713" at="203,0,207,0" name="de.q60.mps.shadowmodels.target.text.editor.Folder_EditorBuilder$CONCEPTS" />
+      <unit id="1038241485677393713" at="122,0,189,0" name="de.q60.mps.shadowmodels.target.text.editor.Folder_EditorBuilder$contentListHandler_ngx833_d0" />
+      <unit id="1038241485677393713" at="42,0,212,0" name="de.q60.mps.shadowmodels.target.text.editor.Folder_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0edb2d58-def9-4507-9ae9-6c40014ba740(de.q60.mps.shadowmodels.target.text.editor)/1038241485677393820">
     <file name="TextFile_Editor.java">
-      <node id="1038241485677393820" at="11,79,12,74" concept="6" />
+      <node id="1038241485677393820" at="11,79,12,72" concept="6" />
       <node id="1038241485677393820" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1038241485677393820" at="11,79,12,74" />
+      <scope id="1038241485677393820" at="11,79,12,72" />
       <scope id="1038241485677393820" at="11,0,14,0">
         <var name="editorContext" id="1038241485677393820" />
         <var name="node" id="1038241485677393820" />
       </scope>
       <unit id="1038241485677393820" at="10,0,15,0" name="de.q60.mps.shadowmodels.target.text.editor.TextFile_Editor" />
     </file>
-    <file name="TextFile_EditorBuilder_a.java">
-      <node id="1038241485677393820" at="46,88,47,19" concept="8" />
+    <file name="TextFile_EditorBuilder.java">
+      <node id="1038241485677393820" at="46,86,47,19" concept="8" />
       <node id="1038241485677393820" at="47,19,48,18" concept="1" />
       <node id="1038241485677393820" at="53,26,54,18" concept="6" />
       <node id="1038241485677393820" at="57,39,58,32" concept="6" />
@@ -334,7 +334,7 @@
       <node id="1038241485677393820" at="136,0,139,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="1038241485677393820" at="139,0,142,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="1038241485677393820" at="183,96,186,9" concept="3" />
-      <node id="1038241485677393820" at="46,0,50,0" concept="0" trace="TextFile_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1038241485677393820" at="46,0,50,0" concept="0" trace="TextFile_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1038241485677393820" at="127,0,131,0" concept="0" trace="contentListHandler_fmnf9t_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1038241485677393820" at="132,0,136,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1038241485677393820" at="165,97,169,9" concept="3" />
@@ -365,7 +365,7 @@
       <scope id="1038241485677393820" at="139,48,140,38" />
       <scope id="1038241485677393820" at="157,17,158,42" />
       <scope id="1038241485677393820" at="184,34,185,91" />
-      <scope id="1038241485677393820" at="46,88,48,18" />
+      <scope id="1038241485677393820" at="46,86,48,18" />
       <scope id="1038241485677476592" at="91,74,93,145">
         <var name="manager" id="1038241485677476592" />
       </scope>
@@ -439,26 +439,26 @@
         <var name="elementNode" id="1038241485677393820" />
         <var name="isEmptyCell" id="1038241485677393820" />
       </scope>
-      <unit id="1038241485677393820" at="200,0,203,0" name="de.q60.mps.shadowmodels.target.text.editor.TextFile_EditorBuilder_a$PROPS" />
-      <unit id="1038241485677393820" at="209,0,212,0" name="de.q60.mps.shadowmodels.target.text.editor.TextFile_EditorBuilder_a$LINKS" />
-      <unit id="1038241485677393820" at="204,0,208,0" name="de.q60.mps.shadowmodels.target.text.editor.TextFile_EditorBuilder_a$CONCEPTS" />
-      <unit id="1038241485677393820" at="123,0,190,0" name="de.q60.mps.shadowmodels.target.text.editor.TextFile_EditorBuilder_a$contentListHandler_fmnf9t_d0" />
-      <unit id="1038241485677393820" at="42,0,213,0" name="de.q60.mps.shadowmodels.target.text.editor.TextFile_EditorBuilder_a" />
+      <unit id="1038241485677393820" at="200,0,203,0" name="de.q60.mps.shadowmodels.target.text.editor.TextFile_EditorBuilder$PROPS" />
+      <unit id="1038241485677393820" at="209,0,212,0" name="de.q60.mps.shadowmodels.target.text.editor.TextFile_EditorBuilder$LINKS" />
+      <unit id="1038241485677393820" at="204,0,208,0" name="de.q60.mps.shadowmodels.target.text.editor.TextFile_EditorBuilder$CONCEPTS" />
+      <unit id="1038241485677393820" at="123,0,190,0" name="de.q60.mps.shadowmodels.target.text.editor.TextFile_EditorBuilder$contentListHandler_fmnf9t_d0" />
+      <unit id="1038241485677393820" at="42,0,213,0" name="de.q60.mps.shadowmodels.target.text.editor.TextFile_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0edb2d58-def9-4507-9ae9-6c40014ba740(de.q60.mps.shadowmodels.target.text.editor)/1038241485677423762">
     <file name="Line_Editor.java">
-      <node id="1038241485677423762" at="11,79,12,70" concept="6" />
+      <node id="1038241485677423762" at="11,79,12,68" concept="6" />
       <node id="1038241485677423762" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1038241485677423762" at="11,79,12,70" />
+      <scope id="1038241485677423762" at="11,79,12,68" />
       <scope id="1038241485677423762" at="11,0,14,0">
         <var name="editorContext" id="1038241485677423762" />
         <var name="node" id="1038241485677423762" />
       </scope>
       <unit id="1038241485677423762" at="10,0,15,0" name="de.q60.mps.shadowmodels.target.text.editor.Line_Editor" />
     </file>
-    <file name="Line_EditorBuilder_a.java">
-      <node id="1038241485677423762" at="32,84,33,19" concept="8" />
+    <file name="Line_EditorBuilder.java">
+      <node id="1038241485677423762" at="32,82,33,19" concept="8" />
       <node id="1038241485677423762" at="33,19,34,18" concept="1" />
       <node id="1038241485677423762" at="39,26,40,18" concept="6" />
       <node id="1038241485677423762" at="43,39,44,32" concept="6" />
@@ -508,7 +508,7 @@
       <node id="1038241485677423762" at="78,0,81,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="1038241485677423762" at="81,0,84,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="1038241485677423762" at="125,96,128,9" concept="3" />
-      <node id="1038241485677423762" at="32,0,36,0" concept="0" trace="Line_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1038241485677423762" at="32,0,36,0" concept="0" trace="Line_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1038241485677423762" at="69,0,73,0" concept="0" trace="contentListHandler_78ent8_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1038241485677423762" at="74,0,78,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1038241485677423762" at="107,97,111,9" concept="3" />
@@ -532,7 +532,7 @@
       <scope id="1038241485677423762" at="81,48,82,38" />
       <scope id="1038241485677423762" at="99,17,100,42" />
       <scope id="1038241485677423762" at="126,34,127,91" />
-      <scope id="1038241485677423762" at="32,84,34,18" />
+      <scope id="1038241485677423762" at="32,82,34,18" />
       <scope id="1038241485677423762" at="69,81,71,25" />
       <scope id="1038241485677423762" at="108,122,110,146" />
       <scope id="1038241485677423762" at="114,34,116,142" />
@@ -581,25 +581,25 @@
         <var name="elementNode" id="1038241485677423762" />
         <var name="isEmptyCell" id="1038241485677423762" />
       </scope>
-      <unit id="1038241485677423762" at="133,0,136,0" name="de.q60.mps.shadowmodels.target.text.editor.Line_EditorBuilder_a$LINKS" />
-      <unit id="1038241485677423762" at="137,0,140,0" name="de.q60.mps.shadowmodels.target.text.editor.Line_EditorBuilder_a$CONCEPTS" />
-      <unit id="1038241485677423762" at="65,0,132,0" name="de.q60.mps.shadowmodels.target.text.editor.Line_EditorBuilder_a$contentListHandler_78ent8_a0" />
-      <unit id="1038241485677423762" at="28,0,141,0" name="de.q60.mps.shadowmodels.target.text.editor.Line_EditorBuilder_a" />
+      <unit id="1038241485677423762" at="133,0,136,0" name="de.q60.mps.shadowmodels.target.text.editor.Line_EditorBuilder$LINKS" />
+      <unit id="1038241485677423762" at="137,0,140,0" name="de.q60.mps.shadowmodels.target.text.editor.Line_EditorBuilder$CONCEPTS" />
+      <unit id="1038241485677423762" at="65,0,132,0" name="de.q60.mps.shadowmodels.target.text.editor.Line_EditorBuilder$contentListHandler_78ent8_a0" />
+      <unit id="1038241485677423762" at="28,0,141,0" name="de.q60.mps.shadowmodels.target.text.editor.Line_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0edb2d58-def9-4507-9ae9-6c40014ba740(de.q60.mps.shadowmodels.target.text.editor)/1038241485677430355">
     <file name="Text_Editor.java">
-      <node id="1038241485677430355" at="11,79,12,70" concept="6" />
+      <node id="1038241485677430355" at="11,79,12,68" concept="6" />
       <node id="1038241485677430355" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1038241485677430355" at="11,79,12,70" />
+      <scope id="1038241485677430355" at="11,79,12,68" />
       <scope id="1038241485677430355" at="11,0,14,0">
         <var name="editorContext" id="1038241485677430355" />
         <var name="node" id="1038241485677430355" />
       </scope>
       <unit id="1038241485677430355" at="10,0,15,0" name="de.q60.mps.shadowmodels.target.text.editor.Text_Editor" />
     </file>
-    <file name="Text_EditorBuilder_a.java">
-      <node id="1038241485677430355" at="32,84,33,19" concept="8" />
+    <file name="Text_EditorBuilder.java">
+      <node id="1038241485677430355" at="32,82,33,19" concept="8" />
       <node id="1038241485677430355" at="33,19,34,18" concept="1" />
       <node id="1038241485677430355" at="39,26,40,18" concept="6" />
       <node id="1038241485677430355" at="43,39,44,30" concept="6" />
@@ -629,7 +629,7 @@
       <node id="1038241485677430355" at="82,0,83,0" concept="7" trace="PropertyAttribute$Gb" />
       <node id="1038241485677430355" at="29,0,31,0" concept="2" trace="myNode" />
       <node id="1038241485677430355" at="43,0,46,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1038241485677430355" at="32,0,36,0" concept="0" trace="Text_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1038241485677430355" at="32,0,36,0" concept="0" trace="Text_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1038241485677430355" at="37,0,42,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1038241485677430360" at="66,208,71,24" concept="3" />
       <node id="1038241485677430360" at="48,39,74,5" concept="9" />
@@ -637,7 +637,7 @@
       <scope id="1038241485677430355" at="39,26,40,18" />
       <scope id="1038241485677430355" at="43,39,44,30" />
       <scope id="1038241485677430360" at="72,15,73,40" />
-      <scope id="1038241485677430355" at="32,84,34,18" />
+      <scope id="1038241485677430355" at="32,82,34,18" />
       <scope id="1038241485677430360" at="67,74,69,145">
         <var name="manager" id="1038241485677430360" />
       </scope>
@@ -656,24 +656,24 @@
       </scope>
       <scope id="1038241485677430360" at="47,41,74,5" />
       <scope id="1038241485677430360" at="47,0,76,0" />
-      <unit id="1038241485677430355" at="77,0,80,0" name="de.q60.mps.shadowmodels.target.text.editor.Text_EditorBuilder_a$PROPS" />
-      <unit id="1038241485677430355" at="81,0,84,0" name="de.q60.mps.shadowmodels.target.text.editor.Text_EditorBuilder_a$CONCEPTS" />
-      <unit id="1038241485677430355" at="28,0,85,0" name="de.q60.mps.shadowmodels.target.text.editor.Text_EditorBuilder_a" />
+      <unit id="1038241485677430355" at="77,0,80,0" name="de.q60.mps.shadowmodels.target.text.editor.Text_EditorBuilder$PROPS" />
+      <unit id="1038241485677430355" at="81,0,84,0" name="de.q60.mps.shadowmodels.target.text.editor.Text_EditorBuilder$CONCEPTS" />
+      <unit id="1038241485677430355" at="28,0,85,0" name="de.q60.mps.shadowmodels.target.text.editor.Text_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0edb2d58-def9-4507-9ae9-6c40014ba740(de.q60.mps.shadowmodels.target.text.editor)/1038241485677508255">
     <file name="Indentation_Editor.java">
-      <node id="1038241485677508255" at="11,79,12,77" concept="6" />
+      <node id="1038241485677508255" at="11,79,12,75" concept="6" />
       <node id="1038241485677508255" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1038241485677508255" at="11,79,12,77" />
+      <scope id="1038241485677508255" at="11,79,12,75" />
       <scope id="1038241485677508255" at="11,0,14,0">
         <var name="editorContext" id="1038241485677508255" />
         <var name="node" id="1038241485677508255" />
       </scope>
       <unit id="1038241485677508255" at="10,0,15,0" name="de.q60.mps.shadowmodels.target.text.editor.Indentation_Editor" />
     </file>
-    <file name="Indentation_EditorBuilder_a.java">
-      <node id="1038241485677508255" at="32,91,33,19" concept="8" />
+    <file name="Indentation_EditorBuilder.java">
+      <node id="1038241485677508255" at="32,89,33,19" concept="8" />
       <node id="1038241485677508255" at="33,19,34,18" concept="1" />
       <node id="1038241485677508255" at="39,26,40,18" concept="6" />
       <node id="1038241485677508255" at="43,39,44,32" concept="6" />
@@ -724,7 +724,7 @@
       <node id="1038241485677508255" at="79,0,82,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="1038241485677508255" at="82,0,85,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="1038241485677508255" at="126,96,129,9" concept="3" />
-      <node id="1038241485677508255" at="32,0,36,0" concept="0" trace="Indentation_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1038241485677508255" at="32,0,36,0" concept="0" trace="Indentation_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1038241485677508255" at="70,0,74,0" concept="0" trace="contentListHandler_pu9v5_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1038241485677508255" at="75,0,79,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1038241485677508255" at="108,97,112,9" concept="3" />
@@ -748,7 +748,7 @@
       <scope id="1038241485677508255" at="82,48,83,38" />
       <scope id="1038241485677508255" at="100,17,101,42" />
       <scope id="1038241485677508255" at="127,34,128,91" />
-      <scope id="1038241485677508255" at="32,91,34,18" />
+      <scope id="1038241485677508255" at="32,89,34,18" />
       <scope id="1038241485677508255" at="70,80,72,25" />
       <scope id="1038241485677508255" at="109,122,111,146" />
       <scope id="1038241485677508255" at="115,34,117,142" />
@@ -797,25 +797,25 @@
         <var name="elementNode" id="1038241485677508255" />
         <var name="isEmptyCell" id="1038241485677508255" />
       </scope>
-      <unit id="1038241485677508255" at="134,0,137,0" name="de.q60.mps.shadowmodels.target.text.editor.Indentation_EditorBuilder_a$LINKS" />
-      <unit id="1038241485677508255" at="138,0,141,0" name="de.q60.mps.shadowmodels.target.text.editor.Indentation_EditorBuilder_a$CONCEPTS" />
-      <unit id="1038241485677508255" at="66,0,133,0" name="de.q60.mps.shadowmodels.target.text.editor.Indentation_EditorBuilder_a$contentListHandler_pu9v5_a0" />
-      <unit id="1038241485677508255" at="28,0,142,0" name="de.q60.mps.shadowmodels.target.text.editor.Indentation_EditorBuilder_a" />
+      <unit id="1038241485677508255" at="134,0,137,0" name="de.q60.mps.shadowmodels.target.text.editor.Indentation_EditorBuilder$LINKS" />
+      <unit id="1038241485677508255" at="138,0,141,0" name="de.q60.mps.shadowmodels.target.text.editor.Indentation_EditorBuilder$CONCEPTS" />
+      <unit id="1038241485677508255" at="66,0,133,0" name="de.q60.mps.shadowmodels.target.text.editor.Indentation_EditorBuilder$contentListHandler_pu9v5_a0" />
+      <unit id="1038241485677508255" at="28,0,142,0" name="de.q60.mps.shadowmodels.target.text.editor.Indentation_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0edb2d58-def9-4507-9ae9-6c40014ba740(de.q60.mps.shadowmodels.target.text.editor)/1038241485678186918">
     <file name="Block_Editor.java">
-      <node id="1038241485678186918" at="11,79,12,71" concept="6" />
+      <node id="1038241485678186918" at="11,79,12,69" concept="6" />
       <node id="1038241485678186918" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1038241485678186918" at="11,79,12,71" />
+      <scope id="1038241485678186918" at="11,79,12,69" />
       <scope id="1038241485678186918" at="11,0,14,0">
         <var name="editorContext" id="1038241485678186918" />
         <var name="node" id="1038241485678186918" />
       </scope>
       <unit id="1038241485678186918" at="10,0,15,0" name="de.q60.mps.shadowmodels.target.text.editor.Block_Editor" />
     </file>
-    <file name="Block_EditorBuilder_a.java">
-      <node id="1038241485678186918" at="32,85,33,19" concept="8" />
+    <file name="Block_EditorBuilder.java">
+      <node id="1038241485678186918" at="32,83,33,19" concept="8" />
       <node id="1038241485678186918" at="33,19,34,18" concept="1" />
       <node id="1038241485678186918" at="39,26,40,18" concept="6" />
       <node id="1038241485678186918" at="43,39,44,32" concept="6" />
@@ -865,7 +865,7 @@
       <node id="1038241485678186918" at="78,0,81,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="1038241485678186918" at="81,0,84,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="1038241485678186918" at="125,96,128,9" concept="3" />
-      <node id="1038241485678186918" at="32,0,36,0" concept="0" trace="Block_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1038241485678186918" at="32,0,36,0" concept="0" trace="Block_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1038241485678186918" at="69,0,73,0" concept="0" trace="contentListHandler_kw2rpr_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1038241485678186918" at="74,0,78,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1038241485678186918" at="107,97,111,9" concept="3" />
@@ -889,7 +889,7 @@
       <scope id="1038241485678186918" at="81,48,82,38" />
       <scope id="1038241485678186918" at="99,17,100,42" />
       <scope id="1038241485678186918" at="126,34,127,91" />
-      <scope id="1038241485678186918" at="32,85,34,18" />
+      <scope id="1038241485678186918" at="32,83,34,18" />
       <scope id="1038241485678186918" at="69,81,71,25" />
       <scope id="1038241485678186918" at="108,122,110,146" />
       <scope id="1038241485678186918" at="114,34,116,142" />
@@ -938,25 +938,25 @@
         <var name="elementNode" id="1038241485678186918" />
         <var name="isEmptyCell" id="1038241485678186918" />
       </scope>
-      <unit id="1038241485678186918" at="133,0,136,0" name="de.q60.mps.shadowmodels.target.text.editor.Block_EditorBuilder_a$LINKS" />
-      <unit id="1038241485678186918" at="137,0,140,0" name="de.q60.mps.shadowmodels.target.text.editor.Block_EditorBuilder_a$CONCEPTS" />
-      <unit id="1038241485678186918" at="65,0,132,0" name="de.q60.mps.shadowmodels.target.text.editor.Block_EditorBuilder_a$contentListHandler_kw2rpr_a0" />
-      <unit id="1038241485678186918" at="28,0,141,0" name="de.q60.mps.shadowmodels.target.text.editor.Block_EditorBuilder_a" />
+      <unit id="1038241485678186918" at="133,0,136,0" name="de.q60.mps.shadowmodels.target.text.editor.Block_EditorBuilder$LINKS" />
+      <unit id="1038241485678186918" at="137,0,140,0" name="de.q60.mps.shadowmodels.target.text.editor.Block_EditorBuilder$CONCEPTS" />
+      <unit id="1038241485678186918" at="65,0,132,0" name="de.q60.mps.shadowmodels.target.text.editor.Block_EditorBuilder$contentListHandler_kw2rpr_a0" />
+      <unit id="1038241485678186918" at="28,0,141,0" name="de.q60.mps.shadowmodels.target.text.editor.Block_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:0edb2d58-def9-4507-9ae9-6c40014ba740(de.q60.mps.shadowmodels.target.text.editor)/7475940883581055584">
     <file name="TextSequence_Editor.java">
-      <node id="7475940883581055584" at="11,79,12,78" concept="6" />
+      <node id="7475940883581055584" at="11,79,12,76" concept="6" />
       <node id="7475940883581055584" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="7475940883581055584" at="11,79,12,78" />
+      <scope id="7475940883581055584" at="11,79,12,76" />
       <scope id="7475940883581055584" at="11,0,14,0">
         <var name="editorContext" id="7475940883581055584" />
         <var name="node" id="7475940883581055584" />
       </scope>
       <unit id="7475940883581055584" at="10,0,15,0" name="de.q60.mps.shadowmodels.target.text.editor.TextSequence_Editor" />
     </file>
-    <file name="TextSequence_EditorBuilder_a.java">
-      <node id="7475940883581055584" at="29,92,30,19" concept="8" />
+    <file name="TextSequence_EditorBuilder.java">
+      <node id="7475940883581055584" at="29,90,30,19" concept="8" />
       <node id="7475940883581055584" at="30,19,31,18" concept="1" />
       <node id="7475940883581055584" at="36,26,37,18" concept="6" />
       <node id="7475940883581055584" at="40,39,41,32" concept="6" />
@@ -1003,7 +1003,7 @@
       <node id="7475940883581055584" at="72,0,75,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="7475940883581055584" at="75,0,78,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="7475940883581055584" at="119,96,122,9" concept="3" />
-      <node id="7475940883581055584" at="29,0,33,0" concept="0" trace="TextSequence_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7475940883581055584" at="29,0,33,0" concept="0" trace="TextSequence_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7475940883581055584" at="63,0,67,0" concept="0" trace="contentListHandler_8pqan3_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="7475940883581055584" at="68,0,72,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="7475940883581055584" at="101,97,105,9" concept="3" />
@@ -1027,7 +1027,7 @@
       <scope id="7475940883581055584" at="75,48,76,38" />
       <scope id="7475940883581055584" at="93,17,94,42" />
       <scope id="7475940883581055584" at="120,34,121,91" />
-      <scope id="7475940883581055584" at="29,92,31,18" />
+      <scope id="7475940883581055584" at="29,90,31,18" />
       <scope id="7475940883581055584" at="63,81,65,25" />
       <scope id="7475940883581055584" at="102,122,104,146" />
       <scope id="7475940883581055584" at="108,34,110,142" />
@@ -1075,10 +1075,10 @@
         <var name="elementNode" id="7475940883581055584" />
         <var name="isEmptyCell" id="7475940883581055584" />
       </scope>
-      <unit id="7475940883581055584" at="127,0,130,0" name="de.q60.mps.shadowmodels.target.text.editor.TextSequence_EditorBuilder_a$LINKS" />
-      <unit id="7475940883581055584" at="131,0,134,0" name="de.q60.mps.shadowmodels.target.text.editor.TextSequence_EditorBuilder_a$CONCEPTS" />
-      <unit id="7475940883581055584" at="59,0,126,0" name="de.q60.mps.shadowmodels.target.text.editor.TextSequence_EditorBuilder_a$contentListHandler_8pqan3_a0" />
-      <unit id="7475940883581055584" at="25,0,135,0" name="de.q60.mps.shadowmodels.target.text.editor.TextSequence_EditorBuilder_a" />
+      <unit id="7475940883581055584" at="127,0,130,0" name="de.q60.mps.shadowmodels.target.text.editor.TextSequence_EditorBuilder$LINKS" />
+      <unit id="7475940883581055584" at="131,0,134,0" name="de.q60.mps.shadowmodels.target.text.editor.TextSequence_EditorBuilder$CONCEPTS" />
+      <unit id="7475940883581055584" at="59,0,126,0" name="de.q60.mps.shadowmodels.target.text.editor.TextSequence_EditorBuilder$contentListHandler_8pqan3_a0" />
+      <unit id="7475940883581055584" at="25,0,135,0" name="de.q60.mps.shadowmodels.target.text.editor.TextSequence_EditorBuilder" />
     </file>
   </root>
 </debug-info>

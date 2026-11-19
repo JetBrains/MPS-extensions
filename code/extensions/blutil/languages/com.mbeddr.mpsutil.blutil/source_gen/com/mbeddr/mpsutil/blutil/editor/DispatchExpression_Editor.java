@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class DispatchExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new DispatchExpression_EditorBuilder_a(editorContext, node).createCell();
+    return new DispatchExpression_EditorBuilder(editorContext, node).createCell();
   }
 }

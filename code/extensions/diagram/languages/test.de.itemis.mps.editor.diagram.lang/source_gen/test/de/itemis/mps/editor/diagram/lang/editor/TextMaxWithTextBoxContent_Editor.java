@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TextMaxWithTextBoxContent_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TextMaxWithTextBoxContent_EditorBuilder_a(editorContext, node).createCell();
+    return new TextMaxWithTextBoxContent_EditorBuilder(editorContext, node).createCell();
   }
 }

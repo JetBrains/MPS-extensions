@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class HeaderQuery_InsertNew_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new HeaderQuery_InsertNew_EditorBuilder_a(editorContext, node).createCell();
+    return new HeaderQuery_InsertNew_EditorBuilder(editorContext, node).createCell();
   }
 }

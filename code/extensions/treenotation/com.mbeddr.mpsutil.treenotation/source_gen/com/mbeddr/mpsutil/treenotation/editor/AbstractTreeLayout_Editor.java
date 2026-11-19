@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class AbstractTreeLayout_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new AbstractTreeLayout_EditorBuilder_a(editorContext, node).createCell();
+    return new AbstractTreeLayout_EditorBuilder(editorContext, node).createCell();
   }
 }

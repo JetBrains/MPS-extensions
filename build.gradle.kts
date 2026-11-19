@@ -21,6 +21,7 @@ val releaseAssetFiles by configurations.resolvable("releaseAssets") {
 }
 dependencies {
     releaseDependencies(project(path = ":extensions", configuration = "apiElements"))
+    releaseDependencies(project(path = ":platform", configuration = "githubReleaseArtifact"))
 }
 
 val pythonEnvDir = layout.buildDirectory.dir("python-env")
@@ -71,3 +72,7 @@ githubRelease {
 }
 
 tasks.named("githubRelease") { dependsOn(releaseAssetFiles) }
+
+project(":platform").tasks.matching { it.name == "migrate" || it.name == "remigrate" }.configureEach {
+    mustRunAfter(":extensions:migrate", ":extensions:remigrate")
+}

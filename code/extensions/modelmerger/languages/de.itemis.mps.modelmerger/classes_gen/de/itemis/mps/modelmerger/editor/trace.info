@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:8f0b879f-0d6f-4e76-b980-6358875b7ab2(de.itemis.mps.modelmerger.editor)/8424607763702317126">
     <file name="IdentityCalculatorRegistry_Editor.java">
-      <node id="8424607763702317126" at="11,79,12,92" concept="6" />
+      <node id="8424607763702317126" at="11,79,12,90" concept="6" />
       <node id="8424607763702317126" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8424607763702317126" at="11,79,12,92" />
+      <scope id="8424607763702317126" at="11,79,12,90" />
       <scope id="8424607763702317126" at="11,0,14,0">
         <var name="editorContext" id="8424607763702317126" />
         <var name="node" id="8424607763702317126" />
       </scope>
       <unit id="8424607763702317126" at="10,0,15,0" name="de.itemis.mps.modelmerger.editor.IdentityCalculatorRegistry_Editor" />
     </file>
-    <file name="IdentityCalculatorRegistry_EditorBuilder_a.java">
-      <node id="8424607763702317126" at="43,106,44,19" concept="8" />
+    <file name="IdentityCalculatorRegistry_EditorBuilder.java">
+      <node id="8424607763702317126" at="43,104,44,19" concept="8" />
       <node id="8424607763702317126" at="44,19,45,18" concept="1" />
       <node id="8424607763702317126" at="50,26,51,18" concept="6" />
       <node id="8424607763702317126" at="54,39,55,32" concept="6" />
@@ -110,7 +110,7 @@
       <node id="8424607763702317126" at="135,0,138,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="8424607763702317126" at="138,0,141,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="8424607763702317126" at="182,96,185,9" concept="3" />
-      <node id="8424607763702317126" at="43,0,47,0" concept="0" trace="IdentityCalculatorRegistry_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8424607763702317126" at="43,0,47,0" concept="0" trace="IdentityCalculatorRegistry_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8424607763702317126" at="126,0,130,0" concept="0" trace="conceptIdMapListHandler_3d8ivr_c0a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="8424607763702317126" at="131,0,135,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8424607763702317126" at="164,97,168,9" concept="3" />
@@ -142,7 +142,7 @@
       <scope id="8424607763702317126" at="138,48,139,44" />
       <scope id="8424607763702317126" at="156,17,157,42" />
       <scope id="8424607763702317126" at="183,34,184,91" />
-      <scope id="8424607763702317126" at="43,106,45,18" />
+      <scope id="8424607763702317126" at="43,104,45,18" />
       <scope id="801228463253369198" at="99,74,101,145">
         <var name="manager" id="801228463253369198" />
       </scope>
@@ -217,26 +217,26 @@
         <var name="elementNode" id="8424607763702317126" />
         <var name="isEmptyCell" id="8424607763702317126" />
       </scope>
-      <unit id="8424607763702317126" at="190,0,193,0" name="de.itemis.mps.modelmerger.editor.IdentityCalculatorRegistry_EditorBuilder_a$PROPS" />
-      <unit id="8424607763702317126" at="199,0,202,0" name="de.itemis.mps.modelmerger.editor.IdentityCalculatorRegistry_EditorBuilder_a$LINKS" />
-      <unit id="8424607763702317126" at="194,0,198,0" name="de.itemis.mps.modelmerger.editor.IdentityCalculatorRegistry_EditorBuilder_a$CONCEPTS" />
-      <unit id="8424607763702317126" at="122,0,189,0" name="de.itemis.mps.modelmerger.editor.IdentityCalculatorRegistry_EditorBuilder_a$conceptIdMapListHandler_3d8ivr_c0a" />
-      <unit id="8424607763702317126" at="39,0,203,0" name="de.itemis.mps.modelmerger.editor.IdentityCalculatorRegistry_EditorBuilder_a" />
+      <unit id="8424607763702317126" at="190,0,193,0" name="de.itemis.mps.modelmerger.editor.IdentityCalculatorRegistry_EditorBuilder$PROPS" />
+      <unit id="8424607763702317126" at="199,0,202,0" name="de.itemis.mps.modelmerger.editor.IdentityCalculatorRegistry_EditorBuilder$LINKS" />
+      <unit id="8424607763702317126" at="194,0,198,0" name="de.itemis.mps.modelmerger.editor.IdentityCalculatorRegistry_EditorBuilder$CONCEPTS" />
+      <unit id="8424607763702317126" at="122,0,189,0" name="de.itemis.mps.modelmerger.editor.IdentityCalculatorRegistry_EditorBuilder$conceptIdMapListHandler_3d8ivr_c0a" />
+      <unit id="8424607763702317126" at="39,0,203,0" name="de.itemis.mps.modelmerger.editor.IdentityCalculatorRegistry_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:8f0b879f-0d6f-4e76-b980-6358875b7ab2(de.itemis.mps.modelmerger.editor)/8424607763702354542">
     <file name="ConceptIdentityMap_Editor.java">
-      <node id="8424607763702354542" at="11,79,12,84" concept="6" />
+      <node id="8424607763702354542" at="11,79,12,82" concept="6" />
       <node id="8424607763702354542" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8424607763702354542" at="11,79,12,84" />
+      <scope id="8424607763702354542" at="11,79,12,82" />
       <scope id="8424607763702354542" at="11,0,14,0">
         <var name="editorContext" id="8424607763702354542" />
         <var name="node" id="8424607763702354542" />
       </scope>
       <unit id="8424607763702354542" at="10,0,15,0" name="de.itemis.mps.modelmerger.editor.ConceptIdentityMap_Editor" />
     </file>
-    <file name="ConceptIdentityMap_EditorBuilder_a.java">
-      <node id="8424607763702354542" at="27,98,28,19" concept="8" />
+    <file name="ConceptIdentityMap_EditorBuilder.java">
+      <node id="8424607763702354542" at="27,96,28,19" concept="8" />
       <node id="8424607763702354542" at="28,19,29,18" concept="1" />
       <node id="8424607763702354542" at="34,26,35,18" concept="6" />
       <node id="8424607763702354542" at="38,39,39,32" concept="6" />
@@ -306,7 +306,7 @@
       <node id="8424607763702354542" at="142,87,145,7" concept="3" />
       <node id="8424607763702354542" at="145,7,148,7" concept="3" />
       <node id="8424607763702354542" at="164,0,167,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="8424607763702354542" at="27,0,31,0" concept="0" trace="ConceptIdentityMap_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8424607763702354542" at="27,0,31,0" concept="0" trace="ConceptIdentityMap_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8424607763702354542" at="52,0,56,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8424607763702354542" at="60,0,64,0" concept="0" trace="conceptRefSingleRoleHandler_odmv9n_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="8424607763702354542" at="113,0,117,0" concept="4" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -336,7 +336,7 @@
       <scope id="8424607763702354542" at="146,42,147,59" />
       <scope id="8424607763702354542" at="160,17,161,42" />
       <scope id="8424607763702354542" at="164,40,165,39" />
-      <scope id="8424607763702354542" at="27,98,29,18" />
+      <scope id="8424607763702354542" at="27,96,29,18" />
       <scope id="8424607763702354542" at="52,40,54,33">
         <var name="provider" id="8424607763702354542" />
       </scope>
@@ -409,10 +409,10 @@
       <scope id="8424607763702354542" at="151,44,162,7" />
       <scope id="8424607763702354542" at="89,0,103,0" />
       <scope id="8424607763702354542" at="150,0,164,0" />
-      <unit id="8424607763702354542" at="169,0,173,0" name="de.itemis.mps.modelmerger.editor.ConceptIdentityMap_EditorBuilder_a$LINKS" />
-      <unit id="8424607763702354542" at="56,0,107,0" name="de.itemis.mps.modelmerger.editor.ConceptIdentityMap_EditorBuilder_a$conceptRefSingleRoleHandler_odmv9n_a0" />
-      <unit id="8424607763702354542" at="117,0,168,0" name="de.itemis.mps.modelmerger.editor.ConceptIdentityMap_EditorBuilder_a$identityCalculatorSingleRoleHandler_odmv9n_c0" />
-      <unit id="8424607763702354542" at="23,0,174,0" name="de.itemis.mps.modelmerger.editor.ConceptIdentityMap_EditorBuilder_a" />
+      <unit id="8424607763702354542" at="169,0,173,0" name="de.itemis.mps.modelmerger.editor.ConceptIdentityMap_EditorBuilder$LINKS" />
+      <unit id="8424607763702354542" at="56,0,107,0" name="de.itemis.mps.modelmerger.editor.ConceptIdentityMap_EditorBuilder$conceptRefSingleRoleHandler_odmv9n_a0" />
+      <unit id="8424607763702354542" at="117,0,168,0" name="de.itemis.mps.modelmerger.editor.ConceptIdentityMap_EditorBuilder$identityCalculatorSingleRoleHandler_odmv9n_c0" />
+      <unit id="8424607763702354542" at="23,0,174,0" name="de.itemis.mps.modelmerger.editor.ConceptIdentityMap_EditorBuilder" />
     </file>
   </root>
 </debug-info>

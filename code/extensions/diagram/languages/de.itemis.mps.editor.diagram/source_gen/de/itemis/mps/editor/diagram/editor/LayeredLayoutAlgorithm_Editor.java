@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class LayeredLayoutAlgorithm_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new LayeredLayoutAlgorithm_EditorBuilder_a(editorContext, node).createCell();
+    return new LayeredLayoutAlgorithm_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new LayeredLayoutAlgorithm_InspectorBuilder_a(editorContext, node).createCell();
+    return new LayeredLayoutAlgorithm_InspectorBuilder(editorContext, node).createCell();
   }
 }

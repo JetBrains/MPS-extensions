@@ -21,17 +21,17 @@
   </root>
   <root nodeRef="r:b8443a16-1f3b-4528-b0e7-debf2496eef3(com.mbeddr.mpsutil.treenotation.sandboxlang.editor)/134774857084560980">
     <file name="RootConcept_Editor.java">
-      <node id="134774857084560980" at="11,79,12,77" concept="8" />
+      <node id="134774857084560980" at="11,79,12,75" concept="8" />
       <node id="134774857084560980" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="134774857084560980" at="11,79,12,77" />
+      <scope id="134774857084560980" at="11,79,12,75" />
       <scope id="134774857084560980" at="11,0,14,0">
         <var name="editorContext" id="134774857084560980" />
         <var name="node" id="134774857084560980" />
       </scope>
       <unit id="134774857084560980" at="10,0,15,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_Editor" />
     </file>
-    <file name="RootConcept_EditorBuilder_a.java">
-      <node id="134774857084560980" at="48,91,49,19" concept="12" />
+    <file name="RootConcept_EditorBuilder.java">
+      <node id="134774857084560980" at="48,89,49,19" concept="12" />
       <node id="134774857084560980" at="49,19,50,18" concept="2" />
       <node id="134774857084560980" at="55,26,56,18" concept="8" />
       <node id="134774857084560980" at="59,39,60,32" concept="8" />
@@ -905,7 +905,7 @@
       <node id="134774857084560980" at="1306,87,1309,7" concept="5" />
       <node id="134774857084560980" at="1309,7,1312,7" concept="5" />
       <node id="134774857084560980" at="1328,0,1331,0" concept="6" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="134774857084560980" at="48,0,52,0" concept="1" trace="RootConcept_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="134774857084560980" at="48,0,52,0" concept="1" trace="RootConcept_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2876310430320174762" at="539,0,543,0" concept="6" trace="getDescription#()Ljava/lang/String;" />
       <node id="2876310430327980311" at="591,0,595,0" concept="6" trace="getDescription#()Ljava/lang/String;" />
       <node id="134774857084560980" at="1149,0,1153,0" concept="6" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1135,7 +1135,7 @@
       <scope id="134774857084560980" at="1310,42,1311,46" />
       <scope id="134774857084560980" at="1324,17,1325,42" />
       <scope id="134774857084560980" at="1328,40,1329,26" />
-      <scope id="134774857084560980" at="48,91,50,18" />
+      <scope id="134774857084560980" at="48,89,50,18" />
       <scope id="2876310430320174762" at="537,0,539,0">
         <var name="editorContext" id="2876310430320174762" />
         <var name="index" id="2876310430320174762" />
@@ -1844,24 +1844,24 @@
         <var name="editorContext" id="134774857084560980" />
         <var name="node" id="134774857084560980" />
       </scope>
-      <unit id="134774857084560980" at="104,36,108,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder_a$1" />
-      <unit id="134774857084560980" at="1333,0,1338,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder_a$LINKS" />
-      <unit id="2876310430320174762" at="536,115,543,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder_a$2" />
-      <unit id="2876310430327980311" at="588,115,595,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder_a$3" />
-      <unit id="134774857084560980" at="1153,0,1204,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder_a$treeSingleRoleHandler_aw3qer_k0" />
-      <unit id="134774857084560980" at="1281,0,1332,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder_a$tree3SingleRoleHandler_aw3qer_o0" />
-      <unit id="134774857084560980" at="1214,0,1271,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder_a$tree2SingleRoleHandler_aw3qer_m0" />
-      <unit id="134774857084560980" at="44,0,1339,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder_a" />
+      <unit id="134774857084560980" at="104,36,108,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder$1" />
+      <unit id="134774857084560980" at="1333,0,1338,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder$LINKS" />
+      <unit id="2876310430320174762" at="536,115,543,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder$2" />
+      <unit id="2876310430327980311" at="588,115,595,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder$3" />
+      <unit id="134774857084560980" at="1153,0,1204,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder$treeSingleRoleHandler_aw3qer_k0" />
+      <unit id="134774857084560980" at="1281,0,1332,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder$tree3SingleRoleHandler_aw3qer_o0" />
+      <unit id="134774857084560980" at="1214,0,1271,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder$tree2SingleRoleHandler_aw3qer_m0" />
+      <unit id="134774857084560980" at="44,0,1339,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.RootConcept_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:b8443a16-1f3b-4528-b0e7-debf2496eef3(com.mbeddr.mpsutil.treenotation.sandboxlang.editor)/134774857085152577">
     <file name="TreeNode_Editor.java">
-      <node id="134774857085152577" at="11,79,12,74" concept="8" />
-      <node id="134774857085152577" at="14,82,15,77" concept="8" />
+      <node id="134774857085152577" at="11,79,12,72" concept="8" />
+      <node id="134774857085152577" at="14,82,15,75" concept="8" />
       <node id="134774857085152577" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="134774857085152577" at="14,0,17,0" concept="6" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="134774857085152577" at="11,79,12,74" />
-      <scope id="134774857085152577" at="14,82,15,77" />
+      <scope id="134774857085152577" at="11,79,12,72" />
+      <scope id="134774857085152577" at="14,82,15,75" />
       <scope id="134774857085152577" at="11,0,14,0">
         <var name="editorContext" id="134774857085152577" />
         <var name="node" id="134774857085152577" />
@@ -1872,8 +1872,8 @@
       </scope>
       <unit id="134774857085152577" at="10,0,18,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_Editor" />
     </file>
-    <file name="TreeNode_EditorBuilder_a.java">
-      <node id="134774857085152577" at="62,88,63,19" concept="12" />
+    <file name="TreeNode_EditorBuilder.java">
+      <node id="134774857085152577" at="62,86,63,19" concept="12" />
       <node id="134774857085152577" at="63,19,64,18" concept="2" />
       <node id="134774857085152577" at="69,26,70,18" concept="8" />
       <node id="134774857085152577" at="73,39,74,30" concept="8" />
@@ -1887,7 +1887,7 @@
       <node id="134774857085152577" at="88,5,89,40" concept="2" />
       <node id="134774857085152577" at="89,40,90,47" concept="2" />
       <node id="134774857085152577" at="91,5,92,34" concept="7" />
-      <node id="134774857085152577" at="92,34,93,48" concept="2" />
+      <node id="134774857085152577" at="92,34,93,38" concept="2" />
       <node id="134774857085152577" at="94,25,95,58" concept="2" />
       <node id="857420770335051773" at="100,79,101,43" concept="2" />
       <node id="134774857085152577" at="103,7,104,97" concept="7" />
@@ -1945,7 +1945,7 @@
       <node id="134774857085152577" at="218,34,219,69" concept="2" />
       <node id="134774857085152577" at="219,69,220,146" concept="2" />
       <node id="134774857085152577" at="224,34,225,91" concept="2" />
-      <node id="8877288515762023233" at="230,46,231,110" concept="8" />
+      <node id="8877288515762023233" at="230,36,231,110" concept="8" />
       <node id="3651537861195843152" at="233,62,234,77" concept="8" />
       <node id="3651537861195847117" at="236,62,237,77" concept="8" />
       <node id="134774857085152577" at="241,0,242,0" concept="11" trace="TreeNode$xh" />
@@ -1961,15 +1961,15 @@
       <node id="134774857085152577" at="73,0,76,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="3651537861195841931" at="82,34,85,5" concept="5" />
       <node id="3651537861195847114" at="85,5,88,5" concept="5" />
-      <node id="134774857085152577" at="93,48,96,7" concept="5" />
+      <node id="134774857085152577" at="93,38,96,7" concept="5" />
       <node id="134774857085152577" at="132,0,135,0" concept="6" trace="createTreeCell_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="134774857085152577" at="176,0,179,0" concept="6" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="134774857085152577" at="179,0,182,0" concept="6" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="134774857085152577" at="223,96,226,9" concept="5" />
-      <node id="8877288515762023163" at="230,0,233,0" concept="6" trace="nodeCondition_hturxi_a0a#()Z" />
+      <node id="8877288515762023163" at="230,0,233,0" concept="6" trace="nodeCondition0#()Z" />
       <node id="3651537861195841932" at="233,0,236,0" concept="6" trace="_StyleParameter_QueryFunction_hturxi_a0a#()Z" />
       <node id="3651537861195847115" at="236,0,239,0" concept="6" trace="_StyleParameter_QueryFunction_hturxi_a1a#()Z" />
-      <node id="134774857085152577" at="62,0,66,0" concept="1" trace="TreeNode_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="134774857085152577" at="62,0,66,0" concept="1" trace="TreeNode_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="134774857085152577" at="99,0,103,0" concept="6" trace="delete#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5587067268292732730" at="108,0,112,0" concept="6" trace="getDescription#()Ljava/lang/String;" />
       <node id="5587067268292733059" at="116,0,120,0" concept="6" trace="getDescription#()Ljava/lang/String;" />
@@ -2014,10 +2014,10 @@
       <scope id="134774857085152577" at="179,48,180,34" />
       <scope id="134774857085152577" at="197,17,198,42" />
       <scope id="134774857085152577" at="224,34,225,91" />
-      <scope id="8877288515762023164" at="230,46,231,110" />
+      <scope id="8877288515762023164" at="230,36,231,110" />
       <scope id="3651537861195841933" at="233,62,234,77" />
       <scope id="3651537861195847116" at="236,62,237,77" />
-      <scope id="134774857085152577" at="62,88,64,18" />
+      <scope id="134774857085152577" at="62,86,64,18" />
       <scope id="5587067268292732730" at="106,0,108,0">
         <var name="editorContext" id="5587067268292732730" />
         <var name="index" id="5587067268292732730" />
@@ -2107,17 +2107,17 @@
         <var name="editorContext" id="134774857085152577" />
         <var name="node" id="134774857085152577" />
       </scope>
-      <unit id="134774857085152577" at="245,0,248,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder_a$LINKS" />
-      <unit id="134774857085152577" at="240,0,244,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder_a$CONCEPTS" />
-      <unit id="134774857085152577" at="98,36,103,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder_a$1" />
-      <unit id="134774857085152577" at="249,0,254,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder_a$PROPS" />
-      <unit id="5587067268292732730" at="105,115,112,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder_a$2" />
-      <unit id="5587067268292733059" at="113,115,120,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder_a$3" />
-      <unit id="134774857085152577" at="163,0,230,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder_a$childTreeNodesListHandler_hturxi_a0" />
-      <unit id="134774857085152577" at="58,0,255,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder_a" />
+      <unit id="134774857085152577" at="245,0,248,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder$LINKS" />
+      <unit id="134774857085152577" at="240,0,244,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder$CONCEPTS" />
+      <unit id="134774857085152577" at="98,36,103,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder$1" />
+      <unit id="134774857085152577" at="249,0,254,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder$PROPS" />
+      <unit id="5587067268292732730" at="105,115,112,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder$2" />
+      <unit id="5587067268292733059" at="113,115,120,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder$3" />
+      <unit id="134774857085152577" at="163,0,230,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder$childTreeNodesListHandler_hturxi_a0" />
+      <unit id="134774857085152577" at="58,0,255,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_EditorBuilder" />
     </file>
-    <file name="TreeNode_InspectorBuilder_a.java">
-      <node id="134774857085152577" at="36,91,37,19" concept="12" />
+    <file name="TreeNode_InspectorBuilder.java">
+      <node id="134774857085152577" at="36,89,37,19" concept="12" />
       <node id="134774857085152577" at="37,19,38,18" concept="2" />
       <node id="134774857085152577" at="43,26,44,18" concept="8" />
       <node id="134774857085152577" at="47,39,48,32" concept="8" />
@@ -2185,7 +2185,7 @@
       <node id="134774857085152577" at="141,0,142,0" concept="11" trace="PropertyAttribute$Gb" />
       <node id="134774857085152577" at="33,0,35,0" concept="3" trace="myNode" />
       <node id="134774857085152577" at="47,0,50,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="134774857085152577" at="36,0,40,0" concept="1" trace="TreeNode_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="134774857085152577" at="36,0,40,0" concept="1" trace="TreeNode_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="134774857085152577" at="41,0,46,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="3651537861195915230" at="87,208,92,24" concept="5" />
       <node id="3651537861195915244" at="124,208,129,24" concept="5" />
@@ -2202,7 +2202,7 @@
       <scope id="134774857085152577" at="47,39,48,32" />
       <scope id="3651537861195915230" at="93,15,94,40" />
       <scope id="3651537861195915244" at="130,15,131,40" />
-      <scope id="134774857085152577" at="36,91,38,18" />
+      <scope id="134774857085152577" at="36,89,38,18" />
       <scope id="3651537861195915230" at="88,74,90,145">
         <var name="manager" id="3651537861195915230" />
       </scope>
@@ -2253,24 +2253,24 @@
       <scope id="3651537861195915244" at="113,41,132,5" />
       <scope id="3651537861195915230" at="76,0,97,0" />
       <scope id="3651537861195915244" at="113,0,134,0" />
-      <unit id="134774857085152577" at="140,0,143,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_InspectorBuilder_a$CONCEPTS" />
-      <unit id="134774857085152577" at="135,0,139,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_InspectorBuilder_a$PROPS" />
-      <unit id="134774857085152577" at="32,0,144,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_InspectorBuilder_a" />
+      <unit id="134774857085152577" at="140,0,143,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_InspectorBuilder$CONCEPTS" />
+      <unit id="134774857085152577" at="135,0,139,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_InspectorBuilder$PROPS" />
+      <unit id="134774857085152577" at="32,0,144,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:b8443a16-1f3b-4528-b0e7-debf2496eef3(com.mbeddr.mpsutil.treenotation.sandboxlang.editor)/21263109420701321">
     <file name="CompactTreeNode_Editor.java">
-      <node id="21263109420701321" at="11,79,12,81" concept="8" />
+      <node id="21263109420701321" at="11,79,12,79" concept="8" />
       <node id="21263109420701321" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="21263109420701321" at="11,79,12,81" />
+      <scope id="21263109420701321" at="11,79,12,79" />
       <scope id="21263109420701321" at="11,0,14,0">
         <var name="editorContext" id="21263109420701321" />
         <var name="node" id="21263109420701321" />
       </scope>
       <unit id="21263109420701321" at="10,0,15,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.CompactTreeNode_Editor" />
     </file>
-    <file name="CompactTreeNode_EditorBuilder_a.java">
-      <node id="21263109420701321" at="58,95,59,19" concept="12" />
+    <file name="CompactTreeNode_EditorBuilder.java">
+      <node id="21263109420701321" at="58,93,59,19" concept="12" />
       <node id="21263109420701321" at="59,19,60,18" concept="2" />
       <node id="21263109420701321" at="65,26,66,18" concept="8" />
       <node id="21263109420701321" at="69,39,70,30" concept="8" />
@@ -2352,7 +2352,7 @@
       <node id="21263109420701321" at="195,96,198,9" concept="5" />
       <node id="21263109420913370" at="202,0,205,0" concept="6" trace="_StyleParameter_QueryFunction_nhsj78_a0a#()Z" />
       <node id="21263109420914234" at="205,0,208,0" concept="6" trace="_StyleParameter_QueryFunction_nhsj78_a1a#()Lcom/mbeddr/mpsutil/treenotation/styles/editor/ITreeLayoutType;" />
-      <node id="21263109420701321" at="58,0,62,0" concept="1" trace="CompactTreeNode_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="21263109420701321" at="58,0,62,0" concept="1" trace="CompactTreeNode_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="21263109420701321" at="90,0,94,0" concept="6" trace="delete#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="21263109421031741" at="95,97,99,18" concept="2" />
       <node id="21263109420701321" at="139,0,143,0" concept="1" trace="subnodesListHandler_nhsj78_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -2389,7 +2389,7 @@
       <scope id="21263109420701321" at="196,34,197,91" />
       <scope id="21263109420913371" at="202,62,203,16" />
       <scope id="21263109420914236" at="205,70,206,35" />
-      <scope id="21263109420701321" at="58,95,60,18" />
+      <scope id="21263109420701321" at="58,93,60,18" />
       <scope id="21263109421031741" at="96,148,98,150">
         <var name="subconcepts" id="21263109421031741" />
       </scope>
@@ -2466,12 +2466,12 @@
         <var name="editorContext" id="21263109420701321" />
         <var name="node" id="21263109420701321" />
       </scope>
-      <unit id="21263109420701321" at="214,0,217,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.CompactTreeNode_EditorBuilder_a$LINKS" />
-      <unit id="21263109420701321" at="218,0,221,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.CompactTreeNode_EditorBuilder_a$PROPS" />
-      <unit id="21263109420701321" at="209,0,213,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.CompactTreeNode_EditorBuilder_a$CONCEPTS" />
-      <unit id="21263109420701321" at="89,36,94,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.CompactTreeNode_EditorBuilder_a$1" />
-      <unit id="21263109420701321" at="135,0,202,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.CompactTreeNode_EditorBuilder_a$subnodesListHandler_nhsj78_a0" />
-      <unit id="21263109420701321" at="54,0,222,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.CompactTreeNode_EditorBuilder_a" />
+      <unit id="21263109420701321" at="214,0,217,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.CompactTreeNode_EditorBuilder$LINKS" />
+      <unit id="21263109420701321" at="218,0,221,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.CompactTreeNode_EditorBuilder$PROPS" />
+      <unit id="21263109420701321" at="209,0,213,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.CompactTreeNode_EditorBuilder$CONCEPTS" />
+      <unit id="21263109420701321" at="89,36,94,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.CompactTreeNode_EditorBuilder$1" />
+      <unit id="21263109420701321" at="135,0,202,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.CompactTreeNode_EditorBuilder$subnodesListHandler_nhsj78_a0" />
+      <unit id="21263109420701321" at="54,0,222,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.CompactTreeNode_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:b8443a16-1f3b-4528-b0e7-debf2496eef3(com.mbeddr.mpsutil.treenotation.sandboxlang.editor)/3651537861195839011">
@@ -2517,17 +2517,17 @@
   </root>
   <root nodeRef="r:b8443a16-1f3b-4528-b0e7-debf2496eef3(com.mbeddr.mpsutil.treenotation.sandboxlang.editor)/8348035970508747308">
     <file name="AnotherTreeNode_Editor.java">
-      <node id="8348035970508747308" at="11,79,12,81" concept="8" />
+      <node id="8348035970508747308" at="11,79,12,79" concept="8" />
       <node id="8348035970508747308" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8348035970508747308" at="11,79,12,81" />
+      <scope id="8348035970508747308" at="11,79,12,79" />
       <scope id="8348035970508747308" at="11,0,14,0">
         <var name="editorContext" id="8348035970508747308" />
         <var name="node" id="8348035970508747308" />
       </scope>
       <unit id="8348035970508747308" at="10,0,15,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_Editor" />
     </file>
-    <file name="AnotherTreeNode_EditorBuilder_a.java">
-      <node id="8348035970508747308" at="57,95,58,19" concept="12" />
+    <file name="AnotherTreeNode_EditorBuilder.java">
+      <node id="8348035970508747308" at="57,93,58,19" concept="12" />
       <node id="8348035970508747308" at="58,19,59,18" concept="2" />
       <node id="8348035970508747308" at="64,26,65,18" concept="8" />
       <node id="8348035970508747308" at="68,39,69,30" concept="8" />
@@ -2537,7 +2537,7 @@
       <node id="8348035970508747308" at="75,28,76,31" concept="2" />
       <node id="8348035970508747308" at="76,31,77,47" concept="2" />
       <node id="8348035970508747308" at="78,5,79,34" concept="7" />
-      <node id="8348035970508747308" at="79,34,80,48" concept="2" />
+      <node id="8348035970508747308" at="79,34,80,38" concept="2" />
       <node id="8348035970508747308" at="81,25,82,58" concept="2" />
       <node id="8348035970508747317" at="87,79,88,43" concept="2" />
       <node id="8348035970508747308" at="90,7,91,97" concept="7" />
@@ -2603,7 +2603,7 @@
       <node id="8348035970508747308" at="218,34,219,69" concept="2" />
       <node id="8348035970508747308" at="219,69,220,146" concept="2" />
       <node id="8348035970508747308" at="224,34,225,91" concept="2" />
-      <node id="8348035970508747324" at="230,46,231,110" concept="8" />
+      <node id="8348035970508747324" at="230,36,231,110" concept="8" />
       <node id="8348035970508747308" at="235,0,236,0" concept="11" trace="AnotherTreeNode$Si" />
       <node id="8348035970508747308" at="236,0,237,0" concept="11" trace="PropertyAttribute$Gb" />
       <node id="8348035970508747308" at="240,0,241,0" concept="11" trace="childTreeNodes$P1gB" />
@@ -2611,14 +2611,14 @@
       <node id="8348035970508747308" at="54,0,56,0" concept="3" trace="myNode" />
       <node id="8348035970508747308" at="164,0,166,0" concept="3" trace="myNode" />
       <node id="8348035970508747308" at="68,0,71,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8348035970508747308" at="80,48,83,7" concept="5" />
+      <node id="8348035970508747308" at="80,38,83,7" concept="5" />
       <node id="8348035970509652705" at="101,34,104,13" concept="5" />
       <node id="8348035970508747308" at="132,0,135,0" concept="6" trace="createTreeCell_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8348035970508747308" at="176,0,179,0" concept="6" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="8348035970508747308" at="179,0,182,0" concept="6" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="8348035970508747308" at="223,96,226,9" concept="5" />
-      <node id="8348035970508747322" at="230,0,233,0" concept="6" trace="nodeCondition_tduuys_a0a#()Z" />
-      <node id="8348035970508747308" at="57,0,61,0" concept="1" trace="AnotherTreeNode_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8348035970508747322" at="230,0,233,0" concept="6" trace="nodeCondition0#()Z" />
+      <node id="8348035970508747308" at="57,0,61,0" concept="1" trace="AnotherTreeNode_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8348035970508747308" at="86,0,90,0" concept="6" trace="delete#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8348035970509652721" at="107,0,111,0" concept="6" trace="getDescription#()Ljava/lang/String;" />
       <node id="8348035970512141763" at="116,0,120,0" concept="6" trace="getDescription#()Ljava/lang/String;" />
@@ -2663,8 +2663,8 @@
       <scope id="8348035970508747308" at="179,48,180,41" />
       <scope id="8348035970508747308" at="197,17,198,42" />
       <scope id="8348035970508747308" at="224,34,225,91" />
-      <scope id="8348035970508747323" at="230,46,231,110" />
-      <scope id="8348035970508747308" at="57,95,59,18" />
+      <scope id="8348035970508747323" at="230,36,231,110" />
+      <scope id="8348035970508747308" at="57,93,59,18" />
       <scope id="8348035970508747330" at="147,74,149,145">
         <var name="manager" id="8348035970508747330" />
       </scope>
@@ -2752,29 +2752,29 @@
         <var name="editorContext" id="8348035970508747308" />
         <var name="node" id="8348035970508747308" />
       </scope>
-      <unit id="8348035970508747308" at="239,0,242,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder_a$LINKS" />
-      <unit id="8348035970508747308" at="243,0,246,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder_a$PROPS" />
-      <unit id="8348035970508747308" at="234,0,238,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder_a$CONCEPTS" />
-      <unit id="8348035970508747308" at="85,36,90,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder_a$1" />
-      <unit id="8348035970512139255" at="115,19,120,9" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder_a$3" />
-      <unit id="8348035970509652686" at="97,53,111,7" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder_a$2" />
-      <unit id="8348035970508747308" at="163,0,230,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder_a$childTreeNodesListHandler_tduuys_a0" />
-      <unit id="8348035970508747308" at="53,0,247,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder_a" />
+      <unit id="8348035970508747308" at="239,0,242,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder$LINKS" />
+      <unit id="8348035970508747308" at="243,0,246,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder$PROPS" />
+      <unit id="8348035970508747308" at="234,0,238,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder$CONCEPTS" />
+      <unit id="8348035970508747308" at="85,36,90,5" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder$1" />
+      <unit id="8348035970512139255" at="115,19,120,9" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder$3" />
+      <unit id="8348035970509652686" at="97,53,111,7" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder$2" />
+      <unit id="8348035970508747308" at="163,0,230,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder$childTreeNodesListHandler_tduuys_a0" />
+      <unit id="8348035970508747308" at="53,0,247,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.AnotherTreeNode_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:b8443a16-1f3b-4528-b0e7-debf2496eef3(com.mbeddr.mpsutil.treenotation.sandboxlang.editor)/8348035970510807255">
     <file name="TreeNode2_Editor.java">
-      <node id="8348035970510807255" at="11,79,12,75" concept="8" />
+      <node id="8348035970510807255" at="11,79,12,73" concept="8" />
       <node id="8348035970510807255" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8348035970510807255" at="11,79,12,75" />
+      <scope id="8348035970510807255" at="11,79,12,73" />
       <scope id="8348035970510807255" at="11,0,14,0">
         <var name="editorContext" id="8348035970510807255" />
         <var name="node" id="8348035970510807255" />
       </scope>
       <unit id="8348035970510807255" at="10,0,15,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode2_Editor" />
     </file>
-    <file name="TreeNode2_EditorBuilder_a.java">
-      <node id="8348035970510807255" at="33,89,34,19" concept="12" />
+    <file name="TreeNode2_EditorBuilder.java">
+      <node id="8348035970510807255" at="33,87,34,19" concept="12" />
       <node id="8348035970510807255" at="34,19,35,18" concept="2" />
       <node id="8348035970510807255" at="40,26,41,18" concept="8" />
       <node id="8348035970510807255" at="44,39,45,30" concept="8" />
@@ -2801,7 +2801,7 @@
       <node id="8348035970510807255" at="80,0,81,0" concept="11" trace="PropertyAttribute$Gb" />
       <node id="8348035970510807255" at="30,0,32,0" concept="3" trace="myNode" />
       <node id="8348035970510807255" at="44,0,47,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8348035970510807255" at="33,0,37,0" concept="1" trace="TreeNode2_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8348035970510807255" at="33,0,37,0" concept="1" trace="TreeNode2_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8348035970510807255" at="38,0,43,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8348035970510807913" at="64,208,69,24" concept="5" />
       <node id="8348035970510807913" at="49,39,72,5" concept="13" />
@@ -2809,7 +2809,7 @@
       <scope id="8348035970510807255" at="40,26,41,18" />
       <scope id="8348035970510807255" at="44,39,45,30" />
       <scope id="8348035970510807913" at="70,15,71,40" />
-      <scope id="8348035970510807255" at="33,89,35,18" />
+      <scope id="8348035970510807255" at="33,87,35,18" />
       <scope id="8348035970510807913" at="65,74,67,145">
         <var name="manager" id="8348035970510807913" />
       </scope>
@@ -2828,9 +2828,9 @@
       </scope>
       <scope id="8348035970510807913" at="48,41,72,5" />
       <scope id="8348035970510807913" at="48,0,74,0" />
-      <unit id="8348035970510807255" at="75,0,78,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode2_EditorBuilder_a$PROPS" />
-      <unit id="8348035970510807255" at="79,0,82,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode2_EditorBuilder_a$CONCEPTS" />
-      <unit id="8348035970510807255" at="29,0,83,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode2_EditorBuilder_a" />
+      <unit id="8348035970510807255" at="75,0,78,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode2_EditorBuilder$PROPS" />
+      <unit id="8348035970510807255" at="79,0,82,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode2_EditorBuilder$CONCEPTS" />
+      <unit id="8348035970510807255" at="29,0,83,0" name="com.mbeddr.mpsutil.treenotation.sandboxlang.editor.TreeNode2_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:b8443a16-1f3b-4528-b0e7-debf2496eef3(com.mbeddr.mpsutil.treenotation.sandboxlang.editor)/8433232831283208849">

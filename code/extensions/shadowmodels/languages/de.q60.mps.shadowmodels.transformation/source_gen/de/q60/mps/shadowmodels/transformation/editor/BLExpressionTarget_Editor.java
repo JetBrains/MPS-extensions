@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class BLExpressionTarget_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new BLExpressionTarget_EditorBuilder_a(editorContext, node).createCell();
+    return new BLExpressionTarget_EditorBuilder(editorContext, node).createCell();
   }
 }

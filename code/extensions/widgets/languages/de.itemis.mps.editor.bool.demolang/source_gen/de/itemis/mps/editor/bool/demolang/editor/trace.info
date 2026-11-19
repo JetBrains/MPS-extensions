@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:174967fe-415c-4e71-855a-2def28cd8f4d(de.itemis.mps.editor.bool.demolang.editor)/4900677560560047035">
     <file name="RootConcept_Editor.java">
-      <node id="4900677560560047035" at="11,79,12,77" concept="6" />
+      <node id="4900677560560047035" at="11,79,12,75" concept="6" />
       <node id="4900677560560047035" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4900677560560047035" at="11,79,12,77" />
+      <scope id="4900677560560047035" at="11,79,12,75" />
       <scope id="4900677560560047035" at="11,0,14,0">
         <var name="editorContext" id="4900677560560047035" />
         <var name="node" id="4900677560560047035" />
       </scope>
       <unit id="4900677560560047035" at="10,0,15,0" name="de.itemis.mps.editor.bool.demolang.editor.RootConcept_Editor" />
     </file>
-    <file name="RootConcept_EditorBuilder_a.java">
-      <node id="4900677560560047035" at="42,91,43,19" concept="8" />
+    <file name="RootConcept_EditorBuilder.java">
+      <node id="4900677560560047035" at="42,89,43,19" concept="8" />
       <node id="4900677560560047035" at="43,19,44,18" concept="1" />
       <node id="4900677560560047035" at="49,26,50,18" concept="6" />
       <node id="4900677560560047035" at="53,39,54,32" concept="6" />
@@ -341,7 +341,7 @@
       <node id="4900677560560047035" at="477,0,478,0" concept="7" trace="PropertyAttribute$Gb" />
       <node id="4900677560560047035" at="39,0,41,0" concept="2" trace="myNode" />
       <node id="4900677560560047035" at="53,0,56,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="4900677560560047035" at="42,0,46,0" concept="0" trace="RootConcept_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4900677560560047035" at="42,0,46,0" concept="0" trace="RootConcept_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="7122083600695184277" at="150,57,154,22" concept="3" />
       <node id="7122083600695184497" at="188,57,192,22" concept="3" />
       <node id="7122083600695184505" at="225,57,229,22" concept="3" />
@@ -407,7 +407,7 @@
       <scope id="8467078999650058761" at="372,35,373,115" />
       <scope id="8467078999650080046" at="410,35,411,115" />
       <scope id="7122083600695184456" at="466,15,467,40" />
-      <scope id="4900677560560047035" at="42,91,44,18" />
+      <scope id="4900677560560047035" at="42,89,44,18" />
       <scope id="2298572088089182359" at="281,74,283,145">
         <var name="manager" id="2298572088089182359" />
       </scope>
@@ -627,9 +627,9 @@
         <var name="style" id="4900677560560047035" />
       </scope>
       <scope id="4900677560560047035" at="84,0,114,0" />
-      <unit id="4900677560560047035" at="476,0,479,0" name="de.itemis.mps.editor.bool.demolang.editor.RootConcept_EditorBuilder_a$CONCEPTS" />
-      <unit id="4900677560560047035" at="471,0,475,0" name="de.itemis.mps.editor.bool.demolang.editor.RootConcept_EditorBuilder_a$PROPS" />
-      <unit id="4900677560560047035" at="38,0,480,0" name="de.itemis.mps.editor.bool.demolang.editor.RootConcept_EditorBuilder_a" />
+      <unit id="4900677560560047035" at="476,0,479,0" name="de.itemis.mps.editor.bool.demolang.editor.RootConcept_EditorBuilder$CONCEPTS" />
+      <unit id="4900677560560047035" at="471,0,475,0" name="de.itemis.mps.editor.bool.demolang.editor.RootConcept_EditorBuilder$PROPS" />
+      <unit id="4900677560560047035" at="38,0,480,0" name="de.itemis.mps.editor.bool.demolang.editor.RootConcept_EditorBuilder" />
     </file>
   </root>
 </debug-info>

@@ -20,17 +20,17 @@
   </root>
   <root nodeRef="r:dddecde0-39df-4993-94a0-e0dc5b25eed3(de.itemis.mps.editor.enumeration.editor)/2135528801629813725">
     <file name="StubCellModel_EnumCheckbox_Editor.java">
-      <node id="2135528801629813725" at="11,79,12,92" concept="6" />
+      <node id="2135528801629813725" at="11,79,12,90" concept="6" />
       <node id="2135528801629813725" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2135528801629813725" at="11,79,12,92" />
+      <scope id="2135528801629813725" at="11,79,12,90" />
       <scope id="2135528801629813725" at="11,0,14,0">
         <var name="editorContext" id="2135528801629813725" />
         <var name="node" id="2135528801629813725" />
       </scope>
       <unit id="2135528801629813725" at="10,0,15,0" name="de.itemis.mps.editor.enumeration.editor.StubCellModel_EnumCheckbox_Editor" />
     </file>
-    <file name="StubCellModel_EnumCheckbox_EditorBuilder_a.java">
-      <node id="2135528801629813725" at="16,106,17,19" concept="11" />
+    <file name="StubCellModel_EnumCheckbox_EditorBuilder.java">
+      <node id="2135528801629813725" at="16,104,17,19" concept="11" />
       <node id="2135528801629813725" at="17,19,18,18" concept="1" />
       <node id="2135528801629813725" at="23,26,24,18" concept="6" />
       <node id="2135528801629813725" at="27,39,28,31" concept="6" />
@@ -41,13 +41,13 @@
       <node id="2135528801629813726" at="37,5,38,22" concept="6" />
       <node id="2135528801629813725" at="13,0,15,0" concept="2" trace="myNode" />
       <node id="2135528801629813725" at="27,0,30,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2135528801629813725" at="16,0,20,0" concept="0" trace="StubCellModel_EnumCheckbox_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2135528801629813725" at="16,0,20,0" concept="0" trace="StubCellModel_EnumCheckbox_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2135528801629813726" at="33,72,37,5" concept="3" />
       <node id="2135528801629813725" at="21,0,26,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2135528801629813726" at="31,0,40,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2135528801629813725" at="23,26,24,18" />
       <scope id="2135528801629813725" at="27,39,28,31" />
-      <scope id="2135528801629813725" at="16,106,18,18" />
+      <scope id="2135528801629813725" at="16,104,18,18" />
       <scope id="2135528801629813726" at="34,26,36,30" />
       <scope id="2135528801629813725" at="27,0,30,0" />
       <scope id="2135528801629813725" at="16,0,20,0">
@@ -60,7 +60,7 @@
         <var name="editorCell" id="2135528801629813726" />
       </scope>
       <scope id="2135528801629813726" at="31,0,40,0" />
-      <unit id="2135528801629813725" at="12,0,41,0" name="de.itemis.mps.editor.enumeration.editor.StubCellModel_EnumCheckbox_EditorBuilder_a" />
+      <unit id="2135528801629813725" at="12,0,41,0" name="de.itemis.mps.editor.enumeration.editor.StubCellModel_EnumCheckbox_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:dddecde0-39df-4993-94a0-e0dc5b25eed3(de.itemis.mps.editor.enumeration.editor)/2135528801629813727">
@@ -74,17 +74,17 @@
   </root>
   <root nodeRef="r:dddecde0-39df-4993-94a0-e0dc5b25eed3(de.itemis.mps.editor.enumeration.editor)/2135528801629814989">
     <file name="Icon_Editor.java">
-      <node id="2135528801629814989" at="11,79,12,70" concept="6" />
+      <node id="2135528801629814989" at="11,79,12,68" concept="6" />
       <node id="2135528801629814989" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2135528801629814989" at="11,79,12,70" />
+      <scope id="2135528801629814989" at="11,79,12,68" />
       <scope id="2135528801629814989" at="11,0,14,0">
         <var name="editorContext" id="2135528801629814989" />
         <var name="node" id="2135528801629814989" />
       </scope>
       <unit id="2135528801629814989" at="10,0,15,0" name="de.itemis.mps.editor.enumeration.editor.Icon_Editor" />
     </file>
-    <file name="Icon_EditorBuilder_a.java">
-      <node id="2135528801629814989" at="38,84,39,19" concept="11" />
+    <file name="Icon_EditorBuilder.java">
+      <node id="2135528801629814989" at="38,82,39,19" concept="11" />
       <node id="2135528801629814989" at="39,19,40,18" concept="1" />
       <node id="2135528801629814989" at="45,26,46,18" concept="6" />
       <node id="2135528801629814989" at="49,39,50,32" concept="6" />
@@ -168,7 +168,7 @@
       <node id="2135528801629814989" at="35,0,37,0" concept="2" trace="myNode" />
       <node id="2135528801629814989" at="49,0,52,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8659612544250343860" at="131,0,134,0" concept="4" trace="_QueryFunction_JComponent_y97xfd_a4a#()Ljavax/swing/JComponent;" />
-      <node id="2135528801629814989" at="38,0,42,0" concept="0" trace="Icon_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2135528801629814989" at="38,0,42,0" concept="0" trace="Icon_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2135528801629814989" at="43,0,48,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2135528801629815016" at="84,208,89,24" concept="3" />
       <node id="2135528801629815056" at="111,208,116,24" concept="3" />
@@ -191,7 +191,7 @@
       <scope id="2135528801629815056" at="117,15,118,40" />
       <scope id="8659612544250343862" at="131,61,132,91" />
       <scope id="2135528801629815116" at="157,15,158,40" />
-      <scope id="2135528801629814989" at="38,84,40,18" />
+      <scope id="2135528801629814989" at="38,82,40,18" />
       <scope id="2135528801629815016" at="85,74,87,145">
         <var name="manager" id="2135528801629815016" />
       </scope>
@@ -257,24 +257,24 @@
       <scope id="2135528801629815016" at="73,0,94,0" />
       <scope id="2135528801629815056" at="100,0,121,0" />
       <scope id="2135528801629815116" at="140,0,161,0" />
-      <unit id="2135528801629814989" at="168,0,171,0" name="de.itemis.mps.editor.enumeration.editor.Icon_EditorBuilder_a$CONCEPTS" />
-      <unit id="2135528801629814989" at="162,0,167,0" name="de.itemis.mps.editor.enumeration.editor.Icon_EditorBuilder_a$PROPS" />
-      <unit id="2135528801629814989" at="34,0,172,0" name="de.itemis.mps.editor.enumeration.editor.Icon_EditorBuilder_a" />
+      <unit id="2135528801629814989" at="168,0,171,0" name="de.itemis.mps.editor.enumeration.editor.Icon_EditorBuilder$CONCEPTS" />
+      <unit id="2135528801629814989" at="162,0,167,0" name="de.itemis.mps.editor.enumeration.editor.Icon_EditorBuilder$PROPS" />
+      <unit id="2135528801629814989" at="34,0,172,0" name="de.itemis.mps.editor.enumeration.editor.Icon_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:dddecde0-39df-4993-94a0-e0dc5b25eed3(de.itemis.mps.editor.enumeration.editor)/2135528801629815138">
     <file name="IconCollection_Editor.java">
-      <node id="2135528801629815138" at="11,79,12,80" concept="6" />
+      <node id="2135528801629815138" at="11,79,12,78" concept="6" />
       <node id="2135528801629815138" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2135528801629815138" at="11,79,12,80" />
+      <scope id="2135528801629815138" at="11,79,12,78" />
       <scope id="2135528801629815138" at="11,0,14,0">
         <var name="editorContext" id="2135528801629815138" />
         <var name="node" id="2135528801629815138" />
       </scope>
       <unit id="2135528801629815138" at="10,0,15,0" name="de.itemis.mps.editor.enumeration.editor.IconCollection_Editor" />
     </file>
-    <file name="IconCollection_EditorBuilder_a.java">
-      <node id="2135528801629815138" at="46,94,47,19" concept="11" />
+    <file name="IconCollection_EditorBuilder.java">
+      <node id="2135528801629815138" at="46,92,47,19" concept="11" />
       <node id="2135528801629815138" at="47,19,48,18" concept="1" />
       <node id="2135528801629815138" at="53,26,54,18" concept="6" />
       <node id="2135528801629815138" at="57,39,58,32" concept="6" />
@@ -350,7 +350,7 @@
       <node id="2135528801629815138" at="127,0,130,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="2135528801629815138" at="130,0,133,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="2135528801629815138" at="174,96,177,9" concept="3" />
-      <node id="2135528801629815138" at="46,0,50,0" concept="0" trace="IconCollection_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2135528801629815138" at="46,0,50,0" concept="0" trace="IconCollection_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2135528801629815138" at="118,0,122,0" concept="0" trace="iconsListHandler_op900q_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="2135528801629815138" at="123,0,127,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2135528801629815138" at="156,97,160,9" concept="3" />
@@ -380,7 +380,7 @@
       <scope id="2135528801629815138" at="130,48,131,30" />
       <scope id="2135528801629815138" at="148,17,149,42" />
       <scope id="2135528801629815138" at="175,34,176,91" />
-      <scope id="2135528801629815138" at="46,94,48,18" />
+      <scope id="2135528801629815138" at="46,92,48,18" />
       <scope id="2135528801629815187" at="98,74,100,145">
         <var name="manager" id="2135528801629815187" />
       </scope>
@@ -448,26 +448,26 @@
         <var name="elementNode" id="2135528801629815138" />
         <var name="isEmptyCell" id="2135528801629815138" />
       </scope>
-      <unit id="2135528801629815138" at="182,0,185,0" name="de.itemis.mps.editor.enumeration.editor.IconCollection_EditorBuilder_a$PROPS" />
-      <unit id="2135528801629815138" at="191,0,194,0" name="de.itemis.mps.editor.enumeration.editor.IconCollection_EditorBuilder_a$LINKS" />
-      <unit id="2135528801629815138" at="186,0,190,0" name="de.itemis.mps.editor.enumeration.editor.IconCollection_EditorBuilder_a$CONCEPTS" />
-      <unit id="2135528801629815138" at="114,0,181,0" name="de.itemis.mps.editor.enumeration.editor.IconCollection_EditorBuilder_a$iconsListHandler_op900q_b0" />
-      <unit id="2135528801629815138" at="42,0,195,0" name="de.itemis.mps.editor.enumeration.editor.IconCollection_EditorBuilder_a" />
+      <unit id="2135528801629815138" at="182,0,185,0" name="de.itemis.mps.editor.enumeration.editor.IconCollection_EditorBuilder$PROPS" />
+      <unit id="2135528801629815138" at="191,0,194,0" name="de.itemis.mps.editor.enumeration.editor.IconCollection_EditorBuilder$LINKS" />
+      <unit id="2135528801629815138" at="186,0,190,0" name="de.itemis.mps.editor.enumeration.editor.IconCollection_EditorBuilder$CONCEPTS" />
+      <unit id="2135528801629815138" at="114,0,181,0" name="de.itemis.mps.editor.enumeration.editor.IconCollection_EditorBuilder$iconsListHandler_op900q_b0" />
+      <unit id="2135528801629815138" at="42,0,195,0" name="de.itemis.mps.editor.enumeration.editor.IconCollection_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:dddecde0-39df-4993-94a0-e0dc5b25eed3(de.itemis.mps.editor.enumeration.editor)/2135528801629815242">
     <file name="EnumCheckbox_Selectable_Editor.java">
-      <node id="2135528801629815242" at="11,79,12,89" concept="6" />
+      <node id="2135528801629815242" at="11,79,12,87" concept="6" />
       <node id="2135528801629815242" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2135528801629815242" at="11,79,12,89" />
+      <scope id="2135528801629815242" at="11,79,12,87" />
       <scope id="2135528801629815242" at="11,0,14,0">
         <var name="editorContext" id="2135528801629815242" />
         <var name="node" id="2135528801629815242" />
       </scope>
       <unit id="2135528801629815242" at="10,0,15,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_Editor" />
     </file>
-    <file name="EnumCheckbox_Selectable_EditorBuilder_a.java">
-      <node id="2135528801629815242" at="44,103,45,19" concept="11" />
+    <file name="EnumCheckbox_Selectable_EditorBuilder.java">
+      <node id="2135528801629815242" at="44,101,45,19" concept="11" />
       <node id="2135528801629815242" at="45,19,46,18" concept="1" />
       <node id="2135528801629815242" at="51,26,52,18" concept="6" />
       <node id="2135528801629815242" at="55,39,56,32" concept="6" />
@@ -675,7 +675,7 @@
       <node id="2135528801629815373" at="154,0,157,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2135528801629815391" at="251,0,254,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4698460851461210517" at="343,0,346,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2135528801629815242" at="44,0,48,0" concept="0" trace="EnumCheckbox_Selectable_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2135528801629815242" at="44,0,48,0" concept="0" trace="EnumCheckbox_Selectable_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2135528801629922362" at="105,0,109,0" concept="4" trace="createIndentCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2135528801629815242" at="129,0,133,5" concept="3" />
       <node id="2135528801629815356" at="197,0,201,0" concept="4" trace="createIndentCell_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -732,7 +732,7 @@
       <scope id="4698460851461210517" at="343,41,344,32" />
       <scope id="4698460851461210517" at="349,28,350,20" />
       <scope id="4698460851461210533" at="370,17,371,42" />
-      <scope id="2135528801629815242" at="44,103,46,18" />
+      <scope id="2135528801629815242" at="44,101,46,18" />
       <scope id="2135528801629815258" at="85,74,87,145">
         <var name="manager" id="2135528801629815258" />
       </scope>
@@ -906,26 +906,26 @@
         <var name="style" id="2135528801629815242" />
       </scope>
       <scope id="2135528801629815242" at="208,0,240,0" />
-      <unit id="2135528801629815242" at="376,0,379,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder_a$PROPS" />
-      <unit id="2135528801629815242" at="380,0,384,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder_a$CONCEPTS" />
-      <unit id="2135528801629815242" at="385,0,390,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder_a$LINKS" />
-      <unit id="2135528801629815242" at="117,42,125,5" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder_a$1" />
-      <unit id="2135528801629815242" at="210,42,218,5" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder_a$2" />
-      <unit id="2135528801629815242" at="306,42,314,5" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder_a$3" />
-      <unit id="2135528801629815373" at="143,0,186,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder_a$Inline_Builder0" />
-      <unit id="2135528801629815391" at="240,0,283,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder_a$Inline_Builder1" />
-      <unit id="4698460851461210517" at="332,0,375,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder_a$Inline_Builder2" />
-      <unit id="2135528801629815242" at="40,0,391,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder_a" />
+      <unit id="2135528801629815242" at="376,0,379,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder$PROPS" />
+      <unit id="2135528801629815242" at="380,0,384,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder$CONCEPTS" />
+      <unit id="2135528801629815242" at="385,0,390,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder$LINKS" />
+      <unit id="2135528801629815242" at="117,42,125,5" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder$1" />
+      <unit id="2135528801629815242" at="210,42,218,5" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder$2" />
+      <unit id="2135528801629815242" at="306,42,314,5" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder$3" />
+      <unit id="2135528801629815373" at="143,0,186,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder$Inline_Builder0" />
+      <unit id="2135528801629815391" at="240,0,283,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder$Inline_Builder1" />
+      <unit id="4698460851461210517" at="332,0,375,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder$Inline_Builder2" />
+      <unit id="2135528801629815242" at="40,0,391,0" name="de.itemis.mps.editor.enumeration.editor.EnumCheckbox_Selectable_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:dddecde0-39df-4993-94a0-e0dc5b25eed3(de.itemis.mps.editor.enumeration.editor)/2135528801629815461">
     <file name="CellModel_EnumCheckbox_Editor.java">
-      <node id="2135528801629815461" at="11,79,12,88" concept="6" />
-      <node id="2135528801629815461" at="14,82,15,91" concept="6" />
+      <node id="2135528801629815461" at="11,79,12,86" concept="6" />
+      <node id="2135528801629815461" at="14,82,15,89" concept="6" />
       <node id="2135528801629815461" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2135528801629815461" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2135528801629815461" at="11,79,12,88" />
-      <scope id="2135528801629815461" at="14,82,15,91" />
+      <scope id="2135528801629815461" at="11,79,12,86" />
+      <scope id="2135528801629815461" at="14,82,15,89" />
       <scope id="2135528801629815461" at="11,0,14,0">
         <var name="editorContext" id="2135528801629815461" />
         <var name="node" id="2135528801629815461" />
@@ -936,8 +936,8 @@
       </scope>
       <unit id="2135528801629815461" at="10,0,18,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_Editor" />
     </file>
-    <file name="CellModel_EnumCheckbox_EditorBuilder_a.java">
-      <node id="2135528801629815461" at="37,102,38,19" concept="11" />
+    <file name="CellModel_EnumCheckbox_EditorBuilder.java">
+      <node id="2135528801629815461" at="37,100,38,19" concept="11" />
       <node id="2135528801629815461" at="38,19,39,18" concept="1" />
       <node id="2135528801629815461" at="44,26,45,18" concept="6" />
       <node id="2135528801629815461" at="48,39,49,32" concept="6" />
@@ -1007,7 +1007,7 @@
       <node id="2135528801629826087" at="103,0,105,0" concept="2" trace="myNode" />
       <node id="2135528801629815461" at="48,0,51,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2135528801629826087" at="113,0,116,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2135528801629815461" at="37,0,41,0" concept="0" trace="CellModel_EnumCheckbox_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2135528801629815461" at="37,0,41,0" concept="0" trace="CellModel_EnumCheckbox_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2135528801629826073" at="69,0,73,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2135528801629815461" at="88,0,92,5" concept="3" />
       <node id="2135528801629826136" at="145,0,149,0" concept="4" trace="createComponent_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1028,7 +1028,7 @@
       <scope id="2135528801629826087" at="113,41,114,32" />
       <scope id="2135528801629826087" at="119,28,120,20" />
       <scope id="2135528801629826105" at="140,17,141,42" />
-      <scope id="2135528801629815461" at="37,102,39,18" />
+      <scope id="2135528801629815461" at="37,100,39,18" />
       <scope id="2135528801629826073" at="69,42,71,22">
         <var name="editorCell" id="2135528801629826073" />
       </scope>
@@ -1088,15 +1088,15 @@
         <var name="referenceLink" id="2135528801629815461" />
       </scope>
       <scope id="2135528801629815461" at="73,0,102,0" />
-      <unit id="2135528801629815461" at="161,0,164,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_EditorBuilder_a$PROPS" />
-      <unit id="2135528801629815461" at="150,0,154,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_EditorBuilder_a$LINKS" />
-      <unit id="2135528801629815461" at="155,0,160,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_EditorBuilder_a$CONCEPTS" />
-      <unit id="2135528801629815461" at="75,42,83,5" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_EditorBuilder_a$1" />
-      <unit id="2135528801629826087" at="102,0,145,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_EditorBuilder_a$Inline_Builder0" />
-      <unit id="2135528801629815461" at="33,0,165,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_EditorBuilder_a" />
+      <unit id="2135528801629815461" at="161,0,164,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_EditorBuilder$PROPS" />
+      <unit id="2135528801629815461" at="150,0,154,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_EditorBuilder$LINKS" />
+      <unit id="2135528801629815461" at="155,0,160,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_EditorBuilder$CONCEPTS" />
+      <unit id="2135528801629815461" at="75,42,83,5" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_EditorBuilder$1" />
+      <unit id="2135528801629826087" at="102,0,145,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_EditorBuilder$Inline_Builder0" />
+      <unit id="2135528801629815461" at="33,0,165,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_EditorBuilder" />
     </file>
-    <file name="CellModel_EnumCheckbox_InspectorBuilder_a.java">
-      <node id="2135528801629815461" at="43,105,44,19" concept="11" />
+    <file name="CellModel_EnumCheckbox_InspectorBuilder.java">
+      <node id="2135528801629815461" at="43,103,44,19" concept="11" />
       <node id="2135528801629815461" at="44,19,45,18" concept="1" />
       <node id="2135528801629815461" at="50,26,51,18" concept="6" />
       <node id="2135528801629815461" at="54,39,55,32" concept="6" />
@@ -1178,7 +1178,7 @@
       <node id="2135528801629815461" at="54,0,57,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2135528801629815461" at="130,0,133,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="2135528801629815461" at="133,0,136,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="2135528801629815461" at="43,0,47,0" concept="0" trace="CellModel_EnumCheckbox_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2135528801629815461" at="43,0,47,0" concept="0" trace="CellModel_EnumCheckbox_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2135528801629815461" at="121,0,125,0" concept="0" trace="contentListHandler_4w3kuw_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="2135528801629815461" at="126,0,130,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2135528801629815461" at="159,97,163,9" concept="3" />
@@ -1210,7 +1210,7 @@
       <scope id="2135528801629815461" at="130,40,131,32" />
       <scope id="2135528801629815461" at="133,48,134,49" />
       <scope id="2135528801629815461" at="151,17,152,42" />
-      <scope id="2135528801629815461" at="43,105,45,18" />
+      <scope id="2135528801629815461" at="43,103,45,18" />
       <scope id="3451427940774998353" at="94,74,96,145">
         <var name="manager" id="3451427940774998353" />
       </scope>
@@ -1286,11 +1286,11 @@
         <var name="elementNode" id="2135528801629815461" />
         <var name="isEmptyCell" id="2135528801629815461" />
       </scope>
-      <unit id="2135528801629815461" at="190,0,193,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_InspectorBuilder_a$PROPS" />
-      <unit id="2135528801629815461" at="199,0,202,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_InspectorBuilder_a$LINKS" />
-      <unit id="2135528801629815461" at="194,0,198,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_InspectorBuilder_a$CONCEPTS" />
-      <unit id="2135528801629815461" at="117,0,185,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_InspectorBuilder_a$contentListHandler_4w3kuw_c0" />
-      <unit id="2135528801629815461" at="39,0,203,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_InspectorBuilder_a" />
+      <unit id="2135528801629815461" at="190,0,193,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_InspectorBuilder$PROPS" />
+      <unit id="2135528801629815461" at="199,0,202,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_InspectorBuilder$LINKS" />
+      <unit id="2135528801629815461" at="194,0,198,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_InspectorBuilder$CONCEPTS" />
+      <unit id="2135528801629815461" at="117,0,185,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_InspectorBuilder$contentListHandler_4w3kuw_c0" />
+      <unit id="2135528801629815461" at="39,0,203,0" name="de.itemis.mps.editor.enumeration.editor.CellModel_EnumCheckbox_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:dddecde0-39df-4993-94a0-e0dc5b25eed3(de.itemis.mps.editor.enumeration.editor)/2523161826867581264">

@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class BoxLayoutAlgorithm_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new BoxLayoutAlgorithm_EditorBuilder_a(editorContext, node).createCell();
+    return new BoxLayoutAlgorithm_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new BoxLayoutAlgorithm_InspectorBuilder_a(editorContext, node).createCell();
+    return new BoxLayoutAlgorithm_InspectorBuilder(editorContext, node).createCell();
   }
 }

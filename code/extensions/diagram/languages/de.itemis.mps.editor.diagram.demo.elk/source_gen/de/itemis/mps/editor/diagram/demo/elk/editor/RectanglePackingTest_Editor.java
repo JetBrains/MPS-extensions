@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class RectanglePackingTest_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new RectanglePackingTest_EditorBuilder_a(editorContext, node).createCell();
+    return new RectanglePackingTest_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new RectanglePackingTest_InspectorBuilder_a(editorContext, node).createCell();
+    return new RectanglePackingTest_InspectorBuilder(editorContext, node).createCell();
   }
 }

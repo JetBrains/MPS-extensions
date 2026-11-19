@@ -17,17 +17,17 @@
   </root>
   <root nodeRef="r:aa13ba37-638f-4ef5-b220-bf10cd493b8f(nl.f1re.testing.editor)/2052872502397544287">
     <file name="EditorTestLifecycleMethods_Editor.java">
-      <node id="2052872502397544287" at="11,79,12,92" concept="6" />
+      <node id="2052872502397544287" at="11,79,12,90" concept="6" />
       <node id="2052872502397544287" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2052872502397544287" at="11,79,12,92" />
+      <scope id="2052872502397544287" at="11,79,12,90" />
       <scope id="2052872502397544287" at="11,0,14,0">
         <var name="editorContext" id="2052872502397544287" />
         <var name="node" id="2052872502397544287" />
       </scope>
       <unit id="2052872502397544287" at="10,0,15,0" name="nl.f1re.testing.editor.EditorTestLifecycleMethods_Editor" />
     </file>
-    <file name="EditorTestLifecycleMethods_EditorBuilder_a.java">
-      <node id="2052872502397544287" at="32,106,33,19" concept="8" />
+    <file name="EditorTestLifecycleMethods_EditorBuilder.java">
+      <node id="2052872502397544287" at="32,104,33,19" concept="8" />
       <node id="2052872502397544287" at="33,19,34,18" concept="1" />
       <node id="2052872502397544287" at="39,26,40,18" concept="6" />
       <node id="2052872502397544287" at="43,39,44,32" concept="6" />
@@ -110,7 +110,7 @@
       <node id="2052872502397544287" at="162,87,165,7" concept="3" />
       <node id="2052872502397544287" at="165,7,168,7" concept="3" />
       <node id="2052872502397544287" at="184,0,187,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="2052872502397544287" at="32,0,36,0" concept="0" trace="EditorTestLifecycleMethods_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2052872502397544287" at="32,0,36,0" concept="0" trace="EditorTestLifecycleMethods_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2052872502397544287" at="75,0,79,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="2052872502397544287" at="83,0,87,0" concept="0" trace="beforeTestsSingleRoleHandler_qfxude_c0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="2052872502397544287" at="133,0,137,0" concept="4" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -141,7 +141,7 @@
       <scope id="2052872502397544287" at="166,42,167,51" />
       <scope id="2052872502397544287" at="180,17,181,42" />
       <scope id="2052872502397544287" at="184,40,185,31" />
-      <scope id="2052872502397544287" at="32,106,34,18" />
+      <scope id="2052872502397544287" at="32,104,34,18" />
       <scope id="2052872502397544287" at="75,40,77,33">
         <var name="provider" id="2052872502397544287" />
       </scope>
@@ -223,25 +223,25 @@
       <scope id="2052872502397544287" at="171,44,182,7" />
       <scope id="2052872502397544287" at="115,0,129,0" />
       <scope id="2052872502397544287" at="170,0,184,0" />
-      <unit id="2052872502397544287" at="189,0,193,0" name="nl.f1re.testing.editor.EditorTestLifecycleMethods_EditorBuilder_a$LINKS" />
-      <unit id="2052872502397544287" at="137,0,188,0" name="nl.f1re.testing.editor.EditorTestLifecycleMethods_EditorBuilder_a$afterTestsSingleRoleHandler_qfxude_d0" />
-      <unit id="2052872502397544287" at="79,0,133,0" name="nl.f1re.testing.editor.EditorTestLifecycleMethods_EditorBuilder_a$beforeTestsSingleRoleHandler_qfxude_c0" />
-      <unit id="2052872502397544287" at="28,0,194,0" name="nl.f1re.testing.editor.EditorTestLifecycleMethods_EditorBuilder_a" />
+      <unit id="2052872502397544287" at="189,0,193,0" name="nl.f1re.testing.editor.EditorTestLifecycleMethods_EditorBuilder$LINKS" />
+      <unit id="2052872502397544287" at="137,0,188,0" name="nl.f1re.testing.editor.EditorTestLifecycleMethods_EditorBuilder$afterTestsSingleRoleHandler_qfxude_d0" />
+      <unit id="2052872502397544287" at="79,0,133,0" name="nl.f1re.testing.editor.EditorTestLifecycleMethods_EditorBuilder$beforeTestsSingleRoleHandler_qfxude_c0" />
+      <unit id="2052872502397544287" at="28,0,194,0" name="nl.f1re.testing.editor.EditorTestLifecycleMethods_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:aa13ba37-638f-4ef5-b220-bf10cd493b8f(nl.f1re.testing.editor)/2964412296093652538">
     <file name="FileNodeEditorExpression_Editor.java">
-      <node id="2964412296093652538" at="11,79,12,90" concept="6" />
+      <node id="2964412296093652538" at="11,79,12,88" concept="6" />
       <node id="2964412296093652538" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="2964412296093652538" at="11,79,12,90" />
+      <scope id="2964412296093652538" at="11,79,12,88" />
       <scope id="2964412296093652538" at="11,0,14,0">
         <var name="editorContext" id="2964412296093652538" />
         <var name="node" id="2964412296093652538" />
       </scope>
       <unit id="2964412296093652538" at="10,0,15,0" name="nl.f1re.testing.editor.FileNodeEditorExpression_Editor" />
     </file>
-    <file name="FileNodeEditorExpression_EditorBuilder_a.java">
-      <node id="2964412296093652538" at="16,104,17,19" concept="8" />
+    <file name="FileNodeEditorExpression_EditorBuilder.java">
+      <node id="2964412296093652538" at="16,102,17,19" concept="8" />
       <node id="2964412296093652538" at="17,19,18,18" concept="1" />
       <node id="2964412296093652538" at="23,26,24,18" concept="6" />
       <node id="2964412296093652538" at="27,39,28,31" concept="6" />
@@ -252,13 +252,13 @@
       <node id="2886182022232400113" at="37,5,38,22" concept="6" />
       <node id="2964412296093652538" at="13,0,15,0" concept="2" trace="myNode" />
       <node id="2964412296093652538" at="27,0,30,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="2964412296093652538" at="16,0,20,0" concept="0" trace="FileNodeEditorExpression_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2964412296093652538" at="16,0,20,0" concept="0" trace="FileNodeEditorExpression_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="2886182022232400113" at="33,72,37,5" concept="3" />
       <node id="2964412296093652538" at="21,0,26,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="2886182022232400113" at="31,0,40,0" concept="4" trace="createComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="2964412296093652538" at="23,26,24,18" />
       <scope id="2964412296093652538" at="27,39,28,31" />
-      <scope id="2964412296093652538" at="16,104,18,18" />
+      <scope id="2964412296093652538" at="16,102,18,18" />
       <scope id="2886182022232400113" at="34,26,36,30" />
       <scope id="2964412296093652538" at="27,0,30,0" />
       <scope id="2964412296093652538" at="16,0,20,0">
@@ -271,7 +271,7 @@
         <var name="editorCell" id="2886182022232400113" />
       </scope>
       <scope id="2886182022232400113" at="31,0,40,0" />
-      <unit id="2964412296093652538" at="12,0,41,0" name="nl.f1re.testing.editor.FileNodeEditorExpression_EditorBuilder_a" />
+      <unit id="2964412296093652538" at="12,0,41,0" name="nl.f1re.testing.editor.FileNodeEditorExpression_EditorBuilder" />
     </file>
   </root>
 </debug-info>

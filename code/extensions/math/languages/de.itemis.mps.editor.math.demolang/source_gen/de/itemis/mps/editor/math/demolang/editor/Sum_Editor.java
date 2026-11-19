@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Sum_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Sum_EditorBuilder_a(editorContext, node).createCell();
+    return new Sum_EditorBuilder(editorContext, node).createCell();
   }
 }

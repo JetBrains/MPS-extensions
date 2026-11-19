@@ -18,9 +18,9 @@ public class TreeSubDiagram_text_Editor extends DefaultNodeEditor {
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TreeSubDiagram_text_EditorBuilder_a(editorContext, node).createCell();
+    return new TreeSubDiagram_text_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new TreeSubDiagram_text_InspectorBuilder_a(editorContext, node).createCell();
+    return new TreeSubDiagram_text_InspectorBuilder(editorContext, node).createCell();
   }
 }

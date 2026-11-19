@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class EmptyChecker_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new EmptyChecker_EditorBuilder_a(editorContext, node).createCell();
+    return new EmptyChecker_EditorBuilder(editorContext, node).createCell();
   }
 }

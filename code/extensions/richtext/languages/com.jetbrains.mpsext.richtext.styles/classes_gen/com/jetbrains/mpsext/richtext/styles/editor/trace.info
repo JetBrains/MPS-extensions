@@ -18,17 +18,17 @@
   </root>
   <root nodeRef="r:521b05ba-2376-48a1-9a11-37b70e41e6fe(com.jetbrains.mpsext.richtext.styles.editor)/4107383424148504376">
     <file name="ThemeColor_Editor.java">
-      <node id="4107383424148504376" at="11,79,12,76" concept="6" />
+      <node id="4107383424148504376" at="11,79,12,74" concept="6" />
       <node id="4107383424148504376" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4107383424148504376" at="11,79,12,76" />
+      <scope id="4107383424148504376" at="11,79,12,74" />
       <scope id="4107383424148504376" at="11,0,14,0">
         <var name="editorContext" id="4107383424148504376" />
         <var name="node" id="4107383424148504376" />
       </scope>
       <unit id="4107383424148504376" at="10,0,15,0" name="com.jetbrains.mpsext.richtext.styles.editor.ThemeColor_Editor" />
     </file>
-    <file name="ThemeColor_EditorBuilder_a.java">
-      <node id="4107383424148504376" at="35,90,36,19" concept="9" />
+    <file name="ThemeColor_EditorBuilder.java">
+      <node id="4107383424148504376" at="35,88,36,19" concept="9" />
       <node id="4107383424148504376" at="36,19,37,18" concept="1" />
       <node id="4107383424148504376" at="42,26,43,18" concept="6" />
       <node id="4107383424148504376" at="46,39,47,32" concept="6" />
@@ -94,7 +94,7 @@
       <node id="4107383424148504376" at="46,0,49,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4107383424148506796" at="95,0,98,0" concept="4" trace="_QueryFunction_JComponent_46la8p_a2a#()Ljavax/swing/JComponent;" />
       <node id="4107383424148548657" at="130,0,133,0" concept="4" trace="_QueryFunction_JComponent_46la8p_a5a#()Ljavax/swing/JComponent;" />
-      <node id="4107383424148504376" at="35,0,39,0" concept="0" trace="ThemeColor_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4107383424148504376" at="35,0,39,0" concept="0" trace="ThemeColor_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4107383424148504376" at="40,0,45,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="4107383424148506790" at="80,208,85,24" concept="3" />
       <node id="4107383424148504376" at="90,0,95,0" concept="4" trace="createJComponent_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -113,7 +113,7 @@
       <scope id="4107383424148506798" at="95,61,96,81" />
       <scope id="4107383424148548533" at="121,15,122,40" />
       <scope id="4107383424148548659" at="130,61,131,80" />
-      <scope id="4107383424148504376" at="35,90,37,18" />
+      <scope id="4107383424148504376" at="35,88,37,18" />
       <scope id="4107383424148506790" at="81,74,83,145">
         <var name="manager" id="4107383424148506790" />
       </scope>
@@ -164,24 +164,24 @@
       <scope id="4107383424148548533" at="104,41,123,5" />
       <scope id="4107383424148506790" at="69,0,90,0" />
       <scope id="4107383424148548533" at="104,0,125,0" />
-      <unit id="4107383424148504376" at="139,0,142,0" name="com.jetbrains.mpsext.richtext.styles.editor.ThemeColor_EditorBuilder_a$CONCEPTS" />
-      <unit id="4107383424148504376" at="134,0,138,0" name="com.jetbrains.mpsext.richtext.styles.editor.ThemeColor_EditorBuilder_a$PROPS" />
-      <unit id="4107383424148504376" at="31,0,143,0" name="com.jetbrains.mpsext.richtext.styles.editor.ThemeColor_EditorBuilder_a" />
+      <unit id="4107383424148504376" at="139,0,142,0" name="com.jetbrains.mpsext.richtext.styles.editor.ThemeColor_EditorBuilder$CONCEPTS" />
+      <unit id="4107383424148504376" at="134,0,138,0" name="com.jetbrains.mpsext.richtext.styles.editor.ThemeColor_EditorBuilder$PROPS" />
+      <unit id="4107383424148504376" at="31,0,143,0" name="com.jetbrains.mpsext.richtext.styles.editor.ThemeColor_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:521b05ba-2376-48a1-9a11-37b70e41e6fe(com.jetbrains.mpsext.richtext.styles.editor)/6297492941703045409">
     <file name="Stylesheet_Editor.java">
-      <node id="6297492941703045409" at="11,79,12,76" concept="6" />
+      <node id="6297492941703045409" at="11,79,12,74" concept="6" />
       <node id="6297492941703045409" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6297492941703045409" at="11,79,12,76" />
+      <scope id="6297492941703045409" at="11,79,12,74" />
       <scope id="6297492941703045409" at="11,0,14,0">
         <var name="editorContext" id="6297492941703045409" />
         <var name="node" id="6297492941703045409" />
       </scope>
       <unit id="6297492941703045409" at="10,0,15,0" name="com.jetbrains.mpsext.richtext.styles.editor.Stylesheet_Editor" />
     </file>
-    <file name="Stylesheet_EditorBuilder_a.java">
-      <node id="6297492941703045409" at="46,90,47,19" concept="9" />
+    <file name="Stylesheet_EditorBuilder.java">
+      <node id="6297492941703045409" at="46,88,47,19" concept="9" />
       <node id="6297492941703045409" at="47,19,48,18" concept="1" />
       <node id="6297492941703045409" at="53,26,54,18" concept="6" />
       <node id="6297492941703045409" at="57,39,58,32" concept="6" />
@@ -257,7 +257,7 @@
       <node id="6297492941703045409" at="127,0,130,0" concept="4" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="6297492941703045409" at="130,0,133,0" concept="4" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="6297492941703045409" at="174,96,177,9" concept="3" />
-      <node id="6297492941703045409" at="46,0,50,0" concept="0" trace="Stylesheet_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6297492941703045409" at="46,0,50,0" concept="0" trace="Stylesheet_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6297492941703045409" at="118,0,122,0" concept="0" trace="stylesListHandler_80cif3_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6297492941703045409" at="123,0,127,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6297492941703045409" at="156,97,160,9" concept="3" />
@@ -287,7 +287,7 @@
       <scope id="6297492941703045409" at="130,48,131,31" />
       <scope id="6297492941703045409" at="148,17,149,42" />
       <scope id="6297492941703045409" at="175,34,176,91" />
-      <scope id="6297492941703045409" at="46,90,48,18" />
+      <scope id="6297492941703045409" at="46,88,48,18" />
       <scope id="6297492941703046229" at="98,74,100,145">
         <var name="manager" id="6297492941703046229" />
       </scope>
@@ -355,11 +355,11 @@
         <var name="elementNode" id="6297492941703045409" />
         <var name="isEmptyCell" id="6297492941703045409" />
       </scope>
-      <unit id="6297492941703045409" at="182,0,185,0" name="com.jetbrains.mpsext.richtext.styles.editor.Stylesheet_EditorBuilder_a$PROPS" />
-      <unit id="6297492941703045409" at="191,0,194,0" name="com.jetbrains.mpsext.richtext.styles.editor.Stylesheet_EditorBuilder_a$LINKS" />
-      <unit id="6297492941703045409" at="186,0,190,0" name="com.jetbrains.mpsext.richtext.styles.editor.Stylesheet_EditorBuilder_a$CONCEPTS" />
-      <unit id="6297492941703045409" at="114,0,181,0" name="com.jetbrains.mpsext.richtext.styles.editor.Stylesheet_EditorBuilder_a$stylesListHandler_80cif3_b0" />
-      <unit id="6297492941703045409" at="42,0,195,0" name="com.jetbrains.mpsext.richtext.styles.editor.Stylesheet_EditorBuilder_a" />
+      <unit id="6297492941703045409" at="182,0,185,0" name="com.jetbrains.mpsext.richtext.styles.editor.Stylesheet_EditorBuilder$PROPS" />
+      <unit id="6297492941703045409" at="191,0,194,0" name="com.jetbrains.mpsext.richtext.styles.editor.Stylesheet_EditorBuilder$LINKS" />
+      <unit id="6297492941703045409" at="186,0,190,0" name="com.jetbrains.mpsext.richtext.styles.editor.Stylesheet_EditorBuilder$CONCEPTS" />
+      <unit id="6297492941703045409" at="114,0,181,0" name="com.jetbrains.mpsext.richtext.styles.editor.Stylesheet_EditorBuilder$stylesListHandler_80cif3_b0" />
+      <unit id="6297492941703045409" at="42,0,195,0" name="com.jetbrains.mpsext.richtext.styles.editor.Stylesheet_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:521b05ba-2376-48a1-9a11-37b70e41e6fe(com.jetbrains.mpsext.richtext.styles.editor)/6297492941704628503">
@@ -373,17 +373,17 @@
   </root>
   <root nodeRef="r:521b05ba-2376-48a1-9a11-37b70e41e6fe(com.jetbrains.mpsext.richtext.styles.editor)/6345989286613268288">
     <file name="Span_Editor.java">
-      <node id="6345989286613268288" at="11,79,12,70" concept="6" />
+      <node id="6345989286613268288" at="11,79,12,68" concept="6" />
       <node id="6345989286613268288" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6345989286613268288" at="11,79,12,70" />
+      <scope id="6345989286613268288" at="11,79,12,68" />
       <scope id="6345989286613268288" at="11,0,14,0">
         <var name="editorContext" id="6345989286613268288" />
         <var name="node" id="6345989286613268288" />
       </scope>
       <unit id="6345989286613268288" at="10,0,15,0" name="com.jetbrains.mpsext.richtext.styles.editor.Span_Editor" />
     </file>
-    <file name="Span_EditorBuilder_a.java">
-      <node id="6345989286613268288" at="37,84,38,19" concept="9" />
+    <file name="Span_EditorBuilder.java">
+      <node id="6345989286613268288" at="37,82,38,19" concept="9" />
       <node id="6345989286613268288" at="38,19,39,18" concept="1" />
       <node id="6345989286613268288" at="44,26,45,18" concept="6" />
       <node id="6345989286613268288" at="48,39,49,35" concept="6" />
@@ -446,7 +446,7 @@
       <node id="4630602346751775099" at="149,0,152,0" concept="4" trace="_StyleParameter_QueryFunction_2r3q4h_a0a0#()Ljava/awt/Color;" />
       <node id="4630602346751778014" at="152,0,155,0" concept="4" trace="_StyleParameter_QueryFunction_2r3q4h_a1a0#()Ljava/awt/Color;" />
       <node id="4630602346751780799" at="155,0,158,0" concept="4" trace="_StyleParameter_QueryFunction_2r3q4h_a2a0#()I" />
-      <node id="6345989286613268288" at="37,0,41,0" concept="0" trace="Span_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6345989286613268288" at="37,0,41,0" concept="0" trace="Span_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6345989286613268288" at="55,50,59,16" concept="5" />
       <node id="6345989286613268288" at="60,72,64,5" concept="3" />
       <node id="6345989286613268288" at="86,0,90,0" concept="0" trace="wordsListHandler_2r3q4h_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
@@ -476,7 +476,7 @@
       <scope id="4630602346751775100" at="149,61,150,87" />
       <scope id="4630602346751778015" at="152,61,153,87" />
       <scope id="4630602346751780800" at="155,59,156,87" />
-      <scope id="6345989286613268288" at="37,84,39,18" />
+      <scope id="6345989286613268288" at="37,82,39,18" />
       <scope id="917258312815016996" at="56,79,58,18" />
       <scope id="6345989286613268288" at="61,26,63,30" />
       <scope id="6345989286613268288" at="86,79,88,25" />
@@ -536,25 +536,25 @@
         <var name="elementNode" id="6345989286613268288" />
         <var name="isEmptyCell" id="6345989286613268288" />
       </scope>
-      <unit id="6345989286613268288" at="159,0,162,0" name="com.jetbrains.mpsext.richtext.styles.editor.Span_EditorBuilder_a$LINKS" />
-      <unit id="6345989286613268288" at="163,0,166,0" name="com.jetbrains.mpsext.richtext.styles.editor.Span_EditorBuilder_a$CONCEPTS" />
-      <unit id="6345989286613268288" at="82,0,149,0" name="com.jetbrains.mpsext.richtext.styles.editor.Span_EditorBuilder_a$wordsListHandler_2r3q4h_a0" />
-      <unit id="6345989286613268288" at="33,0,167,0" name="com.jetbrains.mpsext.richtext.styles.editor.Span_EditorBuilder_a" />
+      <unit id="6345989286613268288" at="159,0,162,0" name="com.jetbrains.mpsext.richtext.styles.editor.Span_EditorBuilder$LINKS" />
+      <unit id="6345989286613268288" at="163,0,166,0" name="com.jetbrains.mpsext.richtext.styles.editor.Span_EditorBuilder$CONCEPTS" />
+      <unit id="6345989286613268288" at="82,0,149,0" name="com.jetbrains.mpsext.richtext.styles.editor.Span_EditorBuilder$wordsListHandler_2r3q4h_a0" />
+      <unit id="6345989286613268288" at="33,0,167,0" name="com.jetbrains.mpsext.richtext.styles.editor.Span_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:521b05ba-2376-48a1-9a11-37b70e41e6fe(com.jetbrains.mpsext.richtext.styles.editor)/6345989286613393220">
     <file name="Style_Editor.java">
-      <node id="6345989286613393220" at="11,79,12,71" concept="6" />
+      <node id="6345989286613393220" at="11,79,12,69" concept="6" />
       <node id="6345989286613393220" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6345989286613393220" at="11,79,12,71" />
+      <scope id="6345989286613393220" at="11,79,12,69" />
       <scope id="6345989286613393220" at="11,0,14,0">
         <var name="editorContext" id="6345989286613393220" />
         <var name="node" id="6345989286613393220" />
       </scope>
       <unit id="6345989286613393220" at="10,0,15,0" name="com.jetbrains.mpsext.richtext.styles.editor.Style_Editor" />
     </file>
-    <file name="Style_EditorBuilder_a.java">
-      <node id="6345989286613393220" at="45,85,46,19" concept="9" />
+    <file name="Style_EditorBuilder.java">
+      <node id="6345989286613393220" at="45,83,46,19" concept="9" />
       <node id="6345989286613393220" at="46,19,47,18" concept="1" />
       <node id="6345989286613393220" at="52,26,53,18" concept="6" />
       <node id="6345989286613393220" at="56,39,57,32" concept="6" />
@@ -749,7 +749,7 @@
       <node id="6345989286613393220" at="313,87,316,7" concept="3" />
       <node id="6345989286613393220" at="316,7,319,7" concept="3" />
       <node id="6345989286613393220" at="335,0,338,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="6345989286613393220" at="45,0,49,0" concept="0" trace="Style_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6345989286613393220" at="45,0,49,0" concept="0" trace="Style_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6345989286613393220" at="213,0,217,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6345989286613393220" at="221,0,225,0" concept="0" trace="foregroundSingleRoleHandler_2kix31_b2b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6345989286613393220" at="284,0,288,0" concept="4" trace="createRefNode_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -804,7 +804,7 @@
       <scope id="6345989286613393220" at="317,42,318,51" />
       <scope id="6345989286613393220" at="331,17,332,42" />
       <scope id="6345989286613393220" at="335,40,336,31" />
-      <scope id="6345989286613393220" at="45,85,47,18" />
+      <scope id="6345989286613393220" at="45,83,47,18" />
       <scope id="7853989419299113088" at="96,74,98,145">
         <var name="manager" id="7853989419299113088" />
       </scope>
@@ -968,12 +968,12 @@
       <scope id="7853989419299113088" at="84,0,105,0" />
       <scope id="7853989419299113116" at="139,0,160,0" />
       <scope id="7853989419299113130" at="176,0,197,0" />
-      <unit id="6345989286613393220" at="361,0,364,0" name="com.jetbrains.mpsext.richtext.styles.editor.Style_EditorBuilder_a$CONCEPTS" />
-      <unit id="6345989286613393220" at="365,0,369,0" name="com.jetbrains.mpsext.richtext.styles.editor.Style_EditorBuilder_a$LINKS" />
-      <unit id="6345989286613393220" at="355,0,360,0" name="com.jetbrains.mpsext.richtext.styles.editor.Style_EditorBuilder_a$PROPS" />
-      <unit id="6345989286613393220" at="217,0,268,0" name="com.jetbrains.mpsext.richtext.styles.editor.Style_EditorBuilder_a$foregroundSingleRoleHandler_2kix31_b2b0" />
-      <unit id="6345989286613393220" at="288,0,339,0" name="com.jetbrains.mpsext.richtext.styles.editor.Style_EditorBuilder_a$backgroundSingleRoleHandler_2kix31_b3b0" />
-      <unit id="6345989286613393220" at="41,0,370,0" name="com.jetbrains.mpsext.richtext.styles.editor.Style_EditorBuilder_a" />
+      <unit id="6345989286613393220" at="361,0,364,0" name="com.jetbrains.mpsext.richtext.styles.editor.Style_EditorBuilder$CONCEPTS" />
+      <unit id="6345989286613393220" at="365,0,369,0" name="com.jetbrains.mpsext.richtext.styles.editor.Style_EditorBuilder$LINKS" />
+      <unit id="6345989286613393220" at="355,0,360,0" name="com.jetbrains.mpsext.richtext.styles.editor.Style_EditorBuilder$PROPS" />
+      <unit id="6345989286613393220" at="217,0,268,0" name="com.jetbrains.mpsext.richtext.styles.editor.Style_EditorBuilder$foregroundSingleRoleHandler_2kix31_b2b0" />
+      <unit id="6345989286613393220" at="288,0,339,0" name="com.jetbrains.mpsext.richtext.styles.editor.Style_EditorBuilder$backgroundSingleRoleHandler_2kix31_b3b0" />
+      <unit id="6345989286613393220" at="41,0,370,0" name="com.jetbrains.mpsext.richtext.styles.editor.Style_EditorBuilder" />
     </file>
   </root>
 </debug-info>

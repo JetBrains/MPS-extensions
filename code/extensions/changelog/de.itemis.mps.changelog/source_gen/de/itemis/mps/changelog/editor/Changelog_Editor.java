@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Changelog_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Changelog_EditorBuilder_a(editorContext, node).createCell();
+    return new Changelog_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new Changelog_InspectorBuilder_a(editorContext, node).createCell();
+    return new Changelog_InspectorBuilder(editorContext, node).createCell();
   }
 }

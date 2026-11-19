@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Padding_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Padding_EditorBuilder_a(editorContext, node).createCell();
+    return new Padding_EditorBuilder(editorContext, node).createCell();
   }
 }

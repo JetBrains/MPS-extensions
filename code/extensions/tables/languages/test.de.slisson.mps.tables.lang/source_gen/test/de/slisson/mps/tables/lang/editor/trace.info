@@ -306,17 +306,17 @@
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/1575420476182638183">
     <file name="SimpleTableWithoutHeaders_Table_Editor.java">
-      <node id="1575420476182638183" at="11,79,12,97" concept="9" />
+      <node id="1575420476182638183" at="11,79,12,95" concept="9" />
       <node id="1575420476182638183" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1575420476182638183" at="11,79,12,97" />
+      <scope id="1575420476182638183" at="11,79,12,95" />
       <scope id="1575420476182638183" at="11,0,14,0">
         <var name="editorContext" id="1575420476182638183" />
         <var name="node" id="1575420476182638183" />
       </scope>
       <unit id="1575420476182638183" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_Editor" />
     </file>
-    <file name="SimpleTableWithoutHeaders_Table_EditorBuilder_a.java">
-      <node id="1575420476182638183" at="47,111,48,19" concept="14" />
+    <file name="SimpleTableWithoutHeaders_Table_EditorBuilder.java">
+      <node id="1575420476182638183" at="47,109,48,19" concept="14" />
       <node id="1575420476182638183" at="48,19,49,18" concept="2" />
       <node id="1575420476182638183" at="54,26,55,18" concept="9" />
       <node id="1575420476182638183" at="58,39,59,27" concept="9" />
@@ -418,7 +418,7 @@
       <node id="1575420476182638183" at="117,0,120,0" concept="7" trace="createTable_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1575420476182639324" at="174,0,177,0" concept="7" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1575420476182639324" at="182,0,185,0" concept="7" trace="create#()V" />
-      <node id="1575420476182638183" at="47,0,51,0" concept="1" trace="SimpleTableWithoutHeaders_Table_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1575420476182638183" at="47,0,51,0" concept="1" trace="SimpleTableWithoutHeaders_Table_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1575420476182638183" at="73,27,77,11" concept="0" />
       <node id="1575420476182638183" at="79,24,83,11" concept="0" />
       <node id="1575420476182638183" at="52,0,57,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -442,7 +442,7 @@
       <scope id="1575420476182639324" at="162,15,163,40" />
       <scope id="1575420476182639324" at="174,47,175,36" />
       <scope id="1575420476182639324" at="182,30,183,36" />
-      <scope id="1575420476182638183" at="47,111,49,18" />
+      <scope id="1575420476182638183" at="47,109,49,18" />
       <scope id="1575420476182638183" at="74,11,76,47">
         <var name="headerGrids" id="1575420476182638183" />
       </scope>
@@ -520,28 +520,28 @@
         <var name="editorContext" id="1575420476182639324" />
         <var name="node" id="1575420476182639324" />
       </scope>
-      <unit id="1575420476182639324" at="125,53,125,138" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder_a$2" />
-      <unit id="1575420476182638183" at="195,0,198,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder_a$LINKS" />
-      <unit id="1575420476182639324" at="173,55,177,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder_a$4" />
-      <unit id="1575420476182639324" at="181,47,185,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder_a$5" />
-      <unit id="1575420476182638183" at="94,43,100,11" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder_a$1" />
-      <unit id="1575420476182639324" at="149,38,155,9" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder_a$3" />
-      <unit id="1575420476182638183" at="43,0,199,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder_a" />
+      <unit id="1575420476182639324" at="125,53,125,138" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder$2" />
+      <unit id="1575420476182638183" at="195,0,198,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder$LINKS" />
+      <unit id="1575420476182639324" at="173,55,177,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder$4" />
+      <unit id="1575420476182639324" at="181,47,185,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder$5" />
+      <unit id="1575420476182638183" at="94,43,100,11" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder$1" />
+      <unit id="1575420476182639324" at="149,38,155,9" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder$3" />
+      <unit id="1575420476182638183" at="43,0,199,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Table_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/1575420476182690639">
     <file name="SimpleTableWithoutHeaders_Row_Editor.java">
-      <node id="1575420476182690639" at="11,79,12,95" concept="9" />
+      <node id="1575420476182690639" at="11,79,12,93" concept="9" />
       <node id="1575420476182690639" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1575420476182690639" at="11,79,12,95" />
+      <scope id="1575420476182690639" at="11,79,12,93" />
       <scope id="1575420476182690639" at="11,0,14,0">
         <var name="editorContext" id="1575420476182690639" />
         <var name="node" id="1575420476182690639" />
       </scope>
       <unit id="1575420476182690639" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_Editor" />
     </file>
-    <file name="SimpleTableWithoutHeaders_Row_EditorBuilder_a.java">
-      <node id="1575420476182690639" at="48,109,49,19" concept="14" />
+    <file name="SimpleTableWithoutHeaders_Row_EditorBuilder.java">
+      <node id="1575420476182690639" at="48,107,49,19" concept="14" />
       <node id="1575420476182690639" at="49,19,50,18" concept="2" />
       <node id="1575420476182690639" at="55,26,56,18" concept="9" />
       <node id="1575420476182690639" at="59,39,60,34" concept="9" />
@@ -661,7 +661,7 @@
       <node id="1575420476182690639" at="227,87,230,7" concept="6" />
       <node id="1575420476182690639" at="230,7,233,7" concept="6" />
       <node id="1575420476182690639" at="249,0,252,0" concept="7" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="1575420476182690639" at="48,0,52,0" concept="1" trace="SimpleTableWithoutHeaders_Row_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1575420476182690639" at="48,0,52,0" concept="1" trace="SimpleTableWithoutHeaders_Row_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1575420476182690639" at="198,0,202,0" concept="7" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1575420476182690639" at="206,0,210,0" concept="1" trace="column2SingleRoleHandler_chndln_a1a0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1575420476182690639" at="53,0,58,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -708,7 +708,7 @@
       <scope id="1575420476182690639" at="231,42,232,48" />
       <scope id="1575420476182690639" at="245,17,246,42" />
       <scope id="1575420476182690639" at="249,40,250,28" />
-      <scope id="1575420476182690639" at="48,109,50,18" />
+      <scope id="1575420476182690639" at="48,107,50,18" />
       <scope id="1575420476182691055" at="166,74,168,145">
         <var name="manager" id="1575420476182691055" />
       </scope>
@@ -845,30 +845,30 @@
         <var name="editorContext" id="1575420476182690639" />
         <var name="node" id="1575420476182690639" />
       </scope>
-      <unit id="1575420476182690639" at="254,0,257,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder_a$PROPS" />
-      <unit id="1575420476182690639" at="258,0,261,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder_a$CONCEPTS" />
-      <unit id="1575420476182690639" at="262,0,265,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder_a$LINKS" />
-      <unit id="1575420476182690639" at="69,30,75,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder_a$1" />
-      <unit id="1575420476182690639" at="121,28,127,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder_a$2" />
-      <unit id="1575420476182690639" at="134,28,140,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder_a$3" />
-      <unit id="1575420476182690639" at="178,28,184,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder_a$4" />
-      <unit id="1575420476182690639" at="202,0,253,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder_a$column2SingleRoleHandler_chndln_a1a0" />
-      <unit id="1575420476182690639" at="44,0,266,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder_a" />
+      <unit id="1575420476182690639" at="254,0,257,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder$PROPS" />
+      <unit id="1575420476182690639" at="258,0,261,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder$CONCEPTS" />
+      <unit id="1575420476182690639" at="262,0,265,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder$LINKS" />
+      <unit id="1575420476182690639" at="69,30,75,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder$1" />
+      <unit id="1575420476182690639" at="121,28,127,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder$2" />
+      <unit id="1575420476182690639" at="134,28,140,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder$3" />
+      <unit id="1575420476182690639" at="178,28,184,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder$4" />
+      <unit id="1575420476182690639" at="202,0,253,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder$column2SingleRoleHandler_chndln_a1a0" />
+      <unit id="1575420476182690639" at="44,0,266,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithoutHeaders_Row_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/4098331544877792958">
     <file name="PartialTableWithRowHeaderQuery_Cell_Editor.java">
-      <node id="4098331544877792958" at="11,79,12,101" concept="9" />
+      <node id="4098331544877792958" at="11,79,12,99" concept="9" />
       <node id="4098331544877792958" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4098331544877792958" at="11,79,12,101" />
+      <scope id="4098331544877792958" at="11,79,12,99" />
       <scope id="4098331544877792958" at="11,0,14,0">
         <var name="editorContext" id="4098331544877792958" />
         <var name="node" id="4098331544877792958" />
       </scope>
       <unit id="4098331544877792958" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Cell_Editor" />
     </file>
-    <file name="PartialTableWithRowHeaderQuery_Cell_EditorBuilder_a.java">
-      <node id="4098331544877792958" at="29,115,30,19" concept="14" />
+    <file name="PartialTableWithRowHeaderQuery_Cell_EditorBuilder.java">
+      <node id="4098331544877792958" at="29,113,30,19" concept="14" />
       <node id="4098331544877792958" at="30,19,31,18" concept="2" />
       <node id="4098331544877792958" at="36,26,37,18" concept="9" />
       <node id="4098331544877792958" at="40,39,41,30" concept="9" />
@@ -892,7 +892,7 @@
       <node id="4098331544877792958" at="73,0,74,0" concept="12" trace="PropertyAttribute$Gb" />
       <node id="4098331544877792958" at="26,0,28,0" concept="3" trace="myNode" />
       <node id="4098331544877792958" at="40,0,43,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="4098331544877792958" at="29,0,33,0" concept="1" trace="PartialTableWithRowHeaderQuery_Cell_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4098331544877792958" at="29,0,33,0" concept="1" trace="PartialTableWithRowHeaderQuery_Cell_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4098331544877792958" at="34,0,39,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="4098331544877792960" at="57,208,62,24" concept="6" />
       <node id="4098331544877792960" at="45,39,65,5" concept="16" />
@@ -900,7 +900,7 @@
       <scope id="4098331544877792958" at="36,26,37,18" />
       <scope id="4098331544877792958" at="40,39,41,30" />
       <scope id="4098331544877792960" at="63,15,64,40" />
-      <scope id="4098331544877792958" at="29,115,31,18" />
+      <scope id="4098331544877792958" at="29,113,31,18" />
       <scope id="4098331544877792960" at="58,74,60,145">
         <var name="manager" id="4098331544877792960" />
       </scope>
@@ -918,24 +918,24 @@
       </scope>
       <scope id="4098331544877792960" at="44,41,65,5" />
       <scope id="4098331544877792960" at="44,0,67,0" />
-      <unit id="4098331544877792958" at="68,0,71,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Cell_EditorBuilder_a$PROPS" />
-      <unit id="4098331544877792958" at="72,0,75,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Cell_EditorBuilder_a$CONCEPTS" />
-      <unit id="4098331544877792958" at="25,0,76,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Cell_EditorBuilder_a" />
+      <unit id="4098331544877792958" at="68,0,71,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Cell_EditorBuilder$PROPS" />
+      <unit id="4098331544877792958" at="72,0,75,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Cell_EditorBuilder$CONCEPTS" />
+      <unit id="4098331544877792958" at="25,0,76,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Cell_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/4098331544877793029">
     <file name="PartialTableWithRowHeaderQuery_Table_Editor.java">
-      <node id="4098331544877793029" at="11,79,12,102" concept="9" />
+      <node id="4098331544877793029" at="11,79,12,100" concept="9" />
       <node id="4098331544877793029" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4098331544877793029" at="11,79,12,102" />
+      <scope id="4098331544877793029" at="11,79,12,100" />
       <scope id="4098331544877793029" at="11,0,14,0">
         <var name="editorContext" id="4098331544877793029" />
         <var name="node" id="4098331544877793029" />
       </scope>
       <unit id="4098331544877793029" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_Editor" />
     </file>
-    <file name="PartialTableWithRowHeaderQuery_Table_EditorBuilder_a.java">
-      <node id="4098331544877793029" at="47,116,48,19" concept="14" />
+    <file name="PartialTableWithRowHeaderQuery_Table_EditorBuilder.java">
+      <node id="4098331544877793029" at="47,114,48,19" concept="14" />
       <node id="4098331544877793029" at="48,19,49,18" concept="2" />
       <node id="4098331544877793029" at="54,26,55,18" concept="9" />
       <node id="4098331544877793029" at="58,39,59,27" concept="9" />
@@ -1037,7 +1037,7 @@
       <node id="4098331544877793029" at="117,0,120,0" concept="7" trace="createTable_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4098331544877793033" at="174,0,177,0" concept="7" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="4098331544877793033" at="182,0,185,0" concept="7" trace="create#()V" />
-      <node id="4098331544877793029" at="47,0,51,0" concept="1" trace="PartialTableWithRowHeaderQuery_Table_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4098331544877793029" at="47,0,51,0" concept="1" trace="PartialTableWithRowHeaderQuery_Table_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4098331544877793029" at="73,27,77,11" concept="0" />
       <node id="4098331544877793029" at="79,24,83,11" concept="0" />
       <node id="4098331544877793029" at="52,0,57,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -1061,7 +1061,7 @@
       <scope id="4098331544877793033" at="162,15,163,40" />
       <scope id="4098331544877793033" at="174,47,175,36" />
       <scope id="4098331544877793033" at="182,30,183,36" />
-      <scope id="4098331544877793029" at="47,116,49,18" />
+      <scope id="4098331544877793029" at="47,114,49,18" />
       <scope id="4098331544877793029" at="74,11,76,47">
         <var name="headerGrids" id="4098331544877793029" />
       </scope>
@@ -1139,28 +1139,28 @@
         <var name="editorContext" id="4098331544877793033" />
         <var name="node" id="4098331544877793033" />
       </scope>
-      <unit id="4098331544877793033" at="125,53,125,138" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder_a$2" />
-      <unit id="4098331544877793029" at="195,0,198,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder_a$LINKS" />
-      <unit id="4098331544877793033" at="173,55,177,7" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder_a$4" />
-      <unit id="4098331544877793033" at="181,47,185,7" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder_a$5" />
-      <unit id="4098331544877793029" at="94,43,100,11" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder_a$1" />
-      <unit id="4098331544877793033" at="149,38,155,9" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder_a$3" />
-      <unit id="4098331544877793029" at="43,0,199,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder_a" />
+      <unit id="4098331544877793033" at="125,53,125,138" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder$2" />
+      <unit id="4098331544877793029" at="195,0,198,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder$LINKS" />
+      <unit id="4098331544877793033" at="173,55,177,7" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder$4" />
+      <unit id="4098331544877793033" at="181,47,185,7" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder$5" />
+      <unit id="4098331544877793029" at="94,43,100,11" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder$1" />
+      <unit id="4098331544877793033" at="149,38,155,9" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder$3" />
+      <unit id="4098331544877793029" at="43,0,199,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Table_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/4098331544877796939">
     <file name="PartialTableWithRowHeaderQuery_Row_Editor.java">
-      <node id="4098331544877796939" at="11,79,12,100" concept="9" />
+      <node id="4098331544877796939" at="11,79,12,98" concept="9" />
       <node id="4098331544877796939" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4098331544877796939" at="11,79,12,100" />
+      <scope id="4098331544877796939" at="11,79,12,98" />
       <scope id="4098331544877796939" at="11,0,14,0">
         <var name="editorContext" id="4098331544877796939" />
         <var name="node" id="4098331544877796939" />
       </scope>
       <unit id="4098331544877796939" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_Editor" />
     </file>
-    <file name="PartialTableWithRowHeaderQuery_Row_EditorBuilder_a.java">
-      <node id="4098331544877796939" at="49,114,50,19" concept="14" />
+    <file name="PartialTableWithRowHeaderQuery_Row_EditorBuilder.java">
+      <node id="4098331544877796939" at="49,112,50,19" concept="14" />
       <node id="4098331544877796939" at="50,19,51,18" concept="2" />
       <node id="4098331544877796939" at="56,26,57,18" concept="9" />
       <node id="4098331544877796939" at="60,39,61,34" concept="9" />
@@ -1269,7 +1269,7 @@
       <node id="4098331544877796943" at="200,20,203,7" concept="6" />
       <node id="4098331544877796943" at="203,7,206,7" concept="6" />
       <node id="4098331544877796943" at="210,7,213,7" concept="6" />
-      <node id="4098331544877796939" at="49,0,53,0" concept="1" trace="PartialTableWithRowHeaderQuery_Row_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4098331544877796939" at="49,0,53,0" concept="1" trace="PartialTableWithRowHeaderQuery_Row_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4098331544877796943" at="206,7,210,7" concept="6" />
       <node id="4098331544877796939" at="54,0,59,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="4098331544877796939" at="71,0,76,0" concept="7" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
@@ -1304,7 +1304,7 @@
       <scope id="4098331544877796943" at="201,67,202,37" />
       <scope id="4098331544877796943" at="204,67,205,37" />
       <scope id="4098331544877796943" at="211,33,212,84" />
-      <scope id="4098331544877796939" at="49,114,51,18" />
+      <scope id="4098331544877796939" at="49,112,51,18" />
       <scope id="4098331544877796943" at="207,33,209,88" />
       <scope id="4098331544877796939" at="60,0,63,0" />
       <scope id="4098331544877796939" at="71,77,74,23">
@@ -1404,31 +1404,31 @@
         <var name="editorContext" id="4098331544877796939" />
         <var name="node" id="4098331544877796939" />
       </scope>
-      <unit id="4098331544877796939" at="108,53,108,139" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder_a$2" />
-      <unit id="4098331544877796939" at="218,0,221,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder_a$LINKS" />
-      <unit id="4098331544877796939" at="154,55,158,7" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder_a$4" />
-      <unit id="4098331544877796939" at="162,47,166,7" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder_a$5" />
-      <unit id="4098331544877796943" at="176,29,180,5" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder_a$6" />
-      <unit id="4098331544877796943" at="182,53,186,5" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder_a$7" />
-      <unit id="4098331544877796939" at="70,30,76,7" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder_a$1" />
-      <unit id="4098331544877796939" at="130,38,136,9" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder_a$3" />
-      <unit id="4098331544877796943" at="188,154,194,5" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder_a$8" />
-      <unit id="4098331544877796939" at="45,0,222,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder_a" />
+      <unit id="4098331544877796939" at="108,53,108,139" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder$2" />
+      <unit id="4098331544877796939" at="218,0,221,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder$LINKS" />
+      <unit id="4098331544877796939" at="154,55,158,7" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder$4" />
+      <unit id="4098331544877796939" at="162,47,166,7" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder$5" />
+      <unit id="4098331544877796943" at="176,29,180,5" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder$6" />
+      <unit id="4098331544877796943" at="182,53,186,5" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder$7" />
+      <unit id="4098331544877796939" at="70,30,76,7" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder$1" />
+      <unit id="4098331544877796939" at="130,38,136,9" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder$3" />
+      <unit id="4098331544877796943" at="188,154,194,5" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder$8" />
+      <unit id="4098331544877796939" at="45,0,222,0" name="test.de.slisson.mps.tables.lang.editor.PartialTableWithRowHeaderQuery_Row_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/6525704942390230505">
     <file name="TableWithColumnHeaderQuery_Table_Editor.java">
-      <node id="6525704942390230505" at="11,79,12,98" concept="9" />
+      <node id="6525704942390230505" at="11,79,12,96" concept="9" />
       <node id="6525704942390230505" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6525704942390230505" at="11,79,12,98" />
+      <scope id="6525704942390230505" at="11,79,12,96" />
       <scope id="6525704942390230505" at="11,0,14,0">
         <var name="editorContext" id="6525704942390230505" />
         <var name="node" id="6525704942390230505" />
       </scope>
       <unit id="6525704942390230505" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_Editor" />
     </file>
-    <file name="TableWithColumnHeaderQuery_Table_EditorBuilder_a.java">
-      <node id="6525704942390230505" at="55,112,56,19" concept="14" />
+    <file name="TableWithColumnHeaderQuery_Table_EditorBuilder.java">
+      <node id="6525704942390230505" at="55,110,56,19" concept="14" />
       <node id="6525704942390230505" at="56,19,57,18" concept="2" />
       <node id="6525704942390230505" at="62,26,63,18" concept="9" />
       <node id="6525704942390230505" at="66,39,67,27" concept="9" />
@@ -1555,7 +1555,7 @@
       <node id="6525704942390230510" at="228,20,231,7" concept="6" />
       <node id="6525704942390230510" at="231,7,234,7" concept="6" />
       <node id="6525704942390230510" at="238,7,241,7" concept="6" />
-      <node id="6525704942390230505" at="55,0,59,0" concept="1" trace="TableWithColumnHeaderQuery_Table_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6525704942390230505" at="55,0,59,0" concept="1" trace="TableWithColumnHeaderQuery_Table_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6525704942390230505" at="81,27,85,11" concept="0" />
       <node id="6525704942390230505" at="87,24,91,11" concept="0" />
       <node id="6525704942390230510" at="234,7,238,7" concept="6" />
@@ -1592,7 +1592,7 @@
       <scope id="6525704942390230510" at="229,67,230,37" />
       <scope id="6525704942390230510" at="232,67,233,37" />
       <scope id="6525704942390230510" at="239,33,240,84" />
-      <scope id="6525704942390230505" at="55,112,57,18" />
+      <scope id="6525704942390230505" at="55,110,57,18" />
       <scope id="6525704942390230505" at="82,11,84,47">
         <var name="headerGrids" id="6525704942390230505" />
       </scope>
@@ -1698,32 +1698,32 @@
         <var name="editorContext" id="6525704942390230505" />
         <var name="node" id="6525704942390230505" />
       </scope>
-      <unit id="6525704942390230505" at="134,53,134,138" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder_a$2" />
-      <unit id="6525704942390230505" at="251,0,254,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder_a$PROPS" />
-      <unit id="6525704942390230505" at="182,55,186,7" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder_a$4" />
-      <unit id="6525704942390230505" at="190,47,194,7" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder_a$5" />
-      <unit id="6525704942390230510" at="204,29,208,5" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder_a$6" />
-      <unit id="6525704942390230510" at="210,53,214,5" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder_a$7" />
-      <unit id="6525704942390230505" at="246,0,250,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder_a$LINKS" />
-      <unit id="6525704942390230505" at="102,43,108,11" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder_a$1" />
-      <unit id="6525704942390230505" at="158,38,164,9" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder_a$3" />
-      <unit id="6525704942390230510" at="216,153,222,5" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder_a$8" />
-      <unit id="6525704942390230505" at="51,0,255,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder_a" />
+      <unit id="6525704942390230505" at="134,53,134,138" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder$2" />
+      <unit id="6525704942390230505" at="251,0,254,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder$PROPS" />
+      <unit id="6525704942390230505" at="182,55,186,7" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder$4" />
+      <unit id="6525704942390230505" at="190,47,194,7" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder$5" />
+      <unit id="6525704942390230510" at="204,29,208,5" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder$6" />
+      <unit id="6525704942390230510" at="210,53,214,5" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder$7" />
+      <unit id="6525704942390230505" at="246,0,250,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder$LINKS" />
+      <unit id="6525704942390230505" at="102,43,108,11" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder$1" />
+      <unit id="6525704942390230505" at="158,38,164,9" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder$3" />
+      <unit id="6525704942390230510" at="216,153,222,5" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder$8" />
+      <unit id="6525704942390230505" at="51,0,255,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Table_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/6525704942390234405">
     <file name="TableWithColumnHeaderQuery_Row_Editor.java">
-      <node id="6525704942390234405" at="11,79,12,96" concept="9" />
+      <node id="6525704942390234405" at="11,79,12,94" concept="9" />
       <node id="6525704942390234405" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6525704942390234405" at="11,79,12,96" />
+      <scope id="6525704942390234405" at="11,79,12,94" />
       <scope id="6525704942390234405" at="11,0,14,0">
         <var name="editorContext" id="6525704942390234405" />
         <var name="node" id="6525704942390234405" />
       </scope>
       <unit id="6525704942390234405" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_Editor" />
     </file>
-    <file name="TableWithColumnHeaderQuery_Row_EditorBuilder_a.java">
-      <node id="6525704942390234405" at="42,110,43,19" concept="14" />
+    <file name="TableWithColumnHeaderQuery_Row_EditorBuilder.java">
+      <node id="6525704942390234405" at="42,108,43,19" concept="14" />
       <node id="6525704942390234405" at="43,19,44,18" concept="2" />
       <node id="6525704942390234405" at="49,26,50,18" concept="9" />
       <node id="6525704942390234405" at="53,39,54,34" concept="9" />
@@ -1809,7 +1809,7 @@
       <node id="6525704942390234405" at="92,0,95,0" concept="7" trace="createPartialTable_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6525704942390234408" at="147,0,150,0" concept="7" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6525704942390234408" at="155,0,158,0" concept="7" trace="create#()V" />
-      <node id="6525704942390234405" at="42,0,46,0" concept="1" trace="TableWithColumnHeaderQuery_Row_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6525704942390234405" at="42,0,46,0" concept="1" trace="TableWithColumnHeaderQuery_Row_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6525704942390234405" at="47,0,52,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6525704942390234405" at="64,0,69,0" concept="7" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
       <node id="6525704942390234408" at="123,0,128,0" concept="7" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
@@ -1831,7 +1831,7 @@
       <scope id="6525704942390234408" at="135,15,136,40" />
       <scope id="6525704942390234408" at="147,47,148,36" />
       <scope id="6525704942390234408" at="155,30,156,36" />
-      <scope id="6525704942390234405" at="42,110,44,18" />
+      <scope id="6525704942390234405" at="42,108,44,18" />
       <scope id="6525704942390234405" at="53,0,56,0" />
       <scope id="6525704942390234405" at="64,77,67,23">
         <var name="editorCell" id="6525704942390234405" />
@@ -1903,28 +1903,28 @@
         <var name="editorContext" id="6525704942390234408" />
         <var name="node" id="6525704942390234408" />
       </scope>
-      <unit id="6525704942390234408" at="100,53,100,139" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder_a$2" />
-      <unit id="6525704942390234405" at="168,0,171,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder_a$LINKS" />
-      <unit id="6525704942390234408" at="146,55,150,7" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder_a$4" />
-      <unit id="6525704942390234408" at="154,47,158,7" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder_a$5" />
-      <unit id="6525704942390234405" at="63,30,69,7" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder_a$1" />
-      <unit id="6525704942390234408" at="122,38,128,9" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder_a$3" />
-      <unit id="6525704942390234405" at="38,0,172,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder_a" />
+      <unit id="6525704942390234408" at="100,53,100,139" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder$2" />
+      <unit id="6525704942390234405" at="168,0,171,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder$LINKS" />
+      <unit id="6525704942390234408" at="146,55,150,7" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder$4" />
+      <unit id="6525704942390234408" at="154,47,158,7" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder$5" />
+      <unit id="6525704942390234405" at="63,30,69,7" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder$1" />
+      <unit id="6525704942390234408" at="122,38,128,9" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder$3" />
+      <unit id="6525704942390234405" at="38,0,172,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Row_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/6525704942390234522">
     <file name="TableWithColumnHeaderQuery_Cell_Editor.java">
-      <node id="6525704942390234522" at="11,79,12,97" concept="9" />
+      <node id="6525704942390234522" at="11,79,12,95" concept="9" />
       <node id="6525704942390234522" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6525704942390234522" at="11,79,12,97" />
+      <scope id="6525704942390234522" at="11,79,12,95" />
       <scope id="6525704942390234522" at="11,0,14,0">
         <var name="editorContext" id="6525704942390234522" />
         <var name="node" id="6525704942390234522" />
       </scope>
       <unit id="6525704942390234522" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Cell_Editor" />
     </file>
-    <file name="TableWithColumnHeaderQuery_Cell_EditorBuilder_a.java">
-      <node id="6525704942390234522" at="29,111,30,19" concept="14" />
+    <file name="TableWithColumnHeaderQuery_Cell_EditorBuilder.java">
+      <node id="6525704942390234522" at="29,109,30,19" concept="14" />
       <node id="6525704942390234522" at="30,19,31,18" concept="2" />
       <node id="6525704942390234522" at="36,26,37,18" concept="9" />
       <node id="6525704942390234522" at="40,39,41,30" concept="9" />
@@ -1948,7 +1948,7 @@
       <node id="6525704942390234522" at="73,0,74,0" concept="12" trace="PropertyAttribute$Gb" />
       <node id="6525704942390234522" at="26,0,28,0" concept="3" trace="myNode" />
       <node id="6525704942390234522" at="40,0,43,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6525704942390234522" at="29,0,33,0" concept="1" trace="TableWithColumnHeaderQuery_Cell_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6525704942390234522" at="29,0,33,0" concept="1" trace="TableWithColumnHeaderQuery_Cell_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6525704942390234522" at="34,0,39,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6525704942390234524" at="57,208,62,24" concept="6" />
       <node id="6525704942390234524" at="45,39,65,5" concept="16" />
@@ -1956,7 +1956,7 @@
       <scope id="6525704942390234522" at="36,26,37,18" />
       <scope id="6525704942390234522" at="40,39,41,30" />
       <scope id="6525704942390234524" at="63,15,64,40" />
-      <scope id="6525704942390234522" at="29,111,31,18" />
+      <scope id="6525704942390234522" at="29,109,31,18" />
       <scope id="6525704942390234524" at="58,74,60,145">
         <var name="manager" id="6525704942390234524" />
       </scope>
@@ -1974,24 +1974,24 @@
       </scope>
       <scope id="6525704942390234524" at="44,41,65,5" />
       <scope id="6525704942390234524" at="44,0,67,0" />
-      <unit id="6525704942390234522" at="68,0,71,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Cell_EditorBuilder_a$PROPS" />
-      <unit id="6525704942390234522" at="72,0,75,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Cell_EditorBuilder_a$CONCEPTS" />
-      <unit id="6525704942390234522" at="25,0,76,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Cell_EditorBuilder_a" />
+      <unit id="6525704942390234522" at="68,0,71,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Cell_EditorBuilder$PROPS" />
+      <unit id="6525704942390234522" at="72,0,75,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Cell_EditorBuilder$CONCEPTS" />
+      <unit id="6525704942390234522" at="25,0,76,0" name="test.de.slisson.mps.tables.lang.editor.TableWithColumnHeaderQuery_Cell_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/8538146646686777267">
     <file name="SimpleTableWithHeadersDefinedByTable_Table_Editor.java">
-      <node id="8538146646686777267" at="11,79,12,108" concept="9" />
+      <node id="8538146646686777267" at="11,79,12,106" concept="9" />
       <node id="8538146646686777267" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8538146646686777267" at="11,79,12,108" />
+      <scope id="8538146646686777267" at="11,79,12,106" />
       <scope id="8538146646686777267" at="11,0,14,0">
         <var name="editorContext" id="8538146646686777267" />
         <var name="node" id="8538146646686777267" />
       </scope>
       <unit id="8538146646686777267" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_Editor" />
     </file>
-    <file name="SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder_a.java">
-      <node id="8538146646686777267" at="53,122,54,19" concept="14" />
+    <file name="SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder.java">
+      <node id="8538146646686777267" at="53,120,54,19" concept="14" />
       <node id="8538146646686777267" at="54,19,55,18" concept="2" />
       <node id="8538146646686777267" at="60,26,61,18" concept="9" />
       <node id="8538146646686777267" at="64,39,65,27" concept="9" />
@@ -2122,7 +2122,7 @@
       <node id="8538146646686777267" at="123,0,126,0" concept="7" trace="createTable_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8538146646686777267" at="181,0,184,0" concept="7" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="8538146646686777267" at="189,0,192,0" concept="7" trace="create#()V" />
-      <node id="8538146646686777267" at="53,0,57,0" concept="1" trace="SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8538146646686777267" at="53,0,57,0" concept="1" trace="SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8538146646686777267" at="79,27,83,11" concept="0" />
       <node id="8538146646686777267" at="85,24,89,11" concept="0" />
       <node id="8538146646686777267" at="58,0,63,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2153,7 +2153,7 @@
       <scope id="8538146646686777267" at="169,15,170,40" />
       <scope id="8538146646686777267" at="181,47,182,36" />
       <scope id="8538146646686777267" at="189,30,190,36" />
-      <scope id="8538146646686777267" at="53,122,55,18" />
+      <scope id="8538146646686777267" at="53,120,55,18" />
       <scope id="8538146646686777267" at="80,11,82,47">
         <var name="headerGrids" id="8538146646686777267" />
       </scope>
@@ -2276,30 +2276,30 @@
         <var name="editorContext" id="8538146646686777267" />
         <var name="node" id="8538146646686777267" />
       </scope>
-      <unit id="8538146646686777267" at="132,53,132,138" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder_a$2" />
-      <unit id="8538146646686777267" at="244,0,247,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder_a$LINKS" />
-      <unit id="8538146646686777267" at="180,55,184,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder_a$4" />
-      <unit id="8538146646686777267" at="188,47,192,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder_a$5" />
-      <unit id="8538146646686777267" at="100,43,106,11" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder_a$1" />
-      <unit id="8538146646686777267" at="156,38,162,9" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder_a$3" />
-      <unit id="8538146646686876625" at="212,28,218,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder_a$6" />
-      <unit id="8538146646686876628" at="228,28,234,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder_a$7" />
-      <unit id="8538146646686777267" at="49,0,248,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder_a" />
+      <unit id="8538146646686777267" at="132,53,132,138" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder$2" />
+      <unit id="8538146646686777267" at="244,0,247,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder$LINKS" />
+      <unit id="8538146646686777267" at="180,55,184,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder$4" />
+      <unit id="8538146646686777267" at="188,47,192,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder$5" />
+      <unit id="8538146646686777267" at="100,43,106,11" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder$1" />
+      <unit id="8538146646686777267" at="156,38,162,9" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder$3" />
+      <unit id="8538146646686876625" at="212,28,218,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder$6" />
+      <unit id="8538146646686876628" at="228,28,234,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder$7" />
+      <unit id="8538146646686777267" at="49,0,248,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Table_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/8538146646686777285">
     <file name="SimpleTableWithHeadersDefinedByTable_Row_Editor.java">
-      <node id="8538146646686777285" at="11,79,12,106" concept="9" />
+      <node id="8538146646686777285" at="11,79,12,104" concept="9" />
       <node id="8538146646686777285" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8538146646686777285" at="11,79,12,106" />
+      <scope id="8538146646686777285" at="11,79,12,104" />
       <scope id="8538146646686777285" at="11,0,14,0">
         <var name="editorContext" id="8538146646686777285" />
         <var name="node" id="8538146646686777285" />
       </scope>
       <unit id="8538146646686777285" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_Editor" />
     </file>
-    <file name="SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder_a.java">
-      <node id="8538146646686777285" at="40,120,41,19" concept="14" />
+    <file name="SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder.java">
+      <node id="8538146646686777285" at="40,118,41,19" concept="14" />
       <node id="8538146646686777285" at="41,19,42,18" concept="2" />
       <node id="8538146646686777285" at="47,26,48,18" concept="9" />
       <node id="8538146646686777285" at="51,39,52,34" concept="9" />
@@ -2408,7 +2408,7 @@
       <node id="8538146646686777294" at="99,5,102,5" concept="6" />
       <node id="8538146646686777285" at="103,46,106,5" concept="5" />
       <node id="8538146646686777285" at="107,47,110,7" concept="6" />
-      <node id="8538146646686777285" at="40,0,44,0" concept="1" trace="SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8538146646686777285" at="40,0,44,0" concept="1" trace="SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8538146646686777285" at="45,0,50,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8538146646686777285" at="62,0,67,0" concept="7" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
       <node id="8538146646686777285" at="114,0,119,0" concept="7" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
@@ -2447,7 +2447,7 @@
       <scope id="8538146646686777292" at="163,15,164,40" />
       <scope id="8538146646686777285" at="179,45,180,59" />
       <scope id="8538146646686777295" at="207,15,208,40" />
-      <scope id="8538146646686777285" at="40,120,42,18" />
+      <scope id="8538146646686777285" at="40,118,42,18" />
       <scope id="8538146646686777292" at="158,74,160,145">
         <var name="manager" id="8538146646686777292" />
       </scope>
@@ -2566,28 +2566,28 @@
         <var name="editorContext" id="8538146646686777285" />
         <var name="node" id="8538146646686777285" />
       </scope>
-      <unit id="8538146646686777285" at="217,0,220,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder_a$CONCEPTS" />
-      <unit id="8538146646686777285" at="212,0,216,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder_a$PROPS" />
-      <unit id="8538146646686777285" at="61,30,67,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder_a$1" />
-      <unit id="8538146646686777285" at="113,28,119,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder_a$2" />
-      <unit id="8538146646686777285" at="126,28,132,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder_a$3" />
-      <unit id="8538146646686777285" at="170,28,176,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder_a$4" />
-      <unit id="8538146646686777285" at="36,0,221,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder_a" />
+      <unit id="8538146646686777285" at="217,0,220,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder$CONCEPTS" />
+      <unit id="8538146646686777285" at="212,0,216,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder$PROPS" />
+      <unit id="8538146646686777285" at="61,30,67,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder$1" />
+      <unit id="8538146646686777285" at="113,28,119,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder$2" />
+      <unit id="8538146646686777285" at="126,28,132,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder$3" />
+      <unit id="8538146646686777285" at="170,28,176,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder$4" />
+      <unit id="8538146646686777285" at="36,0,221,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByTable_Row_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/8538146646689673945">
     <file name="SimpleTableWithHeadersDefinedByRow_Table_Editor.java">
-      <node id="8538146646689673945" at="11,79,12,106" concept="9" />
+      <node id="8538146646689673945" at="11,79,12,104" concept="9" />
       <node id="8538146646689673945" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8538146646689673945" at="11,79,12,106" />
+      <scope id="8538146646689673945" at="11,79,12,104" />
       <scope id="8538146646689673945" at="11,0,14,0">
         <var name="editorContext" id="8538146646689673945" />
         <var name="node" id="8538146646689673945" />
       </scope>
       <unit id="8538146646689673945" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_Editor" />
     </file>
-    <file name="SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder_a.java">
-      <node id="8538146646689673945" at="47,120,48,19" concept="14" />
+    <file name="SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder.java">
+      <node id="8538146646689673945" at="47,118,48,19" concept="14" />
       <node id="8538146646689673945" at="48,19,49,18" concept="2" />
       <node id="8538146646689673945" at="54,26,55,18" concept="9" />
       <node id="8538146646689673945" at="58,39,59,27" concept="9" />
@@ -2689,7 +2689,7 @@
       <node id="8538146646689673945" at="117,0,120,0" concept="7" trace="createTable_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8538146646689673950" at="174,0,177,0" concept="7" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="8538146646689673950" at="182,0,185,0" concept="7" trace="create#()V" />
-      <node id="8538146646689673945" at="47,0,51,0" concept="1" trace="SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8538146646689673945" at="47,0,51,0" concept="1" trace="SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8538146646689673945" at="73,27,77,11" concept="0" />
       <node id="8538146646689673945" at="79,24,83,11" concept="0" />
       <node id="8538146646689673945" at="52,0,57,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -2713,7 +2713,7 @@
       <scope id="8538146646689673950" at="162,15,163,40" />
       <scope id="8538146646689673950" at="174,47,175,36" />
       <scope id="8538146646689673950" at="182,30,183,36" />
-      <scope id="8538146646689673945" at="47,120,49,18" />
+      <scope id="8538146646689673945" at="47,118,49,18" />
       <scope id="8538146646689673945" at="74,11,76,47">
         <var name="headerGrids" id="8538146646689673945" />
       </scope>
@@ -2791,28 +2791,28 @@
         <var name="editorContext" id="8538146646689673950" />
         <var name="node" id="8538146646689673950" />
       </scope>
-      <unit id="8538146646689673950" at="125,53,125,138" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder_a$2" />
-      <unit id="8538146646689673945" at="195,0,198,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder_a$LINKS" />
-      <unit id="8538146646689673950" at="173,55,177,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder_a$4" />
-      <unit id="8538146646689673950" at="181,47,185,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder_a$5" />
-      <unit id="8538146646689673945" at="94,43,100,11" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder_a$1" />
-      <unit id="8538146646689673950" at="149,38,155,9" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder_a$3" />
-      <unit id="8538146646689673945" at="43,0,199,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder_a" />
+      <unit id="8538146646689673950" at="125,53,125,138" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder$2" />
+      <unit id="8538146646689673945" at="195,0,198,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder$LINKS" />
+      <unit id="8538146646689673950" at="173,55,177,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder$4" />
+      <unit id="8538146646689673950" at="181,47,185,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder$5" />
+      <unit id="8538146646689673945" at="94,43,100,11" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder$1" />
+      <unit id="8538146646689673950" at="149,38,155,9" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder$3" />
+      <unit id="8538146646689673945" at="43,0,199,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Table_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/8538146646689673952">
     <file name="SimpleTableWithHeadersDefinedByRow_Row_Editor.java">
-      <node id="8538146646689673952" at="11,79,12,104" concept="9" />
+      <node id="8538146646689673952" at="11,79,12,102" concept="9" />
       <node id="8538146646689673952" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8538146646689673952" at="11,79,12,104" />
+      <scope id="8538146646689673952" at="11,79,12,102" />
       <scope id="8538146646689673952" at="11,0,14,0">
         <var name="editorContext" id="8538146646689673952" />
         <var name="node" id="8538146646689673952" />
       </scope>
       <unit id="8538146646689673952" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_Editor" />
     </file>
-    <file name="SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder_a.java">
-      <node id="8538146646689673952" at="45,118,46,19" concept="14" />
+    <file name="SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder.java">
+      <node id="8538146646689673952" at="45,116,46,19" concept="14" />
       <node id="8538146646689673952" at="46,19,47,18" concept="2" />
       <node id="8538146646689673952" at="52,26,53,18" concept="9" />
       <node id="8538146646689673952" at="56,39,57,34" concept="9" />
@@ -2943,7 +2943,7 @@
       <node id="8538146646689674126" at="104,5,107,5" concept="6" />
       <node id="8538146646689673952" at="108,46,111,5" concept="5" />
       <node id="8538146646689673952" at="112,47,115,7" concept="6" />
-      <node id="8538146646689673952" at="45,0,49,0" concept="1" trace="SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8538146646689673952" at="45,0,49,0" concept="1" trace="SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8538146646689673952" at="50,0,55,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8538146646689673952" at="67,0,72,0" concept="7" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
       <node id="8538146646689673952" at="119,0,124,0" concept="7" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
@@ -2988,7 +2988,7 @@
       <scope id="8538146646689674123" at="169,15,170,40" />
       <scope id="8538146646689673952" at="201,45,202,59" />
       <scope id="8538146646689674130" at="230,15,231,40" />
-      <scope id="8538146646689673952" at="45,118,47,18" />
+      <scope id="8538146646689673952" at="45,116,47,18" />
       <scope id="8538146646689674123" at="164,74,166,145">
         <var name="manager" id="8538146646689674123" />
       </scope>
@@ -3143,30 +3143,30 @@
         <var name="editorContext" id="8538146646689673952" />
         <var name="node" id="8538146646689673952" />
       </scope>
-      <unit id="8538146646689673952" at="256,0,259,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder_a$CONCEPTS" />
-      <unit id="8538146646689673952" at="251,0,255,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder_a$PROPS" />
-      <unit id="8538146646689673952" at="66,30,72,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder_a$1" />
-      <unit id="8538146646689673952" at="118,28,124,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder_a$2" />
-      <unit id="8538146646689673952" at="131,28,137,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder_a$3" />
-      <unit id="8538146646689674133" at="174,28,180,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder_a$4" />
-      <unit id="8538146646689673952" at="192,28,198,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder_a$5" />
-      <unit id="8538146646689674136" at="235,28,241,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder_a$6" />
-      <unit id="8538146646689673952" at="41,0,260,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder_a" />
+      <unit id="8538146646689673952" at="256,0,259,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder$CONCEPTS" />
+      <unit id="8538146646689673952" at="251,0,255,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder$PROPS" />
+      <unit id="8538146646689673952" at="66,30,72,7" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder$1" />
+      <unit id="8538146646689673952" at="118,28,124,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder$2" />
+      <unit id="8538146646689673952" at="131,28,137,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder$3" />
+      <unit id="8538146646689674133" at="174,28,180,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder$4" />
+      <unit id="8538146646689673952" at="192,28,198,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder$5" />
+      <unit id="8538146646689674136" at="235,28,241,5" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder$6" />
+      <unit id="8538146646689673952" at="41,0,260,0" name="test.de.slisson.mps.tables.lang.editor.SimpleTableWithHeadersDefinedByRow_Row_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/8538146646690447950">
     <file name="NonTableAwareAnnotation_Editor.java">
-      <node id="8538146646690447950" at="11,79,12,89" concept="9" />
+      <node id="8538146646690447950" at="11,79,12,87" concept="9" />
       <node id="8538146646690447950" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8538146646690447950" at="11,79,12,89" />
+      <scope id="8538146646690447950" at="11,79,12,87" />
       <scope id="8538146646690447950" at="11,0,14,0">
         <var name="editorContext" id="8538146646690447950" />
         <var name="node" id="8538146646690447950" />
       </scope>
       <unit id="8538146646690447950" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.NonTableAwareAnnotation_Editor" />
     </file>
-    <file name="NonTableAwareAnnotation_EditorBuilder_a.java">
-      <node id="8538146646690447950" at="31,103,32,19" concept="14" />
+    <file name="NonTableAwareAnnotation_EditorBuilder.java">
+      <node id="8538146646690447950" at="31,101,32,19" concept="14" />
       <node id="8538146646690447950" at="32,19,33,18" concept="2" />
       <node id="8538146646690447950" at="38,26,39,18" concept="9" />
       <node id="8538146646690447950" at="42,39,43,32" concept="9" />
@@ -3198,7 +3198,7 @@
       <node id="8538146646690447950" at="87,0,88,0" concept="12" trace="PropertyAttribute$Gb" />
       <node id="8538146646690447950" at="28,0,30,0" concept="3" trace="myNode" />
       <node id="8538146646690447950" at="42,0,45,0" concept="7" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="8538146646690447950" at="31,0,35,0" concept="1" trace="NonTableAwareAnnotation_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8538146646690447950" at="31,0,35,0" concept="1" trace="NonTableAwareAnnotation_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8538146646690447950" at="36,0,41,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8538146646690909986" at="55,0,60,0" concept="7" trace="createAttributedNodeCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="8538146646690909989" at="71,208,76,24" concept="6" />
@@ -3208,7 +3208,7 @@
       <scope id="8538146646690447950" at="38,26,39,18" />
       <scope id="8538146646690447950" at="42,39,43,32" />
       <scope id="8538146646690909989" at="77,15,78,40" />
-      <scope id="8538146646690447950" at="31,103,33,18" />
+      <scope id="8538146646690447950" at="31,101,33,18" />
       <scope id="8538146646690909989" at="72,74,74,145">
         <var name="manager" id="8538146646690909989" />
       </scope>
@@ -3235,24 +3235,24 @@
       </scope>
       <scope id="8538146646690909989" at="60,41,79,5" />
       <scope id="8538146646690909989" at="60,0,81,0" />
-      <unit id="8538146646690447950" at="82,0,85,0" name="test.de.slisson.mps.tables.lang.editor.NonTableAwareAnnotation_EditorBuilder_a$PROPS" />
-      <unit id="8538146646690447950" at="86,0,89,0" name="test.de.slisson.mps.tables.lang.editor.NonTableAwareAnnotation_EditorBuilder_a$CONCEPTS" />
-      <unit id="8538146646690447950" at="27,0,90,0" name="test.de.slisson.mps.tables.lang.editor.NonTableAwareAnnotation_EditorBuilder_a" />
+      <unit id="8538146646690447950" at="82,0,85,0" name="test.de.slisson.mps.tables.lang.editor.NonTableAwareAnnotation_EditorBuilder$PROPS" />
+      <unit id="8538146646690447950" at="86,0,89,0" name="test.de.slisson.mps.tables.lang.editor.NonTableAwareAnnotation_EditorBuilder$CONCEPTS" />
+      <unit id="8538146646690447950" at="27,0,90,0" name="test.de.slisson.mps.tables.lang.editor.NonTableAwareAnnotation_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:9f56d414-4d40-4522-98df-f6cefd9ff2f9(test.de.slisson.mps.tables.lang.editor)/8538146646691138078">
     <file name="TableAwareAnnotation_Editor.java">
-      <node id="8538146646691138078" at="11,79,12,86" concept="9" />
+      <node id="8538146646691138078" at="11,79,12,84" concept="9" />
       <node id="8538146646691138078" at="11,0,14,0" concept="7" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="8538146646691138078" at="11,79,12,86" />
+      <scope id="8538146646691138078" at="11,79,12,84" />
       <scope id="8538146646691138078" at="11,0,14,0">
         <var name="editorContext" id="8538146646691138078" />
         <var name="node" id="8538146646691138078" />
       </scope>
       <unit id="8538146646691138078" at="10,0,15,0" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_Editor" />
     </file>
-    <file name="TableAwareAnnotation_EditorBuilder_a.java">
-      <node id="8538146646691138078" at="45,100,46,19" concept="14" />
+    <file name="TableAwareAnnotation_EditorBuilder.java">
+      <node id="8538146646691138078" at="45,98,46,19" concept="14" />
       <node id="8538146646691138078" at="46,19,47,18" concept="2" />
       <node id="8538146646691138078" at="52,26,53,18" concept="9" />
       <node id="8538146646691138078" at="56,39,57,34" concept="9" />
@@ -3361,7 +3361,7 @@
       <node id="8538146646691138088" at="104,5,107,5" concept="6" />
       <node id="8538146646691138078" at="108,46,111,5" concept="5" />
       <node id="8538146646691138078" at="112,47,115,7" concept="6" />
-      <node id="8538146646691138078" at="45,0,49,0" concept="1" trace="TableAwareAnnotation_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8538146646691138078" at="45,0,49,0" concept="1" trace="TableAwareAnnotation_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="8538146646691138078" at="50,0,55,0" concept="7" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="8538146646691138078" at="67,0,72,0" concept="7" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
       <node id="8538146646691138078" at="119,0,124,0" concept="7" trace="createStyle#(II)Ljetbrains/mps/openapi/editor/style/Style;" />
@@ -3400,7 +3400,7 @@
       <scope id="8538146646691138078" at="141,45,142,59" />
       <scope id="8538146646691138078" at="169,45,170,59" />
       <scope id="8538146646691138094" at="198,15,199,40" />
-      <scope id="8538146646691138078" at="45,100,47,18" />
+      <scope id="8538146646691138078" at="45,98,47,18" />
       <scope id="8538146646691138094" at="193,74,195,145">
         <var name="manager" id="8538146646691138094" />
       </scope>
@@ -3531,14 +3531,14 @@
         <var name="editorContext" id="8538146646691138078" />
         <var name="node" id="8538146646691138078" />
       </scope>
-      <unit id="8538146646691138078" at="219,0,222,0" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder_a$PROPS" />
-      <unit id="8538146646691138078" at="223,0,226,0" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder_a$CONCEPTS" />
-      <unit id="8538146646691138078" at="66,30,72,7" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder_a$1" />
-      <unit id="8538146646691138078" at="118,28,124,5" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder_a$2" />
-      <unit id="8538146646691138078" at="132,28,138,5" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder_a$3" />
-      <unit id="8538146646691138078" at="160,28,166,5" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder_a$4" />
-      <unit id="8538146646691138096" at="203,28,209,5" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder_a$5" />
-      <unit id="8538146646691138078" at="41,0,227,0" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder_a" />
+      <unit id="8538146646691138078" at="219,0,222,0" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder$PROPS" />
+      <unit id="8538146646691138078" at="223,0,226,0" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder$CONCEPTS" />
+      <unit id="8538146646691138078" at="66,30,72,7" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder$1" />
+      <unit id="8538146646691138078" at="118,28,124,5" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder$2" />
+      <unit id="8538146646691138078" at="132,28,138,5" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder$3" />
+      <unit id="8538146646691138078" at="160,28,166,5" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder$4" />
+      <unit id="8538146646691138096" at="203,28,209,5" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder$5" />
+      <unit id="8538146646691138078" at="41,0,227,0" name="test.de.slisson.mps.tables.lang.editor.TableAwareAnnotation_EditorBuilder" />
     </file>
   </root>
 </debug-info>

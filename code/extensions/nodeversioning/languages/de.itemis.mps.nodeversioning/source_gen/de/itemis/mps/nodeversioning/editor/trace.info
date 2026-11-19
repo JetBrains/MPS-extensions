@@ -26,17 +26,17 @@
   </root>
   <root nodeRef="r:04ffa900-7a1b-4354-b2d6-7577b8a93810(de.itemis.mps.nodeversioning.editor)/6525061419584643937">
     <file name="LinkVersion_Editor.java">
-      <node id="6525061419584643937" at="11,79,12,77" concept="7" />
+      <node id="6525061419584643937" at="11,79,12,75" concept="7" />
       <node id="6525061419584643937" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6525061419584643937" at="11,79,12,77" />
+      <scope id="6525061419584643937" at="11,79,12,75" />
       <scope id="6525061419584643937" at="11,0,14,0">
         <var name="editorContext" id="6525061419584643937" />
         <var name="node" id="6525061419584643937" />
       </scope>
       <unit id="6525061419584643937" at="10,0,15,0" name="de.itemis.mps.nodeversioning.editor.LinkVersion_Editor" />
     </file>
-    <file name="LinkVersion_EditorBuilder_a.java">
-      <node id="6525061419584643937" at="49,91,50,19" concept="10" />
+    <file name="LinkVersion_EditorBuilder.java">
+      <node id="6525061419584643937" at="49,89,50,19" concept="10" />
       <node id="6525061419584643937" at="50,19,51,18" concept="2" />
       <node id="6525061419584643937" at="56,26,57,18" concept="7" />
       <node id="6525061419584643937" at="60,39,61,32" concept="7" />
@@ -151,7 +151,7 @@
       <node id="9185418066349202443" at="134,63,137,13" concept="4" />
       <node id="9185418066349216211" at="151,0,154,0" concept="5" trace="_StyleParameter_QueryFunction_fsk2pz_a0a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9185418066349229841" at="207,0,210,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6525061419584643937" at="49,0,53,0" concept="1" trace="LinkVersion_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6525061419584643937" at="49,0,53,0" concept="1" trace="LinkVersion_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6525061419584643937" at="95,0,99,5" concept="4" />
       <node id="6525061419584643937" at="182,0,186,5" concept="4" />
       <node id="6525061419584643937" at="54,0,59,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -187,7 +187,7 @@
       <scope id="9185418066349229841" at="207,41,208,32" />
       <scope id="9185418066349229841" at="213,28,214,20" />
       <scope id="9185418066349229883" at="237,17,238,42" />
-      <scope id="6525061419584643937" at="49,91,51,18" />
+      <scope id="6525061419584643937" at="49,89,51,18" />
       <scope id="6525061419584643937" at="96,40,98,50" />
       <scope id="6525061419584643937" at="103,73,105,145">
         <var name="manager" id="6525061419584643937" />
@@ -289,30 +289,30 @@
       </scope>
       <scope id="6525061419584643937" at="74,0,109,0" />
       <scope id="6525061419584643937" at="161,0,196,0" />
-      <unit id="6525061419584643937" at="243,0,246,0" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder_a$LINKS" />
-      <unit id="6525061419584643937" at="253,0,257,0" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder_a$PROPS" />
-      <unit id="6525061419584643937" at="247,0,252,0" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder_a$CONCEPTS" />
-      <unit id="9185418066349200813" at="131,90,141,7" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder_a$Inline_Builder0$1" />
-      <unit id="6525061419584643937" at="76,42,91,5" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder_a$1" />
-      <unit id="6525061419584643937" at="163,42,178,5" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder_a$2" />
-      <unit id="9185418066349200813" at="109,0,155,0" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder_a$Inline_Builder0" />
-      <unit id="9185418066349229841" at="196,0,242,0" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder_a$Inline_Builder1" />
-      <unit id="6525061419584643937" at="45,0,258,0" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder_a" />
+      <unit id="6525061419584643937" at="243,0,246,0" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder$LINKS" />
+      <unit id="6525061419584643937" at="253,0,257,0" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder$PROPS" />
+      <unit id="6525061419584643937" at="247,0,252,0" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder$CONCEPTS" />
+      <unit id="9185418066349200813" at="131,90,141,7" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder$Inline_Builder0$1" />
+      <unit id="6525061419584643937" at="76,42,91,5" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder$1" />
+      <unit id="6525061419584643937" at="163,42,178,5" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder$2" />
+      <unit id="9185418066349200813" at="109,0,155,0" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder$Inline_Builder0" />
+      <unit id="9185418066349229841" at="196,0,242,0" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder$Inline_Builder1" />
+      <unit id="6525061419584643937" at="45,0,258,0" name="de.itemis.mps.nodeversioning.editor.LinkVersion_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:04ffa900-7a1b-4354-b2d6-7577b8a93810(de.itemis.mps.nodeversioning.editor)/6525061419584643950">
     <file name="NodeVersion_Editor.java">
-      <node id="6525061419584643950" at="11,79,12,77" concept="7" />
+      <node id="6525061419584643950" at="11,79,12,75" concept="7" />
       <node id="6525061419584643950" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="6525061419584643950" at="11,79,12,77" />
+      <scope id="6525061419584643950" at="11,79,12,75" />
       <scope id="6525061419584643950" at="11,0,14,0">
         <var name="editorContext" id="6525061419584643950" />
         <var name="node" id="6525061419584643950" />
       </scope>
       <unit id="6525061419584643950" at="10,0,15,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_Editor" />
     </file>
-    <file name="NodeVersion_EditorBuilder_a.java">
-      <node id="6525061419584643950" at="19,91,20,19" concept="10" />
+    <file name="NodeVersion_EditorBuilder.java">
+      <node id="6525061419584643950" at="19,89,20,19" concept="10" />
       <node id="6525061419584643950" at="20,19,21,18" concept="2" />
       <node id="6525061419584643950" at="26,26,27,18" concept="7" />
       <node id="6525061419584643950" at="30,39,31,32" concept="7" />
@@ -327,13 +327,13 @@
       <node id="6525061419584643952" at="44,93,45,22" concept="7" />
       <node id="6525061419584643950" at="16,0,18,0" concept="3" trace="myNode" />
       <node id="6525061419584643950" at="30,0,33,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6525061419584643950" at="19,0,23,0" concept="1" trace="NodeVersion_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6525061419584643950" at="19,0,23,0" concept="1" trace="NodeVersion_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6525061419584643950" at="24,0,29,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6525061419584643952" at="42,0,47,0" concept="5" trace="createAttributedNodeCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="6525061419584643950" at="34,0,42,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="6525061419584643950" at="26,26,27,18" />
       <scope id="6525061419584643950" at="30,39,31,32" />
-      <scope id="6525061419584643950" at="19,91,21,18" />
+      <scope id="6525061419584643950" at="19,89,21,18" />
       <scope id="6525061419584643950" at="30,0,33,0" />
       <scope id="6525061419584643952" at="42,51,45,22">
         <var name="editorCell" id="6525061419584643952" />
@@ -349,21 +349,21 @@
         <var name="editorCell" id="6525061419584643950" />
       </scope>
       <scope id="6525061419584643950" at="34,0,42,0" />
-      <unit id="6525061419584643950" at="15,0,48,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_EditorBuilder_a" />
+      <unit id="6525061419584643950" at="15,0,48,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:04ffa900-7a1b-4354-b2d6-7577b8a93810(de.itemis.mps.nodeversioning.editor)/9185418066349229967">
     <file name="NodeVersion_showVersions_Editor.java">
       <node id="9185418066349229967" at="14,0,15,0" concept="3" trace="myContextHints" />
       <node id="9185418066349229967" at="17,47,18,26" concept="7" />
-      <node id="9185418066349229967" at="20,79,21,90" concept="7" />
-      <node id="9185418066349229967" at="23,82,24,93" concept="7" />
+      <node id="9185418066349229967" at="20,79,21,88" concept="7" />
+      <node id="9185418066349229967" at="23,82,24,91" concept="7" />
       <node id="9185418066349229967" at="20,0,23,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9185418066349229967" at="23,0,26,0" concept="5" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9185418066349229967" at="15,0,20,0" concept="5" trace="getContextHints#()Ljava/util/Collection;" />
       <scope id="9185418066349229967" at="17,47,18,26" />
-      <scope id="9185418066349229967" at="20,79,21,90" />
-      <scope id="9185418066349229967" at="23,82,24,93" />
+      <scope id="9185418066349229967" at="20,79,21,88" />
+      <scope id="9185418066349229967" at="23,82,24,91" />
       <scope id="9185418066349229967" at="20,0,23,0">
         <var name="editorContext" id="9185418066349229967" />
         <var name="node" id="9185418066349229967" />
@@ -375,8 +375,8 @@
       <scope id="9185418066349229967" at="15,0,20,0" />
       <unit id="9185418066349229967" at="13,0,27,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_Editor" />
     </file>
-    <file name="NodeVersion_showVersions_EditorBuilder_a.java">
-      <node id="9185418066349229967" at="36,104,37,19" concept="10" />
+    <file name="NodeVersion_showVersions_EditorBuilder.java">
+      <node id="9185418066349229967" at="36,102,37,19" concept="10" />
       <node id="9185418066349229967" at="37,19,38,18" concept="2" />
       <node id="9185418066349229967" at="43,26,44,18" concept="7" />
       <node id="9185418066349229967" at="47,39,48,32" concept="7" />
@@ -439,7 +439,7 @@
       <node id="9185418066349229967" at="134,0,135,0" concept="9" trace="PropertyAttribute$Gb" />
       <node id="9185418066349229967" at="33,0,35,0" concept="3" trace="myNode" />
       <node id="9185418066349229967" at="47,0,50,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="9185418066349229967" at="36,0,40,0" concept="1" trace="NodeVersion_showVersions_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9185418066349229967" at="36,0,40,0" concept="1" trace="NodeVersion_showVersions_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9185418066349229967" at="41,0,46,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9185418066349229987" at="82,208,87,24" concept="4" />
       <node id="9185418066349230001" at="112,208,117,24" concept="4" />
@@ -455,7 +455,7 @@
       <scope id="9185418066349229967" at="47,39,48,32" />
       <scope id="9185418066349229987" at="88,15,89,40" />
       <scope id="9185418066349230001" at="118,15,119,40" />
-      <scope id="9185418066349229967" at="36,104,38,18" />
+      <scope id="9185418066349229967" at="36,102,38,18" />
       <scope id="9185418066349229987" at="83,74,85,145">
         <var name="manager" id="9185418066349229987" />
       </scope>
@@ -503,12 +503,12 @@
       <scope id="9185418066349230001" at="98,41,120,5" />
       <scope id="9185418066349229987" at="68,0,92,0" />
       <scope id="9185418066349230001" at="98,0,122,0" />
-      <unit id="9185418066349229967" at="133,0,136,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_EditorBuilder_a$CONCEPTS" />
-      <unit id="9185418066349229967" at="128,0,132,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_EditorBuilder_a$PROPS" />
-      <unit id="9185418066349229967" at="32,0,137,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_EditorBuilder_a" />
+      <unit id="9185418066349229967" at="133,0,136,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_EditorBuilder$CONCEPTS" />
+      <unit id="9185418066349229967" at="128,0,132,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_EditorBuilder$PROPS" />
+      <unit id="9185418066349229967" at="32,0,137,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_EditorBuilder" />
     </file>
-    <file name="NodeVersion_showVersions_InspectorBuilder_a.java">
-      <node id="9185418066349229967" at="30,107,31,19" concept="10" />
+    <file name="NodeVersion_showVersions_InspectorBuilder.java">
+      <node id="9185418066349229967" at="30,105,31,19" concept="10" />
       <node id="9185418066349229967" at="31,19,32,18" concept="2" />
       <node id="9185418066349229967" at="37,26,38,18" concept="7" />
       <node id="9185418066349229967" at="41,39,42,32" concept="7" />
@@ -555,7 +555,7 @@
       <node id="9185418066349229967" at="73,0,76,0" concept="5" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
       <node id="9185418066349229967" at="76,0,79,0" concept="5" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="9185418066349229967" at="120,96,123,9" concept="4" />
-      <node id="9185418066349229967" at="30,0,34,0" concept="1" trace="NodeVersion_showVersions_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="9185418066349229967" at="30,0,34,0" concept="1" trace="NodeVersion_showVersions_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9185418066349229967" at="64,0,68,0" concept="1" trace="dependenciesListHandler_i8lsqt_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="9185418066349229967" at="69,0,73,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="9185418066349229967" at="102,97,106,9" concept="4" />
@@ -579,7 +579,7 @@
       <scope id="9185418066349229967" at="76,48,77,37" />
       <scope id="9185418066349229967" at="94,17,95,42" />
       <scope id="9185418066349229967" at="121,34,122,91" />
-      <scope id="9185418066349229967" at="30,107,32,18" />
+      <scope id="9185418066349229967" at="30,105,32,18" />
       <scope id="9185418066349229967" at="64,86,66,25" />
       <scope id="9185418066349229967" at="103,122,105,146" />
       <scope id="9185418066349229967" at="109,34,111,142" />
@@ -627,10 +627,10 @@
         <var name="elementNode" id="9185418066349229967" />
         <var name="isEmptyCell" id="9185418066349229967" />
       </scope>
-      <unit id="9185418066349229967" at="128,0,131,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_InspectorBuilder_a$LINKS" />
-      <unit id="9185418066349229967" at="132,0,135,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_InspectorBuilder_a$CONCEPTS" />
-      <unit id="9185418066349229967" at="60,0,127,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_InspectorBuilder_a$dependenciesListHandler_i8lsqt_a0" />
-      <unit id="9185418066349229967" at="26,0,136,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_InspectorBuilder_a" />
+      <unit id="9185418066349229967" at="128,0,131,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_InspectorBuilder$LINKS" />
+      <unit id="9185418066349229967" at="132,0,135,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_InspectorBuilder$CONCEPTS" />
+      <unit id="9185418066349229967" at="60,0,127,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_InspectorBuilder$dependenciesListHandler_i8lsqt_a0" />
+      <unit id="9185418066349229967" at="26,0,136,0" name="de.itemis.mps.nodeversioning.editor.NodeVersion_showVersions_InspectorBuilder" />
     </file>
   </root>
 </debug-info>

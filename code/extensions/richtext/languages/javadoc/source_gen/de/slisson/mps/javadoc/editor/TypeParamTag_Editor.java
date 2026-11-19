@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TypeParamTag_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TypeParamTag_EditorBuilder_a(editorContext, node).createCell();
+    return new TypeParamTag_EditorBuilder(editorContext, node).createCell();
   }
 }

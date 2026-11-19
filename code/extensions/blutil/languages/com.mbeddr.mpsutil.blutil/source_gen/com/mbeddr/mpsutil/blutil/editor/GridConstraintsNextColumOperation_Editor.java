@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class GridConstraintsNextColumOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new GridConstraintsNextColumOperation_EditorBuilder_a(editorContext, node).createCell();
+    return new GridConstraintsNextColumOperation_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ErrorPlaceholder_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ErrorPlaceholder_EditorBuilder_a(editorContext, node).createCell();
+    return new ErrorPlaceholder_EditorBuilder(editorContext, node).createCell();
   }
 }

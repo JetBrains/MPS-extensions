@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Rewriter_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Rewriter_EditorBuilder_a(editorContext, node).createCell();
+    return new Rewriter_EditorBuilder(editorContext, node).createCell();
   }
 }

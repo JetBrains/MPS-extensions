@@ -19,17 +19,17 @@
   </root>
   <root nodeRef="r:271a63e9-d52e-40f1-a06a-001fdad41873(de.slisson.mps.javadoc.editor)/257181264606056855">
     <file name="JavadocComment_Editor.java">
-      <node id="257181264606056855" at="11,79,12,80" concept="6" />
+      <node id="257181264606056855" at="11,79,12,78" concept="6" />
       <node id="257181264606056855" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="257181264606056855" at="11,79,12,80" />
+      <scope id="257181264606056855" at="11,79,12,78" />
       <scope id="257181264606056855" at="11,0,14,0">
         <var name="editorContext" id="257181264606056855" />
         <var name="node" id="257181264606056855" />
       </scope>
       <unit id="257181264606056855" at="10,0,15,0" name="de.slisson.mps.javadoc.editor.JavadocComment_Editor" />
     </file>
-    <file name="JavadocComment_EditorBuilder_a.java">
-      <node id="257181264606056855" at="33,94,34,19" concept="10" />
+    <file name="JavadocComment_EditorBuilder.java">
+      <node id="257181264606056855" at="33,92,34,19" concept="10" />
       <node id="257181264606056855" at="34,19,35,18" concept="1" />
       <node id="257181264606056855" at="40,26,41,18" concept="6" />
       <node id="257181264606056855" at="44,39,45,32" concept="6" />
@@ -93,7 +93,7 @@
       <node id="257181264606056855" at="98,87,101,7" concept="3" />
       <node id="257181264606056855" at="101,7,104,7" concept="3" />
       <node id="257181264606056855" at="123,0,126,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
-      <node id="257181264606056855" at="33,0,37,0" concept="0" trace="JavadocComment_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="257181264606056855" at="33,0,37,0" concept="0" trace="JavadocComment_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="257181264606056855" at="69,0,73,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="257181264606056855" at="77,0,81,0" concept="0" trace="textSingleRoleHandler_81hqap_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="257181264606056855" at="38,0,43,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -113,7 +113,7 @@
       <scope id="257181264606056855" at="102,42,103,45" />
       <scope id="257181264606056855" at="119,17,120,42" />
       <scope id="257181264606056855" at="123,40,124,25" />
-      <scope id="257181264606056855" at="33,94,35,18" />
+      <scope id="257181264606056855" at="33,92,35,18" />
       <scope id="257181264606056855" at="69,40,71,33">
         <var name="provider" id="257181264606056855" />
       </scope>
@@ -170,24 +170,24 @@
       <scope id="257181264606056855" at="110,44,121,7" />
       <scope id="257181264606056861" at="127,0,138,0" />
       <scope id="257181264606056855" at="109,0,123,0" />
-      <unit id="257181264606056855" at="144,0,147,0" name="de.slisson.mps.javadoc.editor.JavadocComment_EditorBuilder_a$LINKS" />
-      <unit id="257181264606056855" at="73,0,127,0" name="de.slisson.mps.javadoc.editor.JavadocComment_EditorBuilder_a$textSingleRoleHandler_81hqap_b0" />
-      <unit id="257181264606056855" at="29,0,148,0" name="de.slisson.mps.javadoc.editor.JavadocComment_EditorBuilder_a" />
+      <unit id="257181264606056855" at="144,0,147,0" name="de.slisson.mps.javadoc.editor.JavadocComment_EditorBuilder$LINKS" />
+      <unit id="257181264606056855" at="73,0,127,0" name="de.slisson.mps.javadoc.editor.JavadocComment_EditorBuilder$textSingleRoleHandler_81hqap_b0" />
+      <unit id="257181264606056855" at="29,0,148,0" name="de.slisson.mps.javadoc.editor.JavadocComment_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:271a63e9-d52e-40f1-a06a-001fdad41873(de.slisson.mps.javadoc.editor)/5272591907648689367">
     <file name="TypeParamTag_Editor.java">
-      <node id="5272591907648689367" at="11,79,12,78" concept="6" />
+      <node id="5272591907648689367" at="11,79,12,76" concept="6" />
       <node id="5272591907648689367" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5272591907648689367" at="11,79,12,78" />
+      <scope id="5272591907648689367" at="11,79,12,76" />
       <scope id="5272591907648689367" at="11,0,14,0">
         <var name="editorContext" id="5272591907648689367" />
         <var name="node" id="5272591907648689367" />
       </scope>
       <unit id="5272591907648689367" at="10,0,15,0" name="de.slisson.mps.javadoc.editor.TypeParamTag_Editor" />
     </file>
-    <file name="TypeParamTag_EditorBuilder_a.java">
-      <node id="5272591907648689367" at="40,92,41,19" concept="10" />
+    <file name="TypeParamTag_EditorBuilder.java">
+      <node id="5272591907648689367" at="40,90,41,19" concept="10" />
       <node id="5272591907648689367" at="41,19,42,18" concept="1" />
       <node id="5272591907648689367" at="47,26,48,18" concept="6" />
       <node id="5272591907648689367" at="51,39,52,32" concept="6" />
@@ -288,7 +288,7 @@
       <node id="5272591907648689379" at="112,0,114,0" concept="2" trace="myNode" />
       <node id="5272591907648689367" at="51,0,54,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5272591907648689379" at="122,0,125,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5272591907648689367" at="40,0,44,0" concept="0" trace="TypeParamTag_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5272591907648689367" at="40,0,44,0" concept="0" trace="TypeParamTag_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5272591907648689367" at="97,0,101,5" concept="3" />
       <node id="5272591907648689367" at="45,0,50,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5272591907648689367" at="104,205,109,22" concept="3" />
@@ -314,7 +314,7 @@
       <scope id="5272591907648689379" at="128,28,129,20" />
       <scope id="5272591907648689381" at="149,17,150,42" />
       <scope id="5272591907648689383" at="180,15,181,40" />
-      <scope id="5272591907648689367" at="40,92,42,18" />
+      <scope id="5272591907648689367" at="40,90,42,18" />
       <scope id="5272591907648689367" at="98,40,100,46" />
       <scope id="5272591907648689367" at="105,73,107,145">
         <var name="manager" id="5272591907648689367" />
@@ -392,27 +392,27 @@
         <var name="referenceLink" id="5272591907648689367" />
       </scope>
       <scope id="5272591907648689367" at="83,0,111,0" />
-      <unit id="5272591907648689367" at="194,0,197,0" name="de.slisson.mps.javadoc.editor.TypeParamTag_EditorBuilder_a$LINKS" />
-      <unit id="5272591907648689367" at="198,0,202,0" name="de.slisson.mps.javadoc.editor.TypeParamTag_EditorBuilder_a$CONCEPTS" />
-      <unit id="5272591907648689367" at="203,0,207,0" name="de.slisson.mps.javadoc.editor.TypeParamTag_EditorBuilder_a$PROPS" />
-      <unit id="5272591907648689367" at="85,42,93,5" name="de.slisson.mps.javadoc.editor.TypeParamTag_EditorBuilder_a$1" />
-      <unit id="5272591907648689379" at="111,0,154,0" name="de.slisson.mps.javadoc.editor.TypeParamTag_EditorBuilder_a$Inline_Builder0" />
-      <unit id="5272591907648689367" at="36,0,208,0" name="de.slisson.mps.javadoc.editor.TypeParamTag_EditorBuilder_a" />
+      <unit id="5272591907648689367" at="194,0,197,0" name="de.slisson.mps.javadoc.editor.TypeParamTag_EditorBuilder$LINKS" />
+      <unit id="5272591907648689367" at="198,0,202,0" name="de.slisson.mps.javadoc.editor.TypeParamTag_EditorBuilder$CONCEPTS" />
+      <unit id="5272591907648689367" at="203,0,207,0" name="de.slisson.mps.javadoc.editor.TypeParamTag_EditorBuilder$PROPS" />
+      <unit id="5272591907648689367" at="85,42,93,5" name="de.slisson.mps.javadoc.editor.TypeParamTag_EditorBuilder$1" />
+      <unit id="5272591907648689379" at="111,0,154,0" name="de.slisson.mps.javadoc.editor.TypeParamTag_EditorBuilder$Inline_Builder0" />
+      <unit id="5272591907648689367" at="36,0,208,0" name="de.slisson.mps.javadoc.editor.TypeParamTag_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:271a63e9-d52e-40f1-a06a-001fdad41873(de.slisson.mps.javadoc.editor)/5387542033452750710">
     <file name="HtmlTag_Editor.java">
-      <node id="5387542033452750710" at="11,79,12,73" concept="6" />
+      <node id="5387542033452750710" at="11,79,12,71" concept="6" />
       <node id="5387542033452750710" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5387542033452750710" at="11,79,12,73" />
+      <scope id="5387542033452750710" at="11,79,12,71" />
       <scope id="5387542033452750710" at="11,0,14,0">
         <var name="editorContext" id="5387542033452750710" />
         <var name="node" id="5387542033452750710" />
       </scope>
       <unit id="5387542033452750710" at="10,0,15,0" name="de.slisson.mps.javadoc.editor.HtmlTag_Editor" />
     </file>
-    <file name="HtmlTag_EditorBuilder_a.java">
-      <node id="5387542033452750710" at="35,87,36,19" concept="10" />
+    <file name="HtmlTag_EditorBuilder.java">
+      <node id="5387542033452750710" at="35,85,36,19" concept="10" />
       <node id="5387542033452750710" at="36,19,37,18" concept="1" />
       <node id="5387542033452750710" at="42,26,43,18" concept="6" />
       <node id="5387542033452750710" at="46,39,47,32" concept="6" />
@@ -509,7 +509,7 @@
       <node id="5387542033452750710" at="133,7,136,7" concept="3" />
       <node id="5387542033452750710" at="152,0,155,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="3427331283064069155" at="168,0,171,0" concept="4" trace="getText#()Ljava/lang/String;" />
-      <node id="5387542033452750710" at="35,0,39,0" concept="0" trace="HtmlTag_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5387542033452750710" at="35,0,39,0" concept="0" trace="HtmlTag_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5387542033452750710" at="101,0,105,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5387542033452750710" at="109,0,113,0" concept="0" trace="textSingleRoleHandler_x7iq66_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5387542033452750710" at="40,0,45,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -536,7 +536,7 @@
       <scope id="5387542033452750710" at="148,17,149,42" />
       <scope id="5387542033452750710" at="152,40,153,25" />
       <scope id="3427331283064069158" at="168,31,169,148" />
-      <scope id="5387542033452750710" at="35,87,37,18" />
+      <scope id="5387542033452750710" at="35,85,37,18" />
       <scope id="5387542033452750710" at="101,40,103,33">
         <var name="provider" id="5387542033452750710" />
       </scope>
@@ -609,26 +609,26 @@
         <var name="style" id="5387542033452750710" />
       </scope>
       <scope id="5387542033452750710" at="50,0,67,0" />
-      <unit id="5387542033452750710" at="191,0,194,0" name="de.slisson.mps.javadoc.editor.HtmlTag_EditorBuilder_a$LINKS" />
-      <unit id="3427331283064069145" at="78,88,82,5" name="de.slisson.mps.javadoc.editor.HtmlTag_EditorBuilder_a$1" />
-      <unit id="3427331283064069155" at="167,88,171,5" name="de.slisson.mps.javadoc.editor.HtmlTag_EditorBuilder_a$2" />
-      <unit id="5387542033452750710" at="105,0,156,0" name="de.slisson.mps.javadoc.editor.HtmlTag_EditorBuilder_a$textSingleRoleHandler_x7iq66_d0" />
-      <unit id="5387542033452750710" at="31,0,195,0" name="de.slisson.mps.javadoc.editor.HtmlTag_EditorBuilder_a" />
+      <unit id="5387542033452750710" at="191,0,194,0" name="de.slisson.mps.javadoc.editor.HtmlTag_EditorBuilder$LINKS" />
+      <unit id="3427331283064069145" at="78,88,82,5" name="de.slisson.mps.javadoc.editor.HtmlTag_EditorBuilder$1" />
+      <unit id="3427331283064069155" at="167,88,171,5" name="de.slisson.mps.javadoc.editor.HtmlTag_EditorBuilder$2" />
+      <unit id="5387542033452750710" at="105,0,156,0" name="de.slisson.mps.javadoc.editor.HtmlTag_EditorBuilder$textSingleRoleHandler_x7iq66_d0" />
+      <unit id="5387542033452750710" at="31,0,195,0" name="de.slisson.mps.javadoc.editor.HtmlTag_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:271a63e9-d52e-40f1-a06a-001fdad41873(de.slisson.mps.javadoc.editor)/5387542033452785615">
     <file name="ItalicText_Editor.java">
-      <node id="5387542033452785615" at="11,79,12,76" concept="6" />
+      <node id="5387542033452785615" at="11,79,12,74" concept="6" />
       <node id="5387542033452785615" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5387542033452785615" at="11,79,12,76" />
+      <scope id="5387542033452785615" at="11,79,12,74" />
       <scope id="5387542033452785615" at="11,0,14,0">
         <var name="editorContext" id="5387542033452785615" />
         <var name="node" id="5387542033452785615" />
       </scope>
       <unit id="5387542033452785615" at="10,0,15,0" name="de.slisson.mps.javadoc.editor.ItalicText_Editor" />
     </file>
-    <file name="ItalicText_EditorBuilder_a.java">
-      <node id="5387542033452785615" at="36,90,37,19" concept="10" />
+    <file name="ItalicText_EditorBuilder.java">
+      <node id="5387542033452785615" at="36,88,37,19" concept="10" />
       <node id="5387542033452785615" at="37,19,38,18" concept="1" />
       <node id="5387542033452785615" at="43,26,44,18" concept="6" />
       <node id="5387542033452785615" at="47,39,48,32" concept="6" />
@@ -728,7 +728,7 @@
       <node id="5387542033452785615" at="134,7,137,7" concept="3" />
       <node id="5387542033452785615" at="156,0,159,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="3427331283064069135" at="172,0,175,0" concept="4" trace="getText#()Ljava/lang/String;" />
-      <node id="5387542033452785615" at="36,0,40,0" concept="0" trace="ItalicText_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5387542033452785615" at="36,0,40,0" concept="0" trace="ItalicText_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5387542033452785615" at="102,0,106,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5387542033452785615" at="110,0,114,0" concept="0" trace="textSingleRoleHandler_9j1flj_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5387542033452785615" at="41,0,46,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -755,7 +755,7 @@
       <scope id="5387542033452785615" at="152,17,153,42" />
       <scope id="5387542033452785615" at="156,40,157,25" />
       <scope id="3427331283064069138" at="172,31,173,148" />
-      <scope id="5387542033452785615" at="36,90,38,18" />
+      <scope id="5387542033452785615" at="36,88,38,18" />
       <scope id="5387542033452785615" at="102,40,104,33">
         <var name="provider" id="5387542033452785615" />
       </scope>
@@ -830,26 +830,26 @@
         <var name="style" id="5387542033452785615" />
       </scope>
       <scope id="5387542033452785615" at="51,0,68,0" />
-      <unit id="5387542033452785615" at="195,0,198,0" name="de.slisson.mps.javadoc.editor.ItalicText_EditorBuilder_a$LINKS" />
-      <unit id="3427331283064069125" at="79,88,83,5" name="de.slisson.mps.javadoc.editor.ItalicText_EditorBuilder_a$1" />
-      <unit id="3427331283064069135" at="171,88,175,5" name="de.slisson.mps.javadoc.editor.ItalicText_EditorBuilder_a$2" />
-      <unit id="5387542033452785615" at="106,0,160,0" name="de.slisson.mps.javadoc.editor.ItalicText_EditorBuilder_a$textSingleRoleHandler_9j1flj_d0" />
-      <unit id="5387542033452785615" at="32,0,199,0" name="de.slisson.mps.javadoc.editor.ItalicText_EditorBuilder_a" />
+      <unit id="5387542033452785615" at="195,0,198,0" name="de.slisson.mps.javadoc.editor.ItalicText_EditorBuilder$LINKS" />
+      <unit id="3427331283064069125" at="79,88,83,5" name="de.slisson.mps.javadoc.editor.ItalicText_EditorBuilder$1" />
+      <unit id="3427331283064069135" at="171,88,175,5" name="de.slisson.mps.javadoc.editor.ItalicText_EditorBuilder$2" />
+      <unit id="5387542033452785615" at="106,0,160,0" name="de.slisson.mps.javadoc.editor.ItalicText_EditorBuilder$textSingleRoleHandler_9j1flj_d0" />
+      <unit id="5387542033452785615" at="32,0,199,0" name="de.slisson.mps.javadoc.editor.ItalicText_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:271a63e9-d52e-40f1-a06a-001fdad41873(de.slisson.mps.javadoc.editor)/5387542033452795673">
     <file name="BoldText_Editor.java">
-      <node id="5387542033452795673" at="11,79,12,74" concept="6" />
+      <node id="5387542033452795673" at="11,79,12,72" concept="6" />
       <node id="5387542033452795673" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5387542033452795673" at="11,79,12,74" />
+      <scope id="5387542033452795673" at="11,79,12,72" />
       <scope id="5387542033452795673" at="11,0,14,0">
         <var name="editorContext" id="5387542033452795673" />
         <var name="node" id="5387542033452795673" />
       </scope>
       <unit id="5387542033452795673" at="10,0,15,0" name="de.slisson.mps.javadoc.editor.BoldText_Editor" />
     </file>
-    <file name="BoldText_EditorBuilder_a.java">
-      <node id="5387542033452795673" at="36,88,37,19" concept="10" />
+    <file name="BoldText_EditorBuilder.java">
+      <node id="5387542033452795673" at="36,86,37,19" concept="10" />
       <node id="5387542033452795673" at="37,19,38,18" concept="1" />
       <node id="5387542033452795673" at="43,26,44,18" concept="6" />
       <node id="5387542033452795673" at="47,39,48,32" concept="6" />
@@ -947,7 +947,7 @@
       <node id="5387542033452795673" at="133,7,136,7" concept="3" />
       <node id="5387542033452795673" at="155,0,158,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="3427331283064069165" at="171,0,174,0" concept="4" trace="getText#()Ljava/lang/String;" />
-      <node id="5387542033452795673" at="36,0,40,0" concept="0" trace="BoldText_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5387542033452795673" at="36,0,40,0" concept="0" trace="BoldText_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5387542033452795673" at="101,0,105,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5387542033452795673" at="109,0,113,0" concept="0" trace="textSingleRoleHandler_my4519_d0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5387542033452795673" at="41,0,46,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -974,7 +974,7 @@
       <scope id="5387542033452795673" at="151,17,152,42" />
       <scope id="5387542033452795673" at="155,40,156,25" />
       <scope id="3427331283064069168" at="171,31,172,148" />
-      <scope id="5387542033452795673" at="36,88,38,18" />
+      <scope id="5387542033452795673" at="36,86,38,18" />
       <scope id="5387542033452795673" at="101,40,103,33">
         <var name="provider" id="5387542033452795673" />
       </scope>
@@ -1049,21 +1049,21 @@
         <var name="style" id="5387542033452795673" />
       </scope>
       <scope id="5387542033452795673" at="51,0,68,0" />
-      <unit id="5387542033452795673" at="193,0,196,0" name="de.slisson.mps.javadoc.editor.BoldText_EditorBuilder_a$LINKS" />
-      <unit id="3427331283064069114" at="78,88,82,5" name="de.slisson.mps.javadoc.editor.BoldText_EditorBuilder_a$1" />
-      <unit id="3427331283064069165" at="170,88,174,5" name="de.slisson.mps.javadoc.editor.BoldText_EditorBuilder_a$2" />
-      <unit id="5387542033452795673" at="105,0,159,0" name="de.slisson.mps.javadoc.editor.BoldText_EditorBuilder_a$textSingleRoleHandler_my4519_d0" />
-      <unit id="5387542033452795673" at="32,0,197,0" name="de.slisson.mps.javadoc.editor.BoldText_EditorBuilder_a" />
+      <unit id="5387542033452795673" at="193,0,196,0" name="de.slisson.mps.javadoc.editor.BoldText_EditorBuilder$LINKS" />
+      <unit id="3427331283064069114" at="78,88,82,5" name="de.slisson.mps.javadoc.editor.BoldText_EditorBuilder$1" />
+      <unit id="3427331283064069165" at="170,88,174,5" name="de.slisson.mps.javadoc.editor.BoldText_EditorBuilder$2" />
+      <unit id="5387542033452795673" at="105,0,159,0" name="de.slisson.mps.javadoc.editor.BoldText_EditorBuilder$textSingleRoleHandler_my4519_d0" />
+      <unit id="5387542033452795673" at="32,0,197,0" name="de.slisson.mps.javadoc.editor.BoldText_EditorBuilder" />
     </file>
   </root>
   <root nodeRef="r:271a63e9-d52e-40f1-a06a-001fdad41873(de.slisson.mps.javadoc.editor)/842294157794129800">
     <file name="SeeClassTag_Editor.java">
-      <node id="842294157794129800" at="11,79,12,77" concept="6" />
-      <node id="842294157794129800" at="14,82,15,80" concept="6" />
+      <node id="842294157794129800" at="11,79,12,75" concept="6" />
+      <node id="842294157794129800" at="14,82,15,78" concept="6" />
       <node id="842294157794129800" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="842294157794129800" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="842294157794129800" at="11,79,12,77" />
-      <scope id="842294157794129800" at="14,82,15,80" />
+      <scope id="842294157794129800" at="11,79,12,75" />
+      <scope id="842294157794129800" at="14,82,15,78" />
       <scope id="842294157794129800" at="11,0,14,0">
         <var name="editorContext" id="842294157794129800" />
         <var name="node" id="842294157794129800" />
@@ -1074,8 +1074,8 @@
       </scope>
       <unit id="842294157794129800" at="10,0,18,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_Editor" />
     </file>
-    <file name="SeeClassTag_EditorBuilder_a.java">
-      <node id="842294157794129800" at="40,91,41,19" concept="10" />
+    <file name="SeeClassTag_EditorBuilder.java">
+      <node id="842294157794129800" at="40,89,41,19" concept="10" />
       <node id="842294157794129800" at="41,19,42,18" concept="1" />
       <node id="842294157794129800" at="47,26,48,18" concept="6" />
       <node id="842294157794129800" at="51,39,52,32" concept="6" />
@@ -1139,7 +1139,7 @@
       <node id="842294157794129809" at="102,0,104,0" concept="2" trace="myNode" />
       <node id="842294157794129800" at="51,0,54,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="842294157794129809" at="112,0,115,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="842294157794129800" at="40,0,44,0" concept="0" trace="SeeClassTag_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="842294157794129800" at="40,0,44,0" concept="0" trace="SeeClassTag_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="842294157794129800" at="87,0,91,5" concept="3" />
       <node id="842294157794129800" at="45,0,50,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="842294157794129800" at="94,205,99,22" concept="3" />
@@ -1158,7 +1158,7 @@
       <scope id="842294157794129809" at="112,41,113,32" />
       <scope id="842294157794129809" at="118,28,119,20" />
       <scope id="842294157794129811" at="139,17,140,42" />
-      <scope id="842294157794129800" at="40,91,42,18" />
+      <scope id="842294157794129800" at="40,89,42,18" />
       <scope id="842294157794129800" at="88,40,90,49" />
       <scope id="842294157794129800" at="95,73,97,145">
         <var name="manager" id="842294157794129800" />
@@ -1211,15 +1211,15 @@
         <var name="referenceLink" id="842294157794129800" />
       </scope>
       <scope id="842294157794129800" at="73,0,101,0" />
-      <unit id="842294157794129800" at="145,0,148,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_EditorBuilder_a$LINKS" />
-      <unit id="842294157794129800" at="154,0,157,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_EditorBuilder_a$PROPS" />
-      <unit id="842294157794129800" at="149,0,153,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_EditorBuilder_a$CONCEPTS" />
-      <unit id="842294157794129800" at="75,42,83,5" name="de.slisson.mps.javadoc.editor.SeeClassTag_EditorBuilder_a$1" />
-      <unit id="842294157794129809" at="101,0,144,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_EditorBuilder_a$Inline_Builder0" />
-      <unit id="842294157794129800" at="36,0,158,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_EditorBuilder_a" />
+      <unit id="842294157794129800" at="145,0,148,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_EditorBuilder$LINKS" />
+      <unit id="842294157794129800" at="154,0,157,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_EditorBuilder$PROPS" />
+      <unit id="842294157794129800" at="149,0,153,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_EditorBuilder$CONCEPTS" />
+      <unit id="842294157794129800" at="75,42,83,5" name="de.slisson.mps.javadoc.editor.SeeClassTag_EditorBuilder$1" />
+      <unit id="842294157794129809" at="101,0,144,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_EditorBuilder$Inline_Builder0" />
+      <unit id="842294157794129800" at="36,0,158,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_EditorBuilder" />
     </file>
-    <file name="SeeClassTag_InspectorBuilder_a.java">
-      <node id="842294157794129800" at="39,94,40,19" concept="10" />
+    <file name="SeeClassTag_InspectorBuilder.java">
+      <node id="842294157794129800" at="39,92,40,19" concept="10" />
       <node id="842294157794129800" at="40,19,41,18" concept="1" />
       <node id="842294157794129800" at="46,26,47,18" concept="6" />
       <node id="842294157794129800" at="50,39,51,32" concept="6" />
@@ -1273,7 +1273,7 @@
       <node id="842294157794129800" at="50,0,53,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="842294157794129817" at="108,0,111,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="842294157794129819" at="120,0,123,0" concept="4" trace="getText#()Ljava/lang/String;" />
-      <node id="842294157794129800" at="39,0,43,0" concept="0" trace="SeeClassTag_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="842294157794129800" at="39,0,43,0" concept="0" trace="SeeClassTag_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="842294157794129800" at="83,0,87,5" concept="3" />
       <node id="842294157794129800" at="44,0,49,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="842294157794129800" at="90,205,95,22" concept="3" />
@@ -1291,7 +1291,7 @@
       <scope id="842294157794129817" at="108,41,109,45" />
       <scope id="842294157794129817" at="114,28,115,20" />
       <scope id="842294157794129822" at="120,33,121,95" />
-      <scope id="842294157794129800" at="39,94,41,18" />
+      <scope id="842294157794129800" at="39,92,41,18" />
       <scope id="842294157794129800" at="84,40,86,49" />
       <scope id="842294157794129800" at="91,73,93,145">
         <var name="manager" id="842294157794129800" />
@@ -1338,22 +1338,22 @@
         <var name="referenceLink" id="842294157794129800" />
       </scope>
       <scope id="842294157794129800" at="69,0,97,0" />
-      <unit id="842294157794129800" at="134,0,137,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_InspectorBuilder_a$LINKS" />
-      <unit id="842294157794129800" at="138,0,141,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_InspectorBuilder_a$CONCEPTS" />
-      <unit id="842294157794129819" at="119,90,123,7" name="de.slisson.mps.javadoc.editor.SeeClassTag_InspectorBuilder_a$Inline_Builder0$1" />
-      <unit id="842294157794129800" at="71,42,79,5" name="de.slisson.mps.javadoc.editor.SeeClassTag_InspectorBuilder_a$1" />
-      <unit id="842294157794129817" at="97,0,133,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_InspectorBuilder_a$Inline_Builder0" />
-      <unit id="842294157794129800" at="35,0,142,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_InspectorBuilder_a" />
+      <unit id="842294157794129800" at="134,0,137,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_InspectorBuilder$LINKS" />
+      <unit id="842294157794129800" at="138,0,141,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_InspectorBuilder$CONCEPTS" />
+      <unit id="842294157794129819" at="119,90,123,7" name="de.slisson.mps.javadoc.editor.SeeClassTag_InspectorBuilder$Inline_Builder0$1" />
+      <unit id="842294157794129800" at="71,42,79,5" name="de.slisson.mps.javadoc.editor.SeeClassTag_InspectorBuilder$1" />
+      <unit id="842294157794129817" at="97,0,133,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_InspectorBuilder$Inline_Builder0" />
+      <unit id="842294157794129800" at="35,0,142,0" name="de.slisson.mps.javadoc.editor.SeeClassTag_InspectorBuilder" />
     </file>
   </root>
   <root nodeRef="r:271a63e9-d52e-40f1-a06a-001fdad41873(de.slisson.mps.javadoc.editor)/842294157794147108">
     <file name="LinkTag_Editor.java">
-      <node id="842294157794147108" at="11,79,12,73" concept="6" />
-      <node id="842294157794147108" at="14,82,15,76" concept="6" />
+      <node id="842294157794147108" at="11,79,12,71" concept="6" />
+      <node id="842294157794147108" at="14,82,15,74" concept="6" />
       <node id="842294157794147108" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="842294157794147108" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="842294157794147108" at="11,79,12,73" />
-      <scope id="842294157794147108" at="14,82,15,76" />
+      <scope id="842294157794147108" at="11,79,12,71" />
+      <scope id="842294157794147108" at="14,82,15,74" />
       <scope id="842294157794147108" at="11,0,14,0">
         <var name="editorContext" id="842294157794147108" />
         <var name="node" id="842294157794147108" />
@@ -1364,8 +1364,8 @@
       </scope>
       <unit id="842294157794147108" at="10,0,18,0" name="de.slisson.mps.javadoc.editor.LinkTag_Editor" />
     </file>
-    <file name="LinkTag_EditorBuilder_a.java">
-      <node id="842294157794147108" at="41,87,42,19" concept="10" />
+    <file name="LinkTag_EditorBuilder.java">
+      <node id="842294157794147108" at="41,85,42,19" concept="10" />
       <node id="842294157794147108" at="42,19,43,18" concept="1" />
       <node id="842294157794147108" at="48,26,49,18" concept="6" />
       <node id="842294157794147108" at="52,39,53,32" concept="6" />
@@ -1375,10 +1375,10 @@
       <node id="842294157794147108" at="59,28,60,31" concept="1" />
       <node id="842294157794147113" at="60,31,61,49" concept="1" />
       <node id="842294157794165522" at="61,49,62,48" concept="1" />
-      <node id="842294157794165561" at="63,37,64,51" concept="1" />
+      <node id="842294157794165561" at="63,27,64,51" concept="1" />
       <node id="842294157794165563" at="65,5,66,49" concept="1" />
       <node id="842294157794147108" at="66,49,67,22" concept="6" />
-      <node id="5272591907648680599" at="69,46,70,91" concept="6" />
+      <node id="5272591907648680599" at="69,36,70,91" concept="6" />
       <node id="842294157794147113" at="72,41,73,99" concept="5" />
       <node id="842294157794147113" at="73,99,74,47" concept="1" />
       <node id="842294157794147113" at="74,47,75,34" concept="5" />
@@ -1456,10 +1456,10 @@
       <node id="842294157794165523" at="110,0,112,0" concept="2" trace="myNode" />
       <node id="842294157794147108" at="52,0,55,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="842294157794165561" at="62,48,65,5" concept="3" />
-      <node id="5272591907648680597" at="69,0,72,0" concept="4" trace="nodeCondition_nl3ah2_a2a#()Z" />
+      <node id="5272591907648680597" at="69,0,72,0" concept="4" trace="nodeCondition0#()Z" />
       <node id="842294157794165523" at="120,0,123,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5272591907648681376" at="183,0,186,0" concept="9" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
-      <node id="842294157794147108" at="41,0,45,0" concept="0" trace="LinkTag_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="842294157794147108" at="41,0,45,0" concept="0" trace="LinkTag_EditorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="842294157794147108" at="95,0,99,5" concept="3" />
       <node id="842294157794147108" at="46,0,51,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="842294157794147108" at="102,205,107,22" concept="3" />
@@ -1479,14 +1479,14 @@
       <node id="842294157794147108" at="81,0,109,0" concept="4" trace="createRefCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="842294157794147108" at="48,26,49,18" />
       <scope id="842294157794147108" at="52,39,53,32" />
-      <scope id="842294157794165561" at="63,37,64,51" />
-      <scope id="5272591907648680598" at="69,46,70,91" />
+      <scope id="842294157794165561" at="63,27,64,51" />
+      <scope id="5272591907648680598" at="69,36,70,91" />
       <scope id="842294157794165523" at="120,41,121,32" />
       <scope id="842294157794165523" at="126,28,127,20" />
       <scope id="5272591907648680591" at="147,17,148,42" />
       <scope id="842294157794165561" at="169,15,170,40" />
       <scope id="5272591907648681376" at="183,55,184,43" />
-      <scope id="842294157794147108" at="41,87,43,18" />
+      <scope id="842294157794147108" at="41,85,43,18" />
       <scope id="842294157794147108" at="96,40,98,45" />
       <scope id="842294157794147108" at="103,73,105,145">
         <var name="manager" id="842294157794147108" />
@@ -1559,15 +1559,15 @@
         <var name="referenceLink" id="842294157794147108" />
       </scope>
       <scope id="842294157794147108" at="81,0,109,0" />
-      <unit id="842294157794147108" at="192,0,195,0" name="de.slisson.mps.javadoc.editor.LinkTag_EditorBuilder_a$LINKS" />
-      <unit id="842294157794147108" at="187,0,191,0" name="de.slisson.mps.javadoc.editor.LinkTag_EditorBuilder_a$PROPS" />
-      <unit id="842294157794147108" at="196,0,200,0" name="de.slisson.mps.javadoc.editor.LinkTag_EditorBuilder_a$CONCEPTS" />
-      <unit id="842294157794147108" at="83,42,91,5" name="de.slisson.mps.javadoc.editor.LinkTag_EditorBuilder_a$1" />
-      <unit id="842294157794165523" at="109,0,152,0" name="de.slisson.mps.javadoc.editor.LinkTag_EditorBuilder_a$Inline_Builder0" />
-      <unit id="842294157794147108" at="37,0,201,0" name="de.slisson.mps.javadoc.editor.LinkTag_EditorBuilder_a" />
+      <unit id="842294157794147108" at="192,0,195,0" name="de.slisson.mps.javadoc.editor.LinkTag_EditorBuilder$LINKS" />
+      <unit id="842294157794147108" at="187,0,191,0" name="de.slisson.mps.javadoc.editor.LinkTag_EditorBuilder$PROPS" />
+      <unit id="842294157794147108" at="196,0,200,0" name="de.slisson.mps.javadoc.editor.LinkTag_EditorBuilder$CONCEPTS" />
+      <unit id="842294157794147108" at="83,42,91,5" name="de.slisson.mps.javadoc.editor.LinkTag_EditorBuilder$1" />
+      <unit id="842294157794165523" at="109,0,152,0" name="de.slisson.mps.javadoc.editor.LinkTag_EditorBuilder$Inline_Builder0" />
+      <unit id="842294157794147108" at="37,0,201,0" name="de.slisson.mps.javadoc.editor.LinkTag_EditorBuilder" />
     </file>
-    <file name="LinkTag_InspectorBuilder_a.java">
-      <node id="842294157794147108" at="44,90,45,19" concept="10" />
+    <file name="LinkTag_InspectorBuilder.java">
+      <node id="842294157794147108" at="44,88,45,19" concept="10" />
       <node id="842294157794147108" at="45,19,46,18" concept="1" />
       <node id="842294157794147108" at="51,26,52,18" concept="6" />
       <node id="842294157794147108" at="55,39,56,32" concept="6" />
@@ -1646,7 +1646,7 @@
       <node id="842294157794147108" at="55,0,58,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5272591907648680576" at="115,0,118,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5272591907648680578" at="127,0,130,0" concept="4" trace="getText#()Ljava/lang/String;" />
-      <node id="842294157794147108" at="44,0,48,0" concept="0" trace="LinkTag_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="842294157794147108" at="44,0,48,0" concept="0" trace="LinkTag_InspectorBuilder#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="842294157794147108" at="90,0,94,5" concept="3" />
       <node id="842294157794147108" at="49,0,54,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="842294157794147108" at="97,205,102,22" concept="3" />
@@ -1669,7 +1669,7 @@
       <scope id="5272591907648680576" at="121,28,122,20" />
       <scope id="5272591907648680581" at="127,33,128,95" />
       <scope id="5272591907648680596" at="166,15,167,40" />
-      <scope id="842294157794147108" at="44,90,46,18" />
+      <scope id="842294157794147108" at="44,88,46,18" />
       <scope id="842294157794147108" at="91,40,93,45" />
       <scope id="842294157794147108" at="98,73,100,145">
         <var name="manager" id="842294157794147108" />
@@ -1732,13 +1732,13 @@
         <var name="referenceLink" id="842294157794147108" />
       </scope>
       <scope id="842294157794147108" at="76,0,104,0" />
-      <unit id="842294157794147108" at="171,0,174,0" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder_a$LINKS" />
-      <unit id="842294157794147108" at="180,0,183,0" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder_a$PROPS" />
-      <unit id="5272591907648680578" at="126,90,130,7" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder_a$Inline_Builder0$1" />
-      <unit id="842294157794147108" at="175,0,179,0" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder_a$CONCEPTS" />
-      <unit id="842294157794147108" at="78,42,86,5" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder_a$1" />
-      <unit id="5272591907648680576" at="104,0,140,0" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder_a$Inline_Builder0" />
-      <unit id="842294157794147108" at="40,0,184,0" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder_a" />
+      <unit id="842294157794147108" at="171,0,174,0" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder$LINKS" />
+      <unit id="842294157794147108" at="180,0,183,0" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder$PROPS" />
+      <unit id="5272591907648680578" at="126,90,130,7" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder$Inline_Builder0$1" />
+      <unit id="842294157794147108" at="175,0,179,0" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder$CONCEPTS" />
+      <unit id="842294157794147108" at="78,42,86,5" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder$1" />
+      <unit id="5272591907648680576" at="104,0,140,0" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder$Inline_Builder0" />
+      <unit id="842294157794147108" at="40,0,184,0" name="de.slisson.mps.javadoc.editor.LinkTag_InspectorBuilder" />
     </file>
   </root>
 </debug-info>

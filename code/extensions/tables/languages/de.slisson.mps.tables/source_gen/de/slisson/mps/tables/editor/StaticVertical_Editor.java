@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class StaticVertical_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new StaticVertical_EditorBuilder_a(editorContext, node).createCell();
+    return new StaticVertical_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new StaticVertical_InspectorBuilder_a(editorContext, node).createCell();
+    return new StaticVertical_InspectorBuilder(editorContext, node).createCell();
   }
 }

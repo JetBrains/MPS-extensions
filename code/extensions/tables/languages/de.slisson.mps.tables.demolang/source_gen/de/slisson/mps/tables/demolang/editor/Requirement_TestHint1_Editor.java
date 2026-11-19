@@ -18,9 +18,9 @@ public class Requirement_TestHint1_Editor extends DefaultNodeEditor {
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Requirement_TestHint1_EditorBuilder_a(editorContext, node).createCell();
+    return new Requirement_TestHint1_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new Requirement_TestHint1_InspectorBuilder_a(editorContext, node).createCell();
+    return new Requirement_TestHint1_InspectorBuilder(editorContext, node).createCell();
   }
 }

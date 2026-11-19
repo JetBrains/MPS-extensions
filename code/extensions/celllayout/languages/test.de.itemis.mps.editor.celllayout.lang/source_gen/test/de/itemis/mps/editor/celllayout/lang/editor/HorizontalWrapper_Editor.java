@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class HorizontalWrapper_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new HorizontalWrapper_EditorBuilder_a(editorContext, node).createCell();
+    return new HorizontalWrapper_EditorBuilder(editorContext, node).createCell();
   }
 }

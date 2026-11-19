@@ -9,9 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class FixedTest_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new FixedTest_EditorBuilder_a(editorContext, node).createCell();
+    return new FixedTest_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new FixedTest_InspectorBuilder_a(editorContext, node).createCell();
+    return new FixedTest_InspectorBuilder(editorContext, node).createCell();
   }
 }

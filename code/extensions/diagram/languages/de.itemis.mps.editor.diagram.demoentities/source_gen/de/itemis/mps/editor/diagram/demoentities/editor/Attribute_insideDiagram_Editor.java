@@ -18,6 +18,6 @@ public class Attribute_insideDiagram_Editor extends DefaultNodeEditor {
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Attribute_insideDiagram_EditorBuilder_a(editorContext, node).createCell();
+    return new Attribute_insideDiagram_EditorBuilder(editorContext, node).createCell();
   }
 }

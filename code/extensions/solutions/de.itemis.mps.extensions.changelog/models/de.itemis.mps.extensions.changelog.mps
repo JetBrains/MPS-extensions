@@ -325,6 +325,66 @@
           </node>
         </node>
       </node>
+      <node concept="15bAme" id="itfOcEu8bQ" role="15bAlL">
+        <node concept="2DRihI" id="itfOcEu8bR" role="15bAlk">
+          <node concept="15Ami3" id="itfOcEu8bS" role="1PaTwD">
+            <node concept="37shsh" id="itfOcEu8bT" role="15Aodc">
+              <node concept="1dCxOk" id="itfOcEu8bU" role="37shsm">
+                <property role="1XweGW" value="1144260c-e9a5-49a2-9add-39a1a1a7077e" />
+                <property role="1XxBO9" value="de.itemis.mps.editor.diagram.runtime" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8bV" role="1PaTwD">
+            <property role="3oM_SC" value="Fix" />
+          </node>
+          <node concept="1RqHR4" id="itfOcEu8bW" role="1PaTwD">
+            <property role="3oM_SC" value="IllegalStateException: Editor is already disposed" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8bX" role="1PaTwD">
+            <property role="3oM_SC" value="logged" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8bY" role="1PaTwD">
+            <property role="3oM_SC" value="when" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8bZ" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c0" role="1PaTwD">
+            <property role="3oM_SC" value="diagram" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c1" role="1PaTwD">
+            <property role="3oM_SC" value="editor" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c2" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c3" role="1PaTwD">
+            <property role="3oM_SC" value="closed" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c4" role="1PaTwD">
+            <property role="3oM_SC" value="while" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c5" role="1PaTwD">
+            <property role="3oM_SC" value="its" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c6" role="1PaTwD">
+            <property role="3oM_SC" value="automatic" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c7" role="1PaTwD">
+            <property role="3oM_SC" value="layout" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c8" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8c9" role="1PaTwD">
+            <property role="3oM_SC" value="still" />
+          </node>
+          <node concept="3oM_SD" id="itfOcEu8ca" role="1PaTwD">
+            <property role="3oM_SC" value="running." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="15bmVD" id="6sHtZytnvA" role="15bmVC">
       <node concept="15bAme" id="6sHtZytoLg" role="15bAlL">

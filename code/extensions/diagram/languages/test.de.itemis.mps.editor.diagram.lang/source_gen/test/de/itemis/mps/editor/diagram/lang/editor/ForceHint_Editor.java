@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class ForceHint_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new ForceHint_EditorBuilder_a(editorContext, node).createCell();
+    return new ForceHint_EditorBuilder(editorContext, node).createCell();
   }
 }

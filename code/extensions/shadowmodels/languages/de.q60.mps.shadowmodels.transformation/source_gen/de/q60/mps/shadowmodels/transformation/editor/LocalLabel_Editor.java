@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class LocalLabel_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new LocalLabel_EditorBuilder_a(editorContext, node).createCell();
+    return new LocalLabel_EditorBuilder(editorContext, node).createCell();
   }
 }

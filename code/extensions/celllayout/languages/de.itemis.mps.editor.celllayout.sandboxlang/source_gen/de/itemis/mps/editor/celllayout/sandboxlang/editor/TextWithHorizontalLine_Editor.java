@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TextWithHorizontalLine_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TextWithHorizontalLine_EditorBuilder_a(editorContext, node).createCell();
+    return new TextWithHorizontalLine_EditorBuilder(editorContext, node).createCell();
   }
 }

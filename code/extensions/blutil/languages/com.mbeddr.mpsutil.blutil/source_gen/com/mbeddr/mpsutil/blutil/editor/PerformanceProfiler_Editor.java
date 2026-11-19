@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class PerformanceProfiler_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new PerformanceProfiler_EditorBuilder_a(editorContext, node).createCell();
+    return new PerformanceProfiler_EditorBuilder(editorContext, node).createCell();
   }
 }

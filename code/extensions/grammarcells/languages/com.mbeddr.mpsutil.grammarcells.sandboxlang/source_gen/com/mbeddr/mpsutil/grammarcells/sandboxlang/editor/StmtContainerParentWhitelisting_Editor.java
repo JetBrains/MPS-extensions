@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class StmtContainerParentWhitelisting_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new StmtContainerParentWhitelisting_EditorBuilder_a(editorContext, node).createCell();
+    return new StmtContainerParentWhitelisting_EditorBuilder(editorContext, node).createCell();
   }
 }

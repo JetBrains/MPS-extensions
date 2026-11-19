@@ -18,9 +18,9 @@ public class NodeVersion_showVersions_Editor extends DefaultNodeEditor {
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new NodeVersion_showVersions_EditorBuilder_a(editorContext, node).createCell();
+    return new NodeVersion_showVersions_EditorBuilder(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return new NodeVersion_showVersions_InspectorBuilder_a(editorContext, node).createCell();
+    return new NodeVersion_showVersions_InspectorBuilder(editorContext, node).createCell();
   }
 }

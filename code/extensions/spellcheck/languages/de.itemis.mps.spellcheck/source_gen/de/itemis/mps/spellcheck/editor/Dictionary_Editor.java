@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Dictionary_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Dictionary_EditorBuilder_a(editorContext, node).createCell();
+    return new Dictionary_EditorBuilder(editorContext, node).createCell();
   }
 }

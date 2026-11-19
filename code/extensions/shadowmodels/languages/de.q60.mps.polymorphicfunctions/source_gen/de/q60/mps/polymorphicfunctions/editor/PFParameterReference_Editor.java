@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class PFParameterReference_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new PFParameterReference_EditorBuilder_a(editorContext, node).createCell();
+    return new PFParameterReference_EditorBuilder(editorContext, node).createCell();
   }
 }

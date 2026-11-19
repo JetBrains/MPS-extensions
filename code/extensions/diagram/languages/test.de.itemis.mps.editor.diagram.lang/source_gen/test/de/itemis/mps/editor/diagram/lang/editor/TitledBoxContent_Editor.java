@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class TitledBoxContent_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new TitledBoxContent_EditorBuilder_a(editorContext, node).createCell();
+    return new TitledBoxContent_EditorBuilder(editorContext, node).createCell();
   }
 }

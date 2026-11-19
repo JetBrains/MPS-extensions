@@ -18,6 +18,6 @@ public class Line_Structural_Editor extends DefaultNodeEditor {
     return myContextHints;
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Line_Structural_EditorBuilder_a(editorContext, node).createCell();
+    return new Line_Structural_EditorBuilder(editorContext, node).createCell();
   }
 }

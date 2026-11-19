@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class FragmentDefinition_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new FragmentDefinition_EditorBuilder_a(editorContext, node).createCell();
+    return new FragmentDefinition_EditorBuilder(editorContext, node).createCell();
   }
 }

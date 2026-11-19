@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Division_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Division_EditorBuilder_a(editorContext, node).createCell();
+    return new Division_EditorBuilder(editorContext, node).createCell();
   }
 }

@@ -9,6 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class Integral2_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Integral2_EditorBuilder_a(editorContext, node).createCell();
+    return new Integral2_EditorBuilder(editorContext, node).createCell();
   }
 }

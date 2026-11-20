@@ -76,7 +76,7 @@ public final class ChildCreateHandler_concept__BehaviorDescriptor extends BaseBH
   }
   private static SNode createSConceptType_239a0r_a1a0(SNode p0) {
     SNodeBuilder n0 = new SNodeBuilder().init(CONCEPTS.SConceptType$pb);
-    n0.setReferenceTarget(LINKS.conceptDeclaraton$K4R0, p0);
+    n0.setReferenceTarget(LINKS.conceptDeclaration$K4R0, p0);
     return n0.getResult();
   }
 
@@ -88,6 +88,6 @@ public final class ChildCreateHandler_concept__BehaviorDescriptor extends BaseBH
   private static final class LINKS {
     /*package*/ static final SReferenceLink link$OjTl = MetaAdapterFactory.getReferenceLink(0x94b64715a2634c36L, 0xa1388da14705ffa7L, 0x65cd987c65c5eea1L, 0x65cd987c65c5eea3L, "link");
     /*package*/ static final SReferenceLink target$m40F = MetaAdapterFactory.getReferenceLink(0xc72da2b97cce4447L, 0x8389f407dc1158b7L, 0xf979bd086aL, 0xf98055fef0L, "target");
-    /*package*/ static final SReferenceLink conceptDeclaraton$K4R0 = MetaAdapterFactory.getReferenceLink(0x7866978ea0f04cc7L, 0x81bc4d213d9375e1L, 0x5cab42cd97571ceeL, 0x5cab42cd97571cefL, "conceptDeclaraton");
+    /*package*/ static final SReferenceLink conceptDeclaration$K4R0 = MetaAdapterFactory.getReferenceLink(0x7866978ea0f04cc7L, 0x81bc4d213d9375e1L, 0x5cab42cd97571ceeL, 0x5cab42cd97571cefL, "conceptDeclaration");
   }
 }

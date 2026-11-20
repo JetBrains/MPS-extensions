@@ -4,58 +4,77 @@ package com.jetbrains.mpsext.viewmodel.runtime;
 
 import org.jetbrains.mps.openapi.model.SModel;
 import org.jetbrains.mps.openapi.model.SNode;
+import org.jetbrains.mps.openapi.module.SRepository;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import java.util.List;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import java.util.ArrayList;
-import java.util.Map;
 import org.jetbrains.mps.openapi.model.SNodeReference;
-import jetbrains.mps.internal.collections.runtime.MapSequence;
-import java.util.HashMap;
-import jetbrains.mps.project.Project;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
-import org.jetbrains.mps.openapi.module.SRepository;
 import org.jetbrains.mps.openapi.module.ModelAccess;
-import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.application.Application;
-import com.intellij.openapi.util.Key;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import com.intellij.openapi.application.ApplicationManager;
+import org.jetbrains.mps.openapi.module.SModule;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.smodel.tempmodel.TempModule2;
 import jetbrains.mps.smodel.tempmodel.TemporaryModels;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.tempmodel.TempModuleOptions;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.ArrayList;
 import org.jetbrains.mps.openapi.model.SModelReference;
 import jetbrains.mps.smodel.SNodePointer;
+import jetbrains.mps.project.Project;
 import jetbrains.mps.ide.MPSCoreComponents;
 import jetbrains.mps.project.ProjectManager;
-import org.jetbrains.mps.openapi.module.SModule;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.classloading.ModuleClassLoader;
 import java.util.function.Supplier;
 import java.util.concurrent.CompletableFuture;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.ModelImports;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
 import org.jetbrains.mps.openapi.language.SConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SProperty;
 
+/**
+ * The values of all view models. They are kept in memory (ValueTree), so that a read right after a write returns
+ * the value written, inside a command or not, in an IDE and in a headless run alike. Editors read through a copy of
+ * the values in a temporary model (the store): a read records a dependency of the cells, and a change of the copy
+ * updates them. The copy is updated in a command: at once by a write inside one, otherwise by a command that is
+ * scheduled through an open project. Without an open project (or an IDE) there is no editor, and the copy waits for
+ * the next command.
+ * 
+ * The values and the index are changed together under the lock of the values: by writes from any thread with no
+ * more than read access, by the change listener in write actions and by release, which runs without model access;
+ * readers on any thread take it too. The index is locked inside it (its methods are synchronized). The paths out
+ * of sync and the removed key candidates have locks of their own. Nothing that takes another lock is called while
+ * one of these is held. The lookup of the store after a class reload (currentStore) has a lock of its own,
+ * under which it only reads the repository; readers that ask during the lookup wait for it.
+ */
 public final class ViewModels {
   public static final String OBJECT_KEY = "com.jetbrains.mpsext.viewmodel.ObjectValue";
-  private static final String STORE_KEY = "com.jetbrains.mpsext.viewmodel.store";
+  private static final String STORE_MODEL_NAME = "com.jetbrains.mpsext.viewmodel.store";
   private static ViewModels ourInstance = null;
 
   private volatile SModel model = null;
   private volatile SNode store = null;
   private volatile boolean takenOver = false;
+  private volatile boolean storeLookedUp = false;
+  private final Object storeLookup = new Object();
+  private volatile SRepository repository = null;
+  private final ValueTree values = new ValueTree();
   private final ViewModelIndex index = new ViewModelIndex();
   private final Set<SModel> trackedModels = SetSequence.fromSet(new HashSet<SModel>());
-  private final List<PendingWrite> pending = ListSequence.fromList(new ArrayList<PendingWrite>());
-  private final Map<SNodeReference, List<PendingWrite>> pendingByDependency = MapSequence.fromMap(new HashMap<SNodeReference, List<PendingWrite>>());
+  private final Set<List<ViewModelKey>> outOfSync = SetSequence.fromSet(new HashSet<List<ViewModelKey>>());
   private final Set<SNodeReference> removedKeyCandidates = SetSequence.fromSet(new HashSet<SNodeReference>());
-  private final Set<Project> scheduledProjects = SetSequence.fromSet(new HashSet<Project>());
+  private final AtomicBoolean syncScheduled = new AtomicBoolean(false);
   private final AtomicInteger batchDepth = new AtomicInteger(0);
   private final ChangeTracker tracker = new ChangeTracker(this);
 
@@ -105,60 +124,82 @@ public final class ViewModels {
     // At once when possible: MPS initializes application plugins in the EDT without model access, and a store
     // created later misses the editors built in between.
     ModelAccess modelAccess = repository.getModelAccess();
+    Application application = ApplicationManager.getApplication();
     if (modelAccess.canWrite()) {
       action.run();
-    } else if (ApplicationManager.getApplication().isDispatchThread() && !(modelAccess.canRead())) {
+    } else if (application != null && application.isDispatchThread() && !(modelAccess.canRead())) {
       modelAccess.runWriteAction(action);
     } else {
+      // Later, on the EDT: write actions run only there, and on the EDT this thread holds read access, where a write action would wait for itself.
       modelAccess.runWriteInEDT(action);
     }
   }
 
-  private static Object rememberedStore() {
-    // The store root of the previous instance of this class, which a class reload of this module replaced.
-    // It is kept in the user data of the application, a platform object that a class reload doesn't replace,
-    // under a key found by its name (a Key created by the previous class is a different object).
-    Application application = ApplicationManager.getApplication();
-    Key<?> key = Key.findKeyByName(STORE_KEY);
-    return ((application == null || key == null ? null : application.getUserData(key)));
-  }
-  private static void rememberStore(SNode root) {
-    Application application = ApplicationManager.getApplication();
-    if (application == null) {
-      return;
-    }
-    Key<Object> key = (Key<Object>) Key.findKeyByName(STORE_KEY);
-    if (key == null) {
-      key = Key.create(STORE_KEY);
-    }
-    application.putUserData(key, root);
-  }
-  private SNode currentStore() {
-    // The store, or the one of the previous instance of this class (after a class reload), taken over read-only
-    // so that a reader depends on its root right away. Its content is cleared by the first write (ensureStore):
-    // the index of the previous instance is gone, so its entries couldn't be invalidated any more.
-    SNode current = store;
-    if (current != null) {
-      return current;
-    }
-    Object remembered = rememberedStore();
-    if (remembered instanceof SNode) {
-      SNode root = (SNode) remembered;
-      if (root.getModel() != null && SNodeOperations.isInstanceOf(root, CONCEPTS.ViewModelStore$2W)) {
-        model = root.getModel();
-        store = SNodeOperations.cast(root, CONCEPTS.ViewModelStore$2W);
-        takenOver = true;
-        return store;
+  /**
+   * Returns the store of a previous instance of this class, which a class reload of this module replaced: the root
+   * of the temporary model whose name starts with STORE_MODEL_NAME (TemporaryModels appends a unique suffix). The
+   * model stays registered across the reload because its module isn't reloadable. Only the modules that
+   * TempModuleOptions.nonReloadableModule creates are looked into: there is no way to list them alone (the
+   * repository lists the modules of an owner, but that owner is private to TempModuleOptions). Needs read access.
+   * Null when there is no such store. Public so that a test can check that it finds the store.
+   */
+  public static SNode findStore(SRepository lookupRepository) {
+    for (SModule module : Sequence.fromIterable(lookupRepository.getModules())) {
+      if (!(module instanceof TempModule2)) {
+        continue;
+      }
+      for (SModel moduleModel : Sequence.fromIterable(module.getModels())) {
+        SModel candidate = moduleModel;
+        if (TemporaryModels.isTemporary(candidate) && SModelOperations.getModelName(candidate).startsWith(STORE_MODEL_NAME + "_")) {
+          SNode found = ListSequence.fromList(SModelOperations.roots(candidate, CONCEPTS.ViewModelStore$2W)).first();
+          if (found != null) {
+            return found;
+          }
+        }
       }
     }
     return null;
   }
-  private void ensureStore(SRepository repository) {
+  /**
+   * Returns the store, or the one of the previous instance of this class (after a class reload), taken over read-only
+   * so that a reader depends on its root right away. Its content is cleared by the first write access (ensureStore):
+   * the values of the previous instance are gone with it, so its entries would no longer show anything at all.
+   * It is looked up once, in the repository this instance knows (from the plugin, or from the first node that is
+   * read or written); without one there is nothing to look in yet.
+   */
+  private SNode currentStore() {
+    SNode current = store;
+    if (current != null) {
+      return current;
+    }
+    SRepository lookupRepository = repository;
+    if (lookupRepository == null) {
+      return null;
+    }
+    // Readers on several threads can get here at once, e.g. the editors rebuilt after a class reload and a background check. The first looks the store up and the others wait for it: a reader that went on without the store would depend on none and miss the first write. findStore only reads the repository.
+    synchronized (storeLookup) {
+      if (store != null || storeLookedUp) {
+        return store;
+      }
+      SNode found = findStore(lookupRepository);
+      if (found != null) {
+        model = found.getModel();
+        store = found;
+        takenOver = true;
+      }
+      storeLookedUp = true;
+      return found;
+    }
+  }
+  private void ensureStore(SRepository storeRepository) {
     // needs write access
+    if (repository == null) {
+      repository = storeRepository;
+    }
     SNode current = currentStore();
     if (current != null) {
       if (takenOver) {
-        // the data of the previous instance: its dependencies are unknown, so it couldn't be invalidated
+        // the data of the previous instance: its values are gone
         takenOver = false;
         for (SNode viewModel : ListSequence.fromList(ListSequence.fromList(SLinkOperations.getChildren(current, LINKS.viewModels$PqXt)).toList())) {
           SNodeOperations.deleteNode(viewModel);
@@ -166,26 +207,31 @@ public final class ViewModels {
       }
       return;
     }
-    SModel newModel = TemporaryModels.getInstance().create(false, false, "viewmodel", TempModuleOptions.nonReloadableModule(repository));
+    // named, so that the next instance of this class finds it after a class reload (findStore)
+    SModel newModel = TemporaryModels.getInstance().create(false, false, STORE_MODEL_NAME, TempModuleOptions.nonReloadableModule(storeRepository));
     SNode newStore = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x60fce9f5a663ff5eL, "com.jetbrains.mpsext.viewmodel.storage.structure.ViewModelStore"));
     newModel.addRootNode(newStore);
     TemporaryModels.getInstance().addMissingImports(newModel);
     model = newModel;
     store = newStore;
-    rememberStore(newStore);
   }
 
   private void release() {
     // Releases what this instance holds; needs no write access. The store model is kept for the next instance.
-    synchronized (pendingByDependency) {
-      for (PendingWrite write : ListSequence.fromList(pending)) {
-        write.getFuture().complete(false);
-      }
-      ListSequence.fromList(pending).clear();
-      MapSequence.fromMap(pendingByDependency).clear();
+    // writes and readers on other threads may still use the values and the index (see the class comment)
+    synchronized (values) {
+      values.clear();
+      index.clear();
+    }
+    // writes on other threads may still mark paths
+    synchronized (outOfSync) {
+      SetSequence.fromSet(outOfSync).clear();
+    }
+    // the change listener may still add candidates, in a write action on another thread
+    synchronized (removedKeyCandidates) {
+      SetSequence.fromSet(removedKeyCandidates).clear();
     }
     untrackModels();
-    index.clear();
     model = null;
     store = null;
   }
@@ -217,10 +263,16 @@ public final class ViewModels {
     // to the model without a node, which a root added to or removed from the model changes.
     return new SNodePointer(model, null);
   }
-  public static Project findProject(List<ViewModelKey> path) {
-    // The project to write through when the caller has none: the open project that contains the module of
-    // the first node of the path, otherwise the first open project. Null when no project is open (e.g. a
-    // headless run without a project). Without read access the node isn't resolved.
+  /**
+   * Returns an open project to run the command in that updates the store. A command of any project updates the
+   * editors of all projects, which share one model access. Null without an IDE (e.g. the generation of an Ant build,
+   * which has no Application and whose projects the ProjectManager doesn't know) and when no project is open: then
+   * there is no editor to update.
+   */
+  private static Project commandProject() {
+    if (ApplicationManager.getApplication() == null) {
+      return null;
+    }
     MPSCoreComponents components = MPSCoreComponents.getInstance();
     if (components == null) {
       return null;
@@ -229,34 +281,19 @@ public final class ViewModels {
     if (projectManager == null) {
       return null;
     }
-    List<Project> projects = projectManager.getOpenedProjects();
-    if (ListSequence.fromList(projects).isEmpty()) {
-      return null;
-    }
-    SRepository repository = ListSequence.fromList(projects).first().getRepository();
-    if (path != null && repository.getModelAccess().canRead()) {
-      for (ViewModelKey key : ListSequence.fromList(path)) {
-        if (key instanceof ViewModelNodeKey) {
-          SNode target = ((ViewModelNodeKey) key).getTarget().resolve(repository);
-          SModel targetModel = ((target == null ? null : target.getModel()));
-          SModule module = ((targetModel == null ? null : targetModel.getModule()));
-          if (module != null) {
-            for (Project project : ListSequence.fromList(projects)) {
-              if (project.isProjectModule(module)) {
-                return project;
-              }
-            }
-          }
-          break;
-        }
+    for (Project openProject : ListSequence.fromList(projectManager.getOpenedProjects())) {
+      if (!(openProject.isDisposed())) {
+        return openProject;
       }
     }
-    return ListSequence.fromList(projects).first();
+    return null;
   }
 
+  /**
+   * Returns the path with the name of the view model as its first key: internally every path starts with the name
+   * of its view model, so that the values, the index and the store updates treat the paths of all view models alike.
+   */
   private static List<ViewModelKey> qualify(String viewModel, List<ViewModelKey> path) {
-    // Internally the first key of a path is the name of the view model, so that the index and the write
-    // queue treat the paths of all view models alike.
     if (viewModel == null || viewModel.isEmpty()) {
       throw new IllegalArgumentException("a view model needs a name");
     }
@@ -301,22 +338,38 @@ public final class ViewModels {
     return viewModel;
   }
 
+  /**
+   * Returns the value at the path of the view model. Needs read access. The value comes from the values, which a
+   * write changes at once. The copy in the store is read along, so that a read from an editor is recorded as a
+   * dependency of its cells, which are updated when the copy changes.
+   */
   public Object getPath(String viewModel, List<ViewModelKey> path) {
-    // Needs read access. Reads from an editor are recorded as dependencies of the editor cells.
-    SNode entry = findEntry(qualify(viewModel, path));
-    if (entry == null) {
-      return null;
+    List<ViewModelKey> qualified = qualify(viewModel, path);
+    // so that a new instance (after a class reload) finds the store before the plugin is initialized again
+    repositoryOf(qualified);
+    findEntry(qualified);
+    Object value;
+    // writes on other threads change the values with no more than read access
+    synchronized (values) {
+      value = values.get(qualified);
     }
-    return objectOf(SLinkOperations.getTarget(entry, LINKS.value$QjaP));
+    return readable(value);
   }
+  /**
+   * Returns the store, for tools that show the stored data (the View Models tool window).
+   * It must not be modified other than through the write methods. It is updated in commands, so it can lag behind
+   * the values for a while.
+   */
   public SNode getStore() {
-    // for tools that show the stored data (the View Models tool window); the store must not be modified
-    // other than through the write methods
     return currentStore();
   }
   public Set<SNodeReference> getDependencies(String viewModel, List<ViewModelKey> path) {
     // the nodes the value at the path was computed from
     return index.getDependencies(qualify(viewModel, path));
+  }
+  public int countDependencies(String viewModel, List<ViewModelKey> path) {
+    // the number of dependencies of the value at the path, without copying them as getDependencies does
+    return index.countDependencies(qualify(viewModel, path));
   }
   public boolean hasEntries(SNodeReference node) {
     // whether a value of any view model has the node in its key (alone or in a composite key)
@@ -371,6 +424,17 @@ public final class ViewModels {
     }
     return object;
   }
+  private static Object readable(Object value) {
+    // objects of classes that were unloaded by a class reload are dropped
+    if (value == null || value instanceof SNode) {
+      return value;
+    }
+    ClassLoader classLoader = value.getClass().getClassLoader();
+    if (classLoader instanceof ModuleClassLoader && ((ModuleClassLoader) classLoader).isDisposed()) {
+      return null;
+    }
+    return value;
+  }
 
   public <T> Computed<T> compute(Supplier<T> computation) {
     // Records the nodes read by the computation. Call it inside one read action. A computation inside another
@@ -387,81 +451,16 @@ public final class ViewModels {
     return new Computed<T>(value, recorder.getNodes());
   }
 
-  public CompletableFuture<Boolean> writePath(Project project, String viewModel, List<ViewModelKey> path, Object value, Set<SNodeReference> dependencies) {
-    // The write of all view models. A null value removes the entry; a null value at the empty path removes the
-    // whole view model. Inside a command of the project the write is applied at once, after the writes still
-    // queued, so that none of them overwrites it later. Otherwise it goes through the write queue
-    // (writePathAsync, with its requirements). Without a project (none is open) it is dropped. The future is
-    // completed when the write was applied (true) or rejected or dropped (false).
-    if (project == null) {
-      return CompletableFuture.completedFuture(false);
-    }
-    if (project.getModelAccess().isCommandAction()) {
-      drain(project);
-      return CompletableFuture.completedFuture(apply(project, qualify(viewModel, path), value, dependencies));
-    }
-    return writePathAsync(project, viewModel, path, value, dependencies);
-  }
-
-  private boolean apply(Project project, List<ViewModelKey> path, Object value, Set<SNodeReference> dependencies) {
-    SRepository repository = project.getRepository();
-    if (value == null) {
-      removeEntries(path);
-      index.removeWithPrefix(path);
-      return true;
-    }
-    if (ListSequence.fromList(path).count() < 2) {
-      throw new IllegalArgumentException("a value needs a key");
-    }
-    if (!(isWritable(repository, path))) {
-      return false;
-    }
-    ensureStore(repository);
-    SNode branch = SLinkOperations.getTarget(getOrCreateViewModel(nameOf(path)), LINKS.root$gJLj);
-    for (int i = 1; i < ListSequence.fromList(path).count() - 1; i++) {
-      ViewModelKey key = ListSequence.fromList(path).getElement(i);
-      SNode entry = Hamt.get(branch, key);
-      if (entry != null && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(entry, LINKS.value$QjaP), CONCEPTS.MapValue$rT)) {
-        branch = SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(entry, LINKS.value$QjaP), CONCEPTS.MapValue$rT), LINKS.root$g5g6);
-        continue;
-      }
-      SNode keyNode = null;
-      if (entry == null) {
-        keyNode = key.createNode(repository);
-        if (keyNode == null) {
-          return false;
-        }
-      } else {
-        index.remove(ListSequence.fromList(path).take(i + 1).toList());
-      }
-      SNode nested = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x222fe3c7a9c818c3L, "com.jetbrains.mpsext.viewmodel.storage.structure.MapValue"));
-      SLinkOperations.setTarget(nested, LINKS.root$g5g6, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x4dd6de49b75aae4L, "com.jetbrains.mpsext.viewmodel.storage.structure.HamtBranch")));
-      Hamt.put(branch, key, keyNode, nested);
-      branch = SLinkOperations.getTarget(nested, LINKS.root$g5g6);
-    }
-    ViewModelKey lastKey = ListSequence.fromList(path).last();
-    SNode existing = Hamt.get(branch, lastKey);
-    if (value instanceof SNode) {
-      return applyNode(project, path, branch, existing, (SNode) value, dependencies);
-    }
-    if (existing != null && value.equals(objectOf(SLinkOperations.getTarget(existing, LINKS.value$QjaP))) && index.hasSameDependencies(path, dependencies)) {
-      return true;
-    }
-    SNode lastKeyNode = null;
-    if (existing == null) {
-      lastKeyNode = lastKey.createNode(repository);
-      if (lastKeyNode == null) {
-        return false;
-      }
-    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(existing, LINKS.value$QjaP), CONCEPTS.MapValue$rT)) {
-      index.removeWithPrefix(path);
-    }
-    SNode objectValue = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x10b7ba6fe59a889aL, "com.jetbrains.mpsext.viewmodel.storage.structure.ObjectValue"));
-    objectValue.putUserObject(OBJECT_KEY, value);
-    Hamt.put(branch, lastKey, lastKeyNode, objectValue);
-    index.put(path, project, dependencies);
-    track(repository, path, dependencies);
-    return true;
+  /**
+   * Writes the value at the path of the view model, from any thread. A null value removes the entry and the entries
+   * of composite keys that start with the path; a null value at the empty path removes the whole view model. The
+   * value is stored at once, so a read right after the write returns it, inside a command or not, in an IDE and in a
+   * headless run. A value computed from dependencies has to be written with the read access it was computed in, so
+   * that no change of a dependency can be missed. The future is already completed: true when the value was stored,
+   * false when it was rejected (the node is in a read-only model, or in no model of a repository).
+   */
+  public CompletableFuture<Boolean> writePath(String viewModel, List<ViewModelKey> path, Object value, Set<SNodeReference> dependencies) {
+    return CompletableFuture.completedFuture(write(qualify(viewModel, path), value, dependencies));
   }
 
   private void importLanguages(Set<SLanguage> languages) {
@@ -474,45 +473,84 @@ public final class ViewModels {
       }
     }
   }
-  private boolean applyNode(Project project, List<ViewModelKey> path, SNode branch, SNode existing, SNode source, Set<SNodeReference> dependencies) {
-    // A node is stored as a copy. A rewrite updates the stored copy in place (NodeDiff), so that an editor showing
-    // it only updates the cells that show what changed.
-    SRepository repository = project.getRepository();
-    NodeDiff diff = new NodeDiff();
-    if (existing != null && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(existing, LINKS.value$QjaP), CONCEPTS.NodeValue$o7)) {
-      SNode stored = SNodeOperations.cast(SLinkOperations.getTarget(existing, LINKS.value$QjaP), CONCEPTS.NodeValue$o7);
-      if (SLinkOperations.getTarget(stored, LINKS.content$1Rh$) != source) {
-        diff.update(SLinkOperations.getTarget(stored, LINKS.content$1Rh$), source);
-      }
-    } else {
-      SNode keyNode = null;
-      if (existing == null) {
-        keyNode = ListSequence.fromList(path).last().createNode(repository);
-        if (keyNode == null) {
-          return false;
-        }
-      } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(existing, LINKS.value$QjaP), CONCEPTS.MapValue$rT)) {
+  private boolean write(List<ViewModelKey> path, Object value, Set<SNodeReference> dependencies) {
+    if (value == null) {
+      // the values and the index change together; other threads read and write them with no more than read access
+      synchronized (values) {
+        values.remove(path);
         index.removeWithPrefix(path);
       }
-      SNode stored = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x83100b716021274L, "com.jetbrains.mpsext.viewmodel.storage.structure.NodeValue"));
-      SLinkOperations.setTarget(stored, LINKS.content$1Rh$, diff.copy(source));
-      Hamt.put(branch, ListSequence.fromList(path).last(), keyNode, stored);
+      changed(path);
+      return true;
     }
-    importLanguages(diff.getLanguages());
-    index.put(path, project, dependencies);
-    track(repository, path, dependencies);
+    if (ListSequence.fromList(path).count() < 2) {
+      throw new IllegalArgumentException("a value needs a key");
+    }
+    SRepository keyRepository = repositoryOf(path);
+    boolean needsRead = (dependencies != null && SetSequence.fromSet(dependencies).isNotEmpty()) || value instanceof SNode;
+    if (needsRead && keyRepository != null && !(keyRepository.getModelAccess().canRead())) {
+      throw new IllegalStateException("a value with dependencies, or a node, has to be written with the read access it was computed in");
+    }
+    if (!(isWritable(keyRepository, path))) {
+      return false;
+    }
+    Object stored = value;
+    if (value instanceof SNode) {
+      // A copy, because the node may change before it is copied into the store. Once it is copied there, the copy in
+      // the store is the value (putNode).
+      stored = SNodeOperations.copyNode(((SNode) value));
+    }
+    // the values and the index change together; other threads read and write them with no more than read access
+    synchronized (values) {
+      for (List<ViewModelKey> replaced : ListSequence.fromList(values.put(path, stored))) {
+        index.remove(replaced);
+      }
+      index.put(path, dependencies);
+    }
+    track(keyRepository, path, dependencies);
+    changed(path);
     return true;
   }
-  private static boolean isWritable(SRepository repository, List<ViewModelKey> path) {
-    // no view models for read-only models
+  /**
+   * Returns the repository to resolve keys and dependencies in, and to ask whether a command is running: the one of
+   * the store, otherwise the one of the first node of the path (e.g. in a headless run without the plugin). All
+   * repositories share one model access.
+   */
+  private SRepository repositoryOf(List<ViewModelKey> path) {
+    SRepository current = repository;
+    if (current != null) {
+      return current;
+    }
     for (ViewModelKey key : ListSequence.fromList(path)) {
       if (key instanceof ViewModelNodeKey) {
-        SNode target = ((ViewModelNodeKey) key).getTarget().resolve(repository);
+        SNode keyNode = ((ViewModelNodeKey) key).getNode();
+        SModel keyModel = ((keyNode == null ? null : SNodeOperations.getModel(keyNode)));
+        SRepository found = ((keyModel == null ? null : keyModel.getRepository()));
+        if (found != null) {
+          repository = found;
+          return found;
+        }
+      }
+    }
+    return null;
+  }
+  /**
+   * Returns whether values may be stored for the path. There are none for nodes of read-only models, nor for nodes in
+   * no model of a repository (deleted, or in a transient model of the generator): nothing would remove their values.
+   */
+  private static boolean isWritable(SRepository keyRepository, List<ViewModelKey> path) {
+    for (ViewModelKey key : ListSequence.fromList(path)) {
+      if (key instanceof ViewModelNodeKey) {
+        ViewModelNodeKey nodeKey = (ViewModelNodeKey) key;
+        SNode target = nodeKey.getNode();
+        if (target == null && keyRepository != null) {
+          target = nodeKey.getTarget().resolve(keyRepository);
+        }
         if (target == null) {
           return false;
         }
-        SModel targetModel = target.getModel();
-        if (targetModel == null || targetModel.isReadOnly()) {
+        SModel targetModel = SNodeOperations.getModel(target);
+        if (targetModel == null || targetModel.isReadOnly() || targetModel.getRepository() == null) {
           return false;
         }
       }
@@ -555,7 +593,13 @@ public final class ViewModels {
     }
   }
 
-  private void track(SRepository repository, List<ViewModelKey> path, Set<SNodeReference> dependencies) {
+  /**
+   * Listens to the models of the key nodes and of the dependencies.
+   */
+  private void track(SRepository keyRepository, List<ViewModelKey> path, Set<SNodeReference> dependencies) {
+    if (keyRepository == null) {
+      return;
+    }
     Set<SNodeReference> refs = SetSequence.fromSet(new HashSet<SNodeReference>());
     if (dependencies != null) {
       SetSequence.fromSet(refs).addSequence(SetSequence.fromSet(dependencies));
@@ -566,14 +610,16 @@ public final class ViewModels {
       }
     }
     for (SNodeReference ref : SetSequence.fromSet(refs)) {
-      if (ref.getModelReference() == null) {
+      SModelReference modelRef = ref.getModelReference();
+      if (modelRef == null) {
         continue;
       }
-      SModel trackedModel = ref.getModelReference().resolve(repository);
+      SModel trackedModel = SPointerOperations.resolveModel(modelRef, keyRepository);
       if (trackedModel == null || trackedModel == model) {
         continue;
       }
       boolean isNew = false;
+      // writes on several threads may track the same model at once; it is listened to once
       synchronized (trackedModels) {
         if (!(SetSequence.fromSet(trackedModels).contains(trackedModel))) {
           SetSequence.fromSet(trackedModels).addElement(trackedModel);
@@ -591,44 +637,202 @@ public final class ViewModels {
     trackedModel.addModelListener(tracker);
   }
 
+  /**
+   * Updates the store for the path: at once inside a command, so that the editors are updated when it ends,
+   * otherwise in a later command (scheduled when no batch is open).
+   */
+  private void changed(List<ViewModelKey> path) {
+    markOutOfSync(path);
+    SRepository current = repository;
+    if (current != null && current.getModelAccess().isCommandAction() && current.getModelAccess().canWrite()) {
+      sync(current, false);
+    } else if (batchDepth.get() == 0) {
+      scheduleSync();
+    }
+  }
+  private void markOutOfSync(List<ViewModelKey> path) {
+    // writes on several threads mark paths, and the store update on the EDT takes them
+    synchronized (outOfSync) {
+      SetSequence.fromSet(outOfSync).addElement(path);
+    }
+  }
+  /**
+   * Schedules a command on the EDT that updates the store, unless one is scheduled already.
+   */
+  private void scheduleSync() {
+    if (!(syncScheduled.compareAndSet(false, true))) {
+      return;
+    }
+    // Without an open project (or an IDE) there is no editor to update: the store is updated by the next command
+    // that writes or drains.
+    if (commandProject() == null) {
+      syncScheduled.set(false);
+      return;
+    }
+    final ViewModels viewModels = this;
+    Application application = ApplicationManager.getApplication();
+    if (application != null) {
+      // Later, on the EDT: commands run there, and the caller (a write, a change listener, the end of a batch) may hold read or write access, or none, so it can neither start the command here nor wait for one.
+      application.invokeLater(() -> viewModels.runSync());
+    }
+  }
+  private void runSync() {
+    syncScheduled.set(false);
+    final Project commandProject = commandProject();
+    if (commandProject == null) {
+      return;
+    }
+    commandProject.getRepository().getModelAccess().executeUndoTransparentCommand(() -> sync(commandProject.getRepository(), true));
+  }
+  /**
+   * Updates the store now for every value that changed, and removes the values of deleted key nodes. Has to be
+   * called inside a command (of any project). A write needs no drain to be read back.
+   */
+  public void drain() {
+    SRepository current = repository;
+    if (current != null) {
+      sync(current, true);
+    }
+  }
+  /**
+   * Makes the store equal to the values at every path that changed. Needs write access, inside a command so that the
+   * editors are updated. With removeDeleted, the values of deleted key nodes are removed too. They are only looked
+   * for in a command of their own: inside the command that removed one, the node may still be added again (a move).
+   */
+  private void sync(SRepository syncRepository, boolean removeDeleted) {
+    ensureStore(syncRepository);
+    if (removeDeleted) {
+      removeDeletedKeys(syncRepository);
+    }
+    List<List<ViewModelKey>> paths = ListSequence.fromList(new ArrayList<List<ViewModelKey>>());
+    // writes on other threads go on marking paths while the store is updated; those are left for the next update
+    synchronized (outOfSync) {
+      ListSequence.fromList(paths).addSequence(SetSequence.fromSet(outOfSync));
+      SetSequence.fromSet(outOfSync).clear();
+    }
+    for (List<ViewModelKey> changedPath : ListSequence.fromList(paths)) {
+      syncPath(syncRepository, changedPath);
+    }
+  }
+  private void syncPath(SRepository syncRepository, List<ViewModelKey> path) {
+    Object value;
+    boolean isMap;
+    // a write on another thread may change the value right after this; it marks the path again, so the next update takes its value
+    synchronized (values) {
+      value = values.get(path);
+      isMap = values.hasEntries(path);
+    }
+    if (value != null) {
+      putEntry(syncRepository, path, value);
+      return;
+    }
+    if (!(isMap)) {
+      // nothing at the path any more
+      removeEntries(path);
+      return;
+    }
+    // a nested map: its entries are out of sync themselves, and replace a value in its place
+    SNode mapEntry = ((ListSequence.fromList(path).count() < 2 ? null : findEntry(path)));
+    if (mapEntry != null && !(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(mapEntry, LINKS.value$QjaP), CONCEPTS.MapValue$rT))) {
+      removeEntries(path);
+    }
+  }
+  private void putEntry(SRepository syncRepository, List<ViewModelKey> path, Object value) {
+    SNode branch = SLinkOperations.getTarget(getOrCreateViewModel(nameOf(path)), LINKS.root$gJLj);
+    for (int i = 1; i < ListSequence.fromList(path).count() - 1; i++) {
+      ViewModelKey key = ListSequence.fromList(path).getElement(i);
+      SNode entry = Hamt.get(branch, key);
+      if (entry != null && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(entry, LINKS.value$QjaP), CONCEPTS.MapValue$rT)) {
+        branch = SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(entry, LINKS.value$QjaP), CONCEPTS.MapValue$rT), LINKS.root$g5g6);
+        continue;
+      }
+      SNode keyNode = null;
+      if (entry == null) {
+        keyNode = key.createNode(syncRepository);
+        if (keyNode == null) {
+          // the node of the key is gone; its values are removed with it
+          return;
+        }
+      }
+      SNode nested = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x222fe3c7a9c818c3L, "com.jetbrains.mpsext.viewmodel.storage.structure.MapValue"));
+      SLinkOperations.setTarget(nested, LINKS.root$g5g6, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x4dd6de49b75aae4L, "com.jetbrains.mpsext.viewmodel.storage.structure.HamtBranch")));
+      Hamt.put(branch, key, keyNode, nested);
+      branch = SLinkOperations.getTarget(nested, LINKS.root$g5g6);
+    }
+    ViewModelKey lastKey = ListSequence.fromList(path).last();
+    SNode existing = Hamt.get(branch, lastKey);
+    SNode lastKeyNode = null;
+    if (existing == null) {
+      lastKeyNode = lastKey.createNode(syncRepository);
+      if (lastKeyNode == null) {
+        return;
+      }
+    }
+    if (value instanceof SNode) {
+      putNode(path, branch, existing, lastKeyNode, (SNode) value);
+      return;
+    }
+    if (existing != null && value.equals(objectOf(SLinkOperations.getTarget(existing, LINKS.value$QjaP)))) {
+      // an equal value: no editor has to be updated
+      return;
+    }
+    SNode objectValue = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x10b7ba6fe59a889aL, "com.jetbrains.mpsext.viewmodel.storage.structure.ObjectValue"));
+    objectValue.putUserObject(OBJECT_KEY, value);
+    Hamt.put(branch, lastKey, lastKeyNode, objectValue);
+  }
+  /**
+   * Copies a node value into the store, or on a rewrite updates the copy in place (NodeDiff), so that an editor
+   * showing it only updates the cells that show what changed. From then on the copy in the store is the value, so
+   * that a read returns the node the editors show.
+   */
+  private void putNode(List<ViewModelKey> path, SNode branch, SNode existing, SNode keyNode, SNode source) {
+    NodeDiff diff = new NodeDiff();
+    SNode content;
+    if (existing != null && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(existing, LINKS.value$QjaP), CONCEPTS.NodeValue$o7)) {
+      content = SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(existing, LINKS.value$QjaP), CONCEPTS.NodeValue$o7), LINKS.content$1Rh$);
+      if (content != source) {
+        content = diff.update(content, source);
+      }
+    } else {
+      SNode nodeValue = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x838cb66d4e174e8dL, 0xbf4a5b7e6122c705L, 0x83100b716021274L, "com.jetbrains.mpsext.viewmodel.storage.structure.NodeValue"));
+      content = diff.copy(source);
+      SLinkOperations.setTarget(nodeValue, LINKS.content$1Rh$, content);
+      Hamt.put(branch, ListSequence.fromList(path).last(), keyNode, nodeValue);
+    }
+    importLanguages(diff.getLanguages());
+    // A write on another thread may have replaced the value since syncPath read it: then replace leaves the newer value, which marked the path again.
+    synchronized (values) {
+      values.replace(path, source, content);
+    }
+  }
   public void nodeChanged(SNodeReference ref) {
     // called by the change listener, inside the write action of the change
-    markPendingStale(ref);
     for (List<ViewModelKey> path : ListSequence.fromList(index.getDependents(ref))) {
+      invalidate(path);
+    }
+  }
+  public void nodesInRootChanged(SNodeReference root, List<SNodeReference> changed) {
+    // Called by the change listener for a change below a root, inside the write action of the change: what
+    // depends on the root (RootDependency) is invalidated when it may have read one of the changed nodes.
+    for (List<ViewModelKey> path : ListSequence.fromList(index.getDependentsOfChange(new RootDependency(root), changed))) {
       invalidate(path);
     }
   }
 
   public void nodeRemoved(SNodeReference ref) {
     nodeChanged(ref);
-    List<List<ViewModelKey>> keyedPaths = index.getKeyedBy(ref);
-    if (ListSequence.fromList(keyedPaths).isEmpty()) {
+    if (!(index.isKeyed(ref))) {
       return;
     }
-    // The node may only be moved; whether it is gone is checked when the queue is drained.
+    // The node may only be moved; whether it is gone is checked by a later command (sync).
+    // release, on another thread and without model access, may clear the candidates at the same time
     synchronized (removedKeyCandidates) {
       SetSequence.fromSet(removedKeyCandidates).addElement(ref);
     }
-    for (List<ViewModelKey> path : ListSequence.fromList(keyedPaths)) {
-      Project project = index.getProject(path);
-      if (project != null) {
-        scheduleDrain(project);
-      }
-    }
+    scheduleSync();
   }
 
   public void modelReplaced(SModelReference modelRef) {
-    List<SNodeReference> stale = ListSequence.fromList(new ArrayList<SNodeReference>());
-    synchronized (pendingByDependency) {
-      for (SNodeReference ref : SetSequence.fromSet(MapSequence.fromMap(pendingByDependency).keySet())) {
-        if (modelRef.equals(ref.getModelReference())) {
-          ListSequence.fromList(stale).addElement(ref);
-        }
-      }
-    }
-    for (SNodeReference ref : ListSequence.fromList(stale)) {
-      markPendingStale(ref);
-    }
     for (List<ViewModelKey> path : ListSequence.fromList(index.getDependentsInModel(modelRef))) {
       invalidate(path);
     }
@@ -647,76 +851,24 @@ public final class ViewModels {
     removed.removeModelListener(tracker);
   }
 
+  /**
+   * Removes the value at once, after a dependency changed or the key node is gone. Inside the command of the change
+   * the store is updated in that command, so that its editor update includes the removal.
+   */
   private void invalidate(List<ViewModelKey> path) {
-    Project project = index.getProject(path);
-    index.remove(path);
-    if (project != null && !(project.isDisposed()) && !(project.getModelAccess().isCommandAction())) {
-      // outside of a command the editors wouldn't see the change
-      enqueue(new PendingWrite(project, path, null, SetSequence.fromSet(new HashSet<SNodeReference>())));
-      scheduleDrain(project);
-      return;
+    // the values and the index change together; other threads read and write them with no more than read access
+    synchronized (values) {
+      values.remove(path);
+      index.remove(path);
     }
-    removeEntries(path);
+    changed(path);
   }
 
-  public CompletableFuture<Boolean> writePathAsync(Project project, String viewModel, List<ViewModelKey> path, Object value, Set<SNodeReference> dependencies) {
-    // Can be called from any thread. A value computed from dependencies has to be passed while the read
-    // action it was computed in is still held, so that no change of a dependency can be missed. The
-    // future completes with true when the write was applied and with false when it was dropped.
-    Set<SNodeReference> deps = SetSequence.fromSet(new HashSet<SNodeReference>());
-    if (dependencies != null) {
-      SetSequence.fromSet(deps).addSequence(SetSequence.fromSet(dependencies));
-    }
-    if (SetSequence.fromSet(deps).isNotEmpty() && !(project.getModelAccess().canRead())) {
-      throw new IllegalStateException("writeAsync with dependencies has to be called inside the read action that computed the value");
-    }
-    Object queued = value;
-    if (value instanceof SNode) {
-      // the node may change before the write is applied, so a copy of it is queued
-      if (!(project.getModelAccess().canRead())) {
-        throw new IllegalStateException("writeAsync of a node has to be called with read access");
-      }
-      queued = SNodeOperations.copyNode(((SNode) value));
-    }
-    PendingWrite write = new PendingWrite(project, qualify(viewModel, path), queued, deps);
-    if (SetSequence.fromSet(deps).isNotEmpty()) {
-      // a change of a dependency before the write is applied has to be noticed
-      track(project.getRepository(), ListSequence.fromList(new ArrayList<ViewModelKey>()), deps);
-    }
-    enqueue(write);
-    if (batchDepth.get() == 0) {
-      scheduleDrain(project);
-    }
-    return write.getFuture();
-  }
-
-  private void enqueue(PendingWrite write) {
-    synchronized (pendingByDependency) {
-      for (SNodeReference dep : SetSequence.fromSet(write.getDependencies())) {
-        List<PendingWrite> writes = MapSequence.fromMap(pendingByDependency).get(dep);
-        if (writes == null) {
-          writes = ListSequence.fromList(new ArrayList<PendingWrite>());
-          MapSequence.fromMap(pendingByDependency).put(dep, writes);
-        }
-        ListSequence.fromList(writes).addElement(write);
-      }
-      ListSequence.fromList(pending).addElement(write);
-    }
-  }
-
-  private void markPendingStale(SNodeReference ref) {
-    synchronized (pendingByDependency) {
-      List<PendingWrite> writes = MapSequence.fromMap(pendingByDependency).removeKey(ref);
-      if (writes != null) {
-        for (PendingWrite write : ListSequence.fromList(writes)) {
-          write.markStale();
-        }
-      }
-    }
-  }
-
+  /**
+   * Starts a batch: until it is closed the store isn't updated for writes outside a command; then it is updated for
+   * all writes of the batch in one command.
+   */
   public ViewModelBatch startBatch() {
-    // Writes made with writeAsync until the batch is closed are applied together in one command.
     return new ViewModelBatch(this);
   }
 
@@ -728,124 +880,34 @@ public final class ViewModels {
     if (batchDepth.decrementAndGet() > 0) {
       return;
     }
-    Set<Project> projects = SetSequence.fromSet(new HashSet<Project>());
-    synchronized (pendingByDependency) {
-      for (PendingWrite write : ListSequence.fromList(pending)) {
-        SetSequence.fromSet(projects).addElement(write.getProject());
-      }
+    boolean anyChanged;
+    // writes on other threads mark paths at the same time
+    synchronized (outOfSync) {
+      anyChanged = SetSequence.fromSet(outOfSync).isNotEmpty();
     }
-    for (Project project : SetSequence.fromSet(projects)) {
-      scheduleDrain(project);
-    }
-  }
-
-  private void scheduleDrain(final Project project) {
-    synchronized (scheduledProjects) {
-      if (SetSequence.fromSet(scheduledProjects).contains(project)) {
-        return;
-      }
-      SetSequence.fromSet(scheduledProjects).addElement(project);
-    }
-    final ViewModels viewModels = this;
-    ApplicationManager.getApplication().invokeLater(new Runnable() {
-      public void run() {
-        viewModels.runDrain(project);
-      }
-    });
-  }
-
-  public void runDrain(final Project project) {
-    synchronized (scheduledProjects) {
-      SetSequence.fromSet(scheduledProjects).removeElement(project);
-    }
-    final ViewModels viewModels = this;
-    // A project closed in the meantime can't run the command. The queue holds the removals of its entries
-    // (closing a project removes its models in a write action outside a command), so it is drained through
-    // another open project or, when none is open, in a write action: then there is no editor to update.
-    Project target = ((project.isDisposed() ? findProject(null) : project));
-    if (target == null) {
-      SModel storeModel = model;
-      final SRepository repository = ((storeModel == null ? null : storeModel.getRepository()));
-      if (repository == null) {
-        // no store, so nothing to remove
-        for (PendingWrite write : ListSequence.fromList(takePending())) {
-          write.getFuture().complete(false);
-        }
-        return;
-      }
-      repository.getModelAccess().runWriteAction(new Runnable() {
-        public void run() {
-          viewModels.drainQueue(repository);
-        }
-      });
-      return;
-    }
-    final Project commandProject = target;
-    commandProject.getModelAccess().executeUndoTransparentCommand(new Runnable() {
-      public void run() {
-        viewModels.drain(commandProject);
-      }
-    });
-  }
-
-  private List<PendingWrite> takePending() {
-    // the queued writes of all projects
-    List<PendingWrite> taken = ListSequence.fromList(new ArrayList<PendingWrite>());
-    synchronized (pendingByDependency) {
-      ListSequence.fromList(taken).addSequence(ListSequence.fromList(pending));
-      ListSequence.fromList(pending).clear();
-      MapSequence.fromMap(pendingByDependency).clear();
-    }
-    return taken;
-  }
-
-
-  public void drain(Project project) {
-    // The queued writes of all projects, in the order they were made; the last write to a path wins. Has to be
-    // called inside a command, which may be one of any project: MPS runs the commands of all projects through
-    // one model access, so the editors of every project are updated when it ends. The project only provides
-    // the repository.
-    drainQueue(project.getRepository());
-  }
-  private void drainQueue(SRepository repository) {
-    // Needs write access. Each write is applied through the project it was queued for. A removal is applied
-    // even when that project was closed in the meantime: it needs no project, and the entries would otherwise
-    // stay in the store with nothing left to invalidate them. Other writes of a closed project are dropped.
-    for (PendingWrite write : ListSequence.fromList(takePending())) {
-      boolean closed = write.getValue() != null && write.getProject().isDisposed();
-      if (write.isStale() || closed) {
-        write.getFuture().complete(false);
-        continue;
-      }
-      try {
-        write.getFuture().complete(apply(write.getProject(), write.getPath(), write.getValue(), write.getDependencies()));
-      } catch (RuntimeException ex) {
-        write.getFuture().completeExceptionally(ex);
-      }
-    }
-    removeDeletedKeys(repository);
-  }
-  public void drainAll() {
-    // drain without a project at hand; has to be called inside a command
-    Project project = findProject(null);
-    if (project != null) {
-      drain(project);
+    if (anyChanged) {
+      scheduleSync();
     }
   }
 
-  private void removeDeletedKeys(SRepository repository) {
+  private void removeDeletedKeys(SRepository syncRepository) {
     List<SNodeReference> candidates = ListSequence.fromList(new ArrayList<SNodeReference>());
+    // the change listener adds candidates, and release clears them, on other threads
     synchronized (removedKeyCandidates) {
       ListSequence.fromList(candidates).addSequence(SetSequence.fromSet(removedKeyCandidates));
       SetSequence.fromSet(removedKeyCandidates).clear();
     }
     for (SNodeReference ref : ListSequence.fromList(candidates)) {
-      if (ref.resolve(repository) != null) {
+      if (ref.resolve(syncRepository) != null) {
         continue;
       }
-      for (List<ViewModelKey> path : ListSequence.fromList(index.getKeyedBy(ref))) {
-        removeEntries(path);
-        index.remove(path);
+      for (List<ViewModelKey> keyedPath : ListSequence.fromList(index.getKeyedBy(ref))) {
+        // the values and the index change together; other threads read and write them with no more than read access
+        synchronized (values) {
+          values.remove(keyedPath);
+          index.remove(keyedPath);
+        }
+        markOutOfSync(keyedPath);
       }
     }
   }

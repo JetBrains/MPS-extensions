@@ -18,13 +18,14 @@ import org.junit.Assert;
 import com.jetbrains.mpsext.viewmodel.runtime.Computed;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.project.Project;
-import jetbrains.mps.ide.ThreadUtils;
-import jetbrains.mps.openapi.editor.cells.EditorCell;
-import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
-import jetbrains.mps.openapi.editor.cells.EditorCell_Label;
+import com.jetbrains.mpsext.viewmodel.runtime.ViewModelBatch;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 @MPSLaunch
 public class ViewModelEditorTest_Test extends BaseTransformationTest {
@@ -39,6 +40,14 @@ public class ViewModelEditorTest_Test extends BaseTransformationTest {
   public void test_editorShowsTheValueAndIsUpdated() throws Throwable {
     new TestBody(this).test_editorShowsTheValueAndIsUpdated();
   }
+  @Test
+  public void test_aWriteOutsideACommandIsReadBackAtOnceAndShownLater() throws Throwable {
+    new TestBody(this).test_aWriteOutsideACommandIsReadBackAtOnceAndShownLater();
+  }
+  @Test
+  public void test_aNodeWrittenOutsideACommandIsCopiedByTheWrite() throws Throwable {
+    new TestBody(this).test_aNodeWrittenOutsideACommandIsCopiedByTheWrite();
+  }
 
   /*package*/ static class TestBody extends BaseTestBody {
 
@@ -48,7 +57,7 @@ public class ViewModelEditorTest_Test extends BaseTransformationTest {
 
     @Override
     protected void initTestNodes() {
-      prepareTestNodes("2654650570903872674");
+      prepareTestNodes("2654650570903872674", "3037719652091707826");
     }
 
     public void test_editorShowsTheValueAndIsUpdated() throws Exception {
@@ -56,48 +65,107 @@ public class ViewModelEditorTest_Test extends BaseTransformationTest {
       // Each step is a command of its own, as in the IDE: an editor collects the model events of the commands
       // that start after it was built, and updates when such a command finishes. Since MPS 2026.1 an editor
       // built inside a command misses the events of that same command.
-      final ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forProject(myProject);
+      final ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
       final SNode item = getAnnotatedNode("a");
       final HeadlessEditorComponent[] editor = new HeadlessEditorComponent[1];
-      this.command(myProject, () -> {
+      ViewModelTestUtil.command(myProject, () -> {
         vm.clear();
         editor[0] = new HeadlessEditorComponent(myProject.getRepository());
         editor[0].editNode(item);
-        Assert.assertEquals("<none>", TestBody.this.valueCellText(editor[0]));
+        Assert.assertEquals("<none>", ViewModelTestUtil.valueCellText(editor[0]));
       });
       try {
-        this.command(myProject, () -> {
+        ViewModelTestUtil.command(myProject, () -> {
           Computed<String> computed = vm.compute(() -> SPropertyOperations.getString(item, PROPS.input$_sYF) + "!");
           vm.writeComputed(item, computed);
         });
-        this.command(myProject, () -> {
-          Assert.assertEquals("x!", TestBody.this.valueCellText(editor[0]));
+        ViewModelTestUtil.command(myProject, () -> {
+          Assert.assertEquals("x!", ViewModelTestUtil.valueCellText(editor[0]));
           SPropertyOperations.assign(item, PROPS.input$_sYF, "changed");
         });
-        this.command(myProject, () -> Assert.assertEquals("<none>", TestBody.this.valueCellText(editor[0])));
+        ViewModelTestUtil.command(myProject, () -> Assert.assertEquals("<none>", ViewModelTestUtil.valueCellText(editor[0])));
       } finally {
-        this.command(myProject, () -> editor[0].dispose());
+        ViewModelTestUtil.command(myProject, () -> editor[0].dispose());
       }
+    }
+    /**
+     * A write as a background computation makes it: in a read action, not in a command. It is read back at once,
+     * and the editor is updated by the command that the write schedules on the EDT.
+     */
+    public void test_aWriteOutsideACommandIsReadBackAtOnceAndShownLater() throws Exception {
+      initTestNodes();
+      final Project p = myProject;
+      final ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
+      final SNode item = getAnnotatedNode("a");
+      final HeadlessEditorComponent[] editor = new HeadlessEditorComponent[1];
+      ViewModelTestUtil.command(p, () -> {
+        vm.clear();
+        editor[0] = new HeadlessEditorComponent(p.getRepository());
+        editor[0].editNode(item);
+        Assert.assertEquals("the editor of " + SPropertyOperations.getString(item, PROPS.name$MnvL) + " shows no value after the view model was cleared", "<none>", ViewModelTestUtil.valueCellText(editor[0]));
+      });
+      try {
+        p.getRepository().getModelAccess().runReadAction(() -> {
+          Computed<String> computed = vm.compute(() -> SPropertyOperations.getString(item, PROPS.input$_sYF) + "?");
+          Assert.assertTrue("a write in a read action, outside a command, is stored", vm.writeComputed(item, computed).getNow(false));
+          Assert.assertEquals("a write outside a command is read back in the same read action", "x?", vm.get(item));
+        });
+        Assert.assertEquals("the editor of " + SPropertyOperations.getString(item, PROPS.name$MnvL) + " shows the value written outside a command once the scheduled store update has run", "x?", ViewModelTestUtil.waitForValueCellText(p, editor[0], "x?"));
+        // a change of the dependency, in a command: removed from the values and the store in that command
+        ViewModelTestUtil.command(p, () -> {
+          SPropertyOperations.assign(item, PROPS.input$_sYF, "changed");
+          Assert.assertNull("a change of input of " + SPropertyOperations.getString(item, PROPS.name$MnvL) + ", which the value was computed from, removes the value in the same command", vm.get(item));
+        });
+        ViewModelTestUtil.command(p, () -> Assert.assertEquals("the editor of " + SPropertyOperations.getString(item, PROPS.name$MnvL) + " shows no value once the command that removed it has ended", "<none>", ViewModelTestUtil.valueCellText(editor[0])));
+      } finally {
+        ViewModelTestUtil.command(p, () -> editor[0].dispose());
+      }
+    }
+    /**
+     * A node written outside a command is copied by the write: a change of the source before the store is updated
+     * isn't part of the value. The batch holds the store update back until the source has changed.
+     */
+    public void test_aNodeWrittenOutsideACommandIsCopiedByTheWrite() throws Exception {
+      initTestNodes();
+      final Project p = myProject;
+      final ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
+      final SNode item = getAnnotatedNode("a");
+      final SNode source = getAnnotatedNode("tree");
+      ViewModelTestUtil.command(p, () -> vm.clear());
+      ViewModelBatch batch = vm.startBatch();
+      try {
+        p.getRepository().getModelAccess().runReadAction(() -> Assert.assertTrue("a node value written in a read action, outside a command, is stored", vm.write(item, source, null).getNow(false)));
+        ViewModelTestUtil.command(p, () -> SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).first(), PROPS.label$IRFe, "changed"));
+        p.getRepository().getModelAccess().runReadAction(() -> {
+          SNode value = SNodeOperations.cast(vm.getNode(item), CONCEPTS.TestTree$V5);
+          Assert.assertEquals("the value of " + SPropertyOperations.getString(item, PROPS.name$MnvL) + " is the copy of " + SPropertyOperations.getString(source, PROPS.name$MnvL) + " made by the write, without the later change of the label of " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).first(), PROPS.name$MnvL), "1", SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(value, LINKS.items$WHh4)).first(), PROPS.label$IRFe));
+        });
+      } finally {
+        batch.close();
+      }
+      ViewModelTestUtil.command(p, () -> {
+        vm.drain();
+        SNode stored = SNodeOperations.cast(vm.getNode(item), CONCEPTS.TestTree$V5);
+        Assert.assertNotNull("after the store update the value of " + SPropertyOperations.getString(item, PROPS.name$MnvL) + " is the node in the store", SNodeOperations.getModel(stored));
+        Assert.assertEquals("the store holds the copy of " + SPropertyOperations.getString(source, PROPS.name$MnvL) + " made by the write, without the later change of the label of " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).first(), PROPS.name$MnvL), "1", SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).first(), PROPS.label$IRFe));
+        SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).first(), PROPS.label$IRFe, "1");
+        vm.clear();
+      });
     }
 
-    public void command(final Project p, final Runnable action) {
-      Exception exception = ThreadUtils.runInUIThreadAndWait(() -> p.getModelAccess().executeCommand(action));
-      if (exception != null) {
-        throw new RuntimeException(exception);
-      }
-    }
-    public String valueCellText(HeadlessEditorComponent editor) {
-      String text = null;
-      for (EditorCell cell : Sequence.fromIterable((EditorCell_Collection) editor.getRootCell())) {
-        if (cell instanceof EditorCell_Label) {
-          text = ((EditorCell_Label) cell).getText();
-        }
-      }
-      return text;
-    }
   }
 
   private static final class PROPS {
     /*package*/ static final SProperty input$_sYF = MetaAdapterFactory.getProperty(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x2ca97b783b1b7b84L, 0x39e05b8c02dc4cb2L, "input");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+    /*package*/ static final SProperty label$IRFe = MetaAdapterFactory.getProperty(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, 0x4d1a0d2e910043eaL, "label");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink items$WHh4 = MetaAdapterFactory.getContainmentLink(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, 0x4901e03b85761c22L, "items");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept TestTree$V5 = MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x555d295c2766266L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestTree");
   }
 }

@@ -38,17 +38,17 @@ viewmodel/CheckResults/.remove(node);
 viewmodel/CheckResults/.clear();
 ```
 
-A write can be made from any thread and returns a `CompletableFuture<Boolean>`:
+A write can be made from any thread, needs no project, and is stored at once: reading the value right after writing it
+returns it, inside a command or not, in the IDE and in a headless run (e.g. code that runs while an Ant build
+generates).
 
-* Inside a command the value is applied at once.
-* Otherwise it is queued and applied in a command on the EDT. Call it while you still hold the read access under which
-  the value was computed: if one of its dependencies changes before the write is applied, the write is dropped.
-* The future completes with `true` when the value was stored and with `false` when it was dropped (a dependency changed,
-  the node is in a read-only model or was deleted, or no project is open).
-
-Writes go through the project that contains the node, which is found automatically. In editor code the project of the
-editor is used. Elsewhere a project can be given explicitly with `viewmodel/CheckResults/(project)`: type `(` after the
-expression.
+* Write a value computed from other nodes while you still hold the read access under which it was computed, so that no
+  change of a dependency can be missed.
+* Editors are updated when the command the write is made in ends. A write outside a command updates them in a command
+  that is run on the EDT afterwards.
+* The write returns a `CompletableFuture<Boolean>` that is already completed: `true` when the value was stored, `false`
+  when it was rejected because the node is in a read-only model or isn't in a model of the repository (e.g. a node of
+  a transient model while generating).
 
 ## Java API
 
@@ -56,14 +56,13 @@ Code that doesn't use the language depends on the runtime solution and uses the 
 
 ```java
 ViewModel results = ViewModels.named("my.language.checkResults");
-ViewModel inProject = ViewModels.named("my.language.checkResults").forProject(project);
 
 Object value = results.get(node);
 results.write(node, value, dependencies);         // dependencies: set<SNodeReference>, may be null
 results.writeComputed(node, results.compute(() -> evaluate(node)));
 results.writePath(path, value, dependencies);     // composite keys: list<ViewModelKey>
 try (ViewModelBatch batch = results.startBatch()) {
-  // many writes, applied together in one command
+  // many writes outside a command: the editors are updated for all of them in one command
 }
 ```
 
@@ -83,11 +82,19 @@ A value is removed when:
 * a model it was computed from is reloaded from disk, or removed from the repository;
 * the node it belongs to is deleted.
 
-Only reads made inside `compute` are recorded. Dependencies passed explicitly to `write` are used as they are. A stored
-object whose class was unloaded by a class reload reads as `null`.
+Only reads made inside `compute` are recorded. Dependencies passed explicitly to `write` are used as they are; the
+dependencies of several computations can be merged into one set. A stored object whose class was unloaded by a class
+reload reads as `null`.
+
+A computation that reads more than 100 nodes of one model doesn't depend on each of them: it depends on the roots that
+contain them, together with a filter of the nodes it read (`RootDependency`). A change below such a root removes the
+value when the changed node may be one of those nodes. The filter lets through about one change in a hundred of a node
+that wasn't read, so such a change occasionally removes a value too. The limit is set with the system property
+`mpsext.viewmodel.nodeDependencyLimit` (for example `-Dmpsext.viewmodel.nodeDependencyLimit=500`).
 
 ## View Models tool window
 
 The *View Models* tool window shows the content of all view models: the keys, the values, and the nodes each value was
 computed from. *Remove* deletes the selected entry. *Show View Model Entries* in the *Language Debug* context menu of the
-editor shows the entries of the selected node.
+editor shows the entries of the selected node. The rows below a row are added when it is first expanded, and the rows
+are dropped while the tool window is hidden.

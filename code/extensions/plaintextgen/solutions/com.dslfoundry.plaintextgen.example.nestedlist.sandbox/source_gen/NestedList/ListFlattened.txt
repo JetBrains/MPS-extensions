@@ -1,4 +1,4 @@
- * a, aa, aaa
+ * aaa
  * ab
  * ac
  * ba

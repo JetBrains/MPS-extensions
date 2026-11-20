@@ -226,6 +226,7 @@
       <modulePath path="$PROJECT_DIR$/tables/solutions/test.de.slisson.mps.tables/test.de.slisson.mps.tables.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/testing/languages/nl.f1re.testing.examples.lang/nl.f1re.testing.examples.lang.mpl" folder="testing" />
       <modulePath path="$PROJECT_DIR$/testing/languages/nl.f1re.testing/nl.f1re.testing.mpl" folder="testing" />
+      <modulePath path="$PROJECT_DIR$/testing/solutions/com.jetbrains.mpsext.testing.tests/com.jetbrains.mpsext.testing.tests.msd" folder="testing" />
       <modulePath path="$PROJECT_DIR$/testing/solutions/nl.f1re.testing.examples/nl.f1re.testing.examples.msd" folder="testing" />
       <modulePath path="$PROJECT_DIR$/testing/solutions/nl.f1re.testing.runtime/nl.f1re.testing.runtime.msd" folder="testing" />
       <modulePath path="$PROJECT_DIR$/third-party/solutions/MPS.ThirdParty/MPS.ThirdParty.msd" folder="3rd-party" />

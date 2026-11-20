@@ -66,9 +66,7 @@ public final class NamedViewModel implements ViewModel {
     return writePath(ViewModels.path(node), computed.getValue(), computed.getDependencies());
   }
   public CompletableFuture<Boolean> writePath(List<ViewModelKey> path, Object value, Set<SNodeReference> dependencies) {
-    ViewModels viewModels = ViewModels.getInstance();
-    CompletableFuture<Boolean> written = viewModels.writePath(name, path, value, dependencies);
-    return written;
+    return ViewModels.getInstance().writePath(name, path, value, dependencies);
   }
   public CompletableFuture<Boolean> remove(SNode node) {
     // removes the value of the node, and the values of composite keys that start with the node
@@ -92,8 +90,7 @@ public final class NamedViewModel implements ViewModel {
    * command. Has to be called inside a command.
    */
   public void drain() {
-    ViewModels viewModels = ViewModels.getInstance();
-    viewModels.drain();
+    ViewModels.getInstance().drain();
   }
 
   @Override

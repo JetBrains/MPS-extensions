@@ -22,11 +22,6 @@ import com.jetbrains.mpsext.viewmodel.runtime.ViewModelBatch;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.ide.ThreadUtils;
-import jetbrains.mps.openapi.editor.cells.EditorCell;
-import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
-import jetbrains.mps.openapi.editor.cells.EditorCell_Label;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -73,24 +68,24 @@ public class ViewModelEditorTest_Test extends BaseTransformationTest {
       final ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
       final SNode item = getAnnotatedNode("a");
       final HeadlessEditorComponent[] editor = new HeadlessEditorComponent[1];
-      this.command(myProject, () -> {
+      ViewModelTestUtil.command(myProject, () -> {
         vm.clear();
         editor[0] = new HeadlessEditorComponent(myProject.getRepository());
         editor[0].editNode(item);
-        Assert.assertEquals("<none>", TestBody.this.valueCellText(editor[0]));
+        Assert.assertEquals("<none>", ViewModelTestUtil.valueCellText(editor[0]));
       });
       try {
-        this.command(myProject, () -> {
+        ViewModelTestUtil.command(myProject, () -> {
           Computed<String> computed = vm.compute(() -> SPropertyOperations.getString(item, PROPS.input$_sYF) + "!");
           vm.writeComputed(item, computed);
         });
-        this.command(myProject, () -> {
-          Assert.assertEquals("x!", TestBody.this.valueCellText(editor[0]));
+        ViewModelTestUtil.command(myProject, () -> {
+          Assert.assertEquals("x!", ViewModelTestUtil.valueCellText(editor[0]));
           SPropertyOperations.assign(item, PROPS.input$_sYF, "changed");
         });
-        this.command(myProject, () -> Assert.assertEquals("<none>", TestBody.this.valueCellText(editor[0])));
+        ViewModelTestUtil.command(myProject, () -> Assert.assertEquals("<none>", ViewModelTestUtil.valueCellText(editor[0])));
       } finally {
-        this.command(myProject, () -> editor[0].dispose());
+        ViewModelTestUtil.command(myProject, () -> editor[0].dispose());
       }
     }
     /**
@@ -158,21 +153,6 @@ public class ViewModelEditorTest_Test extends BaseTransformationTest {
       });
     }
 
-    public void command(final Project p, final Runnable action) {
-      Exception exception = ThreadUtils.runInUIThreadAndWait(() -> p.getModelAccess().executeCommand(action));
-      if (exception != null) {
-        throw new RuntimeException(exception);
-      }
-    }
-    public String valueCellText(HeadlessEditorComponent editor) {
-      String text = null;
-      for (EditorCell cell : Sequence.fromIterable((EditorCell_Collection) editor.getRootCell())) {
-        if (cell instanceof EditorCell_Label) {
-          text = ((EditorCell_Label) cell).getText();
-        }
-      }
-      return text;
-    }
   }
 
   private static final class PROPS {

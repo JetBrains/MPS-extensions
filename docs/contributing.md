@@ -18,3 +18,30 @@ Code in pull requests follows the [coding standards](https://github.com/JetBrain
 
 If you want to add a completely new extension, please refer to [adding a new extension](adding.md) for more information.
 Please consider contributing documentation for the new extension.   
+
+## Pre-commit checks
+
+The repository runs [MPS pre-commit hooks](https://github.com/specificlanguages/mps-pre-commit-hooks) with
+[prek](https://github.com/j178/prek). They catch broken MPS project structure, such as module or model files with
+the wrong name, invalid XML, or wrong language versions. The hooks are configured in `.pre-commit-config.yaml`.
+The pull request build runs them, so a pull request that breaks a check fails.
+
+To run the checks on your machine, [install prek](https://prek.j178.dev/installation/) and install the Git hook
+once in your checkout:
+
+```bash
+prek install
+```
+
+After that, the checks run on every commit. To run them on the whole repository:
+
+```bash
+prek run --all-files
+```
+
+[pre-commit](https://pre-commit.com) works as well, with the same commands. Unlike prek, it does not download
+Python for you: install the Python version that the hooks set as `language_version` in their
+[`.pre-commit-hooks.yaml`](https://github.com/specificlanguages/mps-pre-commit-hooks/blob/main/.pre-commit-hooks.yaml).
+
+Some existing files and modules break a check. `.pre-commit-config.yaml` lists them as exclusions, so the checks
+apply to new code only. Do not add exclusions for new code. Fix the problem instead.

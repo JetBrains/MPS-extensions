@@ -19,6 +19,7 @@ import com.jetbrains.mpsext.viewmodel.runtime.Computed;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.project.Project;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelBatch;
+import com.jetbrains.mpsext.viewmodel.runtime.Dependencies;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -134,7 +135,7 @@ public class ViewModelEditorTest_Test extends BaseTransformationTest {
       ViewModelTestUtil.command(p, () -> vm.clear());
       ViewModelBatch batch = vm.startBatch();
       try {
-        p.getRepository().getModelAccess().runReadAction(() -> Assert.assertTrue("a node value written in a read action, outside a command, is stored", vm.write(item, source, null).getNow(false)));
+        p.getRepository().getModelAccess().runReadAction(() -> Assert.assertTrue("a node value written in a read action, outside a command, is stored", vm.write(item, source, Dependencies.NONE).getNow(false)));
         ViewModelTestUtil.command(p, () -> SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).first(), PROPS.label$IRFe, "changed"));
         p.getRepository().getModelAccess().runReadAction(() -> {
           SNode value = SNodeOperations.cast(vm.getNode(item), CONCEPTS.TestTree$V5);

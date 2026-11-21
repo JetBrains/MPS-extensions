@@ -12,10 +12,15 @@ import jetbrains.mps.lang.test.runtime.BaseTestBody;
 import jetbrains.mps.lang.test.runtime.TransformationTest;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModel;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModels;
+import com.jetbrains.mpsext.viewmodel.runtime.Dependencies;
 import org.junit.Assert;
 import org.jetbrains.mps.openapi.model.SNode;
 import com.jetbrains.mpsext.viewmodel.runtime.Computed;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import java.util.Set;
+import org.jetbrains.mps.openapi.model.SNodeReference;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.HashSet;
 import java.util.List;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelKey;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -24,16 +29,12 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import com.jetbrains.mpsext.viewmodel.runtime.RootDependency;
 import com.jetbrains.mpsext.viewmodel.runtime.ReadRecorder;
-import java.util.Set;
-import org.jetbrains.mps.openapi.model.SNodeReference;
-import java.util.HashSet;
 import org.jetbrains.mps.openapi.model.SNodeChangeListener;
 import org.jetbrains.mps.openapi.event.SPropertyChangeEvent;
 import org.jetbrains.mps.openapi.event.SReferenceChangeEvent;
@@ -63,6 +64,10 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
   @Test
   public void test_computedValueIsRemovedWhenADependencyChanges() throws Throwable {
     new TestBody(this).test_computedValueIsRemovedWhenADependencyChanges();
+  }
+  @Test
+  public void test_aWriteWithNodeDependenciesIsRemovedWhenOneOfThemChanges() throws Throwable {
+    new TestBody(this).test_aWriteWithNodeDependenciesIsRemovedWhenOneOfThemChanges();
   }
   @Test
   public void test_nestedKeys() throws Throwable {
@@ -169,7 +174,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
-        vm.write(getAnnotatedNode("a"), "v", null);
+        vm.write(getAnnotatedNode("a"), "v", Dependencies.NONE);
         Assert.assertEquals("v", vm.get(getAnnotatedNode("a")));
         Assert.assertNull(vm.get(getAnnotatedNode("b")));
         vm.remove(getAnnotatedNode("a"));
@@ -183,14 +188,14 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         ViewModel other = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Other");
         vm.clear();
         other.clear();
-        vm.write(getAnnotatedNode("a"), "test value", null);
-        other.write(getAnnotatedNode("a"), "other value", null);
+        vm.write(getAnnotatedNode("a"), "test value", Dependencies.NONE);
+        other.write(getAnnotatedNode("a"), "other value", Dependencies.NONE);
         Assert.assertEquals("test value", vm.get(getAnnotatedNode("a")));
         Assert.assertEquals("other value", other.get(getAnnotatedNode("a")));
         vm.remove(getAnnotatedNode("a"));
         Assert.assertNull(vm.get(getAnnotatedNode("a")));
         Assert.assertEquals("other value", other.get(getAnnotatedNode("a")));
-        vm.write(getAnnotatedNode("a"), "test value", null);
+        vm.write(getAnnotatedNode("a"), "test value", Dependencies.NONE);
         other.clear();
         Assert.assertNull(other.get(getAnnotatedNode("a")));
         Assert.assertEquals("test value", vm.get(getAnnotatedNode("a")));
@@ -211,6 +216,24 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         Assert.assertNull(vm.get(getAnnotatedNode("a")));
       });
     }
+    public void test_aWriteWithNodeDependenciesIsRemovedWhenOneOfThemChanges() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
+        vm.clear();
+        SNode item = getAnnotatedNode("a");
+        SNode other = getAnnotatedNode("b");
+        // dependencies that the caller collected itself, written through the overload that takes node references
+        Set<SNodeReference> dependencies = SetSequence.fromSet(new HashSet<SNodeReference>());
+        SetSequence.fromSet(dependencies).addElement(other.getReference());
+        vm.write(item, "value", dependencies);
+        Assert.assertTrue("the node references are dependencies on the nodes", SetSequence.fromSet(ViewModels.getInstance().getDependencies(vm.getName(), ViewModels.path(item)).getNodes()).contains(other.getReference()));
+        SPropertyOperations.assign(item, PROPS.input$_sYF, "changed");
+        Assert.assertNotNull("a change of the key node, which is no dependency, keeps the value", vm.get(item));
+        SPropertyOperations.assign(other, PROPS.input$_sYF, "changed");
+        Assert.assertNull("a change of a node that the caller passed as a dependency removes the value", vm.get(item));
+      });
+    }
     public void test_nestedKeys() throws Exception {
       initTestNodes();
       runWithinCommand(() -> {
@@ -224,14 +247,14 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         ListSequence.fromList(second).addElement(ViewModelKey.forNode(getAnnotatedNode("a")));
         ListSequence.fromList(second).addElement(ViewModelKey.forString("group"));
         ListSequence.fromList(second).addElement(ViewModelKey.forString("second"));
-        vm.writePath(first, "1", null);
-        vm.writePath(second, "2", null);
+        vm.writePath(first, "1", Dependencies.NONE);
+        vm.writePath(second, "2", Dependencies.NONE);
         Assert.assertEquals("1", vm.getPath(first));
         Assert.assertEquals("2", vm.getPath(second));
-        vm.writePath(first, null, null);
+        vm.writePath(first, null, Dependencies.NONE);
         Assert.assertNull(vm.getPath(first));
         Assert.assertEquals("2", vm.getPath(second));
-        vm.writePath(second, null, null);
+        vm.writePath(second, null, Dependencies.NONE);
         Assert.assertNull(vm.getPath(second));
       });
     }
@@ -246,12 +269,12 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         for (int i = 0; i < count; i++) {
           List<ViewModelKey> path = ViewModels.path(item);
           ListSequence.fromList(path).addElement(ViewModelKey.forString("key" + i));
-          vm.writePath(path, i, null);
+          vm.writePath(path, i, Dependencies.NONE);
         }
         for (int i = 0; i < count; i += 2) {
           List<ViewModelKey> path = ViewModels.path(item);
           ListSequence.fromList(path).addElement(ViewModelKey.forString("key" + i));
-          vm.writePath(path, null, null);
+          vm.writePath(path, null, Dependencies.NONE);
         }
         for (int i = 0; i < count; i++) {
           List<ViewModelKey> path = ViewModels.path(item);
@@ -273,7 +296,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
       runWithinCommand(() -> {
         ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
-        vm.write(getAnnotatedNode("b"), "value", null);
+        vm.write(getAnnotatedNode("b"), "value", Dependencies.NONE);
         List<ViewModelKey> path = ViewModels.path(getAnnotatedNode("b"));
         Assert.assertEquals("value", vm.getPath(path));
         SNodeOperations.deleteNode(getAnnotatedNode("b"));
@@ -287,7 +310,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         SNode readOnly = ((SConcept) SNodeOperations.getConcept(getAnnotatedNode("a"))).getSuperConcept().getDeclarationNode();
         Assert.assertTrue(readOnly.getModel().isReadOnly());
-        Assert.assertFalse(vm.write(readOnly, "value", null).getNow(true));
+        Assert.assertFalse(vm.write(readOnly, "value", Dependencies.NONE).getNow(true));
         Assert.assertNull(vm.get(readOnly));
       });
     }
@@ -301,7 +324,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         SNode loose = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x2ca97b783b1b7b84L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestItem"));
         SPropertyOperations.assign(loose, PROPS.name$MnvL, "loose");
-        Assert.assertFalse("a write for the node " + SPropertyOperations.getString(loose, PROPS.name$MnvL) + ", which is in no model, is rejected", vm.write(loose, "value", null).getNow(true));
+        Assert.assertFalse("a write for the node " + SPropertyOperations.getString(loose, PROPS.name$MnvL) + ", which is in no model, is rejected", vm.write(loose, "value", Dependencies.NONE).getNow(true));
         Assert.assertNull("the rejected write for the node " + SPropertyOperations.getString(loose, PROPS.name$MnvL) + " stores nothing", vm.get(loose));
       });
     }
@@ -317,8 +340,8 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
           Computed<String> nested = inner.compute(() -> SPropertyOperations.getString(second, PROPS.input$_sYF));
           return SPropertyOperations.getString(first, PROPS.input$_sYF) + nested.getValue();
         });
-        Assert.assertTrue(SetSequence.fromSet(outer.getDependencies()).contains(first.getReference()));
-        Assert.assertTrue(SetSequence.fromSet(outer.getDependencies()).contains(second.getReference()));
+        Assert.assertTrue(SetSequence.fromSet(outer.getDependencies().getNodes()).contains(first.getReference()));
+        Assert.assertTrue(SetSequence.fromSet(outer.getDependencies().getNodes()).contains(second.getReference()));
       });
     }
     public void test_aComputationOverTheRootsIsRemovedWhenARootIsAdded() throws Exception {
@@ -327,7 +350,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         final SNode item = getAnnotatedNode("a");
-        final SModel model = item.getModel();
+        final SModel model = SNodeOperations.getModel(item);
         Computed<Integer> computed = vm.compute(() -> {
           int count = 0;
           for (SNode root : Sequence.fromIterable(model.getRootNodes())) {
@@ -335,7 +358,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
           }
           return count;
         });
-        Assert.assertTrue(SetSequence.fromSet(computed.getDependencies()).contains(ViewModels.rootsOf(model.getReference())));
+        Assert.assertTrue("a computation that listed the roots of the model depends on them, but its dependencies are " + computed.getDependencies(), SetSequence.fromSet(computed.getDependencies().getRootLists()).contains(model.getReference()));
         vm.writeComputed(item, computed);
         Assert.assertNotNull(vm.get(item));
         SNode added = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x2ca97b783b1b7b84L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestItem"));
@@ -364,7 +387,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
           return labels;
         });
         Assert.assertNotNull("a computation that read " + (ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).count() + 1) + " nodes of the copy of many depends on its root, but its dependencies are " + computed.getDependencies(), RootDependencyFixtures.rootDependencyOn(computed.getDependencies(), tree));
-        Assert.assertFalse("the nodes below the root are no dependencies of their own, but " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first(), PROPS.name$MnvL) + " is one", SetSequence.fromSet(computed.getDependencies()).contains(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first().getReference()));
+        Assert.assertFalse("the nodes below the root are no dependencies of their own, but " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first(), PROPS.name$MnvL) + " is one", SetSequence.fromSet(computed.getDependencies().getNodes()).contains(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first().getReference()));
         vm.writeComputed(item, computed);
         Assert.assertNotNull("the computed value is stored", vm.get(item));
         // a change of a node it read below the root changes the dependency on the root
@@ -605,10 +628,8 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
           }
           return labels;
         });
-        Set<SNodeReference> merged = SetSequence.fromSet(new HashSet<SNodeReference>());
-        SetSequence.fromSet(merged).addSequence(SetSequence.fromSet(first.getDependencies()));
-        SetSequence.fromSet(merged).addSequence(SetSequence.fromSet(second.getDependencies()));
-        Assert.assertTrue("the merged dependencies keep the dependency on the root of each computation, but they are " + merged, SetSequence.fromSet(merged).count() == 2);
+        Dependencies merged = first.getDependencies().union(second.getDependencies());
+        Assert.assertTrue("the merged dependencies keep the dependency on the root of each computation, but they are " + merged, SetSequence.fromSet(merged.getRoots()).count() == 2);
         vm.write(item, first.getValue() + second.getValue(), merged);
         Assert.assertNotNull("the value computed by both computations is stored", vm.get(item));
         // a change of a node only the second computation read
@@ -623,7 +644,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
-        vm.write(item, "v", null);
+        vm.write(item, "v", Dependencies.NONE);
         SNode root = ViewModels.getInstance().getStore();
         // What a class reload does: a new instance of ViewModels. Its first read finds the store by the name of its model,
         // in the repository of the node and without write access, so that editors rebuilt after the reload depend on it.
@@ -646,11 +667,11 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         List<ViewModelKey> path = ListSequence.fromList(new ArrayList<ViewModelKey>());
         ListSequence.fromList(path).addElement(ViewModelKey.forString("store"));
-        vm.writePath(path, "v", null);
+        vm.writePath(path, "v", Dependencies.NONE);
         SNode root = ViewModels.getInstance().getStore();
         Assert.assertNotNull("the write at the path [store] creates the store", root);
         Assert.assertSame("findStore finds the store in the repository of its model " + SModelOperations.getModelName(SNodeOperations.getModel(root)), root, ViewModels.findStore(SNodeOperations.getModel(root).getRepository()));
-        vm.writePath(path, null, null);
+        vm.writePath(path, null, Dependencies.NONE);
       });
     }
     public void test_nodeValueIsStoredAsACopy() throws Exception {
@@ -660,7 +681,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         vm.clear();
         SNode item = getAnnotatedNode("a");
         SNode source = TestBody.this.tree(item);
-        Assert.assertTrue(vm.write(item, source, null).getNow(false));
+        Assert.assertTrue(vm.write(item, source, Dependencies.NONE).getNow(false));
         SNode stored = SNodeOperations.cast(vm.getNode(item), CONCEPTS.TestTree$V5);
         Assert.assertNotNull(stored);
         Assert.assertFalse((stored == source));
@@ -681,7 +702,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         vm.clear();
         SNode item = getAnnotatedNode("a");
         SNode source = TestBody.this.tree(item);
-        vm.write(item, source, null);
+        vm.write(item, source, Dependencies.NONE);
         SNode stored = SNodeOperations.cast(vm.getNode(item), CONCEPTS.TestTree$V5);
         SNode x = ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).first();
         SNode y = ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).last();
@@ -690,7 +711,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         SPropertyOperations.assign(w, PROPS.name$MnvL, "w");
         SNodeOperations.insertPrevSiblingChild(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).first(), w);
         SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).last(), PROPS.label$IRFe, "3");
-        vm.write(item, source, null);
+        vm.write(item, source, Dependencies.NONE);
         Assert.assertSame(stored, vm.getNode(item));
         List<SNode> items = ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).toList();
         Assert.assertEquals(3, ListSequence.fromList(items).count());
@@ -702,7 +723,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         Assert.assertSame(x, pointedTo);
         // removing an item removes only that item
         SNodeOperations.deleteNode(ListSequence.fromList(SLinkOperations.getChildren(source, LINKS.items$WHh4)).first());
-        vm.write(item, source, null);
+        vm.write(item, source, Dependencies.NONE);
         items = ListSequence.fromList(SLinkOperations.getChildren(stored, LINKS.items$WHh4)).toList();
         Assert.assertEquals(2, ListSequence.fromList(items).count());
         Assert.assertSame(x, ListSequence.fromList(items).getElement(0));
@@ -714,7 +735,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
-        vm.write(item, TestBody.this.tree(item), null);
+        vm.write(item, TestBody.this.tree(item), Dependencies.NONE);
         SNode stored = vm.getNode(item);
         final int[] events = new int[1];
         SNodeChangeListener listener = new SNodeChangeListener() {
@@ -737,7 +758,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         };
         stored.getModel().addChangeListener(listener);
         // an equal tree built anew changes no node of the view model, so no editor is updated
-        vm.write(item, TestBody.this.tree(item), null);
+        vm.write(item, TestBody.this.tree(item), Dependencies.NONE);
         stored.getModel().removeChangeListener(listener);
         Assert.assertEquals(0, events[0]);
         Assert.assertSame(stored, vm.getNode(item));
@@ -749,13 +770,13 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
         vm.clear();
         SNode item = getAnnotatedNode("a");
-        vm.write(item, TestBody.this.tree(item), null);
+        vm.write(item, TestBody.this.tree(item), Dependencies.NONE);
         SNode other = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa6e4e7fd4aa40f0L, 0x82cb73c779ae8eb4L, 0x2ca97b783b1b7b84L, "test.com.jetbrains.mpsext.viewmodel.lang.structure.TestItem"));
         SPropertyOperations.assign(other, PROPS.name$MnvL, "other");
-        vm.write(item, other, null);
+        vm.write(item, other, Dependencies.NONE);
         SNode stored = SNodeOperations.cast(vm.getNode(item), CONCEPTS.TestItem$HE);
         Assert.assertEquals("other", SPropertyOperations.getString(stored, PROPS.name$MnvL));
-        vm.write(item, "text", null);
+        vm.write(item, "text", Dependencies.NONE);
         Assert.assertNull(vm.getNode(item));
         Assert.assertEquals("text", vm.get(item));
       });

@@ -27,8 +27,6 @@ import jetbrains.mps.smodel.tempmodel.TempModuleOptions;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.ArrayList;
-import org.jetbrains.mps.openapi.model.SModelReference;
-import jetbrains.mps.smodel.SNodePointer;
 import jetbrains.mps.project.Project;
 import jetbrains.mps.ide.MPSCoreComponents;
 import jetbrains.mps.project.ProjectManager;
@@ -38,6 +36,7 @@ import java.util.function.Supplier;
 import java.util.concurrent.CompletableFuture;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.ModelImports;
+import org.jetbrains.mps.openapi.model.SModelReference;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
 import org.jetbrains.mps.openapi.language.SConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -254,15 +253,6 @@ public final class ViewModels {
     ListSequence.fromList(result).addElement(ViewModelKey.forNode(node));
     return result;
   }
-  public static boolean isRootsOf(SNodeReference dependency) {
-    // whether the dependency is the roots of a model (rootsOf) rather than a node
-    return dependency.getNodeId() == null && dependency.getModelReference() != null;
-  }
-  public static SNodeReference rootsOf(SModelReference model) {
-    // The dependency of a computation on the roots of a model (it called SModel.getRootNodes): a reference
-    // to the model without a node, which a root added to or removed from the model changes.
-    return new SNodePointer(model, null);
-  }
   /**
    * Returns an open project to run the command in that updates the store. A command of any project updates the
    * editors of all projects, which share one model access. Null without an IDE (e.g. the generation of an Ant build,
@@ -363,8 +353,8 @@ public final class ViewModels {
   public SNode getStore() {
     return currentStore();
   }
-  public Set<SNodeReference> getDependencies(String viewModel, List<ViewModelKey> path) {
-    // the nodes the value at the path was computed from
+  public Dependencies getDependencies(String viewModel, List<ViewModelKey> path) {
+    // what the value at the path was computed from; Dependencies.NONE when there is no value
     return index.getDependencies(qualify(viewModel, path));
   }
   public int countDependencies(String viewModel, List<ViewModelKey> path) {
@@ -448,7 +438,7 @@ public final class ViewModels {
     } finally {
       recorder.stop();
     }
-    return new Computed<T>(value, recorder.getNodes());
+    return new Computed<T>(value, recorder.getDependencies());
   }
 
   /**
@@ -459,7 +449,7 @@ public final class ViewModels {
    * that no change of a dependency can be missed. The future is already completed: true when the value was stored,
    * false when it was rejected (the node is in a read-only model, or in no model of a repository).
    */
-  public CompletableFuture<Boolean> writePath(String viewModel, List<ViewModelKey> path, Object value, Set<SNodeReference> dependencies) {
+  public CompletableFuture<Boolean> writePath(String viewModel, List<ViewModelKey> path, Object value, Dependencies dependencies) {
     return CompletableFuture.completedFuture(write(qualify(viewModel, path), value, dependencies));
   }
 
@@ -473,7 +463,7 @@ public final class ViewModels {
       }
     }
   }
-  private boolean write(List<ViewModelKey> path, Object value, Set<SNodeReference> dependencies) {
+  private boolean write(List<ViewModelKey> path, Object value, Dependencies dependencies) {
     if (value == null) {
       // the values and the index change together; other threads read and write them with no more than read access
       synchronized (values) {
@@ -486,8 +476,12 @@ public final class ViewModels {
     if (ListSequence.fromList(path).count() < 2) {
       throw new IllegalArgumentException("a value needs a key");
     }
+    Dependencies deps = dependencies;
+    if (deps == null) {
+      deps = Dependencies.NONE;
+    }
     SRepository keyRepository = repositoryOf(path);
-    boolean needsRead = (dependencies != null && SetSequence.fromSet(dependencies).isNotEmpty()) || value instanceof SNode;
+    boolean needsRead = !(deps.isEmpty()) || value instanceof SNode;
     if (needsRead && keyRepository != null && !(keyRepository.getModelAccess().canRead())) {
       throw new IllegalStateException("a value with dependencies, or a node, has to be written with the read access it was computed in");
     }
@@ -505,9 +499,9 @@ public final class ViewModels {
       for (List<ViewModelKey> replaced : ListSequence.fromList(values.put(path, stored))) {
         index.remove(replaced);
       }
-      index.put(path, dependencies);
+      index.put(path, deps);
     }
-    track(keyRepository, path, dependencies);
+    track(keyRepository, path, deps);
     changed(path);
     return true;
   }
@@ -596,25 +590,29 @@ public final class ViewModels {
   /**
    * Listens to the models of the key nodes and of the dependencies.
    */
-  private void track(SRepository keyRepository, List<ViewModelKey> path, Set<SNodeReference> dependencies) {
+  private void track(SRepository keyRepository, List<ViewModelKey> path, Dependencies dependencies) {
     if (keyRepository == null) {
       return;
     }
-    Set<SNodeReference> refs = SetSequence.fromSet(new HashSet<SNodeReference>());
-    if (dependencies != null) {
-      SetSequence.fromSet(refs).addSequence(SetSequence.fromSet(dependencies));
+    Set<SModelReference> modelRefs = SetSequence.fromSet(new HashSet<SModelReference>());
+    for (SNodeReference ref : SetSequence.fromSet(dependencies.getNodes())) {
+      SetSequence.fromSet(modelRefs).addElement(ref.getModelReference());
+    }
+    SetSequence.fromSet(modelRefs).addSequence(SetSequence.fromSet(dependencies.getRootLists()));
+    for (RootDependency root : SetSequence.fromSet(dependencies.getRoots())) {
+      SetSequence.fromSet(modelRefs).addElement(root.getRoot().getModelReference());
     }
     for (ViewModelKey key : ListSequence.fromList(path)) {
       if (key instanceof ViewModelNodeKey) {
-        SetSequence.fromSet(refs).addElement(((ViewModelNodeKey) key).getTarget());
+        SetSequence.fromSet(modelRefs).addElement(((ViewModelNodeKey) key).getTarget().getModelReference());
       }
     }
-    for (SNodeReference ref : SetSequence.fromSet(refs)) {
-      SModelReference modelRef = ref.getModelReference();
+    for (SModelReference modelRef : SetSequence.fromSet(modelRefs)) {
       if (modelRef == null) {
         continue;
       }
-      SModel trackedModel = SPointerOperations.resolveModel(modelRef, keyRepository);
+      SModelReference pointer = modelRef;
+      SModel trackedModel = SPointerOperations.resolveModel(pointer, keyRepository);
       if (trackedModel == null || trackedModel == model) {
         continue;
       }
@@ -805,42 +803,33 @@ public final class ViewModels {
       values.replace(path, source, content);
     }
   }
-  public void nodeChanged(SNodeReference ref) {
-    // called by the change listener, inside the write action of the change
-    for (List<ViewModelKey> path : ListSequence.fromList(index.getDependents(ref))) {
+  /**
+   * Called by the change listener (ChangeTracker) inside the write action of a change: removes the values that depend
+   * on what the change changed (ViewModelIndex.getDependentsOf). The values of a removed node that is in a key are
+   * removed by a later command (sync), as the node may only be moved.
+   */
+  public void modelChanged(ModelChange change) {
+    for (List<ViewModelKey> path : ListSequence.fromList(index.getDependentsOf(change))) {
       invalidate(path);
     }
-  }
-  public void nodesInRootChanged(SNodeReference root, List<SNodeReference> changed) {
-    // Called by the change listener for a change below a root, inside the write action of the change: what
-    // depends on the root (RootDependency) is invalidated when it may have read one of the changed nodes.
-    for (List<ViewModelKey> path : ListSequence.fromList(index.getDependentsOfChange(new RootDependency(root), changed))) {
-      invalidate(path);
+    boolean keyRemoved = false;
+    for (SNodeReference ref : ListSequence.fromList(change.getRemoved())) {
+      if (index.isKeyed(ref)) {
+        // release, on another thread and without model access, may clear the candidates at the same time
+        synchronized (removedKeyCandidates) {
+          SetSequence.fromSet(removedKeyCandidates).addElement(ref);
+        }
+        keyRemoved = true;
+      }
     }
-  }
-
-  public void nodeRemoved(SNodeReference ref) {
-    nodeChanged(ref);
-    if (!(index.isKeyed(ref))) {
-      return;
-    }
-    // The node may only be moved; whether it is gone is checked by a later command (sync).
-    // release, on another thread and without model access, may clear the candidates at the same time
-    synchronized (removedKeyCandidates) {
-      SetSequence.fromSet(removedKeyCandidates).addElement(ref);
-    }
-    scheduleSync();
-  }
-
-  public void modelReplaced(SModelReference modelRef) {
-    for (List<ViewModelKey> path : ListSequence.fromList(index.getDependentsInModel(modelRef))) {
-      invalidate(path);
+    if (keyRemoved) {
+      scheduleSync();
     }
   }
 
   public void modelRemoved(SModel removed) {
     // a model removed from the repository (deleted, or a disposed temporary model): forget its entries
-    modelReplaced(removed.getReference());
+    modelChanged(ModelChange.ofModel(removed.getReference()));
     for (List<ViewModelKey> path : ListSequence.fromList(index.getKeyedInModel(removed.getReference()))) {
       invalidate(path);
     }

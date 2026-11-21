@@ -59,23 +59,37 @@ public final class NamedViewModel implements ViewModel {
    * The future is already completed: true when the value was stored, false when it was rejected (the node is in a
    * read-only model, or in no model of a repository).
    */
-  public CompletableFuture<Boolean> write(SNode node, Object value, Set<SNodeReference> dependencies) {
+  public CompletableFuture<Boolean> write(SNode node, Object value, Dependencies dependencies) {
     return writePath(ViewModels.path(node), value, dependencies);
   }
   public CompletableFuture<Boolean> writeComputed(SNode node, Computed<?> computed) {
     return writePath(ViewModels.path(node), computed.getValue(), computed.getDependencies());
   }
-  public CompletableFuture<Boolean> writePath(List<ViewModelKey> path, Object value, Set<SNodeReference> dependencies) {
+  public CompletableFuture<Boolean> writePath(List<ViewModelKey> path, Object value, Dependencies dependencies) {
     return ViewModels.getInstance().writePath(name, path, value, dependencies);
+  }
+  /**
+   * Writes the value of the node with dependencies on single nodes, e.g. nodes that the caller collected itself, as
+   * write does with Dependencies.ofNodes(dependencies).
+   */
+  public CompletableFuture<Boolean> write(SNode node, Object value, Set<SNodeReference> dependencies) {
+    return ViewModels.getInstance().writePath(name, ViewModels.path(node), value, Dependencies.ofNodes(dependencies));
+  }
+  /**
+   * Writes the value of a composite key with dependencies on single nodes, as writePath does with
+   * Dependencies.ofNodes(dependencies).
+   */
+  public CompletableFuture<Boolean> writePath(List<ViewModelKey> path, Object value, Set<SNodeReference> dependencies) {
+    return ViewModels.getInstance().writePath(name, path, value, Dependencies.ofNodes(dependencies));
   }
   public CompletableFuture<Boolean> remove(SNode node) {
     // removes the value of the node, and the values of composite keys that start with the node
-    return writePath(ViewModels.path(node), null, null);
+    return writePath(ViewModels.path(node), null, Dependencies.NONE);
   }
 
   public CompletableFuture<Boolean> clear() {
     // removes all data of this view model
-    return writePath(ListSequence.fromList(new ArrayList<ViewModelKey>()), null, null);
+    return writePath(ListSequence.fromList(new ArrayList<ViewModelKey>()), null, Dependencies.NONE);
   }
 
   /**

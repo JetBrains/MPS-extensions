@@ -8,8 +8,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import com.jetbrains.mpsext.viewmodel.runtime.RootDependency;
-import java.util.Set;
-import org.jetbrains.mps.openapi.model.SNodeReference;
+import com.jetbrains.mpsext.viewmodel.runtime.Dependencies;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.language.SConcept;
@@ -27,11 +26,11 @@ public final class RootDependencyFixtures {
     return ListSequence.fromList(SNodeOperations.getNodeDescendants(tree, CONCEPTS.TestTree$V5, false, new SAbstractConcept[]{})).findFirst((it) -> name.equals(SPropertyOperations.getString(it, PROPS.name$MnvL)));
   }
 
-  public static RootDependency rootDependencyOn(Set<SNodeReference> dependencies, SNode root) {
+  public static RootDependency rootDependencyOn(Dependencies dependencies, SNode root) {
     // the dependency on the root among the dependencies, null when there is none
-    for (SNodeReference dependency : SetSequence.fromSet(dependencies)) {
-      if (dependency instanceof RootDependency && ((RootDependency) dependency).getRoot().equals(root.getReference())) {
-        return (RootDependency) dependency;
+    for (RootDependency dependency : SetSequence.fromSet(dependencies.getRoots())) {
+      if (dependency.getRoot().equals(root.getReference())) {
+        return dependency;
       }
     }
     return null;

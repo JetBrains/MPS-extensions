@@ -282,11 +282,13 @@ Object v = results.getPath(path);                     // composite key: list<Vie
 
 // recording dependencies of a computation (inside one read action)
 Computed<T> c = results.compute(() -> evaluate(node)); // c.getValue(), c.getDependencies()
+Dependencies d = c.getDependencies().union(other.getDependencies()); // of two computations
 
 // writing from any thread, with the read access the value was computed in; stored before write returns,
 // the future is completed: false when the write is rejected (read-only model, node in no model of a
 // repository)
 CompletableFuture<Boolean> f = results.write(node, value, dependencies); // a node: a NodeValue
+results.write(node, value, nodeRefs);                 // set<SNodeReference>: dependencies on single nodes
 results.writeComputed(node, c);
 results.writePath(path, value, dependencies);         // value null removes
 results.remove(node);                                 // all data of the node, composite keys included
@@ -334,30 +336,38 @@ viewmodel/TestResults/.writeComputed(item, c);
   `NodeReadEventsCaster.setNodesReadListener` (as MPS's `DependencyRecorder` does). Producers can
   also pass dependencies explicitly. Nodes of the view model itself are never dependencies; nodes of
   other temporary models are (the copies `NodesTestCase` works on are a temporary model).
-* The store keeps a Java-side reverse index `SNodeReference → entries` and an `SNodeChangeListener`
-  on every model that contains a dependency or a key node.
+* The dependencies of a value are a `Dependencies`, of three kinds: single nodes (`getNodes`), the
+  roots of models (`getRootLists`) and the subtrees of roots (`getRoots`, see below). It is immutable;
+  `union` merges the dependencies of several computations. `write` and `writePath` also take a
+  `set<SNodeReference>` (overloads), for callers that collect dependencies on single nodes themselves.
+* The index (`ViewModelIndex`) has one row per path (`IndexRow`: the dependencies and the filters of
+  the dependencies on roots) and a reverse index for each kind of dependency, from the node, the model
+  or the root to the paths that depend on it. An `SNodeChangeListener` listens to every model that
+  contains a dependency or a key node.
+* `ChangeTracker` describes each change event as a `ModelChange`: the nodes whose properties,
+  references or children changed, the nodes of a removed subtree, the root that contains them, and
+  whether a root was added or removed or the whole model changed. Which dependencies a change concerns
+  is decided in one place, `ViewModelIndex.getDependentsOf`.
 * A computation inside another one adds its dependencies to the enclosing one (`ReadRecorder.start/stop`),
   because MPS only notifies the innermost read listener.
 * A computation that lists the roots of a model (`SModel.getRootNodes`, which fires
-  `modelNodesReadAccess`) depends on the roots of that model: a dependency `ViewModels.rootsOf(model)`, a
-  node reference with the model and no node id. A root added to or removed from the model is a change of
-  it. Without it a computation that looks up roots (a scope, a lookup by name) would keep its result when
-  a matching root is added.
+  `modelNodesReadAccess`) depends on the roots of that model (`Dependencies.getRootLists`). A root added
+  to or removed from the model is a change of it. Without it a computation that looks up roots (a scope, a
+  lookup by name) would keep its result when a matching root is added.
 * A computation that reads more than `ReadRecorder.NODE_LIMIT` nodes of one model (system property
   `mpsext.viewmodel.nodeDependencyLimit`, default 100) depends on the roots that contain them
   (`RootDependency`) instead of on each node. The nodes it read go into a Bloom filter (`NodeFilter`,
   10 bits per node, 5 hashes) that all root dependencies of the recording share. A change below such a
-  root (`ViewModels.nodesInRootChanged`) invalidates the entry only when the filter may contain one of
-  the changed nodes: the node whose property or reference changed, the
+  root invalidates the entry only when the filter may contain one of the changed nodes
+  (`ViewModelIndex.mayHaveRead`): the node whose property or reference changed, the
   parent of an added or removed child, and each node of a removed subtree. About one change in a hundred
   of a node that wasn't read gets through the filter and invalidates the entry as well. Removing the root
   itself invalidates every entry that depends on it.
-* Two root dependencies on one root are equal only when their filters are. A set that merges the
+* Two root dependencies on one root are equal only when their filters are. The union of the
   dependencies of several computations therefore keeps the filter of each, and a rewrite of the same
-  value computed from other nodes takes the new dependencies. The reverse index
-  (`ViewModelIndex.dependents`) keys a root dependency by the one without a filter
-  (`RootDependency.keyOf`), so the dependencies on a root are found together and no filter stays
-  referenced from a key; the filters of an entry are kept next to it (`ViewModelIndex.filtersOf`).
+  value computed from other nodes takes the new dependencies. The reverse index of root dependencies
+  is keyed by the root, so the dependencies on a root are found together and no filter is referenced
+  from a key; the distinct filters of an entry are in its row (`IndexRow`).
 * A change of a dependency node (property, reference, child added/removed) removes the dependent
   entries. Removing a node removes the entries keyed by any node of the removed subtree and the
   entries depending on it. A model that is replaced (reloaded from disk) invalidates all entries
@@ -446,8 +456,8 @@ what is stored, mainly while developing a language that uses view models:
   opens the target) and children are rows below it, identified by node id, so in-place updates keep
   them expanded.
 * A value with dependencies has a *dependencies* child listing the nodes it was computed from
-  (`ViewModels.getDependencies`, a copy of the index entry; the count comes from
-  `ViewModels.countDependencies`, which copies nothing); a dependency on the roots of a model shows as
+  (`ViewModels.getDependencies`, the `Dependencies` of the index row, which are immutable; the count
+  comes from `ViewModels.countDependencies`); a dependency on the roots of a model shows as
   *roots of* and the model name, a dependency on a root (`RootDependency`) as the root with *nodes read
   below the root*.
 * Double-click opens the node of a key or dependency. *Remove* deletes the selected entry, nested map

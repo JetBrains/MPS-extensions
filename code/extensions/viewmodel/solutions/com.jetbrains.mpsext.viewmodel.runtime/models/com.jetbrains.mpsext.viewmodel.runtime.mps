@@ -4562,7 +4562,7 @@
               <property role="3oM_SC" value="in" />
             </node>
             <node concept="3oM_SD" id="4KEpWP$qZxr" role="1PaTwD">
-              <property role="3oM_SC" value="getNodes," />
+              <property role="3oM_SC" value="getDependencies," />
             </node>
             <node concept="3oM_SD" id="4KEpWP$qZxs" role="1PaTwD">
               <property role="3oM_SC" value="once" />

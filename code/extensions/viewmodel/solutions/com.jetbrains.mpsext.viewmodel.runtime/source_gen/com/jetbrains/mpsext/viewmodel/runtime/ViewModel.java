@@ -20,9 +20,13 @@ public interface ViewModel {
 
   <T> Computed<T> compute(Supplier<T> computation);
 
-  CompletableFuture<Boolean> write(SNode node, Object value, Set<SNodeReference> dependencies);
+  CompletableFuture<Boolean> write(SNode node, Object value, Dependencies dependencies);
 
   CompletableFuture<Boolean> writeComputed(SNode node, Computed<?> computed);
+
+  CompletableFuture<Boolean> writePath(List<ViewModelKey> path, Object value, Dependencies dependencies);
+
+  CompletableFuture<Boolean> write(SNode node, Object value, Set<SNodeReference> dependencies);
 
   CompletableFuture<Boolean> writePath(List<ViewModelKey> path, Object value, Set<SNodeReference> dependencies);
 

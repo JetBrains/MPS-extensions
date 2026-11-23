@@ -2,7 +2,7 @@
 <debug-info version="2">
   <root>
     <file name="Generator.java">
-      <unit at="19,0,50,0" name="com.jetbrains.mpsext.viewmodel.generator.Generator" />
+      <unit at="17,0,43,0" name="com.jetbrains.mpsext.viewmodel.generator.Generator" />
     </file>
   </root>
 </debug-info>

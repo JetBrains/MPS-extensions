@@ -4,16 +4,31 @@ package com.jetbrains.mpsext.viewmodel.runtime;
 
 import jetbrains.mps.smodel.AbstractNodesReadListener;
 import java.util.Set;
-import org.jetbrains.mps.openapi.model.SNodeReference;
+import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
+import org.jetbrains.mps.openapi.model.SModelReference;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.smodel.NodeReadEventsCaster;
-import org.jetbrains.mps.openapi.model.SNode;
+import java.util.Map;
+import java.util.List;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
+import java.util.HashMap;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.ArrayList;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import org.jetbrains.mps.openapi.model.SNodeReference;
+import jetbrains.mps.smodel.NodeReadAccessCasterInEditor;
+import jetbrains.mps.internal.collections.runtime.IMapping;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 
 public final class ReadRecorder extends AbstractNodesReadListener {
   private static final ThreadLocal<ReadRecorder> ourCurrent = new ThreadLocal<ReadRecorder>();
-  private final Set<SNodeReference> nodes = SetSequence.fromSet(new HashSet<SNodeReference>());
+  public static final int NODE_LIMIT = Integer.getInteger("mpsext.viewmodel.nodeDependencyLimit", 100);
+  private final Set<SNode> nodes = SetSequence.fromSet(new HashSet<SNode>());
+  private final Set<SModelReference> rootLists = SetSequence.fromSet(new HashSet<SModelReference>());
+  private SNode lastNode = null;
   private final SModel excludedModel;
   private ReadRecorder parent = null;
 
@@ -34,23 +49,77 @@ public final class ReadRecorder extends AbstractNodesReadListener {
     ourCurrent.set(parent);
     if (parent != null) {
       SetSequence.fromSet(parent.nodes).addSequence(SetSequence.fromSet(nodes));
+      SetSequence.fromSet(parent.rootLists).addSequence(SetSequence.fromSet(rootLists));
     }
   }
 
-  public Set<SNodeReference> getNodes() {
-    return nodes;
+  public Dependencies getDependencies() {
+    // The nodes read, except in a model of which more than NODE_LIMIT nodes were read: there the roots that
+    // contain them (RootDependency), which keeps the dependencies of a computation that reads a lot few. The
+    // nodes read in those roots go into a filter that the root dependencies share (NodeFilter), so that a
+    // change in such a root only invalidates the computation when the changed node may be one of them.
+    Map<SModel, List<SNode>> byModel = MapSequence.fromMap(new HashMap<SModel, List<SNode>>());
+    for (SNode node : SetSequence.fromSet(nodes)) {
+      // nodes of the view model itself are never dependencies
+      SModel nodeModel = SNodeOperations.getModel(node);
+      if (nodeModel == null || nodeModel == excludedModel) {
+        continue;
+      }
+      List<SNode> inModel = MapSequence.fromMap(byModel).get(nodeModel);
+      if (inModel == null) {
+        inModel = ListSequence.fromList(new ArrayList<SNode>());
+        MapSequence.fromMap(byModel).put(nodeModel, inModel);
+      }
+      ListSequence.fromList(inModel).addElement(node);
+    }
+    int filtered = 0;
+    for (List<SNode> inModel : Sequence.fromIterable(MapSequence.fromMap(byModel).values())) {
+      if (ListSequence.fromList(inModel).count() > NODE_LIMIT) {
+        filtered = filtered + ListSequence.fromList(inModel).count();
+      }
+    }
+    NodeFilter filter = null;
+    Set<SNodeReference> nodeRefs = SetSequence.fromSet(new HashSet<SNodeReference>());
+    Set<RootDependency> rootDependencies = SetSequence.fromSet(new HashSet<RootDependency>());
+    Set<SNode> roots = SetSequence.fromSet(new HashSet<SNode>());
+    // containingRoot only walks the parent pointers. It notifies the editor of every ancestor, but not the
+    // recordings; blocked, so that the editor cells built around the computation don't depend on every ancestor.
+    boolean wereBlocked = NodeReadAccessCasterInEditor.areEventsBlocked();
+    NodeReadAccessCasterInEditor.setEventsBlocked(true);
+    try {
+      for (IMapping<SModel, List<SNode>> entry : MapSequence.fromMap(byModel)) {
+        if (ListSequence.fromList(entry.value()).count() <= NODE_LIMIT) {
+          for (SNode node : ListSequence.fromList(entry.value())) {
+            SetSequence.fromSet(nodeRefs).addElement(SNodeOperations.getPointer(node));
+          }
+          continue;
+        }
+        if (filter == null) {
+          filter = new NodeFilter(filtered);
+        }
+        SModelReference modelRef = SModelOperations.getPointer(entry.key());
+        for (SNode node : ListSequence.fromList(entry.value())) {
+          filter.add(modelRef, node.getNodeId());
+          SetSequence.fromSet(roots).addElement(SNodeOperations.getContainingRoot(node));
+        }
+      }
+      // the dependencies on the roots are made once the filter holds all nodes, as it is part of their equals
+      for (SNode root : SetSequence.fromSet(roots)) {
+        SetSequence.fromSet(rootDependencies).addElement(new RootDependency(SNodeOperations.getPointer(root), filter));
+      }
+    } finally {
+      NodeReadAccessCasterInEditor.setEventsBlocked(wereBlocked);
+    }
+    return Dependencies.of(nodeRefs, rootLists, rootDependencies);
   }
 
   private void record(SNode node) {
-    // nodes of the view model itself are never dependencies
-    if (node == null) {
+    // the model of the node is only looked at in getDependencies, once per node
+    if (node == null || node == lastNode) {
       return;
     }
-    SModel model = node.getModel();
-    if (model == null || model == excludedModel) {
-      return;
-    }
-    SetSequence.fromSet(nodes).addElement(node.getReference());
+    lastNode = node;
+    SetSequence.fromSet(nodes).addElement(node);
   }
 
   @Override
@@ -78,6 +147,6 @@ public final class ReadRecorder extends AbstractNodesReadListener {
     if (model == null || model == excludedModel) {
       return;
     }
-    SetSequence.fromSet(nodes).addElement(ViewModels.rootsOf(model.getReference()));
+    SetSequence.fromSet(rootLists).addElement(model.getReference());
   }
 }

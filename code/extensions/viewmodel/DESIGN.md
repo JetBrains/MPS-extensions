@@ -367,7 +367,12 @@ viewmodel/TestResults/.writeComputed(item, c);
   dependencies of several computations therefore keeps the filter of each, and a rewrite of the same
   value computed from other nodes takes the new dependencies. The reverse index of root dependencies
   is keyed by the root, so the dependencies on a root are found together and no filter is referenced
-  from a key; the distinct filters of an entry are in its row (`IndexRow`).
+  from a key; the distinct filters of an entry are in its row (`IndexRow`). A change below a root asks
+  only the entry's dependencies on that root, looked up by their equals with each distinct filter, so
+  that merged dependencies are as precise as those of each computation.
+* A root dependency without a filter (`new RootDependency(root)`) depends on the whole subtree of the
+  root: every change below the root concerns it. `ReadRecorder` makes none; a caller that collects
+  dependencies itself can give one (`Dependencies.of`).
 * A change of a dependency node (property, reference, child added/removed) removes the dependent
   entries. Removing a node removes the entries keyed by any node of the removed subtree and the
   entries depending on it. A model that is replaced (reloaded from disk) invalidates all entries

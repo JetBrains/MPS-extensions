@@ -6626,17 +6626,22 @@
         </node>
         <node concept="TZ5HA" id="6mpWvTZWGMs" role="TZ5H$">
           <node concept="1dT_AC" id="6mpWvTZWGMt" role="1dT_Ay">
-            <property role="1dT_AB" value="or removed: always when a dependency on a root has no filter, otherwise when a filter may contain such a node. The" />
+            <property role="1dT_AB" value="or removed. Only the dependencies of the row on that root are asked: always when one of them has no filter," />
           </node>
         </node>
         <node concept="TZ5HA" id="6mpWvTZWGMu" role="TZ5H$">
           <node concept="1dT_AC" id="6mpWvTZWGMv" role="1dT_Ay">
-            <property role="1dT_AB" value="filters of all roots of the row are asked, not only the one of the changed root. That lets through no more than the" />
+            <property role="1dT_AB" value="otherwise when its filter may contain such a node. So the dependencies of several computations merged with union" />
           </node>
         </node>
         <node concept="TZ5HA" id="6mpWvTZWGMw" role="TZ5H$">
           <node concept="1dT_AC" id="6mpWvTZWGMx" role="1dT_Ay">
-            <property role="1dT_AB" value="filter of the changed root alone, as all dependencies of one recording share one filter (ReadRecorder)." />
+            <property role="1dT_AB" value="are as precise as those of each. The dependencies on the root are found by their equals, one lookup for each" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="7v0wtRXX75O" role="TZ5H$">
+          <node concept="1dT_AC" id="7v0wtRXX75P" role="1dT_Ay">
+            <property role="1dT_AB" value="distinct filter of the row (IndexRow) instead of a pass over all its dependencies on roots." />
           </node>
         </node>
       </node>
@@ -6655,32 +6660,93 @@
         </node>
       </node>
       <node concept="3clFbS" id="6mpWvTZWGME" role="3clF47">
-        <node concept="3clFbJ" id="6mpWvTZWGMF" role="3cqZAp">
-          <node concept="22lmx$" id="6mpWvTZWGMI" role="3clFbw">
-            <node concept="2OqwBi" id="6mpWvTZWGML" role="3uHU7B">
-              <node concept="37vLTw" id="6mpWvTZWGMO" role="2Oq$k0">
+        <node concept="3cpWs8" id="7v0wtRXX75Q" role="3cqZAp">
+          <node concept="3cpWsn" id="7v0wtRXX75T" role="3cpWs9">
+            <property role="TrG5h" value="roots" />
+            <node concept="2hMVRd" id="7v0wtRXX75V" role="1tU5fm">
+              <node concept="3uibUv" id="7v0wtRXX75X" role="2hN53Y">
+                <ref role="3uigEE" node="4KEpWP$gosQ" resolve="RootDependency" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7v0wtRXX75Y" role="33vP2m">
+              <node concept="2OqwBi" id="7v0wtRXX761" role="2Oq$k0">
+                <node concept="37vLTw" id="7v0wtRXX764" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6mpWvTZWGM$" resolve="row" />
+                </node>
+                <node concept="liA8E" id="7v0wtRXX765" role="2OqNvi">
+                  <ref role="37wK5l" node="6mpWvTZUhAA" resolve="getDependencies" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7v0wtRXX766" role="2OqNvi">
+                <ref role="37wK5l" node="6mpWvTZTYPA" resolve="getRoots" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7v0wtRXX767" role="3cqZAp">
+          <node concept="3cpWsn" id="7v0wtRXX76a" role="3cpWs9">
+            <property role="TrG5h" value="root" />
+            <node concept="2sp9CU" id="7v0wtRXX76c" role="1tU5fm" />
+            <node concept="2OqwBi" id="7v0wtRXX76d" role="33vP2m">
+              <node concept="37vLTw" id="7v0wtRXX76g" role="2Oq$k0">
+                <ref role="3cqZAo" node="6mpWvTZWGMB" resolve="change" />
+              </node>
+              <node concept="liA8E" id="7v0wtRXX76h" role="2OqNvi">
+                <ref role="37wK5l" node="6mpWvTZUaqr" resolve="getRoot" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7v0wtRXX76i" role="3cqZAp">
+          <node concept="1Wc70l" id="7v0wtRXX76l" role="3clFbw">
+            <node concept="2OqwBi" id="7v0wtRXX76o" role="3uHU7B">
+              <node concept="37vLTw" id="7v0wtRXX76r" role="2Oq$k0">
                 <ref role="3cqZAo" node="6mpWvTZWGM$" resolve="row" />
               </node>
-              <node concept="liA8E" id="6mpWvTZWGMP" role="2OqNvi">
+              <node concept="liA8E" id="7v0wtRXX76s" role="2OqNvi">
                 <ref role="37wK5l" node="6mpWvTZUhBf" resolve="dependsOnAWholeSubtree" />
               </node>
             </node>
-            <node concept="3clFbC" id="6mpWvTZWGMQ" role="3uHU7w">
-              <node concept="2OqwBi" id="6mpWvTZWGMT" role="3uHU7B">
-                <node concept="37vLTw" id="6mpWvTZWGMW" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6mpWvTZWGM$" resolve="row" />
-                </node>
-                <node concept="liA8E" id="6mpWvTZWGMX" role="2OqNvi">
-                  <ref role="37wK5l" node="6mpWvTZUhAK" resolve="getFilters" />
+            <node concept="2OqwBi" id="7v0wtRXX76t" role="3uHU7w">
+              <node concept="37vLTw" id="7v0wtRXX76w" role="2Oq$k0">
+                <ref role="3cqZAo" node="7v0wtRXX75T" resolve="roots" />
+              </node>
+              <node concept="3JPx81" id="7v0wtRXX76x" role="2OqNvi">
+                <node concept="2ShNRf" id="7v0wtRXX76z" role="25WWJ7">
+                  <node concept="1pGfFk" id="7v0wtRXX76_" role="2ShVmc">
+                    <ref role="37wK5l" node="4KEpWP$got0" />
+                    <node concept="37vLTw" id="7v0wtRXX76A" role="37wK5m">
+                      <ref role="3cqZAo" node="7v0wtRXX76a" resolve="root" />
+                    </node>
+                  </node>
                 </node>
               </node>
-              <node concept="10Nm6u" id="6mpWvTZWGMY" role="3uHU7w" />
             </node>
           </node>
-          <node concept="3clFbS" id="6mpWvTZWGMZ" role="3clFbx">
-            <node concept="3cpWs6" id="6mpWvTZWGN0" role="3cqZAp">
-              <node concept="3clFbT" id="6mpWvTZWGN1" role="3cqZAk">
+          <node concept="3clFbS" id="7v0wtRXX76B" role="3clFbx">
+            <node concept="3cpWs6" id="7v0wtRXX76C" role="3cqZAp">
+              <node concept="3clFbT" id="7v0wtRXX76D" role="3cqZAk">
                 <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7v0wtRXX76E" role="3cqZAp">
+          <node concept="3clFbC" id="7v0wtRXX76H" role="3clFbw">
+            <node concept="2OqwBi" id="7v0wtRXX76K" role="3uHU7B">
+              <node concept="37vLTw" id="7v0wtRXX76N" role="2Oq$k0">
+                <ref role="3cqZAo" node="6mpWvTZWGM$" resolve="row" />
+              </node>
+              <node concept="liA8E" id="7v0wtRXX76O" role="2OqNvi">
+                <ref role="37wK5l" node="6mpWvTZUhAK" resolve="getFilters" />
+              </node>
+            </node>
+            <node concept="10Nm6u" id="7v0wtRXX76P" role="3uHU7w" />
+          </node>
+          <node concept="3clFbS" id="7v0wtRXX76Q" role="3clFbx">
+            <node concept="3cpWs6" id="7v0wtRXX76R" role="3cqZAp">
+              <node concept="3clFbT" id="7v0wtRXX76S" role="3cqZAk">
+                <property role="3clFbU" value="false" />
               </node>
             </node>
           </node>
@@ -6698,6 +6764,33 @@
             </node>
           </node>
           <node concept="3clFbS" id="6mpWvTZWGNc" role="2LFqv$">
+            <node concept="3clFbJ" id="7v0wtRXX76T" role="3cqZAp">
+              <node concept="3fqX7Q" id="7v0wtRXX76W" role="3clFbw">
+                <node concept="1eOMI4" id="7v0wtRXX76Y" role="3fr31v">
+                  <node concept="2OqwBi" id="7v0wtRXX770" role="1eOMHV">
+                    <node concept="37vLTw" id="7v0wtRXX773" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7v0wtRXX75T" resolve="roots" />
+                    </node>
+                    <node concept="3JPx81" id="7v0wtRXX774" role="2OqNvi">
+                      <node concept="2ShNRf" id="7v0wtRXX776" role="25WWJ7">
+                        <node concept="1pGfFk" id="7v0wtRXX778" role="2ShVmc">
+                          <ref role="37wK5l" node="4KEpWP$qz8f" />
+                          <node concept="37vLTw" id="7v0wtRXX779" role="37wK5m">
+                            <ref role="3cqZAo" node="7v0wtRXX76a" resolve="root" />
+                          </node>
+                          <node concept="2GrUjf" id="7v0wtRXX77a" role="37wK5m">
+                            <ref role="2Gs0qQ" node="6mpWvTZWGN6" resolve="filter" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="7v0wtRXX77b" role="3clFbx">
+                <node concept="3N13vt" id="7v0wtRXX77c" role="3cqZAp" />
+              </node>
+            </node>
             <node concept="2Gpval" id="6mpWvTZWGNd" role="3cqZAp">
               <node concept="2GrKxI" id="6mpWvTZWGNh" role="2Gsz3X">
                 <property role="TrG5h" value="ref" />
@@ -26350,7 +26443,7 @@
       </node>
       <node concept="TZ5HA" id="6mpWvU1xlDt" role="TZ5H$">
         <node concept="1dT_AC" id="6mpWvU1xlDu" role="1dT_Ay">
-          <property role="1dT_AB" value="dependencies on roots, which are checked for every change below one of those roots." />
+          <property role="1dT_AB" value="dependencies on roots, with which ViewModelIndex.mayHaveRead looks up the dependencies on a changed root." />
         </node>
       </node>
     </node>

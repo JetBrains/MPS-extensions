@@ -61,7 +61,7 @@ Object value = results.get(node);
 Computed<Object> computed = results.compute(() -> evaluate(node));
 results.writeComputed(node, computed);            // the value with the dependencies of its computation
 results.write(node, value, dependencies);         // Dependencies, e.g. computed.getDependencies(); Dependencies.NONE
-results.write(node, value, nodes);                // set<SNodeReference>: dependencies on single nodes
+results.write(node, value, nodes);                // set<node-ptr<>>: dependencies on single nodes
 results.writePath(path, value, dependencies);     // composite keys: list<ViewModelKey>
 try (ViewModelBatch batch = results.startBatch()) {
   // many writes outside a command: the editors are updated for all of them in one command

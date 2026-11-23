@@ -56,10 +56,11 @@ public abstract class InterpreterBase implements IInterpreter, IMapTypeProvider 
   protected abstract void populateEvaluators(List<? extends IEvaluator> evaluators);
 
   public List<? extends IEvaluator> listEvaluators() {
-    // the evaluators do not change after init(), so they are sorted only once
+    // the evaluators do not change after init(), so they are sorted only once. The list is shared with
+    // candidateEvaluators(), so it is unmodifiable: a caller that changes it would change the dispatch
     List<? extends IEvaluator> sorted = sortedEvaluators;
     if (sorted == null) {
-      sorted = ListSequence.fromList(evaluators).sort((it) -> it.canLookupBeCached(), true).toList();
+      sorted = ListSequence.fromList(ListSequence.fromList(evaluators).sort((it) -> it.canLookupBeCached(), true).toList()).asUnmodifiable();
       if (ListSequence.fromList(evaluators).isNotEmpty()) {
         sortedEvaluators = sorted;
       }

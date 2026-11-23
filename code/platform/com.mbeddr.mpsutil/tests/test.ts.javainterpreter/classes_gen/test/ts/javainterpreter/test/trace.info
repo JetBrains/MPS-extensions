@@ -182,6 +182,59 @@
       <unit id="2946166939437918071" at="28,0,122,0" name="test.ts.javainterpreter.test.DummyComputationTraceTest_Test" />
     </file>
   </root>
+  <root nodeRef="r:77149972-58bc-4fbf-9f05-0198741a5378(test.ts.javainterpreter.test@tests)/5145677050787318233">
+    <file name="InterpreterBaseTest_Test.java">
+      <node id="5145677050787318233" at="27,37,28,60" concept="7" />
+      <node id="5145677050787318234" at="32,70,33,61" concept="1" />
+      <node id="5145677050787318233" at="38,52,39,19" concept="7" />
+      <node id="5145677050787318233" at="43,36,44,25" concept="1" />
+      <node id="5145677050787318234" at="47,72,48,22" concept="1" />
+      <node id="5145677050787318239" at="49,30,50,187" concept="3" />
+      <node id="5145677050787318254" at="50,187,51,77" concept="3" />
+      <node id="5145677050787318269" at="51,77,52,61" concept="3" />
+      <node id="5145677050787318280" at="52,61,53,0" concept="5" />
+      <node id="5145677050787318281" at="53,0,54,121" concept="4" />
+      <node id="5145677050787318305" at="54,121,55,33" concept="3" />
+      <node id="5145677050787318315" at="56,13,57,52" concept="1" />
+      <node id="5145677050787318332" at="58,51,59,26" concept="1" />
+      <node id="5145677050787318339" at="60,9,61,0" concept="5" />
+      <node id="5145677050787318340" at="61,0,62,93" concept="1" />
+      <node id="5145677050787318345" at="62,93,63,148" concept="1" />
+      <node id="5145677050787318233" at="24,0,26,0" concept="6" trace="ourParametersCacheExtension" />
+      <node id="5145677050787318233" at="27,0,30,0" concept="0" trace="InterpreterBaseTest_Test#()V" />
+      <node id="5145677050787318233" at="38,0,41,0" concept="0" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="5145677050787318234" at="31,0,35,0" concept="2" trace="test_listEvaluatorsCannotBeModified#()V" />
+      <node id="5145677050787318233" at="42,0,46,0" concept="2" trace="initTestNodes#()V" />
+      <node id="5145677050787318312" at="55,33,60,9" concept="8" />
+      <node id="5145677050787318234" at="48,22,64,9" concept="1" />
+      <node id="5145677050787318234" at="47,0,66,0" concept="2" trace="test_listEvaluatorsCannotBeModified#()V" />
+      <scope id="5145677050787318233" at="27,37,28,60" />
+      <scope id="5145677050787318234" at="32,70,33,61" />
+      <scope id="5145677050787318233" at="38,52,39,19" />
+      <scope id="5145677050787318233" at="43,36,44,25" />
+      <scope id="5145677050787318314" at="56,13,57,52" />
+      <scope id="5145677050787318331" at="58,51,59,26" />
+      <scope id="5145677050787318322" at="58,9,60,9">
+        <var name="e" id="5145677050787318326" />
+      </scope>
+      <scope id="5145677050787318233" at="27,0,30,0" />
+      <scope id="5145677050787318233" at="38,0,41,0">
+        <var name="owner" id="5145677050787318233" />
+      </scope>
+      <scope id="5145677050787318234" at="31,0,35,0" />
+      <scope id="5145677050787318233" at="42,0,46,0" />
+      <scope id="5145677050787318234" at="49,30,63,148">
+        <var name="evaluators" id="5145677050787318257" />
+        <var name="interpreter" id="5145677050787318242" />
+        <var name="rejected" id="5145677050787318308" />
+        <var name="size" id="5145677050787318272" />
+      </scope>
+      <scope id="5145677050787318234" at="47,72,64,9" />
+      <scope id="5145677050787318234" at="47,0,66,0" />
+      <unit id="5145677050787318233" at="36,0,68,0" name="test.ts.javainterpreter.test.InterpreterBaseTest_Test$TestBody" />
+      <unit id="5145677050787318233" at="22,0,69,0" name="test.ts.javainterpreter.test.InterpreterBaseTest_Test" />
+    </file>
+  </root>
   <root nodeRef="r:77149972-58bc-4fbf-9f05-0198741a5378(test.ts.javainterpreter.test@tests)/6267356447275016480">
     <file name="Variables_Test.java">
       <node id="6267356447275016480" at="25,27,26,60" concept="7" />

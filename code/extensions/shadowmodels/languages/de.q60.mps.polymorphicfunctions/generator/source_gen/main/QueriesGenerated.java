@@ -93,10 +93,10 @@ public class QueriesGenerated extends QueryProviderBase {
     return (SLinkOperations.getTarget(_context.getNode(), LINKS.concept$OMgE) != null);
   }
   public static boolean rule_Condition_3_2(final BaseMappingRuleContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), LINKS.conceptDeclaraton$K4R0) == null);
+    return (SLinkOperations.getTarget(_context.getNode(), LINKS.conceptDeclaration$K4R0) == null);
   }
   public static boolean rule_Condition_3_3(final BaseMappingRuleContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), LINKS.conceptDeclaraton$K4R0) != null);
+    return (SLinkOperations.getTarget(_context.getNode(), LINKS.conceptDeclaration$K4R0) != null);
   }
   public static Object propertyMacro_GetValue_0_0(final PropertyMacroContext _context) {
     return (String) PolymorphicFunctionDeclaration__BehaviorDescriptor.getId_id3jJoUQ7114V.invoke(SLinkOperations.getTarget(_context.getNode(), LINKS.decl$8WDz));
@@ -192,7 +192,7 @@ public class QueriesGenerated extends QueryProviderBase {
     return SLinkOperations.getTarget(_context.getNode(), LINKS.concept$OMgE);
   }
   public static Object referenceMacro_GetReferent_3_1(final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), LINKS.conceptDeclaraton$K4R0);
+    return SLinkOperations.getTarget(_context.getNode(), LINKS.conceptDeclaration$K4R0);
   }
   public static Object referenceMacro_GetReferent_3_2(final ReferenceMacroContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), LINKS.classifier$cxMr);
@@ -772,7 +772,7 @@ public class QueriesGenerated extends QueryProviderBase {
     /*package*/ static final SContainmentLink returnBaseType$DZPP = MetaAdapterFactory.getContainmentLink(0xbc963c22d41949b6L, 0x8543ea411eb9d3a1L, 0x17997d89c3ded435L, 0x17997d89c3e5ee16L, "returnBaseType");
     /*package*/ static final SContainmentLink type$h4Gt = MetaAdapterFactory.getContainmentLink(0xbc963c22d41949b6L, 0x8543ea411eb9d3a1L, 0x17997d89c3dfc0e3L, 0x17997d89c3dfc164L, "type");
     /*package*/ static final SReferenceLink concept$OMgE = MetaAdapterFactory.getReferenceLink(0x7866978ea0f04cc7L, 0x81bc4d213d9375e1L, 0x108f968b3caL, 0x1090e46ca51L, "concept");
-    /*package*/ static final SReferenceLink conceptDeclaraton$K4R0 = MetaAdapterFactory.getReferenceLink(0x7866978ea0f04cc7L, 0x81bc4d213d9375e1L, 0x5cab42cd97571ceeL, 0x5cab42cd97571cefL, "conceptDeclaraton");
+    /*package*/ static final SReferenceLink conceptDeclaration$K4R0 = MetaAdapterFactory.getReferenceLink(0x7866978ea0f04cc7L, 0x81bc4d213d9375e1L, 0x5cab42cd97571ceeL, 0x5cab42cd97571cefL, "conceptDeclaration");
     /*package*/ static final SReferenceLink decl$8WDz = MetaAdapterFactory.getReferenceLink(0xbc963c22d41949b6L, 0x8543ea411eb9d3a1L, 0x17997d89c3e16146L, 0x17997d89c3e161cdL, "decl");
     /*package*/ static final SReferenceLink decl$Qlzc = MetaAdapterFactory.getReferenceLink(0xbc963c22d41949b6L, 0x8543ea411eb9d3a1L, 0x17997d89c3e750cdL, 0x17997d89c3e75148L, "decl");
     /*package*/ static final SReferenceLink contextDecl$mFbc = MetaAdapterFactory.getReferenceLink(0xbc963c22d41949b6L, 0x8543ea411eb9d3a1L, 0x2ee2064132efe19dL, 0x2ee2064132efe19fL, "contextDecl");

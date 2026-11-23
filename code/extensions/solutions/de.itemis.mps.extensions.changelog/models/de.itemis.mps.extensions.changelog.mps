@@ -958,7 +958,7 @@
             <property role="3oM_SC" value="a" />
           </node>
           <node concept="3oM_SD" id="6mpWvU1yABA" role="1PaTwD">
-            <property role="3oM_SC" value="set&lt;SNodeReference&gt;" />
+            <property role="3oM_SC" value="set&lt;node-ptr&lt;&gt;&gt;" />
           </node>
           <node concept="3oM_SD" id="6mpWvU1yABB" role="1PaTwD">
             <property role="3oM_SC" value="of" />

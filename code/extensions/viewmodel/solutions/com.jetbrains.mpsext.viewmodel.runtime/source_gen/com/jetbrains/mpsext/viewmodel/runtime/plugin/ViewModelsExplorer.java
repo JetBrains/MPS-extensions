@@ -61,6 +61,7 @@ import org.jetbrains.mps.openapi.model.SReference;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.ide.icons.GlobalIconManager;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelStringKey;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import org.jetbrains.mps.openapi.model.SModelReference;
 import jetbrains.mps.ide.icons.IdeIcons;
@@ -491,10 +492,10 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
 
   private ViewModelsExplorerItem nodeItem(String idPrefix, SNodeReference ref) {
     // a node of a key, or a node that a value depends on
-    SNode target = ref.resolve(this.project.getRepository());
+    SNode target = SPointerOperations.resolveNode(ref, this.project.getRepository());
     ViewModelsExplorerItem item;
     if (target == null) {
-      item = new ViewModelsExplorerItem(idPrefix + ref, ref.toString(), AllIcons.General.Warning);
+      item = new ViewModelsExplorerItem(idPrefix + ref, String.valueOf(ref), AllIcons.General.Warning);
       item.detail = "not found";
     } else {
       item = new ViewModelsExplorerItem(idPrefix + ref, target.getPresentation(), GlobalIconManager.getInstance().getIconFor(target));
@@ -506,7 +507,8 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
   }
   private ViewModelsExplorerItem rootListItem(SModelReference modelRef) {
     // a dependency on the roots of a model: the value depends on which roots the model has
-    ViewModelsExplorerItem item = new ViewModelsExplorerItem("d:roots of " + modelRef, "roots of " + modelRef.getName().getLongName(), IdeIcons.MODEL_ICON);
+    SModel target = SPointerOperations.resolveModel(modelRef, this.project.getRepository());
+    ViewModelsExplorerItem item = new ViewModelsExplorerItem("d:roots of " + modelRef, "roots of " + ((target == null ? String.valueOf(modelRef) : SModelOperations.getModelName(target))), IdeIcons.MODEL_ICON);
     item.detail = "a root added or removed";
     return item;
   }

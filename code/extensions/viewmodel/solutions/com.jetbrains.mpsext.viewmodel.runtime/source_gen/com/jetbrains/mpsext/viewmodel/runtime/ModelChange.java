@@ -6,9 +6,12 @@ import org.jetbrains.mps.openapi.model.SModelReference;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
+import org.jetbrains.mps.openapi.model.SModel;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.smodel.SNodePointer;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
@@ -39,45 +42,46 @@ public final class ModelChange {
    * A property or a reference of the node changed, or a child was added to it.
    */
   public static ModelChange ofNode(SNode node) {
-    SNodeReference ref = node.getReference();
+    SNodeReference ref = SNodeOperations.getPointer(node);
     List<SNodeReference> changedNodes = ListSequence.fromList(new ArrayList<SNodeReference>());
     ListSequence.fromList(changedNodes).addElement(ref);
-    return new ModelChange(ref.getModelReference(), SNodeOperations.getContainingRoot(node).getReference(), changedNodes, ListSequence.fromList(new ArrayList<SNodeReference>()), false, false);
+    return new ModelChange(SPointerOperations.getModel(ref), SNodeOperations.getPointer(SNodeOperations.getContainingRoot(node)), changedNodes, ListSequence.fromList(new ArrayList<SNodeReference>()), false, false);
   }
 
   /**
    * The child was added to the parent, or to the roots of the model when the parent is null.
    */
-  public static ModelChange added(SModelReference model, SNode parent, SNode child) {
+  public static ModelChange added(SModel model, SNode parent, SNode child) {
     if (parent != null) {
       return ofNode(parent);
     }
-    return new ModelChange(model, child.getReference(), ListSequence.fromList(new ArrayList<SNodeReference>()), ListSequence.fromList(new ArrayList<SNodeReference>()), true, false);
+    return new ModelChange(SModelOperations.getPointer(model), SNodeOperations.getPointer(child), ListSequence.fromList(new ArrayList<SNodeReference>()), ListSequence.fromList(new ArrayList<SNodeReference>()), true, false);
   }
 
   /**
    * The child was removed from the parent, or from the roots of the model when the parent is null. The child and its
    * descendants are removed: they are detached already, so their references are built from the model of the event.
    */
-  public static ModelChange removed(SModelReference model, SNode parent, SNode child) {
+  public static ModelChange removed(SModel model, SNode parent, SNode child) {
+    SModelReference modelRef = SModelOperations.getPointer(model);
     List<SNodeReference> removedNodes = ListSequence.fromList(new ArrayList<SNodeReference>());
-    ListSequence.fromList(removedNodes).addElement(new SNodePointer(model, child.getNodeId()));
+    ListSequence.fromList(removedNodes).addElement(new SNodePointer(modelRef, child.getNodeId()));
     for (SNode descendant : ListSequence.fromList(SNodeOperations.getNodeDescendants(child, null, false, new SAbstractConcept[]{}))) {
-      ListSequence.fromList(removedNodes).addElement(new SNodePointer(model, descendant.getNodeId()));
+      ListSequence.fromList(removedNodes).addElement(new SNodePointer(modelRef, descendant.getNodeId()));
     }
     if (parent == null) {
-      return new ModelChange(model, ListSequence.fromList(removedNodes).first(), ListSequence.fromList(new ArrayList<SNodeReference>()), removedNodes, true, false);
+      return new ModelChange(modelRef, ListSequence.fromList(removedNodes).first(), ListSequence.fromList(new ArrayList<SNodeReference>()), removedNodes, true, false);
     }
     List<SNodeReference> changedNodes = ListSequence.fromList(new ArrayList<SNodeReference>());
-    ListSequence.fromList(changedNodes).addElement(parent.getReference());
-    return new ModelChange(model, SNodeOperations.getContainingRoot(parent).getReference(), changedNodes, removedNodes, false, false);
+    ListSequence.fromList(changedNodes).addElement(SNodeOperations.getPointer(parent));
+    return new ModelChange(modelRef, SNodeOperations.getPointer(SNodeOperations.getContainingRoot(parent)), changedNodes, removedNodes, false, false);
   }
 
   /**
    * The whole model changed: it was replaced (reloaded from disk), unloaded or removed from the repository.
    */
-  public static ModelChange ofModel(SModelReference model) {
-    return new ModelChange(model, null, ListSequence.fromList(new ArrayList<SNodeReference>()), ListSequence.fromList(new ArrayList<SNodeReference>()), false, true);
+  public static ModelChange ofModel(SModel model) {
+    return new ModelChange(SModelOperations.getPointer(model), null, ListSequence.fromList(new ArrayList<SNodeReference>()), ListSequence.fromList(new ArrayList<SNodeReference>()), false, true);
   }
 
   public SModelReference getModel() {

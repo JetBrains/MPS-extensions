@@ -596,11 +596,11 @@ public final class ViewModels {
     }
     Set<SModelReference> modelRefs = SetSequence.fromSet(new HashSet<SModelReference>());
     for (SNodeReference ref : SetSequence.fromSet(dependencies.getNodes())) {
-      SetSequence.fromSet(modelRefs).addElement(ref.getModelReference());
+      SetSequence.fromSet(modelRefs).addElement(SPointerOperations.getModel(ref));
     }
     SetSequence.fromSet(modelRefs).addSequence(SetSequence.fromSet(dependencies.getRootLists()));
     for (RootDependency root : SetSequence.fromSet(dependencies.getRoots())) {
-      SetSequence.fromSet(modelRefs).addElement(root.getRoot().getModelReference());
+      SetSequence.fromSet(modelRefs).addElement(SPointerOperations.getModel(root.getRoot()));
     }
     for (ViewModelKey key : ListSequence.fromList(path)) {
       if (key instanceof ViewModelNodeKey) {
@@ -611,8 +611,7 @@ public final class ViewModels {
       if (modelRef == null) {
         continue;
       }
-      SModelReference pointer = modelRef;
-      SModel trackedModel = SPointerOperations.resolveModel(pointer, keyRepository);
+      SModel trackedModel = SPointerOperations.resolveModel(modelRef, keyRepository);
       if (trackedModel == null || trackedModel == model) {
         continue;
       }
@@ -829,7 +828,7 @@ public final class ViewModels {
 
   public void modelRemoved(SModel removed) {
     // a model removed from the repository (deleted, or a disposed temporary model): forget its entries
-    modelChanged(ModelChange.ofModel(removed.getReference()));
+    modelChanged(ModelChange.ofModel(removed));
     for (List<ViewModelKey> path : ListSequence.fromList(index.getKeyedInModel(removed.getReference()))) {
       invalidate(path);
     }

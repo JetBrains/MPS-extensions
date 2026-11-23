@@ -14,6 +14,8 @@ import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.IMapping;
+import java.util.Objects;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
 
 /**
  * The index is used by the change listener in write actions, by writes from any thread with no more than read access,
@@ -140,12 +142,12 @@ public final class ViewModelIndex {
     SModelReference modelRef = change.getModel();
     if (change.isWholeModel()) {
       for (IMapping<SNodeReference, Set<List<ViewModelKey>>> entry : MapSequence.fromMap(nodeDependents)) {
-        if (modelRef.equals(entry.key().getModelReference())) {
+        if (Objects.equals(modelRef, SPointerOperations.getModel(entry.key()))) {
           SetSequence.fromSet(result).addSequence(SetSequence.fromSet(entry.value()));
         }
       }
       for (IMapping<SNodeReference, Set<List<ViewModelKey>>> entry : MapSequence.fromMap(rootDependents)) {
-        if (modelRef.equals(entry.key().getModelReference())) {
+        if (Objects.equals(modelRef, SPointerOperations.getModel(entry.key()))) {
           SetSequence.fromSet(result).addSequence(SetSequence.fromSet(entry.value()));
         }
       }
@@ -176,15 +178,24 @@ public final class ViewModelIndex {
 
   /**
    * Returns whether the computation of the row may have read a node that the change below one of its roots changed
-   * or removed: always when a dependency on a root has no filter, otherwise when a filter may contain such a node. The
-   * filters of all roots of the row are asked, not only the one of the changed root. That lets through no more than the
-   * filter of the changed root alone, as all dependencies of one recording share one filter (ReadRecorder).
+   * or removed. Only the dependencies of the row on that root are asked: always when one of them has no filter,
+   * otherwise when its filter may contain such a node. So the dependencies of several computations merged with union
+   * are as precise as those of each. The dependencies on the root are found by their equals, one lookup for each
+   * distinct filter of the row (IndexRow) instead of a pass over all its dependencies on roots.
    */
   private static boolean mayHaveRead(IndexRow row, ModelChange change) {
-    if (row.dependsOnAWholeSubtree() || row.getFilters() == null) {
+    Set<RootDependency> roots = row.getDependencies().getRoots();
+    SNodeReference root = change.getRoot();
+    if (row.dependsOnAWholeSubtree() && SetSequence.fromSet(roots).contains(new RootDependency(root))) {
       return true;
     }
+    if (row.getFilters() == null) {
+      return false;
+    }
     for (NodeFilter filter : ListSequence.fromList(row.getFilters())) {
+      if (!(SetSequence.fromSet(roots).contains(new RootDependency(root, filter)))) {
+        continue;
+      }
       for (SNodeReference ref : ListSequence.fromList(change.getChanged())) {
         if (filter.mightContain(ref)) {
           return true;
@@ -210,7 +221,7 @@ public final class ViewModelIndex {
   public synchronized List<List<ViewModelKey>> getKeyedInModel(SModelReference model) {
     Set<List<ViewModelKey>> result = SetSequence.fromSet(new HashSet<List<ViewModelKey>>());
     for (IMapping<SNodeReference, Set<List<ViewModelKey>>> entry : MapSequence.fromMap(keyed)) {
-      if (model.equals(entry.key().getModelReference())) {
+      if (Objects.equals(model, SPointerOperations.getModel(entry.key()))) {
         SetSequence.fromSet(result).addSequence(SetSequence.fromSet(entry.value()));
       }
     }

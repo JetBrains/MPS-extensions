@@ -288,7 +288,7 @@ Dependencies d = c.getDependencies().union(other.getDependencies()); // of two c
 // the future is completed: false when the write is rejected (read-only model, node in no model of a
 // repository)
 CompletableFuture<Boolean> f = results.write(node, value, dependencies); // a node: a NodeValue
-results.write(node, value, nodeRefs);                 // set<SNodeReference>: dependencies on single nodes
+results.write(node, value, nodeRefs);                 // set<node-ptr<>>: dependencies on single nodes
 results.writeComputed(node, c);
 results.writePath(path, value, dependencies);         // value null removes
 results.remove(node);                                 // all data of the node, composite keys included
@@ -339,7 +339,7 @@ viewmodel/TestResults/.writeComputed(item, c);
 * The dependencies of a value are a `Dependencies`, of three kinds: single nodes (`getNodes`), the
   roots of models (`getRootLists`) and the subtrees of roots (`getRoots`, see below). It is immutable;
   `union` merges the dependencies of several computations. `write` and `writePath` also take a
-  `set<SNodeReference>` (overloads), for callers that collect dependencies on single nodes themselves.
+  `set<node-ptr<>>` (overloads), for callers that collect dependencies on single nodes themselves.
 * The index (`ViewModelIndex`) has one row per path (`IndexRow`: the dependencies and the filters of
   the dependencies on roots) and a reverse index for each kind of dependency, from the node, the model
   or the root to the paths that depend on it. An `SNodeChangeListener` listens to every model that
@@ -367,7 +367,12 @@ viewmodel/TestResults/.writeComputed(item, c);
   dependencies of several computations therefore keeps the filter of each, and a rewrite of the same
   value computed from other nodes takes the new dependencies. The reverse index of root dependencies
   is keyed by the root, so the dependencies on a root are found together and no filter is referenced
-  from a key; the distinct filters of an entry are in its row (`IndexRow`).
+  from a key; the distinct filters of an entry are in its row (`IndexRow`). A change below a root asks
+  only the entry's dependencies on that root, looked up by their equals with each distinct filter, so
+  that merged dependencies are as precise as those of each computation.
+* A root dependency without a filter (`new RootDependency(root)`) depends on the whole subtree of the
+  root: every change below the root concerns it. `ReadRecorder` makes none; a caller that collects
+  dependencies itself can give one (`Dependencies.of`).
 * A change of a dependency node (property, reference, child added/removed) removes the dependent
   entries. Removing a node removes the entries keyed by any node of the removed subtree and the
   entries depending on it. A model that is replaced (reloaded from disk) invalidates all entries

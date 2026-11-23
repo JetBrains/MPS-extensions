@@ -10,6 +10,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import com.jetbrains.mpsext.viewmodel.runtime.RootDependency;
 import com.jetbrains.mpsext.viewmodel.runtime.Dependencies;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.Objects;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
@@ -29,7 +30,7 @@ public final class RootDependencyFixtures {
   public static RootDependency rootDependencyOn(Dependencies dependencies, SNode root) {
     // the dependency on the root among the dependencies, null when there is none
     for (RootDependency dependency : SetSequence.fromSet(dependencies.getRoots())) {
-      if (dependency.getRoot().equals(root.getReference())) {
+      if (Objects.equals(dependency.getRoot(), SNodeOperations.getPointer(root))) {
         return dependency;
       }
     }

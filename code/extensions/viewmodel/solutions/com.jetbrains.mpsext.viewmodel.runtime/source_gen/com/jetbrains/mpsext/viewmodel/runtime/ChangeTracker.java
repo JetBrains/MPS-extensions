@@ -34,22 +34,22 @@ public final class ChangeTracker implements SNodeChangeListener, SModelListener 
 
   @Override
   public void nodeAdded(SNodeAddEvent event) {
-    viewModels.modelChanged(ModelChange.added(event.getModel().getReference(), event.getParent(), event.getChild()));
+    viewModels.modelChanged(ModelChange.added(event.getModel(), event.getParent(), event.getChild()));
   }
 
   @Override
   public void nodeRemoved(SNodeRemoveEvent event) {
-    viewModels.modelChanged(ModelChange.removed(event.getModel().getReference(), event.getParent(), event.getChild()));
+    viewModels.modelChanged(ModelChange.removed(event.getModel(), event.getParent(), event.getChild()));
   }
 
   @Override
   public void modelReplaced(SModel replaced) {
-    viewModels.modelChanged(ModelChange.ofModel(replaced.getReference()));
+    viewModels.modelChanged(ModelChange.ofModel(replaced));
   }
 
   @Override
   public void modelUnloaded(SModel unloaded) {
-    viewModels.modelChanged(ModelChange.ofModel(unloaded.getReference()));
+    viewModels.modelChanged(ModelChange.ofModel(unloaded));
   }
 
   @Override

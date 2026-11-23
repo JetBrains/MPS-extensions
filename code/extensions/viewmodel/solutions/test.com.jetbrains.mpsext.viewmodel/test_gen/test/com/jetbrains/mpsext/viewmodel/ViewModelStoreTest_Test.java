@@ -21,11 +21,11 @@ import java.util.Set;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelKey;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
@@ -134,6 +134,10 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
     new TestBody(this).test_mergedDependenciesKeepTheNodesEachComputationRead();
   }
   @Test
+  public void test_aDependencyOnAWholeSubtreeOnlyConcernsChangesBelowItsRoot() throws Throwable {
+    new TestBody(this).test_aDependencyOnAWholeSubtreeOnlyConcernsChangesBelowItsRoot();
+  }
+  @Test
   public void test_aNewInstanceTakesOverTheStore() throws Throwable {
     new TestBody(this).test_aNewInstanceTakesOverTheStore();
   }
@@ -225,9 +229,9 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         SNode other = getAnnotatedNode("b");
         // dependencies that the caller collected itself, written through the overload that takes node references
         Set<SNodeReference> dependencies = SetSequence.fromSet(new HashSet<SNodeReference>());
-        SetSequence.fromSet(dependencies).addElement(other.getReference());
+        SetSequence.fromSet(dependencies).addElement(SNodeOperations.getPointer(other));
         vm.write(item, "value", dependencies);
-        Assert.assertTrue("the node references are dependencies on the nodes", SetSequence.fromSet(ViewModels.getInstance().getDependencies(vm.getName(), ViewModels.path(item)).getNodes()).contains(other.getReference()));
+        Assert.assertTrue("the node references are dependencies on the nodes", SetSequence.fromSet(ViewModels.getInstance().getDependencies(vm.getName(), ViewModels.path(item)).getNodes()).contains(SNodeOperations.getPointer(other)));
         SPropertyOperations.assign(item, PROPS.input$_sYF, "changed");
         Assert.assertNotNull("a change of the key node, which is no dependency, keeps the value", vm.get(item));
         SPropertyOperations.assign(other, PROPS.input$_sYF, "changed");
@@ -340,8 +344,8 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
           Computed<String> nested = inner.compute(() -> SPropertyOperations.getString(second, PROPS.input$_sYF));
           return SPropertyOperations.getString(first, PROPS.input$_sYF) + nested.getValue();
         });
-        Assert.assertTrue(SetSequence.fromSet(outer.getDependencies().getNodes()).contains(first.getReference()));
-        Assert.assertTrue(SetSequence.fromSet(outer.getDependencies().getNodes()).contains(second.getReference()));
+        Assert.assertTrue(SetSequence.fromSet(outer.getDependencies().getNodes()).contains(SNodeOperations.getPointer(first)));
+        Assert.assertTrue(SetSequence.fromSet(outer.getDependencies().getNodes()).contains(SNodeOperations.getPointer(second)));
       });
     }
     public void test_aComputationOverTheRootsIsRemovedWhenARootIsAdded() throws Exception {
@@ -387,7 +391,7 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
           return labels;
         });
         Assert.assertNotNull("a computation that read " + (ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).count() + 1) + " nodes of the copy of many depends on its root, but its dependencies are " + computed.getDependencies(), RootDependencyFixtures.rootDependencyOn(computed.getDependencies(), tree));
-        Assert.assertFalse("the nodes below the root are no dependencies of their own, but " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first(), PROPS.name$MnvL) + " is one", SetSequence.fromSet(computed.getDependencies().getNodes()).contains(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first().getReference()));
+        Assert.assertFalse("the nodes below the root are no dependencies of their own, but " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first(), PROPS.name$MnvL) + " is one", SetSequence.fromSet(computed.getDependencies().getNodes()).contains(SNodeOperations.getPointer(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first())));
         vm.writeComputed(item, computed);
         Assert.assertNotNull("the computed value is stored", vm.get(item));
         // a change of a node it read below the root changes the dependency on the root
@@ -636,6 +640,44 @@ public class ViewModelStoreTest_Test extends BaseTransformationTest {
         SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.label$IRFe, "changed");
         Assert.assertNull("a change of the label of " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).last(), PROPS.name$MnvL) + ", which only the second computation read, removes the value written with the merged dependencies", vm.get(item));
         SNodeOperations.deleteNode(tree);
+      });
+    }
+    public void test_aDependencyOnAWholeSubtreeOnlyConcernsChangesBelowItsRoot() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        ViewModel vm = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results");
+        vm.clear();
+        SNode item = getAnnotatedNode("a");
+        SModel model = SNodeOperations.getModel(item);
+        // two copies of the fixture as roots of their own: the test changes them, and the value depends on their roots
+        SNode fixture = getAnnotatedNode("many");
+        final SNode tree = SNodeOperations.copyNode(fixture);
+        SModelOperations.addRootNode(model, tree);
+        SNode other = SNodeOperations.copyNode(fixture);
+        SModelOperations.addRootNode(model, other);
+        Computed<String> computed = vm.compute(() -> {
+          String labels = "";
+          for (SNode child : ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4))) {
+            labels = labels + SPropertyOperations.getString(child, PROPS.label$IRFe);
+          }
+          return labels;
+        });
+        RootDependency dependency = RootDependencyFixtures.rootDependencyOn(computed.getDependencies(), tree);
+        Assert.assertNotNull("a computation that read " + (ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).count() + 1) + " nodes of the copy of many depends on its root, but its dependencies are " + computed.getDependencies(), dependency);
+        // one of the nodes below item0, which the computation doesn't read
+        SNode unread = RootDependencyFixtures.keptOut(dependency, ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first());
+        Assert.assertNotNull("the filter of the dependency keeps out at least one of the nodes below " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(tree, LINKS.items$WHh4)).first(), PROPS.name$MnvL) + ", which the computation didn't read", unread);
+        // the value also depends on everything below the root of the other copy, as a caller that collects its dependencies itself can say
+        Set<RootDependency> wholeSubtree = SetSequence.fromSet(new HashSet<RootDependency>());
+        SetSequence.fromSet(wholeSubtree).addElement(new RootDependency(SNodeOperations.getPointer(other)));
+        vm.write(item, computed.getValue(), computed.getDependencies().union(Dependencies.of(null, null, wholeSubtree)));
+        // a change below the root of the first copy only concerns the dependency on that root, which keeps out the unread node
+        SPropertyOperations.assign(unread, PROPS.label$IRFe, "changed");
+        Assert.assertNotNull("a change of the label of " + SPropertyOperations.getString(unread, PROPS.name$MnvL) + ", which the computation didn't read, keeps the value: the dependency on the whole subtree of the other root does not concern it", vm.get(item));
+        SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(other, LINKS.items$WHh4)).first(), PROPS.label$IRFe, "changed");
+        Assert.assertNull("a change of the label of " + SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(other, LINKS.items$WHh4)).first(), PROPS.name$MnvL) + " below the other root removes the value, which depends on the whole subtree of that root", vm.get(item));
+        SNodeOperations.deleteNode(tree);
+        SNodeOperations.deleteNode(other);
       });
     }
     public void test_aNewInstanceTakesOverTheStore() throws Exception {

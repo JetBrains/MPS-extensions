@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  * The row of the index (ViewModelIndex) for the value at one path: its dependencies, and the distinct filters of its
- * dependencies on roots, which are checked for every change below one of those roots.
+ * dependencies on roots, with which ViewModelIndex.mayHaveRead looks up the dependencies on a changed root.
  */
 public final class IndexRow {
   private final Dependencies dependencies;

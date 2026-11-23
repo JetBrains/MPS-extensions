@@ -21,6 +21,7 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.NodeReadAccessCasterInEditor;
 import jetbrains.mps.internal.collections.runtime.IMapping;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 
 public final class ReadRecorder extends AbstractNodesReadListener {
   private static final ThreadLocal<ReadRecorder> ourCurrent = new ThreadLocal<ReadRecorder>();
@@ -89,14 +90,14 @@ public final class ReadRecorder extends AbstractNodesReadListener {
       for (IMapping<SModel, List<SNode>> entry : MapSequence.fromMap(byModel)) {
         if (ListSequence.fromList(entry.value()).count() <= NODE_LIMIT) {
           for (SNode node : ListSequence.fromList(entry.value())) {
-            SetSequence.fromSet(nodeRefs).addElement(node.getReference());
+            SetSequence.fromSet(nodeRefs).addElement(SNodeOperations.getPointer(node));
           }
           continue;
         }
         if (filter == null) {
           filter = new NodeFilter(filtered);
         }
-        SModelReference modelRef = entry.key().getReference();
+        SModelReference modelRef = SModelOperations.getPointer(entry.key());
         for (SNode node : ListSequence.fromList(entry.value())) {
           filter.add(modelRef, node.getNodeId());
           SetSequence.fromSet(roots).addElement(SNodeOperations.getContainingRoot(node));
@@ -104,7 +105,7 @@ public final class ReadRecorder extends AbstractNodesReadListener {
       }
       // the dependencies on the roots are made once the filter holds all nodes, as it is part of their equals
       for (SNode root : SetSequence.fromSet(roots)) {
-        SetSequence.fromSet(rootDependencies).addElement(new RootDependency(root.getReference(), filter));
+        SetSequence.fromSet(rootDependencies).addElement(new RootDependency(SNodeOperations.getPointer(root), filter));
       }
     } finally {
       NodeReadAccessCasterInEditor.setEventsBlocked(wereBlocked);
@@ -113,7 +114,7 @@ public final class ReadRecorder extends AbstractNodesReadListener {
   }
 
   private void record(SNode node) {
-    // the model of the node is only looked at in getNodes, once per node
+    // the model of the node is only looked at in getDependencies, once per node
     if (node == null || node == lastNode) {
       return;
     }

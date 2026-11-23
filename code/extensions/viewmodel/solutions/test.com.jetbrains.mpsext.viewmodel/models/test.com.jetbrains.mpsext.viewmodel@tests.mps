@@ -7874,7 +7874,7 @@
             <node concept="TSZUe" id="7v0wtRXJum3" role="2OqNvi">
               <node concept="2ShNRf" id="7v0wtRXJum5" role="25WWJ7">
                 <node concept="1pGfFk" id="7v0wtRXJum7" role="2ShVmc">
-                  <ref role="37wK5l" to="u3te:4KEpWP$got0" />
+                  <ref role="37wK5l" to="u3te:4KEpWP$got0" resolve="RootDependency" />
                   <node concept="2OqwBi" id="7v0wtRXJum8" role="37wK5m">
                     <node concept="37vLTw" id="7v0wtRXJumb" role="2Oq$k0">
                       <ref role="3cqZAo" node="7v0wtRXFosX" resolve="other" />

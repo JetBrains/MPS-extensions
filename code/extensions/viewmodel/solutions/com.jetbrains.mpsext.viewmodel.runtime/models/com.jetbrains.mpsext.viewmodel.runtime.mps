@@ -6714,7 +6714,7 @@
               <node concept="3JPx81" id="7v0wtRXX76x" role="2OqNvi">
                 <node concept="2ShNRf" id="7v0wtRXX76z" role="25WWJ7">
                   <node concept="1pGfFk" id="7v0wtRXX76_" role="2ShVmc">
-                    <ref role="37wK5l" node="4KEpWP$got0" />
+                    <ref role="37wK5l" node="4KEpWP$got0" resolve="RootDependency" />
                     <node concept="37vLTw" id="7v0wtRXX76A" role="37wK5m">
                       <ref role="3cqZAo" node="7v0wtRXX76a" resolve="root" />
                     </node>
@@ -6774,7 +6774,7 @@
                     <node concept="3JPx81" id="7v0wtRXX774" role="2OqNvi">
                       <node concept="2ShNRf" id="7v0wtRXX776" role="25WWJ7">
                         <node concept="1pGfFk" id="7v0wtRXX778" role="2ShVmc">
-                          <ref role="37wK5l" node="4KEpWP$qz8f" />
+                          <ref role="37wK5l" node="4KEpWP$qz8f" resolve="RootDependency" />
                           <node concept="37vLTw" id="7v0wtRXX779" role="37wK5m">
                             <ref role="3cqZAo" node="7v0wtRXX76a" resolve="root" />
                           </node>

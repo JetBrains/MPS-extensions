@@ -7257,7 +7257,7 @@
             <node concept="2ShNRf" id="7v0wtRXi5F4" role="33vP2m">
               <node concept="1pGfFk" id="7v0wtRXi5F6" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" node="55VuGTQbXqD" />
+                <ref role="37wK5l" node="55VuGTQbXqD" resolve="ViewModelsExplorerItem" />
                 <node concept="3cpWs3" id="7v0wtRXi5F7" role="37wK5m">
                   <node concept="Xl_RD" id="7v0wtRXi5Fa" role="3uHU7B">
                     <property role="Xl_RC" value="d:roots of " />

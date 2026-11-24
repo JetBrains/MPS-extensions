@@ -6,6 +6,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## November 2026
 
+### Added
+
+- *com.jetbrains.mpsext.mcptools* New (experimental): MCP tools. A tool is a root with a snake_case name, a description, typed parameters (string, int, boolean, double; required or optional) and a BaseLanguage body that returns a string. Each tool says which model access it needs: `read`, `command` or `none`. All tools of a model form a group, and the `mcp tool group` root of the model gives the prefix of the tool names. When MPS loads the classes of a module, its tools are registered with the MCP server of the IDE (plugin *MCP Server*), and removed again when the classes are unloaded. See *Utilities* > *MCP Tools* in the documentation.
+
 ### Fixed
 
 - *de.itemis.mps.editor.diagram.runtime* Fix `IllegalStateException: Editor is already disposed` logged when a diagram editor is closed while its automatic layout is still running.

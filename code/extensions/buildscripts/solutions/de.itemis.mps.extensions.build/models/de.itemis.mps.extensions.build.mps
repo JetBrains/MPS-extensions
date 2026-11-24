@@ -18569,6 +18569,25 @@
             <ref role="3bR37D" node="22YFFfXbFYW" resolve="com.jetbrains.mpsext.mcptools.runtime" />
           </node>
         </node>
+        <node concept="3rtmxn" id="1sMlOhYh7a2" role="3bR31x">
+          <node concept="3LXTmp" id="1sMlOhYh7a3" role="3rtmxm">
+            <node concept="3qWCbU" id="1sMlOhYh7a4" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="1sMlOhYh7a5" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="1sMlOhYh7a6" role="iGT6I">
+                <property role="2Ry0Am" value="mcptools" />
+                <node concept="2Ry0Ak" id="1sMlOhYh7a7" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="1sMlOhYh7a8" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.mcptools" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="22YFFfXbFYW" role="2G$12L">
         <property role="TrG5h" value="com.jetbrains.mpsext.mcptools.runtime" />
@@ -18659,6 +18678,25 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="1sMlOhYh79y" role="3bR31x">
+          <node concept="3LXTmp" id="1sMlOhYh79z" role="3rtmxm">
+            <node concept="3qWCbU" id="1sMlOhYh79$" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="1sMlOhYh79_" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="1sMlOhYh79A" role="iGT6I">
+                <property role="2Ry0Am" value="mcptools" />
+                <node concept="2Ry0Ak" id="1sMlOhYh79B" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="1sMlOhYh79C" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.mcptools.runtime" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="22YFFfXbFZx" role="2G$12L">
         <property role="TrG5h" value="com.jetbrains.mpsext.mcptools.stubs" />
@@ -18717,6 +18755,25 @@
             </node>
             <node concept="3yrxFa" id="22YFFfXcP9M" role="2gdwQb">
               <ref role="3yrxFb" to="ffeo:X5qzrOsk0G" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="1sMlOhYh79E" role="3bR31x">
+          <node concept="3LXTmp" id="1sMlOhYh79F" role="3rtmxm">
+            <node concept="3qWCbU" id="1sMlOhYh79G" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="1sMlOhYh79H" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="1sMlOhYh79I" role="iGT6I">
+                <property role="2Ry0Am" value="mcptools" />
+                <node concept="2Ry0Ak" id="1sMlOhYh79J" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="1sMlOhYh79K" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.mcptools.stubs" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -28015,6 +28072,25 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="1sMlOhYh79M" role="3bR31x">
+          <node concept="3LXTmp" id="1sMlOhYh79N" role="3rtmxm">
+            <node concept="3qWCbU" id="1sMlOhYh79O" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="1sMlOhYh79P" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="1sMlOhYh79Q" role="iGT6I">
+                <property role="2Ry0Am" value="mcptools" />
+                <node concept="2Ry0Ak" id="1sMlOhYh79R" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="1sMlOhYh79S" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.jetbrains.mpsext.mcptools.testing" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="22YFFfXbG0L" role="2G$12L">
         <property role="TrG5h" value="test.com.jetbrains.mpsext.mcptools" />
@@ -28104,6 +28180,25 @@
         <node concept="1SiIV0" id="5Wu2yrSv9vu" role="3bR37C">
           <node concept="3bR9La" id="5Wu2yrSv9vv" role="1SiIV1">
             <ref role="3bR37D" node="5Wu2yrSv8cK" resolve="com.jetbrains.mpsext.mcptools.testing" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="1sMlOhYh79U" role="3bR31x">
+          <node concept="3LXTmp" id="1sMlOhYh79V" role="3rtmxm">
+            <node concept="3qWCbU" id="1sMlOhYh79W" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="1sMlOhYh79X" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="1sMlOhYh79Y" role="iGT6I">
+                <property role="2Ry0Am" value="mcptools" />
+                <node concept="2Ry0Ak" id="1sMlOhYh79Z" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="1sMlOhYh7a0" role="2Ry0An">
+                    <property role="2Ry0Am" value="test.com.jetbrains.mpsext.mcptools" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

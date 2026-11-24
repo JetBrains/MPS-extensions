@@ -26,6 +26,7 @@
       </concept>
       <concept id="4531408400484511853" name="jetbrains.mps.lang.test.structure.ReportErrorStatementReference" flags="ng" index="2PYRI3" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
       </concept>
       <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
@@ -71,6 +72,7 @@
   </registry>
   <node concept="1lH9Xt" id="22YFFfX$OTs">
     <property role="TrG5h" value="McpToolDuplicatesTest" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="22YFFfX$OUQ" role="1SKRRt">
       <node concept="3sgS53" id="22YFFfX$OUR" role="1qenE9">
         <property role="3sgS52" value="one" />

@@ -556,27 +556,6 @@
           <node concept="3oM_SD" id="22YFFfX_K9X" role="1PaTwD">
             <property role="3oM_SC" value="unloaded." />
           </node>
-          <node concept="1RqHR4" id="22YFFfX_K9Y" role="1PaTwD">
-            <property role="3oM_SC" value="McpToolTesting" />
-          </node>
-          <node concept="3oM_SD" id="22YFFfX_K9Z" role="1PaTwD">
-            <property role="3oM_SC" value="in" />
-          </node>
-          <node concept="3oM_SD" id="22YFFfX_Ka0" role="1PaTwD">
-            <property role="3oM_SC" value="com.jetbrains.mpsext.mcptools.runtime" />
-          </node>
-          <node concept="3oM_SD" id="22YFFfX_Ka1" role="1PaTwD">
-            <property role="3oM_SC" value="calls" />
-          </node>
-          <node concept="3oM_SD" id="22YFFfX_Ka2" role="1PaTwD">
-            <property role="3oM_SC" value="tools" />
-          </node>
-          <node concept="3oM_SD" id="22YFFfX_Ka3" role="1PaTwD">
-            <property role="3oM_SC" value="in" />
-          </node>
-          <node concept="3oM_SD" id="22YFFfX_Ka4" role="1PaTwD">
-            <property role="3oM_SC" value="tests." />
-          </node>
           <node concept="3oM_SD" id="22YFFfX_Ka5" role="1PaTwD">
             <property role="3oM_SC" value="See" />
           </node>

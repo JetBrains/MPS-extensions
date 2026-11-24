@@ -49,6 +49,7 @@
       <concept id="4531408400484511853" name="jetbrains.mps.lang.test.structure.ReportErrorStatementReference" flags="ng" index="2PYRI3" />
       <concept id="1225467090849" name="jetbrains.mps.lang.test.structure.ProjectExpression" flags="nn" index="1jxXqW" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
@@ -246,6 +247,7 @@
   </registry>
   <node concept="1lH9Xt" id="22YFFfXaV1u">
     <property role="TrG5h" value="McpToolCallsTest" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="22YFFfXaV1w" role="1SKRRt">
       <node concept="312cEu" id="22YFFfXaV1v" role="1qenE9">
         <property role="TrG5h" value="Before" />
@@ -1191,6 +1193,7 @@
   </node>
   <node concept="1lH9Xt" id="22YFFfXaVRV">
     <property role="TrG5h" value="McpToolSchemasTest" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="22YFFfXaVRW" role="1SL9yI">
       <property role="TrG5h" value="inputSchemaHasTheParametersAndProjectPath" />
       <node concept="3clFbS" id="22YFFfXaVRX" role="3clF47">
@@ -1730,6 +1733,7 @@
   </node>
   <node concept="1lH9Xt" id="22YFFfXaY4E">
     <property role="TrG5h" value="McpToolChecksTest" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="22YFFfXaY4P" role="1SKRRt">
       <node concept="BHt8D" id="22YFFfXaY4F" role="1qenE9">
         <property role="TrG5h" value="BadName" />

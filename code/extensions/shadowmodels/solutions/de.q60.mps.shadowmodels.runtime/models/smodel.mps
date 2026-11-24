@@ -15063,7 +15063,7 @@
                   <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
                 </node>
                 <node concept="liA8E" id="6FW8YbU0pqa" role="2OqNvi">
-                  <ref role="37wK5l" to="bd8o:~Application.invokeLater(java.lang.Runnable)" resolve="invokeLater" />
+                  <ref role="37wK5l" to="bd8o:~Application.invokeLater(java.lang.Runnable,com.intellij.openapi.application.ModalityState)" resolve="invokeLater" />
                   <node concept="1bVj0M" id="6FW8YbU0qjH" role="37wK5m">
                     <node concept="3clFbS" id="6FW8YbU0qjI" role="1bW5cS">
                       <node concept="3clFbF" id="6FW8YbU0ubZ" role="3cqZAp">
@@ -15103,6 +15103,10 @@
                         </node>
                       </node>
                     </node>
+                  </node>
+                  <node concept="2YIFZM" id="1g00xbD2FuU" role="37wK5m">
+                    <ref role="1Pybhc" to="bd8o:~ModalityState" resolve="ModalityState" />
+                    <ref role="37wK5l" to="bd8o:~ModalityState.nonModal()" resolve="nonModal" />
                   </node>
                 </node>
               </node>

@@ -9,6 +9,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.itemis.mps.editor.diagram.runtime* Fix `IllegalStateException: Editor is already disposed` logged when a diagram editor is closed while its automatic layout is still running.
+- *de.q60.mps.shadowmodels.runtime* The IDE no longer freezes during Make when shadow models react to repository changes. Shadow models applied these changes in a write action from inside the modal Make progress, which had to wait until generation finished. The changes are now applied after the modal progress closes.
 
 ## October 2026
 

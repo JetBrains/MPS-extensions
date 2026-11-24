@@ -5001,9 +5001,9 @@
       <node id="334096402142995164" at="403,25,404,35" concept="3" />
       <node id="334096402142995171" at="404,35,405,35" concept="3" />
       <node id="334096402143050899" at="405,35,406,30" concept="10" />
-      <node id="6488710515925395049" at="409,274,410,74" concept="9" />
+      <node id="6488710515925395049" at="409,282,410,97" concept="9" />
       <node id="6488710515925396138" at="411,64,412,20" concept="10" />
-      <node id="6488710515925395063" at="415,44,416,148" concept="3" />
+      <node id="6488710515925395063" at="415,44,416,178" concept="3" />
       <node id="6488710515925395080" at="418,5,419,18" concept="10" />
       <node id="1921496562447289194" at="422,36,423,52" concept="10" />
       <node id="1921496562447289194" at="424,5,425,16" concept="10" />
@@ -5055,7 +5055,7 @@
       <node id="1254811767345477355" at="363,55,366,5" concept="7" />
       <node id="1254811767345533208" at="366,5,369,5" concept="7" />
       <node id="5034441409978752818" at="392,61,395,5" concept="7" />
-      <node id="6488710515925396131" at="410,74,413,5" concept="7" />
+      <node id="6488710515925396131" at="410,97,413,5" concept="7" />
       <node id="6488710515925395057" at="414,159,417,7" concept="7" />
       <node id="1921496562447289194" at="421,80,424,5" concept="7" />
       <node id="334096402142995158" at="427,0,430,0" concept="14" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
@@ -5096,7 +5096,7 @@
       <node id="8128582796166213219" at="130,0,142,0" concept="14" trace="selectPrevNextOnSameLine#(Ljetbrains/mps/openapi/editor/EditorContext;Z)V" />
       <node id="5761130648015754128" at="179,0,191,0" concept="14" trace="getListElementForSideTransformation#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Z)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5034441409978816277" at="377,78,389,5" concept="7" />
-      <node id="6488710515925395034" at="409,0,421,0" concept="14" trace="createFlagSubstituteMenuItems#(Lorg/jetbrains/mps/openapi/language/SConcept;Ljetbrains/mps/openapi/editor/menus/substitute/SubstituteMenuContext;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljava/lang/Class;Ljava/lang/String;Lcom/mbeddr/mpsutil/grammarcells/runtime/IFlagModelAccess;)Ljava/util/List;" />
+      <node id="6488710515925395034" at="409,0,421,0" concept="14" trace="createFlagSubstituteMenuItems#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/openapi/editor/menus/substitute/SubstituteMenuContext;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljava/lang/Class;Ljava/lang/String;Lcom/mbeddr/mpsutil/grammarcells/runtime/IFlagModelAccess;)Ljava/util/List;" />
       <node id="1254811767345477353" at="363,0,376,0" concept="14" trace="isSyntaxCell#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Z" />
       <node id="5034441409978858353" at="377,0,391,0" concept="14" trace="getUnwrappedChildren#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljava/lang/Iterable;" />
       <node id="910290744985235062" at="292,0,307,0" concept="14" trace="getSpecializedTargetConcept#(Lorg/jetbrains/mps/openapi/language/SContainmentLink;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
@@ -5156,7 +5156,7 @@
       <scope id="5034441409978835174" at="387,12,388,37" />
       <scope id="5034441409978752820" at="393,69,394,18" />
       <scope id="6488710515925396137" at="411,64,412,20" />
-      <scope id="6488710515925395062" at="415,44,416,148" />
+      <scope id="6488710515925395062" at="415,44,416,178" />
       <scope id="1921496562447289194" at="422,36,423,52" />
       <scope id="334096402142995158" at="427,55,428,43" />
       <scope id="5083944728300300979" at="66,92,68,125">
@@ -5338,7 +5338,7 @@
       <scope id="972783402994068114" at="213,0,223,0">
         <var name="context" id="7363578995839515565" />
       </scope>
-      <scope id="6488710515925395047" at="409,274,419,18">
+      <scope id="6488710515925395047" at="409,282,419,18">
         <var name="result" id="6488710515925395048" />
       </scope>
       <scope id="1489706700977621141" at="268,0,279,0">

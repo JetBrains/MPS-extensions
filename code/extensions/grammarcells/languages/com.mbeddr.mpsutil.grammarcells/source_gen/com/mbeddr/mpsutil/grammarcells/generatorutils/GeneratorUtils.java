@@ -90,7 +90,7 @@ public class GeneratorUtils {
   }
 
   public static SNode singleReturnExpression(SNode cell) {
-    return SLinkOperations.getTarget(SNodeOperations.as(ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(SLinkOperations.getTarget(cell, LINKS.factory$lg2v), LINKS.body$e68K), LINKS.statement$53DE)).first(), CONCEPTS.ReturnStatement$lt), LINKS.expression$eJ92);
+    return (ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(SLinkOperations.getTarget(cell, LINKS.factory$lg2v), LINKS.body$e68K), LINKS.statement$53DE)).count() == 1 ? SLinkOperations.getTarget(SNodeOperations.as(ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(SLinkOperations.getTarget(cell, LINKS.factory$lg2v), LINKS.body$e68K), LINKS.statement$53DE)).first(), CONCEPTS.ReturnStatement$lt), LINKS.expression$eJ92) : null);
   }
 
   public static SNode getRenderingCondition(SNode cell) {

@@ -406,14 +406,14 @@ public class GrammarCellsUtil {
     return builder.toString();
   }
 
-  public static List<SubstituteMenuItem> createFlagSubstituteMenuItems(SConcept outputConcept, SubstituteMenuContext context, SAbstractConcept expectedOutputConceptExactly, Class<? extends ConceptEditor> ifEditorNotOveridden, String flagText, IFlagModelAccess modelAccess) {
-    List<SubstituteMenuItem> result = new ArrayList<SubstituteMenuItem>();
+  public static List<SubstituteMenuItem> createFlagSubstituteMenuItems(SAbstractConcept outputConcept, SubstituteMenuContext context, SAbstractConcept expectedOutputConceptExactly, Class<? extends ConceptEditor> ifEditorNotOveridden, String flagText, IFlagModelAccess modelAccess) {
+    List<SubstituteMenuItem> result = ListSequence.fromList(new ArrayList<SubstituteMenuItem>());
     if (!(outputConcept.equals(expectedOutputConceptExactly))) {
       return result;
     }
     for (SAbstractConcept subconcept : getVisibleSubconceptsNonAbstract(outputConcept, context.getModel(), ifEditorNotOveridden, context.getEditorContext())) {
       if (canBeChild(subconcept, context)) {
-        result.add(new FlagSubstituteMenuItem(context.getParentNode(), context.getCurrentTargetNode(), subconcept, flagText, context, modelAccess));
+        ListSequence.fromList(result).addElement(new FlagSubstituteMenuItem(context.getParentNode(), context.getCurrentTargetNode(), subconcept, flagText, context, modelAccess));
       }
     }
     return result;

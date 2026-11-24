@@ -13,6 +13,7 @@
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
     <use id="1a8554c4-eb84-43ba-8c34-6f0d90c6e75a" name="jetbrains.mps.lang.smodel.query" version="3" />
     <use id="acfc188d-d5d6-4598-b370-6f4a983f05b2" name="jetbrains.mps.baseLanguage.methodReferences" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -4668,9 +4669,7 @@
       <property role="TrG5h" value="createFlagSubstituteMenuItems" />
       <node concept="37vLTG" id="5CcxXnC4Mpr" role="3clF46">
         <property role="TrG5h" value="outputConcept" />
-        <node concept="3uibUv" id="5CcxXnC4Mps" role="1tU5fm">
-          <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
-        </node>
+        <node concept="3bZ5Sz" id="zBVt17xgFs" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="5CcxXnC4Mpt" role="3clF46">
         <property role="TrG5h" value="context" />
@@ -4680,9 +4679,7 @@
       </node>
       <node concept="37vLTG" id="5CcxXnC4MEx" role="3clF46">
         <property role="TrG5h" value="expectedOutputConceptExactly" />
-        <node concept="3uibUv" id="5CcxXnC4MEy" role="1tU5fm">
-          <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
-        </node>
+        <node concept="3bZ5Sz" id="zBVt17xgFy" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="5CcxXnC4Mpv" role="3clF46">
         <property role="TrG5h" value="ifEditorNotOveridden" />
@@ -4711,17 +4708,14 @@
         <node concept="3cpWs8" id="5CcxXnC4MpD" role="3cqZAp">
           <node concept="3cpWsn" id="5CcxXnC4MpC" role="3cpWs9">
             <property role="TrG5h" value="result" />
-            <node concept="3uibUv" id="5CcxXnC4MpE" role="1tU5fm">
-              <ref role="3uigEE" to="33ny:~List" resolve="List" />
-              <node concept="3uibUv" id="5CcxXnC4MpF" role="11_B2D">
+            <node concept="_YKpA" id="zBVt17xgFl" role="1tU5fm">
+              <node concept="3uibUv" id="zBVt17xgFm" role="_ZDj9">
                 <ref role="3uigEE" to="78sh:~SubstituteMenuItem" resolve="SubstituteMenuItem" />
               </node>
             </node>
             <node concept="2ShNRf" id="5CcxXnC4Mu1" role="33vP2m">
-              <node concept="1pGfFk" id="5CcxXnC4Mu6" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
-                <node concept="3uibUv" id="5CcxXnC4Mu7" role="1pMfVU">
+              <node concept="Tc6Ow" id="zBVt17xgFe" role="2ShVmc">
+                <node concept="3uibUv" id="zBVt17xgFf" role="HW$YZ">
                   <ref role="3uigEE" to="78sh:~SubstituteMenuItem" resolve="SubstituteMenuItem" />
                 </node>
               </node>
@@ -4799,37 +4793,37 @@
                     <node concept="37vLTw" id="5CcxXnC4MwX" role="2Oq$k0">
                       <ref role="3cqZAo" node="5CcxXnC4MpC" resolve="result" />
                     </node>
-                    <node concept="liA8E" id="5CcxXnC4MzJ" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
-                      <node concept="2ShNRf" id="5CcxXnC4MzR" role="37wK5m">
-                        <node concept="1pGfFk" id="5CcxXnC4M$9" role="2ShVmc">
+                    <node concept="TSZUe" id="zBVt17xTMj" role="2OqNvi">
+                      <node concept="2ShNRf" id="zBVt17xTMk" role="25WWJ7">
+                        <node concept="1pGfFk" id="zBVt17xTMl" role="2ShVmc">
+                          <property role="373rjd" value="true" />
                           <ref role="37wK5l" node="4AuGfbNRh27" resolve="FlagSubstituteMenuItem" />
-                          <node concept="2OqwBi" id="5CcxXnC4MAj" role="37wK5m">
-                            <node concept="37vLTw" id="5CcxXnC4M_b" role="2Oq$k0">
+                          <node concept="2OqwBi" id="zBVt17xTMm" role="37wK5m">
+                            <node concept="37vLTw" id="zBVt17xTMn" role="2Oq$k0">
                               <ref role="3cqZAo" node="5CcxXnC4Mpt" resolve="context" />
                             </node>
-                            <node concept="liA8E" id="5CcxXnC4MAk" role="2OqNvi">
+                            <node concept="liA8E" id="zBVt17xTMo" role="2OqNvi">
                               <ref role="37wK5l" to="78sh:~SubstituteMenuContext.getParentNode()" resolve="getParentNode" />
                             </node>
                           </node>
-                          <node concept="2OqwBi" id="5CcxXnC4MAu" role="37wK5m">
-                            <node concept="37vLTw" id="5CcxXnC4MA8" role="2Oq$k0">
+                          <node concept="2OqwBi" id="zBVt17xTMp" role="37wK5m">
+                            <node concept="37vLTw" id="zBVt17xTMq" role="2Oq$k0">
                               <ref role="3cqZAo" node="5CcxXnC4Mpt" resolve="context" />
                             </node>
-                            <node concept="liA8E" id="5CcxXnC4MAv" role="2OqNvi">
+                            <node concept="liA8E" id="zBVt17xTMr" role="2OqNvi">
                               <ref role="37wK5l" to="78sh:~SubstituteMenuContext.getCurrentTargetNode()" resolve="getCurrentTargetNode" />
                             </node>
                           </node>
-                          <node concept="37vLTw" id="5CcxXnC4M$c" role="37wK5m">
+                          <node concept="37vLTw" id="zBVt17xTMs" role="37wK5m">
                             <ref role="3cqZAo" node="5CcxXnC4Mq0" resolve="subconcept" />
                           </node>
-                          <node concept="37vLTw" id="5CcxXnC4M$d" role="37wK5m">
+                          <node concept="37vLTw" id="zBVt17xTMt" role="37wK5m">
                             <ref role="3cqZAo" node="5CcxXnC4Mpz" resolve="flagText" />
                           </node>
-                          <node concept="37vLTw" id="5CcxXnC4M$e" role="37wK5m">
+                          <node concept="37vLTw" id="zBVt17xTMu" role="37wK5m">
                             <ref role="3cqZAo" node="5CcxXnC4Mpt" resolve="context" />
                           </node>
-                          <node concept="37vLTw" id="5CcxXnC4M$f" role="37wK5m">
+                          <node concept="37vLTw" id="zBVt17xTMv" role="37wK5m">
                             <ref role="3cqZAo" node="5CcxXnC4Mp_" resolve="modelAccess" />
                           </node>
                         </node>
@@ -4848,9 +4842,8 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="5CcxXnC4Mqa" role="1B3o_S" />
-      <node concept="3uibUv" id="5CcxXnC4Mqb" role="3clF45">
-        <ref role="3uigEE" to="33ny:~List" resolve="List" />
-        <node concept="3uibUv" id="5CcxXnC4Mqc" role="11_B2D">
+      <node concept="_YKpA" id="zBVt17x9jm" role="3clF45">
+        <node concept="3uibUv" id="zBVt17x9jn" role="_ZDj9">
           <ref role="3uigEE" to="78sh:~SubstituteMenuItem" resolve="SubstituteMenuItem" />
         </node>
       </node>

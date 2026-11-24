@@ -47,6 +47,9 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -116,6 +119,9 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+      <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
+        <property id="1200397540847" name="charConstant" index="1XhdNS" />
+      </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
@@ -1041,12 +1047,24 @@
             <node concept="3cpWs6" id="10MSw5ZFcfy" role="3cqZAp">
               <node concept="3cpWs3" id="10MSw5ZFM_k" role="3cqZAk">
                 <node concept="3cpWs3" id="10MSw5ZFM_l" role="3uHU7B">
-                  <node concept="2OqwBi" id="10MSw5ZFM_m" role="3uHU7B">
-                    <node concept="37vLTw" id="10MSw5ZFM_n" role="2Oq$k0">
-                      <ref role="3cqZAo" node="10MSw5ZF8Nm" resolve="relativePath" />
+                  <node concept="2OqwBi" id="Db3u18WMvp" role="3uHU7B">
+                    <node concept="2OqwBi" id="10MSw5ZFM_m" role="2Oq$k0">
+                      <node concept="37vLTw" id="10MSw5ZFM_n" role="2Oq$k0">
+                        <ref role="3cqZAo" node="10MSw5ZF8Nm" resolve="relativePath" />
+                      </node>
+                      <node concept="liA8E" id="10MSw5ZFM_o" role="2OqNvi">
+                        <ref role="37wK5l" to="eoo2:~Path.toString()" resolve="toString" />
+                      </node>
                     </node>
-                    <node concept="liA8E" id="10MSw5ZFM_o" role="2OqNvi">
-                      <ref role="37wK5l" to="eoo2:~Path.toString()" resolve="toString" />
+                    <node concept="liA8E" id="Db3u18WMvq" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.replace(char,char)" resolve="replace" />
+                      <node concept="10M0yZ" id="Db3u18WMvs" role="37wK5m">
+                        <ref role="3cqZAo" to="guwi:~File.separatorChar" resolve="separatorChar" />
+                        <ref role="1PxDUh" to="guwi:~File" resolve="File" />
+                      </node>
+                      <node concept="1Xhbcc" id="Db3u18WMvr" role="37wK5m">
+                        <property role="1XhdNS" value="/" />
+                      </node>
                     </node>
                   </node>
                   <node concept="Xl_RD" id="10MSw5ZFM_p" role="3uHU7w">

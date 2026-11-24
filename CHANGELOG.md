@@ -9,6 +9,8 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.itemis.mps.editor.diagram.runtime* Fix `IllegalStateException: Editor is already disposed` logged when a diagram editor is closed while its automatic layout is still running.
+- *de.itemis.mps.editor.celllayout.runtime* Lines in an indent layout now follow `indent-layout-no-wrap` as in the MPS indent layout. A line does not wrap before a cell that sets it, or before the first cell of a collection that sets it. Cells inside the laid-out collection that set it were ignored before.
+- *de.itemis.mps.editor.celllayout.runtime* Text in an indent layout now wraps even when its collection or a cell around it sets `indent-layout-no-wrap` as in the MPS indent layout. Before, such text never wrapped. To keep cells on one line, put them in a horizontal collection.
 
 ### Changed
 

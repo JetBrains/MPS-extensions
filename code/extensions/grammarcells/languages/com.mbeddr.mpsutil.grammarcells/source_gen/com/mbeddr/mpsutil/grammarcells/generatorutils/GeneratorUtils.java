@@ -11,11 +11,13 @@ import com.mbeddr.mpsutil.grammarcells.behavior.ICellWrapper__BehaviorDescriptor
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SProperty;
 
 public class GeneratorUtils {
 
@@ -80,6 +82,17 @@ public class GeneratorUtils {
     return !(ignoreActionsFrom(cell));
   }
 
+  public static boolean isPlainFlag(SNode flag) {
+    if ((SLinkOperations.getTarget(flag, LINKS.substituteCondition$vs72) != null) || (SLinkOperations.getTarget(flag, LINKS.descriptionText$ugUz) != null) || SPropertyOperations.getBoolean(flag, PROPS.doNotGenerateNodeSubstituteAction$5ee$)) {
+      return false;
+    }
+    return ListSequence.fromList(CellModelTraversalUtil.collectLeafsBeforeAfter(flag, false)).all((it) -> SNodeOperations.isInstanceOf(it, CONCEPTS.FlagCell$sR));
+  }
+
+  public static SNode singleReturnExpression(SNode cell) {
+    return SLinkOperations.getTarget(SNodeOperations.as(ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(SLinkOperations.getTarget(cell, LINKS.factory$lg2v), LINKS.body$e68K), LINKS.statement$53DE)).first(), CONCEPTS.ReturnStatement$lt), LINKS.expression$eJ92);
+  }
+
   public static SNode getRenderingCondition(SNode cell) {
     return ListSequence.fromList(SNodeOperations.getNodeAncestors(cell, CONCEPTS.EditorCellModel$gN, true)).select((it) -> SLinkOperations.getTarget(it, LINKS.renderingCondition$O1b5)).findFirst((it) -> (it != null));
   }
@@ -98,12 +111,24 @@ public class GeneratorUtils {
     /*package*/ static final SInterfaceConcept IGrammarCell$v$ = MetaAdapterFactory.getInterfaceConcept(0x9d69e71978c84286L, 0x90dbfb19c107d049L, 0x27b90b5c56f5af94L, "com.mbeddr.mpsutil.grammarcells.structure.IGrammarCell");
     /*package*/ static final SInterfaceConcept IActionGeneratingCell$DN = MetaAdapterFactory.getInterfaceConcept(0x9d69e71978c84286L, 0x90dbfb19c107d049L, 0x6630b015328a6ef4L, "com.mbeddr.mpsutil.grammarcells.structure.IActionGeneratingCell");
     /*package*/ static final SConcept EditorComponentDeclaration$WM = MetaAdapterFactory.getConcept(0x18bc659203a64e29L, 0xa83a7ff23bde13baL, 0xfb35c2bb47L, "jetbrains.mps.lang.editor.structure.EditorComponentDeclaration");
+    /*package*/ static final SConcept FlagCell$sR = MetaAdapterFactory.getConcept(0x9d69e71978c84286L, 0x90dbfb19c107d049L, 0x6630b0153285f979L, "com.mbeddr.mpsutil.grammarcells.structure.FlagCell");
+    /*package*/ static final SConcept ReturnStatement$lt = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, "jetbrains.mps.baseLanguage.structure.ReturnStatement");
   }
 
   private static final class LINKS {
     /*package*/ static final SReferenceLink relationDeclaration$E2hc = MetaAdapterFactory.getReferenceLink(0x18bc659203a64e29L, 0xa83a7ff23bde13baL, 0x10964446123L, 0x10973779681L, "relationDeclaration");
     /*package*/ static final SReferenceLink editorComponent$DNa7 = MetaAdapterFactory.getReferenceLink(0x18bc659203a64e29L, 0xa83a7ff23bde13baL, 0xfb35c96896L, 0xfb35c96897L, "editorComponent");
     /*package*/ static final SContainmentLink cellModel$L8Uc = MetaAdapterFactory.getContainmentLink(0x18bc659203a64e29L, 0xa83a7ff23bde13baL, 0xfba0eb7c50L, 0xfba0ec5415L, "cellModel");
+    /*package*/ static final SContainmentLink substituteCondition$vs72 = MetaAdapterFactory.getContainmentLink(0x9d69e71978c84286L, 0x90dbfb19c107d049L, 0x6630b0153285f979L, 0x6b9172ad670eba0L, "substituteCondition");
+    /*package*/ static final SContainmentLink descriptionText$ugUz = MetaAdapterFactory.getContainmentLink(0x9d69e71978c84286L, 0x90dbfb19c107d049L, 0xbc641994688c670L, 0xbc641994688c671L, "descriptionText");
+    /*package*/ static final SContainmentLink factory$lg2v = MetaAdapterFactory.getContainmentLink(0x9d69e71978c84286L, 0x90dbfb19c107d049L, 0x64ed262bf015e703L, 0x64ed262bf015e742L, "factory");
+    /*package*/ static final SContainmentLink body$e68K = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x108bbca0f48L, 0x108bbd29b4aL, "body");
+    /*package*/ static final SContainmentLink statement$53DE = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, 0xf8cc6bf961L, "statement");
+    /*package*/ static final SContainmentLink expression$eJ92 = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, 0xf8cc6bf96cL, "expression");
     /*package*/ static final SContainmentLink renderingCondition$O1b5 = MetaAdapterFactory.getContainmentLink(0x18bc659203a64e29L, 0xa83a7ff23bde13baL, 0xf9eafb9a39L, 0x10a19696199L, "renderingCondition");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty doNotGenerateNodeSubstituteAction$5ee$ = MetaAdapterFactory.getProperty(0x9d69e71978c84286L, 0x90dbfb19c107d049L, 0x6630b0153285f979L, 0x7222f7384d47bd09L, "doNotGenerateNodeSubstituteAction");
   }
 }

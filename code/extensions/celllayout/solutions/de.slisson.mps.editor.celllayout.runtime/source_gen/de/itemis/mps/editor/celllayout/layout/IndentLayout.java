@@ -193,15 +193,12 @@ public class IndentLayout extends AbstractLayout implements ILayouter {
   protected Text loadText(int width, ILayoutableContainer container, Iterable<Word> words) {
     Text text = new Text();
 
-    boolean noWrap = isNoWrap(container);
     for (Word word : Sequence.fromIterable(words)) {
       if (!(text.getCurrentLine().isEmpty()) && CellLayoutUtil.hasNewLineBefore(CellLayoutUtil.getEditorCell(word.getLayoutable()))) {
         text.newLine();
       }
       text.addWord(word);
-      if (!(noWrap)) {
-        splitLastLineIfToLong(text, width);
-      }
+      splitLastLineIfToLong(text, width);
       if (text.getCurrentLine().getWidth() > width) {
         ListSequence.fromList(text.getCurrentLine().getWords()).last().update(width - text.getCurrentLine().getLineIndent());
         text.getCurrentLine().recalucateWidth();
@@ -210,55 +207,53 @@ public class IndentLayout extends AbstractLayout implements ILayouter {
         text.newLine();
       }
     }
-    if (!(noWrap)) {
-      splitLastLineIfToLong(text, width);
-    }
+    splitLastLineIfToLong(text, width);
 
     text.removeLastLineIfEmpty();
     return text;
   }
 
-  protected boolean isNoWrap(ILayoutable left, ILayoutable right) {
-    if (left == null || right == null) {
-      return false;
-    }
-    return isNoWrap(LayoutableExtensions.commonParent(left, right));
-  }
 
-  protected boolean isNoWrap(ILayoutable layoutable) {
-    if (layoutable == null) {
-      return false;
-    }
-    return layoutable.isNoWrap() || isNoWrap(layoutable.getParent());
-  }
 
   protected void splitLastLineIfToLong(Text text, int widthLimit) {
     if (ListSequence.fromList(text.getCurrentLine().getWords()).count() > 1) {
       widthLimit = Math.min(widthLimit, ListSequence.fromList(text.getCurrentLine().getWords()).last().getMaxWidth());
       if (text.getCurrentLine().getWidth() > widthLimit) {
         List<Word> lineWords = text.getCurrentLine().getWords();
-        int wrapPoint = 0;
+        int firstValidSplitPoint = 0;
         if (ListSequence.fromList(lineWords).count() >= 3) {
-          wrapPoint = findBestWrapPoint(lineWords, text.getCurrentLine().getFirstValidSplitPoint(widthLimit), ListSequence.fromList(lineWords).count() - 2);
+          firstValidSplitPoint = text.getCurrentLine().getFirstValidSplitPoint(widthLimit);
         }
-        text.splitLineAfter(text.getCurrentLine(), wrapPoint);
-        text.getCurrentLine().setIsWrap(true);
+        int wrapPoint = findBestWrapPoint(lineWords, firstValidSplitPoint, ListSequence.fromList(lineWords).count() - 2);
+        if (wrapPoint == -1 && firstValidSplitPoint > 0) {
+          // No-wrap can forbid all break points from the first valid split point on. Like CellLayout_Indent, wrap earlier in
+          // the line then, even if the rest of the line is still too long.
+          wrapPoint = findBestWrapPoint(lineWords, 0, firstValidSplitPoint - 1);
+        }
+        if (wrapPoint != -1) {
+          text.splitLineAfter(text.getCurrentLine(), wrapPoint);
+          text.getCurrentLine().setIsWrap(true);
+        }
       }
     }
   }
 
+  /**
+   * Returns the index of the word after which the line is best wrapped, from <code>from</code> to <code>to</code>, or -1
+   * if no-wrap forbids all of them (see {@link #isWrapAllowedBefore(ILayoutable)}).
+   */
   protected int findBestWrapPoint(List<Word> allWords, int from, int to) {
     if (to < from) {
       throw new IllegalArgumentException(to + " < " + from);
     }
-    if (to == from) {
-      return from;
-    }
 
-    int bestIndex = from;
-    int bestRating = rateWrapPoint(allWords, from);
+    int bestIndex = -1;
+    int bestRating = Integer.MIN_VALUE;
 
-    for (int i = from + 1; i <= to; i++) {
+    for (int i = from; i <= to; i++) {
+      if (!(isWrapAllowedBefore(ListSequence.fromList(allWords).getElement(i + 1).getLayoutable()))) {
+        continue;
+      }
       int rating = rateWrapPoint(allWords, i);
       if (rating >= bestRating) {
         bestIndex = i;
@@ -269,6 +264,22 @@ public class IndentLayout extends AbstractLayout implements ILayouter {
     return bestIndex;
   }
 
+  /**
+   * Whether a line may wrap before the given word.
+   * This follows the meaning of indent-layout-no-wrap in the MPS indent layout (CellLayout_Indent): a cell with no-wrap
+   * does not start a wrapped line, and neither does the first cell of a collection with no-wrap, at any depth. The other
+   * cells of such a collection can start a wrapped line.
+   */
+  protected boolean isWrapAllowedBefore(ILayoutable layoutable) {
+    if (layoutable.isNoWrap()) {
+      return false;
+    }
+    ILayoutableContainer parent = layoutable.getParent();
+    if (parent == null || ListSequence.fromList(parent.getChildren()).first() != layoutable) {
+      return true;
+    }
+    return isWrapAllowedBefore(parent);
+  }
   protected int rateWrapPoint(List<Word> allWords, int candidateIndex) {
     Word prevWord = (candidateIndex > 0 ? ListSequence.fromList(allWords).getElement(candidateIndex - 1) : null);
     Word leftWord = ListSequence.fromList(allWords).getElement(candidateIndex);

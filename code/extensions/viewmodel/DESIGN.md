@@ -364,6 +364,21 @@ viewmodel/TestResults/(project).writeComputed(item, c);
   node reference with the model and no node id. A root added to or removed from the model is a change of
   it. Without it a computation that looks up roots (a scope, a lookup by name) would keep its result when
   a matching root is added.
+* A computation that reads more than `ReadRecorder.NODE_LIMIT` nodes of one model (system property
+  `mpsext.viewmodel.nodeDependencyLimit`, default 100) depends on the roots that contain them
+  (`RootDependency`) instead of on each node. The nodes it read go into a Bloom filter (`NodeFilter`,
+  10 bits per node, 5 hashes) that all root dependencies of the recording share. A change below such a
+  root (`ViewModels.nodesInRootChanged`) invalidates the entry, or marks a queued write stale, only when
+  the filter may contain one of the changed nodes: the node whose property or reference changed, the
+  parent of an added or removed child, and each node of a removed subtree. About one change in a hundred
+  of a node that wasn't read gets through the filter and invalidates the entry as well. Removing the root
+  itself invalidates every entry that depends on it.
+* Two root dependencies on one root are equal only when their filters are. A set that merges the
+  dependencies of several computations therefore keeps the filter of each, and a rewrite of the same
+  value computed from other nodes takes the new dependencies. The reverse indexes
+  (`ViewModelIndex.dependents`, `ViewModels.pendingByDependency`) key a root dependency by the one without
+  a filter (`RootDependency.keyOf`), so the dependencies on a root are found together and no filter stays
+  referenced from a key; the filters of an entry are kept next to it (`ViewModelIndex.filtersOf`).
 * A change of a dependency node (property, reference, child added/removed) removes the dependent
   entries. Removing a node removes the entries keyed by any node of the removed subtree and the
   entries depending on it. A model that is replaced (reloaded from disk) invalidates all entries
@@ -453,8 +468,10 @@ what is stored, mainly while developing a language that uses view models:
   opens the target) and children are rows below it, identified by node id, so in-place updates keep
   them expanded.
 * A value with dependencies has a *dependencies* child listing the nodes it was computed from
-  (`ViewModels.getDependencies`, a copy of the index entry); a dependency on the roots of a model shows as
-  *roots of* and the model name.
+  (`ViewModels.getDependencies`, a copy of the index entry; the count comes from
+  `ViewModels.countDependencies`, which copies nothing); a dependency on the roots of a model shows as
+  *roots of* and the model name, a dependency on a root (`RootDependency`) as the root with *nodes read
+  below the root*.
 * Double-click opens the node of a key or dependency. *Remove* deletes the selected entry, nested map
   or whole view model (a `writePath` with a null value in a command of the project).
 * *Show View Model Entries* in the editor's *Language Debug* menu (group `ViewModelsDebug`, added to
@@ -467,6 +484,15 @@ what is stored, mainly while developing a language that uses view models:
 * *Show Store in Node Explorer* opens the `ViewModelStore` root, with the raw HAMT, in MPS's Node
   Explorer. It runs the devkit plugin's `ShowNodeInExplorer` action by id, so there is no dependency on
   that plugin; the button is disabled when the action isn't installed.
+* A refresh builds only the rows of the view models. The rows below a row are added when it is first
+  expanded (`ViewModelsExplorer.load`); until then a placeholder gives the row an expand handle, and a
+  row with nothing below it gets none. Value counts are a walk over the store that builds no rows. A view
+  model is expanded on the first show only when it has at most 100 values.
+* `load` reads in a read action of its own, later than the one in which the store nodes of the rows were
+  captured. A write in between may have changed them or removed them from the store; the rows then show
+  the store as it is, or the last content of a removed entry, until the refresh that the change schedules.
+* The tree is dropped when the tool window is hidden, keeping only which rows were expanded and
+  selected, and is rebuilt with them when the tool window is shown again.
 * The tool window listens to the store model (`SNodeChangeListener`) and rebuilds the tree 300 ms after
   the last change, only while it is shown (otherwise when it is shown next), keeping the expanded
   rows and the selection. It reads the store through `ViewModels.getStore()` and doesn't register

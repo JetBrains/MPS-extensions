@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:6125190b-985f-4f7d-9135-4bc99a058dfb(com.jetbrains.mpsext.mcptools.testing)/6853926845398373054">
+    <file name="McpToolTesting.java">
+      <node id="6853926845398373069" at="42,86,43,97" concept="5" />
+      <node id="6853926845398373074" at="43,97,44,74" concept="6" />
+      <node id="6853926845398373094" at="51,79,52,59" concept="5" />
+      <node id="6853926845398373098" at="52,59,53,92" concept="5" />
+      <node id="6853926845398373104" at="53,92,54,76" concept="5" />
+      <node id="6853926845398376069" at="56,7,57,52" concept="5" />
+      <node id="6853926845398376081" at="58,31,59,63" concept="2" />
+      <node id="6853926845398376087" at="59,63,60,58" concept="2" />
+      <node id="6853926845398373147" at="64,30,65,90" concept="8" />
+      <node id="6853926845398373149" at="66,5,67,74" concept="5" />
+      <node id="6853926845398373154" at="67,74,68,158" concept="5" />
+      <node id="6853926845398373167" at="68,158,69,70" concept="5" />
+      <node id="6853926845398373188" at="70,29,71,167" concept="8" />
+      <node id="6853926845398373191" at="73,9,74,56" concept="6" />
+      <node id="6853926845398373204" at="75,46,76,86" concept="8" />
+      <node id="6853926845398373228" at="86,41,87,20" concept="6" />
+      <node id="6853926845398373248" at="89,5,90,92" concept="8" />
+      <node id="6853926845398373258" at="97,62,98,45" concept="6" />
+      <node id="6853926845398373270" at="105,47,106,53" concept="6" />
+      <node id="6853926845398373056" at="34,0,36,0" concept="1" trace="McpToolTesting#()V" />
+      <node id="6853926845398373135" at="63,7,66,5" concept="4" />
+      <node id="6853926845398373172" at="69,70,72,5" concept="4" />
+      <node id="6853926845398373223" at="85,83,88,7" concept="4" />
+      <node id="6853926845398373254" at="97,0,100,0" concept="7" trace="inputProperties#(Lcom/jetbrains/mpsext/mcptools/runtime/SyncMcpTool;)Lkotlinx/serialization/json/JsonObject;" />
+      <node id="6853926845398373266" at="105,0,108,0" concept="7" trace="json#(Ljava/lang/String;)Lkotlinx/serialization/json/JsonElement;" />
+      <node id="6853926845398373060" at="42,0,46,0" concept="7" trace="call#(Ljetbrains/mps/project/Project;Lcom/jetbrains/mpsext/mcptools/runtime/SyncMcpTool;Ljava/lang/String;)Lcom/jetbrains/mpsext/mcptools/runtime/ToolOutcome;" />
+      <node id="6853926845398376076" at="57,52,61,9" concept="4" />
+      <node id="6853926845398373205" at="72,5,77,5" concept="9" />
+      <node id="6853926845398378623" at="84,91,89,5" concept="3" />
+      <node id="6853926845398376067" at="55,53,62,7" concept="0" />
+      <node id="6853926845398373212" at="84,0,92,0" concept="7" trace="tool#(Ljetbrains/mps/project/Project;Lorg/jetbrains/mps/openapi/model/SModelReference;Ljava/lang/String;)Lcom/jetbrains/mpsext/mcptools/runtime/SyncMcpTool;" />
+      <node id="6853926845398373109" at="54,76,63,7" concept="2" />
+      <node id="6853926845398373087" at="51,0,79,0" concept="7" trace="group#(Ljetbrains/mps/project/Project;Lorg/jetbrains/mps/openapi/model/SModelReference;)Lcom/jetbrains/mpsext/mcptools/runtime/ToolGroup;" />
+      <scope id="6853926845398373058" at="34,28,34,28" />
+      <scope id="6853926845398373140" at="64,30,65,90" />
+      <scope id="6853926845398373177" at="70,29,71,167" />
+      <scope id="6853926845398373190" at="73,9,74,56" />
+      <scope id="6853926845398373198" at="75,46,76,86" />
+      <scope id="6853926845398373227" at="86,41,87,20" />
+      <scope id="6853926845398373257" at="97,62,98,45" />
+      <scope id="6853926845398373269" at="105,47,106,53" />
+      <scope id="6853926845398373056" at="34,0,36,0" />
+      <scope id="6853926845398373067" at="42,86,44,74">
+        <var name="args" id="6853926845398373068" />
+      </scope>
+      <scope id="6853926845398376080" at="58,31,60,58" />
+      <scope id="6853926845398373206" at="75,5,77,5">
+        <var name="e" id="6853926845398373194" />
+      </scope>
+      <scope id="6853926845398373222" at="85,83,88,7" />
+      <scope id="6853926845398373254" at="97,0,100,0">
+        <var name="tool" id="6853926845398373255" />
+      </scope>
+      <scope id="6853926845398373266" at="105,0,108,0">
+        <var name="text" id="6853926845398373267" />
+      </scope>
+      <scope id="6853926845398373060" at="42,0,46,0">
+        <var name="argsJson" id="6853926845398373065" />
+        <var name="project" id="6853926845398373061" />
+        <var name="tool" id="6853926845398373063" />
+      </scope>
+      <scope id="6853926845398376068" at="56,7,61,9">
+        <var name="resolved" id="6853926845398376070" />
+      </scope>
+      <scope id="6853926845398378623" at="84,91,89,5">
+        <var name="tool" id="6853926845398378624" />
+      </scope>
+      <scope id="6853926845398373219" at="84,91,90,92" />
+      <scope id="6853926845398376066" at="55,53,62,7" />
+      <scope id="6853926845398373212" at="84,0,92,0">
+        <var name="model" id="6853926845398373215" />
+        <var name="project" id="6853926845398373213" />
+        <var name="toolName" id="6853926845398373217" />
+      </scope>
+      <scope id="6853926845398373092" at="51,79,77,5">
+        <var name="className" id="6853926845398373148" />
+        <var name="classes" id="6853926845398373153" />
+        <var name="groupClass" id="6853926845398373166" />
+        <var name="modelName" id="6853926845398373103" />
+        <var name="owner" id="6853926845398373097" />
+        <var name="repository" id="6853926845398373093" />
+      </scope>
+      <scope id="6853926845398373087" at="51,0,79,0">
+        <var name="model" id="6853926845398373090" />
+        <var name="project" id="6853926845398373088" />
+      </scope>
+      <unit id="6853926845398373054" at="33,0,109,0" name="com.jetbrains.mpsext.mcptools.testing.McpToolTesting" />
+    </file>
+  </root>
+</debug-info>
+

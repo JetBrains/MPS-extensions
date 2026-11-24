@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1170075670744:jetbrains.mps.baseLanguage.structure.SynchronizedStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root nodeRef="r:5278510f-67c5-4557-804e-5ed93436dce2(com.jetbrains.mpsext.mcptools.runtime)/2359515342854879094">
+    <file name="AccessMode.java">
+      <unit id="2359515342854879094" at="11,0,16,0" name="com.jetbrains.mpsext.mcptools.runtime.AccessMode" />
+    </file>
+  </root>
+  <root nodeRef="r:5278510f-67c5-4557-804e-5ed93436dce2(com.jetbrains.mpsext.mcptools.runtime)/2359515342854879127">
+    <file name="ToolFailure.java">
+      <node id="2359515342854880988" at="11,38,12,19" concept="13" />
+      <node id="2359515342854879130" at="11,0,14,0" concept="1" trace="ToolFailure#(Ljava/lang/String;)V" />
+      <scope id="2359515342854879134" at="11,38,12,19" />
+      <scope id="2359515342854879130" at="11,0,14,0">
+        <var name="message" id="2359515342854879132" />
+      </scope>
+      <unit id="2359515342854879127" at="10,0,15,0" name="com.jetbrains.mpsext.mcptools.runtime.ToolFailure" />
+    </file>
+  </root>
+  <root nodeRef="r:5278510f-67c5-4557-804e-5ed93436dce2(com.jetbrains.mpsext.mcptools.runtime)/2359515342854879163">
+    <file name="ToolOutcome.java">
+      <node id="2359515342854879165" at="11,0,12,0" concept="4" trace="myError" />
+      <node id="2359515342854879169" at="12,0,13,0" concept="4" trace="myText" />
+      <node id="2359515342854879180" at="14,51,15,20" concept="3" />
+      <node id="2359515342854879184" at="15,20,16,18" concept="3" />
+      <node id="2359515342854879193" at="19,50,20,64" concept="9" />
+      <node id="2359515342854879209" at="23,53,24,81" concept="9" />
+      <node id="2359515342854879223" at="27,28,28,19" concept="9" />
+      <node id="2359515342854879229" at="35,24,36,18" concept="9" />
+      <node id="2359515342854879239" at="40,28,41,53" concept="9" />
+      <node id="2359515342854879189" at="19,0,22,0" concept="12" trace="success#(Ljava/lang/String;)Lcom/jetbrains/mpsext/mcptools/runtime/ToolOutcome;" />
+      <node id="2359515342854879205" at="23,0,26,0" concept="12" trace="failure#(Ljava/lang/String;)Lcom/jetbrains/mpsext/mcptools/runtime/ToolOutcome;" />
+      <node id="2359515342854879221" at="27,0,30,0" concept="7" trace="isError#()Z" />
+      <node id="2359515342854879227" at="35,0,38,0" concept="7" trace="text#()Ljava/lang/String;" />
+      <node id="2359515342854879173" at="14,0,18,0" concept="1" trace="ToolOutcome#(ZLjava/lang/String;)V" />
+      <node id="2359515342854879236" at="39,0,43,0" concept="7" trace="toString#()Ljava/lang/String;" />
+      <scope id="2359515342854879192" at="19,50,20,64" />
+      <scope id="2359515342854879208" at="23,53,24,81" />
+      <scope id="2359515342854879222" at="27,28,28,19" />
+      <scope id="2359515342854879228" at="35,24,36,18" />
+      <scope id="2359515342854879238" at="40,28,41,53" />
+      <scope id="2359515342854879179" at="14,51,16,18" />
+      <scope id="2359515342854879189" at="19,0,22,0">
+        <var name="text" id="2359515342854879190" />
+      </scope>
+      <scope id="2359515342854879205" at="23,0,26,0">
+        <var name="message" id="2359515342854879206" />
+      </scope>
+      <scope id="2359515342854879221" at="27,0,30,0" />
+      <scope id="2359515342854879227" at="35,0,38,0" />
+      <scope id="2359515342854879173" at="14,0,18,0">
+        <var name="error" id="2359515342854879175" />
+        <var name="text" id="2359515342854879177" />
+      </scope>
+      <scope id="2359515342854879236" at="39,0,43,0" />
+      <unit id="2359515342854879163" at="10,0,44,0" name="com.jetbrains.mpsext.mcptools.runtime.ToolOutcome" />
+    </file>
+  </root>
+  <root nodeRef="r:5278510f-67c5-4557-804e-5ed93436dce2(com.jetbrains.mpsext.mcptools.runtime)/2359515342854879377">
+    <file name="ToolCallContext.java">
+      <node id="2359515342854879379" at="8,0,9,0" concept="4" trace="myProject" />
+      <node id="2359515342854879383" at="9,0,10,0" concept="4" trace="myArgs" />
+      <node id="2359515342854879394" at="11,61,12,24" concept="3" />
+      <node id="2359515342854879398" at="12,24,13,18" concept="3" />
+      <node id="2359515342854879405" at="16,31,17,21" concept="9" />
+      <node id="2359515342854879411" at="20,26,21,18" concept="9" />
+      <node id="2359515342854879403" at="16,0,19,0" concept="7" trace="project#()Ljetbrains/mps/project/MPSProject;" />
+      <node id="2359515342854879409" at="20,0,23,0" concept="7" trace="args#()Lcom/jetbrains/mpsext/mcptools/runtime/ToolArgs;" />
+      <node id="2359515342854879387" at="11,0,15,0" concept="1" trace="ToolCallContext#(Ljetbrains/mps/project/MPSProject;Lcom/jetbrains/mpsext/mcptools/runtime/ToolArgs;)V" />
+      <scope id="2359515342854879404" at="16,31,17,21" />
+      <scope id="2359515342854879410" at="20,26,21,18" />
+      <scope id="2359515342854879393" at="11,61,13,18" />
+      <scope id="2359515342854879403" at="16,0,19,0" />
+      <scope id="2359515342854879409" at="20,0,23,0" />
+      <scope id="2359515342854879387" at="11,0,15,0">
+        <var name="args" id="2359515342854879391" />
+        <var name="project" id="2359515342854879389" />
+      </scope>
+      <unit id="2359515342854879377" at="7,0,24,0" name="com.jetbrains.mpsext.mcptools.runtime.ToolCallContext" />
+    </file>
+  </root>
+  <root nodeRef="r:5278510f-67c5-4557-804e-5ed93436dce2(com.jetbrains.mpsext.mcptools.runtime)/6853926845395274425">
+    <file name="SyncMcpTool.java">
+      <node id="6853926845395274427" at="16,0,17,0" concept="7" trace="name#()Ljava/lang/String;" />
+      <node id="6853926845395274434" at="18,0,19,0" concept="7" trace="description#()Ljava/lang/String;" />
+      <node id="6853926845395274438" at="24,0,25,0" concept="7" trace="propertiesSchemaJson#()Ljava/lang/String;" />
+      <node id="6853926845395274445" at="26,0,27,0" concept="7" trace="requiredParameters#()Ljava/util/Set;" />
+      <node id="6853926845395274450" at="28,0,29,0" concept="7" trace="access#()Lcom/jetbrains/mpsext/mcptools/runtime/AccessMode;" />
+      <node id="6853926845395274454" at="35,0,36,0" concept="7" trace="call#(Lcom/jetbrains/mpsext/mcptools/runtime/ToolCallContext;)Ljava/lang/String;" />
+      <scope id="6853926845395274427" at="16,0,17,0" />
+      <scope id="6853926845395274434" at="18,0,19,0" />
+      <scope id="6853926845395274438" at="24,0,25,0" />
+      <scope id="6853926845395274445" at="26,0,27,0" />
+      <scope id="6853926845395274450" at="28,0,29,0" />
+      <scope id="6853926845395274454" at="35,0,36,0">
+        <var name="context" id="6853926845395274456" />
+      </scope>
+      <unit id="6853926845395274425" at="11,0,37,0" name="com.jetbrains.mpsext.mcptools.runtime.SyncMcpTool" />
+    </file>
+  </root>
+  <root nodeRef="r:5278510f-67c5-4557-804e-5ed93436dce2(com.jetbrains.mpsext.mcptools.runtime)/6853926845395274510">
+    <file name="AbstractSyncMcpTool.java">
+      <node id="6853926845395274513" at="14,0,15,0" concept="4" trace="myName" />
+      <node id="6853926845395274517" at="15,0,16,0" concept="4" trace="myDescription" />
+      <node id="6853926845395274521" at="16,0,17,0" concept="4" trace="myPropertiesSchemaJson" />
+      <node id="6853926845395274525" at="17,0,18,0" concept="4" trace="myAccess" />
+      <node id="6853926845395274529" at="18,0,19,0" concept="4" trace="myRequiredParameters" />
+      <node id="6853926845395274548" at="20,144,21,18" concept="3" />
+      <node id="6853926845395274552" at="21,18,22,32" concept="3" />
+      <node id="6853926845395274556" at="22,32,23,50" concept="3" />
+      <node id="6853926845395274560" at="23,50,24,22" concept="3" />
+      <node id="6853926845395274565" at="24,22,25,76" concept="8" />
+      <node id="6853926845395274573" at="26,49,27,58" concept="3" />
+      <node id="6853926845395274580" at="28,5,29,74" concept="3" />
+      <node id="6853926845395274587" at="32,24,33,18" concept="9" />
+      <node id="6853926845395274593" at="36,31,37,25" concept="9" />
+      <node id="6853926845395274599" at="40,40,41,34" concept="9" />
+      <node id="6853926845395274605" at="44,43,45,32" concept="9" />
+      <node id="6853926845395274612" at="48,30,49,20" concept="9" />
+      <node id="6853926845395274570" at="25,76,28,5" concept="5" />
+      <node id="6853926845395274585" at="32,0,35,0" concept="7" trace="name#()Ljava/lang/String;" />
+      <node id="6853926845395274591" at="36,0,39,0" concept="7" trace="description#()Ljava/lang/String;" />
+      <node id="6853926845395274597" at="40,0,43,0" concept="7" trace="propertiesSchemaJson#()Ljava/lang/String;" />
+      <node id="6853926845395274603" at="44,0,47,0" concept="7" trace="requiredParameters#()Ljava/util/Set;" />
+      <node id="6853926845395274610" at="48,0,51,0" concept="7" trace="access#()Lcom/jetbrains/mpsext/mcptools/runtime/AccessMode;" />
+      <node id="6853926845395274534" at="20,0,31,0" concept="1" trace="AbstractSyncMcpTool#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/jetbrains/mpsext/mcptools/runtime/AccessMode;null)V" />
+      <scope id="6853926845395274572" at="26,49,27,58" />
+      <scope id="6853926845395274586" at="32,24,33,18" />
+      <scope id="6853926845395274592" at="36,31,37,25" />
+      <scope id="6853926845395274598" at="40,40,41,34" />
+      <scope id="6853926845395274604" at="44,43,45,32" />
+      <scope id="6853926845395274611" at="48,30,49,20" />
+      <scope id="6853926845395274570" at="25,76,28,5">
+        <var name="parameter" id="6853926845395274576" />
+      </scope>
+      <scope id="6853926845395274585" at="32,0,35,0" />
+      <scope id="6853926845395274591" at="36,0,39,0" />
+      <scope id="6853926845395274597" at="40,0,43,0" />
+      <scope id="6853926845395274603" at="44,0,47,0" />
+      <scope id="6853926845395274610" at="48,0,51,0" />
+      <scope id="6853926845395274547" at="20,144,29,74">
+        <var name="required" id="6853926845395274564" />
+      </scope>
+      <scope id="6853926845395274534" at="20,0,31,0">
+        <var name="access" id="6853926845395274542" />
+        <var name="description" id="6853926845395274538" />
+        <var name="name" id="6853926845395274536" />
+        <var name="propertiesSchemaJson" id="6853926845395274540" />
+        <var name="requiredParameters" id="6853926845395274544" />
+      </scope>
+      <unit id="6853926845395274510" at="13,0,52,0" name="com.jetbrains.mpsext.mcptools.runtime.AbstractSyncMcpTool" />
+    </file>
+  </root>
+  <root nodeRef="r:5278510f-67c5-4557-804e-5ed93436dce2(com.jetbrains.mpsext.mcptools.runtime)/6853926845395274663">
+    <file name="ToolArgs.java">
+      <node id="6853926845395274665" at="20,0,21,0" concept="4" trace="myArgs" />
+      <node id="6853926845395274674" at="22,36,23,18" concept="3" />
+      <node id="6853926845395274757" at="36,34,37,28" concept="15" />
+      <node id="6853926845395274767" at="40,70,41,66" concept="8" />
+      <node id="6853926845395274777" at="42,35,43,26" concept="3" />
+      <node id="6853926845395274786" at="45,34,46,29" concept="3" />
+      <node id="6853926845395274795" at="48,35,49,30" concept="3" />
+      <node id="6853926845395274800" at="50,14,51,29" concept="3" />
+      <node id="6853926845395274818" at="56,44,57,40" concept="8" />
+      <node id="6853926845395274830" at="58,24,59,26" concept="15" />
+      <node id="6853926845395274831" at="60,5,61,17" concept="9" />
+      <node id="6853926845395274840" at="64,45,65,40" concept="8" />
+      <node id="6853926845395274850" at="66,26,67,18" concept="9" />
+      <node id="6853926845395274864" at="69,83,70,52" concept="9" />
+      <node id="6853926845395274873" at="71,5,72,38" concept="15" />
+      <node id="6853926845395274881" at="75,38,76,38" concept="8" />
+      <node id="6853926845395274893" at="77,24,78,26" concept="15" />
+      <node id="6853926845395274894" at="79,5,80,28" concept="9" />
+      <node id="6853926845395274903" at="83,43,84,40" concept="8" />
+      <node id="6853926845395274913" at="85,26,86,18" concept="9" />
+      <node id="6853926845395274929" at="88,86,89,74" concept="8" />
+      <node id="6853926845395274941" at="90,26,91,21" concept="9" />
+      <node id="6853926845395274946" at="93,5,94,40" concept="15" />
+      <node id="6853926845395274954" at="97,46,98,42" concept="8" />
+      <node id="6853926845395274966" at="99,24,100,26" concept="15" />
+      <node id="6853926845395274967" at="101,5,102,32" concept="9" />
+      <node id="6853926845395274976" at="105,47,106,40" concept="8" />
+      <node id="6853926845395274986" at="107,26,108,18" concept="9" />
+      <node id="6853926845395275002" at="110,86,111,78" concept="8" />
+      <node id="6853926845395275014" at="112,26,113,21" concept="9" />
+      <node id="6853926845395275019" at="115,5,116,39" concept="15" />
+      <node id="6853926845395275027" at="119,44,120,40" concept="8" />
+      <node id="6853926845395275039" at="121,24,122,26" concept="15" />
+      <node id="6853926845395275040" at="123,5,124,31" concept="9" />
+      <node id="6853926845395275049" at="127,45,128,40" concept="8" />
+      <node id="6853926845395275059" at="129,26,130,18" concept="9" />
+      <node id="6853926845395275075" at="132,86,133,76" concept="8" />
+      <node id="6853926845395275087" at="134,26,135,21" concept="9" />
+      <node id="6853926845395275092" at="137,5,138,38" concept="15" />
+      <node id="6853926845395275100" at="141,44,142,43" concept="8" />
+      <node id="6853926845395275110" at="143,38,144,18" concept="9" />
+      <node id="6853926845395275112" at="145,5,146,19" concept="9" />
+      <node id="6853926845395275120" at="149,51,150,73" concept="9" />
+      <node id="6853926845395275135" at="153,70,154,81" concept="9" />
+      <node id="6853926845395274798" at="50,12,52,7" concept="0" />
+      <node id="6853926845395274669" at="22,0,25,0" concept="1" trace="ToolArgs#(Lkotlinx/serialization/json/JsonObject;)V" />
+      <node id="6853926845395274748" at="35,44,38,7" concept="6" />
+      <node id="6853926845395274822" at="57,40,60,5" concept="6" />
+      <node id="6853926845395274844" at="65,40,68,5" concept="6" />
+      <node id="6853926845395274852" at="68,5,71,5" concept="6" />
+      <node id="6853926845395274885" at="76,38,79,5" concept="6" />
+      <node id="6853926845395274907" at="84,40,87,5" concept="6" />
+      <node id="6853926845395274935" at="89,74,92,7" concept="6" />
+      <node id="6853926845395274958" at="98,42,101,5" concept="6" />
+      <node id="6853926845395274980" at="106,40,109,5" concept="6" />
+      <node id="6853926845395275008" at="111,78,114,7" concept="6" />
+      <node id="6853926845395275031" at="120,40,123,5" concept="6" />
+      <node id="6853926845395275053" at="128,40,131,5" concept="6" />
+      <node id="6853926845395275081" at="133,76,136,7" concept="6" />
+      <node id="6853926845395275104" at="142,43,145,5" concept="6" />
+      <node id="6853926845395275116" at="149,0,152,0" concept="12" trace="missing#(Ljava/lang/String;)Lcom/jetbrains/mpsext/mcptools/runtime/ToolFailure;" />
+      <node id="6853926845395275129" at="153,0,156,0" concept="12" trace="wrongType#(Ljava/lang/String;Ljava/lang/String;)Lcom/jetbrains/mpsext/mcptools/runtime/ToolFailure;" />
+      <node id="6853926845395305464" at="34,92,39,5" concept="5" />
+      <node id="6853926845395274789" at="47,12,52,7" concept="6" />
+      <node id="6853926845395274915" at="87,5,93,5" concept="6" />
+      <node id="6853926845395274988" at="109,5,115,5" concept="6" />
+      <node id="6853926845395275061" at="131,5,137,5" concept="6" />
+      <node id="6853926845395274813" at="56,0,63,0" concept="7" trace="requireString#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6853926845395274876" at="75,0,82,0" concept="7" trace="requireInt#(Ljava/lang/String;)I" />
+      <node id="6853926845395274949" at="97,0,104,0" concept="7" trace="requireBoolean#(Ljava/lang/String;)Z" />
+      <node id="6853926845395275022" at="119,0,126,0" concept="7" trace="requireDouble#(Ljava/lang/String;)D" />
+      <node id="6853926845395275095" at="141,0,148,0" concept="7" trace="element#(Ljava/lang/String;)Lkotlinx/serialization/json/JsonElement;" />
+      <node id="6853926845395274780" at="44,12,52,7" concept="6" />
+      <node id="6853926845395274835" at="64,0,74,0" concept="7" trace="optionalString#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6853926845395274771" at="41,66,52,7" concept="6" />
+      <node id="6853926845395274898" at="83,0,96,0" concept="7" trace="optionalInt#(Ljava/lang/String;)Ljava/lang/Integer;" />
+      <node id="6853926845395274971" at="105,0,118,0" concept="7" trace="optionalBoolean#(Ljava/lang/String;)Ljava/lang/Boolean;" />
+      <node id="6853926845395275044" at="127,0,140,0" concept="7" trace="optionalDouble#(Ljava/lang/String;)Ljava/lang/Double;" />
+      <node id="6853926845395305457" at="39,5,53,5" concept="5" />
+      <node id="6853926845395274736" at="34,0,55,0" concept="7" trace="validate#(Ljava/util/Map;Ljava/util/Set;)V" />
+      <scope id="6853926845395274673" at="22,36,23,18" />
+      <scope id="6853926845395274754" at="36,34,37,28" />
+      <scope id="6853926845395274776" at="42,35,43,26" />
+      <scope id="6853926845395274785" at="45,34,46,29" />
+      <scope id="6853926845395274794" at="48,35,49,30" />
+      <scope id="6853926845395274799" at="50,14,51,29" />
+      <scope id="6853926845395274827" at="58,24,59,26" />
+      <scope id="6853926845395274849" at="66,26,67,18" />
+      <scope id="6853926845395274863" at="69,83,70,52" />
+      <scope id="6853926845395274890" at="77,24,78,26" />
+      <scope id="6853926845395274912" at="85,26,86,18" />
+      <scope id="6853926845395274940" at="90,26,91,21" />
+      <scope id="6853926845395274963" at="99,24,100,26" />
+      <scope id="6853926845395274985" at="107,26,108,18" />
+      <scope id="6853926845395275013" at="112,26,113,21" />
+      <scope id="6853926845395275036" at="121,24,122,26" />
+      <scope id="6853926845395275058" at="129,26,130,18" />
+      <scope id="6853926845395275086" at="134,26,135,21" />
+      <scope id="6853926845395275109" at="143,38,144,18" />
+      <scope id="6853926845395275119" at="149,51,150,73" />
+      <scope id="6853926845395275134" at="153,70,154,81" />
+      <scope id="6853926845395274669" at="22,0,25,0">
+        <var name="args" id="6853926845395274671" />
+      </scope>
+      <scope id="6853926845395274747" at="35,44,38,7" />
+      <scope id="6853926845395275116" at="149,0,152,0">
+        <var name="name" id="6853926845395275117" />
+      </scope>
+      <scope id="6853926845395275129" at="153,0,156,0">
+        <var name="expected" id="6853926845395275132" />
+        <var name="name" id="6853926845395275130" />
+      </scope>
+      <scope id="6853926845395274927" at="88,86,92,7">
+        <var name="value" id="6853926845395274928" />
+      </scope>
+      <scope id="6853926845395275000" at="110,86,114,7">
+        <var name="value" id="6853926845395275001" />
+      </scope>
+      <scope id="6853926845395275073" at="132,86,136,7">
+        <var name="value" id="6853926845395275074" />
+      </scope>
+      <scope id="6853926845395305464" at="34,92,39,5">
+        <var name="name" id="6853926845395305465" />
+      </scope>
+      <scope id="6853926845395274816" at="56,44,61,17">
+        <var name="value" id="6853926845395274817" />
+      </scope>
+      <scope id="6853926845395274879" at="75,38,80,28">
+        <var name="value" id="6853926845395274880" />
+      </scope>
+      <scope id="6853926845395274952" at="97,46,102,32">
+        <var name="value" id="6853926845395274953" />
+      </scope>
+      <scope id="6853926845395275025" at="119,44,124,31">
+        <var name="value" id="6853926845395275026" />
+      </scope>
+      <scope id="6853926845395275098" at="141,44,146,19">
+        <var name="element" id="6853926845395275099" />
+      </scope>
+      <scope id="6853926845395274813" at="56,0,63,0">
+        <var name="name" id="6853926845395274814" />
+      </scope>
+      <scope id="6853926845395274876" at="75,0,82,0">
+        <var name="name" id="6853926845395274877" />
+      </scope>
+      <scope id="6853926845395274949" at="97,0,104,0">
+        <var name="name" id="6853926845395274950" />
+      </scope>
+      <scope id="6853926845395275022" at="119,0,126,0">
+        <var name="name" id="6853926845395275023" />
+      </scope>
+      <scope id="6853926845395275095" at="141,0,148,0">
+        <var name="name" id="6853926845395275096" />
+      </scope>
+      <scope id="6853926845395274838" at="64,45,72,38">
+        <var name="element" id="6853926845395274839" />
+      </scope>
+      <scope id="6853926845395274835" at="64,0,74,0">
+        <var name="name" id="6853926845395274836" />
+      </scope>
+      <scope id="6853926845395274901" at="83,43,94,40">
+        <var name="element" id="6853926845395274902" />
+      </scope>
+      <scope id="6853926845395274974" at="105,47,116,39">
+        <var name="element" id="6853926845395274975" />
+      </scope>
+      <scope id="6853926845395275047" at="127,45,138,38">
+        <var name="element" id="6853926845395275048" />
+      </scope>
+      <scope id="6853926845395274765" at="40,70,52,7">
+        <var name="type" id="6853926845395274766" />
+      </scope>
+      <scope id="6853926845395274898" at="83,0,96,0">
+        <var name="name" id="6853926845395274899" />
+      </scope>
+      <scope id="6853926845395274971" at="105,0,118,0">
+        <var name="name" id="6853926845395274972" />
+      </scope>
+      <scope id="6853926845395275044" at="127,0,140,0">
+        <var name="name" id="6853926845395275045" />
+      </scope>
+      <scope id="6853926845395305457" at="39,5,53,5">
+        <var name="name" id="6853926845395305458" />
+      </scope>
+      <scope id="6853926845395274744" at="34,92,53,5" />
+      <scope id="6853926845395274736" at="34,0,55,0">
+        <var name="parameterTypes" id="6853926845395274737" />
+        <var name="requiredParameters" id="6853926845395274741" />
+      </scope>
+      <unit id="6853926845395274663" at="19,0,157,0" name="com.jetbrains.mpsext.mcptools.runtime.ToolArgs" />
+    </file>
+  </root>
+  <root nodeRef="r:5278510f-67c5-4557-804e-5ed93436dce2(com.jetbrains.mpsext.mcptools.runtime)/6853926845395275195">
+    <file name="ToolSchemas.java">
+      <node id="6853926845395275197" at="18,0,19,0" concept="11" trace="JSON" />
+      <node id="6853926845395275201" at="19,0,20,0" concept="11" trace="PROJECT_PATH" />
+      <node id="6853926845395275205" at="20,0,21,0" concept="11" trace="PROJECT_PATH_DESCRIPTION" />
+      <node id="6853926845395275219" at="25,68,26,46" concept="9" />
+      <node id="6853926845395275233" at="29,78,30,49" concept="9" />
+      <node id="6853926845395275246" at="38,62,39,127" concept="8" />
+      <node id="6853926845395275256" at="40,89,41,82" concept="3" />
+      <node id="6853926845395275269" at="42,5,43,128" concept="8" />
+      <node id="6853926845395275276" at="43,128,44,88" concept="3" />
+      <node id="6853926845395275281" at="44,88,45,111" concept="3" />
+      <node id="6853926845395275286" at="45,111,46,83" concept="3" />
+      <node id="6853926845395275291" at="46,83,47,38" concept="9" />
+      <node id="6853926845395275304" at="54,70,55,112" concept="8" />
+      <node id="6853926845395275315" at="56,89,57,86" concept="8" />
+      <node id="6853926845395275321" at="57,86,58,107" concept="3" />
+      <node id="6853926845395275341" at="59,5,60,17" concept="9" />
+      <node id="6853926845395275354" at="63,66,64,93" concept="9" />
+      <node id="6853926845395275209" at="22,0,24,0" concept="1" trace="ToolSchemas#()V" />
+      <node id="6853926845395275213" at="25,0,28,0" concept="12" trace="wireName#(Lcom/jetbrains/mpsext/mcptools/runtime/ToolGroup;Lcom/jetbrains/mpsext/mcptools/runtime/SyncMcpTool;)Ljava/lang/String;" />
+      <node id="6853926845395275227" at="29,0,32,0" concept="12" trace="fullyQualifiedName#(Lcom/jetbrains/mpsext/mcptools/runtime/ToolGroup;Lcom/jetbrains/mpsext/mcptools/runtime/SyncMcpTool;)Ljava/lang/String;" />
+      <node id="6853926845395275253" at="39,127,42,5" concept="5" />
+      <node id="6853926845395275350" at="63,0,66,0" concept="12" trace="declaredProperties#(Lcom/jetbrains/mpsext/mcptools/runtime/SyncMcpTool;)Lkotlinx/serialization/json/JsonObject;" />
+      <node id="6853926845395275311" at="55,112,59,5" concept="5" />
+      <node id="6853926845395275299" at="54,0,62,0" concept="12" trace="parameterTypes#(Lcom/jetbrains/mpsext/mcptools/runtime/SyncMcpTool;)Ljava/util/Map;" />
+      <node id="6853926845395275241" at="38,0,49,0" concept="12" trace="inputProperties#(Lcom/jetbrains/mpsext/mcptools/runtime/SyncMcpTool;)Lkotlinx/serialization/json/JsonObject;" />
+      <scope id="6853926845395275211" at="22,25,22,25" />
+      <scope id="6853926845395275218" at="25,68,26,46" />
+      <scope id="6853926845395275232" at="29,78,30,49" />
+      <scope id="6853926845395275255" at="40,89,41,82" />
+      <scope id="6853926845395275353" at="63,66,64,93" />
+      <scope id="6853926845395275209" at="22,0,24,0" />
+      <scope id="6853926845395275313" at="56,89,58,107">
+        <var name="type" id="6853926845395275314" />
+      </scope>
+      <scope id="6853926845395275213" at="25,0,28,0">
+        <var name="group" id="6853926845395275214" />
+        <var name="tool" id="6853926845395275216" />
+      </scope>
+      <scope id="6853926845395275227" at="29,0,32,0">
+        <var name="group" id="6853926845395275228" />
+        <var name="tool" id="6853926845395275230" />
+      </scope>
+      <scope id="6853926845395275253" at="39,127,42,5">
+        <var name="property" id="6853926845395275260" />
+      </scope>
+      <scope id="6853926845395275350" at="63,0,66,0">
+        <var name="tool" id="6853926845395275351" />
+      </scope>
+      <scope id="6853926845395275311" at="55,112,59,5">
+        <var name="property" id="6853926845395275333" />
+      </scope>
+      <scope id="6853926845395275302" at="54,70,60,17">
+        <var name="types" id="6853926845395275303" />
+      </scope>
+      <scope id="6853926845395275299" at="54,0,62,0">
+        <var name="tool" id="6853926845395275300" />
+      </scope>
+      <scope id="6853926845395275244" at="38,62,47,38">
+        <var name="projectPath" id="6853926845395275268" />
+        <var name="properties" id="6853926845395275245" />
+      </scope>
+      <scope id="6853926845395275241" at="38,0,49,0">
+        <var name="tool" id="6853926845395275242" />
+      </scope>
+      <unit id="6853926845395275195" at="17,0,67,0" name="com.jetbrains.mpsext.mcptools.runtime.ToolSchemas" />
+    </file>
+  </root>
+  <root nodeRef="r:5278510f-67c5-4557-804e-5ed93436dce2(com.jetbrains.mpsext.mcptools.runtime)/6853926845395275407">
+    <file name="ToolRunner.java">
+      <node id="6853926845395275409" at="22,0,23,0" concept="11" trace="COMMAND_TIMEOUT_SECONDS" />
+      <node id="6853926845395275413" at="23,0,24,0" concept="11" trace="PENDING" />
+      <node id="6853926845395275417" at="24,0,25,0" concept="11" trace="STARTED" />
+      <node id="6853926845395275421" at="25,0,26,0" concept="11" trace="ABANDONED" />
+      <node id="6853926845395275474" at="36,9,37,81" concept="3" />
+      <node id="6853926845395275479" at="37,81,38,83" concept="9" />
+      <node id="6853926845395275491" at="39,35,40,55" concept="9" />
+      <node id="6853926845395275508" at="44,87,45,38" concept="8" />
+      <node id="6853926845395275518" at="46,36,47,75" concept="8" />
+      <node id="6853926845395305564" at="47,75,48,109" concept="3" />
+      <node id="6853926845395275535" at="48,109,49,26" concept="9" />
+      <node id="6853926845395275543" at="51,39,52,38" concept="9" />
+      <node id="6853926845395275547" at="53,5,54,30" concept="9" />
+      <node id="6853926845395275559" at="57,90,58,73" concept="8" />
+      <node id="6853926845395275565" at="58,73,59,78" concept="8" />
+      <node id="6853926845395280936" at="61,11,62,39" concept="3" />
+      <node id="6853926845395280929" at="63,29,64,21" concept="3" />
+      <node id="6853926845395275602" at="66,7,67,66" concept="8" />
+      <node id="6853926845395275609" at="68,41,69,20" concept="3" />
+      <node id="6853926845395275613" at="70,12,71,42" concept="3" />
+      <node id="6853926845395275618" at="72,5,73,30" concept="8" />
+      <node id="6853926845395275630" at="74,40,75,33" concept="15" />
+      <node id="6853926845395275640" at="77,29,78,22" concept="15" />
+      <node id="6853926845395275649" at="80,20,81,36" concept="15" />
+      <node id="6853926845395275650" at="82,5,83,24" concept="9" />
+      <node id="6853926845395275661" at="86,86,87,59" concept="8" />
+      <node id="6853926845395275666" at="87,59,88,71" concept="8" />
+      <node id="6853926845395277544" at="88,71,89,119" concept="10" />
+      <node id="6853926845395277568" at="89,119,90,52" concept="10" />
+      <node id="6853926845395286807" at="93,13,94,24" concept="3" />
+      <node id="6853926845395286809" at="94,24,95,30" concept="3" />
+      <node id="6853926845395286800" at="96,31,97,40" concept="3" />
+      <node id="6853926845395286793" at="99,14,100,28" concept="3" />
+      <node id="6853926845395277579" at="103,9,104,118" concept="10" />
+      <node id="6853926845395277599" at="104,118,105,114" concept="10" />
+      <node id="6853926845395277624" at="105,114,106,117" concept="10" />
+      <node id="6853926845395275708" at="106,117,107,58" concept="3" />
+      <node id="6853926845395275735" at="109,52,110,182" concept="15" />
+      <node id="6853926845395275742" at="111,7,112,165" concept="15" />
+      <node id="6853926845395275745" at="113,38,114,41" concept="3" />
+      <node id="6853926845395275756" at="115,52,116,105" concept="15" />
+      <node id="6853926845395275759" at="117,7,118,126" concept="15" />
+      <node id="6853926845395275763" at="119,36,120,37" concept="8" />
+      <node id="6853926845395275775" at="121,46,122,39" concept="15" />
+      <node id="6853926845395275785" at="124,35,125,28" concept="15" />
+      <node id="6853926845395275788" at="126,7,127,40" concept="15" />
+      <node id="6853926845395275425" at="27,0,29,0" concept="1" trace="ToolRunner#()V" />
+      <node id="6853926845395275611" at="70,10,72,5" concept="0" />
+      <node id="6853926845395286791" at="99,12,101,7" concept="0" />
+      <node id="6853926845395275537" at="50,5,53,5" concept="6" />
+      <node id="6853926845395275621" at="73,30,76,5" concept="6" />
+      <node id="6853926845395275631" at="76,5,79,5" concept="6" />
+      <node id="6853926845395275641" at="79,5,82,5" concept="6" />
+      <node id="6853926845395275723" at="108,34,111,7" concept="6" />
+      <node id="6853926845395275748" at="114,41,117,7" concept="6" />
+      <node id="6853926845395275766" at="120,37,123,7" concept="6" />
+      <node id="6853926845395275776" at="123,7,126,7" concept="6" />
+      <node id="6853926845395275511" at="45,38,50,5" concept="6" />
+      <node id="6853926845395280926" at="60,108,65,7" concept="16" />
+      <node id="6853926845395275605" at="67,66,72,5" concept="6" />
+      <node id="6853926845395275494" at="35,86,41,5" concept="16" />
+      <node id="6853926845395286797" at="92,50,98,9" concept="16" />
+      <node id="6853926845395275571" at="59,78,66,7" concept="8" />
+      <node id="6853926845395275464" at="35,0,43,0" concept="12" trace="run#(Lcom/jetbrains/mpsext/mcptools/runtime/SyncMcpTool;Ljetbrains/mps/project/MPSProject;Lcom/jetbrains/mpsext/mcptools/runtime/ToolArgs;)Lcom/jetbrains/mpsext/mcptools/runtime/ToolOutcome;" />
+      <node id="6853926845395286787" at="91,35,101,7" concept="6" />
+      <node id="6853926845395275501" at="44,0,56,0" concept="12" trace="invoke#(Lcom/jetbrains/mpsext/mcptools/runtime/SyncMcpTool;Lcom/jetbrains/mpsext/mcptools/runtime/ToolCallContext;)Ljava/lang/String;" />
+      <node id="6853926845395275671" at="90,52,102,33" concept="3" />
+      <node id="6853926845395275789" at="102,33,128,5" concept="16" />
+      <node id="6853926845395275552" at="57,0,85,0" concept="12" trace="inCommand#(Lcom/jetbrains/mpsext/mcptools/runtime/SyncMcpTool;Lcom/jetbrains/mpsext/mcptools/runtime/ToolCallContext;)Ljava/lang/String;" />
+      <node id="6853926845395275654" at="86,0,130,0" concept="12" trace="runOnUiThread#(Lcom/intellij/openapi/application/Application;Ljava/lang/Runnable;)V" />
+      <scope id="6853926845395275427" at="27,24,27,24" />
+      <scope id="6853926845395275490" at="39,35,40,55" />
+      <scope id="6853926845395275542" at="51,39,52,38" />
+      <scope id="6853926845395280935" at="61,11,62,39" />
+      <scope id="6853926845395280928" at="63,29,64,21" />
+      <scope id="6853926845395275608" at="68,41,69,20" />
+      <scope id="6853926845395275612" at="70,12,71,42" />
+      <scope id="6853926845395275626" at="74,40,75,33" />
+      <scope id="6853926845395275636" at="77,29,78,22" />
+      <scope id="6853926845395275646" at="80,20,81,36" />
+      <scope id="6853926845395286799" at="96,31,97,40" />
+      <scope id="6853926845395286792" at="99,14,100,28" />
+      <scope id="6853926845395275728" at="109,52,110,182" />
+      <scope id="6853926845395275753" at="115,52,116,105" />
+      <scope id="6853926845395275771" at="121,46,122,39" />
+      <scope id="6853926845395275781" at="124,35,125,28" />
+      <scope id="6853926845395275425" at="27,0,29,0" />
+      <scope id="6853926845395275473" at="36,9,38,83" />
+      <scope id="6853926845395275495" at="39,5,41,5">
+        <var name="failure" id="6853926845395275486" />
+      </scope>
+      <scope id="6853926845395280927" at="63,7,65,7">
+        <var name="t" id="6853926845395280932" />
+      </scope>
+      <scope id="6853926845395286806" at="93,13,95,30" />
+      <scope id="6853926845395286798" at="96,9,98,9">
+        <var name="t" id="6853926845395286803" />
+      </scope>
+      <scope id="6853926845395275516" at="46,36,49,26">
+        <var name="result" id="6853926845395275517" />
+      </scope>
+      <scope id="6853926845395275707" at="103,9,107,58" />
+      <scope id="6853926845395275722" at="108,34,112,165" />
+      <scope id="6853926845395280923" at="60,108,65,7" />
+      <scope id="6853926845395275790" at="108,5,113,5">
+        <var name="e" id="6853926845395275712" />
+      </scope>
+      <scope id="6853926845395275744" at="113,38,118,126" />
+      <scope id="6853926845395275471" at="35,86,41,5" />
+      <scope id="6853926845395286796" at="92,50,98,9" />
+      <scope id="6853926845395275791" at="113,5,119,5">
+        <var name="e" id="6853926845395275715" />
+      </scope>
+      <scope id="6853926845395275464" at="35,0,43,0">
+        <var name="args" id="6853926845395275469" />
+        <var name="project" id="6853926845395275467" />
+        <var name="tool" id="6853926845395275465" />
+      </scope>
+      <scope id="6853926845395275761" at="119,36,127,40">
+        <var name="cause" id="6853926845395275762" />
+      </scope>
+      <scope id="6853926845395275792" at="119,5,128,5">
+        <var name="e" id="6853926845395275718" />
+      </scope>
+      <scope id="6853926845395275506" at="44,87,54,30">
+        <var name="access" id="6853926845395275507" />
+      </scope>
+      <scope id="6853926845395286784" at="91,35,101,7" />
+      <scope id="6853926845395275501" at="44,0,56,0">
+        <var name="context" id="6853926845395275504" />
+        <var name="tool" id="6853926845395275502" />
+      </scope>
+      <scope id="6853926845395275557" at="57,90,83,24">
+        <var name="application" id="6853926845395275601" />
+        <var name="command" id="6853926845395275570" />
+        <var name="error" id="6853926845395275564" />
+        <var name="result" id="6853926845395275558" />
+        <var name="t" id="6853926845395275617" />
+      </scope>
+      <scope id="6853926845395275552" at="57,0,85,0">
+        <var name="context" id="6853926845395275555" />
+        <var name="tool" id="6853926845395275553" />
+      </scope>
+      <scope id="6853926845395275659" at="86,86,128,5">
+        <var name="done" id="6853926845395275665" />
+        <var name="state" id="6853926845395275660" />
+      </scope>
+      <scope id="6853926845395275654" at="86,0,130,0">
+        <var name="application" id="6853926845395275655" />
+        <var name="command" id="6853926845395275657" />
+      </scope>
+      <unit id="6853926845395275407" at="21,0,131,0" name="com.jetbrains.mpsext.mcptools.runtime.ToolRunner" />
+    </file>
+  </root>
+  <root nodeRef="r:5278510f-67c5-4557-804e-5ed93436dce2(com.jetbrains.mpsext.mcptools.runtime)/6853926845395275842">
+    <file name="ToolGroupDiscovery.java">
+      <node id="6853926845395275845" at="40,0,41,0" concept="11" trace="GROUP_CLASS_NAME" />
+      <node id="6853926845395275849" at="41,0,42,0" concept="11" trace="LOG" />
+      <node id="6853926845395275862" at="42,0,43,0" concept="11" trace="ourInstance" />
+      <node id="6853926845395275865" at="43,0,44,0" concept="4" trace="myRegistry" />
+      <node id="6853926845395275869" at="44,0,45,0" concept="4" trace="myRepository" />
+      <node id="6853926845395281936" at="52,5,53,108" concept="10" />
+      <node id="6853926845395281957" at="53,108,54,61" concept="8" />
+      <node id="6853926845395281963" at="54,61,55,29" concept="3" />
+      <node id="6853926845395281966" at="55,29,56,20" concept="9" />
+      <node id="6853926845395275898" at="65,0,66,0" concept="4" trace="myRegistrations" />
+      <node id="6853926845395275932" at="66,0,67,0" concept="4" trace="myMcpUnavailableReported" />
+      <node id="6853926845395275944" at="68,81,69,26" concept="3" />
+      <node id="6853926845395275948" at="69,26,70,30" concept="3" />
+      <node id="6853926845398379157" at="73,79,74,63" concept="3" />
+      <node id="6853926845398379163" at="74,63,75,46" concept="3" />
+      <node id="6853926845398379166" at="75,46,76,35" concept="3" />
+      <node id="6853926845398379513" at="79,29,80,63" concept="3" />
+      <node id="6853926845398379516" at="80,63,81,38" concept="3" />
+      <node id="6853926845398379518" at="81,38,82,32" concept="3" />
+      <node id="6853926845398379520" at="82,32,83,23" concept="3" />
+      <node id="6853926845395276018" at="90,57,91,46" concept="9" />
+      <node id="6853926845395276035" at="98,96,99,73" concept="9" />
+      <node id="6853926845395276052" at="103,78,104,99" concept="8" />
+      <node id="6853926845395276057" at="104,99,105,92" concept="3" />
+      <node id="6853926845395287725" at="106,55,107,44" concept="3" />
+      <node id="6853926845395287728" at="107,44,108,74" concept="3" />
+      <node id="6853926845395276082" at="109,7,110,120" concept="3" />
+      <node id="6853926845395276098" at="111,53,112,41" concept="3" />
+      <node id="6853926845395276111" at="116,35,117,51" concept="3" />
+      <node id="6853926845395276125" at="120,53,121,48" concept="8" />
+      <node id="6853926845395276129" at="121,48,122,100" concept="8" />
+      <node id="6853926845395282101" at="124,54,125,79" concept="3" />
+      <node id="6853926845395276151" at="127,7,128,19" concept="9" />
+      <node id="6853926845395277956" at="132,9,133,110" concept="10" />
+      <node id="6853926845395277976" at="133,110,134,65" concept="10" />
+      <node id="6853926845395276162" at="134,65,135,28" concept="3" />
+      <node id="6853926845395277989" at="136,44,137,40" concept="10" />
+      <node id="6853926845395276184" at="143,11,144,25" concept="3" />
+      <node id="6853926845395276192" at="145,29,146,85" concept="3" />
+      <node id="6853926845398380323" at="151,50,152,84" concept="10" />
+      <node id="6853926845398380254" at="152,84,153,23" concept="3" />
+      <node id="6853926845398380258" at="153,23,154,88" concept="8" />
+      <node id="6853926845398380264" at="154,88,155,106" concept="8" />
+      <node id="6853926845398380278" at="156,68,157,92" concept="8" />
+      <node id="6853926845398380290" at="158,26,159,17" concept="2" />
+      <node id="6853926845398380292" at="160,7,161,53" concept="8" />
+      <node id="6853926845398380302" at="162,33,163,70" concept="3" />
+      <node id="6853926845398380314" at="166,57,167,13" concept="9" />
+      <node id="6853926845398380339" at="168,5,169,114" concept="10" />
+      <node id="6853926845398380318" at="170,36,171,70" concept="3" />
+      <node id="6853926845395276330" at="175,71,176,83" concept="8" />
+      <node id="6853926845395282178" at="178,7,179,56" concept="8" />
+      <node id="6853926845395282193" at="181,53,182,111" concept="3" />
+      <node id="6853926845395276365" at="186,7,187,22" concept="9" />
+      <node id="6853926845395276379" at="191,9,192,37" concept="9" />
+      <node id="6853926845395276390" at="193,27,194,63" concept="3" />
+      <node id="6853926845395276398" at="195,30,196,63" concept="3" />
+      <node id="6853926845395276407" at="197,5,198,16" concept="9" />
+      <node id="6853926845395276417" at="202,9,203,45" concept="9" />
+      <node id="6853926845395276430" at="205,40,206,40" concept="3" />
+      <node id="6853926845395276434" at="206,40,207,180" concept="3" />
+      <node id="6853926845395276438" at="208,7,209,18" concept="9" />
+      <node id="6853926845395276471" at="213,52,214,35" concept="8" />
+      <node id="6853926845395278124" at="214,35,215,114" concept="10" />
+      <node id="6853926845395276484" at="216,36,217,71" concept="3" />
+      <node id="6853926845395276489" at="217,71,218,61" concept="3" />
+      <node id="6853926845395276493" at="219,5,220,27" concept="3" />
+      <node id="6853926845395276501" at="223,32,224,78" concept="8" />
+      <node id="6853926845395278140" at="224,78,225,114" concept="10" />
+      <node id="6853926845395276516" at="227,115,228,85" concept="3" />
+      <node id="6853926845395276525" at="229,7,230,51" concept="3" />
+      <node id="6853926845395276528" at="231,5,232,17" concept="3" />
+      <node id="6853926845395276541" at="240,74,241,37" concept="3" />
+      <node id="6853926845395276014" at="90,0,93,0" concept="12" trace="groupClassName#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6853926845395276029" at="98,0,101,0" concept="12" trace="instantiate#(Ljava/lang/Class;)Lcom/jetbrains/mpsext/mcptools/runtime/ToolGroup;" />
+      <node id="6853926845395276093" at="110,120,113,5" concept="6" />
+      <node id="6853926845395276109" at="116,0,119,0" concept="7" trace="registerDeployed#()V" />
+      <node id="6853926845395282096" at="123,53,126,7" concept="5" />
+      <node id="6853926845398380284" at="157,92,160,7" concept="6" />
+      <node id="6853926845398380296" at="161,53,164,7" concept="6" />
+      <node id="6853926845398380310" at="165,5,168,5" concept="6" />
+      <node id="6853926845398380315" at="169,114,172,5" concept="14" />
+      <node id="6853926845395282188" at="180,31,183,11" concept="5" />
+      <node id="6853926845395305446" at="226,36,229,7" concept="5" />
+      <node id="6853926845395305443" at="239,63,242,5" concept="5" />
+      <node id="6853926845395275937" at="68,0,72,0" concept="1" trace="ToolGroupDiscovery#(Ljetbrains/mps/smodel/language/LanguageRegistry;Lorg/jetbrains/mps/openapi/module/SRepository;)V" />
+      <node id="6853926845395276068" at="105,92,109,7" concept="3" />
+      <node id="6853926845395276425" at="204,30,208,7" concept="6" />
+      <node id="6853926845395276474" at="215,114,219,5" concept="14" />
+      <node id="6853926845395275953" at="73,0,78,0" concept="12" trace="start#(Ljetbrains/mps/smodel/language/LanguageRegistry;Lorg/jetbrains/mps/openapi/module/SRepository;)V" />
+      <node id="6853926845395305560" at="122,100,127,7" concept="3" />
+      <node id="6853926845395276198" at="142,68,147,7" concept="16" />
+      <node id="6853926845395282183" at="179,56,184,9" concept="6" />
+      <node id="6853926845395276533" at="239,0,244,0" concept="12" trace="dispose#(Ljava/util/List;)V" />
+      <node id="6853926845395281934" at="51,96,57,5" concept="0" />
+      <node id="6853926845395275982" at="79,0,85,0" concept="12" trace="stop#()V" />
+      <node id="6853926845395276506" at="225,114,231,5" concept="14" />
+      <node id="6853926845395276170" at="131,39,138,5" concept="16" />
+      <node id="6853926845395305453" at="141,60,148,5" concept="5" />
+      <node id="6853926845395276404" at="190,79,197,5" concept="16" />
+      <node id="6853926845395275873" at="51,0,59,0" concept="4" trace="myQueue" />
+      <node id="6853926845395282176" at="177,55,185,7" concept="0" />
+      <node id="6853926845395276156" at="131,0,140,0" concept="7" trace="enqueue#(Ljava/lang/Runnable;)V" />
+      <node id="6853926845395276174" at="141,0,150,0" concept="7" trace="registerAll#(Ljava/util/List;)V" />
+      <node id="6853926845395276440" at="201,53,210,5" concept="16" />
+      <node id="6853926845395276466" at="213,0,222,0" concept="7" trace="unregister#(Lorg/jetbrains/mps/openapi/module/SModuleReference;)V" />
+      <node id="6853926845395276122" at="120,0,130,0" concept="7" trace="moduleReferences#()Ljava/util/List;" />
+      <node id="6853926845398381767" at="155,106,165,5" concept="5" />
+      <node id="6853926845395305558" at="176,83,186,7" concept="3" />
+      <node id="6853926845395276370" at="190,0,200,0" concept="12" trace="createGroup#(Ljava/lang/String;Ljava/lang/Class;)Lcom/jetbrains/mpsext/mcptools/runtime/ToolGroup;" />
+      <node id="6853926845395276411" at="201,0,212,0" concept="7" trace="registerGroup#(Lcom/jetbrains/mpsext/mcptools/runtime/ToolGroup;)Lcom/intellij/openapi/Disposable;" />
+      <node id="6853926845395276498" at="223,0,234,0" concept="7" trace="unregisterAll#()V" />
+      <node id="6853926845395276045" at="102,0,115,0" concept="7" trace="deploymentStateChanged#(Ljetbrains/mps/smodel/runtime/ModuleDeploymentChange;)V" />
+      <node id="6853926845395276325" at="175,0,189,0" concept="7" trace="groupClassNames#(Lorg/jetbrains/mps/openapi/module/SModuleReference;)Ljava/util/List;" />
+      <node id="6853926845395276207" at="151,0,174,0" concept="7" trace="register#(Lorg/jetbrains/mps/openapi/module/SModuleReference;)V" />
+      <scope id="6853926845395276017" at="90,57,91,46" />
+      <scope id="6853926845395276034" at="98,96,99,73" />
+      <scope id="6853926845395276097" at="111,53,112,41" />
+      <scope id="6853926845395276110" at="116,35,117,51" />
+      <scope id="6853926845395282100" at="124,54,125,79" />
+      <scope id="6853926845395276169" at="136,44,137,40" />
+      <scope id="6853926845395276183" at="143,11,144,25" />
+      <scope id="6853926845395276191" at="145,29,146,85" />
+      <scope id="6853926845398380289" at="158,26,159,17" />
+      <scope id="6853926845398380301" at="162,33,163,70" />
+      <scope id="6853926845398380313" at="166,57,167,13" />
+      <scope id="6853926845398380317" at="170,36,171,70" />
+      <scope id="6853926845395282192" at="181,53,182,111" />
+      <scope id="6853926845395276378" at="191,9,192,37" />
+      <scope id="6853926845395276389" at="193,27,194,63" />
+      <scope id="6853926845395276397" at="195,30,196,63" />
+      <scope id="6853926845395276416" at="202,9,203,45" />
+      <scope id="6853926845395276515" at="227,115,228,85" />
+      <scope id="6853926845395276540" at="240,74,241,37" />
+      <scope id="6853926845395275943" at="68,81,70,30" />
+      <scope id="6853926845395287722" at="106,55,108,74" />
+      <scope id="6853926845395276171" at="136,5,138,5">
+        <var name="e" id="6853926845395276165" />
+      </scope>
+      <scope id="6853926845395276199" at="145,7,147,7">
+        <var name="t" id="6853926845395276187" />
+      </scope>
+      <scope id="6853926845395276405" at="193,5,195,5">
+        <var name="e" id="6853926845395276382" />
+      </scope>
+      <scope id="6853926845395276406" at="195,5,197,5">
+        <var name="e" id="6853926845395276385" />
+      </scope>
+      <scope id="6853926845395276429" at="205,40,207,180" />
+      <scope id="6853926845395276476" at="216,36,218,61" />
+      <scope id="6853926845395275958" at="73,79,76,35" />
+      <scope id="6853926845395276014" at="90,0,93,0">
+        <var name="modelName" id="6853926845395276015" />
+      </scope>
+      <scope id="6853926845395276029" at="98,0,101,0">
+        <var name="groupClass" id="6853926845395276030" />
+      </scope>
+      <scope id="6853926845395276109" at="116,0,119,0" />
+      <scope id="6853926845395282093" at="123,53,126,7" />
+      <scope id="6853926845395282096" at="123,53,126,7">
+        <var name="module" id="6853926845395282098" />
+      </scope>
+      <scope id="6853926845395276161" at="132,9,135,28" />
+      <scope id="6853926845395282187" at="180,31,183,11" />
+      <scope id="6853926845395282188" at="180,31,183,11">
+        <var name="model" id="6853926845395282190" />
+      </scope>
+      <scope id="6853926845395305446" at="226,36,229,7">
+        <var name="registrations" id="6853926845395305447" />
+      </scope>
+      <scope id="6853926845395276537" at="239,63,242,5" />
+      <scope id="6853926845395305443" at="239,63,242,5">
+        <var name="registration" id="6853926845395305444" />
+      </scope>
+      <scope id="6853926845395281935" at="52,5,56,20">
+        <var name="thread" id="6853926845395281958" />
+      </scope>
+      <scope id="6853926845395275937" at="68,0,72,0">
+        <var name="registry" id="6853926845395275939" />
+        <var name="repository" id="6853926845395275941" />
+      </scope>
+      <scope id="6853926845395275983" at="79,29,83,23" />
+      <scope id="6853926845395276508" at="226,36,230,51" />
+      <scope id="6853926845395275953" at="73,0,78,0">
+        <var name="registry" id="6853926845395275954" />
+        <var name="repository" id="6853926845395275956" />
+      </scope>
+      <scope id="6853926845395276181" at="142,68,147,7" />
+      <scope id="6853926845395276424" at="204,30,209,18" />
+      <scope id="6853926845395276533" at="239,0,244,0">
+        <var name="registrations" id="6853926845395276534" />
+      </scope>
+      <scope id="6853926845395281933" at="51,96,57,5" />
+      <scope id="6853926845395275982" at="79,0,85,0" />
+      <scope id="6853926845395282177" at="178,7,184,9">
+        <var name="resolved" id="6853926845395282179" />
+      </scope>
+      <scope id="6853926845395276441" at="204,5,210,5">
+        <var name="e" id="6853926845395276420" />
+      </scope>
+      <scope id="6853926845395276159" at="131,39,138,5" />
+      <scope id="6853926845395276178" at="141,60,148,5" />
+      <scope id="6853926845395305453" at="141,60,148,5">
+        <var name="module" id="6853926845395305454" />
+      </scope>
+      <scope id="6853926845395276469" at="213,52,220,27">
+        <var name="registrations" id="6853926845395276470" />
+      </scope>
+      <scope id="6853926845395276123" at="120,53,128,19">
+        <var name="modules" id="6853926845395276128" />
+        <var name="repository" id="6853926845395276124" />
+      </scope>
+      <scope id="6853926845398380276" at="156,68,164,7">
+        <var name="group" id="6853926845398380277" />
+        <var name="registration" id="6853926845398380291" />
+      </scope>
+      <scope id="6853926845395282175" at="177,55,185,7" />
+      <scope id="6853926845395276376" at="190,79,198,16" />
+      <scope id="6853926845395276156" at="131,0,140,0">
+        <var name="task" id="6853926845395276157" />
+      </scope>
+      <scope id="6853926845395276174" at="141,0,150,0">
+        <var name="modules" id="6853926845395276175" />
+      </scope>
+      <scope id="6853926845395276414" at="201,53,210,5" />
+      <scope id="6853926845395276466" at="213,0,222,0">
+        <var name="module" id="6853926845395276467" />
+      </scope>
+      <scope id="6853926845395276499" at="223,32,232,17">
+        <var name="all" id="6853926845395276500" />
+      </scope>
+      <scope id="6853926845395276050" at="103,78,113,5">
+        <var name="loaded" id="6853926845395276051" />
+      </scope>
+      <scope id="6853926845395276122" at="120,0,130,0" />
+      <scope id="6853926845398381767" at="155,106,165,5">
+        <var name="className" id="6853926845398381768" />
+      </scope>
+      <scope id="6853926845395276370" at="190,0,200,0">
+        <var name="className" id="6853926845395276371" />
+        <var name="groupClass" id="6853926845395276373" />
+      </scope>
+      <scope id="6853926845395276411" at="201,0,212,0">
+        <var name="group" id="6853926845395276412" />
+      </scope>
+      <scope id="6853926845395276498" at="223,0,234,0" />
+      <scope id="6853926845395276328" at="175,71,187,22">
+        <var name="classNames" id="6853926845395276329" />
+      </scope>
+      <scope id="6853926845395276045" at="102,0,115,0">
+        <var name="change" id="6853926845395276047" />
+      </scope>
+      <scope id="6853926845395276325" at="175,0,189,0">
+        <var name="module" id="6853926845395276326" />
+      </scope>
+      <scope id="6853926845395276210" at="151,50,172,5">
+        <var name="classes" id="6853926845398380263" />
+        <var name="registrations" id="6853926845398380257" />
+      </scope>
+      <scope id="6853926845395276207" at="151,0,174,0">
+        <var name="module" id="6853926845395276208" />
+      </scope>
+      <unit id="6853926845395275842" at="39,0,245,0" name="com.jetbrains.mpsext.mcptools.runtime.ToolGroupDiscovery" />
+    </file>
+  </root>
+  <root nodeRef="r:5278510f-67c5-4557-804e-5ed93436dce2(com.jetbrains.mpsext.mcptools.runtime)/6853926845395276601">
+    <file name="ToolGroup.java">
+      <node id="6853926845395276603" at="12,0,13,0" concept="7" trace="prefix#()Ljava/lang/String;" />
+      <node id="6853926845395276607" at="14,0,15,0" concept="7" trace="modelName#()Ljava/lang/String;" />
+      <node id="6853926845395276611" at="16,0,17,0" concept="7" trace="tools#()Ljava/util/List;" />
+      <scope id="6853926845395276603" at="12,0,13,0" />
+      <scope id="6853926845395276607" at="14,0,15,0" />
+      <scope id="6853926845395276611" at="16,0,17,0" />
+      <unit id="6853926845395276601" at="11,0,18,0" name="com.jetbrains.mpsext.mcptools.runtime.ToolGroup" />
+    </file>
+  </root>
+  <root nodeRef="r:5278510f-67c5-4557-804e-5ed93436dce2(com.jetbrains.mpsext.mcptools.runtime)/6853926845395276663">
+    <file name="AbstractToolGroup.java">
+      <node id="6853926845395276666" at="14,0,15,0" concept="4" trace="myPrefix" />
+      <node id="6853926845395276670" at="15,0,16,0" concept="4" trace="myModelName" />
+      <node id="6853926845395276674" at="16,0,17,0" concept="4" trace="myTools" />
+      <node id="6853926845395276690" at="18,89,19,22" concept="3" />
+      <node id="6853926845395276694" at="19,22,20,28" concept="3" />
+      <node id="6853926845395276699" at="20,28,21,82" concept="8" />
+      <node id="6853926845395276709" at="23,11,24,112" concept="3" />
+      <node id="6853926845395276725" at="25,48,26,92" concept="15" />
+      <node id="6853926845395276733" at="28,5,29,60" concept="3" />
+      <node id="6853926845395276740" at="32,26,33,20" concept="9" />
+      <node id="6853926845395276746" at="36,29,37,23" concept="9" />
+      <node id="6853926845395276752" at="40,36,41,19" concept="9" />
+      <node id="6853926845395276738" at="32,0,35,0" concept="7" trace="prefix#()Ljava/lang/String;" />
+      <node id="6853926845395276744" at="36,0,39,0" concept="7" trace="modelName#()Ljava/lang/String;" />
+      <node id="6853926845395276750" at="40,0,43,0" concept="7" trace="tools#()Ljava/util/List;" />
+      <node id="6853926845395276726" at="22,44,27,7" concept="16" />
+      <node id="6853926845395276704" at="21,82,28,5" concept="5" />
+      <node id="6853926845395276679" at="18,0,31,0" concept="1" trace="AbstractToolGroup#(Ljava/lang/String;Ljava/lang/String;null)V" />
+      <scope id="6853926845395276708" at="23,11,24,112" />
+      <scope id="6853926845395276719" at="25,48,26,92" />
+      <scope id="6853926845395276739" at="32,26,33,20" />
+      <scope id="6853926845395276745" at="36,29,37,23" />
+      <scope id="6853926845395276751" at="40,36,41,19" />
+      <scope id="6853926845395276727" at="25,7,27,7">
+        <var name="e" id="6853926845395276715" />
+      </scope>
+      <scope id="6853926845395276738" at="32,0,35,0" />
+      <scope id="6853926845395276744" at="36,0,39,0" />
+      <scope id="6853926845395276750" at="40,0,43,0" />
+      <scope id="6853926845395276706" at="22,44,27,7" />
+      <scope id="6853926845395276704" at="21,82,28,5">
+        <var name="toolClass" id="6853926845395276728" />
+      </scope>
+      <scope id="6853926845395276689" at="18,89,29,60">
+        <var name="tools" id="6853926845395276698" />
+      </scope>
+      <scope id="6853926845395276679" at="18,0,31,0">
+        <var name="modelName" id="6853926845395276683" />
+        <var name="prefix" id="6853926845395276681" />
+        <var name="toolClasses" id="6853926845395276685" />
+      </scope>
+      <unit id="6853926845395276663" at="13,0,44,0" name="com.jetbrains.mpsext.mcptools.runtime.AbstractToolGroup" />
+    </file>
+  </root>
+  <root nodeRef="r:5278510f-67c5-4557-804e-5ed93436dce2(com.jetbrains.mpsext.mcptools.runtime)/6853926845395276804">
+    <file name="ModuleClasses.java">
+      <node id="6853926845395276820" at="28,137,29,124" concept="8" />
+      <node id="6853926845395288832" at="31,43,32,51" concept="8" />
+      <node id="6853926845395288844" at="33,29,34,62" concept="3" />
+      <node id="6853926845395276865" at="37,7,38,19" concept="9" />
+      <node id="6853926845398399499" at="42,9,43,44" concept="9" />
+      <node id="6853926845398399507" at="44,40,45,18" concept="9" />
+      <node id="6853926845395276806" at="19,0,21,0" concept="1" trace="ModuleClasses#()V" />
+      <node id="6853926845395288839" at="32,51,35,9" concept="6" />
+      <node id="6853926845398399509" at="41,73,46,5" concept="16" />
+      <node id="6853926845395305439" at="30,78,36,7" concept="5" />
+      <node id="6853926845395276898" at="41,0,48,0" concept="12" trace="load#(Ljetbrains/mps/smodel/runtime/ModuleRuntime;Ljava/lang/String;)Ljava/lang/Class;" />
+      <node id="6853926845395276829" at="29,124,37,7" concept="3" />
+      <node id="6853926845395276810" at="28,0,40,0" concept="12" trace="ownClasses#(Ljetbrains/mps/smodel/language/LanguageRegistry;Lorg/jetbrains/mps/openapi/module/SModuleReference;Ljava/lang/Iterable;)Ljava/util/Map;" />
+      <scope id="6853926845395276808" at="19,27,19,27" />
+      <scope id="6853926845395288843" at="33,29,34,62" />
+      <scope id="6853926845398399498" at="42,9,43,44" />
+      <scope id="6853926845398399506" at="44,40,45,18" />
+      <scope id="6853926845395276806" at="19,0,21,0" />
+      <scope id="6853926845398399510" at="44,5,46,5">
+        <var name="e" id="6853926845398399502" />
+      </scope>
+      <scope id="6853926845395288831" at="31,43,35,9">
+        <var name="loaded" id="6853926845395288833" />
+      </scope>
+      <scope id="6853926845395276903" at="41,73,46,5" />
+      <scope id="6853926845395288823" at="30,78,36,7" />
+      <scope id="6853926845395305439" at="30,78,36,7">
+        <var name="className" id="6853926845395305440" />
+      </scope>
+      <scope id="6853926845395276898" at="41,0,48,0">
+        <var name="className" id="6853926845395276901" />
+        <var name="runtime" id="6853926845395276899" />
+      </scope>
+      <scope id="6853926845395276818" at="28,137,38,19">
+        <var name="classes" id="6853926845395276819" />
+      </scope>
+      <scope id="6853926845395276810" at="28,0,40,0">
+        <var name="classNames" id="6853926845395276815" />
+        <var name="module" id="6853926845395276813" />
+        <var name="registry" id="6853926845395276811" />
+      </scope>
+      <unit id="6853926845395276804" at="18,0,49,0" name="com.jetbrains.mpsext.mcptools.runtime.ModuleClasses" />
+    </file>
+  </root>
+</debug-info>
+

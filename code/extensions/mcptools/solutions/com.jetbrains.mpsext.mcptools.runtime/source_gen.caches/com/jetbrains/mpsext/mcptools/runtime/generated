@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="c6rpm18eraztm4n6uz71tuw22zxdnqf">
+  <files names="AbstractSyncMcpTool.java:AbstractToolGroup.java:AccessMode.java:ModuleClasses.java:SyncMcpTool.java:ToolArgs.java:ToolCallContext.java:ToolFailure.java:ToolGroup.java:ToolGroupDiscovery.java:ToolOutcome.java:ToolRunner.java:ToolSchemas.java" />
+</product>
+

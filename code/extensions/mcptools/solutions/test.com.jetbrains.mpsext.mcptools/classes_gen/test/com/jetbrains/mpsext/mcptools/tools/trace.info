@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <root nodeRef="r:c9e0bd92-35bd-4370-9979-9b56a8e45294(test.com.jetbrains.mpsext.mcptools.tools)/2359515342858155230">
+    <file name="McpTools.java">
+      <node id="2359515342858155230" at="8,21,9,157" concept="7" />
+      <node id="2359515342858155230" at="8,0,11,0" concept="0" trace="McpTools#()V" />
+      <scope id="2359515342858155230" at="8,21,9,157" />
+      <scope id="2359515342858155230" at="8,0,11,0" />
+      <unit id="2359515342858155230" at="7,0,12,0" name="test.com.jetbrains.mpsext.mcptools.tools.McpTools" />
+    </file>
+  </root>
+  <root nodeRef="r:c9e0bd92-35bd-4370-9979-9b56a8e45294(test.com.jetbrains.mpsext.mcptools.tools)/2359515342858155231">
+    <file name="echo_McpTool.java">
+      <node id="2359515342858155231" at="11,25,12,237" concept="7" />
+      <node id="2359515342858155250" at="16,51,17,112" concept="5" />
+      <node id="2359515342858155307" at="18,20,19,57" concept="8" />
+      <node id="2359515342858155267" at="20,5,21,66" concept="6" />
+      <node id="2359515342858155231" at="11,0,14,0" concept="0" trace="echo_McpTool#()V" />
+      <node id="2359515342858155258" at="17,112,20,5" concept="3" />
+      <node id="2359515342858155231" at="15,0,23,0" concept="4" trace="call#(Lcom/jetbrains/mpsext/mcptools/runtime/ToolCallContext;)Ljava/lang/String;" />
+      <scope id="2359515342858155231" at="11,25,12,237" />
+      <scope id="2359515342858155263" at="18,20,19,57" />
+      <scope id="2359515342858155231" at="11,0,14,0" />
+      <scope id="2359515342858155235" at="16,51,21,66">
+        <var name="count" id="2359515342858155249" />
+      </scope>
+      <scope id="2359515342858155231" at="15,0,23,0">
+        <var name="callContext" id="2359515342858155231" />
+      </scope>
+      <unit id="2359515342858155231" at="10,0,24,0" name="test.com.jetbrains.mpsext.mcptools.tools.echo_McpTool" />
+    </file>
+  </root>
+  <root nodeRef="r:c9e0bd92-35bd-4370-9979-9b56a8e45294(test.com.jetbrains.mpsext.mcptools.tools)/2359515342858155308">
+    <file name="types_McpTool.java">
+      <node id="2359515342858155308" at="10,26,11,413" concept="7" />
+      <node id="2359515342858155356" at="15,51,16,375" concept="6" />
+      <node id="2359515342858155308" at="10,0,13,0" concept="0" trace="types_McpTool#()V" />
+      <node id="2359515342858155308" at="14,0,18,0" concept="4" trace="call#(Lcom/jetbrains/mpsext/mcptools/runtime/ToolCallContext;)Ljava/lang/String;" />
+      <scope id="2359515342858155308" at="10,26,11,413" />
+      <scope id="2359515342858155318" at="15,51,16,375" />
+      <scope id="2359515342858155308" at="10,0,13,0" />
+      <scope id="2359515342858155308" at="14,0,18,0">
+        <var name="callContext" id="2359515342858155308" />
+      </scope>
+      <unit id="2359515342858155308" at="9,0,19,0" name="test.com.jetbrains.mpsext.mcptools.tools.types_McpTool" />
+    </file>
+  </root>
+  <root nodeRef="r:c9e0bd92-35bd-4370-9979-9b56a8e45294(test.com.jetbrains.mpsext.mcptools.tools)/2359515342858155394">
+    <file name="count_roots_McpTool.java">
+      <node id="2359515342858155394" at="15,32,16,163" concept="7" />
+      <node id="2359515342858155434" at="23,97,24,96" concept="6" />
+      <node id="2359515342858158923" at="27,5,28,89" concept="8" />
+      <node id="2359515342858155394" at="15,0,18,0" concept="0" trace="count_roots_McpTool#()V" />
+      <node id="2359515342858155413" at="22,43,25,9" concept="3" />
+      <node id="2359515342858155410" at="21,79,26,7" concept="2" />
+      <node id="2359515342858155407" at="20,51,27,5" concept="2" />
+      <node id="2359515342858155394" at="19,0,30,0" concept="4" trace="call#(Lcom/jetbrains/mpsext/mcptools/runtime/ToolCallContext;)Ljava/lang/String;" />
+      <scope id="2359515342858155394" at="15,32,16,163" />
+      <scope id="2359515342858155419" at="23,97,24,96" />
+      <scope id="2359515342858155394" at="15,0,18,0" />
+      <scope id="2359515342858155412" at="22,43,25,9" />
+      <scope id="2359515342858155409" at="21,79,26,7" />
+      <scope id="2359515342858155410" at="21,79,26,7">
+        <var name="m" id="2359515342858155437" />
+      </scope>
+      <scope id="2359515342858155407" at="20,51,27,5">
+        <var name="module" id="2359515342858155441" />
+      </scope>
+      <scope id="2359515342858155397" at="20,51,28,89" />
+      <scope id="2359515342858155394" at="19,0,30,0">
+        <var name="callContext" id="2359515342858155394" />
+      </scope>
+      <unit id="2359515342858155394" at="14,0,31,0" name="test.com.jetbrains.mpsext.mcptools.tools.count_roots_McpTool" />
+    </file>
+  </root>
+  <root nodeRef="r:c9e0bd92-35bd-4370-9979-9b56a8e45294(test.com.jetbrains.mpsext.mcptools.tools)/2359515342858158924">
+    <file name="rename_node_McpTool.java">
+      <node id="2359515342858158924" at="14,32,15,328" concept="7" />
+      <node id="2359515342858158943" at="19,51,20,160" concept="5" />
+      <node id="2359515342858159180" at="21,25,22,89" concept="8" />
+      <node id="2359515342858158963" at="23,5,24,104" concept="1" />
+      <node id="2359515342865387069" at="25,62,26,122" concept="6" />
+      <node id="2359515342858158967" at="27,5,28,74" concept="6" />
+      <node id="2359515342858158924" at="14,0,17,0" concept="0" trace="rename_node_McpTool#()V" />
+      <node id="2359515342858158950" at="20,160,23,5" concept="3" />
+      <node id="2359515342865387062" at="24,104,27,5" concept="3" />
+      <node id="2359515342858158924" at="18,0,30,0" concept="4" trace="call#(Lcom/jetbrains/mpsext/mcptools/runtime/ToolCallContext;)Ljava/lang/String;" />
+      <scope id="2359515342858158924" at="14,32,15,328" />
+      <scope id="2359515342858158955" at="21,25,22,89" />
+      <scope id="2359515342865387068" at="25,62,26,122" />
+      <scope id="2359515342858158924" at="14,0,17,0" />
+      <scope id="2359515342858158928" at="19,51,28,74">
+        <var name="target" id="2359515342858158942" />
+      </scope>
+      <scope id="2359515342858158924" at="18,0,30,0">
+        <var name="callContext" id="2359515342858158924" />
+      </scope>
+      <unit id="2359515342858158924" at="13,0,31,0" name="test.com.jetbrains.mpsext.mcptools.tools.rename_node_McpTool" />
+    </file>
+  </root>
+</debug-info>
+

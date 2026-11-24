@@ -43,6 +43,7 @@ import org.jetbrains.annotations.Nullable;
 import com.intellij.openapi.progress.ProgressIndicator;
 import com.intellij.openapi.application.ApplicationManager;
 import jetbrains.mps.baseLanguage.logging.rt.LogContext;
+import jetbrains.mps.openapi.editor.EditorComponent;
 import org.eclipse.elk.core.util.BasicProgressMonitor;
 import java.nio.file.Path;
 import de.slisson.mps.reflection.runtime.ReflectionUtil;
@@ -250,7 +251,7 @@ public abstract class ElkLayouter implements ILayouter {
   }
 
   @Override
-  public void layout(mxGraph model, @Nullable ProgressIndicator progress) {
+  public void layout(mxGraph model, @Nullable final ProgressIndicator progress) {
     myGraph = model;
     if (progress != null && progress.isCanceled()) {
       return;
@@ -263,6 +264,14 @@ public abstract class ElkLayouter implements ILayouter {
       return;
     }
     ApplicationManager.getApplication().invokeAndWait(() -> {
+      // The layout runs in the background, and the editor can be disposed in the meantime.
+      // Without the editor the graph view cannot be updated, so the layout stops here.
+      if (isEditorGone()) {
+        if (progress != null) {
+          progress.cancel();
+        }
+        return;
+      }
       myGraph.getModel().beginUpdate();
       try {
         applyPortReordering();
@@ -283,6 +292,14 @@ public abstract class ElkLayouter implements ILayouter {
       return;
     }
     ApplicationManager.getApplication().invokeAndWait(() -> {
+      // The layout runs in the background, and the editor can be disposed in the meantime.
+      // Without the editor the graph view cannot be updated, so the layout stops here.
+      if (isEditorGone()) {
+        if (progress != null) {
+          progress.cancel();
+        }
+        return;
+      }
       myGraph.getModel().beginUpdate();
       try {
         layoutToModel();
@@ -296,6 +313,14 @@ public abstract class ElkLayouter implements ILayouter {
         myGraph.getModel().endUpdate();
       }
     });
+  }
+  /**
+   * Tells whether the editor that shows the graph is missing or disposed. The graph view cannot be updated then.
+   * Use only on the EDT, where the editor is disposed.
+   */
+  private boolean isEditorGone() {
+    EditorComponent editorComponent = ((MyGraphView) myGraph.getView()).getGraph().getEditorComponent();
+    return editorComponent == null || editorComponent.isDisposed();
   }
 
   protected synchronized void layoutOnce(boolean reorderPorts) {
@@ -406,8 +431,8 @@ public abstract class ElkLayouter implements ILayouter {
     }
 
     for (EdgeDCell edge : Sequence.fromIterable(allMxCells).ofType(EdgeDCell.class)) {
-      IConnectionEndpoint_Internal resolvedEndpointFrom = check_v3bawt_a0a0t0le(edge.getEdge());
-      IConnectionEndpoint_Internal resolvedEndpointTo = check_v3bawt_a0b0t0le(edge.getEdge());
+      IConnectionEndpoint_Internal resolvedEndpointFrom = check_v3bawt_a0a0t0me(edge.getEdge());
+      IConnectionEndpoint_Internal resolvedEndpointTo = check_v3bawt_a0b0t0me(edge.getEdge());
       if (resolvedEndpointFrom == null || resolvedEndpointTo == null) {
         continue;
       }
@@ -482,7 +507,7 @@ public abstract class ElkLayouter implements ILayouter {
       // labels
       if (canLayoutLabels()) {
         for (EdgeLabelType type : EdgeLabelType.values()) {
-          EditorCell labelCell = check_v3bawt_a0a0a0mb0t0le(edge.getEdge(), type);
+          EditorCell labelCell = check_v3bawt_a0a0a0mb0t0me(edge.getEdge(), type);
           if (labelCell != null) {
             ElkLabel klabel = ElkGraphUtil.createLabel(kedge);
             MapSequence.fromMap(labelEdgeMap).put(klabel, MultiTuple.<EdgeDCell,EdgeLabelType>from(edge, type));
@@ -830,7 +855,7 @@ public abstract class ElkLayouter implements ILayouter {
   }
   protected void addLayoutInformationToEdgeLabel(ElkEdge kedge, ElkLabel klabel, EdgeDCell edge, EdgeLabelType type, IElkProgressMonitor progressMonitor) {
     IAccessorKey ID = edge.getEdge().getAccessor().getId();
-    EditorCell labelCell = check_v3bawt_a0b0ef(edge.getEdge(), type);
+    EditorCell labelCell = check_v3bawt_a0b0ff(edge.getEdge(), type);
     LabelDCell labelDCell = edge.getLabelCell(type);
     if (labelCell == null || labelDCell == null) {
       return;
@@ -946,9 +971,9 @@ public abstract class ElkLayouter implements ILayouter {
         ElkLabel klabel = entry.key();
         EdgeLabelType type = null;
         {
-          Tuples._2<EdgeDCell, EdgeLabelType> _tmp_v3bawt_d0c0c0kf = entry.value();
-          edge = _tmp_v3bawt_d0c0c0kf._0();
-          type = _tmp_v3bawt_d0c0c0kf._1();
+          Tuples._2<EdgeDCell, EdgeLabelType> _tmp_v3bawt_d0c0c0lf = entry.value();
+          edge = _tmp_v3bawt_d0c0c0lf._0();
+          type = _tmp_v3bawt_d0c0c0lf._1();
         }
         LabelDCell labelDCell = edge.getLabelCell(type);
 
@@ -982,25 +1007,25 @@ public abstract class ElkLayouter implements ILayouter {
     }
     return 0.0;
   }
-  private static IConnectionEndpoint_Internal check_v3bawt_a0a0t0le(Edge checkedDotOperand) {
+  private static IConnectionEndpoint_Internal check_v3bawt_a0a0t0me(Edge checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getResolvedEndpointFrom();
     }
     return null;
   }
-  private static IConnectionEndpoint_Internal check_v3bawt_a0b0t0le(Edge checkedDotOperand) {
+  private static IConnectionEndpoint_Internal check_v3bawt_a0b0t0me(Edge checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getResolvedEndpointTo();
     }
     return null;
   }
-  private static EditorCell check_v3bawt_a0a0a0mb0t0le(Edge checkedDotOperand, EdgeLabelType type) {
+  private static EditorCell check_v3bawt_a0a0a0mb0t0me(Edge checkedDotOperand, EdgeLabelType type) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getLabelCell(type);
     }
     return null;
   }
-  private static EditorCell check_v3bawt_a0b0ef(Edge checkedDotOperand, EdgeLabelType type) {
+  private static EditorCell check_v3bawt_a0b0ff(Edge checkedDotOperand, EdgeLabelType type) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getLabelCell(type);
     }

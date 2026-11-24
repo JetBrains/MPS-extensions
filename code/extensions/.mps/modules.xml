@@ -111,6 +111,12 @@
       <modulePath path="$PROJECT_DIR$/math/solutions/de.itemis.mps.editor.math.sandbox/de.itemis.mps.editor.math.sandbox.msd" folder="math" />
       <modulePath path="$PROJECT_DIR$/math/solutions/de.itemis.mps.editor.math.symbols/de.itemis.mps.editor.math.symbols.msd" folder="math" />
       <modulePath path="$PROJECT_DIR$/math/solutions/de.itemis.mps.editor.math.tests/de.itemis.mps.editor.math.tests.msd" folder="math" />
+      <modulePath path="$PROJECT_DIR$/mcptools/languages/com.jetbrains.mpsext.mcptools/com.jetbrains.mpsext.mcptools.mpl" folder="mcptools" />
+      <modulePath path="$PROJECT_DIR$/mcptools/solutions/com.jetbrains.mpsext.mcptools.runtime/com.jetbrains.mpsext.mcptools.runtime.msd" folder="mcptools" />
+      <modulePath path="$PROJECT_DIR$/mcptools/solutions/com.jetbrains.mpsext.mcptools.sandbox/com.jetbrains.mpsext.mcptools.sandbox.msd" folder="mcptools" />
+      <modulePath path="$PROJECT_DIR$/mcptools/solutions/com.jetbrains.mpsext.mcptools.stubs/com.jetbrains.mpsext.mcptools.stubs.msd" folder="mcptools" />
+      <modulePath path="$PROJECT_DIR$/mcptools/solutions/com.jetbrains.mpsext.mcptools.testing/com.jetbrains.mpsext.mcptools.testing.msd" folder="mcptools" />
+      <modulePath path="$PROJECT_DIR$/mcptools/solutions/test.com.jetbrains.mpsext.mcptools/test.com.jetbrains.mpsext.mcptools.msd" folder="mcptools" />
       <modulePath path="$PROJECT_DIR$/model-api/org.modelix.model.api/org.modelix.model.api.msd" folder="model-api" />
       <modulePath path="$PROJECT_DIR$/model-api/org.modelix.model.mpsadapters/org.modelix.model.mpsadapters.msd" folder="model-api" />
       <modulePath path="$PROJECT_DIR$/model-api/org.modelix.model.repositoryconcepts/org.modelix.model.repositoryconcepts.mpl" folder="model-api" />

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1170075670744:jetbrains.mps.baseLanguage.structure.SynchronizedStatement" />
+  <root nodeRef="r:6e8031be-8bd2-4842-843d-c144c59a31ed(com.jetbrains.mpsext.mcptools.runtime.mcp)/2359515342855047459">
+    <file name="SyncToolAdapter.java">
+      <node id="2359515342855047462" at="33,0,34,0" concept="3" trace="myTool" />
+      <node id="2359515342855047466" at="34,0,35,0" concept="3" trace="myDescriptor" />
+      <node id="2359515342855047477" at="36,61,37,18" concept="2" />
+      <node id="2359515342855047482" at="37,18,38,196" concept="7" />
+      <node id="2359515342855047492" at="38,196,39,216" concept="2" />
+      <node id="2359515342855047511" at="42,44,43,24" concept="8" />
+      <node id="2359515342855047524" at="50,93,51,57" concept="7" />
+      <node id="2359515342855047528" at="51,57,52,60" concept="7" />
+      <node id="2359515342855047533" at="52,60,53,68" concept="7" />
+      <node id="2359515342855047543" at="54,26,55,90" concept="8" />
+      <node id="2359515342855047552" at="56,5,57,78" concept="7" />
+      <node id="2359515342855047563" at="58,28,59,42" concept="8" />
+      <node id="2359515342855047567" at="60,5,61,41" concept="8" />
+      <node id="2359515342855047582" at="64,71,65,119" concept="8" />
+      <node id="2359515342855047509" at="42,0,45,0" concept="6" trace="getDescriptor#()Lcom/intellij/mcpserver/McpToolDescriptor;" />
+      <node id="2359515342855047537" at="53,68,56,5" concept="5" />
+      <node id="2359515342855047559" at="57,78,60,5" concept="5" />
+      <node id="2359515342855047576" at="64,0,67,0" concept="10" trace="result#(Ljava/lang/String;Z)Lcom/intellij/mcpserver/McpToolCallResult;" />
+      <node id="2359515342855047470" at="36,0,41,0" concept="0" trace="SyncToolAdapter#(Lcom/jetbrains/mpsext/mcptools/runtime/ToolGroup;Lcom/jetbrains/mpsext/mcptools/runtime/SyncMcpTool;)V" />
+      <node id="2359515342855047515" at="50,0,63,0" concept="6" trace="call#(Lkotlinx/serialization/json/JsonObject;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;" />
+      <scope id="2359515342855047510" at="42,44,43,24" />
+      <scope id="2359515342855047542" at="54,26,55,90" />
+      <scope id="2359515342855047562" at="58,28,59,42" />
+      <scope id="2359515342855047581" at="64,71,65,119" />
+      <scope id="2359515342855047476" at="36,61,39,216">
+        <var name="inputSchema" id="2359515342855047481" />
+      </scope>
+      <scope id="2359515342855047509" at="42,0,45,0" />
+      <scope id="2359515342855047576" at="64,0,67,0">
+        <var name="error" id="2359515342855047579" />
+        <var name="text" id="2359515342855047577" />
+      </scope>
+      <scope id="2359515342855047470" at="36,0,41,0">
+        <var name="group" id="2359515342855047472" />
+        <var name="tool" id="2359515342855047474" />
+      </scope>
+      <scope id="2359515342855047522" at="50,93,61,41">
+        <var name="context" id="2359515342855047523" />
+        <var name="ideaProject" id="2359515342855047527" />
+        <var name="outcome" id="2359515342855047551" />
+        <var name="project" id="2359515342855047532" />
+      </scope>
+      <scope id="2359515342855047515" at="50,0,63,0">
+        <var name="args" id="2359515342855047516" />
+        <var name="continuation" id="2359515342855047518" />
+      </scope>
+      <unit id="2359515342855047459" at="32,0,68,0" name="com.jetbrains.mpsext.mcptools.runtime.mcp.SyncToolAdapter" />
+    </file>
+  </root>
+  <root nodeRef="r:6e8031be-8bd2-4842-843d-c144c59a31ed(com.jetbrains.mpsext.mcptools.runtime.mcp)/6853926845398012475">
+    <file name="McpRegistration.java">
+      <node id="6853926845398012504" at="28,0,29,0" concept="9" trace="TOOLS_PROVIDER_EP" />
+      <node id="6853926845398012508" at="30,0,31,0" concept="9" trace="LOG" />
+      <node id="6853926845398012514" at="37,0,38,0" concept="9" trace="ourOwners" />
+      <node id="6853926845398012534" at="46,54,47,41" concept="7" />
+      <node id="6853926845398012538" at="47,41,48,74" concept="7" />
+      <node id="6853926845398012544" at="48,74,49,78" concept="7" />
+      <node id="6853926845398012556" at="51,69,52,56" concept="7" />
+      <node id="6853926845398012562" at="52,56,53,64" concept="7" />
+      <node id="6853926845398012572" at="54,28,55,138" concept="2" />
+      <node id="6853926845398012587" at="55,138,56,19" concept="1" />
+      <node id="6853926845398012588" at="57,9,58,60" concept="2" />
+      <node id="6853926845398012592" at="58,60,59,54" concept="2" />
+      <node id="6853926845398012595" at="59,54,60,82" concept="2" />
+      <node id="6853926845398012607" at="62,5,63,82" concept="7" />
+      <node id="6853926845398012613" at="63,82,64,74" concept="2" />
+      <node id="6853926845398012623" at="64,74,65,173" concept="2" />
+      <node id="6853926845398012632" at="65,173,66,24" concept="8" />
+      <node id="6853926845398012650" at="71,33,72,55" concept="2" />
+      <node id="6853926845398012480" at="78,0,79,0" concept="3" trace="myTools" />
+      <node id="6853926845398012491" at="80,48,81,22" concept="2" />
+      <node id="6853926845398012499" at="85,37,86,21" concept="8" />
+      <node id="6853926845398012525" at="39,0,41,0" concept="0" trace="McpRegistration#()V" />
+      <node id="6853926845398016275" at="70,30,73,7" concept="4" />
+      <node id="6853926845398012485" at="80,0,83,0" concept="0" trace="GroupProvider#(Ljava/util/List;)V" />
+      <node id="6853926845398012566" at="53,64,57,9" concept="5" />
+      <node id="6853926845398012496" at="84,0,88,0" concept="6" trace="getTools#()Ljava/util/List;" />
+      <node id="6853926845398012644" at="69,51,74,5" concept="11" />
+      <node id="6853926845398012639" at="69,0,76,0" concept="10" trace="release#(Ljava/util/List;)V" />
+      <node id="6853926845398016278" at="50,30,61,7" concept="4" />
+      <node id="6853926845398012549" at="49,78,62,5" concept="11" />
+      <node id="6853926845398012529" at="46,0,68,0" concept="10" trace="register#(Lcom/jetbrains/mpsext/mcptools/runtime/ToolGroup;)Lcom/intellij/openapi/Disposable;" />
+      <scope id="6853926845398012527" at="39,29,39,29" />
+      <scope id="6853926845398012649" at="71,33,72,55" />
+      <scope id="6853926845398012490" at="80,48,81,22" />
+      <scope id="6853926845398012498" at="85,37,86,21" />
+      <scope id="6853926845398012525" at="39,0,41,0" />
+      <scope id="6853926845398012571" at="54,28,56,19" />
+      <scope id="6853926845398012646" at="70,30,73,7" />
+      <scope id="6853926845398016275" at="70,30,73,7">
+        <var name="name" id="6853926845398016276" />
+      </scope>
+      <scope id="6853926845398012485" at="80,0,83,0">
+        <var name="tools" id="6853926845398012487" />
+      </scope>
+      <scope id="6853926845398012496" at="84,0,88,0" />
+      <scope id="6853926845398012643" at="69,51,74,5" />
+      <scope id="6853926845398012639" at="69,0,76,0">
+        <var name="names" id="6853926845398012640" />
+      </scope>
+      <scope id="6853926845398012554" at="51,69,60,82">
+        <var name="name" id="6853926845398012555" />
+        <var name="owner" id="6853926845398012561" />
+      </scope>
+      <scope id="6853926845398012551" at="50,30,61,7" />
+      <scope id="6853926845398016278" at="50,30,61,7">
+        <var name="tool" id="6853926845398016279" />
+      </scope>
+      <scope id="6853926845398012532" at="46,54,66,24">
+        <var name="modelName" id="6853926845398012533" />
+        <var name="names" id="6853926845398012543" />
+        <var name="registration" id="6853926845398012606" />
+        <var name="tools" id="6853926845398012537" />
+      </scope>
+      <scope id="6853926845398012529" at="46,0,68,0">
+        <var name="group" id="6853926845398012530" />
+      </scope>
+      <unit id="6853926845398012477" at="77,0,89,0" name="com.jetbrains.mpsext.mcptools.runtime.mcp.McpRegistration$GroupProvider" />
+      <unit id="6853926845398012475" at="27,0,90,0" name="com.jetbrains.mpsext.mcptools.runtime.mcp.McpRegistration" />
+    </file>
+  </root>
+</debug-info>
+

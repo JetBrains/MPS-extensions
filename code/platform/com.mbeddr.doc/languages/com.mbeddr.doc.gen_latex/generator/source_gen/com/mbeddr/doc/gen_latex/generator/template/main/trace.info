@@ -49,7 +49,7 @@
   <root nodeRef="r:64ab5fae-7c1b-4d46-84f7-7027407a369b(com.mbeddr.doc.gen_latex.generator.template.main@generator)/3861573051965754692">
     <file name="QueriesGenerated.java">
       <node id="3861573051966155907" at="419,85,420,308" concept="3" />
-      <node id="3861573051965756089" at="421,37,422,288" concept="0" />
+      <node id="3861573051965756089" at="421,37,422,321" concept="0" />
       <node id="3861573051965754692" at="510,57,511,57" concept="0" />
       <node id="3861573051965754692" at="530,15,531,58" concept="0" />
       <node id="3861573051965754692" at="531,58,532,17" concept="4" />
@@ -57,7 +57,7 @@
       <node id="3861573051966156771" at="420,308,423,5" concept="2" />
       <node id="3861573051965773064" at="980,0,983,0" concept="5" trace="isEmptyString#(Ljava/lang/String;)Z" />
       <node id="3861573051965754693" at="419,0,425,0" concept="5" trace="mappingScript_CodeBlock_9#(Ljetbrains/mps/generator/template/MappingScriptContext;)V" />
-      <scope id="3861573051966156773" at="421,37,422,288" />
+      <scope id="3861573051966156773" at="421,37,422,321" />
       <scope id="3861573051965773064" at="980,52,981,40" />
       <scope id="3861573051965754692" at="530,15,532,17" />
       <scope id="3861573051965773064" at="980,0,983,0">

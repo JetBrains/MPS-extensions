@@ -90,7 +90,7 @@ public class GeneratorHelper {
   private static String getFileRelativePath(String fromLocation, String toLocation, String fileName) {
     if (!(Objects.equals(fromLocation, toLocation))) {
       Path relativePath = new File(fromLocation).toPath().relativize(new File(toLocation).toPath());
-      return relativePath.toString() + "/" + fileName;
+      return relativePath.toString().replace(File.separatorChar, '/') + "/" + fileName;
     }
     return fileName;
   }

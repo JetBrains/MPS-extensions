@@ -34,8 +34,12 @@
       </concept>
       <concept id="6593674873639474400" name="jetbrains.mps.build.mps.tests.structure.BuildMps_TestModules_Options" flags="ng" index="24cAiW">
         <child id="6593674873639478221" name="haltonfailure" index="24c_eh" />
+        <child id="6593674873635848987" name="requiredPlugins" index="24YFd7" />
         <child id="1688667350638517006" name="compressArgs" index="XX84c" />
         <child id="7978162869575635130" name="projectPath" index="1RZ71A" />
+      </concept>
+      <concept id="6593674873635848984" name="jetbrains.mps.build.mps.tests.structure.RequiredPlugin" flags="ng" index="24YFd4">
+        <reference id="6593674873635848985" name="plugin" index="24YFd5" />
       </concept>
       <concept id="4005526075820600484" name="jetbrains.mps.build.mps.tests.structure.BuildModuleTestsPlugin" flags="ng" index="1gjT0q" />
     </language>
@@ -140,6 +144,7 @@
       </concept>
       <concept id="6592112598314498932" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPlugin" flags="ng" index="m$_wf">
         <property id="6592112598314498927" name="id" index="m$_wk" />
+        <property id="4972001163784560067" name="pluginXmlProvided" index="1NdglO" />
         <child id="1359186315025500371" name="xml" index="20twgj" />
         <child id="7832771629084912518" name="vendor" index="2iVFfd" />
         <child id="6592112598314498931" name="version" index="m$_w8" />
@@ -27393,6 +27398,12 @@
         <ref role="398BVh" node="6$6tsX_CF7d" resolve="mps.home" />
       </node>
     </node>
+    <node concept="2sgV4H" id="6EmtLjZil42" role="1l3spa">
+      <ref role="1l3spb" node="6EmtLjZil3_" resolve="mcpServer" />
+      <node concept="398BVA" id="6EmtLjZil43" role="2JcizS">
+        <ref role="398BVh" node="6$6tsX_CF7d" resolve="mps.home" />
+      </node>
+    </node>
     <node concept="13uUGR" id="4ZFOqYXu7q7" role="1l3spa">
       <ref role="13uUGO" to="ffeo:6eCuTcwOnJO" resolve="IDEA" />
       <node concept="398BVA" id="4ZFOqYXu7q8" role="13uUGP">
@@ -27688,6 +27699,9 @@
         </node>
         <node concept="398BVA" id="3SKw7pWH0lK" role="1RZ71A">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+        </node>
+        <node concept="24YFd4" id="6EmtLjZil44" role="24YFd7">
+          <ref role="24YFd5" node="6EmtLjZil3C" resolve="com.intellij.mcpServer" />
         </node>
       </node>
       <node concept="22LTRM" id="5QP6xyk3oDX" role="22LTRK">
@@ -28091,6 +28105,45 @@
           <node concept="3bR9La" id="5Wu2yrSv9vv" role="1SiIV1">
             <ref role="3bR37D" node="5Wu2yrSv8cK" resolve="com.jetbrains.mpsext.mcptools.testing" />
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1l3spW" id="6EmtLjZil3_">
+    <property role="TrG5h" value="mcpServer" />
+    <property role="turDy" value="mcpServer.xml" />
+    <property role="2DA0ip" value="../../../build/generated/mcpServer" />
+    <node concept="10PD9b" id="6EmtLjZil3A" role="10PD9s" />
+    <node concept="3b7kt6" id="6EmtLjZil3B" role="10PD9s" />
+    <node concept="m$_wf" id="6EmtLjZil3C" role="3989C9">
+      <property role="m$_wk" value="com.intellij.mcpServer" />
+      <property role="1NdglO" value="true" />
+      <node concept="3_J27D" id="6EmtLjZil3D" role="m$_yQ">
+        <node concept="3Mxwew" id="6EmtLjZil3E" role="3MwsjC">
+          <property role="3MwjfP" value="MCP Server" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="6EmtLjZil3F" role="m_cZH">
+        <node concept="3Mxwew" id="6EmtLjZil3G" role="3MwsjC">
+          <property role="3MwjfP" value="mcpserver" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="6EmtLjZil3H" role="m$_w8">
+        <node concept="3Mxwew" id="6EmtLjZil3I" role="3MwsjC">
+          <property role="3MwjfP" value="&lt;empty&gt;" />
+        </node>
+      </node>
+    </node>
+    <node concept="1l3spV" id="6EmtLjZil3J" role="1l3spN">
+      <node concept="398223" id="6EmtLjZil3K" role="39821P">
+        <node concept="3_J27D" id="6EmtLjZil3L" role="Nbhlr">
+          <node concept="3Mxwew" id="6EmtLjZil3M" role="3MwsjC">
+            <property role="3MwjfP" value="plugins" />
+          </node>
+        </node>
+        <node concept="m$_wl" id="6EmtLjZil3V" role="39821P">
+          <ref role="m_rDy" node="6EmtLjZil3C" resolve="com.intellij.mcpServer" />
+          <node concept="pUk6x" id="6EmtLjZileq" role="pUk7w" />
         </node>
       </node>
     </node>

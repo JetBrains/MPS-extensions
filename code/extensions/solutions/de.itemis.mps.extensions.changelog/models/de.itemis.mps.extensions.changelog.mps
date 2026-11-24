@@ -452,6 +452,63 @@
           <node concept="3oM_SD" id="4dQfcXdjKlG" role="1PaTwD">
             <property role="3oM_SC" value="before." />
           </node>
+          <node concept="3oM_SD" id="6EKwpMwKSPS" role="1PaTwD">
+            <property role="3oM_SC" value="For" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSPT" role="1PaTwD">
+            <property role="3oM_SC" value="subclasses:" />
+          </node>
+          <node concept="1RqHR4" id="6EKwpMwKSPU" role="1PaTwD">
+            <property role="3oM_SC" value="IndentLayout.findBestWrapPoint" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSPV" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSPW" role="1PaTwD">
+            <property role="3oM_SC" value="returns" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSPX" role="1PaTwD">
+            <property role="3oM_SC" value="-1" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSPY" role="1PaTwD">
+            <property role="3oM_SC" value="when" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSPZ" role="1PaTwD">
+            <property role="3oM_SC" value="no-wrap" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSQ0" role="1PaTwD">
+            <property role="3oM_SC" value="forbids" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSQ1" role="1PaTwD">
+            <property role="3oM_SC" value="every" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSQ2" role="1PaTwD">
+            <property role="3oM_SC" value="break" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSQ3" role="1PaTwD">
+            <property role="3oM_SC" value="point," />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSQ4" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSQ5" role="1PaTwD">
+            <property role="3oM_SC" value="both" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSQ6" role="1PaTwD">
+            <property role="3oM_SC" value="protected" />
+          </node>
+          <node concept="1RqHR4" id="6EKwpMwKSQ7" role="1PaTwD">
+            <property role="3oM_SC" value="IndentLayout.isNoWrap" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSQ8" role="1PaTwD">
+            <property role="3oM_SC" value="methods" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSQ9" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="6EKwpMwKSQa" role="1PaTwD">
+            <property role="3oM_SC" value="removed." />
+          </node>
         </node>
         <node concept="2DRihI" id="1BhNh_4MmRD" role="15bAlk">
           <node concept="15Ami3" id="1BhNh_4MmRE" role="1PaTwD">

@@ -419,7 +419,7 @@ public class QueriesGenerated extends QueryProviderBase {
   public static void mappingScript_CodeBlock_9(final MappingScriptContext _context) {
     final File defaultPrologFile = new File(new File(ModuleRepositoryFacade.getInstance().getModule(PersistenceFacade.getInstance().createModuleReference("f44f6b9a-bf30-4f73-866e-fac17c177409(com.mbeddr.doc.gen_latex)"), Language.class).getModuleSourceDir().getPath(), "latex-support"), "mbeddr-prolog.ltx");
     if (defaultPrologFile.exists()) {
-      ListSequence.fromList(SModelOperations.nodes(_context.getModel(), CONCEPTS.LatexRenderer$qv)).where((it) -> isEmptyString(SPropertyOperations.getString(it, PROPS.prolog$$YXk))).visitAll((it) -> SPropertyOperations.assign(it, PROPS.prolog$$YXk, defaultPrologFile.getAbsolutePath()));
+      ListSequence.fromList(SModelOperations.nodes(_context.getModel(), CONCEPTS.LatexRenderer$qv)).where((it) -> isEmptyString(SPropertyOperations.getString(it, PROPS.prolog$$YXk))).visitAll((it) -> SPropertyOperations.assign(it, PROPS.prolog$$YXk, defaultPrologFile.getAbsolutePath().replace(File.separatorChar, '/')));
     }
   }
   public static boolean mc_Condition_0(final TemplateQueryContext _context) {

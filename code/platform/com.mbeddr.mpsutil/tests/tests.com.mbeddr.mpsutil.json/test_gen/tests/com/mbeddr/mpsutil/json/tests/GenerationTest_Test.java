@@ -83,7 +83,7 @@ public class GenerationTest_Test extends BaseTransformationTest {
             Assert.assertTrue(result_d0a0b0f6.getDescription(), false);
           }
         }
-        Assert.assertEquals(expected, TextGeneratorEngine.generateText(parsedNode));
+        Assert.assertEquals(expected.replace("\n", System.lineSeparator()), TextGeneratorEngine.generateText(parsedNode));
       });
     }
 

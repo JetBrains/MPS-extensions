@@ -29,7 +29,7 @@
       <node id="7773571022133937949" at="25,59,26,104" concept="2" />
       <node id="7773571022133937716" at="27,5,28,67" concept="8" />
       <node id="1167243749507239125" at="32,54,33,100" concept="7" />
-      <node id="1167243749507253218" at="33,100,34,54" concept="8" />
+      <node id="1167243749507253218" at="33,100,34,87" concept="8" />
       <node id="1167243749509238095" at="35,5,36,20" concept="8" />
       <node id="3012164588648671299" at="40,0,41,0" concept="9" trace="PlaceInFolder$Xz" />
       <node id="3012164588648671299" at="41,0,42,0" concept="9" trace="IDocumentLike$h$" />
@@ -41,7 +41,7 @@
       <node id="1167243749509709131" at="31,0,38,0" concept="10" trace="getFileRelativePath#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" />
       <node id="7773571022133784440" at="21,0,30,0" concept="10" trace="getImgPath#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/generator/template/TemplateQueryContext;)Ljava/lang/String;" />
       <scope id="7773571022133937948" at="25,59,26,104" />
-      <scope id="1167243749507023388" at="32,54,34,54">
+      <scope id="1167243749507023388" at="32,54,34,87">
         <var name="relativePath" id="1167243749507239126" />
       </scope>
       <scope id="1167243749509709134" at="31,102,36,20" />

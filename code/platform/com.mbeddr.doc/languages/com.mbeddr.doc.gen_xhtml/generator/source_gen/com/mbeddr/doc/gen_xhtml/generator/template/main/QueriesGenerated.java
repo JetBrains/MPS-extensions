@@ -668,7 +668,7 @@ public class QueriesGenerated extends QueryProviderBase {
       if (isEmptyString(trim_x583g4_a0a0a0a0a0og(SPropertyOperations.getString(it, PROPS.value$6Orv)))) {
         return;
       }
-      String[] split = SPropertyOperations.getString(it, PROPS.value$6Orv).split(System.lineSeparator());
+      String[] split = SPropertyOperations.getString(it, PROPS.value$6Orv).split("\r?\n");
       SNode currentNode = it;
       currentNode = SNodeOperations.replaceWithAnother(currentNode, createXmlText_x583g4_a0a0d0a0a0a071(StringEscapeUtils.escapeXml10(split[0])));
       if (split.length == 1) {

@@ -58,8 +58,10 @@ Code that doesn't use the language depends on the runtime solution and uses the 
 ViewModel results = ViewModels.named("my.language.checkResults");
 
 Object value = results.get(node);
-results.write(node, value, dependencies);         // dependencies: set<SNodeReference>, may be null
-results.writeComputed(node, results.compute(() -> evaluate(node)));
+Computed<Object> computed = results.compute(() -> evaluate(node));
+results.writeComputed(node, computed);            // the value with the dependencies of its computation
+results.write(node, value, dependencies);         // Dependencies, e.g. computed.getDependencies(); Dependencies.NONE
+results.write(node, value, nodes);                // set<node-ptr<>>: dependencies on single nodes
 results.writePath(path, value, dependencies);     // composite keys: list<ViewModelKey>
 try (ViewModelBatch batch = results.startBatch()) {
   // many writes outside a command: the editors are updated for all of them in one command
@@ -83,8 +85,9 @@ A value is removed when:
 * the node it belongs to is deleted.
 
 Only reads made inside `compute` are recorded. Dependencies passed explicitly to `write` are used as they are; the
-dependencies of several computations can be merged into one set. A stored object whose class was unloaded by a class
-reload reads as `null`.
+dependencies of several computations can be merged with `union`
+(`first.getDependencies().union(second.getDependencies())`). A stored object whose class was unloaded by a class reload
+reads as `null`.
 
 A computation that reads more than 100 nodes of one model doesn't depend on each of them: it depends on the roots that
 contain them, together with a filter of the nodes it read (`RootDependency`). A change below such a root removes the

@@ -1,4 +1,4 @@
-# MPS Extensions
+# MPS Extensions and mbeddr Platform
 
 <a href="https://mps.builds.itemis.cloud/project.html?projectId=Mbeddr2_Mbeddr_Gradle_MpsExtensions&tab=projectOverview"><img src="https://mps.builds.itemis.cloud/app/rest/builds/buildType:(id:Mbeddr2_Mbeddr_Gradle_MpsExtenstions)/statusIcon"/></a>
 
@@ -15,6 +15,15 @@ To use MPS Extensions in your project, add a Maven or Gradle dependency on the `
 [![MPS-Extensions](https://img.shields.io/badge/Github%20pages-MPS--Extensions-success)](https://github.com/orgs/JetBrains/packages?tab=packages&q=de.itemis.mps.extensions)
 
 Each maintenance branch is built against the MPS version in `gradle/libs.versions.toml` of that branch and publishes artifacts for that version. To find the latest published version for an MPS release, use the [latest version finder](https://nkoester.github.io/mps-libraries-latest-version-finder/).
+
+## mbeddr Platform
+
+The mbeddr platform is developed in `code/platform` and contains the MPS extensions together with platform plugins and languages. Its Maven ZIP is `com.mbeddr:platform:<version>`; the extensions-only ZIP remains `de.itemis.mps:extensions:<version>`. Both artifacts use the same version and are available from itemis Nexus and [GitHub Packages](https://github.com/JetBrains/MPS-extensions/packages).
+
+The [MPS-extensions releases](https://github.com/JetBrains/MPS-extensions/releases) include the extensions ZIP and `platform-distribution-<version>-MPS-<mps-version>.zip`. The platform release ZIP has the same payload as the Maven ZIP, under `com.mbeddr.platform/`.
+
+Platform changes are recorded in [the platform changelog](code/platform/CHANGELOG.md); [CHANGELOG.md](CHANGELOG.md) records extensions changes. Report platform and extensions issues in [MPS-extensions issues](https://github.com/JetBrains/MPS-extensions/issues). The mbeddr C project remains in [mbeddr.core](https://github.com/mbeddr/mbeddr.core).
+
 
 ## Building
 

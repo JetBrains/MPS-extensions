@@ -10,6 +10,16 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *de.itemis.mps.editor.diagram.runtime* Fix `IllegalStateException: Editor is already disposed` logged when a diagram editor is closed while its automatic layout is still running.
 
+### Changed
+
+- *com.jetbrains.mpsext.viewmodel* Less memory. A computation that reads more than 100 nodes of one model depends on the roots that contain them instead of on each node, together with a filter of the nodes it read, so that a change of a node it didn't read rarely removes its value. The limit is set with the system property `mpsext.viewmodel.nodeDependencyLimit`. The *View Models* tool window adds the rows below a row when it is first expanded, and drops its rows while it is hidden.
+- *com.jetbrains.mpsext.viewmodel.runtime* View models no longer depend on a project. A write is stored at once, also outside a command, so that reading the value right after the write returns it; editors are updated when the command the write is made in ends, or by a command run afterwards. Writes for nodes in no model of a repository (e.g. of a transient model while generating) are rejected. Removed: the project of viewmodel/X/(project), NamedViewModel.forProject and forRepository, ProjectViewModel, ViewModels.findProject, writePathAsync, drain(Project), drainAll and runDrain. ViewModels.writePath(project, viewModel, path, value, dependencies) is now writePath(viewModel, path, value, dependencies).
+- *com.jetbrains.mpsext.viewmodel.runtime* The dependencies of a value are a Dependencies of three kinds (single nodes, the roots of models and the subtrees of roots) instead of a set<SNodeReference>, and RootDependency is no longer an SNodeReference. Computed.getDependencies returns them, write and writePath take them, and union merges those of several computations. write and writePath keep an overload that takes a set<node-ptr<>> of single nodes. Removed: ViewModels.rootsOf and isRootsOf. Code that passes Computed.getDependencies() on as a set has to be changed and compiled again. A literal null as the dependencies of write or writePath is ambiguous now; Dependencies.NONE stands for none.
+
+### Fixed
+
+- *com.jetbrains.mpsext.viewmodel.runtime* Writing to a view model in a headless run without an IDE (such as the Ant generate task) failed with a NullPointerException in ViewModels.findProject, which broke code that stores check results during generation. View models no longer need a project or an IDE: a write stores the value at once, so reading it back returns it, also while generating.
+
 ## October 2026
 
 ### Added

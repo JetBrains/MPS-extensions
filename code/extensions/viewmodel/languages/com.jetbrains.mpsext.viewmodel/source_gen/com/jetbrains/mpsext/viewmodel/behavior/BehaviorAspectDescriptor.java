@@ -12,7 +12,6 @@ import jetbrains.mps.lang.smodel.ConceptSwitchIndexBuilder;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor {
-  private final BHDescriptor myViewModelExpression__BehaviorDescriptor = new ViewModelExpression__BehaviorDescriptor();
   private final BHDescriptor myViewModelDeclaration__BehaviorDescriptor = new ViewModelDeclaration__BehaviorDescriptor();
 
   public BehaviorAspectDescriptor() {
@@ -24,11 +23,9 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
     switch (conceptIndex.index(cncpt)) {
       case 0:
         return myViewModelDeclaration__BehaviorDescriptor;
-      case 1:
-        return myViewModelExpression__BehaviorDescriptor;
       default:
     }
     return null;
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xd0329e8a2ba94fd1L, 0x82a5fa43a426965dL, 0x6d601934c5533abeL), MetaIdFactory.conceptId(0xd0329e8a2ba94fd1L, 0x82a5fa43a426965dL, 0x3aaea0b82d0d341fL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xd0329e8a2ba94fd1L, 0x82a5fa43a426965dL, 0x6d601934c5533abeL)).seal();
 }

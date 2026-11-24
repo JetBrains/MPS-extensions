@@ -6,6 +6,8 @@ import javax.swing.Icon;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import java.util.List;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelKey;
+import java.util.function.Consumer;
+import javax.swing.tree.DefaultMutableTreeNode;
 
 public final class ViewModelsExplorerItem {
   private final String id;
@@ -18,11 +20,15 @@ public final class ViewModelsExplorerItem {
   public SNodeReference target = null;
   public String viewModel = null;
   public List<ViewModelKey> path = null;
+  public Consumer<DefaultMutableTreeNode> loadRows = null;
+  public boolean expandFirst = false;
 
   public ViewModelsExplorerItem(String id, String text, Icon icon) {
     // One row of the View Models tool window, built in a read action and shown without one.
     // target: the node opened on double-click. viewModel and path: the entry removed by the Remove action
-    // (an empty path removes the whole view model).
+    // (an empty path removes the whole view model). loadRows: adds the rows below this one, in a read action,
+    // when the row is first expanded (null once they are added, or when there are none). expandFirst: a view
+    // model small enough to be expanded when the tool window is first shown.
     this.id = id;
     this.text = text;
     this.icon = icon;

@@ -3495,7 +3495,7 @@
         <node concept="VPM3Z" id="5MFgGQnlLTo" role="3F10Kt" />
       </node>
       <node concept="1iCGBv" id="KYwojibxxg" role="3EZMnx">
-        <ref role="1NtTu8" to="tp25:5MFgGQnlLNJ" resolve="conceptDeclaraton" />
+        <ref role="1NtTu8" to="tp25:5MFgGQnlLNJ" resolve="conceptDeclaration" />
         <node concept="3$7jql" id="KYwojibxxh" role="3F10Kt">
           <property role="3$6WeP" value="0.0" />
         </node>
@@ -3507,7 +3507,7 @@
       </node>
       <node concept="1iCGBv" id="5MFgGQnlLTp" role="3EZMnx">
         <property role="39s7Ar" value="true" />
-        <ref role="1NtTu8" to="tp25:5MFgGQnlLNJ" resolve="conceptDeclaraton" />
+        <ref role="1NtTu8" to="tp25:5MFgGQnlLNJ" resolve="conceptDeclaration" />
         <node concept="1sVBvm" id="5MFgGQnlLTq" role="1sWHZn">
           <node concept="3F0A7n" id="5MFgGQnlLTr" role="2wV5jI">
             <property role="1Intyy" value="true" />

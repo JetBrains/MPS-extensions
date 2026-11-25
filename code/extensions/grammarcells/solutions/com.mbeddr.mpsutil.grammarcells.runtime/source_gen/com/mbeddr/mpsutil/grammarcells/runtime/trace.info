@@ -3559,6 +3559,97 @@
       <unit id="5659737630749218860" at="10,0,49,0" name="com.mbeddr.mpsutil.grammarcells.runtime.DelegateToParentCellAction" />
     </file>
   </root>
+  <root nodeRef="r:e8e03ffa-3c1e-4997-9f51-6f8ca9be2f23(com.mbeddr.mpsutil.grammarcells.runtime)/641742950736894664">
+    <file name="OptionalCellUtil.java">
+      <node id="641742950736894719" at="23,34,24,13" concept="10" />
+      <node id="641742950739021591" at="25,5,26,47" concept="3" />
+      <node id="641742950736894741" at="28,65,29,55" concept="3" />
+      <node id="641742950739012802" at="35,39,36,49" concept="3" />
+      <node id="641742950739012814" at="39,65,40,65" concept="3" />
+      <node id="641742950736894761" at="45,108,46,133" concept="3" />
+      <node id="641742950736894778" at="49,107,50,77" concept="3" />
+      <node id="641742950736894793" at="53,94,54,81" concept="3" />
+      <node id="641742950736894799" at="54,81,55,79" concept="3" />
+      <node id="641742950736894823" at="61,56,62,81" concept="9" />
+      <node id="641742950736894827" at="62,81,63,29" concept="3" />
+      <node id="641742950736894829" at="63,29,64,26" concept="3" />
+      <node id="641742950736894831" at="64,26,65,36" concept="3" />
+      <node id="641742950736894833" at="65,36,66,51" concept="3" />
+      <node id="641742950739005842" at="71,77,72,103" concept="3" />
+      <node id="641742950739005848" at="72,103,73,109" concept="3" />
+      <node id="641742950736894713" at="22,81,25,5" concept="7" />
+      <node id="641742950736894738" at="27,48,30,7" concept="6" />
+      <node id="641742950739012811" at="38,48,41,7" concept="6" />
+      <node id="641742950736894753" at="45,0,48,0" concept="14" trace="setDeleteChildActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)V" />
+      <node id="641742950736894770" at="49,0,52,0" concept="14" trace="setClearPropertyActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SProperty;)V" />
+      <node id="641742950736894787" at="53,0,57,0" concept="14" trace="setDeleteActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P0_E0;)V" />
+      <node id="641742950739005838" at="71,0,75,0" concept="14" trace="doDelegateDeleteAndBackspaceToParent#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="641742950736894732" at="26,47,31,5" concept="7" />
+      <node id="641742950739012805" at="37,10,42,5" concept="7" />
+      <node id="641742950739012796" at="34,91,42,5" concept="7" />
+      <node id="641742950736894817" at="60,0,68,0" concept="8" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="641742950739012790" at="34,0,44,0" concept="14" trace="delegateChildDeleteActionsToParent#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="641742950736894813" at="58,126,68,6" concept="10" />
+      <node id="641742950736894707" at="22,0,33,0" concept="14" trace="delegateDeleteActionsToParent#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="641742950736894807" at="58,0,70,0" concept="14" trace="createDeleteAction#(Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P0_E0;Z)Ljetbrains/mps/openapi/editor/cells/CellAction;" />
+      <scope id="641742950736894718" at="23,34,24,13" />
+      <scope id="641742950736894740" at="28,65,29,55" />
+      <scope id="641742950739012801" at="35,39,36,49" />
+      <scope id="641742950739012813" at="39,65,40,65" />
+      <scope id="641742950736894760" at="45,108,46,133" />
+      <scope id="641742950736894777" at="49,107,50,77" />
+      <scope id="641742950736894792" at="53,94,55,79" />
+      <scope id="641742950739005841" at="71,77,73,109" />
+      <scope id="641742950736894737" at="27,48,30,7" />
+      <scope id="641742950736894738" at="27,48,30,7">
+        <var name="childCell" id="641742950736894745" />
+      </scope>
+      <scope id="641742950739012810" at="38,48,41,7" />
+      <scope id="641742950739012811" at="38,48,41,7">
+        <var name="childCell" id="641742950739012818" />
+      </scope>
+      <scope id="641742950736894753" at="45,0,48,0">
+        <var name="cell" id="641742950736894754" />
+        <var name="link" id="641742950736894758" />
+        <var name="node" id="641742950736894756" />
+      </scope>
+      <scope id="641742950736894770" at="49,0,52,0">
+        <var name="cell" id="641742950736894771" />
+        <var name="node" id="641742950736894773" />
+        <var name="property" id="641742950736894775" />
+      </scope>
+      <scope id="641742950736894787" at="53,0,57,0">
+        <var name="cell" id="641742950736894788" />
+        <var name="deletion" id="641742950736894790" />
+      </scope>
+      <scope id="641742950739005838" at="71,0,75,0">
+        <var name="cell" id="641742950739005839" />
+      </scope>
+      <scope id="641742950736894821" at="61,56,66,51">
+        <var name="caretPosition" id="641742950736894822" />
+      </scope>
+      <scope id="641742950739012795" at="34,91,42,5" />
+      <scope id="641742950736894817" at="60,0,68,0">
+        <var name="editorContext" id="641742950736894819" />
+      </scope>
+      <scope id="641742950736894712" at="22,81,31,5" />
+      <scope id="641742950739012790" at="34,0,44,0">
+        <var name="cell" id="641742950739012791" />
+        <var name="childNode" id="641742950739012793" />
+      </scope>
+      <scope id="641742950736894812" at="58,126,68,6" />
+      <scope id="641742950736894707" at="22,0,33,0">
+        <var name="cell" id="641742950736894708" />
+        <var name="node" id="641742950736894710" />
+      </scope>
+      <scope id="641742950736894807" at="58,0,70,0">
+        <var name="deletion" id="641742950736894808" />
+        <var name="restoreCaretAtStart" id="641742950736894810" />
+      </scope>
+      <unit id="641742950736894816" at="59,15,68,5" name="com.mbeddr.mpsutil.grammarcells.runtime.OptionalCellUtil$1" />
+      <unit id="641742950736894664" at="20,0,76,0" name="com.mbeddr.mpsutil.grammarcells.runtime.OptionalCellUtil" />
+    </file>
+  </root>
   <root nodeRef="r:e8e03ffa-3c1e-4997-9f51-6f8ca9be2f23(com.mbeddr.mpsutil.grammarcells.runtime)/6440714009707309482">
     <file name="VisibleLanguagesCache.java">
       <node id="6440714009707921151" at="37,0,38,0" concept="13" trace="ourInstance" />

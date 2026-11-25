@@ -9,6 +9,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Changed
 
 - *com.mbeddr.mpsutil.grammarcells* Flag cells without a substitute condition, description text or `doNotGenerateNodeSubstituteAction` now generate a single call to the new runtime helper `GrammarCellsUtil.createFlagSubstituteMenuItems` in `GrammarActionsDescriptor` instead of two nested anonymous classes per flag. For editors with several flags this makes the generated code much smaller (e.g. -44% lines and no anonymous classes for an editor with 3 flags). Flags with custom configuration generate the same code as before.
+- *com.mbeddr.mpsutil.grammarcells* Optional cells now generate their BACKSPACE/DELETE actions as calls to the new `OptionalCellUtil` runtime helpers instead of anonymous action classes, which makes the generated editor code smaller.
 
 ### Fixed
 

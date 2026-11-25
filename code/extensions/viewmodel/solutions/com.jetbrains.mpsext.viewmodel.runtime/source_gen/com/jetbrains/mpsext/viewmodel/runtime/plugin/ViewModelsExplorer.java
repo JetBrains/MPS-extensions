@@ -29,6 +29,7 @@ import com.intellij.openapi.actionSystem.DefaultActionGroup;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.icons.AllIcons;
 import com.intellij.openapi.actionSystem.AnActionEvent;
+import org.jetbrains.annotations.NotNull;
 import com.intellij.openapi.actionSystem.ActionUpdateThread;
 import com.intellij.ide.DefaultTreeExpander;
 import com.intellij.ide.CommonActionsManager;
@@ -57,11 +58,15 @@ import com.jetbrains.mpsext.viewmodel.runtime.ViewModelNodeKey;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import org.jetbrains.mps.openapi.model.SReference;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.ide.icons.GlobalIconManager;
 import com.jetbrains.mpsext.viewmodel.runtime.ViewModelStringKey;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import org.jetbrains.mps.openapi.model.SModelReference;
 import jetbrains.mps.ide.icons.IdeIcons;
 import com.jetbrains.mpsext.viewmodel.runtime.RootDependency;
+import com.jetbrains.mpsext.viewmodel.runtime.Dependencies;
 import com.intellij.openapi.util.text.StringUtil;
 import jetbrains.mps.openapi.navigation.EditorNavigator;
 import jetbrains.mps.project.MPSProject;
@@ -74,7 +79,6 @@ import org.jetbrains.mps.openapi.event.SReferenceChangeEvent;
 import org.jetbrains.mps.openapi.event.SNodeAddEvent;
 import org.jetbrains.mps.openapi.event.SNodeRemoveEvent;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SConcept;
 
 public final class ViewModelsExplorer implements SNodeChangeListener {
@@ -166,6 +170,7 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
         event.getPresentation().setEnabled(explorer.getSelectedRemovable() != null);
       }
       @Override
+      @NotNull
       public ActionUpdateThread getActionUpdateThread() {
         return ActionUpdateThread.EDT;
       }
@@ -180,6 +185,7 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
         event.getPresentation().setEnabled(explorer.canShowStoreInNodeExplorer());
       }
       @Override
+      @NotNull
       public ActionUpdateThread getActionUpdateThread() {
         return ActionUpdateThread.EDT;
       }
@@ -455,7 +461,8 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
     }
     for (SNode child : ListSequence.fromList(SNodeOperations.getChildren(node))) {
       final SNode childNode = child;
-      ViewModelsExplorerItem item = new ViewModelsExplorerItem("c:" + child.getNodeId(), child.getContainmentLink().getName(), GlobalIconManager.getInstance().getIconFor(child));
+      SContainmentLink link = child.getContainmentLink();
+      ViewModelsExplorerItem item = new ViewModelsExplorerItem("c:" + child.getNodeId(), (link == null ? "" : link.getName()), GlobalIconManager.getInstance().getIconFor(child));
       item.value = child.getPresentation();
       item.detail = child.getConcept().getName();
       if (hasNodeRows(child)) {
@@ -484,29 +491,31 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
   }
 
   private ViewModelsExplorerItem nodeItem(String idPrefix, SNodeReference ref) {
-    SModelReference rootsModel = ref.getModelReference();
-    if (ViewModels.isRootsOf(ref) && rootsModel != null) {
-      // the value depends on which roots the model has
-      ViewModelsExplorerItem rootsItem = new ViewModelsExplorerItem(idPrefix + ref, "roots of " + rootsModel.getName().getLongName(), IdeIcons.MODEL_ICON);
-      rootsItem.detail = "a root added or removed";
-      return rootsItem;
-    }
-    boolean subtree = ref instanceof RootDependency;
-    SNodeReference nodeRef = ((subtree ? ((RootDependency) ref).getRoot() : ref));
-    SNode target = nodeRef.resolve(this.project.getRepository());
+    // a node of a key, or a node that a value depends on
+    SNode target = SPointerOperations.resolveNode(ref, this.project.getRepository());
     ViewModelsExplorerItem item;
     if (target == null) {
-      item = new ViewModelsExplorerItem(idPrefix + ref, nodeRef.toString(), AllIcons.General.Warning);
+      item = new ViewModelsExplorerItem(idPrefix + ref, String.valueOf(ref), AllIcons.General.Warning);
       item.detail = "not found";
     } else {
       item = new ViewModelsExplorerItem(idPrefix + ref, target.getPresentation(), GlobalIconManager.getInstance().getIconFor(target));
-      item.detail = target.getConcept().getName() + " in " + target.getModel().getName().getLongName();
+      SModel targetModel = SNodeOperations.getModel(target);
+      item.detail = target.getConcept().getName() + " in " + ((targetModel == null ? "???" : SModelOperations.getModelName(targetModel)));
     }
-    if (subtree) {
-      // a computation that read many nodes of the model depends on the nodes it read below their roots
-      item.detail = join("nodes read below the root", item.detail);
-    }
-    item.target = nodeRef;
+    item.target = ref;
+    return item;
+  }
+  private ViewModelsExplorerItem rootListItem(SModelReference modelRef) {
+    // a dependency on the roots of a model: the value depends on which roots the model has
+    SModel target = SPointerOperations.resolveModel(modelRef, this.project.getRepository());
+    ViewModelsExplorerItem item = new ViewModelsExplorerItem("d:roots of " + modelRef, "roots of " + ((target == null ? String.valueOf(modelRef) : SModelOperations.getModelName(target))), IdeIcons.MODEL_ICON);
+    item.detail = "a root added or removed";
+    return item;
+  }
+  private ViewModelsExplorerItem subtreeItem(RootDependency dependency) {
+    // a computation that read many nodes of a model depends on the nodes it read below their roots
+    ViewModelsExplorerItem item = nodeItem("d:subtree:", dependency.getRoot());
+    item.detail = join(((dependency.getFilter() == null ? "the subtree of the root" : "nodes read below the root")), item.detail);
     return item;
   }
 
@@ -519,14 +528,20 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
     final ViewModelsExplorer explorer = this;
     ViewModelsExplorerItem group = new ViewModelsExplorerItem("dependencies", "dependencies", AllIcons.Nodes.Related);
     group.detail = String.valueOf(count);
-    group.tooltip = "The value is removed when one of these nodes changes";
+    group.tooltip = "The value is removed when one of these changes";
     group.loadRows = (DefaultMutableTreeNode p) -> explorer.addDependencyRows(p, ViewModels.getInstance().getDependencies(viewModel, path));
     parent.add(lazyNode(group));
   }
-  private void addDependencyRows(DefaultMutableTreeNode parent, Set<SNodeReference> dependencies) {
+  private void addDependencyRows(DefaultMutableTreeNode parent, Dependencies dependencies) {
     List<ViewModelsExplorerItem> items = ListSequence.fromList(new ArrayList<ViewModelsExplorerItem>());
-    for (SNodeReference ref : SetSequence.fromSet(dependencies)) {
+    for (SNodeReference ref : SetSequence.fromSet(dependencies.getNodes())) {
       ListSequence.fromList(items).addElement(nodeItem("d:", ref));
+    }
+    for (SModelReference modelRef : SetSequence.fromSet(dependencies.getRootLists())) {
+      ListSequence.fromList(items).addElement(rootListItem(modelRef));
+    }
+    for (RootDependency root : SetSequence.fromSet(dependencies.getRoots())) {
+      ListSequence.fromList(items).addElement(subtreeItem(root));
     }
     for (ViewModelsExplorerItem item : ListSequence.fromList(items).sort((it) -> it.getText(), true)) {
       parent.add(new DefaultMutableTreeNode(item));
@@ -662,11 +677,10 @@ public final class ViewModelsExplorer implements SNodeChangeListener {
     if (item == null) {
       return;
     }
-    final Project p = project;
-    project.getModelAccess().executeCommand(new Runnable() {
-      public void run() {
-        ViewModels.getInstance().writePath(p, item.viewModel, item.path, null, null);
-      }
+    // in a command, so that the editors showing the removed values are updated when it ends
+    project.getRepository().getModelAccess().executeCommand(() -> {
+      ViewModels viewModels = ViewModels.getInstance();
+      viewModels.writePath(item.viewModel, item.path, null, null);
     });
   }
 

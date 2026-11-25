@@ -13,8 +13,6 @@ import java.util.Collection;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.Arrays;
-import jetbrains.mps.generator.runtime.TemplateMappingPriorityRule;
-import jetbrains.mps.generator.runtime.TemplateUtil;
 
 public class Generator extends TemplateModuleInterpreted2 {
 
@@ -36,14 +34,9 @@ public class Generator extends TemplateModuleInterpreted2 {
 
   @Override
   public Collection<SLanguage> getTargetLanguages() {
-    SLanguage[] rv = new SLanguage[2];
+    SLanguage[] rv = new SLanguage[1];
     rv[0] = MetaAdapterFactory.getLanguage(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, "jetbrains.mps.baseLanguage");
-    rv[1] = MetaAdapterFactory.getLanguage(0x18bc659203a64e29L, 0xa83a7ff23bde13baL, "jetbrains.mps.lang.editor");
     return Arrays.asList(rv);
   }
 
-  @Override
-  public Collection<TemplateMappingPriorityRule> getPriorities() {
-    return TemplateUtil.asCollection(TemplateUtil.createBeforeOrTogetherRule(TemplateUtil.createRefExternal("5c37a162-784c-4adf-b56a-ba422ecaf3db(com.jetbrains.mpsext.viewmodel.generator)", TemplateUtil.createRefLocal()), TemplateUtil.createRefExternal("0647eca7-da98-422a-8a8b-6ebc0bd014ea(jetbrains.mps.lang.editor#1129914002149)", TemplateUtil.createRefLocal())), TemplateUtil.createBeforeOrTogetherRule(TemplateUtil.createRefExternal("5c37a162-784c-4adf-b56a-ba422ecaf3db(com.jetbrains.mpsext.viewmodel.generator)", TemplateUtil.createRefLocal()), TemplateUtil.createRefExternal("79a2d464-32b0-48d2-96f9-b40717277a07(jetbrains.mps.lang.intentions#1192798684353)", TemplateUtil.createRefLocal())), TemplateUtil.createBeforeOrTogetherRule(TemplateUtil.createRefExternal("5c37a162-784c-4adf-b56a-ba422ecaf3db(com.jetbrains.mpsext.viewmodel.generator)", TemplateUtil.createRefLocal()), TemplateUtil.createRefExternal("018659ff-d3ef-4215-97e0-bcfeeb111145(jetbrains.mps.lang.actions#1154466409006)", TemplateUtil.createRefLocal())));
-  }
 }

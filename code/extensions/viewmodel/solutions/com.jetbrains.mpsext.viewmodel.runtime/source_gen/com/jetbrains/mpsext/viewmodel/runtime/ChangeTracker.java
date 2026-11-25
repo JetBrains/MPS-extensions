@@ -4,23 +4,17 @@ package com.jetbrains.mpsext.viewmodel.runtime;
 
 import org.jetbrains.mps.openapi.model.SNodeChangeListener;
 import org.jetbrains.mps.openapi.model.SModelListener;
-import org.jetbrains.mps.openapi.model.SNode;
-import java.util.List;
-import org.jetbrains.mps.openapi.model.SNodeReference;
 import org.jetbrains.mps.openapi.event.SPropertyChangeEvent;
-import java.util.Collections;
 import org.jetbrains.mps.openapi.event.SReferenceChangeEvent;
 import org.jetbrains.mps.openapi.event.SNodeAddEvent;
 import org.jetbrains.mps.openapi.event.SNodeRemoveEvent;
-import org.jetbrains.mps.openapi.model.SModelReference;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import java.util.ArrayList;
-import jetbrains.mps.smodel.SNodePointer;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.model.SModel;
 import org.jetbrains.mps.openapi.module.SRepository;
 
+/**
+ * Describes each change event of a tracked model (ModelChange) and hands it to ViewModels.modelChanged, which removes
+ * the values that depend on what it changed.
+ */
 public final class ChangeTracker implements SNodeChangeListener, SModelListener {
   private final ViewModels viewModels;
 
@@ -28,74 +22,34 @@ public final class ChangeTracker implements SNodeChangeListener, SModelListener 
     this.viewModels = viewModels;
   }
 
-  private void rootChanged(SNode node, List<SNodeReference> changed) {
-    // a change below a root changes the dependencies on its subtree that may have read a changed node (RootDependency)
-    viewModels.nodesInRootChanged(node.getContainingRoot().getReference(), changed);
-  }
-
   @Override
   public void propertyChanged(SPropertyChangeEvent event) {
-    SNodeReference ref = event.getNode().getReference();
-    viewModels.nodeChanged(ref);
-    rootChanged(event.getNode(), Collections.singletonList(ref));
+    viewModels.modelChanged(ModelChange.ofNode(event.getNode()));
   }
 
   @Override
   public void referenceChanged(SReferenceChangeEvent event) {
-    SNodeReference ref = event.getNode().getReference();
-    viewModels.nodeChanged(ref);
-    rootChanged(event.getNode(), Collections.singletonList(ref));
+    viewModels.modelChanged(ModelChange.ofNode(event.getNode()));
   }
 
   @Override
   public void nodeAdded(SNodeAddEvent event) {
-    SNode parent = event.getParent();
-    if (parent != null) {
-      SNodeReference parentRef = parent.getReference();
-      viewModels.nodeChanged(parentRef);
-      rootChanged(parent, Collections.singletonList(parentRef));
-    } else {
-      viewModels.nodeChanged(ViewModels.rootsOf(event.getModel().getReference()));
-      viewModels.nodeChanged(new RootDependency(event.getChild().getReference()));
-    }
+    viewModels.modelChanged(ModelChange.added(event.getModel(), event.getParent(), event.getChild()));
   }
 
   @Override
   public void nodeRemoved(SNodeRemoveEvent event) {
-    // the removed nodes are detached already, so their references are built from the model of the event
-    SModelReference modelRef = event.getModel().getReference();
-    SNode child = event.getChild();
-    List<SNodeReference> removed = ListSequence.fromList(new ArrayList<SNodeReference>());
-    ListSequence.fromList(removed).addElement(new SNodePointer(modelRef, child.getNodeId()));
-    for (SNode descendant : ListSequence.fromList(SNodeOperations.getNodeDescendants(child, null, false, new SAbstractConcept[]{}))) {
-      ListSequence.fromList(removed).addElement(new SNodePointer(modelRef, descendant.getNodeId()));
-    }
-    SNode parent = event.getParent();
-    if (parent != null) {
-      SNodeReference parentRef = parent.getReference();
-      viewModels.nodeChanged(parentRef);
-      List<SNodeReference> changed = ListSequence.fromList(new ArrayList<SNodeReference>());
-      ListSequence.fromList(changed).addElement(parentRef);
-      ListSequence.fromList(changed).addSequence(ListSequence.fromList(removed));
-      rootChanged(parent, changed);
-    } else {
-      // a removed root changes every dependency on it
-      viewModels.nodeChanged(ViewModels.rootsOf(modelRef));
-      viewModels.nodeChanged(new RootDependency(ListSequence.fromList(removed).first()));
-    }
-    for (SNodeReference ref : ListSequence.fromList(removed)) {
-      viewModels.nodeRemoved(ref);
-    }
+    viewModels.modelChanged(ModelChange.removed(event.getModel(), event.getParent(), event.getChild()));
   }
 
   @Override
   public void modelReplaced(SModel replaced) {
-    viewModels.modelReplaced(replaced.getReference());
+    viewModels.modelChanged(ModelChange.ofModel(replaced));
   }
 
   @Override
   public void modelUnloaded(SModel unloaded) {
-    viewModels.modelReplaced(unloaded.getReference());
+    viewModels.modelChanged(ModelChange.ofModel(unloaded));
   }
 
   @Override

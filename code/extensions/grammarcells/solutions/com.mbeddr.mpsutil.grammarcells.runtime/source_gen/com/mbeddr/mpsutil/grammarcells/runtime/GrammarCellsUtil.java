@@ -49,6 +49,8 @@ import jetbrains.mps.nodeEditor.sidetransform.EditorCell_STHint;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.openapi.editor.cells.EditorCell_Collection;
 import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.openapi.editor.menus.substitute.SubstituteMenuItem;
+import java.util.ArrayList;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
@@ -402,6 +404,19 @@ public class GrammarCellsUtil {
     builder.append(link.getName());
     builder.append(") – optional");
     return builder.toString();
+  }
+
+  public static List<SubstituteMenuItem> createFlagSubstituteMenuItems(SAbstractConcept outputConcept, SubstituteMenuContext context, SAbstractConcept expectedOutputConceptExactly, Class<? extends ConceptEditor> ifEditorNotOveridden, String flagText, IFlagModelAccess modelAccess) {
+    List<SubstituteMenuItem> result = ListSequence.fromList(new ArrayList<SubstituteMenuItem>());
+    if (!(outputConcept.equals(expectedOutputConceptExactly))) {
+      return result;
+    }
+    for (SAbstractConcept subconcept : getVisibleSubconceptsNonAbstract(outputConcept, context.getModel(), ifEditorNotOveridden, context.getEditorContext())) {
+      if (canBeChild(subconcept, context)) {
+        ListSequence.fromList(result).addElement(new FlagSubstituteMenuItem(context.getParentNode(), context.getCurrentTargetNode(), subconcept, flagText, context, modelAccess));
+      }
+    }
+    return result;
   }
   private static SContainmentLink check_1c6hsm_a0f0gc(SNode checkedDotOperand) {
     if (null != checkedDotOperand) {

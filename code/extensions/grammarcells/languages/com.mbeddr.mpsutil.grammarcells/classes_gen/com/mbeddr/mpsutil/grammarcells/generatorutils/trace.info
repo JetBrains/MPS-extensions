@@ -231,124 +231,149 @@
   </root>
   <root nodeRef="r:ad2e4832-0577-46d7-b0a6-761102effa9f(com.mbeddr.mpsutil.grammarcells.generatorutils)/8128582796163726706">
     <file name="GeneratorUtils.java">
-      <node id="7228295058352586581" at="22,64,23,46" concept="5" />
-      <node id="7228295058352590680" at="23,46,24,134" concept="5" />
-      <node id="7228295058353599952" at="24,134,25,295" concept="5" />
-      <node id="7228295058353613127" at="25,295,26,0" concept="7" />
-      <node id="7228295058353634334" at="26,0,27,252" concept="6" />
-      <node id="8128582796163841262" at="30,54,31,123" concept="6" />
-      <node id="8128582796165170744" at="34,74,35,124" concept="5" />
-      <node id="8128582796165199959" at="35,124,36,197" concept="6" />
-      <node id="8945098465480062386" at="39,48,40,226" concept="6" />
-      <node id="8945098465480073414" at="43,50,44,150" concept="6" />
-      <node id="2529749638821647377" at="48,114,49,19" concept="6" />
-      <node id="9138875967976129515" at="51,104,52,18" concept="6" />
-      <node id="9138875967976183759" at="53,5,54,0" concept="7" />
-      <node id="9138875967976133362" at="54,0,55,135" concept="5" />
-      <node id="9138875967976178439" at="56,184,57,18" concept="6" />
-      <node id="9138875967976132833" at="58,5,59,0" concept="7" />
-      <node id="9138875967976131815" at="59,0,60,17" concept="6" />
-      <node id="9138875967977295528" at="63,70,64,239" concept="6" />
-      <node id="9138875967977293009" at="67,65,68,145" concept="6" />
-      <node id="27760747484855051" at="71,55,72,114" concept="5" />
-      <node id="27760747484856216" at="73,28,74,19" concept="6" />
-      <node id="27760747484856698" at="75,5,76,46" concept="6" />
-      <node id="27760747484885183" at="79,54,80,38" concept="6" />
-      <node id="3715388205393805359" at="83,57,84,217" concept="6" />
-      <node id="8128582796163726706" at="88,0,89,0" concept="8" trace="WrapperCell$wv" />
-      <node id="8128582796163726706" at="89,0,90,0" concept="8" trace="CellModel_RefNode$8" />
-      <node id="8128582796163726706" at="90,0,91,0" concept="8" trace="EditorCellModel$gN" />
-      <node id="8128582796163726706" at="91,0,92,0" concept="8" trace="GrammarInfoCell$HL" />
-      <node id="8128582796163726706" at="92,0,93,0" concept="8" trace="CellModel_ReadOnlyModelAccessor$6d" />
-      <node id="8128582796163726706" at="93,0,94,0" concept="8" trace="CellModel_Constant$4e" />
-      <node id="8128582796163726706" at="94,0,95,0" concept="8" trace="IConstantCell$y2" />
-      <node id="8128582796163726706" at="95,0,96,0" concept="8" trace="ICollectionLikeCell$Y" />
-      <node id="8128582796163726706" at="96,0,97,0" concept="8" trace="CellModel_Collection$Og" />
-      <node id="8128582796163726706" at="97,0,98,0" concept="8" trace="DisableComponentInline$Ng" />
-      <node id="8128582796163726706" at="98,0,99,0" concept="8" trace="IGrammarCell$v$" />
-      <node id="8128582796163726706" at="99,0,100,0" concept="8" trace="IActionGeneratingCell$DN" />
-      <node id="8128582796163726706" at="100,0,101,0" concept="8" trace="EditorComponentDeclaration$WM" />
-      <node id="8128582796163726706" at="104,0,105,0" concept="8" trace="relationDeclaration$E2hc" />
-      <node id="8128582796163726706" at="105,0,106,0" concept="8" trace="editorComponent$DNa7" />
-      <node id="8128582796163726706" at="106,0,107,0" concept="8" trace="cellModel$L8Uc" />
-      <node id="8128582796163726706" at="107,0,108,0" concept="8" trace="renderingCondition$O1b5" />
-      <node id="8128582796163841314" at="30,0,33,0" concept="9" trace="getRootCell#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="8945098465480061811" at="39,0,42,0" concept="9" trace="isConstant#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="8945098465480072761" at="43,0,46,0" concept="9" trace="isCollection#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="2529749638821641399" at="47,74,50,5" concept="3" />
-      <node id="9138875967976128448" at="50,5,53,5" concept="3" />
-      <node id="9138875967976178437" at="55,135,58,5" concept="3" />
-      <node id="9138875967977267887" at="63,0,66,0" concept="9" trace="componentRequiresInline#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="9138875967977281716" at="67,0,70,0" concept="9" trace="cellRequiresComponentInline#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="27760747484855405" at="72,114,75,5" concept="3" />
-      <node id="27760747484883952" at="79,0,82,0" concept="9" trace="allowActionsFrom#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="3715388205393803501" at="83,0,86,0" concept="9" trace="getRenderingCondition#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="8128582796163847674" at="34,0,38,0" concept="9" trace="isBefore#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="8128582796163806170" at="22,0,29,0" concept="9" trace="getCellToUnwrap#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="27760747484853577" at="71,0,78,0" concept="9" trace="ignoreActionsFrom#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="9138875967977199668" at="47,0,62,0" concept="9" trace="componentCellRequiresInline#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <scope id="8128582796163841221" at="30,54,31,123" />
-      <scope id="8945098465480061200" at="39,48,40,226" />
-      <scope id="8945098465480072072" at="43,50,44,150" />
-      <scope id="2529749638821641401" at="48,114,49,19" />
-      <scope id="9138875967976128449" at="51,104,52,18" />
-      <scope id="9138875967976178438" at="56,184,57,18" />
-      <scope id="9138875967977267888" at="63,70,64,239" />
-      <scope id="9138875967977280617" at="67,65,68,145" />
-      <scope id="27760747484855407" at="73,28,74,19" />
-      <scope id="27760747484883953" at="79,54,80,38" />
-      <scope id="3715388205393802007" at="83,57,84,217" />
-      <scope id="8128582796163845326" at="34,74,36,197">
+      <node id="7228295058352586581" at="24,64,25,46" concept="5" />
+      <node id="7228295058352590680" at="25,46,26,134" concept="5" />
+      <node id="7228295058353599952" at="26,134,27,295" concept="5" />
+      <node id="7228295058353613127" at="27,295,28,0" concept="7" />
+      <node id="7228295058353634334" at="28,0,29,252" concept="6" />
+      <node id="8128582796163841262" at="32,54,33,123" concept="6" />
+      <node id="8128582796165170744" at="36,74,37,124" concept="5" />
+      <node id="8128582796165199959" at="37,124,38,197" concept="6" />
+      <node id="8945098465480062386" at="41,48,42,226" concept="6" />
+      <node id="8945098465480073414" at="45,50,46,150" concept="6" />
+      <node id="2529749638821647377" at="50,114,51,19" concept="6" />
+      <node id="9138875967976129515" at="53,104,54,18" concept="6" />
+      <node id="9138875967976183759" at="55,5,56,0" concept="7" />
+      <node id="9138875967976133362" at="56,0,57,135" concept="5" />
+      <node id="9138875967976178439" at="58,184,59,18" concept="6" />
+      <node id="9138875967976132833" at="60,5,61,0" concept="7" />
+      <node id="9138875967976131815" at="61,0,62,17" concept="6" />
+      <node id="9138875967977295528" at="65,70,66,239" concept="6" />
+      <node id="9138875967977293009" at="69,65,70,145" concept="6" />
+      <node id="27760747484855051" at="73,55,74,114" concept="5" />
+      <node id="27760747484856216" at="75,28,76,19" concept="6" />
+      <node id="27760747484856698" at="77,5,78,46" concept="6" />
+      <node id="27760747484885183" at="81,54,82,38" concept="6" />
+      <node id="12196075779129476" at="86,243,87,19" concept="6" />
+      <node id="12196075779129478" at="88,5,89,162" concept="6" />
+      <node id="12196075779129605" at="92,58,93,482" concept="6" />
+      <node id="3715388205393805359" at="96,57,97,217" concept="6" />
+      <node id="8128582796163726706" at="101,0,102,0" concept="8" trace="WrapperCell$wv" />
+      <node id="8128582796163726706" at="102,0,103,0" concept="8" trace="CellModel_RefNode$8" />
+      <node id="8128582796163726706" at="103,0,104,0" concept="8" trace="EditorCellModel$gN" />
+      <node id="8128582796163726706" at="104,0,105,0" concept="8" trace="GrammarInfoCell$HL" />
+      <node id="8128582796163726706" at="105,0,106,0" concept="8" trace="CellModel_ReadOnlyModelAccessor$6d" />
+      <node id="8128582796163726706" at="106,0,107,0" concept="8" trace="CellModel_Constant$4e" />
+      <node id="8128582796163726706" at="107,0,108,0" concept="8" trace="IConstantCell$y2" />
+      <node id="8128582796163726706" at="108,0,109,0" concept="8" trace="ICollectionLikeCell$Y" />
+      <node id="8128582796163726706" at="109,0,110,0" concept="8" trace="CellModel_Collection$Og" />
+      <node id="8128582796163726706" at="110,0,111,0" concept="8" trace="DisableComponentInline$Ng" />
+      <node id="8128582796163726706" at="111,0,112,0" concept="8" trace="IGrammarCell$v$" />
+      <node id="8128582796163726706" at="112,0,113,0" concept="8" trace="IActionGeneratingCell$DN" />
+      <node id="8128582796163726706" at="113,0,114,0" concept="8" trace="EditorComponentDeclaration$WM" />
+      <node id="8128582796163726706" at="114,0,115,0" concept="8" trace="FlagCell$sR" />
+      <node id="8128582796163726706" at="115,0,116,0" concept="8" trace="ReturnStatement$lt" />
+      <node id="8128582796163726706" at="119,0,120,0" concept="8" trace="relationDeclaration$E2hc" />
+      <node id="8128582796163726706" at="120,0,121,0" concept="8" trace="editorComponent$DNa7" />
+      <node id="8128582796163726706" at="121,0,122,0" concept="8" trace="cellModel$L8Uc" />
+      <node id="8128582796163726706" at="122,0,123,0" concept="8" trace="substituteCondition$vs72" />
+      <node id="8128582796163726706" at="123,0,124,0" concept="8" trace="descriptionText$ugUz" />
+      <node id="8128582796163726706" at="124,0,125,0" concept="8" trace="factory$lg2v" />
+      <node id="8128582796163726706" at="125,0,126,0" concept="8" trace="body$e68K" />
+      <node id="8128582796163726706" at="126,0,127,0" concept="8" trace="statement$53DE" />
+      <node id="8128582796163726706" at="127,0,128,0" concept="8" trace="expression$eJ92" />
+      <node id="8128582796163726706" at="128,0,129,0" concept="8" trace="renderingCondition$O1b5" />
+      <node id="8128582796163726706" at="132,0,133,0" concept="8" trace="doNotGenerateNodeSubstituteAction$5ee$" />
+      <node id="8128582796163841314" at="32,0,35,0" concept="9" trace="getRootCell#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="8945098465480061811" at="41,0,44,0" concept="9" trace="isConstant#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="8945098465480072761" at="45,0,48,0" concept="9" trace="isCollection#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="2529749638821641399" at="49,74,52,5" concept="3" />
+      <node id="9138875967976128448" at="52,5,55,5" concept="3" />
+      <node id="9138875967976178437" at="57,135,60,5" concept="3" />
+      <node id="9138875967977267887" at="65,0,68,0" concept="9" trace="componentRequiresInline#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="9138875967977281716" at="69,0,72,0" concept="9" trace="cellRequiresComponentInline#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="27760747484855405" at="74,114,77,5" concept="3" />
+      <node id="27760747484883952" at="81,0,84,0" concept="9" trace="allowActionsFrom#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="12196075779129351" at="85,49,88,5" concept="3" />
+      <node id="780548849879186049" at="92,0,95,0" concept="9" trace="singleReturnExpression#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3715388205393803501" at="96,0,99,0" concept="9" trace="getRenderingCondition#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="8128582796163847674" at="36,0,40,0" concept="9" trace="isBefore#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="12196075779129345" at="85,0,91,0" concept="9" trace="isPlainFlag#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="8128582796163806170" at="24,0,31,0" concept="9" trace="getCellToUnwrap#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="27760747484853577" at="73,0,80,0" concept="9" trace="ignoreActionsFrom#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="9138875967977199668" at="49,0,64,0" concept="9" trace="componentCellRequiresInline#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <scope id="8128582796163841221" at="32,54,33,123" />
+      <scope id="8945098465480061200" at="41,48,42,226" />
+      <scope id="8945098465480072072" at="45,50,46,150" />
+      <scope id="2529749638821641401" at="50,114,51,19" />
+      <scope id="9138875967976128449" at="53,104,54,18" />
+      <scope id="9138875967976178438" at="58,184,59,18" />
+      <scope id="9138875967977267888" at="65,70,66,239" />
+      <scope id="9138875967977280617" at="69,65,70,145" />
+      <scope id="27760747484855407" at="75,28,76,19" />
+      <scope id="27760747484883953" at="81,54,82,38" />
+      <scope id="12196075779129475" at="86,243,87,19" />
+      <scope id="12196075779129604" at="92,58,93,482" />
+      <scope id="3715388205393802007" at="96,57,97,217" />
+      <scope id="8128582796163845326" at="36,74,38,197">
         <var name="leafsAfter" id="8128582796165170745" />
       </scope>
-      <scope id="8128582796163841314" at="30,0,33,0">
+      <scope id="8128582796163841314" at="32,0,35,0">
         <var name="deletedCell" id="8128582796163841270" />
       </scope>
-      <scope id="8945098465480061811" at="39,0,42,0">
+      <scope id="8945098465480061811" at="41,0,44,0">
         <var name="cell" id="8945098465480061748" />
       </scope>
-      <scope id="8945098465480072761" at="43,0,46,0">
+      <scope id="8945098465480072761" at="45,0,48,0">
         <var name="cell" id="8945098465480072696" />
       </scope>
-      <scope id="9138875967977267887" at="63,0,66,0">
+      <scope id="9138875967977267887" at="65,0,68,0">
         <var name="componentDecl" id="9138875967977267968" />
       </scope>
-      <scope id="9138875967977281716" at="67,0,70,0">
+      <scope id="9138875967977281716" at="69,0,72,0">
         <var name="cell" id="9138875967977290896" />
       </scope>
-      <scope id="27760747484883952" at="79,0,82,0">
+      <scope id="27760747484883952" at="81,0,84,0">
         <var name="cell" id="27760747484883972" />
       </scope>
-      <scope id="3715388205393803501" at="83,0,86,0">
+      <scope id="780548849879186049" at="92,0,95,0">
+        <var name="cell" id="12196075779129347" />
+      </scope>
+      <scope id="3715388205393803501" at="96,0,99,0">
         <var name="cell" id="3715388205393804974" />
       </scope>
-      <scope id="8128582796163847674" at="34,0,38,0">
+      <scope id="8128582796163847674" at="36,0,40,0">
         <var name="deletedCell" id="8128582796163845697" />
         <var name="unwrappedLink" id="8128582796163845743" />
       </scope>
-      <scope id="8128582796163729034" at="22,64,27,252">
+      <scope id="12196075779129350" at="85,49,89,162" />
+      <scope id="8128582796163729034" at="24,64,29,252">
         <var name="rootCell" id="7228295058352586582" />
         <var name="wrappedCells" id="7228295058353599953" />
         <var name="wrapperCells" id="7228295058352590681" />
       </scope>
-      <scope id="27760747484852646" at="71,55,76,46">
+      <scope id="27760747484852646" at="73,55,78,46">
         <var name="component" id="27760747484855052" />
       </scope>
-      <scope id="8128582796163806170" at="22,0,29,0">
+      <scope id="12196075779129345" at="85,0,91,0">
+        <var name="flag" id="12196075779129346" />
+      </scope>
+      <scope id="8128582796163806170" at="24,0,31,0">
         <var name="deletedCell" id="8128582796163729989" />
       </scope>
-      <scope id="27760747484853577" at="71,0,78,0">
+      <scope id="27760747484853577" at="73,0,80,0">
         <var name="cell" id="27760747484853507" />
       </scope>
-      <scope id="9138875967977196257" at="47,74,60,17">
+      <scope id="9138875967977196257" at="49,74,62,17">
         <var name="rootCell" id="9138875967976133365" />
       </scope>
-      <scope id="9138875967977199668" at="47,0,62,0">
+      <scope id="9138875967977199668" at="49,0,64,0">
         <var name="componentCell" id="9138875967977196651" />
       </scope>
-      <unit id="8128582796163726706" at="103,0,109,0" name="com.mbeddr.mpsutil.grammarcells.generatorutils.GeneratorUtils$LINKS" />
-      <unit id="8128582796163726706" at="87,0,102,0" name="com.mbeddr.mpsutil.grammarcells.generatorutils.GeneratorUtils$CONCEPTS" />
-      <unit id="8128582796163726706" at="20,0,110,0" name="com.mbeddr.mpsutil.grammarcells.generatorutils.GeneratorUtils" />
+      <unit id="8128582796163726706" at="131,0,134,0" name="com.mbeddr.mpsutil.grammarcells.generatorutils.GeneratorUtils$PROPS" />
+      <unit id="8128582796163726706" at="118,0,130,0" name="com.mbeddr.mpsutil.grammarcells.generatorutils.GeneratorUtils$LINKS" />
+      <unit id="8128582796163726706" at="100,0,117,0" name="com.mbeddr.mpsutil.grammarcells.generatorutils.GeneratorUtils$CONCEPTS" />
+      <unit id="8128582796163726706" at="22,0,135,0" name="com.mbeddr.mpsutil.grammarcells.generatorutils.GeneratorUtils" />
     </file>
   </root>
 </debug-info>

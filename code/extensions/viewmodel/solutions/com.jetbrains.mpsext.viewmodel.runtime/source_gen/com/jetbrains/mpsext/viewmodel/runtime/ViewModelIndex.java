@@ -4,44 +4,61 @@ package com.jetbrains.mpsext.viewmodel.runtime;
 
 import java.util.Map;
 import java.util.List;
-import java.util.Set;
-import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import jetbrains.mps.project.Project;
+import org.jetbrains.mps.openapi.model.SNodeReference;
+import java.util.Set;
+import org.jetbrains.mps.openapi.model.SModelReference;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import org.jetbrains.mps.openapi.model.SModelReference;
 import jetbrains.mps.internal.collections.runtime.IMapping;
+import java.util.Objects;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
 
+/**
+ * The index is used by the change listener in write actions, by writes from any thread with no more than read access,
+ * by readers in read actions on any thread (ViewModels.hasEntries, getDependencies) and by ViewModels.release, which
+ * runs without model access. So its public methods are synchronized on the index instead of relying on the model lock.
+ * Nothing that takes another lock is called while the index is locked.
+ * It has a row for each path that has a value (IndexRow), a reverse index for each kind of dependency (Dependencies)
+ * and one for the nodes in the keys. Which change concerns which dependency is decided in one place, getDependentsOf.
+ */
 public final class ViewModelIndex {
-  private final Map<List<ViewModelKey>, Set<SNodeReference>> dependenciesOf = MapSequence.fromMap(new HashMap<List<ViewModelKey>, Set<SNodeReference>>());
-  private final Map<List<ViewModelKey>, Project> projects = MapSequence.fromMap(new HashMap<List<ViewModelKey>, Project>());
-  private final Map<SNodeReference, Set<List<ViewModelKey>>> dependents = MapSequence.fromMap(new HashMap<SNodeReference, Set<List<ViewModelKey>>>());
+  private final Map<List<ViewModelKey>, IndexRow> rows = MapSequence.fromMap(new HashMap<List<ViewModelKey>, IndexRow>());
+  private final Map<SNodeReference, Set<List<ViewModelKey>>> nodeDependents = MapSequence.fromMap(new HashMap<SNodeReference, Set<List<ViewModelKey>>>());
+  private final Map<SModelReference, Set<List<ViewModelKey>>> rootListDependents = MapSequence.fromMap(new HashMap<SModelReference, Set<List<ViewModelKey>>>());
+  private final Map<SNodeReference, Set<List<ViewModelKey>>> rootDependents = MapSequence.fromMap(new HashMap<SNodeReference, Set<List<ViewModelKey>>>());
   private final Map<SNodeReference, Set<List<ViewModelKey>>> keyed = MapSequence.fromMap(new HashMap<SNodeReference, Set<List<ViewModelKey>>>());
 
   public ViewModelIndex() {
   }
 
-  private static void addTo(Map<SNodeReference, Set<List<ViewModelKey>>> index, SNodeReference ref, List<ViewModelKey> path) {
-    Set<List<ViewModelKey>> paths = MapSequence.fromMap(index).get(ref);
+  private static <K> void addTo(Map<K, Set<List<ViewModelKey>>> index, K key, List<ViewModelKey> path) {
+    Set<List<ViewModelKey>> paths = MapSequence.fromMap(index).get(key);
     if (paths == null) {
       paths = SetSequence.fromSet(new HashSet<List<ViewModelKey>>());
-      MapSequence.fromMap(index).put(ref, paths);
+      MapSequence.fromMap(index).put(key, paths);
     }
     SetSequence.fromSet(paths).addElement(path);
   }
 
-  private static void removeFrom(Map<SNodeReference, Set<List<ViewModelKey>>> index, SNodeReference ref, List<ViewModelKey> path) {
-    Set<List<ViewModelKey>> paths = MapSequence.fromMap(index).get(ref);
+  private static <K> void removeFrom(Map<K, Set<List<ViewModelKey>>> index, K key, List<ViewModelKey> path) {
+    Set<List<ViewModelKey>> paths = MapSequence.fromMap(index).get(key);
     if (paths == null) {
       return;
     }
     SetSequence.fromSet(paths).removeElement(path);
     if (SetSequence.fromSet(paths).isEmpty()) {
-      MapSequence.fromMap(index).removeKey(ref);
+      MapSequence.fromMap(index).removeKey(key);
+    }
+  }
+
+  private static <K> void collect(Map<K, Set<List<ViewModelKey>>> index, K key, Set<List<ViewModelKey>> result) {
+    Set<List<ViewModelKey>> paths = MapSequence.fromMap(index).get(key);
+    if (paths != null) {
+      SetSequence.fromSet(result).addSequence(SetSequence.fromSet(paths));
     }
   }
 
@@ -57,51 +74,42 @@ public final class ViewModelIndex {
     return true;
   }
 
-  public void put(List<ViewModelKey> path, Project project, Set<SNodeReference> dependencies) {
-    synchronized (this) {
-      removeUnsynchronized(path);
-      Set<SNodeReference> deps = SetSequence.fromSet(new HashSet<SNodeReference>());
-      if (dependencies != null) {
-        SetSequence.fromSet(deps).addSequence(SetSequence.fromSet(dependencies));
-      }
-      MapSequence.fromMap(dependenciesOf).put(path, deps);
-      MapSequence.fromMap(projects).put(path, project);
-      for (SNodeReference dep : SetSequence.fromSet(deps)) {
-        addTo(dependents, dep, path);
-      }
-      for (ViewModelKey key : ListSequence.fromList(path)) {
-        if (key instanceof ViewModelNodeKey) {
-          addTo(keyed, ((ViewModelNodeKey) key).getTarget(), path);
-        }
+  public synchronized void put(List<ViewModelKey> path, Dependencies dependencies) {
+    // the dependencies are never null (Dependencies.NONE when there are none)
+    removeUnsynchronized(path);
+    MapSequence.fromMap(rows).put(path, new IndexRow(dependencies));
+    for (SNodeReference ref : SetSequence.fromSet(dependencies.getNodes())) {
+      addTo(nodeDependents, ref, path);
+    }
+    for (SModelReference modelRef : SetSequence.fromSet(dependencies.getRootLists())) {
+      addTo(rootListDependents, modelRef, path);
+    }
+    for (RootDependency root : SetSequence.fromSet(dependencies.getRoots())) {
+      addTo(rootDependents, root.getRoot(), path);
+    }
+    for (ViewModelKey key : ListSequence.fromList(path)) {
+      if (key instanceof ViewModelNodeKey) {
+        addTo(keyed, ((ViewModelNodeKey) key).getTarget(), path);
       }
     }
   }
 
-  public boolean hasSameDependencies(List<ViewModelKey> path, Set<SNodeReference> dependencies) {
-    synchronized (this) {
-      Set<SNodeReference> current = MapSequence.fromMap(dependenciesOf).get(path);
-      if (current == null) {
-        return false;
-      }
-      if (dependencies == null) {
-        return SetSequence.fromSet(current).isEmpty();
-      }
-      return SetSequence.fromSet(current).count() == SetSequence.fromSet(dependencies).count() && SetSequence.fromSet(current).containsSequence(SetSequence.fromSet(dependencies));
-    }
-  }
-
-  public void remove(List<ViewModelKey> path) {
-    synchronized (this) {
-      removeUnsynchronized(path);
-    }
+  public synchronized void remove(List<ViewModelKey> path) {
+    removeUnsynchronized(path);
   }
 
   private void removeUnsynchronized(List<ViewModelKey> path) {
-    Set<SNodeReference> deps = MapSequence.fromMap(dependenciesOf).removeKey(path);
-    MapSequence.fromMap(projects).removeKey(path);
-    if (deps != null) {
-      for (SNodeReference dep : SetSequence.fromSet(deps)) {
-        removeFrom(dependents, dep, path);
+    IndexRow row = MapSequence.fromMap(rows).removeKey(path);
+    if (row != null) {
+      Dependencies deps = row.getDependencies();
+      for (SNodeReference ref : SetSequence.fromSet(deps.getNodes())) {
+        removeFrom(nodeDependents, ref, path);
+      }
+      for (SModelReference modelRef : SetSequence.fromSet(deps.getRootLists())) {
+        removeFrom(rootListDependents, modelRef, path);
+      }
+      for (RootDependency root : SetSequence.fromSet(deps.getRoots())) {
+        removeFrom(rootDependents, root.getRoot(), path);
       }
     }
     for (ViewModelKey key : ListSequence.fromList(path)) {
@@ -111,82 +119,131 @@ public final class ViewModelIndex {
     }
   }
 
-  public void removeWithPrefix(List<ViewModelKey> prefix) {
-    synchronized (this) {
-      List<List<ViewModelKey>> toRemove = ListSequence.fromList(new ArrayList<List<ViewModelKey>>());
-      for (List<ViewModelKey> path : SetSequence.fromSet(MapSequence.fromMap(dependenciesOf).keySet())) {
-        if (startsWith(path, prefix)) {
-          ListSequence.fromList(toRemove).addElement(path);
-        }
-      }
-      for (List<ViewModelKey> path : ListSequence.fromList(toRemove)) {
-        removeUnsynchronized(path);
+  public synchronized void removeWithPrefix(List<ViewModelKey> prefix) {
+    List<List<ViewModelKey>> toRemove = ListSequence.fromList(new ArrayList<List<ViewModelKey>>());
+    for (List<ViewModelKey> path : SetSequence.fromSet(MapSequence.fromMap(rows).keySet())) {
+      if (startsWith(path, prefix)) {
+        ListSequence.fromList(toRemove).addElement(path);
       }
     }
-  }
-
-  public List<List<ViewModelKey>> getDependents(SNodeReference ref) {
-    synchronized (this) {
-      Set<List<ViewModelKey>> paths = MapSequence.fromMap(dependents).get(ref);
-      return ((paths == null ? ListSequence.fromList(new ArrayList<List<ViewModelKey>>()) : ListSequence.fromListWithValues(new ArrayList<List<ViewModelKey>>(), paths)));
+    for (List<ViewModelKey> path : ListSequence.fromList(toRemove)) {
+      removeUnsynchronized(path);
     }
   }
 
-  public List<List<ViewModelKey>> getKeyedBy(SNodeReference ref) {
-    synchronized (this) {
-      Set<List<ViewModelKey>> paths = MapSequence.fromMap(keyed).get(ref);
-      return ((paths == null ? ListSequence.fromList(new ArrayList<List<ViewModelKey>>()) : ListSequence.fromListWithValues(new ArrayList<List<ViewModelKey>>(), paths)));
-    }
-  }
-  public boolean isKeyed(SNodeReference ref) {
-    synchronized (this) {
-      return MapSequence.fromMap(keyed).containsKey(ref);
-    }
-  }
-
-  public List<List<ViewModelKey>> getDependentsInModel(SModelReference model) {
-    synchronized (this) {
-      Set<List<ViewModelKey>> result = SetSequence.fromSet(new HashSet<List<ViewModelKey>>());
-      for (IMapping<SNodeReference, Set<List<ViewModelKey>>> entry : MapSequence.fromMap(dependents)) {
-        if (model.equals(entry.key().getModelReference())) {
+  public synchronized List<List<ViewModelKey>> getDependentsOf(ModelChange change) {
+    // The paths whose values depend on something that the change changed:
+    // - a dependency on a node whose properties, references or children changed, or on a removed node;
+    // - a dependency on the roots of the model, when a root was added or removed;
+    // - a dependency on the subtree of the root: every one when the root itself was added or removed, otherwise those
+    // that may have read a changed or removed node (mayHaveRead);
+    // - every dependency in the model, when the whole model changed.
+    Set<List<ViewModelKey>> result = SetSequence.fromSet(new HashSet<List<ViewModelKey>>());
+    SModelReference modelRef = change.getModel();
+    if (change.isWholeModel()) {
+      for (IMapping<SNodeReference, Set<List<ViewModelKey>>> entry : MapSequence.fromMap(nodeDependents)) {
+        if (Objects.equals(modelRef, SPointerOperations.getModel(entry.key()))) {
           SetSequence.fromSet(result).addSequence(SetSequence.fromSet(entry.value()));
         }
       }
-      return ListSequence.fromListWithValues(new ArrayList<List<ViewModelKey>>(), result);
-    }
-  }
-
-  public List<List<ViewModelKey>> getKeyedInModel(SModelReference model) {
-    synchronized (this) {
-      Set<List<ViewModelKey>> result = SetSequence.fromSet(new HashSet<List<ViewModelKey>>());
-      for (IMapping<SNodeReference, Set<List<ViewModelKey>>> entry : MapSequence.fromMap(keyed)) {
-        if (model.equals(entry.key().getModelReference())) {
+      for (IMapping<SNodeReference, Set<List<ViewModelKey>>> entry : MapSequence.fromMap(rootDependents)) {
+        if (Objects.equals(modelRef, SPointerOperations.getModel(entry.key()))) {
           SetSequence.fromSet(result).addSequence(SetSequence.fromSet(entry.value()));
         }
       }
+      collect(rootListDependents, modelRef, result);
       return ListSequence.fromListWithValues(new ArrayList<List<ViewModelKey>>(), result);
     }
-  }
-  public Project getProject(List<ViewModelKey> path) {
-    synchronized (this) {
-      return MapSequence.fromMap(projects).get(path);
+    for (SNodeReference ref : ListSequence.fromList(change.getChanged())) {
+      collect(nodeDependents, ref, result);
     }
+    for (SNodeReference ref : ListSequence.fromList(change.getRemoved())) {
+      collect(nodeDependents, ref, result);
+    }
+    if (change.isRootAddedOrRemoved()) {
+      collect(rootListDependents, modelRef, result);
+      collect(rootDependents, change.getRoot(), result);
+      return ListSequence.fromListWithValues(new ArrayList<List<ViewModelKey>>(), result);
+    }
+    Set<List<ViewModelKey>> belowRoot = MapSequence.fromMap(rootDependents).get(change.getRoot());
+    if (belowRoot != null) {
+      for (List<ViewModelKey> path : SetSequence.fromSet(belowRoot)) {
+        if (mayHaveRead(MapSequence.fromMap(rows).get(path), change)) {
+          SetSequence.fromSet(result).addElement(path);
+        }
+      }
+    }
+    return ListSequence.fromListWithValues(new ArrayList<List<ViewModelKey>>(), result);
   }
 
-  public Set<SNodeReference> getDependencies(List<ViewModelKey> path) {
-    // a copy; empty when the path has no entry
-    synchronized (this) {
-      Set<SNodeReference> deps = MapSequence.fromMap(dependenciesOf).get(path);
-      return ((deps == null ? SetSequence.fromSet(new HashSet<SNodeReference>()) : SetSequence.fromSetWithValues(new HashSet<SNodeReference>(), deps)));
+  /**
+   * Returns whether the computation of the row may have read a node that the change below one of its roots changed
+   * or removed. Only the dependencies of the row on that root are asked: always when one of them has no filter,
+   * otherwise when its filter may contain such a node. So the dependencies of several computations merged with union
+   * are as precise as those of each. The dependencies on the root are found by their equals, one lookup for each
+   * distinct filter of the row (IndexRow) instead of a pass over all its dependencies on roots.
+   */
+  private static boolean mayHaveRead(IndexRow row, ModelChange change) {
+    Set<RootDependency> roots = row.getDependencies().getRoots();
+    SNodeReference root = change.getRoot();
+    if (row.dependsOnAWholeSubtree() && SetSequence.fromSet(roots).contains(new RootDependency(root))) {
+      return true;
     }
+    if (row.getFilters() == null) {
+      return false;
+    }
+    for (NodeFilter filter : ListSequence.fromList(row.getFilters())) {
+      if (!(SetSequence.fromSet(roots).contains(new RootDependency(root, filter)))) {
+        continue;
+      }
+      for (SNodeReference ref : ListSequence.fromList(change.getChanged())) {
+        if (filter.mightContain(ref)) {
+          return true;
+        }
+      }
+      for (SNodeReference ref : ListSequence.fromList(change.getRemoved())) {
+        if (filter.mightContain(ref)) {
+          return true;
+        }
+      }
+    }
+    return false;
   }
 
-  public void clear() {
-    synchronized (this) {
-      MapSequence.fromMap(dependenciesOf).clear();
-      MapSequence.fromMap(projects).clear();
-      MapSequence.fromMap(dependents).clear();
-      MapSequence.fromMap(keyed).clear();
+  public synchronized List<List<ViewModelKey>> getKeyedBy(SNodeReference ref) {
+    Set<List<ViewModelKey>> paths = MapSequence.fromMap(keyed).get(ref);
+    return ((paths == null ? ListSequence.fromList(new ArrayList<List<ViewModelKey>>()) : ListSequence.fromListWithValues(new ArrayList<List<ViewModelKey>>(), paths)));
+  }
+  public synchronized boolean isKeyed(SNodeReference ref) {
+    return MapSequence.fromMap(keyed).containsKey(ref);
+  }
+
+  public synchronized List<List<ViewModelKey>> getKeyedInModel(SModelReference model) {
+    Set<List<ViewModelKey>> result = SetSequence.fromSet(new HashSet<List<ViewModelKey>>());
+    for (IMapping<SNodeReference, Set<List<ViewModelKey>>> entry : MapSequence.fromMap(keyed)) {
+      if (Objects.equals(model, SPointerOperations.getModel(entry.key()))) {
+        SetSequence.fromSet(result).addSequence(SetSequence.fromSet(entry.value()));
+      }
     }
+    return ListSequence.fromListWithValues(new ArrayList<List<ViewModelKey>>(), result);
+  }
+
+  public synchronized Dependencies getDependencies(List<ViewModelKey> path) {
+    // Dependencies.NONE when the path has no entry; no copy is needed, as they are immutable
+    IndexRow row = MapSequence.fromMap(rows).get(path);
+    return ((row == null ? Dependencies.NONE : row.getDependencies()));
+  }
+  public synchronized int countDependencies(List<ViewModelKey> path) {
+    // 0 when the path has no entry
+    IndexRow row = MapSequence.fromMap(rows).get(path);
+    return ((row == null ? 0 : row.getDependencies().size()));
+  }
+
+  public synchronized void clear() {
+    MapSequence.fromMap(rows).clear();
+    MapSequence.fromMap(nodeDependents).clear();
+    MapSequence.fromMap(rootListDependents).clear();
+    MapSequence.fromMap(rootDependents).clear();
+    MapSequence.fromMap(keyed).clear();
   }
 }

@@ -571,14 +571,26 @@
           </node>
         </node>
         <node concept="3vlDli" id="2JDrrqkmcx1" role="3cqZAp">
-          <node concept="37vLTw" id="2JDrrqkmcyC" role="3tpDZB">
-            <ref role="3cqZAo" node="2JDrrqjTMer" resolve="expected" />
-          </node>
           <node concept="2YIFZM" id="2JDrrqkmc$1" role="3tpDZA">
             <ref role="37wK5l" to="ao3:~TextGeneratorEngine.generateText(org.jetbrains.mps.openapi.model.SNode)" resolve="generateText" />
             <ref role="1Pybhc" to="ao3:~TextGeneratorEngine" resolve="TextGeneratorEngine" />
             <node concept="37vLTw" id="2JDrrqkmc$2" role="37wK5m">
               <ref role="3cqZAo" node="2JDrrqjTMjt" resolve="parsedNode" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4yFmpNM8m8w" role="3tpDZB">
+            <node concept="37vLTw" id="2JDrrqkmcyC" role="2Oq$k0">
+              <ref role="3cqZAo" node="2JDrrqjTMer" resolve="expected" />
+            </node>
+            <node concept="liA8E" id="4yFmpNM8m8x" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
+              <node concept="Xl_RD" id="4yFmpNM8m8y" role="37wK5m">
+                <property role="Xl_RC" value="\n" />
+              </node>
+              <node concept="2YIFZM" id="4yFmpNM8m8z" role="37wK5m">
+                <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                <ref role="37wK5l" to="wyt6:~System.lineSeparator()" resolve="lineSeparator" />
+              </node>
             </node>
           </node>
         </node>
@@ -609,14 +621,26 @@
       <node concept="3cqZAl" id="2JDrrqkImL6" role="3clF45" />
       <node concept="3clFbS" id="2JDrrqkImL7" role="3clF47">
         <node concept="3vlDli" id="2JDrrqkImLs" role="3cqZAp">
-          <node concept="Xl_RD" id="2JDrrqkJ6bl" role="3tpDZB">
-            <property role="Xl_RC" value="{\n  \&quot;hello\&quot; : \&quot;world\&quot;\n}" />
-          </node>
           <node concept="2YIFZM" id="2JDrrqkIFSD" role="3tpDZA">
             <ref role="37wK5l" to="ao3:~TextGeneratorEngine.generateText(org.jetbrains.mps.openapi.model.SNode)" resolve="generateText" />
             <ref role="1Pybhc" to="ao3:~TextGeneratorEngine" resolve="TextGeneratorEngine" />
             <node concept="3xONca" id="2JDrrqkIFTd" role="37wK5m">
               <ref role="3xOPvv" node="2JDrrqkIFSy" resolve="input" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4yFmpNM8me$" role="3tpDZB">
+            <node concept="Xl_RD" id="2JDrrqkJ6bl" role="2Oq$k0">
+              <property role="Xl_RC" value="{\n  \&quot;hello\&quot; : \&quot;world\&quot;\n}" />
+            </node>
+            <node concept="liA8E" id="4yFmpNM8me_" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
+              <node concept="Xl_RD" id="4yFmpNM8meA" role="37wK5m">
+                <property role="Xl_RC" value="\n" />
+              </node>
+              <node concept="2YIFZM" id="4yFmpNM8meB" role="37wK5m">
+                <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                <ref role="37wK5l" to="wyt6:~System.lineSeparator()" resolve="lineSeparator" />
+              </node>
             </node>
           </node>
         </node>
@@ -665,11 +689,23 @@
           </node>
         </node>
         <node concept="3vlDli" id="2JDrrqkKjlR" role="3cqZAp">
-          <node concept="Xl_RD" id="2JDrrqkKjlS" role="3tpDZB">
-            <property role="Xl_RC" value="{\n  hello : \&quot;world\&quot;\n}" />
-          </node>
           <node concept="37vLTw" id="2JDrrqkOUg3" role="3tpDZA">
             <ref role="3cqZAo" node="2JDrrqkOUg0" resolve="output" />
+          </node>
+          <node concept="2OqwBi" id="4yFmpNM8mhC" role="3tpDZB">
+            <node concept="Xl_RD" id="2JDrrqkKjlS" role="2Oq$k0">
+              <property role="Xl_RC" value="{\n  hello : \&quot;world\&quot;\n}" />
+            </node>
+            <node concept="liA8E" id="4yFmpNM8mhD" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
+              <node concept="Xl_RD" id="4yFmpNM8mhE" role="37wK5m">
+                <property role="Xl_RC" value="\n" />
+              </node>
+              <node concept="2YIFZM" id="4yFmpNM8mhF" role="37wK5m">
+                <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                <ref role="37wK5l" to="wyt6:~System.lineSeparator()" resolve="lineSeparator" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

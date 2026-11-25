@@ -120,7 +120,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createReadOnlyModelAccessor_0() {
     EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new ModelAccessor.ReadOnly() {
       public String getText() {
-        Object value = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").forRepository(getEditorContext().getRepository()).get(myNode);
+        Object value = ViewModels.named("test.com.jetbrains.mpsext.viewmodel.lang.viewmodels.Results").get(myNode);
         return ((value == null ? "<none>" : value.toString()));
       }
     }, myNode);

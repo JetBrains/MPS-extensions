@@ -20,6 +20,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jsoup.nodes.Document;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPointerOperations;
 import jetbrains.mps.smodel.SNodePointer;
 
@@ -43,6 +44,14 @@ public class StableIDTest_Test extends BaseTransformationTest {
   @Test
   public void test_checkForStableIDInHtmlFile() throws Throwable {
     new TestBody(this).test_checkForStableIDInHtmlFile();
+  }
+  @Test
+  public void test_multiLineTextBecomesLineBreaks() throws Throwable {
+    new TestBody(this).test_multiLineTextBecomesLineBreaks();
+  }
+  @Test
+  public void test_imagePathsUseForwardSlashes() throws Throwable {
+    new TestBody(this).test_imagePathsUseForwardSlashes();
   }
 
   /*package*/ static class TestBody extends BaseTestBody {
@@ -85,6 +94,30 @@ public class StableIDTest_Test extends BaseTransformationTest {
         Assert.assertTrue("No stable ID found for header", sectionHeader != null);
       });
     }
+    public void test_multiLineTextBecomesLineBreaks() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        IFile file = TestBody.this.getModuleRelativePath((AbstractModule) SNodeOperations.getModel(TestBody.this.firstSection()).getModule(), "doc_gen/com/mbeddr/doc/test/documents/doc1/myDocument.html");
+        Document html = Jsoup.parse(file.openInputStream(), "UTF-8", "");
+        Assert.assertTrue("No JSoup document parsed from myDocument.html", html != null);
+        Element sectionHeader = html.getElementById(TestBody.this.firstSectionStableID());
+        Assert.assertTrue("No header with the stable ID of the first section in myDocument.html", sectionHeader != null);
+        Assert.assertEquals("Each line break in the text of the first section of myDocument should become a <br/> element", Integer.valueOf(4), Integer.valueOf(sectionHeader.nextElementSibling().select("br").size()));
+      });
+    }
+    public void test_imagePathsUseForwardSlashes() throws Exception {
+      initTestNodes();
+      runWithinCommand(() -> {
+        IFile file = TestBody.this.getModuleRelativePath((AbstractModule) SNodeOperations.getModel(TestBody.this.firstSection()).getModule(), "doc_gen/com/mbeddr/doc/test/documents/doc1/myDocument.html");
+        Document html = Jsoup.parse(file.openInputStream(), "UTF-8", "");
+        Assert.assertTrue("No JSoup document parsed from myDocument.html", html != null);
+        Elements images = html.select("img[src]");
+        Assert.assertFalse("No images in myDocument.html", images.isEmpty());
+        for (Element image : images) {
+          Assert.assertFalse("Image path in myDocument.html contains a backslash: " + image.attr("src"), image.attr("src").contains("\\"));
+        }
+      });
+    }
 
     public SNode sectionInQuestion() {
       return SPointerOperations.resolveNode(new SNodePointer("r:260e0933-d20e-4f4f-88cb-1c3cbbf973a8(com.mbeddr.doc.test.documents.doc2_1)", "5231743971201397656"), myModel.getRepository());
@@ -105,6 +138,12 @@ public class StableIDTest_Test extends BaseTransformationTest {
     }
     public String sectionStableID() {
       return StableIdHelper.getStableId(this.sectionInQuestion());
+    }
+    public SNode firstSection() {
+      return SPointerOperations.resolveNode(new SNodePointer("r:c53335b0-80af-4f94-bce8-bcedc5826e64(com.mbeddr.doc.test.documents.doc1)", "5075049671772234434"), myModel.getRepository());
+    }
+    public String firstSectionStableID() {
+      return StableIdHelper.getStableId(this.firstSection());
     }
   }
 }

@@ -59,6 +59,9 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -134,6 +137,9 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
+      <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
+        <property id="1200397540847" name="charConstant" index="1XhdNS" />
+      </concept>
     </language>
     <language id="696c1165-4a59-463b-bc5d-902caab85dd0" name="jetbrains.mps.make.facet">
       <concept id="6418371274763029565" name="jetbrains.mps.make.facet.structure.TargetDeclaration" flags="ng" index="15KeUm">
@@ -714,12 +720,24 @@
             <node concept="3cpWs6" id="10MSw5ZFcfy" role="3cqZAp">
               <node concept="3cpWs3" id="10MSw5ZFM_k" role="3cqZAk">
                 <node concept="3cpWs3" id="10MSw5ZFM_l" role="3uHU7B">
-                  <node concept="2OqwBi" id="10MSw5ZFM_m" role="3uHU7B">
-                    <node concept="37vLTw" id="10MSw5ZFM_n" role="2Oq$k0">
-                      <ref role="3cqZAo" node="10MSw5ZF8Nm" resolve="relativePath" />
+                  <node concept="2OqwBi" id="Db3u18WMvt" role="3uHU7B">
+                    <node concept="2OqwBi" id="10MSw5ZFM_m" role="2Oq$k0">
+                      <node concept="37vLTw" id="10MSw5ZFM_n" role="2Oq$k0">
+                        <ref role="3cqZAo" node="10MSw5ZF8Nm" resolve="relativePath" />
+                      </node>
+                      <node concept="liA8E" id="10MSw5ZFM_o" role="2OqNvi">
+                        <ref role="37wK5l" to="eoo2:~Path.toString()" resolve="toString" />
+                      </node>
                     </node>
-                    <node concept="liA8E" id="10MSw5ZFM_o" role="2OqNvi">
-                      <ref role="37wK5l" to="eoo2:~Path.toString()" resolve="toString" />
+                    <node concept="liA8E" id="Db3u18WMvu" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.replace(char,char)" resolve="replace" />
+                      <node concept="10M0yZ" id="Db3u18WMvw" role="37wK5m">
+                        <ref role="3cqZAo" to="guwi:~File.separatorChar" resolve="separatorChar" />
+                        <ref role="1PxDUh" to="guwi:~File" resolve="File" />
+                      </node>
+                      <node concept="1Xhbcc" id="Db3u18WMvv" role="37wK5m">
+                        <property role="1XhdNS" value="/" />
+                      </node>
                     </node>
                   </node>
                   <node concept="Xl_RD" id="10MSw5ZFM_p" role="3uHU7w">

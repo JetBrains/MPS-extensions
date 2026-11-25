@@ -50,7 +50,7 @@ public class DontQuoteFieldNamesExtension_Test extends BaseTransformationTest {
 
     public void test_Quote() throws Exception {
       initTestNodes();
-      runWithinCommand(() -> Assert.assertEquals("{\n  \"hello\" : \"world\"\n}", TextGeneratorEngine.generateText(getAnnotatedNode("input"))));
+      runWithinCommand(() -> Assert.assertEquals("{\n  \"hello\" : \"world\"\n}".replace("\n", System.lineSeparator()), TextGeneratorEngine.generateText(getAnnotatedNode("input"))));
     }
     public void test_DontQuote() throws Exception {
       initTestNodes();
@@ -58,7 +58,7 @@ public class DontQuoteFieldNamesExtension_Test extends BaseTransformationTest {
         DontQuoteFieldNames.PRIORITY = Integer.MAX_VALUE;
         String output = TextGeneratorEngine.generateText(getAnnotatedNode("input"));
         DontQuoteFieldNames.PRIORITY = -1;
-        Assert.assertEquals("{\n  hello : \"world\"\n}", output);
+        Assert.assertEquals("{\n  hello : \"world\"\n}".replace("\n", System.lineSeparator()), output);
       });
     }
 

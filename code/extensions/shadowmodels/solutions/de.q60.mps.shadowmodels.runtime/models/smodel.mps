@@ -9,6 +9,7 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="da8e6b62-7ca3-4489-86bc-b70a501ca28f" name="de.q60.mps.incremental" version="0" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -63,6 +64,8 @@
     <import index="z1o6" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.serviceContainer(MPS.IDEA/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
+    <import index="ixe9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.concurrency(MPS.IDEA/)" />
+    <import index="5zyv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent(JDK/)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" implicit="true" />
     <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" implicit="true" />
@@ -15132,6 +15135,189 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3SKdUt" id="7R1LA$cDPlc" role="3cqZAp">
+                        <node concept="1PaTwC" id="7R1LA$cDPld" role="1aUNEU">
+                          <node concept="3oM_SD" id="7R1LA$cDPlf" role="1PaTwD">
+                            <property role="3oM_SC" value="A" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlg" role="1PaTwD">
+                            <property role="3oM_SC" value="command" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlh" role="1PaTwD">
+                            <property role="3oM_SC" value="cannot" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPli" role="1PaTwD">
+                            <property role="3oM_SC" value="start" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlj" role="1PaTwD">
+                            <property role="3oM_SC" value="while" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlk" role="1PaTwD">
+                            <property role="3oM_SC" value="this" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPll" role="1PaTwD">
+                            <property role="3oM_SC" value="thread" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlm" role="1PaTwD">
+                            <property role="3oM_SC" value="holds" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPln" role="1PaTwD">
+                            <property role="3oM_SC" value="a" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlo" role="1PaTwD">
+                            <property role="3oM_SC" value="model" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlp" role="1PaTwD">
+                            <property role="3oM_SC" value="read." />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlq" role="1PaTwD">
+                            <property role="3oM_SC" value="This" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlr" role="1PaTwD">
+                            <property role="3oM_SC" value="happens" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPls" role="1PaTwD">
+                            <property role="3oM_SC" value="when" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlt" role="1PaTwD">
+                            <property role="3oM_SC" value="code" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlu" role="1PaTwD">
+                            <property role="3oM_SC" value="opens" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlv" role="1PaTwD">
+                            <property role="3oM_SC" value="an" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlw" role="1PaTwD">
+                            <property role="3oM_SC" value="editor" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlx" role="1PaTwD">
+                            <property role="3oM_SC" value="inside" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPly" role="1PaTwD">
+                            <property role="3oM_SC" value="a" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlz" role="1PaTwD">
+                            <property role="3oM_SC" value="read" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPl$" role="1PaTwD">
+                            <property role="3oM_SC" value="action:" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPl_" role="1PaTwD">
+                            <property role="3oM_SC" value="FileEditorManager" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlA" role="1PaTwD">
+                            <property role="3oM_SC" value="pumps" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlB" role="1PaTwD">
+                            <property role="3oM_SC" value="EDT" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlC" role="1PaTwD">
+                            <property role="3oM_SC" value="events" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlD" role="1PaTwD">
+                            <property role="3oM_SC" value="while" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlE" role="1PaTwD">
+                            <property role="3oM_SC" value="it" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlF" role="1PaTwD">
+                            <property role="3oM_SC" value="waits" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlG" role="1PaTwD">
+                            <property role="3oM_SC" value="for" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlH" role="1PaTwD">
+                            <property role="3oM_SC" value="the" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlI" role="1PaTwD">
+                            <property role="3oM_SC" value="editor." />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlJ" role="1PaTwD">
+                            <property role="3oM_SC" value="Retry" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlK" role="1PaTwD">
+                            <property role="3oM_SC" value="after" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlL" role="1PaTwD">
+                            <property role="3oM_SC" value="a" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlM" role="1PaTwD">
+                            <property role="3oM_SC" value="short" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlN" role="1PaTwD">
+                            <property role="3oM_SC" value="delay" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlO" role="1PaTwD">
+                            <property role="3oM_SC" value="so" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlP" role="1PaTwD">
+                            <property role="3oM_SC" value="that" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlQ" role="1PaTwD">
+                            <property role="3oM_SC" value="the" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlR" role="1PaTwD">
+                            <property role="3oM_SC" value="read" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlS" role="1PaTwD">
+                            <property role="3oM_SC" value="action" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlT" role="1PaTwD">
+                            <property role="3oM_SC" value="can" />
+                          </node>
+                          <node concept="3oM_SD" id="7R1LA$cDPlU" role="1PaTwD">
+                            <property role="3oM_SC" value="end." />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="7R1LA$cDPkT" role="3cqZAp">
+                        <node concept="2YIFZM" id="7R1LA$cDPml" role="3clFbw">
+                          <ref role="1Pybhc" node="6FW8YbU5vOS" resolve="SM_CommandHelper" />
+                          <ref role="37wK5l" node="7R1LA$cDrr4" resolve="isInsideReadAction" />
+                        </node>
+                        <node concept="3clFbS" id="7R1LA$cDPkW" role="3clFbx">
+                          <node concept="3clFbF" id="7R1LA$cDPkX" role="3cqZAp">
+                            <node concept="2OqwBi" id="7R1LA$cE1em" role="3clFbG">
+                              <node concept="2YIFZM" id="7R1LA$cDYid" role="2Oq$k0">
+                                <ref role="1Pybhc" to="ixe9:~AppExecutorUtil" resolve="AppExecutorUtil" />
+                                <ref role="37wK5l" to="ixe9:~AppExecutorUtil.getAppScheduledExecutorService()" resolve="getAppScheduledExecutorService" />
+                              </node>
+                              <node concept="liA8E" id="7R1LA$cE1en" role="2OqNvi">
+                                <ref role="37wK5l" to="5zyv:~ScheduledExecutorService.schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)" resolve="schedule" />
+                                <node concept="2ShNRf" id="7R1LA$cE1eo" role="37wK5m">
+                                  <node concept="YeOm9" id="7R1LA$cE1ep" role="2ShVmc">
+                                    <node concept="1Y3b0j" id="7R1LA$cE1eq" role="YeSDq">
+                                      <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
+                                      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                                      <node concept="3clFb_" id="7R1LA$cE1er" role="jymVt">
+                                        <property role="TrG5h" value="run" />
+                                        <node concept="3clFbS" id="7R1LA$cE1es" role="3clF47">
+                                          <node concept="3clFbF" id="7R1LA$cE1et" role="3cqZAp">
+                                            <node concept="1rXfSq" id="7R1LA$cE1eu" role="3clFbG">
+                                              <ref role="37wK5l" node="6FW8YbU0IOq" resolve="enqueueFlush" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="3Tm1VV" id="7R1LA$cE1ev" role="1B3o_S" />
+                                        <node concept="3cqZAl" id="7R1LA$cE1ew" role="3clF45" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3cmrfG" id="7R1LA$cE1ex" role="37wK5m">
+                                  <property role="3cmrfH" value="10" />
+                                </node>
+                                <node concept="Rm8GO" id="7R1LA$cE1ey" role="37wK5m">
+                                  <ref role="1Px2BO" to="5zyv:~TimeUnit" resolve="TimeUnit" />
+                                  <ref role="Rm8GQ" to="5zyv:~TimeUnit.MILLISECONDS" resolve="MILLISECONDS" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3cpWs6" id="7R1LA$cDPlb" role="3cqZAp" />
+                        </node>
+                      </node>
                       <node concept="3clFbJ" id="1fpIz1gmBSk" role="3cqZAp">
                         <node concept="3clFbS" id="1fpIz1gmBSm" role="3clFbx">
                           <node concept="3clFbF" id="6FW8YbU5EKP" role="3cqZAp">
@@ -18119,6 +18305,75 @@
       <node concept="3Tm1VV" id="6FW8YbU5wRP" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="6HiBqPCpBVg" role="jymVt" />
+    <node concept="2YIFZL" id="7R1LA$cDrr4" role="jymVt">
+      <property role="TrG5h" value="isInsideReadAction" />
+      <node concept="3clFbS" id="7R1LA$cDrr5" role="3clF47">
+        <node concept="3cpWs8" id="7R1LA$cDrr7" role="3cqZAp">
+          <node concept="3cpWsn" id="7R1LA$cDrr6" role="3cpWs9">
+            <property role="TrG5h" value="project" />
+            <node concept="3uibUv" id="7R1LA$cDrr8" role="1tU5fm">
+              <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+            </node>
+            <node concept="1rXfSq" id="7R1LA$cDrr9" role="33vP2m">
+              <ref role="37wK5l" node="6HiBqPCpI$v" resolve="getProject" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7R1LA$cDrra" role="3cqZAp">
+          <node concept="3clFbC" id="7R1LA$cDrrb" role="3clFbw">
+            <node concept="37vLTw" id="7R1LA$cDrrc" role="3uHU7B">
+              <ref role="3cqZAo" node="7R1LA$cDrr6" resolve="project" />
+            </node>
+            <node concept="10Nm6u" id="7R1LA$cDrrd" role="3uHU7w" />
+          </node>
+          <node concept="3clFbS" id="7R1LA$cDrrf" role="3clFbx">
+            <node concept="3cpWs6" id="7R1LA$cDrrg" role="3cqZAp">
+              <node concept="3clFbT" id="7R1LA$cDrrh" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7R1LA$cDrrj" role="3cqZAp">
+          <node concept="3cpWsn" id="7R1LA$cDrri" role="3cpWs9">
+            <property role="TrG5h" value="modelAccess" />
+            <node concept="3uibUv" id="7R1LA$cDrrk" role="1tU5fm">
+              <ref role="3uigEE" to="lui2:~ModelAccess" resolve="ModelAccess" />
+            </node>
+            <node concept="2OqwBi" id="7R1LA$cDPjL" role="33vP2m">
+              <node concept="37vLTw" id="7R1LA$cDPiV" role="2Oq$k0">
+                <ref role="3cqZAo" node="7R1LA$cDrr6" resolve="project" />
+              </node>
+              <node concept="liA8E" id="7R1LA$cDPjM" role="2OqNvi">
+                <ref role="37wK5l" to="z1c3:~Project.getModelAccess()" resolve="getModelAccess" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7R1LA$cDrrm" role="3cqZAp">
+          <node concept="1Wc70l" id="7R1LA$cDrrn" role="3cqZAk">
+            <node concept="2OqwBi" id="7R1LA$cDPjX" role="3uHU7B">
+              <node concept="37vLTw" id="7R1LA$cDPj3" role="2Oq$k0">
+                <ref role="3cqZAo" node="7R1LA$cDrri" resolve="modelAccess" />
+              </node>
+              <node concept="liA8E" id="7R1LA$cDPjY" role="2OqNvi">
+                <ref role="37wK5l" to="lui2:~ModelAccess.canRead()" resolve="canRead" />
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="7R1LA$cDrrp" role="3uHU7w">
+              <node concept="2OqwBi" id="7R1LA$cDPk9" role="3fr31v">
+                <node concept="37vLTw" id="7R1LA$cDPjb" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7R1LA$cDrri" resolve="modelAccess" />
+                </node>
+                <node concept="liA8E" id="7R1LA$cDPka" role="2OqNvi">
+                  <ref role="37wK5l" to="lui2:~ModelAccess.canWrite()" resolve="canWrite" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7R1LA$cDrrr" role="1B3o_S" />
+      <node concept="10P_77" id="7R1LA$cDrrs" role="3clF45" />
+    </node>
     <node concept="2YIFZL" id="6HiBqPCpI$v" role="jymVt">
       <property role="TrG5h" value="getProject" />
       <node concept="3clFbS" id="6HiBqPCpCC9" role="3clF47">

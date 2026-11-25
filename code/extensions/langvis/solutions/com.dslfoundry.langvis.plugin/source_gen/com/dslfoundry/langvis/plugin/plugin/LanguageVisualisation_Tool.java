@@ -13,6 +13,7 @@ import javax.swing.JCheckBox;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindowAnchor;
 import java.awt.BorderLayout;
+import com.intellij.openapi.wm.ToolWindowManager;
 import jetbrains.mps.workbench.action.BaseGroup;
 import jetbrains.mps.workbench.action.ActionUtils;
 import javax.swing.JComponent;
@@ -56,9 +57,17 @@ public class LanguageVisualisation_Tool extends GeneratedTool {
     LanguageVisualisation_Tool.this.mainPanel = new JPanel();
     LanguageVisualisation_Tool.this.mainPanel.setLayout(new BorderLayout());
 
-    BaseGroup group = ActionUtils.getGroup("com.dslfoundry.langvis.plugin.plugin.Toolbar_ActionGroup");
-    JComponent toolbar = ActionManager.getInstance().createActionToolbar(ActionPlaces.TOOLBAR, group, true).getComponent();
-    LanguageVisualisation_Tool.this.mainPanel.add(toolbar, BorderLayout.PAGE_START);
+    // MPS registers the action groups (application plugins) and initializes the tools (project plugins) in one EDT event,
+    // in no fixed order, so group<Toolbar> can still be null here. The toolbar is created in a later EDT event.
+    ToolWindowManager.getInstance(LanguageVisualisation_Tool.this.ideaProject).invokeLater(() -> {
+      if (LanguageVisualisation_Tool.this.ideaProject.isDisposed()) {
+        return;
+      }
+      BaseGroup group = ActionUtils.getGroup("com.dslfoundry.langvis.plugin.plugin.Toolbar_ActionGroup");
+      JComponent toolbar = ActionManager.getInstance().createActionToolbar(ActionPlaces.TOOLBAR, group, true).getComponent();
+      LanguageVisualisation_Tool.this.mainPanel.add(toolbar, BorderLayout.PAGE_START);
+      LanguageVisualisation_Tool.this.mainPanel.revalidate();
+    });
 
     LanguageVisualisation_Tool.this.imageViewer = new ImageViewer();
     JScrollPane diagramScroller = new JScrollPane(LanguageVisualisation_Tool.this.imageViewer);

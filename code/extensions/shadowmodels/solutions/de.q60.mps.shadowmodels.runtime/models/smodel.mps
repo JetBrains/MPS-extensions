@@ -15056,6 +15056,142 @@
       <node concept="3clFbS" id="6FW8YbU0IOu" role="3clF47">
         <node concept="3clFbJ" id="6FW8YbU0d$p" role="3cqZAp">
           <node concept="3clFbS" id="6FW8YbU0d$r" role="3clFbx">
+            <node concept="3SKdUt" id="59qHJcZaYT9" role="3cqZAp">
+              <node concept="1PaTwC" id="59qHJcZaYTa" role="1aUNEU">
+                <node concept="3oM_SD" id="59qHJcZaYTb" role="1PaTwD">
+                  <property role="3oM_SC" value="The" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTc" role="1PaTwD">
+                  <property role="3oM_SC" value="flush" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTd" role="1PaTwD">
+                  <property role="3oM_SC" value="runs" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTe" role="1PaTwD">
+                  <property role="3oM_SC" value="on" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTf" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTg" role="1PaTwD">
+                  <property role="3oM_SC" value="EDT" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTh" role="1PaTwD">
+                  <property role="3oM_SC" value="because" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTi" role="1PaTwD">
+                  <property role="3oM_SC" value="SM_CommandHelper.runInCommand" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTj" role="1PaTwD">
+                  <property role="3oM_SC" value="executes" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTk" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTl" role="1PaTwD">
+                  <property role="3oM_SC" value="command" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTm" role="1PaTwD">
+                  <property role="3oM_SC" value="there." />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTn" role="1PaTwD">
+                  <property role="3oM_SC" value="ModalityState.nonModal()" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTo" role="1PaTwD">
+                  <property role="3oM_SC" value="keeps" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTp" role="1PaTwD">
+                  <property role="3oM_SC" value="it" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTq" role="1PaTwD">
+                  <property role="3oM_SC" value="out" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTr" role="1PaTwD">
+                  <property role="3oM_SC" value="of" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTs" role="1PaTwD">
+                  <property role="3oM_SC" value="modal" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTt" role="1PaTwD">
+                  <property role="3oM_SC" value="dialogs" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTu" role="1PaTwD">
+                  <property role="3oM_SC" value="and" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTv" role="1PaTwD">
+                  <property role="3oM_SC" value="progress:" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTw" role="1PaTwD">
+                  <property role="3oM_SC" value="inside" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTx" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTy" role="1PaTwD">
+                  <property role="3oM_SC" value="modal" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTz" role="1PaTwD">
+                  <property role="3oM_SC" value="Make" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYT$" role="1PaTwD">
+                  <property role="3oM_SC" value="progress" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYT_" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTA" role="1PaTwD">
+                  <property role="3oM_SC" value="command's" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTB" role="1PaTwD">
+                  <property role="3oM_SC" value="write" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTC" role="1PaTwD">
+                  <property role="3oM_SC" value="action" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTD" role="1PaTwD">
+                  <property role="3oM_SC" value="waits" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTE" role="1PaTwD">
+                  <property role="3oM_SC" value="until" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTF" role="1PaTwD">
+                  <property role="3oM_SC" value="generation" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTG" role="1PaTwD">
+                  <property role="3oM_SC" value="releases" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTH" role="1PaTwD">
+                  <property role="3oM_SC" value="its" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTI" role="1PaTwD">
+                  <property role="3oM_SC" value="read" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTJ" role="1PaTwD">
+                  <property role="3oM_SC" value="lock," />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTK" role="1PaTwD">
+                  <property role="3oM_SC" value="and" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTL" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTM" role="1PaTwD">
+                  <property role="3oM_SC" value="EDT" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTN" role="1PaTwD">
+                  <property role="3oM_SC" value="freezes" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTO" role="1PaTwD">
+                  <property role="3oM_SC" value="for" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTP" role="1PaTwD">
+                  <property role="3oM_SC" value="that" />
+                </node>
+                <node concept="3oM_SD" id="59qHJcZaYTQ" role="1PaTwD">
+                  <property role="3oM_SC" value="time." />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="6FW8YbU0m9M" role="3cqZAp">
               <node concept="2OqwBi" id="6FW8YbU0oOB" role="3clFbG">
                 <node concept="2YIFZM" id="6FW8YbU0maj" role="2Oq$k0">
@@ -15063,7 +15199,7 @@
                   <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
                 </node>
                 <node concept="liA8E" id="6FW8YbU0pqa" role="2OqNvi">
-                  <ref role="37wK5l" to="bd8o:~Application.invokeLater(java.lang.Runnable)" resolve="invokeLater" />
+                  <ref role="37wK5l" to="bd8o:~Application.invokeLater(java.lang.Runnable,com.intellij.openapi.application.ModalityState)" resolve="invokeLater" />
                   <node concept="1bVj0M" id="6FW8YbU0qjH" role="37wK5m">
                     <node concept="3clFbS" id="6FW8YbU0qjI" role="1bW5cS">
                       <node concept="3clFbF" id="6FW8YbU0ubZ" role="3cqZAp">
@@ -15103,6 +15239,10 @@
                         </node>
                       </node>
                     </node>
+                  </node>
+                  <node concept="2YIFZM" id="1g00xbD2FuU" role="37wK5m">
+                    <ref role="1Pybhc" to="bd8o:~ModalityState" resolve="ModalityState" />
+                    <ref role="37wK5l" to="bd8o:~ModalityState.nonModal()" resolve="nonModal" />
                   </node>
                 </node>
               </node>

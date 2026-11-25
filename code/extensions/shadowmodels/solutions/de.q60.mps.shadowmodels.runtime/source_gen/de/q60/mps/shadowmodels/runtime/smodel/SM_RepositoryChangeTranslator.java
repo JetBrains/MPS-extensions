@@ -12,6 +12,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;
 import com.intellij.openapi.application.ApplicationManager;
+import com.intellij.openapi.application.ModalityState;
 import org.jetbrains.mps.openapi.module.SModule;
 import org.modelix.model.mpsadapters.mps.SRepositoryAsNode;
 import org.jetbrains.mps.openapi.model.SModel;
@@ -65,12 +66,13 @@ public abstract class SM_RepositoryChangeTranslator extends SM_GlobalModelListen
 
   protected void enqueueFlush() {
     if (!(flushQueued.getAndSet(true))) {
+      // The flush runs on the EDT because SM_CommandHelper.runInCommand executes the command there. ModalityState.nonModal() keeps it out of modal dialogs and progress: inside the modal Make progress the command's write action waits until generation releases its read lock, and the EDT freezes for that time.
       ApplicationManager.getApplication().invokeLater(() -> {
         flushQueued.set(false);
         if (ListSequence.fromList(pendingChanges).isNotEmpty()) {
           SM_CommandHelper.runInCommand(() -> flush());
         }
-      });
+      }, ModalityState.nonModal());
     }
   }
 

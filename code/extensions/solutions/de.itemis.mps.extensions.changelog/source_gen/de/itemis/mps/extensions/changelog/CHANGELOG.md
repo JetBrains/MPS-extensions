@@ -10,6 +10,8 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 - *de.itemis.mps.editor.diagram.runtime* Fix `IllegalStateException: Editor is already disposed` logged when a diagram editor is closed while its automatic layout is still running.
 - *de.q60.mps.shadowmodels.runtime* The IDE no longer freezes during Make when shadow models react to repository changes. Shadow models applied these changes in a write action from inside the modal Make progress, which had to wait until generation finished. The changes are now applied after the modal progress closes.
+- *de.itemis.mps.editor.celllayout.runtime* Lines in an indent layout now follow `indent-layout-no-wrap` as in the MPS indent layout. A line does not wrap before a cell that sets it, or before the first cell of a collection that sets it. Cells inside the laid-out collection that set it were ignored before. For subclasses: `IndentLayout.findBestWrapPoint` now returns -1 when no-wrap forbids every break point, and both protected `IndentLayout.isNoWrap` methods are removed.
+- *de.itemis.mps.editor.celllayout.runtime* Text in an indent layout now wraps even when its collection or a cell around it sets `indent-layout-no-wrap` as in the MPS indent layout. Before, such text never wrapped. To keep cells on one line, put them in a horizontal collection.
 
 ### Changed
 

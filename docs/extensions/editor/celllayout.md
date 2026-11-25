@@ -67,6 +67,15 @@ installed recursively when any style property of the language is used.
 - **overflow-x/overflow-y** the position of the line break in the Indent layout is determined by the width of the entire editor. This width is determined by the "Text width" setting (vertical gray line at the right margin) and the min/max size values of the cells. If, for example, a large image or a table with many columns is inserted, the entire editor becomes very wide and difficult to read. With overflow-x the width of a cell is ignored when determining the editor width. So the text breaks normally at the vertical line and does not become as wide as the image.
 
 
+### Indent layout: no-wrap
+
+The indent layout of this language treats **indent-layout-no-wrap** like the MPS indent layout does: a line does not
+wrap right before a cell that sets it. On a collection, this means the line does not wrap before the first cell of the
+collection. Lines can still wrap between the other cells of the collection.
+
+To keep a group of cells on one line, put them in a horizontal collection. The indent layout moves a horizontal
+collection to the next line as a whole and never wraps between its cells.
+
 ### Margin
 
 It's possible to specify the space around the cell by specifying one of the margin properties.

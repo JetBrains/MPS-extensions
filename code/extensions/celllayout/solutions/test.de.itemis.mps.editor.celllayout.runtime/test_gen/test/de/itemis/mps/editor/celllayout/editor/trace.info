@@ -1304,6 +1304,144 @@
       <unit id="4434722703675304679" at="25,0,86,0" name="test.de.itemis.mps.editor.celllayout.editor.MixedVerticalAndIndent_Test" />
     </file>
   </root>
+  <root nodeRef="r:ee6cf12e-fe83-4365-8111-77ef29f91ab7(test.de.itemis.mps.editor.celllayout.editor@tests)/4861139708840635306">
+    <file name="IndentLayoutNoWrap_Test.java">
+      <node id="4861139708840635315" at="14,82,15,46" concept="9" />
+      <node id="4861139708840635320" at="15,46,16,65" concept="9" />
+      <node id="4861139708840635325" at="16,65,17,52" concept="9" />
+      <node id="4861139708840635331" at="17,52,18,52" concept="9" />
+      <node id="4861139708840635337" at="18,52,19,52" concept="9" />
+      <node id="4861139708840635342" at="19,52,20,20" concept="3" />
+      <node id="4861139708840635346" at="20,20,21,16" concept="3" />
+      <node id="4861139708840635349" at="21,16,22,16" concept="3" />
+      <node id="4861139708840635352" at="22,16,23,16" concept="3" />
+      <node id="4861139708840635355" at="23,16,24,48" concept="3" />
+      <node id="4861139708840635841" at="24,48,25,97" concept="3" />
+      <node id="4861139708840635865" at="25,97,26,97" concept="3" />
+      <node id="4861139708840635889" at="26,97,27,100" concept="3" />
+      <node id="4861139708840635899" at="30,82,31,46" concept="9" />
+      <node id="4861139708840635904" at="31,46,32,65" concept="9" />
+      <node id="4861139708840635909" at="32,65,33,52" concept="9" />
+      <node id="4861139708840635915" at="33,52,34,52" concept="9" />
+      <node id="4861139708840635920" at="34,52,35,20" concept="3" />
+      <node id="4861139708840635924" at="35,20,36,16" concept="3" />
+      <node id="4861139708840635927" at="36,16,37,16" concept="3" />
+      <node id="4861139708840635930" at="37,16,38,48" concept="3" />
+      <node id="4861139708840636371" at="38,48,39,97" concept="3" />
+      <node id="4861139708840636395" at="39,97,40,99" concept="3" />
+      <node id="4861139708840636405" at="43,81,44,46" concept="9" />
+      <node id="4861139708840636410" at="44,46,45,65" concept="9" />
+      <node id="4861139708840636415" at="45,65,46,52" concept="9" />
+      <node id="4861139708840636421" at="46,52,47,52" concept="9" />
+      <node id="4861139708840636427" at="47,52,48,77" concept="9" />
+      <node id="4861139708840636431" at="48,77,49,35" concept="3" />
+      <node id="4861139708840636436" at="49,35,50,52" concept="9" />
+      <node id="4861139708840636442" at="50,52,51,52" concept="9" />
+      <node id="4861139708840636447" at="51,52,52,28" concept="3" />
+      <node id="4861139708840636450" at="52,28,53,28" concept="3" />
+      <node id="4861139708840636453" at="53,28,54,16" concept="3" />
+      <node id="4861139708840636456" at="54,16,55,16" concept="3" />
+      <node id="4861139708840636459" at="55,16,56,31" concept="3" />
+      <node id="4861139708842789590" at="56,31,57,123" concept="11" />
+      <node id="4861139708842789610" at="57,123,58,102" concept="11" />
+      <node id="4861139708842625014" at="58,102,59,75" concept="9" />
+      <node id="4861139708842625281" at="59,75,60,154" concept="3" />
+      <node id="4861139708842625320" at="60,154,61,125" concept="3" />
+      <node id="1860493629486485254" at="64,67,65,46" concept="9" />
+      <node id="1860493629486485259" at="65,46,66,65" concept="9" />
+      <node id="1860493629486485263" at="66,65,67,23" concept="3" />
+      <node id="1860493629486485268" at="67,23,68,52" concept="9" />
+      <node id="1860493629486485274" at="68,52,69,52" concept="9" />
+      <node id="1860493629486485279" at="69,52,70,16" concept="3" />
+      <node id="1860493629486485282" at="70,16,71,16" concept="3" />
+      <node id="1860493629486485285" at="71,16,72,48" concept="3" />
+      <node id="1860493629486514496" at="72,48,73,115" concept="3" />
+      <node id="1860493629486514506" at="76,79,77,83" concept="9" />
+      <node id="1860493629486514510" at="77,83,78,27" concept="3" />
+      <node id="1860493629486514515" at="78,27,79,46" concept="9" />
+      <node id="1860493629486514520" at="79,46,80,65" concept="9" />
+      <node id="1860493629486514525" at="80,65,81,52" concept="9" />
+      <node id="1860493629486514531" at="81,52,82,52" concept="9" />
+      <node id="1860493629486514536" at="82,52,83,16" concept="3" />
+      <node id="1860493629486514539" at="83,16,84,16" concept="3" />
+      <node id="1860493629486514542" at="84,16,85,23" concept="3" />
+      <node id="1860493629486514545" at="85,23,86,48" concept="3" />
+      <node id="1860493629486514946" at="86,48,87,123" concept="3" />
+      <node id="1860493629488541989" at="90,77,91,46" concept="9" />
+      <node id="1860493629488541994" at="91,46,92,65" concept="9" />
+      <node id="1860493629488541999" at="92,65,93,52" concept="9" />
+      <node id="1860493629488542005" at="93,52,94,87" concept="9" />
+      <node id="1860493629488542010" at="94,87,95,52" concept="9" />
+      <node id="1860493629488542016" at="95,52,96,52" concept="9" />
+      <node id="1860493629488542021" at="96,52,97,22" concept="3" />
+      <node id="1860493629488542024" at="97,22,98,22" concept="3" />
+      <node id="1860493629488542027" at="98,22,99,16" concept="3" />
+      <node id="1860493629488542030" at="99,16,100,25" concept="3" />
+      <node id="1860493629488542040" at="100,25,101,118" concept="11" />
+      <node id="1860493629488542062" at="101,118,102,99" concept="11" />
+      <node id="1860493629488542034" at="102,99,103,74" concept="9" />
+      <node id="1860493629488542618" at="103,74,104,149" concept="3" />
+      <node id="1860493629488542657" at="104,149,105,115" concept="3" />
+      <node id="1860493629486485248" at="63,0,75,0" concept="8" trace="test_wrapsInsideNoWrapCollection#()V" />
+      <node id="4861139708840635893" at="29,0,42,0" concept="8" trace="test_doesNotWrapWhenOnlyBreakIsBeforeNoWrapWord#()V" />
+      <node id="1860493629486514500" at="75,0,89,0" concept="8" trace="test_wrapsInsideCollectionWithNoWrapAncestor#()V" />
+      <node id="4861139708840635309" at="13,0,29,0" concept="8" trace="test_wrapsBeforeEarlierWordWhenNextWordIsNoWrap#()V" />
+      <node id="1860493629488541983" at="89,0,107,0" concept="8" trace="test_doesNotWrapInsideHorizontalCollection#()V" />
+      <node id="4861139708840636399" at="42,0,63,0" concept="8" trace="test_wrapsInsideNoWrapCollectionButNotBeforeIt#()V" />
+      <scope id="1860493629486485251" at="64,67,73,115">
+        <var name="a" id="1860493629486485267" />
+        <var name="b" id="1860493629486485273" />
+        <var name="layout" id="1860493629486485253" />
+        <var name="line" id="1860493629486485258" />
+      </scope>
+      <scope id="4861139708840635896" at="30,82,40,99">
+        <var name="a" id="4861139708840635908" />
+        <var name="b" id="4861139708840635914" />
+        <var name="layout" id="4861139708840635898" />
+        <var name="line" id="4861139708840635903" />
+      </scope>
+      <scope id="1860493629486514503" at="76,79,87,123">
+        <var name="a" id="1860493629486514524" />
+        <var name="ancestor" id="1860493629486514505" />
+        <var name="b" id="1860493629486514530" />
+        <var name="layout" id="1860493629486514514" />
+        <var name="line" id="1860493629486514519" />
+      </scope>
+      <scope id="1860493629486485248" at="63,0,75,0" />
+      <scope id="4861139708840635312" at="14,82,27,100">
+        <var name="a" id="4861139708840635324" />
+        <var name="b" id="4861139708840635330" />
+        <var name="c" id="4861139708840635336" />
+        <var name="layout" id="4861139708840635314" />
+        <var name="line" id="4861139708840635319" />
+      </scope>
+      <scope id="4861139708840635893" at="29,0,42,0" />
+      <scope id="1860493629486514500" at="75,0,89,0" />
+      <scope id="1860493629488541986" at="90,77,105,115">
+        <var name="a" id="1860493629488541998" />
+        <var name="b" id="1860493629488542009" />
+        <var name="c" id="1860493629488542015" />
+        <var name="horizontal" id="1860493629488542004" />
+        <var name="layout" id="1860493629488541988" />
+        <var name="line" id="1860493629488541993" />
+        <var name="size" id="1860493629488542033" />
+      </scope>
+      <scope id="4861139708840635309" at="13,0,29,0" />
+      <scope id="4861139708840636402" at="43,81,61,125">
+        <var name="a" id="4861139708840636414" />
+        <var name="b" id="4861139708840636435" />
+        <var name="c" id="4861139708840636441" />
+        <var name="layout" id="4861139708840636404" />
+        <var name="line" id="4861139708840636409" />
+        <var name="noWrapCollection" id="4861139708840636426" />
+        <var name="size" id="4861139708842625013" />
+        <var name="x" id="4861139708840636420" />
+      </scope>
+      <scope id="1860493629488541983" at="89,0,107,0" />
+      <scope id="4861139708840636399" at="42,0,63,0" />
+      <unit id="4861139708840635306" at="12,0,108,0" name="test.de.itemis.mps.editor.celllayout.editor.IndentLayoutNoWrap_Test" />
+    </file>
+  </root>
   <root nodeRef="r:ee6cf12e-fe83-4365-8111-77ef29f91ab7(test.de.itemis.mps.editor.celllayout.editor@tests)/492440529733456841">
     <file name="Do_Not_Grow_Horizontal_In_Grid_Test.java">
       <node id="492440529733456841" at="26,48,27,60" concept="15" />

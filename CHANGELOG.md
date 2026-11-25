@@ -6,10 +6,15 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## November 2026
 
+### Changed
+
+- *com.mbeddr.mpsutil.grammarcells* Flag cells without a substitute condition, description text or `doNotGenerateNodeSubstituteAction` now generate a single call to the new runtime helper `GrammarCellsUtil.createFlagSubstituteMenuItems` in `GrammarActionsDescriptor` instead of two nested anonymous classes per flag. For editors with several flags this makes the generated code much smaller (e.g. -44% lines and no anonymous classes for an editor with 3 flags). Flags with custom configuration generate the same code as before.
+
 ### Fixed
 
 - *de.itemis.mps.editor.diagram.runtime* Fix `IllegalStateException: Editor is already disposed` logged when a diagram editor is closed while its automatic layout is still running.
 - *de.q60.mps.shadowmodels.runtime* The IDE no longer freezes during Make when shadow models react to repository changes. Shadow models applied these changes in a write action from inside the modal Make progress, which had to wait until generation finished. The changes are now applied after the modal progress closes.
+- *de.q60.mps.shadowmodels.runtime* Shadow models no longer log "deadlock prevention: can not elevate model read to a command" when they react to repository changes while an editor is being opened. Opening an editor inside a read action lets other EDT events run, and shadow models tried to start a command there. They now wait until the read action ends.
 
 ### Changed
 

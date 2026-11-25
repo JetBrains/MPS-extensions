@@ -13,6 +13,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.ide.ThreadUtils;
 import com.intellij.openapi.application.ApplicationManager;
+import org.jetbrains.mps.openapi.module.ModelAccess;
 import jetbrains.mps.ide.MPSCoreComponents;
 import jetbrains.mps.project.ProjectManager;
 import jetbrains.mps.ide.project.ProjectHelper;
@@ -61,6 +62,14 @@ public class SM_CommandHelper {
     }
   }
 
+  public static boolean isInsideReadAction() {
+    Project project = getProject();
+    if (project == null) {
+      return false;
+    }
+    ModelAccess modelAccess = project.getModelAccess();
+    return modelAccess.canRead() && !(modelAccess.canWrite());
+  }
   protected static Project getProject() {
     try {
       List<Project> projects = MPSCoreComponents.getInstance().getPlatform().findComponent(ProjectManager.class).getOpenedProjects();

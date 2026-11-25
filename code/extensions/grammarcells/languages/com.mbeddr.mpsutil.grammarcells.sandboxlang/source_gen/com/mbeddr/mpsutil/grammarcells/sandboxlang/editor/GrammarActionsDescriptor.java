@@ -1147,29 +1147,7 @@ public class GrammarActionsDescriptor extends AbstractGrammarActionDescriptor im
           return ListSequence.fromList(result).where((it) -> it != null).toList();
         }
       }.query()));
-      ListSequence.fromList(result).addSequence(Sequence.fromIterable(new Object() {
-        public Iterable<SubstituteMenuItem> query() {
-          List<SubstituteMenuItem> result = ListSequence.fromList(new ArrayList<SubstituteMenuItem>());
-
-          {
-            final SConcept outputConcept = CONCEPTS.TEST_FlagNextToChild$9x;
-
-            if (SConceptOperations.isExactly(SNodeOperations.asSConcept(outputConcept), SNodeOperations.asSConcept(expectedOutputConceptExactly))) {
-              final SNode parentNode = _context.getParentNode();
-              final SNode substitutedNode = _context.getCurrentTargetNode();
-              for (final SAbstractConcept subconcept : GrammarCellsUtil.getVisibleSubconceptsNonAbstract(outputConcept, _context.getModel(), TEST_FlagNextToChild_Editor.class, _context.getEditorContext())) {
-                EditorContext editorContext = _context.getEditorContext();
-                boolean applicable = GrammarCellsUtil.canBeChild(subconcept, _context);
-                if (applicable) {
-                  ListSequence.fromList(result).addElement(new FlagSubstituteMenuItem(parentNode, _context.getCurrentTargetNode(), subconcept, "flagA", _context, new DefaultFlagModelAccess(PROPS.flagA$A9n2)) {});
-                }
-              }
-            }
-          }
-
-          return result;
-        }
-      }.query()));
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(GrammarCellsUtil.createFlagSubstituteMenuItems(CONCEPTS.TEST_FlagNextToChild$9x, _context, expectedOutputConceptExactly, TEST_FlagNextToChild_Editor.class, "flagA", new DefaultFlagModelAccess(PROPS.flagA$A9n2))));
       ListSequence.fromList(result).addSequence(Sequence.fromIterable(new Object() {
         public Iterable<SubstituteMenuItem> query() {
           List<SubstituteMenuItem> result = ListSequence.fromList(new ArrayList<SubstituteMenuItem>());
@@ -1309,29 +1287,7 @@ public class GrammarActionsDescriptor extends AbstractGrammarActionDescriptor im
           return ListSequence.fromList(result).where((it) -> it != null).toList();
         }
       }.query()));
-      ListSequence.fromList(result).addSequence(Sequence.fromIterable(new Object() {
-        public Iterable<SubstituteMenuItem> query() {
-          List<SubstituteMenuItem> result = ListSequence.fromList(new ArrayList<SubstituteMenuItem>());
-
-          {
-            final SConcept outputConcept = CONCEPTS.TEST_FlagAndTooltip$93;
-
-            if (SConceptOperations.isExactly(SNodeOperations.asSConcept(outputConcept), SNodeOperations.asSConcept(expectedOutputConceptExactly))) {
-              final SNode parentNode = _context.getParentNode();
-              final SNode substitutedNode = _context.getCurrentTargetNode();
-              for (final SAbstractConcept subconcept : GrammarCellsUtil.getVisibleSubconceptsNonAbstract(outputConcept, _context.getModel(), TEST_FlagAndTooltip_Editor.class, _context.getEditorContext())) {
-                EditorContext editorContext = _context.getEditorContext();
-                boolean applicable = GrammarCellsUtil.canBeChild(subconcept, _context);
-                if (applicable) {
-                  ListSequence.fromList(result).addElement(new FlagSubstituteMenuItem(parentNode, _context.getCurrentTargetNode(), subconcept, "flagAndTooltip", _context, new DefaultFlagModelAccess(PROPS.flagAndTooltip$zyk_)) {});
-                }
-              }
-            }
-          }
-
-          return result;
-        }
-      }.query()));
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(GrammarCellsUtil.createFlagSubstituteMenuItems(CONCEPTS.TEST_FlagAndTooltip$93, _context, expectedOutputConceptExactly, TEST_FlagAndTooltip_Editor.class, "flagAndTooltip", new DefaultFlagModelAccess(PROPS.flagAndTooltip$zyk_))));
       ListSequence.fromList(result).addSequence(Sequence.fromIterable(new Object() {
         public Iterable<SubstituteMenuItem> query() {
           List<SubstituteMenuItem> result = ListSequence.fromList(new ArrayList<SubstituteMenuItem>());

@@ -16,6 +16,9 @@ Semantic Versioning and the changes are simply documented in reverse chronologic
 
 - `com.mbeddr.mpsutil.review`: The `RemoveComments` intention no longer leaves an empty comment container behind.
 - `com.mbeddr.mpsutil.review`: The `RemoveComments` intention also removes the replies to a removed note instead of leaving them with a dangling reference.
+- `com.mbeddr.doc.gen_xhtml`: Line breaks in text are turned into `<br/>` elements on Windows too ([#2063](https://github.com/JetBrains/MPS-extensions/issues/2063)).
+- `com.mbeddr.doc.gen_xhtml`, `com.mbeddr.doc.gen_markdown`: Relative paths of images and links between documents use forward slashes on Windows too ([#1985](https://github.com/JetBrains/MPS-extensions/issues/1985)).
+- `com.mbeddr.doc.gen_latex`: The path of the default prolog in `\input` uses forward slashes on Windows too.
 
 # September 2026
 

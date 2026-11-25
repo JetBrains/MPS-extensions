@@ -9,6 +9,9 @@
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <use id="2dec0852-3a21-4c4e-a68c-b05236cc37f2" name="com.mbeddr.doc.gen_xhtml" version="1" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
+    <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
+    <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
   </languages>
   <imports>
     <import index="lluw" ref="r:260e0933-d20e-4f4f-88cb-1c3cbbf973a8(com.mbeddr.doc.test.documents.doc2_1)" />
@@ -22,8 +25,11 @@
     <import index="8oaq" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.io(org.apache.commons/)" />
     <import index="qajb" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:org.jsoup(MPS.IDEA/)" />
     <import index="b3ru" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:org.jsoup.nodes(MPS.IDEA/)" />
-    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
-    <import index="w827" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs.openapi(MPS.Core/)" implicit="true" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="4c8j" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:org.jsoup.select(MPS.IDEA/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="w827" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs.openapi(MPS.Core/)" />
+    <import index="y3zh" ref="r:c53335b0-80af-4f94-bce8-bcedc5826e64(com.mbeddr.doc.test.documents.doc1)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -37,6 +43,9 @@
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
+        <child id="1154032183016" name="body" index="2LFqv$" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -88,6 +97,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
@@ -110,6 +122,12 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
+      <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
+        <child id="1144226360166" name="iterable" index="1DdaDG" />
+      </concept>
+      <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
+        <child id="1144230900587" name="variable" index="1Duv9x" />
+      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
@@ -145,6 +163,9 @@
       <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
       <concept id="1171981022339" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertTrue" flags="nn" index="3vwNmj">
         <child id="1171981057159" name="condition" index="3vwVQn" />
+      </concept>
+      <concept id="1171983834376" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertFalse" flags="nn" index="3vFxKo">
+        <child id="1171983854940" name="condition" index="3vFALc" />
       </concept>
       <concept id="1172073500303" name="jetbrains.mps.baseLanguage.unitTest.structure.Message" flags="ng" index="3_1$Yv">
         <child id="1172073511101" name="message" index="3_1BAH" />
@@ -805,6 +826,378 @@
         </node>
       </node>
       <node concept="3uibUv" id="4yqSQKZl6g0" role="Sfmx6">
+        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+      </node>
+    </node>
+    <node concept="2XrIbr" id="Db3u18YvU$" role="1qtyYc">
+      <property role="TrG5h" value="firstSection" />
+      <node concept="3Tqbb2" id="Db3u18YvU_" role="3clF45">
+        <ref role="ehGHo" to="2c95:2TZO3Dbv6N7" resolve="Section" />
+      </node>
+      <node concept="3clFbS" id="Db3u18YvUA" role="3clF47">
+        <node concept="3clFbF" id="Db3u18YvUB" role="3cqZAp">
+          <node concept="2OqwBi" id="Db3u18YvUC" role="3clFbG">
+            <node concept="2tJFMh" id="Db3u18YvUD" role="2Oq$k0">
+              <node concept="ZC_QK" id="Db3u18YvUE" role="2tJFKM">
+                <ref role="2aWVGs" to="y3zh:4pIcGABsAb1" resolve="myDocument" />
+                <node concept="ZC_QK" id="Db3u18YvUF" role="2aWVGa">
+                  <ref role="2aWVGs" to="y3zh:4pIcGABsAb2" resolve="firstsection" />
+                </node>
+              </node>
+            </node>
+            <node concept="Vyspw" id="Db3u18YvUG" role="2OqNvi">
+              <node concept="2OqwBi" id="Db3u18YvUH" role="Vysub">
+                <node concept="2JrnkZ" id="Db3u18YvUI" role="2Oq$k0">
+                  <node concept="1jGwE1" id="Db3u18YvUJ" role="2JrQYb" />
+                </node>
+                <node concept="liA8E" id="Db3u18YvUK" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2XrIbr" id="Db3u18YvW5" role="1qtyYc">
+      <property role="TrG5h" value="firstSectionStableID" />
+      <node concept="17QB3L" id="Db3u18YvW6" role="3clF45" />
+      <node concept="3clFbS" id="Db3u18YvW7" role="3clF47">
+        <node concept="3clFbF" id="Db3u18YvW8" role="3cqZAp">
+          <node concept="2YIFZM" id="Db3u18YvW9" role="3clFbG">
+            <ref role="37wK5l" to="4gky:6jiGbW_zIQb" resolve="getStableId" />
+            <ref role="1Pybhc" to="4gky:6jiGbW_zIPK" resolve="StableIdHelper" />
+            <node concept="2OqwBi" id="Db3u18YvWa" role="37wK5m">
+              <node concept="2WthIp" id="Db3u18YvWb" role="2Oq$k0" />
+              <node concept="2XshWL" id="Db3u18YvWc" role="2OqNvi">
+                <ref role="2WH_rO" node="Db3u18YvU$" resolve="firstSection" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="Db3u18YvXB" role="1SL9yI">
+      <property role="TrG5h" value="multiLineTextBecomesLineBreaks" />
+      <node concept="3cqZAl" id="Db3u18YvXC" role="3clF45" />
+      <node concept="3clFbS" id="Db3u18YvXD" role="3clF47">
+        <node concept="3cpWs8" id="Db3u18YvXE" role="3cqZAp">
+          <node concept="3cpWsn" id="Db3u18YvXF" role="3cpWs9">
+            <property role="TrG5h" value="file" />
+            <node concept="3uibUv" id="Db3u18YvXG" role="1tU5fm">
+              <ref role="3uigEE" to="3ju5:~IFile" resolve="IFile" />
+            </node>
+            <node concept="2OqwBi" id="Db3u18YvXH" role="33vP2m">
+              <node concept="2WthIp" id="Db3u18YvXI" role="2Oq$k0" />
+              <node concept="2XshWL" id="Db3u18YvXJ" role="2OqNvi">
+                <ref role="2WH_rO" node="1Q6TvmyDFHY" resolve="getModuleRelativePath" />
+                <node concept="10QFUN" id="Db3u18YvXK" role="2XxRq1">
+                  <node concept="3uibUv" id="Db3u18YvXL" role="10QFUM">
+                    <ref role="3uigEE" to="z1c3:~AbstractModule" resolve="AbstractModule" />
+                  </node>
+                  <node concept="2OqwBi" id="Db3u18YvXM" role="10QFUP">
+                    <node concept="2JrnkZ" id="Db3u18YvXN" role="2Oq$k0">
+                      <node concept="2OqwBi" id="Db3u18YvXO" role="2JrQYb">
+                        <node concept="2OqwBi" id="Db3u18YvXP" role="2Oq$k0">
+                          <node concept="2WthIp" id="Db3u18YvXQ" role="2Oq$k0" />
+                          <node concept="2XshWL" id="Db3u18YvXR" role="2OqNvi">
+                            <ref role="2WH_rO" node="Db3u18YvU$" resolve="firstSection" />
+                          </node>
+                        </node>
+                        <node concept="I4A8Y" id="Db3u18YvXS" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="Db3u18YvXT" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="Db3u18YvXU" role="2XxRq1">
+                  <property role="Xl_RC" value="doc_gen/com/mbeddr/doc/test/documents/doc1/myDocument.html" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="Db3u18YvXV" role="3cqZAp">
+          <node concept="3cpWsn" id="Db3u18YvXW" role="3cpWs9">
+            <property role="TrG5h" value="html" />
+            <node concept="3uibUv" id="Db3u18YvXX" role="1tU5fm">
+              <ref role="3uigEE" to="b3ru:~Document" resolve="Document" />
+            </node>
+            <node concept="2YIFZM" id="Db3u18YvXY" role="33vP2m">
+              <ref role="37wK5l" to="qajb:~Jsoup.parse(java.io.InputStream,java.lang.String,java.lang.String)" resolve="parse" />
+              <ref role="1Pybhc" to="qajb:~Jsoup" resolve="Jsoup" />
+              <node concept="2OqwBi" id="Db3u18YvXZ" role="37wK5m">
+                <node concept="37vLTw" id="Db3u18YvY0" role="2Oq$k0">
+                  <ref role="3cqZAo" node="Db3u18YvXF" resolve="file" />
+                </node>
+                <node concept="liA8E" id="Db3u18YvY1" role="2OqNvi">
+                  <ref role="37wK5l" to="3ju5:~IFile.openInputStream()" resolve="openInputStream" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="Db3u18YvY2" role="37wK5m">
+                <property role="Xl_RC" value="UTF-8" />
+              </node>
+              <node concept="Xl_RD" id="Db3u18YvY3" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vwNmj" id="Db3u18YvY4" role="3cqZAp">
+          <node concept="3y3z36" id="Db3u18YvY5" role="3vwVQn">
+            <node concept="10Nm6u" id="Db3u18YvY6" role="3uHU7w" />
+            <node concept="37vLTw" id="Db3u18YvY7" role="3uHU7B">
+              <ref role="3cqZAo" node="Db3u18YvXW" resolve="html" />
+            </node>
+          </node>
+          <node concept="3_1$Yv" id="Db3u18YvY8" role="3_9lra">
+            <node concept="Xl_RD" id="Db3u18YvY9" role="3_1BAH">
+              <property role="Xl_RC" value="No JSoup document parsed from myDocument.html" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="Db3u18YvYa" role="3cqZAp">
+          <node concept="3cpWsn" id="Db3u18YvYb" role="3cpWs9">
+            <property role="TrG5h" value="sectionHeader" />
+            <node concept="3uibUv" id="Db3u18YvYc" role="1tU5fm">
+              <ref role="3uigEE" to="b3ru:~Element" resolve="Element" />
+            </node>
+            <node concept="2OqwBi" id="Db3u18YvYd" role="33vP2m">
+              <node concept="37vLTw" id="Db3u18YvYe" role="2Oq$k0">
+                <ref role="3cqZAo" node="Db3u18YvXW" resolve="html" />
+              </node>
+              <node concept="liA8E" id="Db3u18YvYf" role="2OqNvi">
+                <ref role="37wK5l" to="b3ru:~Element.getElementById(java.lang.String)" resolve="getElementById" />
+                <node concept="2OqwBi" id="Db3u18YvYg" role="37wK5m">
+                  <node concept="2WthIp" id="Db3u18YvYh" role="2Oq$k0" />
+                  <node concept="2XshWL" id="Db3u18YvYi" role="2OqNvi">
+                    <ref role="2WH_rO" node="Db3u18YvW5" resolve="firstSectionStableID" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vwNmj" id="Db3u18YvYj" role="3cqZAp">
+          <node concept="3y3z36" id="Db3u18YvYk" role="3vwVQn">
+            <node concept="10Nm6u" id="Db3u18YvYl" role="3uHU7w" />
+            <node concept="37vLTw" id="Db3u18YvYm" role="3uHU7B">
+              <ref role="3cqZAo" node="Db3u18YvYb" resolve="sectionHeader" />
+            </node>
+          </node>
+          <node concept="3_1$Yv" id="Db3u18YvYn" role="3_9lra">
+            <node concept="Xl_RD" id="Db3u18YvYo" role="3_1BAH">
+              <property role="Xl_RC" value="No header with the stable ID of the first section in myDocument.html" />
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="Db3u18Ywgx" role="3cqZAp">
+          <node concept="3cmrfG" id="Db3u18Ywgy" role="3tpDZB">
+            <property role="3cmrfH" value="4" />
+          </node>
+          <node concept="2OqwBi" id="Db3u18Yw7i" role="3tpDZA">
+            <node concept="2OqwBi" id="Db3u18Yw27" role="2Oq$k0">
+              <node concept="2OqwBi" id="Db3u18Yw06" role="2Oq$k0">
+                <node concept="37vLTw" id="Db3u18YvZ_" role="2Oq$k0">
+                  <ref role="3cqZAo" node="Db3u18YvYb" resolve="sectionHeader" />
+                </node>
+                <node concept="liA8E" id="Db3u18Yw07" role="2OqNvi">
+                  <ref role="37wK5l" to="b3ru:~Node.nextElementSibling()" resolve="nextElementSibling" />
+                </node>
+              </node>
+              <node concept="liA8E" id="Db3u18Yw28" role="2OqNvi">
+                <ref role="37wK5l" to="b3ru:~Element.select(java.lang.String)" resolve="select" />
+                <node concept="Xl_RD" id="Db3u18Yw29" role="37wK5m">
+                  <property role="Xl_RC" value="br" />
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="Db3u18Yw7j" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~ArrayList.size()" resolve="size" />
+            </node>
+          </node>
+          <node concept="3_1$Yv" id="Db3u18Ywgz" role="3_9lra">
+            <node concept="Xl_RD" id="Db3u18Ywg$" role="3_1BAH">
+              <property role="Xl_RC" value="Each line break in the text of the first section of myDocument should become a &lt;br/&gt; element" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="Db3u18YvYp" role="Sfmx6">
+        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+      </node>
+    </node>
+    <node concept="1LZb2c" id="Db3u18YvYq" role="1SL9yI">
+      <property role="TrG5h" value="imagePathsUseForwardSlashes" />
+      <node concept="3cqZAl" id="Db3u18YvYr" role="3clF45" />
+      <node concept="3clFbS" id="Db3u18YvYs" role="3clF47">
+        <node concept="3cpWs8" id="Db3u18YvYt" role="3cqZAp">
+          <node concept="3cpWsn" id="Db3u18YvYu" role="3cpWs9">
+            <property role="TrG5h" value="file" />
+            <node concept="3uibUv" id="Db3u18YvYv" role="1tU5fm">
+              <ref role="3uigEE" to="3ju5:~IFile" resolve="IFile" />
+            </node>
+            <node concept="2OqwBi" id="Db3u18YvYw" role="33vP2m">
+              <node concept="2WthIp" id="Db3u18YvYx" role="2Oq$k0" />
+              <node concept="2XshWL" id="Db3u18YvYy" role="2OqNvi">
+                <ref role="2WH_rO" node="1Q6TvmyDFHY" resolve="getModuleRelativePath" />
+                <node concept="10QFUN" id="Db3u18YvYz" role="2XxRq1">
+                  <node concept="3uibUv" id="Db3u18YvY$" role="10QFUM">
+                    <ref role="3uigEE" to="z1c3:~AbstractModule" resolve="AbstractModule" />
+                  </node>
+                  <node concept="2OqwBi" id="Db3u18YvY_" role="10QFUP">
+                    <node concept="2JrnkZ" id="Db3u18YvYA" role="2Oq$k0">
+                      <node concept="2OqwBi" id="Db3u18YvYB" role="2JrQYb">
+                        <node concept="2OqwBi" id="Db3u18YvYC" role="2Oq$k0">
+                          <node concept="2WthIp" id="Db3u18YvYD" role="2Oq$k0" />
+                          <node concept="2XshWL" id="Db3u18YvYE" role="2OqNvi">
+                            <ref role="2WH_rO" node="Db3u18YvU$" resolve="firstSection" />
+                          </node>
+                        </node>
+                        <node concept="I4A8Y" id="Db3u18YvYF" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="Db3u18YvYG" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="Db3u18YvYH" role="2XxRq1">
+                  <property role="Xl_RC" value="doc_gen/com/mbeddr/doc/test/documents/doc1/myDocument.html" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="Db3u18YvYI" role="3cqZAp">
+          <node concept="3cpWsn" id="Db3u18YvYJ" role="3cpWs9">
+            <property role="TrG5h" value="html" />
+            <node concept="3uibUv" id="Db3u18YvYK" role="1tU5fm">
+              <ref role="3uigEE" to="b3ru:~Document" resolve="Document" />
+            </node>
+            <node concept="2YIFZM" id="Db3u18YvYL" role="33vP2m">
+              <ref role="37wK5l" to="qajb:~Jsoup.parse(java.io.InputStream,java.lang.String,java.lang.String)" resolve="parse" />
+              <ref role="1Pybhc" to="qajb:~Jsoup" resolve="Jsoup" />
+              <node concept="2OqwBi" id="Db3u18YvYM" role="37wK5m">
+                <node concept="37vLTw" id="Db3u18YvYN" role="2Oq$k0">
+                  <ref role="3cqZAo" node="Db3u18YvYu" resolve="file" />
+                </node>
+                <node concept="liA8E" id="Db3u18YvYO" role="2OqNvi">
+                  <ref role="37wK5l" to="3ju5:~IFile.openInputStream()" resolve="openInputStream" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="Db3u18YvYP" role="37wK5m">
+                <property role="Xl_RC" value="UTF-8" />
+              </node>
+              <node concept="Xl_RD" id="Db3u18YvYQ" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vwNmj" id="Db3u18YvYR" role="3cqZAp">
+          <node concept="3y3z36" id="Db3u18YvYS" role="3vwVQn">
+            <node concept="10Nm6u" id="Db3u18YvYT" role="3uHU7w" />
+            <node concept="37vLTw" id="Db3u18YvYU" role="3uHU7B">
+              <ref role="3cqZAo" node="Db3u18YvYJ" resolve="html" />
+            </node>
+          </node>
+          <node concept="3_1$Yv" id="Db3u18YvYV" role="3_9lra">
+            <node concept="Xl_RD" id="Db3u18YvYW" role="3_1BAH">
+              <property role="Xl_RC" value="No JSoup document parsed from myDocument.html" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="Db3u18Ywk8" role="3cqZAp">
+          <node concept="3cpWsn" id="Db3u18Ywk7" role="3cpWs9">
+            <property role="TrG5h" value="images" />
+            <node concept="3uibUv" id="Db3u18Ywk9" role="1tU5fm">
+              <ref role="3uigEE" to="4c8j:~Elements" resolve="Elements" />
+            </node>
+            <node concept="2OqwBi" id="Db3u18Ywl3" role="33vP2m">
+              <node concept="37vLTw" id="Db3u18Ywkx" role="2Oq$k0">
+                <ref role="3cqZAo" node="Db3u18YvYJ" resolve="html" />
+              </node>
+              <node concept="liA8E" id="Db3u18Ywl4" role="2OqNvi">
+                <ref role="37wK5l" to="b3ru:~Element.select(java.lang.String)" resolve="select" />
+                <node concept="Xl_RD" id="Db3u18Ywl5" role="37wK5m">
+                  <property role="Xl_RC" value="img[src]" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vFxKo" id="Db3u18Ywzo" role="3cqZAp">
+          <node concept="2OqwBi" id="Db3u18Ywoe" role="3vFALc">
+            <node concept="37vLTw" id="Db3u18Ywk$" role="2Oq$k0">
+              <ref role="3cqZAo" node="Db3u18Ywk7" resolve="images" />
+            </node>
+            <node concept="liA8E" id="Db3u18Ywof" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~ArrayList.isEmpty()" resolve="isEmpty" />
+            </node>
+          </node>
+          <node concept="3_1$Yv" id="Db3u18Ywzp" role="3_9lra">
+            <node concept="Xl_RD" id="Db3u18Ywke" role="3_1BAH">
+              <property role="Xl_RC" value="No images in myDocument.html" />
+            </node>
+          </node>
+        </node>
+        <node concept="1DcWWT" id="Db3u18Ywkg" role="3cqZAp">
+          <node concept="37vLTw" id="Db3u18Ywkw" role="1DdaDG">
+            <ref role="3cqZAo" node="Db3u18Ywk7" resolve="images" />
+          </node>
+          <node concept="3cpWsn" id="Db3u18Ywkt" role="1Duv9x">
+            <property role="TrG5h" value="image" />
+            <node concept="3uibUv" id="Db3u18Ywkv" role="1tU5fm">
+              <ref role="3uigEE" to="b3ru:~Element" resolve="Element" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="Db3u18Ywki" role="2LFqv$">
+            <node concept="3vFxKo" id="Db3u18Ywzq" role="3cqZAp">
+              <node concept="2OqwBi" id="Db3u18Ywzs" role="3vFALc">
+                <node concept="2OqwBi" id="Db3u18YwoA" role="2Oq$k0">
+                  <node concept="37vLTw" id="Db3u18YwkI" role="2Oq$k0">
+                    <ref role="3cqZAo" node="Db3u18Ywkt" resolve="image" />
+                  </node>
+                  <node concept="liA8E" id="Db3u18YwoB" role="2OqNvi">
+                    <ref role="37wK5l" to="b3ru:~Node.attr(java.lang.String)" resolve="attr" />
+                    <node concept="Xl_RD" id="Db3u18YwoC" role="37wK5m">
+                      <property role="Xl_RC" value="src" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="Db3u18Ywzt" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                  <node concept="Xl_RD" id="Db3u18Ywkn" role="37wK5m">
+                    <property role="Xl_RC" value="\\" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3_1$Yv" id="Db3u18Ywzr" role="3_9lra">
+                <node concept="3cpWs3" id="Db3u18Ywko" role="3_1BAH">
+                  <node concept="Xl_RD" id="Db3u18Ywkp" role="3uHU7B">
+                    <property role="Xl_RC" value="Image path in myDocument.html contains a backslash: " />
+                  </node>
+                  <node concept="2OqwBi" id="Db3u18YwoR" role="3uHU7w">
+                    <node concept="37vLTw" id="Db3u18YwkL" role="2Oq$k0">
+                      <ref role="3cqZAo" node="Db3u18Ywkt" resolve="image" />
+                    </node>
+                    <node concept="liA8E" id="Db3u18YwoS" role="2OqNvi">
+                      <ref role="37wK5l" to="b3ru:~Node.attr(java.lang.String)" resolve="attr" />
+                      <node concept="Xl_RD" id="Db3u18YwoT" role="37wK5m">
+                        <property role="Xl_RC" value="src" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="Db3u18YvZc" role="Sfmx6">
         <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
       </node>
     </node>

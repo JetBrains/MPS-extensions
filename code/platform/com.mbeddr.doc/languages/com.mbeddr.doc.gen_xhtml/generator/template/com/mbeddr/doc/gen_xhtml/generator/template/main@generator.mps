@@ -6444,9 +6444,8 @@
                         </node>
                         <node concept="liA8E" id="2pjWqF4zzle" role="2OqNvi">
                           <ref role="37wK5l" to="wyt6:~String.split(java.lang.String)" resolve="split" />
-                          <node concept="2YIFZM" id="xCXNld5C7o" role="37wK5m">
-                            <ref role="37wK5l" to="wyt6:~System.lineSeparator()" resolve="lineSeparator" />
-                            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                          <node concept="Xl_RD" id="Db3u18WMv_" role="37wK5m">
+                            <property role="Xl_RC" value="\r?\n" />
                           </node>
                         </node>
                       </node>

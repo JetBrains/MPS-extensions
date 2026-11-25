@@ -71,7 +71,7 @@
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
       <concept id="6677504323281689838" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3bZ5Sz">
-        <reference id="6677504323281689839" name="conceptDeclaraton" index="3bZ5Sy" />
+        <reference id="6677504323281689839" name="conceptDeclaration" index="3bZ5Sy" />
       </concept>
       <concept id="1219352745532" name="jetbrains.mps.lang.smodel.structure.NodeRefExpression" flags="nn" index="3B5_sB">
         <reference id="1219352800908" name="referentNode" index="3B5MYn" />

@@ -66,6 +66,9 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -148,6 +151,9 @@
         <child id="1163670683720" name="body" index="3Kbo56" />
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
+      <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
+        <property id="1200397540847" name="charConstant" index="1XhdNS" />
+      </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
       <concept id="1114706874351" name="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" flags="lg" index="29HgVG">
@@ -3795,12 +3801,24 @@
                     <node concept="3clFbS" id="3mn43GOD2gh" role="1bW5cS">
                       <node concept="3clFbF" id="3mn43GOD2i4" role="3cqZAp">
                         <node concept="37vLTI" id="3mn43GOD2Ye" role="3clFbG">
-                          <node concept="2OqwBi" id="3mn43GOEwld" role="37vLTx">
-                            <node concept="37vLTw" id="3mn43GOEwa_" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3mn43GOEuM4" resolve="defaultPrologFile" />
+                          <node concept="2OqwBi" id="Db3u18WMvx" role="37vLTx">
+                            <node concept="2OqwBi" id="3mn43GOEwld" role="2Oq$k0">
+                              <node concept="37vLTw" id="3mn43GOEwa_" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3mn43GOEuM4" resolve="defaultPrologFile" />
+                              </node>
+                              <node concept="liA8E" id="3mn43GOExo6" role="2OqNvi">
+                                <ref role="37wK5l" to="guwi:~File.getAbsolutePath()" resolve="getAbsolutePath" />
+                              </node>
                             </node>
-                            <node concept="liA8E" id="3mn43GOExo6" role="2OqNvi">
-                              <ref role="37wK5l" to="guwi:~File.getAbsolutePath()" resolve="getAbsolutePath" />
+                            <node concept="liA8E" id="Db3u18WMvy" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~String.replace(char,char)" resolve="replace" />
+                              <node concept="10M0yZ" id="Db3u18WMv$" role="37wK5m">
+                                <ref role="3cqZAo" to="guwi:~File.separatorChar" resolve="separatorChar" />
+                                <ref role="1PxDUh" to="guwi:~File" resolve="File" />
+                              </node>
+                              <node concept="1Xhbcc" id="Db3u18WMvz" role="37wK5m">
+                                <property role="1XhdNS" value="/" />
+                              </node>
                             </node>
                           </node>
                           <node concept="2OqwBi" id="3mn43GOD2mm" role="37vLTJ">

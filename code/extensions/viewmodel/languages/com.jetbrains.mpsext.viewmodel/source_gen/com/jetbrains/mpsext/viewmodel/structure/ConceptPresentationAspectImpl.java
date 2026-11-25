@@ -28,7 +28,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.ViewModelExpression:
         if (props_ViewModelExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("a declared view model, bound to the project of the context or to the given one");
+          cpb.shortDesc("a declared view model");
           cpb.rawPresentation("viewmodel");
           props_ViewModelExpression = cpb.create();
         }

@@ -10,7 +10,6 @@ import java.util.HashSet;
 import org.jetbrains.mps.openapi.model.SModelReference;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.smodel.NodeReadEventsCaster;
-import org.jetbrains.mps.openapi.model.SNodeReference;
 import java.util.Map;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
@@ -19,8 +18,10 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.Sequence;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.NodeReadAccessCasterInEditor;
 import jetbrains.mps.internal.collections.runtime.IMapping;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 
 public final class ReadRecorder extends AbstractNodesReadListener {
   private static final ThreadLocal<ReadRecorder> ourCurrent = new ThreadLocal<ReadRecorder>();
@@ -52,7 +53,7 @@ public final class ReadRecorder extends AbstractNodesReadListener {
     }
   }
 
-  public Set<SNodeReference> getNodes() {
+  public Dependencies getDependencies() {
     // The nodes read, except in a model of which more than NODE_LIMIT nodes were read: there the roots that
     // contain them (RootDependency), which keeps the dependencies of a computation that reads a lot few. The
     // nodes read in those roots go into a filter that the root dependencies share (NodeFilter), so that a
@@ -78,7 +79,8 @@ public final class ReadRecorder extends AbstractNodesReadListener {
       }
     }
     NodeFilter filter = null;
-    Set<SNodeReference> result = SetSequence.fromSet(new HashSet<SNodeReference>());
+    Set<SNodeReference> nodeRefs = SetSequence.fromSet(new HashSet<SNodeReference>());
+    Set<RootDependency> rootDependencies = SetSequence.fromSet(new HashSet<RootDependency>());
     Set<SNode> roots = SetSequence.fromSet(new HashSet<SNode>());
     // containingRoot only walks the parent pointers. It notifies the editor of every ancestor, but not the
     // recordings; blocked, so that the editor cells built around the computation don't depend on every ancestor.
@@ -88,14 +90,14 @@ public final class ReadRecorder extends AbstractNodesReadListener {
       for (IMapping<SModel, List<SNode>> entry : MapSequence.fromMap(byModel)) {
         if (ListSequence.fromList(entry.value()).count() <= NODE_LIMIT) {
           for (SNode node : ListSequence.fromList(entry.value())) {
-            SetSequence.fromSet(result).addElement(node.getReference());
+            SetSequence.fromSet(nodeRefs).addElement(SNodeOperations.getPointer(node));
           }
           continue;
         }
         if (filter == null) {
           filter = new NodeFilter(filtered);
         }
-        SModelReference modelRef = entry.key().getReference();
+        SModelReference modelRef = SModelOperations.getPointer(entry.key());
         for (SNode node : ListSequence.fromList(entry.value())) {
           filter.add(modelRef, node.getNodeId());
           SetSequence.fromSet(roots).addElement(SNodeOperations.getContainingRoot(node));
@@ -103,19 +105,16 @@ public final class ReadRecorder extends AbstractNodesReadListener {
       }
       // the dependencies on the roots are made once the filter holds all nodes, as it is part of their equals
       for (SNode root : SetSequence.fromSet(roots)) {
-        SetSequence.fromSet(result).addElement(new RootDependency(root.getReference(), filter));
+        SetSequence.fromSet(rootDependencies).addElement(new RootDependency(SNodeOperations.getPointer(root), filter));
       }
     } finally {
       NodeReadAccessCasterInEditor.setEventsBlocked(wereBlocked);
     }
-    for (SModelReference model : SetSequence.fromSet(rootLists)) {
-      SetSequence.fromSet(result).addElement(ViewModels.rootsOf(model));
-    }
-    return result;
+    return Dependencies.of(nodeRefs, rootLists, rootDependencies);
   }
 
   private void record(SNode node) {
-    // the model of the node is only looked at in getNodes, once per node
+    // the model of the node is only looked at in getDependencies, once per node
     if (node == null || node == lastNode) {
       return;
     }

@@ -12,9 +12,12 @@ public final class ViewModelBatch implements AutoCloseable {
     viewModels.beginBatch();
   }
 
+  /**
+   * Ends the batch. After the outermost batch, the store is updated for the writes made outside a command, in one
+   * command scheduled on the EDT.
+   */
   @Override
   public void close() {
-    // the writes collected since the batch was started are applied in one command per project
     if (closed) {
       return;
     }

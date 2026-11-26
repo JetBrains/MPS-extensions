@@ -235,6 +235,32 @@
       <unit id="1811135247171630026" at="20,0,58,0" name="com.mbeddr.mpsutil.grammarcells.tests.GrammarWrapFilterConstraintsAncestorNode_Test" />
     </file>
   </root>
+  <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/181991325297853489">
+    <file name="OptionalType_DeleteType_Test.java">
+      <node id="181991325297853489" at="19,41,20,60" concept="10" />
+      <node id="181991325297853489" at="24,63,25,36" concept="2" />
+      <node id="181991325297853489" at="30,52,31,19" concept="10" />
+      <node id="181991325297853489" at="35,51,36,70" concept="2" />
+      <node id="181991325297853507" at="36,70,37,69" concept="2" />
+      <node id="181991325297853489" at="16,0,18,0" concept="8" trace="ourParametersCacheExtension" />
+      <node id="181991325297853489" at="19,0,22,0" concept="1" trace="OptionalType_DeleteType_Test#()V" />
+      <node id="181991325297853489" at="30,0,33,0" concept="1" trace="TestBody#(Ljetbrains/mps/lang/test/runtime/TransformationTest;)V" />
+      <node id="181991325297853489" at="23,0,27,0" concept="4" trace="test_OptionalType_DeleteType#()V" />
+      <node id="181991325297853489" at="34,0,39,0" concept="4" trace="testMethodImpl#()V" />
+      <scope id="181991325297853489" at="19,41,20,60" />
+      <scope id="181991325297853489" at="24,63,25,36" />
+      <scope id="181991325297853489" at="30,52,31,19" />
+      <scope id="181991325297853489" at="35,51,37,69" />
+      <scope id="181991325297853489" at="19,0,22,0" />
+      <scope id="181991325297853489" at="30,0,33,0">
+        <var name="owner" id="181991325297853489" />
+      </scope>
+      <scope id="181991325297853489" at="23,0,27,0" />
+      <scope id="181991325297853489" at="34,0,39,0" />
+      <unit id="181991325297853489" at="28,0,40,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalType_DeleteType_Test$TestBody" />
+      <unit id="181991325297853489" at="14,0,41,0" name="com.mbeddr.mpsutil.grammarcells.tests.OptionalType_DeleteType_Test" />
+    </file>
+  </root>
   <root nodeRef="r:c3955e24-2895-4226-ac08-7390af54ffba(com.mbeddr.mpsutil.grammarcells.tests@tests)/2312097807578823415">
     <file name="PreIncrement_Test.java">
       <node id="2312097807578823415" at="19,30,20,60" concept="10" />

@@ -3610,132 +3610,142 @@
   </root>
   <root nodeRef="r:e8e03ffa-3c1e-4997-9f51-6f8ca9be2f23(com.mbeddr.mpsutil.grammarcells.runtime)/641742950736894664">
     <file name="OptionalCellUtil.java">
-      <node id="641742950736894719" at="30,34,31,13" concept="10" />
-      <node id="641742950739021591" at="32,5,33,47" concept="3" />
-      <node id="641742950736894741" at="35,65,36,55" concept="3" />
-      <node id="641742950739012802" at="42,39,43,49" concept="3" />
-      <node id="641742950739012814" at="46,65,47,65" concept="3" />
-      <node id="641742950736894761" at="52,108,53,133" concept="3" />
-      <node id="641742950736894778" at="56,107,57,77" concept="3" />
-      <node id="641742950736894793" at="60,94,61,81" concept="3" />
-      <node id="641742950736894799" at="61,81,62,79" concept="3" />
-      <node id="641742950736894823" at="68,56,69,81" concept="9" />
-      <node id="641742950736894827" at="69,81,70,29" concept="3" />
-      <node id="641742950736894829" at="70,29,71,26" concept="3" />
-      <node id="641742950736894831" at="71,26,72,36" concept="3" />
-      <node id="641742950736894833" at="72,36,73,51" concept="3" />
-      <node id="641742950739005842" at="78,77,79,103" concept="3" />
-      <node id="641742950739005848" at="79,103,80,109" concept="3" />
-      <node id="181991325295222112" at="89,109,90,76" concept="10" />
-      <node id="181991325295222115" at="91,5,92,93" concept="10" />
-      <node id="181991325295222136" at="100,155,101,77" concept="10" />
-      <node id="181991325295222162" at="104,202,105,104" concept="9" />
-      <node id="181991325295222171" at="106,30,107,301" concept="3" />
-      <node id="181991325295222188" at="109,27,110,113" concept="3" />
-      <node id="181991325295222194" at="111,5,112,17" concept="10" />
-      <node id="641742950736894713" at="29,81,32,5" concept="7" />
-      <node id="641742950736894738" at="34,48,37,7" concept="6" />
-      <node id="641742950739012811" at="45,48,48,7" concept="6" />
-      <node id="641742950736894753" at="52,0,55,0" concept="14" trace="setDeleteChildActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)V" />
-      <node id="641742950736894770" at="56,0,59,0" concept="14" trace="setClearPropertyActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SProperty;)V" />
-      <node id="181991325295222106" at="88,188,91,5" concept="7" />
-      <node id="181991325295222128" at="100,0,103,0" concept="14" trace="createChildListMenuItems#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Z)Ljava/util/List;" />
-      <node id="181991325295222167" at="105,104,108,5" concept="7" />
-      <node id="181991325295222184" at="108,5,111,5" concept="7" />
-      <node id="641742950736894787" at="60,0,64,0" concept="14" trace="setDeleteActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P0_E0;)V" />
-      <node id="641742950739005838" at="78,0,82,0" concept="14" trace="doDelegateDeleteAndBackspaceToParent#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-      <node id="641742950736894732" at="33,47,38,5" concept="7" />
-      <node id="641742950739012805" at="44,10,49,5" concept="7" />
-      <node id="181991325295222096" at="88,0,94,0" concept="14" trace="createOptionalChildMenuItems#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;Lorg/jetbrains/mps/openapi/language/SContainmentLink;ZZ)Ljava/util/List;" />
-      <node id="641742950739012796" at="41,91,49,5" concept="7" />
-      <node id="641742950736894817" at="67,0,75,0" concept="8" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-      <node id="641742950739012790" at="41,0,51,0" concept="14" trace="delegateChildDeleteActionsToParent#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="641742950736894813" at="65,126,75,6" concept="10" />
-      <node id="181991325295222149" at="104,0,114,0" concept="14" trace="createChildMenuItems#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;Lorg/jetbrains/mps/openapi/language/SContainmentLink;ZZZ)Ljava/util/List;" />
-      <node id="641742950736894707" at="29,0,40,0" concept="14" trace="delegateDeleteActionsToParent#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="641742950736894807" at="65,0,77,0" concept="14" trace="createDeleteAction#(Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P0_E0;Z)Ljetbrains/mps/openapi/editor/cells/CellAction;" />
-      <scope id="641742950736894718" at="30,34,31,13" />
-      <scope id="641742950736894740" at="35,65,36,55" />
-      <scope id="641742950739012801" at="42,39,43,49" />
-      <scope id="641742950739012813" at="46,65,47,65" />
-      <scope id="641742950736894760" at="52,108,53,133" />
-      <scope id="641742950736894777" at="56,107,57,77" />
-      <scope id="181991325295222111" at="89,109,90,76" />
-      <scope id="181991325295222135" at="100,155,101,77" />
-      <scope id="181991325295222170" at="106,30,107,301" />
-      <scope id="181991325295222187" at="109,27,110,113" />
-      <scope id="641742950736894792" at="60,94,62,79" />
-      <scope id="641742950739005841" at="78,77,80,109" />
-      <scope id="641742950736894737" at="34,48,37,7" />
-      <scope id="641742950736894738" at="34,48,37,7">
+      <node id="641742950736894719" at="32,34,33,13" concept="10" />
+      <node id="641742950739021591" at="34,5,35,47" concept="3" />
+      <node id="641742950736894741" at="37,65,38,55" concept="3" />
+      <node id="641742950739012802" at="44,39,45,49" concept="3" />
+      <node id="641742950739012814" at="48,65,49,65" concept="3" />
+      <node id="641742950736894761" at="54,108,55,133" concept="3" />
+      <node id="641742950736894778" at="58,107,59,77" concept="3" />
+      <node id="641742950736894793" at="62,94,63,81" concept="3" />
+      <node id="641742950736894799" at="63,81,64,79" concept="3" />
+      <node id="641742950736894823" at="70,56,71,81" concept="9" />
+      <node id="641742950736894827" at="71,81,72,29" concept="3" />
+      <node id="641742950736894829" at="72,29,73,26" concept="3" />
+      <node id="641742950736894831" at="73,26,74,36" concept="3" />
+      <node id="641742950736894833" at="74,36,75,51" concept="3" />
+      <node id="641742950739005842" at="80,77,81,103" concept="3" />
+      <node id="641742950739005848" at="81,103,82,109" concept="3" />
+      <node id="181991325295222112" at="91,109,92,76" concept="10" />
+      <node id="181991325295222115" at="93,5,94,93" concept="10" />
+      <node id="181991325295222136" at="102,155,103,77" concept="10" />
+      <node id="4863854153161479638" at="111,128,112,76" concept="10" />
+      <node id="4863854153161479642" at="113,5,114,67" concept="10" />
+      <node id="181991325295222162" at="117,202,118,104" concept="9" />
+      <node id="181991325295222171" at="119,30,120,301" concept="3" />
+      <node id="181991325295222188" at="122,27,123,113" concept="3" />
+      <node id="181991325295222194" at="124,5,125,17" concept="10" />
+      <node id="641742950736894713" at="31,81,34,5" concept="7" />
+      <node id="641742950736894738" at="36,48,39,7" concept="6" />
+      <node id="641742950739012811" at="47,48,50,7" concept="6" />
+      <node id="641742950736894753" at="54,0,57,0" concept="14" trace="setDeleteChildActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)V" />
+      <node id="641742950736894770" at="58,0,61,0" concept="14" trace="setClearPropertyActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SProperty;)V" />
+      <node id="181991325295222106" at="90,188,93,5" concept="7" />
+      <node id="181991325295222128" at="102,0,105,0" concept="14" trace="createChildListMenuItems#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Z)Ljava/util/List;" />
+      <node id="4863854153161479623" at="110,137,113,5" concept="7" />
+      <node id="181991325295222167" at="118,104,121,5" concept="7" />
+      <node id="181991325295222184" at="121,5,124,5" concept="7" />
+      <node id="641742950736894787" at="62,0,66,0" concept="14" trace="setDeleteActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P0_E0;)V" />
+      <node id="641742950739005838" at="80,0,84,0" concept="14" trace="doDelegateDeleteAndBackspaceToParent#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="641742950736894732" at="35,47,40,5" concept="7" />
+      <node id="641742950739012805" at="46,10,51,5" concept="7" />
+      <node id="181991325295222096" at="90,0,96,0" concept="14" trace="createOptionalChildMenuItems#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;Lorg/jetbrains/mps/openapi/language/SContainmentLink;ZZ)Ljava/util/List;" />
+      <node id="4863854153161479613" at="110,0,116,0" concept="14" trace="createOptionalChildListMenuItems#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Ljava/util/List;" />
+      <node id="641742950739012796" at="43,91,51,5" concept="7" />
+      <node id="641742950736894817" at="69,0,77,0" concept="8" trace="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="641742950739012790" at="43,0,53,0" concept="14" trace="delegateChildDeleteActionsToParent#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="641742950736894813" at="67,126,77,6" concept="10" />
+      <node id="181991325295222149" at="117,0,127,0" concept="14" trace="createChildMenuItems#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;Lorg/jetbrains/mps/openapi/language/SContainmentLink;ZZZ)Ljava/util/List;" />
+      <node id="641742950736894707" at="31,0,42,0" concept="14" trace="delegateDeleteActionsToParent#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="641742950736894807" at="67,0,79,0" concept="14" trace="createDeleteAction#(Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_void_P0_E0;Z)Ljetbrains/mps/openapi/editor/cells/CellAction;" />
+      <scope id="641742950736894718" at="32,34,33,13" />
+      <scope id="641742950736894740" at="37,65,38,55" />
+      <scope id="641742950739012801" at="44,39,45,49" />
+      <scope id="641742950739012813" at="48,65,49,65" />
+      <scope id="641742950736894760" at="54,108,55,133" />
+      <scope id="641742950736894777" at="58,107,59,77" />
+      <scope id="181991325295222111" at="91,109,92,76" />
+      <scope id="181991325295222135" at="102,155,103,77" />
+      <scope id="4863854153161479637" at="111,128,112,76" />
+      <scope id="181991325295222170" at="119,30,120,301" />
+      <scope id="181991325295222187" at="122,27,123,113" />
+      <scope id="641742950736894792" at="62,94,64,79" />
+      <scope id="641742950739005841" at="80,77,82,109" />
+      <scope id="641742950736894737" at="36,48,39,7" />
+      <scope id="641742950736894738" at="36,48,39,7">
         <var name="childCell" id="641742950736894745" />
       </scope>
-      <scope id="641742950739012810" at="45,48,48,7" />
-      <scope id="641742950739012811" at="45,48,48,7">
+      <scope id="641742950739012810" at="47,48,50,7" />
+      <scope id="641742950739012811" at="47,48,50,7">
         <var name="childCell" id="641742950739012818" />
       </scope>
-      <scope id="641742950736894753" at="52,0,55,0">
+      <scope id="641742950736894753" at="54,0,57,0">
         <var name="cell" id="641742950736894754" />
         <var name="link" id="641742950736894758" />
         <var name="node" id="641742950736894756" />
       </scope>
-      <scope id="641742950736894770" at="56,0,59,0">
+      <scope id="641742950736894770" at="58,0,61,0">
         <var name="cell" id="641742950736894771" />
         <var name="node" id="641742950736894773" />
         <var name="property" id="641742950736894775" />
       </scope>
-      <scope id="181991325295222128" at="100,0,103,0">
+      <scope id="181991325295222128" at="102,0,105,0">
         <var name="context" id="181991325295222129" />
         <var name="link" id="181991325295222131" />
         <var name="withInsertAction" id="181991325295222133" />
       </scope>
-      <scope id="641742950736894787" at="60,0,64,0">
+      <scope id="641742950736894787" at="62,0,66,0">
         <var name="cell" id="641742950736894788" />
         <var name="deletion" id="641742950736894790" />
       </scope>
-      <scope id="641742950739005838" at="78,0,82,0">
+      <scope id="641742950739005838" at="80,0,84,0">
         <var name="cell" id="641742950739005839" />
       </scope>
-      <scope id="181991325295222105" at="88,188,92,93" />
-      <scope id="641742950736894821" at="68,56,73,51">
+      <scope id="181991325295222105" at="90,188,94,93" />
+      <scope id="4863854153161479622" at="110,137,114,67" />
+      <scope id="641742950736894821" at="70,56,75,51">
         <var name="caretPosition" id="641742950736894822" />
       </scope>
-      <scope id="181991325295222096" at="88,0,94,0">
+      <scope id="181991325295222096" at="90,0,96,0">
         <var name="context" id="181991325295222097" />
         <var name="link" id="181991325295222099" />
         <var name="withInsertAction" id="181991325295222103" />
         <var name="withSubstituteItems" id="181991325295222101" />
       </scope>
-      <scope id="641742950739012795" at="41,91,49,5" />
-      <scope id="641742950736894817" at="67,0,75,0">
+      <scope id="4863854153161479613" at="110,0,116,0">
+        <var name="context" id="4863854153161479614" />
+        <var name="link" id="4863854153161479616" />
+      </scope>
+      <scope id="641742950739012795" at="43,91,51,5" />
+      <scope id="641742950736894817" at="69,0,77,0">
         <var name="editorContext" id="641742950736894819" />
       </scope>
-      <scope id="181991325295222160" at="104,202,112,17">
+      <scope id="181991325295222160" at="117,202,125,17">
         <var name="items" id="181991325295222161" />
       </scope>
-      <scope id="641742950736894712" at="29,81,38,5" />
-      <scope id="641742950739012790" at="41,0,51,0">
+      <scope id="641742950736894712" at="31,81,40,5" />
+      <scope id="641742950739012790" at="43,0,53,0">
         <var name="cell" id="641742950739012791" />
         <var name="childNode" id="641742950739012793" />
       </scope>
-      <scope id="641742950736894812" at="65,126,75,6" />
-      <scope id="181991325295222149" at="104,0,114,0">
+      <scope id="641742950736894812" at="67,126,77,6" />
+      <scope id="181991325295222149" at="117,0,127,0">
         <var name="context" id="181991325295222150" />
         <var name="insertFirst" id="181991325295222158" />
         <var name="link" id="181991325295222152" />
         <var name="withInsertAction" id="181991325295222156" />
         <var name="withSubstituteItems" id="181991325295222154" />
       </scope>
-      <scope id="641742950736894707" at="29,0,40,0">
+      <scope id="641742950736894707" at="31,0,42,0">
         <var name="cell" id="641742950736894708" />
         <var name="node" id="641742950736894710" />
       </scope>
-      <scope id="641742950736894807" at="65,0,77,0">
+      <scope id="641742950736894807" at="67,0,79,0">
         <var name="deletion" id="641742950736894808" />
         <var name="restoreCaretAtStart" id="641742950736894810" />
       </scope>
-      <unit id="641742950736894816" at="66,15,75,5" name="com.mbeddr.mpsutil.grammarcells.runtime.OptionalCellUtil$1" />
-      <unit id="641742950736894664" at="27,0,116,0" name="com.mbeddr.mpsutil.grammarcells.runtime.OptionalCellUtil" />
+      <unit id="641742950736894816" at="68,15,77,5" name="com.mbeddr.mpsutil.grammarcells.runtime.OptionalCellUtil$1" />
+      <unit id="641742950736894664" at="29,0,129,0" name="com.mbeddr.mpsutil.grammarcells.runtime.OptionalCellUtil" />
     </file>
   </root>
   <root nodeRef="r:e8e03ffa-3c1e-4997-9f51-6f8ca9be2f23(com.mbeddr.mpsutil.grammarcells.runtime)/6440714009707309482">

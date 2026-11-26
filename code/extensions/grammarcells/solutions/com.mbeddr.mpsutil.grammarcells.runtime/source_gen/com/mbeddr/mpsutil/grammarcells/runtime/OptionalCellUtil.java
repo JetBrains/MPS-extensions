@@ -17,6 +17,8 @@ import java.util.List;
 import jetbrains.mps.openapi.editor.menus.transformation.TransformationMenuItem;
 import jetbrains.mps.openapi.editor.menus.transformation.TransformationMenuContext;
 import java.util.ArrayList;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.editor.menus.transformation.SubstituteItemsCollector;
 import jetbrains.mps.lang.editor.menus.substitute.DefaultSubstituteMenuLookup;
 import jetbrains.mps.smodel.language.LanguageRegistry;
@@ -99,6 +101,17 @@ public class OptionalCellUtil {
    */
   public static List<TransformationMenuItem> createChildListMenuItems(TransformationMenuContext context, SContainmentLink link, boolean withInsertAction) {
     return createChildMenuItems(context, link, true, withInsertAction, true);
+  }
+  /**
+   * 
+   * Menu items of a grammar.optional cell with a transformation text for a child list: nothing if the list
+   * contains children or child attributes (e.g. commented-out children), otherwise an action that inserts a new child.
+   */
+  public static List<TransformationMenuItem> createOptionalChildListMenuItems(TransformationMenuContext context, SContainmentLink link) {
+    if (Sequence.fromIterable(AttributeOperations.getChildNodesAndAttributes(((SNode) context.getNode()), link)).isNotEmpty()) {
+      return ListSequence.fromList(new ArrayList<TransformationMenuItem>());
+    }
+    return createChildMenuItems(context, link, false, true, false);
   }
 
   private static List<TransformationMenuItem> createChildMenuItems(TransformationMenuContext context, SContainmentLink link, boolean withSubstituteItems, boolean withInsertAction, boolean insertFirst) {

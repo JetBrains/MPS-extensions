@@ -13,6 +13,13 @@ import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.openapi.editor.cells.CellAction;
 import jetbrains.mps.openapi.editor.EditorContext;
+import java.util.List;
+import jetbrains.mps.openapi.editor.menus.transformation.TransformationMenuItem;
+import jetbrains.mps.openapi.editor.menus.transformation.TransformationMenuContext;
+import java.util.ArrayList;
+import jetbrains.mps.lang.editor.menus.transformation.SubstituteItemsCollector;
+import jetbrains.mps.lang.editor.menus.substitute.DefaultSubstituteMenuLookup;
+import jetbrains.mps.smodel.language.LanguageRegistry;
 
 /**
  * Runtime support for the code generated from grammar.optional cells.
@@ -72,4 +79,37 @@ public class OptionalCellUtil {
     cell.setAction(CellActionType.DELETE, new DelegateToParentCellAction(cell, CellActionType.DELETE));
     cell.setAction(CellActionType.BACKSPACE, new DelegateToParentCellAction(cell, CellActionType.BACKSPACE));
   }
+
+  /**
+   * 
+   * Menu items of a grammar.optional cell for a single child: nothing if the child is present,
+   * otherwise the substitute items of the child concept and/or an action that inserts a new child.
+   */
+  public static List<TransformationMenuItem> createOptionalChildMenuItems(TransformationMenuContext context, SContainmentLink link, boolean withSubstituteItems, boolean withInsertAction) {
+    if (ListSequence.fromList(SNodeOperations.getChildren(((SNode) context.getNode()), link)).isNotEmpty()) {
+      return ListSequence.fromList(new ArrayList<TransformationMenuItem>());
+    }
+    return createChildMenuItems(context, link, withSubstituteItems, withInsertAction, false);
+  }
+
+  /**
+   * 
+   * Menu items of a grammar.optional cell for a child list: the substitute items of the child concept
+   * and optionally an action that inserts a new child at the beginning of the list.
+   */
+  public static List<TransformationMenuItem> createChildListMenuItems(TransformationMenuContext context, SContainmentLink link, boolean withInsertAction) {
+    return createChildMenuItems(context, link, true, withInsertAction, true);
+  }
+
+  private static List<TransformationMenuItem> createChildMenuItems(TransformationMenuContext context, SContainmentLink link, boolean withSubstituteItems, boolean withInsertAction, boolean insertFirst) {
+    List<TransformationMenuItem> items = ListSequence.fromList(new ArrayList<TransformationMenuItem>());
+    if (withSubstituteItems) {
+      ListSequence.fromList(items).addSequence(ListSequence.fromList(new SubstituteItemsCollector(context.getNode(), null, link, context.getEditorContext(), new DefaultSubstituteMenuLookup(LanguageRegistry.getInstance(context.getEditorContext().getRepository()), link.getTargetConcept())).collect()));
+    }
+    if (withInsertAction) {
+      ListSequence.fromList(items).addElement(new OptionalCellInsertChildActionItem(context, link, insertFirst));
+    }
+    return items;
+  }
+
 }

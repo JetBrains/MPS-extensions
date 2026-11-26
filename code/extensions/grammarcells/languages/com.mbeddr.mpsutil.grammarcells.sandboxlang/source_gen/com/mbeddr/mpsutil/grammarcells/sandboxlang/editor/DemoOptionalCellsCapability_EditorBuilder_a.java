@@ -53,19 +53,11 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.lang.editor.menus.GroupMenuPart;
 import jetbrains.mps.lang.editor.menus.EditorMenuDescriptorBase;
-import jetbrains.mps.util.Computable;
 import java.util.Arrays;
-import jetbrains.mps.lang.editor.menus.transformation.SubstituteItemsCollector;
-import jetbrains.mps.lang.editor.menus.substitute.DefaultSubstituteMenuLookup;
-import jetbrains.mps.smodel.language.LanguageRegistry;
-import jetbrains.mps.lang.editor.menus.SingleItemMenuPart;
-import jetbrains.mps.lang.editor.menus.transformation.ActionItemBase;
-import jetbrains.mps.nodeEditor.cellMenu.SideTransformCompletionActionItem;
-import com.mbeddr.mpsutil.grammarcells.runtime.GrammarCellsUtil;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.editor.menus.transformation.ReferenceMenuTransformationMenuPart;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
 import jetbrains.mps.lang.editor.menus.transformation.ReferenceTransformationMenuItem;
+import jetbrains.mps.nodeEditor.cellMenu.SideTransformCompletionActionItem;
 import jetbrains.mps.lang.editor.cellProviders.SReferenceCellProvider;
 import jetbrains.mps.editor.runtime.impl.CellUtil;
 import jetbrains.mps.nodeEditor.cellMenu.SReferenceSubstituteInfo;
@@ -938,79 +930,18 @@ import org.jetbrains.mps.openapi.language.SConcept;
     SideTransformationHolderCell editorCell = new SideTransformationHolderCell(getEditorContext(), myNode, null, "grammar.optional for DemoOptionalCellsCapability.content") {
       @Override
       public List<MenuPart<TransformationMenuItem, TransformationMenuContext>> createMenuParts() {
-        return ListSequence.fromListAndArray(new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>(), new TMP_Group_jck34j_a0i0j0a());
+        return ListSequence.fromListAndArray(new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>(), new GenericMenuPart_a0i0j0a());
       }
     };
     editorCell.setCellId("SideTransformationSectionCell_jck34j_i0j0a");
     return editorCell;
   }
-  public class TMP_Group_jck34j_a0i0j0a extends GroupMenuPart<TransformationMenuItem, TransformationMenuContext> {
-    private SContainmentLink link;
-    public TMP_Group_jck34j_a0i0j0a() {
-      super(new EditorMenuDescriptorBase("transformation menu group", null));
-    }
+  private class GenericMenuPart_a0i0j0a implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
+
+    @NotNull
     @Override
-    protected void initialize(TransformationMenuContext _context) {
-      super.initialize(_context);
-      link = new Computable<SContainmentLink>() {
-        public SContainmentLink compute() {
-          return LINKS.content$alhA;
-        }
-      }.compute();
-    }
-    @Override
-    protected boolean isApplicable(TransformationMenuContext _context) {
-      return ListSequence.fromList(SNodeOperations.getChildren(((SNode) _context.getNode()), link)).isEmpty();
-    }
-    @Override
-    protected List<MenuPart<TransformationMenuItem, TransformationMenuContext>> getParts() {
-      return Arrays.<MenuPart<TransformationMenuItem, TransformationMenuContext>>asList(new GenericMenuPart_a0a8a9a0(), new TMP_Action_jck34j_b0a8a9a0());
-    }
-    private class GenericMenuPart_a0a8a9a0 implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
-
-      @NotNull
-      @Override
-      public List<TransformationMenuItem> createItems(final TransformationMenuContext ctx) {
-        return new SubstituteItemsCollector(ctx.getNode(), null, link, ctx.getEditorContext(), new DefaultSubstituteMenuLookup(LanguageRegistry.getInstance(ctx.getEditorContext().getRepository()), link.getTargetConcept())).collect();
-      }
-    }
-    private class TMP_Action_jck34j_b0a8a9a0 extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
-      @Nullable
-      protected TransformationMenuItem createItem(TransformationMenuContext context) {
-        return new Item(context).resetTraceInfo();
-      }
-
-      private class Item extends ActionItemBase implements SideTransformCompletionActionItem {
-        /*package*/ Item(TransformationMenuContext context) {
-          super(context);
-        }
-        /*package*/ Item resetTraceInfo() {
-          updateTraceInfo("single item: " + getLabelText(""), null);
-          return this;
-        }
-        @Nullable
-        @Override
-        public String getLabelText(String pattern) {
-          return GrammarCellsUtil.INSERT_TRANSFORMATION_TEXT;
-        }
-
-        @Override
-        public void execute(@NotNull String pattern) {
-          SNodeFactoryOperations.addNewChild(((SNode) _context.getNode()), link, null);
-        }
-
-
-        @Override
-        public String getShortDescriptionText(@NotNull String pattern) {
-          return GrammarCellsUtil.getDescriptionForContainmentLink(link);
-        }
-        @Override
-        public SNode getActionType(@NotNull String pattern) {
-          SAbstractConcept targetConcept = link.getTargetConcept();
-          return SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(targetConcept));
-        }
-
-      }
+    public List<TransformationMenuItem> createItems(final TransformationMenuContext ctx) {
+      return OptionalCellUtil.createOptionalChildMenuItems(ctx, LINKS.content$alhA, true, true);
     }
   }
   private EditorCell createCustomFactory_8(final EditorContext editorContext, final SNode node) {
@@ -1112,79 +1043,18 @@ import org.jetbrains.mps.openapi.language.SConcept;
     SideTransformationHolderCell editorCell = new SideTransformationHolderCell(getEditorContext(), myNode, null, "grammar.optional for DemoOptionalCellsCapability.content") {
       @Override
       public List<MenuPart<TransformationMenuItem, TransformationMenuContext>> createMenuParts() {
-        return ListSequence.fromListAndArray(new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>(), new TMP_Group_jck34j_a0l0j0a());
+        return ListSequence.fromListAndArray(new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>(), new GenericMenuPart_a0l0j0a());
       }
     };
     editorCell.setCellId("SideTransformationSectionCell_jck34j_l0j0a");
     return editorCell;
   }
-  public class TMP_Group_jck34j_a0l0j0a extends GroupMenuPart<TransformationMenuItem, TransformationMenuContext> {
-    private SContainmentLink link;
-    public TMP_Group_jck34j_a0l0j0a() {
-      super(new EditorMenuDescriptorBase("transformation menu group", null));
-    }
+  private class GenericMenuPart_a0l0j0a implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
+
+    @NotNull
     @Override
-    protected void initialize(TransformationMenuContext _context) {
-      super.initialize(_context);
-      link = new Computable<SContainmentLink>() {
-        public SContainmentLink compute() {
-          return LINKS.content$alhA;
-        }
-      }.compute();
-    }
-    @Override
-    protected boolean isApplicable(TransformationMenuContext _context) {
-      return ListSequence.fromList(SNodeOperations.getChildren(((SNode) _context.getNode()), link)).isEmpty();
-    }
-    @Override
-    protected List<MenuPart<TransformationMenuItem, TransformationMenuContext>> getParts() {
-      return Arrays.<MenuPart<TransformationMenuItem, TransformationMenuContext>>asList(new GenericMenuPart_a0a11a9a0(), new TMP_Action_jck34j_b0a11a9a0());
-    }
-    private class GenericMenuPart_a0a11a9a0 implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
-
-      @NotNull
-      @Override
-      public List<TransformationMenuItem> createItems(final TransformationMenuContext ctx) {
-        return new SubstituteItemsCollector(ctx.getNode(), null, link, ctx.getEditorContext(), new DefaultSubstituteMenuLookup(LanguageRegistry.getInstance(ctx.getEditorContext().getRepository()), link.getTargetConcept())).collect();
-      }
-    }
-    private class TMP_Action_jck34j_b0a11a9a0 extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
-      @Nullable
-      protected TransformationMenuItem createItem(TransformationMenuContext context) {
-        return new Item(context).resetTraceInfo();
-      }
-
-      private class Item extends ActionItemBase implements SideTransformCompletionActionItem {
-        /*package*/ Item(TransformationMenuContext context) {
-          super(context);
-        }
-        /*package*/ Item resetTraceInfo() {
-          updateTraceInfo("single item: " + getLabelText(""), null);
-          return this;
-        }
-        @Nullable
-        @Override
-        public String getLabelText(String pattern) {
-          return GrammarCellsUtil.INSERT_TRANSFORMATION_TEXT;
-        }
-
-        @Override
-        public void execute(@NotNull String pattern) {
-          SNodeFactoryOperations.addNewChild(((SNode) _context.getNode()), link, null);
-        }
-
-
-        @Override
-        public String getShortDescriptionText(@NotNull String pattern) {
-          return GrammarCellsUtil.getDescriptionForContainmentLink(link);
-        }
-        @Override
-        public SNode getActionType(@NotNull String pattern) {
-          SAbstractConcept targetConcept = link.getTargetConcept();
-          return SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(targetConcept));
-        }
-
-      }
+    public List<TransformationMenuItem> createItems(final TransformationMenuContext ctx) {
+      return OptionalCellUtil.createOptionalChildMenuItems(ctx, LINKS.content$alhA, true, true);
     }
   }
   private EditorCell createCustomFactory_10(final EditorContext editorContext, final SNode node) {
@@ -2339,79 +2209,18 @@ import org.jetbrains.mps.openapi.language.SConcept;
     SideTransformationHolderCell editorCell = new SideTransformationHolderCell(getEditorContext(), myNode, null, "grammar.optional for DemoOptionalCellsCapability.content") {
       @Override
       public List<MenuPart<TransformationMenuItem, TransformationMenuContext>> createMenuParts() {
-        return ListSequence.fromListAndArray(new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>(), new TMP_Group_jck34j_a0i0x0a());
+        return ListSequence.fromListAndArray(new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>(), new GenericMenuPart_a0i0x0a());
       }
     };
     editorCell.setCellId("SideTransformationSectionCell_jck34j_i0x0a");
     return editorCell;
   }
-  public class TMP_Group_jck34j_a0i0x0a extends GroupMenuPart<TransformationMenuItem, TransformationMenuContext> {
-    private SContainmentLink link;
-    public TMP_Group_jck34j_a0i0x0a() {
-      super(new EditorMenuDescriptorBase("transformation menu group", null));
-    }
+  private class GenericMenuPart_a0i0x0a implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
+
+    @NotNull
     @Override
-    protected void initialize(TransformationMenuContext _context) {
-      super.initialize(_context);
-      link = new Computable<SContainmentLink>() {
-        public SContainmentLink compute() {
-          return LINKS.content$alhA;
-        }
-      }.compute();
-    }
-    @Override
-    protected boolean isApplicable(TransformationMenuContext _context) {
-      return ListSequence.fromList(SNodeOperations.getChildren(((SNode) _context.getNode()), link)).isEmpty();
-    }
-    @Override
-    protected List<MenuPart<TransformationMenuItem, TransformationMenuContext>> getParts() {
-      return Arrays.<MenuPart<TransformationMenuItem, TransformationMenuContext>>asList(new GenericMenuPart_a0a8a32a0(), new TMP_Action_jck34j_b0a8a32a0());
-    }
-    private class GenericMenuPart_a0a8a32a0 implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
-
-      @NotNull
-      @Override
-      public List<TransformationMenuItem> createItems(final TransformationMenuContext ctx) {
-        return new SubstituteItemsCollector(ctx.getNode(), null, link, ctx.getEditorContext(), new DefaultSubstituteMenuLookup(LanguageRegistry.getInstance(ctx.getEditorContext().getRepository()), link.getTargetConcept())).collect();
-      }
-    }
-    private class TMP_Action_jck34j_b0a8a32a0 extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
-      @Nullable
-      protected TransformationMenuItem createItem(TransformationMenuContext context) {
-        return new Item(context).resetTraceInfo();
-      }
-
-      private class Item extends ActionItemBase implements SideTransformCompletionActionItem {
-        /*package*/ Item(TransformationMenuContext context) {
-          super(context);
-        }
-        /*package*/ Item resetTraceInfo() {
-          updateTraceInfo("single item: " + getLabelText(""), null);
-          return this;
-        }
-        @Nullable
-        @Override
-        public String getLabelText(String pattern) {
-          return GrammarCellsUtil.INSERT_TRANSFORMATION_TEXT;
-        }
-
-        @Override
-        public void execute(@NotNull String pattern) {
-          SNodeFactoryOperations.addNewChild(((SNode) _context.getNode()), link, null);
-        }
-
-
-        @Override
-        public String getShortDescriptionText(@NotNull String pattern) {
-          return GrammarCellsUtil.getDescriptionForContainmentLink(link);
-        }
-        @Override
-        public SNode getActionType(@NotNull String pattern) {
-          SAbstractConcept targetConcept = link.getTargetConcept();
-          return SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(targetConcept));
-        }
-
-      }
+    public List<TransformationMenuItem> createItems(final TransformationMenuContext ctx) {
+      return OptionalCellUtil.createOptionalChildMenuItems(ctx, LINKS.content$alhA, true, true);
     }
   }
   private EditorCell createCustomFactory_28(final EditorContext editorContext, final SNode node) {
@@ -2513,79 +2322,18 @@ import org.jetbrains.mps.openapi.language.SConcept;
     SideTransformationHolderCell editorCell = new SideTransformationHolderCell(getEditorContext(), myNode, null, "grammar.optional for DemoOptionalCellsCapability.content") {
       @Override
       public List<MenuPart<TransformationMenuItem, TransformationMenuContext>> createMenuParts() {
-        return ListSequence.fromListAndArray(new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>(), new TMP_Group_jck34j_a0l0x0a());
+        return ListSequence.fromListAndArray(new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>(), new GenericMenuPart_a0l0x0a());
       }
     };
     editorCell.setCellId("SideTransformationSectionCell_jck34j_l0x0a");
     return editorCell;
   }
-  public class TMP_Group_jck34j_a0l0x0a extends GroupMenuPart<TransformationMenuItem, TransformationMenuContext> {
-    private SContainmentLink link;
-    public TMP_Group_jck34j_a0l0x0a() {
-      super(new EditorMenuDescriptorBase("transformation menu group", null));
-    }
+  private class GenericMenuPart_a0l0x0a implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
+
+    @NotNull
     @Override
-    protected void initialize(TransformationMenuContext _context) {
-      super.initialize(_context);
-      link = new Computable<SContainmentLink>() {
-        public SContainmentLink compute() {
-          return LINKS.content$alhA;
-        }
-      }.compute();
-    }
-    @Override
-    protected boolean isApplicable(TransformationMenuContext _context) {
-      return ListSequence.fromList(SNodeOperations.getChildren(((SNode) _context.getNode()), link)).isEmpty();
-    }
-    @Override
-    protected List<MenuPart<TransformationMenuItem, TransformationMenuContext>> getParts() {
-      return Arrays.<MenuPart<TransformationMenuItem, TransformationMenuContext>>asList(new GenericMenuPart_a0a11a32a0(), new TMP_Action_jck34j_b0a11a32a0());
-    }
-    private class GenericMenuPart_a0a11a32a0 implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
-
-      @NotNull
-      @Override
-      public List<TransformationMenuItem> createItems(final TransformationMenuContext ctx) {
-        return new SubstituteItemsCollector(ctx.getNode(), null, link, ctx.getEditorContext(), new DefaultSubstituteMenuLookup(LanguageRegistry.getInstance(ctx.getEditorContext().getRepository()), link.getTargetConcept())).collect();
-      }
-    }
-    private class TMP_Action_jck34j_b0a11a32a0 extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
-      @Nullable
-      protected TransformationMenuItem createItem(TransformationMenuContext context) {
-        return new Item(context).resetTraceInfo();
-      }
-
-      private class Item extends ActionItemBase implements SideTransformCompletionActionItem {
-        /*package*/ Item(TransformationMenuContext context) {
-          super(context);
-        }
-        /*package*/ Item resetTraceInfo() {
-          updateTraceInfo("single item: " + getLabelText(""), null);
-          return this;
-        }
-        @Nullable
-        @Override
-        public String getLabelText(String pattern) {
-          return GrammarCellsUtil.INSERT_TRANSFORMATION_TEXT;
-        }
-
-        @Override
-        public void execute(@NotNull String pattern) {
-          SNodeFactoryOperations.addNewChild(((SNode) _context.getNode()), link, null);
-        }
-
-
-        @Override
-        public String getShortDescriptionText(@NotNull String pattern) {
-          return GrammarCellsUtil.getDescriptionForContainmentLink(link);
-        }
-        @Override
-        public SNode getActionType(@NotNull String pattern) {
-          SAbstractConcept targetConcept = link.getTargetConcept();
-          return SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(targetConcept));
-        }
-
-      }
+    public List<TransformationMenuItem> createItems(final TransformationMenuContext ctx) {
+      return OptionalCellUtil.createOptionalChildMenuItems(ctx, LINKS.content$alhA, true, true);
     }
   }
   private EditorCell createCustomFactory_30(final EditorContext editorContext, final SNode node) {

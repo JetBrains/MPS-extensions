@@ -22,28 +22,10 @@ import jetbrains.mps.openapi.editor.menus.transformation.TransformationMenuItem;
 import jetbrains.mps.openapi.editor.menus.transformation.TransformationMenuContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.lang.editor.menus.GroupMenuPart;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
-import jetbrains.mps.lang.editor.menus.EditorMenuDescriptorBase;
-import jetbrains.mps.util.Computable;
-import java.util.Arrays;
-import jetbrains.mps.lang.editor.menus.transformation.SubstituteItemsCollector;
-import jetbrains.mps.lang.editor.menus.substitute.DefaultSubstituteMenuLookup;
-import jetbrains.mps.smodel.language.LanguageRegistry;
-import jetbrains.mps.lang.editor.menus.SingleItemMenuPart;
-import org.jetbrains.annotations.Nullable;
-import jetbrains.mps.lang.editor.menus.transformation.ActionItemBase;
-import jetbrains.mps.nodeEditor.cellMenu.SideTransformCompletionActionItem;
-import com.mbeddr.mpsutil.grammarcells.runtime.GrammarCellsUtil;
-import jetbrains.mps.smodel.action.SNodeFactoryOperations;
-import org.jetbrains.mps.openapi.language.SAbstractConcept;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.openapi.editor.cells.CellActionType;
-import com.mbeddr.mpsutil.grammarcells.runtime.CellActionWithReadAccess;
-import com.mbeddr.mpsutil.grammarcells.runtime.SavedCaretPosition;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import com.mbeddr.mpsutil.grammarcells.runtime.DelegateToParentCellAction;
+import com.mbeddr.mpsutil.grammarcells.runtime.OptionalCellUtil;
 import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
+import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart;
 import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
@@ -110,79 +92,18 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     SideTransformationHolderCell editorCell = new SideTransformationHolderCell(getEditorContext(), myNode, null, "grammar.optional for TEST_OptionalWithoutText_Single.child") {
       @Override
       public List<MenuPart<TransformationMenuItem, TransformationMenuContext>> createMenuParts() {
-        return ListSequence.fromListAndArray(new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>(), new TMP_Group_gloyme_a0b0a());
+        return ListSequence.fromListAndArray(new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>(), new GenericMenuPart_a0b0a_0());
       }
     };
     editorCell.setCellId("SideTransformationSectionCell_gloyme_b0a");
     return editorCell;
   }
-  public class TMP_Group_gloyme_a0b0a extends GroupMenuPart<TransformationMenuItem, TransformationMenuContext> {
-    private SContainmentLink link;
-    public TMP_Group_gloyme_a0b0a() {
-      super(new EditorMenuDescriptorBase("transformation menu group", null));
-    }
+  private class GenericMenuPart_a0b0a_0 implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
+
+    @NotNull
     @Override
-    protected void initialize(TransformationMenuContext _context) {
-      super.initialize(_context);
-      link = new Computable<SContainmentLink>() {
-        public SContainmentLink compute() {
-          return LINKS.child$s1CI;
-        }
-      }.compute();
-    }
-    @Override
-    protected boolean isApplicable(TransformationMenuContext _context) {
-      return ListSequence.fromList(SNodeOperations.getChildren(((SNode) _context.getNode()), link)).isEmpty();
-    }
-    @Override
-    protected List<MenuPart<TransformationMenuItem, TransformationMenuContext>> getParts() {
-      return Arrays.<MenuPart<TransformationMenuItem, TransformationMenuContext>>asList(new GenericMenuPart_a0a1a0(), new TMP_Action_gloyme_b0a1a0());
-    }
-    private class GenericMenuPart_a0a1a0 implements MenuPart<TransformationMenuItem, TransformationMenuContext> {
-
-      @NotNull
-      @Override
-      public List<TransformationMenuItem> createItems(final TransformationMenuContext ctx) {
-        return new SubstituteItemsCollector(ctx.getNode(), null, link, ctx.getEditorContext(), new DefaultSubstituteMenuLookup(LanguageRegistry.getInstance(ctx.getEditorContext().getRepository()), link.getTargetConcept())).collect();
-      }
-    }
-    private class TMP_Action_gloyme_b0a1a0 extends SingleItemMenuPart<TransformationMenuItem, TransformationMenuContext> {
-      @Nullable
-      protected TransformationMenuItem createItem(TransformationMenuContext context) {
-        return new Item(context).resetTraceInfo();
-      }
-
-      private class Item extends ActionItemBase implements SideTransformCompletionActionItem {
-        /*package*/ Item(TransformationMenuContext context) {
-          super(context);
-        }
-        /*package*/ Item resetTraceInfo() {
-          updateTraceInfo("single item: " + getLabelText(""), null);
-          return this;
-        }
-        @Nullable
-        @Override
-        public String getLabelText(String pattern) {
-          return GrammarCellsUtil.INSERT_TRANSFORMATION_TEXT;
-        }
-
-        @Override
-        public void execute(@NotNull String pattern) {
-          SNodeFactoryOperations.addNewChild(((SNode) _context.getNode()), link, null);
-        }
-
-
-        @Override
-        public String getShortDescriptionText(@NotNull String pattern) {
-          return GrammarCellsUtil.getDescriptionForContainmentLink(link);
-        }
-        @Override
-        public SNode getActionType(@NotNull String pattern) {
-          SAbstractConcept targetConcept = link.getTargetConcept();
-          return SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(targetConcept));
-        }
-
-      }
+    public List<TransformationMenuItem> createItems(final TransformationMenuContext ctx) {
+      return OptionalCellUtil.createOptionalChildMenuItems(ctx, LINKS.child$s1CI, true, true);
     }
   }
   private EditorCell createCustomFactory_0(final EditorContext editorContext, final SNode node) {
@@ -202,26 +123,10 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
       return jetbrains.mps.nodeEditor.cells.EditorCell_Collection.createVertical(editorContext, node);
     }
 
-    final EditorCell cell = createCustomFactory_3();
+    final EditorCell cell = createRefNode_0();
     EditorCell editorCell = ((_FunctionTypes._return_P0_E0<EditorCell>) () -> {
-      cell.setAction(CellActionType.BACKSPACE, new CellActionWithReadAccess() {
-        public void execute(EditorContext editorContext) {
-          SavedCaretPosition caretPosition = new SavedCaretPosition(editorContext);
-          caretPosition.save();
-          SNodeOperations.deleteNode(SLinkOperations.getTarget(node, LINKS.child$s1CI));
-          editorContext.flushEvents();
-          caretPosition.restore(true);
-        }
-      });
-      cell.setAction(CellActionType.DELETE, new CellActionWithReadAccess() {
-        public void execute(EditorContext editorContext) {
-          SavedCaretPosition caretPosition = new SavedCaretPosition(editorContext);
-          caretPosition.save();
-          SNodeOperations.deleteNode(SLinkOperations.getTarget(node, LINKS.child$s1CI));
-          editorContext.flushEvents();
-          caretPosition.restore(false);
-        }
-      });
+      OptionalCellUtil.delegateDeleteActionsToParent(cell, myNode);
+      OptionalCellUtil.setDeleteChildActions(cell, myNode, LINKS.child$s1CI);
       return cell;
     }).invoke();
     return editorCell;
@@ -229,54 +134,15 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
   private EditorCell createCustomFactory_1() {
     return createCustomFactory_0(getEditorContext(), getNode());
   }
-  private EditorCell createCustomFactory_2(final EditorContext editorContext, final SNode node) {
-
-    if (!(new Object() {
-      public boolean showWrapped() {
-        if (!(((_FunctionTypes._return_P0_E0<Boolean>) () -> {
-          LogContext.with(TEST_OptionalWithoutText_Single_EditorBuilder.class, null, null, null).debug("EditorContext" + getEditorContext());
-          LogContext.with(TEST_OptionalWithoutText_Single_EditorBuilder.class, null, null, null).debug("Node:" + SNodeOperations.present(myNode));
-          return true;
-        }).invoke())) {
-          return false;
-        }
-        return Sequence.fromIterable(AttributeOperations.getChildNodesAndAttributes(myNode, LINKS.child$s1CI)).isNotEmpty();
-      }
-    }.showWrapped())) {
-      return jetbrains.mps.nodeEditor.cells.EditorCell_Collection.createVertical(editorContext, node);
-    }
-
-    final EditorCell cell = createRefNode_0();
-    EditorCell editorCell = ((_FunctionTypes._return_P0_E0<EditorCell>) () -> {
-      new Object() {
-        public void removeDeleteAction(EditorCell descendantCell) {
-          if (descendantCell.getSNode() == myNode) {
-            descendantCell.setAction(CellActionType.DELETE, new DelegateToParentCellAction(descendantCell, CellActionType.DELETE));
-            descendantCell.setAction(CellActionType.BACKSPACE, new DelegateToParentCellAction(descendantCell, CellActionType.BACKSPACE));
-            if (descendantCell instanceof EditorCell_Collection) {
-              for (EditorCell childCell : Sequence.fromIterable(((EditorCell_Collection) descendantCell))) {
-                removeDeleteAction(childCell);
-              }
-            }
-          }
-        }
-      }.removeDeleteAction(cell);
-      return cell;
-    }).invoke();
-    return editorCell;
-  }
-  private EditorCell createCustomFactory_3() {
-    return createCustomFactory_2(getEditorContext(), getNode());
-  }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new childSingleRoleHandler_gloyme_a0c0a(myNode, LINKS.child$s1CI, getEditorContext());
+    SingleRoleCellProvider provider = new childSingleRoleHandler_gloyme_a2a0(myNode, LINKS.child$s1CI, getEditorContext());
     return provider.createCell();
   }
-  private static class childSingleRoleHandler_gloyme_a0c0a extends SingleRoleCellProvider {
+  private static class childSingleRoleHandler_gloyme_a2a0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public childSingleRoleHandler_gloyme_a0c0a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public childSingleRoleHandler_gloyme_a2a0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }

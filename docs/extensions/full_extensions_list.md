@@ -89,3 +89,4 @@ This is a full list of all the extensions that are contained in MPS-extensions.
 | *de.itemis.mps.spellcheck*               | A language for customizing spell checking in the editor                                                                                                                                                               |
 | *de.itemis.mps.statistics*               | A language for collecting usage statistics of languages                                                                                                                                                               |
 | *com.jetbrains.mpsext.viewmodel*         | (experimental) in-memory data for nodes, such as computed results, that editors observe and that is removed when the nodes it was computed from change |
+| *com.jetbrains.mpsext.mcptools*          | (experimental) tools that MCP clients, such as AI agents, can call through the MCP server of the IDE |

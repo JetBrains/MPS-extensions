@@ -6,6 +6,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## November 2026
 
+### Added
+
+- *com.jetbrains.mpsext.mcptools* New (experimental): MCP tools. A tool is a root with a snake_case name, a description, typed parameters (string, int, boolean, double; required or optional) and a BaseLanguage body that returns a string. Each tool says which model access it needs: `read`, `command` or `none`. All tools of a model form a group, and the `mcp tool group` root of the model gives the prefix of the tool names. When MPS loads the classes of a module, its tools are registered with the MCP server of the IDE (plugin *MCP Server*), and removed again when the classes are unloaded. See *Utilities* > *MCP Tools* in the documentation.
+
 ### Changed
 
 - *com.mbeddr.mpsutil.grammarcells* Flag cells without a substitute condition, description text or `doNotGenerateNodeSubstituteAction` now generate a single call to the new runtime helper `GrammarCellsUtil.createFlagSubstituteMenuItems` in `GrammarActionsDescriptor` instead of two nested anonymous classes per flag. For editors with several flags this makes the generated code much smaller (e.g. -44% lines and no anonymous classes for an editor with 3 flags). Flags with custom configuration generate the same code as before.

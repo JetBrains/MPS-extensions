@@ -21,11 +21,8 @@ import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
-import com.mbeddr.mpsutil.grammarcells.runtime.CellActionWithReadAccess;
-import com.mbeddr.mpsutil.grammarcells.runtime.SavedCaretPosition;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import com.mbeddr.mpsutil.grammarcells.runtime.DelegateToParentCellAction;
+import com.mbeddr.mpsutil.grammarcells.runtime.OptionalCellUtil;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
@@ -40,6 +37,7 @@ import java.util.ArrayList;
 import com.mbeddr.mpsutil.grammarcells.runtime.StringOrSequenceQuery;
 import com.mbeddr.mpsutil.grammarcells.runtime.MultiTextActionItem;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.RightParenStyleClass;
@@ -154,26 +152,11 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createCustomFactory_0(final EditorContext editorContext, final SNode node) {
 
 
-    final EditorCell cell = createCustomFactory_3();
+    final EditorCell cell = createCollection_1();
     EditorCell editorCell = ((_FunctionTypes._return_P0_E0<EditorCell>) () -> {
-      cell.setAction(CellActionType.BACKSPACE, new CellActionWithReadAccess() {
-        public void execute(EditorContext editorContext) {
-          SavedCaretPosition caretPosition = new SavedCaretPosition(editorContext);
-          caretPosition.save();
-          SNodeOperations.deleteNode(SLinkOperations.getTarget(node, LINKS.setCreator$6dtT));
-          editorContext.flushEvents();
-          caretPosition.restore(true);
-        }
-      });
-      cell.setAction(CellActionType.DELETE, new CellActionWithReadAccess() {
-        public void execute(EditorContext editorContext) {
-          SavedCaretPosition caretPosition = new SavedCaretPosition(editorContext);
-          caretPosition.save();
-          SNodeOperations.deleteNode(SLinkOperations.getTarget(node, LINKS.setCreator$6dtT));
-          editorContext.flushEvents();
-          caretPosition.restore(false);
-        }
-      });
+      final SNode childNode = SLinkOperations.getTarget(myNode, LINKS.setCreator$6dtT);
+      OptionalCellUtil.delegateChildDeleteActionsToParent(cell, childNode);
+      OptionalCellUtil.setDeleteChildActions(cell, myNode, LINKS.setCreator$6dtT);
       return cell;
     }).invoke();
     return editorCell;
@@ -181,36 +164,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createCustomFactory_1() {
     return createCustomFactory_0(getEditorContext(), getNode());
   }
-  private EditorCell createCustomFactory_2(final EditorContext editorContext, final SNode node) {
-
-
-    final EditorCell cell = createCollection_1();
-    EditorCell editorCell = ((_FunctionTypes._return_P0_E0<EditorCell>) () -> {
-      final SNode childNode = SLinkOperations.getTarget(myNode, LINKS.setCreator$6dtT);
-      new Object() {
-        public void removeDeleteAction(EditorCell descendantCell) {
-          if (descendantCell.getSNode() == childNode) {
-            descendantCell.setAction(CellActionType.DELETE, new DelegateToParentCellAction(descendantCell, CellActionType.DELETE));
-            descendantCell.setAction(CellActionType.BACKSPACE, new DelegateToParentCellAction(descendantCell, CellActionType.BACKSPACE));
-          } else {
-            if (descendantCell instanceof EditorCell_Collection) {
-              for (EditorCell childCell : Sequence.fromIterable(((EditorCell_Collection) descendantCell))) {
-                removeDeleteAction(childCell);
-              }
-            }
-          }
-        }
-      }.removeDeleteAction(cell);
-      return cell;
-    }).invoke();
-    return editorCell;
-  }
-  private EditorCell createCustomFactory_3() {
-    return createCustomFactory_2(getEditorContext(), getNode());
-  }
   private EditorCell createCollection_1() {
     jetbrains.mps.nodeEditor.cells.EditorCell_Collection editorCell = new jetbrains.mps.nodeEditor.cells.EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
-    editorCell.setCellId("Collection_rej2rq_a0a1a0");
+    editorCell.setCellId("Collection_rej2rq_a0b0a");
     editorCell.addEditorCell(createConstant_0());
     editorCell.addEditorCell(createConstant_1());
     editorCell.addEditorCell(createRefNode_1());
@@ -218,7 +174,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
   private EditorCell createConstant_0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "(");
-    editorCell.setCellId("Constant_rej2rq_a0a0b0a");
+    editorCell.setCellId("Constant_rej2rq_a0a1a0");
     Style style = new StyleImpl();
     new LeftParenAfterNameStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -227,7 +183,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
   private EditorCell createConstant_1() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "copy:");
-    editorCell.setCellId("Constant_rej2rq_b0a0b0a");
+    editorCell.setCellId("Constant_rej2rq_b0a1a0");
     Style style = new StyleImpl();
     new AnnotationStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -235,14 +191,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createRefNode_1() {
-    SingleRoleCellProvider provider = new setCreatorSingleRoleHandler_rej2rq_c0a0b0a(myNode, LINKS.setCreator$6dtT, getEditorContext());
+    SingleRoleCellProvider provider = new setCreatorSingleRoleHandler_rej2rq_c0a1a0(myNode, LINKS.setCreator$6dtT, getEditorContext());
     return provider.createCell();
   }
-  private static class setCreatorSingleRoleHandler_rej2rq_c0a0b0a extends SingleRoleCellProvider {
+  private static class setCreatorSingleRoleHandler_rej2rq_c0a1a0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public setCreatorSingleRoleHandler_rej2rq_c0a0b0a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public setCreatorSingleRoleHandler_rej2rq_c0a1a0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }

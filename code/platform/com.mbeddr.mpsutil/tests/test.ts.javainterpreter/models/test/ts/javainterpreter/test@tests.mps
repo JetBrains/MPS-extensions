@@ -1952,6 +1952,7 @@
   </node>
   <node concept="1lH9Xt" id="4tD7wf53GBp">
     <property role="TrG5h" value="InterpreterBaseTest" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="4tD7wf53GBq" role="1SL9yI">
       <property role="TrG5h" value="listEvaluatorsCannotBeModified" />
       <node concept="3cqZAl" id="4tD7wf53GBt" role="3clF45" />
@@ -1964,7 +1965,7 @@
             </node>
             <node concept="2ShNRf" id="4tD7wf53GB_" role="33vP2m">
               <node concept="1pGfFk" id="4tD7wf53GBB" role="2ShVmc">
-                <ref role="37wK5l" to="2ahs:2yaxsm5jILI" />
+                <ref role="37wK5l" to="2ahs:2yaxsm5jILI" resolve="CombinedInterpreter" />
                 <node concept="2OqwBi" id="4tD7wf53GBC" role="37wK5m">
                   <node concept="2YIFZM" id="4tD7wf53GBF" role="2Oq$k0">
                     <ref role="1Pybhc" to="2ahs:4jkUBhBVMPS" resolve="InterpreterRegistry" />

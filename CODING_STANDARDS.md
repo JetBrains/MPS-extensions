@@ -56,8 +56,9 @@ Tests use the MPS test languages: `jetbrains.mps.lang.test` for anything with no
 `jetbrains.mps.baseLanguage.unitTest` for plain code ([guide][guide-tests], [skill][skill-tests],
 [which test type for which job][skill-test-types]).
 
-1. MUST: a test of nodes is a `NodesTestCase` whose input nodes are written in the test model, not built by hand in the
-   test method ([reference][skill-nodes-test]). Errors, warnings, types and scopes are checked with the test
+1. MUST: a test of nodes is a `NodesTestCase`. Nodes whose content the test is about are written in the test model
+   ([reference][skill-nodes-test]). **Bulk** nodes, which only make up a count or a size, may be created in a loop in
+   the test method, with the node itself built by a quotation (1.3). Errors, warnings, types and scopes are checked with the test
    language's annotations on those nodes (`has error`, `has type`, [`ScopesTest`][skill-scopes-test]).
 2. MUST: a test of editor behaviour (typing, keys, actions, intentions) is an `EditorTestCase` with the node before and
    the expected node after ([reference][skill-editor-test]). It drives the editor with the test language's statements
